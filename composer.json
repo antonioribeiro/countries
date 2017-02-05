@@ -17,7 +17,10 @@
 
   "require": {
     "php": ">=5.6.0",
-    "laravel/framework": ">=5.3"
+    "laravel/framework": ">=5.3",
+    "mledoze/countries": "^1.8",
+    "commercie/currency": "^1.0",
+    "moneyphp/money": "^3.0"
   },
 
   "require-dev": {
