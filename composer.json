@@ -1,0 +1,37 @@
+{
+  "name": "pragmarx/countries",
+
+  "description": "Laravel Countries and Currencies",
+
+  "keywords": ["countries", "currencies", "laravel", "pragmarx"],
+
+  "license": "BSD-3-Clause",
+
+  "authors": [
+    {
+      "name": "Antonio Carlos Ribeiro",
+      "email": "acr@antoniocarlosribeiro.com",
+      "role": "Creator"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.6.0",
+    "laravel/framework": ">=5.3"
+  },
+
+  "require-dev": {
+  },
+
+  "autoload": {
+    "files": [
+      "src/Support/Throwable.php"
+    ],
+    "psr-4": {
+      "PragmaRX\\Countries\\": "src/",
+      "PragmaRX\\Countries\\tests\\phpunit\\": "tests/phpunit/"
+    }
+  },
+
+  "minimum-stability": "dev"
+}
