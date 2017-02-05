@@ -24,14 +24,9 @@
   },
 
   "autoload": {
-    "files": [
-      "src/Support/Throwable.php"
-    ],
     "psr-4": {
       "PragmaRX\\Countries\\": "src/",
       "PragmaRX\\Countries\\tests\\phpunit\\": "tests/phpunit/"
     }
-  },
-
-  "minimum-stability": "dev"
+  }
 }
