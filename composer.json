@@ -31,6 +31,9 @@
     "psr-4": {
       "PragmaRX\\Countries\\": "src/",
       "PragmaRX\\Countries\\tests\\phpunit\\": "tests/phpunit/"
-    }
+    },
+    "files": [
+      "src/Support/helpers.php"
+    ]
   }
 }
