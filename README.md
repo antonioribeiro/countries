@@ -158,7 +158,7 @@ Borders hydration is disabled by default, but you can have your borders hydrated
 
 ## Sample file
 
-Take a look at the [sample.json](sample.json) file to see an example of country with all fields hydrated.
+Take a look at the [sample.json](src/data/sample.json) file to see an example of country with all fields hydrated.
          
 ## Requirements
 
