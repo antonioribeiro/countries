@@ -41,7 +41,7 @@ This package is a collection of some other packages with information on:
     - language
     - (and many more)
 
-## Getting the information
+## Usage
  
 The package is based on Laravel Collections, so you basically have access to all methods in Collections, like 
 
@@ -156,6 +156,14 @@ Borders hydration is disabled by default, but you can have your borders hydrated
         Countries::where('cca3', 'GBR'), ['borders' => true]
     )->first()->borders->reverse()->first()->first()->name->common      
 
+Should return 
+
+    Ireland
+
+## Cache
+
+Since this data is not supposed to change, calls are automatically cached, but you can changed that.  
+
 ## Sample files
 
 - [sample-partial.json](src/data/sample-partial.json): example of a country with no borders hydrated.
@@ -189,6 +197,3 @@ Countries is licensed under the BSD 3-Clause License - see the `LICENSE` file fo
 ## Contributing
 
 Pull requests and issues are more than welcome.
-
-
-
