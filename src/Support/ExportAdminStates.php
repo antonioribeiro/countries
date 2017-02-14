@@ -4,6 +4,12 @@ namespace PragmaRX\Countries\Support;
 
 class ExportAdminStates
 {
+    /**
+     * Normalize data.
+     *
+     * @param $item
+     * @return mixed
+     */
     private function normalize($item)
     {
         if ($item['hasc_maybe'] == 'BR.RO|BRA-RND') {
@@ -15,6 +21,11 @@ class ExportAdminStates
         return $item;
     }
 
+    /**
+     * Get data source filename.
+     *
+     * @return string
+     */
     protected function getSourceFileName()
     {
         return __DIR__.
@@ -26,6 +37,9 @@ class ExportAdminStates
                 'ne_10m_admin_1_states_provinces.txt';
     }
 
+    /**
+     * Import data.
+     */
     public function import()
     {
         $file = $this->readSourceFile();
@@ -59,6 +73,12 @@ class ExportAdminStates
         });
     }
 
+    /**
+     * Make state json filename.
+     *
+     * @param $key
+     * @return string
+     */
     protected function makeStateFileName($key)
     {
         return __DIR__.
@@ -74,6 +94,8 @@ class ExportAdminStates
     }
 
     /**
+     * Read source file.
+     *
      * @return array
      */
     protected function readSourceFile()
