@@ -156,10 +156,11 @@ Borders hydration is disabled by default, but you can have your borders hydrated
         Countries::where('cca3', 'GBR'), ['borders' => true]
     )->first()->borders->reverse()->first()->first()->name->common      
 
-## Sample file
+## Sample files
 
-Take a look at the [sample.json](src/data/sample.json) file to see an example of country with all fields hydrated.
-         
+- [sample-partial.json](src/data/sample-partial.json): example of a country with no borders hydrated.
+- [sample-full.json](src/data/sample-full.json): example of a fully hydrated country.
+
 ## Requirements
 
 - PHP 7.0+
