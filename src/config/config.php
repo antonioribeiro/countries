@@ -11,7 +11,7 @@ return [
     ],
 
     'hydrate' => [
-        'before' => false,
+        'before' => true,
 
         'after' => true,
 
@@ -19,11 +19,10 @@ return [
             'flag' => true,
             'currency' => true,
             'states' => true,
-            'collection' => true,
-
-            'borders' => false,
+            'borders' => true,
             'topology' => false,
             'geometry' => false,
+            'collection' => true,
         ],
     ],
 

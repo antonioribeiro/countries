@@ -1,8 +1,161 @@
 # Countries
-## A Laravel Countries & Currencies
+## A Laravel Countries package, with lots of information  
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries) [![License](https://img.shields.io/badge/license-BSD_3_Clause-brightgreen.svg?style=flat-square)](LICENSE) [![Downloads](https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries) [![Code Quality](https://img.shields.io/scrutinizer/g/antonioribeiro/countries.svg?style=flat-square)](https://scrutinizer-ci.com/g/antonioribeiro/countries/?branch=master) [![StyleCI](https://styleci.io/repos/74829244/shield)](https://styleci.io/repos/74829244)
 
+### What does it gives you?
+
+This package is a collection of some other packages with information on:
+
+- Countries
+    - name (common and native)
+    - tld
+    - multiple ISO codes
+    - currency
+    - calling code
+    - capital
+    - alternate spellings
+    - region & sub region
+    - languages
+    - translations (country name translated to some other languages)
+    - latitude and logitude
+    - borders (countries) - you can hydrate those borders (like relatioships)
+    - area
+    - flags (sprites, flag icons, svg)
+    - states
+    - topology 
+    - geometry
+
+- Currencies
+    - sign
+    - ISO codes
+    - title
+    - subunits
+    - usage (dates)
+    
+- States 
+    - adm codes
+    - name & alt name
+    - type (state, city, province, canton, department, district, etc.)
+    - latitude & longitude
+    - language
+    - (and many more)
+
+## Getting the information
+ 
+The package is based on Laravel Collections, so you basically have access to all methods in Collections, like 
+
+    $all = Countries::all();
+     
+This filter
+
+    Countries::where('name.common', 'Brazil')
+
+Will find Brazil by its common name, which is a 
+
+      #items: array:22 [▼
+        "name" => array:3 [▼
+          "common" => "Brazil"
+          "official" => "Federative Republic of Brazil"
+          "native" => array:1 [▼
+            "por" => array:2 [▼
+              "official" => "República Federativa do Brasil"
+              "common" => "Brasil"
+            ]
+          ]
+        ]
+        
+And, you can go deepeer
+         
+     Countries::where('name.native.por.common', 'Brasil')
+     
+Or search by the country top level domain
+     
+     Countries::where('tld.0', '.ch')
+     
+To get
+
+    "name" => array:3 [▼
+      "common" => "Switzerland"
+      "official" => "Swiss Confederation"
+      "native" => array:4 [▶]
+    ]
+    "tld" => array:1 [▼
+      0 => ".ch"
+    ]
+    
+And use things like pluck
+
+    Countries::where('cca3', 'USA')->first()->states->pluck('name', 'postal')
+
+To get
+
+    "MA" => "Massachusetts"
+    "MN" => "Minnesota"
+    "MT" => "Montana"
+    "ND" => "North Dakota"
+    "HI" => "Hawaii"
+    "ID" => "Idaho"
+    "WA" => "Washington"
+    "AZ" => "Arizona"
+    "CA" => "California"
+    "CO" => "Colorado"
+    "NV" => "Nevada"
+    "NM" => "New Mexico"
+    "OR" => "Oregon"
+    "UT" => "Utah"
+    "WY" => "Wyoming"
+    "AR" => "Arkansas"
+    "IA" => "Iowa"
+    "KS" => "Kansas"
+    "MO" => "Missouri"
+    "NE" => "Nebraska"
+    "OK" => "Oklahoma"
+    "SD" => "South Dakota"
+    "LA" => "Louisiana"
+    "TX" => "Texas"
+    "CT" => "Connecticut"
+    "NH" => "New Hampshire"
+    "RI" => "Rhode Island"
+    "VT" => "Vermont"
+    "AL" => "Alabama"
+    "FL" => "Florida"
+    "GA" => "Georgia"
+    "MS" => "Mississippi"
+    "SC" => "South Carolina"
+    "IL" => "Illinois"
+    "IN" => "Indiana"
+    "KY" => "Kentucky"
+    "NC" => "North Carolina"
+    "OH" => "Ohio"
+    "TN" => "Tennessee"
+    "VA" => "Virginia"
+    "WI" => "Wisconsin"
+    "WV" => "West Virginia"
+    "DE" => "Delaware"
+    "DC" => "District of Columbia"
+    "MD" => "Maryland"
+    "NJ" => "New Jersey"
+    "NY" => "New York"
+    "PA" => "Pennsylvania"
+    "ME" => "Maine"
+    "MI" => "Michigan"
+    "AK" => "Alaska"
+          
+The package uses a modified Collection which allows you to access properties and methods as objects:
+         
+    Countries::where('cca3', 'FRA')->first()->borders->first()->first()->name->official
+    
+Should give
+    
+    Principality of Andorra
+         
+Borders hydration is disabled by default, but you can have your borders hydrated easily by calling the hydrate method:
+ 
+    Countries::getRepository()->hydrate(
+        Countries::where('cca3', 'GBR'), ['borders' => true]
+    )->first()->borders->reverse()->first()->first()->name->common      
+         
 ## Requirements
 
 - PHP 7.0+
@@ -19,108 +172,6 @@ Use Composer to install it:
 Add the Service Provider and Facade alias to your `app/config/app.php` (Laravel 4.x) or `config/app.php` (Laravel 5.x):
 
     PragmaRX\Countries\ServiceProvider::class,
-
-## Publish config and views
-
-    php artisan vendor:publish
-
-## Hit The Countries Panel
-
-    http://yourdomain.com/countries/panel
-    
-## Configure All The Things
-
-- Panel
-- Title and messages
-- Resource checkers
-- Slack icon
-- Sort resources in the panel
-- Notification channels
-- Template location
-- Routes and prefixes
-- Mail server
-- Cache
-- Scheduler
-
-## Allowing Slack Notifications
-
-To receive notifications via Slack, you'll have to setup [Incoming Webhooks](https://api.slack.com/incoming-webhooks) and add this method to your User model with your webhook: 
-
-    /**
-     * Route notifications for the Slack channel.
-     *
-     * @return string
-     */
-    public function routeNotificationForSlack()
-    {
-        return config('services.slack.webhook_url');
-    }
-
-## Cache
-
-When Countries result is cached, you can flush the chage to make it process all resources again by adding `?flush=true` to the url: 
-
-    http://yourdomain.com/countries/panel?flush=true
-
-## Events
-
-If you prefer to build you own notifications systems, you can disable it and listen for the following event  
-
-    PragmaRX\Countries\Events\RaiseCountriesIssue::class
-
-## Broadcasting Checker
-
-Broadcasting checker is done via ping and pong system. The broadcast checker will ping your service, and it must pong back. Basically what you need to do is to call back a url with some data:
-
-### Redis + Socket.io
-
-    var request = require('request');
-    var server = require('http').Server();
-    var io = require('socket.io')(server);
-    var Redis = require('ioredis');
-    var redis = new Redis();
-    
-    redis.subscribe('pragmarx-countries-broadcasting-channel');
-    
-    redis.on('message', function (channel, message) {
-        message = JSON.parse(message);
-    
-        if (message.event == 'PragmaRX\\Countries\\Events\\CountriesPing') {
-            request.get(message.data.callbackUrl + '?data=' + JSON.stringify(message.data));
-        }
-    });
-    
-    server.listen(3000);
-
-### Pusher
-
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Pusher Test</title>
-            <script src="https://js.pusher.com/3.2/pusher.min.js"></script>
-            <script>
-                var pusher = new Pusher('YOUR-PUSHER-KEY', {
-                    encrypted: true
-                });
-    
-                var channel = pusher.subscribe('pragmarx-countries-broadcasting-channel');
-    
-                channel.bind('PragmaRX\\Countries\\Events\\CountriesPing', function(data) {
-                    var request = (new XMLHttpRequest());
-    
-                    request.open("GET", data.callbackUrl + '?data=' + JSON.stringify(data));
-    
-                    request.send();
-                });
-            </script>
-        </head>
-    
-        <body>
-            Pusher waiting for events...
-        </body>
-    </html>
-
 
 ## Author
 

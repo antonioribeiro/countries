@@ -4,6 +4,17 @@ namespace PragmaRX\Countries\Support;
 
 class ExportAdminStates
 {
+    private function normalize($item)
+    {
+        if ($item['hasc_maybe'] == 'BR.RO|BRA-RND') {
+            $item['postal'] = 'RO';
+        }
+
+        $item['grouping'] = $item['gu_a3'] ?: $item['adm0_a3'];
+
+        return $item;
+    }
+
     protected function getSourceFileName()
     {
         return __DIR__.
@@ -41,7 +52,9 @@ class ExportAdminStates
             $result[$counter][$field] = $value;
         }
 
-        collect($result)->groupBy('gu_a3')->each(function($item, $key) {
+        collect($result)->map(function($item) {
+            return $this->normalize($item);
+        })->groupBy('grouping')->each(function($item, $key) {
             file_put_contents($this->makeStateFileName($key), json_encode($item));
         });
     }
