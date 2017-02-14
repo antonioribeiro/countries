@@ -438,10 +438,6 @@ class CountriesRepository
             $data = json_decode(json_encode($data), true);
         }
 
-        if ($data instanceof IlluminateCollection) {
-            $data = $data->toArray();
-        }
-
         return $data;
     }
 }
