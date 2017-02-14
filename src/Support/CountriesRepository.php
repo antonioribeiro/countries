@@ -2,10 +2,10 @@
 
 namespace PragmaRX\Countries\Support;
 
-use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use PragmaRX\Countries\Service;
 use MLD\Converter\JsonConverter;
+use Illuminate\Support\Collection as IlluminateCollection;
 
 class CountriesRepository
 {
@@ -133,6 +133,7 @@ class CountriesRepository
      *
      * @param $cc
      * @param $element
+     * @param bool $enabled
      * @return bool
      */
     protected function needsHydration($cc, $element, $enabled = false)
@@ -164,10 +165,6 @@ class CountriesRepository
      */
     protected function hydrateCollection($country)
     {
-        if (! config('countries.hydrate.elements.collection')) {
-            return $country;
-        }
-
         return $this->collection($country);
     }
 
@@ -177,10 +174,6 @@ class CountriesRepository
      */
     protected function hydrateStates($country)
     {
-        if (! config('countries.hydrate.elements.states')) {
-            return $country;
-        }
-
         $country['states'] = json_decode($this->getStatesJson($country), true);
 
         return $country;
@@ -192,10 +185,6 @@ class CountriesRepository
      */
     protected function hydrateTopology($country)
     {
-        if (! config('countries.hydrate.elements.topology')) {
-            return $country;
-        }
-
         $country['topology'] = $this->getTopology($country);
 
         return $country;
@@ -207,10 +196,6 @@ class CountriesRepository
      */
     protected function hydrateGeometry($country)
     {
-        if (! config('countries.hydrate.elements.geometry')) {
-            return $country;
-        }
-
         $country['geometry'] = $this->getGeometry($country);
 
         return $country;
@@ -332,10 +317,6 @@ class CountriesRepository
      */
     protected function hydrateFlag($country)
     {
-        if (! config('countries.hydrate.elements.flag')) {
-            return $country;
-        }
-
         $country['flag'] = $this->makeAllFlags($country);
 
         return $country;
@@ -360,10 +341,6 @@ class CountriesRepository
      */
     protected function hydrateCurrency($country)
     {
-        if (! config('countries.hydrate.elements.currency')) {
-            return $country;
-        }
-
         $country['currency'] = collect($country['currency'])->map(function($code) {
             return $this->currenciesRepository->loadCurrency($code);
         });
@@ -461,7 +438,7 @@ class CountriesRepository
             $data = json_decode(json_encode($data), true);
         }
 
-        if ($data instanceof Collection) {
+        if ($data instanceof IlluminateCollection) {
             $data = $data->toArray();
         }
 
