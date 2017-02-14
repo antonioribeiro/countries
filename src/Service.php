@@ -24,6 +24,16 @@ class Service
     }
 
     /**
+     * Get the countries repository.
+     *
+     * @return CountriesRepository
+     */
+    public function getRepository()
+    {
+        return $this->countriesRepository;
+    }
+
+    /**
      * Call a method.
      *
      * @param $name

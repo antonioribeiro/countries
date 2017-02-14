@@ -25,13 +25,14 @@
   },
 
   "require-dev": {
-    "orchestra/testbench=": "~3.0"
+    "orchestra/testbench": "~3.0"
   },
 
   "autoload": {
     "psr-4": {
       "PragmaRX\\Countries\\": "src/",
-      "PragmaRX\\Countries\\tests\\phpunit\\": "tests/phpunit/"
+      "PragmaRX\\Countries\\Tests\\": "tests/",
+      "PragmaRX\\Countries\\Tests\\PhpUnit\\": "tests/PhpUnit/"
     },
     "files": [
       "src/Support/helpers.php"

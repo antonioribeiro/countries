@@ -2,6 +2,7 @@
 
 namespace PragmaRX\Countries\Support;
 
+use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use PragmaRX\Countries\Service;
 use MLD\Converter\JsonConverter;
@@ -134,8 +135,12 @@ class CountriesRepository
      * @param $element
      * @return bool
      */
-    protected function needsHydration($cc, $element)
+    protected function needsHydration($cc, $element, $enabled = false)
     {
+        if (! $enabled && ! config('countries.hydrate.elements.'.$element)) {
+            return false;
+        }
+
         if (! isset($this->countries[$cc]['hydrated'])) {
             $this->countries[$cc]['hydrated'] = [];
         }
@@ -342,10 +347,6 @@ class CountriesRepository
      */
     protected function hydrateBorders($country)
     {
-        if (! config('countries.hydrate.elements.borders')) {
-            return $country;
-        }
-
         $country['borders'] = collect($country['borders'])->map(function($border) {
             return $this->call('where', ['cca3', $border]);
         });
@@ -390,7 +391,7 @@ class CountriesRepository
                 }
 
                 foreach ($elements as $element => $enabled) {
-                    if (! $this->needsHydration($cc, $element)) {
+                    if ($this->needsHydration($cc, $element, $enabled)) {
                         $this->countries[$cc] = $this->{'hydrate'.Str::studly($element)}($this->countries[$cc]);
                     }
                 }
@@ -458,6 +459,10 @@ class CountriesRepository
     {
         if ($data instanceof \stdClass) {
             $data = json_decode(json_encode($data), true);
+        }
+
+        if ($data instanceof Collection) {
+            $data = $data->toArray();
         }
 
         return $data;
