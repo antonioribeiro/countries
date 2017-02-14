@@ -37,4 +37,12 @@ class ServiceTest extends TestCase
 
         $this->assertEquals('Venezuela', $name);
     }
+
+    public function test_can_get_a_state()
+    {
+        $this->assertEquals(
+            'Goiás',
+            Countries::where('name.common', 'Brazil')->first()->states->first()->name
+        );
+    }
 }
