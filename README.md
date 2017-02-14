@@ -155,6 +155,10 @@ Borders hydration is disabled by default, but you can have your borders hydrated
     Countries::getRepository()->hydrate(
         Countries::where('cca3', 'GBR'), ['borders' => true]
     )->first()->borders->reverse()->first()->first()->name->common      
+
+## Sample file
+
+Take a look at the [sample.json](sample.json) file to see an example of country with all fields hydrated.
          
 ## Requirements
 
@@ -184,3 +188,6 @@ Countries is licensed under the BSD 3-Clause License - see the `LICENSE` file fo
 ## Contributing
 
 Pull requests and issues are more than welcome.
+
+
+

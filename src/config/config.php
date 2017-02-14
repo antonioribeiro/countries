@@ -19,7 +19,7 @@ return [
             'flag' => true,
             'currency' => true,
             'states' => true,
-            'borders' => true,
+            'borders' => false,
             'topology' => false,
             'geometry' => false,
             'collection' => true,
