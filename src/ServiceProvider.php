@@ -2,6 +2,8 @@
 
 namespace PragmaRX\Countries;
 
+use PragmaRX\Countries\Support\CountriesRepository;
+use PragmaRX\Countries\Support\CurrenciesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
@@ -16,7 +18,7 @@ class ServiceProvider extends IlluminateServiceProvider
     /**
      * Configure package paths.
      */
-    private function configurePaths()
+    protected function configurePaths()
     {
         $this->publishes([
             __DIR__.'/config/config.php' => config_path('countries.php'),
@@ -30,7 +32,7 @@ class ServiceProvider extends IlluminateServiceProvider
     /**
      * Configure package folder views.
      */
-    private function configureViews()
+    protected function configureViews()
     {
         $this->loadViewsFrom(realpath(__DIR__.'/views'), 'pragmarx/countries');
     }
@@ -38,7 +40,7 @@ class ServiceProvider extends IlluminateServiceProvider
     /**
      * Merge configuration.
      */
-    private function mergeConfig()
+    protected function mergeConfig()
     {
         $this->mergeConfigFrom(
             __DIR__.'/config/config.php', 'countries'
@@ -61,10 +63,14 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->registerService();
     }
 
-    private function registerService()
+    protected function registerService()
     {
-        $this->app->singleton('pragmarx.countries', function () {
-            return new Service();
+        $this->app->singleton('pragmarx.countries.cache', $cache = app(config('countries.cache.service')));
+
+        $this->app->singleton('pragmarx.countries', function () use ($cache) {
+            return new Service(
+                new CountriesRepository($cache, new CurrenciesRepository())
+            );
         });
     }
 }
