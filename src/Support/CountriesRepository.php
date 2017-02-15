@@ -2,52 +2,60 @@
 
 namespace PragmaRX\Countries\Support;
 
-use Illuminate\Support\Str;
 use PragmaRX\Countries\Service;
 use MLD\Converter\JsonConverter;
 
 class CountriesRepository
 {
+    public $timezones;
+
     /**
      * Countries json.
      *
      * @var
      */
-    protected $countriesJson;
+    public $countriesJson;
 
     /**
      * Currencies repository.
      *
      * @var CurrenciesRepository
      */
-    protected $currenciesRepository;
+    public $currenciesRepository;
 
     /**
      * Cache instance.
      *
      * @var \PragmaRX\Countries\Support\Cache
      */
-    protected $cache;
+    public $cache;
 
     /**
      * Countries.
      *
      * @var array
      */
-    protected $countries = [];
+    public $countries = [];
+
+    public $hydrator;
 
     /**
      * CountriesRepository constructor.
      * @param Cache $cache
      * @param CurrenciesRepository $currenciesRepository
+     * @param Hydrator $hydrator
      */
-    public function __construct(Cache $cache, CurrenciesRepository $currenciesRepository)
+    public function __construct(Cache $cache, CurrenciesRepository $currenciesRepository, Hydrator $hydrator)
     {
         $this->cache = $cache;
 
         $this->currenciesRepository = $currenciesRepository;
 
+        $this->hydrator = $hydrator;
+
         $this->loadCountries();
+
+        $this->loadTimezones();
     }
 
     /**
@@ -66,29 +74,12 @@ class CountriesRepository
         $result = call_user_func_array([$this, $name], $arguments);
 
         if (config('countries.hydrate.before')) {
-            $result = $this->hydrate($result);
+            $result = $this->hydrator->hydrate($result);
         }
 
         return $this->cache($keyParameters, $result);
     }
 
-    /**
-     * @param $elements
-     * @return static
-     */
-    protected function checkHydrationElements($elements)
-    {
-        $elements = collect($elements)->mapWithKeys(function ($value, $key) {
-            if (is_numeric($key)) {
-                $key = $value;
-                $value = true;
-            }
-
-            return [$key => $value];
-        });
-
-        return $elements;
-    }
 
     /**
      * Make a collection.
@@ -102,24 +93,11 @@ class CountriesRepository
     }
 
     /**
-     * @param $elements
-     * @return array|mixed
-     */
-    protected function getHydrationElements($elements)
-    {
-        if (! is_array($elements = $elements ?: config('countries.hydrate.elements'))) {
-            return [$elements => true];
-        }
-
-        return $this->checkHydrationElements($elements);
-    }
-
-    /**
      * Get json converter home directory.
      *
      * @return string
      */
-    protected function getJsonConverterHomeDir()
+    public function getJsonConverterHomeDir()
     {
         return getPackageSrcDir(JsonConverter::class);
     }
@@ -129,7 +107,7 @@ class CountriesRepository
      *
      * @return string
      */
-    protected function getHomeDir()
+    public function getHomeDir()
     {
         return getClassDir(Service::class);
     }
@@ -140,7 +118,7 @@ class CountriesRepository
      * @param $country
      * @return null|string
      */
-    protected function getStatesJson($country)
+    public function getStatesJson($country)
     {
         $file = $this->getHomeDir().
             DIRECTORY_SEPARATOR.
@@ -159,90 +137,25 @@ class CountriesRepository
     }
 
     /**
-     * Check if an element needs hydrated.
-     *
-     * @param $cc
-     * @param $element
-     * @param bool $enabled
-     * @return bool
-     */
-    protected function needsHydration($cc, $element, $enabled = false)
-    {
-        if (! $enabled && ! config('countries.hydrate.elements.'.$element)) {
-            return false;
-        }
-
-        if (! isset($this->countries[$cc]['hydrated'])) {
-            $this->countries[$cc]['hydrated'] = [];
-        }
-
-        if (isset($this->countries[$cc]['hydrated'][$element])) {
-            return false;
-        }
-
-        $hydrate = $this->countries[$cc]['hydrated'];
-
-        $hydrate[$element] = true;
-
-        $this->countries[$cc]['hydrated'] = $hydrate;
-
-        return true;
-    }
-
-    /**
-     * @param $country
-     * @return Collection
-     */
-    protected function hydrateCollection($country)
-    {
-        return $this->collection($country);
-    }
-
-    /**
-     * @param $country
-     * @return mixed
-     */
-    protected function hydrateStates($country)
-    {
-        $country['states'] = json_decode($this->getStatesJson($country), true);
-
-        return $country;
-    }
-
-    /**
-     * @param $country
-     * @return mixed
-     */
-    protected function hydrateTopology($country)
-    {
-        $country['topology'] = $this->getTopology($country);
-
-        return $country;
-    }
-
-    /**
-     * @param $country
-     * @return mixed
-     */
-    protected function hydrateGeometry($country)
-    {
-        $country['geometry'] = $this->getGeometry($country);
-
-        return $country;
-    }
-
-    /**
      *
      */
-    protected function loadCountries()
+    public function loadCountries()
     {
         $this->countriesJson = json_decode($this->loadCountriesJson());
     }
 
     /**
+     *
+     */
+    public function loadTimezones()
+    {
+        $this->timezones = json_decode($this->loadTimezonesJson(), true);
+    }
+
+    /**
      * @return string
      */
-    protected function loadCountriesJson()
+    public function loadCountriesJson()
     {
         return $this->readFile(
             $this->getJsonConverterHomeDir().
@@ -250,6 +163,20 @@ class CountriesRepository
             'dist'.
             DIRECTORY_SEPARATOR.
             'countries.json'
+        );
+    }
+
+    /**
+     * @return string
+     */
+    public function loadTimezonesJson()
+    {
+        return $this->readFile(
+            $this->getHomeDir().
+            DIRECTORY_SEPARATOR.
+            'data'.
+            DIRECTORY_SEPARATOR.
+            'timezones.json'
         );
     }
 
@@ -282,14 +209,14 @@ class CountriesRepository
         return [
             // https://www.flag-sprites.com/
             // https://github.com/LeoColomb/flag-sprites
-            'sprite' => '<span class="flag flag-"'.($flag = strtolower($country['cca2'])).'></span>',
+            'sprite' => '<span class="flag flag-'.($flag = strtolower($country['cca2'])).'></span>',
 
             // https://github.com/lipis/flag-icon-css
             'flag-icon' => '<span class="flag-icon flag-icon-'.$flag.'"></span>',
             'flag-icon-squared' => '<span class="flag-icon flag-icon-'.$flag.' flag-icon-squared"></span>',
 
             // https://github.com/lafeber/world-flags-sprite
-            'world-flags-sprite' => '<span class="flag "'.$flag.'></span>',
+            'world-flags-sprite' => '<span class="flag '.$flag.'></span>',
 
             // Internal svg file
             'svg' => $this->getFlagSvg($country['cca3'])
@@ -300,7 +227,7 @@ class CountriesRepository
      * @param $country
      * @return string
      */
-    protected function getFlagSvg($country)
+    public function getFlagSvg($country)
     {
         return file_get_contents(
             $this->getJsonConverterHomeDir().
@@ -315,7 +242,7 @@ class CountriesRepository
      * @param $country
      * @return string
      */
-    protected function getGeometry($country)
+    public function getGeometry($country)
     {
         return file_get_contents(
             $this->getJsonConverterHomeDir().
@@ -330,7 +257,7 @@ class CountriesRepository
      * @param $country
      * @return string
      */
-    protected function getTopology($country)
+    public function getTopology($country)
     {
         return file_get_contents(
             $this->getJsonConverterHomeDir().
@@ -342,85 +269,12 @@ class CountriesRepository
     }
 
     /**
-     * @param $country
-     * @return mixed
-     */
-    protected function hydrateFlag($country)
-    {
-        $country['flag'] = $this->makeAllFlags($country);
-
-        return $country;
-    }
-
-    /**
-     * @param $country
-     * @return mixed
-     */
-    protected function hydrateBorders($country)
-    {
-        $country['borders'] = collect($country['borders'])->map(function($border) {
-            $border = $this->call('where', ['cca3', $border]);
-
-            if ($border instanceof Collection && $border->count() == 1) {
-                return $border->first();
-            }
-
-            return $border;
-        });
-
-        return $this->toArray($country);
-    }
-
-    /**
-     * @param $country
-     * @return mixed
-     */
-    protected function hydrateCurrency($country)
-    {
-        $country['currency'] = collect($country['currency'])->map(function($code) {
-            return $this->currenciesRepository->loadCurrency($code);
-        });
-
-        return $this->toArray($country);
-    }
-
-    /**
-     * Hidrate a countries collection with languages.
-     *
-     * @param Collection $countries
-     * @param null $elements
-     * @return Collection
-     */
-    public function hydrate(Collection $countries, $elements = null)
-    {
-        $elements = $this->getHydrationElements($elements);
-
-        return $this->collection(
-            $countries->map(function($country) use ($elements) {
-                $country = $this->toArray($country);
-
-                if (! isset($this->countries[$cc = $country['cca3']])) {
-                    $this->countries[$cc] = $country;
-                }
-
-                foreach ($elements as $element => $enabled) {
-                    if ($this->needsHydration($cc, $element, $enabled)) {
-                        $this->countries[$cc] = $this->{'hydrate'.Str::studly($element)}($this->countries[$cc]);
-                    }
-                }
-
-                return $this->countries[$cc];
-            })
-        );
-    }
-
-    /**
      * Get a cached value.
      *
      * @param $array
      * @return bool|mixed
      */
-    protected function getCached($array)
+    public function getCached($array)
     {
         if (config('countries.cache.enabled')) {
             if ($value = $this->cache->get($this->cache->makeKey($array))) {
@@ -438,7 +292,7 @@ class CountriesRepository
      * @param $value
      * @return mixed
      */
-    protected function cache($keyParameters, $value)
+    public function cache($keyParameters, $value)
     {
         if (config('countries.cache.enabled')) {
             $this->cache->set($this->cache->makeKey($keyParameters), $value);
@@ -453,7 +307,7 @@ class CountriesRepository
      * @param $filePath
      * @return string
      */
-    protected function readFile($filePath)
+    public function readFile($filePath)
     {
         if (file_exists($filePath)) {
             return file_get_contents($filePath);
@@ -462,18 +316,8 @@ class CountriesRepository
         return null;
     }
 
-    /**
-     * Transform a class into an array.
-     *
-     * @param $data
-     * @return mixed
-     */
-    protected function toArray($data)
+    public function hydrate($collection, $elements = null)
     {
-        if ($data instanceof \stdClass) {
-            $data = json_decode(json_encode($data), true);
-        }
-
-        return $data;
+        return $this->hydrator->hydrate($collection, $elements);
     }
 }
