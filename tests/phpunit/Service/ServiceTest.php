@@ -62,4 +62,16 @@ class ServiceTest extends TestCase
             Countries::where('name.common', 'Brazil')->first()->states->first()->name
         );
     }
+
+    public function test_all_hydrations()
+    {
+        $hydrated = Countries::where('tld.0', '.nz')
+            ->hydrate(['flag', 'currency', 'states', 'borders', 'topology', 'geometry', 'collection']);
+
+        $this->assertNotNull($hydrated->first()->topology);
+        $this->assertNotNull($hydrated->first()->geometry);
+        $this->assertNotNull($hydrated->first()->states);
+        $this->assertNotNull($hydrated->first()->borders);
+        $this->assertNotNull($hydrated->first()->flag->sprite);
+    }
 }

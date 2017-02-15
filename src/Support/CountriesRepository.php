@@ -73,6 +73,24 @@ class CountriesRepository
     }
 
     /**
+     * @param $elements
+     * @return static
+     */
+    protected function checkHydrationElements($elements)
+    {
+        $elements = collect($elements)->mapWithKeys(function ($value, $key) {
+            if (is_numeric($key)) {
+                $key = $value;
+                $value = true;
+            }
+
+            return [$key => $value];
+        });
+
+        return $elements;
+    }
+
+    /**
      * Make a collection.
      *
      * @param $country
@@ -81,6 +99,19 @@ class CountriesRepository
     public function collection($country)
     {
         return new Collection($country);
+    }
+
+    /**
+     * @param $elements
+     * @return array|mixed
+     */
+    protected function getHydrationElements($elements)
+    {
+        if (! is_array($elements = $elements ?: config('countries.hydrate.elements'))) {
+            return [$elements => true];
+        }
+
+        return $this->checkHydrationElements($elements);
     }
 
     /**
@@ -362,11 +393,7 @@ class CountriesRepository
      */
     public function hydrate(Collection $countries, $elements = null)
     {
-        $elements = $elements ?: config('countries.hydrate.elements');
-
-        if (! is_array($elements)) {
-            $elements = [$elements => true];
-        }
+        $elements = $this->getHydrationElements($elements);
 
         return $this->collection(
             $countries->map(function($country) use ($elements) {
