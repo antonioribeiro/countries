@@ -65,11 +65,12 @@ class ServiceTest extends TestCase
 
     public function test_all_hydrations()
     {
-        $hydrated = Countries::where('tld.0', '.nz')
-            ->hydrate(['flag', 'currency', 'states', 'borders', 'topology', 'geometry', 'collection']);
+        $elements = array_keys(config('countries.hydrate.elements'));
 
-        $this->assertNotNull($hydrated->first()->topology);
+        $hydrated = Countries::where('tld.0', '.nz')->hydrate($elements);
+
         $this->assertNotNull($hydrated->first()->geometry);
+//        $this->assertNotNull($hydrated->first()->topology);
         $this->assertNotNull($hydrated->first()->states);
         $this->assertNotNull($hydrated->first()->borders);
         $this->assertNotNull($hydrated->first()->flag->sprite);
