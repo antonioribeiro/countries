@@ -41,6 +41,12 @@ This package is a collection of some other packages with information on:
     - language
     - (and many more)
 
+- Flags. There are some options available out there, so this package will give you some:
+    - sprite, based on [https://www.flag-sprites.com/](https://www.flag-sprites.com/)
+    - flag-icon and flag-icon-squared, based on [https://github.com/lipis/flag-icon-css](https://github.com/lipis/flag-icon-css)
+    - world-flags-sprite, based on [https://github.com/lafeber/world-flags-sprite](https://github.com/lafeber/world-flags-sprite)
+    - svg, the flag svg file loaded into the json
+  
 ## Usage
  
 The package is based on Laravel Collections, so you basically have access to all methods in Collections, like 
