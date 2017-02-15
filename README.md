@@ -7,7 +7,7 @@
 
 Amongst many other information you'll be able to plot country maps:
 
-![Switzerland](docs/switzerland-geo.json)
+![Switzerland](docs/switzerland-geo.png)
 
 ### What does it gives you?
 
