@@ -141,7 +141,7 @@ class Hydrator
      */
     protected function hydrateBorders($country)
     {
-        $country['borders'] = collect($country['borders'])->map(function($border) {
+        $country['borders'] = collect($country['borders'])->map(function ($border) {
             $border = $this->repository->call('where', ['cca3', $border]);
 
             if ($border instanceof Collection && $border->count() == 1) {
@@ -179,7 +179,7 @@ class Hydrator
      */
     protected function hydrateCurrency($country)
     {
-        $country['currency'] = collect($country['currency'])->map(function($code) {
+        $country['currency'] = collect($country['currency'])->map(function ($code) {
             return $this->repository->currenciesRepository->loadCurrency($code);
         });
 
@@ -198,7 +198,7 @@ class Hydrator
         $elements = $this->getHydrationElements($elements);
 
         return $this->repository->collection(
-            $countries->map(function($country) use ($elements) {
+            $countries->map(function ($country) use ($elements) {
                 $country = $this->toArray($country);
 
                 if (! isset($this->repository->countries[$cc = $country['cca3']])) {
