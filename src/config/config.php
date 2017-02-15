@@ -21,7 +21,7 @@ return [
             'states' => true,
             'timezone' => true,
             'borders' => false,
-            'topology' => false,
+            'topology' => true,
             'geometry' => true,
             'collection' => true,
         ],
