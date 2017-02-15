@@ -7,6 +7,11 @@ use MLD\Converter\JsonConverter;
 
 class CountriesRepository
 {
+    /**
+     * Timezones.
+     *
+     * @var
+     */
     public $timezones;
 
     /**
@@ -37,10 +42,16 @@ class CountriesRepository
      */
     public $countries = [];
 
+    /**
+     * Hydrator.
+     *
+     * @var Hydrator
+     */
     public $hydrator;
 
     /**
      * CountriesRepository constructor.
+     *
      * @param Cache $cache
      * @param CurrenciesRepository $currenciesRepository
      * @param Hydrator $hydrator
@@ -137,7 +148,7 @@ class CountriesRepository
     }
 
     /**
-     *
+     * Load countries.
      */
     public function loadCountries()
     {
@@ -145,7 +156,7 @@ class CountriesRepository
     }
 
     /**
-     *
+     * Load timezones.
      */
     public function loadTimezones()
     {
@@ -153,6 +164,8 @@ class CountriesRepository
     }
 
     /**
+     * Load countries json file.
+     *
      * @return string
      */
     public function loadCountriesJson()
@@ -167,6 +180,8 @@ class CountriesRepository
     }
 
     /**
+     * Load timezones json file.
+     *
      * @return string
      */
     public function loadTimezonesJson()
@@ -191,6 +206,8 @@ class CountriesRepository
     }
 
     /**
+     * Call magic method.
+     *
      * @param $name
      * @param array $arguments
      * @return mixed
@@ -201,6 +218,8 @@ class CountriesRepository
     }
 
     /**
+     * Make flags array for a coutry.
+     *
      * @param $country
      * @return array
      */
@@ -224,6 +243,8 @@ class CountriesRepository
     }
 
     /**
+     * Read the flag svg file.
+     *
      * @param $country
      * @return string
      */
@@ -239,6 +260,8 @@ class CountriesRepository
     }
 
     /**
+     * Get country geometry.
+     *
      * @param $country
      * @return string
      */
@@ -254,6 +277,8 @@ class CountriesRepository
     }
 
     /**
+     * Get country topology.
+     *
      * @param $country
      * @return string
      */
@@ -316,6 +341,13 @@ class CountriesRepository
         return null;
     }
 
+    /**
+     * Hydrate a country element.
+     *
+     * @param $collection
+     * @param null $elements
+     * @return Collection
+     */
     public function hydrate($collection, $elements = null)
     {
         return $this->hydrator->hydrate($collection, $elements);

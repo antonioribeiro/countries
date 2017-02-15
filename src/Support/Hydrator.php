@@ -6,16 +6,22 @@ use Illuminate\Support\Str;
 
 class Hydrator
 {
+    /**
+     * Countries repository.
+     *
+     * @var
+     */
     protected $repository;
 
+    /**
+     * Create a currency from json.
+     *
+     * @param $json
+     * @return mixed
+     */
     protected function createCurrencyFromJson($json)
     {
         return json_decode($json, true);
-    }
-
-    private function getCountries()
-    {
-        return $this->repository->getCountries();
     }
 
     /**
@@ -50,6 +56,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate a collection, making a collection of collections.
+     *
      * @param $country
      * @return Collection
      */
@@ -59,6 +67,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate states.
+     *
      * @param $country
      * @return mixed
      */
@@ -70,6 +80,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate topoloy.
+     *
      * @param $country
      * @return mixed
      */
@@ -81,6 +93,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate geometry.
+     *
      * @param $country
      * @return mixed
      */
@@ -92,6 +106,8 @@ class Hydrator
     }
 
     /**
+     * Get hydration elements.
+     *
      * @param $elements
      * @return array|mixed
      */
@@ -105,6 +121,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate flag.
+     *
      * @param $country
      * @return mixed
      */
@@ -116,6 +134,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate borders.
+     *
      * @param $country
      * @return mixed
      */
@@ -135,6 +155,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate timezone.
+     *
      * @param $country
      * @return mixed
      */
@@ -150,6 +172,8 @@ class Hydrator
     }
 
     /**
+     * Hydrate currency.
+     *
      * @param $country
      * @return mixed
      */
@@ -163,7 +187,7 @@ class Hydrator
     }
 
     /**
-     * Hidrate a countries collection with languages.
+     * Hydrate a countries collection with languages.
      *
      * @param Collection $countries
      * @param null $elements
@@ -193,6 +217,8 @@ class Hydrator
     }
 
     /**
+     * Check hydration elements.
+     *
      * @param $elements
      * @return static
      */
@@ -210,6 +236,11 @@ class Hydrator
         return $elements;
     }
 
+    /**
+     * Repository setter.
+     *
+     * @param $repository
+     */
     public function setRepository($repository)
     {
         $this->repository = $repository;

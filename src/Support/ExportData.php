@@ -5,9 +5,11 @@ namespace PragmaRX\Countries\Support;
 class ExportData
 {
     /**
+     * Get data directory.
+     *
      * @return string
      */
-    protected function getDataPath(): string
+    protected function getDataDirectory(): string
     {
         return __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR;
     }
@@ -113,10 +115,13 @@ class ExportData
         return $file;
     }
 
+    /**
+     * Export timezones to json.
+     */
     public function exportTimezones()
     {
-        $timezones = require($this->getDataPath() . 'timezones.php');
+        $timezones = require($this->getDataDirectory() . 'timezones.php');
 
-        file_put_contents($this->getDataPath() . 'timezones.json', json_encode($timezones));
+        file_put_contents($this->getDataDirectory() . 'timezones.json', json_encode($timezones));
     }
 }
