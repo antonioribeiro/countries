@@ -5,6 +5,7 @@ namespace PragmaRX\Countries;
 use PragmaRX\Countries\Support\CountriesRepository;
 use PragmaRX\Countries\Support\CurrenciesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
+use PragmaRX\Countries\Support\Hydrator;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
@@ -67,10 +68,14 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         $this->app->singleton('pragmarx.countries.cache', $cache = app(config('countries.cache.service')));
 
-        $this->app->singleton('pragmarx.countries', function () use ($cache) {
-            return new Service(
-                new CountriesRepository($cache, new CurrenciesRepository())
-            );
+        $hydrator = new Hydrator();
+
+        $this->app->singleton('pragmarx.countries', function () use ($cache, $hydrator) {
+            $repository = new CountriesRepository($cache, new CurrenciesRepository(), $hydrator);
+
+            $hydrator->setRepository($repository);
+
+            return new Service($repository);
         });
     }
 }
