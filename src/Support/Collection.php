@@ -90,7 +90,7 @@ class Collection extends IlluminateCollection
 
     private function createMacros()
     {
-        static::macro('hydrate', function($elements) {
+        static::macro('hydrate', function ($elements) {
             return CountriesFacade::hydrate($this, $elements);
         });
     }

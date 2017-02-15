@@ -91,7 +91,6 @@ class CountriesRepository
         return $this->cache($keyParameters, $result);
     }
 
-
     /**
      * Make a collection.
      *
@@ -137,14 +136,11 @@ class CountriesRepository
             DIRECTORY_SEPARATOR.
             'states'.
             DIRECTORY_SEPARATOR.
-            strtolower($country['cca3']).'.json'
-        ;
+            strtolower($country['cca3']).'.json';
 
         if (file_exists($file)) {
             return file_get_contents($file);
         }
-
-        return null;
     }
 
     /**
@@ -238,7 +234,7 @@ class CountriesRepository
             'world-flags-sprite' => '<span class="flag '.$flag.'></span>',
 
             // Internal svg file
-            'svg' => $this->getFlagSvg($country['cca3'])
+            'svg' => $this->getFlagSvg($country['cca3']),
         ];
     }
 
@@ -337,8 +333,6 @@ class CountriesRepository
         if (file_exists($filePath)) {
             return file_get_contents($filePath);
         }
-
-        return null;
     }
 
     /**

@@ -10,7 +10,7 @@ class TestCase extends OrchestraTestCase
     protected function getPackageProviders($app)
     {
         return [
-            CountriesServiceProvider::class
+            CountriesServiceProvider::class,
         ];
     }
 }
