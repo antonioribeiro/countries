@@ -8,6 +8,10 @@ use Illuminate\Support\Collection as IlluminateCollection;
 
 class Collection extends IlluminateCollection
 {
+    /**
+     * Collection constructor.
+     * @param array $items
+     */
     public function __construct($items = [])
     {
         parent::__construct($items);
@@ -60,6 +64,16 @@ class Collection extends IlluminateCollection
     }
 
     /**
+     * Create collection macros.
+     */
+    private function createMacros()
+    {
+        static::macro('hydrate', function($elements) {
+            return CountriesFacade::hydrate($this, $elements);
+        });
+    }
+
+    /**
      * Dynamically access collection proxies.
      *
      * @param  string  $key
@@ -86,12 +100,5 @@ class Collection extends IlluminateCollection
         }
 
         return new HigherOrderCollectionProxy($this, $key);
-    }
-
-    private function createMacros()
-    {
-        static::macro('hydrate', function($elements) {
-            return CountriesFacade::hydrate($this, $elements);
-        });
     }
 }
