@@ -25,6 +25,7 @@ This package is a collection of some other packages with information on:
     - states
     - topology 
     - geometry
+    - timezone
 
 - Currencies
     - sign
