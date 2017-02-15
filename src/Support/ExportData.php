@@ -2,8 +2,16 @@
 
 namespace PragmaRX\Countries\Support;
 
-class ExportAdminStates
+class ExportData
 {
+    /**
+     * @return string
+     */
+    protected function getDataPath(): string
+    {
+        return __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR;
+    }
+
     /**
      * Normalize data.
      *
@@ -40,7 +48,7 @@ class ExportAdminStates
     /**
      * Import data.
      */
-    public function import()
+    public function exportAdminStates()
     {
         $file = $this->readSourceFile();
 
@@ -103,5 +111,12 @@ class ExportAdminStates
         $file = file($this->getSourceFileName(), FILE_IGNORE_NEW_LINES);
 
         return $file;
+    }
+
+    public function exportTimezones()
+    {
+        $timezones = require($this->getDataPath() . 'timezones.php');
+
+        file_put_contents($this->getDataPath() . 'timezones.json', json_encode($timezones));
     }
 }
