@@ -74,7 +74,11 @@ class Collection extends IlluminateCollection
         }
 
         if (isset($this->items[$key])) {
-            return $this->make($this->items[$key]);
+            if (is_array($this->items[$key])) {
+                return $this->make($this->items[$key]);
+            }
+
+            return $this->items[$key];
         }
 
         if (! in_array($key, static::$proxies)) {
