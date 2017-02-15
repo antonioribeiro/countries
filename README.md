@@ -9,23 +9,23 @@ This package is a collection of some other packages with information on:
 
 - Countries
     - name (common and native)
+    - currency
+    - languages
+    - states
+    - timezone
+    - flags (sprites, flag icons, svg)
     - tld
     - multiple ISO codes
-    - currency
     - calling code
     - capital
     - alternate spellings
     - region & sub region
-    - languages
     - translations (country name translated to some other languages)
     - latitude and logitude
     - borders (countries) - you can hydrate those borders (like relatioships)
     - area
-    - flags (sprites, flag icons, svg)
-    - states
     - topology 
     - geometry
-    - timezone
 
 - Currencies
     - sign
