@@ -5,7 +5,6 @@ namespace PragmaRX\Countries\Support;
 use Illuminate\Support\Str;
 use PragmaRX\Countries\Service;
 use MLD\Converter\JsonConverter;
-use Illuminate\Support\Collection as IlluminateCollection;
 
 class CountriesRepository
 {
@@ -77,11 +76,11 @@ class CountriesRepository
      * Make a collection.
      *
      * @param $country
-     * @return CountriesCollection
+     * @return Collection
      */
     public function collection($country)
     {
-        return new CountriesCollection($country);
+        return new Collection($country);
     }
 
     /**
@@ -161,7 +160,7 @@ class CountriesRepository
 
     /**
      * @param $country
-     * @return CountriesCollection
+     * @return Collection
      */
     protected function hydrateCollection($country)
     {
@@ -226,7 +225,7 @@ class CountriesRepository
     /**
      * Get all countries.
      *
-     * @return CountriesCollection
+     * @return Collection
      */
     public function all()
     {
@@ -329,7 +328,13 @@ class CountriesRepository
     protected function hydrateBorders($country)
     {
         $country['borders'] = collect($country['borders'])->map(function($border) {
-            return $this->call('where', ['cca3', $border]);
+            $border = $this->call('where', ['cca3', $border]);
+
+            if ($border instanceof Collection && $border->count() == 1) {
+                return $border->first();
+            }
+
+            return $border;
         });
 
         return $this->toArray($country);
@@ -351,13 +356,17 @@ class CountriesRepository
     /**
      * Hidrate a countries collection with languages.
      *
-     * @param CountriesCollection $countries
+     * @param Collection $countries
      * @param null $elements
-     * @return CountriesCollection
+     * @return Collection
      */
-    public function hydrate(CountriesCollection $countries, $elements = null)
+    public function hydrate(Collection $countries, $elements = null)
     {
         $elements = $elements ?: config('countries.hydrate.elements');
+
+        if (! is_array($elements)) {
+            $elements = [$elements => true];
+        }
 
         return $this->collection(
             $countries->map(function($country) use ($elements) {

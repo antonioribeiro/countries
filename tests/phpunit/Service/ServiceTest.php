@@ -64,4 +64,9 @@ class ServiceTest extends TestCase
             Countries::where('name.common', 'Brazil')->first()->states->first()->name
         );
     }
+
+    public function test_direct_hydration()
+    {
+        Countries::where('name.common', 'Brazil')->hydrate('borders');
+    }
 }

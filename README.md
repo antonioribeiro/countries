@@ -144,7 +144,12 @@ To get
           
 The package uses a modified Collection which allows you to access properties and methods as objects:
          
-    Countries::where('cca3', 'FRA')->first()->borders->first()->first()->name->official
+    Countries::where('cca3', 'FRA')
+        ->first()
+        ->borders
+        ->first()
+        ->name
+        ->official
     
 Should give
     
@@ -152,9 +157,14 @@ Should give
          
 Borders hydration is disabled by default, but you can have your borders hydrated easily by calling the hydrate method:
  
-    Countries::getRepository()->hydrate(
-        Countries::where('cca3', 'GBR'), ['borders' => true]
-    )->first()->borders->reverse()->first()->first()->name->common      
+    Countries::where('name.common', 'United Kingdom')
+        ->hydrate('borders')
+        ->first()
+        ->borders
+        ->reverse()
+        ->first()
+        ->name
+        ->common
 
 Should return 
 

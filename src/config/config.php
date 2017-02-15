@@ -3,7 +3,7 @@
 return [
 
     'cache' => [
-        'enabled' => true,
+        'enabled' => false,
 
         'service' => PragmaRX\Countries\Support\Cache::class,
 

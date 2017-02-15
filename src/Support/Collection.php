@@ -3,19 +3,16 @@
 namespace PragmaRX\Countries\Support;
 
 use Exception;
-use Illuminate\Database\Eloquent\Collection as IlluminateDatabaseCollection;
+use PragmaRX\Countries\Facade as CountriesFacade;
+use Illuminate\Support\Collection as IlluminateCollection;
 
-class Collection extends IlluminateDatabaseCollection
+class Collection extends IlluminateCollection
 {
-    /**
-    * Transform array to collection.
-    *
-    * @param $data
-    * @return Collection|mixed
-    */
-    protected function makeCollection($data)
+    public function __construct($items = [])
     {
-        return is_array($data) ? $this->make($data) : $data;
+        parent::__construct($items);
+
+        $this->createMacros();
     }
 
     /**
@@ -27,7 +24,7 @@ class Collection extends IlluminateDatabaseCollection
      */
     public function first(callable $callback = null, $default = null)
     {
-        return $this->makeCollection(parent::first($callback, $default));
+        return $this->make(parent::first($callback, $default));
     }
 
     /**
@@ -37,7 +34,7 @@ class Collection extends IlluminateDatabaseCollection
      */
     public function pop()
     {
-        return $this->makeCollection(parent::pop());
+        return $this->make(parent::pop());
     }
 
     /**
@@ -49,7 +46,7 @@ class Collection extends IlluminateDatabaseCollection
      */
     public function reduce(callable $callback, $initial = null)
     {
-        $this->makeCollection(parent::reduce($callback, $initial));
+        $this->make(parent::reduce($callback, $initial));
     }
 
     /**
@@ -59,7 +56,7 @@ class Collection extends IlluminateDatabaseCollection
      */
     public function shift()
     {
-        return $this->makeCollection(parent::shift());
+        return $this->make(parent::shift());
     }
 
     /**
@@ -77,7 +74,7 @@ class Collection extends IlluminateDatabaseCollection
         }
 
         if (isset($this->items[$key])) {
-            return $this->makeCollection($this->items[$key]);
+            return $this->make($this->items[$key]);
         }
 
         if (! in_array($key, static::$proxies)) {
@@ -85,5 +82,12 @@ class Collection extends IlluminateDatabaseCollection
         }
 
         return new HigherOrderCollectionProxy($this, $key);
+    }
+
+    private function createMacros()
+    {
+        static::macro('hydrate', function($elements) {
+            return CountriesFacade::hydrate($this, $elements);
+        });
     }
 }
