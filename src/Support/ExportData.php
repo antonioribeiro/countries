@@ -11,7 +11,7 @@ class ExportData
      */
     protected function getDataDirectory(): string
     {
-        return __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR;
+        return __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR;
     }
 
     /**
@@ -76,9 +76,9 @@ class ExportData
             $result[$counter][$field] = $value;
         }
 
-        collect($result)->map(function($item) {
+        collect($result)->map(function ($item) {
             return $this->normalize($item);
-        })->groupBy('grouping')->each(function($item, $key) {
+        })->groupBy('grouping')->each(function ($item, $key) {
             file_put_contents($this->makeStateFileName($key), json_encode($item));
         });
     }
@@ -120,8 +120,8 @@ class ExportData
      */
     public function exportTimezones()
     {
-        $timezones = require($this->getDataDirectory() . 'timezones.php');
+        $timezones = require $this->getDataDirectory().'timezones.php';
 
-        file_put_contents($this->getDataDirectory() . 'timezones.json', json_encode($timezones));
+        file_put_contents($this->getDataDirectory().'timezones.json', json_encode($timezones));
     }
 }

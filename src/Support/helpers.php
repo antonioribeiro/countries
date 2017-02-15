@@ -46,11 +46,11 @@ function array_is_multidimensional($item)
         return false;
     }
 
-    $rv = array_filter($item,'is_array');
+    $rv = array_filter($item, 'is_array');
 
     if (count($rv) > 0) {
         return true;
-    };
+    }
 
     return false;
 }

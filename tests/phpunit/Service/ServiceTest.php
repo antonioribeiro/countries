@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Tests\PhpUnit\Service;
 
-use PragmaRX\Countries\Facade as Countries;
 use PragmaRX\Countries\Support\Collection;
+use PragmaRX\Countries\Facade as Countries;
 use PragmaRX\Countries\Tests\PhpUnit\TestCase;
 
 class ServiceTest extends TestCase
@@ -22,7 +22,7 @@ class ServiceTest extends TestCase
 
     public function test_can_hydrate_all_countries_borders()
     {
-        Countries::all()->hydrate('borders')->each(function($hydrated) {
+        Countries::all()->hydrate('borders')->each(function ($hydrated) {
             if ($hydrated->borders->count()) {
                 $this->assertNotEmpty(($first = $hydrated->borders->first())->name);
 

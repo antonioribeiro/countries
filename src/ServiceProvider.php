@@ -2,10 +2,10 @@
 
 namespace PragmaRX\Countries;
 
+use PragmaRX\Countries\Support\Hydrator;
 use PragmaRX\Countries\Support\CountriesRepository;
 use PragmaRX\Countries\Support\CurrenciesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
-use PragmaRX\Countries\Support\Hydrator;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
