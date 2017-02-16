@@ -34,10 +34,10 @@ class ExportData
             list($field, $value) = $this->extractFieldValue($line);
 
             if ($field == 'adm1_code') {
-                $result[ $counter++ ] = [];
+                $result[$counter++] = [];
             }
 
-            $result[ $counter ][ $field ] = $value;
+            $result[$counter][$field] = $value;
         }
 
         return $result;

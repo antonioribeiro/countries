@@ -23,7 +23,7 @@ class Hydrator
      */
     protected function canHydrate($element, $enabled, $countryCode)
     {
-        return ($enabled || config('countries.hydrate.elements.' . $element)) &&
+        return ($enabled || config('countries.hydrate.elements.'.$element)) &&
                 ! isset($this->repository->countries[$countryCode]['hydrated'][$element]);
     }
 
@@ -43,8 +43,8 @@ class Hydrator
      */
     protected function createHydrated($countryCode)
     {
-        if (!isset($this->repository->countries[ $countryCode ]['hydrated'])) {
-            $this->repository->countries[ $countryCode ]['hydrated'] = [];
+        if (! isset($this->repository->countries[$countryCode]['hydrated'])) {
+            $this->repository->countries[$countryCode]['hydrated'] = [];
         }
 
         return $this->repository->countries[$countryCode]['hydrated'];
@@ -232,7 +232,7 @@ class Hydrator
      * @param $countryCode
      * @return mixed
      */
-    function getCountry($countryCode)
+    public function getCountry($countryCode)
     {
         return $this->repository->countries[$countryCode];
     }
@@ -243,10 +243,10 @@ class Hydrator
      * @param $country
      * @param $countryCode
      */
-    function addCountry($countryCode, $country)
+    public function addCountry($countryCode, $country)
     {
-        if (!isset($this->repository->countries[ $countryCode ])) {
-            $this->repository->countries[ $countryCode ] = $country;
+        if (! isset($this->repository->countries[$countryCode])) {
+            $this->repository->countries[$countryCode] = $country;
         }
     }
 
@@ -257,10 +257,10 @@ class Hydrator
      * @param $element
      * @param $enabled
      */
-    function hydrateCountryElement($countryCode, $element, $enabled)
+    public function hydrateCountryElement($countryCode, $element, $enabled)
     {
         if ($this->needsHydration($countryCode, $element, $enabled)) {
-            $this->repository->countries[ $countryCode ] = $this->{'hydrate' . Str::studly($element)}($this->repository->countries[ $countryCode ]);
+            $this->repository->countries[$countryCode] = $this->{'hydrate'.Str::studly($element)}($this->repository->countries[$countryCode]);
         }
     }
 
@@ -320,9 +320,9 @@ class Hydrator
     {
         $hydrated = $this->createHydrated($countryCode);
 
-        $hydrated[ $element ] = true;
+        $hydrated[$element] = true;
 
-        $this->repository->countries[ $countryCode ]['hydrated'] = $hydrated;
+        $this->repository->countries[$countryCode]['hydrated'] = $hydrated;
 
         return true;
     }
