@@ -14,6 +14,20 @@ class Hydrator
     protected $repository;
 
     /**
+     * Can hydrate?
+     *
+     * @param $element
+     * @param $enabled
+     * @param $countryCode
+     * @return bool
+     */
+    protected function canHydrate($element, $enabled, $countryCode)
+    {
+        return ($enabled || config('countries.hydrate.elements.' . $element)) &&
+                ! isset($this->repository->countries[$countryCode]['hydrated'][$element]);
+    }
+
+    /**
      * Create a currency from json.
      *
      * @param $json
@@ -25,34 +39,32 @@ class Hydrator
     }
 
     /**
+     * @param $countryCode
+     */
+    protected function createHydrated($countryCode)
+    {
+        if (!isset($this->repository->countries[ $countryCode ]['hydrated'])) {
+            $this->repository->countries[ $countryCode ]['hydrated'] = [];
+        }
+
+        return $this->repository->countries[$countryCode]['hydrated'];
+    }
+
+    /**
      * Check if an element needs hydrated.
      *
-     * @param $cc
+     * @param $countryCode
      * @param $element
      * @param bool $enabled
      * @return bool
      */
-    protected function needsHydration($cc, $element, $enabled = false)
+    protected function needsHydration($countryCode, $element, $enabled = false)
     {
-        if (! $enabled && ! config('countries.hydrate.elements.'.$element)) {
+        if (! $this->canHydrate($element, $enabled, $countryCode)) {
             return false;
         }
 
-        if (! isset($this->repository->countries[$cc]['hydrated'])) {
-            $this->repository->countries[$cc]['hydrated'] = [];
-        }
-
-        if (isset($this->repository->countries[$cc]['hydrated'][$element])) {
-            return false;
-        }
-
-        $hydrate = $this->repository->countries[$cc]['hydrated'];
-
-        $hydrate[$element] = true;
-
-        $this->repository->countries[$cc]['hydrated'] = $hydrate;
-
-        return true;
+        return $this->updateHydrated($countryCode, $element);
     }
 
     /**
@@ -201,19 +213,55 @@ class Hydrator
             $countries->map(function ($country) use ($elements) {
                 $country = $this->toArray($country);
 
-                if (! isset($this->repository->countries[$cc = $country['cca3']])) {
-                    $this->repository->countries[$cc] = $country;
-                }
+                $countryCode = $country['cca3'];
+
+                $this->addCountry($countryCode, $country);
 
                 foreach ($elements as $element => $enabled) {
-                    if ($this->needsHydration($cc, $element, $enabled)) {
-                        $this->repository->countries[$cc] = $this->{'hydrate'.Str::studly($element)}($this->repository->countries[$cc]);
-                    }
+                    $this->hydrateCountryElement($countryCode, $element, $enabled);
                 }
 
-                return $this->repository->countries[$cc];
+                return $this->getCountry($countryCode);
             })
         );
+    }
+
+    /**
+     * Get country by country code.
+     *
+     * @param $countryCode
+     * @return mixed
+     */
+    function getCountry($countryCode)
+    {
+        return $this->repository->countries[$countryCode];
+    }
+
+    /**
+     * Check and create a country in the repository.
+     *
+     * @param $country
+     * @param $countryCode
+     */
+    function addCountry($countryCode, $country)
+    {
+        if (!isset($this->repository->countries[ $countryCode ])) {
+            $this->repository->countries[ $countryCode ] = $country;
+        }
+    }
+
+    /**
+     * Hydrate a country element.
+     *
+     * @param $countryCode
+     * @param $element
+     * @param $enabled
+     */
+    function hydrateCountryElement($countryCode, $element, $enabled)
+    {
+        if ($this->needsHydration($countryCode, $element, $enabled)) {
+            $this->repository->countries[ $countryCode ] = $this->{'hydrate' . Str::studly($element)}($this->repository->countries[ $countryCode ]);
+        }
     }
 
     /**
@@ -259,5 +307,23 @@ class Hydrator
         }
 
         return $data;
+    }
+
+    /**
+     * Update hydrated.
+     *
+     * @param $countryCode
+     * @param $element
+     * @return bool
+     */
+    protected function updateHydrated($countryCode, $element)
+    {
+        $hydrated = $this->createHydrated($countryCode);
+
+        $hydrated[ $element ] = true;
+
+        $this->repository->countries[ $countryCode ]['hydrated'] = $hydrated;
+
+        return true;
     }
 }

@@ -5,6 +5,45 @@ namespace PragmaRX\Countries\Support;
 class ExportData
 {
     /**
+     * @param $line
+     * @return array
+     */
+    protected function extractFieldValue($line): array
+    {
+        list($field, $value) = explode(':', $line);
+
+        $field = str_replace(' ', '_', trim($field));
+        $value = trim($value);
+
+        return [$field, $value];
+    }
+
+    /**
+     * Generate export data.
+     *
+     * @param $file
+     * @return mixed
+     */
+    protected function generateExportData($file)
+    {
+        $result = [];
+
+        $counter = -1;
+
+        foreach (array_filter($file) as $line) {
+            list($field, $value) = $this->extractFieldValue($line);
+
+            if ($field == 'adm1_code') {
+                $result[ $counter++ ] = [];
+            }
+
+            $result[ $counter ][ $field ] = $value;
+        }
+
+        return $result;
+    }
+
+    /**
      * Get data directory.
      *
      * @return string
@@ -52,29 +91,7 @@ class ExportData
      */
     public function exportAdminStates()
     {
-        $file = $this->readSourceFile();
-
-        $result = [];
-
-        $counter = -1;
-
-        foreach ($file as $line) {
-            if (! trim($line)) {
-                continue;
-            }
-
-            list($field, $value) = explode(':', $line);
-
-            $field = str_replace(' ', '_', trim($field));
-            $value = trim($value);
-
-            if ($field == 'adm1_code') {
-                $counter++;
-                $result[$counter] = [];
-            }
-
-            $result[$counter][$field] = $value;
-        }
+        $result = $this->generateExportData($this->readSourceFile());
 
         collect($result)->map(function ($item) {
             return $this->normalize($item);
