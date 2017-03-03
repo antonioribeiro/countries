@@ -183,6 +183,10 @@ Should return
 
     Ireland
 
+## Data
+
+This package uses some other open source packages and, until we don't build a better documentation, you can find some more info about data on [mledoze/countries](https://github.com/mledoze/countries/blob/master/README.md) and how to use it on this fantastic [Laravel News article](https://laravel-news.com/countries-and-currencies).
+
 ## Cache
 
 Since this data is not supposed to change, calls are automatically cached, but you can changed that.  
