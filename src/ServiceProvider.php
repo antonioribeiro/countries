@@ -23,11 +23,11 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         $this->publishes([
             __DIR__.'/config/config.php' => config_path('countries.php'),
-        ]);
+        ], 'config');
 
         $this->publishes([
             __DIR__.'/views/' => resource_path('views/vendor/pragmarx/countries/'),
-        ]);
+        ], 'views');
     }
 
     /**
