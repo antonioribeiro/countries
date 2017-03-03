@@ -206,8 +206,20 @@ Use Composer to install it:
 ## Installing on Laravel
 
 Add the Service Provider and Facade alias to your `app/config/app.php` (Laravel 4.x) or `config/app.php` (Laravel 5.x):
+    
+    ```php
+    // config/app.php
 
-    PragmaRX\Countries\ServiceProvider::class,
+    'providers' => [
+        ...
+        PragmaRX\Countries\ServiceProvider::class,
+    ];
+
+    'aliases' => [
+        ...
+        'Countries'=> PragmaRX\Countries\Facade::class,
+    ];
+    ```
 
 ## Author
 
