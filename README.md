@@ -254,7 +254,7 @@ This package uses some other open source packages and, until we don't build a be
 ## Cache
 
 Since this data is not supposed to change, calls are automatically cached.
-If you want to change this behaviour, you can edit `config/countries.php` file once you published it.
+If you want to change this behaviour, you can edit `config/countries.php` file once it's published.
 
 ## Sample files
 
