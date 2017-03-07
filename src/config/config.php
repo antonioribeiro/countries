@@ -28,7 +28,7 @@ return [
     ],
 	'maps' => [
 		'lca3' => 'ISO639_3',
-		'currency' => 'ISO4217'
+		'currency' => 'ISO4217',
 	],
 
 	'validation' => [
@@ -43,7 +43,7 @@ return [
 			'currency'			=> 'ISO4217',
 			'language',
 			'language_short'	=> 'ISO639_3',
-		]
-	]
+		],
+	],
 
 ];

@@ -2,11 +2,12 @@
 
 namespace PragmaRX\Countries;
 
-use PragmaRX\Countries\{
-	Support\Hydrator, Support\CountriesRepository, Support\CurrenciesRepository, Facade as Countries
-};
-use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
+use PragmaRX\Countries\Support\Hydrator;
 use Illuminate\Support\Facades\Validator;
+use PragmaRX\Countries\Facade as Countries;
+use PragmaRX\Countries\Support\CountriesRepository;
+use PragmaRX\Countries\Support\CurrenciesRepository;
+use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
@@ -56,7 +57,7 @@ class ServiceProvider extends IlluminateServiceProvider
 	 */
 	public function boot()
 	{
-		if(config('countries.validation.enabled')) {
+		if (config('countries.validation.enabled')) {
 			$this->addValidations();
 		}
 	}
@@ -94,15 +95,14 @@ class ServiceProvider extends IlluminateServiceProvider
 
 	private function addValidations()
 	{
-		foreach (config('countries.validation.rules') as $ruleName => $countryAttribute){
-			if(is_int($ruleName)) {
+		foreach (config('countries.validation.rules') as $ruleName => $countryAttribute) {
+			if (is_int($ruleName)) {
 				$ruleName = $countryAttribute;
 			}
-			Validator::extend($ruleName, function ($attribute, $value) use ($countryAttribute){
+			Validator::extend($ruleName, function ($attribute, $value) use ($countryAttribute) {
 				return !Countries::where($countryAttribute, $value)->isEmpty();
 			}, 'The :attribute must be a valid '.$ruleName.'.');
 		}
-
 	}
 
 

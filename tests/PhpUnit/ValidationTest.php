@@ -88,6 +88,7 @@ class ValidationTest extends TestCase
 
 	public function testMagicCall()
 	{
+		dd(Countries::whereNameCommon('Brazil'));
 		$this->assertEquals(
 			Countries::whereNameCommon('Brazil')->count(),
 			Countries::where('name.common', 'Brazil')->count()

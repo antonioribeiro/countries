@@ -4,7 +4,6 @@ namespace PragmaRX\Countries\Support;
 
 use Exception;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
 use PragmaRX\Countries\Facade as CountriesFacade;
 use Illuminate\Support\Collection as IlluminateCollection;
 
@@ -106,18 +105,18 @@ class Collection extends IlluminateCollection
 
 	function __call($name, $arguments)
 	{
-		if(starts_with($name, 'where')) {
+		if (starts_with($name, 'where')) {
 			$name = strtolower(preg_replace('/([A-Z])/', '.$1', lcfirst(substr($name, 5))));
-			if(count($arguments) == 2) {
+			if (count($arguments) == 2) {
 				return $this->where($name, $arguments[0], $arguments[1]);
 			}
 			elseif (count($arguments) == 1) {
 				return $this->where($name, $arguments[0]);
 			}
 		}
+
 		return parent::__call($name, $arguments);
 	}
-
 
 	public function where($key, $operator, $value = null)
 	{
@@ -136,7 +135,6 @@ class Collection extends IlluminateCollection
 
 		return parent::where($key, $operator, $value);
 	}
-
 
 	public function whereLanguage($value)
 	{
@@ -159,6 +157,7 @@ class Collection extends IlluminateCollection
 			if(isset($data->{$arrayName})) {
 				return in_array($value, (array) $data->{$arrayName});
 			}
+
 			return false;
 		});
 	}
@@ -169,6 +168,7 @@ class Collection extends IlluminateCollection
 			if(isset($data->{$arrayName})) {
 				return Arr::has($data->{$arrayName}, $value);
 			}
+
 			return false;
 		});
 	}
