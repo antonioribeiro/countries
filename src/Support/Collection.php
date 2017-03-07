@@ -103,73 +103,72 @@ class Collection extends IlluminateCollection
         return new HigherOrderCollectionProxy($this, $key);
     }
 
-	function __call($name, $arguments)
-	{
-		if (starts_with($name, 'where')) {
-			$name = strtolower(preg_replace('/([A-Z])/', '.$1', lcfirst(substr($name, 5))));
-			if (count($arguments) == 2) {
-				return $this->where($name, $arguments[0], $arguments[1]);
-			}
-			elseif (count($arguments) == 1) {
-				return $this->where($name, $arguments[0]);
-			}
-		}
+    public function __call($name, $arguments)
+    {
+        if (starts_with($name, 'where')) {
+            $name = strtolower(preg_replace('/([A-Z])/', '.$1', lcfirst(substr($name, 5))));
+            if (count($arguments) == 2) {
+                return $this->where($name, $arguments[0], $arguments[1]);
+            } elseif (count($arguments) == 1) {
+                return $this->where($name, $arguments[0]);
+            }
+        }
 
-		return parent::__call($name, $arguments);
-	}
+        return parent::__call($name, $arguments);
+    }
 
-	public function where($key, $operator, $value = null)
-	{
-		if (func_num_args() == 2) {
-			$value = $operator;
+    public function where($key, $operator, $value = null)
+    {
+        if (func_num_args() == 2) {
+            $value = $operator;
 
-			$operator = '=';
-		}
-		if(key_exists($key, config('countries.maps'))) {
-			$key = config('countries.maps')[$key];
-		}
+            $operator = '=';
+        }
+        if (array_key_exists($key, config('countries.maps'))) {
+            $key = config('countries.maps')[$key];
+        }
 
-		if(method_exists($this, 'where'.ucfirst($key))) {
-			return $this->{'where'.ucfirst($key)}($value);
-		}
+        if (method_exists($this, 'where'.ucfirst($key))) {
+            return $this->{'where'.ucfirst($key)}($value);
+        }
 
-		return parent::where($key, $operator, $value);
-	}
+        return parent::where($key, $operator, $value);
+    }
 
-	public function whereLanguage($value)
-	{
-		return $this->_whereAttribute('languages', $value);
-	}
+    public function whereLanguage($value)
+    {
+        return $this->_whereAttribute('languages', $value);
+    }
 
-	public function whereISO639_3($value)
-	{
-		return $this->_whereKey('languages', $value);
-	}
+    public function whereISO639_3($value)
+    {
+        return $this->_whereKey('languages', $value);
+    }
 
-	public function whereISO4217($value)
-	{
-		return $this->_whereAttribute('currency', $value);
-	}
+    public function whereISO4217($value)
+    {
+        return $this->_whereAttribute('currency', $value);
+    }
 
-	private function _whereAttribute(string $arrayName, $value)
-	{
-		return $this->filter(function ($data) use ($value, $arrayName){
-			if(isset($data->{$arrayName})) {
-				return in_array($value, (array) $data->{$arrayName});
-			}
+    private function _whereAttribute(string $arrayName, $value)
+    {
+        return $this->filter(function ($data) use ($value, $arrayName) {
+            if (isset($data->{$arrayName})) {
+                return in_array($value, (array) $data->{$arrayName});
+            }
 
-			return false;
-		});
-	}
+            return false;
+        });
+    }
 
-	private function _whereKey(string $arrayName, $value)
-	{
-		return $this->filter(function ($data) use ($value, $arrayName){
-			if(isset($data->{$arrayName})) {
-				return Arr::has($data->{$arrayName}, $value);
-			}
+    private function _whereKey(string $arrayName, $value)
+    {
+        return $this->filter(function ($data) use ($value, $arrayName) {
+            if (isset($data->{$arrayName})) {
+                return Arr::has($data->{$arrayName}, $value);
+            }
 
-			return false;
-		});
-	}
+            return false;
+        });
+    }
 }

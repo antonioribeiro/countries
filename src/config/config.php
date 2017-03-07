@@ -26,24 +26,24 @@ return [
             'collection' => true,
         ],
     ],
-	'maps' => [
-		'lca3' => 'ISO639_3',
-		'currency' => 'ISO4217',
-	],
+    'maps' => [
+        'lca3' => 'ISO639_3',
+        'currency' => 'ISO4217',
+    ],
 
-	'validation' => [
-		'enabled' 	=> true,
-		'rules' 	=> [
-			'country' 			=> 'name.common',
-			'cca2',
-			'cca2',
-			'cca3',
-			'ccn3',
-			'cioc',
-			'currency'			=> 'ISO4217',
-			'language',
-			'language_short'	=> 'ISO639_3',
-		],
-	],
+    'validation' => [
+        'enabled'    => true,
+        'rules'    => [
+            'country'            => 'name.common',
+            'cca2',
+            'cca2',
+            'cca3',
+            'ccn3',
+            'cioc',
+            'currency'            => 'ISO4217',
+            'language',
+            'language_short'    => 'ISO639_3',
+        ],
+    ],
 
 ];
