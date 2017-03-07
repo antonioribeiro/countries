@@ -6,6 +6,8 @@ use PragmaRX\Countries\Support\Hydrator;
 use PragmaRX\Countries\Support\CountriesRepository;
 use PragmaRX\Countries\Support\CurrenciesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
+use Illuminate\Support\Facades\Validator;
+use PragmaRX\Countries\Facade as Countries;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
@@ -48,6 +50,17 @@ class ServiceProvider extends IlluminateServiceProvider
         );
     }
 
+	/**
+	 * Bootstrap any application services.
+	 *
+	 * @return void
+	 */
+	public function boot()
+	{
+		if(config('countries.validation.enabled'))
+			$this->addValidations();
+	}
+
     /**
      * Register any application services.
      *
@@ -78,4 +91,18 @@ class ServiceProvider extends IlluminateServiceProvider
             return new Service($repository);
         });
     }
+
+	private function addValidations()
+	{
+		foreach (config('countries.validation.rules') as $ruleName => $countryAttribute){
+			if(is_int($ruleName))
+				$ruleName = $countryAttribute;
+			Validator::extend($ruleName, function ($attribute, $value, $parameters, $validator) use ($countryAttribute){
+				return !Countries::where($countryAttribute, $value)->isEmpty();
+			}, 'The :attribute must be a valid '.$ruleName.'.');
+		}
+
+	}
+
+
 }

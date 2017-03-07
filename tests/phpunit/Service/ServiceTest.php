@@ -8,6 +8,7 @@ use PragmaRX\Countries\Tests\PhpUnit\TestCase;
 
 class ServiceTest extends TestCase
 {
+
     public function test_countries_is_instantiable()
     {
         $brazil = Countries::where('name.common', 'Brazil')->first();
@@ -47,6 +48,13 @@ class ServiceTest extends TestCase
                 ->common
         );
     }
+
+    public function testCountryDoesNotExist()
+	{
+		$this->assertTrue(
+			Countries::where('name.common', 'not a country')->isEmpty()
+		);
+	}
 
     public function test_states_are_hydrated()
     {
