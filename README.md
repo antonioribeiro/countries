@@ -53,6 +53,9 @@ This package is a collection of some other packages with information on:
     - flag-icon and flag-icon-squared, based on [https://github.com/lipis/flag-icon-css](https://github.com/lipis/flag-icon-css)
     - world-flags-sprite, based on [https://github.com/lafeber/world-flags-sprite](https://github.com/lafeber/world-flags-sprite)
     - svg, the flag svg file loaded into the json
+    
+- Validation
+    - Customizable validation fields based on [Laravel Validation](https://laravel.com/docs/master/validation)
   
 ## Requirements
 
@@ -109,6 +112,7 @@ This filter
 Countries::where('name.common', 'Brazil')
 ```
 
+
 Will find Brazil by its common name, which is a 
 
 ```
@@ -124,7 +128,12 @@ Will find Brazil by its common name, which is a
     ]
   ]
 ```
-        
+
+Or alternatively you can filter like this
+```php`
+Countries::whereNameCommon('Brazil')
+``
+       
 And, you can go deepeer
          
 ```php
@@ -149,7 +158,6 @@ To get
   0 => ".ch"
 ]
 ```
-    
 And use things like pluck
 
 ```php
@@ -200,6 +208,34 @@ Should return
 
 ```
 Ireland
+````
+
+### Extra where rules
+Some properties are stored differently and we therefore need special rules for accessing them, these properties are
+- `ISO639_3` => The 3 letter language code.
+- `ISO4217`  => The 3 letter currency code.
+
+You can of course access them like other properties
+```php
+Countries::whereISO639_3('por')->count()
+Countries::where('ISO639_3', 'por')->count()
+```
+
+### Mapping
+Sometimes you would like to access a property by a different name, this can be done in settings, this way
+```php
+'maps' => [
+    'lca3' => 'ISO639_3'
+]
+```
+Here we bind the language 3 letter short code ISO format to `lca3`, which is short for `language code alpha 3-letter`.
+So now we can access the property by
+```php
+Countries::whereLca3('por')
+```
+Or 
+```php
+Countries::where('lca3', 'por')
 ```
 
 ## Some other examples from **Laravel News** and some other contributors
@@ -310,6 +346,57 @@ returns
     9 => "AZN"
     10 => "BAM"
     ....
+```
+
+### Validation
+
+The validation is extending Laravel's validation, so you can use it like any other validation rules, like
+
+```php
+/**
+ * Store a new blog post.
+ *
+ * @param  Request  $request
+ * @return Response
+ */
+public function store(Request $request)
+{
+    $this->validate($request, [
+        'title' => 'required|unique:posts|max:255',
+        'body' => 'required',
+        'country' => 'country' //Checks if valid name.common
+    ]);
+
+    // The blog post is valid, store in database...
+}
+```
+
+Which validation rules there is and what there name should be, can all be configured in the configuration file.
+
+```php
+'validation' => [
+    'rules' => [
+	    'countryCommon' => 'name.common'
+	]
+]
+```
+
+By changing the configuration like this, we can now access the property `name.common`, by the validation rule `countryCommon`
+
+You have to define all the validations rules in settings, only a few is defined by default, the default is
+
+```php
+'rules' 	=> [
+    'country' 			=> 'name.common',
+    'cca2',
+    'cca2',
+    'cca3',
+    'ccn3',
+    'cioc',
+    'currency'			=> 'ISO4217',
+    'language',
+    'language_short'	=> 'ISO639_3',
+]
 ```
 
 ## Publishing assets

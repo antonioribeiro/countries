@@ -48,6 +48,13 @@ class ServiceTest extends TestCase
         );
     }
 
+    public function testCountryDoesNotExist()
+    {
+        $this->assertTrue(
+            Countries::where('name.common', 'not a country')->isEmpty()
+        );
+    }
+
     public function test_states_are_hydrated()
     {
         $this->assertEquals(Countries::where('name.common', 'Brazil')->first()->states->count(), 27);
