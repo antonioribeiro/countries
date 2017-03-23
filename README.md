@@ -86,7 +86,7 @@ Add the Service Provider and Facade alias to your `config/app.php`:
 ```
   
 ## Usage
- 
+
 The package is based on Laravel Collections, so you basically have access to all methods in Collections, like 
 
 ```php
@@ -153,53 +153,7 @@ To get
 "MN" => "Minnesota"
 "MT" => "Montana"
 "ND" => "North Dakota"
-"HI" => "Hawaii"
-"ID" => "Idaho"
-"WA" => "Washington"
-"AZ" => "Arizona"
-"CA" => "California"
-"CO" => "Colorado"
-"NV" => "Nevada"
-"NM" => "New Mexico"
-"OR" => "Oregon"
-"UT" => "Utah"
-"WY" => "Wyoming"
-"AR" => "Arkansas"
-"IA" => "Iowa"
-"KS" => "Kansas"
-"MO" => "Missouri"
-"NE" => "Nebraska"
-"OK" => "Oklahoma"
-"SD" => "South Dakota"
-"LA" => "Louisiana"
-"TX" => "Texas"
-"CT" => "Connecticut"
-"NH" => "New Hampshire"
-"RI" => "Rhode Island"
-"VT" => "Vermont"
-"AL" => "Alabama"
-"FL" => "Florida"
-"GA" => "Georgia"
-"MS" => "Mississippi"
-"SC" => "South Carolina"
-"IL" => "Illinois"
-"IN" => "Indiana"
-"KY" => "Kentucky"
-"NC" => "North Carolina"
-"OH" => "Ohio"
-"TN" => "Tennessee"
-"VA" => "Virginia"
-"WI" => "Wisconsin"
-"WV" => "West Virginia"
-"DE" => "Delaware"
-"DC" => "District of Columbia"
-"MD" => "Maryland"
-"NJ" => "New Jersey"
-"NY" => "New York"
-"PA" => "Pennsylvania"
-"ME" => "Maine"
-"MI" => "Michigan"
-"AK" => "Alaska"
+...
 ```
           
 The package uses a modified Collection which allows you to access properties and methods as objects:
@@ -213,7 +167,6 @@ Countries::where('cca3', 'FRA')
          ->official
 ```
 
-    
 Should give
     
 ```
@@ -237,6 +190,99 @@ Should return
 
 ```
 Ireland
+```
+
+## Some other examples from **Laravel News**
+
+#### Generate a list of countries
+
+```php
+Countries::all()->pluck('name.common');
+```
+
+returns
+
+```php
+[
+    "Aruba",
+    "Afghanistan",
+    "Angola",
+    "Anguilla",
+    "Åland Islands",
+    ....
+```
+
+#### Generate a list of States
+
+```php
+Countries::where('name.common', 'United States')
+    ->first()
+    ->states
+    ->sortBy('name')
+    ->pluck('name', 'postal')
+```
+
+returns
+
+```php
+[
+    "AL": "Alabama",
+    "AK": "Alaska",
+    "AZ": "Arizona",
+    "AR": "Arkansas",
+    "CA": "California",
+    ....
+    ....
+```
+
+#### Get the timezone for a State
+
+```php
+return Countries::where('name.common', 'United States')->first()->timezone->NC;
+```
+
+returns
+
+```php
+America/New_York
+```
+
+#### Get a countries currency
+
+```php
+Countries::where('name.common', 'United States')->first()->currency;
+```
+
+returns
+
+```php
+[{
+    "alternativeSigns": [],
+    "ISO4217Code": "USD",
+    "ISO4217Number": "840",
+    "sign": "$",
+    "subunits": 100,
+    "title": "U.S. dollar",
+    ....
+```
+
+#### Get a countries currency
+
+```php
+Countries::where('name.common', 'United States')->first()->currency;
+```
+
+returns
+
+```php
+[{
+    "alternativeSigns": [],
+    "ISO4217Code": "USD",
+    "ISO4217Number": "840",
+    "sign": "$",
+    "subunits": 100,
+    "title": "U.S. dollar",
+    ....
 ```
 
 ## Publishing assets
