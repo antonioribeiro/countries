@@ -16,4 +16,14 @@ class CurrenciesRepository extends ResourceRepository
     {
         return json_decode($json, true);
     }
+
+    /**
+     * Get all currencies.
+     *
+     * @return mixed
+     */
+    public function all()
+    {
+        return $this->listCurrencies();
+    }
 }

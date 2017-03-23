@@ -92,7 +92,17 @@ The package is based on Laravel Collections, so you basically have access to all
 ```php
 $all = Countries::all();
 ```
-     
+
+You, obviously, don't need to use the Facade, you can just get it from the app container: 
+
+```php
+$contries = app('pragmarx.countries');
+
+\\ then
+
+$all = $contries->all();
+```
+
 This filter
 
 ```php
@@ -192,7 +202,7 @@ Should return
 Ireland
 ```
 
-## Some other examples from **Laravel News**
+## Some other examples from **Laravel News** and some other contributors
 
 #### Generate a list of countries
 
@@ -210,6 +220,18 @@ returns
     "Anguilla",
     "Åland Islands",
     ....
+```
+
+#### Generate a list of currencies
+
+```php
+Countries::all()->pluck('currency');
+```
+
+returns
+
+```php
+Countries::all()->pluck('currency')
 ```
 
 #### Generate a list of States
@@ -266,31 +288,35 @@ returns
     ....
 ```
 
-#### Get a countries currency
+#### Get all currencies
 
 ```php
-Countries::where('name.common', 'United States')->first()->currency;
+Countries::currencies()
 ```
 
 returns
 
 ```php
-[{
-    "alternativeSigns": [],
-    "ISO4217Code": "USD",
-    "ISO4217Number": "840",
-    "sign": "$",
-    "subunits": 100,
-    "title": "U.S. dollar",
+[
+    0 => "AED"
+    1 => "AFN"
+    2 => "ALL"
+    3 => "AMD"
+    4 => "ANG"
+    5 => "AOA"
+    6 => "ARS"
+    7 => "AUD"
+    8 => "AWG"
+    9 => "AZN"
+    10 => "BAM"
     ....
 ```
 
 ## Publishing assets
 
-You can publish configuration and views using:
+You can publish configuration by doing:
 ```
-php artisan vendor:publish --provider=PragmaRX\Countries\ServiceProvider --tag=config
-php artisan vendor:publish --provider=PragmaRX\Countries\ServiceProvider --tag=views
+php artisan vendor:publish
 ```
 
 ## Data

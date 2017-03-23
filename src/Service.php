@@ -34,6 +34,16 @@ class Service
     }
 
     /**
+     * Get all currencies.
+     *
+     * @return \Illuminate\Support\Collection
+     */
+    public function currencies()
+    {
+        return collect($this->countriesRepository->currencies())->unique()->sort();
+    }
+
+    /**
      * Call a method.
      *
      * @param $name
