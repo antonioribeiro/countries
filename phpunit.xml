@@ -14,7 +14,7 @@
 >
     <testsuites>
         <testsuite name="Laravel Test Suite">
-            <directory suffix="Test.php">./tests/PhpUnit</directory>
+            <directory suffix="Test.php">./tests/phpunit</directory>
         </testsuite>
     </testsuites>
     <filter>
