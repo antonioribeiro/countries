@@ -202,6 +202,16 @@ class CountriesRepository
     }
 
     /**
+     * Get all currencies.
+     *
+     * @return Collection
+     */
+    public function currencies()
+    {
+        return $this->currenciesRepository->all();
+    }
+
+    /**
      * Call magic method.
      *
      * @param $name
