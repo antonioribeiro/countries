@@ -403,7 +403,7 @@ You have to define all the validations rules in settings, only a few is defined 
 
 You can publish configuration by doing:
 ```
-php artisan vendor:publish
+php artisan vendor:publish --provider=PragmaRX\\Countries\\ServiceProvider
 ```
 
 ## Data
