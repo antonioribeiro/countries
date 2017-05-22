@@ -234,7 +234,7 @@ class CountriesRepository
         return [
             // https://www.flag-sprites.com/
             // https://github.com/LeoColomb/flag-sprites
-            'sprite' => '<span class="flag flag-'.($flag = strtolower($country['cca2'])).'></span>',
+            'sprite' => '<span class="flag flag-'.($flag = strtolower($country['cca2'])).'"></span>',
 
             // https://github.com/lipis/flag-icon-css
             'flag-icon' => '<span class="flag-icon flag-icon-'.$flag.'"></span>',
