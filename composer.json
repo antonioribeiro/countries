@@ -42,5 +42,15 @@
       "PragmaRX\\Countries\\Tests\\": "tests/",
       "PragmaRX\\Countries\\Tests\\PhpUnit\\": "tests/PhpUnit/"
     }
-  }
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PragmaRX\\Countries\\ServiceProvider"
+            ],
+            "aliases": {
+                "Countries": "PragmaRX\\Countries\\Facade"
+            }
+        }
+    }
 }
