@@ -29,15 +29,6 @@ class ServiceProvider extends IlluminateServiceProvider
     }
 
     /**
-     * Configure package folder views.
-     */
-    protected function configureViews()
-    {
-        /// This package has no view files. did you missed it?
-        ///$this->loadViewsFrom(realpath(__DIR__.'/views'), 'pragmarx/countries');
-    }
-
-    /**
      * Merge configuration.
      */
     protected function mergeConfig()
@@ -69,8 +60,6 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->configurePaths();
 
         $this->mergeConfig();
-
-        $this->configureViews();
 
         $this->registerService();
     }
