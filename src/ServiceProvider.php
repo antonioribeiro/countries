@@ -33,7 +33,8 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     protected function configureViews()
     {
-        $this->loadViewsFrom(realpath(__DIR__.'/views'), 'pragmarx/countries');
+        /// This package has no view files. did you missed it?
+        ///$this->loadViewsFrom(realpath(__DIR__.'/views'), 'pragmarx/countries');
     }
 
     /**
