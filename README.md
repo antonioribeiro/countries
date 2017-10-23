@@ -130,10 +130,10 @@ Will find Brazil by its common name, which is a
 ```
 
 Or alternatively you can filter like this
-```php`
+```php
 Countries::whereNameCommon('Brazil')
-``
-       
+```
+       
 And, you can go deepeer
          
 ```php
