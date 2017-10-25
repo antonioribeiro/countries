@@ -1,5 +1,5 @@
 # Countries
-## A Laravel Countries package, with lots of information  
+## A Laravel Countries package, with lots of information
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries) [![License](https://img.shields.io/badge/license-BSD_3_Clause-brightgreen.svg?style=flat-square)](LICENSE) [![Code Quality](https://img.shields.io/scrutinizer/g/antonioribeiro/countries.svg?style=flat-square)](https://scrutinizer-ci.com/g/antonioribeiro/countries/?branch=master) [![Build](https://img.shields.io/travis/antonioribeiro/countries.svg?style=flat-square)](https://travis-ci.org/antonioribeiro/countries) [![StyleCI](https://styleci.io/repos/74829244/shield)](https://styleci.io/repos/74829244) <!--- [![Downloads](https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries) -->
 
@@ -30,7 +30,7 @@ This package is a collection of some other packages with information on:
     - latitude and logitude
     - borders (countries) - you can hydrate those borders (like relatioships)
     - area
-    - topology 
+    - topology
     - geometry
 
 - Currencies
@@ -39,8 +39,8 @@ This package is a collection of some other packages with information on:
     - title
     - subunits
     - usage (dates)
-    
-- States 
+
+- States
     - adm codes
     - name & alt name
     - type (state, city, province, canton, department, district, etc.)
@@ -53,10 +53,10 @@ This package is a collection of some other packages with information on:
     - flag-icon and flag-icon-squared, based on [https://github.com/lipis/flag-icon-css](https://github.com/lipis/flag-icon-css)
     - world-flags-sprite, based on [https://github.com/lafeber/world-flags-sprite](https://github.com/lafeber/world-flags-sprite)
     - svg, the flag svg file loaded into the json
-    
+
 - Validation
     - Customizable validation fields based on [Laravel Validation](https://laravel.com/docs/master/validation)
-  
+
 ## Requirements
 
 - PHP 7.0+
@@ -73,7 +73,7 @@ composer require pragmarx/countries
 ## Installing on Laravel
 
 Add the Service Provider and Facade alias to your `config/app.php`:
-    
+
 ```php
 // config/app.php
 
@@ -87,23 +87,23 @@ Add the Service Provider and Facade alias to your `config/app.php`:
     'Countries'=> PragmaRX\Countries\Facade::class,
 ];
 ```
-  
+
 ## Usage
 
-The package is based on Laravel Collections, so you basically have access to all methods in Collections, like 
+The package is based on Laravel Collections, so you basically have access to all methods in Collections, like
 
 ```php
 $all = Countries::all();
 ```
 
-You, obviously, don't need to use the Facade, you can just get it from the app container: 
+You, obviously, don't need to use the Facade, you can just get it from the app container:
 
 ```php
-$contries = app('pragmarx.countries');
+$countries = app('pragmarx.countries');
 
 \\ then
 
-$all = $contries->all();
+$all = $countries->all();
 ```
 
 This filter
@@ -113,7 +113,7 @@ Countries::where('name.common', 'Brazil')
 ```
 
 
-Will find Brazil by its common name, which is a 
+Will find Brazil by its common name, which is a
 
 ```
 #items: array:22 [▼
@@ -130,22 +130,23 @@ Will find Brazil by its common name, which is a
 ```
 
 Or alternatively you can filter like this
-```php`
+
+```php
 Countries::whereNameCommon('Brazil')
-``
-       
+```
+
 And, you can go deepeer
-         
+
 ```php
 Countries::where('name.native.por.common', 'Brasil')
 ```
-     
+
 Or search by the country top level domain
-     
+
 ```php
 Countries::where('tld.0', '.ch')
 ```
-     
+
 To get
 
 ```
@@ -173,9 +174,9 @@ To get
 "ND" => "North Dakota"
 ...
 ```
-          
+
 The package uses a modified Collection which allows you to access properties and methods as objects:
-    
+
 ```php
 Countries::where('cca3', 'FRA')
          ->first()
@@ -186,11 +187,11 @@ Countries::where('cca3', 'FRA')
 ```
 
 Should give
-    
+
 ```
 Principality of Andorra
 ```
-         
+
 Borders hydration is disabled by default, but you can have your borders hydrated easily by calling the hydrate method:
 
 ```php
@@ -204,7 +205,7 @@ Countries::where('name.common', 'United Kingdom')
          ->common
 ```
 
-Should return 
+Should return
 
 ```
 Ireland
@@ -233,7 +234,7 @@ So now we can access the property by
 ```php
 Countries::whereLca3('por')
 ```
-Or 
+Or
 ```php
 Countries::where('lca3', 'por')
 ```
