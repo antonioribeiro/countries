@@ -31,11 +31,11 @@ class ServiceProvider extends IlluminateServiceProvider
 
     protected function definePath(): void
     {
-        if (!defined('__COUNTRIES_DIR__')) {
+        if (! defined('__COUNTRIES_DIR__')) {
             define(
                 '__COUNTRIES_DIR__',
                 realpath(
-                    __DIR__ . _dir("/../../")
+                    __DIR__._dir('/../../')
                 )
             );
         }

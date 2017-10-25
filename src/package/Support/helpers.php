@@ -55,7 +55,6 @@ function array_is_multidimensional($item)
     return false;
 }
 
-
 /**
  * Check if array is multidimensional.
  *

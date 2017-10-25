@@ -137,8 +137,6 @@ class CountriesRepository
         if (file_exists($file)) {
             return file_get_contents($file);
         }
-
-        return null;
     }
 
     /**
@@ -165,7 +163,7 @@ class CountriesRepository
     public function loadCountriesJson()
     {
         return $this->readFile(
-            $this->getJsonConverterHomeDir() . _dir('/dist/countries.json')
+            $this->getJsonConverterHomeDir()._dir('/dist/countries.json')
         );
     }
 
@@ -177,7 +175,7 @@ class CountriesRepository
     public function loadTimezonesJson()
     {
         return $this->readFile(
-            $this->getHomeDir() . _dir('/data/timezones.json')
+            $this->getHomeDir()._dir('/data/timezones.json')
         );
     }
 
@@ -247,8 +245,8 @@ class CountriesRepository
     public function getFlagSvg($country)
     {
         return file_get_contents(
-            $this->getJsonConverterHomeDir() .
-            _dir('/data/') .
+            $this->getJsonConverterHomeDir().
+            _dir('/data/').
             strtolower($country).'.svg'
         );
     }
@@ -262,8 +260,8 @@ class CountriesRepository
     public function getGeometry($country)
     {
         return file_get_contents(
-            $this->getJsonConverterHomeDir() .
-            _dir('/data/') .
+            $this->getJsonConverterHomeDir().
+            _dir('/data/').
             strtolower($country['cca3']).'.geo.json'
         );
     }
@@ -277,8 +275,8 @@ class CountriesRepository
     public function getTopology($country)
     {
         return file_get_contents(
-            $this->getJsonConverterHomeDir() .
-            _dir('/data/') .
+            $this->getJsonConverterHomeDir().
+            _dir('/data/').
             strtolower($country['cca3']).'.geo.json'
         );
     }
