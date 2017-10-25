@@ -95,7 +95,6 @@ class ExportData
 
     /**
      * Import data.
-     *
      */
     public function exportAdminStates()
     {
@@ -137,7 +136,7 @@ class ExportData
      */
     protected function readSourceFile()
     {
-        $this->command->line('Reading source file: ' . $file = $this->getSourceFileName());
+        $this->command->line('Reading source file: '.$file = $this->getSourceFileName());
 
         $file = file($file, FILE_IGNORE_NEW_LINES);
 
