@@ -1,11 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Support;
+namespace PragmaRX\Countries\Package\Support;
 
 use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\HigherOrderCollectionProxy;
-use PragmaRX\Countries\Facade as CountriesFacade;
+use PragmaRX\Countries\Package\Facade as CountriesFacade;
 use Illuminate\Support\Collection as IlluminateCollection;
 
 class Collection extends IlluminateCollection

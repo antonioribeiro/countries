@@ -1,12 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries;
+namespace PragmaRX\Countries\Package;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
-/**
- * @see \Collective\Html\FormBuilder
- */
 class Facade extends IlluminateFacade
 {
     /**

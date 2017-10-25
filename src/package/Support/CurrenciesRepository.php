@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Support;
+namespace PragmaRX\Countries\Package\Support;
 
 use Commercie\Currency\ResourceRepository;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace PragmaRX\Countries\Support;
+namespace PragmaRX\Countries\Package\Support;
 
-use PragmaRX\Countries\Service;
+use PragmaRX\Countries\Package\Service;
 use MLD\Converter\JsonConverter;
 
 class CountriesRepository
@@ -31,7 +31,7 @@ class CountriesRepository
     /**
      * Cache instance.
      *
-     * @var \PragmaRX\Countries\Support\Cache
+     * @var \PragmaRX\Countries\Package\Support\Cache
      */
     public $cache;
 

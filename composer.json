@@ -30,7 +30,7 @@
 
   "autoload": {
     "psr-4": {
-      "PragmaRX\\Countries\\": "src/"
+      "PragmaRX\\Countries\\Package": "src/package"
     },
     "files": [
       "src/Support/helpers.php"
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PragmaRX\\Countries\\ServiceProvider"
+                "PragmaRX\\Countries\\Package\\ServiceProvider"
             ],
             "aliases": {
-                "Countries": "PragmaRX\\Countries\\Facade"
+                "Countries": "PragmaRX\\Countries\\Package\\Facade"
             }
         }
     }

@@ -1,12 +1,13 @@
 <?php
 
-namespace PragmaRX\Countries;
+namespace PragmaRX\Countries\Package;
 
-use PragmaRX\Countries\Support\Hydrator;
 use Illuminate\Support\Facades\Validator;
-use PragmaRX\Countries\Facade as Countries;
-use PragmaRX\Countries\Support\CountriesRepository;
-use PragmaRX\Countries\Support\CurrenciesRepository;
+use PragmaRX\Countries\Package\Support\Hydrator;
+use PragmaRX\Countries\Package\Facade as Countries;
+use PragmaRX\Countries\Package\Console\Commands\Update;
+use PragmaRX\Countries\Package\Support\CountriesRepository;
+use PragmaRX\Countries\Package\Support\CurrenciesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
@@ -24,7 +25,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function configurePaths()
     {
         $this->publishes([
-            __DIR__.'/config/config.php' => config_path('countries.php'),
+            __DIR__.'/../config/countries.php' => config_path('countries.php'),
         ], 'config');
     }
 
@@ -34,7 +35,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function mergeConfig()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/config/config.php', 'countries'
+            __DIR__.'/../config/config.php', 'countries'
         );
     }
 
@@ -62,8 +63,14 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->mergeConfig();
 
         $this->registerService();
+
+        $this->registerUpdateCommand();
     }
 
+    /**
+     * Register the service.
+     *
+     */
     protected function registerService()
     {
         $this->app->singleton('pragmarx.countries.cache', $cache = app(config('countries.cache.service')));
@@ -79,6 +86,10 @@ class ServiceProvider extends IlluminateServiceProvider
         });
     }
 
+    /**
+     * Add validators.
+     *
+     */
     private function addValidations()
     {
         foreach (config('countries.validation.rules') as $ruleName => $countryAttribute) {
@@ -89,5 +100,18 @@ class ServiceProvider extends IlluminateServiceProvider
                 return ! Countries::where($countryAttribute, $value)->isEmpty();
             }, 'The :attribute must be a valid '.$ruleName.'.');
         }
+    }
+
+    /**
+     * Register update command.
+     *
+     */
+    private function registerUpdateCommand()
+    {
+        $this->app->singleton($command = 'countries.update.command', function () {
+            return new Update();
+        });
+
+        $this->commands($command);
     }
 }

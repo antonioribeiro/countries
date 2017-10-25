@@ -1,8 +1,8 @@
 <?php
 
-namespace PragmaRX\Countries;
+namespace PragmaRX\Countries\Package;
 
-use PragmaRX\Countries\Support\CountriesRepository;
+use PragmaRX\Countries\Package\Support\CountriesRepository;
 
 class Service
 {

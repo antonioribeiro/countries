@@ -1,9 +1,14 @@
 <?php
 
-namespace PragmaRX\Countries\Support;
+namespace PragmaRX\Countries\Package\Support;
 
 class ExportData
 {
+    /**
+     * @param \Illuminate\Console\Command $line
+     */
+    private $command;
+
     /**
      * @param $line
      * @return array
@@ -26,6 +31,8 @@ class ExportData
      */
     protected function generateExportData($file)
     {
+        $this->command->line('Generating exportable data...');
+
         $result = [];
 
         $counter = -1;
@@ -34,7 +41,7 @@ class ExportData
             list($field, $value) = $this->extractFieldValue($line);
 
             if ($field == 'adm1_code') {
-                $result[$counter++] = [];
+                $counter++;
             }
 
             $result[$counter][$field] = $value;
@@ -88,15 +95,18 @@ class ExportData
 
     /**
      * Import data.
+     *
      */
     public function exportAdminStates()
     {
         $result = $this->generateExportData($this->readSourceFile());
 
+        $this->command->line('Exporting json files...');
+
         collect($result)->map(function ($item) {
             return $this->normalize($item);
         })->groupBy('grouping')->each(function ($item, $key) {
-            file_put_contents($this->makeStateFileName($key), json_encode($item));
+            file_put_contents(dd($this->makeStateFileName($key)), json_encode($item));
         });
     }
 
@@ -127,7 +137,9 @@ class ExportData
      */
     protected function readSourceFile()
     {
-        $file = file($this->getSourceFileName(), FILE_IGNORE_NEW_LINES);
+        $this->command->line('Reading source file: ' . $file = $this->getSourceFileName());
+
+        $file = file($file, FILE_IGNORE_NEW_LINES);
 
         return $file;
     }
@@ -140,5 +152,12 @@ class ExportData
         $timezones = require $this->getDataDirectory().'timezones.php';
 
         file_put_contents($this->getDataDirectory().'timezones.json', json_encode($timezones));
+    }
+
+    public function update($command)
+    {
+        $this->command = $command;
+
+        $this->exportAdminStates();
     }
 }
