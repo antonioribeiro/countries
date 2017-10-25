@@ -4,6 +4,7 @@ namespace PragmaRX\Countries\Support;
 
 use Exception;
 use Illuminate\Support\Arr;
+use Illuminate\Support\HigherOrderCollectionProxy;
 use PragmaRX\Countries\Facade as CountriesFacade;
 use Illuminate\Support\Collection as IlluminateCollection;
 
