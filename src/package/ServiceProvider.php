@@ -35,7 +35,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function mergeConfig()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/config.php', 'countries'
+            __DIR__.'/../config/countries.php', 'countries'
         );
     }
 
