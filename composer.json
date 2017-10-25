@@ -30,7 +30,7 @@
 
   "autoload": {
     "psr-4": {
-      "PragmaRX\\Countries\\Package": "src/package"
+      "PragmaRX\\Countries\\Package\\": "src/package"
     },
     "files": [
       "src/Support/helpers.php"
