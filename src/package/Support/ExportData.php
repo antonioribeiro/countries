@@ -84,7 +84,7 @@ class ExportData
      */
     protected function getSourceFileName()
     {
-        return $this->getDataDirectory() . _dir('/ne_10m_admin_1_states_provinces.txt');
+        return $this->getDataDirectory()._dir('/ne_10m_admin_1_states_provinces.txt');
     }
 
     /**
@@ -111,7 +111,7 @@ class ExportData
      */
     protected function makeStateFileName($key)
     {
-        return $this->getDataDirectory() . _dir('/states/'.strtolower($key).'.json');
+        return $this->getDataDirectory()._dir('/states/'.strtolower($key).'.json');
     }
 
     /**
