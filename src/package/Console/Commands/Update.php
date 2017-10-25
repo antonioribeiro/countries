@@ -22,7 +22,6 @@ class Update extends Base
 
     /**
      * Create a new command instance.
-     *
      */
     public function __construct()
     {
@@ -31,7 +30,6 @@ class Update extends Base
 
     /**
      * Execute the console command.
-     *
      */
     public function fire()
     {
@@ -42,7 +40,6 @@ class Update extends Base
 
     /**
      * Execute the console command.
-     *
      */
     public function handle()
     {

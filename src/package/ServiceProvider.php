@@ -69,7 +69,6 @@ class ServiceProvider extends IlluminateServiceProvider
 
     /**
      * Register the service.
-     *
      */
     protected function registerService()
     {
@@ -88,7 +87,6 @@ class ServiceProvider extends IlluminateServiceProvider
 
     /**
      * Add validators.
-     *
      */
     private function addValidations()
     {
@@ -104,7 +102,6 @@ class ServiceProvider extends IlluminateServiceProvider
 
     /**
      * Register update command.
-     *
      */
     private function registerUpdateCommand()
     {

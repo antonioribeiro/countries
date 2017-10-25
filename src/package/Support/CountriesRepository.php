@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
-use PragmaRX\Countries\Package\Service;
 use MLD\Converter\JsonConverter;
+use PragmaRX\Countries\Package\Service;
 
 class CountriesRepository
 {
