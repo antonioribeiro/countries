@@ -25,8 +25,20 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function configurePaths()
     {
         $this->publishes([
-            __DIR__.'/../config/countries.php' => config_path('countries.php'),
+            __COUNTRIES_DIR__._dir('/src/config/countries.php') => config_path('countries.php'),
         ], 'config');
+    }
+
+    protected function definePath(): void
+    {
+        if (!defined('__COUNTRIES_DIR__')) {
+            define(
+                '__COUNTRIES_DIR__',
+                realpath(
+                    __DIR__ . _dir("/../../")
+                )
+            );
+        }
     }
 
     /**
@@ -35,7 +47,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function mergeConfig()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/countries.php', 'countries'
+            __COUNTRIES_DIR__._dir('/src/config/countries.php'), 'countries'
         );
     }
 
@@ -58,6 +70,8 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     public function register()
     {
+        $this->definePath();
+
         $this->configurePaths();
 
         $this->mergeConfig();

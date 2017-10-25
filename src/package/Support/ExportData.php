@@ -57,7 +57,7 @@ class ExportData
      */
     protected function getDataDirectory(): string
     {
-        return __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR;
+        return __COUNTRIES_DIR__._dir('/src/data');
     }
 
     /**
@@ -84,13 +84,7 @@ class ExportData
      */
     protected function getSourceFileName()
     {
-        return __DIR__.
-                DIRECTORY_SEPARATOR.
-                '..'.
-                DIRECTORY_SEPARATOR.
-                'data'.
-                DIRECTORY_SEPARATOR.
-                'ne_10m_admin_1_states_provinces.txt';
+        return $this->getDataDirectory() . _dir('/ne_10m_admin_1_states_provinces.txt');
     }
 
     /**
@@ -117,16 +111,7 @@ class ExportData
      */
     protected function makeStateFileName($key)
     {
-        return __DIR__.
-            DIRECTORY_SEPARATOR.
-            '..'.
-            DIRECTORY_SEPARATOR.
-            'data'.
-            DIRECTORY_SEPARATOR.
-            'states'.
-            DIRECTORY_SEPARATOR.
-            strtolower($key).
-            '.json';
+        return $this->getDataDirectory() . _dir('/states/'.strtolower($key).'.json');
     }
 
     /**

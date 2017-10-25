@@ -12,8 +12,8 @@ function getPackageSrcDir($class)
 
     $depth = 0;
 
-    while (! file_exists($dir.DIRECTORY_SEPARATOR.'composer.json') && $depth < 16) {
-        $dir .= DIRECTORY_SEPARATOR.'..';
+    while (! file_exists($dir._dir('/composer.json')) && $depth < 16) {
+        $dir .= _dir('/..');
 
         $depth++;
     }
@@ -53,4 +53,16 @@ function array_is_multidimensional($item)
     }
 
     return false;
+}
+
+
+/**
+ * Check if array is multidimensional.
+ *
+ * @param $string
+ * @return string
+ */
+function _dir($string)
+{
+    return str_replace('/', DIRECTORY_SEPARATOR, $string);
 }

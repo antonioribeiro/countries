@@ -131,16 +131,14 @@ class CountriesRepository
     public function getStatesJson($country)
     {
         $file = $this->getHomeDir().
-            DIRECTORY_SEPARATOR.
-            'data'.
-            DIRECTORY_SEPARATOR.
-            'states'.
-            DIRECTORY_SEPARATOR.
+            _dir('/data/states/').
             strtolower($country['cca3']).'.json';
 
         if (file_exists($file)) {
             return file_get_contents($file);
         }
+
+        return null;
     }
 
     /**
@@ -167,11 +165,7 @@ class CountriesRepository
     public function loadCountriesJson()
     {
         return $this->readFile(
-            $this->getJsonConverterHomeDir().
-            DIRECTORY_SEPARATOR.
-            'dist'.
-            DIRECTORY_SEPARATOR.
-            'countries.json'
+            $this->getJsonConverterHomeDir() . _dir('/dist/countries.json')
         );
     }
 
@@ -183,11 +177,7 @@ class CountriesRepository
     public function loadTimezonesJson()
     {
         return $this->readFile(
-            $this->getHomeDir().
-            DIRECTORY_SEPARATOR.
-            'data'.
-            DIRECTORY_SEPARATOR.
-            'timezones.json'
+            $this->getHomeDir() . _dir('/data/timezones.json')
         );
     }
 
@@ -257,10 +247,8 @@ class CountriesRepository
     public function getFlagSvg($country)
     {
         return file_get_contents(
-            $this->getJsonConverterHomeDir().
-            DIRECTORY_SEPARATOR.
-            'data'.
-            DIRECTORY_SEPARATOR.
+            $this->getJsonConverterHomeDir() .
+            _dir('/data/') .
             strtolower($country).'.svg'
         );
     }
@@ -274,10 +262,8 @@ class CountriesRepository
     public function getGeometry($country)
     {
         return file_get_contents(
-            $this->getJsonConverterHomeDir().
-            DIRECTORY_SEPARATOR.
-            'data'.
-            DIRECTORY_SEPARATOR.
+            $this->getJsonConverterHomeDir() .
+            _dir('/data/') .
             strtolower($country['cca3']).'.geo.json'
         );
     }
@@ -291,10 +277,8 @@ class CountriesRepository
     public function getTopology($country)
     {
         return file_get_contents(
-            $this->getJsonConverterHomeDir().
-            DIRECTORY_SEPARATOR.
-            'data'.
-            DIRECTORY_SEPARATOR.
+            $this->getJsonConverterHomeDir() .
+            _dir('/data/') .
             strtolower($country['cca3']).'.geo.json'
         );
     }
