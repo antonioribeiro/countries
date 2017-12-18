@@ -8,7 +8,7 @@ class Base
 
     protected function download($url, $directory)
     {
-        collect((array) $url)->each(function($url) use ($directory) {
+        collect((array) $url)->each(function ($url) use ($directory) {
             $filename = basename($url);
 
             $destination = _dir("{$directory}/{$filename}");
@@ -29,7 +29,7 @@ class Base
      */
     protected function dataDir($path = '')
     {
-        return __COUNTRIES_DIR__ . _dir("/src/data{$path}");
+        return __COUNTRIES_DIR__._dir("/src/data{$path}");
     }
 
     /**
@@ -52,6 +52,6 @@ class Base
      */
     protected function tmpDir($path)
     {
-        return __COUNTRIES_DIR__ . _dir("/tmp/{$path}");
+        return __COUNTRIES_DIR__._dir("/tmp/{$path}");
     }
 }
