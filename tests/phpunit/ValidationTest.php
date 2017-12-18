@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Tests\PhpUnit\Service;
 
 use Illuminate\Support\Facades\Validator;
-use PragmaRX\Countries\Facade as Countries;
 use PragmaRX\Countries\Tests\PhpUnit\TestCase;
+use PragmaRX\Countries\Package\Facade as Countries;
 
 class ValidationTest extends TestCase
 {

@@ -2,9 +2,9 @@
 
 namespace PragmaRX\Countries\Tests\PhpUnit\Service;
 
-use PragmaRX\Countries\Support\Collection;
-use PragmaRX\Countries\Facade as Countries;
 use PragmaRX\Countries\Tests\PhpUnit\TestCase;
+use PragmaRX\Countries\Package\Support\Collection;
+use PragmaRX\Countries\Package\Facade as Countries;
 
 class ServiceTest extends TestCase
 {

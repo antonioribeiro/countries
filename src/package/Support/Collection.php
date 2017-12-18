@@ -4,11 +4,11 @@ namespace PragmaRX\Countries\Package\Support;
 
 use Exception;
 use Illuminate\Support\Arr;
+use PragmaRX\Coollection\Package\Coollection;
 use Illuminate\Support\HigherOrderCollectionProxy;
 use PragmaRX\Countries\Package\Facade as CountriesFacade;
-use Illuminate\Support\Collection as IlluminateCollection;
 
-class Collection extends IlluminateCollection
+class Collection extends Coollection
 {
     /**
      * Collection constructor.
