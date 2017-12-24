@@ -99,7 +99,7 @@ class CountriesRepository
      */
     public function collection($country)
     {
-        return coollect($country);
+        return countriesCollect($country);
     }
 
     /**
