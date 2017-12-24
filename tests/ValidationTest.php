@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Tests\Service;
 
-use Illuminate\Support\Facades\Validator;
 use PragmaRX\Countries\Tests\TestCase;
+use Illuminate\Support\Facades\Validator;
 
 class ValidationTest extends TestCase
 {

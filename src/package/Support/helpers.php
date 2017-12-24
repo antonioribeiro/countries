@@ -1,6 +1,5 @@
 <?php
 
-use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Support\Collection;
 
 if (! function_exists('getPackageSrcDir')) {
@@ -53,7 +52,6 @@ if (! function_exists('_dir')) {
         return str_replace('/', DIRECTORY_SEPARATOR, $string);
     }
 }
-
 
 if (! function_exists('countriesCollect')) {
     /**
