@@ -32,16 +32,15 @@ return [
     ],
 
     'validation' => [
-        'enabled'    => true,
-        'rules'    => [
-            'country'            => 'name.common',
+        'enabled' => true,
+        'rules' => [
+            'country'           => 'name.common',
             'cca2',
             'cca2',
             'cca3',
             'ccn3',
             'cioc',
-            'currency'            => 'ISO4217',
-            'language',
+            'currency'          => 'ISO4217',
             'language_short'    => 'ISO639_3',
         ],
     ],

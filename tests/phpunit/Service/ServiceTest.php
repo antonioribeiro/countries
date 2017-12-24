@@ -2,38 +2,39 @@
 
 namespace PragmaRX\Countries\Tests\PhpUnit\Service;
 
+use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Tests\PhpUnit\TestCase;
 use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Facade as Countries;
 
 class ServiceTest extends TestCase
 {
-    public function test_countries_is_instantiable()
+    public function testCountriesIsInstantiable()
     {
         $brazil = Countries::where('name.common', 'Brazil')->first();
 
         $this->assertEquals($brazil->name->common, 'Brazil');
     }
 
-    public function test_can_make_a_collection()
+    public function testCanMakeACollection()
     {
-        $this->assertInstanceOf(Collection::class, Countries::collection([]));
+        $this->assertInstanceOf(Coollection::class, Countries::collection([]));
     }
 
-    public function test_can_hydrate_all_countries_borders()
+    public function testCanHydrateAllCountriesBorders()
     {
-        Countries::all()->hydrate('borders')->each(function ($hydrated) {
+        Countries::all()->take(5)->hydrate('borders')->each(function ($hydrated) {
             if ($hydrated->borders->count()) {
                 $this->assertNotEmpty(($first = $hydrated->borders->first())->name);
 
-                $this->assertInstanceOf(Collection::class, $first);
+                $this->assertInstanceOf(Coollection::class, $first);
             } else {
                 $this->assertNull($hydrated->borders->first());
             }
         });
     }
 
-    public function test_can_get_a_single_border()
+    public function testCanGetASingleBorder()
     {
         $this->assertEquals(
             'Venezuela',
@@ -55,31 +56,69 @@ class ServiceTest extends TestCase
         );
     }
 
-    public function test_states_are_hydrated()
+    public function testStatesAreHydrated()
     {
         $this->assertEquals(Countries::where('name.common', 'Brazil')->first()->states->count(), 27);
 
         $this->assertEquals(Countries::where('cca3', 'USA')->first()->states->count(), 51);
     }
 
-    public function test_can_get_a_state()
+    public function testCanGetAState()
     {
         $this->assertEquals(
-            'Goiás',
-            Countries::where('name.common', 'Brazil')->first()->states->first()->name
+            'Santa Cruz',
+            Countries::where('name.common', 'Argentina')->first()->states->first()->name
         );
     }
 
-    public function test_all_hydrations()
+    public function testAllHydrations()
     {
         $elements = array_keys(config('countries.hydrate.elements'));
 
         $hydrated = Countries::where('tld.0', '.nz')->hydrate($elements);
 
         $this->assertNotNull($hydrated->first()->geometry);
-//        $this->assertNotNull($hydrated->first()->topology);
         $this->assertNotNull($hydrated->first()->states);
         $this->assertNotNull($hydrated->first()->borders);
         $this->assertNotNull($hydrated->first()->flag->sprite);
+    }
+
+
+    public function testWhereLanguage()
+    {
+        $shortName = Countries::where('ISO639_3', 'por')->count();
+        $this->assertGreaterThan(0, $shortName);
+        $this->assertEquals($shortName, Countries::where('language', 'Portuguese')->count());
+    }
+
+    public function testWhereCurrency()
+    {
+        $shortName = Countries::where('ISO4217', 'EUR')->count();
+        $this->assertGreaterThan(0, $shortName);
+    }
+
+    public function testMapping()
+    {
+        $shortName = Countries::where('lca3', 'por')->count();
+
+        $this->assertGreaterThan(0, $shortName);
+    }
+
+    public function testMagicCall()
+    {
+        $this->assertEquals(
+            Countries::whereNameCommon('Brazil')->count(),
+            Countries::where('name.common', 'Brazil')->count()
+        );
+
+        $this->assertEquals(
+            Countries::whereISO639_3('por')->count(),
+            Countries::where('ISO639_3', 'por')->count()
+        );
+
+        $this->assertEquals(
+            Countries::whereLca3('por')->count(),
+            Countries::where('lca3', 'por')->count()
+        );
     }
 }

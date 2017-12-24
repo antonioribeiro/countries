@@ -6,9 +6,15 @@ class Base
 {
     protected $command;
 
+    /**
+     * Download one or more files.
+     *
+     * @param $url
+     * @param $directory
+     */
     protected function download($url, $directory)
     {
-        collect((array) $url)->each(function($url) use ($directory) {
+        coollect((array) $url)->each(function($url) use ($directory) {
             $filename = basename($url);
 
             $destination = _dir("{$directory}/{$filename}");

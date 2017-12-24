@@ -28,10 +28,13 @@ class UpdateData
         );
     }
 
+    /**
+     * Download files.
+     */
     private function downloadFiles()
     {
-        collect(config('countries.data.downloadable'))->each(function($urls, $path) {
-            collect((array) $urls)->each(function ($url) use ($path) {
+        coollect(config('countries.data.downloadable'))->each(function($urls, $path) {
+            coollect((array) $urls)->each(function ($url) use ($path) {
                 $this->downloadFile($url, $path);
             });
         });
@@ -167,7 +170,7 @@ class UpdateData
 
         $this->progress('Updating json files...');
 
-        $count = collect($result)->map(function ($item) {
+        $count = coollect($result)->map(function ($item) {
             return $this->normalize($item);
         })->groupBy('grouping')->each(function ($item, $key) {
             file_put_contents($this->makeStateFileName($key), json_encode($item));
