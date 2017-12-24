@@ -214,7 +214,7 @@ class Hydrator
      */
     protected function hydrateBorders($country)
     {
-        $country['borders'] = coollect($country['borders'])->map(function ($border) {
+        $country['borders'] = countriesCollect($country['borders'])->map(function ($border) {
             $border = $this->repository->call('where', ['cca3', $border]);
 
             if ($border instanceof Coollection && $border->count() == 1) {
@@ -252,7 +252,7 @@ class Hydrator
      */
     protected function hydrateCurrency($country)
     {
-        $country['currency'] = coollect($country['currency'])->mapWithKeys(function ($code, $key) {
+        $country['currency'] = countriesCollect($country['currency'])->mapWithKeys(function ($code, $key) {
             if ($this->isCurrencyArray($code)) {
                 return [
                     $code['ISO4217Code'] => $code,
@@ -329,7 +329,7 @@ class Hydrator
      */
     protected function checkHydrationElements($elements)
     {
-        $elements = coollect($elements)->mapWithKeys(function ($value, $key) {
+        $elements = countriesCollect($elements)->mapWithKeys(function ($value, $key) {
             if (is_numeric($key)) {
                 $key = $value;
                 $value = true;

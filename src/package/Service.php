@@ -41,7 +41,7 @@ class Service
      */
     public function currencies()
     {
-        return coollect($this->countriesRepository->currencies())->unique()->sort();
+        return countriesCollect($this->countriesRepository->currencies())->unique()->sort();
     }
 
     /**

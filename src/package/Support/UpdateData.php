@@ -33,8 +33,8 @@ class UpdateData
      */
     private function downloadFiles()
     {
-        coollect(config('countries.data.downloadable'))->each(function ($urls, $path) {
-            coollect($urls)->each(function ($url) use ($path) {
+        countriesCollect(config('countries.data.downloadable'))->each(function ($urls, $path) {
+            countriesCollect($urls)->each(function ($url) use ($path) {
                 $this->downloadFile($url, $path);
             });
         });
@@ -170,7 +170,7 @@ class UpdateData
 
         $this->progress('Updating json files...');
 
-        $count = coollect($result)->map(function ($item) {
+        $count = countriesCollect($result)->map(function ($item) {
             return $this->normalize($item);
         })->groupBy('grouping')->each(function ($item, $key) {
             file_put_contents($this->makeStateFileName($key), json_encode($item));

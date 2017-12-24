@@ -4,7 +4,6 @@ namespace PragmaRX\Countries\Tests\PhpUnit\Service;
 
 use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Tests\PhpUnit\TestCase;
-use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Facade as Countries;
 
 class ServiceTest extends TestCase
@@ -85,21 +84,14 @@ class ServiceTest extends TestCase
 
     public function testWhereLanguage()
     {
-        $shortName = Countries::where('ISO639_3', 'por')->count();
+        $shortName = Countries::whereLanguage('Portuguese')->count();
         $this->assertGreaterThan(0, $shortName);
-        $this->assertEquals($shortName, Countries::where('language', 'Portuguese')->count());
+        $this->assertEquals($shortName, Countries::where('languages.por', 'Portuguese')->count());
     }
 
     public function testWhereCurrency()
     {
         $shortName = Countries::where('ISO4217', 'EUR')->count();
-        $this->assertGreaterThan(0, $shortName);
-    }
-
-    public function testMapping()
-    {
-        $shortName = Countries::where('lca3', 'BRA')->count();
-
         $this->assertGreaterThan(0, $shortName);
     }
 
@@ -119,5 +111,10 @@ class ServiceTest extends TestCase
             Countries::whereLca3('por')->count(),
             Countries::where('lca3', 'por')->count()
         );
+    }
+
+    public function testMapping()
+    {
+        $this->assertGreaterThan(0, Countries::where('lca3', 'BRA')->count());
     }
 }
