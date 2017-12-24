@@ -3,6 +3,7 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use Illuminate\Support\Str;
+use PragmaRX\Coollection\Package\Coollection;
 
 class Hydrator
 {
@@ -51,6 +52,66 @@ class Hydrator
     }
 
     /**
+     * Hydrate elements of a collection of countries.
+     *
+     * @param $countries
+     * @param $elements
+     * @return mixed
+     */
+    private function hydrateCountries($countries, $elements)
+    {
+        return $this->repository->collection(
+            $countries->map(function ($country) use ($elements) {
+                return $this->hydrateCountry($country, $elements);
+            })
+        );
+    }
+
+    /**
+     * Hydrate elements of a country.
+     *
+     * @param $country
+     * @param $elements
+     * @return mixed
+     */
+    private function hydrateCountry($country, $elements)
+    {
+        $country = $this->toArray($country);
+
+        $countryCode = $country['cca3'];
+
+        $this->addCountry($countryCode, $country);
+
+        foreach ($elements as $element => $enabled) {
+            $this->hydrateCountryElement($countryCode, $element, $enabled);
+        }
+
+        return $this->getCountry($countryCode);
+    }
+
+    /**
+     * Check if an element is a country.
+     *
+     * @param $element
+     * @return bool
+     */
+    private function isCountry($element)
+    {
+        return ($element instanceof Coollection || is_array($element)) && isset($element['cca3']);
+    }
+
+    /**
+     * Check it's a currency array or code.
+     *
+     * @param $data
+     * @return bool
+     */
+    private function isCurrencyArray($data)
+    {
+        return is_array($data) && isset($data['ISO4217Code']);
+    }
+
+    /**
      * Check if an element needs hydrated.
      *
      * @param $countryCode
@@ -71,7 +132,7 @@ class Hydrator
      * Hydrate a collection, making a collection of collections.
      *
      * @param $country
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     protected function hydrateCollection($country)
     {
@@ -153,10 +214,10 @@ class Hydrator
      */
     protected function hydrateBorders($country)
     {
-        $country['borders'] = collect($country['borders'])->map(function ($border) {
+        $country['borders'] = coollect($country['borders'])->map(function ($border) {
             $border = $this->repository->call('where', ['cca3', $border]);
 
-            if ($border instanceof Collection && $border->count() == 1) {
+            if ($border instanceof Coollection && $border->count() == 1) {
                 return $border->first();
             }
 
@@ -191,8 +252,16 @@ class Hydrator
      */
     protected function hydrateCurrency($country)
     {
-        $country['currency'] = collect($country['currency'])->map(function ($code) {
-            return $this->repository->currenciesRepository->loadCurrency($code);
+        $country['currency'] = coollect($country['currency'])->mapWithKeys(function ($code, $key) {
+            if ($this->isCurrencyArray($code)) {
+                return [
+                    $code['ISO4217Code'] => $code,
+                ];
+            }
+
+            return [
+                $code => $this->repository->currenciesRepository->loadCurrency($code),
+            ];
         });
 
         return $this->toArray($country);
@@ -201,29 +270,17 @@ class Hydrator
     /**
      * Hydrate a countries collection with languages.
      *
-     * @param Collection $countries
+     * @param \PragmaRX\Coollection\Package\Coollection|array|\stdClass $target
      * @param null $elements
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
-    public function hydrate(Collection $countries, $elements = null)
+    public function hydrate($target, $elements = null)
     {
         $elements = $this->getHydrationElements($elements);
 
-        return $this->repository->collection(
-            $countries->map(function ($country) use ($elements) {
-                $country = $this->toArray($country);
-
-                $countryCode = $country['cca3'];
-
-                $this->addCountry($countryCode, $country);
-
-                foreach ($elements as $element => $enabled) {
-                    $this->hydrateCountryElement($countryCode, $element, $enabled);
-                }
-
-                return $this->getCountry($countryCode);
-            })
-        );
+        return ! $this->isCountry($this->toArray($target))
+            ? $this->hydrateCountries($target, $elements)
+            : $this->hydrateCountry($target, $elements);
     }
 
     /**
@@ -272,7 +329,7 @@ class Hydrator
      */
     protected function checkHydrationElements($elements)
     {
-        $elements = collect($elements)->mapWithKeys(function ($value, $key) {
+        $elements = coollect($elements)->mapWithKeys(function ($value, $key) {
             if (is_numeric($key)) {
                 $key = $value;
                 $value = true;
@@ -302,11 +359,13 @@ class Hydrator
      */
     public function toArray($data)
     {
-        if ($data instanceof \stdClass) {
-            $data = json_decode(json_encode($data), true);
+        if (is_array($data)) {
+            return $data;
         }
 
-        return $data;
+        return $data instanceof \stdClass
+            ? json_decode(json_encode($data), true)
+            : $data->toArray();
     }
 
     /**

@@ -95,11 +95,11 @@ class CountriesRepository
      * Make a collection.
      *
      * @param $country
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function collection($country)
     {
-        return new Collection($country);
+        return coollect($country);
     }
 
     /**
@@ -131,7 +131,7 @@ class CountriesRepository
     public function getStatesJson($country)
     {
         $file = $this->getHomeDir().
-            _dir('/data/states/').
+            _dir('/../data/states/').
             strtolower($country['cca3']).'.json';
 
         if (file_exists($file)) {
@@ -182,7 +182,7 @@ class CountriesRepository
     /**
      * Get all countries.
      *
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function all()
     {
@@ -192,7 +192,7 @@ class CountriesRepository
     /**
      * Get all currencies.
      *
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function currencies()
     {
@@ -332,7 +332,7 @@ class CountriesRepository
      *
      * @param $collection
      * @param null $elements
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function hydrate($collection, $elements = null)
     {

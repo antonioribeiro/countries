@@ -259,6 +259,18 @@ returns
     ....
 ```
 
+#### Generate a list of currencies
+
+```php
+Countries::all()->pluck('currency');
+```
+
+returns
+
+```php
+Countries::all()->pluck('currency')
+```
+
 #### Generate a list of States
 
 ```php
