@@ -33,7 +33,7 @@ class UpdateData
      */
     private function downloadFiles()
     {
-        coollect(config('countries.data.downloadable'))->each(function($urls, $path) {
+        coollect(config('countries.data.downloadable'))->each(function ($urls, $path) {
             coollect((array) $urls)->each(function ($url) use ($path) {
                 $this->downloadFile($url, $path);
             });

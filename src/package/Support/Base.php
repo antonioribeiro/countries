@@ -14,7 +14,7 @@ class Base
      */
     protected function download($url, $directory)
     {
-        coollect((array) $url)->each(function($url) use ($directory) {
+        coollect((array) $url)->each(function ($url) use ($directory) {
             $filename = basename($url);
 
             $destination = _dir("{$directory}/{$filename}");

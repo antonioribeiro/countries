@@ -83,7 +83,6 @@ class ServiceTest extends TestCase
         $this->assertNotNull($hydrated->first()->flag->sprite);
     }
 
-
     public function testWhereLanguage()
     {
         $shortName = Countries::where('ISO639_3', 'por')->count();

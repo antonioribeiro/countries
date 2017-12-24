@@ -255,12 +255,12 @@ class Hydrator
         $country['currency'] = coollect($country['currency'])->mapWithKeys(function ($code, $key) {
             if ($this->isCurrencyArray($code)) {
                 return [
-                    $code['ISO4217Code'] => $code
+                    $code['ISO4217Code'] => $code,
                 ];
             }
 
             return [
-                $code => $this->repository->currenciesRepository->loadCurrency($code)
+                $code => $this->repository->currenciesRepository->loadCurrency($code),
             ];
         });
 
@@ -278,7 +278,7 @@ class Hydrator
     {
         $elements = $this->getHydrationElements($elements);
 
-        return !$this->isCountry($this->toArray($target))
+        return ! $this->isCountry($this->toArray($target))
             ? $this->hydrateCountries($target, $elements)
             : $this->hydrateCountry($target, $elements);
     }
