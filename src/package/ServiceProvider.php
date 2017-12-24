@@ -3,6 +3,7 @@
 namespace PragmaRX\Countries\Package;
 
 use Illuminate\Support\Facades\Validator;
+use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Support\Hydrator;
 use PragmaRX\Countries\Package\Facade as Countries;
 use PragmaRX\Countries\Package\Console\Commands\Update;
@@ -27,6 +28,16 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->publishes([
             __COUNTRIES_DIR__._dir('/src/config/countries.php') => config_path('countries.php'),
         ], 'config');
+    }
+
+    /**
+     * Create the collection hydrator macro.
+     */
+    private function createCollectionHydrator()
+    {
+        Coollection::macro('hydrate', function ($elements) {
+            return Countries::hydrate($this, $elements);
+        });
     }
 
     protected function definePath(): void
@@ -59,7 +70,7 @@ class ServiceProvider extends IlluminateServiceProvider
     public function boot()
     {
         if (config('countries.validation.enabled')) {
-            $this->addValidations();
+            $this->addValidators();
         }
     }
 
@@ -79,6 +90,8 @@ class ServiceProvider extends IlluminateServiceProvider
         $this->registerService();
 
         $this->registerUpdateCommand();
+
+        $this->createCollectionHydrator();
     }
 
     /**
@@ -102,12 +115,13 @@ class ServiceProvider extends IlluminateServiceProvider
     /**
      * Add validators.
      */
-    private function addValidations()
+    private function addValidators()
     {
         foreach (config('countries.validation.rules') as $ruleName => $countryAttribute) {
             if (is_int($ruleName)) {
                 $ruleName = $countryAttribute;
             }
+
             Validator::extend($ruleName, function ($attribute, $value) use ($countryAttribute) {
                 return ! Countries::where($countryAttribute, $value)->isEmpty();
             }, 'The :attribute must be a valid '.$ruleName.'.');
