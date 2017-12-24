@@ -91,7 +91,7 @@ class UpdateData
     {
         $path = empty($path) ? '' : "/{$path}";
 
-        return __COUNTRIES_DIR__ . _dir("/src/data$path");
+        return __COUNTRIES_DIR__._dir("/src/data$path");
     }
 
     private function loadShapeFile()
@@ -118,7 +118,7 @@ class UpdateData
      */
     private function makeDir($path)
     {
-        if (!file_exists($path)) {
+        if (! file_exists($path)) {
             mkdir($path, 0755, true);
         }
     }
