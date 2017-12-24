@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Tests\PhpUnit;
+namespace PragmaRX\Countries\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use PragmaRX\Countries\Package\ServiceProvider as CountriesServiceProvider;

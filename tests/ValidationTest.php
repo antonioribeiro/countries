@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Tests\PhpUnit\Service;
+namespace PragmaRX\Countries\Tests\Service;
 
 use Illuminate\Support\Facades\Validator;
-use PragmaRX\Countries\Tests\PhpUnit\TestCase;
+use PragmaRX\Countries\Tests\TestCase;
 
 class ValidationTest extends TestCase
 {
