@@ -40,7 +40,7 @@ class ServiceProvider extends IlluminateServiceProvider
         });
     }
 
-    protected function definePath(): void
+    protected function definePath()
     {
         if (! defined('__COUNTRIES_DIR__')) {
             define(
