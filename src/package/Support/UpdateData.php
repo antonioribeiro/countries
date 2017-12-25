@@ -44,7 +44,7 @@ class UpdateData
      * @param $line
      * @return array
      */
-    protected function extractFieldValue($line): array
+    protected function extractFieldValue($line)
     {
         list($field, $value) = explode(':', $line);
 
