@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Tests\Service;
 
-use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Tests\TestCase;
+use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Facade as Countries;
 
 class ServiceTest extends TestCase
