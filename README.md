@@ -35,7 +35,7 @@ This package is a collection of some other packages with information on:
     - region & sub region
     - translations (country name translated to some other languages)
     - latitude and logitude
-    - borders (countries) - you can hydrate those borders (like relatioships)
+    - borders (countries) - you can hydrate those borders (like relationships)
     - area
     - topology
     - geometry
