@@ -3,17 +3,32 @@ language: php
 php:
   - 7.0
   - 7.1
-
-sudo: false
-
-cache:
-  directories:
-    - $HOME/.composer/cache
+  - 7.2
+  - nightly
 
 env:
   matrix:
     - COMPOSER_FLAGS=""
 
+# This triggers builds to run on the new TravisCI infrastructure.
+# See: http://docs.travis-ci.com/user/workers/container-based-infrastructure/
+sudo: false
+
+## Cache composer
+cache:
+  directories:
+    - $HOME/.composer/cache
+
 before_script:
   - travis_retry composer self-update
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
+
+script:
+  - vendor/bin/phpunit --coverage-clover=coverage.clover
+
+after_script:
+  - |
+    if [[ "$TRAVIS_PHP_VERSION" == '7.2' ]]; then
+      wget https://scrutinizer-ci.com/ocular.phar
+      php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+    fi

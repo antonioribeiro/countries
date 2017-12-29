@@ -5,7 +5,7 @@ namespace PragmaRX\Countries\Package\Support;
 use MLD\Converter\JsonConverter;
 use PragmaRX\Countries\Package\Service;
 
-class CountriesRepository
+class CountriesRepository extends Base
 {
     /**
      * Timezones.
@@ -65,8 +65,6 @@ class CountriesRepository
         $this->hydrator = $hydrator;
 
         $this->loadCountries();
-
-        $this->loadTimezones();
     }
 
     /**
@@ -95,11 +93,11 @@ class CountriesRepository
      * Make a collection.
      *
      * @param $country
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function collection($country)
     {
-        return new Collection($country);
+        return countriesCollect($country);
     }
 
     /**
@@ -131,7 +129,7 @@ class CountriesRepository
     public function getStatesJson($country)
     {
         $file = $this->getHomeDir().
-            _dir('/data/states/').
+            _dir('/../data/states/').
             strtolower($country['cca3']).'.json';
 
         if (file_exists($file)) {
@@ -152,7 +150,9 @@ class CountriesRepository
      */
     public function loadTimezones()
     {
-        $this->timezones = json_decode($this->loadTimezonesJson(), true);
+        if (is_null($this->timezones)) {
+            $this->timezones = require $this->getTimezoneFilename();
+        }
     }
 
     /**
@@ -172,17 +172,15 @@ class CountriesRepository
      *
      * @return string
      */
-    public function loadTimezonesJson()
+    public function getTimezoneFilename()
     {
-        return $this->readFile(
-            $this->getHomeDir()._dir('/data/timezones.json')
-        );
+        return $this->dataDir('/timezones.php');
     }
 
     /**
      * Get all countries.
      *
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function all()
     {
@@ -192,7 +190,7 @@ class CountriesRepository
     /**
      * Get all currencies.
      *
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function currencies()
     {
@@ -332,10 +330,25 @@ class CountriesRepository
      *
      * @param $collection
      * @param null $elements
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function hydrate($collection, $elements = null)
     {
         return $this->hydrator->hydrate($collection, $elements);
+    }
+
+    /**
+     * Find a country timezone.
+     *
+     * @param $countryCode
+     * @return null
+     */
+    public function findTimezone($countryCode)
+    {
+        $this->loadTimezones();
+
+        return isset($this->timezones[$countryCode])
+            ? $this->timezones[$countryCode]
+            : null;
     }
 }
