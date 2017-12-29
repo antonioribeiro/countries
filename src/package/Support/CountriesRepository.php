@@ -139,7 +139,7 @@ class CountriesRepository extends Base
     public function getStatesDefaultJson($country)
     {
         return $this->loadFile(
-            $this->dataDir('/states/default/' . strtolower($country['cca3']) . '.json')
+            $this->dataDir('/states/default/'.strtolower($country['cca3']).'.json')
         );
     }
 
@@ -152,7 +152,7 @@ class CountriesRepository extends Base
     public function getStatesOverloadJson($country)
     {
         return $this->loadFile(
-            $this->dataDir('/states/overload/' . strtolower($country['cca3']) . '.json')
+            $this->dataDir('/states/overload/'.strtolower($country['cca3']).'.json')
         );
     }
 
