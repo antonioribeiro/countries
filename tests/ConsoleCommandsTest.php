@@ -10,6 +10,6 @@ class ConsoleCommandsTest extends TestCase
     {
         \Artisan::call('countries:update');
 
-        $this->assertFalse(!true); // dummy, yeah!
+        $this->assertFalse(! true); // dummy, yeah!
     }
 }

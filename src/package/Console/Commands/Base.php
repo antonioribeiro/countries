@@ -6,5 +6,4 @@ use Illuminate\Console\Command;
 
 class Base extends Command
 {
-
 }
