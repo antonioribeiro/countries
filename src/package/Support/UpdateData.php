@@ -37,6 +37,22 @@ class UpdateData extends Base
     }
 
     /**
+     * @param $result
+     * @return mixed
+     */
+    private function generateStatesJsonFiles($result)
+    {
+        $count = countriesCollect($result)->map(function ($item) {
+            return $this->normalize($item);
+        })->groupBy('grouping')->each(function ($item, $key) {
+            file_put_contents($this->makeStateFileName($key), json_encode($item));
+        })->count()
+        ;
+
+        return $count;
+    }
+
+    /**
      * Load the shape file (DBF) to array.
      *
      * @return array
@@ -98,6 +114,14 @@ class UpdateData extends Base
     }
 
     /**
+     * Rename wrong states json files.
+     */
+    private function renameWrongStatesJsonFiles()
+    {
+        rename($this->dataDir('/states/fxx.json'), $this->dataDir('/states/fra.json'));
+    }
+
+    /**
      * Import data.
      */
     public function updateAdminStates()
@@ -106,11 +130,9 @@ class UpdateData extends Base
 
         $this->progress('Updating json files...');
 
-        $count = countriesCollect($result)->map(function ($item) {
-            return $this->normalize($item);
-        })->groupBy('grouping')->each(function ($item, $key) {
-            file_put_contents($this->makeStateFileName($key), json_encode($item));
-        })->count();
+        $count = $this->generateStatesJsonFiles($result);
+
+        $this->renameWrongStatesJsonFiles();
 
         $this->progress("Generated {$count} .json files.");
     }
@@ -127,16 +149,6 @@ class UpdateData extends Base
     }
 
     /**
-     * Update timezones to json.
-     */
-    public function updateTimezones()
-    {
-        $timezones = require $this->dataDir('timezones.php');
-
-        file_put_contents($this->dataDir('timezones.json'), json_encode($timezones));
-    }
-
-    /**
      * Update all data.
      *
      * @param $command
@@ -148,7 +160,5 @@ class UpdateData extends Base
         $this->downloadFiles();
 
         $this->updateAdminStates();
-
-        $this->updateTimezones();
     }
 }
