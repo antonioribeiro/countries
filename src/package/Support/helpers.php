@@ -101,7 +101,7 @@ if (! function_exists('deltree')) {
      */
     function deltree($dir)
     {
-        if (!file_exists($dir)) {
+        if (! file_exists($dir)) {
             return false;
         }
 
