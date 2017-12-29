@@ -125,10 +125,14 @@ class CountriesTest extends TestCase
 
     public function testTimezone()
     {
-        $tz = Countries::where('cca3', 'FRA')
-                      ->first()
-                      ->hydrate('timezone')->timezone;
+        $this->assertEquals(
+            Countries::where('cca3', 'FRA')->first()->hydrate('timezone')->timezone,
+            'Europe/Paris'
+        );
 
-        $this->assertEquals($tz, 'Europe/Paris');
+        $this->assertEquals(
+            Countries::where('name.common', 'United States')->first()->timezone->NC,
+            'America/New_York'
+        );
     }
 }
