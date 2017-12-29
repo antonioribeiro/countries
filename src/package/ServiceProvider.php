@@ -40,6 +40,9 @@ class ServiceProvider extends IlluminateServiceProvider
         });
     }
 
+    /**
+     * Define global constant __COUNTRIES_DIR__.
+     */
     protected function definePath()
     {
         if (! defined('__COUNTRIES_DIR__')) {

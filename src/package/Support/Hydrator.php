@@ -29,17 +29,6 @@ class Hydrator
     }
 
     /**
-     * Create a currency from json.
-     *
-     * @param $json
-     * @return mixed
-     */
-    protected function createCurrencyFromJson($json)
-    {
-        return json_decode($json, true);
-    }
-
-    /**
      * @param $countryCode
      */
     protected function createHydrated($countryCode)
@@ -235,11 +224,11 @@ class Hydrator
      */
     protected function hydrateTimezone($country)
     {
-        if (! isset($this->repository->timezones[$country['cca2']])) {
+        if (is_null($timezone = $this->repository->findTimezone($country['cca2']))) {
             return $country;
         }
 
-        $country['timezone'] = $this->repository->timezones[$country['cca2']];
+        $country['timezone'] = $timezone;
 
         return $this->toArray($country);
     }
