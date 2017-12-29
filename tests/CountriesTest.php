@@ -183,4 +183,83 @@ class CountriesTest extends TestCase
             Countries::where('cca3', 'ITA')->first()->hydrate('timezone')->states['TP']['region']
         );
     }
+
+    public function testMissingStates()
+    {
+        $this->assertNotEmpty(
+            Countries::where('cca3', 'BRA')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'ATG')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'ALA')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'ATG')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'BEL')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'BIH')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'ESH')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'IRQ')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'UNK')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'NOR')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'PNG')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'PRT')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'PSE')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'SJM')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'SOM')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'SRB')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'SSD')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'SYR')->first()->hydrate('states')->states
+        );
+
+        $this->assertEmpty(
+            Countries::where('cca3', 'UMI')->first()->hydrate('states')->states
+        );
+    }
 }
