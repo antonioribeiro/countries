@@ -4,29 +4,12 @@ namespace PragmaRX\Countries\Package\Support;
 
 use ShapeFile\ShapeFile;
 
-class UpdateData
+class UpdateData extends Base
 {
     /**
      * @param \Illuminate\Console\Command $line
      */
-    private $command;
-
-    private function downloadFile($url, $path)
-    {
-        $path = $this->dataDir($path);
-
-        $destination = _dir("{$path}/".basename($url));
-
-        $this->makeDir(dirname($destination));
-
-        $this->progress("Downloading {$url} to {$destination}...");
-
-        file_put_contents(
-            $destination,
-            file_get_contents($url),
-            0644
-        );
-    }
+    protected $command;
 
     /**
      * Download files.
@@ -35,50 +18,9 @@ class UpdateData
     {
         countriesCollect(config('countries.data.downloadable'))->each(function ($urls, $path) {
             countriesCollect($urls)->each(function ($url) use ($path) {
-                $this->downloadFile($url, $path);
+                $this->download($url, $this->dataDir($path));
             });
         });
-    }
-
-    /**
-     * @param $line
-     * @return array
-     */
-    protected function extractFieldValue($line)
-    {
-        list($field, $value) = explode(':', $line);
-
-        $field = str_replace(' ', '_', trim($field));
-        $value = trim($value);
-
-        return [$field, $value];
-    }
-
-    /**
-     * Generate update data.
-     *
-     * @param $file
-     * @return mixed
-     */
-    protected function generateUpdateData($file)
-    {
-        $this->progress('Generating updetable data...');
-
-        $result = [];
-
-        $counter = -1;
-
-        foreach (array_filter($file) as $line) {
-            list($field, $value) = $this->extractFieldValue($line);
-
-            if ($field == 'adm1_code') {
-                $counter++;
-            }
-
-            $result[$counter][$field] = $value;
-        }
-
-        return $result;
     }
 
     /**
@@ -94,6 +36,11 @@ class UpdateData
         return __COUNTRIES_DIR__._dir("/src/data$path");
     }
 
+    /**
+     * Load the shape file (DBF) to array.
+     *
+     * @return array
+     */
     private function loadShapeFile()
     {
         $this->progress('Loading shape file...');
@@ -110,17 +57,11 @@ class UpdateData
             $result[] = $record['dbf'];
         }
 
-        return $result;
-    }
+        unset($shapeRecords);
 
-    /**
-     * @param $path
-     */
-    private function makeDir($path)
-    {
-        if (! file_exists($path)) {
-            mkdir($path, 0755, true);
-        }
+        deltree($this->dataDir('natural_earth'));
+
+        return $result;
     }
 
     /**
@@ -141,15 +82,10 @@ class UpdateData
     }
 
     /**
-     * Get data source filename.
+     * Show the progress.
      *
-     * @return string
+     * @param string $string
      */
-    protected function getSourceFileName()
-    {
-        return $this->dataDir()._dir('/ne_10m_admin_1_states_provinces.txt');
-    }
-
     private function progress($string = '')
     {
         if (is_null($this->command)) {
@@ -191,29 +127,20 @@ class UpdateData
     }
 
     /**
-     * Read source file.
-     *
-     * @return array
-     */
-    protected function readSourceFile()
-    {
-        $this->progress('Reading source file: '.$file = $this->getSourceFileName());
-
-        $file = file($file, FILE_IGNORE_NEW_LINES);
-
-        return $file;
-    }
-
-    /**
      * Update timezones to json.
      */
     public function updateTimezones()
     {
         $timezones = require $this->dataDir('timezones.php');
 
-        file_put_contents($this->dataDir().'timezones.json', json_encode($timezones));
+        file_put_contents($this->dataDir('timezones.json'), json_encode($timezones));
     }
 
+    /**
+     * Update all data.
+     *
+     * @param $command
+     */
     public function update($command)
     {
         $this->command = $command;
@@ -221,5 +148,7 @@ class UpdateData
         $this->downloadFiles();
 
         $this->updateAdminStates();
+
+        $this->updateTimezones();
     }
 }

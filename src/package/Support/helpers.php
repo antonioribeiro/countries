@@ -65,3 +65,48 @@ if (! function_exists('countriesCollect')) {
         return new Collection($data);
     }
 }
+
+if (!function_exists('download_file')) {
+    /**
+     * Download a file from the Internet.
+     *
+     * @param $url
+     * @param $destination
+     * @return \PragmaRX\Coollection\Package\Coollection
+     */
+    function download_file($url, $destination)
+    {
+        $fr = fopen($url, "r");
+        $fw = fopen($destination, "w");
+
+        while(!feof($fr)) {
+            fwrite($fw, fread($fr, 4096));
+
+            flush();
+        }
+
+        fclose ($fr);
+        fclose ($fw);
+
+        chmod($destination, 0644);
+    }
+}
+
+
+if (!function_exists('deltree')) {
+    /**
+     * Delete a directory and all its files.
+     *
+     * @param $dir
+     * @return boolean
+     */
+    function deltree($dir) {
+        $files = array_diff(scandir($dir), array('.','..'));
+
+        foreach ($files as $file) {
+            (is_dir("$dir/$file")) ? delTree("$dir/$file") : unlink("$dir/$file");
+        }
+
+        return rmdir($dir);
+    }
+}

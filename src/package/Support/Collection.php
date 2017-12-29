@@ -8,6 +8,8 @@ use PragmaRX\Coollection\Package\Coollection;
 class Collection extends Coollection
 {
     /**
+     * Magic call methods.
+     *
      * @param string $name
      * @param array $arguments
      * @return mixed|static
@@ -27,6 +29,8 @@ class Collection extends Coollection
     }
 
     /**
+     * Where on steroids.
+     *
      * @param string $key
      * @param mixed $operator
      * @param null $value
@@ -52,6 +56,8 @@ class Collection extends Coollection
     }
 
     /**
+     * Where language.
+     *
      * @param $value
      * @return static
      */
@@ -61,6 +67,8 @@ class Collection extends Coollection
     }
 
     /**
+     * Where language using iso code.
+     *
      * @param $value
      * @return static
      */
@@ -70,6 +78,8 @@ class Collection extends Coollection
     }
 
     /**
+     * Where currency using ISO code.
+     *
      * @param $value
      * @return static
      */
@@ -79,6 +89,8 @@ class Collection extends Coollection
     }
 
     /**
+     * Where for different attributes.
+     *
      * @param string $arrayName
      * @param $value
      * @return static
@@ -95,6 +107,8 @@ class Collection extends Coollection
     }
 
     /**
+     * Where for keys.
+     *
      * @param string $arrayName
      * @param $value
      * @return static

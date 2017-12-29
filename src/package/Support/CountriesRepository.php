@@ -5,7 +5,7 @@ namespace PragmaRX\Countries\Package\Support;
 use MLD\Converter\JsonConverter;
 use PragmaRX\Countries\Package\Service;
 
-class CountriesRepository
+class CountriesRepository extends Base
 {
     /**
      * Timezones.
@@ -65,8 +65,6 @@ class CountriesRepository
         $this->hydrator = $hydrator;
 
         $this->loadCountries();
-
-        $this->loadTimezones();
     }
 
     /**
@@ -152,7 +150,9 @@ class CountriesRepository
      */
     public function loadTimezones()
     {
-        $this->timezones = json_decode($this->loadTimezonesJson(), true);
+        if (is_null($this->timezones)) {
+            $this->timezones = require $this->getTimezoneFilename();
+        }
     }
 
     /**
@@ -172,11 +172,9 @@ class CountriesRepository
      *
      * @return string
      */
-    public function loadTimezonesJson()
+    public function getTimezoneFilename()
     {
-        return $this->readFile(
-            $this->getHomeDir()._dir('/data/timezones.json')
-        );
+        return $this->dataDir('/timezones.php');
     }
 
     /**
@@ -337,5 +335,20 @@ class CountriesRepository
     public function hydrate($collection, $elements = null)
     {
         return $this->hydrator->hydrate($collection, $elements);
+    }
+
+    /**
+     * Find a country timezone.
+     *
+     * @param $countryCode
+     * @return null
+     */
+    public function findTimezone($countryCode)
+    {
+        $this->loadTimezones();
+
+        return isset($this->timezones[$countryCode])
+            ? $this->timezones[$countryCode]
+            : null;
     }
 }

@@ -19,11 +19,11 @@ class Base
 
             $destination = _dir("{$directory}/{$filename}");
 
-            $this->command->line("Downloading to {$destination}");
+            $this->message("Downloading to {$destination}");
 
             $this->mkDir($directory);
 
-            file_put_contents($destination, fopen($url, 'r'));
+            download_file($url, $destination);
         });
     }
 
@@ -39,6 +39,21 @@ class Base
     }
 
     /**
+     * Display a message in console.
+     *
+     * @param $message
+     * @param string $type
+     */
+    private function message($message, $type = 'line')
+    {
+        if (!is_null($this->command)) {
+            $this->command->{$type}($message);
+        }
+    }
+
+    /**
+     * Make a directory.
+     *
      * @param $dir
      */
     protected function mkDir($dir)

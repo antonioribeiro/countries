@@ -25,16 +25,6 @@ class Service
     }
 
     /**
-     * Get the countries repository.
-     *
-     * @return CountriesRepository
-     */
-    public function getRepository()
-    {
-        return $this->countriesRepository;
-    }
-
-    /**
      * Get all currencies.
      *
      * @return Coollection
