@@ -42,7 +42,7 @@ class UpdateData extends Base
         })->groupBy('grouping')->each(function ($item, $key) {
             $this->mkdir(dirname($file = $this->makeStateFileName($key)));
 
-            $item = $item->mapWithKeys(function($item) {
+            $item = $item->mapWithKeys(function ($item) {
                 return [$this->makeStatePostalCode($item) => $item];
             });
 
