@@ -46,8 +46,7 @@ class UpdateData extends Base
             return $this->normalize($item);
         })->groupBy('grouping')->each(function ($item, $key) {
             file_put_contents($this->makeStateFileName($key), json_encode($item));
-        })->count()
-        ;
+        })->count();
 
         return $count;
     }
