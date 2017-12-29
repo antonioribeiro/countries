@@ -3,6 +3,7 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use Illuminate\Support\Str;
+use PragmaRX\Coollection\Package\Coollection;
 
 class Hydrator
 {
@@ -28,17 +29,6 @@ class Hydrator
     }
 
     /**
-     * Create a currency from json.
-     *
-     * @param $json
-     * @return mixed
-     */
-    protected function createCurrencyFromJson($json)
-    {
-        return json_decode($json, true);
-    }
-
-    /**
      * @param $countryCode
      */
     protected function createHydrated($countryCode)
@@ -48,6 +38,66 @@ class Hydrator
         }
 
         return $this->repository->countries[$countryCode]['hydrated'];
+    }
+
+    /**
+     * Hydrate elements of a collection of countries.
+     *
+     * @param $countries
+     * @param $elements
+     * @return mixed
+     */
+    private function hydrateCountries($countries, $elements)
+    {
+        return $this->repository->collection(
+            $countries->map(function ($country) use ($elements) {
+                return $this->hydrateCountry($country, $elements);
+            })
+        );
+    }
+
+    /**
+     * Hydrate elements of a country.
+     *
+     * @param $country
+     * @param $elements
+     * @return mixed
+     */
+    private function hydrateCountry($country, $elements)
+    {
+        $country = $this->toArray($country);
+
+        $countryCode = $country['cca3'];
+
+        $this->addCountry($countryCode, $country);
+
+        foreach ($elements as $element => $enabled) {
+            $this->hydrateCountryElement($countryCode, $element, $enabled);
+        }
+
+        return $this->getCountry($countryCode);
+    }
+
+    /**
+     * Check if an element is a country.
+     *
+     * @param $element
+     * @return bool
+     */
+    private function isCountry($element)
+    {
+        return ($element instanceof Coollection || is_array($element)) && isset($element['cca3']);
+    }
+
+    /**
+     * Check it's a currency array or code.
+     *
+     * @param $data
+     * @return bool
+     */
+    private function isCurrencyArray($data)
+    {
+        return is_array($data) && isset($data['ISO4217Code']);
     }
 
     /**
@@ -71,7 +121,7 @@ class Hydrator
      * Hydrate a collection, making a collection of collections.
      *
      * @param $country
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
     protected function hydrateCollection($country)
     {
@@ -153,10 +203,10 @@ class Hydrator
      */
     protected function hydrateBorders($country)
     {
-        $country['borders'] = collect($country['borders'])->map(function ($border) {
+        $country['borders'] = countriesCollect($country['borders'])->map(function ($border) {
             $border = $this->repository->call('where', ['cca3', $border]);
 
-            if ($border instanceof Collection && $border->count() == 1) {
+            if ($border instanceof Coollection && $border->count() == 1) {
                 return $border->first();
             }
 
@@ -174,11 +224,11 @@ class Hydrator
      */
     protected function hydrateTimezone($country)
     {
-        if (! isset($this->repository->timezones[$country['cca2']])) {
+        if (is_null($timezone = $this->repository->findTimezone($country['cca2']))) {
             return $country;
         }
 
-        $country['timezone'] = $this->repository->timezones[$country['cca2']];
+        $country['timezone'] = $timezone;
 
         return $this->toArray($country);
     }
@@ -191,8 +241,16 @@ class Hydrator
      */
     protected function hydrateCurrency($country)
     {
-        $country['currency'] = collect($country['currency'])->map(function ($code) {
-            return $this->repository->currenciesRepository->loadCurrency($code);
+        $country['currency'] = countriesCollect($country['currency'])->mapWithKeys(function ($code, $key) {
+            if ($this->isCurrencyArray($code)) {
+                return [
+                    $code['ISO4217Code'] => $code,
+                ];
+            }
+
+            return [
+                $code => $this->repository->currenciesRepository->loadCurrency($code),
+            ];
         });
 
         return $this->toArray($country);
@@ -201,29 +259,17 @@ class Hydrator
     /**
      * Hydrate a countries collection with languages.
      *
-     * @param Collection $countries
+     * @param \PragmaRX\Coollection\Package\Coollection|array|\stdClass $target
      * @param null $elements
-     * @return Collection
+     * @return \PragmaRX\Coollection\Package\Coollection
      */
-    public function hydrate(Collection $countries, $elements = null)
+    public function hydrate($target, $elements = null)
     {
         $elements = $this->getHydrationElements($elements);
 
-        return $this->repository->collection(
-            $countries->map(function ($country) use ($elements) {
-                $country = $this->toArray($country);
-
-                $countryCode = $country['cca3'];
-
-                $this->addCountry($countryCode, $country);
-
-                foreach ($elements as $element => $enabled) {
-                    $this->hydrateCountryElement($countryCode, $element, $enabled);
-                }
-
-                return $this->getCountry($countryCode);
-            })
-        );
+        return ! $this->isCountry($this->toArray($target))
+            ? $this->hydrateCountries($target, $elements)
+            : $this->hydrateCountry($target, $elements);
     }
 
     /**
@@ -272,7 +318,7 @@ class Hydrator
      */
     protected function checkHydrationElements($elements)
     {
-        $elements = collect($elements)->mapWithKeys(function ($value, $key) {
+        $elements = countriesCollect($elements)->mapWithKeys(function ($value, $key) {
             if (is_numeric($key)) {
                 $key = $value;
                 $value = true;
@@ -302,11 +348,13 @@ class Hydrator
      */
     public function toArray($data)
     {
-        if ($data instanceof \stdClass) {
-            $data = json_decode(json_encode($data), true);
+        if (is_array($data)) {
+            return $data;
         }
 
-        return $data;
+        return $data instanceof \stdClass
+            ? json_decode(json_encode($data), true)
+            : $data->toArray();
     }
 
     /**

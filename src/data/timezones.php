@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     'AD' => 'Europe/Andorra',
 
     'AE' => 'Asia/Dubai',

@@ -2,7 +2,7 @@
 
 namespace PragmaRX\Countries\Package\Console\Commands;
 
-use PragmaRX\Countries\Package\Support\ExportData;
+use PragmaRX\Countries\Package\Support\UpdateData;
 
 class Update extends Base
 {
@@ -33,7 +33,7 @@ class Update extends Base
      */
     public function fire()
     {
-        app(ExportData::class)->update($this);
+        app(UpdateData::class)->update($this);
 
         $this->info('Updated.');
     }

@@ -1,7 +1,14 @@
 # Countries
 ## A Laravel Countries package, with lots of information
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries) [![License](https://img.shields.io/badge/license-BSD_3_Clause-brightgreen.svg?style=flat-square)](LICENSE) [![Code Quality](https://img.shields.io/scrutinizer/g/antonioribeiro/countries.svg?style=flat-square)](https://scrutinizer-ci.com/g/antonioribeiro/countries/?branch=master) [![Build](https://img.shields.io/travis/antonioribeiro/countries.svg?style=flat-square)](https://travis-ci.org/antonioribeiro/countries) [![StyleCI](https://styleci.io/repos/74829244/shield)](https://styleci.io/repos/74829244) <!--- [![Downloads](https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries) -->
+[![Latest Stable Version](https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries)
+[![License](https://img.shields.io/badge/license-BSD_3_Clause-brightgreen.svg?style=flat-square)](LICENSE) 
+[![Code Quality](https://img.shields.io/scrutinizer/g/antonioribeiro/countries.svg?style=flat-square)](https://scrutinizer-ci.com/g/antonioribeiro/countries/?branch=master) 
+[![Coverage](https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/countries.svg?style=flat-square)](https://scrutinizer-version.com/g/antonioribeiro/countries/?branch=master)
+[![Build](https://img.shields.io/travis/antonioribeiro/countries.svg?style=flat-square)](https://travis-ci.org/antonioribeiro/countries) 
+[![StyleCI](https://styleci.io/repos/74829244/shield)](https://styleci.io/repos/74829244) 
+[![Downloads](https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries)
+[![PHP](https://img.shields.io/badge/PHP-7.0%20%7C%207.1%20%7C%207.2%20%7C%20nightly-green.svg?style=flat)](https://travis-ci.org/antonioribeiro/countries)
 
 ### Geoology and Topology for countries
 
@@ -257,6 +264,18 @@ returns
     "Anguilla",
     "Åland Islands",
     ....
+```
+
+#### Generate a list of currencies
+
+```php
+Countries::all()->pluck('currency');
+```
+
+returns
+
+```php
+Countries::all()->pluck('currency')
 ```
 
 #### Generate a list of States

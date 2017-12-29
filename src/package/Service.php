@@ -2,6 +2,7 @@
 
 namespace PragmaRX\Countries\Package;
 
+use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Support\CountriesRepository;
 
 class Service
@@ -24,23 +25,13 @@ class Service
     }
 
     /**
-     * Get the countries repository.
-     *
-     * @return CountriesRepository
-     */
-    public function getRepository()
-    {
-        return $this->countriesRepository;
-    }
-
-    /**
      * Get all currencies.
      *
-     * @return \Illuminate\Support\Collection
+     * @return Coollection
      */
     public function currencies()
     {
-        return collect($this->countriesRepository->currencies())->unique()->sort();
+        return countriesCollect($this->countriesRepository->currencies())->unique()->sort();
     }
 
     /**
