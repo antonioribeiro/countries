@@ -101,6 +101,16 @@ class CountriesRepository extends Base
     }
 
     /**
+     * Hydrator getter.
+     *
+     * @return Hydrator
+     */
+    public function getHydrator(): Hydrator
+    {
+        return $this->hydrator;
+    }
+
+    /**
      * Get json converter home directory.
      *
      * @return string
