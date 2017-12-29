@@ -66,7 +66,7 @@ if (! function_exists('countriesCollect')) {
     }
 }
 
-if (!function_exists('download_file')) {
+if (! function_exists('download_file')) {
     /**
      * Download a file from the Internet.
      *
@@ -76,32 +76,32 @@ if (!function_exists('download_file')) {
      */
     function download_file($url, $destination)
     {
-        $fr = fopen($url, "r");
-        $fw = fopen($destination, "w");
+        $fr = fopen($url, 'r');
+        $fw = fopen($destination, 'w');
 
-        while(!feof($fr)) {
+        while (! feof($fr)) {
             fwrite($fw, fread($fr, 4096));
 
             flush();
         }
 
-        fclose ($fr);
-        fclose ($fw);
+        fclose($fr);
+        fclose($fw);
 
         chmod($destination, 0644);
     }
 }
 
-
-if (!function_exists('deltree')) {
+if (! function_exists('deltree')) {
     /**
      * Delete a directory and all its files.
      *
      * @param $dir
-     * @return boolean
+     * @return bool
      */
-    function deltree($dir) {
-        $files = array_diff(scandir($dir), array('.','..'));
+    function deltree($dir)
+    {
+        $files = array_diff(scandir($dir), ['.', '..']);
 
         foreach ($files as $file) {
             (is_dir("$dir/$file")) ? delTree("$dir/$file") : unlink("$dir/$file");
