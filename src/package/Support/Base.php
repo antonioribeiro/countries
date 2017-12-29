@@ -30,12 +30,14 @@ class Base
     /**
      * Get data directory.
      *
-     * @param string $path
+     * @param $path
      * @return string
      */
     protected function dataDir($path = '')
     {
-        return __COUNTRIES_DIR__._dir("/src/data{$path}");
+        $path = empty($path) ? '' : "/{$path}";
+
+        return __COUNTRIES_DIR__._dir("/src/data$path");
     }
 
     /**

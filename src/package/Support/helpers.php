@@ -101,6 +101,10 @@ if (! function_exists('deltree')) {
      */
     function deltree($dir)
     {
+        if (!file_exists($dir)) {
+            return false;
+        }
+
         $files = array_diff(scandir($dir), ['.', '..']);
 
         foreach ($files as $file) {

@@ -24,16 +24,11 @@ class UpdateData extends Base
     }
 
     /**
-     * Get data directory.
-     *
-     * @param $path
-     * @return string
+     * Erase all files from states data dir.
      */
-    protected function dataDir($path = '')
+    private function eraseStateDataDir()
     {
-        $path = empty($path) ? '' : "/{$path}";
-
-        return __COUNTRIES_DIR__._dir("/src/data$path");
+        deltree($this->dataDir('/states/default'));
     }
 
     /**
@@ -45,10 +40,29 @@ class UpdateData extends Base
         $count = countriesCollect($result)->map(function ($item) {
             return $this->normalize($item);
         })->groupBy('grouping')->each(function ($item, $key) {
-            file_put_contents($this->makeStateFileName($key), json_encode($item));
+            $this->mkdir(dirname($file = $this->makeStateFileName($key)));
+
+            $item = $item->mapWithKeys(function($item) {
+                return [$this->makeStatePostalCode($item) => $item];
+            });
+
+            file_put_contents($file, json_encode($item));
         })->count();
 
         return $count;
+    }
+
+    /**
+     * Get the state postal code.
+     *
+     * @param $item
+     * @return mixed
+     */
+    protected function makeStatePostalCode($item)
+    {
+        return trim($item->postal) === ''
+            ? "{$item->grouping}.{$item->adm0_sr}"
+            : $item->postal;
     }
 
     /**
@@ -87,10 +101,6 @@ class UpdateData extends Base
      */
     private function normalize($item)
     {
-        if ($item['hasc_maybe'] == 'BR.RO|BRA-RND') {
-            $item['postal'] = 'RO';
-        }
-
         $item['grouping'] = $item['gu_a3'] ?: $item['adm0_a3'];
 
         return $item;
@@ -117,7 +127,7 @@ class UpdateData extends Base
      */
     private function renameWrongStatesJsonFiles()
     {
-        rename($this->dataDir('/states/fxx.json'), $this->dataDir('/states/fra.json'));
+        rename($this->dataDir('/states/default/fxx.json'), $this->dataDir('/states/default/fra.json'));
     }
 
     /**
@@ -125,6 +135,8 @@ class UpdateData extends Base
      */
     public function updateAdminStates()
     {
+        $this->eraseStateDataDir();
+
         $result = $this->loadShapeFile();
 
         $this->progress('Updating json files...');
@@ -144,7 +156,7 @@ class UpdateData extends Base
      */
     protected function makeStateFileName($key)
     {
-        return $this->dataDir('/states/'.strtolower($key).'.json');
+        return $this->dataDir('/states/default/'.strtolower($key).'.json');
     }
 
     /**

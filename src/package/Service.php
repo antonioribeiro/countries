@@ -57,7 +57,7 @@ class Service
      *
      * @return CountriesRepository
      */
-    public function getRepository(): CountriesRepository
+    public function getRepository()
     {
         return $this->repository;
     }

@@ -2,6 +2,7 @@
 
 namespace PragmaRX\Countries\Tests\Service;
 
+use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Tests\TestCase;
 use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Facade as Countries;
@@ -146,6 +147,40 @@ class CountriesTest extends TestCase
         $this->assertEquals(
             Countries::where('cca3', 'JPN')->first()->hydrateTimezone()->timezone,
             'Asia/Tokyo'
+        );
+
+        $this->assertInstanceOf(
+            Collection::class,
+            Countries::where('cca3', 'BRA')->first()->hydrate('timezone')
+        );
+
+        $this->assertInstanceOf(
+            Collection::class,
+            Countries::where('cca3', 'ITA')->first()->hydrate('timezone')->states
+        );
+
+        $this->assertInstanceOf(
+            Collection::class,
+            Countries::where('cca3', 'ITA')->first()->hydrateTimezone()->states
+        );
+    }
+
+    public function testOldIncorrectStates()
+    {
+        $c = Countries::where('cca3', 'BRA')->first()->hydrate('states');
+
+        $this->assertEquals("BRA-595", $c->states->RO->adm1_code);
+        $this->assertEquals("BR.RO", $c->states->RO->code_hasc);
+        $this->assertEquals("RO", $c->states->RO->postal);
+
+        $this->assertEquals(
+            'Puglia',
+            Countries::where('cca3', 'ITA')->first()->hydrate('timezone')->states['BA']['region']
+        );
+
+        $this->assertEquals(
+            'Sicilia',
+            Countries::where('cca3', 'ITA')->first()->hydrate('timezone')->states['TP']['region']
         );
     }
 }
