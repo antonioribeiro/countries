@@ -40,7 +40,7 @@ class ServiceProvider extends IlluminateServiceProvider
         });
 
         foreach (Hydrator::HYDRATORS as $hydrator) {
-            $hydrator = 'hydrate' . studly_case($hydrator);
+            $hydrator = 'hydrate'.studly_case($hydrator);
 
             Coollection::macro($hydrator, function () use ($hydrator) {
                 return Countries::getRepository()->getHydrator()->{$hydrator}($this);
