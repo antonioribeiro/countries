@@ -891,6 +891,7 @@ return [
     'UM' => 'Pacific/Wake',
 
     'US' => [
+        'AK' => 'America/Anchorage',
         'AL' => 'America/Chicago',
         'AR' => 'America/Chicago',
         'AZ' => 'America/Phoenix',
