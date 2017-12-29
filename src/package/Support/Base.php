@@ -46,7 +46,7 @@ class Base
      */
     private function message($message, $type = 'line')
     {
-        if (!is_null($this->command)) {
+        if (! is_null($this->command)) {
             $this->command->{$type}($message);
         }
     }
