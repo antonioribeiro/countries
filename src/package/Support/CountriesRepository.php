@@ -105,7 +105,7 @@ class CountriesRepository extends Base
      *
      * @return Hydrator
      */
-    public function getHydrator(): Hydrator
+    public function getHydrator()
     {
         return $this->hydrator;
     }
@@ -136,15 +136,24 @@ class CountriesRepository extends Base
      * @param $country
      * @return null|string
      */
-    public function getStatesJson($country)
+    public function getStatesDefaultJson($country)
     {
-        $file = $this->getHomeDir().
-            _dir('/../data/states/').
-            strtolower($country['cca3']).'.json';
+        return $this->loadFile(
+            $this->dataDir('/states/default/' . strtolower($country['cca3']) . '.json')
+        );
+    }
 
-        if (file_exists($file)) {
-            return file_get_contents($file);
-        }
+    /**
+     * Get the states overload json for a country.
+     *
+     * @param $country
+     * @return null|string
+     */
+    public function getStatesOverloadJson($country)
+    {
+        return $this->loadFile(
+            $this->dataDir('/states/overload/' . strtolower($country['cca3']) . '.json')
+        );
     }
 
     /**
@@ -153,6 +162,19 @@ class CountriesRepository extends Base
     public function loadCountries()
     {
         $this->countriesJson = json_decode($this->loadCountriesJson());
+    }
+
+    /**
+     * Load a file from disk.
+     *
+     * @param $file
+     * @return null|string
+     */
+    private function loadFile($file)
+    {
+        if (file_exists($file)) {
+            return file_get_contents($file);
+        }
     }
 
     /**

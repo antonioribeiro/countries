@@ -29,7 +29,7 @@ class Hydrator
     /**
      * Countries repository.
      *
-     * @var
+     * @var CountriesRepository
      */
     protected $repository;
 
@@ -120,6 +120,20 @@ class Hydrator
     }
 
     /**
+     * Load the state file and merge overloads.
+     *
+     * @param $country
+     * @return mixed
+     */
+    private function loadState($country)
+    {
+        return array_merge(
+            (array) json_decode($this->repository->getStatesDefaultJson($country), true),
+            (array) json_decode($this->repository->getStatesOverloadJson($country), true)
+        );
+    }
+
+    /**
      * Check if an element needs hydrated.
      *
      * @param $countryCode
@@ -155,7 +169,7 @@ class Hydrator
      */
     public function hydrateStates($country)
     {
-        $country['states'] = json_decode($this->repository->getStatesJson($country), true);
+        $country['states'] = $this->loadState($country);
 
         return $country;
     }
@@ -299,7 +313,7 @@ class Hydrator
      */
     public function getCountry($countryCode)
     {
-        return $this->repository->countries[$countryCode];
+        return countriesCollect($this->repository->countries[$countryCode]);
     }
 
     /**
