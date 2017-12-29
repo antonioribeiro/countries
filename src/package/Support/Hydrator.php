@@ -8,6 +8,25 @@ use PragmaRX\Coollection\Package\Coollection;
 class Hydrator
 {
     /**
+     * All hydrators.
+     *
+     * @var
+     */
+    const HYDRATORS = [
+        'country',
+        'countries',
+        'currency',
+        'timezone',
+        'collection',
+        'states',
+        'topology',
+        'geometry',
+        'flag',
+        'borders',
+        'timezone',
+    ];
+
+    /**
      * Countries repository.
      *
      * @var
@@ -123,7 +142,7 @@ class Hydrator
      * @param $country
      * @return \PragmaRX\Coollection\Package\Coollection
      */
-    protected function hydrateCollection($country)
+    public function hydrateCollection($country)
     {
         return $this->repository->collection($country);
     }
@@ -134,7 +153,7 @@ class Hydrator
      * @param $country
      * @return mixed
      */
-    protected function hydrateStates($country)
+    public function hydrateStates($country)
     {
         $country['states'] = json_decode($this->repository->getStatesJson($country), true);
 
@@ -147,7 +166,7 @@ class Hydrator
      * @param $country
      * @return mixed
      */
-    protected function hydrateTopology($country)
+    public function hydrateTopology($country)
     {
         $country['topology'] = $this->repository->getTopology($country);
 
@@ -160,7 +179,7 @@ class Hydrator
      * @param $country
      * @return mixed
      */
-    protected function hydrateGeometry($country)
+    public function hydrateGeometry($country)
     {
         $country['geometry'] = $this->repository->getGeometry($country);
 
@@ -188,7 +207,7 @@ class Hydrator
      * @param $country
      * @return mixed
      */
-    protected function hydrateFlag($country)
+    public function hydrateFlag($country)
     {
         $country['flag'] = $this->repository->makeAllFlags($country);
 
@@ -201,7 +220,7 @@ class Hydrator
      * @param $country
      * @return mixed
      */
-    protected function hydrateBorders($country)
+    public function hydrateBorders($country)
     {
         $country['borders'] = countriesCollect($country['borders'])->map(function ($border) {
             $border = $this->repository->call('where', ['cca3', $border]);
@@ -222,7 +241,7 @@ class Hydrator
      * @param $country
      * @return mixed
      */
-    protected function hydrateTimezone($country)
+    public function hydrateTimezone($country)
     {
         if (is_null($timezone = $this->repository->findTimezone($country['cca2']))) {
             return $country;
@@ -230,7 +249,7 @@ class Hydrator
 
         $country['timezone'] = $timezone;
 
-        return $this->toArray($country);
+        return $country;
     }
 
     /**
@@ -239,7 +258,7 @@ class Hydrator
      * @param $country
      * @return mixed
      */
-    protected function hydrateCurrency($country)
+    public function hydrateCurrency($country)
     {
         $country['currency'] = countriesCollect($country['currency'])->mapWithKeys(function ($code, $key) {
             if ($this->isCurrencyArray($code)) {

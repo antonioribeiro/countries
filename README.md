@@ -218,6 +218,29 @@ Should return
 Ireland
 ````
 
+### Hydration
+
+To improve performance, hydration, which is enabled by default, can be disable on most country properties, and this is how you manually hydrate properties:
+
+```php
+Countries::where('cca3', 'FRA')->first()->hydrate('timezone')->timezone
+
+Countries::where('cca3', 'JPN')->first()->hydrateTimezone()->timezone
+```
+
+Those are some of the hydratable properties:
+
+- Country
+- Countries
+- Currency
+- Timezone
+- States
+- Topology
+- Geometry
+- Flag
+- Borders
+- Timezone
+
 ### Extra where rules
 Some properties are stored differently and we therefore need special rules for accessing them, these properties are
 - `ISO639_3` => The 3 letter language code.

@@ -135,4 +135,17 @@ class CountriesTest extends TestCase
             'America/New_York'
         );
     }
+
+    public function testHydratorMethods()
+    {
+        $this->assertEquals(
+            Countries::where('cca3', 'FRA')->first()->hydrate('timezone')->timezone,
+            'Europe/Paris'
+        );
+
+        $this->assertEquals(
+            Countries::where('cca3', 'JPN')->first()->hydrateTimezone()->timezone,
+            'Asia/Tokyo'
+        );
+    }
 }

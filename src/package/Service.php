@@ -12,16 +12,16 @@ class Service
      *
      * @var CountriesRepository
      */
-    protected $countriesRepository;
+    protected $repository;
 
     /**
      * Service constructor.
      *
-     * @param CountriesRepository $countriesRepository
+     * @param CountriesRepository $repository
      */
-    public function __construct(CountriesRepository $countriesRepository)
+    public function __construct(CountriesRepository $repository)
     {
-        $this->countriesRepository = $countriesRepository;
+        $this->repository = $repository;
     }
 
     /**
@@ -31,7 +31,7 @@ class Service
      */
     public function currencies()
     {
-        return countriesCollect($this->countriesRepository->currencies())->unique()->sort();
+        return countriesCollect($this->repository->currencies())->unique()->sort();
     }
 
     /**
@@ -43,12 +43,22 @@ class Service
      */
     public function __call($name, array $arguments = [])
     {
-        $result = $this->countriesRepository->call($name, $arguments);
+        $result = $this->repository->call($name, $arguments);
 
         if (config('countries.hydrate.after')) {
-            $result = $this->countriesRepository->hydrate($result);
+            $result = $this->repository->hydrate($result);
         }
 
         return $result;
+    }
+
+    /**
+     * Repository getter.
+     *
+     * @return CountriesRepository
+     */
+    public function getRepository(): CountriesRepository
+    {
+        return $this->repository;
     }
 }

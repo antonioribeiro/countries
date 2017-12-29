@@ -38,6 +38,14 @@ class ServiceProvider extends IlluminateServiceProvider
         Coollection::macro('hydrate', function ($elements) {
             return Countries::hydrate($this, $elements);
         });
+
+        foreach (Hydrator::HYDRATORS as $hydrator) {
+            $hydrator = 'hydrate' . studly_case($hydrator);
+
+            Coollection::macro($hydrator, function () use ($hydrator) {
+                return Countries::getRepository()->getHydrator()->{$hydrator}($this);
+            });
+        }
     }
 
     /**
