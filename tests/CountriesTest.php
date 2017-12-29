@@ -2,9 +2,9 @@
 
 namespace PragmaRX\Countries\Tests\Service;
 
-use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Tests\TestCase;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Facade as Countries;
 
 class CountriesTest extends TestCase
@@ -169,9 +169,9 @@ class CountriesTest extends TestCase
     {
         $c = Countries::where('cca3', 'BRA')->first()->hydrate('states');
 
-        $this->assertEquals("BRA-595", $c->states->RO->adm1_code);
-        $this->assertEquals("BR.RO", $c->states->RO->code_hasc);
-        $this->assertEquals("RO", $c->states->RO->postal);
+        $this->assertEquals('BRA-595', $c->states->RO->adm1_code);
+        $this->assertEquals('BR.RO', $c->states->RO->code_hasc);
+        $this->assertEquals('RO', $c->states->RO->postal);
 
         $this->assertEquals(
             'Puglia',
