@@ -35,7 +35,7 @@ class Base
      */
     protected function dataDir($path = '')
     {
-        $path = empty($path) ? '' : "/{$path}";
+        $path = (empty($path) || starts_with($path, DIRECTORY_SEPARATOR)) ? $path : "/{$path}";
 
         return __COUNTRIES_DIR__._dir("/src/data$path");
     }
