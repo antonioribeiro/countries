@@ -101,7 +101,7 @@ class UpdateData extends Base
      */
     private function normalize($item)
     {
-        $item['grouping'] = $item['gu_a3'] ?: $item['adm0_a3'];
+        $item['grouping'] = $item['adm0_a3'];
 
         return $item;
     }
@@ -123,14 +123,6 @@ class UpdateData extends Base
     }
 
     /**
-     * Rename wrong states json files.
-     */
-    private function renameWrongStatesJsonFiles()
-    {
-        rename($this->dataDir('/states/default/fxx.json'), $this->dataDir('/states/default/fra.json'));
-    }
-
-    /**
      * Import data.
      */
     public function updateAdminStates()
@@ -142,8 +134,6 @@ class UpdateData extends Base
         $this->progress('Updating json files...');
 
         $count = $this->generateStatesJsonFiles($result);
-
-        $this->renameWrongStatesJsonFiles();
 
         $this->progress("Generated {$count} .json files.");
     }
