@@ -55,6 +55,17 @@ This package is a collection of some other packages with information on:
     - language
     - (and many more)
 
+- Cities
+    - region
+    - elevation
+    - latitude
+    - longitude
+    - area (km and mi)
+    - population (from 1950 to 2050)
+    - is it a "mega city"?
+    - timezone        
+    - name (translated to several languages)
+    
 - Flags. There are some options available out there, so this package will give you some:
     - sprite, based on [https://www.flag-sprites.com/](https://www.flag-sprites.com/)
     - flag-icon and flag-icon-squared, based on [https://github.com/lipis/flag-icon-css](https://github.com/lipis/flag-icon-css)
@@ -324,6 +335,23 @@ returns
     ....
 ```
 
+#### Hydrate and get a cities
+
+```php
+Countries::where('cca3', 'FRA')
+    ->first()
+    ->hydrate('cities')
+    ->cities
+    ->paris
+    ->timezone
+```
+
+Should return
+
+```text
+Europe/Paris
+```
+
 #### Get the timezone for a State
 
 ```php
@@ -454,6 +482,13 @@ If you want to change this behaviour, you can edit `config/countries.php` file o
 ## Author
 
 [Antonio Carlos Ribeiro](http://twitter.com/iantonioribeiro)
+
+## Copyrights
+
+This package make use of those library/packages:
+
+- [mledoze/countries](https://github.com/mledoze/countries)
+- [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector)
 
 ## License
 

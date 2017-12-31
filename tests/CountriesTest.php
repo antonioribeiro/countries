@@ -191,4 +191,20 @@ class CountriesTest extends TestCase
             Countries::where('name.common', 'Brazil')->first()->currency->pluck('sign')[0]
         );
     }
+
+    public function testTranslation()
+    {
+        $this->assertEquals(
+            'Brazil',
+            Countries::where('name.common', 'Brazil')->first()->translations->{app()->getLocale()}->common
+        );
+    }
+
+    public function testCitiesHydration()
+    {
+        $this->assertEquals(
+            Countries::where('cca3', 'FRA')->first()->hydrate('cities')->cities->paris->timezone,
+            'Europe/Paris'
+        );
+    }
 }

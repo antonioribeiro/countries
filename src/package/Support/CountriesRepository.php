@@ -3,7 +3,6 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use MLD\Converter\JsonConverter;
-use PragmaRX\Countries\Package\Service;
 
 class CountriesRepository extends Base
 {
@@ -29,13 +28,6 @@ class CountriesRepository extends Base
     public $currenciesRepository;
 
     /**
-     * Cache instance.
-     *
-     * @var \PragmaRX\Countries\Package\Support\Cache
-     */
-    public $cache;
-
-    /**
      * Countries.
      *
      * @var array
@@ -58,7 +50,7 @@ class CountriesRepository extends Base
      */
     public function __construct(Cache $cache, CurrenciesRepository $currenciesRepository, Hydrator $hydrator)
     {
-        $this->cache = $cache;
+        $this->setCache($cache);
 
         $this->currenciesRepository = $currenciesRepository;
 
@@ -90,17 +82,6 @@ class CountriesRepository extends Base
     }
 
     /**
-     * Make a collection.
-     *
-     * @param $country
-     * @return \PragmaRX\Coollection\Package\Coollection
-     */
-    public function collection($country)
-    {
-        return countriesCollect($country);
-    }
-
-    /**
      * Hydrator getter.
      *
      * @return Hydrator
@@ -121,60 +102,11 @@ class CountriesRepository extends Base
     }
 
     /**
-     * Get package home dir.
-     *
-     * @return string
-     */
-    public function getHomeDir()
-    {
-        return getClassDir(Service::class);
-    }
-
-    /**
-     * Get states json for a country.
-     *
-     * @param $country
-     * @return null|string
-     */
-    public function getStatesDefaultJson($country)
-    {
-        return $this->loadFile(
-            $this->dataDir('/states/default/'.strtolower($country['cca3']).'.json')
-        );
-    }
-
-    /**
-     * Get the states overload json for a country.
-     *
-     * @param $country
-     * @return null|string
-     */
-    public function getStatesOverloadJson($country)
-    {
-        return $this->loadFile(
-            $this->dataDir('/states/overload/'.strtolower($country['cca3']).'.json')
-        );
-    }
-
-    /**
      * Load countries.
      */
     public function loadCountries()
     {
         $this->countriesJson = json_decode($this->loadCountriesJson());
-    }
-
-    /**
-     * Load a file from disk.
-     *
-     * @param $file
-     * @return null|string
-     */
-    private function loadFile($file)
-    {
-        if (file_exists($file)) {
-            return file_get_contents($file);
-        }
     }
 
     /**
@@ -195,7 +127,7 @@ class CountriesRepository extends Base
     public function loadCountriesJson()
     {
         return $this->readFile(
-            $this->getJsonConverterHomeDir()._dir('/dist/countries.json')
+            $this->dataDir('countries/default/_all_countries.json')
         );
     }
 
@@ -309,52 +241,6 @@ class CountriesRepository extends Base
             _dir('/data/').
             strtolower($country['cca3']).'.geo.json'
         );
-    }
-
-    /**
-     * Get a cached value.
-     *
-     * @param $array
-     * @return bool|mixed
-     */
-    public function getCached($array)
-    {
-        if (config('countries.cache.enabled')) {
-            if ($value = $this->cache->get($this->cache->makeKey($array))) {
-                return $value;
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Cache a value.
-     *
-     * @param $keyParameters
-     * @param $value
-     * @return mixed
-     */
-    public function cache($keyParameters, $value)
-    {
-        if (config('countries.cache.enabled')) {
-            $this->cache->set($this->cache->makeKey($keyParameters), $value);
-        }
-
-        return $value;
-    }
-
-    /**
-     * Read a file.
-     *
-     * @param $filePath
-     * @return string
-     */
-    public function readFile($filePath)
-    {
-        if (file_exists($filePath)) {
-            return file_get_contents($filePath);
-        }
     }
 
     /**

@@ -2,7 +2,7 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
-use ShapeFile\ShapeFile;
+use Closure;
 
 class UpdateData extends Base
 {
@@ -10,6 +10,39 @@ class UpdateData extends Base
      * @param \Illuminate\Console\Command $line
      */
     protected $command;
+
+    /**
+     * Build countries collection.
+     *
+     * @param $dataDir
+     * @return static
+     */
+    private function buildCountriesCollection($dataDir)
+    {
+        $shapefile = $this->loadShapeFile('natural_earth/ne_10m_admin_0_countries');
+
+        $mledoze = countriesCollect(json_decode($this->loadJson('countries', 'mledoze'), true))->mapWithKeys(function ($country) {
+            return [$country['cca3'] => $country];
+        });
+
+        $countries = countriesCollect($shapefile)->mapWithKeys(function ($natural, $key) use ($mledoze, $dataDir) {
+            $result = $this->mergeCountries(
+                countriesCollect($natural)->mapWithKeys(function ($value, $key) {
+                    return [strtolower($key) => $value];
+                }),
+                $mledoze->get($countryCode = $natural['adm0_a3'])
+            );
+
+            $this->putFile(
+                $this->makeJsonFileName(strtolower($countryCode), $dataDir),
+                $result->toJson(JSON_PRETTY_PRINT)
+            );
+
+            return [$countryCode => $result];
+        });
+
+        return $countries;
+    }
 
     /**
      * Download files.
@@ -25,31 +58,46 @@ class UpdateData extends Base
 
     /**
      * Erase all files from states data dir.
+     * @param string $dir
      */
-    private function eraseStateDataDir()
+    private function eraseDataDir($dir)
     {
-        deltree($this->dataDir('/states/default'));
+        deltree($this->dataDir($dir));
     }
 
     /**
+     * Generate json files from array.
+     * s
      * @param $result
+     * @param $dir
+     * @param Closure $makeGroupKeyClosure
      * @return mixed
      */
-    private function generateStatesJsonFiles($result)
+    private function generateJsonFiles($result, $dir, $makeGroupKeyClosure)
     {
-        $count = countriesCollect($result)->map(function ($item) {
-            return $this->normalize($item);
-        })->groupBy('grouping')->each(function ($item, $key) {
-            $this->mkdir(dirname($file = $this->makeStateFileName($key)));
+        $count2 = 0;
 
-            $item = $item->mapWithKeys(function ($item) {
-                return [$this->makeStatePostalCode($item) => $item];
+        $count1 = countriesCollect($result)->map(function ($item) {
+            return $this->normalize(countriesCollect($item)->mapWithKeys(function($value, $key) {
+                return [strtolower($key) => $value];
+            }));
+        })->groupBy('grouping')->each(function ($item, $key) use ($dir, $makeGroupKeyClosure, &$count2) {
+            $this->mkdir(dirname($file = $this->makeJsonFileName($key, $dir)));
+
+            $item = $item->mapWithKeys(function ($item) use ($makeGroupKeyClosure) {
+                return [$makeGroupKeyClosure($item) => countriesCollect($item)->sortBy(function($value, $key) {
+                    return $key;
+                })];
+            })->sortBy(function ($value, $key) {
+                return $key;
             });
 
-            file_put_contents($file, json_encode($item));
+            $count2 += $item->count();
+
+            file_put_contents($file, $this->jsonEncode($item));
         })->count();
 
-        return $count;
+        return [$count1, $count2];
     }
 
     /**
@@ -68,29 +116,14 @@ class UpdateData extends Base
     /**
      * Load the shape file (DBF) to array.
      *
+     * @param string $dir
      * @return array
      */
-    private function loadShapeFile()
+    private function loadShapeFile($dir)
     {
         $this->progress('Loading shape file...');
 
-        $shapeRecords = new ShapeFile($this->dataDir('natural_earth/ne_10m_admin_1_states_provinces'));
-
-        $result = [];
-
-        foreach ($shapeRecords as $record) {
-            if ($record['dbf']['_deleted']) {
-                continue;
-            }
-
-            $result[] = $record['dbf'];
-        }
-
-        unset($shapeRecords);
-
-        deltree($this->dataDir('natural_earth'));
-
-        return $result;
+        return load_shapefile($this->dataDir($dir));
     }
 
     /**
@@ -123,33 +156,6 @@ class UpdateData extends Base
     }
 
     /**
-     * Import data.
-     */
-    public function updateAdminStates()
-    {
-        $this->eraseStateDataDir();
-
-        $result = $this->loadShapeFile();
-
-        $this->progress('Updating json files...');
-
-        $count = $this->generateStatesJsonFiles($result);
-
-        $this->progress("Generated {$count} .json files.");
-    }
-
-    /**
-     * Make state json filename.
-     *
-     * @param $key
-     * @return string
-     */
-    protected function makeStateFileName($key)
-    {
-        return $this->dataDir('/states/default/'.strtolower($key).'.json');
-    }
-
-    /**
      * Update all data.
      *
      * @param $command
@@ -160,6 +166,101 @@ class UpdateData extends Base
 
         $this->downloadFiles();
 
-        $this->updateAdminStates();
+        $this->updateStates();
+
+        $this->updateCities();
+
+        $this->updateCountries();
+
+        deltree($this->dataDir('natural_earth'));
+
+        deltree($this->dataDir('mledoze'));
+    }
+
+    /**
+     * Update cities.
+     */
+    public function updateCities()
+    {
+        $this->progress('Updating cities...');
+
+        $this->eraseDataDir($dataDir = '/cities/default/');
+
+        $result = $this->loadShapeFile('natural_earth/ne_10m_populated_places');
+
+        list($countries, $cities) = $this->generateJsonFiles($result, $dataDir, function($item) {
+            return snake_case(strtolower($item['nameascii']));
+        });
+
+        $this->progress("Generated {$cities} cities for {$countries} countries.");
+    }
+
+    /**
+     * Update countries.
+     */
+    public function updateCountries()
+    {
+        $this->progress('Updating countries...');
+
+        $this->eraseDataDir($dataDir = '/countries/default/');
+
+        $countries = $this->buildCountriesCollection($dataDir);
+
+        $this->putFile(
+            $this->makeJsonFileName('_all_countries', $dataDir),
+            $countries->toJson(JSON_PRETTY_PRINT)
+        );
+
+        $this->progress('Generated '.$countries->count().' countries.');
+    }
+
+    /**
+     * Merge the two countries sources.
+     *
+     * @param \PragmaRX\Countries\Package\Support\Collection $country1
+     * @param \PragmaRX\Countries\Package\Support\Collection $country2
+     * @return mixed
+     */
+    function mergeCountries($country1, $country2)
+    {
+        if (is_null($country2)) {
+            return $country1;
+        }
+
+        foreach ($country1 as $key => $value) {
+            $got = $country2->get($key);
+
+            if (is_null($got)) {
+                $country2[$key] = $value;
+
+                continue;
+            }
+
+            if ($got !== $value) {
+                $country2[$key . '_nev'] = $value; // Natural Earth Vector
+            }
+        }
+
+        return $country2->sortBy(function ($value, $key) {
+            return $key;
+        });
+    }
+
+    /**
+     * Update states.
+     */
+    public function updateStates()
+    {
+        $this->progress('Updating states...');
+
+        $this->eraseDataDir($dataDir = '/states/default');
+
+        $result = $this->loadShapeFile('natural_earth/ne_10m_admin_1_states_provinces');
+
+        list($countries, $states) = $this->generateJsonFiles($result, $dataDir, function($item) {
+            return $this->makeStatePostalCode($item);
+        });
+
+        $this->progress("Generated {$states} states for {$countries} countries.");
     }
 }

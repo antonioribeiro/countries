@@ -1,5 +1,6 @@
 <?php
 
+use ShapeFile\ShapeFile;
 use PragmaRX\Countries\Package\Support\Collection;
 
 if (! function_exists('getPackageSrcDir')) {
@@ -58,7 +59,7 @@ if (! function_exists('countriesCollect')) {
      * Check if array is multidimensional.
      *
      * @param mixed|null $data
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \PragmaRX\Countries\Package\Support\Collection
      */
     function countriesCollect($data = null)
     {
@@ -114,3 +115,41 @@ if (! function_exists('deltree')) {
         return rmdir($dir);
     }
 }
+
+if (! function_exists('load_shapefile')) {
+    /**
+     * Load a shapefile.
+     *
+     * @param $dir
+     * @return \PragmaRX\Countries\Package\Support\Collection
+     */
+    function load_shapefile($dir)
+    {
+        $shapeRecords = new ShapeFile($dir);
+
+        $result = [];
+
+        foreach ($shapeRecords as $record) {
+            if ($record['dbf']['_deleted']) {
+                continue;
+            }
+
+            $data = $record['dbf'];
+
+            unset($data['_deleted']);
+
+            $result[] = $data;
+        }
+
+        unset($shapeRecords);
+
+        return countriesCollect($result)->mapWithKeys(function($fields, $key1) {
+            return [
+                strtolower($key1) => countriesCollect($fields)->mapWithKeys(function($value, $key2) {
+                    return [strtolower($key2) => $value];
+                })
+            ];
+        });
+    }
+}
+
