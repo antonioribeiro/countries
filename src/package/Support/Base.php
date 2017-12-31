@@ -7,7 +7,7 @@ use PragmaRX\Countries\Package\Service;
 class Base
 {
     /**
-     * Console command
+     * Console command.
      *
      * @var \Illuminate\Console\Command
      */
@@ -137,13 +137,12 @@ class Base
      */
     protected function makeJsonFileName($key, $dir = '')
     {
-        if (!ends_with(DIRECTORY_SEPARATOR, $dir)) {
+        if (! ends_with(DIRECTORY_SEPARATOR, $dir)) {
             $dir .= DIRECTORY_SEPARATOR;
         }
 
         return $this->dataDir(_dir($dir).strtolower($key).'.json');
     }
-
 
     /**
      * Put contents into a file.
@@ -202,6 +201,7 @@ class Base
     {
         return getClassDir(Service::class);
     }
+
     /**
      * Get a cached value.
      *

@@ -67,7 +67,7 @@ class UpdateData extends Base
 
     /**
      * Generate json files from array.
-     * s
+     * s.
      * @param $result
      * @param $dir
      * @param Closure $makeGroupKeyClosure
@@ -78,14 +78,14 @@ class UpdateData extends Base
         $count2 = 0;
 
         $count1 = countriesCollect($result)->map(function ($item) {
-            return $this->normalize(countriesCollect($item)->mapWithKeys(function($value, $key) {
+            return $this->normalize(countriesCollect($item)->mapWithKeys(function ($value, $key) {
                 return [strtolower($key) => $value];
             }));
         })->groupBy('grouping')->each(function ($item, $key) use ($dir, $makeGroupKeyClosure, &$count2) {
             $this->mkdir(dirname($file = $this->makeJsonFileName($key, $dir)));
 
             $item = $item->mapWithKeys(function ($item) use ($makeGroupKeyClosure) {
-                return [$makeGroupKeyClosure($item) => countriesCollect($item)->sortBy(function($value, $key) {
+                return [$makeGroupKeyClosure($item) => countriesCollect($item)->sortBy(function ($value, $key) {
                     return $key;
                 })];
             })->sortBy(function ($value, $key) {
@@ -188,7 +188,7 @@ class UpdateData extends Base
 
         $result = $this->loadShapeFile('natural_earth/ne_10m_populated_places');
 
-        list($countries, $cities) = $this->generateJsonFiles($result, $dataDir, function($item) {
+        list($countries, $cities) = $this->generateJsonFiles($result, $dataDir, function ($item) {
             return snake_case(strtolower($item['nameascii']));
         });
 
@@ -221,7 +221,7 @@ class UpdateData extends Base
      * @param \PragmaRX\Countries\Package\Support\Collection $country2
      * @return mixed
      */
-    function mergeCountries($country1, $country2)
+    public function mergeCountries($country1, $country2)
     {
         if (is_null($country2)) {
             return $country1;
@@ -237,7 +237,7 @@ class UpdateData extends Base
             }
 
             if ($got !== $value) {
-                $country2[$key . '_nev'] = $value; // Natural Earth Vector
+                $country2[$key.'_nev'] = $value; // Natural Earth Vector
             }
         }
 
@@ -257,7 +257,7 @@ class UpdateData extends Base
 
         $result = $this->loadShapeFile('natural_earth/ne_10m_admin_1_states_provinces');
 
-        list($countries, $states) = $this->generateJsonFiles($result, $dataDir, function($item) {
+        list($countries, $states) = $this->generateJsonFiles($result, $dataDir, function ($item) {
             return $this->makeStatePostalCode($item);
         });
 
