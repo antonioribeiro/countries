@@ -143,13 +143,12 @@ if (! function_exists('load_shapefile')) {
 
         unset($shapeRecords);
 
-        return countriesCollect($result)->mapWithKeys(function($fields, $key1) {
+        return countriesCollect($result)->mapWithKeys(function ($fields, $key1) {
             return [
-                strtolower($key1) => countriesCollect($fields)->mapWithKeys(function($value, $key2) {
+                strtolower($key1) => countriesCollect($fields)->mapWithKeys(function ($value, $key2) {
                     return [strtolower($key2) => $value];
-                })
+                }),
             ];
         });
     }
 }
-
