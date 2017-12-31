@@ -13,17 +13,19 @@ class Hydrator
      * @var
      */
     const HYDRATORS = [
-        'country',
-        'countries',
-        'currency',
-        'timezone',
-        'collection',
-        'states',
-        'topology',
-        'geometry',
-        'flag',
         'borders',
+        'cities',
+        'collection',
+        'countries',
+        'country',
+        'currency',
+        'flag',
+        'geometry',
+        'states',
         'timezone',
+        'timezone',
+        'topology',
+        'natural_earth_data',
     ];
 
     /**
@@ -120,16 +122,30 @@ class Hydrator
     }
 
     /**
-     * Load the state file and merge overloads.
+     * Load the cities file and merge overloads.
      *
      * @param $country
      * @return mixed
      */
-    private function loadState($country)
+    private function loadCities($country)
     {
         return array_merge(
-            (array) json_decode($this->repository->getStatesDefaultJson($country), true),
-            (array) json_decode($this->repository->getStatesOverloadJson($country), true)
+            (array) json_decode($this->repository->loadJson($country['cca3'], 'cities/default'), true),
+            (array) json_decode($this->repository->loadJson($country['cca3'], 'cities/overload'), true)
+        );
+    }
+
+    /**
+     * Load the states file and merge overloads.
+     *
+     * @param $country
+     * @return mixed
+     */
+    private function loadStates($country)
+    {
+        return array_merge(
+            (array) json_decode($this->repository->loadJson($country['cca3'], 'states/default'), true),
+            (array) json_decode($this->repository->loadJson($country['cca3'], 'states/overload'), true)
         );
     }
 
@@ -162,6 +178,19 @@ class Hydrator
     }
 
     /**
+     * Hydrate cities.
+     *
+     * @param $country
+     * @return mixed
+     */
+    public function hydrateCities($country)
+    {
+        $country['cities'] = $this->loadCities($country);
+
+        return $country;
+    }
+
+    /**
      * Hydrate states.
      *
      * @param $country
@@ -169,7 +198,7 @@ class Hydrator
      */
     public function hydrateStates($country)
     {
-        $country['states'] = $this->loadState($country);
+        $country['states'] = $this->loadStates($country);
 
         return $country;
     }
@@ -381,7 +410,7 @@ class Hydrator
      */
     public function toArray($data)
     {
-        if (is_array($data)) {
+        if (is_array($data) || is_null($data)) {
             return $data;
         }
 
