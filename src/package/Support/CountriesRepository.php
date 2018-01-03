@@ -126,7 +126,7 @@ class CountriesRepository extends Base
      */
     public function loadCountriesJson()
     {
-        return $this->readFile(
+        return $this->loadFile(
             $this->dataDir('countries/default/_all_countries.json')
         );
     }
@@ -184,15 +184,15 @@ class CountriesRepository extends Base
         return [
             // https://www.flag-sprites.com/
             // https://github.com/LeoColomb/flag-sprites
-            'sprite' => '<span class="flag flag-'.($flag = strtolower($country['cca2'])).'"></span>',
+            'sprite' => '<span class="flag flag-'.($flag = strtolower($country['cca3'])).'"></span>',
 
             // https://github.com/lipis/flag-icon-css
             'flag-icon' => '<span class="flag-icon flag-icon-'.$flag.'"></span>',
             'flag-icon-squared' => '<span class="flag-icon flag-icon-'.$flag.' flag-icon-squared"></span>',
 
             // https://github.com/lafeber/world-flags-sprite
-            'world-flags-sprite' => '<span class="flag '.$flag.'></span>',
-
+            'world-flags-sprite' => '<span class="flag '.$flag.'"></span>',
+            
             // Internal svg file
             'svg' => $this->getFlagSvg($country['cca3']),
         ];
@@ -206,7 +206,7 @@ class CountriesRepository extends Base
      */
     public function getFlagSvg($country)
     {
-        return file_get_contents(
+        return $this->loadFile(
             $this->getJsonConverterHomeDir().
             _dir('/data/').
             strtolower($country).'.svg'
@@ -221,7 +221,7 @@ class CountriesRepository extends Base
      */
     public function getGeometry($country)
     {
-        return file_get_contents(
+        return $this->loadFile(
             $this->getJsonConverterHomeDir().
             _dir('/data/').
             strtolower($country['cca3']).'.geo.json'
@@ -236,7 +236,7 @@ class CountriesRepository extends Base
      */
     public function getTopology($country)
     {
-        return file_get_contents(
+        return $this->loadFile(
             $this->getJsonConverterHomeDir().
             _dir('/data/').
             strtolower($country['cca3']).'.geo.json'
