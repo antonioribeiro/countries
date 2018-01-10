@@ -1,5 +1,5 @@
 {
-  "name": "terceleye/countries",
+  "name": "pragmarx/countries",
 
   "description": "Laravel Countries and Currencies ",
 
@@ -31,7 +31,7 @@
 
   "autoload": {
     "psr-4": {
-      "terceleye\\Countries\\Package\\": "src/package"
+      "PragmaRX\\Countries\\Package\\": "src/package"
     },
     "files": [
       "src/package/Support/helpers.php"
@@ -40,17 +40,17 @@
 
   "autoload-dev": {
     "psr-4": {
-      "terceleye\\Countries\\Tests\\": "tests/",
-      "terceleye\\Countries\\Tests\\PhpUnit\\": "tests/PhpUnit/"
+      "PragmaRX\\Countries\\Tests\\": "tests/",
+      "PragmaRX\\Countries\\Tests\\PhpUnit\\": "tests/PhpUnit/"
     }
   },
     "extra": {
         "laravel": {
             "providers": [
-                "terceleye\\Countries\\Package\\ServiceProvider"
+                "PragmaRX\\Countries\\Package\\ServiceProvider"
             ],
             "aliases": {
-                "Countries": "terceleye\\Countries\\Package\\Facade"
+                "Countries": "PragmaRX\\Countries\\Package\\Facade"
             }
         }
     }
