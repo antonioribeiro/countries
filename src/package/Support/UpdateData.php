@@ -5,8 +5,8 @@ namespace PragmaRX\Countries\Package\Support;
 use File;
 use Cache;
 use Closure;
-use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Support\Exceptions\Exception;
+use PragmaRX\Coollection\Package\Coollection;
 
 class UpdateData extends Base
 {
@@ -37,7 +37,6 @@ class UpdateData extends Base
 
     protected function removeTemporaryFolders()
     {
-
     }
 
     /**
@@ -79,7 +78,7 @@ class UpdateData extends Base
             $record = $record->toArray();
         }
 
-        if (!isset($record[$field = 'data_sources'])) {
+        if (! isset($record[$field = 'data_sources'])) {
             $record['data_sources'] = [];
         }
 
@@ -176,7 +175,7 @@ class UpdateData extends Base
     protected function downloadDataFiles()
     {
         countriesCollect(config('countries.data.downloadable'))->each(function ($urls, $path) {
-            if (!file_exists($destination = $this->dataDir("third-party/$path"))) {
+            if (! file_exists($destination = $this->dataDir("third-party/$path"))) {
                 countriesCollect($urls)->each(function ($url) use ($path, $destination) {
                     $this->download($url, $destination);
 
@@ -216,25 +215,25 @@ class UpdateData extends Base
      */
     protected function fillMledozeFields($fields)
     {
-        $fields["name_nev"] = $fields["name"];
+        $fields['name_nev'] = $fields['name'];
 
-        $fields["name"] = [
-            "common" => $fields["name"],
-            "official" => $fields["formal_en"],
+        $fields['name'] = [
+            'common' => $fields['name'],
+            'official' => $fields['formal_en'],
         ];
 
-        $fields["cca2"] = $fields['iso_a2'];
-        $fields["ccn3"] = $fields['iso_n3'];
-        $fields["cca3"] = $fields['iso_a3'];
+        $fields['cca2'] = $fields['iso_a2'];
+        $fields['ccn3'] = $fields['iso_n3'];
+        $fields['cca3'] = $fields['iso_a3'];
 
-        $fields["region"] = $fields['region_un'];
-        $fields["subregion"] = $fields['subregion'];
+        $fields['region'] = $fields['region_un'];
+        $fields['subregion'] = $fields['subregion'];
 
-        $fields["borders"] = [];
+        $fields['borders'] = [];
 
         $fields['curencies'] = [];
 
-        $fields["notes"] = ['Incomplete record due to missing mledoze country.'];
+        $fields['notes'] = ['Incomplete record due to missing mledoze country.'];
 
         return $fields;
     }
@@ -271,7 +270,7 @@ class UpdateData extends Base
             'latlng'       => 'geo',
         ];
 
-        countriesCollect($mergeable)->each(function($to, $key) use (&$natural) {
+        countriesCollect($mergeable)->each(function ($to, $key) use (&$natural) {
             if (isset($natural[$key])) {
                 $natural->overwrite([$to => [$key => $natural[$key]]]);
 
@@ -308,9 +307,10 @@ class UpdateData extends Base
      * @param $codeField
      * @return array
      */
-    protected function findByFields($on, $by, $fields, $codeField) {
+    protected function findByFields($on, $by, $fields, $codeField)
+    {
         foreach ($fields as $field) {
-            if (isset($by[$field[1]]) && !is_null($found = $on->where($field[0], $by[$field[1]])->first())) {
+            if (isset($by[$field[1]]) && ! is_null($found = $on->where($field[0], $by[$field[1]])->first())) {
                 return [countriesCollect($found), $found->{$codeField}];
             }
         }
@@ -329,7 +329,7 @@ class UpdateData extends Base
     {
         list($country, $countryCode) = $this->findCountryByAnyField($mledoze, $natural);
 
-        if (!$country->isEmpty()) {
+        if (! $country->isEmpty()) {
             return [countriesCollect(array_keys_snake_recursive($country)), $countryCode];
         }
 
@@ -385,7 +385,7 @@ class UpdateData extends Base
 
         if ($states->isEmpty()) {
             return $states;
-        };
+        }
 
         $state = $states->filter(function ($rinvexState) use ($needle) {
             return $rinvexState->postal == $needle->postal ||
@@ -425,7 +425,7 @@ class UpdateData extends Base
      */
     protected function generateAllJsonFiles($dir, $makeGroupKeyClosure, $records, $groupKey)
     {
-        if (!empty($groupKey)) {
+        if (! empty($groupKey)) {
             $records = $records->groupBy($groupKey);
         }
 
@@ -496,7 +496,7 @@ class UpdateData extends Base
             }
         }
 
-        if (!empty(trim($item->postal))) {
+        if (! empty(trim($item->postal))) {
             $item->postal;
         }
 
@@ -524,6 +524,7 @@ class UpdateData extends Base
         dump(11);
         if (file_exists($sha = $this->dataDir('tmp/'.sha1($file = $this->dataDir($file))))) {
             dump(12);
+
             return $this->loadJson($sha);
         }
         dump(13);
@@ -587,7 +588,7 @@ class UpdateData extends Base
                 continue;
             }
 
-            if ($rinvexValue !== $naturalValue && !$defaultToRinvex->contains($key)) {
+            if ($rinvexValue !== $naturalValue && ! $defaultToRinvex->contains($key)) {
                 $result[$key.$suffix] = $rinvexValue; // Natural Earth Vector
             }
 
@@ -627,7 +628,7 @@ class UpdateData extends Base
      */
     protected function moveDataFiles()
     {
-        countriesCollect(config('countries.data.moveable'))->each(function($to, $from) {
+        countriesCollect(config('countries.data.moveable'))->each(function ($to, $from) {
             $this->moveDataFile($from, $to);
         });
     }
@@ -637,7 +638,7 @@ class UpdateData extends Base
      */
     protected function deleteTemporaryFiles()
     {
-        countriesCollect(config('countries.data.deletable'))->each(function($directory) {
+        countriesCollect(config('countries.data.deletable'))->each(function ($directory) {
             if (file_exists($directory = $this->dataDir($directory))) {
                 File::deleteDirectory($directory);
             }
@@ -652,49 +653,48 @@ class UpdateData extends Base
      */
     protected function moveFilesWildcard($from, $to)
     {
-        countriesCollect(glob($this->dataDir($from)))->each(function ($from) use ($to)
-        {
+        countriesCollect(glob($this->dataDir($from)))->each(function ($from) use ($to) {
             $this->mkDir($to = $this->dataDir($to));
 
-            rename($from, $to."/".basename($from));
+            rename($from, $to.'/'.basename($from));
         });
     }
 
     private function naturalToStateArray($state)
     {
         $state = [
-            "name" => $state['name'],
+            'name' => $state['name'],
 
-            "alt_names" => explode('|', $state['name_alt']),
+            'alt_names' => explode('|', $state['name_alt']),
 
-            "cca2" => $state['cca2'],
+            'cca2' => $state['cca2'],
 
-            "cca3" => $state['cca3'],
+            'cca3' => $state['cca3'],
 
-            "code_hasc" => $state['code_hasc'],
+            'code_hasc' => $state['code_hasc'],
 
-            "extra" => countriesCollect($state)->sortByKey()->except([
+            'extra' => countriesCollect($state)->sortByKey()->except([
                 'name', 'name_alt', 'latitude', 'longitude', 'cca2', 'cca3',
                 'iso_a2', 'iso_a3', 'type', 'type_en', 'postal',
-                'iso_3166_2', 'code_hasc'
+                'iso_3166_2', 'code_hasc',
             ]),
 
-            "geo" => [
-                "latitude" => $state['latitude'],
-                "longitude" => $state['longitude'],
+            'geo' => [
+                'latitude' => $state['latitude'],
+                'longitude' => $state['longitude'],
             ],
 
-            "iso_a2" => $state['iso_a2'],
+            'iso_a2' => $state['iso_a2'],
 
-            "iso_a3" => $state['iso_a3'],
+            'iso_a3' => $state['iso_a3'],
 
-            "iso_3166_2" => $state['iso_3166_2'],
+            'iso_3166_2' => $state['iso_3166_2'],
 
-            "postal" => $this->makeStatePostalCode($state),
+            'postal' => $this->makeStatePostalCode($state),
 
-            "type" => $state['type'],
+            'type' => $state['type'],
 
-            "type_en" => $state['type_en'],
+            'type_en' => $state['type_en'],
         ];
 
         return $state;
@@ -709,13 +709,12 @@ class UpdateData extends Base
     protected function normalizeData($result, $dir, $normalizerClosure)
     {
         return Cache::remember(
-            'normalizeData' . $dir, 160,
+            'normalizeData'.$dir, 160,
             function () use ($dir, $result, $normalizerClosure) {
                 return countriesCollect($result)->map(function ($item, $key) use ($normalizerClosure) {
                     return $normalizerClosure(countriesCollect($item)->mapWithKeys(function ($value, $key) {
                         return [strtolower($key) => $value];
-                    })
-                    ,$key);
+                    }), $key);
                 });
             }
         );
@@ -742,7 +741,7 @@ class UpdateData extends Base
             $countryCode = $this->caseForKey($item['name']);
         }
 
-        $item['iso_a3'] = !isset($item['iso_a3'])
+        $item['iso_a3'] = ! isset($item['iso_a3'])
             ? $countryCode
             : $item['iso_a3'];
 
@@ -818,17 +817,17 @@ class UpdateData extends Base
     private function rinvexToStateArray($rinvex, $cca3, $postal, $country)
     {
         $mergeable = [
-            "cca2" => $country['cca2'],
+            'cca2' => $country['cca2'],
 
-            "cca3" => $cca3,
+            'cca3' => $cca3,
 
-            "iso_a2" => $country['iso_a2'],
+            'iso_a2' => $country['iso_a2'],
 
-            "iso_a3" => $country['iso_a3'],
+            'iso_a3' => $country['iso_a3'],
 
-            "iso_3166_2" => "{$country['cca2']}-$postal",
+            'iso_3166_2' => "{$country['cca2']}-$postal",
 
-            "postal" => $postal,
+            'postal' => $postal,
         ];
 
         return $rinvex->overwrite($mergeable);
@@ -862,7 +861,7 @@ class UpdateData extends Base
 
         $this->message('Processing cities...');
 
-        $normalizerClosure = function($item) {
+        $normalizerClosure = function ($item) {
             $item = $this->addDataSource($item, 'natural');
 
             $item = $this->addRecordType($item, 'city');
@@ -880,8 +879,7 @@ class UpdateData extends Base
 
         list($countries, $cities) = $this->generateJsonFiles($result, $dataDir, $normalizerClosure, $codeGeneratorClosure, $mergerClosure);
 
-        $this->progress("Generated ".count($cities)." cities.");
-
+        $this->progress('Generated '.count($cities).' cities.');
     }
 
     /**
@@ -967,7 +965,7 @@ class UpdateData extends Base
 
         $this->message('Processing currencies...');
 
-        $normalizerClosure = function($item) {
+        $normalizerClosure = function ($item) {
             $item = $this->addDataSource($item, 'world-currencies');
 
             $item = $this->addRecordType($item, 'currency');
@@ -976,7 +974,6 @@ class UpdateData extends Base
         };
 
         $getCodeClosure = function ($item) {
-            return null;
         };
 
         $generateTaxData = function ($tax) {
@@ -985,7 +982,7 @@ class UpdateData extends Base
 
         $currencies = $this->generateJsonFiles($currencies, $dataDir, $normalizerClosure, $getCodeClosure, $generateTaxData, null);
 
-        $this->progress("Generated ".count($currencies)." currencies.");
+        $this->progress('Generated '.count($currencies).' currencies.');
     }
 
     /**
@@ -1001,7 +998,7 @@ class UpdateData extends Base
 
         $this->message('Processing states...');
 
-        $normalizerClosure = function($item) {
+        $normalizerClosure = function ($item) {
             $item = $this->addDataSource($item, 'natural');
 
             $item = $this->addRecordType($item, 'state');
@@ -1019,7 +1016,7 @@ class UpdateData extends Base
 
         list($countries, $states) = $this->generateJsonFiles($result, $dataDir, $normalizerClosure, $getCodeClosure, $mergerClosure);
 
-        $this->progress("Generated ".count($states)." states.");
+        $this->progress('Generated '.count($states).' states.');
     }
 
     protected function updateTaxes()
@@ -1053,7 +1050,7 @@ class UpdateData extends Base
             $vat = $this->addRecordType($vat, 'tax');
 
             $vat = [
-                $type . (empty($modifier) ? '' : '_') . $modifier => $vat
+                $type.(empty($modifier) ? '' : '_').$modifier => $vat,
             ];
 
             return [$country->cca3 => $vat];
@@ -1061,7 +1058,7 @@ class UpdateData extends Base
 
         $this->message('Processing taxes...');
 
-        $normalizerClosure = function($item, $key) {
+        $normalizerClosure = function ($item, $key) {
             return $item;
         };
 
@@ -1075,7 +1072,7 @@ class UpdateData extends Base
 
         $taxes = $this->generateJsonFiles($taxes, $dataDir, $normalizerClosure, $getCodeClosure, $generateTaxData, null);
 
-        $this->progress("Generated ".count($taxes)." taxes.");
+        $this->progress('Generated '.count($taxes).' taxes.');
     }
 
     protected function updateTimezone()
@@ -1102,7 +1099,7 @@ class UpdateData extends Base
                             'zone_id'      => $value[0],
                             'country_code' => $value[1],
                             'zone_name'    => $value[2],
-                        ]
+                        ],
                     ];
                 });
             }
@@ -1164,7 +1161,7 @@ class UpdateData extends Base
                     'cca2' => $country->cca2,
                     'cca3' => $country->cca3,
                     'name' => $item['name'],
-                ]
+                ],
             ];
         })->map(function ($country) use ($zones, $abbreviations) {
             $country['timezones'] = $zones->where('country_code', $country['cca2'])->mapWithKeys(function ($zone) use ($abbreviations, $country) {
@@ -1187,7 +1184,6 @@ class UpdateData extends Base
         $this->message('Generating timezone files...');
 
         $getCountryCodeClosure = function ($timezone) {
-            return null;
         };
 
         $normalizeCountryClosure = function ($country) {
@@ -1202,9 +1198,9 @@ class UpdateData extends Base
 
         $this->generateJsonFiles($timezones, "$dataDir/timezones/default", $dummyClosure, null, $dummyClosure, 'zone_id');
 
-        $this->progress("Generated timezones for ".count($countries)." countries.");
+        $this->progress('Generated timezones for '.count($countries).' countries.');
 
-        $this->progress("Generated ".count($timezones)." timezones.");
+        $this->progress('Generated '.count($timezones).' timezones.');
     }
 
     /**
