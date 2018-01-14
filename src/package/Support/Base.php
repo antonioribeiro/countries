@@ -3,7 +3,7 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use Exception;
-use \Illuminate\Console\Command;
+use Illuminate\Console\Command;
 use PragmaRX\Countries\Package\Service;
 
 class Base
@@ -119,7 +119,6 @@ class Base
         return __COUNTRIES_DIR__._dir("/tmp/{$path}");
     }
 
-
     /**
      * Load json files from dir.
      *
@@ -146,10 +145,10 @@ class Base
     public function loadJson($file, $dir = null)
     {
         if (empty($file)) {
-            throw new Exception("loadJson Error: File name not set");
+            throw new Exception('loadJson Error: File name not set');
         }
 
-        if (!file_exists($file) && !file_exists($file = $this->dataDir("/$dir/".strtolower($file).'.json'))) {
+        if (! file_exists($file) && ! file_exists($file = $this->dataDir("/$dir/".strtolower($file).'.json'))) {
             return countriesCollect();
         }
 
@@ -173,10 +172,10 @@ class Base
     public function loadCsv($file, $dir = null)
     {
         if (empty($file)) {
-            throw new Exception("loadCsv Error: File name not set");
+            throw new Exception('loadCsv Error: File name not set');
         }
 
-        if (!file_exists($file)) {
+        if (! file_exists($file)) {
             $file = $this->dataDir("/$dir/".strtolower($file).'.csv');
         }
 
@@ -185,7 +184,6 @@ class Base
             true
         ));
     }
-
 
     /**
      * Load a file from disk.

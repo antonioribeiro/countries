@@ -72,7 +72,7 @@ class CountriesTest extends TestCase
     {
         $this->assertEquals(
             'Agrigento',
-            Countries::where('name.common', 'Italy')->first()->hydrate('states')->states->sortBy(function($state) {
+            Countries::where('name.common', 'Italy')->first()->hydrate('states')->states->sortBy(function ($state) {
                 return $state['name'];
             })->first()->name
         );
@@ -212,7 +212,7 @@ class CountriesTest extends TestCase
     {
         $number = Countries::all()->hydrate('currencies')->pluck('currencies')->map(function ($value) {
             return $value->keys()->flatten()->toArray();
-        })->flatten()->filter(function($value) {
+        })->flatten()->filter(function ($value) {
             return $value !== 'unknown';
         })->sort()->values()->unique()->count();
 
@@ -236,13 +236,13 @@ class CountriesTest extends TestCase
     {
         $number = Countries::all()->pluck('languages')->map(function ($value) {
             if (is_null($value)) {
-                return null;
+                return;
             }
 
-            return $value->keys()->flatten()->mapWithKeys(function($value, $key) {
+            return $value->keys()->flatten()->mapWithKeys(function ($value, $key) {
                 return [$value => $value];
             })->toArray();
-        })->flatten()->unique()->values()->reject(function($value) {
+        })->flatten()->unique()->values()->reject(function ($value) {
             return is_null($value);
         })->count();
 
@@ -328,7 +328,7 @@ class CountriesTest extends TestCase
 
             $a = file_get_contents(__DIR__."/../docs/sample-{$element}.json");
 
-            if (arrayable($b) ) {
+            if (arrayable($b)) {
                 $a = json_decode($a, true);
                 $b = $b->toArray();
             } else {
@@ -344,7 +344,7 @@ class CountriesTest extends TestCase
     {
         return str_replace(
             ["\n", '\n', '\\', '/', ' '],
-            ['',   '',   '',   '',  '',  ],
+            ['',   '',   '',   '',  ''],
             $string
         );
     }
