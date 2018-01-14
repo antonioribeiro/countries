@@ -1,5 +1,6 @@
-# Countries
-## A Laravel Countries package, with lots of information
+# Laravel Countries
+
+![Switzerland](docs/world-map-political-of-the-2013-nations-online-project-best.jpg)
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square)](https://packagist.org/packages/pragmarx/countries)
 [![License](https://img.shields.io/badge/license-BSD_3_Clause-brightgreen.svg?style=flat-square)](LICENSE) 
