@@ -8,31 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Saint Barthelemy",
-    "altSpellings": [
-        "BL",
-        "St. Barthelemy",
-        "Collectivity of Saint Barth\u00e9lemy",
-        "Collectivit\u00e9 de Saint-Barth\u00e9lemy"
-    ],
-    "area": 21,
-    "borders": [],
     "brk_a3": "BLM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "St-Barth\u00c3\u00a9lemy",
-    "callingCode": [
-        "590"
-    ],
-    "capital": "Gustavia",
     "cca2": "BL",
     "cca3": "BLM",
     "ccn3": "652",
-    "cioc": "",
-    "continent": "North America",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Saint Barth\u00e9lemy Islander",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "TB",
@@ -40,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "255.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Saint Barthelemy",
     "gu_a3": "BLM",
@@ -50,15 +45,7 @@
     "iso_a3_eh": "BLM",
     "iso_n3": "652",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "fra": "French"
-    },
     "lastcensus": "-99.00",
-    "latlng": [
-        18.5,
-        -63.41666666
-    ],
     "level": "2.00",
     "long_len": "16.00",
     "mapcolor13": "11.00",
@@ -69,14 +56,8 @@
     "min_label": "5.70",
     "min_zoom": "0.00",
     "name": {
-        "common": "Saint Barth\u00e9lemy",
-        "official": "Collectivity of Saint Barth\u00e9lemy",
-        "native": {
-            "fra": {
-                "official": "Collectivit\u00e9 de Saint-Barth\u00e9lemy",
-                "common": "Saint-Barth\u00e9lemy"
-            }
-        }
+        "common": "St-Barth\u00c3\u00a9lemy",
+        "official": "Saint-Barth\u00c3\u00a9lemy"
     },
     "name_alt": "",
     "name_ciawf": "Saint Barthelemy",
@@ -86,78 +67,21 @@
     "name_sort": "St-Barth\u00c3\u00a9lemy",
     "note_adm0": "Fr.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "7184.00",
     "pop_rank": "5.00",
     "pop_year": "2017.00",
     "postal": "BL",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "6",
     "sov_a3": "FR1",
     "sovereignt": "France",
     "su_a3": "BLM",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Saint Barthelemy",
     "tiny": "4.00",
-    "tld": [
-        ".bl"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Gebietsk\u00f6rperschaft Saint -Barth\u00e9lemy",
-            "common": "Saint-Barth\u00e9lemy"
-        },
-        "fra": {
-            "official": "Collectivit\u00e9 de Saint-Barth\u00e9lemy",
-            "common": "Saint-Barth\u00e9lemy"
-        },
-        "hrv": {
-            "official": "Kolektivnost sv Barth\u00e9lemy",
-            "common": "Saint Barth\u00e9lemy"
-        },
-        "ita": {
-            "official": "Collettivit\u00e0 di Saint Barth\u00e9lemy",
-            "common": "Antille Francesi"
-        },
-        "jpn": {
-            "official": "\u30b5\u30f3\u00b7\u30d0\u30eb\u30c6\u30eb\u30df\u30fc\u5cf6\u306e\u96c6\u5408\u4f53",
-            "common": "\u30b5\u30f3\u30fb\u30d0\u30eb\u30c6\u30eb\u30df\u30fc"
-        },
-        "nld": {
-            "official": "Gemeenschap Saint Barth\u00e9lemy",
-            "common": "Saint Barth\u00e9lemy"
-        },
-        "por": {
-            "official": "Coletividade de Saint Barth\u00e9lemy",
-            "common": "S\u00e3o Bartolomeu"
-        },
-        "rus": {
-            "official": "\u041a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0421\u0430\u043d\u043a\u0442 -\u0411\u0430\u0440\u0442\u0435\u043b\u044c\u043c\u0438",
-            "common": "\u0421\u0435\u043d-\u0411\u0430\u0440\u0442\u0435\u043b\u0435\u043c\u0438"
-        },
-        "slk": {
-            "official": "Sv\u00e4t\u00fd Bartolomej",
-            "common": "Sv\u00e4t\u00fd Bartolomej"
-        },
-        "spa": {
-            "official": "Colectividad de San Barth\u00e9lemy",
-            "common": "San Bartolom\u00e9"
-        },
-        "fin": {
-            "official": "Saint-Barth\u00e9lemyn yhteis\u00f6",
-            "common": "Saint-Barth\u00e9lemy"
-        },
-        "est": {
-            "official": "Saint-Barth\u00e9lemy territoriaal\u00fchendus",
-            "common": "Saint-Barth\u00e9lemy"
-        },
-        "zho": {
-            "official": "\u5723\u5df4\u6cf0\u52d2\u7c73\u96c6\u4f53",
-            "common": "\u5723\u5df4\u6cf0\u52d2\u7c73"
-        }
-    },
     "type": "Dependency",
     "un_a3": "652",
     "wb_a2": "-99",

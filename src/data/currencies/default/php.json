@@ -1,0 +1,50 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20b120",
+            "\u20b150",
+            "\u20b1100",
+            "\u20b1200",
+            "\u20b1500",
+            "\u20b11000"
+        ],
+        "rare": [
+            "\u20b15",
+            "\u20b110"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "25",
+            "\u20b11",
+            "\u20b15",
+            "\u20b110"
+        ],
+        "rare": [
+            "1",
+            "2",
+            "5",
+            "10"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "PHP",
+        "number": "608"
+    },
+    "name": "Philippine Peso",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Peso",
+            "symbol": "\u20b1"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Sentimo",
+            "symbol": ""
+        }
+    }
+}

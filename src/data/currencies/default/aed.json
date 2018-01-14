@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5.\u062f.\u0628",
+            "10.\u062f.\u0628",
+            "20.\u062f.\u0628",
+            "50.\u062f.\u0628",
+            "100.\u062f.\u0628",
+            "200.\u062f.\u0628",
+            "500.\u062f.\u0628"
+        ],
+        "rare": [
+            "1000.\u062f.\u0628"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "50\u0641\u0644\u0633",
+            "1.\u062f.\u0628"
+        ],
+        "rare": [
+            "25\u0641\u0644\u0633"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "AED",
+        "number": "784"
+    },
+    "name": "Emirati Dirham",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dirham",
+            "symbol": ".\u062f.\u0628"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "fils",
+            "symbol": "\u0641\u0644\u0633"
+        }
+    }
+}

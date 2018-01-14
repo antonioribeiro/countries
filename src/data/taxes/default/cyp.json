@@ -1,0 +1,78 @@
+{
+    "vat": {
+        "cca2": "CY",
+        "cca3": "CYP",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Cyprus VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.15,
+                        "end_date": "2012-02-28",
+                        "id": "cy_vat_standard_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.17,
+                        "end_date": "2013-01-13",
+                        "id": "cy_vat_standard_2012",
+                        "start_date": "2012-03-01"
+                    },
+                    {
+                        "amount": 0.18,
+                        "end_date": "2014-01-12",
+                        "id": "cy_vat_standard_2013",
+                        "start_date": "2013-01-14"
+                    },
+                    {
+                        "amount": 0.19,
+                        "id": "cy_vat_standard_2014",
+                        "start_date": "2014-01-13"
+                    }
+                ],
+                "default": true,
+                "id": "cy_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.08,
+                        "end_date": "2014-01-12",
+                        "id": "cy_vat_intermediate_2005",
+                        "start_date": "2005-08-01"
+                    },
+                    {
+                        "amount": 0.09,
+                        "id": "cy_vat_intermediate_2014",
+                        "start_date": "2014-01-13"
+                    }
+                ],
+                "id": "cy_vat_intermediate",
+                "name": "Intermediate"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "id": "cy_vat_reduced_2004",
+                        "start_date": "2004-05-01"
+                    }
+                ],
+                "id": "cy_vat_reduced",
+                "name": "Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "cy_vat",
+        "zone": "cy_vat"
+    }
+}

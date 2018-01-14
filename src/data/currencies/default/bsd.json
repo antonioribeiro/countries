@@ -1,0 +1,52 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$1",
+            "$2",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": [
+            "$1\/2",
+            "$3"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25"
+        ],
+        "rare": [
+            "15",
+            "50",
+            "$1",
+            "$2",
+            "$5"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BSD",
+        "number": "044"
+    },
+    "name": "Bahamian dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "B$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "500",
+            "1000",
+            "2000",
+            "5000",
+            "10000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "25",
+            "100",
+            "500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "XOF",
+        "number": "952"
+    },
+    "name": "CFA Franc",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "franc",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centime",
+            "symbol": ""
+        }
+    }
+}

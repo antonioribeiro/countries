@@ -19,11 +19,11 @@ class ValidationTest extends TestCase
         $this->assertFalse($validator->passes());
     }
 
-    public function testCCA3Rule()
+    public function testISOA3Rule()
     {
         // Valid country
         /** @var \Illuminate\Validation\Validator $validator */
-        $validator = Validator::make(['country' => 'BRA'], ['country' => 'cca3']);
+        $validator = Validator::make(['country' => 'BRA'], ['country' => 'iso_a2']);
         $this->assertTrue($validator->passes());
 
         // Change to Invalid country

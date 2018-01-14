@@ -8,34 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Panama",
-    "altSpellings": [
-        "PA",
-        "Republic of Panama",
-        "Rep\u00fablica de Panam\u00e1"
-    ],
-    "area": 75417,
-    "borders": [
-        "COL",
-        "CRI"
-    ],
     "brk_a3": "PAN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Panama",
-    "callingCode": [
-        "507"
-    ],
-    "capital": "Panama City",
     "cca2": "PA",
     "cca3": "PAN",
     "ccn3": "591",
-    "cioc": "PAN",
-    "continent": "North America",
-    "currency": [
-        "PAB",
-        "USD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Panamanian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "PM",
@@ -43,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "93120.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Central America"
+    },
     "geou_dif": "0.00",
     "geounit": "Panama",
     "gu_a3": "PAN",
@@ -53,15 +45,7 @@
     "iso_a3_eh": "PAN",
     "iso_n3": "591",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "spa": "Spanish"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        9,
-        -80
-    ],
     "level": "2.00",
     "long_len": "6.00",
     "mapcolor13": "3.00",
@@ -73,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Panama",
-        "official": "Republic of Panama",
-        "native": {
-            "spa": {
-                "official": "Rep\u00fablica de Panam\u00e1",
-                "common": "Panam\u00e1"
-            }
-        }
+        "official": "Republic of Panama"
     },
     "name_alt": "",
     "name_ciawf": "Panama",
@@ -89,78 +67,21 @@
     "name_sort": "Panama",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "3753142.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
     "postal": "PA",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "PAN",
     "sovereignt": "Panama",
     "su_a3": "PAN",
     "su_dif": "0.00",
-    "subregion": "Central America",
     "subunit": "Panama",
     "tiny": "-99.00",
-    "tld": [
-        ".pa"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Panama",
-            "common": "Panama"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Panama",
-            "common": "Panama"
-        },
-        "hrv": {
-            "official": "Republika Panama",
-            "common": "Panama"
-        },
-        "ita": {
-            "official": "Repubblica di Panama",
-            "common": "Panama"
-        },
-        "jpn": {
-            "official": "\u30d1\u30ca\u30de\u5171\u548c\u56fd",
-            "common": "\u30d1\u30ca\u30de"
-        },
-        "nld": {
-            "official": "Republiek Panama",
-            "common": "Panama"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Panam\u00e1",
-            "common": "Panam\u00e1"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u0430\u043d\u0430\u043c\u0430",
-            "common": "\u041f\u0430\u043d\u0430\u043c\u0430"
-        },
-        "slk": {
-            "official": "Panamsk\u00e1 republika",
-            "common": "Panama"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Panam\u00e1",
-            "common": "Panam\u00e1"
-        },
-        "fin": {
-            "official": "Panaman tasavalta",
-            "common": "Panama"
-        },
-        "est": {
-            "official": "Panama Vabariik",
-            "common": "Panama"
-        },
-        "zho": {
-            "official": "\u5df4\u62ff\u9a6c\u5171\u548c\u56fd",
-            "common": "\u5df4\u62ff\u9a6c"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "591",
     "wb_a2": "PA",

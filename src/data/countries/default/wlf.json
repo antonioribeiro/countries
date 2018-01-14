@@ -8,30 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Wallis and Futuna",
-    "altSpellings": [
-        "WF",
-        "Territory of the Wallis and Futuna Islands",
-        "Territoire des \u00eeles Wallis et Futuna"
-    ],
-    "area": 142,
-    "borders": [],
     "brk_a3": "WLF",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Wallis and Futuna Islands",
-    "callingCode": [
-        "681"
-    ],
-    "capital": "Mata-Utu",
     "cca2": "WF",
     "cca3": "WLF",
     "ccn3": "876",
-    "cioc": "",
-    "continent": "Oceania",
-    "currency": [
-        "XPF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Wallis and Futuna Islander",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "WF",
@@ -39,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "60.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Oceania",
+        "region": "Oceania",
+        "region_un": "Oceania",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "Polynesia"
+    },
     "geou_dif": "0.00",
     "geounit": "Wallis and Futuna",
     "gu_a3": "WLF",
@@ -49,15 +45,7 @@
     "iso_a3_eh": "WLF",
     "iso_n3": "876",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "fra": "French"
-    },
     "lastcensus": "-99.00",
-    "latlng": [
-        -13.3,
-        -176.2
-    ],
     "level": "2.00",
     "long_len": "25.00",
     "mapcolor13": "11.00",
@@ -68,14 +56,8 @@
     "min_label": "4.70",
     "min_zoom": "0.00",
     "name": {
-        "common": "Wallis and Futuna",
-        "official": "Territory of the Wallis and Futuna Islands",
-        "native": {
-            "fra": {
-                "official": "Territoire des \u00eeles Wallis et Futuna",
-                "common": "Wallis et Futuna"
-            }
-        }
+        "common": "Wallis and Futuna Is.",
+        "official": "Wallis and Futuna Islands"
     },
     "name_alt": "",
     "name_ciawf": "Wallis and Futuna",
@@ -85,78 +67,21 @@
     "name_sort": "Wallis and Futuna",
     "note_adm0": "Fr.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "15714.00",
     "pop_rank": "6.00",
     "pop_year": "2017.00",
     "postal": "WF",
-    "region": "Oceania",
-    "region_un": "Oceania",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "5",
     "sov_a3": "FR1",
     "sovereignt": "France",
     "su_a3": "WLF",
     "su_dif": "0.00",
-    "subregion": "Polynesia",
     "subunit": "Wallis and Futuna",
     "tiny": "3.00",
-    "tld": [
-        ".wf"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Gebiet der Wallis und Futuna",
-            "common": "Wallis und Futuna"
-        },
-        "fra": {
-            "official": "Territoire des \u00eeles Wallis et Futuna",
-            "common": "Wallis-et-Futuna"
-        },
-        "hrv": {
-            "official": "Teritoriju Wallis i Futuna",
-            "common": "Wallis i Fortuna"
-        },
-        "ita": {
-            "official": "Territorio delle Isole Wallis e Futuna",
-            "common": "Wallis e Futuna"
-        },
-        "jpn": {
-            "official": "\u30a6\u30a9\u30ea\u30b9\u00b7\u30d5\u30c4\u30ca\u8af8\u5cf6\u306e\u9818\u571f",
-            "common": "\u30a6\u30a9\u30ea\u30b9\u30fb\u30d5\u30c4\u30ca"
-        },
-        "nld": {
-            "official": "Grondgebied van de Wallis en Futuna",
-            "common": "Wallis en Futuna"
-        },
-        "por": {
-            "official": "Territ\u00f3rio das Ilhas Wallis e Futuna",
-            "common": "Wallis e Futuna"
-        },
-        "rus": {
-            "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0423\u043e\u043b\u043b\u0438\u0441 \u0438 \u0424\u0443\u0442\u0443\u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-            "common": "\u0423\u043e\u043b\u043b\u0438\u0441 \u0438 \u0424\u0443\u0442\u0443\u043d\u0430"
-        },
-        "slk": {
-            "official": "Terit\u00f3rium ostrovov Wallis a Futuna",
-            "common": "Wallis a Futuna"
-        },
-        "spa": {
-            "official": "Territorio de las Islas Wallis y Futuna",
-            "common": "Wallis y Futuna"
-        },
-        "fin": {
-            "official": "Wallisin ja Futunan yhteis\u00f6",
-            "common": "Wallis ja Futuna"
-        },
-        "est": {
-            "official": "Wallise ja Futuna ala",
-            "common": "Wallis ja Futuna"
-        },
-        "zho": {
-            "official": "\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3\u7fa4\u5c9b",
-            "common": "\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3\u7fa4\u5c9b"
-        }
-    },
     "type": "Dependency",
     "un_a3": "876",
     "wb_a2": "-99",

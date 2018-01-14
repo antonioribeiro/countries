@@ -1,0 +1,40 @@
+{
+    "banknotes": {
+        "frequent": [
+            "kr500",
+            "kr1000",
+            "kr2000",
+            "kr5000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "kr1",
+            "kr5",
+            "kr10",
+            "kr100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ISK",
+        "number": "352"
+    },
+    "name": "Icelandic Krona",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "krona",
+            "symbol": "kr"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "eyrir",
+            "symbol": ""
+        }
+    }
+}

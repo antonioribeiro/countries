@@ -8,33 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Cambodia",
-    "altSpellings": [
-        "KH",
-        "Kingdom of Cambodia"
-    ],
-    "area": 181035,
-    "borders": [
-        "LAO",
-        "THA",
-        "VNM"
-    ],
     "brk_a3": "KHM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Cambodia",
-    "callingCode": [
-        "855"
-    ],
-    "capital": "Phnom Penh",
     "cca2": "KH",
     "cca3": "KHM",
     "ccn3": "116",
-    "cioc": "CAM",
-    "continent": "Asia",
-    "currency": [
-        "KHR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Cambodian",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "CB",
@@ -42,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "58940.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "South-Eastern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Cambodia",
     "gu_a3": "KHM",
@@ -52,15 +45,7 @@
     "iso_a3_eh": "KHM",
     "iso_n3": "116",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "khm": "Khmer"
-    },
     "lastcensus": "2008.00",
-    "latlng": [
-        13,
-        105
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "5.00",
@@ -72,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Cambodia",
-        "official": "Kingdom of Cambodia",
-        "native": {
-            "khm": {
-                "official": "\u1796\u17d2\u179a\u17c7\u179a\u17b6\u1787\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6",
-                "common": "K\u00e2mp\u016dch\u00e9a"
-            }
-        }
+        "official": "Kingdom of Cambodia"
     },
     "name_alt": "",
     "name_ciawf": "Cambodia",
@@ -88,82 +67,21 @@
     "name_sort": "Cambodia",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "16204486.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "KH",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "KHM",
     "sovereignt": "Cambodia",
     "su_a3": "KHM",
     "su_dif": "0.00",
-    "subregion": "South-Eastern Asia",
     "subunit": "Cambodia",
     "tiny": "-99.00",
-    "tld": [
-        ".kh"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Teyrnas Cambodia",
-            "common": "Cambodia"
-        },
-        "deu": {
-            "official": "K\u00f6nigreich Kambodscha",
-            "common": "Kambodscha"
-        },
-        "fra": {
-            "official": "Royaume du Cambodge",
-            "common": "Cambodge"
-        },
-        "hrv": {
-            "official": "Kraljevina Kambod\u017ea",
-            "common": "Kambod\u017ea"
-        },
-        "ita": {
-            "official": "Regno di Cambogia",
-            "common": "Cambogia"
-        },
-        "jpn": {
-            "official": "\u30ab\u30f3\u30dc\u30b8\u30a2\u738b\u56fd",
-            "common": "\u30ab\u30f3\u30dc\u30b8\u30a2"
-        },
-        "nld": {
-            "official": "Koninkrijk Cambodja",
-            "common": "Cambodja"
-        },
-        "por": {
-            "official": "Reino do Camboja",
-            "common": "Camboja"
-        },
-        "rus": {
-            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430",
-            "common": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430"
-        },
-        "slk": {
-            "official": "Kambo\u01c6sk\u00e9 kr\u00e1\u013eovstvo",
-            "common": "Kambo\u01c6a"
-        },
-        "spa": {
-            "official": "Reino de Camboya",
-            "common": "Camboya"
-        },
-        "fin": {
-            "official": "Kambod\u017ean kuningaskunta",
-            "common": "Kambod\u017ea"
-        },
-        "est": {
-            "official": "Kambod\u017ea Kuningriik",
-            "common": "Kambod\u017ea"
-        },
-        "zho": {
-            "official": "\u67ec\u57d4\u5be8\u738b\u56fd",
-            "common": "\u67ec\u57d4\u5be8"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "116",
     "wb_a2": "KH",

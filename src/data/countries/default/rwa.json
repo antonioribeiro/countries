@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Rwanda",
-    "altSpellings": [
-        "RW",
-        "Republic of Rwanda",
-        "Repubulika y'u Rwanda",
-        "R\u00e9publique du Rwanda"
-    ],
-    "area": 26338,
-    "borders": [
-        "BDI",
-        "COD",
-        "TZA",
-        "UGA"
-    ],
     "brk_a3": "RWA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Rwanda",
-    "callingCode": [
-        "250"
-    ],
-    "capital": "Kigali",
     "cca2": "RW",
     "cca3": "RWA",
     "ccn3": "646",
-    "cioc": "RWA",
-    "continent": "Africa",
-    "currency": [
-        "RWF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Rwandan",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "RW",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "21970.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Eastern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Rwanda",
     "gu_a3": "RWA",
@@ -55,17 +45,7 @@
     "iso_a3_eh": "RWA",
     "iso_n3": "646",
     "labelrank": "3.00",
-    "landlocked": true,
-    "languages": {
-        "eng": "English",
-        "fra": "French",
-        "kin": "Kinyarwanda"
-    },
     "lastcensus": "2002.00",
-    "latlng": [
-        -2,
-        30
-    ],
     "level": "2.00",
     "long_len": "6.00",
     "mapcolor13": "10.00",
@@ -77,21 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Rwanda",
-        "official": "Republic of Rwanda",
-        "native": {
-            "eng": {
-                "official": "Republic of Rwanda",
-                "common": "Rwanda"
-            },
-            "fra": {
-                "official": "R\u00e9publique rwandaise",
-                "common": "Rwanda"
-            },
-            "kin": {
-                "official": "Repubulika y'u Rwanda",
-                "common": "Rwanda"
-            }
-        }
+        "official": "Republic of Rwanda"
     },
     "name_alt": "",
     "name_ciawf": "Rwanda",
@@ -101,78 +67,21 @@
     "name_sort": "Rwanda",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "11901484.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "RW",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "RWA",
     "sovereignt": "Rwanda",
     "su_a3": "RWA",
     "su_dif": "0.00",
-    "subregion": "Eastern Africa",
     "subunit": "Rwanda",
     "tiny": "-99.00",
-    "tld": [
-        ".rw"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Ruanda",
-            "common": "Ruanda"
-        },
-        "fra": {
-            "official": "R\u00e9publique rwandaise",
-            "common": "Rwanda"
-        },
-        "hrv": {
-            "official": "Republika Ruandi",
-            "common": "Ruanda"
-        },
-        "ita": {
-            "official": "Repubblica del Ruanda",
-            "common": "Ruanda"
-        },
-        "jpn": {
-            "official": "\u30eb\u30ef\u30f3\u30c0\u5171\u548c\u56fd",
-            "common": "\u30eb\u30ef\u30f3\u30c0"
-        },
-        "nld": {
-            "official": "Republiek Rwanda",
-            "common": "Rwanda"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Ruanda",
-            "common": "Ruanda"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0420\u0443\u0430\u043d\u0434\u0430",
-            "common": "\u0420\u0443\u0430\u043d\u0434\u0430"
-        },
-        "slk": {
-            "official": "Rwandsk\u00e1 republika",
-            "common": "Rwanda"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Rwanda",
-            "common": "Ruanda"
-        },
-        "fin": {
-            "official": "Ruandan tasavalta",
-            "common": "Ruanda"
-        },
-        "est": {
-            "official": "Rwanda Vabariik",
-            "common": "Rwanda"
-        },
-        "zho": {
-            "official": "\u5362\u65fa\u8fbe\u5171\u548c\u56fd",
-            "common": "\u5362\u65fa\u8fbe"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "646",
     "wb_a2": "RW",

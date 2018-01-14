@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1\u060b",
+            "2\u060b",
+            "5\u060b",
+            "10\u060b",
+            "20\u060b",
+            "50\u060b",
+            "100\u060b",
+            "500\u060b",
+            "1000\u060b"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1\u060b",
+            "2\u060b",
+            "5\u060b"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "AFN",
+        "number": "004"
+    },
+    "name": "Afghan Afghani",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "afghani",
+            "symbol": "\u060b"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Pul",
+            "symbol": ""
+        }
+    }
+}

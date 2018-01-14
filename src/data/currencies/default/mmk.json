@@ -1,0 +1,54 @@
+{
+    "banknotes": {
+        "frequent": [
+            "50",
+            "K1",
+            "K5",
+            "K10",
+            "K20",
+            "K50",
+            "K100",
+            "K200",
+            "K500",
+            "K1000",
+            "K5000",
+            "K10000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "50",
+            "K1",
+            "K5",
+            "K10",
+            "K50",
+            "K100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MMK",
+        "number": "104"
+    },
+    "name": "Burmese Kyat",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Kyat",
+            "symbol": "K"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Pya",
+            "symbol": ""
+        }
+    }
+}

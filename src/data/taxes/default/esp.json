@@ -1,0 +1,78 @@
+{
+    "vat": {
+        "cca2": "ES",
+        "cca3": "ESP",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Spanish VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.16,
+                        "end_date": "2010-06-30",
+                        "id": "es_vat_standard_1995",
+                        "start_date": "1995-01-01"
+                    },
+                    {
+                        "amount": 0.18,
+                        "end_date": "2012-08-31",
+                        "id": "es_vat_standard_2010",
+                        "start_date": "2010-07-01"
+                    },
+                    {
+                        "amount": 0.21,
+                        "id": "es_vat_standard_2012",
+                        "start_date": "2012-09-01"
+                    }
+                ],
+                "default": true,
+                "id": "es_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.07,
+                        "end_date": "2010-06-30",
+                        "id": "es_vat_reduced_1995",
+                        "start_date": "1995-01-01"
+                    },
+                    {
+                        "amount": 0.08,
+                        "end_date": "2012-08-31",
+                        "id": "es_vat_reduced_2010",
+                        "start_date": "2010-07-01"
+                    },
+                    {
+                        "amount": 0.1,
+                        "id": "es_vat_reduced_2012",
+                        "start_date": "2012-09-01"
+                    }
+                ],
+                "id": "es_vat_reduced",
+                "name": "Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.04,
+                        "id": "es_vat_super_reduced_1995",
+                        "start_date": "1995-01-01"
+                    }
+                ],
+                "id": "es_vat_super_reduced",
+                "name": "Super Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "es_vat",
+        "zone": "es_vat"
+    }
+}

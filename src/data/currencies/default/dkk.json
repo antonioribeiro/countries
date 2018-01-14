@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "kr50",
+            "kr100",
+            "kr200",
+            "kr500",
+            "kr1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "50\u00f8re",
+            "kr1",
+            "kr2",
+            "kr5",
+            "kr10",
+            "kr20"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "DKK",
+        "number": "208"
+    },
+    "name": "Danish krone",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "kroner",
+            "symbol": "kr"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "kroner",
+            "symbol": "\u00f8re"
+        }
+    }
+}

@@ -8,35 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mauritania",
-    "altSpellings": [
-        "MR",
-        "Islamic Republic of Mauritania",
-        "al-Jumh\u016briyyah al-\u02beIsl\u0101miyyah al-M\u016br\u012bt\u0101niyyah"
-    ],
-    "area": 1030700,
-    "borders": [
-        "DZA",
-        "MLI",
-        "SEN",
-        "ESH"
-    ],
     "brk_a3": "MRT",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mauritania",
-    "callingCode": [
-        "222"
-    ],
-    "capital": "Nouakchott",
     "cca2": "MR",
     "cca3": "MRT",
     "ccn3": "478",
-    "cioc": "MTN",
-    "continent": "Africa",
-    "currency": [
-        "MRO"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Mauritanian",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "MR",
@@ -44,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "16710.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Western Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Mauritania",
     "gu_a3": "MRT",
@@ -54,15 +45,7 @@
     "iso_a3_eh": "MRT",
     "iso_n3": "478",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "ara": "Arabic"
-    },
     "lastcensus": "2000.00",
-    "latlng": [
-        20,
-        -12
-    ],
     "level": "2.00",
     "long_len": "10.00",
     "mapcolor13": "1.00",
@@ -74,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mauritania",
-        "official": "Islamic Republic of Mauritania",
-        "native": {
-            "ara": {
-                "official": "\u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629 \u0627\u0644\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0629",
-                "common": "\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627"
-            }
-        }
+        "official": "Islamic Republic of Mauritania"
     },
     "name_alt": "",
     "name_ciawf": "Mauritania",
@@ -90,78 +67,21 @@
     "name_sort": "Mauritania",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "3758571.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
     "postal": "MR",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "MRT",
     "sovereignt": "Mauritania",
     "su_a3": "MRT",
     "su_dif": "0.00",
-    "subregion": "Western Africa",
     "subunit": "Mauritania",
     "tiny": "-99.00",
-    "tld": [
-        ".mr"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Islamische Republik Mauretanien",
-            "common": "Mauretanien"
-        },
-        "fra": {
-            "official": "R\u00e9publique islamique de Mauritanie",
-            "common": "Mauritanie"
-        },
-        "hrv": {
-            "official": "Islamska Republika Mauritanija",
-            "common": "Mauritanija"
-        },
-        "ita": {
-            "official": "Repubblica islamica di Mauritania",
-            "common": "Mauritania"
-        },
-        "jpn": {
-            "official": "\u30e2\u30fc\u30ea\u30bf\u30cb\u30a2\u00b7\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd",
-            "common": "\u30e2\u30fc\u30ea\u30bf\u30cb\u30a2"
-        },
-        "nld": {
-            "official": "Islamitische Republiek Mauritani\u00eb",
-            "common": "Mauritani\u00eb"
-        },
-        "por": {
-            "official": "Rep\u00fablica Isl\u00e2mica da Maurit\u00e2nia",
-            "common": "Maurit\u00e2nia"
-        },
-        "rus": {
-            "official": "\u0418\u0441\u043b\u0430\u043c\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
-            "common": "\u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0438\u044f"
-        },
-        "slk": {
-            "official": "Maurit\u00e1nska islamsk\u00e1 republika",
-            "common": "Maurit\u00e1nia"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Isl\u00e1mica de Mauritania",
-            "common": "Mauritania"
-        },
-        "fin": {
-            "official": "Mauritanian islamilainen tasavalta",
-            "common": "Mauritania"
-        },
-        "est": {
-            "official": "Mauritaania Islamivabariik",
-            "common": "Mauritaania"
-        },
-        "zho": {
-            "official": "\u6bdb\u91cc\u5854\u5c3c\u4e9a\u4f0a\u65af\u5170\u5171\u548c\u56fd",
-            "common": "\u6bdb\u91cc\u5854\u5c3c\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "478",
     "wb_a2": "MR",

@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u0434\u0435\u043d10",
+            "\u0434\u0435\u043d50",
+            "\u0434\u0435\u043d100",
+            "\u0434\u0435\u043d500",
+            "\u0434\u0435\u043d1000",
+            "\u0434\u0435\u043d5000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "50",
+            "\u0434\u0435\u043d1",
+            "\u0434\u0435\u043d2",
+            "\u0434\u0435\u043d5",
+            "\u0434\u0435\u043d10",
+            "\u0434\u0435\u043d50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MKD",
+        "number": "807"
+    },
+    "name": "Macedonian Denar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "denar",
+            "symbol": "\u0434\u0435\u043d"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "deni",
+            "symbol": ""
+        }
+    }
+}

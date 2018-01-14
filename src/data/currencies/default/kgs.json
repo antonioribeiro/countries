@@ -1,0 +1,54 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u043b\u043220",
+            "\u043b\u043250",
+            "\u043b\u0432100",
+            "\u043b\u0432200",
+            "\u043b\u0432500",
+            "\u043b\u04321000",
+            "\u043b\u04325000"
+        ],
+        "rare": [
+            "1tyiyn",
+            "10tyiyn",
+            "50tyiyn",
+            "\u043b\u04321",
+            "\u043b\u04325",
+            "\u043b\u043210"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "\u043b\u04321",
+            "\u043b\u04323",
+            "\u043b\u04325",
+            "\u043b\u043210"
+        ],
+        "rare": [
+            "1tyiyn",
+            "10tyiyn",
+            "50tyiyn"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "KGS",
+        "number": "417"
+    },
+    "name": "Kyrgyzstani som",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "som",
+            "symbol": "\u043b\u0432"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "tyiyn",
+            "symbol": ""
+        }
+    }
+}

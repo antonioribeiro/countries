@@ -2,6 +2,7 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
+use Closure;
 use Illuminate\Support\Arr;
 use PragmaRX\Coollection\Package\Coollection;
 
@@ -91,18 +92,23 @@ class Collection extends Coollection
     /**
      * Where for different attributes.
      *
-     * @param string $arrayName
-     * @param $value
+     * @param string $propertyName
+     * @param $find
+     * @param Closure $finderClosure
      * @return static
      */
-    private function _whereAttribute(string $arrayName, $value)
+    private function arrayFinder(string $propertyName, $find, Closure $finderClosure)
     {
-        return $this->filter(function ($data) use ($value, $arrayName) {
-            if (isset($data->{$arrayName})) {
-                return in_array($value, (array) $data->{$arrayName});
+        return $this->filter(function ($data) use ($find, $propertyName, $finderClosure) {
+            try {
+                $attributeValue = $data->{$propertyName};
+            } catch (\Exception $e) {
+                $attributeValue = null;
             }
 
-            return false;
+            return is_null($attributeValue)
+                ? null
+                : $finderClosure($find, $attributeValue, $data);
         });
     }
 
@@ -115,12 +121,26 @@ class Collection extends Coollection
      */
     private function _whereKey(string $arrayName, $value)
     {
-        return $this->filter(function ($data) use ($value, $arrayName) {
-            if (isset($data->{$arrayName})) {
-                return Arr::has($data->{$arrayName}, $value);
-            }
+        $finderClosure = function ($value, $attributeValue) {
+            return Arr::has($attributeValue, $value);
+        };
 
-            return false;
-        });
+        return $this->arrayFinder($arrayName, $value, $finderClosure);
+    }
+
+    /**
+     * Where for different attributes.
+     *
+     * @param string $arrayName
+     * @param $value
+     * @return static
+     */
+    private function _whereAttribute(string $arrayName, $value)
+    {
+        $finderClosure = function ($value, $attributeValue) {
+            return in_array($value, $attributeValue->toArray());
+        };
+
+        return $this->arrayFinder($arrayName, $value, $finderClosure);
     }
 }

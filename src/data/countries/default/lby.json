@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Libya",
-    "altSpellings": [
-        "LY",
-        "State of Libya",
-        "Dawlat Libya"
-    ],
-    "area": 1759540,
-    "borders": [
-        "DZA",
-        "TCD",
-        "EGY",
-        "NER",
-        "SDN",
-        "TUN"
-    ],
     "brk_a3": "LBY",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Libya",
-    "callingCode": [
-        "218"
-    ],
-    "capital": "Tripoli",
     "cca2": "LY",
     "cca3": "LBY",
     "ccn3": "434",
-    "cioc": "LBA",
-    "continent": "Africa",
-    "currency": [
-        "LYD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Libyan",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "LY",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "90890.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Middle East & North Africa",
+        "subregion": "Northern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Libya",
     "gu_a3": "LBY",
@@ -56,15 +45,7 @@
     "iso_a3_eh": "LBY",
     "iso_n3": "434",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "ara": "Arabic"
-    },
     "lastcensus": "2006.00",
-    "latlng": [
-        25,
-        17
-    ],
     "level": "2.00",
     "long_len": "5.00",
     "mapcolor13": "11.00",
@@ -76,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Libya",
-        "official": "State of Libya",
-        "native": {
-            "ara": {
-                "official": "\u0627\u0644\u062f\u0648\u0644\u0629 \u0644\u064a\u0628\u064a\u0627",
-                "common": "\u200f\u0644\u064a\u0628\u064a\u0627"
-            }
-        }
+        "official": "Libya"
     },
     "name_alt": "",
     "name_ciawf": "Libya",
@@ -92,78 +67,21 @@
     "name_sort": "Libya",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "6653210.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "LY",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Middle East & North Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "LBY",
     "sovereignt": "Libya",
     "su_a3": "LBY",
     "su_dif": "0.00",
-    "subregion": "Northern Africa",
     "subunit": "Libya",
     "tiny": "-99.00",
-    "tld": [
-        ".ly"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Staat Libyen",
-            "common": "Libyen"
-        },
-        "fra": {
-            "official": "Grande R\u00e9publique arabe libyenne populaire et socialiste",
-            "common": "Libye"
-        },
-        "hrv": {
-            "official": "Dr\u017eava Libiji",
-            "common": "Libija"
-        },
-        "ita": {
-            "official": "Stato della Libia",
-            "common": "Libia"
-        },
-        "jpn": {
-            "official": "\u30ea\u30d3\u30a2\u306e\u56fd\u5bb6",
-            "common": "\u30ea\u30d3\u30a2"
-        },
-        "nld": {
-            "official": "Staat van Libi\u00eb",
-            "common": "Libi\u00eb"
-        },
-        "por": {
-            "official": "Estado da L\u00edbia",
-            "common": "L\u00edbia"
-        },
-        "rus": {
-            "official": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u041b\u0438\u0432\u0438\u0438",
-            "common": "\u041b\u0438\u0432\u0438\u044f"
-        },
-        "slk": {
-            "official": "L\u00edbya",
-            "common": "L\u00edbya"
-        },
-        "spa": {
-            "official": "Estado de Libia",
-            "common": "Libia"
-        },
-        "fin": {
-            "official": "Libyan valtio",
-            "common": "Libya"
-        },
-        "est": {
-            "official": "Liib\u00fca",
-            "common": "Liib\u00fca"
-        },
-        "zho": {
-            "official": "\u5229\u6bd4\u4e9a\u56fd",
-            "common": "\u5229\u6bd4\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "434",
     "wb_a2": "LY",

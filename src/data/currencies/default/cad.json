@@ -1,0 +1,50 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5$",
+            "10$",
+            "20$",
+            "50$",
+            "100$"
+        ],
+        "rare": [
+            "1$",
+            "2$",
+            "500$",
+            "1000$"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1$",
+            "2$",
+            "5\u00a2",
+            "10\u00a2",
+            "25\u00a2"
+        ],
+        "rare": [
+            "1\u00a2",
+            "50\u00a2"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "CAD",
+        "number": "124"
+    },
+    "name": "Canadian Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "\u00a2"
+        }
+    }
+}

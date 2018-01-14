@@ -1,0 +1,72 @@
+{
+    "vat": {
+        "cca2": "HU",
+        "cca3": "HUN",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Hungarian VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.25,
+                        "end_date": "2005-12-31",
+                        "id": "hu_vat_standard_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.2,
+                        "end_date": "2009-06-30",
+                        "id": "hu_vat_standard_2006",
+                        "start_date": "2006-01-01"
+                    },
+                    {
+                        "amount": 0.25,
+                        "end_date": "2011-12-31",
+                        "id": "hu_vat_standard_2009",
+                        "start_date": "2009-07-01"
+                    },
+                    {
+                        "amount": 0.27,
+                        "id": "hu_vat_standard_2012",
+                        "start_date": "2012-01-01"
+                    }
+                ],
+                "default": true,
+                "id": "hu_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.18,
+                        "id": "hu_vat_intermediate_2009",
+                        "start_date": "2009-07-01"
+                    }
+                ],
+                "id": "hu_vat_intermediate",
+                "name": "Intermediate"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "id": "hu_vat_reduced_2004",
+                        "start_date": "2004-05-01"
+                    }
+                ],
+                "id": "hu_vat_reduced",
+                "name": "Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "hu_vat",
+        "zone": "hu_vat"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$1",
+            "$2\u00bd",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "100",
+            "250"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SRD",
+        "number": "968"
+    },
+    "name": "Surinamese dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

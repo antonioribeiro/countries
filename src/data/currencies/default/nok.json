@@ -1,0 +1,41 @@
+{
+    "banknotes": {
+        "frequent": [
+            "kr50",
+            "kr100",
+            "kr200",
+            "kr500",
+            "kr1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "kr1",
+            "kr5",
+            "kr10",
+            "kr20"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "NOK",
+        "number": "578"
+    },
+    "name": "Norwegian krone",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Krone",
+            "symbol": "kr"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "\u00f8re",
+            "symbol": ""
+        }
+    }
+}

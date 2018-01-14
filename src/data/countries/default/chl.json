@@ -8,35 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Chile",
-    "altSpellings": [
-        "CL",
-        "Republic of Chile",
-        "Rep\u00fablica de Chile"
-    ],
-    "area": 756102,
-    "borders": [
-        "ARG",
-        "BOL",
-        "PER"
-    ],
     "brk_a3": "CHL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Chile",
-    "callingCode": [
-        "56"
-    ],
-    "capital": "Santiago",
     "cca2": "CL",
     "cca3": "CHL",
     "ccn3": "152",
-    "cioc": "CHI",
-    "continent": "South America",
-    "currency": [
-        "CLF",
-        "CLP"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Chilean",
     "economy": "5. Emerging region: G20",
     "featurecla": "Admin-0 country",
     "fips_10_": "CI",
@@ -44,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "436100.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "South America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "South America"
+    },
     "geou_dif": "0.00",
     "geounit": "Chile",
     "gu_a3": "CHL",
@@ -54,15 +45,7 @@
     "iso_a3_eh": "CHL",
     "iso_n3": "152",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "spa": "Spanish"
-    },
     "lastcensus": "2002.00",
-    "latlng": [
-        -30,
-        -71
-    ],
     "level": "2.00",
     "long_len": "5.00",
     "mapcolor13": "9.00",
@@ -74,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Chile",
-        "official": "Republic of Chile",
-        "native": {
-            "spa": {
-                "official": "Rep\u00fablica de Chile",
-                "common": "Chile"
-            }
-        }
+        "official": "Republic of Chile"
     },
     "name_alt": "",
     "name_ciawf": "Chile",
@@ -90,82 +67,21 @@
     "name_sort": "Chile",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "17789267.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "CL",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "CHL",
     "sovereignt": "Chile",
     "su_a3": "CHL",
     "su_dif": "0.00",
-    "subregion": "South America",
     "subunit": "Chile",
     "tiny": "-99.00",
-    "tld": [
-        ".cl"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Chile",
-            "common": "Chile"
-        },
-        "deu": {
-            "official": "Republik Chile",
-            "common": "Chile"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Chili",
-            "common": "Chili"
-        },
-        "hrv": {
-            "official": "Republika \u010cile",
-            "common": "\u010cile"
-        },
-        "ita": {
-            "official": "Repubblica del Cile",
-            "common": "Cile"
-        },
-        "jpn": {
-            "official": "\u30c1\u30ea\u5171\u548c\u56fd",
-            "common": "\u30c1\u30ea"
-        },
-        "nld": {
-            "official": "Republiek Chili",
-            "common": "Chili"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Chile",
-            "common": "Chile"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0427\u0438\u043b\u0438",
-            "common": "\u0427\u0438\u043b\u0438"
-        },
-        "slk": {
-            "official": "\u010c\u00edlska republika",
-            "common": "\u010cile"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Chile",
-            "common": "Chile"
-        },
-        "fin": {
-            "official": "Chilen tasavalta",
-            "common": "Chile"
-        },
-        "est": {
-            "official": "T\u0161iili Vabariik",
-            "common": "T\u0161iili"
-        },
-        "zho": {
-            "official": "\u667a\u5229\u5171\u548c\u56fd",
-            "common": "\u667a\u5229"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "152",
     "wb_a2": "CL",

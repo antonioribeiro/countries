@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Spain",
-    "altSpellings": [
-        "ES",
-        "Kingdom of Spain",
-        "Reino de Espa\u00f1a"
-    ],
-    "area": 505992,
-    "borders": [
-        "AND",
-        "FRA",
-        "GIB",
-        "PRT",
-        "MAR"
-    ],
     "brk_a3": "ESP",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Spain",
-    "callingCode": [
-        "34"
-    ],
-    "capital": "Madrid",
     "cca2": "ES",
     "cca3": "ESP",
     "ccn3": "724",
-    "cioc": "ESP",
-    "continent": "Europe",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Spanish",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "SP",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "1690000.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Southern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Spain",
     "gu_a3": "ESP",
@@ -55,15 +45,7 @@
     "iso_a3_eh": "ESP",
     "iso_n3": "724",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "spa": "Spanish"
-    },
     "lastcensus": "2001.00",
-    "latlng": [
-        40,
-        -4
-    ],
     "level": "2.00",
     "long_len": "5.00",
     "mapcolor13": "5.00",
@@ -75,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Spain",
-        "official": "Kingdom of Spain",
-        "native": {
-            "spa": {
-                "official": "Reino de Espa\u00f1a",
-                "common": "Espa\u00f1a"
-            }
-        }
+        "official": "Kingdom of Spain"
     },
     "name_alt": "",
     "name_ciawf": "Spain",
@@ -91,78 +67,21 @@
     "name_sort": "Spain",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "48958159.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "E",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "ESP",
     "sovereignt": "Spain",
     "su_a3": "ESP",
     "su_dif": "0.00",
-    "subregion": "Southern Europe",
     "subunit": "Spain",
     "tiny": "-99.00",
-    "tld": [
-        ".es"
-    ],
-    "translations": {
-        "deu": {
-            "official": "K\u00f6nigreich Spanien",
-            "common": "Spanien"
-        },
-        "fra": {
-            "official": "Royaume d'Espagne",
-            "common": "Espagne"
-        },
-        "hrv": {
-            "official": "Kraljevina \u0160panjolska",
-            "common": "\u0160panjolska"
-        },
-        "ita": {
-            "official": "Regno di Spagna",
-            "common": "Spagna"
-        },
-        "jpn": {
-            "official": "\u30b9\u30da\u30a4\u30f3\u738b\u56fd",
-            "common": "\u30b9\u30da\u30a4\u30f3"
-        },
-        "nld": {
-            "official": "Koninkrijk Spanje",
-            "common": "Spanje"
-        },
-        "por": {
-            "official": "Reino de Espanha",
-            "common": "Espanha"
-        },
-        "rus": {
-            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0418\u0441\u043f\u0430\u043d\u0438\u044f",
-            "common": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f"
-        },
-        "slk": {
-            "official": "\u0160panielske kr\u00e1\u013eovstvo",
-            "common": "\u0160panielsko"
-        },
-        "spa": {
-            "official": "Reino de Espa\u00f1a",
-            "common": "Espa\u00f1a"
-        },
-        "fin": {
-            "official": "Espanjan kuningaskunta",
-            "common": "Espanja"
-        },
-        "est": {
-            "official": "Hispaania Kuningriik",
-            "common": "Hispaania"
-        },
-        "zho": {
-            "official": "\u897f\u73ed\u7259\u738b\u56fd",
-            "common": "\u897f\u73ed\u7259"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "724",
     "wb_a2": "ES",

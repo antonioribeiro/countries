@@ -1,0 +1,42 @@
+{
+    "banknotes": {
+        "frequent": [
+            "GH\u00a25",
+            "GH\u00a210",
+            "GH\u00a220",
+            "GH\u00a250"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "GH\u00a21",
+            "1Gp",
+            "5Gp",
+            "10Gp",
+            "20Gp",
+            "50Gp"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "GHS",
+        "number": "936"
+    },
+    "name": "Ghanaian Cedi",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Cedi",
+            "symbol": "GH\u00a2"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Pesewa",
+            "symbol": "Gp"
+        }
+    }
+}

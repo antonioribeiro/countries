@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u019210",
+            "\u019225",
+            "\u019250",
+            "\u0192100"
+        ],
+        "rare": [
+            "\u01925",
+            "\u0192250"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "50",
+            "\u01921",
+            "\u01922\u00bd",
+            "\u01925"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ANG",
+        "number": "532"
+    },
+    "name": "Dutch Guilder",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "guilder",
+            "symbol": "\u0192"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

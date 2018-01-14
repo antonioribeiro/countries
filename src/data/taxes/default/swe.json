@@ -1,0 +1,54 @@
+{
+    "vat": {
+        "cca2": "SE",
+        "cca3": "SWE",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Swedish VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.25,
+                        "id": "se_vat_standard_1995",
+                        "start_date": "1995-01-01"
+                    }
+                ],
+                "default": true,
+                "id": "se_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.12,
+                        "id": "se_vat_intermediate_1995",
+                        "start_date": "1995-01-01"
+                    }
+                ],
+                "id": "se_vat_intermediate",
+                "name": "Intermediate"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.06,
+                        "id": "se_vat_reduced_1996",
+                        "start_date": "1996-01-01"
+                    }
+                ],
+                "id": "se_vat_reduced",
+                "name": "Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "se_vat",
+        "zone": "se_vat"
+    }
+}

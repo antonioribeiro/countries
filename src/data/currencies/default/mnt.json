@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20ae10",
+            "\u20ae20",
+            "\u20ae100",
+            "\u20ae500",
+            "\u20ae1000",
+            "\u20ae5000",
+            "\u20ae10000",
+            "\u20ae20000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u20ae20",
+            "\u20ae50",
+            "\u20ae100",
+            "\u20ae200",
+            "\u20ae500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MNT",
+        "number": "496"
+    },
+    "name": "Mongolian Tughrik",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Tughrik",
+            "symbol": "\u20ae"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "M\u00f6ng\u00f6",
+            "symbol": ""
+        }
+    }
+}

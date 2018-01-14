@@ -1,0 +1,50 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20ad500",
+            "\u20ad1000",
+            "\u20ad2000",
+            "\u20ad5000",
+            "\u20ad10000",
+            "\u20ad20000",
+            "\u20ad50000",
+            "\u20ad100000"
+        ],
+        "rare": [
+            "\u20ad1",
+            "\u20ad5",
+            "\u20ad10",
+            "\u20ad20",
+            "\u20ad50",
+            "\u20ad100"
+        ]
+    },
+    "coins": {
+        "frequent": [],
+        "rare": [
+            "10",
+            "20",
+            "50"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "LAK",
+        "number": "418"
+    },
+    "name": "Lao or Laotian Kip",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Kip",
+            "symbol": "\u20ad"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Att",
+            "symbol": ""
+        }
+    }
+}

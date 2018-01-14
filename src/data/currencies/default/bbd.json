@@ -1,0 +1,42 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$2",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BBD",
+        "number": "052"
+    },
+    "name": "Barbadian dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

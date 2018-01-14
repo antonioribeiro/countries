@@ -8,35 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Vietnam",
-    "altSpellings": [
-        "VN",
-        "Socialist Republic of Vietnam",
-        "C\u1ed9ng h\u00f2a X\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
-        "Viet Nam"
-    ],
-    "area": 331212,
-    "borders": [
-        "KHM",
-        "CHN",
-        "LAO"
-    ],
     "brk_a3": "VNM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Vietnam",
-    "callingCode": [
-        "84"
-    ],
-    "capital": "Hanoi",
     "cca2": "VN",
     "cca3": "VNM",
     "ccn3": "704",
-    "cioc": "VIE",
-    "continent": "Asia",
-    "currency": [
-        "VND"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Vietnamese",
     "economy": "5. Emerging region: G20",
     "featurecla": "Admin-0 country",
     "fips_10_": "VM",
@@ -44,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "594900.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "South-Eastern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Vietnam",
     "gu_a3": "VNM",
@@ -54,15 +45,7 @@
     "iso_a3_eh": "VNM",
     "iso_n3": "704",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "vie": "Vietnamese"
-    },
     "lastcensus": "2009.00",
-    "latlng": [
-        16.16666666,
-        107.83333333
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "4.00",
@@ -74,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Vietnam",
-        "official": "Socialist Republic of Vietnam",
-        "native": {
-            "vie": {
-                "official": "C\u1ed9ng h\u00f2a x\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
-                "common": "Vi\u1ec7t Nam"
-            }
-        }
+        "official": "Socialist Republic of Vietnam"
     },
     "name_alt": "",
     "name_ciawf": "Vietnam",
@@ -90,78 +67,21 @@
     "name_sort": "Vietnam",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "96160163.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
     "postal": "VN",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "VNM",
     "sovereignt": "Vietnam",
     "su_a3": "VNM",
     "su_dif": "0.00",
-    "subregion": "South-Eastern Asia",
     "subunit": "Vietnam",
     "tiny": "2.00",
-    "tld": [
-        ".vn"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Sozialistische Republik Vietnam",
-            "common": "Vietnam"
-        },
-        "fra": {
-            "official": "R\u00e9publique socialiste du Vi\u00eat Nam",
-            "common": "Vi\u00eat Nam"
-        },
-        "hrv": {
-            "official": "Socijalisti\u010dka Republika Vijetnam",
-            "common": "Vijetnam"
-        },
-        "ita": {
-            "official": "Repubblica socialista del Vietnam",
-            "common": "Vietnam"
-        },
-        "jpn": {
-            "official": "\u30d9\u30c8\u30ca\u30e0\u793e\u4f1a\u4e3b\u7fa9\u5171\u548c\u56fd",
-            "common": "\u30d9\u30c8\u30ca\u30e0"
-        },
-        "nld": {
-            "official": "Socialistische Republiek Vietnam",
-            "common": "Vietnam"
-        },
-        "por": {
-            "official": "Rep\u00fablica Socialista do Vietname",
-            "common": "Vietname"
-        },
-        "rus": {
-            "official": "\u0421\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u044c\u0435\u0442\u043d\u0430\u043c",
-            "common": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c"
-        },
-        "slk": {
-            "official": "Vietnamsk\u00e1 socialistick\u00e1 republika",
-            "common": "Vietnam"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Socialista de Vietnam",
-            "common": "Vietnam"
-        },
-        "fin": {
-            "official": "Vietnamin sosialistinen tasavalta",
-            "common": "Vietnam"
-        },
-        "est": {
-            "official": "Vietnami Sotsialistlik Vabariik",
-            "common": "Vietnam"
-        },
-        "zho": {
-            "official": "\u8d8a\u5357\u793e\u4f1a\u4e3b\u4e49\u5171\u548c\u56fd",
-            "common": "\u8d8a\u5357"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "704",
     "wb_a2": "VN",

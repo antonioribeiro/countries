@@ -8,28 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Barbados",
-    "altSpellings": [
-        "BB"
-    ],
-    "area": 430,
-    "borders": [],
     "brk_a3": "BRB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Barbados",
-    "callingCode": [
-        "1246"
-    ],
-    "capital": "Bridgetown",
     "cca2": "BB",
     "cca3": "BRB",
     "ccn3": "052",
-    "cioc": "BAR",
-    "continent": "North America",
-    "currency": [
-        "BBD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Barbadian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "BB",
@@ -37,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "4804.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Barbados",
     "gu_a3": "BRB",
@@ -47,15 +45,7 @@
     "iso_a3_eh": "BRB",
     "iso_n3": "052",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        13.16666666,
-        -59.53333333
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "3.00",
@@ -67,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Barbados",
-        "official": "Barbados",
-        "native": {
-            "eng": {
-                "official": "Barbados",
-                "common": "Barbados"
-            }
-        }
+        "official": "Barbados"
     },
     "name_alt": "",
     "name_ciawf": "Barbados",
@@ -83,82 +67,21 @@
     "name_sort": "Barbados",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "292336.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
     "postal": "BB",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "BRB",
     "sovereignt": "Barbados",
     "su_a3": "BRB",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Barbados",
     "tiny": "3.00",
-    "tld": [
-        ".bb"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "deu": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "fra": {
-            "official": "Barbade",
-            "common": "Barbade"
-        },
-        "hrv": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "ita": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "jpn": {
-            "official": "\u30d0\u30eb\u30d0\u30c9\u30b9",
-            "common": "\u30d0\u30eb\u30d0\u30c9\u30b9"
-        },
-        "nld": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "por": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "rus": {
-            "official": "\u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441",
-            "common": "\u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441"
-        },
-        "slk": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "spa": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "fin": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "est": {
-            "official": "Barbados",
-            "common": "Barbados"
-        },
-        "zho": {
-            "official": "\u5df4\u5df4\u591a\u65af",
-            "common": "\u5df4\u5df4\u591a\u65af"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "052",
     "wb_a2": "BB",

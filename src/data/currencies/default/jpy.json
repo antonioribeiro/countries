@@ -1,0 +1,42 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u00a51000",
+            "\u00a52000",
+            "\u00a55000",
+            "\u00a510000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u00a51",
+            "\u00a55",
+            "\u00a510",
+            "\u00a550",
+            "\u00a5100",
+            "\u00a5500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "JPY",
+        "number": "392"
+    },
+    "name": "Japanese yen",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "yen",
+            "symbol": "\u00a5"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "sen",
+            "symbol": ""
+        }
+    }
+}

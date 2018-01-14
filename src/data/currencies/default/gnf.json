@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "100",
+            "500",
+            "1000",
+            "5000",
+            "10000"
+        ],
+        "rare": [
+            "25",
+            "50"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "GNF",
+        "number": "324"
+    },
+    "name": "Guinean Franc",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "franc",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centime",
+            "symbol": ""
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u0e3f20",
+            "\u0e3f50",
+            "\u0e3f100",
+            "\u0e3f500",
+            "\u0e3f1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "25",
+            "50",
+            "\u0e3f",
+            "\u0e3f2",
+            "\u0e3f5",
+            "\u0e3f10"
+        ],
+        "rare": [
+            "1",
+            "5",
+            "10"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "THB",
+        "number": "764"
+    },
+    "name": "Thai Baht",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "baht",
+            "symbol": "\u0e3f"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "satang",
+            "symbol": ""
+        }
+    }
+}

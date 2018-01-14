@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "100",
+            "200",
+            "500",
+            "1000",
+            "2000",
+            "5000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50"
+        ],
+        "rare": [
+            "1 khoums",
+            "1 ouguiya"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MRO",
+        "number": "478"
+    },
+    "name": "Mauritanian Ouguiya",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Ouguiya",
+            "symbol": "UM"
+        },
+        "minor": {
+            "majorValue": 0.2,
+            "name": "khoums",
+            "symbol": ""
+        }
+    }
+}

@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Afghanistan",
-    "altSpellings": [
-        "AF",
-        "Af\u0121\u0101nist\u0101n"
-    ],
-    "area": 652230,
-    "borders": [
-        "IRN",
-        "PAK",
-        "TKM",
-        "UZB",
-        "TJK",
-        "CHN"
-    ],
     "brk_a3": "AFG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Afghanistan",
-    "callingCode": [
-        "93"
-    ],
-    "capital": "Kabul",
     "cca2": "AF",
     "cca3": "AFG",
     "ccn3": "004",
-    "cioc": "AFG",
-    "continent": "Asia",
-    "currency": [
-        "AFN"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Afghan",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "AF",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "64080.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "South Asia",
+        "subregion": "Southern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Afghanistan",
     "gu_a3": "AFG",
@@ -55,17 +45,7 @@
     "iso_a3_eh": "AFG",
     "iso_n3": "004",
     "labelrank": "3.00",
-    "landlocked": true,
-    "languages": {
-        "prs": "Dari",
-        "pus": "Pashto",
-        "tuk": "Turkmen"
-    },
     "lastcensus": "1979.00",
-    "latlng": [
-        33,
-        65
-    ],
     "level": "2.00",
     "long_len": "11.00",
     "mapcolor13": "7.00",
@@ -77,21 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Afghanistan",
-        "official": "Islamic Republic of Afghanistan",
-        "native": {
-            "prs": {
-                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0633\u0644\u0627\u0645\u06cc \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
-                "common": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646"
-            },
-            "pus": {
-                "official": "\u062f \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646 \u0627\u0633\u0644\u0627\u0645\u064a \u062c\u0645\u0647\u0648\u0631\u06cc\u062a",
-                "common": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646"
-            },
-            "tuk": {
-                "official": "Owganystan Yslam Respublikasy",
-                "common": "Owganystan"
-            }
-        }
+        "official": "Islamic State of Afghanistan"
     },
     "name_alt": "",
     "name_ciawf": "Afghanistan",
@@ -101,82 +67,21 @@
     "name_sort": "Afghanistan",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "34124811.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "AF",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "South Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "AFG",
     "sovereignt": "Afghanistan",
     "su_a3": "AFG",
     "su_dif": "0.00",
-    "subregion": "Southern Asia",
     "subunit": "Afghanistan",
     "tiny": "-99.00",
-    "tld": [
-        ".af"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Islamaidd Affganistan",
-            "common": "Affganistan"
-        },
-        "deu": {
-            "official": "Islamische Republik Afghanistan",
-            "common": "Afghanistan"
-        },
-        "fra": {
-            "official": "R\u00e9publique islamique d'Afghanistan",
-            "common": "Afghanistan"
-        },
-        "hrv": {
-            "official": "Islamska Republika Afganistan",
-            "common": "Afganistan"
-        },
-        "ita": {
-            "official": "Repubblica islamica dell'Afghanistan",
-            "common": "Afghanistan"
-        },
-        "jpn": {
-            "official": "\u30a2\u30d5\u30ac\u30cb\u30b9\u30bf\u30f3\u00b7\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd",
-            "common": "\u30a2\u30d5\u30ac\u30cb\u30b9\u30bf\u30f3"
-        },
-        "nld": {
-            "official": "Islamitische Republiek Afghanistan",
-            "common": "Afghanistan"
-        },
-        "por": {
-            "official": "Rep\u00fablica Isl\u00e2mica do Afeganist\u00e3o",
-            "common": "Afeganist\u00e3o"
-        },
-        "rus": {
-            "official": "\u0418\u0441\u043b\u0430\u043c\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d",
-            "common": "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d"
-        },
-        "slk": {
-            "official": "Afg\u00e1nsky islamsk\u00fd \u0161t\u00e1t",
-            "common": "Afganistan"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Isl\u00e1mica de Afganist\u00e1n",
-            "common": "Afganist\u00e1n"
-        },
-        "fin": {
-            "official": "Afganistanin islamilainen tasavalta",
-            "common": "Afganistan"
-        },
-        "est": {
-            "official": "Afganistani Islamivabariik",
-            "common": "Afganistan"
-        },
-        "zho": {
-            "official": "\u963f\u5bcc\u6c57\u4f0a\u65af\u5170\u5171\u548c\u56fd",
-            "common": "\u963f\u5bcc\u6c57"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "004",
     "wb_a2": "AF",

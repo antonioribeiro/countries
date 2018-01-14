@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "USh2",
+            "USh5",
+            "USh10",
+            "USh20",
+            "USh50",
+            "USh100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "USh1",
+            "USh2",
+            "5",
+            "10",
+            "25",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "UGX",
+        "number": "800"
+    },
+    "name": "Ugandan Shilling",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Shilling",
+            "symbol": "USh"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

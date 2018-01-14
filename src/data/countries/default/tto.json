@@ -8,29 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Trinidad and Tobago",
-    "altSpellings": [
-        "TT",
-        "Republic of Trinidad and Tobago"
-    ],
-    "area": 5130,
-    "borders": [],
     "brk_a3": "TTO",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Trinidad and Tobago",
-    "callingCode": [
-        "1868"
-    ],
-    "capital": "Port of Spain",
     "cca2": "TT",
     "cca3": "TTO",
     "ccn3": "780",
-    "cioc": "TTO",
-    "continent": "North America",
-    "currency": [
-        "TTD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Trinidadian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "TD",
@@ -38,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "43570.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Trinidad and Tobago",
     "gu_a3": "TTO",
@@ -48,15 +45,7 @@
     "iso_a3_eh": "TTO",
     "iso_n3": "780",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        11,
-        -61
-    ],
     "level": "2.00",
     "long_len": "19.00",
     "mapcolor13": "5.00",
@@ -68,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Trinidad and Tobago",
-        "official": "Republic of Trinidad and Tobago",
-        "native": {
-            "eng": {
-                "official": "Republic of Trinidad and Tobago",
-                "common": "Trinidad and Tobago"
-            }
-        }
+        "official": "Republic of Trinidad and Tobago"
     },
     "name_alt": "",
     "name_ciawf": "Trinidad and Tobago",
@@ -84,78 +67,21 @@
     "name_sort": "Trinidad and Tobago",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "1218208.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
     "postal": "TT",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "TTO",
     "sovereignt": "Trinidad and Tobago",
     "su_a3": "TTO",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Trinidad and Tobago",
     "tiny": "2.00",
-    "tld": [
-        ".tt"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Trinidad und Tobago",
-            "common": "Trinidad und Tobago"
-        },
-        "fra": {
-            "official": "R\u00e9publique de Trinit\u00e9-et-Tobago",
-            "common": "Trinit\u00e9-et-Tobago"
-        },
-        "hrv": {
-            "official": "Republika Trinidad i Tobago",
-            "common": "Trinidad i Tobago"
-        },
-        "ita": {
-            "official": "Repubblica di Trinidad e Tobago",
-            "common": "Trinidad e Tobago"
-        },
-        "jpn": {
-            "official": "\u30c8\u30ea\u30cb\u30c0\u30fc\u30c9\u00b7\u30c8\u30d0\u30b4\u5171\u548c\u56fd",
-            "common": "\u30c8\u30ea\u30cb\u30c0\u30fc\u30c9\u30fb\u30c8\u30d0\u30b4"
-        },
-        "nld": {
-            "official": "Republiek Trinidad en Tobago",
-            "common": "Trinidad en Tobago"
-        },
-        "por": {
-            "official": "Rep\u00fablica de Trinidad e Tobago",
-            "common": "Trinidade e Tobago"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e",
-            "common": "\u0422\u0440\u0438\u043d\u0438\u0434\u0430\u0434 \u0438 \u0422\u043e\u0431\u0430\u0433\u043e"
-        },
-        "slk": {
-            "official": "Republika Trinidad a Tobaga",
-            "common": "Trinidad a Tobago"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Trinidad y Tobago",
-            "common": "Trinidad y Tobago"
-        },
-        "fin": {
-            "official": "Trinidadin ja Tobagon tasavalta",
-            "common": "Trinidad ja Tobago"
-        },
-        "est": {
-            "official": "Trinidadi ja Tobago Vabariik",
-            "common": "Trinidad ja Tobago"
-        },
-        "zho": {
-            "official": "\u7279\u7acb\u5c3c\u8fbe\u548c\u591a\u5df4\u54e5\u5171\u548c\u56fd",
-            "common": "\u7279\u7acb\u5c3c\u8fbe\u548c\u591a\u5df4\u54e5"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "780",
     "wb_a2": "TT",

@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "lei1",
+            "lei5",
+            "lei10",
+            "lei50",
+            "lei100"
+        ],
+        "rare": [
+            "lei200",
+            "lei500"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "10",
+            "50"
+        ],
+        "rare": [
+            "1",
+            "5"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "RON",
+        "number": "946"
+    },
+    "name": "Romanian leu",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "leu",
+            "symbol": "lei"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "bani",
+            "symbol": ""
+        }
+    }
+}

@@ -8,35 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Lithuania",
-    "altSpellings": [
-        "LT",
-        "Republic of Lithuania",
-        "Lietuvos Respublika"
-    ],
-    "area": 65300,
-    "borders": [
-        "BLR",
-        "LVA",
-        "POL",
-        "RUS"
-    ],
     "brk_a3": "LTU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Lithuania",
-    "callingCode": [
-        "370"
-    ],
-    "capital": "Vilnius",
     "cca2": "LT",
     "cca3": "LTU",
     "ccn3": "440",
-    "cioc": "LTU",
-    "continent": "Europe",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Lithuanian",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "LH",
@@ -44,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "85620.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Northern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Lithuania",
     "gu_a3": "LTU",
@@ -54,15 +45,7 @@
     "iso_a3_eh": "LTU",
     "iso_n3": "440",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "lit": "Lithuanian"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        56,
-        24
-    ],
     "level": "2.00",
     "long_len": "9.00",
     "mapcolor13": "9.00",
@@ -74,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Lithuania",
-        "official": "Republic of Lithuania",
-        "native": {
-            "lit": {
-                "official": "Lietuvos Respublikos",
-                "common": "Lietuva"
-            }
-        }
+        "official": "Republic of Lithuania"
     },
     "name_alt": "",
     "name_ciawf": "Lithuania",
@@ -90,78 +67,21 @@
     "name_sort": "Lithuania",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "2823859.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
     "postal": "LT",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "LTU",
     "sovereignt": "Lithuania",
     "su_a3": "LTU",
     "su_dif": "0.00",
-    "subregion": "Northern Europe",
     "subunit": "Lithuania",
     "tiny": "-99.00",
-    "tld": [
-        ".lt"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Litauen",
-            "common": "Litauen"
-        },
-        "fra": {
-            "official": "R\u00e9publique de Lituanie",
-            "common": "Lituanie"
-        },
-        "hrv": {
-            "official": "Republika Litva",
-            "common": "Litva"
-        },
-        "ita": {
-            "official": "Repubblica di Lituania",
-            "common": "Lituania"
-        },
-        "jpn": {
-            "official": "\u30ea\u30c8\u30a2\u30cb\u30a2\u5171\u548c\u56fd",
-            "common": "\u30ea\u30c8\u30a2\u30cb\u30a2"
-        },
-        "nld": {
-            "official": "Republiek Litouwen",
-            "common": "Litouwen"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Litu\u00e2nia",
-            "common": "Litu\u00e2nia"
-        },
-        "rus": {
-            "official": "\u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
-            "common": "\u041b\u0438\u0442\u0432\u0430"
-        },
-        "slk": {
-            "official": "Litovsk\u00e1 republika",
-            "common": "Litva"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Lituania",
-            "common": "Lituania"
-        },
-        "fin": {
-            "official": "Liettuan tasavalta",
-            "common": "Liettua"
-        },
-        "est": {
-            "official": "Leedu Vabariik",
-            "common": "Leedu"
-        },
-        "zho": {
-            "official": "\u7acb\u9676\u5b9b\u5171\u548c\u56fd",
-            "common": "\u7acb\u9676\u5b9b"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "440",
     "wb_a2": "LT",

@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u0192l0",
+            "\u019225",
+            "\u019250",
+            "\u0192100",
+            "\u0192500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "25",
+            "50",
+            "\u01921",
+            "\u01922\u00bd",
+            "\u01925"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "AWG",
+        "number": "533"
+    },
+    "name": "Arubin florin",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "florin",
+            "symbol": "\u0192"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

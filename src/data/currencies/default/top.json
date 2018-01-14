@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "T$1",
+            "T$2",
+            "T$5",
+            "T$10",
+            "T$20",
+            "T$50",
+            "T$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5\u00a2",
+            "10\u00a2",
+            "20\u00a2",
+            "50\u00a2"
+        ],
+        "rare": [
+            "1\u00a2",
+            "2\u00a2"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TOP",
+        "number": "776"
+    },
+    "name": "Tongan Pa'anga",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "hau",
+            "symbol": "T$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "seniti",
+            "symbol": "\u00a2"
+        }
+    }
+}

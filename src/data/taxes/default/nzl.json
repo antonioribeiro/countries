@@ -1,0 +1,31 @@
+{
+    "gst": {
+        "cca2": "NZ",
+        "cca3": "NZL",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "gst",
+        "name": "New Zealand GST",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.15,
+                        "id": "nz_gst_standard_2010",
+                        "start_date": "2010-10-01"
+                    }
+                ],
+                "default": true,
+                "id": "nz_gst_standard",
+                "name": "Standard"
+            }
+        ],
+        "record_type": "tax",
+        "tax_modifier": "",
+        "tax_type": "gst",
+        "vat_id": "nz_gst",
+        "zone": "nz_gst"
+    }
+}

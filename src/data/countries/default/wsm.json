@@ -8,30 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Samoa",
-    "altSpellings": [
-        "WS",
-        "Independent State of Samoa",
-        "Malo Sa\u02bboloto Tuto\u02bbatasi o S\u0101moa"
-    ],
-    "area": 2842,
-    "borders": [],
     "brk_a3": "WSM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Samoa",
-    "callingCode": [
-        "685"
-    ],
-    "capital": "Apia",
     "cca2": "WS",
     "cca3": "WSM",
     "ccn3": "882",
-    "cioc": "SAM",
-    "continent": "Oceania",
-    "currency": [
-        "WST"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Samoan",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "WS",
@@ -39,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "1046.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Oceania",
+        "region": "Oceania",
+        "region_un": "Oceania",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "Polynesia"
+    },
     "geou_dif": "0.00",
     "geounit": "Samoa",
     "gu_a3": "WSM",
@@ -49,16 +45,7 @@
     "iso_a3_eh": "WSM",
     "iso_n3": "882",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English",
-        "smo": "Samoan"
-    },
     "lastcensus": "2006.00",
-    "latlng": [
-        -13.58333333,
-        -172.33333333
-    ],
     "level": "2.00",
     "long_len": "5.00",
     "mapcolor13": "6.00",
@@ -70,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Samoa",
-        "official": "Independent State of Samoa",
-        "native": {
-            "eng": {
-                "official": "Independent State of Samoa",
-                "common": "Samoa"
-            },
-            "smo": {
-                "official": "Malo Sa\u02bboloto Tuto\u02bbatasi o S\u0101moa",
-                "common": "S\u0101moa"
-            }
-        }
+        "official": "Independent State of Samoa"
     },
     "name_alt": "",
     "name_ciawf": "Samoa",
@@ -90,78 +67,21 @@
     "name_sort": "Samoa",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "200108.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
     "postal": "WS",
-    "region": "Oceania",
-    "region_un": "Oceania",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "WSM",
     "sovereignt": "Samoa",
     "su_a3": "WSM",
     "su_dif": "0.00",
-    "subregion": "Polynesia",
     "subunit": "Samoa",
     "tiny": "-99.00",
-    "tld": [
-        ".ws"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Unabh\u00e4ngige Staat Samoa",
-            "common": "Samoa"
-        },
-        "fra": {
-            "official": "Samoa",
-            "common": "Samoa"
-        },
-        "hrv": {
-            "official": "Nezavisna Dr\u017eava Samoa",
-            "common": "Samoa"
-        },
-        "ita": {
-            "official": "Stato indipendente di Samoa",
-            "common": "Samoa"
-        },
-        "jpn": {
-            "official": "\u30b5\u30e2\u30a2\u72ec\u7acb\u56fd",
-            "common": "\u30b5\u30e2\u30a2"
-        },
-        "nld": {
-            "official": "Onafhankelijke Staat Samoa",
-            "common": "Samoa"
-        },
-        "por": {
-            "official": "Estado Independente de Samoa",
-            "common": "Samoa"
-        },
-        "rus": {
-            "official": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0435 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0421\u0430\u043c\u043e\u0430",
-            "common": "\u0421\u0430\u043c\u043e\u0430"
-        },
-        "slk": {
-            "official": "Nez\u00e1visl\u00fd \u0161t\u00e1tSamoa",
-            "common": "Samoa"
-        },
-        "spa": {
-            "official": "Estado Independiente de Samoa",
-            "common": "Samoa"
-        },
-        "fin": {
-            "official": "Samoan itsen\u00e4inen valtio",
-            "common": "Samoa"
-        },
-        "est": {
-            "official": "Samoa Iseseisvusriik",
-            "common": "Samoa"
-        },
-        "zho": {
-            "official": "\u8428\u6469\u4e9a\u72ec\u7acb\u56fd",
-            "common": "\u8428\u6469\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "882",
     "wb_a2": "WS",

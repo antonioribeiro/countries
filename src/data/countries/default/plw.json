@@ -8,30 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Palau",
-    "altSpellings": [
-        "PW",
-        "Republic of Palau",
-        "Beluu er a Belau"
-    ],
-    "area": 459,
-    "borders": [],
     "brk_a3": "PLW",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Palau",
-    "callingCode": [
-        "680"
-    ],
-    "capital": "Ngerulmud",
     "cca2": "PW",
     "cca3": "PLW",
     "ccn3": "585",
-    "cioc": "PLW",
-    "continent": "Oceania",
-    "currency": [
-        "USD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Palauan",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "PS",
@@ -39,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "276.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Oceania",
+        "region": "Oceania",
+        "region_un": "Oceania",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "Micronesia"
+    },
     "geou_dif": "0.00",
     "geounit": "Palau",
     "gu_a3": "PLW",
@@ -49,16 +45,7 @@
     "iso_a3_eh": "PLW",
     "iso_n3": "585",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English",
-        "pau": "Palauan"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        7.5,
-        134.5
-    ],
     "level": "2.00",
     "long_len": "5.00",
     "mapcolor13": "12.00",
@@ -70,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Palau",
-        "official": "Republic of Palau",
-        "native": {
-            "eng": {
-                "official": "Republic of Palau",
-                "common": "Palau"
-            },
-            "pau": {
-                "official": "Beluu er a Belau",
-                "common": "Belau"
-            }
-        }
+        "official": "Republic of Palau"
     },
     "name_alt": "",
     "name_ciawf": "Palau",
@@ -90,78 +67,21 @@
     "name_sort": "Palau",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "21431.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
     "postal": "PW",
-    "region": "Oceania",
-    "region_un": "Oceania",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "5",
     "sov_a3": "PLW",
     "sovereignt": "Palau",
     "su_a3": "PLW",
     "su_dif": "0.00",
-    "subregion": "Micronesia",
     "subunit": "Palau",
     "tiny": "2.00",
-    "tld": [
-        ".pw"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Palau",
-            "common": "Palau"
-        },
-        "fra": {
-            "official": "R\u00e9publique des Palaos (Palau)",
-            "common": "Palaos (Palau)"
-        },
-        "hrv": {
-            "official": "Republika Palau",
-            "common": "Palau"
-        },
-        "ita": {
-            "official": "Repubblica di Palau",
-            "common": "Palau"
-        },
-        "jpn": {
-            "official": "\u30d1\u30e9\u30aa\u5171\u548c\u56fd",
-            "common": "\u30d1\u30e9\u30aa"
-        },
-        "nld": {
-            "official": "Republiek van Palau",
-            "common": "Palau"
-        },
-        "por": {
-            "official": "Rep\u00fablica de Palau",
-            "common": "Palau"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u0430\u043b\u0430\u0443",
-            "common": "\u041f\u0430\u043b\u0430\u0443"
-        },
-        "slk": {
-            "official": "Palausk\u00e1 republika",
-            "common": "Palau"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Palau",
-            "common": "Palau"
-        },
-        "fin": {
-            "official": "Palaun tasavalta",
-            "common": "Palau"
-        },
-        "est": {
-            "official": "Belau Vabariik",
-            "common": "Belau"
-        },
-        "zho": {
-            "official": "\u5e15\u52b3\u5171\u548c\u56fd",
-            "common": "\u5e15\u52b3"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "585",
     "wb_a2": "PW",

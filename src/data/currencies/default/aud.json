@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5$",
+            "10$",
+            "20$",
+            "50$",
+            "100$"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1$",
+            "2$",
+            "5c",
+            "10c",
+            "20c",
+            "50c"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "AUD",
+        "number": "036"
+    },
+    "name": "Australian Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "c"
+        }
+    }
+}

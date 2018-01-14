@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20a95",
+            "\u20a910",
+            "\u20a950",
+            "\u20a9100",
+            "\u20a9200",
+            "\u20a9500",
+            "\u20a91000",
+            "\u20a92000",
+            "\u20a95000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "50",
+            "\u20a91"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "KPW",
+        "number": "408"
+    },
+    "name": "North Korean won",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "won",
+            "symbol": "\u20a9"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "chon",
+            "symbol": ""
+        }
+    }
+}

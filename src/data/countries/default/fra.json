@@ -8,39 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "France",
-    "altSpellings": [
-        "FR",
-        "French Republic",
-        "R\u00e9publique fran\u00e7aise"
-    ],
-    "area": 551695,
-    "borders": [
-        "AND",
-        "BEL",
-        "DEU",
-        "ITA",
-        "LUX",
-        "MCO",
-        "ESP",
-        "CHE"
-    ],
     "brk_a3": "FRA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "France",
-    "callingCode": [
-        "33"
-    ],
-    "capital": "Paris",
-    "cca2": "FR",
-    "cca3": "FRA",
+    "cca2": "-99",
+    "cca3": "-99",
     "ccn3": "250",
-    "cioc": "FRA",
-    "continent": "Europe",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "French",
     "economy": "1. Developed region: G7",
     "featurecla": "Admin-0 country",
     "fips_10_": "FR",
@@ -48,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "2699000.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Western Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "France",
     "gu_a3": "FRA",
@@ -58,15 +45,7 @@
     "iso_a3_eh": "-99",
     "iso_n3": "250",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "fra": "French"
-    },
     "lastcensus": "-99.00",
-    "latlng": [
-        46,
-        2
-    ],
     "level": "2.00",
     "long_len": "6.00",
     "mapcolor13": "11.00",
@@ -78,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "France",
-        "official": "French Republic",
-        "native": {
-            "fra": {
-                "official": "R\u00e9publique fran\u00e7aise",
-                "common": "France"
-            }
-        }
+        "official": "French Republic"
     },
     "name_alt": "",
     "name_ciawf": "France",
@@ -94,78 +67,21 @@
     "name_sort": "France",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "67106161.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
     "postal": "F",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "FR1",
     "sovereignt": "France",
     "su_a3": "FRA",
     "su_dif": "0.00",
-    "subregion": "Western Europe",
     "subunit": "France",
     "tiny": "-99.00",
-    "tld": [
-        ".fr"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Franz\u00f6sische Republik",
-            "common": "Frankreich"
-        },
-        "fra": {
-            "official": "R\u00e9publique fran\u00e7aise",
-            "common": "France"
-        },
-        "hrv": {
-            "official": "Francuska Republika",
-            "common": "Francuska"
-        },
-        "ita": {
-            "official": "Repubblica francese",
-            "common": "Francia"
-        },
-        "jpn": {
-            "official": "\u30d5\u30e9\u30f3\u30b9\u5171\u548c\u56fd",
-            "common": "\u30d5\u30e9\u30f3\u30b9"
-        },
-        "nld": {
-            "official": "Franse Republiek",
-            "common": "Frankrijk"
-        },
-        "por": {
-            "official": "Rep\u00fablica Francesa",
-            "common": "Fran\u00e7a"
-        },
-        "rus": {
-            "official": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
-            "common": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f"
-        },
-        "slk": {
-            "official": "Franc\u00fazska republika",
-            "common": "Franc\u00fazsko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica franc\u00e9s",
-            "common": "Francia"
-        },
-        "fin": {
-            "official": "Ranskan tasavalta",
-            "common": "Ranska"
-        },
-        "est": {
-            "official": "Prantsuse Vabariik",
-            "common": "Prantsusmaa"
-        },
-        "zho": {
-            "official": "\u6cd5\u5170\u897f\u5171\u548c\u56fd",
-            "common": "\u6cd5\u56fd"
-        }
-    },
     "type": "Country",
     "un_a3": "250",
     "wb_a2": "FR",

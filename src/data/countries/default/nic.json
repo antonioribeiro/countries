@@ -8,33 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Nicaragua",
-    "altSpellings": [
-        "NI",
-        "Republic of Nicaragua",
-        "Rep\u00fablica de Nicaragua"
-    ],
-    "area": 130373,
-    "borders": [
-        "CRI",
-        "HND"
-    ],
     "brk_a3": "NIC",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Nicaragua",
-    "callingCode": [
-        "505"
-    ],
-    "capital": "Managua",
     "cca2": "NI",
     "cca3": "NIC",
     "ccn3": "558",
-    "cioc": "NCA",
-    "continent": "North America",
-    "currency": [
-        "NIO"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Nicaraguan",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "NU",
@@ -42,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "33550.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Central America"
+    },
     "geou_dif": "0.00",
     "geounit": "Nicaragua",
     "gu_a3": "NIC",
@@ -52,15 +45,7 @@
     "iso_a3_eh": "NIC",
     "iso_n3": "558",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "spa": "Spanish"
-    },
     "lastcensus": "2005.00",
-    "latlng": [
-        13,
-        -85
-    ],
     "level": "2.00",
     "long_len": "9.00",
     "mapcolor13": "9.00",
@@ -72,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Nicaragua",
-        "official": "Republic of Nicaragua",
-        "native": {
-            "spa": {
-                "official": "Rep\u00fablica de Nicaragua",
-                "common": "Nicaragua"
-            }
-        }
+        "official": "Republic of Nicaragua"
     },
     "name_alt": "",
     "name_ciawf": "Nicaragua",
@@ -88,78 +67,21 @@
     "name_sort": "Nicaragua",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "6025951.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "NI",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "NIC",
     "sovereignt": "Nicaragua",
     "su_a3": "NIC",
     "su_dif": "0.00",
-    "subregion": "Central America",
     "subunit": "Nicaragua",
     "tiny": "-99.00",
-    "tld": [
-        ".ni"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Nicaragua",
-            "common": "Nicaragua"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Nicaragua",
-            "common": "Nicaragua"
-        },
-        "hrv": {
-            "official": "Republika Nikaragva",
-            "common": "Nikaragva"
-        },
-        "ita": {
-            "official": "Repubblica del Nicaragua",
-            "common": "Nicaragua"
-        },
-        "jpn": {
-            "official": "\u30cb\u30ab\u30e9\u30b0\u30a2\u5171\u548c\u56fd",
-            "common": "\u30cb\u30ab\u30e9\u30b0\u30a2"
-        },
-        "nld": {
-            "official": "Republiek Nicaragua",
-            "common": "Nicaragua"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Nicar\u00e1gua",
-            "common": "Nicar\u00e1gua"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041d\u0438\u043a\u0430\u0440\u0430\u0433\u0443\u0430",
-            "common": "\u041d\u0438\u043a\u0430\u0440\u0430\u0433\u0443\u0430"
-        },
-        "slk": {
-            "official": "Nikaragujsk\u00e1 republika",
-            "common": "Nikaragua"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Nicaragua",
-            "common": "Nicaragua"
-        },
-        "fin": {
-            "official": "Nicaraguan tasavalta",
-            "common": "Nicaragua"
-        },
-        "est": {
-            "official": "Nicaragua Vabariik",
-            "common": "Nicaragua"
-        },
-        "zho": {
-            "official": "\u5c3c\u52a0\u62c9\u74dc\u5171\u548c\u56fd",
-            "common": "\u5c3c\u52a0\u62c9\u74dc"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "558",
     "wb_a2": "NI",

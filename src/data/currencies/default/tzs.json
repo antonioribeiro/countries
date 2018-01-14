@@ -1,0 +1,40 @@
+{
+    "banknotes": {
+        "frequent": [
+            "500",
+            "1000",
+            "2000",
+            "5000",
+            "10000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "50",
+            "100",
+            "200"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TZS",
+        "number": "834"
+    },
+    "name": "Tanzanian Shilling",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Shilling",
+            "symbol": "Sh"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

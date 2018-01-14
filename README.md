@@ -180,7 +180,7 @@ To get
 And use things like pluck
 
 ```php
-Countries::where('cca3', 'USA')->first()->states->pluck('name', 'postal')
+Countries::where('cca3', 'USA')->first()->hydrateStates()->states->pluck('name', 'postal')
 ```
 
 To get
@@ -234,23 +234,24 @@ Ireland
 To improve performance, hydration, which is enabled by default, can be disable on most country properties, and this is how you manually hydrate properties:
 
 ```php
-Countries::where('cca3', 'FRA')->first()->hydrate('timezone')->timezone
+Countries::where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
 
-Countries::where('cca3', 'JPN')->first()->hydrateTimezone()->timezone
+Countries::where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
 ```
 
 Those are some of the hydratable properties:
 
-- Country
-- Countries
-- Currency
-- Timezone
-- States
-- Topology
-- Geometry
-- Flag
 - Borders
+- Cities
+- Currencies
+- Flag
+- Geometry
+- Languages
+- States
+- Taxes
 - Timezone
+- Timezone
+- Topology
 
 ### Extra where rules
 Some properties are stored differently and we therefore need special rules for accessing them, these properties are
@@ -303,13 +304,19 @@ returns
 #### Generate a list of currencies
 
 ```php
-Countries::all()->pluck('currency');
+Countries::all()->pluck('currencies');
 ```
 
 returns
 
 ```php
-Countries::all()->pluck('currency')
+Countries::all()->pluck('currencies')
+```
+
+#### Get the currency symbol
+
+```php
+Countries::where('name.common', 'Brazil')->first()->hydrate('currency')->currencies->BRL->units->major->symbol
 ```
 
 #### Generate a list of States
@@ -317,6 +324,7 @@ Countries::all()->pluck('currency')
 ```php
 Countries::where('name.common', 'United States')
     ->first()
+    ->hydrateStates()
     ->states
     ->sortBy('name')
     ->pluck('name', 'postal')
@@ -452,7 +460,7 @@ You have to define all the validations rules in settings, only a few is defined 
     'cca3',
     'ccn3',
     'cioc',
-    'currency'			=> 'ISO4217',
+    'currencies'			=> 'ISO4217',
     'language',
     'language_short'	=> 'ISO639_3',
 ]

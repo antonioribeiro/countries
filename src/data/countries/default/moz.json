@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mozambique",
-    "altSpellings": [
-        "MZ",
-        "Republic of Mozambique",
-        "Rep\u00fablica de Mo\u00e7ambique"
-    ],
-    "area": 801590,
-    "borders": [
-        "MWI",
-        "ZAF",
-        "SWZ",
-        "TZA",
-        "ZMB",
-        "ZWE"
-    ],
     "brk_a3": "MOZ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mozambique",
-    "callingCode": [
-        "258"
-    ],
-    "capital": "Maputo",
     "cca2": "MZ",
     "cca3": "MOZ",
     "ccn3": "508",
-    "cioc": "MOZ",
-    "continent": "Africa",
-    "currency": [
-        "MZN"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Mozambican",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "MZ",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "35010.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Eastern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Mozambique",
     "gu_a3": "MOZ",
@@ -56,15 +45,7 @@
     "iso_a3_eh": "MOZ",
     "iso_n3": "508",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "por": "Portuguese"
-    },
     "lastcensus": "2007.00",
-    "latlng": [
-        -18.25,
-        35
-    ],
     "level": "2.00",
     "long_len": "10.00",
     "mapcolor13": "4.00",
@@ -76,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mozambique",
-        "official": "Republic of Mozambique",
-        "native": {
-            "por": {
-                "official": "Rep\u00fablica de Mo\u00e7ambique",
-                "common": "Mo\u00e7ambique"
-            }
-        }
+        "official": "Republic of Mozambique"
     },
     "name_alt": "",
     "name_ciawf": "Mozambique",
@@ -92,78 +67,21 @@
     "name_sort": "Mozambique",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "26573706.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "MZ",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "MOZ",
     "sovereignt": "Mozambique",
     "su_a3": "MOZ",
     "su_dif": "0.00",
-    "subregion": "Eastern Africa",
     "subunit": "Mozambique",
     "tiny": "-99.00",
-    "tld": [
-        ".mz"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Mosambik",
-            "common": "Mosambik"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Mozambique",
-            "common": "Mozambique"
-        },
-        "hrv": {
-            "official": "Republika Mozambiku",
-            "common": "Mozambik"
-        },
-        "ita": {
-            "official": "Repubblica del Mozambico",
-            "common": "Mozambico"
-        },
-        "jpn": {
-            "official": "\u30e2\u30b6\u30f3\u30d3\u30fc\u30af\u5171\u548c\u56fd",
-            "common": "\u30e2\u30b6\u30f3\u30d3\u30fc\u30af"
-        },
-        "nld": {
-            "official": "Republiek Mozambique",
-            "common": "Mozambique"
-        },
-        "por": {
-            "official": "Rep\u00fablica de Mo\u00e7ambique",
-            "common": "Mo\u00e7ambique"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u043e\u0437\u0430\u043c\u0431\u0438\u043a",
-            "common": "\u041c\u043e\u0437\u0430\u043c\u0431\u0438\u043a"
-        },
-        "slk": {
-            "official": "Mozambick\u00e1 republika",
-            "common": "Mozambik"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Mozambique",
-            "common": "Mozambique"
-        },
-        "fin": {
-            "official": "Mosambikin tasavalta",
-            "common": "Mosambik"
-        },
-        "est": {
-            "official": "Mosambiigi Vabariik",
-            "common": "Mosambiik"
-        },
-        "zho": {
-            "official": "\u83ab\u6851\u6bd4\u514b\u5171\u548c\u56fd",
-            "common": "\u83ab\u6851\u6bd4\u514b"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "508",
     "wb_a2": "MZ",

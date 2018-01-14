@@ -1,0 +1,60 @@
+{
+    "atlantic_azores": {
+        "abbreviations": [
+            "-02",
+            "-01",
+            "+00",
+            "HMT",
+            "LMT",
+            "WET"
+        ],
+        "cca2": "PT",
+        "cca3": "PRT",
+        "country_code": "PT",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "301",
+        "zone_name": "Atlantic\/Azores"
+    },
+    "atlantic_madeira": {
+        "abbreviations": [
+            "-01",
+            "+00",
+            "+01",
+            "FMT",
+            "LMT",
+            "WEST",
+            "WET"
+        ],
+        "cca2": "PT",
+        "cca3": "PRT",
+        "country_code": "PT",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "300",
+        "zone_name": "Atlantic\/Madeira"
+    },
+    "europe_lisbon": {
+        "abbreviations": [
+            "CEST",
+            "CET",
+            "LMT",
+            "WEMT",
+            "WEST",
+            "WET"
+        ],
+        "cca2": "PT",
+        "cca3": "PRT",
+        "country_code": "PT",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "299",
+        "zone_name": "Europe\/Lisbon"
+    }
+}

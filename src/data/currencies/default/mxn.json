@@ -1,0 +1,51 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$20",
+            "$50",
+            "$100",
+            "$200",
+            "$500"
+        ],
+        "rare": [
+            "$1000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "50\u00a2",
+            "$1",
+            "$2",
+            "$5",
+            "$10"
+        ],
+        "rare": [
+            "5\u00a2",
+            "10\u00a2",
+            "20\u00a2",
+            "$20",
+            "$50",
+            "$100"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MXN",
+        "number": "484"
+    },
+    "name": "Mexico Peso",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": "\u00a2"
+        }
+    }
+}

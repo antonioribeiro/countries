@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20b21000",
+            "\u20b22000",
+            "\u20b25000",
+            "\u20b210000",
+            "\u20b220000",
+            "\u20b250000",
+            "\u20b2100000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u20b250",
+            "\u20b2100",
+            "\u20b2500",
+            "\u20b21000"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "PYG",
+        "number": "600"
+    },
+    "name": "Paraguayan guarani",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "guarani",
+            "symbol": "\u20b2"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "c\u00e9ntimo",
+            "symbol": ""
+        }
+    }
+}

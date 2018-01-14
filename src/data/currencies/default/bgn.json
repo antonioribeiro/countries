@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u043b\u04322",
+            "\u043b\u04325",
+            "\u043b\u043210",
+            "\u043b\u043220",
+            "\u043b\u043250",
+            "\u043b\u0432100"
+        ],
+        "rare": [
+            "\u043b\u04321"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "\u0441\u0442\u043e\u0442\u0438\u043d\u043a\u04381",
+            "\u0441\u0442\u043e\u0442\u0438\u043d\u043a\u04382",
+            "\u0441\u0442\u043e\u0442\u0438\u043d\u043a\u04385",
+            "\u0441\u0442\u043e\u0442\u0438\u043d\u043a\u043810",
+            "\u0441\u0442\u043e\u0442\u0438\u043d\u043a\u043820",
+            "\u0441\u0442\u043e\u0442\u0438\u043d\u043a\u043850"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BGN",
+        "number": "975"
+    },
+    "name": "Bulgarian lev",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "lev",
+            "symbol": "\u043b\u0432"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "stotinki",
+            "symbol": "\u0441\u0442\u043e\u0442\u0438\u043d\u043a\u0438"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "banknotes": {
+        "frequent": [
+            "SI$5",
+            "SI$10",
+            "SI$20",
+            "SI$50",
+            "SI$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "10",
+            "20",
+            "50",
+            "SI$1",
+            "SI$2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SBD",
+        "number": "090"
+    },
+    "name": "Solomon Islander Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "SI$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

@@ -8,40 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "United Republic of Tanzania",
-    "altSpellings": [
-        "TZ",
-        "Tanzania, United Republic of",
-        "United Republic of Tanzania",
-        "Jamhuri ya Muungano wa Tanzania"
-    ],
-    "area": 945087,
-    "borders": [
-        "BDI",
-        "COD",
-        "KEN",
-        "MWI",
-        "MOZ",
-        "RWA",
-        "UGA",
-        "ZMB"
-    ],
     "brk_a3": "TZA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Tanzania",
-    "callingCode": [
-        "255"
-    ],
-    "capital": "Dodoma",
     "cca2": "TZ",
     "cca3": "TZA",
     "ccn3": "834",
-    "cioc": "TAN",
-    "continent": "Africa",
-    "currency": [
-        "TZS"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Tanzanian",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "TZ",
@@ -49,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "150600.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Eastern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Tanzania",
     "gu_a3": "TZA",
@@ -59,16 +45,7 @@
     "iso_a3_eh": "TZA",
     "iso_n3": "834",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English",
-        "swa": "Swahili"
-    },
     "lastcensus": "2002.00",
-    "latlng": [
-        -6,
-        35
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "2.00",
@@ -80,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Tanzania",
-        "official": "United Republic of Tanzania",
-        "native": {
-            "eng": {
-                "official": "United Republic of Tanzania",
-                "common": "Tanzania"
-            },
-            "swa": {
-                "official": "Jamhuri ya Muungano wa Tanzania",
-                "common": "Tanzania"
-            }
-        }
+        "official": "United Republic of Tanzania"
     },
     "name_alt": "",
     "name_ciawf": "Tanzania",
@@ -100,78 +67,21 @@
     "name_sort": "Tanzania",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "53950935.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
     "postal": "TZ",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "TZA",
     "sovereignt": "United Republic of Tanzania",
     "su_a3": "TZA",
     "su_dif": "0.00",
-    "subregion": "Eastern Africa",
     "subunit": "Tanzania",
     "tiny": "-99.00",
-    "tld": [
-        ".tz"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Vereinigte Republik Tansania",
-            "common": "Tansania"
-        },
-        "fra": {
-            "official": "R\u00e9publique -Unie de Tanzanie",
-            "common": "Tanzanie"
-        },
-        "hrv": {
-            "official": "Ujedinjena Republika Tanzanija",
-            "common": "Tanzanija"
-        },
-        "ita": {
-            "official": "Repubblica Unita di Tanzania",
-            "common": "Tanzania"
-        },
-        "jpn": {
-            "official": "\u30bf\u30f3\u30b6\u30cb\u30a2\u9023\u5408\u5171\u548c\u56fd",
-            "common": "\u30bf\u30f3\u30b6\u30cb\u30a2"
-        },
-        "nld": {
-            "official": "Verenigde Republiek Tanzania",
-            "common": "Tanzania"
-        },
-        "por": {
-            "official": "Rep\u00fablica Unida da Tanz\u00e2nia",
-            "common": "Tanz\u00e2nia"
-        },
-        "rus": {
-            "official": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f",
-            "common": "\u0422\u0430\u043d\u0437\u0430\u043d\u0438\u044f"
-        },
-        "slk": {
-            "official": "Tanz\u00e1nijsk\u00e1 zjednoten\u00e1 republika",
-            "common": "Tanz\u00e1nia"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Unida de Tanzania",
-            "common": "Tanzania"
-        },
-        "fin": {
-            "official": "Tansanian yhdistynyt tasavalta",
-            "common": "Tansania"
-        },
-        "est": {
-            "official": "Tansaania \u00dchendvabariik",
-            "common": "Tansaania"
-        },
-        "zho": {
-            "official": "\u5766\u6851\u5c3c\u4e9a\u8054\u5408\u5171\u548c\u56fd",
-            "common": "\u5766\u6851\u5c3c\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "834",
     "wb_a2": "TZ",

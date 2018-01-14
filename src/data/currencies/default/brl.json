@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "R$2",
+            "R$5",
+            "R$10",
+            "R$20",
+            "R$50",
+            "R$100"
+        ],
+        "rare": [
+            "R$1"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "25",
+            "50",
+            "R$1"
+        ],
+        "rare": [
+            "1"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BRL",
+        "number": "986"
+    },
+    "name": "Brazilian real",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "real",
+            "symbol": "R$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": ""
+        }
+    }
+}

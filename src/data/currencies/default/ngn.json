@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20a65",
+            "\u20a610",
+            "\u20a620",
+            "\u20a650",
+            "\u20a6100",
+            "\u20a6200",
+            "\u20a6500",
+            "\u20a61000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u20a61",
+            "\u20a62",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "NGN",
+        "number": "566"
+    },
+    "name": "Nigerian Naira",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Naira",
+            "symbol": "\u20a6"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Kobo",
+            "symbol": ""
+        }
+    }
+}

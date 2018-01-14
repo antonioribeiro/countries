@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Tajikistan",
-    "altSpellings": [
-        "TJ",
-        "To\u00e7ikiston",
-        "Republic of Tajikistan",
-        "\u04b6\u0443\u043c\u04b3\u0443\u0440\u0438\u0438 \u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
-        "\u00c7umhuriyi To\u00e7ikiston"
-    ],
-    "area": 143100,
-    "borders": [
-        "AFG",
-        "CHN",
-        "KGZ",
-        "UZB"
-    ],
     "brk_a3": "TJK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Tajikistan",
-    "callingCode": [
-        "992"
-    ],
-    "capital": "Dushanbe",
     "cca2": "TJ",
     "cca3": "TJK",
     "ccn3": "762",
-    "cioc": "TJK",
-    "continent": "Asia",
-    "currency": [
-        "TJS"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Tadzhik",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "TI",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "25810.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Central Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Tajikistan",
     "gu_a3": "TJK",
@@ -56,16 +45,7 @@
     "iso_a3_eh": "TJK",
     "iso_n3": "762",
     "labelrank": "4.00",
-    "landlocked": true,
-    "languages": {
-        "rus": "Russian",
-        "tgk": "Tajik"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        39,
-        71
-    ],
     "level": "2.00",
     "long_len": "10.00",
     "mapcolor13": "5.00",
@@ -77,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Tajikistan",
-        "official": "Republic of Tajikistan",
-        "native": {
-            "rus": {
-                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-                "common": "\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d"
-            },
-            "tgk": {
-                "official": "\u04b6\u0443\u043c\u04b3\u0443\u0440\u0438\u0438 \u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
-                "common": "\u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d"
-            }
-        }
+        "official": "Republic of Tajikistan"
     },
     "name_alt": "",
     "name_ciawf": "Tajikistan",
@@ -97,78 +67,21 @@
     "name_sort": "Tajikistan",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "8468555.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "TJ",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "TJK",
     "sovereignt": "Tajikistan",
     "su_a3": "TJK",
     "su_dif": "0.00",
-    "subregion": "Central Asia",
     "subunit": "Tajikistan",
     "tiny": "-99.00",
-    "tld": [
-        ".tj"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Tadschikistan",
-            "common": "Tadschikistan"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Tadjikistan",
-            "common": "Tadjikistan"
-        },
-        "hrv": {
-            "official": "Republika Tad\u017eikistan",
-            "common": "Ta\u0111ikistan"
-        },
-        "ita": {
-            "official": "Repubblica del Tajikistan",
-            "common": "Tagikistan"
-        },
-        "jpn": {
-            "official": "\u30bf\u30b8\u30ad\u30b9\u30bf\u30f3\u5171\u548c\u56fd",
-            "common": "\u30bf\u30b8\u30ad\u30b9\u30bf\u30f3"
-        },
-        "nld": {
-            "official": "Tadzjikistan",
-            "common": "Tadzjikistan"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Tajiquist\u00e3o",
-            "common": "Tajiquist\u00e3o"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d",
-            "common": "\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d"
-        },
-        "slk": {
-            "official": "Ta\u01c6ick\u00e1 republika",
-            "common": "Ta\u01c6ikistan"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Tayikist\u00e1n",
-            "common": "Tayikist\u00e1n"
-        },
-        "fin": {
-            "official": "Tad\u017eikistanin tasavalta",
-            "common": "Tad\u017eikistan"
-        },
-        "est": {
-            "official": "Tad\u017eikistani Vabariik",
-            "common": "Tad\u017eikistan"
-        },
-        "zho": {
-            "official": "\u5854\u5409\u514b\u65af\u5766\u5171\u548c\u56fd",
-            "common": "\u5854\u5409\u514b\u65af\u5766"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "762",
     "wb_a2": "TJ",

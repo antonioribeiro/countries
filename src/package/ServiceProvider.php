@@ -8,7 +8,6 @@ use PragmaRX\Countries\Package\Support\Hydrator;
 use PragmaRX\Countries\Package\Facade as Countries;
 use PragmaRX\Countries\Package\Console\Commands\Update;
 use PragmaRX\Countries\Package\Support\CountriesRepository;
-use PragmaRX\Countries\Package\Support\CurrenciesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
@@ -115,7 +114,7 @@ class ServiceProvider extends IlluminateServiceProvider
         $hydrator = new Hydrator();
 
         $this->app->singleton('pragmarx.countries', function () use ($cache, $hydrator) {
-            $repository = new CountriesRepository($cache, new CurrenciesRepository(), $hydrator);
+            $repository = new CountriesRepository($cache, $hydrator);
 
             $hydrator->setRepository($repository);
 

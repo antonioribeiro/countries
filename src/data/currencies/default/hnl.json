@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "L1",
+            "L2",
+            "L5",
+            "L10",
+            "L20",
+            "L50",
+            "L100",
+            "L500"
+        ],
+        "rare": [
+            ""
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "5\u00a2",
+            "10\u00a2",
+            "20\u00a2",
+            "50\u00a2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "HNL",
+        "number": "340"
+    },
+    "name": "Honduran lempira",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "lempira",
+            "symbol": "L"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": ""
+        }
+    }
+}

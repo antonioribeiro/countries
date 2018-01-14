@@ -1,0 +1,41 @@
+{
+    "banknotes": {
+        "frequent": [
+            "RM1",
+            "RM5",
+            "RM10",
+            "RM50",
+            "RM100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "sen5",
+            "sen10",
+            "sen20",
+            "sen50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MYR",
+        "number": "458"
+    },
+    "name": "Malaysian Ringgit",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Ringgit",
+            "symbol": "RM"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Sen",
+            "symbol": "Sen"
+        }
+    }
+}

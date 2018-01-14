@@ -1,0 +1,40 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$1",
+            "$5",
+            "$10"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "20",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BND",
+        "number": "096"
+    },
+    "name": "Bruneian Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

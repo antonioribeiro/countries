@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "100VT",
+            "200VT",
+            "500VT",
+            "1000VT",
+            "2000VT",
+            "5000VT",
+            "10000VT"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1VT",
+            "2VT",
+            "5VT",
+            "10VT",
+            "20VT",
+            "50VT",
+            "100VT"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "VUV",
+        "number": "548"
+    },
+    "name": "Ni-Vanuatu Vatu",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "vatu",
+            "symbol": "VT"
+        },
+        "minor": {
+            "majorValue": "",
+            "name": "",
+            "symbol": ""
+        }
+    }
+}

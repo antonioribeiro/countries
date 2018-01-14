@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "20",
+            "50"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1.\u200f\u0633.\u062c",
+            "5.\u200f\u0633.\u062c",
+            "10.\u200f\u0633.\u062c",
+            "20.\u200f\u0633.\u062c",
+            "50.\u200f\u0633.\u062c",
+            "1"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SDG",
+        "number": "736"
+    },
+    "name": "Sudanese Pound",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "pound",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "piastres",
+            "symbol": ".\u200f\u0633.\u062c"
+        }
+    }
+}

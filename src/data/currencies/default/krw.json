@@ -1,0 +1,42 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20a91000",
+            "\u20a95000",
+            "\u20a910000",
+            "\u20a950000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u20a91",
+            "\u20a95",
+            "\u20a910",
+            "\u20a950",
+            "\u20a9100",
+            "\u20a9500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "KRW",
+        "number": "410"
+    },
+    "name": "South Korean won",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "won",
+            "symbol": "\u20a9"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "jeon",
+            "symbol": ""
+        }
+    }
+}

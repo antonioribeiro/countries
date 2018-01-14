@@ -1,0 +1,50 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50",
+            "100",
+            "500",
+            "1000"
+        ],
+        "rare": [
+            "1",
+            "2"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "100",
+            "1000"
+        ],
+        "rare": [
+            "p50",
+            "10"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "INR",
+        "number": "356"
+    },
+    "name": "Indian Rupee",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Rupee",
+            "symbol": "\u20b9"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "paisa",
+            "symbol": "p"
+        }
+    }
+}

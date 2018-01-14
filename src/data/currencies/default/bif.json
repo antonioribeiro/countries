@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "10",
+            "20",
+            "50",
+            "100",
+            "500",
+            "1000",
+            "2000",
+            "5000",
+            "10000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BIF",
+        "number": "108"
+    },
+    "name": "Burundian Franc",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "franc",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centime",
+            "symbol": ""
+        }
+    }
+}

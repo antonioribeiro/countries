@@ -1,0 +1,55 @@
+{
+    "vat": {
+        "cca2": "EE",
+        "cca3": "EST",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Estonian VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.18,
+                        "end_date": "2009-06-30",
+                        "id": "ee_vat_standard_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.2,
+                        "id": "ee_vat_standard_2009",
+                        "start_date": "2009-07-01"
+                    }
+                ],
+                "default": true,
+                "id": "ee_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "end_date": "2008-12-31",
+                        "id": "ee_vat_reduced_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.09,
+                        "id": "ee_vat_reduced_2009",
+                        "start_date": "2009-01-01"
+                    }
+                ],
+                "id": "ee_vat_reduced",
+                "name": "Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "ee_vat",
+        "zone": "ee_vat"
+    }
+}

@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Myanmar",
-    "altSpellings": [
-        "MM",
-        "Burma",
-        "Republic of the Union of Myanmar",
-        "Pyidaunzu Thanm\u0103da My\u0103ma Nainngandaw"
-    ],
-    "area": 676578,
-    "borders": [
-        "BGD",
-        "CHN",
-        "IND",
-        "LAO",
-        "THA"
-    ],
     "brk_a3": "MMR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Myanmar",
-    "callingCode": [
-        "95"
-    ],
-    "capital": "Naypyidaw",
     "cca2": "MM",
     "cca3": "MMR",
     "ccn3": "104",
-    "cioc": "MYA",
-    "continent": "Asia",
-    "currency": [
-        "MMK"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Bamar",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "BM",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "311100.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "South-Eastern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Myanmar",
     "gu_a3": "MMR",
@@ -56,15 +45,7 @@
     "iso_a3_eh": "MMR",
     "iso_n3": "104",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "mya": "Burmese"
-    },
     "lastcensus": "1983.00",
-    "latlng": [
-        22,
-        98
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "13.00",
@@ -76,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Myanmar",
-        "official": "Republic of the Union of Myanmar",
-        "native": {
-            "mya": {
-                "official": "\u1015\u103c\u100a\u103a\u1011\u1031\u102c\u1004\u103a\u1005\u102f \u101e\u1019\u1039\u1019\u1010 \u1019\u103c\u1014\u103a\u1019\u102c\u1014\u102d\u102f\u1004\u103a\u1004\u1036\u1010\u1031\u102c\u103a",
-                "common": "\u1019\u103c\u1014\u103a\u1019\u102c"
-            }
-        }
+        "official": "Republic of the Union of Myanmar"
     },
     "name_alt": "",
     "name_ciawf": "Burma",
@@ -92,78 +67,21 @@
     "name_sort": "Myanmar",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "55123814.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
     "postal": "MM",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "MMR",
     "sovereignt": "Myanmar",
     "su_a3": "MMR",
     "su_dif": "0.00",
-    "subregion": "South-Eastern Asia",
     "subunit": "Myanmar",
     "tiny": "-99.00",
-    "tld": [
-        ".mm"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik der Union von Myanmar",
-            "common": "Myanmar"
-        },
-        "fra": {
-            "official": "R\u00e9publique de l'Union du Myanmar",
-            "common": "Birmanie"
-        },
-        "hrv": {
-            "official": "Republika Unije Mijanmar",
-            "common": "Mijanmar"
-        },
-        "ita": {
-            "official": "Repubblica dell'Unione di Myanmar",
-            "common": "Birmania"
-        },
-        "jpn": {
-            "official": "\u30df\u30e3\u30f3\u30de\u30fc\u9023\u90a6\u5171\u548c\u56fd",
-            "common": "\u30df\u30e3\u30f3\u30de\u30fc"
-        },
-        "nld": {
-            "official": "Republiek van de Unie van Myanmar",
-            "common": "Myanmar"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Uni\u00e3o de Myanmar",
-            "common": "Myanmar"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u043e\u044e\u0437\u0430 \u041c\u044c\u044f\u043d\u043c\u0430",
-            "common": "\u041c\u044c\u044f\u043d\u043c\u0430"
-        },
-        "slk": {
-            "official": "Mjanmarsk\u00e1 zv\u00e4zov\u00e1 republika",
-            "common": "Mjanmarsko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de la Uni\u00f3n de Myanmar",
-            "common": "Myanmar"
-        },
-        "fin": {
-            "official": "Myanmarin liiton tasavalta",
-            "common": "Myanmar"
-        },
-        "est": {
-            "official": "Myanmari Liidu Vabariik",
-            "common": "Myanmar"
-        },
-        "zho": {
-            "official": "\u7f05\u7538\u8054\u90a6\u5171\u548c\u56fd",
-            "common": "\u7f05\u7538"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "104",
     "wb_a2": "MM",

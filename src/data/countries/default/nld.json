@@ -8,34 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Netherlands",
-    "altSpellings": [
-        "NL",
-        "Holland",
-        "Nederland",
-        "The Netherlands"
-    ],
-    "area": 41850,
-    "borders": [
-        "BEL",
-        "DEU"
-    ],
     "brk_a3": "NLD",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Netherlands",
-    "callingCode": [
-        "31"
-    ],
-    "capital": "Amsterdam",
     "cca2": "NL",
     "cca3": "NLD",
     "ccn3": "528",
-    "cioc": "NED",
-    "continent": "Europe",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Dutch",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "NL",
@@ -43,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "870800.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Western Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Netherlands",
     "gu_a3": "NLD",
@@ -53,15 +45,7 @@
     "iso_a3_eh": "NLD",
     "iso_n3": "528",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "nld": "Dutch"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        52.5,
-        5.75
-    ],
     "level": "2.00",
     "long_len": "11.00",
     "mapcolor13": "9.00",
@@ -73,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Netherlands",
-        "official": "Netherlands",
-        "native": {
-            "nld": {
-                "official": "Nederland",
-                "common": "Nederland"
-            }
-        }
+        "official": "Kingdom of the Netherlands"
     },
     "name_alt": "",
     "name_ciawf": "Netherlands",
@@ -89,78 +67,21 @@
     "name_sort": "Netherlands",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "17084719.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "NL",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "NL1",
     "sovereignt": "Netherlands",
     "su_a3": "NLD",
     "su_dif": "0.00",
-    "subregion": "Western Europe",
     "subunit": "Netherlands",
     "tiny": "-99.00",
-    "tld": [
-        ".nl"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Niederlande",
-            "common": "Niederlande"
-        },
-        "fra": {
-            "official": "Pays-Bas",
-            "common": "Pays-Bas"
-        },
-        "hrv": {
-            "official": "Holandija",
-            "common": "Nizozemska"
-        },
-        "ita": {
-            "official": "Paesi Bassi",
-            "common": "Paesi Bassi"
-        },
-        "jpn": {
-            "official": "\u30aa\u30e9\u30f3\u30c0",
-            "common": "\u30aa\u30e9\u30f3\u30c0"
-        },
-        "nld": {
-            "official": "Nederland",
-            "common": "Nederland"
-        },
-        "por": {
-            "official": "Holanda",
-            "common": "Holanda"
-        },
-        "rus": {
-            "official": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b",
-            "common": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b"
-        },
-        "slk": {
-            "official": "Holandsk\u00e9 kr\u00e1\u013eovstvo",
-            "common": "Holansko"
-        },
-        "spa": {
-            "official": "Pa\u00edses Bajos",
-            "common": "Pa\u00edses Bajos"
-        },
-        "fin": {
-            "official": "Alankomaat",
-            "common": "Alankomaat"
-        },
-        "est": {
-            "official": "Madalmaade Kuningriik",
-            "common": "Holland"
-        },
-        "zho": {
-            "official": "\u8377\u5170",
-            "common": "\u8377\u5170"
-        }
-    },
     "type": "Country",
     "un_a3": "528",
     "wb_a2": "NL",

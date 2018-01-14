@@ -21,13 +21,6 @@ class CountriesRepository extends Base
     public $countriesJson;
 
     /**
-     * Currencies repository.
-     *
-     * @var CurrenciesRepository
-     */
-    public $currenciesRepository;
-
-    /**
      * Countries.
      *
      * @var array
@@ -45,14 +38,11 @@ class CountriesRepository extends Base
      * CountriesRepository constructor.
      *
      * @param Cache $cache
-     * @param CurrenciesRepository $currenciesRepository
      * @param Hydrator $hydrator
      */
-    public function __construct(Cache $cache, CurrenciesRepository $currenciesRepository, Hydrator $hydrator)
+    public function __construct(Cache $cache, Hydrator $hydrator)
     {
         $this->setCache($cache);
-
-        $this->currenciesRepository = $currenciesRepository;
 
         $this->hydrator = $hydrator;
 
@@ -106,7 +96,13 @@ class CountriesRepository extends Base
      */
     public function loadCountries()
     {
-        $this->countriesJson = json_decode($this->loadCountriesJson());
+        $this->countriesJson = $this->loadCountriesJson();
+
+        $overload = $this->loadJsonFiles($this->dataDir('countries/overload'))->mapWithKeys(function ($country, $code) {
+            return [upper($code) => $country];
+        });
+
+        $this->countriesJson = $this->countriesJson->overwrite($overload);
     }
 
     /**
@@ -126,9 +122,23 @@ class CountriesRepository extends Base
      */
     public function loadCountriesJson()
     {
-        return $this->loadFile(
+        return $this->loadJson(
             $this->dataDir('countries/default/_all_countries.json')
         );
+    }
+
+    /**
+     * Load currency json file.
+     *
+     * @return string
+     */
+    public function loadCurrenciesForCountry($code)
+    {
+        $currencies = $this->loadJson(
+            $this->dataDir('currencies/default/'.strtolower($code).'.json')
+        );
+
+        return $currencies;
     }
 
     /**
@@ -158,7 +168,15 @@ class CountriesRepository extends Base
      */
     public function currencies()
     {
-        return $this->currenciesRepository->all();
+        $currencies = $this->loadJsonFiles($this->dataDir('currencies/default'))->mapWithKeys(function ($country, $code) {
+            return [upper($code) => $country];
+        });
+
+        $overload = $this->loadJsonFiles($this->dataDir('currencies/overload'))->mapWithKeys(function ($country, $code) {
+            return [upper($code) => $country];
+        });
+
+        return $currencies->overwrite($overload);
     }
 
     /**
@@ -192,7 +210,7 @@ class CountriesRepository extends Base
 
             // https://github.com/lafeber/world-flags-sprite
             'world-flags-sprite' => '<span class="flag '.$flag.'"></span>',
-            
+
             // Internal svg file
             'svg' => $this->getFlagSvg($country['cca3']),
         ];
@@ -207,9 +225,7 @@ class CountriesRepository extends Base
     public function getFlagSvg($country)
     {
         return $this->loadFile(
-            $this->getJsonConverterHomeDir().
-            _dir('/data/').
-            strtolower($country).'.svg'
+            $this->dataDir('flags/'.strtolower($country).'.svg')
         );
     }
 
@@ -222,9 +238,7 @@ class CountriesRepository extends Base
     public function getGeometry($country)
     {
         return $this->loadFile(
-            $this->getJsonConverterHomeDir().
-            _dir('/data/').
-            strtolower($country['cca3']).'.geo.json'
+            $this->dataDir('geo/'.strtolower($country).'.geo.json')
         );
     }
 
@@ -237,9 +251,7 @@ class CountriesRepository extends Base
     public function getTopology($country)
     {
         return $this->loadFile(
-            $this->getJsonConverterHomeDir().
-            _dir('/data/').
-            strtolower($country['cca3']).'.geo.json'
+            $this->dataDir('topo/'.strtolower($country).'.topo.json')
         );
     }
 
@@ -261,12 +273,10 @@ class CountriesRepository extends Base
      * @param $countryCode
      * @return null
      */
-    public function findTimezone($countryCode)
+    public function findTimezones($countryCode)
     {
-        $this->loadTimezones();
-
-        return isset($this->timezones[$countryCode])
-            ? $this->timezones[$countryCode]
-            : null;
+        return $this->loadJson(
+            $this->dataDir('timezones/countries/default/'.strtolower($countryCode).'.json')
+        );
     }
 }

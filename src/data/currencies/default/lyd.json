@@ -1,0 +1,41 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1 dinar",
+            "5 dinars",
+            "10 dinars",
+            "20 dinars",
+            "50 dinars"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "0.25 dinar",
+            "0.5 dinar",
+            "50 dirhams",
+            "100 dirhams"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "LYD",
+        "number": "434"
+    },
+    "name": "Libyan Dinar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dinar",
+            "symbol": " \u062f.\u0644"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "dirham",
+            "symbol": ""
+        }
+    }
+}

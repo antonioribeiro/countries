@@ -1,0 +1,49 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20ac5",
+            "\u20ac10",
+            "\u20ac20",
+            "\u20ac50",
+            "\u20ac100"
+        ],
+        "rare": [
+            "\u20ac200",
+            "\u20ac500"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "\u20ac1",
+            "\u20ac2",
+            "5c",
+            "10c",
+            "20c",
+            "50c"
+        ],
+        "rare": [
+            "1c",
+            "2c"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "EUR",
+        "number": "978"
+    },
+    "name": "Euro",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "euro",
+            "symbol": "\u20ac"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "c"
+        }
+    }
+}

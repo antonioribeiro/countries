@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "50\u0639.\u062f",
+            "100\u0639.\u062f",
+            "250\u0639.\u062f",
+            "500\u0639.\u062f",
+            "1000\u0639.\u062f",
+            "5000\u0639.\u062f",
+            "10000\u0639.\u062f",
+            "25000\u0639.\u062f"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "25\u0639.\u062f",
+            "50\u0639.\u062f",
+            "100\u0639.\u062f"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "IQD",
+        "number": "368"
+    },
+    "name": "Iraqi Dinar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dinar",
+            "symbol": "\u0639.\u062f"
+        },
+        "minor": {
+            "majorValue": 0.001,
+            "name": "fils",
+            "symbol": ""
+        }
+    }
+}

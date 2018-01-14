@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Hungary",
-    "altSpellings": [
-        "HU"
-    ],
-    "area": 93028,
-    "borders": [
-        "AUT",
-        "HRV",
-        "ROU",
-        "SRB",
-        "SVK",
-        "SVN",
-        "UKR"
-    ],
     "brk_a3": "HUN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Hungary",
-    "callingCode": [
-        "36"
-    ],
-    "capital": "Budapest",
     "cca2": "HU",
     "cca3": "HUN",
     "ccn3": "348",
-    "cioc": "HUN",
-    "continent": "Europe",
-    "currency": [
-        "HUF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Hungarian",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "HU",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "267600.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Eastern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Hungary",
     "gu_a3": "HUN",
@@ -55,15 +45,7 @@
     "iso_a3_eh": "HUN",
     "iso_n3": "348",
     "labelrank": "5.00",
-    "landlocked": true,
-    "languages": {
-        "hun": "Hungarian"
-    },
     "lastcensus": "2001.00",
-    "latlng": [
-        47,
-        20
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "5.00",
@@ -75,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Hungary",
-        "official": "Hungary",
-        "native": {
-            "hun": {
-                "official": "Magyarorsz\u00e1g",
-                "common": "Magyarorsz\u00e1g"
-            }
-        }
+        "official": "Republic of Hungary"
     },
     "name_alt": "",
     "name_ciawf": "Hungary",
@@ -91,78 +67,21 @@
     "name_sort": "Hungary",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "9850845.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "HU",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "HUN",
     "sovereignt": "Hungary",
     "su_a3": "HUN",
     "su_dif": "0.00",
-    "subregion": "Eastern Europe",
     "subunit": "Hungary",
     "tiny": "-99.00",
-    "tld": [
-        ".hu"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Ungarn",
-            "common": "Ungarn"
-        },
-        "fra": {
-            "official": "Hongrie",
-            "common": "Hongrie"
-        },
-        "hrv": {
-            "official": "Mad\u017earska",
-            "common": "Ma\u0111arska"
-        },
-        "ita": {
-            "official": "Ungheria",
-            "common": "Ungheria"
-        },
-        "jpn": {
-            "official": "\u30cf\u30f3\u30ac\u30ea\u30fc",
-            "common": "\u30cf\u30f3\u30ac\u30ea\u30fc"
-        },
-        "nld": {
-            "official": "Hongarije",
-            "common": "Hongarije"
-        },
-        "por": {
-            "official": "Hungria",
-            "common": "Hungria"
-        },
-        "rus": {
-            "official": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f",
-            "common": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f"
-        },
-        "slk": {
-            "official": "Ma\u010farsko",
-            "common": "Ma\u010farsko"
-        },
-        "spa": {
-            "official": "Hungr\u00eda",
-            "common": "Hungr\u00eda"
-        },
-        "fin": {
-            "official": "Unkari",
-            "common": "Unkari"
-        },
-        "est": {
-            "official": "Ungari",
-            "common": "Ungari"
-        },
-        "zho": {
-            "official": "\u5308\u7259\u5229",
-            "common": "\u5308\u7259\u5229"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "348",
     "wb_a2": "HU",

@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "z\u014210",
+            "z\u014220",
+            "z\u014250",
+            "z\u0142100",
+            "z\u0142200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1gr",
+            "2gr",
+            "5gr",
+            "10gr",
+            "20gr",
+            "50gr",
+            "z\u01421",
+            "z\u01422",
+            "z\u01425"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "PLN",
+        "number": "985"
+    },
+    "name": "Polish z\u0142oty",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "z\u0142oty",
+            "symbol": "z\u0142"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Grosz",
+            "symbol": "gr"
+        }
+    }
+}

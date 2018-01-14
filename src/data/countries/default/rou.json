@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Romania",
-    "altSpellings": [
-        "RO",
-        "Rumania",
-        "Roumania",
-        "Rom\u00e2nia"
-    ],
-    "area": 238391,
-    "borders": [
-        "BGR",
-        "HUN",
-        "MDA",
-        "SRB",
-        "UKR"
-    ],
     "brk_a3": "ROU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Romania",
-    "callingCode": [
-        "40"
-    ],
-    "capital": "Bucharest",
     "cca2": "RO",
     "cca3": "ROU",
     "ccn3": "642",
-    "cioc": "ROU",
-    "continent": "Europe",
-    "currency": [
-        "RON"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Romanian",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "RO",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "441000.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Eastern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Romania",
     "gu_a3": "ROU",
@@ -56,15 +45,7 @@
     "iso_a3_eh": "ROU",
     "iso_n3": "642",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "ron": "Romanian"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        46,
-        25
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "13.00",
@@ -76,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Romania",
-        "official": "Romania",
-        "native": {
-            "ron": {
-                "official": "Rom\u00e2nia",
-                "common": "Rom\u00e2nia"
-            }
-        }
+        "official": "Romania"
     },
     "name_alt": "",
     "name_ciawf": "Romania",
@@ -92,78 +67,21 @@
     "name_sort": "Romania",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "21529967.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "RO",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "ROU",
     "sovereignt": "Romania",
     "su_a3": "ROU",
     "su_dif": "0.00",
-    "subregion": "Eastern Europe",
     "subunit": "Romania",
     "tiny": "-99.00",
-    "tld": [
-        ".ro"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Rum\u00e4nien",
-            "common": "Rum\u00e4nien"
-        },
-        "fra": {
-            "official": "Roumanie",
-            "common": "Roumanie"
-        },
-        "hrv": {
-            "official": "Rumunija",
-            "common": "Rumunjska"
-        },
-        "ita": {
-            "official": "Romania",
-            "common": "Romania"
-        },
-        "jpn": {
-            "official": "\u30eb\u30fc\u30de\u30cb\u30a2",
-            "common": "\u30eb\u30fc\u30de\u30cb\u30a2"
-        },
-        "nld": {
-            "official": "Roemeni\u00eb",
-            "common": "Roemeni\u00eb"
-        },
-        "por": {
-            "official": "Rom\u00eania",
-            "common": "Rom\u00e9nia"
-        },
-        "rus": {
-            "official": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f",
-            "common": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f"
-        },
-        "slk": {
-            "official": "Rumunsko",
-            "common": "Rumunsko"
-        },
-        "spa": {
-            "official": "Rumania",
-            "common": "Rumania"
-        },
-        "fin": {
-            "official": "Romania",
-            "common": "Romania"
-        },
-        "est": {
-            "official": "Rumeenia",
-            "common": "Rumeenia"
-        },
-        "zho": {
-            "official": "\u7f57\u9a6c\u5c3c\u4e9a",
-            "common": "\u7f57\u9a6c\u5c3c\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "642",
     "wb_a2": "RO",

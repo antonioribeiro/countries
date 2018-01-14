@@ -8,31 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mongolia",
-    "altSpellings": [
-        "MN"
-    ],
-    "area": 1564110,
-    "borders": [
-        "CHN",
-        "RUS"
-    ],
     "brk_a3": "MNG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mongolia",
-    "callingCode": [
-        "976"
-    ],
-    "capital": "Ulan Bator",
     "cca2": "MN",
     "cca3": "MNG",
     "ccn3": "496",
-    "cioc": "MGL",
-    "continent": "Asia",
-    "currency": [
-        "MNT"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Mongolian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "MG",
@@ -40,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "37000.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "Eastern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Mongolia",
     "gu_a3": "MNG",
@@ -50,15 +45,7 @@
     "iso_a3_eh": "MNG",
     "iso_n3": "496",
     "labelrank": "3.00",
-    "landlocked": true,
-    "languages": {
-        "mon": "Mongolian"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        46,
-        105
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "6.00",
@@ -70,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mongolia",
-        "official": "Mongolia",
-        "native": {
-            "mon": {
-                "official": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441",
-                "common": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441"
-            }
-        }
+        "official": "Mongolia"
     },
     "name_alt": "",
     "name_ciawf": "Mongolia",
@@ -86,78 +67,21 @@
     "name_sort": "Mongolia",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "3068243.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
     "postal": "MN",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "MNG",
     "sovereignt": "Mongolia",
     "su_a3": "MNG",
     "su_dif": "0.00",
-    "subregion": "Eastern Asia",
     "subunit": "Mongolia",
     "tiny": "-99.00",
-    "tld": [
-        ".mn"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Mongolei",
-            "common": "Mongolei"
-        },
-        "fra": {
-            "official": "Mongolie",
-            "common": "Mongolie"
-        },
-        "hrv": {
-            "official": "Mongolija",
-            "common": "Mongolija"
-        },
-        "ita": {
-            "official": "Mongolia",
-            "common": "Mongolia"
-        },
-        "jpn": {
-            "official": "\u30e2\u30f3\u30b4\u30eb",
-            "common": "\u30e2\u30f3\u30b4\u30eb"
-        },
-        "nld": {
-            "official": "Mongoli\u00eb",
-            "common": "Mongoli\u00eb"
-        },
-        "por": {
-            "official": "Mong\u00f3lia",
-            "common": "Mong\u00f3lia"
-        },
-        "rus": {
-            "official": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f",
-            "common": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f"
-        },
-        "slk": {
-            "official": "Mongolsko",
-            "common": "Mongolsko"
-        },
-        "spa": {
-            "official": "Mongolia",
-            "common": "Mongolia"
-        },
-        "fin": {
-            "official": "Mongolian tasavalta",
-            "common": "Mongolia"
-        },
-        "est": {
-            "official": "Mongoolia",
-            "common": "Mongoolia"
-        },
-        "zho": {
-            "official": "\u8499\u53e4",
-            "common": "\u8499\u53e4"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "496",
     "wb_a2": "MN",

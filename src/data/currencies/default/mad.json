@@ -1,0 +1,48 @@
+{
+    "banknotes": {
+        "frequent": [
+            "20 dirhams",
+            "50 dirhams",
+            "100 dirhams",
+            "200 dirhams"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "0.5 dirhams",
+            "1 dirhams",
+            "2 dirhams",
+            "5 dirhams",
+            "10 dirhams",
+            "1 santimat",
+            "5 santimat",
+            "10 santimat",
+            "20 santimat",
+            "50 santimat"
+        ],
+        "rare": [
+            "5 santimat"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MAD",
+        "number": "504"
+    },
+    "name": "Moroccan Dirham",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dirham",
+            "symbol": "\u0645.\u062f."
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "santim",
+            "symbol": "santimat"
+        }
+    }
+}

@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Suriname",
-    "altSpellings": [
-        "SR",
-        "Sarnam",
-        "Sranangron",
-        "Republic of Suriname",
-        "Republiek Suriname"
-    ],
-    "area": 163820,
-    "borders": [
-        "BRA",
-        "GUF",
-        "GUY"
-    ],
     "brk_a3": "SUR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Suriname",
-    "callingCode": [
-        "597"
-    ],
-    "capital": "Paramaribo",
     "cca2": "SR",
     "cca3": "SUR",
     "ccn3": "740",
-    "cioc": "SUR",
-    "continent": "South America",
-    "currency": [
-        "SRD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Surinamer",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "NS",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "8547.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "South America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "South America"
+    },
     "geou_dif": "0.00",
     "geounit": "Suriname",
     "gu_a3": "SUR",
@@ -55,15 +45,7 @@
     "iso_a3_eh": "SUR",
     "iso_n3": "740",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "nld": "Dutch"
-    },
     "lastcensus": "2004.00",
-    "latlng": [
-        4,
-        -56
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "6.00",
@@ -75,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Suriname",
-        "official": "Republic of Suriname",
-        "native": {
-            "nld": {
-                "official": "Republiek Suriname",
-                "common": "Suriname"
-            }
-        }
+        "official": "Republic of Suriname"
     },
     "name_alt": "",
     "name_ciawf": "Suriname",
@@ -91,78 +67,21 @@
     "name_sort": "Suriname",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "591919.00",
     "pop_rank": "11.00",
     "pop_year": "2017.00",
     "postal": "SR",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "SUR",
     "sovereignt": "Suriname",
     "su_a3": "SUR",
     "su_dif": "0.00",
-    "subregion": "South America",
     "subunit": "Suriname",
     "tiny": "-99.00",
-    "tld": [
-        ".sr"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Suriname",
-            "common": "Suriname"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Suriname",
-            "common": "Surinam"
-        },
-        "hrv": {
-            "official": "Republika Surinam",
-            "common": "Surinam"
-        },
-        "ita": {
-            "official": "Repubblica del Suriname",
-            "common": "Suriname"
-        },
-        "jpn": {
-            "official": "\u30b9\u30ea\u30ca\u30e0\u5171\u548c\u56fd",
-            "common": "\u30b9\u30ea\u30ca\u30e0"
-        },
-        "nld": {
-            "official": "Republiek Suriname",
-            "common": "Suriname"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Suriname",
-            "common": "Suriname"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0443\u0440\u0438\u043d\u0430\u043c",
-            "common": "\u0421\u0443\u0440\u0438\u043d\u0430\u043c"
-        },
-        "slk": {
-            "official": "Surinamsk\u00e1 republika",
-            "common": "Surinam"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Suriname",
-            "common": "Surinam"
-        },
-        "fin": {
-            "official": "Surinamen tasavalta",
-            "common": "Suriname"
-        },
-        "est": {
-            "official": "Suriname Vabariik",
-            "common": "Suriname"
-        },
-        "zho": {
-            "official": "\u82cf\u91cc\u5357\u5171\u548c\u56fd",
-            "common": "\u82cf\u91cc\u5357"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "740",
     "wb_a2": "SR",

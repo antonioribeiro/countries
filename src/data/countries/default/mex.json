@@ -8,35 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mexico",
-    "altSpellings": [
-        "MX",
-        "Mexicanos",
-        "United Mexican States",
-        "Estados Unidos Mexicanos"
-    ],
-    "area": 1964375,
-    "borders": [
-        "BLZ",
-        "GTM",
-        "USA"
-    ],
     "brk_a3": "MEX",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mexico",
-    "callingCode": [
-        "52"
-    ],
-    "capital": "Mexico City",
     "cca2": "MX",
     "cca3": "MEX",
     "ccn3": "484",
-    "cioc": "MEX",
-    "continent": "North America",
-    "currency": [
-        "MXN"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Mexican",
     "economy": "4. Emerging region: MIKT",
     "featurecla": "Admin-0 country",
     "fips_10_": "MX",
@@ -44,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "2307000.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Central America"
+    },
     "geou_dif": "0.00",
     "geounit": "Mexico",
     "gu_a3": "MEX",
@@ -54,15 +45,7 @@
     "iso_a3_eh": "MEX",
     "iso_n3": "484",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "spa": "Spanish"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        23,
-        -102
-    ],
     "level": "2.00",
     "long_len": "6.00",
     "mapcolor13": "3.00",
@@ -74,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mexico",
-        "official": "United Mexican States",
-        "native": {
-            "spa": {
-                "official": "Estados Unidos Mexicanos",
-                "common": "M\u00e9xico"
-            }
-        }
+        "official": "United Mexican States"
     },
     "name_alt": "",
     "name_ciawf": "Mexico",
@@ -90,79 +67,21 @@
     "name_sort": "Mexico",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "124574795.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
     "postal": "MX",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "MEX",
     "sovereignt": "Mexico",
     "su_a3": "MEX",
     "su_dif": "0.00",
-    "subregion": "Northern America",
-    "subregion_nev": "Central America",
     "subunit": "Mexico",
     "tiny": "-99.00",
-    "tld": [
-        ".mx"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Vereinigte Mexikanische Staaten",
-            "common": "Mexiko"
-        },
-        "fra": {
-            "official": "\u00c9tats-Unis du Mexique",
-            "common": "Mexique"
-        },
-        "hrv": {
-            "official": "Sjedinjene Meksi\u010dke Dr\u017eave",
-            "common": "Meksiko"
-        },
-        "ita": {
-            "official": "Stati Uniti del Messico",
-            "common": "Messico"
-        },
-        "jpn": {
-            "official": "\u30e1\u30ad\u30b7\u30b3\u5408\u8846\u56fd",
-            "common": "\u30e1\u30ad\u30b7\u30b3"
-        },
-        "nld": {
-            "official": "Verenigde Mexicaanse Staten",
-            "common": "Mexico"
-        },
-        "por": {
-            "official": "Estados Unidos Mexicanos",
-            "common": "M\u00e9xico"
-        },
-        "rus": {
-            "official": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0435 \u0421\u043e\u0435\u0434\u0438\u043d\u0451\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b",
-            "common": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430"
-        },
-        "slk": {
-            "official": "Spojen\u00e9 \u0161t\u00e1\u0161y mexick\u00e9",
-            "common": "Mexiko"
-        },
-        "spa": {
-            "official": "Estados Unidos Mexicanos",
-            "common": "M\u00e9xico"
-        },
-        "fin": {
-            "official": "Meksikon yhdysvallat",
-            "common": "Meksiko"
-        },
-        "est": {
-            "official": "Mehhiko \u00dchendriigid",
-            "common": "Mehhiko"
-        },
-        "zho": {
-            "official": "\u58a8\u897f\u54e5\u5408\u4f17\u56fd",
-            "common": "\u58a8\u897f\u54e5"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "484",
     "wb_a2": "MX",

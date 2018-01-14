@@ -1,0 +1,52 @@
+{
+    "banknotes": {
+        "frequent": [
+            "kn5",
+            "kn10",
+            "kn20",
+            "kn50",
+            "kn100",
+            "kn200"
+        ],
+        "rare": [
+            "kn500",
+            "kn1000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "lp5",
+            "lp10",
+            "lp20",
+            "lp50",
+            "kn1",
+            "kn2",
+            "kn4"
+        ],
+        "rare": [
+            "lp1",
+            "lp2",
+            "kn25"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "HRK",
+        "number": "191"
+    },
+    "name": "Croatian kuna",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "kuna",
+            "symbol": "kn"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "lipa",
+            "symbol": "lp"
+        }
+    }
+}

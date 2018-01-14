@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50",
+            "100",
+            "200",
+            "500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "k1",
+            "k2",
+            "k5",
+            "k10",
+            "k20",
+            "k50",
+            "1",
+            "2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BYR",
+        "number": "974"
+    },
+    "name": "Belarusian ruble",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "ruble",
+            "symbol": "\u0440"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "kapeyka",
+            "symbol": "\u043a"
+        }
+    }
+}

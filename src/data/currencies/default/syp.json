@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u00a35",
+            "\u00a310",
+            "\u00a325",
+            "\u00a350",
+            "\u00a3100",
+            "\u00a3200",
+            "\u00a3500",
+            "\u00a31000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u00a31",
+            "\u00a32",
+            "\u00a35",
+            "\u00a310",
+            "\u00a325"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SYP",
+        "number": "760"
+    },
+    "name": "Syrian Pound",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "pound",
+            "symbol": "\u00a3"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "piastre",
+            "symbol": ""
+        }
+    }
+}

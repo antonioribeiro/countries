@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "T1",
+            "T5",
+            "T10",
+            "T20",
+            "T50",
+            "T100",
+            "T500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "20",
+            "50",
+            "T1",
+            "T2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TMT",
+        "number": "795"
+    },
+    "name": "Turkmenistan manat",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "manat",
+            "symbol": "T"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "tenge",
+            "symbol": ""
+        }
+    }
+}

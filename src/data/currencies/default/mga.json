@@ -1,0 +1,48 @@
+{
+    "banknotes": {
+        "frequent": [
+            "Ar100",
+            "Ar200",
+            "Ar500",
+            "Ar1000",
+            "Ar2000",
+            "Ar5000",
+            "Ar10000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "Ar1",
+            "Ar2",
+            "Ar4",
+            "Ar5",
+            "Ar10",
+            "Ar20",
+            "Ar50",
+            "1",
+            "25"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MGA",
+        "number": "969"
+    },
+    "name": "Malagasy Ariary",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Ariary",
+            "symbol": "Ar"
+        },
+        "minor": {
+            "majorValue": 0.2,
+            "name": "Iraimbilanja",
+            "symbol": ""
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$50",
+            "$100",
+            "$500",
+            "$1000"
+        ],
+        "rare": [
+            "$1",
+            "$2",
+            "$5",
+            "$10",
+            "$20",
+            "$5000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "25c",
+            "$1",
+            "$5",
+            "$10",
+            "$20"
+        ],
+        "rare": [
+            "1c",
+            "5c",
+            "10c",
+            "50c"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "JMD",
+        "number": "388"
+    },
+    "name": "Jamaican dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "J$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "c"
+        }
+    }
+}

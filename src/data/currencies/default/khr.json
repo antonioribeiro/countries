@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u17db50",
+            "\u17db100",
+            "\u17db200",
+            "\u17db500",
+            "\u17db1000",
+            "\u17db2000",
+            "\u17db5000",
+            "\u17db10000",
+            "\u17db20000",
+            "\u17db50000",
+            "\u17db100000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u17db50",
+            "\u17db100",
+            "\u17db200",
+            "\u17db500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "KHR",
+        "number": "116"
+    },
+    "name": "Cambodian Riel",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "riel",
+            "symbol": "\u17db"
+        },
+        "minor": {
+            "majorValue": 0.1,
+            "name": "kak",
+            "symbol": ""
+        }
+    }
+}

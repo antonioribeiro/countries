@@ -8,30 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Faroe Islands",
-    "altSpellings": [
-        "FO",
-        "F\u00f8royar",
-        "F\u00e6r\u00f8erne"
-    ],
-    "area": 1393,
-    "borders": [],
     "brk_a3": "FRO",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Faeroe Islands",
-    "callingCode": [
-        "298"
-    ],
-    "capital": "T\u00f3rshavn",
     "cca2": "FO",
     "cca3": "FRO",
     "ccn3": "234",
-    "cioc": "",
-    "continent": "Europe",
-    "currency": [
-        "DKK"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Faroese",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "FO",
@@ -39,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "2001.00",
     "gdp_year": "2014.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Northern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Faroe Islands",
     "gu_a3": "FRO",
@@ -49,16 +45,7 @@
     "iso_a3_eh": "FRO",
     "iso_n3": "234",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "dan": "Danish",
-        "fao": "Faroese"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        62,
-        -7
-    ],
     "level": "2.00",
     "long_len": "14.00",
     "mapcolor13": "12.00",
@@ -69,18 +56,8 @@
     "min_label": "4.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Faroe Islands",
-        "official": "Faroe Islands",
-        "native": {
-            "dan": {
-                "official": "F\u00e6r\u00f8erne",
-                "common": "F\u00e6r\u00f8erne"
-            },
-            "fao": {
-                "official": "F\u00f8royar",
-                "common": "F\u00f8royar"
-            }
-        }
+        "common": "Faeroe Is.",
+        "official": "F\u00c3\u00b8royar Is. (Faeroe Is.)"
     },
     "name_alt": "",
     "name_ciawf": "Faroe Islands",
@@ -90,78 +67,21 @@
     "name_sort": "Faeroe Islands",
     "note_adm0": "Den.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "50730.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
     "postal": "FO",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "5",
     "sov_a3": "DN1",
     "sovereignt": "Denmark",
     "su_a3": "FRO",
     "su_dif": "0.00",
-    "subregion": "Northern Europe",
     "subunit": "Faroe Islands",
     "tiny": "3.00",
-    "tld": [
-        ".fo"
-    ],
-    "translations": {
-        "deu": {
-            "official": "F\u00e4r\u00f6er",
-            "common": "F\u00e4r\u00f6er-Inseln"
-        },
-        "fra": {
-            "official": "\u00celes F\u00e9ro\u00e9",
-            "common": "\u00celes F\u00e9ro\u00e9"
-        },
-        "hrv": {
-            "official": "Farski Otoci",
-            "common": "Farski Otoci"
-        },
-        "ita": {
-            "official": "Isole Faroe",
-            "common": "Isole Far Oer"
-        },
-        "jpn": {
-            "official": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
-            "common": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6"
-        },
-        "nld": {
-            "official": "Faer\u00f6er",
-            "common": "Faer\u00f6er"
-        },
-        "por": {
-            "official": "Ilhas Faroe",
-            "common": "Ilhas Faro\u00e9"
-        },
-        "rus": {
-            "official": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-            "common": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
-        },
-        "slk": {
-            "official": "Faersk\u00e9 ostrovy",
-            "common": "Faersk\u00e9 ostrovy"
-        },
-        "spa": {
-            "official": "Islas Feroe",
-            "common": "Islas Faroe"
-        },
-        "fin": {
-            "official": "F\u00e4rsaaret",
-            "common": "F\u00e4rsaaret"
-        },
-        "est": {
-            "official": "F\u00e4\u00e4ri saared",
-            "common": "F\u00e4\u00e4ri saared"
-        },
-        "zho": {
-            "official": "\u6cd5\u7f57\u7fa4\u5c9b",
-            "common": "\u6cd5\u7f57\u7fa4\u5c9b"
-        }
-    },
     "type": "Dependency",
     "un_a3": "234",
     "wb_a2": "FO",

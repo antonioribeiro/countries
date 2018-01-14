@@ -8,29 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Saint Pierre and Miquelon",
-    "altSpellings": [
-        "PM",
-        "Collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon"
-    ],
-    "area": 242,
-    "borders": [],
     "brk_a3": "SPM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "St. Pierre and Miquelon",
-    "callingCode": [
-        "508"
-    ],
-    "capital": "Saint-Pierre",
     "cca2": "PM",
     "cca3": "SPM",
     "ccn3": "666",
-    "cioc": "",
-    "continent": "North America",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "French",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "SB",
@@ -38,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "215.30",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "North America",
+        "subregion": "Northern America"
+    },
     "geou_dif": "0.00",
     "geounit": "Saint Pierre and Miquelon",
     "gu_a3": "SPM",
@@ -48,15 +45,7 @@
     "iso_a3_eh": "SPM",
     "iso_n3": "666",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "fra": "French"
-    },
     "lastcensus": "-99.00",
-    "latlng": [
-        46.83333333,
-        -56.33333333
-    ],
     "level": "2.00",
     "long_len": "25.00",
     "mapcolor13": "11.00",
@@ -67,14 +56,8 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Saint Pierre and Miquelon",
-        "official": "Saint Pierre and Miquelon",
-        "native": {
-            "fra": {
-                "official": "Collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon",
-                "common": "Saint-Pierre-et-Miquelon"
-            }
-        }
+        "common": "St. Pierre and Miquelon",
+        "official": "Saint Pierre and Miquelon"
     },
     "name_alt": "",
     "name_ciawf": "Saint Pierre and Miquelon",
@@ -84,78 +67,21 @@
     "name_sort": "St. Pierre and Miquelon",
     "note_adm0": "Fr.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "5533.00",
     "pop_rank": "5.00",
     "pop_year": "2017.00",
     "postal": "PM",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "North America",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "FR1",
     "sovereignt": "France",
     "su_a3": "SPM",
     "su_dif": "0.00",
-    "subregion": "Northern America",
     "subunit": "Saint Pierre and Miquelon",
     "tiny": "3.00",
-    "tld": [
-        ".pm"
-    ],
-    "translations": {
-        "deu": {
-            "official": "St. Pierre und Miquelon",
-            "common": "Saint-Pierre und Miquelon"
-        },
-        "fra": {
-            "official": "Saint-Pierre-et-Miquelon",
-            "common": "Saint-Pierre-et-Miquelon"
-        },
-        "hrv": {
-            "official": "Saint Pierre i Miquelon",
-            "common": "Sveti Petar i Mikelon"
-        },
-        "ita": {
-            "official": "Saint Pierre e Miquelon",
-            "common": "Saint-Pierre e Miquelon"
-        },
-        "jpn": {
-            "official": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u00b7\u30df\u30af\u30ed\u30f3\u5cf6",
-            "common": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u30fb\u30df\u30af\u30ed\u30f3\u5cf6"
-        },
-        "nld": {
-            "official": "Saint-Pierre en Miquelon",
-            "common": "Saint Pierre en Miquelon"
-        },
-        "por": {
-            "official": "Saint Pierre e Miquelon",
-            "common": "Saint-Pierre e Miquelon"
-        },
-        "rus": {
-            "official": "\u0421\u0435\u043d-\u041f\u044c\u0435\u0440 \u0438 \u041c\u0438\u043a\u0435\u043b\u043e\u043d",
-            "common": "\u0421\u0435\u043d-\u041f\u044c\u0435\u0440 \u0438 \u041c\u0438\u043a\u0435\u043b\u043e\u043d"
-        },
-        "slk": {
-            "official": "Ostrovy Saint Pierre a Miquelon",
-            "common": "Saint Pierre a Miquelon"
-        },
-        "spa": {
-            "official": "San Pedro y Miquel\u00f3n",
-            "common": "San Pedro y Miquel\u00f3n"
-        },
-        "fin": {
-            "official": "Saint-Pierre ja Miquelon",
-            "common": "Saint-Pierre ja Miquelon"
-        },
-        "est": {
-            "official": "Saint-Pierre\u2019i ja Miqueloni territoriaal\u00fchendus",
-            "common": "Saint-Pierre ja Miquelon"
-        },
-        "zho": {
-            "official": "\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686",
-            "common": "\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686"
-        }
-    },
     "type": "Dependency",
     "un_a3": "666",
     "wb_a2": "-99",

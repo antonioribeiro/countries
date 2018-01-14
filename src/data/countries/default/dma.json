@@ -8,31 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Dominica",
-    "altSpellings": [
-        "DM",
-        "Dominique",
-        "Wai\u2018tu kubuli",
-        "Commonwealth of Dominica"
-    ],
-    "area": 751,
-    "borders": [],
     "brk_a3": "DMA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Dominica",
-    "callingCode": [
-        "1767"
-    ],
-    "capital": "Roseau",
     "cca2": "DM",
     "cca3": "DMA",
     "ccn3": "212",
-    "cioc": "DMA",
-    "continent": "North America",
-    "currency": [
-        "XCD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Dominican",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "DO",
@@ -40,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "812.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Dominica",
     "gu_a3": "DMA",
@@ -50,15 +45,7 @@
     "iso_a3_eh": "DMA",
     "iso_n3": "212",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        15.41666666,
-        -61.33333333
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "12.00",
@@ -70,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Dominica",
-        "official": "Commonwealth of Dominica",
-        "native": {
-            "eng": {
-                "official": "Commonwealth of Dominica",
-                "common": "Dominica"
-            }
-        }
+        "official": "Commonwealth of Dominica"
     },
     "name_alt": "",
     "name_ciawf": "Dominica",
@@ -86,82 +67,21 @@
     "name_sort": "Dominica",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "73897.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
     "postal": "DM",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "DMA",
     "sovereignt": "Dominica",
     "su_a3": "DMA",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Dominica",
     "tiny": "4.00",
-    "tld": [
-        ".dm"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Cymanwlad Dominica",
-            "common": "Dominica"
-        },
-        "deu": {
-            "official": "Commonwealth von Dominica",
-            "common": "Dominica"
-        },
-        "fra": {
-            "official": "Commonwealth de la Dominique",
-            "common": "Dominique"
-        },
-        "hrv": {
-            "official": "Zajednica Dominika",
-            "common": "Dominika"
-        },
-        "ita": {
-            "official": "Commonwealth di Dominica",
-            "common": "Dominica"
-        },
-        "jpn": {
-            "official": "\u30c9\u30df\u30cb\u30ab\u56fd",
-            "common": "\u30c9\u30df\u30cb\u30ab\u56fd"
-        },
-        "nld": {
-            "official": "Gemenebest Dominica",
-            "common": "Dominica"
-        },
-        "por": {
-            "official": "Comunidade da Dominica",
-            "common": "Dominica"
-        },
-        "rus": {
-            "official": "\u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043e \u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0438",
-            "common": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430"
-        },
-        "slk": {
-            "official": "Dominick\u00e9 spolo\u010denstvo",
-            "common": "Dominika"
-        },
-        "spa": {
-            "official": "Mancomunidad de Dominica",
-            "common": "Dominica"
-        },
-        "fin": {
-            "official": "Dominican liittovaltio",
-            "common": "Dominica"
-        },
-        "est": {
-            "official": "Dominica \u00dchendus",
-            "common": "Dominica"
-        },
-        "zho": {
-            "official": "\u591a\u7c73\u5c3c\u52a0\u5171\u548c\u56fd",
-            "common": "\u591a\u7c73\u5c3c\u52a0"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "212",
     "wb_a2": "DM",

@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Azerbaijan",
-    "altSpellings": [
-        "AZ",
-        "Republic of Azerbaijan",
-        "Az\u0259rbaycan Respublikas\u0131"
-    ],
-    "area": 86600,
-    "borders": [
-        "ARM",
-        "GEO",
-        "IRN",
-        "RUS",
-        "TUR"
-    ],
     "brk_a3": "AZE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Azerbaijan",
-    "callingCode": [
-        "994"
-    ],
-    "capital": "Baku",
     "cca2": "AZ",
     "cca3": "AZE",
     "ccn3": "031",
-    "cioc": "AZE",
-    "continent": "Asia",
-    "currency": [
-        "AZN"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Azerbaijani",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "AJ",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "167900.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Western Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Azerbaijan",
     "gu_a3": "AZE",
@@ -55,16 +45,7 @@
     "iso_a3_eh": "AZE",
     "iso_n3": "031",
     "labelrank": "5.00",
-    "landlocked": true,
-    "languages": {
-        "aze": "Azerbaijani",
-        "rus": "Russian"
-    },
     "lastcensus": "2009.00",
-    "latlng": [
-        40.5,
-        47.5
-    ],
     "level": "2.00",
     "long_len": "10.00",
     "mapcolor13": "8.00",
@@ -76,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Azerbaijan",
-        "official": "Republic of Azerbaijan",
-        "native": {
-            "aze": {
-                "official": "Az\u0259rbaycan Respublikas\u0131",
-                "common": "Az\u0259rbaycan"
-            },
-            "rus": {
-                "official": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
-                "common": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d"
-            }
-        }
+        "official": "Republic of Azerbaijan"
     },
     "name_alt": "",
     "name_ciawf": "Azerbaijan",
@@ -96,82 +67,21 @@
     "name_sort": "Azerbaijan",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "9961396.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "AZ",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "AZE",
     "sovereignt": "Azerbaijan",
     "su_a3": "AZE",
     "su_dif": "0.00",
-    "subregion": "Western Asia",
     "subunit": "Azerbaijan",
     "tiny": "-99.00",
-    "tld": [
-        ".az"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Aserbaijan",
-            "common": "Aserbaijan"
-        },
-        "deu": {
-            "official": "Republik Aserbaidschan",
-            "common": "Aserbaidschan"
-        },
-        "fra": {
-            "official": "R\u00e9publique d'Azerba\u00efdjan",
-            "common": "Azerba\u00efdjan"
-        },
-        "hrv": {
-            "official": "Republika Azerbajd\u017ean",
-            "common": "Azerbajd\u017ean"
-        },
-        "ita": {
-            "official": "Repubblica dell'Azerbaigian",
-            "common": "Azerbaijan"
-        },
-        "jpn": {
-            "official": "\u30a2\u30bc\u30eb\u30d0\u30a4\u30b8\u30e3\u30f3\u5171\u548c\u56fd",
-            "common": "\u30a2\u30bc\u30eb\u30d0\u30a4\u30b8\u30e3\u30f3"
-        },
-        "nld": {
-            "official": "Republiek Azerbeidzjan",
-            "common": "Azerbeidzjan"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Azerbaij\u00e3o",
-            "common": "Azerbeij\u00e3o"
-        },
-        "rus": {
-            "official": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
-            "common": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d"
-        },
-        "slk": {
-            "official": "Azerbaj\u01c6ansk\u00e1 republika",
-            "common": "Azerbaj\u01c7an"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Azerbaiy\u00e1n",
-            "common": "Azerbaiy\u00e1n"
-        },
-        "fin": {
-            "official": "Azerbaidzanin tasavalta",
-            "common": "Azerbaidzan"
-        },
-        "est": {
-            "official": "Aserbaid\u017eaani Vabariik",
-            "common": "Aserbaid\u017eaan"
-        },
-        "zho": {
-            "official": "\u963f\u585e\u62dc\u7586\u5171\u548c\u56fd",
-            "common": "\u963f\u585e\u62dc\u7586"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "031",
     "wb_a2": "AZ",

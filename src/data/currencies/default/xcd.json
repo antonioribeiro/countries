@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "EC$5",
+            "EC$10",
+            "EC$20",
+            "EC$50",
+            "EC$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "25",
+            "EC$1",
+            "EC$2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "XCD",
+        "number": "951"
+    },
+    "name": "East Caribbean dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "EC$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

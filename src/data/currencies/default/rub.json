@@ -1,0 +1,49 @@
+{
+    "banknotes": {
+        "frequent": [
+            "50",
+            "100",
+            "500",
+            "1000",
+            "5000"
+        ],
+        "rare": [
+            "10",
+            "5"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10"
+        ],
+        "rare": [
+            "k1",
+            "k5",
+            "k10",
+            "k50"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "RUB",
+        "number": "643"
+    },
+    "name": "Russian Rouble",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "rouble",
+            "symbol": "\u20bd"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "kopeyka",
+            "symbol": "\u043a"
+        }
+    }
+}

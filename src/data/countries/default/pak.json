@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Pakistan",
-    "altSpellings": [
-        "PK",
-        "P\u0101kist\u0101n",
-        "Islamic Republic of Pakistan",
-        "Isl\u0101m\u012b Jumh\u016briya'eh P\u0101kist\u0101n"
-    ],
-    "area": 881912,
-    "borders": [
-        "AFG",
-        "CHN",
-        "IND",
-        "IRN"
-    ],
     "brk_a3": "PAK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Pakistan",
-    "callingCode": [
-        "92"
-    ],
-    "capital": "Islamabad",
     "cca2": "PK",
     "cca3": "PAK",
     "ccn3": "586",
-    "cioc": "PAK",
-    "continent": "Asia",
-    "currency": [
-        "PKR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Pakistani",
     "economy": "5. Emerging region: G20",
     "featurecla": "Admin-0 country",
     "fips_10_": "PK",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "988200.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "South Asia",
+        "subregion": "Southern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Pakistan",
     "gu_a3": "PAK",
@@ -55,16 +45,7 @@
     "iso_a3_eh": "PAK",
     "iso_n3": "586",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English",
-        "urd": "Urdu"
-    },
     "lastcensus": "1998.00",
-    "latlng": [
-        30,
-        70
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "11.00",
@@ -76,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Pakistan",
-        "official": "Islamic Republic of Pakistan",
-        "native": {
-            "eng": {
-                "official": "Islamic Republic of Pakistan",
-                "common": "Pakistan"
-            },
-            "urd": {
-                "official": "\u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c2 \u067e\u0627\u0643\u0633\u062a\u0627\u0646",
-                "common": "\u067e\u0627\u0643\u0633\u062a\u0627\u0646"
-            }
-        }
+        "official": "Islamic Republic of Pakistan"
     },
     "name_alt": "",
     "name_ciawf": "Pakistan",
@@ -96,78 +67,21 @@
     "name_sort": "Pakistan",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "204924861.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
     "postal": "PK",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "South Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "PAK",
     "sovereignt": "Pakistan",
     "su_a3": "PAK",
     "su_dif": "0.00",
-    "subregion": "Southern Asia",
     "subunit": "Pakistan",
     "tiny": "-99.00",
-    "tld": [
-        ".pk"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Islamische Republik Pakistan",
-            "common": "Pakistan"
-        },
-        "fra": {
-            "official": "R\u00e9publique islamique du Pakistan",
-            "common": "Pakistan"
-        },
-        "hrv": {
-            "official": "Islamska Republika Pakistan",
-            "common": "Pakistan"
-        },
-        "ita": {
-            "official": "Repubblica islamica del Pakistan",
-            "common": "Pakistan"
-        },
-        "jpn": {
-            "official": "\u30d1\u30ad\u30b9\u30bf\u30f3",
-            "common": "\u30d1\u30ad\u30b9\u30bf\u30f3"
-        },
-        "nld": {
-            "official": "Islamitische Republiek Pakistan",
-            "common": "Pakistan"
-        },
-        "por": {
-            "official": "Rep\u00fablica Isl\u00e2mica do Paquist\u00e3o",
-            "common": "Paquist\u00e3o"
-        },
-        "rus": {
-            "official": "\u0418\u0441\u043b\u0430\u043c\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d",
-            "common": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d"
-        },
-        "slk": {
-            "official": "Pakistansk\u00e1 islamsk\u00e1 republika",
-            "common": "Pakistan"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Isl\u00e1mica de Pakist\u00e1n",
-            "common": "Pakist\u00e1n"
-        },
-        "fin": {
-            "official": "Pakistanin islamilainen tasavalta",
-            "common": "Pakistan"
-        },
-        "est": {
-            "official": "Pakistani Islamivabariik",
-            "common": "Pakistan"
-        },
-        "zho": {
-            "official": "\u5df4\u57fa\u65af\u5766\u4f0a\u65af\u5170\u5171\u548c\u56fd",
-            "common": "\u5df4\u57fa\u65af\u5766"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "586",
     "wb_a2": "PK",

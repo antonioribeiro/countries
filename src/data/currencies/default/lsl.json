@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "M10",
+            "M20",
+            "M50",
+            "M100",
+            "M200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "20",
+            "50",
+            "L1",
+            "M2",
+            "M5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "LSL",
+        "number": "426"
+    },
+    "name": "Lesotho loti",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "loti (maloti)",
+            "symbol": "L or M"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "sente (lisente)",
+            "symbol": ""
+        }
+    }
+}

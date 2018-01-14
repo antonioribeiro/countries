@@ -1,0 +1,42 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$10",
+            "$20",
+            "$50",
+            "$100",
+            "$200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "$1",
+            "$5",
+            "c5",
+            "c10",
+            "c50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "NAD",
+        "number": "516"
+    },
+    "name": "Namibian Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "c"
+        }
+    }
+}

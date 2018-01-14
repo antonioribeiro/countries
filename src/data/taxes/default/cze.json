@@ -1,0 +1,101 @@
+{
+    "vat": {
+        "cca2": "CZ",
+        "cca3": "CZE",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Czech VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.19,
+                        "end_date": "2009-12-31",
+                        "id": "cz_vat_standard_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.2,
+                        "end_date": "2012-12-31",
+                        "id": "cz_vat_standard_2010",
+                        "start_date": "2010-01-01"
+                    },
+                    {
+                        "amount": 0.21,
+                        "id": "cz_vat_standard_2013",
+                        "start_date": "2013-01-01"
+                    }
+                ],
+                "default": true,
+                "id": "cz_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "end_date": "2007-12-31",
+                        "id": "cz_vat_reduced_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.09,
+                        "end_date": "2009-12-31",
+                        "id": "cz_vat_reduced_2008",
+                        "start_date": "2008-01-01"
+                    },
+                    {
+                        "amount": 0.1,
+                        "end_date": "2011-12-31",
+                        "id": "cz_vat_reduced_2010",
+                        "start_date": "2010-01-01"
+                    },
+                    {
+                        "amount": 0.14,
+                        "end_date": "2012-12-31",
+                        "id": "cz_vat_reduced_2012",
+                        "start_date": "2012-01-01"
+                    },
+                    {
+                        "amount": 0.15,
+                        "id": "cz_vat_reduced_2013",
+                        "start_date": "2013-01-01"
+                    }
+                ],
+                "id": "cz_vat_reduced",
+                "name": "Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.1,
+                        "id": "cz_vat_second_reduced_2015",
+                        "start_date": "2015-01-01"
+                    }
+                ],
+                "id": "cz_vat_second_reduced",
+                "name": "Second Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0,
+                        "id": "cz_vat_zero",
+                        "start_date": "2004-05-01"
+                    }
+                ],
+                "id": "cz_vat_zero",
+                "name": "Zero"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "cz_vat",
+        "zone": "cz_vat"
+    }
+}

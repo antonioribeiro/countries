@@ -1,0 +1,72 @@
+{
+    "vat": {
+        "cca2": "PL",
+        "cca3": "POL",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Polish VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.22,
+                        "end_date": "2010-12-31",
+                        "id": "pl_vat_standard_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.23,
+                        "id": "pl_vat_standard_2011",
+                        "start_date": "2011-01-01"
+                    }
+                ],
+                "default": true,
+                "id": "pl_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.07,
+                        "end_date": "2010-12-31",
+                        "id": "pl_vat_intermediate_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.08,
+                        "id": "pl_vat_intermediate_2011",
+                        "start_date": "2011-01-01"
+                    }
+                ],
+                "id": "pl_vat_intermediate",
+                "name": "Intermediate"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.03,
+                        "end_date": "2010-12-31",
+                        "id": "pl_vat_reduced_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.05,
+                        "id": "pl_vat_reduced_2011",
+                        "start_date": "2011-01-01"
+                    }
+                ],
+                "id": "pl_vat_reduced",
+                "name": "Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "pl_vat",
+        "zone": "pl_vat"
+    }
+}

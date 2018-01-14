@@ -1,0 +1,57 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u00a51",
+            "\u00a55",
+            "\u00a510",
+            "\u00a520",
+            "\u00a550",
+            "\u00a5100"
+        ],
+        "rare": [
+            "\u52061",
+            "\u52062",
+            "\u52065",
+            "\u89d21",
+            "\u89d22",
+            "\u89d25",
+            "\u00a52"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "\u52061",
+            "\u52062",
+            "\u52065",
+            "\u89d21",
+            "\u89d25",
+            "\u00a51"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "CNY",
+        "number": "156"
+    },
+    "name": "Yuan or chinese renminbi",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "yuan",
+            "symbol": "\u00a5"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "f\u0113n",
+            "symbol": "\u5206"
+        },
+        "minor2": {
+            "majorValue": 0.1,
+            "name": "ji\u01ceo",
+            "symbol": "\u89d2"
+        }
+    }
+}

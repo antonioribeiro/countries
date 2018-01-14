@@ -1,0 +1,41 @@
+{
+    "banknotes": {
+        "frequent": [
+            "Rs50",
+            "Rs100",
+            "Rs500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "Rs1",
+            "Rs5",
+            "1",
+            "5",
+            "10",
+            "25"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SCR",
+        "number": "690"
+    },
+    "name": "Seychellois Rupee",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "rupee",
+            "symbol": "Rs"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

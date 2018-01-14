@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Senegal",
-    "altSpellings": [
-        "SN",
-        "Republic of Senegal",
-        "R\u00e9publique du S\u00e9n\u00e9gal"
-    ],
-    "area": 196722,
-    "borders": [
-        "GMB",
-        "GIN",
-        "GNB",
-        "MLI",
-        "MRT"
-    ],
     "brk_a3": "SEN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Senegal",
-    "callingCode": [
-        "221"
-    ],
-    "capital": "Dakar",
     "cca2": "SN",
     "cca3": "SEN",
     "ccn3": "686",
-    "cioc": "SEN",
-    "continent": "Africa",
-    "currency": [
-        "XOF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Senegalese",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "SG",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "39720.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Western Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Senegal",
     "gu_a3": "SEN",
@@ -55,15 +45,7 @@
     "iso_a3_eh": "SEN",
     "iso_n3": "686",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "fra": "French"
-    },
     "lastcensus": "2002.00",
-    "latlng": [
-        14,
-        -14
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "5.00",
@@ -75,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Senegal",
-        "official": "Republic of Senegal",
-        "native": {
-            "fra": {
-                "official": "R\u00e9publique du S\u00e9n\u00e9gal",
-                "common": "S\u00e9n\u00e9gal"
-            }
-        }
+        "official": "Republic of Senegal"
     },
     "name_alt": "",
     "name_ciawf": "Senegal",
@@ -91,78 +67,21 @@
     "name_sort": "Senegal",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "14668522.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "SN",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "SEN",
     "sovereignt": "Senegal",
     "su_a3": "SEN",
     "su_dif": "0.00",
-    "subregion": "Western Africa",
     "subunit": "Senegal",
     "tiny": "-99.00",
-    "tld": [
-        ".sn"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Senegal",
-            "common": "Senegal"
-        },
-        "fra": {
-            "official": "R\u00e9publique du S\u00e9n\u00e9gal",
-            "common": "S\u00e9n\u00e9gal"
-        },
-        "hrv": {
-            "official": "Republika Senegal",
-            "common": "Senegal"
-        },
-        "ita": {
-            "official": "Repubblica del Senegal",
-            "common": "Senegal"
-        },
-        "jpn": {
-            "official": "\u30bb\u30cd\u30ac\u30eb\u5171\u548c\u56fd",
-            "common": "\u30bb\u30cd\u30ac\u30eb"
-        },
-        "nld": {
-            "official": "Republiek Senegal",
-            "common": "Senegal"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Senegal",
-            "common": "Senegal"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0435\u043d\u0435\u0433\u0430\u043b",
-            "common": "\u0421\u0435\u043d\u0435\u0433\u0430\u043b"
-        },
-        "slk": {
-            "official": "Senegalsk\u00e1 republika",
-            "common": "Senegal"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Senegal",
-            "common": "Senegal"
-        },
-        "fin": {
-            "official": "Senegalin tasavalta",
-            "common": "Senegal"
-        },
-        "est": {
-            "official": "Senegali Vabariik",
-            "common": "Senegal"
-        },
-        "zho": {
-            "official": "\u585e\u5185\u52a0\u5c14\u5171\u548c\u56fd",
-            "common": "\u585e\u5185\u52a0\u5c14"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "686",
     "wb_a2": "SN",

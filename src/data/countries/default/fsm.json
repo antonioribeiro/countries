@@ -8,30 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Federated States of Micronesia",
-    "altSpellings": [
-        "FM",
-        "Federated States of Micronesia",
-        "Micronesia, Federated States of"
-    ],
-    "area": 702,
-    "borders": [],
     "brk_a3": "FSM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Micronesia",
-    "callingCode": [
-        "691"
-    ],
-    "capital": "Palikir",
     "cca2": "FM",
     "cca3": "FSM",
     "ccn3": "583",
-    "cioc": "FSM",
-    "continent": "Oceania",
-    "currency": [
-        "USD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Micronesian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "FM",
@@ -39,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "314.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Oceania",
+        "region": "Oceania",
+        "region_un": "Oceania",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "Micronesia"
+    },
     "geou_dif": "0.00",
     "geounit": "Federated States of Micronesia",
     "gu_a3": "FSM",
@@ -49,15 +45,7 @@
     "iso_a3_eh": "FSM",
     "iso_n3": "583",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2000.00",
-    "latlng": [
-        6.91666666,
-        158.25
-    ],
     "level": "2.00",
     "long_len": "30.00",
     "mapcolor13": "13.00",
@@ -69,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Micronesia",
-        "official": "Federated States of Micronesia",
-        "native": {
-            "eng": {
-                "official": "Federated States of Micronesia",
-                "common": "Micronesia"
-            }
-        }
+        "official": "Federated States of Micronesia"
     },
     "name_alt": "",
     "name_ciawf": "Micronesia, Federated States of",
@@ -85,78 +67,21 @@
     "name_sort": "Micronesia, Federated States of",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "104196.00",
     "pop_rank": "9.00",
     "pop_year": "2017.00",
     "postal": "FSM",
-    "region": "Oceania",
-    "region_un": "Oceania",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "5",
     "sov_a3": "FSM",
     "sovereignt": "Federated States of Micronesia",
     "su_a3": "FSM",
     "su_dif": "0.00",
-    "subregion": "Micronesia",
     "subunit": "Federated States of Micronesia",
     "tiny": "-99.00",
-    "tld": [
-        ".fm"
-    ],
-    "translations": {
-        "deu": {
-            "official": "F\u00f6derierte Staaten von Mikronesien",
-            "common": "Mikronesien"
-        },
-        "fra": {
-            "official": "\u00c9tats f\u00e9d\u00e9r\u00e9s de Micron\u00e9sie",
-            "common": "Micron\u00e9sie"
-        },
-        "hrv": {
-            "official": "Savezne Dr\u017eave Mikronezije",
-            "common": "Mikronezija"
-        },
-        "ita": {
-            "official": "Stati federati di Micronesia",
-            "common": "Micronesia"
-        },
-        "jpn": {
-            "official": "\u30df\u30af\u30ed\u30cd\u30b7\u30a2\u9023\u90a6",
-            "common": "\u30df\u30af\u30ed\u30cd\u30b7\u30a2\u9023\u90a6"
-        },
-        "nld": {
-            "official": "Federale Staten van Micronesia",
-            "common": "Micronesi\u00eb"
-        },
-        "por": {
-            "official": "Estados Federados da Micron\u00e9sia",
-            "common": "Micron\u00e9sia"
-        },
-        "rus": {
-            "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u0438",
-            "common": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u0438"
-        },
-        "slk": {
-            "official": "Mikron\/u00e9zske federat\u00edvne \u0161t\u00e1ty",
-            "common": "Mikron\u00e9zia"
-        },
-        "spa": {
-            "official": "Estados Federados de Micronesia",
-            "common": "Micronesia"
-        },
-        "fin": {
-            "official": "Mikronesian liittovaltio",
-            "common": "Mikronesia"
-        },
-        "est": {
-            "official": "Mikroneesia Liiduriigid",
-            "common": "Mikroneesia"
-        },
-        "zho": {
-            "official": "\u5bc6\u514b\u7f57\u5c3c\u897f\u4e9a\u8054\u90a6",
-            "common": "\u5bc6\u514b\u7f57\u5c3c\u897f\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "583",
     "wb_a2": "FM",

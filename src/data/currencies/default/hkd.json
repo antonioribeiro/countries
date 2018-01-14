@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "HK$10",
+            "HK$20",
+            "HK$50",
+            "HK$100",
+            "HK$500",
+            "HK$1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "10\u00a2",
+            "20\u00a2",
+            "50\u00a2",
+            "HK$1",
+            "HK$2",
+            "HK$5",
+            "HK$10"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "HKD",
+        "number": "344"
+    },
+    "name": "Hong Kong dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "HK$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

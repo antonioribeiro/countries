@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1\u1293\u1255\u134b",
+            "5\u1293\u1255\u134b",
+            "10\u1293\u1255\u134b",
+            "20\u1293\u1255\u134b",
+            "50\u1293\u1255\u134b",
+            "100\u1293\u1255\u134b"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "50",
+            "1\u1293\u1255\u134b"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ERN",
+        "number": "232"
+    },
+    "name": "Eritrean nakfa",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "nafka",
+            "symbol": "\u1293\u1255\u134b"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

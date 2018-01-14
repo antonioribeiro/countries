@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "10\u062a.\u062f",
+            "20\u062a.\u062f",
+            "50\u062a.\u062f",
+            "100\u062a.\u062f",
+            "200\u062a.\u062f",
+            "0.5",
+            "1",
+            "2",
+            "5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TND",
+        "number": "788"
+    },
+    "name": "Tunisian Dinar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dinar",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.001,
+            "name": "milim or millime",
+            "symbol": "\u062a.\u062f"
+        }
+    }
+}

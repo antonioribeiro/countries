@@ -8,38 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mali",
-    "altSpellings": [
-        "ML",
-        "Republic of Mali",
-        "R\u00e9publique du Mali"
-    ],
-    "area": 1240192,
-    "borders": [
-        "DZA",
-        "BFA",
-        "GIN",
-        "CIV",
-        "MRT",
-        "NER",
-        "SEN"
-    ],
     "brk_a3": "MLI",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mali",
-    "callingCode": [
-        "223"
-    ],
-    "capital": "Bamako",
     "cca2": "ML",
     "cca3": "MLI",
     "ccn3": "466",
-    "cioc": "MLI",
-    "continent": "Africa",
-    "currency": [
-        "XOF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Malian",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "ML",
@@ -47,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "38090.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Western Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Mali",
     "gu_a3": "MLI",
@@ -57,15 +45,7 @@
     "iso_a3_eh": "MLI",
     "iso_n3": "466",
     "labelrank": "3.00",
-    "landlocked": true,
-    "languages": {
-        "fra": "French"
-    },
     "lastcensus": "2009.00",
-    "latlng": [
-        17,
-        -4
-    ],
     "level": "2.00",
     "long_len": "4.00",
     "mapcolor13": "7.00",
@@ -77,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mali",
-        "official": "Republic of Mali",
-        "native": {
-            "fra": {
-                "official": "R\u00e9publique du Mali",
-                "common": "Mali"
-            }
-        }
+        "official": "Republic of Mali"
     },
     "name_alt": "",
     "name_ciawf": "Mali",
@@ -93,78 +67,21 @@
     "name_sort": "Mali",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "17885245.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "ML",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "MLI",
     "sovereignt": "Mali",
     "su_a3": "MLI",
     "su_dif": "0.00",
-    "subregion": "Western Africa",
     "subunit": "Mali",
     "tiny": "-99.00",
-    "tld": [
-        ".ml"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Mali",
-            "common": "Mali"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Mali",
-            "common": "Mali"
-        },
-        "hrv": {
-            "official": "Republika Mali",
-            "common": "Mali"
-        },
-        "ita": {
-            "official": "Repubblica del Mali",
-            "common": "Mali"
-        },
-        "jpn": {
-            "official": "\u30de\u30ea\u5171\u548c\u56fd",
-            "common": "\u30de\u30ea"
-        },
-        "nld": {
-            "official": "Republiek Mali",
-            "common": "Mali"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Mali",
-            "common": "Mali"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043b\u0438",
-            "common": "\u041c\u0430\u043b\u0438"
-        },
-        "slk": {
-            "official": "Malijsk\u00e1 republika",
-            "common": "Mali"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Mal\u00ed",
-            "common": "Mali"
-        },
-        "fin": {
-            "official": "Malin tasavalta",
-            "common": "Mali"
-        },
-        "est": {
-            "official": "Mali Vabariik",
-            "common": "Mali"
-        },
-        "zho": {
-            "official": "\u9a6c\u91cc\u5171\u548c\u56fd",
-            "common": "\u9a6c\u91cc"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "466",
     "wb_a2": "ML",

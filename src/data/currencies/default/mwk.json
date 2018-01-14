@@ -1,0 +1,52 @@
+{
+    "banknotes": {
+        "frequent": [
+            "MK5",
+            "MK10",
+            "MK20",
+            "MK50",
+            "MK100",
+            "MK200",
+            "MK500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "MK1",
+            "MK5",
+            "MK10",
+            "MK15",
+            "MK20",
+            "MK40",
+            "MK50",
+            "MK75",
+            "MK100",
+            "1",
+            "2",
+            "5",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MWK",
+        "number": "454"
+    },
+    "name": "Malawian Kwacha",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Kwacha",
+            "symbol": "MK"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Tambala",
+            "symbol": ""
+        }
+    }
+}
