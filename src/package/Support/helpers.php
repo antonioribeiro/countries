@@ -1,9 +1,8 @@
 <?php
 
-use PragmaRX\Coollection\Package\Coollection;
 use ShapeFile\ShapeFile;
+use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Support\Collection;
-use GuzzleHttp\Client as Guzzle;
 
 if (! function_exists('getPackageSrcDir')) {
     /**
@@ -132,13 +131,13 @@ if (! function_exists('download_curl')) {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_PROGRESSFUNCTION, function ($resource, $total, $downloaded) use (&$nextStep) {
             if ($downloaded > $nextStep) {
-                echo ".";
+                echo '.';
                 $nextStep += 8192;
             }
         });
         curl_setopt($ch, CURLOPT_NOPROGRESS, false); // needed to make progress function work
         curl_setopt($ch, CURLOPT_HEADER, 0);
-        curl_setopt($ch, CURLOPT_USERAGENT, "GuzzleHttp/6.2.1 curl/7.54.0 PHP/7.2.0");
+        curl_setopt($ch, CURLOPT_USERAGENT, 'GuzzleHttp/6.2.1 curl/7.54.0 PHP/7.2.0');
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         file_put_contents($destination, curl_exec($ch));
         curl_close($ch);
@@ -160,7 +159,7 @@ if (! function_exists('unzip')) {
 
         $exclude = basename($file);
 
-        if (!ends_with($file, '.zip') || file_exists($subPath = "$path/$subPath")) {
+        if (! ends_with($file, '.zip') || file_exists($subPath = "$path/$subPath")) {
             return;
         }
 
@@ -169,7 +168,7 @@ if (! function_exists('unzip')) {
         exec("unzip -o $file");
 
         if (ends_with('master.zip', $file)) {
-            $dir = countriesCollect(scandir($path))->filter(function($file) use ($exclude) {
+            $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
                 return $file !== '.' && $file !== '..' && $file !== $exclude;
             })->first();
 
@@ -269,7 +268,7 @@ if (! function_exists('arrayable')) {
      * Recursively change all array keys case.
      *
      * @param $variable
-     * @return boolean
+     * @return bool
      */
     function arrayable($variable)
     {
