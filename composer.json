@@ -1,49 +1,58 @@
 {
-  "name": "pragmarx/countries",
+    "name": "pragmarx/countries",
 
-  "description": "Laravel Countries and Currencies",
+    "description": "Laravel Countries and Currencies",
 
-  "keywords": ["countries", "currencies", "laravel", "pragmarx"],
+    "keywords": ["countries", "currencies", "laravel", "pragmarx"],
 
-  "license": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
 
-  "authors": [
-    {
-      "name": "Antonio Carlos Ribeiro",
-      "email": "acr@antoniocarlosribeiro.com",
-      "role": "Creator"
-    }
-  ],
+    "authors": [
+        {
+            "name": "Antonio Carlos Ribeiro",
+            "email": "acr@antoniocarlosribeiro.com",
+            "role": "Creator"
+        }
+    ],
 
-  "require": {
-    "php": ">=7.0",
-    "laravel/framework": ">=5.3",
-    "commercie/currency": "^1.0",
-    "psr/simple-cache": "^1.0",
-    "gasparesganga/php-shapefile": "^2.3",
-    "pragmarx/coollection": "^0.1"
-  },
-
-  "require-dev": {
-    "orchestra/testbench": "~3.0",
-    "phpunit/phpunit": "~6.0"
-  },
-
-  "autoload": {
-    "psr-4": {
-      "PragmaRX\\Countries\\Package\\": "src/package"
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=5.3",
+        "psr/simple-cache": "^1.0",
+        "pragmarx/coollection": "^0.1"
     },
-    "files": [
-      "src/package/Support/helpers.php"
-    ]
-  },
 
-  "autoload-dev": {
-    "psr-4": {
-      "PragmaRX\\Countries\\Tests\\": "tests/",
-      "PragmaRX\\Countries\\Tests\\PhpUnit\\": "tests/PhpUnit/"
-    }
-  },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~6.0",
+        "squizlabs/php_codesniffer": "^2.3",
+        "colinodell/json5": "^1.0",
+        "gasparesganga/php-shapefile": "^2.3",
+        "commercie/currency": "^1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "PragmaRX\\Countries\\Package\\": "src/package"
+        },
+        "files": [
+            "src/package/Support/helpers.php"
+        ]
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "PragmaRX\\Countries\\Tests\\": "tests/",
+            "PragmaRX\\Countries\\Tests\\PhpUnit\\": "tests/PhpUnit/"
+        }
+    },
+
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src test",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src test"
+    },
+
     "extra": {
         "laravel": {
             "providers": [

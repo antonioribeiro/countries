@@ -1,0 +1,40 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$20",
+            "$100",
+            "$500",
+            "$1000",
+            "$5000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "$1",
+            "$5",
+            "$10"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "GYD",
+        "number": "328"
+    },
+    "name": "Guyanese dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

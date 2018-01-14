@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$1",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": [
+            "2$"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "1\u204410",
+            "1\u20444",
+            "1\u20442",
+            "1B\/",
+            "2B\/"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "PAB",
+        "number": "590"
+    },
+    "name": "Balboa panam\u00e9rn",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "balboa",
+            "symbol": "B\/"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Cent\u00e9simo",
+            "symbol": ""
+        }
+    }
+}

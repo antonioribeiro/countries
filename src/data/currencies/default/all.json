@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "Lek200",
+            "Lek500",
+            "Lek1000",
+            "Lek2000",
+            "Lek5000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "Lek1",
+            "Lek5",
+            "Lek10",
+            "Lek20",
+            "Lek50",
+            "Lek100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ALL",
+        "number": "008"
+    },
+    "name": "Albanian lek",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "lek",
+            "symbol": "lek"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Qindark\u00eb",
+            "symbol": ""
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "NT$100",
+            "NT$500",
+            "NT$1000"
+        ],
+        "rare": [
+            "NT$200",
+            "NT$2000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "NT$1",
+            "NT$5",
+            "NT$10",
+            "NT$50"
+        ],
+        "rare": [
+            "NT$20"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TWD",
+        "number": "901"
+    },
+    "name": "Taiwan New Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "NT$"
+        },
+        "minor": {
+            "majorValue": 0.1,
+            "name": "jiao",
+            "symbol": "\u89d2"
+        }
+    }
+}

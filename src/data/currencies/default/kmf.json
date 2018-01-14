@@ -1,0 +1,39 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "25",
+            "50",
+            "100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "KMF",
+        "number": "174"
+    },
+    "name": "Comoran Franc",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "franc",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centime",
+            "symbol": ""
+        }
+    }
+}

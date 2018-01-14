@@ -8,40 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Germany",
-    "altSpellings": [
-        "DE",
-        "Federal Republic of Germany",
-        "Bundesrepublik Deutschland"
-    ],
-    "area": 357114,
-    "borders": [
-        "AUT",
-        "BEL",
-        "CZE",
-        "DNK",
-        "FRA",
-        "LUX",
-        "NLD",
-        "POL",
-        "CHE"
-    ],
     "brk_a3": "DEU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Germany",
-    "callingCode": [
-        "49"
-    ],
-    "capital": "Berlin",
     "cca2": "DE",
     "cca3": "DEU",
     "ccn3": "276",
-    "cioc": "GER",
-    "continent": "Europe",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "German",
     "economy": "1. Developed region: G7",
     "featurecla": "Admin-0 country",
     "fips_10_": "GM",
@@ -49,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "3979000.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Western Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Germany",
     "gu_a3": "DEU",
@@ -59,15 +45,7 @@
     "iso_a3_eh": "DEU",
     "iso_n3": "276",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "deu": "German"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        51,
-        9
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "1.00",
@@ -79,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Germany",
-        "official": "Federal Republic of Germany",
-        "native": {
-            "deu": {
-                "official": "Bundesrepublik Deutschland",
-                "common": "Deutschland"
-            }
-        }
+        "official": "Federal Republic of Germany"
     },
     "name_alt": "",
     "name_ciawf": "Germany",
@@ -95,78 +67,21 @@
     "name_sort": "Germany",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "80594017.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
     "postal": "D",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "DEU",
     "sovereignt": "Germany",
     "su_a3": "DEU",
     "su_dif": "0.00",
-    "subregion": "Western Europe",
     "subunit": "Germany",
     "tiny": "-99.00",
-    "tld": [
-        ".de"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Bundesrepublik Deutschland",
-            "common": "Deutschland"
-        },
-        "fra": {
-            "official": "R\u00e9publique f\u00e9d\u00e9rale d'Allemagne",
-            "common": "Allemagne"
-        },
-        "hrv": {
-            "official": "Njema\u010dka Federativna Republika",
-            "common": "Njema\u010dka"
-        },
-        "ita": {
-            "official": "Repubblica federale di Germania",
-            "common": "Germania"
-        },
-        "jpn": {
-            "official": "\u30c9\u30a4\u30c4\u9023\u90a6\u5171\u548c\u56fd",
-            "common": "\u30c9\u30a4\u30c4"
-        },
-        "nld": {
-            "official": "Bondsrepubliek Duitsland",
-            "common": "Duitsland"
-        },
-        "por": {
-            "official": "Rep\u00fablica Federal da Alemanha",
-            "common": "Alemanha"
-        },
-        "rus": {
-            "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
-            "common": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f"
-        },
-        "slk": {
-            "official": "Nemeck\u00e1 spolkov\u00e1 republika",
-            "common": "Nemecko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Federal de Alemania",
-            "common": "Alemania"
-        },
-        "fin": {
-            "official": "Saksan liittotasavalta",
-            "common": "Saksa"
-        },
-        "est": {
-            "official": "Saksamaa Liitvabariik",
-            "common": "Saksamaa"
-        },
-        "zho": {
-            "official": "\u5fb7\u610f\u5fd7\u8054\u90a6\u5171\u548c\u56fd",
-            "common": "\u5fb7\u56fd"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "276",
     "wb_a2": "DE",

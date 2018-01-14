@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1 dinar",
+            "5 dinar",
+            "10 dinar",
+            "20 dinar",
+            "50 dinar"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "0.5 qirsh",
+            "1 qirsh",
+            "2.5 piastres",
+            "5 piastres",
+            "10 piastres",
+            "0.25 dinar",
+            "0.5 dinar",
+            "1 dinar"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "JOD",
+        "number": "400"
+    },
+    "name": "Jordanian Dinar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Dinar",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "qirsh ou piastre",
+            "symbol": ""
+        }
+    }
+}

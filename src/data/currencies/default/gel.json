@@ -1,0 +1,49 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u10da5",
+            "\u10da10",
+            "\u10da20",
+            "\u10da50"
+        ],
+        "rare": [
+            "\u10da1",
+            "\u10da2",
+            "\u10da100",
+            "\u10da200"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "20",
+            "50",
+            "\u10da1",
+            "\u10da2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "GEL",
+        "number": "981"
+    },
+    "name": "Georgian lari",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "lari",
+            "symbol": "\u10da"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "tetri",
+            "symbol": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "gst": {
+        "cca2": "AU",
+        "cca3": "AUS",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "gst",
+        "name": "Australian GST",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.1,
+                        "id": "au_gst_standard_2000",
+                        "start_date": "2000-07-01"
+                    }
+                ],
+                "default": true,
+                "id": "au_gst_standard",
+                "name": "Standard"
+            }
+        ],
+        "record_type": "tax",
+        "tax_modifier": "",
+        "tax_type": "gst",
+        "vat_id": "au_gst",
+        "zone": "au_gst"
+    }
+}

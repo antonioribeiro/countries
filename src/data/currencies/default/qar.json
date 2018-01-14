@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1\u0642.\u0631",
+            "5\u0642.\u0631",
+            "10\u0642.\u0631",
+            "50\u0642.\u0631",
+            "100\u0642.\u0631",
+            "500\u0642.\u0631"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "QAR",
+        "number": "634"
+    },
+    "name": "Qatari Riyal",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "riyal",
+            "symbol": "\u0642.\u0631 "
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "dirham",
+            "symbol": ""
+        }
+    }
+}

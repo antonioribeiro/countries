@@ -2,6 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
+use Exception;
+use \Illuminate\Console\Command;
 use PragmaRX\Countries\Package\Service;
 
 class Base
@@ -60,7 +62,7 @@ class Base
      * @param $message
      * @param string $type
      */
-    private function message($message, $type = 'line')
+    protected function message($message, $type = 'line')
     {
         if (! is_null($this->command)) {
             $this->command->{$type}($message);
@@ -81,6 +83,11 @@ class Base
         mkdir($dir, 0755, true);
     }
 
+    protected function sanitizeFile($contents)
+    {
+        return str_replace('\n', '', $contents);
+    }
+
     /**
      * Cache setter.
      *
@@ -89,6 +96,16 @@ class Base
     public function setCache(Cache $cache)
     {
         $this->cache = $cache;
+    }
+
+    /**
+     * Command setter.
+     *
+     * @param \Illuminate\Console\Command $command
+     */
+    public function setCommand(Command $command)
+    {
+        $this->command = $command;
     }
 
     /**
@@ -102,19 +119,73 @@ class Base
         return __COUNTRIES_DIR__._dir("/tmp/{$path}");
     }
 
+
+    /**
+     * Load json files from dir.
+     *
+     * @param $dir
+     * @return static
+     */
+    protected function loadJsonFiles($dir)
+    {
+        return countriesCollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
+            $key = str_replace('.json', '', str_replace('.json5', '', basename($file)));
+
+            return [$key => $this->loadJson($file)];
+        });
+    }
+
     /**
      * Loads a json file.
      *
-     * @param string $basename
+     * @param $file
      * @param string $dir
      * @return null|string
+     * @throws Exception
      */
-    public function loadJson($basename, $dir)
+    public function loadJson($file, $dir = null)
     {
-        return $this->loadFile(
-            $this->dataDir("/$dir/".strtolower($basename).'.json')
-        );
+        if (empty($file)) {
+            throw new Exception("loadJson Error: File name not set");
+        }
+
+        if (!file_exists($file) && !file_exists($file = $this->dataDir("/$dir/".strtolower($file).'.json'))) {
+            return countriesCollect();
+        }
+
+        $decoded = json5_decode($this->loadFile($file), true);
+
+        if (is_null($decoded)) {
+            throw new Exception("Error decoding json file: $file");
+        }
+
+        return countriesCollect($decoded);
     }
+
+    /**
+     * Loads a json file.
+     *
+     * @param $file
+     * @param string $dir
+     * @return null|string
+     * @throws Exception
+     */
+    public function loadCsv($file, $dir = null)
+    {
+        if (empty($file)) {
+            throw new Exception("loadCsv Error: File name not set");
+        }
+
+        if (!file_exists($file)) {
+            $file = $this->dataDir("/$dir/".strtolower($file).'.csv');
+        }
+
+        return countriesCollect(csv_decode(
+            file($file),
+            true
+        ));
+    }
+
 
     /**
      * Load a file from disk.
@@ -122,10 +193,10 @@ class Base
      * @param $file
      * @return null|string
      */
-    private function loadFile($file)
+    public function loadFile($file)
     {
         if (file_exists($file)) {
-            return file_get_contents($file);
+            return $this->sanitizeFile(file_get_contents($file));
         }
     }
 
@@ -166,19 +237,6 @@ class Base
     public function jsonEncode($data)
     {
         return json_encode($data, JSON_PRETTY_PRINT);
-    }
-
-    /**
-     * Read a file.
-     *
-     * @param $filePath
-     * @return string
-     */
-    public function readFile($filePath)
-    {
-        if (file_exists($filePath)) {
-            return file_get_contents($filePath);
-        }
     }
 
     /**

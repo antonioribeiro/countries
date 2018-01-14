@@ -1,0 +1,54 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20ab100",
+            "\u20ab200",
+            "\u20ab500",
+            "\u20ab1000",
+            "\u20ab2000",
+            "\u20ab5000",
+            "\u20ab10000",
+            "\u20ab20000",
+            "\u20ab50000",
+            "\u20ab100000",
+            "\u20ab200000",
+            "\u20ab500000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u20ab200",
+            "\u20ab500",
+            "\u20ab1000",
+            "\u20ab2000",
+            "\u20ab5000"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "VND",
+        "number": "704"
+    },
+    "name": "Vietnamese Dong",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dong",
+            "symbol": "\u20ab"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "xu",
+            "symbol": ""
+        },
+        "minor2": {
+            "majorValue": 0.1,
+            "name": "H\u00e0o",
+            "symbol": ""
+        }
+    }
+}

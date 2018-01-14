@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$200",
+            "$500",
+            "$1000",
+            "$2000",
+            "$2500",
+            "$5000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "$1",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "CVE",
+        "number": "132"
+    },
+    "name": "Cape Verdean Escudo",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "escudo",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": ""
+        }
+    }
+}

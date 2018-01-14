@@ -8,35 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Venezuela",
-    "altSpellings": [
-        "VE",
-        "Bolivarian Republic of Venezuela",
-        "Venezuela, Bolivarian Republic of",
-        "Rep\u00fablica Bolivariana de Venezuela"
-    ],
-    "area": 916445,
-    "borders": [
-        "BRA",
-        "COL",
-        "GUY"
-    ],
     "brk_a3": "VEN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Venezuela",
-    "callingCode": [
-        "58"
-    ],
-    "capital": "Caracas",
     "cca2": "VE",
     "cca3": "VEN",
     "ccn3": "862",
-    "cioc": "VEN",
-    "continent": "South America",
-    "currency": [
-        "VEF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Venezuelan",
     "economy": "5. Emerging region: G20",
     "featurecla": "Admin-0 country",
     "fips_10_": "VE",
@@ -44,6 +27,14 @@
     "formal_fr": "Rep\u00c3\u00bablica Bolivariana de Venezuela",
     "gdp_md_est": "468600.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "South America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "South America"
+    },
     "geou_dif": "0.00",
     "geounit": "Venezuela",
     "gu_a3": "VEN",
@@ -54,15 +45,7 @@
     "iso_a3_eh": "VEN",
     "iso_n3": "862",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "spa": "Spanish"
-    },
     "lastcensus": "2001.00",
-    "latlng": [
-        8,
-        -66
-    ],
     "level": "2.00",
     "long_len": "9.00",
     "mapcolor13": "4.00",
@@ -74,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Venezuela",
-        "official": "Bolivarian Republic of Venezuela",
-        "native": {
-            "spa": {
-                "official": "Rep\u00fablica Bolivariana de Venezuela",
-                "common": "Venezuela"
-            }
-        }
+        "official": "Bolivarian Republic of Venezuela"
     },
     "name_alt": "",
     "name_ciawf": "Venezuela",
@@ -90,78 +67,21 @@
     "name_sort": "Venezuela, RB",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "31304016.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "VE",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "VEN",
     "sovereignt": "Venezuela",
     "su_a3": "VEN",
     "su_dif": "0.00",
-    "subregion": "South America",
     "subunit": "Venezuela",
     "tiny": "-99.00",
-    "tld": [
-        ".ve"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Bolivarische Republik Venezuela",
-            "common": "Venezuela"
-        },
-        "fra": {
-            "official": "R\u00e9publique bolivarienne du Venezuela",
-            "common": "Venezuela"
-        },
-        "hrv": {
-            "official": "BOLIVARIJANSKA Republika Venezuela",
-            "common": "Venezuela"
-        },
-        "ita": {
-            "official": "Repubblica Bolivariana del Venezuela",
-            "common": "Venezuela"
-        },
-        "jpn": {
-            "official": "\u30d9\u30cd\u30ba\u30a8\u30e9\u00b7\u30dc\u30ea\u30d0\u30eb\u5171\u548c\u56fd",
-            "common": "\u30d9\u30cd\u30ba\u30a8\u30e9\u30fb\u30dc\u30ea\u30d0\u30eb\u5171\u548c\u56fd"
-        },
-        "nld": {
-            "official": "Bolivariaanse Republiek Venezuela",
-            "common": "Venezuela"
-        },
-        "por": {
-            "official": "Rep\u00fablica Bolivariana da Venezuela",
-            "common": "Venezuela"
-        },
-        "rus": {
-            "official": "\u0411\u043e\u043b\u0438\u0432\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430",
-            "common": "\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430"
-        },
-        "slk": {
-            "official": "Venezuelsk\u00e1 bol\u00edvarovsk\u00e1 republika",
-            "common": "Venezuela"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Bolivariana de Venezuela",
-            "common": "Venezuela"
-        },
-        "fin": {
-            "official": "Venezuelan bolivariaainen tasavalta",
-            "common": "Venezuela"
-        },
-        "est": {
-            "official": "Venezuela Bol\u00edvari Vabariik",
-            "common": "Venezuela"
-        },
-        "zho": {
-            "official": "\u59d4\u5185\u745e\u62c9\u73bb\u5229\u74e6\u5c14\u5171\u548c\u56fd",
-            "common": "\u59d4\u5185\u745e\u62c9"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "862",
     "wb_a2": "VE",

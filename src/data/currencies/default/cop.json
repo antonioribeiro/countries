@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$1000",
+            "$2000",
+            "$5000",
+            "$10000",
+            "$20000",
+            "$50000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100",
+            "$200",
+            "$500",
+            "$1000"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "COP",
+        "number": "170"
+    },
+    "name": "Colombian peso",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "peso",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": ""
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "200",
+            "500",
+            "1000",
+            "2000",
+            "5000",
+            "10000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "20",
+            "50",
+            "100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "KZT",
+        "number": "398"
+    },
+    "name": "Kazakhstani tenge",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "tenge",
+            "symbol": "\u20b8"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "t\u00ef\u0131n",
+            "symbol": ""
+        }
+    }
+}

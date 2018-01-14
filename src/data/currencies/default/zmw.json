@@ -1,0 +1,42 @@
+{
+    "banknotes": {
+        "frequent": [
+            "2 kwacha",
+            "5 kwacha",
+            "10 kwacha",
+            "20 kwacha",
+            "50 kwacha",
+            "100 kwacha"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5 ngwee",
+            "10 ngwee",
+            "50 ngwee",
+            "1 kwacha"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ZMW",
+        "number": "967"
+    },
+    "name": "Zambian Kwacha",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Kwacha",
+            "symbol": "ZMK"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "ngwee",
+            "symbol": ""
+        }
+    }
+}

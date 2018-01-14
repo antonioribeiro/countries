@@ -8,33 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Tunisia",
-    "altSpellings": [
-        "TN",
-        "Republic of Tunisia",
-        "al-Jumh\u016briyyah at-T\u016bnisiyyah"
-    ],
-    "area": 163610,
-    "borders": [
-        "DZA",
-        "LBY"
-    ],
     "brk_a3": "TUN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Tunisia",
-    "callingCode": [
-        "216"
-    ],
-    "capital": "Tunis",
     "cca2": "TN",
     "cca3": "TUN",
     "ccn3": "788",
-    "cioc": "TUN",
-    "continent": "Africa",
-    "currency": [
-        "TND"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Tunisian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "TS",
@@ -42,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "130800.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Middle East & North Africa",
+        "subregion": "Northern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Tunisia",
     "gu_a3": "TUN",
@@ -52,15 +45,7 @@
     "iso_a3_eh": "TUN",
     "iso_n3": "788",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "ara": "Arabic"
-    },
     "lastcensus": "2004.00",
-    "latlng": [
-        34,
-        9
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "2.00",
@@ -72,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Tunisia",
-        "official": "Tunisian Republic",
-        "native": {
-            "ara": {
-                "official": "\u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u062a\u0648\u0646\u0633\u064a\u0629",
-                "common": "\u062a\u0648\u0646\u0633"
-            }
-        }
+        "official": "Republic of Tunisia"
     },
     "name_alt": "",
     "name_ciawf": "Tunisia",
@@ -88,78 +67,21 @@
     "name_sort": "Tunisia",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "11403800.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "TN",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Middle East & North Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "TUN",
     "sovereignt": "Tunisia",
     "su_a3": "TUN",
     "su_dif": "0.00",
-    "subregion": "Northern Africa",
     "subunit": "Tunisia",
     "tiny": "-99.00",
-    "tld": [
-        ".tn"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Tunesische Republik",
-            "common": "Tunesien"
-        },
-        "fra": {
-            "official": "R\u00e9publique tunisienne",
-            "common": "Tunisie"
-        },
-        "hrv": {
-            "official": "Tuniski Republika",
-            "common": "Tunis"
-        },
-        "ita": {
-            "official": "Repubblica tunisina",
-            "common": "Tunisia"
-        },
-        "jpn": {
-            "official": "\u30c1\u30e5\u30cb\u30b8\u30a2\u5171\u548c\u56fd",
-            "common": "\u30c1\u30e5\u30cb\u30b8\u30a2"
-        },
-        "nld": {
-            "official": "Republiek Tunesi\u00eb",
-            "common": "Tunesi\u00eb"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Tun\u00edsia",
-            "common": "Tun\u00edsia"
-        },
-        "rus": {
-            "official": "\u0422\u0443\u043d\u0438\u0441\u0441\u043a\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438",
-            "common": "\u0422\u0443\u043d\u0438\u0441"
-        },
-        "slk": {
-            "official": "Tunisk\u00e1 republika",
-            "common": "Tunisko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de T\u00fanez",
-            "common": "T\u00fanez"
-        },
-        "fin": {
-            "official": "Tunisian tasavalta",
-            "common": "Tunisia"
-        },
-        "est": {
-            "official": "Tuneesia Vabariik",
-            "common": "Tuneesia"
-        },
-        "zho": {
-            "official": "\u7a81\u5c3c\u65af\u5171\u548c\u56fd",
-            "common": "\u7a81\u5c3c\u65af"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "788",
     "wb_a2": "TN",

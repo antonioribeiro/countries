@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$2",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5\u00a2",
+            "10\u00a2",
+            "25\u00a2",
+            "50\u00a2",
+            "$1",
+            "$2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ARS",
+        "number": "032"
+    },
+    "name": "Argentine peso",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "peso",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": ""
+        }
+    }
+}

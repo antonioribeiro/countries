@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u043c\u0430\u043d1",
+            "\u043c\u0430\u043d5",
+            "\u043c\u0430\u043d10",
+            "\u043c\u0430\u043d20",
+            "\u043c\u0430\u043d50",
+            "\u043c\u0430\u043d100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "qr1",
+            "qr3",
+            "qr5",
+            "qr10",
+            "qr20",
+            "qr50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "AZN",
+        "number": "944"
+    },
+    "name": "Azerbaijani manat",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "manat",
+            "symbol": "\u043c\u0430\u043d"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Qepik",
+            "symbol": "qr"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u043b\u04321",
+            "\u043b\u04323",
+            "\u043b\u04325",
+            "\u043b\u043210",
+            "\u043b\u043225",
+            "\u043b\u043250",
+            "\u043b\u0432100",
+            "\u043b\u0432200",
+            "\u043b\u0432500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u043b\u04321",
+            "\u043b\u04325",
+            "\u043b\u043210",
+            "\u043b\u043225",
+            "\u043b\u043250",
+            "\u043b\u0432100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "UZS",
+        "number": "860"
+    },
+    "name": "Uzbekistani som",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "som",
+            "symbol": "\u043b\u0432"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Tiyin",
+            "symbol": ""
+        }
+    }
+}

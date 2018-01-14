@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "Rp1000",
+            "Rp2000",
+            "Rp5000",
+            "Rp10000",
+            "Rp20000",
+            "Rp50000",
+            "Rp100000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "Rp100",
+            "Rp200",
+            "Rp500"
+        ],
+        "rare": [
+            "Rp50",
+            "Rp1000"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "IDR",
+        "number": "360"
+    },
+    "name": "Indonesian Rupiah",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Rupiah",
+            "symbol": "Rp"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Sen",
+            "symbol": ""
+        }
+    }
+}

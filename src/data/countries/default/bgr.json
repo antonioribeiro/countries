@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Bulgaria",
-    "altSpellings": [
-        "BG",
-        "Republic of Bulgaria",
-        "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f"
-    ],
-    "area": 110879,
-    "borders": [
-        "GRC",
-        "MKD",
-        "ROU",
-        "SRB",
-        "TUR"
-    ],
     "brk_a3": "BGR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bulgaria",
-    "callingCode": [
-        "359"
-    ],
-    "capital": "Sofia",
     "cca2": "BG",
     "cca3": "BGR",
     "ccn3": "100",
-    "cioc": "BUL",
-    "continent": "Europe",
-    "currency": [
-        "BGN"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Bulgarian",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "BU",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "143100.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Eastern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Bulgaria",
     "gu_a3": "BGR",
@@ -55,15 +45,7 @@
     "iso_a3_eh": "BGR",
     "iso_n3": "100",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "bul": "Bulgarian"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        43,
-        25
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "8.00",
@@ -75,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Bulgaria",
-        "official": "Republic of Bulgaria",
-        "native": {
-            "bul": {
-                "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f",
-                "common": "\u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f"
-            }
-        }
+        "official": "Republic of Bulgaria"
     },
     "name_alt": "",
     "name_ciawf": "Bulgaria",
@@ -91,82 +67,21 @@
     "name_sort": "Bulgaria",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "7101510.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "BG",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "BGR",
     "sovereignt": "Bulgaria",
     "su_a3": "BGR",
     "su_dif": "0.00",
-    "subregion": "Eastern Europe",
     "subunit": "Bulgaria",
     "tiny": "-99.00",
-    "tld": [
-        ".bg"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Bwlgaria",
-            "common": "Bwlgaria"
-        },
-        "deu": {
-            "official": "Republik Bulgarien",
-            "common": "Bulgarien"
-        },
-        "fra": {
-            "official": "R\u00e9publique de Bulgarie",
-            "common": "Bulgarie"
-        },
-        "hrv": {
-            "official": "Republika Bugarska",
-            "common": "Bugarska"
-        },
-        "ita": {
-            "official": "Repubblica di Bulgaria",
-            "common": "Bulgaria"
-        },
-        "jpn": {
-            "official": "\u30d6\u30eb\u30ac\u30ea\u30a2\u5171\u548c\u56fd",
-            "common": "\u30d6\u30eb\u30ac\u30ea\u30a2"
-        },
-        "nld": {
-            "official": "Republiek Bulgarije",
-            "common": "Bulgarije"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Bulg\u00e1ria",
-            "common": "Bulg\u00e1ria"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f",
-            "common": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f"
-        },
-        "slk": {
-            "official": "Bulharsk\u00e1 republika",
-            "common": "Bulharsko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Bulgaria",
-            "common": "Bulgaria"
-        },
-        "fin": {
-            "official": "Bulgarian tasavalta",
-            "common": "Bulgaria"
-        },
-        "est": {
-            "official": "Bulgaaria Vabariik",
-            "common": "Bulgaaria"
-        },
-        "zho": {
-            "official": "\u4fdd\u52a0\u5229\u4e9a\u5171\u548c\u56fd",
-            "common": "\u4fdd\u52a0\u5229\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "100",
     "wb_a2": "BG",

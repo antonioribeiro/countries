@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Republic of the Congo",
-    "altSpellings": [
-        "CG",
-        "Congo",
-        "Congo-Brazzaville"
-    ],
-    "area": 342000,
-    "borders": [
-        "AGO",
-        "CMR",
-        "CAF",
-        "COD",
-        "GAB"
-    ],
     "brk_a3": "COG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Republic of the Congo",
-    "callingCode": [
-        "242"
-    ],
-    "capital": "Brazzaville",
     "cca2": "CG",
     "cca3": "COG",
     "ccn3": "178",
-    "cioc": "CGO",
-    "continent": "Africa",
-    "currency": [
-        "XAF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Congolese",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "CF",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "30270.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Middle Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Republic of the Congo",
     "gu_a3": "COG",
@@ -55,17 +45,7 @@
     "iso_a3_eh": "COG",
     "iso_n3": "178",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "fra": "French",
-        "kon": "Kikongo",
-        "lin": "Lingala"
-    },
     "lastcensus": "2007.00",
-    "latlng": [
-        -1,
-        15
-    ],
     "level": "2.00",
     "long_len": "21.00",
     "mapcolor13": "10.00",
@@ -76,22 +56,8 @@
     "min_label": "4.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Republic of the Congo",
-        "official": "Republic of the Congo",
-        "native": {
-            "fra": {
-                "official": "R\u00e9publique du Congo",
-                "common": "R\u00e9publique du Congo"
-            },
-            "kon": {
-                "official": "Repubilika ya Kongo",
-                "common": "Repubilika ya Kongo"
-            },
-            "lin": {
-                "official": "Republ\u00edki ya Kong\u00f3",
-                "common": "Republ\u00edki ya Kong\u00f3"
-            }
-        }
+        "common": "Congo",
+        "official": "Republic of the Congo"
     },
     "name_alt": "",
     "name_ciawf": "Congo, Republic of the",
@@ -101,82 +67,21 @@
     "name_sort": "Congo, Rep.",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "4954674.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
     "postal": "CG",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "COG",
     "sovereignt": "Republic of the Congo",
     "su_a3": "COG",
     "su_dif": "0.00",
-    "subregion": "Middle Africa",
     "subunit": "Republic of the Congo",
     "tiny": "-99.00",
-    "tld": [
-        ".cg"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth y Congo",
-            "common": "Gweriniaeth y Congo"
-        },
-        "deu": {
-            "official": "Republik Kongo",
-            "common": "Kongo"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Congo",
-            "common": "Congo"
-        },
-        "hrv": {
-            "official": "Republika Kongo",
-            "common": "Kongo"
-        },
-        "ita": {
-            "official": "Repubblica del Congo",
-            "common": "Congo"
-        },
-        "jpn": {
-            "official": "\u30b3\u30f3\u30b4\u5171\u548c\u56fd",
-            "common": "\u30b3\u30f3\u30b4\u5171\u548c\u56fd"
-        },
-        "nld": {
-            "official": "Republiek Congo",
-            "common": "Congo"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Congo",
-            "common": "Congo"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e",
-            "common": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e"
-        },
-        "slk": {
-            "official": "Kon\u017esk\u00e1 republika",
-            "common": "Kongo"
-        },
-        "spa": {
-            "official": "Rep\u00fablica del Congo",
-            "common": "Congo"
-        },
-        "fin": {
-            "official": "Kongon tasavalta",
-            "common": "Kongo-Brazzaville"
-        },
-        "est": {
-            "official": "Kongo Vabariik",
-            "common": "Kongo Vabariik"
-        },
-        "zho": {
-            "official": "\u521a\u679c\u5171\u548c\u56fd",
-            "common": "\u521a\u679c"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "178",
     "wb_a2": "CG",

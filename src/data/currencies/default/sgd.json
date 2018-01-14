@@ -1,0 +1,51 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$2",
+            "$5",
+            "$10",
+            "$50"
+        ],
+        "rare": [
+            "$1",
+            "$20",
+            "$25",
+            "$100",
+            "$500",
+            "$1000",
+            "$10000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "S\u00a25",
+            "S\u00a210",
+            "S\u00a220",
+            "S\u00a250",
+            "$1"
+        ],
+        "rare": [
+            "S\u00a21"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SGD",
+        "number": "702"
+    },
+    "name": "Singapore Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "S\u00a2"
+        }
+    }
+}

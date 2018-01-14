@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "C$10",
+            "C$20",
+            "C$50",
+            "C$100",
+            "C$200",
+            "C$500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "25",
+            "50",
+            "C$1",
+            "C$5",
+            "C$10"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "NIO",
+        "number": "558"
+    },
+    "name": "Nicaraguan c\u00f3rdoba",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "c\u00f3rdoba",
+            "symbol": "C$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": ""
+        }
+    }
+}

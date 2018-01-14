@@ -8,34 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Morocco",
-    "altSpellings": [
-        "MA",
-        "Kingdom of Morocco",
-        "Al-Mamlakah al-Ma\u0121ribiyah"
-    ],
-    "area": 446550,
-    "borders": [
-        "DZA",
-        "ESH",
-        "ESP"
-    ],
     "brk_a3": "MAR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Morocco",
-    "callingCode": [
-        "212"
-    ],
-    "capital": "Rabat",
     "cca2": "MA",
     "cca3": "MAR",
     "ccn3": "504",
-    "cioc": "MAR",
-    "continent": "Africa",
-    "currency": [
-        "MAD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Moroccan",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "MO",
@@ -43,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "282800.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Middle East & North Africa",
+        "subregion": "Northern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Morocco",
     "gu_a3": "MAR",
@@ -53,16 +45,7 @@
     "iso_a3_eh": "MAR",
     "iso_n3": "504",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "ara": "Arabic",
-        "ber": "Berber"
-    },
     "lastcensus": "2004.00",
-    "latlng": [
-        32,
-        -5
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "9.00",
@@ -74,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Morocco",
-        "official": "Kingdom of Morocco",
-        "native": {
-            "ara": {
-                "official": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u063a\u0631\u0628\u064a\u0629",
-                "common": "\u0627\u0644\u0645\u063a\u0631\u0628"
-            },
-            "ber": {
-                "official": "\u2d5c\u2d30\u2d33\u2d4d\u2d37\u2d49\u2d5c \u2d4f \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31",
-                "common": "\u2d4d\u2d4e\u2d30\u2d56\u2d54\u2d49\u2d31"
-            }
-        }
+        "official": "Kingdom of Morocco"
     },
     "name_alt": "",
     "name_ciawf": "Morocco",
@@ -94,79 +67,21 @@
     "name_sort": "Morocco",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "33986655.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "MA",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Middle East & North Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "MAR",
     "sovereignt": "Morocco",
     "su_a3": "MAR",
     "su_dif": "0.00",
-    "subregion": "Northern Africa",
     "subunit": "Morocco",
     "tiny": "-99.00",
-    "tld": [
-        ".ma",
-        "\u0627\u0644\u0645\u063a\u0631\u0628."
-    ],
-    "translations": {
-        "deu": {
-            "official": "K\u00f6nigreich Marokko",
-            "common": "Marokko"
-        },
-        "fra": {
-            "official": "Royaume du Maroc",
-            "common": "Maroc"
-        },
-        "hrv": {
-            "official": "Kraljevina Maroko",
-            "common": "Maroko"
-        },
-        "ita": {
-            "official": "Regno del Marocco",
-            "common": "Marocco"
-        },
-        "jpn": {
-            "official": "\u30e2\u30ed\u30c3\u30b3\u738b\u56fd",
-            "common": "\u30e2\u30ed\u30c3\u30b3"
-        },
-        "nld": {
-            "official": "Koninkrijk Marokko",
-            "common": "Marokko"
-        },
-        "por": {
-            "official": "Reino de Marrocos",
-            "common": "Marrocos"
-        },
-        "rus": {
-            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e",
-            "common": "\u041c\u0430\u0440\u043e\u043a\u043a\u043e"
-        },
-        "slk": {
-            "official": "Marock\u00e9 knie\u017eatstvo",
-            "common": "Maroko"
-        },
-        "spa": {
-            "official": "Reino de Marruecos",
-            "common": "Marruecos"
-        },
-        "fin": {
-            "official": "Marokon kuningaskunta",
-            "common": "Marokko"
-        },
-        "est": {
-            "official": "Maroko Kuningriik",
-            "common": "Maroko"
-        },
-        "zho": {
-            "official": "\u6469\u6d1b\u54e5\u738b\u56fd",
-            "common": "\u6469\u6d1b\u54e5"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "504",
     "wb_a2": "MA",

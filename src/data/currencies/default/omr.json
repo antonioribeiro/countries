@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "bz100",
+            "bz200",
+            "bz500",
+            "1\u0639.\u0631.",
+            "5\u0639.\u0631.",
+            "10\u0639.\u0631.",
+            "20\u0639.\u0631.",
+            "50\u0639.\u0631."
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "bz5",
+            "bz10",
+            "bz25",
+            "bz50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "OMR",
+        "number": "512"
+    },
+    "name": "Omani Rial",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "rial",
+            "symbol": "\u0639.\u0631."
+        },
+        "minor": {
+            "majorValue": 0.001,
+            "name": "baisa",
+            "symbol": "bz"
+        }
+    }
+}

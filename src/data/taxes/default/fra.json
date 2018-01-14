@@ -1,0 +1,77 @@
+{
+    "vat": {
+        "cca2": "FR",
+        "cca3": "FRA",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "French VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.196,
+                        "end_date": "2013-12-31",
+                        "id": "fr_vat_standard_2004",
+                        "start_date": "2004-04-01"
+                    },
+                    {
+                        "amount": 0.2,
+                        "id": "fr_vat_standard_2014",
+                        "start_date": "2014-01-01"
+                    }
+                ],
+                "default": true,
+                "id": "fr_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.07,
+                        "end_date": "2013-12-31",
+                        "id": "fr_vat_intermediate_2012",
+                        "start_date": "2012-01-01"
+                    },
+                    {
+                        "amount": 0.1,
+                        "id": "fr_vat_intermediate_2014",
+                        "start_date": "2014-01-01"
+                    }
+                ],
+                "id": "fr_vat_intermediate",
+                "name": "Intermediate"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.055,
+                        "id": "fr_vat_reduced_1982",
+                        "start_date": "1982-07-01"
+                    }
+                ],
+                "id": "fr_vat_reduced",
+                "name": "Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.021,
+                        "id": "fr_vat_super_reduced_1986",
+                        "start_date": "1986-07-01"
+                    }
+                ],
+                "id": "fr_vat_super_reduced",
+                "name": "Super Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "fr_vat",
+        "zone": "fr_vat"
+    }
+}

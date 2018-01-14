@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "E10",
+            "E20",
+            "E50",
+            "E100",
+            "E200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "L1",
+            "E2",
+            "E5",
+            "1",
+            "2",
+            "5",
+            "10",
+            "20",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SZL",
+        "number": "748"
+    },
+    "name": "Swazi Lilangeni",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Lilangeni or emalangeni",
+            "symbol": "L or E"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

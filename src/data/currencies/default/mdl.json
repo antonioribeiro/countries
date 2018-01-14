@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "20",
+            "50",
+            "100",
+            "200",
+            "500",
+            "1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MDL",
+        "number": "498"
+    },
+    "name": "Moldovan Leu",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Leu",
+            "symbol": "L"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Ban",
+            "symbol": ""
+        }
+    }
+}

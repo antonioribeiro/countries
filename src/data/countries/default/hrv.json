@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Croatia",
-    "altSpellings": [
-        "HR",
-        "Hrvatska",
-        "Republic of Croatia",
-        "Republika Hrvatska"
-    ],
-    "area": 56594,
-    "borders": [
-        "BIH",
-        "HUN",
-        "MNE",
-        "SRB",
-        "SVN"
-    ],
     "brk_a3": "HRV",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Croatia",
-    "callingCode": [
-        "385"
-    ],
-    "capital": "Zagreb",
     "cca2": "HR",
     "cca3": "HRV",
     "ccn3": "191",
-    "cioc": "CRO",
-    "continent": "Europe",
-    "currency": [
-        "HRK"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Croatian",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "HR",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "94240.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Southern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Croatia",
     "gu_a3": "HRV",
@@ -56,15 +45,7 @@
     "iso_a3_eh": "HRV",
     "iso_n3": "191",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "hrv": "Croatian"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        45.16666666,
-        15.5
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "1.00",
@@ -76,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Croatia",
-        "official": "Republic of Croatia",
-        "native": {
-            "hrv": {
-                "official": "Republika Hrvatska",
-                "common": "Hrvatska"
-            }
-        }
+        "official": "Republic of Croatia"
     },
     "name_alt": "",
     "name_ciawf": "Croatia",
@@ -92,82 +67,21 @@
     "name_sort": "Croatia",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "4292095.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
     "postal": "HR",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "HRV",
     "sovereignt": "Croatia",
     "su_a3": "HRV",
     "su_dif": "0.00",
-    "subregion": "Southern Europe",
     "subunit": "Croatia",
     "tiny": "-99.00",
-    "tld": [
-        ".hr"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Croatia",
-            "common": "Croatia"
-        },
-        "deu": {
-            "official": "Republik Kroatien",
-            "common": "Kroatien"
-        },
-        "fra": {
-            "official": "R\u00e9publique de Croatie",
-            "common": "Croatie"
-        },
-        "hrv": {
-            "official": "Republika Hrvatska",
-            "common": "Hrvatska"
-        },
-        "ita": {
-            "official": "Repubblica di Croazia",
-            "common": "Croazia"
-        },
-        "jpn": {
-            "official": "\u30af\u30ed\u30a2\u30c1\u30a2\u5171\u548c\u56fd",
-            "common": "\u30af\u30ed\u30a2\u30c1\u30a2"
-        },
-        "nld": {
-            "official": "Republiek Kroati\u00eb",
-            "common": "Kroati\u00eb"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Cro\u00e1cia",
-            "common": "Cro\u00e1cia"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f",
-            "common": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f"
-        },
-        "slk": {
-            "official": "Chorv\u00e1tska republika",
-            "common": "Chorv\u00e1tsko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Croacia",
-            "common": "Croacia"
-        },
-        "fin": {
-            "official": "Kroatian tasavalta",
-            "common": "Kroatia"
-        },
-        "est": {
-            "official": "Horvaatia Vabariik",
-            "common": "Horvaatia"
-        },
-        "zho": {
-            "official": "\u514b\u7f57\u5730\u4e9a\u5171\u548c\u56fd",
-            "common": "\u514b\u7f57\u5730\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "191",
     "wb_a2": "HR",

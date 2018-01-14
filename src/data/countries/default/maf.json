@@ -8,33 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Saint Martin",
-    "altSpellings": [
-        "MF",
-        "Collectivity of Saint Martin",
-        "Collectivit\u00e9 de Saint-Martin",
-        "Saint Martin (French part)"
-    ],
-    "area": 53,
-    "borders": [
-        "SXM"
-    ],
     "brk_a3": "MAF",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saint-Martin",
-    "callingCode": [
-        "590"
-    ],
-    "capital": "Marigot",
     "cca2": "MF",
     "cca3": "MAF",
     "ccn3": "663",
-    "cioc": "",
-    "continent": "North America",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Saint Martin Islander",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "RN",
@@ -42,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "561.50",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Saint Martin",
     "gu_a3": "MAF",
@@ -52,15 +45,7 @@
     "iso_a3_eh": "MAF",
     "iso_n3": "663",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "fra": "French"
-    },
     "lastcensus": "-99.00",
-    "latlng": [
-        18.08333333,
-        -63.95
-    ],
     "level": "2.00",
     "long_len": "12.00",
     "mapcolor13": "11.00",
@@ -71,14 +56,8 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Saint Martin",
-        "official": "Saint Martin",
-        "native": {
-            "fra": {
-                "official": "Saint-Martin",
-                "common": "Saint-Martin"
-            }
-        }
+        "common": "St-Martin",
+        "official": "Saint-Martin (French part)"
     },
     "name_alt": "",
     "name_ciawf": "Saint Martin",
@@ -88,79 +67,21 @@
     "name_sort": "St. Martin (French part)",
     "note_adm0": "Fr.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "32125.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
     "postal": "MF",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "FR1",
     "sovereignt": "France",
     "su_a3": "MAF",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Saint Martin",
     "tiny": "4.00",
-    "tld": [
-        ".fr",
-        ".gp"
-    ],
-    "translations": {
-        "deu": {
-            "official": "St. Martin",
-            "common": "Saint Martin"
-        },
-        "fra": {
-            "official": "Saint-Martin",
-            "common": "Saint-Martin"
-        },
-        "hrv": {
-            "official": "Saint Martin",
-            "common": "Sveti Martin"
-        },
-        "ita": {
-            "official": "saint Martin",
-            "common": "Saint Martin"
-        },
-        "jpn": {
-            "official": "\u30b5\u30f3\u30de\u30eb\u30bf\u30f3\u5cf6",
-            "common": "\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09"
-        },
-        "nld": {
-            "official": "Saint Martin",
-            "common": "Saint-Martin"
-        },
-        "por": {
-            "official": "saint Martin",
-            "common": "S\u00e3o Martinho"
-        },
-        "rus": {
-            "official": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d",
-            "common": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d"
-        },
-        "slk": {
-            "official": "Saint-Martin",
-            "common": "Saint-Martin"
-        },
-        "spa": {
-            "official": "Saint Martin",
-            "common": "Saint Martin"
-        },
-        "fin": {
-            "official": "Saint-Martin",
-            "common": "Saint-Martin"
-        },
-        "est": {
-            "official": "Saint-Martini \u00fchendus",
-            "common": "Saint-Martin"
-        },
-        "zho": {
-            "official": "\u5723\u9a6c\u4e01",
-            "common": "\u5723\u9a6c\u4e01"
-        }
-    },
     "type": "Dependency",
     "un_a3": "663",
     "wb_a2": "MF",

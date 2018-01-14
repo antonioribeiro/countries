@@ -1,0 +1,40 @@
+{
+    "banknotes": {
+        "frequent": [
+            "Le1000",
+            "Le2000",
+            "Le5000",
+            "Le10000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "Le10",
+            "Le50",
+            "Le100",
+            "Le500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SLL",
+        "number": "694"
+    },
+    "name": "Sierra Leonean Leone",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Leone",
+            "symbol": "Le"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "c"
+        }
+    }
+}

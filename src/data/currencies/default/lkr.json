@@ -1,0 +1,49 @@
+{
+    "banknotes": {
+        "frequent": [
+            "RS10",
+            "RS20",
+            "Rs50",
+            "Rs100",
+            "Rs500",
+            "Rs1000",
+            "Rs2000",
+            "Rs5000"
+        ],
+        "rare": [
+            "Rs200"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "Rs1",
+            "Rs2",
+            "Rs5",
+            "Rs10"
+        ],
+        "rare": [
+            "25",
+            "50"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "LKR",
+        "number": "144"
+    },
+    "name": "Sri Lankan Rupee",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Rupee",
+            "symbol": "Rs"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

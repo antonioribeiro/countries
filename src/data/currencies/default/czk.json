@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "100K\u010d",
+            "200K\u010d",
+            "500K\u010d",
+            "1000K\u010d",
+            "2000K\u010d",
+            "5000K\u010d"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1K\u010d",
+            "2K\u010d",
+            "5K\u010d",
+            "10K\u010d",
+            "50K\u010d"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "CZK",
+        "number": "200"
+    },
+    "name": "Czech koruna",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "koruna",
+            "symbol": "K\u010d"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "hal\u00e9\u0159",
+            "symbol": "h"
+        }
+    }
+}

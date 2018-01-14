@@ -8,41 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Belgium",
-    "altSpellings": [
-        "BE",
-        "Belgi\u00eb",
-        "Belgie",
-        "Belgien",
-        "Belgique",
-        "Kingdom of Belgium",
-        "Koninkrijk Belgi\u00eb",
-        "Royaume de Belgique",
-        "K\u00f6nigreich Belgien"
-    ],
-    "area": 30528,
-    "borders": [
-        "FRA",
-        "DEU",
-        "LUX",
-        "NLD"
-    ],
     "brk_a3": "BEL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Belgium",
-    "callingCode": [
-        "32"
-    ],
-    "capital": "Brussels",
     "cca2": "BE",
     "cca3": "BEL",
     "ccn3": "056",
-    "cioc": "BEL",
-    "continent": "Europe",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Belgian",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "BE",
@@ -50,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "508600.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Western Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Belgium",
     "gu_a3": "BEL",
@@ -60,17 +45,7 @@
     "iso_a3_eh": "BEL",
     "iso_n3": "056",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "deu": "German",
-        "fra": "French",
-        "nld": "Dutch"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        50.83333333,
-        4
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "8.00",
@@ -82,21 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Belgium",
-        "official": "Kingdom of Belgium",
-        "native": {
-            "deu": {
-                "official": "K\u00f6nigreich Belgien",
-                "common": "Belgien"
-            },
-            "fra": {
-                "official": "Royaume de Belgique",
-                "common": "Belgique"
-            },
-            "nld": {
-                "official": "Koninkrijk Belgi\u00eb",
-                "common": "Belgi\u00eb"
-            }
-        }
+        "official": "Kingdom of Belgium"
     },
     "name_alt": "",
     "name_ciawf": "Belgium",
@@ -106,82 +67,21 @@
     "name_sort": "Belgium",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "11491346.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "B",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "BEL",
     "sovereignt": "Belgium",
     "su_a3": "BEL",
     "su_dif": "0.00",
-    "subregion": "Western Europe",
     "subunit": "Belgium",
     "tiny": "-99.00",
-    "tld": [
-        ".be"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Teyrnas Gwlad Belg",
-            "common": "Gwlad Belg"
-        },
-        "deu": {
-            "official": "K\u00f6nigreich Belgien",
-            "common": "Belgien"
-        },
-        "fra": {
-            "official": "Royaume de Belgique",
-            "common": "Belgique"
-        },
-        "hrv": {
-            "official": "Kraljevina Belgija",
-            "common": "Belgija"
-        },
-        "ita": {
-            "official": "Regno del Belgio",
-            "common": "Belgio"
-        },
-        "jpn": {
-            "official": "\u30d9\u30eb\u30ae\u30fc\u738b\u56fd",
-            "common": "\u30d9\u30eb\u30ae\u30fc"
-        },
-        "nld": {
-            "official": "Koninkrijk Belgi\u00eb",
-            "common": "Belgi\u00eb"
-        },
-        "por": {
-            "official": "Reino da B\u00e9lgica",
-            "common": "B\u00e9lgica"
-        },
-        "rus": {
-            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0411\u0435\u043b\u044c\u0433\u0438\u044f",
-            "common": "\u0411\u0435\u043b\u044c\u0433\u0438\u044f"
-        },
-        "slk": {
-            "official": "Belgick\u00e9 kr\u00e1\u013eovstvo",
-            "common": "Belgicko"
-        },
-        "spa": {
-            "official": "Reino de B\u00e9lgica",
-            "common": "B\u00e9lgica"
-        },
-        "fin": {
-            "official": "Belgian kuningaskunta",
-            "common": "Belgia"
-        },
-        "est": {
-            "official": "Belgia Kuningriik",
-            "common": "Belgia"
-        },
-        "zho": {
-            "official": "\u6bd4\u5229\u65f6\u738b\u56fd",
-            "common": "\u6bd4\u5229\u65f6"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "056",
     "wb_a2": "BE",

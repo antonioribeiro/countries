@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "500R\u20a3",
+            "1000R\u20a3",
+            "2000R\u20a3",
+            "5000R\u20a3"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1R\u20a3",
+            "2R\u20a3",
+            "5R\u20a3",
+            "10R\u20a3",
+            "20R\u20a3",
+            "50R\u20a3",
+            "100R\u20a3"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "RWF",
+        "number": "646"
+    },
+    "name": "Rwandan franc",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "franc",
+            "symbol": "FRw, RF, R\u20a3"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centime",
+            "symbol": ""
+        }
+    }
+}

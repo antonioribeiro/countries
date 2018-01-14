@@ -1,0 +1,40 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5",
+            "10",
+            "25",
+            "\u00a31",
+            "\u00a35",
+            "\u00a310",
+            "\u00a325",
+            "\u00a350",
+            "\u00a3100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SSP",
+        "number": "728"
+    },
+    "name": "South Sudanese pound",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "pound",
+            "symbol": "\u00a3"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "piaster",
+            "symbol": ""
+        }
+    }
+}

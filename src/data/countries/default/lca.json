@@ -8,28 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Saint Lucia",
-    "altSpellings": [
-        "LC"
-    ],
-    "area": 616,
-    "borders": [],
     "brk_a3": "LCA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saint Lucia",
-    "callingCode": [
-        "1758"
-    ],
-    "capital": "Castries",
     "cca2": "LC",
     "cca3": "LCA",
     "ccn3": "662",
-    "cioc": "LCA",
-    "continent": "North America",
-    "currency": [
-        "XCD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Saint Lucian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "ST",
@@ -37,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "2083.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Saint Lucia",
     "gu_a3": "LCA",
@@ -47,15 +45,7 @@
     "iso_a3_eh": "LCA",
     "iso_n3": "662",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        13.88333333,
-        -60.96666666
-    ],
     "level": "2.00",
     "long_len": "11.00",
     "mapcolor13": "4.00",
@@ -67,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Saint Lucia",
-        "official": "Saint Lucia",
-        "native": {
-            "eng": {
-                "official": "Saint Lucia",
-                "common": "Saint Lucia"
-            }
-        }
+        "official": "Saint Lucia"
     },
     "name_alt": "",
     "name_ciawf": "Saint Lucia",
@@ -83,78 +67,21 @@
     "name_sort": "St. Lucia",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "164994.00",
     "pop_rank": "9.00",
     "pop_year": "2017.00",
     "postal": "LC",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "LCA",
     "sovereignt": "Saint Lucia",
     "su_a3": "LCA",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Saint Lucia",
     "tiny": "4.00",
-    "tld": [
-        ".lc"
-    ],
-    "translations": {
-        "deu": {
-            "official": "St. Lucia",
-            "common": "Saint Lucia"
-        },
-        "fra": {
-            "official": "Sainte-Lucie",
-            "common": "Sainte-Lucie"
-        },
-        "hrv": {
-            "official": "Sveta Lucija",
-            "common": "Sveta Lucija"
-        },
-        "ita": {
-            "official": "Santa Lucia",
-            "common": "Santa Lucia"
-        },
-        "jpn": {
-            "official": "\u30bb\u30f3\u30c8\u30eb\u30b7\u30a2",
-            "common": "\u30bb\u30f3\u30c8\u30eb\u30b7\u30a2"
-        },
-        "nld": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "por": {
-            "official": "Santa L\u00facia",
-            "common": "Santa L\u00facia"
-        },
-        "rus": {
-            "official": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f",
-            "common": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f"
-        },
-        "slk": {
-            "official": "Sv\u00e4t\u00e1 Lucia",
-            "common": "Sv\u00e4t\u00e1 Lucia"
-        },
-        "spa": {
-            "official": "Santa Luc\u00eda",
-            "common": "Santa Luc\u00eda"
-        },
-        "fin": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "est": {
-            "official": "Saint Lucia",
-            "common": "Saint Lucia"
-        },
-        "zho": {
-            "official": "\u5723\u5362\u897f\u4e9a",
-            "common": "\u5723\u5362\u897f\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "662",
     "wb_a2": "LC",

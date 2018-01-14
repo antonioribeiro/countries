@@ -8,34 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Vatican",
-    "altSpellings": [
-        "VA",
-        "Holy See (Vatican City State)",
-        "Vatican City State",
-        "Stato della Citt\u00e0 del Vaticano"
-    ],
-    "area": 0.44,
-    "borders": [
-        "ITA"
-    ],
     "brk_a3": "VAT",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Vatican",
-    "callingCode": [
-        "3906698",
-        "379"
-    ],
-    "capital": "Vatican City",
     "cca2": "VA",
     "cca3": "VAT",
     "ccn3": "336",
-    "cioc": "",
-    "continent": "Europe",
-    "currency": [
-        "EUR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Italian",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "VT",
@@ -43,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "0.00",
     "gdp_year": "0.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Southern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Vatican",
     "gu_a3": "VAT",
@@ -53,16 +45,7 @@
     "iso_a3_eh": "VAT",
     "iso_n3": "336",
     "labelrank": "6.00",
-    "landlocked": true,
-    "languages": {
-        "ita": "Italian",
-        "lat": "Latin"
-    },
     "lastcensus": "-99.00",
-    "latlng": [
-        41.9,
-        12.45
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "2.00",
@@ -73,18 +56,8 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Vatican City",
-        "official": "Vatican City State",
-        "native": {
-            "ita": {
-                "official": "Stato della Citt\u00e0 del Vaticano",
-                "common": "Vaticano"
-            },
-            "lat": {
-                "official": "Status Civitatis Vatican\u00e6",
-                "common": "Vatican\u00e6"
-            }
-        }
+        "common": "Vatican",
+        "official": "State of the Vatican City"
     },
     "name_alt": "Holy See",
     "name_ciawf": "Holy See (Vatican City)",
@@ -94,78 +67,21 @@
     "name_sort": "Vatican (Holy See)",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "1000.00",
     "pop_rank": "3.00",
     "pop_year": "2015.00",
     "postal": "V",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "VAT",
     "sovereignt": "Vatican",
     "su_a3": "VAT",
     "su_dif": "0.00",
-    "subregion": "Southern Europe",
     "subunit": "Vatican",
     "tiny": "4.00",
-    "tld": [
-        ".va"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Staat Vatikanstadt",
-            "common": "Vatikanstadt"
-        },
-        "fra": {
-            "official": "Cit\u00e9 du Vatican",
-            "common": "Cit\u00e9 du Vatican"
-        },
-        "hrv": {
-            "official": "Vatikan",
-            "common": "Vatikan"
-        },
-        "ita": {
-            "official": "Citt\u00e0 del Vaticano",
-            "common": "Citt\u00e0 del Vaticano"
-        },
-        "jpn": {
-            "official": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd\u306e\u72b6\u614b",
-            "common": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd"
-        },
-        "nld": {
-            "official": "Vaticaanstad",
-            "common": "Vaticaanstad"
-        },
-        "por": {
-            "official": "Cidade do Vaticano",
-            "common": "Cidade do Vaticano"
-        },
-        "rus": {
-            "official": "\u0413\u043e\u0440\u043e\u0434-\u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0412\u0430\u0442\u0438\u043a\u0430\u043d",
-            "common": "\u0412\u0430\u0442\u0438\u043a\u0430\u043d"
-        },
-        "slk": {
-            "official": "Sv\u00e4t\u00e1 stolica (Vatik\u00e1nsky mestsk\u00fd \u0161t\u00e1t",
-            "common": "Vatik\u00e1n"
-        },
-        "spa": {
-            "official": "Ciudad del Vaticano",
-            "common": "Ciudad del Vaticano"
-        },
-        "fin": {
-            "official": "Vatikaanin kaupunkivaltio",
-            "common": "Vatikaani"
-        },
-        "est": {
-            "official": "Vatikani Linnriik",
-            "common": "Vatikan"
-        },
-        "zho": {
-            "official": "\u68b5\u8482\u5188\u57ce\u56fd",
-            "common": "\u68b5\u8482\u5188"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "336",
     "wb_a2": "-99",

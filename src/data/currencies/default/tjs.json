@@ -1,0 +1,53 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1diram",
+            "5diram",
+            "20diram",
+            "50diram",
+            "1somoni",
+            "3somoni",
+            "5somoni",
+            "10somoni",
+            "20somoni",
+            "50somoni",
+            "100somoni",
+            "200somoni",
+            "500somoni"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5diram",
+            "10diram",
+            "20diram",
+            "25diram",
+            "50diram",
+            "1somoni",
+            "3somoni",
+            "5somoni"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TJS",
+        "number": "762"
+    },
+    "name": "Tajikistani somoni",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "somoni",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "diram",
+            "symbol": ""
+        }
+    }
+}

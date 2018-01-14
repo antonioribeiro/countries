@@ -1,0 +1,66 @@
+{
+    "vat": {
+        "cca2": "LT",
+        "cca3": "LTU",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Lithuanian VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.18,
+                        "end_date": "2008-12-31",
+                        "id": "lt_vat_standard_2004",
+                        "start_date": "2004-05-01"
+                    },
+                    {
+                        "amount": 0.19,
+                        "end_date": "2009-08-31",
+                        "id": "lt_vat_standard_2009_01",
+                        "start_date": "2009-01-01"
+                    },
+                    {
+                        "amount": 0.21,
+                        "id": "lt_vat_standard_2009_09",
+                        "start_date": "2009-09-01"
+                    }
+                ],
+                "default": true,
+                "id": "lt_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.09,
+                        "id": "lt_vat_intermediate_2004",
+                        "start_date": "2004-05-01"
+                    }
+                ],
+                "id": "lt_vat_intermediate",
+                "name": "Intermediate"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "id": "lt_vat_reduced_2004",
+                        "start_date": "2004-05-01"
+                    }
+                ],
+                "id": "lt_vat_reduced",
+                "name": "Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "lt_vat",
+        "zone": "lt_vat"
+    }
+}

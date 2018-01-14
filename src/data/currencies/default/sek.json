@@ -1,0 +1,41 @@
+{
+    "banknotes": {
+        "frequent": [
+            "kr20",
+            "kr50",
+            "kr100",
+            "kr500"
+        ],
+        "rare": [
+            "kr1000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "kr1",
+            "kr5",
+            "kr10"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SEK",
+        "number": "752"
+    },
+    "name": "Swedish krona",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "krona",
+            "symbol": "kr"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "\u00f6ren",
+            "symbol": ""
+        }
+    }
+}

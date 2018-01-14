@@ -8,38 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Algeria",
-    "altSpellings": [
-        "DZ",
-        "Dzayer",
-        "Alg\u00e9rie"
-    ],
-    "area": 2381741,
-    "borders": [
-        "TUN",
-        "LBY",
-        "NER",
-        "ESH",
-        "MRT",
-        "MLI",
-        "MAR"
-    ],
     "brk_a3": "DZA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Algeria",
-    "callingCode": [
-        "213"
-    ],
-    "capital": "Algiers",
     "cca2": "DZ",
     "cca3": "DZA",
     "ccn3": "012",
-    "cioc": "ALG",
-    "continent": "Africa",
-    "currency": [
-        "DZD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Algerian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "AG",
@@ -47,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "609400.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Middle East & North Africa",
+        "subregion": "Northern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Algeria",
     "gu_a3": "DZA",
@@ -57,15 +45,7 @@
     "iso_a3_eh": "DZA",
     "iso_n3": "012",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "ara": "Arabic"
-    },
     "lastcensus": "2008.00",
-    "latlng": [
-        28,
-        3
-    ],
     "level": "2.00",
     "long_len": "7.00",
     "mapcolor13": "3.00",
@@ -77,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Algeria",
-        "official": "People's Democratic Republic of Algeria",
-        "native": {
-            "ara": {
-                "official": "\u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u0629 \u0627\u0644\u0634\u0639\u0628\u064a\u0629 \u0627\u0644\u062c\u0632\u0627\u0626\u0631\u064a\u0629",
-                "common": "\u0627\u0644\u062c\u0632\u0627\u0626\u0631"
-            }
-        }
+        "official": "People's Democratic Republic of Algeria"
     },
     "name_alt": "",
     "name_ciawf": "Algeria",
@@ -93,83 +67,21 @@
     "name_sort": "Algeria",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "40969443.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "DZ",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Middle East & North Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "DZA",
     "sovereignt": "Algeria",
     "su_a3": "DZA",
     "su_dif": "0.00",
-    "subregion": "Northern Africa",
     "subunit": "Algeria",
     "tiny": "-99.00",
-    "tld": [
-        ".dz",
-        "\u0627\u0644\u062c\u0632\u0627\u0626\u0631."
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Ddemocrataidd Pobl Algeria",
-            "common": "Algeria"
-        },
-        "deu": {
-            "official": "Demokratische Volksrepublik Algerien",
-            "common": "Algerien"
-        },
-        "fra": {
-            "official": "R\u00e9publique d\u00e9mocratique et populaire d'Alg\u00e9rie",
-            "common": "Alg\u00e9rie"
-        },
-        "hrv": {
-            "official": "Narodna Demokratska Republika Al\u017eir",
-            "common": "Al\u017eir"
-        },
-        "ita": {
-            "official": "Repubblica popolare democratica di Algeria",
-            "common": "Algeria"
-        },
-        "jpn": {
-            "official": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30a2\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
-            "common": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30a2"
-        },
-        "nld": {
-            "official": "Democratische Volksrepubliek Algerije",
-            "common": "Algerije"
-        },
-        "por": {
-            "official": "Rep\u00fablica Argelina Democr\u00e1tica e Popular",
-            "common": "Arg\u00e9lia"
-        },
-        "rus": {
-            "official": "\u041d\u0430\u0440\u043e\u0434\u043d\u043e-\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u043b\u0436\u0438\u0440",
-            "common": "\u0410\u043b\u0436\u0438\u0440"
-        },
-        "slk": {
-            "official": "Al\u017e\u00edrska demokratick\u00e1 \u013eudov\u00e1 republika",
-            "common": "Al\u017e\u00edrsko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Argelina Democr\u00e1tica y Popular",
-            "common": "Argelia"
-        },
-        "fin": {
-            "official": "Algerian demokraattinen kansantasavalta",
-            "common": "Algeria"
-        },
-        "est": {
-            "official": "Al\u017eeeria Demokraatlik Rahvavabariik",
-            "common": "Al\u017eeeria"
-        },
-        "zho": {
-            "official": "\u963f\u5c14\u53ca\u5229\u4e9a\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
-            "common": "\u963f\u5c14\u53ca\u5229\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "012",
     "wb_a2": "DZ",

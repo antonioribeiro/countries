@@ -8,24 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Antarctica",
-    "altSpellings": [
-        "AQ"
-    ],
-    "area": 14000000,
-    "borders": [],
     "brk_a3": "ATA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Antarctica",
-    "callingCode": [],
-    "capital": "",
     "cca2": "AQ",
     "cca3": "ATA",
     "ccn3": "010",
-    "cioc": "",
-    "continent": "Antarctica",
-    "currency": [],
-    "demonym": "Antarctican",
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
+    ],
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "AY",
@@ -33,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "810.00",
     "gdp_year": "2013.00",
+    "geo": {
+        "borders": [],
+        "continent": "Antarctica",
+        "region": "Antarctica",
+        "region_un": "Antarctica",
+        "region_wb": "Antarctica",
+        "subregion": "Antarctica"
+    },
     "geou_dif": "0.00",
     "geounit": "Antarctica",
     "gu_a3": "ATA",
@@ -43,13 +45,7 @@
     "iso_a3_eh": "ATA",
     "iso_n3": "010",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": [],
     "lastcensus": "-99.00",
-    "latlng": [
-        -90,
-        0
-    ],
     "level": "2.00",
     "long_len": "10.00",
     "mapcolor13": "-99.00",
@@ -61,8 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Antarctica",
-        "official": "Antarctica",
-        "native": []
+        "official": ""
     },
     "name_alt": "",
     "name_ciawf": "",
@@ -72,83 +67,21 @@
     "name_sort": "Antarctica",
     "note_adm0": "",
     "note_brk": "Multiple claims held in abeyance",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "4050.00",
     "pop_rank": "4.00",
     "pop_year": "2013.00",
     "postal": "AQ",
-    "region": "",
-    "region_un": "Antarctica",
-    "region_wb": "Antarctica",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "ATA",
     "sovereignt": "Antarctica",
     "su_a3": "ATA",
     "su_dif": "0.00",
-    "subregion": "",
-    "subregion_nev": "Antarctica",
     "subunit": "Antarctica",
     "tiny": "-99.00",
-    "tld": [
-        ".aq"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Yr Antarctig",
-            "common": "Yr Antarctig"
-        },
-        "deu": {
-            "official": "Antarktika",
-            "common": "Antarktis"
-        },
-        "fra": {
-            "official": "Antarctique",
-            "common": "Antarctique"
-        },
-        "hrv": {
-            "official": "Antarktika",
-            "common": "Antarktika"
-        },
-        "ita": {
-            "official": "Antartide",
-            "common": "Antartide"
-        },
-        "jpn": {
-            "official": "\u5357\u6975\u5927\u9678",
-            "common": "\u5357\u6975"
-        },
-        "nld": {
-            "official": "Antarctica",
-            "common": "Antarctica"
-        },
-        "por": {
-            "official": "Ant\u00e1rtica",
-            "common": "Ant\u00e1rtida"
-        },
-        "rus": {
-            "official": "\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0434\u0430",
-            "common": "\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0434\u0430"
-        },
-        "slk": {
-            "official": "Antarkt\u00edda",
-            "common": "Antarkt\u00edda"
-        },
-        "spa": {
-            "official": "Ant\u00e1rtida",
-            "common": "Ant\u00e1rtida"
-        },
-        "fin": {
-            "official": "Etel\u00e4manner",
-            "common": "Etel\u00e4manner"
-        },
-        "est": {
-            "official": "Antarktika",
-            "common": "Antarktika"
-        },
-        "zho": {
-            "official": "\u5357\u6781\u6d32",
-            "common": "\u5357\u6781\u6d32"
-        }
-    },
     "type": "Indeterminate",
     "un_a3": "-099",
     "wb_a2": "-99",

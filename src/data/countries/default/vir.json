@@ -8,29 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "United States Virgin Islands",
-    "altSpellings": [
-        "VI",
-        "Virgin Islands, U.S."
-    ],
-    "area": 347,
-    "borders": [],
     "brk_a3": "VIR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "U.S. Virgin Is.",
-    "callingCode": [
-        "1340"
-    ],
-    "capital": "Charlotte Amalie",
     "cca2": "VI",
     "cca3": "VIR",
     "ccn3": "850",
-    "cioc": "ISV",
-    "continent": "North America",
-    "currency": [
-        "USD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Virgin Islander",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "VQ",
@@ -38,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "3792.00",
     "gdp_year": "2013.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "United States Virgin Islands",
     "gu_a3": "VIR",
@@ -48,15 +45,7 @@
     "iso_a3_eh": "VIR",
     "iso_n3": "850",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        18.35,
-        -64.933333
-    ],
     "level": "2.00",
     "long_len": "28.00",
     "mapcolor13": "1.00",
@@ -67,14 +56,8 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "United States Virgin Islands",
-        "official": "Virgin Islands of the United States",
-        "native": {
-            "eng": {
-                "official": "Virgin Islands of the United States",
-                "common": "United States Virgin Islands"
-            }
-        }
+        "common": "U.S. Virgin Is.",
+        "official": "Virgin Islands of the United States"
     },
     "name_alt": "",
     "name_ciawf": "Virgin Islands",
@@ -84,78 +67,21 @@
     "name_sort": "Virgin Islands (U.S.)",
     "note_adm0": "U.S.A.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "107268.00",
     "pop_rank": "9.00",
     "pop_year": "2017.00",
     "postal": "VI",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "US1",
     "sovereignt": "United States of America",
     "su_a3": "VIR",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "United States Virgin Islands",
     "tiny": "3.00",
-    "tld": [
-        ".vi"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Jungferninseln der Vereinigten Staaten",
-            "common": "Amerikanische Jungferninseln"
-        },
-        "fra": {
-            "official": "\u00celes Vierges des \u00c9tats-Unis",
-            "common": "\u00celes Vierges des \u00c9tats-Unis"
-        },
-        "hrv": {
-            "official": "Djevi\u010danski Otoci SAD",
-            "common": "Ameri\u010dki Djevi\u010danski Otoci"
-        },
-        "ita": {
-            "official": "Isole Vergini degli Stati Uniti",
-            "common": "Isole Vergini americane"
-        },
-        "jpn": {
-            "official": "\u7c73\u56fd\u306e\u30d0\u30fc\u30b8\u30f3\u8af8\u5cf6",
-            "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6"
-        },
-        "nld": {
-            "official": "Maagdeneilanden van de Verenigde Staten",
-            "common": "Amerikaanse Maagdeneilanden"
-        },
-        "por": {
-            "official": "Ilhas Virgens dos Estados Unidos",
-            "common": "Ilhas Virgens dos Estados Unidos"
-        },
-        "rus": {
-            "official": "\u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0445 \u0428\u0442\u0430\u0442\u043e\u0432",
-            "common": "\u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
-        },
-        "slk": {
-            "official": "Americk\u00e9 Panensk\u00e9 ostrovy",
-            "common": "Americk\u00e9 Panensk\u00e9 ostrovy"
-        },
-        "spa": {
-            "official": "Islas V\u00edrgenes de los Estados Unidos",
-            "common": "Islas V\u00edrgenes de los Estados Unidos"
-        },
-        "fin": {
-            "official": "Yhdysvaltain Neitsytsaaret",
-            "common": "Neitsytsaaret"
-        },
-        "est": {
-            "official": "\u00dchendriikide Neitsisaared",
-            "common": "Neitsisaared, USA"
-        },
-        "zho": {
-            "official": "\u7f8e\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b",
-            "common": "\u7f8e\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b"
-        }
-    },
     "type": "Dependency",
     "un_a3": "850",
     "wb_a2": "VI",

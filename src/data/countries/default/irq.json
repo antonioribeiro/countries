@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Iraq",
-    "altSpellings": [
-        "IQ",
-        "Republic of Iraq",
-        "Jumh\u016briyyat al-\u2018Ir\u0101q"
-    ],
-    "area": 438317,
-    "borders": [
-        "IRN",
-        "JOR",
-        "KWT",
-        "SAU",
-        "SYR",
-        "TUR"
-    ],
     "brk_a3": "IRQ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Iraq",
-    "callingCode": [
-        "964"
-    ],
-    "capital": "Baghdad",
     "cca2": "IQ",
     "cca3": "IRQ",
     "ccn3": "368",
-    "cioc": "IRQ",
-    "continent": "Asia",
-    "currency": [
-        "IQD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Iraqi",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "IZ",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "596700.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "Middle East & North Africa",
+        "subregion": "Western Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Iraq",
     "gu_a3": "IRQ",
@@ -56,17 +45,7 @@
     "iso_a3_eh": "IRQ",
     "iso_n3": "368",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "ara": "Arabic",
-        "arc": "Aramaic",
-        "ckb": "Sorani"
-    },
     "lastcensus": "1997.00",
-    "latlng": [
-        33,
-        44
-    ],
     "level": "2.00",
     "long_len": "4.00",
     "mapcolor13": "1.00",
@@ -78,21 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Iraq",
-        "official": "Republic of Iraq",
-        "native": {
-            "ara": {
-                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0639\u0631\u0627\u0642",
-                "common": "\u0627\u0644\u0639\u0631\u0627\u0642"
-            },
-            "arc": {
-                "official": "\u0729\u0718\u073c\u071b\u0722\u0735\u0710 \u0710\u071d\u073c\u072a\u0732\u0729",
-                "common": "\u0729\u0718\u073c\u071b\u0722\u0735\u0710"
-            },
-            "ckb": {
-                "official": "\u06a9\u06c6\u0645\u0627\u0631\u06cc \u0639\u06ce\u0631\u0627\u0642",
-                "common": "\u06a9\u06c6\u0645\u0627\u0631\u06cc"
-            }
-        }
+        "official": "Republic of Iraq"
     },
     "name_alt": "",
     "name_ciawf": "Iraq",
@@ -102,78 +67,21 @@
     "name_sort": "Iraq",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "39192111.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "IRQ",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "Middle East & North Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "IRQ",
     "sovereignt": "Iraq",
     "su_a3": "IRQ",
     "su_dif": "0.00",
-    "subregion": "Western Asia",
     "subunit": "Iraq",
     "tiny": "-99.00",
-    "tld": [
-        ".iq"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Irak",
-            "common": "Irak"
-        },
-        "fra": {
-            "official": "R\u00e9publique d'Irak",
-            "common": "Irak"
-        },
-        "hrv": {
-            "official": "Republika Irak",
-            "common": "Irak"
-        },
-        "ita": {
-            "official": "Repubblica dell'Iraq",
-            "common": "Iraq"
-        },
-        "jpn": {
-            "official": "\u30a4\u30e9\u30af\u5171\u548c\u56fd",
-            "common": "\u30a4\u30e9\u30af"
-        },
-        "nld": {
-            "official": "Republiek Irak",
-            "common": "Irak"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Iraque",
-            "common": "Iraque"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0418\u0440\u0430\u043a",
-            "common": "\u0418\u0440\u0430\u043a"
-        },
-        "slk": {
-            "official": "Irack\u00e1 republika",
-            "common": "Irak"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Irak",
-            "common": "Irak"
-        },
-        "fin": {
-            "official": "Irakin tasavalta",
-            "common": "Irak"
-        },
-        "est": {
-            "official": "Iraagi Vabariik",
-            "common": "Iraak"
-        },
-        "zho": {
-            "official": "\u4f0a\u62c9\u514b\u5171\u548c\u56fd",
-            "common": "\u4f0a\u62c9\u514b"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "368",
     "wb_a2": "IQ",

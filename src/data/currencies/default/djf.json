@@ -1,0 +1,45 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1000fdj",
+            "2000fdj",
+            "5000fdj",
+            "10000fdj"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1fdj",
+            "2fdj",
+            "5fdj",
+            "10fdj",
+            "20fdj",
+            "50fdj",
+            "100fdj",
+            "250fdj",
+            "500fdj"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "DJF",
+        "number": "262"
+    },
+    "name": "Djiboutian Franc",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "franc",
+            "symbol": "fdj"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centime",
+            "symbol": ""
+        }
+    }
+}

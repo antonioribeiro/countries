@@ -8,37 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Cameroon",
-    "altSpellings": [
-        "CM",
-        "Republic of Cameroon",
-        "R\u00e9publique du Cameroun"
-    ],
-    "area": 475442,
-    "borders": [
-        "CAF",
-        "TCD",
-        "COG",
-        "GNQ",
-        "GAB",
-        "NGA"
-    ],
     "brk_a3": "CMR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Cameroon",
-    "callingCode": [
-        "237"
-    ],
-    "capital": "Yaound\u00e9",
     "cca2": "CM",
     "cca3": "CMR",
     "ccn3": "120",
-    "cioc": "CMR",
-    "continent": "Africa",
-    "currency": [
-        "XAF"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Cameroonian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "CM",
@@ -46,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "77240.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Middle Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Cameroon",
     "gu_a3": "CMR",
@@ -56,16 +45,7 @@
     "iso_a3_eh": "CMR",
     "iso_n3": "120",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English",
-        "fra": "French"
-    },
     "lastcensus": "2005.00",
-    "latlng": [
-        6,
-        12
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "3.00",
@@ -77,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Cameroon",
-        "official": "Republic of Cameroon",
-        "native": {
-            "eng": {
-                "official": "Republic of Cameroon",
-                "common": "Cameroon"
-            },
-            "fra": {
-                "official": "R\u00e9publique du Cameroun",
-                "common": "Cameroun"
-            }
-        }
+        "official": "Republic of Cameroon"
     },
     "name_alt": "",
     "name_ciawf": "Cameroon",
@@ -97,82 +67,21 @@
     "name_sort": "Cameroon",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "24994885.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "CM",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "CMR",
     "sovereignt": "Cameroon",
     "su_a3": "CMR",
     "su_dif": "0.00",
-    "subregion": "Middle Africa",
     "subunit": "Cameroon",
     "tiny": "-99.00",
-    "tld": [
-        ".cm"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Camer\u0175n",
-            "common": "Camer\u0175n"
-        },
-        "deu": {
-            "official": "Republik Kamerun",
-            "common": "Kamerun"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Cameroun",
-            "common": "Cameroun"
-        },
-        "hrv": {
-            "official": "Republika Kamerun",
-            "common": "Kamerun"
-        },
-        "ita": {
-            "official": "Repubblica del Camerun",
-            "common": "Camerun"
-        },
-        "jpn": {
-            "official": "\u30ab\u30e1\u30eb\u30fc\u30f3\u5171\u548c\u56fd",
-            "common": "\u30ab\u30e1\u30eb\u30fc\u30f3"
-        },
-        "nld": {
-            "official": "Republiek Kameroen",
-            "common": "Kameroen"
-        },
-        "por": {
-            "official": "Rep\u00fablica dos Camar\u00f5es",
-            "common": "Camar\u00f5es"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u043c\u0435\u0440\u0443\u043d",
-            "common": "\u041a\u0430\u043c\u0435\u0440\u0443\u043d"
-        },
-        "slk": {
-            "official": "Kamerunsk\u00e1 republika",
-            "common": "Kamerun"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Camer\u00fan",
-            "common": "Camer\u00fan"
-        },
-        "fin": {
-            "official": "Kamerunin tasavalta",
-            "common": "Kamerun"
-        },
-        "est": {
-            "official": "Kameruni Vabariik",
-            "common": "Kamerun"
-        },
-        "zho": {
-            "official": "\u5580\u9ea6\u9686\u5171\u548c\u56fd",
-            "common": "\u5580\u9ea6\u9686"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "120",
     "wb_a2": "CM",

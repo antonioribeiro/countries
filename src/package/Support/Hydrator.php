@@ -5,7 +5,7 @@ namespace PragmaRX\Countries\Package\Support;
 use Illuminate\Support\Str;
 use PragmaRX\Coollection\Package\Coollection;
 
-class Hydrator
+class Hydrator extends Base
 {
     /**
      * All hydrators.
@@ -18,14 +18,14 @@ class Hydrator
         'collection',
         'countries',
         'country',
-        'currency',
+        'currencies',
         'flag',
         'geometry',
-        'states',
-        'timezone',
-        'timezone',
-        'topology',
         'natural_earth_data',
+        'states',
+        'taxes',
+        'timezones',
+        'topology',
     ];
 
     /**
@@ -68,8 +68,12 @@ class Hydrator
      * @param $elements
      * @return mixed
      */
-    private function hydrateCountries($countries, $elements)
+    private function hydrateCountries($countries, $elements = null)
     {
+        if (is_null($elements)) {
+            $elements = ['countries'];
+        }
+
         return $this->repository->collection(
             $countries->map(function ($country) use ($elements) {
                 return $this->hydrateCountry($country, $elements);
@@ -86,8 +90,6 @@ class Hydrator
      */
     private function hydrateCountry($country, $elements)
     {
-        $country = $this->toArray($country);
-
         $countryCode = $country['cca3'];
 
         $this->addCountry($countryCode, $country);
@@ -111,12 +113,12 @@ class Hydrator
     }
 
     /**
-     * Check it's a currency array or code.
+     * Check it's a currencies array or code.
      *
      * @param $data
      * @return bool
      */
-    private function isCurrencyArray($data)
+    private function isCurrenciesArray($data)
     {
         return is_array($data) && isset($data['ISO4217Code']);
     }
@@ -129,10 +131,8 @@ class Hydrator
      */
     private function loadCities($country)
     {
-        return array_merge(
-            (array) json_decode($this->repository->loadJson($country['cca3'], 'cities/default'), true),
-            (array) json_decode($this->repository->loadJson($country['cca3'], 'cities/overload'), true)
-        );
+        return $this->repository->loadJson($country['cca3'], 'cities/default')
+                ->overwrite($this->repository->loadJson($country['cca3'], 'cities/overload'));
     }
 
     /**
@@ -143,10 +143,20 @@ class Hydrator
      */
     private function loadStates($country)
     {
-        return array_merge(
-            (array) json_decode($this->repository->loadJson($country['cca3'], 'states/default'), true),
-            (array) json_decode($this->repository->loadJson($country['cca3'], 'states/overload'), true)
-        );
+        return $this->repository->loadJson($country['cca3'], 'states/default')
+                ->overwrite($this->repository->loadJson($country['cca3'], 'states/overload'));
+    }
+
+    /**
+     * Load the taxes file and merge overloads.
+     *
+     * @param $country
+     * @return mixed
+     */
+    private function loadTaxes($country)
+    {
+        return $this->repository->loadJson($country['cca3'], 'taxes/default')
+                                ->overwrite($this->repository->loadJson($country['cca3'], 'taxes/overload'));
     }
 
     /**
@@ -204,6 +214,19 @@ class Hydrator
     }
 
     /**
+     * Hydrate taxes.
+     *
+     * @param $country
+     * @return Coollection
+     */
+    public function hydrateTaxes($country)
+    {
+        $country['taxes'] = $this->loadTaxes($country);
+
+        return $country;
+    }
+
+    /**
      * Hydrate topoloy.
      *
      * @param $country
@@ -211,7 +234,7 @@ class Hydrator
      */
     public function hydrateTopology($country)
     {
-        $country['topology'] = $this->repository->getTopology($country);
+        $country['topology'] = $this->repository->getTopology($country['cca3']);
 
         return $country;
     }
@@ -224,7 +247,7 @@ class Hydrator
      */
     public function hydrateGeometry($country)
     {
-        $country['geometry'] = $this->repository->getGeometry($country);
+        $country['geometry'] = $this->repository->getGeometry($country['cca3']);
 
         return $country;
     }
@@ -252,7 +275,9 @@ class Hydrator
      */
     public function hydrateFlag($country)
     {
-        $country['flag'] = $this->repository->makeAllFlags($country);
+        $country = countriesCollect($country)->overwrite(
+            ['flag' => $this->repository->makeAllFlags($country)]
+        );
 
         return $country;
     }
@@ -279,41 +304,47 @@ class Hydrator
     }
 
     /**
-     * Hydrate timezone.
+     * Hydrate timezones.
      *
      * @param $country
      * @return mixed
      */
-    public function hydrateTimezone($country)
+    public function hydrateTimezones($country)
     {
-        if (is_null($timezone = $this->repository->findTimezone($country['cca2']))) {
+        if (is_null($timezones = $this->repository->findTimezones($country['cca3']))) {
             return $country;
         }
 
-        $country['timezone'] = $timezone;
+        $country->overwrite(['timezones' => $timezones]);
 
         return $country;
     }
 
     /**
-     * Hydrate currency.
+     * Hydrate currencies.
      *
      * @param $country
      * @return mixed
      */
-    public function hydrateCurrency($country)
+    public function hydrateCurrencies($country)
     {
-        $country['currency'] = countriesCollect($country['currency'])->mapWithKeys(function ($code, $key) {
-            if ($this->isCurrencyArray($code)) {
-                return [
-                    $code['ISO4217Code'] => $code,
-                ];
-            }
+        $currencies = [];
 
-            return [
-                $code => $this->repository->currenciesRepository->loadCurrency($code),
-            ];
-        });
+        if (isset($country['currencies'])) {
+            $currencies = countriesCollect($country['currencies'])->mapWithKeys(function ($code, $key) {
+                if ($this->isCurrenciesArray($code)) {
+                    return [
+                        $code['ISO4217Code'] => $code,
+                    ];
+                }
+
+                return [
+                    $code => $this->repository->loadCurrenciesForCountry($code),
+                ];
+            });
+        }
+
+        $country['currencies'] = $currencies;
 
         return $this->toArray($country);
     }

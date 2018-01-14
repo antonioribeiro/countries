@@ -8,33 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Turkmenistan",
-    "altSpellings": [
-        "TM"
-    ],
-    "area": 488100,
-    "borders": [
-        "AFG",
-        "IRN",
-        "KAZ",
-        "UZB"
-    ],
     "brk_a3": "TKM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Turkmenistan",
-    "callingCode": [
-        "993"
-    ],
-    "capital": "Ashgabat",
     "cca2": "TM",
     "cca3": "TKM",
     "ccn3": "795",
-    "cioc": "TKM",
-    "continent": "Asia",
-    "currency": [
-        "TMT"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Turkmen",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "TX",
@@ -42,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "94720.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Central Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Turkmenistan",
     "gu_a3": "TKM",
@@ -52,16 +45,7 @@
     "iso_a3_eh": "TKM",
     "iso_n3": "795",
     "labelrank": "4.00",
-    "landlocked": true,
-    "languages": {
-        "rus": "Russian",
-        "tuk": "Turkmen"
-    },
     "lastcensus": "1995.00",
-    "latlng": [
-        40,
-        60
-    ],
     "level": "2.00",
     "long_len": "12.00",
     "mapcolor13": "9.00",
@@ -73,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Turkmenistan",
-        "official": "Turkmenistan",
-        "native": {
-            "rus": {
-                "official": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u0441\u0442\u0430\u043d",
-                "common": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u044f"
-            },
-            "tuk": {
-                "official": "T\u00fcrkmenistan",
-                "common": "T\u00fcrkmenistan"
-            }
-        }
+        "official": "Turkmenistan"
     },
     "name_alt": "",
     "name_ciawf": "Turkmenistan",
@@ -93,78 +67,21 @@
     "name_sort": "Turkmenistan",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "5351277.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "TM",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "TKM",
     "sovereignt": "Turkmenistan",
     "su_a3": "TKM",
     "su_dif": "0.00",
-    "subregion": "Central Asia",
     "subunit": "Turkmenistan",
     "tiny": "-99.00",
-    "tld": [
-        ".tm"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "fra": {
-            "official": "Turkm\u00e9nistan",
-            "common": "Turkm\u00e9nistan"
-        },
-        "hrv": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "ita": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "jpn": {
-            "official": "\u30c8\u30eb\u30af\u30e1\u30cb\u30b9\u30bf\u30f3",
-            "common": "\u30c8\u30eb\u30af\u30e1\u30cb\u30b9\u30bf\u30f3"
-        },
-        "nld": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "por": {
-            "official": "Turcomenist\u00e3o",
-            "common": "Turquemenist\u00e3o"
-        },
-        "rus": {
-            "official": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u0441\u0442\u0430\u043d",
-            "common": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0438\u044f"
-        },
-        "slk": {
-            "official": "Turkm\u00e9nsko",
-            "common": "Turkm\u00e9nsko"
-        },
-        "spa": {
-            "official": "Turkmenist\u00e1n",
-            "common": "Turkmenist\u00e1n"
-        },
-        "fin": {
-            "official": "Turkmenistan",
-            "common": "Turkmenistan"
-        },
-        "est": {
-            "official": "T\u00fcrkmenistan",
-            "common": "T\u00fcrkmenistan"
-        },
-        "zho": {
-            "official": "\u571f\u5e93\u66fc\u65af\u5766",
-            "common": "\u571f\u5e93\u66fc\u65af\u5766"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "795",
     "wb_a2": "TM",

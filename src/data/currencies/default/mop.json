@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "MOP$10",
+            "MOP$20",
+            "MOP$100",
+            "MOP$500",
+            "MOP$1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "\u6beb10",
+            "\u6beb20",
+            "\u6beb50",
+            "MOP$1",
+            "MOP$2",
+            "MOP$5",
+            "MOP$10"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "MOP",
+        "number": "446"
+    },
+    "name": "Macau Pataca",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "pataca",
+            "symbol": "MOP$"
+        },
+        "minor": {
+            "majorValue": 0.1,
+            "name": "ho",
+            "symbol": "\u6beb"
+        }
+    }
+}

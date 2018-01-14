@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "20",
+            "50",
+            "100",
+            "500",
+            "1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "20",
+            "25",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BTN",
+        "number": "064"
+    },
+    "name": "Bhutanese Ngultrum",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Ngultrum",
+            "symbol": "Nu."
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Chhertum",
+            "symbol": "Ch."
+        }
+    }
+}

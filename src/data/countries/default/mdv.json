@@ -8,31 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Maldives",
-    "altSpellings": [
-        "MV",
-        "Maldive Islands",
-        "Republic of the Maldives",
-        "Dhivehi Raajjeyge Jumhooriyya"
-    ],
-    "area": 300,
-    "borders": [],
     "brk_a3": "MDV",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Maldives",
-    "callingCode": [
-        "960"
-    ],
-    "capital": "Mal\u00e9",
     "cca2": "MV",
     "cca3": "MDV",
     "ccn3": "462",
-    "cioc": "MDV",
-    "continent": "Seven seas (open ocean)",
-    "currency": [
-        "MVR"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Maldivan",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "MV",
@@ -40,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "5407.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Seven seas (open ocean)",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "South Asia",
+        "subregion": "Southern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Maldives",
     "gu_a3": "MDV",
@@ -50,15 +45,7 @@
     "iso_a3_eh": "MDV",
     "iso_n3": "462",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "div": "Maldivian"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        3.25,
-        73
-    ],
     "level": "2.00",
     "long_len": "8.00",
     "mapcolor13": "7.00",
@@ -70,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Maldives",
-        "official": "Republic of the Maldives",
-        "native": {
-            "div": {
-                "official": "\u078b\u07a8\u0788\u07ac\u0780\u07a8\u0783\u07a7\u0787\u07b0\u0796\u07ad\u078e\u07ac \u0796\u07aa\u0789\u07b0\u0780\u07ab\u0783\u07a8\u0787\u07b0\u0794\u07a7",
-                "common": "\u078b\u07a8\u0788\u07ac\u0780\u07a8\u0783\u07a7\u0787\u07b0\u0796\u07ad\u078e\u07ac"
-            }
-        }
+        "official": "Republic of Maldives"
     },
     "name_alt": "",
     "name_ciawf": "Maldives",
@@ -86,78 +67,21 @@
     "name_sort": "Maldives",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "392709.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
     "postal": "MV",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "South Asia",
+    "record_type": "country",
     "scalerank": "5",
     "sov_a3": "MDV",
     "sovereignt": "Maldives",
     "su_a3": "MDV",
     "su_dif": "0.00",
-    "subregion": "Southern Asia",
     "subunit": "Maldives",
     "tiny": "2.00",
-    "tld": [
-        ".mv"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Malediven",
-            "common": "Malediven"
-        },
-        "fra": {
-            "official": "R\u00e9publique des Maldives",
-            "common": "Maldives"
-        },
-        "hrv": {
-            "official": "Republika Maldivi",
-            "common": "Maldivi"
-        },
-        "ita": {
-            "official": "Repubblica delle Maldive",
-            "common": "Maldive"
-        },
-        "jpn": {
-            "official": "\u30e2\u30eb\u30c7\u30a3\u30d6\u5171\u548c\u56fd",
-            "common": "\u30e2\u30eb\u30c7\u30a3\u30d6"
-        },
-        "nld": {
-            "official": "Republiek van de Malediven",
-            "common": "Maldiven"
-        },
-        "por": {
-            "official": "Rep\u00fablica das Maldivas",
-            "common": "Maldivas"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de las Maldivas",
-            "common": "Maldivas"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b",
-            "common": "\u041c\u0430\u043b\u044c\u0434\u0438\u0432\u044b"
-        },
-        "slk": {
-            "official": "Maldivsk\u00e1 republika",
-            "common": "Maldivy"
-        },
-        "fin": {
-            "official": "Malediivien tasavalta",
-            "common": "Malediivit"
-        },
-        "est": {
-            "official": "Maldiivi Vabariik",
-            "common": "Maldiivid"
-        },
-        "zho": {
-            "official": "\u9a6c\u5c14\u4ee3\u592b\u5171\u548c\u56fd",
-            "common": "\u9a6c\u5c14\u4ee3\u592b"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "462",
     "wb_a2": "MV",

@@ -8,36 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Argentina",
-    "altSpellings": [
-        "AR",
-        "Argentine Republic",
-        "Rep\u00fablica Argentina"
-    ],
-    "area": 2780400,
-    "borders": [
-        "BOL",
-        "BRA",
-        "CHL",
-        "PRY",
-        "URY"
-    ],
     "brk_a3": "ARG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Argentina",
-    "callingCode": [
-        "54"
-    ],
-    "capital": "Buenos Aires",
     "cca2": "AR",
     "cca3": "ARG",
     "ccn3": "032",
-    "cioc": "ARG",
-    "continent": "South America",
-    "currency": [
-        "ARS"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Argentine",
     "economy": "5. Emerging region: G20",
     "featurecla": "Admin-0 country",
     "fips_10_": "AR",
@@ -45,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "879400.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "South America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "South America"
+    },
     "geou_dif": "0.00",
     "geounit": "Argentina",
     "gu_a3": "ARG",
@@ -55,16 +45,7 @@
     "iso_a3_eh": "ARG",
     "iso_n3": "032",
     "labelrank": "2.00",
-    "landlocked": false,
-    "languages": {
-        "grn": "Guaran\u00ed",
-        "spa": "Spanish"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        -34,
-        -64
-    ],
     "level": "2.00",
     "long_len": "9.00",
     "mapcolor13": "13.00",
@@ -76,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Argentina",
-        "official": "Argentine Republic",
-        "native": {
-            "grn": {
-                "official": "Argentine Republic",
-                "common": "Argentina"
-            },
-            "spa": {
-                "official": "Rep\u00fablica Argentina",
-                "common": "Argentina"
-            }
-        }
+        "official": "Argentine Republic"
     },
     "name_alt": "",
     "name_ciawf": "Argentina",
@@ -96,82 +67,21 @@
     "name_sort": "Argentina",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "44293293.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "AR",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "ARG",
     "sovereignt": "Argentina",
     "su_a3": "ARG",
     "su_dif": "0.00",
-    "subregion": "South America",
     "subunit": "Argentina",
     "tiny": "-99.00",
-    "tld": [
-        ".ar"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth yr Ariannin",
-            "common": "Ariannin"
-        },
-        "deu": {
-            "official": "Argentinische Republik",
-            "common": "Argentinien"
-        },
-        "fra": {
-            "official": "R\u00e9publique argentine",
-            "common": "Argentine"
-        },
-        "hrv": {
-            "official": "Argentinski Republika",
-            "common": "Argentina"
-        },
-        "ita": {
-            "official": "Repubblica Argentina",
-            "common": "Argentina"
-        },
-        "jpn": {
-            "official": "\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3\u5171\u548c\u56fd",
-            "common": "\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3"
-        },
-        "nld": {
-            "official": "Argentijnse Republiek",
-            "common": "Argentini\u00eb"
-        },
-        "por": {
-            "official": "Rep\u00fablica Argentina",
-            "common": "Argentina"
-        },
-        "rus": {
-            "official": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
-            "common": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430"
-        },
-        "slk": {
-            "official": "Argent\u00ednska republika",
-            "common": "Argent\u00edna"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Argentina",
-            "common": "Argentina"
-        },
-        "fin": {
-            "official": "Argentiinan tasavalta",
-            "common": "Argentiina"
-        },
-        "est": {
-            "official": "Argentina Vabariik",
-            "common": "Argentina"
-        },
-        "zho": {
-            "official": "\u963f\u6839\u5ef7\u5171\u548c\u56fd",
-            "common": "\u963f\u6839\u5ef7"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "032",
     "wb_a2": "AR",

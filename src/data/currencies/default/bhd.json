@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1.\u062f.\u0628",
+            "5.\u062f.\u0628",
+            "10.\u062f.\u0628",
+            "50.\u062f.\u0628",
+            "100.\u062f.\u0628",
+            "500.\u062f.\u0628"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "25",
+            "50",
+            "100",
+            "500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BHD",
+        "number": "048"
+    },
+    "name": "Bahraini Dinar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dinar",
+            "symbol": ".\u062f.\u0628 or BD"
+        },
+        "minor": {
+            "majorValue": 0.001,
+            "name": "fils",
+            "symbol": ""
+        }
+    }
+}

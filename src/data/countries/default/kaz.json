@@ -8,42 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Kazakhstan",
-    "altSpellings": [
-        "KZ",
-        "Qazaqstan",
-        "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
-        "Republic of Kazakhstan",
-        "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
-        "Qazaqstan Respubl\u00efkas\u0131",
-        "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
-        "Respublika Kazakhstan"
-    ],
-    "area": 2724900,
-    "borders": [
-        "CHN",
-        "KGZ",
-        "RUS",
-        "TKM",
-        "UZB"
-    ],
     "brk_a3": "KAZ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Kazakhstan",
-    "callingCode": [
-        "76",
-        "77"
-    ],
-    "capital": "Astana",
     "cca2": "KZ",
     "cca3": "KAZ",
     "ccn3": "398",
-    "cioc": "KAZ",
-    "continent": "Asia",
-    "currency": [
-        "KZT"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Kazakhstani",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "KZ",
@@ -51,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "460700.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Central Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Kazakhstan",
     "gu_a3": "KAZ",
@@ -61,16 +45,7 @@
     "iso_a3_eh": "KAZ",
     "iso_n3": "398",
     "labelrank": "3.00",
-    "landlocked": true,
-    "languages": {
-        "kaz": "Kazakh",
-        "rus": "Russian"
-    },
     "lastcensus": "2009.00",
-    "latlng": [
-        48,
-        68
-    ],
     "level": "2.00",
     "long_len": "10.00",
     "mapcolor13": "1.00",
@@ -82,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Kazakhstan",
-        "official": "Republic of Kazakhstan",
-        "native": {
-            "kaz": {
-                "official": "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
-                "common": "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d"
-            },
-            "rus": {
-                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
-                "common": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d"
-            }
-        }
+        "official": "Republic of Kazakhstan"
     },
     "name_alt": "",
     "name_ciawf": "Kazakhstan",
@@ -102,79 +67,21 @@
     "name_sort": "Kazakhstan",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "18556698.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "KZ",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "KAZ",
     "sovereignt": "Kazakhstan",
     "su_a3": "KAZ",
     "su_dif": "0.00",
-    "subregion": "Central Asia",
     "subunit": "Kazakhstan",
     "tiny": "-99.00",
-    "tld": [
-        ".kz",
-        ".\u049b\u0430\u0437"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Kasachstan",
-            "common": "Kasachstan"
-        },
-        "fra": {
-            "official": "R\u00e9publique du Kazakhstan",
-            "common": "Kazakhstan"
-        },
-        "hrv": {
-            "official": "Republika Kazahstan",
-            "common": "Kazahstan"
-        },
-        "ita": {
-            "official": "Repubblica del Kazakhstan",
-            "common": "Kazakistan"
-        },
-        "jpn": {
-            "official": "\u30ab\u30b6\u30d5\u30b9\u30bf\u30f3\u5171\u548c\u56fd",
-            "common": "\u30ab\u30b6\u30d5\u30b9\u30bf\u30f3"
-        },
-        "nld": {
-            "official": "Republiek Kazachstan",
-            "common": "Kazachstan"
-        },
-        "por": {
-            "official": "Rep\u00fablica do Cazaquist\u00e3o",
-            "common": "Cazaquist\u00e3o"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
-            "common": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d"
-        },
-        "slk": {
-            "official": "Kaza\u0161sk\u00e1 republika",
-            "common": "Kazachstan"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Kazajst\u00e1n",
-            "common": "Kazajist\u00e1n"
-        },
-        "fin": {
-            "official": "Kazakstanin tasavalta",
-            "common": "Kazakstan"
-        },
-        "est": {
-            "official": "Kasahstani Vabariik",
-            "common": "Kasahstan"
-        },
-        "zho": {
-            "official": "\u54c8\u8428\u514b\u65af\u5766\u5171\u548c\u56fd",
-            "common": "\u54c8\u8428\u514b\u65af\u5766"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "398",
     "wb_a2": "KZ",

@@ -8,30 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Hong Kong S.A.R.",
-    "altSpellings": [
-        "HK"
-    ],
-    "area": 1104,
-    "borders": [
-        "CHN"
-    ],
     "brk_a3": "HKG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Hong Kong",
-    "callingCode": [
-        "852"
-    ],
-    "capital": "City of Victoria",
     "cca2": "HK",
     "cca3": "HKG",
     "ccn3": "344",
-    "cioc": "HKG",
-    "continent": "Asia",
-    "currency": [
-        "HKD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Hong Konger",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "HK",
@@ -39,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "427400.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Asia",
+        "region": "Asia",
+        "region_un": "Asia",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "Eastern Asia"
+    },
     "geou_dif": "0.00",
     "geounit": "Hong Kong S.A.R.",
     "gu_a3": "HKG",
@@ -49,16 +45,7 @@
     "iso_a3_eh": "HKG",
     "iso_n3": "344",
     "labelrank": "4.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English",
-        "zho": "Chinese"
-    },
     "lastcensus": "2006.00",
-    "latlng": [
-        22.267,
-        114.188
-    ],
     "level": "2.00",
     "long_len": "9.00",
     "mapcolor13": "3.00",
@@ -70,17 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Hong Kong",
-        "official": "Hong Kong Special Administrative Region of the People's Republic of China",
-        "native": {
-            "eng": {
-                "official": "Hong Kong Special Administrative Region of the People's Republic of China",
-                "common": "Hong Kong"
-            },
-            "zho": {
-                "official": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a",
-                "common": "\u9999\u6e2f"
-            }
-        }
+        "official": "Hong Kong Special Administrative Region, PRC"
     },
     "name_alt": "",
     "name_ciawf": "Hong Kong",
@@ -90,75 +67,21 @@
     "name_sort": "Hong Kong SAR, China",
     "note_adm0": "China",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "7191503.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "HK",
-    "region": "Asia",
-    "region_un": "Asia",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "CH1",
     "sovereignt": "China",
     "su_a3": "HKG",
     "su_dif": "0.00",
-    "subregion": "Eastern Asia",
     "subunit": "Hong Kong S.A.R.",
     "tiny": "-99.00",
-    "tld": [
-        ".hk",
-        ".\u9999\u6e2f"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Sonderverwaltungszone der Volksrepublik China",
-            "common": "Hongkong"
-        },
-        "fra": {
-            "official": "R\u00e9gion administrative sp\u00e9ciale de Hong Kong de la R\u00e9publique populaire de Chine",
-            "common": "Hong Kong"
-        },
-        "hrv": {
-            "official": "Hong Kong Posebnog upravnog podru\u010djaNarodne Republike Kine",
-            "common": "Hong Kong"
-        },
-        "ita": {
-            "official": "Hong Kong Regione amministrativa speciale della Repubblica Popolare Cinese",
-            "common": "Hong Kong"
-        },
-        "jpn": {
-            "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u9999\u6e2f\u7279\u5225\u884c\u653f\u533a",
-            "common": "\u9999\u6e2f"
-        },
-        "nld": {
-            "official": "Hong Kong Speciale Administratieve Regio van de Volksrepubliek China",
-            "common": "Hongkong"
-        },
-        "por": {
-            "official": "Hong Kong Regi\u00e3o Administrativa Especial da Rep\u00fablica Popular da China",
-            "common": "Hong Kong"
-        },
-        "rus": {
-            "official": "Hong Kong \u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d \u041a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0439 \u041d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u0438\u0442\u0430\u044f",
-            "common": "\u0413\u043e\u043d\u043a\u043e\u043d\u0433"
-        },
-        "slk": {
-            "official": "\u0160peci\u00e1lna administrat\u00edvna oblas\u0165\u010c\u00ednskej \u013eudovej republiky Hongkong",
-            "common": "Hongkong"
-        },
-        "spa": {
-            "official": "Hong Kong Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China",
-            "common": "Hong Kong"
-        },
-        "fin": {
-            "official": "Hong Kongin erityishallintoalue",
-            "common": "Hongkong"
-        },
-        "est": {
-            "official": "Hongkongi erihalduspiirkond",
-            "common": "Hongkong"
-        }
-    },
     "type": "Country",
     "un_a3": "344",
     "wb_a2": "HK",

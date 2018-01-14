@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "KM10",
+            "KM20",
+            "KM50",
+            "KM100",
+            "KM200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50",
+            "KM1",
+            "KM2",
+            "KM5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BAM",
+        "number": "977"
+    },
+    "name": "Bosnian Convertible Marka",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "convertible marks",
+            "symbol": "KM"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "fening",
+            "symbol": ""
+        }
+    }
+}

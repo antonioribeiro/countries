@@ -8,28 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Cayman Islands",
-    "altSpellings": [
-        "KY"
-    ],
-    "area": 264,
-    "borders": [],
     "brk_a3": "CYM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Cayman Is.",
-    "callingCode": [
-        "1345"
-    ],
-    "capital": "George Town",
     "cca2": "KY",
     "cca3": "CYM",
     "ccn3": "136",
-    "cioc": "CAY",
-    "continent": "North America",
-    "currency": [
-        "KYD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Caymanian",
     "economy": "5. Emerging region: G20",
     "featurecla": "Admin-0 country",
     "fips_10_": "CJ",
@@ -37,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "2507.00",
     "gdp_year": "2014.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Cayman Islands",
     "gu_a3": "CYM",
@@ -47,15 +45,7 @@
     "iso_a3_eh": "CYM",
     "iso_n3": "136",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        19.5,
-        -80.5
-    ],
     "level": "2.00",
     "long_len": "14.00",
     "mapcolor13": "3.00",
@@ -66,14 +56,8 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Cayman Islands",
-        "official": "Cayman Islands",
-        "native": {
-            "eng": {
-                "official": "Cayman Islands",
-                "common": "Cayman Islands"
-            }
-        }
+        "common": "Cayman Is.",
+        "official": "Cayman Islands"
     },
     "name_alt": "",
     "name_ciawf": "Cayman Islands",
@@ -83,82 +67,21 @@
     "name_sort": "Cayman Islands",
     "note_adm0": "U.K.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "58441.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
     "postal": "KY",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "3",
     "sov_a3": "GB1",
     "sovereignt": "United Kingdom",
     "su_a3": "CYM",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Cayman Islands",
     "tiny": "2.00",
-    "tld": [
-        ".ky"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Ynysoedd Cayman",
-            "common": "Ynysoedd Cayman"
-        },
-        "deu": {
-            "official": "Cayman-Inseln",
-            "common": "Kaimaninseln"
-        },
-        "fra": {
-            "official": "\u00celes Ca\u00efmans",
-            "common": "\u00celes Ca\u00efmans"
-        },
-        "hrv": {
-            "official": "Kajmanski otoci",
-            "common": "Kajmanski otoci"
-        },
-        "ita": {
-            "official": "Isole Cayman",
-            "common": "Isole Cayman"
-        },
-        "jpn": {
-            "official": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
-            "common": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6"
-        },
-        "nld": {
-            "official": "Caymaneilanden",
-            "common": "Caymaneilanden"
-        },
-        "por": {
-            "official": "Ilhas Cayman",
-            "common": "Ilhas Caim\u00e3o"
-        },
-        "rus": {
-            "official": "\u041a\u0430\u0439\u043c\u0430\u043d\u043e\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
-            "common": "\u041a\u0430\u0439\u043c\u0430\u043d\u043e\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
-        },
-        "slk": {
-            "official": "Kajmanie ostrovy",
-            "common": "Kajmanie ostrovy"
-        },
-        "spa": {
-            "official": "Islas Caim\u00e1n",
-            "common": "Islas Caim\u00e1n"
-        },
-        "fin": {
-            "official": "Caymansaaret",
-            "common": "Caymansaaret"
-        },
-        "est": {
-            "official": "Kaimanisaared",
-            "common": "Kaimanisaared"
-        },
-        "zho": {
-            "official": "\u5f00\u66fc\u7fa4\u5c9b",
-            "common": "\u5f00\u66fc\u7fa4\u5c9b"
-        }
-    },
     "type": "Dependency",
     "un_a3": "136",
     "wb_a2": "KY",

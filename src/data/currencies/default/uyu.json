@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$U20",
+            "$U50",
+            "$U100",
+            "$U200",
+            "$U500",
+            "$U1000",
+            "$U2000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "$U1",
+            "$U2",
+            "$U5",
+            "$U10",
+            "$U50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "UYU",
+        "number": "858"
+    },
+    "name": "Uruguayan peso",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "peso",
+            "symbol": "$U"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent\u00e9simo",
+            "symbol": "\u00a2"
+        }
+    }
+}

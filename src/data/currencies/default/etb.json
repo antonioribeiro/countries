@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "Br1",
+            "Br5",
+            "Br10",
+            "Br50",
+            "Br100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "5",
+            "10",
+            "25",
+            "50",
+            "Br1"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ETB",
+        "number": "230"
+    },
+    "name": "Ethiopian Birr",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Birr",
+            "symbol": "Br"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "santim",
+            "symbol": ""
+        }
+    }
+}

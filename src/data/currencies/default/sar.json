@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1\u0631.\u0633",
+            "5\u0631.\u0633",
+            "10\u0631.\u0633",
+            "20\u0631.\u0633",
+            "50\u0631.\u0633",
+            "100\u0631.\u0633",
+            "500\u0631.\u0633"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "25",
+            "50",
+            "100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "SAR",
+        "number": "682"
+    },
+    "name": "Saudi Arabian Riyal",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "riyal",
+            "symbol": "\u0631.\u0633"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Halala",
+            "symbol": ""
+        }
+    }
+}

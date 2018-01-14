@@ -1,0 +1,40 @@
+{
+    "banknotes": {
+        "frequent": [
+            "RS10",
+            "Rs50",
+            "Rs100",
+            "Rs500",
+            "Rs1000"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "Rs1",
+            "Rs2",
+            "Rs5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "PKR",
+        "number": "586"
+    },
+    "name": "Pakistani Rupee",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Rupee",
+            "symbol": "Rs"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Paisa",
+            "symbol": ""
+        }
+    }
+}

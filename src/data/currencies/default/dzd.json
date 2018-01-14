@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "200",
+            "500",
+            "1000"
+        ],
+        "rare": [
+            "100",
+            "2000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50"
+        ],
+        "rare": [
+            "1",
+            "2",
+            "100"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "DZD",
+        "number": "012"
+    },
+    "name": "Algerian Dinar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dinar",
+            "symbol": "\u062c\u062f"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Santeem",
+            "symbol": ""
+        }
+    }
+}

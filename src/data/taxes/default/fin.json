@@ -1,0 +1,78 @@
+{
+    "vat": {
+        "cca2": "FI",
+        "cca3": "FIN",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Finnish VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.22,
+                        "end_date": "2010-06-30",
+                        "id": "fi_vat_standard_1995",
+                        "start_date": "1995-01-01"
+                    },
+                    {
+                        "amount": 0.23,
+                        "end_date": "2012-12-31",
+                        "id": "fi_vat_standard_2010",
+                        "start_date": "2010-07-01"
+                    },
+                    {
+                        "amount": 0.24,
+                        "id": "fi_vat_standard_2013",
+                        "start_date": "2013-01-01"
+                    }
+                ],
+                "default": true,
+                "id": "fi_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.13,
+                        "end_date": "2012-12-31",
+                        "id": "fi_vat_intermediate_2010",
+                        "start_date": "2010-07-01"
+                    },
+                    {
+                        "amount": 0.14,
+                        "id": "fi_vat_intermediate_2013",
+                        "start_date": "2013-01-01"
+                    }
+                ],
+                "id": "fi_vat_intermediate",
+                "name": "Intermediate"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.09,
+                        "end_date": "2012-12-31",
+                        "id": "fi_vat_reduced_2010",
+                        "start_date": "2010-07-01"
+                    },
+                    {
+                        "amount": 0.1,
+                        "id": "fi_vat_reduced_2013",
+                        "start_date": "2013-01-01"
+                    }
+                ],
+                "id": "fi_vat_reduced",
+                "name": "Reduced"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "fi_vat",
+        "zone": "fi_vat"
+    }
+}

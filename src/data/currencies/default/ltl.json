@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "LT10",
+            "Lt20",
+            "Lt50",
+            "Lt100",
+            "Lt200",
+            "Lt500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "ct1",
+            "ct2",
+            "ct5",
+            "ct10",
+            "ct20",
+            "ct50",
+            "Lt1",
+            "Lt2",
+            "Lt5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "LTL",
+        "number": "440"
+    },
+    "name": "Lithuanian litas",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "litas",
+            "symbol": "Lt"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centas",
+            "symbol": "ct"
+        }
+    }
+}

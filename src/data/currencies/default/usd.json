@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$1",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": [
+            "2$"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1\u00a2",
+            "5\u00a2",
+            "10\u00a2",
+            "25\u00a2"
+        ],
+        "rare": [
+            "$1",
+            "50\u00a2"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "USD",
+        "number": "840"
+    },
+    "name": "US Dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": "\u00a2"
+        }
+    }
+}

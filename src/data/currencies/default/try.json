@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50"
+        ],
+        "rare": [
+            "100",
+            "200"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "5Kr",
+            "10Kr",
+            "25Kr",
+            "50Kr",
+            "1"
+        ],
+        "rare": [
+            "1Kr"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TRY",
+        "number": "949"
+    },
+    "name": "Turkish Lira",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "lira",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "kuru\u015f",
+            "symbol": "Kr"
+        }
+    }
+}

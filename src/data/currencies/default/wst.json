@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$2",
+            "$5",
+            "$10",
+            "$20",
+            "$50",
+            "$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "10",
+            "20",
+            "50",
+            "$1",
+            "$2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "WST",
+        "number": "882"
+    },
+    "name": "Samoan T\u0101l\u0101",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "t\u0101l\u0101",
+            "symbol": "$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "sene",
+            "symbol": ""
+        }
+    }
+}

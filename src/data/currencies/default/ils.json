@@ -1,0 +1,41 @@
+{
+    "banknotes": {
+        "frequent": [
+            "20\u20aa",
+            "50\u20aa",
+            "100\u20aa",
+            "200\u20aa"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "10",
+            "0.5\u20aa",
+            "2\u20aa",
+            "5\u20aa",
+            "10\u20aa"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "ILS",
+        "number": "376"
+    },
+    "name": "Israeli Shekel",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Shekel",
+            "symbol": "\u20aa"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Agorat",
+            "symbol": ""
+        }
+    }
+}

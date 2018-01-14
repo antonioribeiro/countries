@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "1000\u0644.\u0644",
+            "5000\u0644.\u0644",
+            "10000\u0644.\u0644",
+            "20000\u0644.\u0644",
+            "50000\u0644.\u0644",
+            "100000\u0644.\u0644"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "250\u0644.\u0644",
+            "500\u0644.\u0644"
+        ],
+        "rare": [
+            "500\u0644.\u0644",
+            "100\u0644.\u0644"
+        ]
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "LBP",
+        "number": "422"
+    },
+    "name": "Lebanese Pound",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "pound",
+            "symbol": "\u0644.\u0644"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "piastre",
+            "symbol": ""
+        }
+    }
+}

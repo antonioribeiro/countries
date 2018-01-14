@@ -1,0 +1,31 @@
+{
+    "vat": {
+        "cca2": "EU",
+        "cca3": "EUR",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Intra-Community Supply",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0,
+                        "id": "eu_ic_vat"
+                    }
+                ],
+                "default": true,
+                "id": "eu_ic_vat",
+                "name": "Intra-Community Supply"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "ic",
+        "tax_type": "vat",
+        "vat_id": "eu_ic_vat",
+        "zone": "eu_vat"
+    }
+}

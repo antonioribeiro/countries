@@ -1,0 +1,48 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20b41",
+            "\u20b42",
+            "\u20b45",
+            "\u20b410",
+            "\u20b420",
+            "\u20b450",
+            "\u20b4100",
+            "\u20b4200",
+            "\u20b4500"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "2",
+            "5",
+            "10",
+            "25",
+            "50",
+            "\u20b41"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "UAH",
+        "number": "980"
+    },
+    "name": "Ukrainian Hryvnia",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Hryvnia",
+            "symbol": "\u20b4"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Kopiyka",
+            "symbol": ""
+        }
+    }
+}

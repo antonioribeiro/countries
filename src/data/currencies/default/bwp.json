@@ -1,0 +1,44 @@
+{
+    "banknotes": {
+        "frequent": [
+            "P10",
+            "P20",
+            "P50",
+            "P100",
+            "P200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "P1",
+            "P2",
+            "P5",
+            "5t",
+            "10t",
+            "25t",
+            "50t"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BWP",
+        "number": "072"
+    },
+    "name": "Botswana Pula",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "Pula",
+            "symbol": "P"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "Thebe",
+            "symbol": "t"
+        }
+    }
+}

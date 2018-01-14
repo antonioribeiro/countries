@@ -8,32 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Dominican Republic",
-    "altSpellings": [
-        "DO"
-    ],
-    "area": 48671,
-    "borders": [
-        "HTI"
-    ],
     "brk_a3": "DOM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Dominican Rep.",
-    "callingCode": [
-        "1809",
-        "1829",
-        "1849"
-    ],
-    "capital": "Santo Domingo",
     "cca2": "DO",
     "cca3": "DOM",
     "ccn3": "214",
-    "cioc": "DOM",
-    "continent": "North America",
-    "currency": [
-        "DOP"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Dominican",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "DR",
@@ -41,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "161900.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "North America",
+        "region": "Americas",
+        "region_un": "Americas",
+        "region_wb": "Latin America & Caribbean",
+        "subregion": "Caribbean"
+    },
     "geou_dif": "0.00",
     "geounit": "Dominican Republic",
     "gu_a3": "DOM",
@@ -51,15 +45,7 @@
     "iso_a3_eh": "DOM",
     "iso_n3": "214",
     "labelrank": "5.00",
-    "landlocked": false,
-    "languages": {
-        "spa": "Spanish"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        19,
-        -70.66666666
-    ],
     "level": "2.00",
     "long_len": "18.00",
     "mapcolor13": "7.00",
@@ -70,14 +56,8 @@
     "min_label": "4.50",
     "min_zoom": "0.00",
     "name": {
-        "common": "Dominican Republic",
-        "official": "Dominican Republic",
-        "native": {
-            "spa": {
-                "official": "Rep\u00fablica Dominicana",
-                "common": "Rep\u00fablica Dominicana"
-            }
-        }
+        "common": "Dominican Rep.",
+        "official": "Dominican Republic"
     },
     "name_alt": "",
     "name_ciawf": "Dominican Republic",
@@ -87,82 +67,21 @@
     "name_sort": "Dominican Republic",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "10734247.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "DO",
-    "region": "Americas",
-    "region_un": "Americas",
-    "region_wb": "Latin America & Caribbean",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "DOM",
     "sovereignt": "Dominican Republic",
     "su_a3": "DOM",
     "su_dif": "0.00",
-    "subregion": "Caribbean",
     "subunit": "Dominican Republic",
     "tiny": "-99.00",
-    "tld": [
-        ".do"
-    ],
-    "translations": {
-        "cym": {
-            "official": "Gweriniaeth Dominica",
-            "common": "Gweriniaeth Dominica"
-        },
-        "deu": {
-            "official": "Dominikanische Republik",
-            "common": "Dominikanische Republik"
-        },
-        "fra": {
-            "official": "R\u00e9publique Dominicaine",
-            "common": "R\u00e9publique dominicaine"
-        },
-        "hrv": {
-            "official": "Dominikanska Republika",
-            "common": "Dominikanska Republika"
-        },
-        "ita": {
-            "official": "Repubblica Dominicana",
-            "common": "Repubblica Dominicana"
-        },
-        "jpn": {
-            "official": "\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd",
-            "common": "\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd"
-        },
-        "nld": {
-            "official": "Dominicaanse Republiek",
-            "common": "Dominicaanse Republiek"
-        },
-        "por": {
-            "official": "Rep\u00fablica Dominicana",
-            "common": "Rep\u00fablica Dominicana"
-        },
-        "rus": {
-            "official": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
-            "common": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
-        },
-        "slk": {
-            "official": "Dominik\u00e1nska republika",
-            "common": "Dominik\u00e1nska republika"
-        },
-        "spa": {
-            "official": "Rep\u00fablica Dominicana",
-            "common": "Rep\u00fablica Dominicana"
-        },
-        "fin": {
-            "official": "Dominikaaninen tasavalta",
-            "common": "Dominikaaninen tasavalta"
-        },
-        "est": {
-            "official": "Dominikaani Vabariik",
-            "common": "Dominikaani Vabariik"
-        },
-        "zho": {
-            "official": "\u591a\u660e\u5c3c\u52a0\u5171\u548c\u56fd",
-            "common": "\u591a\u660e\u5c3c\u52a0"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "214",
     "wb_a2": "DO",

@@ -58,16 +58,23 @@ class CountriesTest extends TestCase
 
     public function testStatesAreHydrated()
     {
-        $this->assertEquals(Countries::where('name.common', 'Brazil')->first()->states->count(), 27);
+        $this->assertEquals(27, Countries::where('name.common', 'Brazil')->first()->hydrate('states')->states->count());
 
-        $this->assertEquals(Countries::where('cca3', 'USA')->first()->states->count(), 51);
+        $this->assertEquals(51, Countries::where('cca3', 'USA')->first()->hydrate('states')->states->count());
+
+        $this->assertEquals(
+            'Northeast',
+            Countries::where('cca3', 'USA')->first()->hydrate('states')->states->NY->extra->region
+        );
     }
 
     public function testCanGetAState()
     {
         $this->assertEquals(
-            'Santa Cruz',
-            Countries::where('name.common', 'Argentina')->first()->states->first()->name
+            'Agrigento',
+            Countries::where('name.common', 'Italy')->first()->hydrate('states')->states->sortBy(function($state) {
+                return $state['name'];
+            })->first()->name
         );
     }
 
@@ -77,22 +84,30 @@ class CountriesTest extends TestCase
 
         $hydrated = Countries::where('tld.0', '.nz')->hydrate($elements);
 
-        $this->assertNotNull($hydrated->first()->geometry);
-        $this->assertNotNull($hydrated->first()->states);
         $this->assertNotNull($hydrated->first()->borders);
+        $this->assertNotNull($hydrated->first()->cities);
+        $this->assertNotNull($hydrated->first()->currencies);
         $this->assertNotNull($hydrated->first()->flag->sprite);
+        $this->assertNotNull($hydrated->first()->geometry);
+        $this->assertNotNull($hydrated->first()->hydrateStates()->states);
+        $this->assertNotNull($hydrated->first()->taxes);
+        $this->assertNotNull($hydrated->first()->timezones);
+        $this->assertNotNull($hydrated->first()->topology);
     }
 
     public function testWhereLanguage()
     {
-        $shortName = Countries::whereLanguage('Portuguese')->count();
+        $shortName = Countries::whereLanguage('Papiamento')->count();
+
         $this->assertGreaterThan(0, $shortName);
-        $this->assertEquals($shortName, Countries::where('languages.por', 'Portuguese')->count());
+
+        $this->assertEquals($shortName, Countries::where('languages.pap', 'Papiamento')->count());
     }
 
     public function testWhereCurrency()
     {
         $shortName = Countries::where('ISO4217', 'EUR')->count();
+
         $this->assertGreaterThan(0, $shortName);
     }
 
@@ -121,47 +136,32 @@ class CountriesTest extends TestCase
 
     public function testCurrencies()
     {
-        $this->assertEquals(Countries::currencies()->count(), 289);
+        $this->assertEquals(Countries::currencies()->count(), 153);
     }
 
-    public function testTimezone()
+    public function testTimezones()
     {
         $this->assertEquals(
-            Countries::where('cca3', 'FRA')->first()->hydrate('timezone')->timezone,
+            Countries::where('cca3', 'FRA')->first()->hydrate('timezones')->timezones->first()->zone_name,
             'Europe/Paris'
         );
 
         $this->assertEquals(
-            Countries::where('name.common', 'United States')->first()->timezone->NC,
-            'America/New_York'
+            Countries::where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
+            'America/Adak'
         );
     }
 
     public function testHydratorMethods()
     {
         $this->assertEquals(
-            Countries::where('cca3', 'FRA')->first()->hydrate('timezone')->timezone,
+            Countries::where('cca3', 'FRA')->first()->hydrate('timezones')->timezones->europe_paris->zone_name,
             'Europe/Paris'
         );
 
         $this->assertEquals(
-            Countries::where('cca3', 'JPN')->first()->hydrateTimezone()->timezone,
+            Countries::where('cca3', 'JPN')->first()->hydrateTimezones()->timezones->asia_tokyo->zone_name,
             'Asia/Tokyo'
-        );
-
-        $this->assertInstanceOf(
-            Collection::class,
-            Countries::where('cca3', 'BRA')->first()->hydrate('timezone')
-        );
-
-        $this->assertInstanceOf(
-            Collection::class,
-            Countries::where('cca3', 'ITA')->first()->hydrate('timezone')->states
-        );
-
-        $this->assertInstanceOf(
-            Collection::class,
-            Countries::where('cca3', 'ITA')->first()->hydrateTimezone()->states
         );
     }
 
@@ -169,18 +169,18 @@ class CountriesTest extends TestCase
     {
         $c = Countries::where('cca3', 'BRA')->first()->hydrate('states');
 
-        $this->assertEquals('BRA-595', $c->states->RO->adm1_code);
+        $this->assertEquals('BR-RO', $c->states->RO->iso_3166_2);
         $this->assertEquals('BR.RO', $c->states->RO->code_hasc);
         $this->assertEquals('RO', $c->states->RO->postal);
 
         $this->assertEquals(
             'Puglia',
-            Countries::where('cca3', 'ITA')->first()->hydrate('timezone')->states['BA']['region']
+            Countries::where('cca3', 'ITA')->first()->hydrate('states')->states['BA']['region']
         );
 
         $this->assertEquals(
             'Sicilia',
-            Countries::where('cca3', 'ITA')->first()->hydrate('timezone')->states['TP']['region']
+            Countries::where('cca3', 'ITA')->first()->hydrate('states')->states['TP']['region']
         );
     }
 
@@ -188,15 +188,15 @@ class CountriesTest extends TestCase
     {
         $this->assertEquals(
             'R$',
-            Countries::where('name.common', 'Brazil')->first()->currency->pluck('sign')[0]
+            Countries::where('name.common', 'Brazil')->first()->hydrate('currencies')->currencies->BRL->units->major->symbol
         );
     }
 
     public function testTranslation()
     {
         $this->assertEquals(
-            'Brazil',
-            Countries::where('name.common', 'Brazil')->first()->translations->{app()->getLocale()}->common
+            'Repubblica federativa del Brasile',
+            Countries::where('name.common', 'Brazil')->first()->translations->ita->official
         );
     }
 
@@ -207,4 +207,163 @@ class CountriesTest extends TestCase
             'Europe/Paris'
         );
     }
+
+    public function testNumberOfCurrencies()
+    {
+        $number = Countries::all()->hydrate('currencies')->pluck('currencies')->map(function ($value) {
+            return $value->keys()->flatten()->toArray();
+        })->flatten()->filter(function($value) {
+            return $value !== 'unknown';
+        })->sort()->values()->unique()->count();
+
+        return $this->assertEquals(165, $number);
+    }
+
+    public function testNumberOfBorders()
+    {
+        $number = Countries::all()->pluck('borders')->map(function ($value) {
+            if (is_null($value)) {
+                return [];
+            }
+
+            return $value->keys()->flatten()->toArray();
+        })->count();
+
+        $this->assertEquals(266, $number);
+    }
+
+    public function testNumberOfLanguages()
+    {
+        $number = Countries::all()->pluck('languages')->map(function ($value) {
+            if (is_null($value)) {
+                return null;
+            }
+
+            return $value->keys()->flatten()->mapWithKeys(function($value, $key) {
+                return [$value => $value];
+            })->toArray();
+        })->flatten()->unique()->values()->reject(function($value) {
+            return is_null($value);
+        })->count();
+
+        return $this->assertEquals(157, $number);
+    }
+
+    public function testFindCountryByCca2()
+    {
+        $this->assertEquals(
+            'Puglia',
+            Countries::where('cca2', 'IT')->first()->hydrate('states')->states['BA']['region']
+        );
+    }
+
+    public function testStatesFromNetherlands()
+    {
+        $neds = Countries::where('name.common', 'Netherlands')
+            ->first()
+            ->hydrate('states')
+            ->states
+            ->sortBy('name')
+            ->pluck('name')
+            ->count();
+
+        $this->assertEquals(15, $neds);
+    }
+
+    public function testHydrateOneElementOnly()
+    {
+        $this->assertEquals(
+            110,
+            Countries::where('cca2', 'IT')->first()->hydrate('states')->states->count()
+        );
+    }
+
+    public function testHydrateEurope()
+    {
+        $this->assertEquals(
+            'Europe Union',
+            Countries::where('cca3', 'EUR')->first()->name->common
+        );
+    }
+
+    public function testLoadAllCurrencies()
+    {
+        $this->assertEquals(
+            '€1',
+            Countries::where('cca2', 'IT')->first()->hydrate('currencies')->currencies->EUR->coins->frequent->first()
+        );
+    }
+
+    public function testCanGetPropertyWithAnyCase()
+    {
+        $c = Countries::where('cca2', 'IT')->first()->hydrate('currencies')->currencies;
+
+        $this->assertEquals(
+            '€1',
+            $c->EUR->coins->frequent->first()
+        );
+
+        $this->assertEquals(
+            '50c',
+            $c->eur->coins->frequent->last()
+        );
+    }
+
+    public function testHydrateTaxes()
+    {
+        $this->assertEquals(
+            'it_vat',
+            Countries::where('cca2', 'IT')->first()->hydrate('taxes')->taxes->vat->zone
+        );
+    }
+
+    public function testEverySingleResultUsingExampleArray()
+    {
+        $elements = array_keys(config('countries.hydrate.elements'));
+
+        $swiss = Countries::where('name.common', 'Switzerland')->first()->hydrate($elements);
+
+        foreach ($elements as $element) {
+            $b = $swiss->{$element};
+
+            $a = file_get_contents(__DIR__."/../docs/sample-{$element}.json");
+
+            if (arrayable($b) ) {
+                $a = json_decode($a, true);
+                $b = $b->toArray();
+            } else {
+                $a = $this->stringForComparison($a);
+                $b = $this->stringForComparison($a);
+            }
+
+            $this->assertEquals($a, $b);
+        }
+    }
+
+    public function stringForComparison($string)
+    {
+        return str_replace(
+            ["\n", '\n', '\\', '/', ' '],
+            ['',   '',   '',   '',  '',  ],
+            $string
+        );
+    }
 }
+
+//There were 2 failures:
+//2) PragmaRX\Countries\Tests\Service\CountriesTest::
+//Failed asserting that two arrays are equal.
+//--- Expected
+//+++ Actual
+//@@ @@
+//Array (
+//    'CHE' => Array ()
+//     'CHF' => Array (
+//    -        'CHF' => Array (...)
+//+        'banknotes' => Array (...)
+//+        'coins' => Array (...)
+//+        'data_sources' => Array (...)
+//+        'iso' => Array (...)
+//+        'name' => 'Swiss Franc'
+//+        'record_type' => 'currency'
+//+        'units' => Array (...)

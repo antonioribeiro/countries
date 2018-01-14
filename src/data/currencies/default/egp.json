@@ -1,0 +1,50 @@
+{
+    "banknotes": {
+        "frequent": [
+            "Pt5",
+            "Pt10",
+            "Pt25",
+            "Pt50",
+            "\u00a31",
+            "\u00a35",
+            "\u00a310",
+            "\u00a320",
+            "\u00a350",
+            "\u00a3100",
+            "\u00a3200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "Pt1",
+            "Pt5",
+            "Pt10",
+            "Pt20",
+            "Pt25",
+            "Pt50",
+            "\u00a31"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "EGP",
+        "number": "818"
+    },
+    "name": "Egyptian Pound",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "pound",
+            "symbol": "\u00a3 "
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "piastre",
+            "symbol": "Pt"
+        }
+    }
+}

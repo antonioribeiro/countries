@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "250",
+            "500",
+            "1\u0643",
+            "5\u0643",
+            "10\u0643",
+            "20\u0643"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50",
+            "100"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "KWD",
+        "number": "414"
+    },
+    "name": "Kuwaiti Dinar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dinar",
+            "symbol": "\u0643"
+        },
+        "minor": {
+            "majorValue": 0.001,
+            "name": "fils",
+            "symbol": ""
+        }
+    }
+}

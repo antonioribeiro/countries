@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u20a11000",
+            "\u20a12000",
+            "\u20a15000",
+            "\u20a110000",
+            "\u20a120000",
+            "\u20a150000"
+        ],
+        "rare": [
+            ""
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "\u20a11",
+            "\u20a15",
+            "\u20a110",
+            "\u20a120",
+            "\u20a150",
+            "\u20a1100",
+            "\u20a1500"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "CRC",
+        "number": "188"
+    },
+    "name": "Costa Rican col\u00f3n",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "col\u00f3n",
+            "symbol": "\u20a1"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "c\u00e9ntimo",
+            "symbol": "\u20a1"
+        }
+    }
+}

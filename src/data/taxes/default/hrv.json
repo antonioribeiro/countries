@@ -1,0 +1,71 @@
+{
+    "vat": {
+        "cca2": "HR",
+        "cca3": "HRV",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "vat",
+        "name": "Croatian VAT",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.25,
+                        "id": "hr_vat_standard_2013",
+                        "start_date": "2013-07-01"
+                    }
+                ],
+                "default": true,
+                "id": "hr_vat_standard",
+                "name": "Standard"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.1,
+                        "end_date": "2013-12-31",
+                        "id": "hr_vat_reduced_2013",
+                        "start_date": "2013-07-01"
+                    },
+                    {
+                        "amount": 0.13,
+                        "id": "hr_vat_reduced_2014",
+                        "start_date": "2014-01-01"
+                    }
+                ],
+                "id": "hr_vat_reduced",
+                "name": "Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "id": "hr_vat_super_reduced_2014",
+                        "start_date": "2014-01-01"
+                    }
+                ],
+                "id": "hr_vat_super_reduced",
+                "name": "Super Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0,
+                        "id": "hr_vat_zero",
+                        "start_date": "2013-07-01"
+                    }
+                ],
+                "id": "hr_vat_zero",
+                "name": "Zero"
+            }
+        ],
+        "record_type": "tax",
+        "tag": "EU",
+        "tax_modifier": "",
+        "tax_type": "vat",
+        "vat_id": "hr_vat",
+        "zone": "hr_vat"
+    }
+}

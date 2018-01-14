@@ -8,41 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Republic of Serbia",
-    "altSpellings": [
-        "RS",
-        "Srbija",
-        "Republic of Serbia",
-        "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
-        "Republika Srbija"
-    ],
-    "area": 88361,
-    "borders": [
-        "BIH",
-        "BGR",
-        "HRV",
-        "HUN",
-        "UNK",
-        "MKD",
-        "MNE",
-        "ROU"
-    ],
     "brk_a3": "SRB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Serbia",
-    "callingCode": [
-        "381"
-    ],
-    "capital": "Belgrade",
     "cca2": "RS",
     "cca3": "SRB",
     "ccn3": "688",
-    "cioc": "SRB",
-    "continent": "Europe",
-    "currency": [
-        "RSD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Serbian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "RI",
@@ -50,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "101800.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Southern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Republic of Serbia",
     "gu_a3": "SRB",
@@ -60,15 +45,7 @@
     "iso_a3_eh": "SRB",
     "iso_n3": "688",
     "labelrank": "5.00",
-    "landlocked": true,
-    "languages": {
-        "srp": "Serbian"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        44,
-        21
-    ],
     "level": "2.00",
     "long_len": "6.00",
     "mapcolor13": "10.00",
@@ -80,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Serbia",
-        "official": "Republic of Serbia",
-        "native": {
-            "srp": {
-                "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
-                "common": "\u0421\u0440\u0431\u0438\u0458\u0430"
-            }
-        }
+        "official": "Republic of Serbia"
     },
     "name_alt": "",
     "name_ciawf": "Serbia",
@@ -96,79 +67,21 @@
     "name_sort": "Serbia",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "7111024.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
     "postal": "RS",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "SRB",
     "sovereignt": "Republic of Serbia",
     "su_a3": "SRB",
     "su_dif": "0.00",
-    "subregion": "Southern Europe",
     "subunit": "Republic of Serbia",
     "tiny": "-99.00",
-    "tld": [
-        ".rs",
-        ".\u0441\u0440\u0431"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Serbien",
-            "common": "Serbien"
-        },
-        "fra": {
-            "official": "R\u00e9publique de Serbie",
-            "common": "Serbie"
-        },
-        "hrv": {
-            "official": "Republika Srbija",
-            "common": "Srbija"
-        },
-        "ita": {
-            "official": "Repubblica di Serbia",
-            "common": "Serbia"
-        },
-        "jpn": {
-            "official": "\u30bb\u30eb\u30d3\u30a2\u5171\u548c\u56fd",
-            "common": "\u30bb\u30eb\u30d3\u30a2"
-        },
-        "nld": {
-            "official": "Republiek Servi\u00eb",
-            "common": "Servi\u00eb"
-        },
-        "por": {
-            "official": "Rep\u00fablica da S\u00e9rvia",
-            "common": "S\u00e9rvia"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0435\u0440\u0431\u0438\u044f",
-            "common": "\u0421\u0435\u0440\u0431\u0438\u044f"
-        },
-        "slk": {
-            "official": "Srbsk\u00e1 republika",
-            "common": "Srbsko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Serbia",
-            "common": "Serbia"
-        },
-        "fin": {
-            "official": "Serbian tasavalta",
-            "common": "Serbia"
-        },
-        "est": {
-            "official": "Serbia Vabariik",
-            "common": "Serbia"
-        },
-        "zho": {
-            "official": "\u585e\u5c14\u7ef4\u4e9a\u5171\u548c\u56fd",
-            "common": "\u585e\u5c14\u7ef4\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "688",
     "wb_a2": "YF",

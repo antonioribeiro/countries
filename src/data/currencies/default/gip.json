@@ -1,0 +1,46 @@
+{
+    "banknotes": {
+        "frequent": [
+            "\u00a35",
+            "\u00a310",
+            "\u00a320",
+            "\u00a350",
+            "\u00a3100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1p",
+            "2p",
+            "5p",
+            "10p",
+            "20p",
+            "50p",
+            "\u00a31",
+            "\u00a32",
+            "\u00a35"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "GIP",
+        "number": "292"
+    },
+    "name": "Gibraltar pound",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "pound",
+            "symbol": "\u00a3"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "penny",
+            "symbol": "p"
+        }
+    }
+}

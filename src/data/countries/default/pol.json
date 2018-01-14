@@ -8,38 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Poland",
-    "altSpellings": [
-        "PL",
-        "Republic of Poland",
-        "Rzeczpospolita Polska"
-    ],
-    "area": 312679,
-    "borders": [
-        "BLR",
-        "CZE",
-        "DEU",
-        "LTU",
-        "RUS",
-        "SVK",
-        "UKR"
-    ],
     "brk_a3": "POL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Poland",
-    "callingCode": [
-        "48"
-    ],
-    "capital": "Warsaw",
     "cca2": "PL",
     "cca3": "POL",
     "ccn3": "616",
-    "cioc": "POL",
-    "continent": "Europe",
-    "currency": [
-        "PLN"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Polish",
     "economy": "2. Developed region: nonG7",
     "featurecla": "Admin-0 country",
     "fips_10_": "PL",
@@ -47,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "1052000.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Europe",
+        "region": "Europe",
+        "region_un": "Europe",
+        "region_wb": "Europe & Central Asia",
+        "subregion": "Eastern Europe"
+    },
     "geou_dif": "0.00",
     "geounit": "Poland",
     "gu_a3": "POL",
@@ -57,15 +45,7 @@
     "iso_a3_eh": "POL",
     "iso_n3": "616",
     "labelrank": "3.00",
-    "landlocked": false,
-    "languages": {
-        "pol": "Polish"
-    },
     "lastcensus": "2011.00",
-    "latlng": [
-        52,
-        20
-    ],
     "level": "2.00",
     "long_len": "6.00",
     "mapcolor13": "2.00",
@@ -77,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Poland",
-        "official": "Republic of Poland",
-        "native": {
-            "pol": {
-                "official": "Rzeczpospolita Polska",
-                "common": "Polska"
-            }
-        }
+        "official": "Republic of Poland"
     },
     "name_alt": "",
     "name_ciawf": "Poland",
@@ -93,78 +67,21 @@
     "name_sort": "Poland",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "38476269.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
     "postal": "PL",
-    "region": "Europe",
-    "region_un": "Europe",
-    "region_wb": "Europe & Central Asia",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "POL",
     "sovereignt": "Poland",
     "su_a3": "POL",
     "su_dif": "0.00",
-    "subregion": "Eastern Europe",
     "subunit": "Poland",
     "tiny": "-99.00",
-    "tld": [
-        ".pl"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Polen",
-            "common": "Polen"
-        },
-        "fra": {
-            "official": "R\u00e9publique de Pologne",
-            "common": "Pologne"
-        },
-        "hrv": {
-            "official": "Republika Poljska",
-            "common": "Poljska"
-        },
-        "ita": {
-            "official": "Repubblica di Polonia",
-            "common": "Polonia"
-        },
-        "jpn": {
-            "official": "\u30dd\u30fc\u30e9\u30f3\u30c9\u5171\u548c\u56fd",
-            "common": "\u30dd\u30fc\u30e9\u30f3\u30c9"
-        },
-        "nld": {
-            "official": "Republiek Polen",
-            "common": "Polen"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Pol\u00f3nia",
-            "common": "Pol\u00f3nia"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u043e\u043b\u044c\u0448\u0430",
-            "common": "\u041f\u043e\u043b\u044c\u0448\u0430"
-        },
-        "slk": {
-            "official": "Po\u013esk\u00e1 republika",
-            "common": "Po\u013esko"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Polonia",
-            "common": "Polonia"
-        },
-        "fin": {
-            "official": "Puolan tasavalta",
-            "common": "Puola"
-        },
-        "est": {
-            "official": "Poola Vabariik",
-            "common": "Poola"
-        },
-        "zho": {
-            "official": "\u6ce2\u5170\u5171\u548c\u56fd",
-            "common": "\u6ce2\u5170"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "616",
     "wb_a2": "PL",

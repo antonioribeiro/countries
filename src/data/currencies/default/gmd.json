@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "5 dalasis",
+            "10 dalasis",
+            "25 dalasis",
+            "50 dalasis",
+            "100 dalasis"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1 bututs",
+            "5 bututs",
+            "10 bututs",
+            "25 bututs",
+            "50 bututs",
+            "1 dalasi"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "GMD",
+        "number": "270"
+    },
+    "name": "Gambian dalasi",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dalasi",
+            "symbol": ""
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "butut",
+            "symbol": ""
+        }
+    }
+}

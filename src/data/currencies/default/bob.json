@@ -1,0 +1,43 @@
+{
+    "banknotes": {
+        "frequent": [
+            "$b10",
+            "$b20",
+            "$b50",
+            "$b100",
+            "$b200"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "10",
+            "20",
+            "50",
+            "$b1",
+            "$b2",
+            "$b5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BOB",
+        "number": "068"
+    },
+    "name": "Bolivian Boliviano",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "boliviano",
+            "symbol": "$b"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centavo",
+            "symbol": ""
+        }
+    }
+}

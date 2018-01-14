@@ -8,38 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Zambia",
-    "altSpellings": [
-        "ZM",
-        "Republic of Zambia"
-    ],
-    "area": 752612,
-    "borders": [
-        "AGO",
-        "BWA",
-        "COD",
-        "MWI",
-        "MOZ",
-        "NAM",
-        "TZA",
-        "ZWE"
-    ],
     "brk_a3": "ZMB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Zambia",
-    "callingCode": [
-        "260"
-    ],
-    "capital": "Lusaka",
     "cca2": "ZM",
     "cca3": "ZMB",
     "ccn3": "894",
-    "cioc": "ZAM",
-    "continent": "Africa",
-    "currency": [
-        "ZMW"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Zambian",
     "economy": "7. Least developed region",
     "featurecla": "Admin-0 country",
     "fips_10_": "ZA",
@@ -47,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "65170.00",
     "gdp_year": "2016.00",
+    "geo": {
+        "borders": [],
+        "continent": "Africa",
+        "region": "Africa",
+        "region_un": "Africa",
+        "region_wb": "Sub-Saharan Africa",
+        "subregion": "Eastern Africa"
+    },
     "geou_dif": "0.00",
     "geounit": "Zambia",
     "gu_a3": "ZMB",
@@ -57,15 +45,7 @@
     "iso_a3_eh": "ZMB",
     "iso_n3": "894",
     "labelrank": "3.00",
-    "landlocked": true,
-    "languages": {
-        "eng": "English"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        -15,
-        30
-    ],
     "level": "2.00",
     "long_len": "6.00",
     "mapcolor13": "13.00",
@@ -77,13 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Zambia",
-        "official": "Republic of Zambia",
-        "native": {
-            "eng": {
-                "official": "Republic of Zambia",
-                "common": "Zambia"
-            }
-        }
+        "official": "Republic of Zambia"
     },
     "name_alt": "",
     "name_ciawf": "Zambia",
@@ -93,78 +67,21 @@
     "name_sort": "Zambia",
     "note_adm0": "",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "15972000.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
     "postal": "ZM",
-    "region": "Africa",
-    "region_un": "Africa",
-    "region_wb": "Sub-Saharan Africa",
+    "record_type": "country",
     "scalerank": "0",
     "sov_a3": "ZMB",
     "sovereignt": "Zambia",
     "su_a3": "ZMB",
     "su_dif": "0.00",
-    "subregion": "Eastern Africa",
     "subunit": "Zambia",
     "tiny": "-99.00",
-    "tld": [
-        ".zm"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Republik Sambia",
-            "common": "Sambia"
-        },
-        "fra": {
-            "official": "R\u00e9publique de Zambie",
-            "common": "Zambie"
-        },
-        "hrv": {
-            "official": "Republika Zambija",
-            "common": "Zambija"
-        },
-        "ita": {
-            "official": "Repubblica di Zambia",
-            "common": "Zambia"
-        },
-        "jpn": {
-            "official": "\u30b6\u30f3\u30d3\u30a2\u5171\u548c\u56fd",
-            "common": "\u30b6\u30f3\u30d3\u30a2"
-        },
-        "nld": {
-            "official": "Republiek Zambia",
-            "common": "Zambia"
-        },
-        "por": {
-            "official": "Rep\u00fablica da Z\u00e2mbia",
-            "common": "Z\u00e2mbia"
-        },
-        "rus": {
-            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0417\u0430\u043c\u0431\u0438\u044f",
-            "common": "\u0417\u0430\u043c\u0431\u0438\u044f"
-        },
-        "slk": {
-            "official": "Zambijsk\u00e1 republika",
-            "common": "Zambia"
-        },
-        "spa": {
-            "official": "Rep\u00fablica de Zambia",
-            "common": "Zambia"
-        },
-        "fin": {
-            "official": "Sambian tasavalta",
-            "common": "Sambia"
-        },
-        "est": {
-            "official": "Sambia Vabariik",
-            "common": "Sambia"
-        },
-        "zho": {
-            "official": "\u8d5e\u6bd4\u4e9a\u5171\u548c\u56fd",
-            "common": "\u8d5e\u6bd4\u4e9a"
-        }
-    },
     "type": "Sovereign country",
     "un_a3": "894",
     "wb_a2": "ZM",

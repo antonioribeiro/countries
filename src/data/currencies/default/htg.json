@@ -1,0 +1,49 @@
+{
+    "banknotes": {
+        "frequent": [
+            "G10",
+            "G25",
+            "G50",
+            "G100",
+            "G250",
+            "G500"
+        ],
+        "rare": [
+            "G1",
+            "G2",
+            "G5",
+            "G1000"
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "5",
+            "10",
+            "20",
+            "50",
+            "G1",
+            "G5"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "HTG",
+        "number": "332"
+    },
+    "name": "Haitian gourde",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "gourde",
+            "symbol": "G"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "centime",
+            "symbol": ""
+        }
+    }
+}

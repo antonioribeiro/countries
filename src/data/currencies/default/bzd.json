@@ -1,0 +1,47 @@
+{
+    "banknotes": {
+        "frequent": [
+            "BZ$2",
+            "BZ$5",
+            "BZ$10",
+            "BZ$20",
+            "BZ$50",
+            "BZ$100"
+        ],
+        "rare": [
+            ""
+        ]
+    },
+    "coins": {
+        "frequent": [
+            "1 cents",
+            "5 cents",
+            "10 cents",
+            "25 cents",
+            "50 cents",
+            "BZ$1",
+            "BZ$2"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "BZD",
+        "number": "084"
+    },
+    "name": "Belize dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "BZ$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}

@@ -8,29 +8,18 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Guam",
-    "altSpellings": [
-        "GU",
-        "Gu\u00e5h\u00e5n"
-    ],
-    "area": 549,
-    "borders": [],
     "brk_a3": "GUM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Guam",
-    "callingCode": [
-        "1671"
-    ],
-    "capital": "Hag\u00e5t\u00f1a",
     "cca2": "GU",
     "cca3": "GUM",
     "ccn3": "316",
-    "cioc": "GUM",
-    "continent": "Oceania",
-    "currency": [
-        "USD"
+    "curencies": [],
+    "currencies": [],
+    "data_sources": [
+        "natural"
     ],
-    "demonym": "Guamanian",
     "economy": "6. Developing region",
     "featurecla": "Admin-0 country",
     "fips_10_": "GQ",
@@ -38,6 +27,14 @@
     "formal_fr": "",
     "gdp_md_est": "4882.00",
     "gdp_year": "2013.00",
+    "geo": {
+        "borders": [],
+        "continent": "Oceania",
+        "region": "Oceania",
+        "region_un": "Oceania",
+        "region_wb": "East Asia & Pacific",
+        "subregion": "Micronesia"
+    },
     "geou_dif": "0.00",
     "geounit": "Guam",
     "gu_a3": "GUM",
@@ -48,17 +45,7 @@
     "iso_a3_eh": "GUM",
     "iso_n3": "316",
     "labelrank": "6.00",
-    "landlocked": false,
-    "languages": {
-        "cha": "Chamorro",
-        "eng": "English",
-        "spa": "Spanish"
-    },
     "lastcensus": "2010.00",
-    "latlng": [
-        13.46666666,
-        144.78333333
-    ],
     "level": "2.00",
     "long_len": "4.00",
     "mapcolor13": "1.00",
@@ -70,21 +57,7 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Guam",
-        "official": "Guam",
-        "native": {
-            "cha": {
-                "official": "Gu\u00e5h\u00e5n",
-                "common": "Gu\u00e5h\u00e5n"
-            },
-            "eng": {
-                "official": "Guam",
-                "common": "Guam"
-            },
-            "spa": {
-                "official": "Guam",
-                "common": "Guam"
-            }
-        }
+        "official": "Territory of Guam"
     },
     "name_alt": "",
     "name_ciawf": "Guam",
@@ -94,78 +67,21 @@
     "name_sort": "Guam",
     "note_adm0": "U.S.A.",
     "note_brk": "",
+    "notes": [
+        "Incomplete record due to missing mledoze country."
+    ],
     "pop_est": "167358.00",
     "pop_rank": "9.00",
     "pop_year": "2017.00",
     "postal": "GU",
-    "region": "Oceania",
-    "region_un": "Oceania",
-    "region_wb": "East Asia & Pacific",
+    "record_type": "country",
     "scalerank": "5",
     "sov_a3": "US1",
     "sovereignt": "United States of America",
     "su_a3": "GUM",
     "su_dif": "0.00",
-    "subregion": "Micronesia",
     "subunit": "Guam",
     "tiny": "2.00",
-    "tld": [
-        ".gu"
-    ],
-    "translations": {
-        "deu": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "fra": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "hrv": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "ita": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "jpn": {
-            "official": "\u30b0\u30a2\u30e0",
-            "common": "\u30b0\u30a2\u30e0"
-        },
-        "nld": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "por": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "rus": {
-            "official": "\u0413\u0443\u0430\u043c",
-            "common": "\u0413\u0443\u0430\u043c"
-        },
-        "slk": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "spa": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "fin": {
-            "official": "Guam",
-            "common": "Guam"
-        },
-        "est": {
-            "official": "Guami ala",
-            "common": "Guam"
-        },
-        "zho": {
-            "official": "\u5173\u5c9b",
-            "common": "\u5173\u5c9b"
-        }
-    },
     "type": "Dependency",
     "un_a3": "316",
     "wb_a2": "GU",

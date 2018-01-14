@@ -1,0 +1,41 @@
+{
+    "banknotes": {
+        "frequent": [
+            "TT$1",
+            "TT$5",
+            "TT$10",
+            "TT$20",
+            "TT$100"
+        ],
+        "rare": []
+    },
+    "coins": {
+        "frequent": [
+            "1",
+            "10",
+            "25",
+            "50"
+        ],
+        "rare": []
+    },
+    "data_sources": [
+        "world-currencies"
+    ],
+    "iso": {
+        "code": "TTD",
+        "number": "780"
+    },
+    "name": "Trinidadian dollar",
+    "record_type": "currency",
+    "units": {
+        "major": {
+            "name": "dollar",
+            "symbol": "TT$"
+        },
+        "minor": {
+            "majorValue": 0.01,
+            "name": "cent",
+            "symbol": ""
+        }
+    }
+}
