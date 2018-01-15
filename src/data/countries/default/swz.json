@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Swaziland",
+    "alt_spellings": [
+        "SZ",
+        "weSwatini",
+        "Swatini",
+        "Ngwane",
+        "Kingdom of Swaziland",
+        "Umbuso waseSwatini"
+    ],
     "brk_a3": "SWZ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Swaziland",
+    "capital": "Lobamba",
     "cca2": "SZ",
     "cca3": "SWZ",
     "ccn3": "748",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SWZ",
+    "currencies": [
+        "SZL"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Swazi",
+    "dialling": {
+        "calling_code": [
+            "268"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "SWA",
+        "cown": 572,
+        "ds": "SD",
+        "edgar": "V6",
+        "emoji": "\ud83c\uddf8\ud83c\uddff",
+        "eu_member": null,
+        "fao": 209,
+        "fifa": "SWZ",
+        "fips": "WZ",
+        "gaul": 235,
+        "geonameid": 934841,
+        "imf": 734,
+        "ioc": "SWZ",
+        "itu": "SWZ",
+        "marc": "sq",
+        "vat_rates": null,
+        "wmo": "SV"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "WZ",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddff"
+    },
     "formal_en": "Kingdom of Swaziland",
     "formal_fr": "",
     "gdp_md_est": "11060.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 17364,
+        "borders": [
+            "MOZ",
+            "ZAF"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "26 30 S",
+        "latitude_desc": "-26.565134048461914",
+        "latlng": [
+            -26.5,
+            31.5
+        ],
+        "longitude": "31 30 E",
+        "longitude_desc": "31.49811363220215",
+        "max_latitude": "-25.783333",
+        "max_longitude": "32.133333",
+        "min_latitude": "-27.316667",
+        "min_longitude": "30.783333",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Southern Africa"
+        "subregion": "Southern Africa",
+        "subregion_code": "018",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Swaziland",
     "gu_a3": "SWZ",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "SZ",
+    "iso_3166_1_alpha3": "SWZ",
+    "iso_3166_1_numeric": "748",
     "iso_a2": "SZ",
     "iso_a3": "SWZ",
     "iso_a3_eh": "SWZ",
     "iso_n3": "748",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English",
+        "ssw": "Swazi"
+    },
     "lastcensus": "2007.00",
     "level": "2.00",
     "long_len": "9.00",
@@ -57,6 +138,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Swaziland",
+        "native": {
+            "eng": {
+                "common": "Swaziland",
+                "official": "Kingdom of Swaziland"
+            },
+            "ssw": {
+                "common": "Swaziland",
+                "official": "Kingdom of Swaziland"
+            }
+        },
         "official": "Kingdom of Swaziland"
     },
     "name_alt": "",
@@ -67,9 +158,6 @@
     "name_sort": "Swaziland",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1467152.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +170,63 @@
     "su_dif": "0.00",
     "subunit": "Swaziland",
     "tiny": "-99.00",
+    "tld": [
+        ".sz"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Swasiland",
+            "official": "K\u00f6nigreich Swasiland"
+        },
+        "est": {
+            "common": "Svaasimaa",
+            "official": "Svaasimaa Kuningriik"
+        },
+        "fin": {
+            "common": "Swazimaa",
+            "official": "Swazimaan kuningaskunta"
+        },
+        "fra": {
+            "common": "Swaziland",
+            "official": "Royaume du Swaziland"
+        },
+        "hrv": {
+            "common": "Svazi",
+            "official": "Kraljevina Svazi"
+        },
+        "ita": {
+            "common": "Swaziland",
+            "official": "Regno dello Swaziland"
+        },
+        "jpn": {
+            "common": "\u30b9\u30ef\u30b8\u30e9\u30f3\u30c9",
+            "official": "\u30b9\u30ef\u30b8\u30e9\u30f3\u30c9\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Swaziland",
+            "official": "Koninkrijk Swaziland"
+        },
+        "por": {
+            "common": "Suazil\u00e2ndia",
+            "official": "Reino da Suazil\u00e2ndia"
+        },
+        "rus": {
+            "common": "\u0421\u0432\u0430\u0437\u0438\u043b\u0435\u043d\u0434",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0421\u0432\u0430\u0437\u0438\u043b\u0435\u043d\u0434"
+        },
+        "slk": {
+            "common": "Svazijsko",
+            "official": "Svazijsk\u00e9 kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Suazilandia",
+            "official": "Reino de Swazilandia"
+        },
+        "zho": {
+            "common": "\u65af\u5a01\u58eb\u5170",
+            "official": "\u65af\u5a01\u58eb\u5170\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "748",
     "wb_a2": "SZ",

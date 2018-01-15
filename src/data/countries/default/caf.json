@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Central African Republic",
+    "alt_spellings": [
+        "CF",
+        "Central African Republic",
+        "R\u00e9publique centrafricaine"
+    ],
     "brk_a3": "CAF",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Central African Rep.",
+    "capital": "Bangui",
     "cca2": "CF",
     "cca3": "CAF",
     "ccn3": "140",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "CAF",
+    "currencies": [
+        "XAF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Central African",
+    "dialling": {
+        "calling_code": [
+            "236"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "CEN",
+        "cown": 482,
+        "ds": "RCA",
+        "edgar": "F0",
+        "emoji": "\ud83c\udde8\ud83c\uddeb",
+        "eu_member": null,
+        "fao": 37,
+        "fifa": "CTA",
+        "fips": "CT",
+        "gaul": 49,
+        "geonameid": 239880,
+        "imf": 626,
+        "ioc": "CAF",
+        "itu": "CAF",
+        "marc": "cx",
+        "vat_rates": null,
+        "wmo": "CE"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CT",
+    "flag": {
+        "emoji": "\ud83c\udde8\ud83c\uddeb"
+    },
     "formal_en": "Central African Republic",
     "formal_fr": "",
     "gdp_md_est": "3206.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 622984,
+        "borders": [
+            "CMR",
+            "TCD",
+            "COD",
+            "COG",
+            "SSD",
+            "SDN"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "7 00 N",
+        "latitude_desc": "6.574123382568359",
+        "latlng": [
+            7,
+            21
+        ],
+        "longitude": "21 00 E",
+        "longitude_desc": "20.486923217773438",
+        "max_latitude": "10.7",
+        "max_longitude": "27.216667",
+        "min_latitude": "2.433333",
+        "min_longitude": "14.533333",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Middle Africa"
+        "subregion": "Middle Africa",
+        "subregion_code": "017",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Central African Republic",
     "gu_a3": "CAF",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "CF",
+    "iso_3166_1_alpha3": "CAF",
+    "iso_3166_1_numeric": "140",
     "iso_a2": "CF",
     "iso_a3": "CAF",
     "iso_a3_eh": "CAF",
     "iso_n3": "140",
     "labelrank": "4.00",
+    "languages": {
+        "fra": "French",
+        "sag": "Sango"
+    },
     "lastcensus": "2003.00",
     "level": "2.00",
     "long_len": "24.00",
@@ -56,7 +138,17 @@
     "min_label": "4.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Central African Rep.",
+        "common": "Central African Republic",
+        "native": {
+            "fra": {
+                "common": "R\u00e9publique centrafricaine",
+                "official": "R\u00e9publique centrafricaine"
+            },
+            "sag": {
+                "common": "B\u00eaafr\u00eeka",
+                "official": "K\u00f6d\u00f6r\u00f6s\u00ease t\u00ee B\u00eaafr\u00eeka"
+            }
+        },
         "official": "Central African Republic"
     },
     "name_alt": "",
@@ -67,9 +159,6 @@
     "name_sort": "Central African Republic",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "5625118.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +171,67 @@
     "su_dif": "0.00",
     "subunit": "Central African Republic",
     "tiny": "-99.00",
+    "tld": [
+        ".cf"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Gweriniaeth Canolbarth Affrica",
+            "official": "Central African Republic"
+        },
+        "deu": {
+            "common": "Zentralafrikanische Republik",
+            "official": "Zentralafrikanische Republik"
+        },
+        "est": {
+            "common": "Kesk-Aafrika Vabariik",
+            "official": "Kesk-Aafrika Vabariik"
+        },
+        "fin": {
+            "common": "Keski-Afrikan tasavalta",
+            "official": "Keski-Afrikan tasavalta"
+        },
+        "fra": {
+            "common": "R\u00e9publique centrafricaine",
+            "official": "R\u00e9publique centrafricaine"
+        },
+        "hrv": {
+            "common": "Srednjoafri\u010dka Republika",
+            "official": "Centralna Afri\u010dka Republika"
+        },
+        "ita": {
+            "common": "Repubblica Centrafricana",
+            "official": "Repubblica Centrafricana"
+        },
+        "jpn": {
+            "common": "\u4e2d\u592e\u30a2\u30d5\u30ea\u30ab\u5171\u548c\u56fd",
+            "official": "\u4e2d\u592e\u30a2\u30d5\u30ea\u30ab\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Centraal-Afrikaanse Republiek",
+            "official": "Centraal-Afrikaanse Republiek"
+        },
+        "por": {
+            "common": "Rep\u00fablica Centro-Africana",
+            "official": "Rep\u00fablica Centro-Africano"
+        },
+        "rus": {
+            "common": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+            "official": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e-\u0410\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Stredoafrick\u00e1 republika",
+            "official": "Stredoafrick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Rep\u00fablica Centroafricana",
+            "official": "Rep\u00fablica Centroafricana"
+        },
+        "zho": {
+            "common": "\u4e2d\u975e\u5171\u548c\u56fd",
+            "official": "\u4e2d\u975e\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "140",
     "wb_a2": "CF",

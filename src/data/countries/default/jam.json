@@ -8,43 +8,116 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Jamaica",
+    "alt_spellings": [
+        "JM"
+    ],
     "brk_a3": "JAM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Jamaica",
+    "capital": "Kingston",
     "cca2": "JM",
     "cca3": "JAM",
     "ccn3": "388",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "JAM",
+    "currencies": [
+        "JMD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Jamaican",
+    "dialling": {
+        "calling_code": [
+            "1876"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "1"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "JAM",
+        "cown": 51,
+        "ds": "JA",
+        "edgar": "L8",
+        "emoji": "\ud83c\uddef\ud83c\uddf2",
+        "eu_member": null,
+        "fao": 109,
+        "fifa": "JAM",
+        "fips": "JM",
+        "gaul": 123,
+        "geonameid": 3489940,
+        "imf": 343,
+        "ioc": "JAM",
+        "itu": "JMC",
+        "marc": "jm",
+        "vat_rates": null,
+        "wmo": "JM"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "JM",
+    "flag": {
+        "emoji": "\ud83c\uddef\ud83c\uddf2"
+    },
     "formal_en": "Jamaica",
     "formal_fr": "",
     "gdp_md_est": "25390.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 10991,
         "borders": [],
-        "continent": "North America",
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "18 15 N",
+        "latitude_desc": "18.143444061279297",
+        "latlng": [
+            18.25,
+            -77.5
+        ],
+        "longitude": "77 30 W",
+        "longitude_desc": "-77.34654998779297",
+        "max_latitude": "18.533333",
+        "max_longitude": "-70",
+        "min_latitude": "17",
+        "min_longitude": "-78.366667",
+        "postal_code": false,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Jamaica",
     "gu_a3": "JAM",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "JM",
+    "iso_3166_1_alpha3": "JAM",
+    "iso_3166_1_numeric": "388",
     "iso_a2": "JM",
     "iso_a3": "JAM",
     "iso_a3_eh": "JAM",
     "iso_n3": "388",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English",
+        "jam": "Jamaican Patois"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +130,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Jamaica",
+        "native": {
+            "eng": {
+                "common": "Jamaica",
+                "official": "Jamaica"
+            },
+            "jam": {
+                "common": "Jamaica",
+                "official": "Jamaica"
+            }
+        },
         "official": "Jamaica"
     },
     "name_alt": "",
@@ -67,9 +150,6 @@
     "name_sort": "Jamaica",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "2990561.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +162,63 @@
     "su_dif": "0.00",
     "subunit": "Jamaica",
     "tiny": "-99.00",
+    "tld": [
+        ".jm"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Jamaika",
+            "official": "Jamaika"
+        },
+        "est": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+        },
+        "fin": {
+            "common": "Jamaika",
+            "official": "Jamaika"
+        },
+        "fra": {
+            "common": "Jama\u00efque",
+            "official": "Jama\u00efque"
+        },
+        "hrv": {
+            "common": "Jamajka",
+            "official": "Jamajka"
+        },
+        "ita": {
+            "common": "Giamaica",
+            "official": "Giamaica"
+        },
+        "jpn": {
+            "common": "\u30b8\u30e3\u30de\u30a4\u30ab",
+            "official": "\u30b8\u30e3\u30de\u30a4\u30ab"
+        },
+        "nld": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+        },
+        "por": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+        },
+        "rus": {
+            "common": "\u042f\u043c\u0430\u0439\u043a\u0430",
+            "official": "\u042f\u043c\u0430\u0439\u043a\u0430"
+        },
+        "slk": {
+            "common": "Jamajka",
+            "official": "Jamajka"
+        },
+        "spa": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+        },
+        "zho": {
+            "common": "\u7259\u4e70\u52a0",
+            "official": "\u7259\u4e70\u52a0"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "388",
     "wb_a2": "JM",

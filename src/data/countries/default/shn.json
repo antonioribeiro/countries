@@ -8,43 +8,106 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Saint Helena",
+    "alt_spellings": null,
     "brk_a3": "SHN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saint Helena",
+    "capital": null,
     "cca2": "SH",
-    "cca3": "SHN",
-    "ccn3": "654",
+    "cca3": "SH",
+    "ccn3": "SH",
     "curencies": [],
-    "currencies": [],
+    "currencies": [
+        "SHP"
+    ],
     "data_sources": [
         "natural"
     ],
+    "demonym": null,
+    "dialling": {
+        "calling_code": null,
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            4
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\uddf8\ud83c\udded",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "SHN",
+        "fips": "SH",
+        "gaul": 207,
+        "geonameid": 3370751,
+        "imf": 856,
+        "ioc": "HEL",
+        "itu": "SHN",
+        "marc": "xj",
+        "vat_rates": null,
+        "wmo": "HE"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SH",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\udded"
+    },
     "formal_en": "",
     "formal_fr": "",
     "gdp_md_est": "31.10",
     "gdp_year": "2010.00",
     "geo": {
-        "borders": [],
-        "continent": "Seven seas (open ocean)",
+        "area": null,
+        "borders": null,
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Territory of GB",
+        "landlocked": null,
+        "latitude": "15 57 S",
+        "latitude_desc": "-15.957334518432617",
+        "longitude": "5 42 W",
+        "longitude_desc": "-5.716914176940918",
+        "max_latitude": "-7.9",
+        "max_longitude": "-5.633333",
+        "min_latitude": "-40.4",
+        "min_longitude": "-14.416667",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Saint Helena",
     "gu_a3": "SHN",
     "homepart": "-99.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "SH",
+    "iso_3166_1_alpha3": "SHN",
+    "iso_3166_1_numeric": "654",
     "iso_a2": "SH",
     "iso_a3": "SHN",
     "iso_a3_eh": "SHN",
     "iso_n3": "654",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "12.00",
@@ -64,6 +127,16 @@
     "name_len": "12.00",
     "name_long": "Saint Helena",
     "name_nev": "Saint Helena",
+    "name_rinvex": {
+        "common": "Saint Helena",
+        "native": {
+            "eng": {
+                "common": "Saint Helena",
+                "official": "Saint Helena"
+            }
+        },
+        "official": "Saint Helena, Ascension and Tristan da Cunha"
+    },
     "name_sort": "St. Helena",
     "note_adm0": "U.K.",
     "note_brk": "",
@@ -82,6 +155,8 @@
     "su_dif": "0.00",
     "subunit": "Saint Helena",
     "tiny": "-99.00",
+    "tld": null,
+    "translations": null,
     "type": "Dependency",
     "un_a3": "654",
     "wb_a2": "-99",

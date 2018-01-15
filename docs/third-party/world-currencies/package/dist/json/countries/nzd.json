@@ -1,0 +1,40 @@
+{
+    "NZD": {
+        "name": "New Zealand Dollar",
+        "iso": {
+            "code": "NZD",
+            "number": "554"
+        },
+        "units": {
+            "major": {
+                "name": "dollar",
+                "symbol": "$"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "c",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "$5",
+                "$10",
+                "$20",
+                "$50",
+                "$100"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "10c",
+                "20c",
+                "50c",
+                "$1",
+                "$2"
+            ],
+            "rare": []
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "GTQ": {
+        "name": "Guatemalan Quetzal",
+        "iso": {
+            "code": "GTQ",
+            "number": "320"
+        },
+        "units": {
+            "major": {
+                "name": "quetzales",
+                "symbol": "Q"
+            },
+            "minor": {
+                "name": "centavo",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "50",
+                "Q1",
+                "Q5",
+                "Q10",
+                "Q20",
+                "Q50",
+                "Q100",
+                "Q200"
+            ],
+            "rare": [
+                ""
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "1",
+                "5",
+                "10",
+                "25",
+                "50",
+                "Q1"
+            ],
+            "rare": []
+        }
+    }
+}

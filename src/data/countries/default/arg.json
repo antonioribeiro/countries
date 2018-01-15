@@ -8,43 +8,126 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Argentina",
+    "alt_spellings": [
+        "AR",
+        "Argentine Republic",
+        "Rep\u00fablica Argentina"
+    ],
     "brk_a3": "ARG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Argentina",
+    "capital": "Buenos Aires",
     "cca2": "AR",
     "cca3": "ARG",
     "ccn3": "032",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ARG",
+    "currencies": [
+        "ARS"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Argentine",
+    "demonym_rinvex": "Argentinean",
+    "dialling": {
+        "calling_code": [
+            "54"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{region}}{{country}}",
+        "ar5": "LAM",
+        "cowc": "ARG",
+        "cown": 160,
+        "ds": "RA",
+        "edgar": "C1",
+        "emoji": "\ud83c\udde6\ud83c\uddf7",
+        "eu_member": null,
+        "fao": 9,
+        "fifa": "ARG",
+        "fips": "AR",
+        "gaul": 12,
+        "geonameid": 3865483,
+        "imf": 213,
+        "ioc": "ARG",
+        "itu": "ARG",
+        "marc": "ag",
+        "vat_rates": null,
+        "wmo": "AG"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AR",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddf7"
+    },
     "formal_en": "Argentine Republic",
     "formal_fr": "",
     "gdp_md_est": "879400.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "South America",
+        "area": 2780400,
+        "borders": [
+            "BOL",
+            "BRA",
+            "CHL",
+            "PRY",
+            "URY"
+        ],
+        "continent": {
+            "SA": "South America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "34 00 S",
+        "latitude_desc": "-37.071964263916016",
+        "latlng": [
+            -34,
+            -64
+        ],
+        "longitude": "64 00 W",
+        "longitude_desc": "-64.85450744628906",
+        "max_latitude": "-21.783333",
+        "max_longitude": "-53.65",
+        "min_latitude": "-58.116667",
+        "min_longitude": "-73.533333",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "South America"
+        "subregion": "South America",
+        "subregion_code": "005",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Argentina",
     "gu_a3": "ARG",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "AR",
+    "iso_3166_1_alpha3": "ARG",
+    "iso_3166_1_numeric": "032",
     "iso_a2": "AR",
     "iso_a3": "ARG",
     "iso_a3_eh": "ARG",
     "iso_n3": "032",
     "labelrank": "2.00",
+    "languages": {
+        "grn": "Guaran\u00ed",
+        "spa": "Spanish"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "9.00",
@@ -57,6 +140,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Argentina",
+        "native": {
+            "grn": {
+                "common": "Argentina",
+                "official": "Argentine Republic"
+            },
+            "spa": {
+                "common": "Argentina",
+                "official": "Rep\u00fablica Argentina"
+            }
+        },
         "official": "Argentine Republic"
     },
     "name_alt": "",
@@ -67,9 +160,6 @@
     "name_sort": "Argentina",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "44293293.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +172,67 @@
     "su_dif": "0.00",
     "subunit": "Argentina",
     "tiny": "-99.00",
+    "tld": [
+        ".ar"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Ariannin",
+            "official": "Argentine Republic"
+        },
+        "deu": {
+            "common": "Argentinien",
+            "official": "Argentinische Republik"
+        },
+        "est": {
+            "common": "Argentina",
+            "official": "Argentina Vabariik"
+        },
+        "fin": {
+            "common": "Argentiina",
+            "official": "Argentiinan tasavalta"
+        },
+        "fra": {
+            "common": "Argentine",
+            "official": "R\u00e9publique argentine"
+        },
+        "hrv": {
+            "common": "Argentina",
+            "official": "Argentinski Republika"
+        },
+        "ita": {
+            "common": "Argentina",
+            "official": "Repubblica Argentina"
+        },
+        "jpn": {
+            "common": "\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3",
+            "official": "\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Argentini\u00eb",
+            "official": "Argentijnse Republiek"
+        },
+        "por": {
+            "common": "Argentina",
+            "official": "Rep\u00fablica Argentina"
+        },
+        "rus": {
+            "common": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430",
+            "official": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Argent\u00edna",
+            "official": "Argent\u00ednska republika"
+        },
+        "spa": {
+            "common": "Argentina",
+            "official": "Rep\u00fablica Argentina"
+        },
+        "zho": {
+            "common": "\u963f\u6839\u5ef7",
+            "official": "\u963f\u6839\u5ef7\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "032",
     "wb_a2": "AR",

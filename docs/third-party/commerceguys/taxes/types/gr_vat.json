@@ -1,0 +1,97 @@
+{
+    "name": "Greek VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "gr_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "gr_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "gr_vat_standard_2005",
+                    "amount": 0.19,
+                    "start_date": "2005-04-01",
+                    "end_date": "2010-03-14"
+                },
+                {
+                    "id": "gr_vat_standard_2010_03",
+                    "amount": 0.21,
+                    "start_date": "2010-03-15",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "gr_vat_standard_2010_07",
+                    "amount": 0.23,
+                    "start_date": "2010-07-01"
+                }
+            ]
+        },
+        {
+            "id": "gr_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "gr_vat_intermediate_2005",
+                    "amount": 0.09,
+                    "start_date": "2005-04-01",
+                    "end_date": "2010-03-14"
+                },
+                {
+                    "id": "gr_vat_intermediate_2010_03",
+                    "amount": 0.1,
+                    "start_date": "2010-03-15",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "gr_vat_intermediate_2010_07",
+                    "amount": 0.11,
+                    "start_date": "2010-07-01",
+                    "end_date": "2010-12-31"
+                },
+                {
+                    "id": "gr_vat_intermediate_2011",
+                    "amount": 0.13,
+                    "start_date": "2011-01-01"
+                }
+            ]
+        },
+        {
+            "id": "gr_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "gr_vat_reduced_2005",
+                    "amount": 0.045,
+                    "start_date": "2005-04-01",
+                    "end_date": "2010-03-14"
+                },
+                {
+                    "id": "gr_vat_reduced_2010_03",
+                    "amount": 0.05,
+                    "start_date": "2010-03-15",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "gr_vat_reduced_2010_07",
+                    "amount": 0.055,
+                    "start_date": "2010-07-01",
+                    "end_date": "2010-12-31"
+                },
+                {
+                    "id": "gr_vat_reduced_2011",
+                    "amount": 0.065,
+                    "start_date": "2011-01-01",
+                    "end_date": "2015-06-30"
+                },
+                {
+                    "id": "gr_vat_reduced_2015",
+                    "amount": 0.06,
+                    "start_date": "2015-07-01"
+                }
+            ]
+        }
+    ]
+}

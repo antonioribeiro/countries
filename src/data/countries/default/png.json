@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Papua New Guinea",
+    "alt_spellings": [
+        "PG",
+        "Independent State of Papua New Guinea",
+        "Independen Stet bilong Papua Niugini"
+    ],
     "brk_a3": "PN1",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Papua New Guinea",
+    "capital": "Port Moresby",
     "cca2": "PG",
     "cca3": "PNG",
     "ccn3": "598",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "PNG",
+    "currencies": [
+        "PGK"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Papua New Guinean",
+    "dialling": {
+        "calling_code": [
+            "675"
+        ],
+        "international_prefix": "05",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "PNG",
+        "cown": 910,
+        "ds": "PNG",
+        "edgar": "R2",
+        "emoji": "\ud83c\uddf5\ud83c\uddec",
+        "eu_member": null,
+        "fao": 168,
+        "fifa": "PNG",
+        "fips": "PP",
+        "gaul": 192,
+        "geonameid": 2088628,
+        "imf": 853,
+        "ioc": "PNG",
+        "itu": "PNG",
+        "marc": "pp",
+        "vat_rates": null,
+        "wmo": "NG"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "PP",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\uddec"
+    },
     "formal_en": "Independent State of Papua New Guinea",
     "formal_fr": "",
     "gdp_md_est": "28020.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Oceania",
+        "area": 462840,
+        "borders": [
+            "IDN"
+        ],
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "6 00 S",
+        "latitude_desc": "-6.889159679412842",
+        "latlng": [
+            -6,
+            147
+        ],
+        "longitude": "147 00 E",
+        "longitude_desc": "146.21444702148438",
+        "max_latitude": "-0.733333",
+        "max_longitude": "159.483333",
+        "min_latitude": "-11.65",
+        "min_longitude": "120",
+        "postal_code": true,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Melanesia"
+        "subregion": "Melanesia",
+        "subregion_code": "054",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Papua New Guinea",
     "gu_a3": "PNG",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "PG",
+    "iso_3166_1_alpha3": "PNG",
+    "iso_3166_1_numeric": "598",
     "iso_a2": "PG",
     "iso_a3": "PNG",
     "iso_a3_eh": "PNG",
     "iso_n3": "598",
     "labelrank": "2.00",
+    "languages": {
+        "eng": "English",
+        "hmo": "Hiri Motu",
+        "tpi": "Tok Pisin"
+    },
     "lastcensus": "2000.00",
     "level": "2.00",
     "long_len": "16.00",
@@ -57,6 +135,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Papua New Guinea",
+        "native": {
+            "eng": {
+                "common": "Papua New Guinea",
+                "official": "Independent State of Papua New Guinea"
+            },
+            "hmo": {
+                "common": "Papua Niu Gini",
+                "official": "Independen Stet bilong Papua Niugini"
+            },
+            "tpi": {
+                "common": "Papua Niugini",
+                "official": "Independen Stet bilong Papua Niugini"
+            }
+        },
         "official": "Independent State of Papua New Guinea"
     },
     "name_alt": "",
@@ -67,9 +159,6 @@
     "name_sort": "Papua New Guinea",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "6909701.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +171,63 @@
     "su_dif": "1.00",
     "subunit": "Papua New Guinea",
     "tiny": "-99.00",
+    "tld": [
+        ".pg"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Papua-Neuguinea",
+            "official": "Unabh\u00e4ngige Staat Papua-Neuguinea"
+        },
+        "est": {
+            "common": "Paapua Uus-Guinea",
+            "official": "Paapua Uus-Guinea Iseseisvusriik"
+        },
+        "fin": {
+            "common": "Papua-Uusi-Guinea",
+            "official": "Papua-Uuden-Guinean Itsen\u00e4inen valtio"
+        },
+        "fra": {
+            "common": "Papouasie-Nouvelle-Guin\u00e9e",
+            "official": "\u00c9tat ind\u00e9pendant de Papouasie-Nouvelle-Guin\u00e9e"
+        },
+        "hrv": {
+            "common": "Papua Nova Gvineja",
+            "official": "Nezavisna Dr\u017eava Papui Novoj Gvineji"
+        },
+        "ita": {
+            "common": "Papua Nuova Guinea",
+            "official": "Stato indipendente di Papua Nuova Guinea"
+        },
+        "jpn": {
+            "common": "\u30d1\u30d7\u30a2\u30cb\u30e5\u30fc\u30ae\u30cb\u30a2",
+            "official": "\u30d1\u30d7\u30a2\u30cb\u30e5\u30fc\u30ae\u30cb\u30a2\u72ec\u7acb\u56fd"
+        },
+        "nld": {
+            "common": "Papoea-Nieuw-Guinea",
+            "official": "Onafhankelijke Staat Papoea -Nieuw-Guinea"
+        },
+        "por": {
+            "common": "Papua Nova Guin\u00e9",
+            "official": "Estado Independente da Papua Nova Guin\u00e9"
+        },
+        "rus": {
+            "common": "\u041f\u0430\u043f\u0443\u0430 \u2014 \u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f",
+            "official": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0435 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u041f\u0430\u043f\u0443\u0430-\u041d\u043e\u0432\u043e\u0439 \u0413\u0432\u0438\u043d\u0435\u0438"
+        },
+        "slk": {
+            "common": "Papua-Nov\u00e1 Guinea",
+            "official": "Nez\u00e1visl\u00fd \u0161t\u00e1t Papua-Nov\u00e1 Guinea"
+        },
+        "spa": {
+            "common": "Pap\u00faa Nueva Guinea",
+            "official": "Estado Independiente de Pap\u00faa Nueva Guinea"
+        },
+        "zho": {
+            "common": "\u5df4\u5e03\u4e9a\u65b0\u51e0\u5185\u4e9a",
+            "official": "\u5df4\u5e03\u4e9a\u65b0\u51e0\u5185\u4e9a"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "598",
     "wb_a2": "PG",

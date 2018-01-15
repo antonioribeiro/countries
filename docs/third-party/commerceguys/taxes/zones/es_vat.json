@@ -1,0 +1,13 @@
+{
+    "name": "Spain (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "es_vat_0",
+            "name": "Spain (ex.  Canary Islands, Ceuta and Melilla)",
+            "country_code": "ES",
+            "excluded_postal_codes": "\/(35|38|51|52)[0-9]{3}\/"
+        }
+    ]
+}

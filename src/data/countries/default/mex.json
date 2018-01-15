@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mexico",
+    "alt_spellings": [
+        "MX",
+        "Mexicanos",
+        "United Mexican States",
+        "Estados Unidos Mexicanos"
+    ],
     "brk_a3": "MEX",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mexico",
+    "capital": "Mexico City",
     "cca2": "MX",
     "cca3": "MEX",
     "ccn3": "484",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MEX",
+    "currencies": [
+        "MXN"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Mexican",
+    "dialling": {
+        "calling_code": [
+            "52"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9,
+            10
+        ],
+        "national_prefix": "01"
+    },
     "economy": "4. Emerging region: MIKT",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}} {{region_short}}{{country}}",
+        "ar5": "LAM",
+        "cowc": "MEX",
+        "cown": 70,
+        "ds": "MEX",
+        "edgar": "O5",
+        "emoji": "\ud83c\uddf2\ud83c\uddfd",
+        "eu_member": null,
+        "fao": 138,
+        "fifa": "MEX",
+        "fips": "MX",
+        "gaul": 162,
+        "geonameid": 3996063,
+        "imf": 273,
+        "ioc": "MEX",
+        "itu": "MEX",
+        "marc": "mx",
+        "vat_rates": null,
+        "wmo": "MX"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MX",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddfd"
+    },
     "formal_en": "United Mexican States",
     "formal_fr": "",
     "gdp_md_est": "2307000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "North America",
+        "area": 1964375,
+        "borders": [
+            "BLZ",
+            "GTM",
+            "USA"
+        ],
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "23 00 N",
+        "latitude_desc": "23.909093856811523",
+        "latlng": [
+            23,
+            -102
+        ],
+        "longitude": "102 00 W",
+        "longitude_desc": "-102.6333999633789",
+        "max_latitude": "32.983333",
+        "max_longitude": "-86.716667",
+        "min_latitude": "14.55",
+        "min_longitude": "-119.921667",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Central America"
+        "subregion": "Central America",
+        "subregion_code": "013",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Mexico",
     "gu_a3": "MEX",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "MX",
+    "iso_3166_1_alpha3": "MEX",
+    "iso_3166_1_numeric": "484",
     "iso_a2": "MX",
     "iso_a3": "MEX",
     "iso_a3_eh": "MEX",
     "iso_n3": "484",
     "labelrank": "2.00",
+    "languages": {
+        "spa": "Spanish"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +138,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mexico",
+        "native": {
+            "spa": {
+                "common": "M\u00e9xico",
+                "official": "Estados Unidos Mexicanos"
+            }
+        },
         "official": "United Mexican States"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Mexico",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "124574795.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
@@ -80,8 +164,66 @@
     "sovereignt": "Mexico",
     "su_a3": "MEX",
     "su_dif": "0.00",
+    "subregion_nev": "Central America",
     "subunit": "Mexico",
     "tiny": "-99.00",
+    "tld": [
+        ".mx"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Mexiko",
+            "official": "Vereinigte Mexikanische Staaten"
+        },
+        "est": {
+            "common": "Mehhiko",
+            "official": "Mehhiko \u00dchendriigid"
+        },
+        "fin": {
+            "common": "Meksiko",
+            "official": "Meksikon yhdysvallat"
+        },
+        "fra": {
+            "common": "Mexique",
+            "official": "\u00c9tats-Unis du Mexique"
+        },
+        "hrv": {
+            "common": "Meksiko",
+            "official": "Sjedinjene Meksi\u010dke Dr\u017eave"
+        },
+        "ita": {
+            "common": "Messico",
+            "official": "Stati Uniti del Messico"
+        },
+        "jpn": {
+            "common": "\u30e1\u30ad\u30b7\u30b3",
+            "official": "\u30e1\u30ad\u30b7\u30b3\u5408\u8846\u56fd"
+        },
+        "nld": {
+            "common": "Mexico",
+            "official": "Verenigde Mexicaanse Staten"
+        },
+        "por": {
+            "common": "M\u00e9xico",
+            "official": "Estados Unidos Mexicanos"
+        },
+        "rus": {
+            "common": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430",
+            "official": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0445 \u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0445 \u0428\u0442\u0430\u0442\u043e\u0432"
+        },
+        "slk": {
+            "common": "Mexiko",
+            "official": "Spojen\u00e9 \u0161t\u00e1\u0161y mexick\u00e9"
+        },
+        "spa": {
+            "common": "M\u00e9xico",
+            "official": "Estados Unidos Mexicanos"
+        },
+        "zho": {
+            "common": "\u58a8\u897f\u54e5",
+            "official": "\u58a8\u897f\u54e5\u5408\u4f17\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "484",
     "wb_a2": "MX",

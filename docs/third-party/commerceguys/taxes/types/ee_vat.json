@@ -1,0 +1,44 @@
+{
+    "name": "Estonian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "ee_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "ee_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "ee_vat_standard_2004",
+                    "amount": 0.18,
+                    "start_date": "2004-05-01",
+                    "end_date": "2009-06-30"
+                },
+                {
+                    "id": "ee_vat_standard_2009",
+                    "amount": 0.2,
+                    "start_date": "2009-07-01"
+                }
+            ]
+        },
+        {
+            "id": "ee_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "ee_vat_reduced_2004",
+                    "amount": 0.05,
+                    "start_date": "2004-05-01",
+                    "end_date": "2008-12-31"
+                },
+                {
+                    "id": "ee_vat_reduced_2009",
+                    "amount": 0.09,
+                    "start_date": "2009-01-01"
+                }
+            ]
+        }
+    ]
+}

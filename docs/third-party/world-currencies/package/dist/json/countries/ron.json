@@ -1,0 +1,43 @@
+{
+    "RON": {
+        "name": "Romanian leu",
+        "iso": {
+            "code": "RON",
+            "number": "946"
+        },
+        "units": {
+            "major": {
+                "name": "leu",
+                "symbol": "lei"
+            },
+            "minor": {
+                "name": "bani",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "lei1",
+                "lei5",
+                "lei10",
+                "lei50",
+                "lei100"
+            ],
+            "rare": [
+                "lei200",
+                "lei500"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "10",
+                "50"
+            ],
+            "rare": [
+                "1",
+                "5"
+            ]
+        }
+    }
+}

@@ -8,43 +8,133 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Bolivia",
+    "alt_spellings": [
+        "BO",
+        "Buliwya",
+        "Wuliwya",
+        "Bolivia, Plurinational State of",
+        "Plurinational State of Bolivia",
+        "Estado Plurinacional de Bolivia",
+        "Buliwya Mamallaqta",
+        "Wuliwya Suyu",
+        "Tet\u00e3 Vol\u00edvia"
+    ],
     "brk_a3": "BOL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bolivia",
+    "capital": "Sucre",
     "cca2": "BO",
     "cca3": "BOL",
     "ccn3": "068",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BOL",
+    "currencies": [
+        "BOB",
+        "BOV"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Bolivian",
+    "dialling": {
+        "calling_code": [
+            "591"
+        ],
+        "international_prefix": "0010",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "010"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "BOL",
+        "cown": 145,
+        "ds": "BOL",
+        "edgar": 0,
+        "emoji": "\ud83c\udde7\ud83c\uddf4",
+        "eu_member": null,
+        "fao": 19,
+        "fifa": "BOL",
+        "fips": "BL",
+        "gaul": 33,
+        "geonameid": 3923057,
+        "imf": 218,
+        "ioc": "BOL",
+        "itu": "BOL",
+        "marc": "bo",
+        "vat_rates": null,
+        "wmo": "BO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BL",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddf4"
+    },
     "formal_en": "Plurinational State of Bolivia",
     "formal_fr": "",
     "gdp_md_est": "78350.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "South America",
+        "area": 1098581,
+        "borders": [
+            "ARG",
+            "BRA",
+            "CHL",
+            "PRY",
+            "PER"
+        ],
+        "continent": {
+            "SA": "South America"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "17 00 S",
+        "latitude_desc": "-16.713054656982422",
+        "latlng": [
+            -17,
+            -65
+        ],
+        "longitude": "65 00 W",
+        "longitude_desc": "-64.6666488647461",
+        "max_latitude": "-9.666667",
+        "max_longitude": "-57.566667",
+        "min_latitude": "-22.883333",
+        "min_longitude": "-69.6",
+        "postal_code": false,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "South America"
+        "subregion": "South America",
+        "subregion_code": "005",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Bolivia",
     "gu_a3": "BOL",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "BO",
+    "iso_3166_1_alpha3": "BOL",
+    "iso_3166_1_numeric": "068",
     "iso_a2": "BO",
     "iso_a3": "BOL",
     "iso_a3_eh": "BOL",
     "iso_n3": "068",
     "labelrank": "3.00",
+    "languages": {
+        "aym": "Aymara",
+        "grn": "Guaran\u00ed",
+        "que": "Quechua",
+        "spa": "Spanish"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +147,24 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Bolivia",
+        "native": {
+            "aym": {
+                "common": "Wuliwya",
+                "official": "Wuliwya Suyu"
+            },
+            "grn": {
+                "common": "Vol\u00edvia",
+                "official": "Tet\u00e3 Vol\u00edvia"
+            },
+            "que": {
+                "common": "Buliwya",
+                "official": "Buliwya Mamallaqta"
+            },
+            "spa": {
+                "common": "Bolivia",
+                "official": "Estado Plurinacional de Bolivia"
+            }
+        },
         "official": "Plurinational State of Bolivia"
     },
     "name_alt": "",
@@ -67,9 +175,6 @@
     "name_sort": "Bolivia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "11138234.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +187,67 @@
     "su_dif": "0.00",
     "subunit": "Bolivia",
     "tiny": "-99.00",
+    "tld": [
+        ".bo"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Bolifia",
+            "official": "Plurinational State of Bolivia"
+        },
+        "deu": {
+            "common": "Bolivien",
+            "official": "Multinationaler Staat von Bolivien"
+        },
+        "est": {
+            "common": "Boliivia",
+            "official": "Boliivia Paljurahvuseline Riik"
+        },
+        "fin": {
+            "common": "Bolivia",
+            "official": "Bolivian monikansainen valtio"
+        },
+        "fra": {
+            "common": "Bolivie",
+            "official": "\u00c9tat plurinational de Bolivie"
+        },
+        "hrv": {
+            "common": "Bolivija",
+            "official": "Plurinational State of Bolivia"
+        },
+        "ita": {
+            "common": "Bolivia",
+            "official": "Stato Plurinazionale della Bolivia"
+        },
+        "jpn": {
+            "common": "\u30dc\u30ea\u30d3\u30a2\u591a\u6c11\u65cf\u56fd",
+            "official": "\u30dc\u30ea\u30d3\u30a2\u306e\u591a\u6c11\u65cf\u56fd"
+        },
+        "nld": {
+            "common": "Bolivia",
+            "official": "Plurinationale Staat van Bolivia"
+        },
+        "por": {
+            "common": "Bol\u00edvia",
+            "official": "Estado Plurinacional da Bol\u00edvia"
+        },
+        "rus": {
+            "common": "\u0411\u043e\u043b\u0438\u0432\u0438\u044f",
+            "official": "\u041c\u043d\u043e\u0433\u043e\u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0411\u043e\u043b\u0438\u0432\u0438\u044f"
+        },
+        "slk": {
+            "common": "Bol\u00edvia",
+            "official": "Bol\u00edvijsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Bolivia",
+            "official": "Estado Plurinacional de Bolivia"
+        },
+        "zho": {
+            "common": "\u73bb\u5229\u7ef4\u4e9a",
+            "official": "\u591a\u6c11\u65cf\u73bb\u5229\u7ef4\u4e9a\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "068",
     "wb_a2": "BO",

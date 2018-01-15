@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Liechtenstein",
+    "alt_spellings": [
+        "LI",
+        "Principality of Liechtenstein",
+        "F\u00fcrstentum Liechtenstein"
+    ],
     "brk_a3": "LIE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Liechtenstein",
+    "capital": "Vaduz",
     "cca2": "LI",
     "cca3": "LIE",
     "ccn3": "438",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "LIE",
+    "currencies": [
+        "CHF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Liechtensteiner",
+    "dialling": {
+        "calling_code": [
+            "423"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": "LIE",
+        "cown": 223,
+        "ds": "FL",
+        "edgar": "N2",
+        "emoji": "\ud83c\uddf1\ud83c\uddee",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "LIE",
+        "fips": "LS",
+        "gaul": 146,
+        "geonameid": 3042058,
+        "imf": 0,
+        "ioc": "LIE",
+        "itu": "LIE",
+        "marc": "lh",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "LS",
+    "flag": {
+        "emoji": "\ud83c\uddf1\ud83c\uddee"
+    },
     "formal_en": "Principality of Liechtenstein",
     "formal_fr": "",
     "gdp_md_est": "4978.00",
     "gdp_year": "2014.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 160,
+        "borders": [
+            "AUT",
+            "CHE"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "47 16 N",
+        "latitude_desc": "47.14126968383789",
+        "latlng": [
+            47.26666666,
+            9.53333333
+        ],
+        "longitude": "9 32 E",
+        "longitude_desc": "9.552783012390137",
+        "max_latitude": "47.233333",
+        "max_longitude": "9.75",
+        "min_latitude": "47.05",
+        "min_longitude": "9.5",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Western Europe"
+        "subregion": "Western Europe",
+        "subregion_code": "155",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Liechtenstein",
     "gu_a3": "LIE",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "LI",
+    "iso_3166_1_alpha3": "LIE",
+    "iso_3166_1_numeric": "438",
     "iso_a2": "LI",
     "iso_a3": "LIE",
     "iso_a3_eh": "LIE",
     "iso_n3": "438",
     "labelrank": "6.00",
+    "languages": {
+        "deu": "German"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "13.00",
@@ -57,6 +134,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Liechtenstein",
+        "native": {
+            "deu": {
+                "common": "Liechtenstein",
+                "official": "F\u00fcrstentum Liechtenstein"
+            }
+        },
         "official": "Principality of Liechtenstein"
     },
     "name_alt": "",
@@ -67,9 +150,6 @@
     "name_sort": "Liechtenstein",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "38244.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
@@ -82,6 +162,63 @@
     "su_dif": "0.00",
     "subunit": "Liechtenstein",
     "tiny": "6.00",
+    "tld": [
+        ".li"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Liechtenstein",
+            "official": "F\u00fcrstentum Liechtenstein"
+        },
+        "est": {
+            "common": "Liechtenstein",
+            "official": "Liechtensteini V\u00fcrstiriik"
+        },
+        "fin": {
+            "common": "Liechenstein",
+            "official": "Liechensteinin ruhtinaskunta"
+        },
+        "fra": {
+            "common": "Liechtenstein",
+            "official": "Principaut\u00e9 du Liechtenstein"
+        },
+        "hrv": {
+            "common": "Lihten\u0161tajn",
+            "official": "Kne\u017eevina Lihten\u0161tajn"
+        },
+        "ita": {
+            "common": "Liechtenstein",
+            "official": "Principato del Liechtenstein"
+        },
+        "jpn": {
+            "common": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3",
+            "official": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3\u516c\u56fd"
+        },
+        "nld": {
+            "common": "Liechtenstein",
+            "official": "Vorstendom Liechtenstein"
+        },
+        "por": {
+            "common": "Liechtenstein",
+            "official": "Principado de Liechtenstein"
+        },
+        "rus": {
+            "common": "\u041b\u0438\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d",
+            "official": "\u041a\u043d\u044f\u0436\u0435\u0441\u0442\u0432\u043e \u041b\u0438\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d"
+        },
+        "slk": {
+            "common": "Lichten\u0161tajnsko",
+            "official": "Lichten\u0161tajnsk\u00e9 knie\u017eatstvo"
+        },
+        "spa": {
+            "common": "Liechtenstein",
+            "official": "Principado de Liechtenstein"
+        },
+        "zho": {
+            "common": "\u5217\u652f\u6566\u58eb\u767b",
+            "official": "\u5217\u652f\u6566\u58eb\u767b\u516c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "438",
     "wb_a2": "LI",

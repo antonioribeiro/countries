@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Burkina Faso",
+    "alt_spellings": [
+        "BF"
+    ],
     "brk_a3": "BFA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Burkina Faso",
+    "capital": "Ouagadougou",
     "cca2": "BF",
     "cca3": "BFA",
     "ccn3": "854",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BUR",
+    "currencies": [
+        "XOF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Burkinabe",
+    "dialling": {
+        "calling_code": [
+            "226"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "BFO",
+        "cown": 439,
+        "ds": "BF",
+        "edgar": "X2",
+        "emoji": "\ud83c\udde7\ud83c\uddeb",
+        "eu_member": null,
+        "fao": 233,
+        "fifa": "BFA",
+        "fips": "UV",
+        "gaul": 42,
+        "geonameid": 2361809,
+        "imf": 748,
+        "ioc": "BUR",
+        "itu": "BFA",
+        "marc": "uv",
+        "vat_rates": null,
+        "wmo": "HV"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "UV",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddeb"
+    },
     "formal_en": "Burkina Faso",
     "formal_fr": "",
     "gdp_md_est": "32990.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 272967,
+        "borders": [
+            "BEN",
+            "CIV",
+            "GHA",
+            "MLI",
+            "NER",
+            "TGO"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "13 00 N",
+        "latitude_desc": "12.284985542297363",
+        "latlng": [
+            13,
+            -2
+        ],
+        "longitude": "2 00 W",
+        "longitude_desc": "-1.745560646057129",
+        "max_latitude": "14.983333",
+        "max_longitude": "2.2655",
+        "min_latitude": "9.45",
+        "min_longitude": "-5.466667",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Burkina Faso",
     "gu_a3": "BFA",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "BF",
+    "iso_3166_1_alpha3": "BFA",
+    "iso_3166_1_numeric": "854",
     "iso_a2": "BF",
     "iso_a3": "BFA",
     "iso_a3_eh": "BFA",
     "iso_n3": "854",
     "labelrank": "3.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "12.00",
@@ -57,6 +136,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Burkina Faso",
+        "native": {
+            "fra": {
+                "common": "Burkina Faso",
+                "official": "R\u00e9publique du Burkina"
+            }
+        },
         "official": "Burkina Faso"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "Burkina Faso",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "20107509.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +164,67 @@
     "su_dif": "0.00",
     "subunit": "Burkina Faso",
     "tiny": "-99.00",
+    "tld": [
+        ".bf"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "deu": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "est": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "fin": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "fra": {
+            "common": "Burkina Faso",
+            "official": "R\u00e9publique du Burkina"
+        },
+        "hrv": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "ita": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "jpn": {
+            "common": "\u30d6\u30eb\u30ad\u30ca\u30d5\u30a1\u30bd",
+            "official": "\u30d6\u30eb\u30ad\u30ca\u30d5\u30a1\u30bd"
+        },
+        "nld": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "por": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "rus": {
+            "common": "\u0411\u0443\u0440\u043a\u0438\u043d\u0430-\u0424\u0430\u0441\u043e",
+            "official": "\u0411\u0443\u0440\u043a\u0438\u043d\u0430 -\u0424\u0430\u0441\u043e"
+        },
+        "slk": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "spa": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
+        "zho": {
+            "common": "\u5e03\u57fa\u7eb3\u6cd5\u7d22",
+            "official": "\u5e03\u57fa\u7eb3\u6cd5\u7d22"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "854",
     "wb_a2": "BF",

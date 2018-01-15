@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Nauru",
+    "alt_spellings": [
+        "NR",
+        "Naoero",
+        "Pleasant Island",
+        "Republic of Nauru",
+        "Ripublik Naoero"
+    ],
     "brk_a3": "NRU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Nauru",
+    "capital": "Yaren",
     "cca2": "NR",
     "cca3": "NRU",
     "ccn3": "520",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "NRU",
+    "currencies": [
+        "AUD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Nauruan",
+    "dialling": {
+        "calling_code": [
+            "674"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "NAU",
+        "cown": 970,
+        "ds": "NAU",
+        "edgar": "P5",
+        "emoji": "\ud83c\uddf3\ud83c\uddf7",
+        "eu_member": null,
+        "fao": 148,
+        "fifa": "NRU",
+        "fips": "NR",
+        "gaul": 173,
+        "geonameid": 2110425,
+        "imf": 836,
+        "ioc": "NRU",
+        "itu": "NRU",
+        "marc": "nu",
+        "vat_rates": null,
+        "wmo": "NW"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "NR",
+    "flag": {
+        "emoji": "\ud83c\uddf3\ud83c\uddf7"
+    },
     "formal_en": "Republic of Nauru",
     "formal_fr": "",
     "gdp_md_est": "150.80",
     "gdp_year": "2015.00",
     "geo": {
+        "area": 21,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "0 32 S",
+        "latitude_desc": "-0.5316064953804016",
+        "latlng": [
+            -0.53333333,
+            166.91666666
+        ],
+        "longitude": "166 55 E",
+        "longitude_desc": "166.9364013671875",
+        "max_latitude": "-0.5",
+        "max_longitude": "166.95",
+        "min_latitude": "-0.55",
+        "min_longitude": "166.916667",
+        "postal_code": false,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Micronesia"
+        "subregion": "Micronesia",
+        "subregion_code": "057",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Nauru",
     "gu_a3": "NRU",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "NR",
+    "iso_3166_1_alpha3": "NRU",
+    "iso_3166_1_numeric": "520",
     "iso_a2": "NR",
     "iso_a3": "NRU",
     "iso_a3_eh": "NRU",
     "iso_n3": "520",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English",
+        "nau": "Nauru"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +134,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Nauru",
+        "native": {
+            "eng": {
+                "common": "Nauru",
+                "official": "Republic of Nauru"
+            },
+            "nau": {
+                "common": "Nauru",
+                "official": "Republic of Nauru"
+            }
+        },
         "official": "Republic of Nauru"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Nauru",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "9642.00",
     "pop_rank": "5.00",
     "pop_year": "2017.00",
@@ -82,6 +166,63 @@
     "su_dif": "0.00",
     "subunit": "Nauru",
     "tiny": "3.00",
+    "tld": [
+        ".nr"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Nauru",
+            "official": "Republik Nauru"
+        },
+        "est": {
+            "common": "Nauru",
+            "official": "Nauru Vabariik"
+        },
+        "fin": {
+            "common": "Nauru",
+            "official": "Naurun tasavalta"
+        },
+        "fra": {
+            "common": "Nauru",
+            "official": "R\u00e9publique de Nauru"
+        },
+        "hrv": {
+            "common": "Nauru",
+            "official": "Republika Nauru"
+        },
+        "ita": {
+            "common": "Nauru",
+            "official": "Repubblica di Nauru"
+        },
+        "jpn": {
+            "common": "\u30ca\u30a6\u30eb",
+            "official": "\u30ca\u30a6\u30eb\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Nauru",
+            "official": "Republiek Nauru"
+        },
+        "por": {
+            "common": "Nauru",
+            "official": "Rep\u00fablica de Nauru"
+        },
+        "rus": {
+            "common": "\u041d\u0430\u0443\u0440\u0443",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041d\u0430\u0443\u0440\u0443"
+        },
+        "slk": {
+            "common": "Nauru",
+            "official": "Naursk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Nauru",
+            "official": "Rep\u00fablica de Nauru"
+        },
+        "zho": {
+            "common": "\u7459\u9c81",
+            "official": "\u7459\u9c81\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "520",
     "wb_a2": "-99",

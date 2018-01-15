@@ -1,0 +1,13 @@
+{
+    "name": "Portugal (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "pt_vat_0",
+            "name": "Portugal (ex. Azores and Madeira)",
+            "country_code": "PT",
+            "excluded_postal_codes": "\/(9)[0-9]{3}-[0-9]{3}\/"
+        }
+    ]
+}

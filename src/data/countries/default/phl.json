@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Philippines",
+    "alt_spellings": [
+        "PH",
+        "Republic of the Philippines",
+        "Rep\u00fablika ng Pilipinas"
+    ],
     "brk_a3": "PHL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Philippines",
+    "capital": "Manila",
     "cca2": "PH",
     "cca3": "PHL",
     "ccn3": "608",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "PHI",
+    "currencies": [
+        "PHP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Filipino",
+    "dialling": {
+        "calling_code": [
+            "63"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9,
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": "{{recipient}}{{street}} {{region_short}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "ASIA",
+        "cowc": "PHI",
+        "cown": 840,
+        "ds": "RP",
+        "edgar": "R6",
+        "emoji": "\ud83c\uddf5\ud83c\udded",
+        "eu_member": null,
+        "fao": 171,
+        "fifa": "PHI",
+        "fips": "RP",
+        "gaul": 196,
+        "geonameid": 1694008,
+        "imf": 566,
+        "ioc": "PHI",
+        "itu": "PHL",
+        "marc": "ph",
+        "vat_rates": null,
+        "wmo": "PH"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "RP",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\udded"
+    },
     "formal_en": "Republic of the Philippines",
     "formal_fr": "",
     "gdp_md_est": "801900.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 342353,
         "borders": [],
-        "continent": "Asia",
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "13 00 N",
+        "latitude_desc": "11.112666130065918",
+        "latlng": [
+            13,
+            122
+        ],
+        "longitude": "122 00 E",
+        "longitude_desc": "122.50947570800781",
+        "max_latitude": "21.113056",
+        "max_longitude": "126.604444",
+        "min_latitude": "4.588889",
+        "min_longitude": "116.65",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "South-Eastern Asia"
+        "subregion": "South-Eastern Asia",
+        "subregion_code": "035",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Philippines",
     "gu_a3": "PHL",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "PH",
+    "iso_3166_1_alpha3": "PHL",
+    "iso_3166_1_numeric": "608",
     "iso_a2": "PH",
     "iso_a3": "PHL",
     "iso_a3_eh": "PHL",
     "iso_n3": "608",
     "labelrank": "2.00",
+    "languages": {
+        "eng": "English",
+        "fil": "Filipino"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "11.00",
@@ -57,6 +134,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Philippines",
+        "native": {
+            "eng": {
+                "common": "Philippines",
+                "official": "Republic of the Philippines"
+            },
+            "fil": {
+                "common": "Pilipinas",
+                "official": "Republic of the Philippines"
+            }
+        },
         "official": "Republic of the Philippines"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Philippines",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "104256076.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
@@ -82,6 +166,63 @@
     "su_dif": "0.00",
     "subunit": "Philippines",
     "tiny": "-99.00",
+    "tld": [
+        ".ph"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Philippinen",
+            "official": "Republik der Philippinen"
+        },
+        "est": {
+            "common": "Filipiinid",
+            "official": "Filipiini Vabariik"
+        },
+        "fin": {
+            "common": "Filippiinit",
+            "official": "Filippiinien tasavalta"
+        },
+        "fra": {
+            "common": "Philippines",
+            "official": "R\u00e9publique des Philippines"
+        },
+        "hrv": {
+            "common": "Filipini",
+            "official": "Republika Filipini"
+        },
+        "ita": {
+            "common": "Filippine",
+            "official": "Repubblica delle Filippine"
+        },
+        "jpn": {
+            "common": "\u30d5\u30a3\u30ea\u30d4\u30f3",
+            "official": "\u30d5\u30a3\u30ea\u30d4\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Filipijnen",
+            "official": "Republiek der Filipijnen"
+        },
+        "por": {
+            "common": "Filipinas",
+            "official": "Rep\u00fablica das Filipinas"
+        },
+        "rus": {
+            "common": "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b"
+        },
+        "slk": {
+            "common": "Filip\u00edny",
+            "official": "Filip\u00ednska republika"
+        },
+        "spa": {
+            "common": "Filipinas",
+            "official": "Rep\u00fablica de las Filipinas"
+        },
+        "zho": {
+            "common": "\u83f2\u5f8b\u5bbe",
+            "official": "\u83f2\u5f8b\u5bbe\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "608",
     "wb_a2": "PH",

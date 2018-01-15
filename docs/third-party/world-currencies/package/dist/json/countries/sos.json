@@ -1,0 +1,45 @@
+{
+    "SOS": {
+        "name": "Somali Shilling",
+        "iso": {
+            "code": "SOS",
+            "number": "706"
+        },
+        "units": {
+            "major": {
+                "name": "shilling",
+                "symbol": "S"
+            },
+            "minor": {
+                "name": "senti",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "S5",
+                "S10",
+                "S20",
+                "S50",
+                "S100"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "S1",
+                "S5",
+                "S10",
+                "S20",
+                "S50",
+                "S100",
+                "1",
+                "5",
+                "10",
+                "50"
+            ],
+            "rare": []
+        }
+    }
+}

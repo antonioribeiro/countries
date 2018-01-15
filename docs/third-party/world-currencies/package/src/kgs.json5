@@ -1,0 +1,52 @@
+{
+    "KGS": {
+        "name": "Kyrgyzstani som",
+        "iso": {
+            "code": "KGS",
+            "number": "417"
+        },
+        "units": {
+            "major": {
+                "name": "som",
+                "symbol": "лв"
+            },
+            "minor": {
+                "name": "tyiyn",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "лв20",
+                "лв50",
+                "лв100",
+                "лв200",
+                "лв500",
+                "лв1000",
+                "лв5000"
+            ],
+            "rare": [
+                "1tyiyn",
+                "10tyiyn",
+                "50tyiyn",
+                "лв1",
+                "лв5",
+                "лв10"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "лв1",
+                "лв3",
+                "лв5",
+                "лв10"
+            ],
+            "rare": [
+                "1tyiyn",
+                "10tyiyn",
+                "50tyiyn",
+            ]
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "NIO": {
+        "name": "Nicaraguan córdoba",
+        "iso": {
+            "code": "NIO",
+            "number": "558"
+        },
+        "units": {
+            "major": {
+                "name": "córdoba",
+                "symbol": "C$"
+            },
+            "minor": {
+                "name": "centavo",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "C$10",
+                "C$20",
+                "C$50",
+                "C$100",
+                "C$200",
+                "C$500"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "5",
+                "10",
+                "25",
+                "50",
+                "C$1",
+                "C$5",
+                "C$10"
+            ],
+            "rare": []
+        }
+    }
+}

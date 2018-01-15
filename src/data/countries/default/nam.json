@@ -8,43 +8,132 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Namibia",
+    "alt_spellings": [
+        "NA",
+        "Namibi\u00eb",
+        "Republic of Namibia"
+    ],
     "brk_a3": "NAM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Namibia",
+    "capital": "Windhoek",
     "cca2": "NA",
     "cca3": "NAM",
     "ccn3": "516",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "NAM",
+    "currencies": [
+        "NAD",
+        "ZAR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Namibian",
+    "dialling": {
+        "calling_code": [
+            "264"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6,
+            7
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "NAM",
+        "cown": 565,
+        "ds": "NAM",
+        "edgar": "T6",
+        "emoji": "\ud83c\uddf3\ud83c\udde6",
+        "eu_member": null,
+        "fao": 147,
+        "fifa": "NAM",
+        "fips": "WA",
+        "gaul": 172,
+        "geonameid": 3355338,
+        "imf": 728,
+        "ioc": "NAM",
+        "itu": "NMB",
+        "marc": "sx",
+        "vat_rates": null,
+        "wmo": "NM"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "WA",
+    "flag": {
+        "emoji": "\ud83c\uddf3\ud83c\udde6"
+    },
     "formal_en": "Republic of Namibia",
     "formal_fr": "",
     "gdp_md_est": "25990.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 825615,
+        "borders": [
+            "AGO",
+            "BWA",
+            "ZAF",
+            "ZMB"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "22 00 S",
+        "latitude_desc": "-22.150699615478516",
+        "latlng": [
+            -22,
+            17
+        ],
+        "longitude": "17 00 E",
+        "longitude_desc": "17.177526473999023",
+        "max_latitude": "-16.983333",
+        "max_longitude": "25.25",
+        "min_latitude": "-28.933333",
+        "min_longitude": "12.016667",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Southern Africa"
+        "subregion": "Southern Africa",
+        "subregion_code": "018",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Namibia",
     "gu_a3": "NAM",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "NA",
+    "iso_3166_1_alpha3": "NAM",
+    "iso_3166_1_numeric": "516",
     "iso_a2": "NA",
     "iso_a3": "NAM",
     "iso_a3_eh": "NAM",
     "iso_n3": "516",
     "labelrank": "3.00",
+    "languages": {
+        "afr": "Afrikaans",
+        "deu": "German",
+        "eng": "English",
+        "her": "Herero",
+        "hgm": "Khoekhoe",
+        "kwn": "Kwangali",
+        "loz": "Lozi",
+        "ndo": "Ndonga",
+        "tsn": "Tswana"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +146,44 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Namibia",
+        "native": {
+            "afr": {
+                "common": "Namibi\u00eb",
+                "official": "Republiek van Namibi\u00eb"
+            },
+            "deu": {
+                "common": "Namibia",
+                "official": "Republik Namibia"
+            },
+            "eng": {
+                "common": "Namibia",
+                "official": "Republic of Namibia"
+            },
+            "her": {
+                "common": "Namibia",
+                "official": "Republic of Namibia"
+            },
+            "hgm": {
+                "common": "Namibia",
+                "official": "Republic of Namibia"
+            },
+            "kwn": {
+                "common": "Namibia",
+                "official": "Republic of Namibia"
+            },
+            "loz": {
+                "common": "Namibia",
+                "official": "Republic of Namibia"
+            },
+            "ndo": {
+                "common": "Namibia",
+                "official": "Republic of Namibia"
+            },
+            "tsn": {
+                "common": "Namibia",
+                "official": "Lefatshe la Namibia"
+            }
+        },
         "official": "Republic of Namibia"
     },
     "name_alt": "",
@@ -67,9 +194,6 @@
     "name_sort": "Namibia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "2484780.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +206,63 @@
     "su_dif": "0.00",
     "subunit": "Namibia",
     "tiny": "-99.00",
+    "tld": [
+        ".na"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Namibia",
+            "official": "Republik Namibia"
+        },
+        "est": {
+            "common": "Namiibia",
+            "official": "Namiibia Vabariik"
+        },
+        "fin": {
+            "common": "Namibia",
+            "official": "Namibian tasavalta"
+        },
+        "fra": {
+            "common": "Namibie",
+            "official": "R\u00e9publique de Namibie"
+        },
+        "hrv": {
+            "common": "Namibija",
+            "official": "Republika Namibija"
+        },
+        "ita": {
+            "common": "Namibia",
+            "official": "Repubblica di Namibia"
+        },
+        "jpn": {
+            "common": "\u30ca\u30df\u30d3\u30a2",
+            "official": "\u30ca\u30df\u30d3\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Namibi\u00eb",
+            "official": "Republiek Namibi\u00eb"
+        },
+        "por": {
+            "common": "Nam\u00edbia",
+            "official": "Rep\u00fablica da Nam\u00edbia"
+        },
+        "rus": {
+            "common": "\u041d\u0430\u043c\u0438\u0431\u0438\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041d\u0430\u043c\u0438\u0431\u0438\u044f"
+        },
+        "slk": {
+            "common": "Nam\u00edbia",
+            "official": "Nam\u00edbijsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Namibia",
+            "official": "Rep\u00fablica de Namibia"
+        },
+        "zho": {
+            "common": "\u7eb3\u7c73\u6bd4\u4e9a",
+            "official": "\u7eb3\u7c73\u6bd4\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "516",
     "wb_a2": "NA",

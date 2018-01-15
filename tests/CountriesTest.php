@@ -4,7 +4,6 @@ namespace PragmaRX\Countries\Tests\Service;
 
 use PragmaRX\Countries\Tests\TestCase;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Facade as Countries;
 
 class CountriesTest extends TestCase
@@ -137,6 +136,11 @@ class CountriesTest extends TestCase
     public function testCurrencies()
     {
         $this->assertEquals(Countries::currencies()->count(), 153);
+
+        $this->assertEquals(
+            'CHF1000',
+            Countries::where('cca3', 'CHE')->first()->hydrate('currencies')->currencies->chf->banknotes->frequent->last()
+        );
     }
 
     public function testTimezones()
@@ -349,21 +353,3 @@ class CountriesTest extends TestCase
         );
     }
 }
-
-//There were 2 failures:
-//2) PragmaRX\Countries\Tests\Service\CountriesTest::
-//Failed asserting that two arrays are equal.
-//--- Expected
-//+++ Actual
-//@@ @@
-//Array (
-//    'CHE' => Array ()
-//     'CHF' => Array (
-//    -        'CHF' => Array (...)
-//+        'banknotes' => Array (...)
-//+        'coins' => Array (...)
-//+        'data_sources' => Array (...)
-//+        'iso' => Array (...)
-//+        'name' => 'Swiss Franc'
-//+        'record_type' => 'currency'
-//+        'units' => Array (...)

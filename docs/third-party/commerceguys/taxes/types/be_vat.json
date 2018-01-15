@@ -1,0 +1,54 @@
+{
+    "name": "Belgian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "be_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "be_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "be_vat_standard_1996",
+                    "amount": 0.21,
+                    "start_date": "1996-01-01"
+                }
+            ]
+        },
+        {
+            "id": "be_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "be_vat_intermediate_1992",
+                    "amount": 0.12,
+                    "start_date": "1992-04-01"
+                }
+            ]
+        },
+        {
+            "id": "be_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "be_vat_reduced_1971",
+                    "amount": 0.06,
+                    "start_date": "1971-01-01"
+                }
+            ]
+        },
+        {
+            "id": "be_vat_zero",
+            "name": "Zero",
+            "amounts": [
+                {
+                    "id": "be_vat_zero",
+                    "amount": 0,
+                    "start_date": "1971-01-01"
+                }
+            ]
+        }
+    ]
+}

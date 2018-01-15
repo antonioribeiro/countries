@@ -1,0 +1,20 @@
+{
+    "name": "Germany (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "de_vat_0",
+            "name": "Germany (ex. Heligoland and Büsingen)",
+            "country_code": "DE",
+            "excluded_postal_codes": "27498, 78266"
+        },
+        {
+            "type": "country",
+            "id": "de_vat_1",
+            "name": "Austria (Jungholz and Mittelberg)",
+            "country_code": "AT",
+            "included_postal_codes": "6691, 6991:6993"
+        }
+    ]
+}

@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "South Korea",
+    "alt_spellings": [
+        "KR",
+        "Korea, Republic of",
+        "Republic of Korea"
+    ],
     "brk_a3": "KOR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Republic of Korea",
+    "capital": "Seoul",
     "cca2": "KR",
     "cca3": "KOR",
     "ccn3": "410",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "KOR",
+    "currencies": [
+        "KRW"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "South Korean",
+    "dialling": {
+        "calling_code": [
+            "82"
+        ],
+        "international_prefix": "001",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "4. Emerging region: MIKT",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{city}} {{region_short}}{{postalcode}}{{country}}",
+        "ar5": 0,
+        "cowc": "ROK",
+        "cown": 732,
+        "ds": "ROK",
+        "edgar": 0,
+        "emoji": "\ud83c\uddf0\ud83c\uddf7",
+        "eu_member": null,
+        "fao": 117,
+        "fifa": "KOR",
+        "fips": "KS",
+        "gaul": 202,
+        "geonameid": 1835841,
+        "imf": 542,
+        "ioc": "KOR",
+        "itu": "KOR",
+        "marc": "ko",
+        "vat_rates": null,
+        "wmo": "KO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "KS",
+    "flag": {
+        "emoji": "\ud83c\uddf0\ud83c\uddf7"
+    },
     "formal_en": "Republic of Korea",
     "formal_fr": "",
     "gdp_md_est": "1929000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 100210,
+        "borders": [
+            "PRK"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "37 00 N",
+        "latitude_desc": "40.077640533447266",
+        "latlng": [
+            37,
+            127.5
+        ],
+        "longitude": "127 30 E",
+        "longitude_desc": "127.13385009765625",
+        "max_latitude": "38.586667",
+        "max_longitude": "131.866667",
+        "min_latitude": "33.1175",
+        "min_longitude": "124.612222",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Eastern Asia"
+        "subregion": "Eastern Asia",
+        "subregion_code": "030",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "South Korea",
     "gu_a3": "KOR",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "KR",
+    "iso_3166_1_alpha3": "KOR",
+    "iso_3166_1_numeric": "410",
     "iso_a2": "KR",
     "iso_a3": "KOR",
     "iso_a3_eh": "KOR",
     "iso_n3": "410",
     "labelrank": "2.00",
+    "languages": {
+        "kor": "Korean"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "17.00",
@@ -57,6 +134,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "South Korea",
+        "native": {
+            "kor": {
+                "common": "\ub300\ud55c\ubbfc\uad6d",
+                "official": "\ud55c\uad6d"
+            }
+        },
         "official": "Republic of Korea"
     },
     "name_alt": "",
@@ -67,9 +150,6 @@
     "name_sort": "Korea, Rep.",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "51181299.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
@@ -82,6 +162,64 @@
     "su_dif": "0.00",
     "subunit": "South Korea",
     "tiny": "-99.00",
+    "tld": [
+        ".kr",
+        ".\ud55c\uad6d"
+    ],
+    "translations": {
+        "deu": {
+            "common": "S\u00fcdkorea",
+            "official": "Republik Korea"
+        },
+        "est": {
+            "common": "L\u00f5una-Korea",
+            "official": "Korea Vabariik"
+        },
+        "fin": {
+            "common": "Etel\u00e4-Korea",
+            "official": "Korean tasavalta"
+        },
+        "fra": {
+            "common": "Cor\u00e9e du Sud",
+            "official": "R\u00e9publique de Cor\u00e9e"
+        },
+        "hrv": {
+            "common": "Ju\u017ena Koreja",
+            "official": "Republika Koreja"
+        },
+        "ita": {
+            "common": "Corea del Sud",
+            "official": "Repubblica di Corea"
+        },
+        "jpn": {
+            "common": "\u5927\u97d3\u6c11\u56fd",
+            "official": "\u5927\u97d3\u6c11\u56fd"
+        },
+        "nld": {
+            "common": "Zuid-Korea",
+            "official": "Republiek Korea"
+        },
+        "por": {
+            "common": "Coreia do Sul",
+            "official": "Rep\u00fablica da Coreia"
+        },
+        "rus": {
+            "common": "\u042e\u0436\u043d\u0430\u044f \u041a\u043e\u0440\u0435\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0440\u0435\u044f"
+        },
+        "slk": {
+            "common": "Ju\u017en\u00e1 K\u00f3rea",
+            "official": "K\u00f3rejsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Corea del Sur",
+            "official": "Rep\u00fablica de Corea"
+        },
+        "zho": {
+            "common": "\u97e9\u56fd",
+            "official": "\u5927\u97e9\u6c11\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "410",
     "wb_a2": "KR",

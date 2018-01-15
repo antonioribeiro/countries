@@ -8,43 +8,123 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Botswana",
+    "alt_spellings": [
+        "BW",
+        "Republic of Botswana",
+        "Lefatshe la Botswana"
+    ],
     "brk_a3": "BWA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Botswana",
+    "capital": "Gaborone",
     "cca2": "BW",
     "cca3": "BWA",
     "ccn3": "072",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BOT",
+    "currencies": [
+        "BWP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Motswana",
+    "dialling": {
+        "calling_code": [
+            "267"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "BOT",
+        "cown": 571,
+        "ds": "BW",
+        "edgar": "B1",
+        "emoji": "\ud83c\udde7\ud83c\uddfc",
+        "eu_member": null,
+        "fao": 20,
+        "fifa": "BOT",
+        "fips": "BC",
+        "gaul": 35,
+        "geonameid": 933860,
+        "imf": 616,
+        "ioc": "BOT",
+        "itu": "BOT",
+        "marc": "bs",
+        "vat_rates": null,
+        "wmo": "BC"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BC",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddfc"
+    },
     "formal_en": "Republic of Botswana",
     "formal_fr": "",
     "gdp_md_est": "35900.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 582000,
+        "borders": [
+            "NAM",
+            "ZAF",
+            "ZMB",
+            "ZWE"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "22 00 S",
+        "latitude_desc": "-22.186752319335938",
+        "latlng": [
+            -22,
+            24
+        ],
+        "longitude": "24 00 E",
+        "longitude_desc": "23.81494140625",
+        "max_latitude": "-17.833333",
+        "max_longitude": "29.016667",
+        "min_latitude": "-26.833333",
+        "min_longitude": "20",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Southern Africa"
+        "subregion": "Southern Africa",
+        "subregion_code": "018",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Botswana",
     "gu_a3": "BWA",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "BW",
+    "iso_3166_1_alpha3": "BWA",
+    "iso_3166_1_numeric": "072",
     "iso_a2": "BW",
     "iso_a3": "BWA",
     "iso_a3_eh": "BWA",
     "iso_n3": "072",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English",
+        "tsn": "Tswana"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +137,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Botswana",
+        "native": {
+            "eng": {
+                "common": "Botswana",
+                "official": "Republic of Botswana"
+            },
+            "tsn": {
+                "common": "Botswana",
+                "official": "Lefatshe la Botswana"
+            }
+        },
         "official": "Republic of Botswana"
     },
     "name_alt": "",
@@ -67,9 +157,6 @@
     "name_sort": "Botswana",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "2214858.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +169,63 @@
     "su_dif": "0.00",
     "subunit": "Botswana",
     "tiny": "-99.00",
+    "tld": [
+        ".bw"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Botswana",
+            "official": "Republik Botsuana"
+        },
+        "est": {
+            "common": "Botswana",
+            "official": "Botswana Vabariik"
+        },
+        "fin": {
+            "common": "Botswana",
+            "official": "Botswanan tasavalta"
+        },
+        "fra": {
+            "common": "Botswana",
+            "official": "R\u00e9publique du Botswana"
+        },
+        "hrv": {
+            "common": "Bocvana",
+            "official": "Republika Bocvana"
+        },
+        "ita": {
+            "common": "Botswana",
+            "official": "Repubblica del Botswana"
+        },
+        "jpn": {
+            "common": "\u30dc\u30c4\u30ef\u30ca",
+            "official": "\u30dc\u30c4\u30ef\u30ca\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Botswana",
+            "official": "Republiek Botswana"
+        },
+        "por": {
+            "common": "Botswana",
+            "official": "Rep\u00fablica do Botswana"
+        },
+        "rus": {
+            "common": "\u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430"
+        },
+        "slk": {
+            "common": "Botswana",
+            "official": "Botswansk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Botswana",
+            "official": "Rep\u00fablica de Botswana"
+        },
+        "zho": {
+            "common": "\u535a\u8328\u74e6\u7eb3",
+            "official": "\u535a\u8328\u74e6\u7eb3\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "072",
     "wb_a2": "BW",

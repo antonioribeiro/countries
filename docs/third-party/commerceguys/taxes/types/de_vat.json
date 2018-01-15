@@ -1,0 +1,32 @@
+{
+    "name": "German VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "de_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "de_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "de_vat_standard_2007",
+                    "amount": 0.19,
+                    "start_date": "2007-01-01"
+                }
+            ]
+        },
+        {
+            "id": "de_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "de_vat_reduced_1983",
+                    "amount": 0.07,
+                    "start_date": "1983-07-01"
+                }
+            ]
+        }
+    ]
+}

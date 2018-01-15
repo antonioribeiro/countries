@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mongolia",
+    "alt_spellings": [
+        "MN"
+    ],
     "brk_a3": "MNG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mongolia",
+    "capital": "Ulan Bator",
     "cca2": "MN",
     "cca3": "MNG",
     "ccn3": "496",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MGL",
+    "currencies": [
+        "MNT"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Mongolian",
+    "dialling": {
+        "calling_code": [
+            "976"
+        ],
+        "international_prefix": "001",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8,
+            9,
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "MON",
+        "cown": 712,
+        "ds": "MGL",
+        "edgar": "P0",
+        "emoji": "\ud83c\uddf2\ud83c\uddf3",
+        "eu_member": null,
+        "fao": 141,
+        "fifa": "MNG",
+        "fips": "MG",
+        "gaul": 167,
+        "geonameid": 2029969,
+        "imf": 948,
+        "ioc": "MGL",
+        "itu": "MNG",
+        "marc": "mp",
+        "vat_rates": null,
+        "wmo": "MO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MG",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddf3"
+    },
     "formal_en": "Mongolia",
     "formal_fr": "",
     "gdp_md_est": "37000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 1564110,
+        "borders": [
+            "CHN",
+            "RUS"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "46 00 N",
+        "latitude_desc": "46.83647918701172",
+        "latlng": [
+            46,
+            105
+        ],
+        "longitude": "105 00 E",
+        "longitude_desc": "103.06689453125",
+        "max_latitude": "52.1",
+        "max_longitude": "119.916667",
+        "min_latitude": "41.55",
+        "min_longitude": "87.783333",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Eastern Asia"
+        "subregion": "Eastern Asia",
+        "subregion_code": "030",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Mongolia",
     "gu_a3": "MNG",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "MN",
+    "iso_3166_1_alpha3": "MNG",
+    "iso_3166_1_numeric": "496",
     "iso_a2": "MN",
     "iso_a3": "MNG",
     "iso_a3_eh": "MNG",
     "iso_n3": "496",
     "labelrank": "3.00",
+    "languages": {
+        "mon": "Mongolian"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +135,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mongolia",
+        "native": {
+            "mon": {
+                "common": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441",
+                "official": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441"
+            }
+        },
         "official": "Mongolia"
     },
     "name_alt": "",
@@ -67,9 +151,6 @@
     "name_sort": "Mongolia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "3068243.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +163,63 @@
     "su_dif": "0.00",
     "subunit": "Mongolia",
     "tiny": "-99.00",
+    "tld": [
+        ".mn"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Mongolei",
+            "official": "Mongolei"
+        },
+        "est": {
+            "common": "Mongoolia",
+            "official": "Mongoolia"
+        },
+        "fin": {
+            "common": "Mongolia",
+            "official": "Mongolian tasavalta"
+        },
+        "fra": {
+            "common": "Mongolie",
+            "official": "Mongolie"
+        },
+        "hrv": {
+            "common": "Mongolija",
+            "official": "Mongolija"
+        },
+        "ita": {
+            "common": "Mongolia",
+            "official": "Mongolia"
+        },
+        "jpn": {
+            "common": "\u30e2\u30f3\u30b4\u30eb",
+            "official": "\u30e2\u30f3\u30b4\u30eb"
+        },
+        "nld": {
+            "common": "Mongoli\u00eb",
+            "official": "Mongoli\u00eb"
+        },
+        "por": {
+            "common": "Mong\u00f3lia",
+            "official": "Mong\u00f3lia"
+        },
+        "rus": {
+            "common": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f",
+            "official": "\u041c\u043e\u043d\u0433\u043e\u043b\u0438\u044f"
+        },
+        "slk": {
+            "common": "Mongolsko",
+            "official": "Mongolsko"
+        },
+        "spa": {
+            "common": "Mongolia",
+            "official": "Mongolia"
+        },
+        "zho": {
+            "common": "\u8499\u53e4",
+            "official": "\u8499\u53e4"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "496",
     "wb_a2": "MN",

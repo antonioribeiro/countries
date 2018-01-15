@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Somalia",
+    "alt_spellings": [
+        "SO",
+        "a\u1e63-\u1e62\u016bm\u0101l",
+        "Federal Republic of Somalia",
+        "Jamhuuriyadda Federaalka Soomaaliya",
+        "Jumh\u016briyyat a\u1e63-\u1e62\u016bm\u0101l al-Fider\u0101liyya"
+    ],
     "brk_a3": "SOM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Somalia",
+    "capital": "Mogadishu",
     "cca2": "SO",
     "cca3": "SOM",
     "ccn3": "706",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SOM",
+    "currencies": [
+        "SOS"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Somali",
+    "dialling": {
+        "calling_code": [
+            "252"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "SOM",
+        "cown": 520,
+        "ds": "SO",
+        "edgar": "U1",
+        "emoji": "\ud83c\uddf8\ud83c\uddf4",
+        "eu_member": null,
+        "fao": 201,
+        "fifa": "SOM",
+        "fips": "SO",
+        "gaul": 226,
+        "geonameid": 51537,
+        "imf": 726,
+        "ioc": "SOM",
+        "itu": "SOM",
+        "marc": "so",
+        "vat_rates": null,
+        "wmo": "SI"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SO",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddf4"
+    },
     "formal_en": "Federal Republic of Somalia",
     "formal_fr": "",
     "gdp_md_est": "4719.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 637657,
+        "borders": [
+            "DJI",
+            "ETH",
+            "KEN"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "10 00 N",
+        "latitude_desc": "5.948267459869385",
+        "latlng": [
+            10,
+            49
+        ],
+        "longitude": "49 00 E",
+        "longitude_desc": "47.47360610961914",
+        "max_latitude": "11.983333",
+        "max_longitude": "51.4",
+        "min_latitude": "-1.6594296959",
+        "min_longitude": "41",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Somalia",
     "gu_a3": "SOM",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "SO",
+    "iso_3166_1_alpha3": "SOM",
+    "iso_3166_1_numeric": "706",
     "iso_a2": "SO",
     "iso_a3": "SOM",
     "iso_a3_eh": "SOM",
     "iso_n3": "706",
     "labelrank": "6.00",
+    "languages": {
+        "ara": "Arabic",
+        "som": "Somali"
+    },
     "lastcensus": "1987.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +139,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Somalia",
+        "native": {
+            "ara": {
+                "common": "\u0627\u0644\u0635\u0648\u0645\u0627\u0644\u200e\u200e",
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0635\u0648\u0645\u0627\u0644\u200e\u200e"
+            },
+            "som": {
+                "common": "Soomaaliya",
+                "official": "Jamhuuriyadda Federaalka Soomaaliya"
+            }
+        },
         "official": "Federal Republic of Somalia"
     },
     "name_alt": "",
@@ -67,9 +159,6 @@
     "name_sort": "Somalia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "7531386.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +171,63 @@
     "su_dif": "0.00",
     "subunit": "Somalia",
     "tiny": "-99.00",
+    "tld": [
+        ".so"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Somalia",
+            "official": "Bundesrepublik Somalia"
+        },
+        "est": {
+            "common": "Somaalia",
+            "official": "Somaalia Liitvabariik"
+        },
+        "fin": {
+            "common": "Somalia",
+            "official": "Somalian liittotasavalta"
+        },
+        "fra": {
+            "common": "Somalie",
+            "official": "R\u00e9publique f\u00e9d\u00e9rale de Somalie"
+        },
+        "hrv": {
+            "common": "Somalija",
+            "official": "Savezna Republika Somaliji"
+        },
+        "ita": {
+            "common": "Somalia",
+            "official": "Repubblica federale di Somalia"
+        },
+        "jpn": {
+            "common": "\u30bd\u30de\u30ea\u30a2",
+            "official": "\u30bd\u30de\u30ea\u30a2\u9023\u90a6\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Somali\u00eb",
+            "official": "Federale Republiek Somali\u00eb"
+        },
+        "por": {
+            "common": "Som\u00e1lia",
+            "official": "Rep\u00fablica Federal da Som\u00e1lia"
+        },
+        "rus": {
+            "common": "\u0421\u043e\u043c\u0430\u043b\u0438",
+            "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u043e\u043c\u0430\u043b\u0438"
+        },
+        "slk": {
+            "common": "Som\u00e1lsko",
+            "official": "Som\u00e1lska federat\u00edvna republika"
+        },
+        "spa": {
+            "common": "Somalia",
+            "official": "Rep\u00fablica Federal de Somalia"
+        },
+        "zho": {
+            "common": "\u7d22\u9a6c\u91cc",
+            "official": "\u7d22\u9a6c\u91cc\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "706",
     "wb_a2": "SO",

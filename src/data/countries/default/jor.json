@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Jordan",
+    "alt_spellings": [
+        "JO",
+        "Hashemite Kingdom of Jordan",
+        "al-Mamlakah al-Urdun\u012byah al-H\u0101shim\u012byah"
+    ],
     "brk_a3": "JOR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Jordan",
+    "capital": "Amman",
     "cca2": "JO",
     "cca3": "JOR",
     "ccn3": "400",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "JOR",
+    "currencies": [
+        "JOD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Jordanian",
+    "dialling": {
+        "calling_code": [
+            "962"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "MAF",
+        "cowc": "JOR",
+        "cown": 663,
+        "ds": "HKJ",
+        "edgar": "M2",
+        "emoji": "\ud83c\uddef\ud83c\uddf4",
+        "eu_member": null,
+        "fao": 112,
+        "fifa": "JOR",
+        "fips": "JO",
+        "gaul": 130,
+        "geonameid": 248816,
+        "imf": 439,
+        "ioc": "JOR",
+        "itu": "JOR",
+        "marc": "jo",
+        "vat_rates": null,
+        "wmo": "JD"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "JO",
+    "flag": {
+        "emoji": "\ud83c\uddef\ud83c\uddf4"
+    },
     "formal_en": "Hashemite Kingdom of Jordan",
     "formal_fr": "",
     "gdp_md_est": "86190.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 89342,
+        "borders": [
+            "IRQ",
+            "ISR",
+            "SAU",
+            "SYR",
+            "SYR"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "31 00 N",
+        "latitude_desc": "31.2757625579834",
+        "latlng": [
+            31,
+            36
+        ],
+        "longitude": "36 00 E",
+        "longitude_desc": "36.82838821411133",
+        "max_latitude": "33.002222",
+        "max_longitude": "38.883333",
+        "min_latitude": "29",
+        "min_longitude": "34.9875",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Jordan",
     "gu_a3": "JOR",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "JO",
+    "iso_3166_1_alpha3": "JOR",
+    "iso_3166_1_numeric": "400",
     "iso_a2": "JO",
     "iso_a3": "JOR",
     "iso_a3_eh": "JOR",
     "iso_n3": "400",
     "labelrank": "4.00",
+    "languages": {
+        "ara": "Arabic"
+    },
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +138,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Jordan",
+        "native": {
+            "ara": {
+                "common": "\u0627\u0644\u0623\u0631\u062f\u0646",
+                "official": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0623\u0631\u062f\u0646\u064a\u0629 \u0627\u0644\u0647\u0627\u0634\u0645\u064a\u0629"
+            }
+        },
         "official": "Hashemite Kingdom of Jordan"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Jordan",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "10248069.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +166,64 @@
     "su_dif": "0.00",
     "subunit": "Jordan",
     "tiny": "-99.00",
+    "tld": [
+        ".jo",
+        "\u0627\u0644\u0627\u0631\u062f\u0646."
+    ],
+    "translations": {
+        "deu": {
+            "common": "Jordanien",
+            "official": "Haschemitisches K\u00f6nigreich Jordanien"
+        },
+        "est": {
+            "common": "Jordaania",
+            "official": "Jordaania Ha\u0161imiidi Kuningriik"
+        },
+        "fin": {
+            "common": "Jordania",
+            "official": "Jordanian ha\u0161emiittinen kunigaskunta"
+        },
+        "fra": {
+            "common": "Jordanie",
+            "official": "Royaume hach\u00e9mite de Jordanie"
+        },
+        "hrv": {
+            "common": "Jordan",
+            "official": "Ha\u0161emitske Kraljevine Jordan"
+        },
+        "ita": {
+            "common": "Giordania",
+            "official": "Regno hascemita di Giordania"
+        },
+        "jpn": {
+            "common": "\u30e8\u30eb\u30c0\u30f3",
+            "official": "\u30e8\u30eb\u30c0\u30f3\u00b7\u30cf\u30b7\u30df\u30c6\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Jordani\u00eb",
+            "official": "Hasjemitisch Koninkrijk Jordani\u00eb"
+        },
+        "por": {
+            "common": "Jord\u00e2nia",
+            "official": "Reino Hachemita da Jord\u00e2nia"
+        },
+        "rus": {
+            "common": "\u0418\u043e\u0440\u0434\u0430\u043d\u0438\u044f",
+            "official": "\u0418\u043e\u0440\u0434\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u0425\u0430\u0448\u0438\u043c\u0438\u0442\u0441\u043a\u043e\u0433\u043e \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u0430"
+        },
+        "slk": {
+            "common": "Jord\u00e1nsko",
+            "official": "Jord\u00e1nske h\u00e1\u0161imovsk\u00e9 kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Jordania",
+            "official": "Reino Hachemita de Jordania"
+        },
+        "zho": {
+            "common": "\u7ea6\u65e6",
+            "official": "\u7ea6\u65e6\u54c8\u5e0c\u59c6\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "400",
     "wb_a2": "JO",

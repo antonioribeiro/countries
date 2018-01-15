@@ -8,43 +8,116 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Tuvalu",
+    "alt_spellings": [
+        "TV"
+    ],
     "brk_a3": "TUV",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Tuvalu",
+    "capital": "Funafuti",
     "cca2": "TV",
     "cca3": "TUV",
     "ccn3": "798",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "TUV",
+    "currencies": [
+        "AUD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Tuvaluan",
+    "dialling": {
+        "calling_code": [
+            "688"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            5
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "TUV",
+        "cown": 947,
+        "ds": 0,
+        "edgar": "2G",
+        "emoji": "\ud83c\uddf9\ud83c\uddfb",
+        "eu_member": null,
+        "fao": 227,
+        "fifa": "TUV",
+        "fips": "TV",
+        "gaul": 252,
+        "geonameid": 2110297,
+        "imf": 0,
+        "ioc": "TUV",
+        "itu": "TUV",
+        "marc": "tv",
+        "vat_rates": null,
+        "wmo": "TV"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "TV",
+    "flag": {
+        "emoji": "\ud83c\uddf9\ud83c\uddfb"
+    },
     "formal_en": "Tuvalu",
     "formal_fr": "",
     "gdp_md_est": "39.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 26,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "8 00 S",
+        "latitude_desc": "-7.471305847167969",
+        "latlng": [
+            -8,
+            178
+        ],
+        "longitude": "178 00 E",
+        "longitude_desc": "178.6740264892578",
+        "max_latitude": "-5.65",
+        "max_longitude": "179.883333",
+        "min_latitude": "-10.75",
+        "min_longitude": "176.116667",
+        "postal_code": false,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Polynesia"
+        "subregion": "Polynesia",
+        "subregion_code": "061",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Tuvalu",
     "gu_a3": "TUV",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "TV",
+    "iso_3166_1_alpha3": "TUV",
+    "iso_3166_1_numeric": "798",
     "iso_a2": "TV",
     "iso_a3": "TUV",
     "iso_a3_eh": "TUV",
     "iso_n3": "798",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English",
+        "tvl": "Tuvaluan"
+    },
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +130,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Tuvalu",
+        "native": {
+            "eng": {
+                "common": "Tuvalu",
+                "official": "Tuvalu"
+            },
+            "tvl": {
+                "common": "Tuvalu",
+                "official": "Tuvalu"
+            }
+        },
         "official": "Tuvalu"
     },
     "name_alt": "",
@@ -67,9 +150,6 @@
     "name_sort": "Tuvalu",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "11052.00",
     "pop_rank": "6.00",
     "pop_year": "2017.00",
@@ -82,6 +162,63 @@
     "su_dif": "0.00",
     "subunit": "Tuvalu",
     "tiny": "5.00",
+    "tld": [
+        ".tv"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "est": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "fin": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "fra": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "hrv": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "ita": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "jpn": {
+            "common": "\u30c4\u30d0\u30eb",
+            "official": "\u30c4\u30d0\u30eb"
+        },
+        "nld": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "por": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "rus": {
+            "common": "\u0422\u0443\u0432\u0430\u043b\u0443",
+            "official": "\u0422\u0443\u0432\u0430\u043b\u0443"
+        },
+        "slk": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "spa": {
+            "common": "Tuvalu",
+            "official": "Tuvalu"
+        },
+        "zho": {
+            "common": "\u56fe\u74e6\u5362",
+            "official": "\u56fe\u74e6\u5362"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "798",
     "wb_a2": "TV",

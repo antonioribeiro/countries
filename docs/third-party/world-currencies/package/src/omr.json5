@@ -1,0 +1,44 @@
+{
+    "OMR": {
+        "name": "Omani Rial",
+        "iso": {
+            "code": "OMR",
+            "number": "512"
+        },
+        "units": {
+            "major": {
+                "name": "rial",
+                "symbol": "ع.ر."
+            },
+            "minor": {
+                "name": "baisa",
+                "symbol": "bz",
+                "majorValue": 0.001
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "bz100",
+                "bz200",
+                "bz500",
+                "1ع.ر.",
+                "5ع.ر.",
+                "10ع.ر.",
+                "20ع.ر.",
+                "50ع.ر."
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "bz5",
+                "bz10",
+                "bz25",
+                "bz50"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

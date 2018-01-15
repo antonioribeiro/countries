@@ -206,7 +206,7 @@ class Base
      */
     protected function makeJsonFileName($key, $dir = '')
     {
-        if (! ends_with(DIRECTORY_SEPARATOR, $dir)) {
+        if (! ends_with($dir, (DIRECTORY_SEPARATOR))) {
             $dir .= DIRECTORY_SEPARATOR;
         }
 

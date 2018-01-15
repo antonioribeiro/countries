@@ -8,43 +8,133 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Luxembourg",
+    "alt_spellings": [
+        "LU",
+        "Grand Duchy of Luxembourg",
+        "Grand-Duch\u00e9 de Luxembourg",
+        "Gro\u00dfherzogtum Luxemburg",
+        "Groussherzogtum L\u00ebtzebuerg"
+    ],
     "brk_a3": "LUX",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Luxembourg",
+    "capital": "Luxembourg",
     "cca2": "LU",
     "cca3": "LUX",
     "ccn3": "442",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "LUX",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Luxembourger",
+    "dialling": {
+        "calling_code": [
+            "352"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "LUX",
+        "cown": 212,
+        "ds": "L",
+        "edgar": "N4",
+        "emoji": "\ud83c\uddf1\ud83c\uddfa",
+        "eu_member": true,
+        "fao": 256,
+        "fifa": "LUX",
+        "fips": "LU",
+        "gaul": 148,
+        "geonameid": 2960313,
+        "imf": 137,
+        "ioc": "LUX",
+        "itu": "LUX",
+        "marc": "lu",
+        "vat_rates": {
+            "parking": 12,
+            "reduced": [
+                8,
+                14
+            ],
+            "standard": 17,
+            "super_reduced": 3
+        },
+        "wmo": "BX"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "LU",
+    "flag": {
+        "emoji": "\ud83c\uddf1\ud83c\uddfa"
+    },
     "formal_en": "Grand Duchy of Luxembourg",
     "formal_fr": "",
     "gdp_md_est": "58740.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 2586,
+        "borders": [
+            "BEL",
+            "FRA",
+            "DEU"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "49 45 N",
+        "latitude_desc": "49.77788162231445",
+        "latlng": [
+            49.75,
+            6.16666666
+        ],
+        "longitude": "6 10 E",
+        "longitude_desc": "6.094746112823486",
+        "max_latitude": "50.181667",
+        "max_longitude": "6.505833",
+        "min_latitude": "49.460833",
+        "min_longitude": "5.742778",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Western Europe"
+        "subregion": "Western Europe",
+        "subregion_code": "155",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Luxembourg",
     "gu_a3": "LUX",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "LU",
+    "iso_3166_1_alpha3": "LUX",
+    "iso_3166_1_numeric": "442",
     "iso_a2": "LU",
     "iso_a3": "LUX",
     "iso_a3_eh": "LUX",
     "iso_n3": "442",
     "labelrank": "6.00",
+    "languages": {
+        "deu": "German",
+        "fra": "French",
+        "ltz": "Luxembourgish"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,6 +147,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Luxembourg",
+        "native": {
+            "deu": {
+                "common": "Luxemburg",
+                "official": "Gro\u00dfherzogtum Luxemburg"
+            },
+            "fra": {
+                "common": "Luxembourg",
+                "official": "Grand-Duch\u00e9 de Luxembourg"
+            },
+            "ltz": {
+                "common": "L\u00ebtzebuerg",
+                "official": "Groussherzogtum L\u00ebtzebuerg"
+            }
+        },
         "official": "Grand Duchy of Luxembourg"
     },
     "name_alt": "",
@@ -67,9 +171,6 @@
     "name_sort": "Luxembourg",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "594130.00",
     "pop_rank": "11.00",
     "pop_year": "2017.00",
@@ -82,6 +183,63 @@
     "su_dif": "0.00",
     "subunit": "Luxembourg",
     "tiny": "5.00",
+    "tld": [
+        ".lu"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Luxemburg",
+            "official": "Gro\u00dfherzogtum Luxemburg,"
+        },
+        "est": {
+            "common": "Luksemburg",
+            "official": "Luksemburgi Suurhertsogiriik"
+        },
+        "fin": {
+            "common": "Luxemburg",
+            "official": "Luxemburgin suurherttuakunta"
+        },
+        "fra": {
+            "common": "Luxembourg",
+            "official": "Grand-Duch\u00e9 de Luxembourg"
+        },
+        "hrv": {
+            "common": "Luksemburg",
+            "official": "Veliko Vojvodstvo Luksemburg"
+        },
+        "ita": {
+            "common": "Lussemburgo",
+            "official": "Granducato di Lussemburgo"
+        },
+        "jpn": {
+            "common": "\u30eb\u30af\u30bb\u30f3\u30d6\u30eb\u30af",
+            "official": "\u30eb\u30af\u30bb\u30f3\u30d6\u30eb\u30af\u5927\u516c\u56fd"
+        },
+        "nld": {
+            "common": "Luxemburg",
+            "official": "Groothertogdom Luxemburg"
+        },
+        "por": {
+            "common": "Luxemburgo",
+            "official": "Gr\u00e3o-Ducado do Luxemburgo"
+        },
+        "rus": {
+            "common": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433",
+            "official": "\u0412\u0435\u043b\u0438\u043a\u043e\u0435 \u0413\u0435\u0440\u0446\u043e\u0433\u0441\u0442\u0432\u043e \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433"
+        },
+        "slk": {
+            "common": "Luxembursko",
+            "official": "Luxembursk\u00e9 ve\u013ekovojvodstvo"
+        },
+        "spa": {
+            "common": "Luxemburgo",
+            "official": "Gran Ducado de Luxemburgo"
+        },
+        "zho": {
+            "common": "\u5362\u68ee\u5821",
+            "official": "\u5362\u68ee\u5821\u5927\u516c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "442",
     "wb_a2": "LU",

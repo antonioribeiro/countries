@@ -1,0 +1,41 @@
+{
+    "ZAR": {
+        "name": "South African Rand",
+        "iso": {
+            "code": "ZAR",
+            "number": "710"
+        },
+        "units": {
+            "major": {
+                "name": "Rand",
+                "symbol": "R"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "c",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "R10",
+                "R20",
+                "R50",
+                "R100",
+                "R200"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "R1",
+                "R2",
+                "R5",
+                "5c",
+                "10c",
+                "20c"
+            ],
+            "rare": []
+        }
+    }
+}

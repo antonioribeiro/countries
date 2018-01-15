@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Lesotho",
+    "alt_spellings": [
+        "LS",
+        "Kingdom of Lesotho",
+        "Muso oa Lesotho"
+    ],
     "brk_a3": "LSO",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Lesotho",
+    "capital": "Maseru",
     "cca2": "LS",
     "cca3": "LSO",
     "ccn3": "426",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "LES",
+    "currencies": [
+        "LSL",
+        "ZAR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Mosotho",
+    "dialling": {
+        "calling_code": [
+            "266"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "LES",
+        "cown": 570,
+        "ds": "LS",
+        "edgar": "M9",
+        "emoji": "\ud83c\uddf1\ud83c\uddf8",
+        "eu_member": null,
+        "fao": 122,
+        "fifa": "LES",
+        "fips": "LT",
+        "gaul": 142,
+        "geonameid": 932692,
+        "imf": 666,
+        "ioc": "LES",
+        "itu": "LSO",
+        "marc": "lo",
+        "vat_rates": null,
+        "wmo": "LS"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "LT",
+    "flag": {
+        "emoji": "\ud83c\uddf1\ud83c\uddf8"
+    },
     "formal_en": "Kingdom of Lesotho",
     "formal_fr": "",
     "gdp_md_est": "6019.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 30355,
+        "borders": [
+            "ZAF"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "29 30 S",
+        "latitude_desc": "-29.58175277709961",
+        "latlng": [
+            -29.5,
+            28.5
+        ],
+        "longitude": "28 30 E",
+        "longitude_desc": "28.246612548828125",
+        "max_latitude": "-28.616667",
+        "max_longitude": "29.316667",
+        "min_latitude": "-30.666667",
+        "min_longitude": "24",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Southern Africa"
+        "subregion": "Southern Africa",
+        "subregion_code": "018",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Lesotho",
     "gu_a3": "LSO",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "LS",
+    "iso_3166_1_alpha3": "LSO",
+    "iso_3166_1_numeric": "426",
     "iso_a2": "LS",
     "iso_a3": "LSO",
     "iso_a3_eh": "LSO",
     "iso_n3": "426",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English",
+        "sot": "Sotho"
+    },
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +135,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Lesotho",
+        "native": {
+            "eng": {
+                "common": "Lesotho",
+                "official": "Kingdom of Lesotho"
+            },
+            "sot": {
+                "common": "Lesotho",
+                "official": "Kingdom of Lesotho"
+            }
+        },
         "official": "Kingdom of Lesotho"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Lesotho",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1958042.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +167,63 @@
     "su_dif": "0.00",
     "subunit": "Lesotho",
     "tiny": "-99.00",
+    "tld": [
+        ".ls"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Lesotho",
+            "official": "K\u00f6nigreich Lesotho"
+        },
+        "est": {
+            "common": "Lesotho",
+            "official": "Lesotho Kuningriik"
+        },
+        "fin": {
+            "common": "Lesotho",
+            "official": "Lesothon kuningaskunta"
+        },
+        "fra": {
+            "common": "Lesotho",
+            "official": "Royaume du Lesotho"
+        },
+        "hrv": {
+            "common": "Lesoto",
+            "official": "Kraljevina Lesoto"
+        },
+        "ita": {
+            "common": "Lesotho",
+            "official": "Regno del Lesotho"
+        },
+        "jpn": {
+            "common": "\u30ec\u30bd\u30c8",
+            "official": "\u30ec\u30bd\u30c8\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Lesotho",
+            "official": "Koninkrijk Lesotho"
+        },
+        "por": {
+            "common": "Lesoto",
+            "official": "Reino do Lesoto"
+        },
+        "rus": {
+            "common": "\u041b\u0435\u0441\u043e\u0442\u043e",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041b\u0435\u0441\u043e\u0442\u043e"
+        },
+        "slk": {
+            "common": "Lesotho",
+            "official": "Lesothsk\u00e9 kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Lesotho",
+            "official": "Reino de Lesotho"
+        },
+        "zho": {
+            "common": "\u83b1\u7d22\u6258",
+            "official": "\u83b1\u7d22\u6258\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "426",
     "wb_a2": "LS",

@@ -8,43 +8,132 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Romania",
+    "alt_spellings": [
+        "RO",
+        "Rumania",
+        "Roumania",
+        "Rom\u00e2nia"
+    ],
     "brk_a3": "ROU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Romania",
+    "capital": "Bucharest",
     "cca2": "RO",
     "cca3": "ROU",
     "ccn3": "642",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ROU",
+    "currencies": [
+        "RON"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Romanian",
+    "dialling": {
+        "calling_code": [
+            "40"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "EIT",
+        "cowc": "ROM",
+        "cown": 360,
+        "ds": "RO",
+        "edgar": "S5",
+        "emoji": "\ud83c\uddf7\ud83c\uddf4",
+        "eu_member": true,
+        "fao": 183,
+        "fifa": "ROU",
+        "fips": "RO",
+        "gaul": 203,
+        "geonameid": 798549,
+        "imf": 968,
+        "ioc": "ROU",
+        "itu": "ROU",
+        "marc": "rm",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                5,
+                9
+            ],
+            "standard": 20,
+            "super_reduced": null
+        },
+        "wmo": "RO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "RO",
+    "flag": {
+        "emoji": "\ud83c\uddf7\ud83c\uddf4"
+    },
     "formal_en": "Romania",
     "formal_fr": "",
     "gdp_md_est": "441000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 238391,
+        "borders": [
+            "BGR",
+            "HUN",
+            "MDA",
+            "SRB",
+            "UKR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "46 00 N",
+        "latitude_desc": "45.83774185180664",
+        "latlng": [
+            46,
+            25
+        ],
+        "longitude": "25 00 E",
+        "longitude_desc": "25.005935668945312",
+        "max_latitude": "48.25",
+        "max_longitude": "29.65",
+        "min_latitude": "43.666667",
+        "min_longitude": "19",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Eastern Europe"
+        "subregion": "Eastern Europe",
+        "subregion_code": "151",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Romania",
     "gu_a3": "ROU",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "RO",
+    "iso_3166_1_alpha3": "ROU",
+    "iso_3166_1_numeric": "642",
     "iso_a2": "RO",
     "iso_a3": "ROU",
     "iso_a3_eh": "ROU",
     "iso_n3": "642",
     "labelrank": "3.00",
+    "languages": {
+        "ron": "Romanian"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +146,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Romania",
+        "native": {
+            "ron": {
+                "common": "Rom\u00e2nia",
+                "official": "Rom\u00e2nia"
+            }
+        },
         "official": "Romania"
     },
     "name_alt": "",
@@ -67,9 +162,6 @@
     "name_sort": "Romania",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "21529967.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +174,63 @@
     "su_dif": "0.00",
     "subunit": "Romania",
     "tiny": "-99.00",
+    "tld": [
+        ".ro"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Rum\u00e4nien",
+            "official": "Rum\u00e4nien"
+        },
+        "est": {
+            "common": "Rumeenia",
+            "official": "Rumeenia"
+        },
+        "fin": {
+            "common": "Romania",
+            "official": "Romania"
+        },
+        "fra": {
+            "common": "Roumanie",
+            "official": "Roumanie"
+        },
+        "hrv": {
+            "common": "Rumunjska",
+            "official": "Rumunija"
+        },
+        "ita": {
+            "common": "Romania",
+            "official": "Romania"
+        },
+        "jpn": {
+            "common": "\u30eb\u30fc\u30de\u30cb\u30a2",
+            "official": "\u30eb\u30fc\u30de\u30cb\u30a2"
+        },
+        "nld": {
+            "common": "Roemeni\u00eb",
+            "official": "Roemeni\u00eb"
+        },
+        "por": {
+            "common": "Rom\u00e9nia",
+            "official": "Rom\u00eania"
+        },
+        "rus": {
+            "common": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f",
+            "official": "\u0420\u0443\u043c\u044b\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "Rumunsko",
+            "official": "Rumunsko"
+        },
+        "spa": {
+            "common": "Rumania",
+            "official": "Rumania"
+        },
+        "zho": {
+            "common": "\u7f57\u9a6c\u5c3c\u4e9a",
+            "official": "\u7f57\u9a6c\u5c3c\u4e9a"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "642",
     "wb_a2": "RO",

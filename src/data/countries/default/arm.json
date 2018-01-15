@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Armenia",
+    "alt_spellings": [
+        "AM",
+        "Hayastan",
+        "Republic of Armenia",
+        "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576\u056b \u0540\u0561\u0576\u0580\u0561\u057a\u0565\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
+    ],
     "brk_a3": "ARM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Armenia",
+    "capital": "Yerevan",
     "cca2": "AM",
     "cca3": "ARM",
     "ccn3": "051",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ARM",
+    "currencies": [
+        "AMD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Armenian",
+    "dialling": {
+        "calling_code": [
+            "374"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "8"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "ARM",
+        "cown": 371,
+        "ds": "AM",
+        "edgar": "1B",
+        "emoji": "\ud83c\udde6\ud83c\uddf2",
+        "eu_member": null,
+        "fao": 1,
+        "fifa": "ARM",
+        "fips": "AM",
+        "gaul": 13,
+        "geonameid": 174982,
+        "imf": 911,
+        "ioc": "ARM",
+        "itu": "ARM",
+        "marc": "ai",
+        "vat_rates": null,
+        "wmo": "AY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AM",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddf2"
+    },
     "formal_en": "Republic of Armenia",
     "formal_fr": "",
     "gdp_md_est": "26300.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 29743,
+        "borders": [
+            "AZE",
+            "GEO",
+            "IRN",
+            "TUR"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "40 00 N",
+        "latitude_desc": "40.29266357421875",
+        "latlng": [
+            40,
+            45
+        ],
+        "longitude": "45 00 E",
+        "longitude_desc": "44.93947219848633",
+        "max_latitude": "41.3",
+        "max_longitude": "46.560556",
+        "min_latitude": "38.894167",
+        "min_longitude": "43.4425",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Armenia",
     "gu_a3": "ARM",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "AM",
+    "iso_3166_1_alpha3": "ARM",
+    "iso_3166_1_numeric": "051",
     "iso_a2": "AM",
     "iso_a3": "ARM",
     "iso_a3_eh": "ARM",
     "iso_n3": "051",
     "labelrank": "6.00",
+    "languages": {
+        "hye": "Armenian",
+        "rus": "Russian"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +138,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Armenia",
+        "native": {
+            "hye": {
+                "common": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576",
+                "official": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576\u056b \u0540\u0561\u0576\u0580\u0561\u057a\u0565\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
+            }
+        },
         "official": "Republic of Armenia"
     },
     "name_alt": "",
@@ -64,12 +151,23 @@
     "name_len": "7.00",
     "name_long": "Armenia",
     "name_nev": "Armenia",
+    "name_rinvex": {
+        "common": "Armenia",
+        "native": {
+            "hye": {
+                "common": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576",
+                "official": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576\u056b \u0540\u0561\u0576\u0580\u0561\u057a\u0565\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
+            },
+            "rus": {
+                "common": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f",
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u0440\u043c\u0435\u043d\u0438\u044f"
+            }
+        },
+        "official": "Republic of Armenia"
+    },
     "name_sort": "Armenia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "3045191.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +180,67 @@
     "su_dif": "0.00",
     "subunit": "Armenia",
     "tiny": "-99.00",
+    "tld": [
+        ".am"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Armenia",
+            "official": "Republic of Armenia"
+        },
+        "deu": {
+            "common": "Armenien",
+            "official": "Republik Armenien"
+        },
+        "est": {
+            "common": "Armeenia",
+            "official": "Armeenia Vabariik"
+        },
+        "fin": {
+            "common": "Armenia",
+            "official": "Armenian tasavalta"
+        },
+        "fra": {
+            "common": "Arm\u00e9nie",
+            "official": "R\u00e9publique d'Arm\u00e9nie"
+        },
+        "hrv": {
+            "common": "Armenija",
+            "official": "Republika Armenija"
+        },
+        "ita": {
+            "common": "Armenia",
+            "official": "Repubblica di Armenia"
+        },
+        "jpn": {
+            "common": "\u30a2\u30eb\u30e1\u30cb\u30a2",
+            "official": "\u30a2\u30eb\u30e1\u30cb\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Armeni\u00eb",
+            "official": "Republiek Armeni\u00eb"
+        },
+        "por": {
+            "common": "Arm\u00e9nia",
+            "official": "Rep\u00fablica da Arm\u00e9nia"
+        },
+        "rus": {
+            "common": "\u0410\u0440\u043c\u0435\u043d\u0438\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u0440\u043c\u0435\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "Arm\u00e9nsko",
+            "official": "Arm\u00e9nska republika"
+        },
+        "spa": {
+            "common": "Armenia",
+            "official": "Rep\u00fablica de Armenia"
+        },
+        "zho": {
+            "common": "\u4e9a\u7f8e\u5c3c\u4e9a",
+            "official": "\u4e9a\u7f8e\u5c3c\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "051",
     "wb_a2": "AM",

@@ -27,60 +27,14 @@ Amongst many other information you'll be able to plot country maps:
 
 This package is a collection of some other packages with information on:
 
-- Countries
-    - name (common and native)
-    - currency
-    - languages
-    - states
-    - timezone
-    - flags (sprites, flag icons, svg)
-    - tld
-    - multiple ISO codes
-    - calling code
-    - capital
-    - alternate spellings
-    - region & sub region
-    - translations (country name translated to some other languages)
-    - latitude and logitude
-    - borders (countries) - you can hydrate those borders (like relationships)
-    - area
-    - topology
-    - geometry
-
-- Currencies
-    - sign
-    - ISO codes
-    - title
-    - subunits
-    - usage (dates)
-
+- Countries & borders
 - States
-    - adm codes
-    - name & alt name
-    - type (state, city, province, canton, department, district, etc.)
-    - latitude & longitude
-    - language
-    - (and many more)
-
 - Cities
-    - region
-    - elevation
-    - latitude
-    - longitude
-    - area (km and mi)
-    - population (from 1950 to 2050)
-    - is it a "mega city"?
-    - timezone        
-    - name (translated to several languages)
-    
-- Flags. There are some options available out there, so this package will give you some:
-    - sprite, based on [https://www.flag-sprites.com/](https://www.flag-sprites.com/)
-    - flag-icon and flag-icon-squared, based on [https://github.com/lipis/flag-icon-css](https://github.com/lipis/flag-icon-css)
-    - world-flags-sprite, based on [https://github.com/lafeber/world-flags-sprite](https://github.com/lafeber/world-flags-sprite)
-    - svg, the flag svg file loaded into the json
-
-- Validation
-    - Customizable validation fields based on [Laravel Validation](https://laravel.com/docs/master/validation)
+- Currencies
+- Timezones
+- Flags
+- Taxes
+- Geometry & Topology
 
 ## Requirements
 

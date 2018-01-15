@@ -8,43 +8,116 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Saint Pierre and Miquelon",
+    "alt_spellings": [
+        "PM",
+        "Collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon"
+    ],
     "brk_a3": "SPM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "St. Pierre and Miquelon",
+    "capital": "Saint-Pierre",
     "cca2": "PM",
     "cca3": "SPM",
     "ccn3": "666",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "French",
+    "dialling": {
+        "calling_code": [
+            "508"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "F",
+        "edgar": "V0",
+        "emoji": "\ud83c\uddf5\ud83c\uddf2",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "SPM",
+        "fips": "SB",
+        "gaul": 210,
+        "geonameid": 3424932,
+        "imf": 363,
+        "ioc": "SPM",
+        "itu": "SPM",
+        "marc": "xl",
+        "vat_rates": null,
+        "wmo": "FP"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SB",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\uddf2"
+    },
     "formal_en": "Saint Pierre and Miquelon",
     "formal_fr": "",
     "gdp_md_est": "215.30",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 242,
         "borders": [],
-        "continent": "North America",
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Part of FR",
+        "landlocked": false,
+        "latitude": "46 50 N",
+        "latitude_desc": "46.90594482421875",
+        "latlng": [
+            46.83333333,
+            -56.33333333
+        ],
+        "longitude": "56 20 W",
+        "longitude_desc": "-56.336585998535156",
+        "max_latitude": "47.139722",
+        "max_longitude": "-56.120556",
+        "min_latitude": "46.748333",
+        "min_longitude": "-56.405278",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "North America",
-        "subregion": "Northern America"
+        "subregion": "Northern America",
+        "subregion_code": "021",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Saint Pierre and Miquelon",
     "gu_a3": "SPM",
     "homepart": "-99.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "PM",
+    "iso_3166_1_alpha3": "SPM",
+    "iso_3166_1_numeric": "666",
     "iso_a2": "PM",
     "iso_a3": "SPM",
     "iso_a3_eh": "SPM",
     "iso_n3": "666",
     "labelrank": "4.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "25.00",
@@ -56,7 +129,13 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "St. Pierre and Miquelon",
+        "common": "Saint Pierre and Miquelon",
+        "native": {
+            "fra": {
+                "common": "Saint-Pierre-et-Miquelon",
+                "official": "Collectivit\u00e9 territoriale de Saint-Pierre-et-Miquelon"
+            }
+        },
         "official": "Saint Pierre and Miquelon"
     },
     "name_alt": "",
@@ -67,9 +146,6 @@
     "name_sort": "St. Pierre and Miquelon",
     "note_adm0": "Fr.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "5533.00",
     "pop_rank": "5.00",
     "pop_year": "2017.00",
@@ -82,6 +158,63 @@
     "su_dif": "0.00",
     "subunit": "Saint Pierre and Miquelon",
     "tiny": "3.00",
+    "tld": [
+        ".pm"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Saint-Pierre und Miquelon",
+            "official": "St. Pierre und Miquelon"
+        },
+        "est": {
+            "common": "Saint-Pierre ja Miquelon",
+            "official": "Saint-Pierre\u2019i ja Miqueloni territoriaal\u00fchendus"
+        },
+        "fin": {
+            "common": "Saint-Pierre ja Miquelon",
+            "official": "Saint-Pierre ja Miquelon"
+        },
+        "fra": {
+            "common": "Saint-Pierre-et-Miquelon",
+            "official": "Saint-Pierre-et-Miquelon"
+        },
+        "hrv": {
+            "common": "Sveti Petar i Mikelon",
+            "official": "Saint Pierre i Miquelon"
+        },
+        "ita": {
+            "common": "Saint-Pierre e Miquelon",
+            "official": "Saint Pierre e Miquelon"
+        },
+        "jpn": {
+            "common": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u30fb\u30df\u30af\u30ed\u30f3\u5cf6",
+            "official": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u00b7\u30df\u30af\u30ed\u30f3\u5cf6"
+        },
+        "nld": {
+            "common": "Saint Pierre en Miquelon",
+            "official": "Saint-Pierre en Miquelon"
+        },
+        "por": {
+            "common": "Saint-Pierre e Miquelon",
+            "official": "Saint Pierre e Miquelon"
+        },
+        "rus": {
+            "common": "\u0421\u0435\u043d-\u041f\u044c\u0435\u0440 \u0438 \u041c\u0438\u043a\u0435\u043b\u043e\u043d",
+            "official": "\u0421\u0435\u043d-\u041f\u044c\u0435\u0440 \u0438 \u041c\u0438\u043a\u0435\u043b\u043e\u043d"
+        },
+        "slk": {
+            "common": "Saint Pierre a Miquelon",
+            "official": "Ostrovy Saint Pierre a Miquelon"
+        },
+        "spa": {
+            "common": "San Pedro y Miquel\u00f3n",
+            "official": "San Pedro y Miquel\u00f3n"
+        },
+        "zho": {
+            "common": "\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686",
+            "official": "\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686"
+        }
+    },
     "type": "Dependency",
     "un_a3": "666",
     "wb_a2": "-99",

@@ -1,0 +1,41 @@
+{
+    "SSP": {
+        "name": "South Sudanese pound",
+        "iso": {
+            "code": "SSP",
+            "number": "728"
+        },
+        "units": {
+            "major": {
+                "name": "pound",
+                "symbol": "£"
+            },
+            "minor": {
+                "name": "piaster",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "5",
+                "10",
+                "25",
+                "£1",
+                "£5",
+                "£10",
+                "£25",
+                "£50",
+                "£100"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

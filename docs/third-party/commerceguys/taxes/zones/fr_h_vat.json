@@ -1,0 +1,13 @@
+{
+    "name": "France - Corsica (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "fr_h_vat_0",
+            "name": "France (Corsica)",
+            "country_code": "FR",
+            "included_postal_codes": "\/(20)[0-9]{3}\/"
+        }
+    ]
+}

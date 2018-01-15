@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Equatorial Guinea",
+    "alt_spellings": [
+        "GQ",
+        "Republic of Equatorial Guinea",
+        "Rep\u00fablica de Guinea Ecuatorial",
+        "R\u00e9publique de Guin\u00e9e \u00e9quatoriale",
+        "Rep\u00fablica da Guin\u00e9 Equatorial"
+    ],
     "brk_a3": "GNQ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Eq. Guinea",
+    "capital": "Malabo",
     "cca2": "GQ",
     "cca3": "GNQ",
     "ccn3": "226",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "GEQ",
+    "currencies": [
+        "XAF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Equatorial Guinean",
+    "dialling": {
+        "calling_code": [
+            "240"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "EQG",
+        "cown": 411,
+        "ds": 0,
+        "edgar": "H4",
+        "emoji": "\ud83c\uddec\ud83c\uddf6",
+        "eu_member": null,
+        "fao": 61,
+        "fifa": "EQG",
+        "fips": "EK",
+        "gaul": 76,
+        "geonameid": 2309096,
+        "imf": 642,
+        "ioc": "GEQ",
+        "itu": "GNE",
+        "marc": "eg",
+        "vat_rates": null,
+        "wmo": "GQ"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "EK",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\uddf6"
+    },
     "formal_en": "Republic of Equatorial Guinea",
     "formal_fr": "",
     "gdp_md_est": "31770.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 28051,
+        "borders": [
+            "CMR",
+            "GAB"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "2 00 N",
+        "latitude_desc": "1.5331259965896606",
+        "latlng": [
+            2,
+            10
+        ],
+        "longitude": "10 00 E",
+        "longitude_desc": "10.372581481933594",
+        "max_latitude": "3.783333",
+        "max_longitude": "11.4",
+        "min_latitude": "-1.483333",
+        "min_longitude": "5.05",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Middle Africa"
+        "subregion": "Middle Africa",
+        "subregion_code": "017",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Equatorial Guinea",
     "gu_a3": "GNQ",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "GQ",
+    "iso_3166_1_alpha3": "GNQ",
+    "iso_3166_1_numeric": "226",
     "iso_a2": "GQ",
     "iso_a3": "GNQ",
     "iso_a3_eh": "GNQ",
     "iso_n3": "226",
     "labelrank": "4.00",
+    "languages": {
+        "fra": "French",
+        "por": "Portuguese",
+        "spa": "Spanish"
+    },
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "17.00",
@@ -56,7 +137,21 @@
     "min_label": "4.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Eq. Guinea",
+        "common": "Equatorial Guinea",
+        "native": {
+            "fra": {
+                "common": "Guin\u00e9e \u00e9quatoriale",
+                "official": "R\u00e9publique de la Guin\u00e9e \u00c9quatoriale"
+            },
+            "por": {
+                "common": "Guin\u00e9 Equatorial",
+                "official": "Rep\u00fablica da Guin\u00e9 Equatorial"
+            },
+            "spa": {
+                "common": "Guinea Ecuatorial",
+                "official": "Rep\u00fablica de Guinea Ecuatorial"
+            }
+        },
         "official": "Republic of Equatorial Guinea"
     },
     "name_alt": "",
@@ -67,9 +162,6 @@
     "name_sort": "Equatorial Guinea",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "778358.00",
     "pop_rank": "11.00",
     "pop_year": "2017.00",
@@ -82,6 +174,67 @@
     "su_dif": "0.00",
     "subunit": "Equatorial Guinea",
     "tiny": "-99.00",
+    "tld": [
+        ".gq"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Gini Gyhydeddol",
+            "official": "Republic of Equatorial Guinea"
+        },
+        "deu": {
+            "common": "\u00c4quatorialguinea",
+            "official": "Republik \u00c4quatorialguinea"
+        },
+        "est": {
+            "common": "Ekvatoriaal-Guinea",
+            "official": "Ekvatoriaal-Guinea Vabariik"
+        },
+        "fin": {
+            "common": "P\u00e4iv\u00e4ntasaajan Guinea",
+            "official": "P\u00e4iv\u00e4ntasaajan Guinean tasavalta"
+        },
+        "fra": {
+            "common": "Guin\u00e9e \u00e9quatoriale",
+            "official": "R\u00e9publique de Guin\u00e9e \u00e9quatoriale"
+        },
+        "hrv": {
+            "common": "Ekvatorijalna Gvineja",
+            "official": "Republika Ekvatorska Gvineja"
+        },
+        "ita": {
+            "common": "Guinea Equatoriale",
+            "official": "Repubblica della Guinea Equatoriale"
+        },
+        "jpn": {
+            "common": "\u8d64\u9053\u30ae\u30cb\u30a2",
+            "official": "\u8d64\u9053\u30ae\u30cb\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Equatoriaal-Guinea",
+            "official": "Republiek Equatoriaal-Guinea"
+        },
+        "por": {
+            "common": "Guin\u00e9 Equatorial",
+            "official": "Rep\u00fablica da Guin\u00e9 Equatorial"
+        },
+        "rus": {
+            "common": "\u042d\u043a\u0432\u0430\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u042d\u043a\u0432\u0430\u0442\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f"
+        },
+        "slk": {
+            "common": "Rovn\u00edkov\u00e1 Guinea",
+            "official": "Republika rovn\u00edkovej Guiney"
+        },
+        "spa": {
+            "common": "Guinea Ecuatorial",
+            "official": "Rep\u00fablica de Guinea Ecuatorial"
+        },
+        "zho": {
+            "common": "\u8d64\u9053\u51e0\u5185\u4e9a",
+            "official": "\u8d64\u9053\u51e0\u5185\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "226",
     "wb_a2": "GQ",

@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Denmark",
+    "alt_spellings": [
+        "DK",
+        "Danmark",
+        "Kingdom of Denmark",
+        "Kongeriget Danmark"
+    ],
     "brk_a3": "DNK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Denmark",
+    "capital": "Copenhagen",
     "cca2": "DK",
     "cca3": "DNK",
     "ccn3": "208",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "DEN",
+    "currencies": [
+        "DKK"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Danish",
+    "dialling": {
+        "calling_code": [
+            "45"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{region}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "DEN",
+        "cown": 390,
+        "ds": "DK",
+        "edgar": "G7",
+        "emoji": "\ud83c\udde9\ud83c\uddf0",
+        "eu_member": true,
+        "fao": 54,
+        "fifa": "DEN",
+        "fips": "DA",
+        "gaul": 69,
+        "geonameid": 2623032,
+        "imf": 128,
+        "ioc": "DEN",
+        "itu": "DNK",
+        "marc": "dk",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [],
+            "standard": 25,
+            "super_reduced": null
+        },
+        "wmo": "DN"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "DA",
+    "flag": {
+        "emoji": "\ud83c\udde9\ud83c\uddf0"
+    },
     "formal_en": "Kingdom of Denmark",
     "formal_fr": "",
     "gdp_md_est": "264800.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 43094,
+        "borders": [
+            "DEU"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "56 00 N",
+        "latitude_desc": "56.10176086425781",
+        "latlng": [
+            56,
+            10
+        ],
+        "longitude": "10 00 E",
+        "longitude_desc": "9.555907249450684",
+        "max_latitude": "64",
+        "max_longitude": "18",
+        "min_latitude": "53.583333",
+        "min_longitude": "4.516667",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Northern Europe"
+        "subregion": "Northern Europe",
+        "subregion_code": "154",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Denmark",
     "gu_a3": "DNK",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "DK",
+    "iso_3166_1_alpha3": "DNK",
+    "iso_3166_1_numeric": "208",
     "iso_a2": "DK",
     "iso_a3": "DNK",
     "iso_a3_eh": "DNK",
     "iso_n3": "208",
     "labelrank": "4.00",
+    "languages": {
+        "dan": "Danish"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +139,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Denmark",
+        "native": {
+            "dan": {
+                "common": "Danmark",
+                "official": "Kongeriget Danmark"
+            }
+        },
         "official": "Kingdom of Denmark"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Denmark",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "5605948.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +167,67 @@
     "su_dif": "0.00",
     "subunit": "Denmark",
     "tiny": "-99.00",
+    "tld": [
+        ".dk"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Denmarc",
+            "official": "Kingdom of Denmark"
+        },
+        "deu": {
+            "common": "D\u00e4nemark",
+            "official": "K\u00f6nigreich D\u00e4nemark"
+        },
+        "est": {
+            "common": "Taani",
+            "official": "Taani Kuningriik"
+        },
+        "fin": {
+            "common": "Tanska",
+            "official": "Tanskan kuningaskunta"
+        },
+        "fra": {
+            "common": "Danemark",
+            "official": "Royaume du Danemark"
+        },
+        "hrv": {
+            "common": "Danska",
+            "official": "Kraljevina Danska"
+        },
+        "ita": {
+            "common": "Danimarca",
+            "official": "Regno di Danimarca"
+        },
+        "jpn": {
+            "common": "\u30c7\u30f3\u30de\u30fc\u30af",
+            "official": "\u30c7\u30f3\u30de\u30fc\u30af\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Denemarken",
+            "official": "Koninkrijk Denemarken"
+        },
+        "por": {
+            "common": "Dinamarca",
+            "official": "Reino da Dinamarca"
+        },
+        "rus": {
+            "common": "\u0414\u0430\u043d\u0438\u044f",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0414\u0430\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "D\u00e1nsko",
+            "official": "D\u00e1nske kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Dinamarca",
+            "official": "Reino de Dinamarca"
+        },
+        "zho": {
+            "common": "\u4e39\u9ea6",
+            "official": "\u4e39\u9ea6\u738b\u56fd"
+        }
+    },
     "type": "Country",
     "un_a3": "208",
     "wb_a2": "DK",

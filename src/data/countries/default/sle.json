@@ -8,43 +8,119 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Sierra Leone",
+    "alt_spellings": [
+        "SL",
+        "Republic of Sierra Leone"
+    ],
     "brk_a3": "SLE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Sierra Leone",
+    "capital": "Freetown",
     "cca2": "SL",
     "cca3": "SLE",
     "ccn3": "694",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SLE",
+    "currencies": [
+        "SLL"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Sierra Leonean",
+    "dialling": {
+        "calling_code": [
+            "232"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "SIE",
+        "cown": 451,
+        "ds": "WAL",
+        "edgar": "T8",
+        "emoji": "\ud83c\uddf8\ud83c\uddf1",
+        "eu_member": null,
+        "fao": 197,
+        "fifa": "SLE",
+        "fips": "SL",
+        "gaul": 221,
+        "geonameid": 2403846,
+        "imf": 724,
+        "ioc": "SLE",
+        "itu": "SRL",
+        "marc": "sl",
+        "vat_rates": null,
+        "wmo": "SL"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SL",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddf1"
+    },
     "formal_en": "Republic of Sierra Leone",
     "formal_fr": "",
     "gdp_md_est": "10640.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 71740,
+        "borders": [
+            "GIN",
+            "LBR"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "8 30 N",
+        "latitude_desc": "8.521441459655762",
+        "latlng": [
+            8.5,
+            -11.5
+        ],
+        "longitude": "11 30 W",
+        "longitude_desc": "-11.843890190124512",
+        "max_latitude": "10",
+        "max_longitude": "-4",
+        "min_latitude": "5",
+        "min_longitude": "-13.316667",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Sierra Leone",
     "gu_a3": "SLE",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "SL",
+    "iso_3166_1_alpha3": "SLE",
+    "iso_3166_1_numeric": "694",
     "iso_a2": "SL",
     "iso_a3": "SLE",
     "iso_a3_eh": "SLE",
     "iso_n3": "694",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "12.00",
@@ -57,6 +133,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Sierra Leone",
+        "native": {
+            "eng": {
+                "common": "Sierra Leone",
+                "official": "Republic of Sierra Leone"
+            }
+        },
         "official": "Republic of Sierra Leone"
     },
     "name_alt": "",
@@ -67,9 +149,6 @@
     "name_sort": "Sierra Leone",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "6163195.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +161,63 @@
     "su_dif": "0.00",
     "subunit": "Sierra Leone",
     "tiny": "-99.00",
+    "tld": [
+        ".sl"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Sierra Leone",
+            "official": "Republik Sierra Leone"
+        },
+        "est": {
+            "common": "Sierra Leone",
+            "official": "Sierra Leone Vabariik"
+        },
+        "fin": {
+            "common": "Sierra Leone",
+            "official": "Sierra Leonen tasavalta"
+        },
+        "fra": {
+            "common": "Sierra Leone",
+            "official": "R\u00e9publique de Sierra Leone"
+        },
+        "hrv": {
+            "common": "Sijera Leone",
+            "official": "Republika Sijera Leone"
+        },
+        "ita": {
+            "common": "Sierra Leone",
+            "official": "Repubblica della Sierra Leone"
+        },
+        "jpn": {
+            "common": "\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd",
+            "official": "\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Sierra Leone",
+            "official": "Republiek Sierra Leone"
+        },
+        "por": {
+            "common": "Serra Leoa",
+            "official": "Rep\u00fablica da Serra Leoa"
+        },
+        "rus": {
+            "common": "\u0421\u044c\u0435\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u044c\u0435\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435"
+        },
+        "slk": {
+            "common": "Sierra Leone",
+            "official": "Sierraleonsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Sierra Leone",
+            "official": "Rep\u00fablica de Sierra Leona"
+        },
+        "zho": {
+            "common": "\u585e\u62c9\u5229\u6602",
+            "official": "\u585e\u62c9\u5229\u6602\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "694",
     "wb_a2": "SL",

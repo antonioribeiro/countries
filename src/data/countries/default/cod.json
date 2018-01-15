@@ -8,43 +8,133 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Democratic Republic of the Congo",
+    "alt_spellings": [
+        "CD",
+        "DR Congo",
+        "Congo-Kinshasa",
+        "Congo, the Democratic Republic of the",
+        "DRC"
+    ],
     "brk_a3": "COD",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
     "cca2": "CD",
     "cca3": "COD",
     "ccn3": "180",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "COD",
+    "currencies": [
+        "CDF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Congolese",
+    "dialling": {
+        "calling_code": [
+            "243"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "DRC",
+        "cown": 490,
+        "ds": "ZRE",
+        "edgar": 0,
+        "emoji": "\ud83c\udde8\ud83c\udde9",
+        "eu_member": null,
+        "fao": 250,
+        "fifa": "COD",
+        "fips": "CG",
+        "gaul": 68,
+        "geonameid": 203312,
+        "imf": 636,
+        "ioc": "COD",
+        "itu": "COD",
+        "marc": "cg",
+        "vat_rates": null,
+        "wmo": "ZR"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CG",
+    "flag": {
+        "emoji": "\ud83c\udde8\ud83c\udde9"
+    },
     "formal_en": "Democratic Republic of the Congo",
     "formal_fr": "",
     "gdp_md_est": "66010.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 2344858,
+        "borders": [
+            "AGO",
+            "BDI",
+            "CAF",
+            "COG",
+            "RWA",
+            "SSD",
+            "TZA",
+            "UGA",
+            "ZMB"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "0 00 N",
+        "latitude_desc": "-2.879866123199463",
+        "latlng": [
+            0,
+            25
+        ],
+        "longitude": "25 00 E",
+        "longitude_desc": "23.6563777923584",
+        "max_latitude": "5.133333",
+        "max_longitude": "31.233333",
+        "min_latitude": "-13.466667",
+        "min_longitude": "12.266667",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Middle Africa"
+        "subregion": "Middle Africa",
+        "subregion_code": "017",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Democratic Republic of the Congo",
     "gu_a3": "COD",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "CD",
+    "iso_3166_1_alpha3": "COD",
+    "iso_3166_1_numeric": "180",
     "iso_a2": "CD",
     "iso_a3": "COD",
     "iso_a3_eh": "COD",
     "iso_n3": "180",
     "labelrank": "2.00",
+    "languages": {
+        "fra": "French",
+        "kon": "Kikongo",
+        "lin": "Lingala",
+        "lua": "Tshiluba",
+        "swa": "Swahili"
+    },
     "lastcensus": "1984.00",
     "level": "2.00",
     "long_len": "32.00",
@@ -56,7 +146,29 @@
     "min_label": "2.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Dem. Rep. Congo",
+        "common": "DR Congo",
+        "native": {
+            "fra": {
+                "common": "RD Congo",
+                "official": "R\u00e9publique d\u00e9mocratique du Congo"
+            },
+            "kon": {
+                "common": "Repubilika ya Kongo Demokratiki",
+                "official": "Repubilika ya Kongo Demokratiki"
+            },
+            "lin": {
+                "common": "Republiki ya Kong\u00f3 Demokratiki",
+                "official": "Republiki ya Kong\u00f3 Demokratiki"
+            },
+            "lua": {
+                "common": "Ditunga dia Kongu wa Mungalaata",
+                "official": "Ditunga dia Kongu wa Mungalaata"
+            },
+            "swa": {
+                "common": "Jamhuri ya Kidemokrasia ya Kongo",
+                "official": "Jamhuri ya Kidemokrasia ya Kongo"
+            }
+        },
         "official": "Democratic Republic of the Congo"
     },
     "name_alt": "",
@@ -67,9 +179,6 @@
     "name_sort": "Congo, Dem. Rep.",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "83301151.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
@@ -82,6 +191,67 @@
     "su_dif": "0.00",
     "subunit": "Democratic Republic of the Congo",
     "tiny": "-99.00",
+    "tld": [
+        ".cd"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Gweriniaeth Ddemocrataidd Congo",
+            "official": "Democratic Republic of the Congo"
+        },
+        "deu": {
+            "common": "Kongo (Dem. Rep.)",
+            "official": "Demokratische Republik Kongo"
+        },
+        "est": {
+            "common": "Kongo DV",
+            "official": "Kongo Demokraatlik Vabariik"
+        },
+        "fin": {
+            "common": "Kongon demokraattinen tasavalta",
+            "official": "Kongon demokraattinen tasavalta"
+        },
+        "fra": {
+            "common": "Congo (R\u00e9p. d\u00e9m.)",
+            "official": "R\u00e9publique d\u00e9mocratique du Congo"
+        },
+        "hrv": {
+            "common": "Kongo, Demokratska Republika",
+            "official": "Demokratska Republika Kongo"
+        },
+        "ita": {
+            "common": "Congo (Rep. Dem.)",
+            "official": "Repubblica Democratica del Congo"
+        },
+        "jpn": {
+            "common": "\u30b3\u30f3\u30b4\u6c11\u4e3b\u5171\u548c\u56fd",
+            "official": "\u30b3\u30f3\u30b4\u6c11\u4e3b\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Congo (DRC)",
+            "official": "Democratische Republiek Congo"
+        },
+        "por": {
+            "common": "Rep\u00fablica Democr\u00e1tica do Congo",
+            "official": "Rep\u00fablica Democr\u00e1tica do Congo"
+        },
+        "rus": {
+            "common": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e",
+            "official": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043d\u0433\u043e"
+        },
+        "slk": {
+            "common": "Kongo",
+            "official": "Kon\u017esk\u00e1 demokratick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Congo (Rep. Dem.)",
+            "official": "Rep\u00fablica Democr\u00e1tica del Congo"
+        },
+        "zho": {
+            "common": "\u6c11\u4e3b\u521a\u679c",
+            "official": "\u521a\u679c\u6c11\u4e3b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "180",
     "wb_a2": "ZR",

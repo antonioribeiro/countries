@@ -1,0 +1,49 @@
+{
+    "BDT": {
+        "name": "Bangladeshi Taka",
+        "iso": {
+            "code": "BDT",
+            "number": "050"
+        },
+        "units": {
+            "major": {
+                "name": "Taka",
+                "symbol": "Tk"
+            },
+            "minor": {
+                "name": "Poisha",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "Tk2",
+                "Tk5",
+                "Tk10",
+                "Tk20",
+                "Tk50",
+                "Tk100",
+                "Tk500",
+                "Tk1000"
+            ],
+            "rare": [
+                "Tk1"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "Tk1",
+                "Tk2",
+                "Tk5"
+            ],
+            "rare": [
+                "1",
+                "5",
+                "10",
+                "25",
+                "50"
+            ]
+        }
+    }
+}

@@ -8,43 +8,132 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Hungary",
+    "alt_spellings": [
+        "HU"
+    ],
     "brk_a3": "HUN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Hungary",
+    "capital": "Budapest",
     "cca2": "HU",
     "cca3": "HUN",
     "ccn3": "348",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "HUN",
+    "currencies": [
+        "HUF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Hungarian",
+    "dialling": {
+        "calling_code": [
+            "36"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9
+        ],
+        "national_prefix": "06"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{city}}{{street}}{{postalcode}}{{country}}",
+        "ar5": "EIT",
+        "cowc": "HUN",
+        "cown": 310,
+        "ds": "H",
+        "edgar": "K5",
+        "emoji": "\ud83c\udded\ud83c\uddfa",
+        "eu_member": true,
+        "fao": 97,
+        "fifa": "HUN",
+        "fips": "HU",
+        "gaul": 113,
+        "geonameid": 719819,
+        "imf": 944,
+        "ioc": "HUN",
+        "itu": "HNG",
+        "marc": "hu",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                5,
+                18
+            ],
+            "standard": 27,
+            "super_reduced": null
+        },
+        "wmo": "HU"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "HU",
+    "flag": {
+        "emoji": "\ud83c\udded\ud83c\uddfa"
+    },
     "formal_en": "Republic of Hungary",
     "formal_fr": "",
     "gdp_md_est": "267600.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 93028,
+        "borders": [
+            "AUT",
+            "HRV",
+            "ROU",
+            "SRB",
+            "SVK",
+            "SVN",
+            "UKR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "47 00 N",
+        "latitude_desc": "47.165733337402344",
+        "latlng": [
+            47,
+            20
+        ],
+        "longitude": "20 00 E",
+        "longitude_desc": "19.416574478149414",
+        "max_latitude": "48.983333",
+        "max_longitude": "22.866667",
+        "min_latitude": "45.75",
+        "min_longitude": "16.183333",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Eastern Europe"
+        "subregion": "Eastern Europe",
+        "subregion_code": "151",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Hungary",
     "gu_a3": "HUN",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "HU",
+    "iso_3166_1_alpha3": "HUN",
+    "iso_3166_1_numeric": "348",
     "iso_a2": "HU",
     "iso_a3": "HUN",
     "iso_a3_eh": "HUN",
     "iso_n3": "348",
     "labelrank": "5.00",
+    "languages": {
+        "hun": "Hungarian"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,7 +146,13 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Hungary",
-        "official": "Republic of Hungary"
+        "native": {
+            "hun": {
+                "common": "Magyarorsz\u00e1g",
+                "official": "Magyarorsz\u00e1g"
+            }
+        },
+        "official": "Hungary"
     },
     "name_alt": "",
     "name_ciawf": "Hungary",
@@ -67,9 +162,6 @@
     "name_sort": "Hungary",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "9850845.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +174,63 @@
     "su_dif": "0.00",
     "subunit": "Hungary",
     "tiny": "-99.00",
+    "tld": [
+        ".hu"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Ungarn",
+            "official": "Ungarn"
+        },
+        "est": {
+            "common": "Ungari",
+            "official": "Ungari"
+        },
+        "fin": {
+            "common": "Unkari",
+            "official": "Unkari"
+        },
+        "fra": {
+            "common": "Hongrie",
+            "official": "Hongrie"
+        },
+        "hrv": {
+            "common": "Ma\u0111arska",
+            "official": "Mad\u017earska"
+        },
+        "ita": {
+            "common": "Ungheria",
+            "official": "Ungheria"
+        },
+        "jpn": {
+            "common": "\u30cf\u30f3\u30ac\u30ea\u30fc",
+            "official": "\u30cf\u30f3\u30ac\u30ea\u30fc"
+        },
+        "nld": {
+            "common": "Hongarije",
+            "official": "Hongarije"
+        },
+        "por": {
+            "common": "Hungria",
+            "official": "Hungria"
+        },
+        "rus": {
+            "common": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f",
+            "official": "\u0412\u0435\u043d\u0433\u0440\u0438\u044f"
+        },
+        "slk": {
+            "common": "Ma\u010farsko",
+            "official": "Ma\u010farsko"
+        },
+        "spa": {
+            "common": "Hungr\u00eda",
+            "official": "Hungr\u00eda"
+        },
+        "zho": {
+            "common": "\u5308\u7259\u5229",
+            "official": "\u5308\u7259\u5229"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "348",
     "wb_a2": "HU",

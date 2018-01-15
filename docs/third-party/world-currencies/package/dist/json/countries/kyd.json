@@ -1,0 +1,40 @@
+{
+    "KYD": {
+        "name": "Caymanian Dollar",
+        "iso": {
+            "code": "KYD",
+            "number": "136"
+        },
+        "units": {
+            "major": {
+                "name": "dollar",
+                "symbol": "$"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "$1",
+                "$5",
+                "$10",
+                "$25",
+                "$50",
+                "$100"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "1¢",
+                "5¢",
+                "10¢",
+                "25¢"
+            ],
+            "rare": []
+        }
+    }
+}

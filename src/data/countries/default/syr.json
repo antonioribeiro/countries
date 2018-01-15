@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Syria",
+    "alt_spellings": [
+        "SY",
+        "Syrian Arab Republic",
+        "Al-Jumh\u016br\u012byah Al-\u02bbArab\u012byah As-S\u016br\u012byah"
+    ],
     "brk_a3": "SYR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Syria",
+    "capital": "Damascus",
     "cca2": "SY",
     "cca3": "SYR",
     "ccn3": "760",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SYR",
+    "currencies": [
+        "SYP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Syrian",
+    "dialling": {
+        "calling_code": [
+            "963"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "MAF",
+        "cowc": "SYR",
+        "cown": 652,
+        "ds": "SYR",
+        "edgar": "V9",
+        "emoji": "\ud83c\uddf8\ud83c\uddfe",
+        "eu_member": null,
+        "fao": 212,
+        "fifa": "SYR",
+        "fips": "SY",
+        "gaul": 238,
+        "geonameid": 163843,
+        "imf": 463,
+        "ioc": "SYR",
+        "itu": "SYR",
+        "marc": "sy",
+        "vat_rates": null,
+        "wmo": "SY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SY",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddfe"
+    },
     "formal_en": "Syrian Arab Republic",
     "formal_fr": "",
     "gdp_md_est": "50280.00",
     "gdp_year": "2015.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 185180,
+        "borders": [
+            "IRQ",
+            "ISR",
+            "JOR",
+            "LBN",
+            "TUR"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "35 00 N",
+        "latitude_desc": "35.03312683105469",
+        "latlng": [
+            35,
+            38
+        ],
+        "longitude": "38 00 E",
+        "longitude_desc": "38.473472595214844",
+        "max_latitude": "37.280278",
+        "max_longitude": "42.337778",
+        "min_latitude": "32",
+        "min_longitude": "35.6",
+        "postal_code": false,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Syria",
     "gu_a3": "SYR",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "SY",
+    "iso_3166_1_alpha3": "SYR",
+    "iso_3166_1_numeric": "760",
     "iso_a2": "SY",
     "iso_a3": "SYR",
     "iso_a3_eh": "SYR",
     "iso_n3": "760",
     "labelrank": "3.00",
+    "languages": {
+        "ara": "Arabic"
+    },
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +138,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Syria",
+        "native": {
+            "ara": {
+                "common": "\u0633\u0648\u0631\u064a\u0627",
+                "official": "\u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0648\u0631\u064a\u0629"
+            }
+        },
         "official": "Syrian Arab Republic"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Syrian Arab Republic",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "18028549.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +166,64 @@
     "su_dif": "0.00",
     "subunit": "Syria",
     "tiny": "-99.00",
+    "tld": [
+        ".sy",
+        "\u0633\u0648\u0631\u064a\u0627."
+    ],
+    "translations": {
+        "deu": {
+            "common": "Syrien",
+            "official": "Arabische Republik Syrien"
+        },
+        "est": {
+            "common": "S\u00fc\u00fcria",
+            "official": "S\u00fc\u00fcria Araabia Vabariik"
+        },
+        "fin": {
+            "common": "Syyria",
+            "official": "Syyrian arabitasavalta"
+        },
+        "fra": {
+            "common": "Syrie",
+            "official": "R\u00e9publique arabe syrienne"
+        },
+        "hrv": {
+            "common": "Sirija",
+            "official": "Sirijska Arapska Republika"
+        },
+        "ita": {
+            "common": "Siria",
+            "official": "Repubblica araba siriana"
+        },
+        "jpn": {
+            "common": "\u30b7\u30ea\u30a2\u30fb\u30a2\u30e9\u30d6\u5171\u548c\u56fd",
+            "official": "\u30b7\u30ea\u30a2\u30a2\u30e9\u30d6\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Syri\u00eb",
+            "official": "Syrische Arabische Republiek"
+        },
+        "por": {
+            "common": "S\u00edria",
+            "official": "Rep\u00fablica \u00c1rabe S\u00edria"
+        },
+        "rus": {
+            "common": "\u0421\u0438\u0440\u0438\u044f",
+            "official": "\u0421\u0438\u0440\u0438\u0439\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0431\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "S\u00fdria",
+            "official": "S\u00fdrska arabsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Siria",
+            "official": "Rep\u00fablica \u00c1rabe Siria"
+        },
+        "zho": {
+            "common": "\u53d9\u5229\u4e9a",
+            "official": "\u53d9\u5229\u4e9a\u963f\u62c9\u4f2f\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "760",
     "wb_a2": "SY",

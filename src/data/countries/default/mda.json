@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Moldova",
+    "alt_spellings": [
+        "MD",
+        "Moldova, Republic of",
+        "Republic of Moldova",
+        "Republica Moldova"
+    ],
     "brk_a3": "MDA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Moldova",
+    "capital": "Chi\u0219in\u0103u",
     "cca2": "MD",
     "cca3": "MDA",
     "ccn3": "498",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MDA",
+    "currencies": [
+        "MDL"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Moldovan",
+    "dialling": {
+        "calling_code": [
+            "373"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "MLD",
+        "cown": 359,
+        "ds": "MD",
+        "edgar": 0,
+        "emoji": "\ud83c\uddf2\ud83c\udde9",
+        "eu_member": null,
+        "fao": 146,
+        "fifa": "MDA",
+        "fips": "MD",
+        "gaul": 165,
+        "geonameid": 617790,
+        "imf": 921,
+        "ioc": "MDA",
+        "itu": "MDA",
+        "marc": "mv",
+        "vat_rates": null,
+        "wmo": "RM"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MD",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\udde9"
+    },
     "formal_en": "Republic of Moldova",
     "formal_fr": "",
     "gdp_md_est": "18540.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 33846,
+        "borders": [
+            "ROU",
+            "UKR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "47 00 N",
+        "latitude_desc": "47.203704833984375",
+        "latlng": [
+            47,
+            29
+        ],
+        "longitude": "29 00 E",
+        "longitude_desc": "28.46834373474121",
+        "max_latitude": "48.467222",
+        "max_longitude": "30.096111",
+        "min_latitude": "45.481667",
+        "min_longitude": "26.672222",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Eastern Europe"
+        "subregion": "Eastern Europe",
+        "subregion_code": "151",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Moldova",
     "gu_a3": "MDA",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "MD",
+    "iso_3166_1_alpha3": "MDA",
+    "iso_3166_1_numeric": "498",
     "iso_a2": "MD",
     "iso_a3": "MDA",
     "iso_a3_eh": "MDA",
     "iso_n3": "498",
     "labelrank": "6.00",
+    "languages": {
+        "ron": "Moldavian"
+    },
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +135,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Moldova",
+        "native": {
+            "ron": {
+                "common": "Moldova",
+                "official": "Republica Moldova"
+            }
+        },
         "official": "Republic of Moldova"
     },
     "name_alt": "",
@@ -67,9 +151,6 @@
     "name_sort": "Moldova",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "3474121.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +163,63 @@
     "su_dif": "0.00",
     "subunit": "Moldova",
     "tiny": "-99.00",
+    "tld": [
+        ".md"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Moldawie",
+            "official": "Republik Moldau"
+        },
+        "est": {
+            "common": "Moldova",
+            "official": "Moldova Vabariik"
+        },
+        "fin": {
+            "common": "Moldova",
+            "official": "Moldovan tasavalta"
+        },
+        "fra": {
+            "common": "Moldavie",
+            "official": "R\u00e9publique de Moldavie"
+        },
+        "hrv": {
+            "common": "Moldova",
+            "official": "Moldavija"
+        },
+        "ita": {
+            "common": "Moldavia",
+            "official": "Repubblica di Moldova"
+        },
+        "jpn": {
+            "common": "\u30e2\u30eb\u30c9\u30d0\u5171\u548c\u56fd",
+            "official": "\u30e2\u30eb\u30c9\u30d0\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Moldavi\u00eb",
+            "official": "Republiek Moldavi\u00eb"
+        },
+        "por": {
+            "common": "Mold\u00e1via",
+            "official": "Rep\u00fablica da Mold\u00e1via"
+        },
+        "rus": {
+            "common": "\u041c\u043e\u043b\u0434\u0430\u0432\u0438\u044f",
+            "official": "\u041c\u043e\u043b\u0434\u043e\u0432\u0430"
+        },
+        "slk": {
+            "common": "Moldavsko",
+            "official": "Moldavsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Moldavia",
+            "official": "Rep\u00fablica de Moldova"
+        },
+        "zho": {
+            "common": "\u6469\u5c14\u591a\u74e6",
+            "official": "\u6469\u5c14\u591a\u74e6\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "498",
     "wb_a2": "MD",

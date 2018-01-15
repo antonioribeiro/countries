@@ -8,43 +8,136 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Belarus",
+    "alt_spellings": [
+        "BY",
+        "Bielaru\u015b",
+        "Republic of Belarus",
+        "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
+        "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f"
+    ],
+    "alt_spellings_rinvex": [
+        "BY",
+        "Bielaru\u015b",
+        "Republic of Belarus",
+        "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
+        "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+        "Belorussiya",
+        "Respublika Belarus\u2019"
+    ],
     "brk_a3": "BLR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Belarus",
+    "capital": "Minsk",
     "cca2": "BY",
     "cca3": "BLR",
     "ccn3": "112",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BLR",
+    "currencies": [
+        "BYN",
+        "BYR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Belarusian",
+    "dialling": {
+        "calling_code": [
+            "375"
+        ],
+        "international_prefix": "810",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "8"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "BLR",
+        "cown": 370,
+        "ds": "BY",
+        "edgar": "1F",
+        "emoji": "\ud83c\udde7\ud83c\uddfe",
+        "eu_member": null,
+        "fao": 57,
+        "fifa": "BLR",
+        "fips": "BO",
+        "gaul": 26,
+        "geonameid": 630336,
+        "imf": 913,
+        "ioc": "BLR",
+        "itu": "BLR",
+        "marc": "bw",
+        "vat_rates": null,
+        "wmo": "BY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BO",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddfe"
+    },
     "formal_en": "Republic of Belarus",
     "formal_fr": "",
     "gdp_md_est": "165400.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 207600,
+        "borders": [
+            "LVA",
+            "LTU",
+            "POL",
+            "RUS",
+            "UKR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "53 00 N",
+        "latitude_desc": "53.54347229003906",
+        "latlng": [
+            53,
+            28
+        ],
+        "longitude": "28 00 E",
+        "longitude_desc": "28.054094314575195",
+        "max_latitude": "56.066667",
+        "max_longitude": "32.708056",
+        "min_latitude": "50.716667",
+        "min_longitude": "22.55",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Eastern Europe"
+        "subregion": "Eastern Europe",
+        "subregion_code": "151",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Belarus",
     "gu_a3": "BLR",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "BY",
+    "iso_3166_1_alpha3": "BLR",
+    "iso_3166_1_numeric": "112",
     "iso_a2": "BY",
     "iso_a3": "BLR",
     "iso_a3_eh": "BLR",
     "iso_n3": "112",
     "labelrank": "4.00",
+    "languages": {
+        "bel": "Belarusian",
+        "rus": "Russian"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +150,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Belarus",
+        "native": {
+            "bel": {
+                "common": "\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+                "official": "\u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+            },
+            "rus": {
+                "common": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+            }
+        },
         "official": "Republic of Belarus"
     },
     "name_alt": "",
@@ -64,12 +167,23 @@
     "name_len": "7.00",
     "name_long": "Belarus",
     "name_nev": "Belarus",
+    "name_rinvex": {
+        "common": "Belarus",
+        "native": {
+            "bel": {
+                "common": "\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+                "official": "\u0420\u044d\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+            },
+            "rus": {
+                "common": "\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+            }
+        },
+        "official": "Republic of Belarus"
+    },
     "name_sort": "Belarus",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "9549747.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +196,71 @@
     "su_dif": "0.00",
     "subunit": "Belarus",
     "tiny": "-99.00",
+    "tld": [
+        ".by"
+    ],
+    "tld_rinvex": [
+        ".by",
+        ".\u0431\u0435\u043b"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Belarws",
+            "official": "Republic of Belarus"
+        },
+        "deu": {
+            "common": "Wei\u00dfrussland",
+            "official": "Republik Belarus"
+        },
+        "est": {
+            "common": "Valgevene",
+            "official": "Valgevene Vabariik"
+        },
+        "fin": {
+            "common": "Valko-Ven\u00e4j\u00e4",
+            "official": "Valko-Ven\u00e4j\u00e4n tasavalta"
+        },
+        "fra": {
+            "common": "Bi\u00e9lorussie",
+            "official": "R\u00e9publique de Bi\u00e9lorussie"
+        },
+        "hrv": {
+            "common": "Bjelorusija",
+            "official": "Republika Bjelorusija"
+        },
+        "ita": {
+            "common": "Bielorussia",
+            "official": "Repubblica di Belarus"
+        },
+        "jpn": {
+            "common": "\u30d9\u30e9\u30eb\u30fc\u30b7",
+            "official": "\u30d9\u30e9\u30eb\u30fc\u30b7\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Wit-Rusland",
+            "official": "Republiek Belarus"
+        },
+        "por": {
+            "common": "Bielor\u00fassia",
+            "official": "Rep\u00fablica da Bielorr\u00fassia"
+        },
+        "rus": {
+            "common": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+        },
+        "slk": {
+            "common": "Bielorusko",
+            "official": "Bielorusk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Bielorrusia",
+            "official": "Rep\u00fablica de Belar\u00fas"
+        },
+        "zho": {
+            "common": "\u767d\u4fc4\u7f57\u65af",
+            "official": "\u767d\u4fc4\u7f57\u65af\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "112",
     "wb_a2": "BY",

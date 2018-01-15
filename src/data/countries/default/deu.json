@@ -8,43 +8,142 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Germany",
+    "alt_spellings": [
+        "DE",
+        "Federal Republic of Germany",
+        "Bundesrepublik Deutschland"
+    ],
     "brk_a3": "DEU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Germany",
+    "capital": "Berlin",
     "cca2": "DE",
     "cca3": "DEU",
     "ccn3": "276",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "GER",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "German",
+    "dialling": {
+        "calling_code": [
+            "49"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "national_number_lengths": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "national_prefix": "0"
+    },
     "economy": "1. Developed region: G7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "GMY",
+        "cown": 255,
+        "ds": "D",
+        "edgar": "2M",
+        "emoji": "\ud83c\udde9\ud83c\uddea",
+        "eu_member": true,
+        "fao": 79,
+        "fifa": "GER",
+        "fips": "GM",
+        "gaul": 93,
+        "geonameid": 2921044,
+        "imf": 134,
+        "ioc": "GER",
+        "itu": "D",
+        "marc": "gw",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                7
+            ],
+            "standard": 19,
+            "super_reduced": null
+        },
+        "wmo": "DL"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "GM",
+    "flag": {
+        "emoji": "\ud83c\udde9\ud83c\uddea"
+    },
     "formal_en": "Federal Republic of Germany",
     "formal_fr": "",
     "gdp_md_est": "3979000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 357114,
+        "borders": [
+            "AUT",
+            "BEL",
+            "CZE",
+            "DNK",
+            "FRA",
+            "LUX",
+            "NLD",
+            "POL",
+            "CHE"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "51 00 N",
+        "latitude_desc": "51.20246505737305",
+        "latlng": [
+            51,
+            9
+        ],
+        "longitude": "9 00 E",
+        "longitude_desc": "10.382203102111816",
+        "max_latitude": "55.05",
+        "max_longitude": "15.033333",
+        "min_latitude": "47.266667",
+        "min_longitude": "5.9",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Western Europe"
+        "subregion": "Western Europe",
+        "subregion_code": "155",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Germany",
     "gu_a3": "DEU",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "DE",
+    "iso_3166_1_alpha3": "DEU",
+    "iso_3166_1_numeric": "276",
     "iso_a2": "DE",
     "iso_a3": "DEU",
     "iso_a3_eh": "DEU",
     "iso_n3": "276",
     "labelrank": "2.00",
+    "languages": {
+        "deu": "German"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +156,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Germany",
+        "native": {
+            "deu": {
+                "common": "Deutschland",
+                "official": "Bundesrepublik Deutschland"
+            }
+        },
         "official": "Federal Republic of Germany"
     },
     "name_alt": "",
@@ -67,9 +172,6 @@
     "name_sort": "Germany",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "80594017.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
@@ -82,6 +184,63 @@
     "su_dif": "0.00",
     "subunit": "Germany",
     "tiny": "-99.00",
+    "tld": [
+        ".de"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Deutschland",
+            "official": "Bundesrepublik Deutschland"
+        },
+        "est": {
+            "common": "Saksamaa",
+            "official": "Saksamaa Liitvabariik"
+        },
+        "fin": {
+            "common": "Saksa",
+            "official": "Saksan liittotasavalta"
+        },
+        "fra": {
+            "common": "Allemagne",
+            "official": "R\u00e9publique f\u00e9d\u00e9rale d'Allemagne"
+        },
+        "hrv": {
+            "common": "Njema\u010dka",
+            "official": "Njema\u010dka Federativna Republika"
+        },
+        "ita": {
+            "common": "Germania",
+            "official": "Repubblica federale di Germania"
+        },
+        "jpn": {
+            "common": "\u30c9\u30a4\u30c4",
+            "official": "\u30c9\u30a4\u30c4\u9023\u90a6\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Duitsland",
+            "official": "Bondsrepubliek Duitsland"
+        },
+        "por": {
+            "common": "Alemanha",
+            "official": "Rep\u00fablica Federal da Alemanha"
+        },
+        "rus": {
+            "common": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+            "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "Nemecko",
+            "official": "Nemeck\u00e1 spolkov\u00e1 republika"
+        },
+        "spa": {
+            "common": "Alemania",
+            "official": "Rep\u00fablica Federal de Alemania"
+        },
+        "zho": {
+            "common": "\u5fb7\u56fd",
+            "official": "\u5fb7\u610f\u5fd7\u8054\u90a6\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "276",
     "wb_a2": "DE",

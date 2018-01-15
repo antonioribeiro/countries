@@ -8,43 +8,112 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "South Georgia and the Islands",
+    "alt_spellings": [
+        "GS",
+        "South Georgia and the South Sandwich Islands"
+    ],
     "brk_a3": "SGS",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "S. Geo. and the Is.",
+    "capital": "King Edward Point",
     "cca2": "GS",
     "cca3": "SGS",
     "ccn3": "239",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "GBP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "South Georgian South Sandwich Islander",
+    "dialling": {
+        "calling_code": [
+            "500"
+        ],
+        "international_prefix": "",
+        "national_destination_code_lengths": [],
+        "national_number_lengths": [],
+        "national_prefix": ""
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\uddec\ud83c\uddf8",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": 0,
+        "fips": "SX",
+        "gaul": 228,
+        "geonameid": 3474415,
+        "imf": 0,
+        "ioc": 0,
+        "itu": 0,
+        "marc": "xs",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SX",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\uddf8"
+    },
     "formal_en": "South Georgia and the Islands",
     "formal_fr": "",
     "gdp_md_est": "0.30",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 3903,
         "borders": [],
-        "continent": "Seven seas (open ocean)",
-        "region": "Seven seas (open ocean)",
+        "continent": {
+            "AN": "Antarctica"
+        },
+        "independent": "Territory of GB",
+        "landlocked": false,
+        "latitude": "54 30 S",
+        "latitude_desc": "-54.459922790527344",
+        "latlng": [
+            -54.5,
+            -37
+        ],
+        "longitude": "37 00 W",
+        "longitude_desc": "-36.354618072509766",
+        "max_latitude": "-53.970278",
+        "max_longitude": "-26.333333",
+        "min_latitude": "-59.466667",
+        "min_longitude": "-38.305",
+        "postal_code": true,
+        "region": "Americas",
+        "region_code": "",
         "region_un": "Seven seas (open ocean)",
         "region_wb": "Antarctica",
-        "subregion": "Seven seas (open ocean)"
+        "subregion": "South America",
+        "subregion_code": "",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "South Georgia and the Islands",
     "gu_a3": "SGS",
     "homepart": "-99.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "GS",
+    "iso_3166_1_alpha3": "SGS",
+    "iso_3166_1_numeric": "239",
     "iso_a2": "GS",
     "iso_a3": "SGS",
     "iso_a3_eh": "SGS",
     "iso_n3": "239",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "29.00",
@@ -56,8 +125,14 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "S. Geo. and the Is.",
-        "official": "South Georgia and the Islands"
+        "common": "South Georgia",
+        "native": {
+            "eng": {
+                "common": "South Georgia",
+                "official": "South Georgia and the South Sandwich Islands"
+            }
+        },
+        "official": "South Georgia and the South Sandwich Islands"
     },
     "name_alt": "",
     "name_ciawf": "",
@@ -67,9 +142,6 @@
     "name_sort": "South Georgia and the Islands",
     "note_adm0": "U.K.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "30.00",
     "pop_rank": "1.00",
     "pop_year": "2017.00",
@@ -80,8 +152,66 @@
     "sovereignt": "United Kingdom",
     "su_a3": "SGS",
     "su_dif": "0.00",
+    "subregion_nev": "Seven seas (open ocean)",
     "subunit": "South Georgia and the Islands",
     "tiny": "3.00",
+    "tld": [
+        ".gs"
+    ],
+    "translations": {
+        "deu": {
+            "common": "S\u00fcdgeorgien und die S\u00fcdlichen Sandwichinseln",
+            "official": "S\u00fcdgeorgien und die S\u00fcdlichen Sandwichinseln"
+        },
+        "est": {
+            "common": "L\u00f5una-Georgia ja L\u00f5una-Sandwichi saared",
+            "official": "L\u00f5una-Georgia ja L\u00f5una-Sandwichi saared"
+        },
+        "fin": {
+            "common": "Etel\u00e4-Georgia ja Etel\u00e4iset Sandwichsaaret",
+            "official": "Etel\u00e4-Georgia ja Etel\u00e4iset Sandwichsaaret"
+        },
+        "fra": {
+            "common": "G\u00e9orgie du Sud-et-les \u00celes Sandwich du Sud",
+            "official": "G\u00e9orgie du Sud et les \u00eeles Sandwich du Sud"
+        },
+        "hrv": {
+            "common": "Ju\u017ena Georgija i oto\u010dje Ju\u017eni Sandwich",
+            "official": "Ju\u017ena D\u017eord\u017eija i Otoci Ju\u017eni Sendvi\u010d"
+        },
+        "ita": {
+            "common": "Georgia del Sud e Isole Sandwich Meridionali",
+            "official": "Georgia del Sud e isole Sandwich del Sud"
+        },
+        "jpn": {
+            "common": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u30fb\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6",
+            "official": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u00b7\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6"
+        },
+        "nld": {
+            "common": "Zuid-Georgia en Zuidelijke Sandwicheilanden",
+            "official": "Zuid-Georgi\u00eb en de Zuidelijke Sandwich-eilanden"
+        },
+        "por": {
+            "common": "Ilhas Ge\u00f3rgia do Sul e Sandwich do Sul",
+            "official": "Ge\u00f3rgia do Sul e Sandwich do Sul"
+        },
+        "rus": {
+            "common": "\u042e\u0436\u043d\u0430\u044f \u0413\u0435\u043e\u0440\u0433\u0438\u044f \u0438 \u042e\u0436\u043d\u044b\u0435 \u0421\u0430\u043d\u0434\u0432\u0438\u0447\u0435\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+            "official": "\u042e\u0436\u043d\u0430\u044f \u0413\u0435\u043e\u0440\u0433\u0438\u044f \u0438 \u042e\u0436\u043d\u044b\u0435 \u0421\u0430\u043d\u0434\u0432\u0438\u0447\u0435\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+        },
+        "slk": {
+            "common": "Ju\u017en\u00e1 Georgia a Ju\u017en\u00e9 Sandwichove ostrovy",
+            "official": "Ju\u017en\u00e1 Georgia a Ju\u017en\u00e9 Sandwichove ostrovy"
+        },
+        "spa": {
+            "common": "Islas Georgias del Sur y Sandwich del Sur",
+            "official": "Georgia del Sur y las Islas Sandwich del Sur"
+        },
+        "zho": {
+            "common": "\u5357\u4e54\u6cbb\u4e9a",
+            "official": "\u5357\u4e54\u6cbb\u4e9a\u5c9b\u548c\u5357\u6851\u5a01\u5947\u7fa4\u5c9b"
+        }
+    },
     "type": "Dependency",
     "un_a3": "-099",
     "wb_a2": "-99",

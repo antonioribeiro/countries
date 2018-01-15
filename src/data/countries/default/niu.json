@@ -8,43 +8,116 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Niue",
+    "alt_spellings": [
+        "NU"
+    ],
     "brk_a3": "NIU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Niue",
+    "capital": "Alofi",
     "cca2": "NU",
     "cca3": "NIU",
     "ccn3": "570",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "NZD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Niuean",
+    "dialling": {
+        "calling_code": [
+            "683"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            4
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "NZ",
+        "edgar": "Q6",
+        "emoji": "\ud83c\uddf3\ud83c\uddfa",
+        "eu_member": null,
+        "fao": 160,
+        "fifa": "NIU",
+        "fips": "NE",
+        "gaul": 183,
+        "geonameid": 4036232,
+        "imf": 0,
+        "ioc": "NIU",
+        "itu": "NIU",
+        "marc": "xh",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "NE",
+    "flag": {
+        "emoji": "\ud83c\uddf3\ud83c\uddfa"
+    },
     "formal_en": "",
     "formal_fr": "",
     "gdp_md_est": "10.00",
     "gdp_year": "2003.00",
     "geo": {
+        "area": 260,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Associated with NZ",
+        "landlocked": false,
+        "latitude": "19 02 S",
+        "latitude_desc": "-19.03806495666504",
+        "latlng": [
+            -19.03333333,
+            -169.86666666
+        ],
+        "longitude": "169 52 W",
+        "longitude_desc": "-169.8302459716797",
+        "max_latitude": "-18.933333",
+        "max_longitude": "-169.783333",
+        "min_latitude": "-19.1",
+        "min_longitude": "-169.916667",
+        "postal_code": false,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Polynesia"
+        "subregion": "Polynesia",
+        "subregion_code": "061",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Niue",
     "gu_a3": "NIU",
     "homepart": "-99.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "NU",
+    "iso_3166_1_alpha3": "NIU",
+    "iso_3166_1_numeric": "570",
     "iso_a2": "NU",
     "iso_a3": "NIU",
     "iso_a3_eh": "NIU",
     "iso_n3": "570",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English",
+        "niu": "Niuean"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "4.00",
@@ -57,7 +130,17 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Niue",
-        "official": ""
+        "native": {
+            "eng": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "niu": {
+                "common": "Niu\u0113",
+                "official": "Niu\u0113"
+            }
+        },
+        "official": "Niue"
     },
     "name_alt": "",
     "name_ciawf": "Niue",
@@ -67,9 +150,6 @@
     "name_sort": "Niue",
     "note_adm0": "Assoc. with N.Z.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1626.00",
     "pop_rank": "3.00",
     "pop_year": "2015.00",
@@ -82,6 +162,63 @@
     "su_dif": "0.00",
     "subunit": "Niue",
     "tiny": "3.00",
+    "tld": [
+        ".nu"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "est": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "fin": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "fra": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "hrv": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "ita": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "jpn": {
+            "common": "\u30cb\u30a6\u30a8",
+            "official": "\u30cb\u30a6\u30a8"
+        },
+        "nld": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "por": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "rus": {
+            "common": "\u041d\u0438\u0443\u044d",
+            "official": "\u041d\u0438\u0443\u044d"
+        },
+        "slk": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "spa": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "zho": {
+            "common": "\u7ebd\u57c3",
+            "official": "\u7ebd\u57c3"
+        }
+    },
     "type": "Dependency",
     "un_a3": "570",
     "wb_a2": "-99",

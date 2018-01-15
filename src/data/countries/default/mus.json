@@ -8,43 +8,119 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mauritius",
+    "alt_spellings": [
+        "MU",
+        "Republic of Mauritius",
+        "R\u00e9publique de Maurice"
+    ],
     "brk_a3": "MUS",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mauritius",
+    "capital": "Port Louis",
     "cca2": "MU",
     "cca3": "MUS",
     "ccn3": "480",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MRI",
+    "currencies": [
+        "MUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Mauritian",
+    "dialling": {
+        "calling_code": [
+            "230"
+        ],
+        "international_prefix": "020",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "MAS",
+        "cown": 590,
+        "ds": "MS",
+        "edgar": "O4",
+        "emoji": "\ud83c\uddf2\ud83c\uddfa",
+        "eu_member": null,
+        "fao": 137,
+        "fifa": "MRI",
+        "fips": "MP",
+        "gaul": 160,
+        "geonameid": 934292,
+        "imf": 684,
+        "ioc": "MRI",
+        "itu": "MAU",
+        "marc": "mf",
+        "vat_rates": null,
+        "wmo": "MA"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MP",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddfa"
+    },
     "formal_en": "Republic of Mauritius",
     "formal_fr": "",
     "gdp_md_est": "25850.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 2040,
         "borders": [],
-        "continent": "Seven seas (open ocean)",
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "20 17 S",
+        "latitude_desc": "-20.220409393310547",
+        "latlng": [
+            -20.28333333,
+            57.55
+        ],
+        "longitude": "57 33 E",
+        "longitude_desc": "57.589378356933594",
+        "max_latitude": "-5.25",
+        "max_longitude": "72.466667",
+        "min_latitude": "-20.516667",
+        "min_longitude": "56.6",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Mauritius",
     "gu_a3": "MUS",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "MU",
+    "iso_3166_1_alpha3": "MUS",
+    "iso_3166_1_numeric": "480",
     "iso_a2": "MU",
     "iso_a3": "MUS",
     "iso_a3_eh": "MUS",
     "iso_n3": "480",
     "labelrank": "5.00",
+    "languages": {
+        "eng": "English",
+        "fra": "French",
+        "mfe": "Mauritian Creole"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "9.00",
@@ -57,6 +133,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mauritius",
+        "native": {
+            "eng": {
+                "common": "Mauritius",
+                "official": "Republic of Mauritius"
+            },
+            "fra": {
+                "common": "Maurice",
+                "official": "R\u00e9publique de Maurice"
+            },
+            "mfe": {
+                "common": "Moris",
+                "official": "Republik Moris"
+            }
+        },
         "official": "Republic of Mauritius"
     },
     "name_alt": "",
@@ -67,9 +157,6 @@
     "name_sort": "Mauritius",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1356388.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +169,63 @@
     "su_dif": "0.00",
     "subunit": "Mauritius",
     "tiny": "2.00",
+    "tld": [
+        ".mu"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Mauritius",
+            "official": "Republik Mauritius"
+        },
+        "est": {
+            "common": "Mauritius",
+            "official": "Mauritiuse Vabariik"
+        },
+        "fin": {
+            "common": "Mauritius",
+            "official": "Mauritiuksen tasavalta"
+        },
+        "fra": {
+            "common": "\u00cele Maurice",
+            "official": "R\u00e9publique de Maurice"
+        },
+        "hrv": {
+            "common": "Mauricijus",
+            "official": "Republika Mauricijus"
+        },
+        "ita": {
+            "common": "Mauritius",
+            "official": "Repubblica di Mauritius"
+        },
+        "jpn": {
+            "common": "\u30e2\u30fc\u30ea\u30b7\u30e3\u30b9",
+            "official": "\u30e2\u30fc\u30ea\u30b7\u30e3\u30b9\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Mauritius",
+            "official": "Republiek Mauritius"
+        },
+        "por": {
+            "common": "Maur\u00edcio",
+            "official": "Rep\u00fablica das Maur\u00edcias"
+        },
+        "rus": {
+            "common": "\u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u0432\u0440\u0438\u043a\u0438\u0439"
+        },
+        "slk": {
+            "common": "Maur\u00edcius",
+            "official": "Maur\u00edcijsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Mauricio",
+            "official": "Rep\u00fablica de Mauricio"
+        },
+        "zho": {
+            "common": "\u6bdb\u91cc\u6c42\u65af",
+            "official": "\u6bdb\u91cc\u6c42\u65af\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "480",
     "wb_a2": "MU",

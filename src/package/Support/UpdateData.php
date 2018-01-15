@@ -7,6 +7,7 @@ use Cache;
 use Closure;
 use PragmaRX\Support\Exceptions\Exception;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Facade as CountriesService;
 
 class UpdateData extends Base
 {
@@ -16,6 +17,43 @@ class UpdateData extends Base
     protected $command;
 
     protected $countries;
+
+    /**
+     * Update all data.
+     *
+     * @param $command
+     */
+    public function update($command)
+    {
+        $this->command = $command;
+
+        $this->downloadFiles();
+
+        $this->updateCountries();
+
+        $this->updateCurrencies();
+
+        $this->updateStates();
+
+        $this->updateCities();
+
+        $this->updateTaxes();
+
+        $this->updateTimezone();
+
+        $this->deleteTemporaryFiles();
+    }
+
+    protected function fixNaturalOddCountries($country)
+    {
+        if ($country['iso_a2'] === '-99') {
+            $country['iso_a2'] = $country['wb_a2'];
+
+            $country['iso_a3'] = $country['wb_a3'];
+        }
+
+        return $country;
+    }
 
     /**
      * @return Coollection
@@ -33,36 +71,6 @@ class UpdateData extends Base
         });
 
         return $mledoze;
-    }
-
-    protected function removeTemporaryFolders()
-    {
-    }
-
-    /**
-     * Update all data.
-     *
-     * @param $command
-     */
-    public function update($command)
-    {
-        $this->command = $command;
-
-//        $this->downloadFiles();
-//
-//        $this->updateCountries();
-//
-//        $this->updateCurrencies();
-//
-        $this->updateStates();
-
-        $this->updateCities();
-
-        $this->updateTaxes();
-
-        $this->updateTimezone();
-
-        $this->deleteTemporaryFiles();
     }
 
     /**
@@ -106,7 +114,9 @@ class UpdateData extends Base
 
         $mledoze = $this->loadMledozeCountries();
 
-        $countries = countriesCollect($this->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->mapWithKeys(function ($natural, $key) use ($mledoze, $dataDir) {
+        $countries = countriesCollect($this->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country, $key) {
+            return $this->fixNaturalOddCountries($country);
+        })->mapWithKeys(function ($natural, $key) use ($mledoze, $dataDir) {
             list($mledoze, $countryCode) = $this->findMledozeCountry($mledoze, $natural);
 
             $natural = countriesCollect($natural)->mapWithKeys(function ($country, $key) {
@@ -158,7 +168,7 @@ class UpdateData extends Base
 
     protected function clearCountryCurrencies($country)
     {
-        if (isset($country['currency'])) {
+        if (isset($country['currency']) && !is_null($country['currency'])) {
             $country['currencies'] = array_keys($country['currency']);
 
             unset($country['currency']);
@@ -222,12 +232,11 @@ class UpdateData extends Base
             'official' => $fields['formal_en'],
         ];
 
-        $fields['cca2'] = $fields['iso_a2'];
-        $fields['ccn3'] = $fields['iso_n3'];
-        $fields['cca3'] = $fields['iso_a3'];
+        $fields['cca2'] = $fields['iso_a2'] == '-99' ? $fields['adm0_a3'] : $fields['iso_a2'];
+        $fields['ccn3'] = $fields['iso_n3'] == '-99' ? $fields['adm0_a3'] : $fields['iso_a2'];
+        $fields['cca3'] = $fields['iso_a3'] == '-99' ? $fields['adm0_a3'] : $fields['iso_a2'];
 
         $fields['region'] = $fields['region_un'];
-        $fields['subregion'] = $fields['subregion'];
 
         $fields['borders'] = [];
 
@@ -291,8 +300,14 @@ class UpdateData extends Base
         $fields = [
             ['cca3', 'iso_a3'],
             ['cca2', 'iso_a2'],
+            ['cca2', 'wb_a2'],
+            ['cca3', 'wb_a3'],
+            ['name.common', 'admin'],
             ['name.common', 'name'],
             ['name.common', 'name_long'],
+            ['name.common', 'formal_en'],
+            ['name.official', 'admin'],
+            ['name.official', 'formal_en'],
             ['name.official', 'name'],
             ['name.official', 'name_long'],
         ];
@@ -453,7 +468,7 @@ class UpdateData extends Base
     /**
      * Generate json files from array.
      *
-     * @param $result
+     * @param $data
      * @param $dir
      * @param Closure $normalizerClosure
      * @param Closure $makeGroupKeyClosure
@@ -461,11 +476,11 @@ class UpdateData extends Base
      * @param string $groupKey
      * @return Coollection
      */
-    protected function generateJsonFiles($result, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
+    protected function generateJsonFiles($data, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
     {
         $this->message('Normalizing data...');
 
-        $data = $this->normalizeData($result, $dir, $normalizerClosure);
+        $data = $this->normalizeData($data, $dir, $normalizerClosure);
 
         $this->message('Merging data...');
 
@@ -521,13 +536,9 @@ class UpdateData extends Base
     {
         $this->progress('Loading shape file...');
 
-        dump(11);
         if (file_exists($sha = $this->dataDir('tmp/'.sha1($file = $this->dataDir($file))))) {
-            dump(12);
-
             return $this->loadJson($sha);
         }
-        dump(13);
 
         $shapefile = load_shapefile($file);
 
@@ -903,6 +914,8 @@ class UpdateData extends Base
         );
 
         $this->progress('Generated '.count($this->countries).' countries.');
+
+        $this->countries = CountriesService::all();
     }
 
     /**
@@ -957,7 +970,7 @@ class UpdateData extends Base
 
         $this->eraseDataDir($dataDir = '/currencies/default');
 
-        $currencies = $this->loadJsonFiles($this->dataDir('third-party/world-currencies/world-currencies-master/src'));
+        $currencies = $this->loadJsonFiles($this->dataDir('third-party/world-currencies/package/src'));
 
         $currencies = $currencies->mapWithKeys(function ($currency, $key) {
             return $currency;

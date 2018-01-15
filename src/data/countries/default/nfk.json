@@ -8,43 +8,118 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Norfolk Island",
+    "alt_spellings": [
+        "NF",
+        "Territory of Norfolk Island",
+        "Teratri of Norf'k Ailen"
+    ],
     "brk_a3": "NFK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Norfolk Island",
+    "capital": "Kingston",
     "cca2": "NF",
     "cca3": "NFK",
     "ccn3": "574",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "AUD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Norfolk Islander",
+    "dialling": {
+        "calling_code": [
+            "672"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "AUS",
+        "edgar": "Q7",
+        "emoji": "\ud83c\uddf3\ud83c\uddeb",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "NFK",
+        "fips": "NF",
+        "gaul": 184,
+        "geonameid": 2155115,
+        "imf": 0,
+        "ioc": "NFI",
+        "itu": "NFK",
+        "marc": "nx",
+        "vat_rates": null,
+        "wmo": "NF"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "NF",
+    "flag": {
+        "emoji": "\ud83c\uddf3\ud83c\uddeb"
+    },
     "formal_en": "Territory of Norfolk Island",
     "formal_fr": "",
     "gdp_md_est": "33.15",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 36,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Territory of AU",
+        "landlocked": false,
+        "latitude": "29 02 S",
+        "latitude_desc": "-29.036962509155273",
+        "latlng": [
+            -29.03333333,
+            167.95
+        ],
+        "longitude": "167 57 E",
+        "longitude_desc": "167.95523071289062",
+        "max_latitude": "-28.995388",
+        "max_longitude": "167.996927",
+        "min_latitude": "-29.136588",
+        "min_longitude": "167.916219",
+        "postal_code": true,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Australia and New Zealand"
+        "subregion": "Australia and New Zealand",
+        "subregion_code": "053",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Norfolk Island",
     "gu_a3": "NFK",
     "homepart": "-99.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "NF",
+    "iso_3166_1_alpha3": "NFK",
+    "iso_3166_1_numeric": "574",
     "iso_a2": "NF",
     "iso_a3": "NFK",
     "iso_a3_eh": "NFK",
     "iso_n3": "574",
     "labelrank": "5.00",
+    "languages": {
+        "eng": "English",
+        "pih": "Norfuk"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "14.00",
@@ -57,6 +132,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Norfolk Island",
+        "native": {
+            "eng": {
+                "common": "Norfolk Island",
+                "official": "Territory of Norfolk Island"
+            },
+            "pih": {
+                "common": "Norf'k Ailen",
+                "official": "Teratri of Norf'k Ailen"
+            }
+        },
         "official": "Territory of Norfolk Island"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "Norfolk Island",
     "note_adm0": "Auz.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "2210.00",
     "pop_rank": "4.00",
     "pop_year": "2014.00",
@@ -82,6 +164,63 @@
     "su_dif": "0.00",
     "subunit": "Norfolk Island",
     "tiny": "-99.00",
+    "tld": [
+        ".nf"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Norfolkinsel",
+            "official": "Gebiet der Norfolk-Insel"
+        },
+        "est": {
+            "common": "Norfolk",
+            "official": "Norfolki saare ala"
+        },
+        "fin": {
+            "common": "Norfolkinsaari",
+            "official": "Norfolkinsaaren territorio"
+        },
+        "fra": {
+            "common": "\u00cele Norfolk",
+            "official": "Territoire de l'\u00eele Norfolk"
+        },
+        "hrv": {
+            "common": "Otok Norfolk",
+            "official": "Teritorij Norfolk Island"
+        },
+        "ita": {
+            "common": "Isola Norfolk",
+            "official": "Territorio di Norfolk Island"
+        },
+        "jpn": {
+            "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
+            "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
+        },
+        "nld": {
+            "common": "Norfolkeiland",
+            "official": "Grondgebied van Norfolk Island"
+        },
+        "por": {
+            "common": "Ilha Norfolk",
+            "official": "Territ\u00f3rio da Ilha Norfolk"
+        },
+        "rus": {
+            "common": "\u041d\u043e\u0440\u0444\u043e\u043b\u043a",
+            "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041d\u043e\u0440\u0444\u043e\u043b\u043a"
+        },
+        "slk": {
+            "common": "Norfolk",
+            "official": "Terit\u00f3rium ostrova Norfolk"
+        },
+        "spa": {
+            "common": "Isla de Norfolk",
+            "official": "Territorio de la Isla Norfolk"
+        },
+        "zho": {
+            "common": "\u8bfa\u798f\u514b\u5c9b",
+            "official": "\u8bfa\u798f\u514b\u5c9b"
+        }
+    },
     "type": "Dependency",
     "un_a3": "574",
     "wb_a2": "-99",

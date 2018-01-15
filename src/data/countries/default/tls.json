@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "East Timor",
+    "alt_spellings": [
+        "TL",
+        "East Timor",
+        "Democratic Republic of Timor-Leste",
+        "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
+        "Rep\u00fablika Demokr\u00e1tika Tim\u00f3r-Leste",
+        "Tim\u00f3r Lorosa'e",
+        "Timor Lorosae"
+    ],
     "brk_a3": "TLS",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Timor-Leste",
+    "capital": "Dili",
     "cca2": "TL",
     "cca3": "TLS",
     "ccn3": "626",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "TLS",
+    "currencies": [
+        "USD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "East Timorese",
+    "dialling": {
+        "calling_code": [
+            "670"
+        ],
+        "international_prefix": "None",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "ETM",
+        "cown": 860,
+        "ds": 0,
+        "edgar": "Z3",
+        "emoji": "\ud83c\uddf9\ud83c\uddf1",
+        "eu_member": null,
+        "fao": 176,
+        "fifa": "TLS",
+        "fips": "TT",
+        "gaul": 242,
+        "geonameid": 1966436,
+        "imf": 537,
+        "ioc": "TLS",
+        "itu": "TLS",
+        "marc": "em",
+        "vat_rates": null,
+        "wmo": "TM"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "TT",
+    "flag": {
+        "emoji": "\ud83c\uddf9\ud83c\uddf1"
+    },
     "formal_en": "Democratic Republic of Timor-Leste",
     "formal_fr": "",
     "gdp_md_est": "4975.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 14874,
+        "borders": [
+            "IDN"
+        ],
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "8 50 S",
+        "latitude_desc": "-8.804786682128906",
+        "latlng": [
+            -8.83333333,
+            125.91666666
+        ],
+        "longitude": "125 55 E",
+        "longitude_desc": "126.07902526855469",
+        "max_latitude": "-7.597222",
+        "max_longitude": "127.336667",
+        "min_latitude": "-9.469722",
+        "min_longitude": "124.085556",
+        "postal_code": false,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "South-Eastern Asia"
+        "subregion": "South-Eastern Asia",
+        "subregion_code": "035",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "East Timor",
     "gu_a3": "TLS",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "TL",
+    "iso_3166_1_alpha3": "TLS",
+    "iso_3166_1_numeric": "626",
     "iso_a2": "TL",
     "iso_a3": "TLS",
     "iso_a3_eh": "TLS",
     "iso_n3": "626",
     "labelrank": "5.00",
+    "languages": {
+        "por": "Portuguese",
+        "tet": "Tetum"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "11.00",
@@ -57,6 +138,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Timor-Leste",
+        "native": {
+            "por": {
+                "common": "Timor-Leste",
+                "official": "Rep\u00fablica Democr\u00e1tica de Timor-Leste"
+            },
+            "tet": {
+                "common": "Tim\u00f3r-Leste",
+                "official": "Rep\u00fablika Demokr\u00e1tika Tim\u00f3r-Leste"
+            }
+        },
         "official": "Democratic Republic of Timor-Leste"
     },
     "name_alt": "East Timor",
@@ -67,9 +158,6 @@
     "name_sort": "Timor-Leste",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1291358.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +170,63 @@
     "su_dif": "0.00",
     "subunit": "East Timor",
     "tiny": "-99.00",
+    "tld": [
+        ".tl"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Timor-Leste",
+            "official": "Demokratische Republik Timor-Leste"
+        },
+        "est": {
+            "common": "Ida-Timor",
+            "official": "Timor-Leste Demokraatlik Vabariik"
+        },
+        "fin": {
+            "common": "It\u00e4-Timor",
+            "official": "It\u00e4-Timorin demokraattinen tasavalta"
+        },
+        "fra": {
+            "common": "Timor oriental",
+            "official": "R\u00e9publique d\u00e9mocratique du Timor oriental"
+        },
+        "hrv": {
+            "common": "Isto\u010dni Timor",
+            "official": "Demokratska Republika Timor-Leste"
+        },
+        "ita": {
+            "common": "Timor Est",
+            "official": "Repubblica Democratica di Timor Est"
+        },
+        "jpn": {
+            "common": "\u6771\u30c6\u30a3\u30e2\u30fc\u30eb",
+            "official": "\u6771\u30c6\u30a3\u30e2\u30fc\u30eb\u6c11\u4e3b\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Oost-Timor",
+            "official": "Democratische Republiek Oost-Timor"
+        },
+        "por": {
+            "common": "Timor-Leste",
+            "official": "Rep\u00fablica Democr\u00e1tica de Timor-Leste"
+        },
+        "rus": {
+            "common": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u0422\u0438\u043c\u043e\u0440",
+            "official": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0438\u043c\u043e\u0440 -\u041b\u0435\u0448\u0442\u0438"
+        },
+        "slk": {
+            "common": "V\u00fdchodn\u00fd Timor",
+            "official": "V\u00fdchodotimorsk\u00e1 demokratick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Timor Oriental",
+            "official": "Rep\u00fablica Democr\u00e1tica de Timor-Leste"
+        },
+        "zho": {
+            "common": "\u4e1c\u5e1d\u6c76",
+            "official": "\u4e1c\u5e1d\u6c76\u6c11\u4e3b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "626",
     "wb_a2": "TP",

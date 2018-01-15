@@ -1,0 +1,20 @@
+{
+    "name": "Australian GST",
+    "generic_label": "gst",
+    "display_inclusive": true,
+    "zone": "au_gst",
+    "rates": [
+        {
+            "id": "au_gst_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "au_gst_standard_2000",
+                    "amount": 0.1,
+                    "start_date": "2000-07-01"
+                }
+            ]
+        }
+    ]
+}

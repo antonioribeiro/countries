@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Sint Maarten",
+    "alt_spellings": [
+        "SX",
+        "Sint Maarten (Dutch part)"
+    ],
     "brk_a3": "SXM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Sint Maarten",
+    "capital": "Philipsburg",
     "cca2": "SX",
     "cca3": "SXM",
     "ccn3": "534",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "ANG"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "St. Maartener",
+    "dialling": {
+        "calling_code": [
+            "1721"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\uddf8\ud83c\uddfd",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": 0,
+        "fips": "NN",
+        "gaul": 0,
+        "geonameid": 7609695,
+        "imf": 0,
+        "ioc": 0,
+        "itu": 0,
+        "marc": "sn",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "NT",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddfd"
+    },
     "formal_en": "Sint Maarten (Dutch part)",
     "formal_fr": "",
     "gdp_md_est": "365.80",
     "gdp_year": "2014.00",
     "geo": {
-        "borders": [],
-        "continent": "North America",
+        "area": 34,
+        "borders": [
+            "MAF"
+        ],
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Part of NL",
+        "landlocked": false,
+        "latitude": "",
+        "latitude_desc": "18.042224884033203",
+        "latlng": [
+            18.033333,
+            -63.05
+        ],
+        "longitude": "",
+        "longitude_desc": "-63.06623458862305",
+        "max_latitude": "18.0641707",
+        "max_longitude": "-62.9982448",
+        "min_latitude": "18.005267",
+        "min_longitude": "-63.1379781",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Sint Maarten",
     "gu_a3": "SXM",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "SX",
+    "iso_3166_1_alpha3": "SXM",
+    "iso_3166_1_numeric": "534",
     "iso_a2": "SX",
     "iso_a3": "SXM",
     "iso_a3_eh": "SXM",
     "iso_n3": "534",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English",
+        "fra": "French",
+        "nld": "Dutch"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "12.00",
@@ -57,7 +134,21 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Sint Maarten",
-        "official": "Sint Maarten (Dutch part)"
+        "native": {
+            "eng": {
+                "common": "Sint Maarten",
+                "official": "Sint Maarten"
+            },
+            "fra": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            },
+            "nld": {
+                "common": "Sint Maarten",
+                "official": "Sint Maarten"
+            }
+        },
+        "official": "Sint Maarten"
     },
     "name_alt": "",
     "name_ciawf": "Sint Maarten",
@@ -67,9 +158,6 @@
     "name_sort": "St. Maarten (Dutch part)",
     "note_adm0": "Neth.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "42083.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
@@ -82,6 +170,59 @@
     "su_dif": "0.00",
     "subunit": "Sint Maarten",
     "tiny": "4.00",
+    "tld": [
+        ".sx"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "est": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "fin": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "fra": {
+            "common": "Saint-Martin",
+            "official": "Sint Maarten"
+        },
+        "ita": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "jpn": {
+            "common": "\u30b7\u30f3\u30c8\u30fb\u30de\u30fc\u30eb\u30c6\u30f3",
+            "official": "\u30b7\u30f3\u30c8\u30de\u30fc\u30eb\u30c6\u30f3\u5cf6"
+        },
+        "nld": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "por": {
+            "common": "S\u00e3o Martinho",
+            "official": "Sint Maarten"
+        },
+        "rus": {
+            "common": "\u0421\u0438\u043d\u0442-\u041c\u0430\u0440\u0442\u0435\u043d",
+            "official": "\u0421\u0438\u043d\u0442-\u041c\u0430\u0430\u0440\u0442\u0435\u043d"
+        },
+        "slk": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "spa": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "zho": {
+            "common": "\u5723\u9a6c\u4e01\u5c9b",
+            "official": "\u5723\u9a6c\u4e01\u5c9b"
+        }
+    },
     "type": "Country",
     "un_a3": "534",
     "wb_a2": "SX",

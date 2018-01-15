@@ -8,43 +8,105 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Antarctica",
+    "alt_spellings": [
+        "AQ"
+    ],
     "brk_a3": "ATA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Antarctica",
+    "capital": null,
     "cca2": "AQ",
     "cca3": "ATA",
     "ccn3": "010",
-    "curencies": [],
+    "cioc": null,
     "currencies": [],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Antarctican",
+    "dialling": {
+        "calling_code": [],
+        "international_prefix": "",
+        "national_destination_code_lengths": [],
+        "national_number_lengths": [],
+        "national_prefix": ""
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\udde6\ud83c\uddf6",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "ROS",
+        "fips": "AY",
+        "gaul": 10,
+        "geonameid": 6697173,
+        "imf": 0,
+        "ioc": 0,
+        "itu": 0,
+        "marc": "ay",
+        "vat_rates": null,
+        "wmo": "AA"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AY",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddf6"
+    },
     "formal_en": "",
     "formal_fr": "",
     "gdp_md_est": "810.00",
     "gdp_year": "2013.00",
     "geo": {
+        "area": 14000000,
         "borders": [],
-        "continent": "Antarctica",
-        "region": "Antarctica",
+        "continent": {
+            "AN": "Antarctica"
+        },
+        "independent": "International",
+        "landlocked": false,
+        "latitude": "90 00 S",
+        "latitude_desc": "-82.862752",
+        "latlng": [
+            -90,
+            0
+        ],
+        "longitude": "0 00 E",
+        "longitude_desc": "-135.0",
+        "max_latitude": "-60.0",
+        "max_longitude": "180.0",
+        "min_latitude": "-90.0",
+        "min_longitude": "-180.0",
+        "postal_code": true,
+        "region": "",
+        "region_code": "",
         "region_un": "Antarctica",
         "region_wb": "Antarctica",
-        "subregion": "Antarctica"
+        "subregion": "",
+        "subregion_code": "",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Antarctica",
     "gu_a3": "ATA",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "AQ",
+    "iso_3166_1_alpha3": "ATA",
+    "iso_3166_1_numeric": "010",
     "iso_a2": "AQ",
     "iso_a3": "ATA",
     "iso_a3_eh": "ATA",
     "iso_n3": "010",
     "labelrank": "4.00",
+    "languages": [],
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,19 +119,27 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Antarctica",
-        "official": ""
+        "native": [],
+        "official": "Antarctica"
     },
     "name_alt": "",
     "name_ciawf": "",
     "name_len": "10.00",
     "name_long": "Antarctica",
     "name_nev": "Antarctica",
+    "name_rinvex": {
+        "common": "Antarctica",
+        "native": {
+            "eng": {
+                "common": "Antarctica",
+                "official": "Antarctica"
+            }
+        },
+        "official": "Antarctica"
+    },
     "name_sort": "Antarctica",
     "note_adm0": "",
     "note_brk": "Multiple claims held in abeyance",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "4050.00",
     "pop_rank": "4.00",
     "pop_year": "2013.00",
@@ -80,8 +150,70 @@
     "sovereignt": "Antarctica",
     "su_a3": "ATA",
     "su_dif": "0.00",
+    "subregion_nev": "Antarctica",
     "subunit": "Antarctica",
     "tiny": "-99.00",
+    "tld": [
+        ".aq"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Antarctica",
+            "official": "Antarctica"
+        },
+        "deu": {
+            "common": "Antarktis",
+            "official": "Antarktika"
+        },
+        "est": {
+            "common": "Antarktika",
+            "official": "Antarktika"
+        },
+        "fin": {
+            "common": "Etel\u00e4manner",
+            "official": "Etel\u00e4manner"
+        },
+        "fra": {
+            "common": "Antarctique",
+            "official": "Antarctique"
+        },
+        "hrv": {
+            "common": "Antarktika",
+            "official": "Antarktika"
+        },
+        "ita": {
+            "common": "Antartide",
+            "official": "Antartide"
+        },
+        "jpn": {
+            "common": "\u5357\u6975",
+            "official": "\u5357\u6975\u5927\u9678"
+        },
+        "nld": {
+            "common": "Antarctica",
+            "official": "Antarctica"
+        },
+        "por": {
+            "common": "Ant\u00e1rtida",
+            "official": "Ant\u00e1rtica"
+        },
+        "rus": {
+            "common": "\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0434\u0430",
+            "official": "\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0434\u0430"
+        },
+        "slk": {
+            "common": "Antarkt\u00edda",
+            "official": "Antarkt\u00edda"
+        },
+        "spa": {
+            "common": "Ant\u00e1rtida",
+            "official": "Ant\u00e1rtida"
+        },
+        "zho": {
+            "common": "\u5357\u6781\u6d32",
+            "official": "\u5357\u6781\u6d32"
+        }
+    },
     "type": "Indeterminate",
     "un_a3": "-099",
     "wb_a2": "-99",

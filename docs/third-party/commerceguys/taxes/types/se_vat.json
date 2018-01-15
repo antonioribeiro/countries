@@ -1,0 +1,43 @@
+{
+    "name": "Swedish VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "se_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "se_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "se_vat_standard_1995",
+                    "amount": 0.25,
+                    "start_date": "1995-01-01"
+                }
+            ]
+        },
+        {
+            "id": "se_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "se_vat_intermediate_1995",
+                    "amount": 0.12,
+                    "start_date": "1995-01-01"
+                }
+            ]
+        },
+        {
+            "id": "se_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "se_vat_reduced_1996",
+                    "amount": 0.06,
+                    "start_date": "1996-01-01"
+                }
+            ]
+        }
+    ]
+}

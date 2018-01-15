@@ -1,0 +1,42 @@
+{
+    "AOA": {
+        "name": "Angolan Kwanza",
+        "iso": {
+            "code": "AOA",
+            "number": "982"
+        },
+        "units": {
+            "major": {
+                "name": "Kwanza",
+                "symbol": "Kz"
+            },
+            "minor": {
+                "name": "cêntimos",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "Kz10",
+                "Kz50",
+                "Kz100",
+                "Kz200",
+                "Kz500",
+                "Kz1000",
+                "Kz2000"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "Kz1",
+                "Kz2",
+                "Kz5",
+                "10",
+                "50"
+            ],
+            "rare": []
+        }
+    }
+}

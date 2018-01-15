@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Uzbekistan",
+    "alt_spellings": [
+        "UZ",
+        "Republic of Uzbekistan",
+        "O\u2018zbekiston Respublikasi",
+        "\u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438"
+    ],
     "brk_a3": "UZB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Uzbekistan",
+    "capital": "Tashkent",
     "cca2": "UZ",
     "cca3": "UZB",
     "ccn3": "860",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "UZB",
+    "currencies": [
+        "UZS"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Uzbekistani",
+    "dialling": {
+        "calling_code": [
+            "998"
+        ],
+        "international_prefix": "810",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "8"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "UZB",
+        "cown": 704,
+        "ds": "UZ",
+        "edgar": "2K",
+        "emoji": "\ud83c\uddfa\ud83c\uddff",
+        "eu_member": null,
+        "fao": 235,
+        "fifa": "UZB",
+        "fips": "UZ",
+        "gaul": 261,
+        "geonameid": 1512440,
+        "imf": 927,
+        "ioc": "UZB",
+        "itu": "UZB",
+        "marc": "uz",
+        "vat_rates": null,
+        "wmo": "UZ"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "UZ",
+    "flag": {
+        "emoji": "\ud83c\uddfa\ud83c\uddff"
+    },
     "formal_en": "Republic of Uzbekistan",
     "formal_fr": "",
     "gdp_md_est": "202300.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 447400,
+        "borders": [
+            "AFG",
+            "KAZ",
+            "KGZ",
+            "TJK",
+            "TKM"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "41 00 N",
+        "latitude_desc": "41.77239227294922",
+        "latlng": [
+            41,
+            64
+        ],
+        "longitude": "64 00 E",
+        "longitude_desc": "63.14588928222656",
+        "max_latitude": "48.583333",
+        "max_longitude": "80.383333",
+        "min_latitude": "35.266667",
+        "min_longitude": "56.083333",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Central Asia"
+        "subregion": "Central Asia",
+        "subregion_code": "143",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Uzbekistan",
     "gu_a3": "UZB",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "UZ",
+    "iso_3166_1_alpha3": "UZB",
+    "iso_3166_1_numeric": "860",
     "iso_a2": "UZ",
     "iso_a3": "UZB",
     "iso_a3_eh": "UZB",
     "iso_n3": "860",
     "labelrank": "3.00",
+    "languages": {
+        "rus": "Russian",
+        "uzb": "Uzbek"
+    },
     "lastcensus": "1989.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,6 +139,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Uzbekistan",
+        "native": {
+            "rus": {
+                "common": "\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d",
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d"
+            },
+            "uzb": {
+                "common": "O\u2018zbekiston",
+                "official": "O'zbekiston Respublikasi"
+            }
+        },
         "official": "Republic of Uzbekistan"
     },
     "name_alt": "",
@@ -67,9 +159,6 @@
     "name_sort": "Uzbekistan",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "29748859.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +171,63 @@
     "su_dif": "0.00",
     "subunit": "Uzbekistan",
     "tiny": "5.00",
+    "tld": [
+        ".uz"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Usbekistan",
+            "official": "Republik Usbekistan"
+        },
+        "est": {
+            "common": "Usbekistan",
+            "official": "Usbekistani Vabariik"
+        },
+        "fin": {
+            "common": "Uzbekistan",
+            "official": "Uzbekistanin tasavalta"
+        },
+        "fra": {
+            "common": "Ouzb\u00e9kistan",
+            "official": "R\u00e9publique d'Ouzb\u00e9kistan"
+        },
+        "hrv": {
+            "common": "Uzbekistan",
+            "official": "Republika Uzbekistan"
+        },
+        "ita": {
+            "common": "Uzbekistan",
+            "official": "Repubblica di Uzbekistan"
+        },
+        "jpn": {
+            "common": "\u30a6\u30ba\u30d9\u30ad\u30b9\u30bf\u30f3",
+            "official": "\u30a6\u30ba\u30d9\u30ad\u30b9\u30bf\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Oezbekistan",
+            "official": "Republiek Oezbekistan"
+        },
+        "por": {
+            "common": "Uzbequist\u00e3o",
+            "official": "Rep\u00fablica do Usbequist\u00e3o"
+        },
+        "rus": {
+            "common": "\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d"
+        },
+        "slk": {
+            "common": "Uzbekistan",
+            "official": "Uzbeck\u00e1 republika"
+        },
+        "spa": {
+            "common": "Uzbekist\u00e1n",
+            "official": "Rep\u00fablica de Uzbekist\u00e1n"
+        },
+        "zho": {
+            "common": "\u4e4c\u5179\u522b\u514b\u65af\u5766",
+            "official": "\u4e4c\u5179\u522b\u514b\u65af\u5766\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "860",
     "wb_a2": "UZ",

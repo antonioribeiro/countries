@@ -1,0 +1,44 @@
+{
+    "BGN": {
+        "name": "Bulgarian lev",
+        "iso": {
+            "code": "BGN",
+            "number": "975"
+        },
+        "units": {
+            "major": {
+                "name": "lev",
+                "symbol": "лв"
+            },
+            "minor": {
+                "name": "stotinki",
+                "symbol": "стотинки",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "лв2",
+                "лв5",
+                "лв10",
+                "лв20",
+                "лв50",
+                "лв100"
+            ],
+            "rare": [
+                "лв1"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "стотинки1",
+                "стотинки2",
+                "стотинки5",
+                "стотинки10",
+                "стотинки20",
+                "стотинки50"
+            ],
+            "rare": []
+        }
+    }
+}

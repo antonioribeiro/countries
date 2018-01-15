@@ -1,0 +1,43 @@
+{
+    "name": "Austrian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "at_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "at_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "at_vat_standard_1995",
+                    "amount": 0.2,
+                    "start_date": "1995-01-01"
+                }
+            ]
+        },
+        {
+            "id": "at_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "at_vat_intermediate_2016",
+                    "amount": 0.13,
+                    "start_date": "2016-01-01"
+                }
+            ]
+        },
+        {
+            "id": "at_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "at_vat_reduced_1995",
+                    "amount": 0.1,
+                    "start_date": "1995-01-01"
+                }
+            ]
+        }
+    ]
+}

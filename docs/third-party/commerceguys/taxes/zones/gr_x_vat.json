@@ -1,0 +1,13 @@
+{
+    "name": "Greece Islands (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "gr_x_vat_0",
+            "name": "Thassos, Samothrace, Skiros, Northern Sporades, Lesbos, Chios, The Cyclades, The Dodecanese",
+            "country_code": "GR",
+            "included_postal_codes": "\/640 ?04|680 ?02|340 ?07|((370|811|821|840|851) ?[0-9]{2})\/"
+        }
+    ]
+}

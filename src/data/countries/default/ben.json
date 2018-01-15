@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Benin",
+    "alt_spellings": [
+        "BJ",
+        "Republic of Benin",
+        "R\u00e9publique du B\u00e9nin"
+    ],
     "brk_a3": "BEN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Benin",
+    "capital": "Porto-Novo",
     "cca2": "BJ",
     "cca3": "BEN",
     "ccn3": "204",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BEN",
+    "currencies": [
+        "XOF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Beninese",
+    "dialling": {
+        "calling_code": [
+            "229"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "BEN",
+        "cown": 434,
+        "ds": "DY",
+        "edgar": "G6",
+        "emoji": "\ud83c\udde7\ud83c\uddef",
+        "eu_member": null,
+        "fao": 53,
+        "fifa": "BEN",
+        "fips": "BN",
+        "gaul": 29,
+        "geonameid": 2395170,
+        "imf": 638,
+        "ioc": "BEN",
+        "itu": "BEN",
+        "marc": "dm",
+        "vat_rates": null,
+        "wmo": "BJ"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BN",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddef"
+    },
     "formal_en": "Republic of Benin",
     "formal_fr": "",
     "gdp_md_est": "24310.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 112622,
+        "borders": [
+            "BFA",
+            "NER",
+            "NGA",
+            "TGO"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "9 30 N",
+        "latitude_desc": "9.624112129211426",
+        "latlng": [
+            9.5,
+            2.25
+        ],
+        "longitude": "2 15 E",
+        "longitude_desc": "2.3377387523651123",
+        "max_latitude": "12.3614",
+        "max_longitude": "3.816667",
+        "min_latitude": "6.233333",
+        "min_longitude": "-4",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Benin",
     "gu_a3": "BEN",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "BJ",
+    "iso_3166_1_alpha3": "BEN",
+    "iso_3166_1_numeric": "204",
     "iso_a2": "BJ",
     "iso_a3": "BEN",
     "iso_a3_eh": "BEN",
     "iso_n3": "204",
     "labelrank": "5.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +136,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Benin",
+        "native": {
+            "fra": {
+                "common": "B\u00e9nin",
+                "official": "R\u00e9publique du B\u00e9nin"
+            }
+        },
         "official": "Republic of Benin"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "Benin",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "11038805.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +164,67 @@
     "su_dif": "0.00",
     "subunit": "Benin",
     "tiny": "-99.00",
+    "tld": [
+        ".bj"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Benin",
+            "official": "Republic of Benin"
+        },
+        "deu": {
+            "common": "Benin",
+            "official": "Republik Benin"
+        },
+        "est": {
+            "common": "Benin",
+            "official": "Benini Vabariik"
+        },
+        "fin": {
+            "common": "Benin",
+            "official": "Beninin tasavalta"
+        },
+        "fra": {
+            "common": "B\u00e9nin",
+            "official": "R\u00e9publique du B\u00e9nin"
+        },
+        "hrv": {
+            "common": "Benin",
+            "official": "Republika Benin"
+        },
+        "ita": {
+            "common": "Benin",
+            "official": "Repubblica del Benin"
+        },
+        "jpn": {
+            "common": "\u30d9\u30ca\u30f3",
+            "official": "\u30d9\u30ca\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Benin",
+            "official": "Republiek Benin"
+        },
+        "por": {
+            "common": "Benin",
+            "official": "Rep\u00fablica do Benin"
+        },
+        "rus": {
+            "common": "\u0411\u0435\u043d\u0438\u043d",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043d\u0438\u043d"
+        },
+        "slk": {
+            "common": "Benin",
+            "official": "Beninsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Ben\u00edn",
+            "official": "Rep\u00fablica de Benin"
+        },
+        "zho": {
+            "common": "\u8d1d\u5b81",
+            "official": "\u8d1d\u5b81\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "204",
     "wb_a2": "BJ",

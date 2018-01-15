@@ -8,43 +8,134 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Italy",
+    "alt_spellings": [
+        "IT",
+        "Italian Republic",
+        "Repubblica italiana"
+    ],
     "brk_a3": "ITA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Italy",
+    "capital": "Rome",
     "cca2": "IT",
     "cca3": "ITA",
     "ccn3": "380",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ITA",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Italian",
+    "dialling": {
+        "calling_code": [
+            "39"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            9,
+            11
+        ],
+        "national_prefix": null
+    },
     "economy": "1. Developed region: G7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}} {{region_short}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "ITA",
+        "cown": 325,
+        "ds": "I",
+        "edgar": "L6",
+        "emoji": "\ud83c\uddee\ud83c\uddf9",
+        "eu_member": true,
+        "fao": 106,
+        "fifa": "ITA",
+        "fips": "IT",
+        "gaul": 122,
+        "geonameid": 3175395,
+        "imf": 136,
+        "ioc": "ITA",
+        "itu": "I",
+        "marc": "it",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                10
+            ],
+            "standard": 22,
+            "super_reduced": 4
+        },
+        "wmo": "IY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "IT",
+    "flag": {
+        "emoji": "\ud83c\uddee\ud83c\uddf9"
+    },
     "formal_en": "Italian Republic",
     "formal_fr": "",
     "gdp_md_est": "2221000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 301336,
+        "borders": [
+            "AUT",
+            "FRA",
+            "SMR",
+            "SVN",
+            "CHE",
+            "VAT"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "42 50 N",
+        "latitude_desc": "42.7669792175293",
+        "latlng": [
+            42.83333333,
+            12.83333333
+        ],
+        "longitude": "12 50 E",
+        "longitude_desc": "12.493823051452637",
+        "max_latitude": "48.533333",
+        "max_longitude": "20.433333",
+        "min_latitude": "35.483333",
+        "min_longitude": "1.35",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Italy",
     "gu_a3": "ITA",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "IT",
+    "iso_3166_1_alpha3": "ITA",
+    "iso_3166_1_numeric": "380",
     "iso_a2": "IT",
     "iso_a3": "ITA",
     "iso_a3_eh": "ITA",
     "iso_n3": "380",
     "labelrank": "2.00",
+    "languages": {
+        "bar": "Austro-Bavarian German",
+        "ita": "Italian",
+        "srd": "Sardinian"
+    },
     "lastcensus": "2012.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +148,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Italy",
+        "native": {
+            "ita": {
+                "common": "Italia",
+                "official": "Repubblica italiana"
+            }
+        },
         "official": "Italian Republic"
     },
     "name_alt": "",
@@ -64,12 +161,27 @@
     "name_len": "5.00",
     "name_long": "Italy",
     "name_nev": "Italy",
+    "name_rinvex": {
+        "common": "Italy",
+        "native": {
+            "bar": {
+                "common": "Italien",
+                "official": "Italienische Republik"
+            },
+            "ita": {
+                "common": "Italia",
+                "official": "Repubblica italiana"
+            },
+            "srd": {
+                "common": "Italia",
+                "official": "Repubbricanu Italia"
+            }
+        },
+        "official": "Italian Republic"
+    },
     "name_sort": "Italy",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "62137802.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
@@ -82,6 +194,63 @@
     "su_dif": "0.00",
     "subunit": "Italy",
     "tiny": "-99.00",
+    "tld": [
+        ".it"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Italien",
+            "official": "Italienische Republik"
+        },
+        "est": {
+            "common": "Itaalia",
+            "official": "Itaalia Vabariik"
+        },
+        "fin": {
+            "common": "Italia",
+            "official": "Italian tasavalta"
+        },
+        "fra": {
+            "common": "Italie",
+            "official": "R\u00e9publique italienne"
+        },
+        "hrv": {
+            "common": "Italija",
+            "official": "talijanska Republika"
+        },
+        "ita": {
+            "common": "Italia",
+            "official": "Repubblica italiana"
+        },
+        "jpn": {
+            "common": "\u30a4\u30bf\u30ea\u30a2",
+            "official": "\u30a4\u30bf\u30ea\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Itali\u00eb",
+            "official": "Italiaanse Republiek"
+        },
+        "por": {
+            "common": "It\u00e1lia",
+            "official": "Rep\u00fablica Italiana"
+        },
+        "rus": {
+            "common": "\u0418\u0442\u0430\u043b\u0438\u044f",
+            "official": "\u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Taliansko",
+            "official": "Talianska republika"
+        },
+        "spa": {
+            "common": "Italia",
+            "official": "Rep\u00fablica Italiana"
+        },
+        "zho": {
+            "common": "\u610f\u5927\u5229",
+            "official": "\u610f\u5927\u5229\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "380",
     "wb_a2": "IT",

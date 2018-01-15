@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Venezuela",
+    "alt_spellings": [
+        "VE",
+        "Bolivarian Republic of Venezuela",
+        "Venezuela, Bolivarian Republic of",
+        "Rep\u00fablica Bolivariana de Venezuela"
+    ],
     "brk_a3": "VEN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Venezuela",
+    "capital": "Caracas",
     "cca2": "VE",
     "cca3": "VEN",
     "ccn3": "862",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "VEN",
+    "currencies": [
+        "VEF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Venezuelan",
+    "dialling": {
+        "calling_code": [
+            "58"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "VEN",
+        "cown": 101,
+        "ds": "YV",
+        "edgar": 0,
+        "emoji": "\ud83c\uddfb\ud83c\uddea",
+        "eu_member": null,
+        "fao": 236,
+        "fifa": "VEN",
+        "fips": "VE",
+        "gaul": 263,
+        "geonameid": 3625428,
+        "imf": 299,
+        "ioc": "VEN",
+        "itu": "VEN",
+        "marc": "ve",
+        "vat_rates": null,
+        "wmo": "VN"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "VE",
+    "flag": {
+        "emoji": "\ud83c\uddfb\ud83c\uddea"
+    },
     "formal_en": "Bolivarian Republic of Venezuela",
     "formal_fr": "Rep\u00c3\u00bablica Bolivariana de Venezuela",
     "gdp_md_est": "468600.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "South America",
+        "area": 916445,
+        "borders": [
+            "BRA",
+            "COL",
+            "GUY"
+        ],
+        "continent": {
+            "SA": "South America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "8 00 N",
+        "latitude_desc": "7.665388584136963",
+        "latlng": [
+            8,
+            -66
+        ],
+        "longitude": "66 00 W",
+        "longitude_desc": "-66.14541625976562",
+        "max_latitude": "15.7",
+        "max_longitude": "-59.966667",
+        "min_latitude": "0.766667",
+        "min_longitude": "-73.16",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "South America"
+        "subregion": "South America",
+        "subregion_code": "005",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Venezuela",
     "gu_a3": "VEN",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "VE",
+    "iso_3166_1_alpha3": "VEN",
+    "iso_3166_1_numeric": "862",
     "iso_a2": "VE",
     "iso_a3": "VEN",
     "iso_a3_eh": "VEN",
     "iso_n3": "862",
     "labelrank": "3.00",
+    "languages": {
+        "spa": "Spanish"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "9.00",
@@ -57,6 +136,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Venezuela",
+        "native": {
+            "spa": {
+                "common": "Venezuela",
+                "official": "Rep\u00fablica Bolivariana de Venezuela"
+            }
+        },
         "official": "Bolivarian Republic of Venezuela"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "Venezuela, RB",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "31304016.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +164,63 @@
     "su_dif": "0.00",
     "subunit": "Venezuela",
     "tiny": "-99.00",
+    "tld": [
+        ".ve"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Venezuela",
+            "official": "Bolivarische Republik Venezuela"
+        },
+        "est": {
+            "common": "Venezuela",
+            "official": "Venezuela Bol\u00edvari Vabariik"
+        },
+        "fin": {
+            "common": "Venezuela",
+            "official": "Venezuelan bolivariaainen tasavalta"
+        },
+        "fra": {
+            "common": "Venezuela",
+            "official": "R\u00e9publique bolivarienne du Venezuela"
+        },
+        "hrv": {
+            "common": "Venezuela",
+            "official": "BOLIVARIJANSKA Republika Venezuela"
+        },
+        "ita": {
+            "common": "Venezuela",
+            "official": "Repubblica Bolivariana del Venezuela"
+        },
+        "jpn": {
+            "common": "\u30d9\u30cd\u30ba\u30a8\u30e9\u30fb\u30dc\u30ea\u30d0\u30eb\u5171\u548c\u56fd",
+            "official": "\u30d9\u30cd\u30ba\u30a8\u30e9\u00b7\u30dc\u30ea\u30d0\u30eb\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Venezuela",
+            "official": "Bolivariaanse Republiek Venezuela"
+        },
+        "por": {
+            "common": "Venezuela",
+            "official": "Rep\u00fablica Bolivariana da Venezuela"
+        },
+        "rus": {
+            "common": "\u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430",
+            "official": "\u0411\u043e\u043b\u0438\u0432\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u0435\u043d\u0435\u0441\u0443\u044d\u043b\u0430"
+        },
+        "slk": {
+            "common": "Venezuela",
+            "official": "Venezuelsk\u00e1 bol\u00edvarovsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Venezuela",
+            "official": "Rep\u00fablica Bolivariana de Venezuela"
+        },
+        "zho": {
+            "common": "\u59d4\u5185\u745e\u62c9",
+            "official": "\u59d4\u5185\u745e\u62c9\u73bb\u5229\u74e6\u5c14\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "862",
     "wb_a2": "VE",

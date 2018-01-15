@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Pakistan",
+    "alt_spellings": [
+        "PK",
+        "P\u0101kist\u0101n",
+        "Islamic Republic of Pakistan",
+        "Isl\u0101m\u012b Jumh\u016briya'eh P\u0101kist\u0101n"
+    ],
     "brk_a3": "PAK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Pakistan",
+    "capital": "Islamabad",
     "cca2": "PK",
     "cca3": "PAK",
     "ccn3": "586",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "PAK",
+    "currencies": [
+        "PKR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Pakistani",
+    "dialling": {
+        "calling_code": [
+            "92"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9,
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "PAK",
+        "cown": 770,
+        "ds": "PK",
+        "edgar": "R0",
+        "emoji": "\ud83c\uddf5\ud83c\uddf0",
+        "eu_member": null,
+        "fao": 165,
+        "fifa": "PAK",
+        "fips": "PK",
+        "gaul": 188,
+        "geonameid": 1168579,
+        "imf": 564,
+        "ioc": "PAK",
+        "itu": "PAK",
+        "marc": "pk",
+        "vat_rates": null,
+        "wmo": "PK"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "PK",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\uddf0"
+    },
     "formal_en": "Islamic Republic of Pakistan",
     "formal_fr": "",
     "gdp_md_est": "988200.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 881912,
+        "borders": [
+            "AFG",
+            "CHN",
+            "IND",
+            "IRN"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "30 00 N",
+        "latitude_desc": "29.923219680786133",
+        "latlng": [
+            30,
+            70
+        ],
+        "longitude": "70 00 E",
+        "longitude_desc": "69.35774230957031",
+        "max_latitude": "37.083710704",
+        "max_longitude": "77.800014",
+        "min_latitude": "23.966667",
+        "min_longitude": "60.866667",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "South Asia",
-        "subregion": "Southern Asia"
+        "subregion": "Southern Asia",
+        "subregion_code": "034",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Pakistan",
     "gu_a3": "PAK",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "PK",
+    "iso_3166_1_alpha3": "PAK",
+    "iso_3166_1_numeric": "586",
     "iso_a2": "PK",
     "iso_a3": "PAK",
     "iso_a3_eh": "PAK",
     "iso_n3": "586",
     "labelrank": "2.00",
+    "languages": {
+        "eng": "English",
+        "urd": "Urdu"
+    },
     "lastcensus": "1998.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +139,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Pakistan",
+        "native": {
+            "eng": {
+                "common": "Pakistan",
+                "official": "Islamic Republic of Pakistan"
+            },
+            "urd": {
+                "common": "\u067e\u0627\u0643\u0633\u062a\u0627\u0646",
+                "official": "\u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c2 \u067e\u0627\u0643\u0633\u062a\u0627\u0646"
+            }
+        },
         "official": "Islamic Republic of Pakistan"
     },
     "name_alt": "",
@@ -67,9 +159,6 @@
     "name_sort": "Pakistan",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "204924861.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
@@ -82,6 +171,63 @@
     "su_dif": "0.00",
     "subunit": "Pakistan",
     "tiny": "-99.00",
+    "tld": [
+        ".pk"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Pakistan",
+            "official": "Islamische Republik Pakistan"
+        },
+        "est": {
+            "common": "Pakistan",
+            "official": "Pakistani Islamivabariik"
+        },
+        "fin": {
+            "common": "Pakistan",
+            "official": "Pakistanin islamilainen tasavalta"
+        },
+        "fra": {
+            "common": "Pakistan",
+            "official": "R\u00e9publique islamique du Pakistan"
+        },
+        "hrv": {
+            "common": "Pakistan",
+            "official": "Islamska Republika Pakistan"
+        },
+        "ita": {
+            "common": "Pakistan",
+            "official": "Repubblica islamica del Pakistan"
+        },
+        "jpn": {
+            "common": "\u30d1\u30ad\u30b9\u30bf\u30f3",
+            "official": "\u30d1\u30ad\u30b9\u30bf\u30f3"
+        },
+        "nld": {
+            "common": "Pakistan",
+            "official": "Islamitische Republiek Pakistan"
+        },
+        "por": {
+            "common": "Paquist\u00e3o",
+            "official": "Rep\u00fablica Isl\u00e2mica do Paquist\u00e3o"
+        },
+        "rus": {
+            "common": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d",
+            "official": "\u0418\u0441\u043b\u0430\u043c\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d"
+        },
+        "slk": {
+            "common": "Pakistan",
+            "official": "Pakistansk\u00e1 islamsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Pakist\u00e1n",
+            "official": "Rep\u00fablica Isl\u00e1mica de Pakist\u00e1n"
+        },
+        "zho": {
+            "common": "\u5df4\u57fa\u65af\u5766",
+            "official": "\u5df4\u57fa\u65af\u5766\u4f0a\u65af\u5170\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "586",
     "wb_a2": "PK",

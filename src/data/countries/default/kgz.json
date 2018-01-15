@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Kyrgyzstan",
+    "alt_spellings": [
+        "KG",
+        "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f",
+        "Kyrgyz Republic",
+        "\u041a\u044b\u0440\u0433\u044b\u0437 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
+        "Kyrgyz Respublikasy"
+    ],
     "brk_a3": "KGZ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Kyrgyzstan",
+    "capital": "Bishkek",
     "cca2": "KG",
     "cca3": "KGZ",
     "ccn3": "417",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "KGZ",
+    "currencies": [
+        "KGS"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Kirghiz",
+    "dialling": {
+        "calling_code": [
+            "996"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "KYR",
+        "cown": 703,
+        "ds": "KS",
+        "edgar": "1N",
+        "emoji": "\ud83c\uddf0\ud83c\uddec",
+        "eu_member": null,
+        "fao": 113,
+        "fifa": "KGZ",
+        "fips": "KG",
+        "gaul": 138,
+        "geonameid": 1527747,
+        "imf": 917,
+        "ioc": "KGZ",
+        "itu": "KGZ",
+        "marc": "kg",
+        "vat_rates": null,
+        "wmo": "KG"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "KG",
+    "flag": {
+        "emoji": "\ud83c\uddf0\ud83c\uddec"
+    },
     "formal_en": "Kyrgyz Republic",
     "formal_fr": "",
     "gdp_md_est": "21010.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 199951,
+        "borders": [
+            "CHN",
+            "KAZ",
+            "TJK",
+            "UZB"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "41 00 N",
+        "latitude_desc": "41.46435546875",
+        "latlng": [
+            41,
+            75
+        ],
+        "longitude": "75 00 E",
+        "longitude_desc": "74.55522155761719",
+        "max_latitude": "43.016667",
+        "max_longitude": "80.115833",
+        "min_latitude": "39.25",
+        "min_longitude": "69.333333",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Central Asia"
+        "subregion": "Central Asia",
+        "subregion_code": "143",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Kyrgyzstan",
     "gu_a3": "KGZ",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "KG",
+    "iso_3166_1_alpha3": "KGZ",
+    "iso_3166_1_numeric": "417",
     "iso_a2": "KG",
     "iso_a3": "KGZ",
     "iso_a3_eh": "KGZ",
     "iso_n3": "417",
     "labelrank": "4.00",
+    "languages": {
+        "kir": "Kyrgyz",
+        "rus": "Russian"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,6 +139,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Kyrgyzstan",
+        "native": {
+            "kir": {
+                "common": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+                "official": "\u041a\u044b\u0440\u0433\u044b\u0437 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b"
+            },
+            "rus": {
+                "common": "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f",
+                "official": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+            }
+        },
         "official": "Kyrgyz Republic"
     },
     "name_alt": "",
@@ -67,9 +159,6 @@
     "name_sort": "Kyrgyz Republic",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "5789122.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +171,63 @@
     "su_dif": "0.00",
     "subunit": "Kyrgyzstan",
     "tiny": "-99.00",
+    "tld": [
+        ".kg"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Kirgisistan",
+            "official": "Kirgisische Republik"
+        },
+        "est": {
+            "common": "K\u00f5rg\u00f5zstan",
+            "official": "Kirgiisi Vabariik"
+        },
+        "fin": {
+            "common": "Kirgisia",
+            "official": "Kirgisian tasavalta"
+        },
+        "fra": {
+            "common": "Kirghizistan",
+            "official": "R\u00e9publique kirghize"
+        },
+        "hrv": {
+            "common": "Kirgistan",
+            "official": "Kirgistanu"
+        },
+        "ita": {
+            "common": "Kirghizistan",
+            "official": "Kirghizistan"
+        },
+        "jpn": {
+            "common": "\u30ad\u30eb\u30ae\u30b9",
+            "official": "\u30ad\u30eb\u30ae\u30b9\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Kirgizi\u00eb",
+            "official": "Kirgizische Republiek"
+        },
+        "por": {
+            "common": "Quirguist\u00e3o",
+            "official": "Rep\u00fablica do Quirguist\u00e3o"
+        },
+        "rus": {
+            "common": "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f",
+            "official": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Kirgizsko",
+            "official": "Kirgizsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Kirguizist\u00e1n",
+            "official": "Rep\u00fablica Kirguisa"
+        },
+        "zho": {
+            "common": "\u5409\u5c14\u5409\u65af\u65af\u5766",
+            "official": "\u5409\u5c14\u5409\u65af\u65af\u5766\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "417",
     "wb_a2": "KG",

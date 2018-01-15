@@ -1,0 +1,42 @@
+{
+    "SAR": {
+        "name": "Saudi Arabian Riyal",
+        "iso": {
+            "code": "SAR",
+            "number": "682"
+        },
+        "units": {
+            "major": {
+                "name": "riyal",
+                "symbol": "ر.س"
+            },
+            "minor": {
+                "name": "Halala",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "1ر.س",
+                "5ر.س",
+                "10ر.س",
+                "20ر.س",
+                "50ر.س",
+                "100ر.س",
+                "500ر.س"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "5",
+                "10",
+                "25",
+                "50",
+                "100"
+            ],
+            "rare": []
+        }
+    }
+}

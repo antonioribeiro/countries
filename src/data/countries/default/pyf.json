@@ -8,43 +8,118 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "French Polynesia",
+    "alt_spellings": [
+        "PF",
+        "Polyn\u00e9sie fran\u00e7aise",
+        "French Polynesia",
+        "P\u014dr\u012bnetia Far\u0101ni"
+    ],
     "brk_a3": "PYF",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Fr. Polynesia",
+    "capital": "Papeet\u0113",
     "cca2": "PF",
     "cca3": "PYF",
     "ccn3": "258",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "XPF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "French Polynesian",
+    "dialling": {
+        "calling_code": [
+            "689"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "F",
+        "edgar": "I4",
+        "emoji": "\ud83c\uddf5\ud83c\uddeb",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "TAH",
+        "fips": "FP",
+        "gaul": 87,
+        "geonameid": 4030656,
+        "imf": 887,
+        "ioc": "FPO",
+        "itu": "OCE",
+        "marc": "fp",
+        "vat_rates": null,
+        "wmo": "PF"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "FP",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\uddeb"
+    },
     "formal_en": "French Polynesia",
     "formal_fr": "",
     "gdp_md_est": "5490.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 4167,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Territory of FR",
+        "landlocked": false,
+        "latitude": "15 00 S",
+        "latitude_desc": "-17.648122787475586",
+        "latlng": [
+            -15,
+            -140
+        ],
+        "longitude": "140 00 W",
+        "longitude_desc": "-149.4647216796875",
+        "max_latitude": "16.633333",
+        "max_longitude": "-179.8",
+        "min_latitude": "-27.916667",
+        "min_longitude": "180",
+        "postal_code": true,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Polynesia"
+        "subregion": "Polynesia",
+        "subregion_code": "061",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "French Polynesia",
     "gu_a3": "PYF",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "PF",
+    "iso_3166_1_alpha3": "PYF",
+    "iso_3166_1_numeric": "258",
     "iso_a2": "PF",
     "iso_a3": "PYF",
     "iso_a3_eh": "PYF",
     "iso_n3": "258",
     "labelrank": "4.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "2007.00",
     "level": "2.00",
     "long_len": "16.00",
@@ -56,7 +131,13 @@
     "min_label": "3.50",
     "min_zoom": "0.00",
     "name": {
-        "common": "Fr. Polynesia",
+        "common": "French Polynesia",
+        "native": {
+            "fra": {
+                "common": "Polyn\u00e9sie fran\u00e7aise",
+                "official": "Polyn\u00e9sie fran\u00e7aise"
+            }
+        },
         "official": "French Polynesia"
     },
     "name_alt": "",
@@ -67,9 +148,6 @@
     "name_sort": "French Polynesia",
     "note_adm0": "Fr.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "287881.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
@@ -82,6 +160,63 @@
     "su_dif": "0.00",
     "subunit": "French Polynesia",
     "tiny": "2.00",
+    "tld": [
+        ".pf"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Franz\u00f6sisch-Polynesien",
+            "official": "Franz\u00f6sisch-Polynesien"
+        },
+        "est": {
+            "common": "Prantsuse Pol\u00fcneesia",
+            "official": "Prantsuse Pol\u00fcneesia"
+        },
+        "fin": {
+            "common": "Ranskan Polynesia",
+            "official": "Ranskan Polynesia"
+        },
+        "fra": {
+            "common": "Polyn\u00e9sie fran\u00e7aise",
+            "official": "Polyn\u00e9sie fran\u00e7aise"
+        },
+        "hrv": {
+            "common": "Francuska Polinezija",
+            "official": "Francuska Polinezija"
+        },
+        "ita": {
+            "common": "Polinesia Francese",
+            "official": "Polinesia Francese"
+        },
+        "jpn": {
+            "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
+            "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2"
+        },
+        "nld": {
+            "common": "Frans-Polynesi\u00eb",
+            "official": "Frans-Polynesi\u00eb"
+        },
+        "por": {
+            "common": "Polin\u00e9sia Francesa",
+            "official": "Polin\u00e9sia Francesa"
+        },
+        "rus": {
+            "common": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u041f\u043e\u043b\u0438\u043d\u0435\u0437\u0438\u044f",
+            "official": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u041f\u043e\u043b\u0438\u043d\u0435\u0437\u0438\u044f"
+        },
+        "slk": {
+            "common": "Franc\u00fazska Polyn\u00e9zia",
+            "official": "Franc\u00fazska Polyn\u00e9zia"
+        },
+        "spa": {
+            "common": "Polinesia Francesa",
+            "official": "Polinesia franc\u00e9s"
+        },
+        "zho": {
+            "common": "\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a",
+            "official": "\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a"
+        }
+    },
     "type": "Dependency",
     "un_a3": "258",
     "wb_a2": "PF",

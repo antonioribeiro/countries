@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Uganda",
+    "alt_spellings": [
+        "UG",
+        "Republic of Uganda",
+        "Jamhuri ya Uganda"
+    ],
     "brk_a3": "UGA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Uganda",
+    "capital": "Kampala",
     "cca2": "UG",
     "cca3": "UGA",
     "ccn3": "800",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "UGA",
+    "currencies": [
+        "UGX"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Ugandan",
+    "dialling": {
+        "calling_code": [
+            "256"
+        ],
+        "international_prefix": "000",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "UGA",
+        "cown": 500,
+        "ds": "EAU",
+        "edgar": "W9",
+        "emoji": "\ud83c\uddfa\ud83c\uddec",
+        "eu_member": null,
+        "fao": 226,
+        "fifa": "UGA",
+        "fips": "UG",
+        "gaul": 253,
+        "geonameid": 226074,
+        "imf": 746,
+        "ioc": "UGA",
+        "itu": "UGA",
+        "marc": "ug",
+        "vat_rates": null,
+        "wmo": "UG"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "UG",
+    "flag": {
+        "emoji": "\ud83c\uddfa\ud83c\uddec"
+    },
     "formal_en": "Republic of Uganda",
     "formal_fr": "",
     "gdp_md_est": "84930.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 241550,
+        "borders": [
+            "COD",
+            "KEN",
+            "RWA",
+            "SSD",
+            "TZA"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "1 00 N",
+        "latitude_desc": "1.2773280143737793",
+        "latlng": [
+            1,
+            32
+        ],
+        "longitude": "32 00 E",
+        "longitude_desc": "32.389984130859375",
+        "max_latitude": "4.166667",
+        "max_longitude": "34.95",
+        "min_latitude": "-1.433333",
+        "min_longitude": "29.583333",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Uganda",
     "gu_a3": "UGA",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "UG",
+    "iso_3166_1_alpha3": "UGA",
+    "iso_3166_1_numeric": "800",
     "iso_a2": "UG",
     "iso_a3": "UGA",
     "iso_a3_eh": "UGA",
     "iso_n3": "800",
     "labelrank": "3.00",
+    "languages": {
+        "eng": "English",
+        "swa": "Swahili"
+    },
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +138,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Uganda",
+        "native": {
+            "eng": {
+                "common": "Uganda",
+                "official": "Republic of Uganda"
+            },
+            "swa": {
+                "common": "Uganda",
+                "official": "Republic of Uganda"
+            }
+        },
         "official": "Republic of Uganda"
     },
     "name_alt": "",
@@ -67,9 +158,6 @@
     "name_sort": "Uganda",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "39570125.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +170,63 @@
     "su_dif": "0.00",
     "subunit": "Uganda",
     "tiny": "-99.00",
+    "tld": [
+        ".ug"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Uganda",
+            "official": "Republik Uganda"
+        },
+        "est": {
+            "common": "Uganda",
+            "official": "Uganda Vabariik"
+        },
+        "fin": {
+            "common": "Uganda",
+            "official": "Ugandan tasavalta"
+        },
+        "fra": {
+            "common": "Ouganda",
+            "official": "R\u00e9publique de l'Ouganda"
+        },
+        "hrv": {
+            "common": "Uganda",
+            "official": "Republika Uganda"
+        },
+        "ita": {
+            "common": "Uganda",
+            "official": "Repubblica di Uganda"
+        },
+        "jpn": {
+            "common": "\u30a6\u30ac\u30f3\u30c0",
+            "official": "\u30a6\u30ac\u30f3\u30c0\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Oeganda",
+            "official": "Republiek Uganda"
+        },
+        "por": {
+            "common": "Uganda",
+            "official": "Rep\u00fablica do Uganda"
+        },
+        "rus": {
+            "common": "\u0423\u0433\u0430\u043d\u0434\u0430",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0423\u0433\u0430\u043d\u0434\u0430"
+        },
+        "slk": {
+            "common": "Uganda",
+            "official": "Ugandsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Uganda",
+            "official": "Rep\u00fablica de Uganda"
+        },
+        "zho": {
+            "common": "\u4e4c\u5e72\u8fbe",
+            "official": "\u4e4c\u5e72\u8fbe\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "800",
     "wb_a2": "UG",

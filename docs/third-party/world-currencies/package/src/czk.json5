@@ -1,0 +1,43 @@
+{
+    "CZK": {
+        "name": "Czech koruna",
+        "iso": {
+            "code": "CZK",
+            "number": "200"
+        },
+        "units": {
+            "major": {
+                "name": "koruna",
+                "symbol": "Kč"
+            },
+            "minor": {
+                "name": "haléř",
+                "symbol": "h",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "100Kč",
+                "200Kč",
+                "500Kč",
+                "1000Kč",
+                "2000Kč",
+                "5000Kč"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "1Kč",
+                "2Kč",
+                "5Kč",
+                "10Kč",
+                "50Kč"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

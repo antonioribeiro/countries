@@ -8,43 +8,132 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Croatia",
+    "alt_spellings": [
+        "HR",
+        "Hrvatska",
+        "Republic of Croatia",
+        "Republika Hrvatska"
+    ],
     "brk_a3": "HRV",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Croatia",
+    "capital": "Zagreb",
     "cca2": "HR",
     "cca3": "HRV",
     "ccn3": "191",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "CRO",
+    "currencies": [
+        "HRK"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Croatian",
+    "dialling": {
+        "calling_code": [
+            "385"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "EIT",
+        "cowc": "CRO",
+        "cown": 344,
+        "ds": "HR",
+        "edgar": "1M",
+        "emoji": "\ud83c\udded\ud83c\uddf7",
+        "eu_member": true,
+        "fao": 98,
+        "fifa": "CRO",
+        "fips": "HR",
+        "gaul": 62,
+        "geonameid": 3202326,
+        "imf": 960,
+        "ioc": "CRO",
+        "itu": "HRV",
+        "marc": "ci",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                5,
+                13
+            ],
+            "standard": 25,
+            "super_reduced": null
+        },
+        "wmo": "RH"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "HR",
+    "flag": {
+        "emoji": "\ud83c\udded\ud83c\uddf7"
+    },
     "formal_en": "Republic of Croatia",
     "formal_fr": "",
     "gdp_md_est": "94240.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 56594,
+        "borders": [
+            "BIH",
+            "HUN",
+            "MNE",
+            "SRB",
+            "SVN"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "45 10 N",
+        "latitude_desc": "45.444305419921875",
+        "latlng": [
+            45.16666666,
+            15.5
+        ],
+        "longitude": "15 30 E",
+        "longitude_desc": "15.734503746032715",
+        "max_latitude": "46.526944",
+        "max_longitude": "19.383056",
+        "min_latitude": "42.380278",
+        "min_longitude": "13.493333",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Croatia",
     "gu_a3": "HRV",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "HR",
+    "iso_3166_1_alpha3": "HRV",
+    "iso_3166_1_numeric": "191",
     "iso_a2": "HR",
     "iso_a3": "HRV",
     "iso_a3_eh": "HRV",
     "iso_n3": "191",
     "labelrank": "6.00",
+    "languages": {
+        "hrv": "Croatian"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +146,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Croatia",
+        "native": {
+            "hrv": {
+                "common": "Hrvatska",
+                "official": "Republika Hrvatska"
+            }
+        },
         "official": "Republic of Croatia"
     },
     "name_alt": "",
@@ -67,9 +162,6 @@
     "name_sort": "Croatia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "4292095.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +174,67 @@
     "su_dif": "0.00",
     "subunit": "Croatia",
     "tiny": "-99.00",
+    "tld": [
+        ".hr"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Croatia",
+            "official": "Republic of Croatia"
+        },
+        "deu": {
+            "common": "Kroatien",
+            "official": "Republik Kroatien"
+        },
+        "est": {
+            "common": "Horvaatia",
+            "official": "Horvaatia Vabariik"
+        },
+        "fin": {
+            "common": "Kroatia",
+            "official": "Kroatian tasavalta"
+        },
+        "fra": {
+            "common": "Croatie",
+            "official": "R\u00e9publique de Croatie"
+        },
+        "hrv": {
+            "common": "Hrvatska",
+            "official": "Republika Hrvatska"
+        },
+        "ita": {
+            "common": "Croazia",
+            "official": "Repubblica di Croazia"
+        },
+        "jpn": {
+            "common": "\u30af\u30ed\u30a2\u30c1\u30a2",
+            "official": "\u30af\u30ed\u30a2\u30c1\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Kroati\u00eb",
+            "official": "Republiek Kroati\u00eb"
+        },
+        "por": {
+            "common": "Cro\u00e1cia",
+            "official": "Rep\u00fablica da Cro\u00e1cia"
+        },
+        "rus": {
+            "common": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f"
+        },
+        "slk": {
+            "common": "Chorv\u00e1tsko",
+            "official": "Chorv\u00e1tska republika"
+        },
+        "spa": {
+            "common": "Croacia",
+            "official": "Rep\u00fablica de Croacia"
+        },
+        "zho": {
+            "common": "\u514b\u7f57\u5730\u4e9a",
+            "official": "\u514b\u7f57\u5730\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "191",
     "wb_a2": "HR",

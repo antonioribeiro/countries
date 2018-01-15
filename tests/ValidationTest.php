@@ -23,7 +23,7 @@ class ValidationTest extends TestCase
     {
         // Valid country
         /** @var \Illuminate\Validation\Validator $validator */
-        $validator = Validator::make(['country' => 'BRA'], ['country' => 'iso_a2']);
+        $validator = Validator::make(['country' => 'BRA'], ['country' => 'cca3']);
         $this->assertTrue($validator->passes());
 
         // Change to Invalid country
@@ -34,7 +34,7 @@ class ValidationTest extends TestCase
     public function testCurrency()
     {
         // Valid currency
-        $validator = Validator::make(['country' => 'EUR'], ['country' => 'currency']);
+        $validator = Validator::make(['country' => 'EUR'], ['country' => 'currencies']);
         $this->assertTrue($validator->passes());
 
         // Change to invalid currency

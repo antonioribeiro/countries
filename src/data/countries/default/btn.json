@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Bhutan",
+    "alt_spellings": [
+        "BT",
+        "Kingdom of Bhutan"
+    ],
     "brk_a3": "BTN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bhutan",
+    "capital": "Thimphu",
     "cca2": "BT",
     "cca3": "BTN",
     "ccn3": "064",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BHU",
+    "currencies": [
+        "BTN",
+        "INR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Bhutanese",
+    "dialling": {
+        "calling_code": [
+            "975"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "BHU",
+        "cown": 760,
+        "ds": 0,
+        "edgar": "D2",
+        "emoji": "\ud83c\udde7\ud83c\uddf9",
+        "eu_member": null,
+        "fao": 18,
+        "fifa": "BHU",
+        "fips": "BT",
+        "gaul": 31,
+        "geonameid": 1252634,
+        "imf": 514,
+        "ioc": "BHU",
+        "itu": "BTN",
+        "marc": "bt",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BT",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddf9"
+    },
     "formal_en": "Kingdom of Bhutan",
     "formal_fr": "",
     "gdp_md_est": "6432.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 38394,
+        "borders": [
+            "CHN",
+            "IND"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "27 30 N",
+        "latitude_desc": "27.416879653930664",
+        "latlng": [
+            27.5,
+            90.5
+        ],
+        "longitude": "90 30 E",
+        "longitude_desc": "90.43476104736328",
+        "max_latitude": "30",
+        "max_longitude": "92.033333",
+        "min_latitude": "26.716667",
+        "min_longitude": "80",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "South Asia",
-        "subregion": "Southern Asia"
+        "subregion": "Southern Asia",
+        "subregion_code": "034",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Bhutan",
     "gu_a3": "BTN",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "BT",
+    "iso_3166_1_alpha3": "BTN",
+    "iso_3166_1_numeric": "064",
     "iso_a2": "BT",
     "iso_a3": "BTN",
     "iso_a3_eh": "BTN",
     "iso_n3": "064",
     "labelrank": "5.00",
+    "languages": {
+        "dzo": "Dzongkha"
+    },
     "lastcensus": "2005.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +135,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Bhutan",
+        "native": {
+            "dzo": {
+                "common": "\u0f60\u0f56\u0fb2\u0f74\u0f42\u0f0b\u0f61\u0f74\u0f63\u0f0b",
+                "official": "\u0f60\u0f56\u0fb2\u0f74\u0f42\u0f0b\u0f62\u0f92\u0fb1\u0f63\u0f0b\u0f41\u0f56\u0f0b"
+            }
+        },
         "official": "Kingdom of Bhutan"
     },
     "name_alt": "",
@@ -67,9 +151,6 @@
     "name_sort": "Bhutan",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "758288.00",
     "pop_rank": "11.00",
     "pop_year": "2017.00",
@@ -82,6 +163,67 @@
     "su_dif": "0.00",
     "subunit": "Bhutan",
     "tiny": "-99.00",
+    "tld": [
+        ".bt"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Bhwtan",
+            "official": "Kingdom of Bhutan"
+        },
+        "deu": {
+            "common": "Bhutan",
+            "official": "K\u00f6nigreich Bhutan"
+        },
+        "est": {
+            "common": "Bhutan",
+            "official": "Bhutani Kuningriik"
+        },
+        "fin": {
+            "common": "Bhutan",
+            "official": "Bhutanin kuningaskunta"
+        },
+        "fra": {
+            "common": "Bhoutan",
+            "official": "Royaume du Bhoutan"
+        },
+        "hrv": {
+            "common": "Butan",
+            "official": "Kraljevina Butan"
+        },
+        "ita": {
+            "common": "Bhutan",
+            "official": "Regno del Bhutan"
+        },
+        "jpn": {
+            "common": "\u30d6\u30fc\u30bf\u30f3",
+            "official": "\u30d6\u30fc\u30bf\u30f3\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Bhutan",
+            "official": "Koninkrijk Bhutan"
+        },
+        "por": {
+            "common": "But\u00e3o",
+            "official": "Reino do But\u00e3o"
+        },
+        "rus": {
+            "common": "\u0411\u0443\u0442\u0430\u043d",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0411\u0443\u0442\u0430\u043d"
+        },
+        "slk": {
+            "common": "Bhut\u00e1n",
+            "official": "Bhut\u00e1nske kr\u00e2\u013eovstvo"
+        },
+        "spa": {
+            "common": "But\u00e1n",
+            "official": "Reino de But\u00e1n"
+        },
+        "zho": {
+            "common": "\u4e0d\u4e39",
+            "official": "\u4e0d\u4e39\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "064",
     "wb_a2": "BT",

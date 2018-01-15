@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "San Marino",
+    "alt_spellings": [
+        "SM",
+        "Republic of San Marino",
+        "Repubblica di San Marino"
+    ],
     "brk_a3": "SMR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "San Marino",
+    "capital": "City of San Marino",
     "cca2": "SM",
     "cca3": "SMR",
     "ccn3": "674",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SMR",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Sammarinese",
+    "dialling": {
+        "calling_code": [
+            "378"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": "SNM",
+        "cown": 331,
+        "ds": "RSM",
+        "edgar": "S8",
+        "emoji": "\ud83c\uddf8\ud83c\uddf2",
+        "eu_member": null,
+        "fao": 192,
+        "fifa": "SMR",
+        "fips": "SM",
+        "gaul": 213,
+        "geonameid": 3168068,
+        "imf": 135,
+        "ioc": "SMR",
+        "itu": "SMR",
+        "marc": "sm",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SM",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddf2"
+    },
     "formal_en": "Republic of San Marino",
     "formal_fr": "",
     "gdp_md_est": "2023.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 61,
+        "borders": [
+            "ITA"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "43 46 N",
+        "latitude_desc": "43.938133239746094",
+        "latlng": [
+            43.76666666,
+            12.41666666
+        ],
+        "longitude": "12 25 E",
+        "longitude_desc": "12.463393211364746",
+        "max_latitude": "43.966667",
+        "max_longitude": "12.5",
+        "min_latitude": "43.908333",
+        "min_longitude": "12.416667",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "San Marino",
     "gu_a3": "SMR",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "SM",
+    "iso_3166_1_alpha3": "SMR",
+    "iso_3166_1_numeric": "674",
     "iso_a2": "SM",
     "iso_a3": "SMR",
     "iso_a3_eh": "SMR",
     "iso_n3": "674",
     "labelrank": "6.00",
+    "languages": {
+        "ita": "Italian"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,7 +136,13 @@
     "min_zoom": "0.00",
     "name": {
         "common": "San Marino",
-        "official": "Republic of San Marino"
+        "native": {
+            "ita": {
+                "common": "San Marino",
+                "official": "Serenissima Repubblica di San Marino"
+            }
+        },
+        "official": "Most Serene Republic of San Marino"
     },
     "name_alt": "",
     "name_ciawf": "San Marino",
@@ -67,9 +152,6 @@
     "name_sort": "San Marino",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "33537.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
@@ -82,6 +164,63 @@
     "su_dif": "0.00",
     "subunit": "San Marino",
     "tiny": "5.00",
+    "tld": [
+        ".sm"
+    ],
+    "translations": {
+        "deu": {
+            "common": "San Marino",
+            "official": "Republik San Marino"
+        },
+        "est": {
+            "common": "San Marino",
+            "official": "San Marino Vabariik"
+        },
+        "fin": {
+            "common": "San Marino",
+            "official": "San Marinon seesteinen tasavalta"
+        },
+        "fra": {
+            "common": "Saint-Marin",
+            "official": "R\u00e9publique de Saint-Marin"
+        },
+        "hrv": {
+            "common": "San Marino",
+            "official": "Ve\u0107ina Serene Republika San Marino"
+        },
+        "ita": {
+            "common": "San Marino",
+            "official": "Serenissima Repubblica di San Marino"
+        },
+        "jpn": {
+            "common": "\u30b5\u30f3\u30de\u30ea\u30ce",
+            "official": "\u30b5\u30f3\u30de\u30ea\u30ce\u306e\u307b\u3068\u3093\u3069\u30bb\u30ea\u30fc\u30cc\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "San Marino",
+            "official": "Meest Serene Republiek San Marino"
+        },
+        "por": {
+            "common": "San Marino",
+            "official": "Seren\u00edssima Rep\u00fablica de San Marino"
+        },
+        "rus": {
+            "common": "\u0421\u0430\u043d-\u041c\u0430\u0440\u0438\u043d\u043e",
+            "official": "\u0411\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e Serene \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0430\u043d-\u041c\u0430\u0440\u0438\u043d\u043e"
+        },
+        "slk": {
+            "common": "San Mar\u00edno",
+            "official": "Sanmar\u00ednska republika"
+        },
+        "spa": {
+            "common": "San Marino",
+            "official": "Seren\u00edsima Rep\u00fablica de San Marino"
+        },
+        "zho": {
+            "common": "\u5723\u9a6c\u529b\u8bfa",
+            "official": "\u5723\u9a6c\u529b\u8bfa\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "674",
     "wb_a2": "SM",

@@ -1,0 +1,42 @@
+{
+    "ERN": {
+        "name": "Eritrean nakfa",
+        "iso": {
+            "code": "ERN",
+            "number": "232"
+        },
+        "units": {
+            "major": {
+                "name": "nafka",
+                "symbol": "ናቕፋ"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "1ናቕፋ",
+                "5ናቕፋ",
+                "10ናቕፋ",
+                "20ናቕፋ",
+                "50ናቕፋ",
+                "100ናቕፋ"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "1",
+                "5",
+                "10",
+                "25",
+                "50",
+                "1ናቕፋ"
+            ],
+            "rare": []
+        }
+    }
+}

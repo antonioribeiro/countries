@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Kenya",
+    "alt_spellings": [
+        "KE",
+        "Republic of Kenya",
+        "Jamhuri ya Kenya"
+    ],
     "brk_a3": "KEN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Kenya",
+    "capital": "Nairobi",
     "cca2": "KE",
     "cca3": "KEN",
     "ccn3": "404",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "KEN",
+    "currencies": [
+        "KES"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Kenyan",
+    "dialling": {
+        "calling_code": [
+            "254"
+        ],
+        "international_prefix": "000",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "KEN",
+        "cown": 501,
+        "ds": "EAK",
+        "edgar": "M3",
+        "emoji": "\ud83c\uddf0\ud83c\uddea",
+        "eu_member": null,
+        "fao": 114,
+        "fifa": "KEN",
+        "fips": "KE",
+        "gaul": 133,
+        "geonameid": 192950,
+        "imf": 664,
+        "ioc": "KEN",
+        "itu": "KEN",
+        "marc": "ke",
+        "vat_rates": null,
+        "wmo": "KN"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "KE",
+    "flag": {
+        "emoji": "\ud83c\uddf0\ud83c\uddea"
+    },
     "formal_en": "Republic of Kenya",
     "formal_fr": "",
     "gdp_md_est": "152700.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 580367,
+        "borders": [
+            "ETH",
+            "SOM",
+            "SSD",
+            "TZA",
+            "UGA"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "1 00 N",
+        "latitude_desc": "0.5765031576156616",
+        "latlng": [
+            1,
+            38
+        ],
+        "longitude": "38 00 E",
+        "longitude_desc": "37.83988952636719",
+        "max_latitude": "4.883333",
+        "max_longitude": "41.8583834826",
+        "min_latitude": "-4.716667",
+        "min_longitude": "27.433333",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Kenya",
     "gu_a3": "KEN",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "KE",
+    "iso_3166_1_alpha3": "KEN",
+    "iso_3166_1_numeric": "404",
     "iso_a2": "KE",
     "iso_a3": "KEN",
     "iso_a3_eh": "KEN",
     "iso_n3": "404",
     "labelrank": "2.00",
+    "languages": {
+        "eng": "English",
+        "swa": "Swahili"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +138,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Kenya",
+        "native": {
+            "eng": {
+                "common": "Kenya",
+                "official": "Republic of Kenya"
+            },
+            "swa": {
+                "common": "Kenya",
+                "official": "Republic of Kenya"
+            }
+        },
         "official": "Republic of Kenya"
     },
     "name_alt": "",
@@ -67,9 +158,6 @@
     "name_sort": "Kenya",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "47615739.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +170,63 @@
     "su_dif": "0.00",
     "subunit": "Kenya",
     "tiny": "-99.00",
+    "tld": [
+        ".ke"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Kenia",
+            "official": "Republik Kenia"
+        },
+        "est": {
+            "common": "Keenia",
+            "official": "Keenia Vabariik"
+        },
+        "fin": {
+            "common": "Kenia",
+            "official": "Kenian tasavalta"
+        },
+        "fra": {
+            "common": "Kenya",
+            "official": "R\u00e9publique du Kenya"
+        },
+        "hrv": {
+            "common": "Kenija",
+            "official": "Republika Kenija"
+        },
+        "ita": {
+            "common": "Kenya",
+            "official": "Repubblica del Kenya"
+        },
+        "jpn": {
+            "common": "\u30b1\u30cb\u30a2",
+            "official": "\u30b1\u30cb\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Kenia",
+            "official": "Republiek Kenia"
+        },
+        "por": {
+            "common": "Qu\u00e9nia",
+            "official": "Rep\u00fablica do Qu\u00e9nia"
+        },
+        "rus": {
+            "common": "\u041a\u0435\u043d\u0438\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0435\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "Ke\u0148a",
+            "official": "Kensk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Kenia",
+            "official": "Rep\u00fablica de Kenya"
+        },
+        "zho": {
+            "common": "\u80af\u5c3c\u4e9a",
+            "official": "\u80af\u5c3c\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "404",
     "wb_a2": "KE",

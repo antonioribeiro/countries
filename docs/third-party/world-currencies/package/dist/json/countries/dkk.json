@@ -1,0 +1,41 @@
+{
+    "DKK": {
+        "name": "Danish krone",
+        "iso": {
+            "code": "DKK",
+            "number": "208"
+        },
+        "units": {
+            "major": {
+                "name": "kroner",
+                "symbol": "kr"
+            },
+            "minor": {
+                "name": "kroner",
+                "symbol": "øre",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "kr50",
+                "kr100",
+                "kr200",
+                "kr500",
+                "kr1000"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "50øre",
+                "kr1",
+                "kr2",
+                "kr5",
+                "kr10",
+                "kr20"
+            ],
+            "rare": []
+        }
+    }
+}

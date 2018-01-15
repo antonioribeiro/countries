@@ -1,0 +1,42 @@
+{
+    "MKD": {
+        "name": "Macedonian Denar",
+        "iso": {
+            "code": "MKD",
+            "number": "807"
+        },
+        "units": {
+            "major": {
+                "name": "denar",
+                "symbol": "ден"
+            },
+            "minor": {
+                "name": "deni",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "ден10",
+                "ден50",
+                "ден100",
+                "ден500",
+                "ден1000",
+                "ден5000"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "50",
+                "ден1",
+                "ден2",
+                "ден5",
+                "ден10",
+                "ден50"
+            ],
+            "rare": []
+        }
+    }
+}

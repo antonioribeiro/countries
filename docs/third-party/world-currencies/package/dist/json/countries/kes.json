@@ -1,0 +1,45 @@
+{
+    "KES": {
+        "name": "Kenyan Shilling",
+        "iso": {
+            "code": "KES",
+            "number": "404"
+        },
+        "units": {
+            "major": {
+                "name": "Shilling",
+                "symbol": "KSh"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "c",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "KSh50",
+                "KSh100",
+                "KSh200",
+                "KSh500",
+                "KSh1000"
+            ],
+            "rare": [
+                "KSh10",
+                "KSh20"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "KSh1",
+                "KSh5",
+                "KSh10",
+                "KSh20"
+            ],
+            "rare": [
+                "c50",
+                "c40"
+            ]
+        }
+    }
+}

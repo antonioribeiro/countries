@@ -8,43 +8,123 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Bosnia and Herzegovina",
+    "alt_spellings": [
+        "BA",
+        "Bosnia-Herzegovina",
+        "\u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+    ],
     "brk_a3": "BIH",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bosnia and Herz.",
+    "capital": "Sarajevo",
     "cca2": "BA",
     "cca3": "BIH",
     "ccn3": "070",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BIH",
+    "currencies": [
+        "BAM"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Bosnian, Herzegovinian",
+    "dialling": {
+        "calling_code": [
+            "387"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "EIT",
+        "cowc": "BOS",
+        "cown": 346,
+        "ds": "BIH",
+        "edgar": "1E",
+        "emoji": "\ud83c\udde7\ud83c\udde6",
+        "eu_member": null,
+        "fao": 80,
+        "fifa": "BIH",
+        "fips": "BK",
+        "gaul": 34,
+        "geonameid": 3277605,
+        "imf": 963,
+        "ioc": "BIH",
+        "itu": "BIH",
+        "marc": "bn",
+        "vat_rates": null,
+        "wmo": "BG"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BK",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\udde6"
+    },
     "formal_en": "Bosnia and Herzegovina",
     "formal_fr": "",
     "gdp_md_est": "42530.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 51209,
+        "borders": [
+            "HRV",
+            "MNE",
+            "SRB"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "44 00 N",
+        "latitude_desc": "44.16533279418945",
+        "latlng": [
+            44,
+            18
+        ],
+        "longitude": "18 00 E",
+        "longitude_desc": "17.790241241455078",
+        "max_latitude": "45.268333",
+        "max_longitude": "19.618333",
+        "min_latitude": "42.558056",
+        "min_longitude": "15.747222",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Bosnia and Herzegovina",
     "gu_a3": "BIH",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "BA",
+    "iso_3166_1_alpha3": "BIH",
+    "iso_3166_1_numeric": "070",
     "iso_a2": "BA",
     "iso_a3": "BIH",
     "iso_a3_eh": "BIH",
     "iso_n3": "070",
     "labelrank": "5.00",
+    "languages": {
+        "bos": "Bosnian",
+        "hrv": "Croatian",
+        "srp": "Serbian"
+    },
     "lastcensus": "1991.00",
     "level": "2.00",
     "long_len": "22.00",
@@ -56,7 +136,21 @@
     "min_label": "4.50",
     "min_zoom": "0.00",
     "name": {
-        "common": "Bosnia and Herz.",
+        "common": "Bosnia and Herzegovina",
+        "native": {
+            "bos": {
+                "common": "Bosna i Hercegovina",
+                "official": "Bosna i Hercegovina"
+            },
+            "hrv": {
+                "common": "Bosna i Hercegovina",
+                "official": "Bosna i Hercegovina"
+            },
+            "srp": {
+                "common": "\u0411\u043e\u0441\u043da \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+                "official": "\u0411\u043e\u0441\u043da \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+            }
+        },
         "official": "Bosnia and Herzegovina"
     },
     "name_alt": "",
@@ -67,9 +161,6 @@
     "name_sort": "Bosnia and Herzegovina",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "3856181.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +173,67 @@
     "su_dif": "0.00",
     "subunit": "Bosnia and Herzegovina",
     "tiny": "-99.00",
+    "tld": [
+        ".ba"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Bosnia a Hercegovina",
+            "official": "Bosnia and Herzegovina"
+        },
+        "deu": {
+            "common": "Bosnien und Herzegowina",
+            "official": "Bosnien und Herzegowina"
+        },
+        "est": {
+            "common": "Bosnia ja Hertsegoviina",
+            "official": "Bosnia ja Hertsegoviina"
+        },
+        "fin": {
+            "common": "Bosnia ja Hertsegovina",
+            "official": "Bosnia ja Hertsegovina"
+        },
+        "fra": {
+            "common": "Bosnie-Herz\u00e9govine",
+            "official": "Bosnie-et-Herz\u00e9govine"
+        },
+        "hrv": {
+            "common": "Bosna i Hercegovina",
+            "official": "Bosna i Hercegovina"
+        },
+        "ita": {
+            "common": "Bosnia ed Erzegovina",
+            "official": "Bosnia-Erzegovina"
+        },
+        "jpn": {
+            "common": "\u30dc\u30b9\u30cb\u30a2\u30fb\u30d8\u30eb\u30c4\u30a7\u30b4\u30d3\u30ca",
+            "official": "\u30dc\u30b9\u30cb\u30a2\u00b7\u30d8\u30eb\u30c4\u30a7\u30b4\u30d3\u30ca"
+        },
+        "nld": {
+            "common": "Bosni\u00eb en Herzegovina",
+            "official": "Bosni\u00eb-Herzegovina"
+        },
+        "por": {
+            "common": "B\u00f3snia e Herzegovina",
+            "official": "B\u00f3snia e Herzegovina"
+        },
+        "rus": {
+            "common": "\u0411\u043e\u0441\u043d\u0438\u044f \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430",
+            "official": "\u0411\u043e\u0441\u043d\u0438\u044f \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+        },
+        "slk": {
+            "common": "Bosna a Hercegovina",
+            "official": "Republika Bosny a Hercegoviny"
+        },
+        "spa": {
+            "common": "Bosnia y Herzegovina",
+            "official": "Bosnia y Herzegovina"
+        },
+        "zho": {
+            "common": "\u6ce2\u65af\u5c3c\u4e9a\u548c\u9ed1\u585e\u54e5\u7ef4\u90a3",
+            "official": "\u6ce2\u65af\u5c3c\u4e9a\u548c\u9ed1\u585e\u54e5\u7ef4\u90a3"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "070",
     "wb_a2": "BA",

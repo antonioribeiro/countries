@@ -1,0 +1,67 @@
+{
+    "name": "Spanish VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "es_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "es_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "es_vat_standard_1995",
+                    "amount": 0.16,
+                    "start_date": "1995-01-01",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "es_vat_standard_2010",
+                    "amount": 0.18,
+                    "start_date": "2010-07-01",
+                    "end_date": "2012-08-31"
+                },
+                {
+                    "id": "es_vat_standard_2012",
+                    "amount": 0.21,
+                    "start_date": "2012-09-01"
+                }
+            ]
+        },
+        {
+            "id": "es_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "es_vat_reduced_1995",
+                    "amount": 0.07,
+                    "start_date": "1995-01-01",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "es_vat_reduced_2010",
+                    "amount": 0.08,
+                    "start_date": "2010-07-01",
+                    "end_date": "2012-08-31"
+                },
+                {
+                    "id": "es_vat_reduced_2012",
+                    "amount": 0.1,
+                    "start_date": "2012-09-01"
+                }
+            ]
+        },
+        {
+            "id": "es_vat_super_reduced",
+            "name": "Super Reduced",
+            "amounts": [
+                {
+                    "id": "es_vat_super_reduced_1995",
+                    "amount": 0.04,
+                    "start_date": "1995-01-01"
+                }
+            ]
+        }
+    ]
+}

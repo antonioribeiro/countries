@@ -1,0 +1,41 @@
+{
+    "TTD": {
+        "name": "Trinidadian dollar",
+        "iso": {
+            "code": "TTD",
+            "number": "780"
+        },
+        "units": {
+            "major": {
+                "name": "dollar",
+                "symbol": "TT$"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "TT$1",
+                "TT$5",
+                "TT$10",
+                "TT$20",
+                "TT$100"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "1",
+                "10",
+                "25",
+                "50"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

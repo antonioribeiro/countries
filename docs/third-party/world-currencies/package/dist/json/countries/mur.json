@@ -1,0 +1,41 @@
+{
+    "MUR": {
+        "name": "Mauritian rupee",
+        "iso": {
+            "code": "MUR",
+            "number": "480"
+        },
+        "units": {
+            "major": {
+                "name": "rupee",
+                "symbol": "Rs"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "Rs25",
+                "Rs50",
+                "Rs100",
+                "Rs200",
+                "Rs500",
+                "Rs1000",
+                "RS2000"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "Rs1",
+                "Rs5",
+                "Rs10",
+                "Rs20"
+            ],
+            "rare": []
+        }
+    }
+}

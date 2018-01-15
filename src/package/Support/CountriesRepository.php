@@ -3,6 +3,7 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use MLD\Converter\JsonConverter;
+use PragmaRX\Coollection\Package\Coollection;
 
 class CountriesRepository extends Base
 {
@@ -93,6 +94,8 @@ class CountriesRepository extends Base
 
     /**
      * Load countries.
+     *
+     * @return Coollection
      */
     public function loadCountries()
     {
@@ -103,6 +106,8 @@ class CountriesRepository extends Base
         });
 
         $this->countriesJson = $this->countriesJson->overwrite($overload);
+
+        return $this->countriesJson;
     }
 
     /**

@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Mali",
+    "alt_spellings": [
+        "ML",
+        "Republic of Mali",
+        "R\u00e9publique du Mali"
+    ],
     "brk_a3": "MLI",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mali",
+    "capital": "Bamako",
     "cca2": "ML",
     "cca3": "MLI",
     "ccn3": "466",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MLI",
+    "currencies": [
+        "XOF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Malian",
+    "dialling": {
+        "calling_code": [
+            "223"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "MLI",
+        "cown": 432,
+        "ds": "RMM",
+        "edgar": "O0",
+        "emoji": "\ud83c\uddf2\ud83c\uddf1",
+        "eu_member": null,
+        "fao": 133,
+        "fifa": "MLI",
+        "fips": "ML",
+        "gaul": 155,
+        "geonameid": 2453866,
+        "imf": 678,
+        "ioc": "MLI",
+        "itu": "MLI",
+        "marc": "ml",
+        "vat_rates": null,
+        "wmo": "MI"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "ML",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddf1"
+    },
     "formal_en": "Republic of Mali",
     "formal_fr": "",
     "gdp_md_est": "38090.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 1240192,
+        "borders": [
+            "DZA",
+            "BFA",
+            "GIN",
+            "CIV",
+            "MRT",
+            "NER",
+            "SEN"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "17 00 N",
+        "latitude_desc": "17.35776710510254",
+        "latlng": [
+            17,
+            -4
+        ],
+        "longitude": "4 00 W",
+        "longitude_desc": "-3.5273818969726562",
+        "max_latitude": "26",
+        "max_longitude": "13",
+        "min_latitude": "10.15",
+        "min_longitude": "-12.55",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Mali",
     "gu_a3": "MLI",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "ML",
+    "iso_3166_1_alpha3": "MLI",
+    "iso_3166_1_numeric": "466",
     "iso_a2": "ML",
     "iso_a3": "MLI",
     "iso_a3_eh": "MLI",
     "iso_n3": "466",
     "labelrank": "3.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "4.00",
@@ -57,6 +139,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Mali",
+        "native": {
+            "fra": {
+                "common": "Mali",
+                "official": "R\u00e9publique du Mali"
+            }
+        },
         "official": "Republic of Mali"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Mali",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "17885245.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +167,63 @@
     "su_dif": "0.00",
     "subunit": "Mali",
     "tiny": "-99.00",
+    "tld": [
+        ".ml"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Mali",
+            "official": "Republik Mali"
+        },
+        "est": {
+            "common": "Mali",
+            "official": "Mali Vabariik"
+        },
+        "fin": {
+            "common": "Mali",
+            "official": "Malin tasavalta"
+        },
+        "fra": {
+            "common": "Mali",
+            "official": "R\u00e9publique du Mali"
+        },
+        "hrv": {
+            "common": "Mali",
+            "official": "Republika Mali"
+        },
+        "ita": {
+            "common": "Mali",
+            "official": "Repubblica del Mali"
+        },
+        "jpn": {
+            "common": "\u30de\u30ea",
+            "official": "\u30de\u30ea\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Mali",
+            "official": "Republiek Mali"
+        },
+        "por": {
+            "common": "Mali",
+            "official": "Rep\u00fablica do Mali"
+        },
+        "rus": {
+            "common": "\u041c\u0430\u043b\u0438",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043b\u0438"
+        },
+        "slk": {
+            "common": "Mali",
+            "official": "Malijsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Mali",
+            "official": "Rep\u00fablica de Mal\u00ed"
+        },
+        "zho": {
+            "common": "\u9a6c\u91cc",
+            "official": "\u9a6c\u91cc\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "466",
     "wb_a2": "ML",

@@ -1,0 +1,44 @@
+{
+    "HUF": {
+        "name": "Hungarian forint",
+        "iso": {
+            "code": "HUF",
+            "number": "348"
+        },
+        "units": {
+            "major": {
+                "name": "forint",
+                "symbol": "Ft"
+            },
+            "minor": {
+                "name": "fillér",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "Ft500",
+                "Ft1000",
+                "Ft2000",
+                "Ft5000",
+                "Ft10000",
+                "Ft20000"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "Ft5",
+                "Ft10",
+                "Ft20",
+                "Ft50",
+                "Ft100",
+                "Ft200"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

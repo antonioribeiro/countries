@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Bangladesh",
+    "alt_spellings": [
+        "BD",
+        "People's Republic of Bangladesh",
+        "G\u00f4n\u00f4pr\u00f4jat\u00f4ntri Bangladesh"
+    ],
     "brk_a3": "BGD",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bangladesh",
+    "capital": "Dhaka",
     "cca2": "BD",
     "cca3": "BGD",
     "ccn3": "050",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BAN",
+    "currencies": [
+        "BDT"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Bangladeshi",
+    "dialling": {
+        "calling_code": [
+            "880"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "BNG",
+        "cown": 771,
+        "ds": "BD",
+        "edgar": "C7",
+        "emoji": "\ud83c\udde7\ud83c\udde9",
+        "eu_member": null,
+        "fao": 16,
+        "fifa": "BAN",
+        "fips": "BG",
+        "gaul": 23,
+        "geonameid": 1210997,
+        "imf": 513,
+        "ioc": "BAN",
+        "itu": "BGD",
+        "marc": "bg",
+        "vat_rates": null,
+        "wmo": "BW"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BG",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\udde9"
+    },
     "formal_en": "People's Republic of Bangladesh",
     "formal_fr": "",
     "gdp_md_est": "628400.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 147570,
+        "borders": [
+            "MMR",
+            "IND"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "24 00 N",
+        "latitude_desc": "23.730104446411133",
+        "latlng": [
+            24,
+            90
+        ],
+        "longitude": "90 00 E",
+        "longitude_desc": "90.30652618408203",
+        "max_latitude": "26.5",
+        "max_longitude": "92.683333",
+        "min_latitude": "20.6",
+        "min_longitude": "84",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "South Asia",
-        "subregion": "Southern Asia"
+        "subregion": "Southern Asia",
+        "subregion_code": "034",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Bangladesh",
     "gu_a3": "BGD",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "BD",
+    "iso_3166_1_alpha3": "BGD",
+    "iso_3166_1_numeric": "050",
     "iso_a2": "BD",
     "iso_a3": "BGD",
     "iso_a3_eh": "BGD",
     "iso_n3": "050",
     "labelrank": "3.00",
+    "languages": {
+        "ben": "Bengali"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,6 +134,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Bangladesh",
+        "native": {
+            "ben": {
+                "common": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+                "official": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u0997\u09a3\u09aa\u09cd\u09b0\u099c\u09be\u09a4\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0"
+            }
+        },
         "official": "People's Republic of Bangladesh"
     },
     "name_alt": "",
@@ -67,9 +150,6 @@
     "name_sort": "Bangladesh",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "157826578.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
@@ -82,6 +162,67 @@
     "su_dif": "0.00",
     "subunit": "Bangladesh",
     "tiny": "-99.00",
+    "tld": [
+        ".bd"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Bangladesh",
+            "official": "People's Republic of Bangladesh"
+        },
+        "deu": {
+            "common": "Bangladesch",
+            "official": "Volksrepublik Bangladesch"
+        },
+        "est": {
+            "common": "Bangladesh",
+            "official": "Bangladeshi Rahvavabariik"
+        },
+        "fin": {
+            "common": "Bangladesh",
+            "official": "Bangladeshin kansantasavalta"
+        },
+        "fra": {
+            "common": "Bangladesh",
+            "official": "La R\u00e9publique populaire du Bangladesh"
+        },
+        "hrv": {
+            "common": "Banglade\u0161",
+            "official": "Narodna Republika Banglade\u0161"
+        },
+        "ita": {
+            "common": "Bangladesh",
+            "official": "Repubblica popolare del Bangladesh"
+        },
+        "jpn": {
+            "common": "\u30d0\u30f3\u30b0\u30e9\u30c7\u30b7\u30e5",
+            "official": "\u30d0\u30f3\u30b0\u30e9\u30c7\u30b7\u30e5\u4eba\u6c11\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Bangladesh",
+            "official": "Volksrepubliek Bangladesh"
+        },
+        "por": {
+            "common": "Bangladesh",
+            "official": "Rep\u00fablica Popular do Bangladesh"
+        },
+        "rus": {
+            "common": "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448",
+            "official": "\u041d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448"
+        },
+        "slk": {
+            "common": "Banglad\u00e9\u0161",
+            "official": "Banglad\u00e9\u0161ska \u013eudov\u00e1 republika"
+        },
+        "spa": {
+            "common": "Bangladesh",
+            "official": "Rep\u00fablica Popular de Bangladesh"
+        },
+        "zho": {
+            "common": "\u5b5f\u52a0\u62c9\u56fd",
+            "official": "\u5b5f\u52a0\u62c9\u4eba\u6c11\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "050",
     "wb_a2": "BD",

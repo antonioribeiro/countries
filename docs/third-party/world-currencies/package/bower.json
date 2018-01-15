@@ -1,0 +1,22 @@
+{
+  "name": "world-currencies",
+  "version": "0.0.5",
+  "homepage": "github.com/wiredmax/world-currencies",
+  "authors": [
+    "Maxime Poulin <mpoulin@roux.ca>"
+  ],
+  "description": "Currency information in JSON",
+  "keywords": [
+    "currency",
+    "iso4217",
+    "json"
+  ],
+  "license": "ODBL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

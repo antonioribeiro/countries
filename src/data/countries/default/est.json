@@ -8,43 +8,129 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Estonia",
+    "alt_spellings": [
+        "EE",
+        "Eesti",
+        "Republic of Estonia",
+        "Eesti Vabariik"
+    ],
     "brk_a3": "EST",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Estonia",
+    "capital": "Tallinn",
     "cca2": "EE",
     "cca3": "EST",
     "ccn3": "233",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "EST",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Estonian",
+    "dialling": {
+        "calling_code": [
+            "372"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "EST",
+        "cown": 366,
+        "ds": "EST",
+        "edgar": "1H",
+        "emoji": "\ud83c\uddea\ud83c\uddea",
+        "eu_member": true,
+        "fao": 63,
+        "fifa": "EST",
+        "fips": "EN",
+        "gaul": 78,
+        "geonameid": 453733,
+        "imf": 939,
+        "ioc": "EST",
+        "itu": "EST",
+        "marc": "er",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                9
+            ],
+            "standard": 20,
+            "super_reduced": null
+        },
+        "wmo": "EO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "EN",
+    "flag": {
+        "emoji": "\ud83c\uddea\ud83c\uddea"
+    },
     "formal_en": "Republic of Estonia",
     "formal_fr": "",
     "gdp_md_est": "38700.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 45227,
+        "borders": [
+            "LVA",
+            "RUS"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "59 00 N",
+        "latitude_desc": "58.69374465942383",
+        "latlng": [
+            59,
+            26
+        ],
+        "longitude": "26 00 E",
+        "longitude_desc": "25.24162483215332",
+        "max_latitude": "59.983333",
+        "max_longitude": "28.883333",
+        "min_latitude": "57.521389",
+        "min_longitude": "21.795833",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Northern Europe"
+        "subregion": "Northern Europe",
+        "subregion_code": "154",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Estonia",
     "gu_a3": "EST",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "EE",
+    "iso_3166_1_alpha3": "EST",
+    "iso_3166_1_numeric": "233",
     "iso_a2": "EE",
     "iso_a3": "EST",
     "iso_a3_eh": "EST",
     "iso_n3": "233",
     "labelrank": "6.00",
+    "languages": {
+        "est": "Estonian"
+    },
     "lastcensus": "2000.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +143,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Estonia",
+        "native": {
+            "est": {
+                "common": "Eesti",
+                "official": "Eesti Vabariik"
+            }
+        },
         "official": "Republic of Estonia"
     },
     "name_alt": "",
@@ -67,9 +159,6 @@
     "name_sort": "Estonia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1251581.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +171,67 @@
     "su_dif": "0.00",
     "subunit": "Estonia",
     "tiny": "-99.00",
+    "tld": [
+        ".ee"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Estonia",
+            "official": "Republic of Estonia"
+        },
+        "deu": {
+            "common": "Estland",
+            "official": "Republik Estland"
+        },
+        "est": {
+            "common": "Eesti",
+            "official": "Eesti Vabariik"
+        },
+        "fin": {
+            "common": "Viro",
+            "official": "Viron tasavalta"
+        },
+        "fra": {
+            "common": "Estonie",
+            "official": "R\u00e9publique d'Estonie"
+        },
+        "hrv": {
+            "common": "Estonija",
+            "official": "Republika Estonija"
+        },
+        "ita": {
+            "common": "Estonia",
+            "official": "Repubblica di Estonia"
+        },
+        "jpn": {
+            "common": "\u30a8\u30b9\u30c8\u30cb\u30a2",
+            "official": "\u30a8\u30b9\u30c8\u30cb\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Estland",
+            "official": "Republiek Estland"
+        },
+        "por": {
+            "common": "Est\u00f3nia",
+            "official": "Rep\u00fablica da Est\u00f3nia"
+        },
+        "rus": {
+            "common": "\u042d\u0441\u0442\u043e\u043d\u0438\u044f",
+            "official": "\u042d\u0441\u0442\u043e\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Est\u00f3nsko",
+            "official": "Est\u00f3nska republika"
+        },
+        "spa": {
+            "common": "Estonia",
+            "official": "Rep\u00fablica de Estonia"
+        },
+        "zho": {
+            "common": "\u7231\u6c99\u5c3c\u4e9a",
+            "official": "\u7231\u6c99\u5c3c\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "233",
     "wb_a2": "EE",

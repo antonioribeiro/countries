@@ -1,0 +1,38 @@
+{
+    "name": "Dutch VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "nl_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "nl_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "nl_vat_standard_2001",
+                    "amount": 0.19,
+                    "start_date": "2001-01-01",
+                    "end_date": "2012-09-30"
+                },
+                {
+                    "id": "nl_vat_standard_2012",
+                    "amount": 0.21,
+                    "start_date": "2012-10-01"
+                }
+            ]
+        },
+        {
+            "id": "nl_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "nl_vat_reduced_1986",
+                    "amount": 0.06,
+                    "start_date": "1986-10-01"
+                }
+            ]
+        }
+    ]
+}

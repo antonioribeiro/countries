@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Albania",
+    "alt_spellings": [
+        "AL",
+        "Shqip\u00ebri",
+        "Shqip\u00ebria",
+        "Shqipnia"
+    ],
     "brk_a3": "ALB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Albania",
+    "capital": "Tirana",
     "cca2": "AL",
     "cca3": "ALB",
     "ccn3": "008",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ALB",
+    "currencies": [
+        "ALL"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Albanian",
+    "dialling": {
+        "calling_code": [
+            "355"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "ALB",
+        "cown": 339,
+        "ds": "AL",
+        "edgar": "B3",
+        "emoji": "\ud83c\udde6\ud83c\uddf1",
+        "eu_member": null,
+        "fao": 3,
+        "fifa": "ALB",
+        "fips": "AL",
+        "gaul": 3,
+        "geonameid": 783754,
+        "imf": 914,
+        "ioc": "ALB",
+        "itu": "ALB",
+        "marc": "aa",
+        "vat_rates": null,
+        "wmo": "AB"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AL",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddf1"
+    },
     "formal_en": "Republic of Albania",
     "formal_fr": "",
     "gdp_md_est": "33900.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 28748,
+        "borders": [
+            "MNE",
+            "GRC",
+            "MKD",
+            "UNK"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "41 00 N",
+        "latitude_desc": "41.11113357543945",
+        "latlng": [
+            41,
+            20
+        ],
+        "longitude": "20 00 E",
+        "longitude_desc": "20.02745246887207",
+        "max_latitude": "42.659167",
+        "max_longitude": "21.05",
+        "min_latitude": "39.65",
+        "min_longitude": "19.266667",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Albania",
     "gu_a3": "ALB",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "AL",
+    "iso_3166_1_alpha3": "ALB",
+    "iso_3166_1_numeric": "008",
     "iso_a2": "AL",
     "iso_a3": "ALB",
     "iso_a3_eh": "ALB",
     "iso_n3": "008",
     "labelrank": "6.00",
+    "languages": {
+        "sqi": "Albanian"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +139,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Albania",
+        "native": {
+            "sqi": {
+                "common": "Shqip\u00ebria",
+                "official": "Republika e Shqip\u00ebris\u00eb"
+            }
+        },
         "official": "Republic of Albania"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Albania",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "3047987.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +167,67 @@
     "su_dif": "0.00",
     "subunit": "Albania",
     "tiny": "-99.00",
+    "tld": [
+        ".al"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Albania",
+            "official": "Republic of Albania"
+        },
+        "deu": {
+            "common": "Albanien",
+            "official": "Republik Albanien"
+        },
+        "est": {
+            "common": "Albaania",
+            "official": "Albaania Vabariik"
+        },
+        "fin": {
+            "common": "Albania",
+            "official": "Albanian tasavalta"
+        },
+        "fra": {
+            "common": "Albanie",
+            "official": "R\u00e9publique d'Albanie"
+        },
+        "hrv": {
+            "common": "Albanija",
+            "official": "Republika Albanija"
+        },
+        "ita": {
+            "common": "Albania",
+            "official": "Repubblica d'Albania"
+        },
+        "jpn": {
+            "common": "\u30a2\u30eb\u30d0\u30cb\u30a2",
+            "official": "\u30a2\u30eb\u30d0\u30cb\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Albani\u00eb",
+            "official": "Republiek Albani\u00eb"
+        },
+        "por": {
+            "common": "Alb\u00e2nia",
+            "official": "Rep\u00fablica da Alb\u00e2nia"
+        },
+        "rus": {
+            "common": "\u0410\u043b\u0431\u0430\u043d\u0438\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u043b\u0431\u0430\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "Alb\u00e1nsko",
+            "official": "Alb\u00e1nska republika"
+        },
+        "spa": {
+            "common": "Albania",
+            "official": "Rep\u00fablica de Albania"
+        },
+        "zho": {
+            "common": "\u963f\u5c14\u5df4\u5c3c\u4e9a",
+            "official": "\u963f\u5c14\u5df4\u5c3c\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "008",
     "wb_a2": "AL",

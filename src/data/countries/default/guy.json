@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Guyana",
+    "alt_spellings": [
+        "GY",
+        "Co-operative Republic of Guyana"
+    ],
     "brk_a3": "GUY",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Guyana",
+    "capital": "Georgetown",
     "cca2": "GY",
     "cca3": "GUY",
     "ccn3": "328",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "GUY",
+    "currencies": [
+        "GYD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Guyanese",
+    "dialling": {
+        "calling_code": [
+            "592"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6,
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "GUY",
+        "cown": 110,
+        "ds": "GUY",
+        "edgar": "K0",
+        "emoji": "\ud83c\uddec\ud83c\uddfe",
+        "eu_member": null,
+        "fao": 91,
+        "fifa": "GUY",
+        "fips": "GY",
+        "gaul": 107,
+        "geonameid": 3378535,
+        "imf": 336,
+        "ioc": "GUY",
+        "itu": "GUY",
+        "marc": "gy",
+        "vat_rates": null,
+        "wmo": "GY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "GY",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\uddfe"
+    },
     "formal_en": "Co-operative Republic of Guyana",
     "formal_fr": "",
     "gdp_md_est": "6093.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "South America",
+        "area": 214969,
+        "borders": [
+            "BRA",
+            "SUR",
+            "VEN"
+        ],
+        "continent": {
+            "SA": "South America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "5 00 N",
+        "latitude_desc": "4.917311191558838",
+        "latlng": [
+            5,
+            -59
+        ],
+        "longitude": "59 00 W",
+        "longitude_desc": "-58.94346237182617",
+        "max_latitude": "8.433333",
+        "max_longitude": "-56",
+        "min_latitude": "1.316667",
+        "min_longitude": "-61.233333",
+        "postal_code": false,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "South America"
+        "subregion": "South America",
+        "subregion_code": "005",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Guyana",
     "gu_a3": "GUY",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "GY",
+    "iso_3166_1_alpha3": "GUY",
+    "iso_3166_1_numeric": "328",
     "iso_a2": "GY",
     "iso_a3": "GUY",
     "iso_a3_eh": "GUY",
     "iso_n3": "328",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +135,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Guyana",
+        "native": {
+            "eng": {
+                "common": "Guyana",
+                "official": "Co-operative Republic of Guyana"
+            }
+        },
         "official": "Co-operative Republic of Guyana"
     },
     "name_alt": "",
@@ -67,9 +151,6 @@
     "name_sort": "Guyana",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "737718.00",
     "pop_rank": "11.00",
     "pop_year": "2017.00",
@@ -82,6 +163,63 @@
     "su_dif": "0.00",
     "subunit": "Guyana",
     "tiny": "-99.00",
+    "tld": [
+        ".gy"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Guyana",
+            "official": "Kooperative Republik Guyana"
+        },
+        "est": {
+            "common": "Guyana",
+            "official": "Guyana Vabariik"
+        },
+        "fin": {
+            "common": "Guayana",
+            "official": "Guayanan osuustoiminnallinen tasavalta"
+        },
+        "fra": {
+            "common": "Guyana",
+            "official": "R\u00e9publique coop\u00e9rative de Guyana"
+        },
+        "hrv": {
+            "common": "Gvajana",
+            "official": "Zadruga Republika Gvajana"
+        },
+        "ita": {
+            "common": "Guyana",
+            "official": "Co -operative Republic of Guyana"
+        },
+        "jpn": {
+            "common": "\u30ac\u30a4\u30a2\u30ca",
+            "official": "\u30ac\u30a4\u30a2\u30ca\u306e\u5354\u540c\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Guyana",
+            "official": "Co\u00f6peratieve Republiek Guyana"
+        },
+        "por": {
+            "common": "Guiana",
+            "official": "Co -operative Rep\u00fablica da Guiana"
+        },
+        "rus": {
+            "common": "\u0413\u0430\u0439\u0430\u043d\u0430",
+            "official": "\u041a\u043e\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0413\u0430\u0439\u0430\u043d\u0430"
+        },
+        "slk": {
+            "common": "Guyana",
+            "official": "Guyansk\u00e1 kooperat\u00edvna republika"
+        },
+        "spa": {
+            "common": "Guyana",
+            "official": "Rep\u00fablica Cooperativa de Guyana"
+        },
+        "zho": {
+            "common": "\u572d\u4e9a\u90a3",
+            "official": "\u572d\u4e9a\u90a3\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "328",
     "wb_a2": "GY",

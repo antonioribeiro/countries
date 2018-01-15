@@ -8,43 +8,129 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Ireland",
+    "alt_spellings": [
+        "IE",
+        "\u00c9ire",
+        "Republic of Ireland",
+        "Poblacht na h\u00c9ireann"
+    ],
     "brk_a3": "IRL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Ireland",
+    "capital": "Dublin",
     "cca2": "IE",
     "cca3": "IRL",
     "ccn3": "372",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "IRL",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Irish",
+    "dialling": {
+        "calling_code": [
+            "353"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{city}} {{region_short}} {{postalcode}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "IRE",
+        "cown": 205,
+        "ds": "IRL",
+        "edgar": "L2",
+        "emoji": "\ud83c\uddee\ud83c\uddea",
+        "eu_member": true,
+        "fao": 104,
+        "fifa": "IRL",
+        "fips": "EI",
+        "gaul": 119,
+        "geonameid": 2963597,
+        "imf": 178,
+        "ioc": "IRL",
+        "itu": "IRL",
+        "marc": "ie",
+        "vat_rates": {
+            "parking": 13.5,
+            "reduced": [
+                9,
+                13.5
+            ],
+            "standard": 23,
+            "super_reduced": 4.8
+        },
+        "wmo": "IE"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "EI",
+    "flag": {
+        "emoji": "\ud83c\uddee\ud83c\uddea"
+    },
     "formal_en": "Ireland",
     "formal_fr": "",
     "gdp_md_est": "322000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 70273,
+        "borders": [
+            "GBR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "53 00 N",
+        "latitude_desc": "53.1827278137207",
+        "latlng": [
+            53,
+            -8
+        ],
+        "longitude": "8 00 W",
+        "longitude_desc": "-8.196102142333984",
+        "max_latitude": "55.433333",
+        "max_longitude": "-6.0025",
+        "min_latitude": "51.425556",
+        "min_longitude": "-10.680833",
+        "postal_code": false,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Northern Europe"
+        "subregion": "Northern Europe",
+        "subregion_code": "154",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Ireland",
     "gu_a3": "IRL",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "IE",
+    "iso_3166_1_alpha3": "IRL",
+    "iso_3166_1_numeric": "372",
     "iso_a2": "IE",
     "iso_a3": "IRL",
     "iso_a3_eh": "IRL",
     "iso_n3": "372",
     "labelrank": "3.00",
+    "languages": {
+        "eng": "English",
+        "gle": "Irish"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,7 +143,17 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Ireland",
-        "official": "Ireland"
+        "native": {
+            "eng": {
+                "common": "Ireland",
+                "official": "Republic of Ireland"
+            },
+            "gle": {
+                "common": "\u00c9ire",
+                "official": "Poblacht na h\u00c9ireann"
+            }
+        },
+        "official": "Republic of Ireland"
     },
     "name_alt": "",
     "name_ciawf": "Ireland",
@@ -67,9 +163,6 @@
     "name_sort": "Ireland",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "5011102.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +175,63 @@
     "su_dif": "0.00",
     "subunit": "Ireland",
     "tiny": "-99.00",
+    "tld": [
+        ".ie"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Irland",
+            "official": "Republik Irland"
+        },
+        "est": {
+            "common": "Iirimaa",
+            "official": "Iirimaa"
+        },
+        "fin": {
+            "common": "Irlanti",
+            "official": "Irlannin tasavalta"
+        },
+        "fra": {
+            "common": "Irlande",
+            "official": "R\u00e9publique d'Irlande"
+        },
+        "hrv": {
+            "common": "Irska",
+            "official": "Republika Irska"
+        },
+        "ita": {
+            "common": "Irlanda",
+            "official": "Repubblica d'Irlanda"
+        },
+        "jpn": {
+            "common": "\u30a2\u30a4\u30eb\u30e9\u30f3\u30c9",
+            "official": "\u30a2\u30a4\u30eb\u30e9\u30f3\u30c9\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Ierland",
+            "official": "Republic of Ireland"
+        },
+        "por": {
+            "common": "Irlanda",
+            "official": "Rep\u00fablica da Irlanda"
+        },
+        "rus": {
+            "common": "\u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f",
+            "official": "\u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f"
+        },
+        "slk": {
+            "common": "\u00cdrsko",
+            "official": "\u00cdrska republika"
+        },
+        "spa": {
+            "common": "Irlanda",
+            "official": "Rep\u00fablica de Irlanda"
+        },
+        "zho": {
+            "common": "\u7231\u5c14\u5170",
+            "official": "\u7231\u5c14\u5170\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "372",
     "wb_a2": "IE",
