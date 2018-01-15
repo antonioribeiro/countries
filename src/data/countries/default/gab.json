@@ -8,43 +8,123 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Gabon",
+    "alt_spellings": [
+        "GA",
+        "Gabonese Republic",
+        "R\u00e9publique Gabonaise"
+    ],
     "brk_a3": "GAB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Gabon",
+    "capital": "Libreville",
     "cca2": "GA",
     "cca3": "GAB",
     "ccn3": "266",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "GAB",
+    "currencies": [
+        "XAF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Gabonese",
+    "dialling": {
+        "calling_code": [
+            "241"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6,
+            7,
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "GAB",
+        "cown": 481,
+        "ds": "G",
+        "edgar": "I5",
+        "emoji": "\ud83c\uddec\ud83c\udde6",
+        "eu_member": null,
+        "fao": 74,
+        "fifa": "GAB",
+        "fips": "GB",
+        "gaul": 89,
+        "geonameid": 2400553,
+        "imf": 646,
+        "ioc": "GAB",
+        "itu": "GAB",
+        "marc": "go",
+        "vat_rates": null,
+        "wmo": "GO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "GB",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\udde6"
+    },
     "formal_en": "Gabonese Republic",
     "formal_fr": "",
     "gdp_md_est": "35980.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 267668,
+        "borders": [
+            "CMR",
+            "COG",
+            "GNQ"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "1 00 S",
+        "latitude_desc": "-0.6345400810241699",
+        "latlng": [
+            -1,
+            11.75
+        ],
+        "longitude": "11 45 E",
+        "longitude_desc": "11.738608360290527",
+        "max_latitude": "2.283333",
+        "max_longitude": "14.483333",
+        "min_latitude": "-3.9",
+        "min_longitude": "8.7",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Middle Africa"
+        "subregion": "Middle Africa",
+        "subregion_code": "017",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Gabon",
     "gu_a3": "GAB",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "GA",
+    "iso_3166_1_alpha3": "GAB",
+    "iso_3166_1_numeric": "266",
     "iso_a2": "GA",
     "iso_a3": "GAB",
     "iso_a3_eh": "GAB",
     "iso_n3": "266",
     "labelrank": "4.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "2003.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +137,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Gabon",
+        "native": {
+            "fra": {
+                "common": "Gabon",
+                "official": "R\u00e9publique gabonaise"
+            }
+        },
         "official": "Gabonese Republic"
     },
     "name_alt": "",
@@ -67,9 +153,6 @@
     "name_sort": "Gabon",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1772255.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +165,63 @@
     "su_dif": "0.00",
     "subunit": "Gabon",
     "tiny": "3.00",
+    "tld": [
+        ".ga"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Gabun",
+            "official": "Gabunische Republik"
+        },
+        "est": {
+            "common": "Gabon",
+            "official": "Gaboni Vabariik"
+        },
+        "fin": {
+            "common": "Gabon",
+            "official": "Gabonin tasavalta"
+        },
+        "fra": {
+            "common": "Gabon",
+            "official": "R\u00e9publique gabonaise"
+        },
+        "hrv": {
+            "common": "Gabon",
+            "official": "Gabon Republika"
+        },
+        "ita": {
+            "common": "Gabon",
+            "official": "Repubblica gabonese"
+        },
+        "jpn": {
+            "common": "\u30ac\u30dc\u30f3",
+            "official": "\u30ac\u30dc\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Gabon",
+            "official": "Republiek Gabon"
+        },
+        "por": {
+            "common": "Gab\u00e3o",
+            "official": "Rep\u00fablica do Gab\u00e3o"
+        },
+        "rus": {
+            "common": "\u0413\u0430\u0431\u043e\u043d",
+            "official": "\u0413\u0430\u0431\u043e\u043d\u0430 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Gabon",
+            "official": "Gabonsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Gab\u00f3n",
+            "official": "Rep\u00fablica de Gab\u00f3n"
+        },
+        "zho": {
+            "common": "\u52a0\u84ec",
+            "official": "\u52a0\u84ec\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "266",
     "wb_a2": "GA",

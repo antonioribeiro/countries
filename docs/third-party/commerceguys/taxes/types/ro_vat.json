@@ -1,0 +1,61 @@
+{
+    "name": "Romanian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "ro_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "ro_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "ro_vat_standard_2007",
+                    "amount": 0.19,
+                    "start_date": "2007-01-01",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "ro_vat_standard_2010",
+                    "amount": 0.24,
+                    "start_date": "2010-07-01",
+                    "end_date": "2015-12-31"
+                },
+                {
+                    "id": "ro_vat_standard_2016",
+                    "amount": 0.20,
+                    "start_date": "2016-01-01",
+                    "end_date": "2016-12-31"
+                },
+                {
+                    "id": "ro_vat_standard_2017",
+                    "amount": 0.19,
+                    "start_date": "2017-01-01"
+                }
+            ]
+        },
+        {
+            "id": "ro_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "ro_vat_intermediate_2008",
+                    "amount": 0.09,
+                    "start_date": "2008-12-01"
+                }
+            ]
+        },
+        {
+            "id": "ro_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "ro_vat_reduced_2008",
+                    "amount": 0.05,
+                    "start_date": "2008-12-01"
+                }
+            ]
+        }
+    ]
+}

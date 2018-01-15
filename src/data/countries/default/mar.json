@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Morocco",
+    "alt_spellings": [
+        "MA",
+        "Kingdom of Morocco",
+        "Al-Mamlakah al-Ma\u0121ribiyah"
+    ],
     "brk_a3": "MAR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Morocco",
+    "capital": "Rabat",
     "cca2": "MA",
     "cca3": "MAR",
     "ccn3": "504",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MAR",
+    "currencies": [
+        "MAD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Moroccan",
+    "dialling": {
+        "calling_code": [
+            "212"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "MOR",
+        "cown": 600,
+        "ds": "MA",
+        "edgar": "P2",
+        "emoji": "\ud83c\uddf2\ud83c\udde6",
+        "eu_member": null,
+        "fao": 143,
+        "fifa": "MAR",
+        "fips": "MO",
+        "gaul": 169,
+        "geonameid": 2542007,
+        "imf": 686,
+        "ioc": "MAR",
+        "itu": "MRC",
+        "marc": "mr",
+        "vat_rates": null,
+        "wmo": "MC"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MO",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\udde6"
+    },
     "formal_en": "Kingdom of Morocco",
     "formal_fr": "",
     "gdp_md_est": "282800.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 446550,
+        "borders": [
+            "DZA",
+            "ESH",
+            "ESP"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "32 00 N",
+        "latitude_desc": "29.14059066772461",
+        "latlng": [
+            32,
+            -5
+        ],
+        "longitude": "5 00 W",
+        "longitude_desc": "-8.953388214111328",
+        "max_latitude": "36.21",
+        "max_longitude": "2",
+        "min_latitude": "5.51",
+        "min_longitude": "-13.1",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Northern Africa"
+        "subregion": "Northern Africa",
+        "subregion_code": "015",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Morocco",
     "gu_a3": "MAR",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "MA",
+    "iso_3166_1_alpha3": "MAR",
+    "iso_3166_1_numeric": "504",
     "iso_a2": "MA",
     "iso_a3": "MAR",
     "iso_a3_eh": "MAR",
     "iso_n3": "504",
     "labelrank": "3.00",
+    "languages": {
+        "ara": "Arabic",
+        "ber": "Berber"
+    },
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +136,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Morocco",
+        "native": {
+            "ara": {
+                "common": "\u0627\u0644\u0645\u063a\u0631\u0628",
+                "official": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u063a\u0631\u0628\u064a\u0629"
+            },
+            "ber": {
+                "common": "\u2d4d\u2d4e\u2d30\u2d56\u2d54\u2d49\u2d31",
+                "official": "\u2d5c\u2d30\u2d33\u2d4d\u2d37\u2d49\u2d5c \u2d4f \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31"
+            }
+        },
         "official": "Kingdom of Morocco"
     },
     "name_alt": "",
@@ -67,9 +156,6 @@
     "name_sort": "Morocco",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "33986655.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +168,64 @@
     "su_dif": "0.00",
     "subunit": "Morocco",
     "tiny": "-99.00",
+    "tld": [
+        ".ma",
+        "\u0627\u0644\u0645\u063a\u0631\u0628."
+    ],
+    "translations": {
+        "deu": {
+            "common": "Marokko",
+            "official": "K\u00f6nigreich Marokko"
+        },
+        "est": {
+            "common": "Maroko",
+            "official": "Maroko Kuningriik"
+        },
+        "fin": {
+            "common": "Marokko",
+            "official": "Marokon kuningaskunta"
+        },
+        "fra": {
+            "common": "Maroc",
+            "official": "Royaume du Maroc"
+        },
+        "hrv": {
+            "common": "Maroko",
+            "official": "Kraljevina Maroko"
+        },
+        "ita": {
+            "common": "Marocco",
+            "official": "Regno del Marocco"
+        },
+        "jpn": {
+            "common": "\u30e2\u30ed\u30c3\u30b3",
+            "official": "\u30e2\u30ed\u30c3\u30b3\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Marokko",
+            "official": "Koninkrijk Marokko"
+        },
+        "por": {
+            "common": "Marrocos",
+            "official": "Reino de Marrocos"
+        },
+        "rus": {
+            "common": "\u041c\u0430\u0440\u043e\u043a\u043a\u043e",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041c\u0430\u0440\u043e\u043a\u043a\u043e"
+        },
+        "slk": {
+            "common": "Maroko",
+            "official": "Marock\u00e9 knie\u017eatstvo"
+        },
+        "spa": {
+            "common": "Marruecos",
+            "official": "Reino de Marruecos"
+        },
+        "zho": {
+            "common": "\u6469\u6d1b\u54e5",
+            "official": "\u6469\u6d1b\u54e5\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "504",
     "wb_a2": "MA",

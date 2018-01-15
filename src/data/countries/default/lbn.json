@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Lebanon",
+    "alt_spellings": [
+        "LB",
+        "Lebanese Republic",
+        "Al-Jumh\u016br\u012byah Al-Libn\u0101n\u012byah"
+    ],
     "brk_a3": "LBN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Lebanon",
+    "capital": "Beirut",
     "cca2": "LB",
     "cca3": "LBN",
     "ccn3": "422",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "LIB",
+    "currencies": [
+        "LBP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Lebanese",
+    "dialling": {
+        "calling_code": [
+            "961"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "MAF",
+        "cowc": "LEB",
+        "cown": 660,
+        "ds": "RL",
+        "edgar": "M8",
+        "emoji": "\ud83c\uddf1\ud83c\udde7",
+        "eu_member": null,
+        "fao": 121,
+        "fifa": "LIB",
+        "fips": "LE",
+        "gaul": 141,
+        "geonameid": 272103,
+        "imf": 446,
+        "ioc": "LIB",
+        "itu": "LBN",
+        "marc": "le",
+        "vat_rates": null,
+        "wmo": "LB"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "LE",
+    "flag": {
+        "emoji": "\ud83c\uddf1\ud83c\udde7"
+    },
     "formal_en": "Lebanese Republic",
     "formal_fr": "",
     "gdp_md_est": "85160.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 10452,
+        "borders": [
+            "ISR",
+            "SYR"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "33 50 N",
+        "latitude_desc": "33.925411224365234",
+        "latlng": [
+            33.83333333,
+            35.83333333
+        ],
+        "longitude": "35 50 E",
+        "longitude_desc": "35.89972686767578",
+        "max_latitude": "34.69",
+        "max_longitude": "36.592778",
+        "min_latitude": "33.078333",
+        "min_longitude": "35.103611",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Lebanon",
     "gu_a3": "LBN",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "LB",
+    "iso_3166_1_alpha3": "LBN",
+    "iso_3166_1_numeric": "422",
     "iso_a2": "LB",
     "iso_a3": "LBN",
     "iso_a3_eh": "LBN",
     "iso_n3": "422",
     "labelrank": "5.00",
+    "languages": {
+        "ara": "Arabic",
+        "fra": "French"
+    },
     "lastcensus": "1970.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +135,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Lebanon",
+        "native": {
+            "ara": {
+                "common": "\u0644\u0628\u0646\u0627\u0646",
+                "official": "\u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0644\u0628\u0646\u0627\u0646\u064a\u0629"
+            },
+            "fra": {
+                "common": "Liban",
+                "official": "R\u00e9publique libanaise"
+            }
+        },
         "official": "Lebanese Republic"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Lebanon",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "6229794.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +167,63 @@
     "su_dif": "0.00",
     "subunit": "Lebanon",
     "tiny": "4.00",
+    "tld": [
+        ".lb"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Libanon",
+            "official": "Libanesische Republik"
+        },
+        "est": {
+            "common": "Liibanon",
+            "official": "Liibanoni Vabariik"
+        },
+        "fin": {
+            "common": "Libanon",
+            "official": "Libanonin tasavalta"
+        },
+        "fra": {
+            "common": "Liban",
+            "official": "R\u00e9publique libanaise"
+        },
+        "hrv": {
+            "common": "Libanon",
+            "official": "Libanonska Republika"
+        },
+        "ita": {
+            "common": "Libano",
+            "official": "Repubblica libanese"
+        },
+        "jpn": {
+            "common": "\u30ec\u30d0\u30ce\u30f3",
+            "official": "\u30ec\u30d0\u30ce\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Libanon",
+            "official": "Libanese Republiek"
+        },
+        "por": {
+            "common": "L\u00edbano",
+            "official": "Rep\u00fablica Libanesa"
+        },
+        "rus": {
+            "common": "\u041b\u0438\u0432\u0430\u043d",
+            "official": "\u041b\u0438\u0432\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Libanon",
+            "official": "Libanonsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "L\u00edbano",
+            "official": "Rep\u00fablica Libanesa"
+        },
+        "zho": {
+            "common": "\u9ece\u5df4\u5ae9",
+            "official": "\u9ece\u5df4\u5ae9\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "422",
     "wb_a2": "LB",

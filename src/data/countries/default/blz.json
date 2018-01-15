@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Belize",
+    "alt_spellings": [
+        "BZ"
+    ],
     "brk_a3": "BLZ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Belize",
+    "capital": "Belmopan",
     "cca2": "BZ",
     "cca3": "BLZ",
     "ccn3": "084",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BIZ",
+    "currencies": [
+        "BZD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Belizean",
+    "dialling": {
+        "calling_code": [
+            "501"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "BLZ",
+        "cown": 80,
+        "ds": "BZ",
+        "edgar": "D1",
+        "emoji": "\ud83c\udde7\ud83c\uddff",
+        "eu_member": null,
+        "fao": 23,
+        "fifa": "BLZ",
+        "fips": "BH",
+        "gaul": 28,
+        "geonameid": 3582678,
+        "imf": 339,
+        "ioc": "BIZ",
+        "itu": "BLZ",
+        "marc": "bh",
+        "vat_rates": null,
+        "wmo": "BH"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BH",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddff"
+    },
     "formal_en": "Belize",
     "formal_fr": "",
     "gdp_md_est": "3088.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "North America",
+        "area": 22966,
+        "borders": [
+            "GTM",
+            "MEX"
+        ],
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "17 15 N",
+        "latitude_desc": "17.225292205810547",
+        "latlng": [
+            17.25,
+            -88.75
+        ],
+        "longitude": "88 45 W",
+        "longitude_desc": "-88.66973876953125",
+        "max_latitude": "18.483333",
+        "max_longitude": "-87.483333",
+        "min_latitude": "15.9",
+        "min_longitude": "-89.216944",
+        "postal_code": false,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Central America"
+        "subregion": "Central America",
+        "subregion_code": "013",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Belize",
     "gu_a3": "BLZ",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "BZ",
+    "iso_3166_1_alpha3": "BLZ",
+    "iso_3166_1_numeric": "084",
     "iso_a2": "BZ",
     "iso_a3": "BLZ",
     "iso_a3_eh": "BLZ",
     "iso_n3": "084",
     "labelrank": "6.00",
+    "languages": {
+        "bjz": "Belizean Creole",
+        "eng": "English",
+        "spa": "Spanish"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +134,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Belize",
+        "native": {
+            "bjz": {
+                "common": "Belize",
+                "official": "Belize"
+            },
+            "eng": {
+                "common": "Belize",
+                "official": "Belize"
+            },
+            "spa": {
+                "common": "Belice",
+                "official": "Belice"
+            }
+        },
         "official": "Belize"
     },
     "name_alt": "",
@@ -67,9 +158,6 @@
     "name_sort": "Belize",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "360346.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
@@ -82,6 +170,67 @@
     "su_dif": "0.00",
     "subunit": "Belize",
     "tiny": "-99.00",
+    "tld": [
+        ".bz"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "deu": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "est": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "fin": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "fra": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "hrv": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "ita": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "jpn": {
+            "common": "\u30d9\u30ea\u30fc\u30ba",
+            "official": "\u30d9\u30ea\u30fc\u30ba"
+        },
+        "nld": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "por": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "rus": {
+            "common": "\u0411\u0435\u043b\u0438\u0437",
+            "official": "\u0411\u0435\u043b\u0438\u0437"
+        },
+        "slk": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "spa": {
+            "common": "Belice",
+            "official": "Belice"
+        },
+        "zho": {
+            "common": "\u4f2f\u5229\u5179",
+            "official": "\u4f2f\u5229\u5179"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "084",
     "wb_a2": "BZ",

@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Panama",
+    "alt_spellings": [
+        "PA",
+        "Republic of Panama",
+        "Rep\u00fablica de Panam\u00e1"
+    ],
     "brk_a3": "PAN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Panama",
+    "capital": "Panama City",
     "cca2": "PA",
     "cca3": "PAN",
     "ccn3": "591",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "PAN",
+    "currencies": [
+        "PAB",
+        "USD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Panamanian",
+    "dialling": {
+        "calling_code": [
+            "507"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "PAN",
+        "cown": 95,
+        "ds": "PA",
+        "edgar": "R1",
+        "emoji": "\ud83c\uddf5\ud83c\udde6",
+        "eu_member": null,
+        "fao": 166,
+        "fifa": "PAN",
+        "fips": "PM",
+        "gaul": 191,
+        "geonameid": 3703430,
+        "imf": 283,
+        "ioc": "PAN",
+        "itu": "PNR",
+        "marc": "pn",
+        "vat_rates": null,
+        "wmo": "PM"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "PM",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\udde6"
+    },
     "formal_en": "Republic of Panama",
     "formal_fr": "",
     "gdp_md_est": "93120.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "North America",
+        "area": 75417,
+        "borders": [
+            "COL",
+            "CRI"
+        ],
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "9 00 N",
+        "latitude_desc": "8.646247863769531",
+        "latlng": [
+            9,
+            -80
+        ],
+        "longitude": "80 00 W",
+        "longitude_desc": "-80.50607299804688",
+        "max_latitude": "9.65",
+        "max_longitude": "-77.283333",
+        "min_latitude": "7.213333",
+        "min_longitude": "-82.95",
+        "postal_code": false,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Central America"
+        "subregion": "Central America",
+        "subregion_code": "013",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Panama",
     "gu_a3": "PAN",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "PA",
+    "iso_3166_1_alpha3": "PAN",
+    "iso_3166_1_numeric": "591",
     "iso_a2": "PA",
     "iso_a3": "PAN",
     "iso_a3_eh": "PAN",
     "iso_n3": "591",
     "labelrank": "4.00",
+    "languages": {
+        "spa": "Spanish"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +135,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Panama",
+        "native": {
+            "spa": {
+                "common": "Panam\u00e1",
+                "official": "Rep\u00fablica de Panam\u00e1"
+            }
+        },
         "official": "Republic of Panama"
     },
     "name_alt": "",
@@ -67,9 +151,6 @@
     "name_sort": "Panama",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "3753142.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +163,63 @@
     "su_dif": "0.00",
     "subunit": "Panama",
     "tiny": "-99.00",
+    "tld": [
+        ".pa"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Panama",
+            "official": "Republik Panama"
+        },
+        "est": {
+            "common": "Panama",
+            "official": "Panama Vabariik"
+        },
+        "fin": {
+            "common": "Panama",
+            "official": "Panaman tasavalta"
+        },
+        "fra": {
+            "common": "Panama",
+            "official": "R\u00e9publique du Panama"
+        },
+        "hrv": {
+            "common": "Panama",
+            "official": "Republika Panama"
+        },
+        "ita": {
+            "common": "Panama",
+            "official": "Repubblica di Panama"
+        },
+        "jpn": {
+            "common": "\u30d1\u30ca\u30de",
+            "official": "\u30d1\u30ca\u30de\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Panama",
+            "official": "Republiek Panama"
+        },
+        "por": {
+            "common": "Panam\u00e1",
+            "official": "Rep\u00fablica do Panam\u00e1"
+        },
+        "rus": {
+            "common": "\u041f\u0430\u043d\u0430\u043c\u0430",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u0430\u043d\u0430\u043c\u0430"
+        },
+        "slk": {
+            "common": "Panama",
+            "official": "Panamsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Panam\u00e1",
+            "official": "Rep\u00fablica de Panam\u00e1"
+        },
+        "zho": {
+            "common": "\u5df4\u62ff\u9a6c",
+            "official": "\u5df4\u62ff\u9a6c\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "591",
     "wb_a2": "PA",

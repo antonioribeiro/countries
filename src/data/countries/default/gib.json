@@ -8,43 +8,117 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Gibraltar",
+    "alt_spellings": [
+        "GI"
+    ],
     "brk_a3": "B55",
     "brk_diff": "1.00",
     "brk_group": "",
     "brk_name": "Gibraltar",
+    "capital": "Gibraltar",
     "cca2": "GI",
     "cca3": "GIB",
     "ccn3": "292",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "GIP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Gibraltar",
+    "dialling": {
+        "calling_code": [
+            "350"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "GBZ",
+        "edgar": "J1",
+        "emoji": "\ud83c\uddec\ud83c\uddee",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "GBZ",
+        "fips": "GI",
+        "gaul": 95,
+        "geonameid": 2411586,
+        "imf": 823,
+        "ioc": "GIB",
+        "itu": "GIB",
+        "marc": "gi",
+        "vat_rates": null,
+        "wmo": "GI"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "GI",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\uddee"
+    },
     "formal_en": "",
     "formal_fr": "",
     "gdp_md_est": "2044.00",
     "gdp_year": "2014.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 6,
+        "borders": [
+            "ESP"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Territory of GB",
+        "landlocked": false,
+        "latitude": "36 08 N",
+        "latitude_desc": "36.135841369628906",
+        "latlng": [
+            36.13333333,
+            -5.35
+        ],
+        "longitude": "5 21 W",
+        "longitude_desc": "-5.349248886108398",
+        "max_latitude": "36.15",
+        "max_longitude": "-5.333333",
+        "min_latitude": "36.1",
+        "min_longitude": "-5.35",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Gibraltar",
     "gu_a3": "GIB",
     "homepart": "-99.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "GI",
+    "iso_3166_1_alpha3": "GIB",
+    "iso_3166_1_numeric": "292",
     "iso_a2": "GI",
     "iso_a3": "GIB",
     "iso_a3_eh": "GIB",
     "iso_n3": "292",
     "labelrank": "5.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "9.00",
@@ -57,7 +131,13 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Gibraltar",
-        "official": ""
+        "native": {
+            "eng": {
+                "common": "Gibraltar",
+                "official": "Gibraltar"
+            }
+        },
+        "official": "Gibraltar"
     },
     "name_alt": "",
     "name_ciawf": "Gibraltar",
@@ -67,9 +147,6 @@
     "name_sort": "Gibraltar",
     "note_adm0": "U.K.",
     "note_brk": "Admin. By U.K.; Claimed by Spain",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "29396.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
@@ -82,6 +159,63 @@
     "su_dif": "0.00",
     "subunit": "Gibraltar",
     "tiny": "5.00",
+    "tld": [
+        ".gi"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "est": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "fin": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "fra": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "hrv": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "ita": {
+            "common": "Gibilterra",
+            "official": "Gibilterra"
+        },
+        "jpn": {
+            "common": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb",
+            "official": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb"
+        },
+        "nld": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "por": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "rus": {
+            "common": "\u0413\u0438\u0431\u0440\u0430\u043b\u0442\u0430\u0440",
+            "official": "\u0413\u0438\u0431\u0440\u0430\u043b\u0442\u0430\u0440"
+        },
+        "slk": {
+            "common": "Gibralt\u00e1r",
+            "official": "Gibralt\u00e1r"
+        },
+        "spa": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "zho": {
+            "common": "\u76f4\u5e03\u7f57\u9640",
+            "official": "\u76f4\u5e03\u7f57\u9640"
+        }
+    },
     "type": "Dependency",
     "un_a3": "292",
     "wb_a2": "-99",

@@ -8,43 +8,131 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Cyprus",
+    "alt_spellings": [
+        "CY",
+        "K\u00fdpros",
+        "K\u0131br\u0131s",
+        "Republic of Cyprus",
+        "\u039a\u03c5\u03c0\u03c1\u03b9\u03b1\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1",
+        "K\u0131br\u0131s Cumhuriyeti"
+    ],
     "brk_a3": "CYP",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Cyprus",
+    "capital": "Nicosia",
     "cca2": "CY",
     "cca3": "CYP",
     "ccn3": "196",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "CYP",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Cypriot",
+    "dialling": {
+        "calling_code": [
+            "357"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "CYP",
+        "cown": 352,
+        "ds": "CY",
+        "edgar": "G4",
+        "emoji": "\ud83c\udde8\ud83c\uddfe",
+        "eu_member": true,
+        "fao": 50,
+        "fifa": "CYP",
+        "fips": "CY",
+        "gaul": 64,
+        "geonameid": 146669,
+        "imf": 423,
+        "ioc": "CYP",
+        "itu": "CYP",
+        "marc": "cy",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                5,
+                9
+            ],
+            "standard": 19,
+            "super_reduced": null
+        },
+        "wmo": "CY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CY",
+    "flag": {
+        "emoji": "\ud83c\udde8\ud83c\uddfe"
+    },
     "formal_en": "Republic of Cyprus",
     "formal_fr": "",
     "gdp_md_est": "29260.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
-        "region": "Asia",
+        "area": 9251,
+        "borders": [
+            "GBR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "35 00 N",
+        "latitude_desc": "35.11473846435547",
+        "latlng": [
+            35,
+            33
+        ],
+        "longitude": "33 00 E",
+        "longitude_desc": "33.486717224121094",
+        "max_latitude": "35.7",
+        "max_longitude": "34.6",
+        "min_latitude": "34.566667",
+        "min_longitude": "32.270833",
+        "postal_code": true,
+        "region": "Europe",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Western Asia"
+        "subregion": "Eastern Europe",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Cyprus",
     "gu_a3": "CYP",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "CY",
+    "iso_3166_1_alpha3": "CYP",
+    "iso_3166_1_numeric": "196",
     "iso_a2": "CY",
     "iso_a3": "CYP",
     "iso_a3_eh": "CYP",
     "iso_n3": "196",
     "labelrank": "5.00",
+    "languages": {
+        "ell": "Greek",
+        "tur": "Turkish"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +145,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Cyprus",
+        "native": {
+            "ell": {
+                "common": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2",
+                "official": "\u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1 \u03c4\u03b7\u03c2 \u039a\u03cd\u03c0\u03c1\u03bf\u03c2"
+            },
+            "tur": {
+                "common": "K\u0131br\u0131s",
+                "official": "K\u0131br\u0131s Cumhuriyeti"
+            }
+        },
         "official": "Republic of Cyprus"
     },
     "name_alt": "",
@@ -67,9 +165,6 @@
     "name_sort": "Cyprus",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1221549.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -80,8 +175,70 @@
     "sovereignt": "Cyprus",
     "su_a3": "CYP",
     "su_dif": "0.00",
+    "subregion_nev": "Western Asia",
     "subunit": "Cyprus",
     "tiny": "-99.00",
+    "tld": [
+        ".cy"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Cyprus",
+            "official": "Republic of Cyprus"
+        },
+        "deu": {
+            "common": "Zypern",
+            "official": "Republik Zypern"
+        },
+        "est": {
+            "common": "K\u00fcpros",
+            "official": "K\u00fcprose Vabariik"
+        },
+        "fin": {
+            "common": "Kypros",
+            "official": "Kyproksen tasavalta"
+        },
+        "fra": {
+            "common": "Chypre",
+            "official": "R\u00e9publique de Chypre"
+        },
+        "hrv": {
+            "common": "Cipar",
+            "official": "Republika Cipar"
+        },
+        "ita": {
+            "common": "Cipro",
+            "official": "Repubblica di Cipro"
+        },
+        "jpn": {
+            "common": "\u30ad\u30d7\u30ed\u30b9",
+            "official": "\u30ad\u30d7\u30ed\u30b9\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Cyprus",
+            "official": "Republiek Cyprus"
+        },
+        "por": {
+            "common": "Chipre",
+            "official": "Rep\u00fablica de Chipre"
+        },
+        "rus": {
+            "common": "\u041a\u0438\u043f\u0440",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0438\u043f\u0440"
+        },
+        "slk": {
+            "common": "Cyprus",
+            "official": "Cypersk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Chipre",
+            "official": "Rep\u00fablica de Chipre"
+        },
+        "zho": {
+            "common": "\u585e\u6d66\u8def\u65af",
+            "official": "\u585e\u6d66\u8def\u65af\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "196",
     "wb_a2": "CY",

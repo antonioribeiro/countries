@@ -1,0 +1,13 @@
+{
+    "name": "Portugal - Madeira (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "pt_30_vat_0",
+            "name": "Portugal (Madeira)",
+            "country_code": "PT",
+            "included_postal_codes": "\/(9)[5-9][0-9]{2}-[0-9]{3}\/"
+        }
+    ]
+}

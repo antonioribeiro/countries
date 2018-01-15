@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Oman",
+    "alt_spellings": [
+        "OM",
+        "Sultanate of Oman",
+        "Sal\u1e6danat \u02bbUm\u0101n"
+    ],
     "brk_a3": "OMN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Oman",
+    "capital": "Muscat",
     "cca2": "OM",
     "cca3": "OMN",
     "ccn3": "512",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "OMA",
+    "currencies": [
+        "OMR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Omani",
+    "dialling": {
+        "calling_code": [
+            "968"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{region}}{{country}}",
+        "ar5": 0,
+        "cowc": "OMA",
+        "cown": 698,
+        "ds": 0,
+        "edgar": "P4",
+        "emoji": "\ud83c\uddf4\ud83c\uddf2",
+        "eu_member": null,
+        "fao": 221,
+        "fifa": "OMA",
+        "fips": "MU",
+        "gaul": 187,
+        "geonameid": 286963,
+        "imf": 449,
+        "ioc": "OMA",
+        "itu": "OMA",
+        "marc": "mk",
+        "vat_rates": null,
+        "wmo": "OM"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MU",
+    "flag": {
+        "emoji": "\ud83c\uddf4\ud83c\uddf2"
+    },
     "formal_en": "Sultanate of Oman",
     "formal_fr": "",
     "gdp_md_est": "173100.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 309500,
+        "borders": [
+            "SAU",
+            "ARE",
+            "YEM"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "21 00 N",
+        "latitude_desc": "20.566621780395508",
+        "latlng": [
+            21,
+            57
+        ],
+        "longitude": "57 00 E",
+        "longitude_desc": "56.157962799072266",
+        "max_latitude": "26.505",
+        "max_longitude": "59.838056",
+        "min_latitude": "16.633333",
+        "min_longitude": "45",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Oman",
     "gu_a3": "OMN",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "OM",
+    "iso_3166_1_alpha3": "OMN",
+    "iso_3166_1_numeric": "512",
     "iso_a2": "OM",
     "iso_a3": "OMN",
     "iso_a3_eh": "OMN",
     "iso_n3": "512",
     "labelrank": "4.00",
+    "languages": {
+        "ara": "Arabic"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "4.00",
@@ -57,6 +135,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Oman",
+        "native": {
+            "ara": {
+                "common": "\u0639\u0645\u0627\u0646",
+                "official": "\u0633\u0644\u0637\u0646\u0629 \u0639\u0645\u0627\u0646"
+            }
+        },
         "official": "Sultanate of Oman"
     },
     "name_alt": "",
@@ -67,9 +151,6 @@
     "name_sort": "Oman",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "3424386.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +163,63 @@
     "su_dif": "0.00",
     "subunit": "Oman",
     "tiny": "-99.00",
+    "tld": [
+        ".om"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Oman",
+            "official": "Sultanat Oman"
+        },
+        "est": {
+            "common": "Omaan",
+            "official": "Omaani Sultaniriik"
+        },
+        "fin": {
+            "common": "Oman",
+            "official": "Omanin sulttaanikunta"
+        },
+        "fra": {
+            "common": "Oman",
+            "official": "Sultanat d'Oman"
+        },
+        "hrv": {
+            "common": "Oman",
+            "official": "Sultanat Oman"
+        },
+        "ita": {
+            "common": "oman",
+            "official": "Sultanato dell'Oman"
+        },
+        "jpn": {
+            "common": "\u30aa\u30de\u30fc\u30f3",
+            "official": "\u30aa\u30de\u30fc\u30f3\u00b7\u30b9\u30eb\u30bf\u30f3\u56fd"
+        },
+        "nld": {
+            "common": "Oman",
+            "official": "Sultanaat van Oman"
+        },
+        "por": {
+            "common": "Om\u00e3",
+            "official": "Sultanato de Om\u00e3"
+        },
+        "rus": {
+            "common": "\u041e\u043c\u0430\u043d",
+            "official": "\u0421\u0443\u043b\u0442\u0430\u043d\u0430\u0442 \u041e\u043c\u0430\u043d"
+        },
+        "slk": {
+            "common": "Om\u00e1n",
+            "official": "Om\u00e1nsky sultan\u00e1t"
+        },
+        "spa": {
+            "common": "Om\u00e1n",
+            "official": "Sultanato de Om\u00e1n"
+        },
+        "zho": {
+            "common": "\u963f\u66fc",
+            "official": "\u963f\u66fc\u82cf\u4e39\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "512",
     "wb_a2": "OM",

@@ -1,0 +1,40 @@
+{
+    "VEF": {
+        "name": "Venezuelan bolivar",
+        "iso": {
+            "code": "VEF",
+            "number": "937"
+        },
+        "units": {
+            "major": {
+                "name": "bolívares fuertes",
+                "symbol": "Bs"
+            },
+            "minor": {
+                "name": "céntimo",
+                "symbol": "¢",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "Bs.2",
+                "Bs.5",
+                "Bs.10",
+                "Bs.20",
+                "Bs.50",
+                "Bs.100"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "Bs.1",
+                "10¢",
+                "25¢",
+                "50¢"
+            ],
+            "rare": []
+        }
+    }
+}

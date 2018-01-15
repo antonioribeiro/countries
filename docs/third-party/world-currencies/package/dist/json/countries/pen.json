@@ -1,0 +1,45 @@
+{
+    "PEN": {
+        "name": "Peruvian nuevo sol",
+        "iso": {
+            "code": "PEN",
+            "number": "604"
+        },
+        "units": {
+            "major": {
+                "name": "nuevo sol",
+                "symbol": "S/"
+            },
+            "minor": {
+                "name": "céntimo",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "S/10",
+                "S/20",
+                "S/50",
+                "S/100"
+            ],
+            "rare": [
+                "S/200"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "10",
+                "20",
+                "50",
+                "S/1",
+                "S/2",
+                "S/5"
+            ],
+            "rare": [
+                "1",
+                "5"
+            ]
+        }
+    }
+}

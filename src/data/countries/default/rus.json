@@ -8,43 +8,139 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Russia",
+    "alt_spellings": [
+        "RU",
+        "Russian Federation",
+        "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f"
+    ],
+    "alt_spellings_rinvex": [
+        "RU",
+        "Rossiya",
+        "Russian Federation",
+        "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+        "Rossiyskaya Federatsiya"
+    ],
     "brk_a3": "RUS",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Russia",
+    "capital": "Moscow",
     "cca2": "RU",
     "cca3": "RUS",
     "ccn3": "643",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "RUS",
+    "currencies": [
+        "RUB"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Russian",
+    "dialling": {
+        "calling_code": [
+            "7"
+        ],
+        "international_prefix": "810",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "8"
+    },
     "economy": "3. Emerging region: BRIC",
+    "extra": {
+        "address_format": "{{recipient}}{{postalcode}} {{city}}{{street}}{{country}}",
+        "ar5": "EIT",
+        "cowc": "RUS",
+        "cown": 365,
+        "ds": "RUS",
+        "edgar": "1Z",
+        "emoji": "\ud83c\uddf7\ud83c\uddfa",
+        "eu_member": null,
+        "fao": 185,
+        "fifa": "RUS",
+        "fips": "RS",
+        "gaul": 204,
+        "geonameid": 2017370,
+        "imf": 922,
+        "ioc": "RUS",
+        "itu": "RUS",
+        "marc": "ru",
+        "vat_rates": null,
+        "wmo": "RS"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "RS",
+    "flag": {
+        "emoji": "\ud83c\uddf7\ud83c\uddfa"
+    },
     "formal_en": "Russian Federation",
     "formal_fr": "",
     "gdp_md_est": "3745000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 17098242,
+        "borders": [
+            "AZE",
+            "BLR",
+            "CHN",
+            "EST",
+            "FIN",
+            "GEO",
+            "KAZ",
+            "PRK",
+            "LVA",
+            "LTU",
+            "MNG",
+            "NOR",
+            "POL",
+            "UKR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "60 00 N",
+        "latitude_desc": "63.125186920166016",
+        "latlng": [
+            60,
+            100
+        ],
+        "longitude": "100 00 E",
+        "longitude_desc": "103.75398254394531",
+        "max_latitude": "86.216667",
+        "max_longitude": "147.172222",
+        "min_latitude": "38.7",
+        "min_longitude": "19.655556",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Eastern Europe"
+        "subregion": "Eastern Europe",
+        "subregion_code": "151",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Russia",
     "gu_a3": "RUS",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "RU",
+    "iso_3166_1_alpha3": "RUS",
+    "iso_3166_1_numeric": "643",
     "iso_a2": "RU",
     "iso_a3": "RUS",
     "iso_a3_eh": "RUS",
     "iso_n3": "643",
     "labelrank": "2.00",
+    "languages": {
+        "rus": "Russian"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "18.00",
@@ -57,6 +153,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Russia",
+        "native": {
+            "rus": {
+                "common": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                "official": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f"
+            }
+        },
         "official": "Russian Federation"
     },
     "name_alt": "",
@@ -67,9 +169,6 @@
     "name_sort": "Russian Federation",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "142257519.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
@@ -82,6 +181,65 @@
     "su_dif": "0.00",
     "subunit": "Russia",
     "tiny": "-99.00",
+    "tld": [
+        ".ru",
+        ".su",
+        ".\u0440\u0444"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Russland",
+            "official": "Russische F\u00f6deration"
+        },
+        "est": {
+            "common": "Venemaa",
+            "official": "Venemaa F\u00f6deratsioon"
+        },
+        "fin": {
+            "common": "Ven\u00e4j\u00e4",
+            "official": "Ven\u00e4j\u00e4n federaatio"
+        },
+        "fra": {
+            "common": "Russie",
+            "official": "F\u00e9d\u00e9ration de Russie"
+        },
+        "hrv": {
+            "common": "Rusija",
+            "official": "Ruska Federacija"
+        },
+        "ita": {
+            "common": "Russia",
+            "official": "Federazione russa"
+        },
+        "jpn": {
+            "common": "\u30ed\u30b7\u30a2\u9023\u90a6",
+            "official": "\u30ed\u30b7\u30a2\u9023\u90a6"
+        },
+        "nld": {
+            "common": "Rusland",
+            "official": "Russische Federatie"
+        },
+        "por": {
+            "common": "R\u00fassia",
+            "official": "Federa\u00e7\u00e3o Russa"
+        },
+        "rus": {
+            "common": "\u0420\u043e\u0441\u0441\u0438\u044f",
+            "official": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f"
+        },
+        "slk": {
+            "common": "Rusko",
+            "official": "Rusk\u00e1 feder\u00e1cia"
+        },
+        "spa": {
+            "common": "Rusia",
+            "official": "Federaci\u00f3n de Rusia"
+        },
+        "zho": {
+            "common": "\u4fc4\u7f57\u65af",
+            "official": "\u4fc4\u7f57\u65af\u8054\u90a6"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "643",
     "wb_a2": "RU",

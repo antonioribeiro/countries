@@ -8,43 +8,117 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Cabo Verde",
+    "alt_spellings": [
+        "CV",
+        "Republic of Cabo Verde",
+        "Rep\u00fablica de Cabo Verde"
+    ],
     "brk_a3": "CPV",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Cabo Verde",
+    "capital": "Praia",
     "cca2": "CV",
     "cca3": "CPV",
     "ccn3": "132",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "CPV",
+    "currencies": [
+        "CVE"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Cape Verdian",
+    "dialling": {
+        "calling_code": [
+            "238"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "CAP",
+        "cown": 402,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\udde8\ud83c\uddfb",
+        "eu_member": null,
+        "fao": 35,
+        "fifa": "CPV",
+        "fips": "CV",
+        "gaul": 47,
+        "geonameid": 3374766,
+        "imf": 624,
+        "ioc": "CPV",
+        "itu": "CPV",
+        "marc": "cv",
+        "vat_rates": null,
+        "wmo": "CV"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CV",
+    "flag": {
+        "emoji": "\ud83c\udde8\ud83c\uddfb"
+    },
     "formal_en": "Republic of Cabo Verde",
     "formal_fr": "",
     "gdp_md_est": "3583.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 4033,
         "borders": [],
-        "continent": "Africa",
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "16 00 N",
+        "latitude_desc": "15.183002471923828",
+        "latlng": [
+            16,
+            -24
+        ],
+        "longitude": "24 00 W",
+        "longitude_desc": "-23.70345115661621",
+        "max_latitude": "17.2",
+        "max_longitude": "-22.666667",
+        "min_latitude": "14.8",
+        "min_longitude": "-25.366667",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Cabo Verde",
     "gu_a3": "CPV",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "CV",
+    "iso_3166_1_alpha3": "CPV",
+    "iso_3166_1_numeric": "132",
     "iso_a2": "CV",
     "iso_a3": "CPV",
     "iso_a3_eh": "CPV",
     "iso_n3": "132",
     "labelrank": "4.00",
+    "languages": {
+        "por": "Portuguese"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "22.00",
@@ -56,7 +130,13 @@
     "min_label": "4.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Cabo Verde",
+        "common": "Cape Verde",
+        "native": {
+            "por": {
+                "common": "Cabo Verde",
+                "official": "Rep\u00fablica de Cabo Verde"
+            }
+        },
         "official": "Republic of Cabo Verde"
     },
     "name_alt": "",
@@ -67,9 +147,6 @@
     "name_sort": "Cabo Verde",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "560899.00",
     "pop_rank": "11.00",
     "pop_year": "2017.00",
@@ -82,6 +159,67 @@
     "su_dif": "0.00",
     "subunit": "Cabo Verde",
     "tiny": "-99.00",
+    "tld": [
+        ".cv"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Cape Verde",
+            "official": "Republic of Cabo Verde"
+        },
+        "deu": {
+            "common": "Kap Verde",
+            "official": "Republik Cabo Verde"
+        },
+        "est": {
+            "common": "Roheneemesaared",
+            "official": "Cabo Verde Vabariik"
+        },
+        "fin": {
+            "common": "Kap Verde",
+            "official": "Kap Verden tasavalta"
+        },
+        "fra": {
+            "common": "\u00celes du Cap-Vert",
+            "official": "R\u00e9publique du Cap-Vert"
+        },
+        "hrv": {
+            "common": "Zelenortska Republika",
+            "official": "Republika Cabo Verde"
+        },
+        "ita": {
+            "common": "Capo Verde",
+            "official": "Repubblica di Capo Verde"
+        },
+        "jpn": {
+            "common": "\u30ab\u30fc\u30dc\u30d9\u30eb\u30c7",
+            "official": "\u30ab\u30fc\u30dc\u30d9\u30eb\u30c7\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Kaapverdi\u00eb",
+            "official": "Republiek van Cabo Verde"
+        },
+        "por": {
+            "common": "Cabo Verde",
+            "official": "Rep\u00fablica de Cabo Verde"
+        },
+        "rus": {
+            "common": "\u041a\u0430\u0431\u043e-\u0412\u0435\u0440\u0434\u0435",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0431\u043e -\u0412\u0435\u0440\u0434\u0435"
+        },
+        "slk": {
+            "common": "Kapverdy",
+            "official": "Kapverdsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Cabo Verde",
+            "official": "Rep\u00fablica de Cabo Verde"
+        },
+        "zho": {
+            "common": "\u4f5b\u5f97\u89d2",
+            "official": "\u4f5b\u5f97\u89d2\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "132",
     "wb_a2": "CV",

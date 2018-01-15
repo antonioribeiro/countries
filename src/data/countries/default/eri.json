@@ -8,43 +8,126 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Eritrea",
+    "alt_spellings": [
+        "ER",
+        "State of Eritrea",
+        "\u1203\u1308\u1228 \u12a4\u122d\u1275\u122b",
+        "Dawlat Iritriy\u00e1",
+        "\u02beErtr\u0101",
+        "Iritriy\u0101"
+    ],
     "brk_a3": "ERI",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Eritrea",
+    "capital": "Asmara",
     "cca2": "ER",
     "cca3": "ERI",
     "ccn3": "232",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ERI",
+    "currencies": [
+        "ERN"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Eritrean",
+    "dialling": {
+        "calling_code": [
+            "291"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "ERI",
+        "cown": 531,
+        "ds": 0,
+        "edgar": "1J",
+        "emoji": "\ud83c\uddea\ud83c\uddf7",
+        "eu_member": null,
+        "fao": 178,
+        "fifa": "ERI",
+        "fips": "ER",
+        "gaul": 77,
+        "geonameid": 338010,
+        "imf": 643,
+        "ioc": "ERI",
+        "itu": "ERI",
+        "marc": "ea",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "ER",
+    "flag": {
+        "emoji": "\ud83c\uddea\ud83c\uddf7"
+    },
     "formal_en": "State of Eritrea",
     "formal_fr": "",
     "gdp_md_est": "9169.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 117600,
+        "borders": [
+            "DJI",
+            "ETH",
+            "SDN"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "15 00 N",
+        "latitude_desc": "15.397199630737305",
+        "latlng": [
+            15,
+            39
+        ],
+        "longitude": "39 00 E",
+        "longitude_desc": "39.087188720703125",
+        "max_latitude": "18.033333",
+        "max_longitude": "43.114722",
+        "min_latitude": "12.383333",
+        "min_longitude": "36.483333",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Eritrea",
     "gu_a3": "ERI",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "ER",
+    "iso_3166_1_alpha3": "ERI",
+    "iso_3166_1_numeric": "232",
     "iso_a2": "ER",
     "iso_a3": "ERI",
     "iso_a3_eh": "ERI",
     "iso_n3": "232",
     "labelrank": "4.00",
+    "languages": {
+        "ara": "Arabic",
+        "eng": "English",
+        "tir": "Tigrinya"
+    },
     "lastcensus": "1984.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +140,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Eritrea",
+        "native": {
+            "ara": {
+                "common": "\u0625\u0631\u062a\u0631\u064a\u0627\u200e",
+                "official": "\u062f\u0648\u0644\u0629 \u0625\u0631\u062a\u0631\u064a\u0627"
+            },
+            "eng": {
+                "common": "Eritrea",
+                "official": "State of Eritrea"
+            },
+            "tir": {
+                "common": "\u12a4\u122d\u1275\u122b",
+                "official": "\u1203\u1308\u1228 \u12a4\u122d\u1275\u122b"
+            }
+        },
         "official": "State of Eritrea"
     },
     "name_alt": "",
@@ -67,9 +164,6 @@
     "name_sort": "Eritrea",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "5918919.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +176,67 @@
     "su_dif": "0.00",
     "subunit": "Eritrea",
     "tiny": "-99.00",
+    "tld": [
+        ".er"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Eritrea",
+            "official": "State of Eritrea"
+        },
+        "deu": {
+            "common": "Eritrea",
+            "official": "Staat Eritrea"
+        },
+        "est": {
+            "common": "Eritrea",
+            "official": "Eritrea Riik"
+        },
+        "fin": {
+            "common": "Eritrea",
+            "official": "Eritrean valtio"
+        },
+        "fra": {
+            "common": "\u00c9rythr\u00e9e",
+            "official": "\u00c9tat d'\u00c9rythr\u00e9e"
+        },
+        "hrv": {
+            "common": "Eritreja",
+            "official": "Dr\u017eava Eritreji"
+        },
+        "ita": {
+            "common": "Eritrea",
+            "official": "Stato di Eritrea"
+        },
+        "jpn": {
+            "common": "\u30a8\u30ea\u30c8\u30ea\u30a2",
+            "official": "\u30a8\u30ea\u30c8\u30ea\u30a2\u56fd"
+        },
+        "nld": {
+            "common": "Eritrea",
+            "official": "Staat Eritrea"
+        },
+        "por": {
+            "common": "Eritreia",
+            "official": "Estado da Eritreia"
+        },
+        "rus": {
+            "common": "\u042d\u0440\u0438\u0442\u0440\u0435\u044f",
+            "official": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u042d\u0440\u0438\u0442\u0440\u0435\u044f"
+        },
+        "slk": {
+            "common": "Eritrea",
+            "official": "Eritrejsk\u00fd \u0161t\u00e1t"
+        },
+        "spa": {
+            "common": "Eritrea",
+            "official": "Estado de Eritrea"
+        },
+        "zho": {
+            "common": "\u5384\u7acb\u7279\u91cc\u4e9a",
+            "official": "\u5384\u7acb\u7279\u91cc\u4e9a"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "232",
     "wb_a2": "ER",

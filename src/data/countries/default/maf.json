@@ -8,43 +8,116 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Saint Martin",
+    "alt_spellings": [
+        "MF",
+        "Collectivity of Saint Martin",
+        "Collectivit\u00e9 de Saint-Martin",
+        "Saint Martin (French part)"
+    ],
     "brk_a3": "MAF",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saint-Martin",
+    "capital": "Marigot",
     "cca2": "MF",
     "cca3": "MAF",
     "ccn3": "663",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Saint Martin Islander",
+    "dialling": {
+        "calling_code": [
+            "590"
+        ],
+        "international_prefix": "",
+        "national_destination_code_lengths": [],
+        "national_number_lengths": [],
+        "national_prefix": ""
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": 0,
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\uddf2\ud83c\uddeb",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": 0,
+        "fips": "RN",
+        "gaul": 0,
+        "geonameid": 3578421,
+        "imf": 352,
+        "ioc": 0,
+        "itu": 0,
+        "marc": "st",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "RN",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddeb"
+    },
     "formal_en": "Saint-Martin (French part)",
     "formal_fr": "",
     "gdp_md_est": "561.50",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "North America",
+        "area": 53,
+        "borders": [
+            "SXM"
+        ],
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Part of FR",
+        "landlocked": false,
+        "latitude": "18 05 N",
+        "latitude_desc": "18.042224884033203",
+        "latlng": [
+            18.08333333,
+            -63.95
+        ],
+        "longitude": "63 57 W",
+        "longitude_desc": "-63.06623458862305",
+        "max_latitude": "18.1251338",
+        "max_longitude": "-62.9703926",
+        "min_latitude": "18.0465757",
+        "min_longitude": "-63.153326",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Saint Martin",
     "gu_a3": "MAF",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "MF",
+    "iso_3166_1_alpha3": "MAF",
+    "iso_3166_1_numeric": "663",
     "iso_a2": "MF",
     "iso_a3": "MAF",
     "iso_a3_eh": "MAF",
     "iso_n3": "663",
     "labelrank": "6.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "12.00",
@@ -56,8 +129,14 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "St-Martin",
-        "official": "Saint-Martin (French part)"
+        "common": "Saint Martin",
+        "native": {
+            "fra": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            }
+        },
+        "official": "Saint Martin"
     },
     "name_alt": "",
     "name_ciawf": "Saint Martin",
@@ -67,9 +146,6 @@
     "name_sort": "St. Martin (French part)",
     "note_adm0": "Fr.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "32125.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
@@ -82,6 +158,64 @@
     "su_dif": "0.00",
     "subunit": "Saint Martin",
     "tiny": "4.00",
+    "tld": [
+        ".fr",
+        ".gp"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Saint Martin",
+            "official": "St. Martin"
+        },
+        "est": {
+            "common": "Saint-Martin",
+            "official": "Saint-Martini \u00fchendus"
+        },
+        "fin": {
+            "common": "Saint-Martin",
+            "official": "Saint-Martin"
+        },
+        "fra": {
+            "common": "Saint-Martin",
+            "official": "Saint-Martin"
+        },
+        "hrv": {
+            "common": "Sveti Martin",
+            "official": "Saint Martin"
+        },
+        "ita": {
+            "common": "Saint Martin",
+            "official": "saint Martin"
+        },
+        "jpn": {
+            "common": "\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09",
+            "official": "\u30b5\u30f3\u30de\u30eb\u30bf\u30f3\u5cf6"
+        },
+        "nld": {
+            "common": "Saint-Martin",
+            "official": "Saint Martin"
+        },
+        "por": {
+            "common": "S\u00e3o Martinho",
+            "official": "saint Martin"
+        },
+        "rus": {
+            "common": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d",
+            "official": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d"
+        },
+        "slk": {
+            "common": "Saint-Martin",
+            "official": "Saint-Martin"
+        },
+        "spa": {
+            "common": "Saint Martin",
+            "official": "Saint Martin"
+        },
+        "zho": {
+            "common": "\u5723\u9a6c\u4e01",
+            "official": "\u5723\u9a6c\u4e01"
+        }
+    },
     "type": "Dependency",
     "un_a3": "663",
     "wb_a2": "MF",

@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Sri Lanka",
+    "alt_spellings": [
+        "LK",
+        "ila\u1e45kai",
+        "Democratic Socialist Republic of Sri Lanka"
+    ],
     "brk_a3": "LKA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Sri Lanka",
+    "capital": "Colombo",
     "cca2": "LK",
     "cca3": "LKA",
     "ccn3": "144",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SRI",
+    "currencies": [
+        "LKR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Sri Lankan",
+    "dialling": {
+        "calling_code": [
+            "94"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "SRI",
+        "cown": 780,
+        "ds": "CL",
+        "edgar": "F1",
+        "emoji": "\ud83c\uddf1\ud83c\uddf0",
+        "eu_member": null,
+        "fao": 38,
+        "fifa": "SRI",
+        "fips": "CE",
+        "gaul": 231,
+        "geonameid": 1227603,
+        "imf": 524,
+        "ioc": "SRI",
+        "itu": "CLN",
+        "marc": "ce",
+        "vat_rates": null,
+        "wmo": "SB"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CE",
+    "flag": {
+        "emoji": "\ud83c\uddf1\ud83c\uddf0"
+    },
     "formal_en": "Democratic Socialist Republic of Sri Lanka",
     "formal_fr": "",
     "gdp_md_est": "236700.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 65610,
+        "borders": [
+            "IND"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "7 00 N",
+        "latitude_desc": "7.789133548736572",
+        "latlng": [
+            7,
+            81
+        ],
+        "longitude": "81 00 E",
+        "longitude_desc": "80.68072509765625",
+        "max_latitude": "9.833333",
+        "max_longitude": "81.866667",
+        "min_latitude": "5.916667",
+        "min_longitude": "79.516667",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "South Asia",
-        "subregion": "Southern Asia"
+        "subregion": "Southern Asia",
+        "subregion_code": "034",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Sri Lanka",
     "gu_a3": "LKA",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "LK",
+    "iso_3166_1_alpha3": "LKA",
+    "iso_3166_1_numeric": "144",
     "iso_a2": "LK",
     "iso_a3": "LKA",
     "iso_a3_eh": "LKA",
     "iso_n3": "144",
     "labelrank": "3.00",
+    "languages": {
+        "sin": "Sinhala",
+        "tam": "Tamil"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "9.00",
@@ -57,6 +134,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Sri Lanka",
+        "native": {
+            "sin": {
+                "common": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0dbd\u0d82\u0d9a\u0dcf\u0dc0",
+                "official": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0dbd\u0d82\u0d9a\u0dcf \u0db4\u0dca\u200d\u0dbb\u0da2\u0dcf\u0dad\u0dcf\u0db1\u0dca\u0dad\u0dca\u200d\u0dbb\u0dd2\u0d9a \u0dc3\u0db8\u0dcf\u0da2\u0dc0\u0dcf\u0daf\u0dd3 \u0da2\u0db1\u0dbb\u0da2\u0dba"
+            },
+            "tam": {
+                "common": "\u0b87\u0bb2\u0b99\u0bcd\u0b95\u0bc8",
+                "official": "\u0b87\u0bb2\u0b99\u0bcd\u0b95\u0bc8 \u0b9a\u0ba9\u0ba8\u0bbe\u0baf\u0b95 \u0b9a\u0bcb\u0b9a\u0bb2\u0bbf\u0b9a\u0b95\u0bcd \u0b95\u0bc1\u0b9f\u0bbf\u0baf\u0bb0\u0b9a\u0bc1"
+            }
+        },
         "official": "Democratic Socialist Republic of Sri Lanka"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Sri Lanka",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "22409381.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +166,65 @@
     "su_dif": "0.00",
     "subunit": "Sri Lanka",
     "tiny": "-99.00",
+    "tld": [
+        ".lk",
+        ".\u0b87\u0bb2\u0b99\u0bcd\u0b95\u0bc8",
+        ".\u0dbd\u0d82\u0d9a\u0dcf"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Sri Lanka",
+            "official": "Demokratische Sozialistische Republik Sri Lanka"
+        },
+        "est": {
+            "common": "Sri Lanka",
+            "official": "Sri Lanka Demokraatlik Sotsialistlik Vabariik"
+        },
+        "fin": {
+            "common": "Sri Lanka",
+            "official": "Sri Lankan demokraattinen sosialistinen tasavalta"
+        },
+        "fra": {
+            "common": "Sri Lanka",
+            "official": "R\u00e9publique d\u00e9mocratique socialiste du Sri Lanka"
+        },
+        "hrv": {
+            "common": "\u0160ri Lanka",
+            "official": "Demokratska Socijalisti\u010dke Republike \u0160ri Lanke"
+        },
+        "ita": {
+            "common": "Sri Lanka",
+            "official": "Repubblica democratica socialista dello Sri Lanka"
+        },
+        "jpn": {
+            "common": "\u30b9\u30ea\u30e9\u30f3\u30ab",
+            "official": "\u30b9\u30ea\u30e9\u30f3\u30ab\u6c11\u4e3b\u793e\u4f1a\u4e3b\u7fa9\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Sri Lanka",
+            "official": "Democratische Socialistische Republiek Sri Lanka"
+        },
+        "por": {
+            "common": "Sri Lanka",
+            "official": "Rep\u00fablica Democr\u00e1tica Socialista do Sri Lanka"
+        },
+        "rus": {
+            "common": "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430",
+            "official": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0421\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430"
+        },
+        "slk": {
+            "common": "Sr\u00ed Lanka",
+            "official": "Sr\u00edlansk\u00e1 demokratick\u00e1 socialistick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Sri Lanka",
+            "official": "Rep\u00fablica Democr\u00e1tica Socialista de Sri Lanka"
+        },
+        "zho": {
+            "common": "\u65af\u91cc\u5170\u5361",
+            "official": "\u65af\u91cc\u5170\u5361\u6c11\u4e3b\u793e\u4f1a\u4e3b\u4e49\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "144",
     "wb_a2": "LK",

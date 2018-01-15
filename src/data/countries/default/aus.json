@@ -8,43 +8,115 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Australia",
+    "alt_spellings": [
+        "AU"
+    ],
     "brk_a3": "AUS",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Australia",
+    "capital": "Canberra",
     "cca2": "AU",
     "cca3": "AUS",
     "ccn3": "036",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "AUS",
+    "currencies": [
+        "AUD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Australian",
+    "dialling": {
+        "calling_code": [
+            "61"
+        ],
+        "international_prefix": "0011",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{city}} {{region_short}} {{postalcode}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "AUL",
+        "cown": 900,
+        "ds": "AUS",
+        "edgar": "C3",
+        "emoji": "\ud83c\udde6\ud83c\uddfa",
+        "eu_member": null,
+        "fao": 10,
+        "fifa": "AUS",
+        "fips": "AS",
+        "gaul": 17,
+        "geonameid": 2077456,
+        "imf": 193,
+        "ioc": "AUS",
+        "itu": "AUS",
+        "marc": "at",
+        "vat_rates": null,
+        "wmo": "AU"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AS",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddfa"
+    },
     "formal_en": "Commonwealth of Australia",
     "formal_fr": "",
     "gdp_md_est": "1189000.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 7692024,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "27 00 S",
+        "latitude_desc": "-25.585241317749023",
+        "latlng": [
+            -27,
+            133
+        ],
+        "longitude": "133 00 E",
+        "longitude_desc": "134.50411987304688",
+        "max_latitude": "-15.5",
+        "max_longitude": "159.119444",
+        "min_latitude": "-29.472222",
+        "min_longitude": "147.1",
+        "postal_code": true,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Australia and New Zealand"
+        "subregion": "Australia and New Zealand",
+        "subregion_code": "053",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Australia",
     "gu_a3": "AUS",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "AU",
+    "iso_3166_1_alpha3": "AUS",
+    "iso_3166_1_numeric": "036",
     "iso_a2": "AU",
     "iso_a3": "AUS",
     "iso_a3_eh": "AUS",
     "iso_n3": "036",
     "labelrank": "2.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "9.00",
@@ -57,6 +129,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Australia",
+        "native": {
+            "eng": {
+                "common": "Australia",
+                "official": "Commonwealth of Australia"
+            }
+        },
         "official": "Commonwealth of Australia"
     },
     "name_alt": "",
@@ -67,9 +145,6 @@
     "name_sort": "Australia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "23232413.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +157,67 @@
     "su_dif": "0.00",
     "subunit": "Australia",
     "tiny": "-99.00",
+    "tld": [
+        ".au"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Awstralia",
+            "official": "Commonwealth of Australia"
+        },
+        "deu": {
+            "common": "Australien",
+            "official": "Commonwealth Australien"
+        },
+        "est": {
+            "common": "Austraalia",
+            "official": "Austraalia \u00dchendus"
+        },
+        "fin": {
+            "common": "Australia",
+            "official": "Australian liittovaltio"
+        },
+        "fra": {
+            "common": "Australie",
+            "official": "Australie"
+        },
+        "hrv": {
+            "common": "Australija",
+            "official": "Commonwealth of Australia"
+        },
+        "ita": {
+            "common": "Australia",
+            "official": "Commonwealth dell'Australia"
+        },
+        "jpn": {
+            "common": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2",
+            "official": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u9023\u90a6"
+        },
+        "nld": {
+            "common": "Australi\u00eb",
+            "official": "Gemenebest van Australi\u00eb"
+        },
+        "por": {
+            "common": "Austr\u00e1lia",
+            "official": "Comunidade da Austr\u00e1lia"
+        },
+        "rus": {
+            "common": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f",
+            "official": "\u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043e \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0438"
+        },
+        "slk": {
+            "common": "Austr\u00e1lia",
+            "official": "Austr\u00e1lsky zv\u00e4z"
+        },
+        "spa": {
+            "common": "Australia",
+            "official": "Mancomunidad de Australia"
+        },
+        "zho": {
+            "common": "\u6fb3\u5927\u5229\u4e9a",
+            "official": "\u6fb3\u5927\u5229\u4e9a\u8054\u90a6"
+        }
+    },
     "type": "Country",
     "un_a3": "036",
     "wb_a2": "AU",

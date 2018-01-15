@@ -1,0 +1,43 @@
+{
+    "TND": {
+        "name": "Tunisian Dinar",
+        "iso": {
+            "code": "TND",
+            "number": "788"
+        },
+        "units": {
+            "major": {
+                "name": "dinar",
+                "symbol": ""
+            },
+            "minor": {
+                "name": "milim or millime",
+                "symbol": "ت.د",
+                "majorValue": 0.001
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "5",
+                "10",
+                "20",
+                "50"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "10ت.د",
+                "20ت.د",
+                "50ت.د",
+                "100ت.د",
+                "200ت.د",
+                "0.5",
+                "1",
+                "2",
+                "5"
+            ],
+            "rare": []
+        }
+    }
+}

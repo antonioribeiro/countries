@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Malawi",
+    "alt_spellings": [
+        "MW",
+        "Republic of Malawi"
+    ],
     "brk_a3": "MWI",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Malawi",
+    "capital": "Lilongwe",
     "cca2": "MW",
     "cca3": "MWI",
     "ccn3": "454",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MAW",
+    "currencies": [
+        "MWK"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Malawian",
+    "dialling": {
+        "calling_code": [
+            "265"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "MAW",
+        "cown": 553,
+        "ds": "MW",
+        "edgar": "N7",
+        "emoji": "\ud83c\uddf2\ud83c\uddfc",
+        "eu_member": null,
+        "fao": 130,
+        "fifa": "MWI",
+        "fips": "MI",
+        "gaul": 152,
+        "geonameid": 927384,
+        "imf": 676,
+        "ioc": "MAW",
+        "itu": "MWI",
+        "marc": "mw",
+        "vat_rates": null,
+        "wmo": "MW"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MI",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddfc"
+    },
     "formal_en": "Republic of Malawi",
     "formal_fr": "",
     "gdp_md_est": "21200.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 118484,
+        "borders": [
+            "MOZ",
+            "TZA",
+            "ZMB"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "13 30 S",
+        "latitude_desc": "-13.523577690124512",
+        "latlng": [
+            -13.5,
+            34
+        ],
+        "longitude": "34 00 E",
+        "longitude_desc": "33.83546447753906",
+        "max_latitude": "-5",
+        "max_longitude": "37",
+        "min_latitude": "-17.15",
+        "min_longitude": "32.716667",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Malawi",
     "gu_a3": "MWI",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "MW",
+    "iso_3166_1_alpha3": "MWI",
+    "iso_3166_1_numeric": "454",
     "iso_a2": "MW",
     "iso_a3": "MWI",
     "iso_a3_eh": "MWI",
     "iso_n3": "454",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English",
+        "nya": "Chewa"
+    },
     "lastcensus": "2008.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +135,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Malawi",
+        "native": {
+            "eng": {
+                "common": "Malawi",
+                "official": "Republic of Malawi"
+            },
+            "nya": {
+                "common": "Mala\u0175i",
+                "official": "Chalo cha Malawi, Dziko la Mala\u0175i"
+            }
+        },
         "official": "Republic of Malawi"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Malawi",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "19196246.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +167,63 @@
     "su_dif": "0.00",
     "subunit": "Malawi",
     "tiny": "-99.00",
+    "tld": [
+        ".mw"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Malawi",
+            "official": "Republik Malawi"
+        },
+        "est": {
+            "common": "Malawi",
+            "official": "Malawi Vabariik"
+        },
+        "fin": {
+            "common": "Malawi",
+            "official": "Malawin tasavalta"
+        },
+        "fra": {
+            "common": "Malawi",
+            "official": "R\u00e9publique du Malawi"
+        },
+        "hrv": {
+            "common": "Malavi",
+            "official": "Republika Malavi"
+        },
+        "ita": {
+            "common": "Malawi",
+            "official": "Repubblica del Malawi"
+        },
+        "jpn": {
+            "common": "\u30de\u30e9\u30a6\u30a4",
+            "official": "\u30de\u30e9\u30a6\u30a4\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Malawi",
+            "official": "Republiek Malawi"
+        },
+        "por": {
+            "common": "Malawi",
+            "official": "Rep\u00fablica do Malawi"
+        },
+        "rus": {
+            "common": "\u041c\u0430\u043b\u0430\u0432\u0438",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043b\u0430\u0432\u0438"
+        },
+        "slk": {
+            "common": "Malawi",
+            "official": "Malawijsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Malawi",
+            "official": "Rep\u00fablica de Malawi"
+        },
+        "zho": {
+            "common": "\u9a6c\u62c9\u7ef4",
+            "official": "\u9a6c\u62c9\u7ef4\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "454",
     "wb_a2": "MW",

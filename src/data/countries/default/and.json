@@ -8,43 +8,123 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Andorra",
+    "alt_spellings": [
+        "AD",
+        "Principality of Andorra",
+        "Principat d'Andorra"
+    ],
     "brk_a3": "AND",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Andorra",
+    "capital": "Andorra la Vella",
     "cca2": "AD",
     "cca3": "AND",
     "ccn3": "020",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "AND",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Andorran",
+    "dialling": {
+        "calling_code": [
+            "376"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6,
+            7,
+            8,
+            9
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": "AND",
+        "cown": 232,
+        "ds": "AND",
+        "edgar": "B6",
+        "emoji": "\ud83c\udde6\ud83c\udde9",
+        "eu_member": null,
+        "fao": 6,
+        "fifa": "AND",
+        "fips": "AN",
+        "gaul": 7,
+        "geonameid": 3041565,
+        "imf": 0,
+        "ioc": "AND",
+        "itu": "AND",
+        "marc": "an",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AN",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\udde9"
+    },
     "formal_en": "Principality of Andorra",
     "formal_fr": "",
     "gdp_md_est": "3327.00",
     "gdp_year": "2015.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 468,
+        "borders": [
+            "FRA",
+            "ESP"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "42 30 N",
+        "latitude_desc": "42.5506591796875",
+        "latlng": [
+            42.5,
+            1.5
+        ],
+        "longitude": "1 30 E",
+        "longitude_desc": "1.5762332677841187",
+        "max_latitude": "42.65",
+        "max_longitude": "1.783333",
+        "min_latitude": "42.433333",
+        "min_longitude": "1.416667",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Andorra",
     "gu_a3": "AND",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "AD",
+    "iso_3166_1_alpha3": "AND",
+    "iso_3166_1_numeric": "020",
     "iso_a2": "AD",
     "iso_a3": "AND",
     "iso_a3_eh": "AND",
     "iso_n3": "020",
     "labelrank": "6.00",
+    "languages": {
+        "cat": "Catalan"
+    },
     "lastcensus": "1989.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +137,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Andorra",
+        "native": {
+            "cat": {
+                "common": "Andorra",
+                "official": "Principat d'Andorra"
+            }
+        },
         "official": "Principality of Andorra"
     },
     "name_alt": "",
@@ -67,9 +153,6 @@
     "name_sort": "Andorra",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "85702.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
@@ -82,6 +165,67 @@
     "su_dif": "0.00",
     "subunit": "Andorra",
     "tiny": "5.00",
+    "tld": [
+        ".ad"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Andorra",
+            "official": "Principality of Andorra"
+        },
+        "deu": {
+            "common": "Andorra",
+            "official": "F\u00fcrstentum Andorra"
+        },
+        "est": {
+            "common": "Andorra",
+            "official": "Andorra V\u00fcrstiriik"
+        },
+        "fin": {
+            "common": "Andorra",
+            "official": "Andorran ruhtinaskunta"
+        },
+        "fra": {
+            "common": "Andorre",
+            "official": "Principaut\u00e9 d'Andorre"
+        },
+        "hrv": {
+            "common": "Andora",
+            "official": "Kne\u017eevina Andora"
+        },
+        "ita": {
+            "common": "Andorra",
+            "official": "Principato di Andorra"
+        },
+        "jpn": {
+            "common": "\u30a2\u30f3\u30c9\u30e9",
+            "official": "\u30a2\u30f3\u30c9\u30e9\u516c\u56fd"
+        },
+        "nld": {
+            "common": "Andorra",
+            "official": "Prinsdom Andorra"
+        },
+        "por": {
+            "common": "Andorra",
+            "official": "Principado de Andorra"
+        },
+        "rus": {
+            "common": "\u0410\u043d\u0434\u043e\u0440\u0440\u0430",
+            "official": "\u041a\u043d\u044f\u0436\u0435\u0441\u0442\u0432\u043e \u0410\u043d\u0434\u043e\u0440\u0440\u0430"
+        },
+        "slk": {
+            "common": "Andorra",
+            "official": "Andorrsk\u00e9 knie\u017eatstvo"
+        },
+        "spa": {
+            "common": "Andorra",
+            "official": "Principado de Andorra"
+        },
+        "zho": {
+            "common": "\u5b89\u9053\u5c14",
+            "official": "\u5b89\u9053\u5c14\u516c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "020",
     "wb_a2": "AD",

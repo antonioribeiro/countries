@@ -1,0 +1,13 @@
+{
+    "name": "Italy (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "it_vat_0",
+            "name": "Italy (ex.  Livigno, Campione d’Italia and Lake Lugano)",
+            "country_code": "IT",
+            "excluded_postal_codes": "23030, 22060"
+        }
+    ]
+}

@@ -42,7 +42,7 @@ return [
             'cca3',
             'ccn3',
             'cioc',
-            'currency'          => 'ISO4217',
+            'currencies'        => 'ISO4217',
             'language_short'    => 'ISO639_3',
         ],
     ],

@@ -8,43 +8,119 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Sao Tome and Principe",
+    "alt_spellings": [
+        "ST",
+        "Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "Sao Tome and Principe",
+        "Rep\u00fablica Democr\u00e1tica de S\u00e3o Tom\u00e9 e Pr\u00edncipe"
+    ],
     "brk_a3": "STP",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Sao Tome and Principe",
+    "capital": "S\u00e3o Tom\u00e9",
     "cca2": "ST",
     "cca3": "STP",
     "ccn3": "678",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "STP",
+    "currencies": [
+        "STD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Sao Tomean",
+    "dialling": {
+        "calling_code": [
+            "239"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            6,
+            7
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "STP",
+        "cown": 403,
+        "ds": 0,
+        "edgar": "S9",
+        "emoji": "\ud83c\uddf8\ud83c\uddf9",
+        "eu_member": null,
+        "fao": 193,
+        "fifa": "STP",
+        "fips": "TP",
+        "gaul": 214,
+        "geonameid": 2410758,
+        "imf": 716,
+        "ioc": "STP",
+        "itu": "STP",
+        "marc": "sf",
+        "vat_rates": null,
+        "wmo": "TP"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "TP",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddf9"
+    },
     "formal_en": "Democratic Republic of S\u00c3\u00a3o Tom\u00c3\u00a9 and Principe",
     "formal_fr": "",
     "gdp_md_est": "694.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 964,
         "borders": [],
-        "continent": "Africa",
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "1 00 N",
+        "latitude_desc": "0.275555282831192",
+        "latlng": [
+            1,
+            7
+        ],
+        "longitude": "7 00 E",
+        "longitude_desc": "6.631628036499023",
+        "max_latitude": "1.733333",
+        "max_longitude": "7.483333",
+        "min_latitude": "-0.016667",
+        "min_longitude": "6.466667",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Middle Africa"
+        "subregion": "Middle Africa",
+        "subregion_code": "017",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Sao Tome and Principe",
     "gu_a3": "STP",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "ST",
+    "iso_3166_1_alpha3": "STP",
+    "iso_3166_1_numeric": "678",
     "iso_a2": "ST",
     "iso_a3": "STP",
     "iso_a3_eh": "STP",
     "iso_n3": "678",
     "labelrank": "6.00",
+    "languages": {
+        "por": "Portuguese"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "21.00",
@@ -56,8 +132,14 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "S\u00c3\u00a3o Tom\u00c3\u00a9 and Principe",
-        "official": "Democratic Republic of S\u00c3\u00a3o Tom\u00c3\u00a9 and Principe"
+        "common": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "native": {
+            "por": {
+                "common": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+                "official": "Rep\u00fablica Democr\u00e1tica do S\u00e3o Tom\u00e9 e Pr\u00edncipe"
+            }
+        },
+        "official": "Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe"
     },
     "name_alt": "",
     "name_ciawf": "Sao Tome and Principe",
@@ -67,9 +149,6 @@
     "name_sort": "S\u00c3\u00a3o Tom\u00c3\u00a9 and Principe",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "201025.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
@@ -82,6 +161,63 @@
     "su_dif": "0.00",
     "subunit": "Sao Tome and Principe",
     "tiny": "3.00",
+    "tld": [
+        ".st"
+    ],
+    "translations": {
+        "deu": {
+            "common": "S\u00e3o Tom\u00e9 und Pr\u00edncipe",
+            "official": "Demokratische Republik S\u00e3o Tom\u00e9 und Pr\u00edncipe"
+        },
+        "est": {
+            "common": "S\u00e3o Tom\u00e9 ja Pr\u00edncipe",
+            "official": "S\u00e3o Tom\u00e9 ja Pr\u00edncipe Demokraatlik Vabariik"
+        },
+        "fin": {
+            "common": "S\u00e3o T\u00e9me ja Pr\u00edncipe",
+            "official": "S\u00e3o Tom\u00e9 ja Pr\u00edncipen demokraattinen tasavalta"
+        },
+        "fra": {
+            "common": "S\u00e3o Tom\u00e9 et Pr\u00edncipe",
+            "official": "R\u00e9publique d\u00e9mocratique de S\u00e3o Tom\u00e9 et Pr\u00edncipe"
+        },
+        "hrv": {
+            "common": "Sveti Toma i Princip",
+            "official": "Demokratska Republika S\u00e3o Tome i Principe"
+        },
+        "ita": {
+            "common": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+            "official": "Repubblica democratica di S\u00e3o Tom\u00e9 e Pr\u00edncipe"
+        },
+        "jpn": {
+            "common": "\u30b5\u30f3\u30c8\u30e1\u30fb\u30d7\u30ea\u30f3\u30b7\u30da",
+            "official": "\u30b5\u30f3\u30c8\u30e1\u00b7\u30d7\u30ea\u30f3\u30b7\u30da\u6c11\u4e3b\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Sao Tom\u00e9 en Principe",
+            "official": "Democratische Republiek Sao Tom\u00e9 en Principe"
+        },
+        "por": {
+            "common": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+            "official": "Rep\u00fablica Democr\u00e1tica de S\u00e3o Tom\u00e9 e Pr\u00edncipe"
+        },
+        "rus": {
+            "common": "\u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0438 \u041f\u0440\u0438\u043d\u0441\u0438\u043f\u0438",
+            "official": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0438 \u041f\u0440\u0438\u043d\u0441\u0438\u043f\u0438"
+        },
+        "slk": {
+            "common": "Sv\u00e4t\u00fd Tom\u00e1\u0161 a Princov ostrov",
+            "official": "Demokratick\u00e1 republika Sv\u00e4t\u00e9ho Tom\u00e1\u0161a A princovho ostrova"
+        },
+        "spa": {
+            "common": "Santo Tom\u00e9 y Pr\u00edncipe",
+            "official": "Rep\u00fablica Democr\u00e1tica de Santo Tom\u00e9 y Pr\u00edncipe"
+        },
+        "zho": {
+            "common": "\u5723\u591a\u7f8e\u548c\u666e\u6797\u897f\u6bd4",
+            "official": "\u5723\u591a\u7f8e\u548c\u666e\u6797\u897f\u6bd4\u6c11\u4e3b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "678",
     "wb_a2": "ST",

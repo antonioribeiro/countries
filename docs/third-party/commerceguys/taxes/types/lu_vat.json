@@ -1,0 +1,72 @@
+{
+    "name": "Luxembourg VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "lu_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "lu_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "lu_vat_standard_1992",
+                    "amount": 0.15,
+                    "start_date": "1992-01-01",
+                    "end_date": "2014-12-31"
+                },
+                {
+                    "id": "lu_vat_standard_2015",
+                    "amount": 0.17,
+                    "start_date": "2015-01-01"
+                }
+            ]
+        },
+        {
+            "id": "lu_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "lu_vat_intermediate_1979",
+                    "amount": 0.12,
+                    "start_date": "1979-02-12",
+                    "end_date": "2014-12-31"
+                },
+                {
+                    "id": "lu_vat_intermediate_2015",
+                    "amount": 0.14,
+                    "start_date": "2015-01-01"
+                }
+            ]
+        },
+        {
+            "id": "lu_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "lu_vat_reduced_1983",
+                    "amount": 0.06,
+                    "start_date": "1983-07-01",
+                    "end_date": "2014-12-31"
+                },
+                {
+                    "id": "lu_vat_reduced_2015",
+                    "amount": 0.08,
+                    "start_date": "2015-01-01"
+                }
+            ]
+        },
+        {
+            "id": "lu_vat_super_reduced",
+            "name": "Super Reduced",
+            "amounts": [
+                {
+                    "id": "lu_vat_super_reduced_1983",
+                    "amount": 0.03,
+                    "start_date": "1983-07-01"
+                }
+            ]
+        }
+    ]
+}

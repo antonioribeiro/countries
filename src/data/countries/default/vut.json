@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Vanuatu",
+    "alt_spellings": [
+        "VU",
+        "Republic of Vanuatu",
+        "Ripablik blong Vanuatu",
+        "R\u00e9publique de Vanuatu"
+    ],
     "brk_a3": "VUT",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Vanuatu",
+    "capital": "Port Vila",
     "cca2": "VU",
     "cca3": "VUT",
     "ccn3": "548",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "VAN",
+    "currencies": [
+        "VUV"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Ni-Vanuatu",
+    "dialling": {
+        "calling_code": [
+            "678"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            5,
+            6,
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "VAN",
+        "cown": 935,
+        "ds": 0,
+        "edgar": "2L",
+        "emoji": "\ud83c\uddfb\ud83c\uddfa",
+        "eu_member": null,
+        "fao": 155,
+        "fifa": "VAN",
+        "fips": "NH",
+        "gaul": 262,
+        "geonameid": 2134431,
+        "imf": 846,
+        "ioc": "VAN",
+        "itu": "VUT",
+        "marc": "nn",
+        "vat_rates": null,
+        "wmo": "NV"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "NH",
+    "flag": {
+        "emoji": "\ud83c\uddfb\ud83c\uddfa"
+    },
     "formal_en": "Republic of Vanuatu",
     "formal_fr": "",
     "gdp_md_est": "723.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 12189,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "16 00 S",
+        "latitude_desc": "-16.376684188842773",
+        "latlng": [
+            -16,
+            167
+        ],
+        "longitude": "167 00 E",
+        "longitude_desc": "167.5625",
+        "max_latitude": "-13.066667",
+        "max_longitude": "170.216667",
+        "min_latitude": "-20.25",
+        "min_longitude": "166.016667",
+        "postal_code": false,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Melanesia"
+        "subregion": "Melanesia",
+        "subregion_code": "054",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Vanuatu",
     "gu_a3": "VUT",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "VU",
+    "iso_3166_1_alpha3": "VUT",
+    "iso_3166_1_numeric": "548",
     "iso_a2": "VU",
     "iso_a3": "VUT",
     "iso_a3_eh": "VUT",
     "iso_n3": "548",
     "labelrank": "4.00",
+    "languages": {
+        "bis": "Bislama",
+        "eng": "English",
+        "fra": "French"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +136,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Vanuatu",
+        "native": {
+            "bis": {
+                "common": "Vanuatu",
+                "official": "Ripablik blong Vanuatu"
+            },
+            "eng": {
+                "common": "Vanuatu",
+                "official": "Republic of Vanuatu"
+            },
+            "fra": {
+                "common": "Vanuatu",
+                "official": "R\u00e9publique de Vanuatu"
+            }
+        },
         "official": "Republic of Vanuatu"
     },
     "name_alt": "",
@@ -67,9 +160,6 @@
     "name_sort": "Vanuatu",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "282814.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
@@ -82,6 +172,63 @@
     "su_dif": "0.00",
     "subunit": "Vanuatu",
     "tiny": "2.00",
+    "tld": [
+        ".vu"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Vanuatu",
+            "official": "Vanuatu"
+        },
+        "est": {
+            "common": "Vanuatu",
+            "official": "Vanuatu Vabariik"
+        },
+        "fin": {
+            "common": "Vanuatu",
+            "official": "Vanuatun tasavalta"
+        },
+        "fra": {
+            "common": "Vanuatu",
+            "official": "R\u00e9publique de Vanuatu"
+        },
+        "hrv": {
+            "common": "Vanuatu",
+            "official": "Republika Vanuatu"
+        },
+        "ita": {
+            "common": "Vanuatu",
+            "official": "Repubblica di Vanuatu"
+        },
+        "jpn": {
+            "common": "\u30d0\u30cc\u30a2\u30c4",
+            "official": "\u30d0\u30cc\u30a2\u30c4\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Vanuatu",
+            "official": "Republiek Vanuatu"
+        },
+        "por": {
+            "common": "Vanuatu",
+            "official": "Rep\u00fablica de Vanuatu"
+        },
+        "rus": {
+            "common": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u0430\u043d\u0443\u0430\u0442\u0443"
+        },
+        "slk": {
+            "common": "Vanuatu",
+            "official": "Vanuatsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Vanuatu",
+            "official": "Rep\u00fablica de Vanuatu"
+        },
+        "zho": {
+            "common": "\u74e6\u52aa\u963f\u56fe",
+            "official": "\u74e6\u52aa\u963f\u56fe\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "548",
     "wb_a2": "VU",

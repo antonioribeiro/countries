@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Yemen",
+    "alt_spellings": [
+        "YE",
+        "Yemeni Republic",
+        "al-Jumh\u016briyyah al-Yamaniyyah"
+    ],
     "brk_a3": "YEM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Yemen",
+    "capital": "Sana'a",
     "cca2": "YE",
     "cca3": "YEM",
     "ccn3": "887",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "YEM",
+    "currencies": [
+        "YER"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Yemeni",
+    "dialling": {
+        "calling_code": [
+            "967"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "MAF",
+        "cowc": "YEM",
+        "cown": 679,
+        "ds": "YAR",
+        "edgar": "T7",
+        "emoji": "\ud83c\uddfe\ud83c\uddea",
+        "eu_member": null,
+        "fao": 249,
+        "fifa": "YEM",
+        "fips": "YM",
+        "gaul": 269,
+        "geonameid": 69543,
+        "imf": 474,
+        "ioc": "YEM",
+        "itu": "YEM",
+        "marc": "ye",
+        "vat_rates": null,
+        "wmo": "YE"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "YM",
+    "flag": {
+        "emoji": "\ud83c\uddfe\ud83c\uddea"
+    },
     "formal_en": "Republic of Yemen",
     "formal_fr": "",
     "gdp_md_est": "73450.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 527968,
+        "borders": [
+            "OMN",
+            "SAU"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "15 00 N",
+        "latitude_desc": "15.888387680053711",
+        "latlng": [
+            15,
+            48
+        ],
+        "longitude": "48 00 E",
+        "longitude_desc": "47.48988723754883",
+        "max_latitude": "27.695278",
+        "max_longitude": "54.533333",
+        "min_latitude": "12.1",
+        "min_longitude": "41.833333",
+        "postal_code": false,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Yemen",
     "gu_a3": "YEM",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "YE",
+    "iso_3166_1_alpha3": "YEM",
+    "iso_3166_1_numeric": "887",
     "iso_a2": "YE",
     "iso_a3": "YEM",
     "iso_a3_eh": "YEM",
     "iso_n3": "887",
     "labelrank": "3.00",
+    "languages": {
+        "ara": "Arabic"
+    },
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +136,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Yemen",
+        "native": {
+            "ara": {
+                "common": "\u0627\u0644\u064a\u064e\u0645\u064e\u0646",
+                "official": "\u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u064a\u0645\u0646\u064a\u0629"
+            }
+        },
         "official": "Republic of Yemen"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "Yemen, Rep.",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "28036829.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +164,63 @@
     "su_dif": "0.00",
     "subunit": "Yemen",
     "tiny": "-99.00",
+    "tld": [
+        ".ye"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Jemen",
+            "official": "Republik Jemen"
+        },
+        "est": {
+            "common": "Jeemen",
+            "official": "Jeemeni Vabariik"
+        },
+        "fin": {
+            "common": "Jemen",
+            "official": "Jemenin tasavalta"
+        },
+        "fra": {
+            "common": "Y\u00e9men",
+            "official": "R\u00e9publique du Y\u00e9men"
+        },
+        "hrv": {
+            "common": "Jemen",
+            "official": "Republika Jemen"
+        },
+        "ita": {
+            "common": "Yemen",
+            "official": "Repubblica dello Yemen"
+        },
+        "jpn": {
+            "common": "\u30a4\u30a8\u30e1\u30f3",
+            "official": "\u30a4\u30a8\u30e1\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Jemen",
+            "official": "Republiek Jemen"
+        },
+        "por": {
+            "common": "I\u00e9men",
+            "official": "Rep\u00fablica do I\u00eamen"
+        },
+        "rus": {
+            "common": "\u0419\u0435\u043c\u0435\u043d",
+            "official": "\u0419\u0435\u043c\u0435\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Jemen",
+            "official": "Jemensk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Yemen",
+            "official": "Rep\u00fablica de Yemen"
+        },
+        "zho": {
+            "common": "\u4e5f\u95e8",
+            "official": "\u4e5f\u95e8\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "887",
     "wb_a2": "RY",

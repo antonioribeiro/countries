@@ -1,0 +1,42 @@
+{
+    "LRD": {
+        "name": "Liberian Dollar",
+        "iso": {
+            "code": "LRD",
+            "number": "430"
+        },
+        "units": {
+            "major": {
+                "name": "dollar",
+                "symbol": "$"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "¢",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "$5",
+                "$10",
+                "$20",
+                "$50",
+                "$100"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "$1",
+                "¢5",
+                "¢10",
+                "¢25",
+                "¢50"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

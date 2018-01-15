@@ -1,0 +1,44 @@
+{
+    "GBP": {
+        "name": "British Pound",
+        "iso": {
+            "code": "GBP",
+            "number": "826"
+        },
+        "units": {
+            "major": {
+                "name": "pound",
+                "symbol": "£"
+            },
+            "minor": {
+                "name": "penny",
+                "symbol": "p",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "£5",
+                "£10",
+                "£20",
+                "£50"
+            ],
+            "rare": [
+                "£100"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "£1",
+                "£2",
+                "1p",
+                "2p",
+                "5p",
+                "10p",
+                "20p",
+                "50p"
+            ],
+            "rare": []
+        }
+    }
+}

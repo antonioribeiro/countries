@@ -8,43 +8,123 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Paraguay",
+    "alt_spellings": [
+        "PY",
+        "Republic of Paraguay",
+        "Rep\u00fablica del Paraguay",
+        "Tet\u00e3 Paragu\u00e1i"
+    ],
     "brk_a3": "PRY",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Paraguay",
+    "capital": "Asunci\u00f3n",
     "cca2": "PY",
     "cca3": "PRY",
     "ccn3": "600",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "PAR",
+    "currencies": [
+        "PYG"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Paraguayan",
+    "dialling": {
+        "calling_code": [
+            "595"
+        ],
+        "international_prefix": "002",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "PAR",
+        "cown": 150,
+        "ds": "PY",
+        "edgar": "R4",
+        "emoji": "\ud83c\uddf5\ud83c\uddfe",
+        "eu_member": null,
+        "fao": 169,
+        "fifa": "PAR",
+        "fips": "PA",
+        "gaul": 194,
+        "geonameid": 3437598,
+        "imf": 288,
+        "ioc": "PAR",
+        "itu": "PRG",
+        "marc": "py",
+        "vat_rates": null,
+        "wmo": "PY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "PA",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\uddfe"
+    },
     "formal_en": "Republic of Paraguay",
     "formal_fr": "",
     "gdp_md_est": "64670.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "South America",
+        "area": 406752,
+        "borders": [
+            "ARG",
+            "BOL",
+            "BRA"
+        ],
+        "continent": {
+            "SA": "South America"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "23 00 S",
+        "latitude_desc": "-23.24028968811035",
+        "latlng": [
+            -23,
+            -58
+        ],
+        "longitude": "58 00 W",
+        "longitude_desc": "-58.395172119140625",
+        "max_latitude": "-19.333333",
+        "max_longitude": "-54.35",
+        "min_latitude": "-27.533333",
+        "min_longitude": "-62.633333",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "South America"
+        "subregion": "South America",
+        "subregion_code": "005",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Paraguay",
     "gu_a3": "PRY",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "PY",
+    "iso_3166_1_alpha3": "PRY",
+    "iso_3166_1_numeric": "600",
     "iso_a2": "PY",
     "iso_a3": "PRY",
     "iso_a3_eh": "PRY",
     "iso_n3": "600",
     "labelrank": "4.00",
+    "languages": {
+        "grn": "Guaran\u00ed",
+        "spa": "Spanish"
+    },
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +137,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Paraguay",
+        "native": {
+            "grn": {
+                "common": "Paragu\u00e1i",
+                "official": "Tet\u00e3 Paragu\u00e1i"
+            },
+            "spa": {
+                "common": "Paraguay",
+                "official": "Rep\u00fablica de Paraguay"
+            }
+        },
         "official": "Republic of Paraguay"
     },
     "name_alt": "",
@@ -67,9 +157,6 @@
     "name_sort": "Paraguay",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "6943739.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +169,63 @@
     "su_dif": "0.00",
     "subunit": "Paraguay",
     "tiny": "-99.00",
+    "tld": [
+        ".py"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Paraguay",
+            "official": "Republik Paraguay"
+        },
+        "est": {
+            "common": "Paraguay",
+            "official": "Paraguay Vabariik"
+        },
+        "fin": {
+            "common": "Paraguay",
+            "official": "Paraguayn tasavalta"
+        },
+        "fra": {
+            "common": "Paraguay",
+            "official": "R\u00e9publique du Paraguay"
+        },
+        "hrv": {
+            "common": "Paragvaj",
+            "official": "Republika Paragvaj"
+        },
+        "ita": {
+            "common": "Paraguay",
+            "official": "Repubblica del Paraguay"
+        },
+        "jpn": {
+            "common": "\u30d1\u30e9\u30b0\u30a2\u30a4",
+            "official": "\u30d1\u30e9\u30b0\u30a2\u30a4\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Paraguay",
+            "official": "Republiek Paraguay"
+        },
+        "por": {
+            "common": "Paraguai",
+            "official": "Rep\u00fablica do Paraguai"
+        },
+        "rus": {
+            "common": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439"
+        },
+        "slk": {
+            "common": "Paraguaj",
+            "official": "Paraguajsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Paraguay",
+            "official": "Rep\u00fablica de Paraguay"
+        },
+        "zho": {
+            "common": "\u5df4\u62c9\u572d",
+            "official": "\u5df4\u62c9\u572d\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "600",
     "wb_a2": "PY",

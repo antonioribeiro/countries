@@ -1,0 +1,49 @@
+{
+    "SGD": {
+        "name": "Singapore Dollar",
+        "iso": {
+            "code": "SGD",
+            "number": "702"
+        },
+        "units": {
+            "major": {
+                "name": "dollar",
+                "symbol": "$"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "S¢",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "$2",
+                "$5",
+                "$10",
+                "$50"
+            ],
+            "rare": [
+                "$1",
+                "$20",
+                "$25",
+                "$100",
+                "$500",
+                "$1000",
+                "$10000"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "S¢5",
+                "S¢10",
+                "S¢20",
+                "S¢50",
+                "$1"
+            ],
+            "rare": [
+                "S¢1"
+            ]
+        }
+    }
+}

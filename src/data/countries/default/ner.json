@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Niger",
+    "alt_spellings": [
+        "NE",
+        "Nijar"
+    ],
     "brk_a3": "NER",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Niger",
+    "capital": "Niamey",
     "cca2": "NE",
     "cca3": "NER",
     "ccn3": "562",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "NIG",
+    "currencies": [
+        "XOF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Nigerien",
+    "dialling": {
+        "calling_code": [
+            "227"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "NIR",
+        "cown": 436,
+        "ds": "RN",
+        "edgar": "Q4",
+        "emoji": "\ud83c\uddf3\ud83c\uddea",
+        "eu_member": null,
+        "fao": 158,
+        "fifa": "NIG",
+        "fips": "NG",
+        "gaul": 181,
+        "geonameid": 2440476,
+        "imf": 692,
+        "ioc": "NIG",
+        "itu": "NGR",
+        "marc": "ng",
+        "vat_rates": null,
+        "wmo": "NR"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "NG",
+    "flag": {
+        "emoji": "\ud83c\uddf3\ud83c\uddea"
+    },
     "formal_en": "Republic of Niger",
     "formal_fr": "",
     "gdp_md_est": "20150.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 1267000,
+        "borders": [
+            "DZA",
+            "BEN",
+            "BFA",
+            "TCD",
+            "LBY",
+            "MLI",
+            "NGA"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "16 00 N",
+        "latitude_desc": "17.424074172973633",
+        "latlng": [
+            16,
+            8
+        ],
+        "longitude": "8 00 E",
+        "longitude_desc": "9.400633811950684",
+        "max_latitude": "26",
+        "max_longitude": "16",
+        "min_latitude": "11.716667",
+        "min_longitude": "0.233333",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Niger",
     "gu_a3": "NER",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "NE",
+    "iso_3166_1_alpha3": "NER",
+    "iso_3166_1_numeric": "562",
     "iso_a2": "NE",
     "iso_a3": "NER",
     "iso_a3_eh": "NER",
     "iso_n3": "562",
     "labelrank": "3.00",
+    "languages": {
+        "fra": "French"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +138,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Niger",
+        "native": {
+            "fra": {
+                "common": "Niger",
+                "official": "R\u00e9publique du Niger"
+            }
+        },
         "official": "Republic of Niger"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Niger",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "19245344.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +166,63 @@
     "su_dif": "0.00",
     "subunit": "Niger",
     "tiny": "-99.00",
+    "tld": [
+        ".ne"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Niger",
+            "official": "Republik Niger"
+        },
+        "est": {
+            "common": "Niger",
+            "official": "Nigeri Vabariik"
+        },
+        "fin": {
+            "common": "Niger",
+            "official": "Nigerin tasavalta"
+        },
+        "fra": {
+            "common": "Niger",
+            "official": "R\u00e9publique du Niger"
+        },
+        "hrv": {
+            "common": "Niger",
+            "official": "Republika Niger"
+        },
+        "ita": {
+            "common": "Niger",
+            "official": "Repubblica del Niger"
+        },
+        "jpn": {
+            "common": "\u30cb\u30b8\u30a7\u30fc\u30eb",
+            "official": "\u30cb\u30b8\u30a7\u30fc\u30eb\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Niger",
+            "official": "Republiek Niger"
+        },
+        "por": {
+            "common": "N\u00edger",
+            "official": "Rep\u00fablica do N\u00edger"
+        },
+        "rus": {
+            "common": "\u041d\u0438\u0433\u0435\u0440",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041d\u0438\u0433\u0435\u0440"
+        },
+        "slk": {
+            "common": "Niger",
+            "official": "Nig\u00e9rsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "N\u00edger",
+            "official": "Rep\u00fablica de N\u00edger"
+        },
+        "zho": {
+            "common": "\u5c3c\u65e5\u5c14",
+            "official": "\u5c3c\u65e5\u5c14\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "562",
     "wb_a2": "NE",

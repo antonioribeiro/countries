@@ -1,0 +1,44 @@
+{
+    "AWG": {
+        "name": "Arubin florin",
+        "iso": {
+            "code": "AWG",
+            "number": "533"
+        },
+        "units": {
+            "major": {
+                "name": "florin",
+                "symbol": "ƒ"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "ƒl0",
+                "ƒ25",
+                "ƒ50",
+                "ƒ100",
+                "ƒ500"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "5",
+                "10",
+                "25",
+                "50",
+                "ƒ1",
+                "ƒ2½",
+                "ƒ5"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

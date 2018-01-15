@@ -1,0 +1,44 @@
+{
+    "FJD": {
+        "name": "Fijian dollar",
+        "iso": {
+            "code": "FJD",
+            "number": "242"
+        },
+        "units": {
+            "major": {
+                "name": "dollar",
+                "symbol": "$"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "¢",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "$2",
+                "$5",
+                "$10",
+                "$20",
+                "$50",
+                "$100"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "5¢",
+                "10¢",
+                "20¢",
+                "50¢",
+                "$1",
+                "$2"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

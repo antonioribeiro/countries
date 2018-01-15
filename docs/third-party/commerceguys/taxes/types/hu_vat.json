@@ -1,0 +1,61 @@
+{
+    "name": "Hungarian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "hu_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "hu_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "hu_vat_standard_2004",
+                    "amount": 0.25,
+                    "start_date": "2004-05-01",
+                    "end_date": "2005-12-31"
+                },
+                {
+                    "id": "hu_vat_standard_2006",
+                    "amount": 0.2,
+                    "start_date": "2006-01-01",
+                    "end_date": "2009-06-30"
+                },
+                {
+                    "id": "hu_vat_standard_2009",
+                    "amount": 0.25,
+                    "start_date": "2009-07-01",
+                    "end_date": "2011-12-31"
+                },
+                {
+                    "id": "hu_vat_standard_2012",
+                    "amount": 0.27,
+                    "start_date": "2012-01-01"
+                }
+            ]
+        },
+        {
+            "id": "hu_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "hu_vat_intermediate_2009",
+                    "amount": 0.18,
+                    "start_date": "2009-07-01"
+                }
+            ]
+        },
+        {
+            "id": "hu_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "hu_vat_reduced_2004",
+                    "amount": 0.05,
+                    "start_date": "2004-05-01"
+                }
+            ]
+        }
+    ]
+}

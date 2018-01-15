@@ -1,0 +1,43 @@
+{
+    "KZT": {
+        "name": "Kazakhstani tenge",
+        "iso": {
+            "code": "KZT",
+            "number": "398"
+        },
+        "units": {
+            "major": {
+                "name": "tenge",
+                "symbol": "₸"
+            },
+            "minor": {
+                "name": "tïın",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "200",
+                "500",
+                "1000",
+                "2000",
+                "5000",
+                "10000"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "1",
+                "2",
+                "5",
+                "10",
+                "20",
+                "50",
+                "100"
+            ],
+            "rare": []
+        }
+    }
+}

@@ -8,43 +8,119 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "American Samoa",
+    "alt_spellings": [
+        "AS",
+        "Amerika S\u0101moa",
+        "Amelika S\u0101moa",
+        "S\u0101moa Amelika"
+    ],
     "brk_a3": "ASM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "American Samoa",
+    "capital": "Pago Pago",
     "cca2": "AS",
     "cca3": "ASM",
     "ccn3": "016",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ASA",
+    "currencies": [
+        "USD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "American Samoan",
+    "dialling": {
+        "calling_code": [
+            "1684"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "1"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "USA",
+        "edgar": "B5",
+        "emoji": "\ud83c\udde6\ud83c\uddf8",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "ASA",
+        "fips": "AQ",
+        "gaul": 5,
+        "geonameid": 5880801,
+        "imf": 859,
+        "ioc": "ASA",
+        "itu": "SMA",
+        "marc": "as",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AQ",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddf8"
+    },
     "formal_en": "American Samoa",
     "formal_fr": "",
     "gdp_md_est": "711.00",
     "gdp_year": "2013.00",
     "geo": {
+        "area": 199,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Territory of US",
+        "landlocked": false,
+        "latitude": "14 20 S",
+        "latitude_desc": "-14.31956672668457",
+        "latlng": [
+            -14.33333333,
+            -170
+        ],
+        "longitude": "170 00 W",
+        "longitude_desc": "-170.7403564453125",
+        "max_latitude": "-11.049690",
+        "max_longitude": "-169.416077",
+        "min_latitude": "-14.382470",
+        "min_longitude": "-171.091873",
+        "postal_code": true,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Polynesia"
+        "subregion": "Polynesia",
+        "subregion_code": "061",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "American Samoa",
     "gu_a3": "ASM",
     "homepart": "-99.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "AS",
+    "iso_3166_1_alpha3": "ASM",
+    "iso_3166_1_numeric": "016",
     "iso_a2": "AS",
     "iso_a3": "ASM",
     "iso_a3_eh": "ASM",
     "iso_n3": "016",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English",
+        "smo": "Samoan"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "14.00",
@@ -57,6 +133,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "American Samoa",
+        "native": {
+            "eng": {
+                "common": "American Samoa",
+                "official": "American Samoa"
+            },
+            "smo": {
+                "common": "S\u0101moa Amelika",
+                "official": "S\u0101moa Amelika"
+            }
+        },
         "official": "American Samoa"
     },
     "name_alt": "",
@@ -67,9 +153,6 @@
     "name_sort": "American Samoa",
     "note_adm0": "U.S.A.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "51504.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
@@ -82,6 +165,63 @@
     "su_dif": "0.00",
     "subunit": "American Samoa",
     "tiny": "3.00",
+    "tld": [
+        ".as"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Amerikanisch-Samoa",
+            "official": "Amerikanisch-Samoa"
+        },
+        "est": {
+            "common": "Ameerika Samoa",
+            "official": "Ameerika Samoa"
+        },
+        "fin": {
+            "common": "Amerikan Samoa",
+            "official": "Amerikan Samoa"
+        },
+        "fra": {
+            "common": "Samoa am\u00e9ricaines",
+            "official": "Samoa am\u00e9ricaines"
+        },
+        "hrv": {
+            "common": "Ameri\u010dka Samoa",
+            "official": "ameri\u010dka Samoa"
+        },
+        "ita": {
+            "common": "Samoa Americane",
+            "official": "Samoa americane"
+        },
+        "jpn": {
+            "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2",
+            "official": "\u7c73\u30b5\u30e2\u30a2"
+        },
+        "nld": {
+            "common": "Amerikaans Samoa",
+            "official": "Amerikaans Samoa"
+        },
+        "por": {
+            "common": "Samoa Americana",
+            "official": "Samoa americana"
+        },
+        "rus": {
+            "common": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435 \u0421\u0430\u043c\u043e\u0430",
+            "official": "\u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435 \u0421\u0430\u043c\u043e\u0430"
+        },
+        "slk": {
+            "common": "Americk\u00e1 Samoa",
+            "official": "Americk\u00e1 Samoa"
+        },
+        "spa": {
+            "common": "Samoa Americana",
+            "official": "Samoa Americana"
+        },
+        "zho": {
+            "common": "\u7f8e\u5c5e\u8428\u6469\u4e9a",
+            "official": "\u7f8e\u5c5e\u8428\u6469\u4e9a"
+        }
+    },
     "type": "Dependency",
     "un_a3": "016",
     "wb_a2": "AS",

@@ -1,0 +1,55 @@
+{
+    "name": "Lithuanian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "lt_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "lt_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "lt_vat_standard_2004",
+                    "amount": 0.18,
+                    "start_date": "2004-05-01",
+                    "end_date": "2008-12-31"
+                },
+                {
+                    "id": "lt_vat_standard_2009_01",
+                    "amount": 0.19,
+                    "start_date": "2009-01-01",
+                    "end_date": "2009-08-31"
+                },
+                {
+                    "id": "lt_vat_standard_2009_09",
+                    "amount": 0.21,
+                    "start_date": "2009-09-01"
+                }
+            ]
+        },
+        {
+            "id": "lt_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "lt_vat_intermediate_2004",
+                    "amount": 0.09,
+                    "start_date": "2004-05-01"
+                }
+            ]
+        },
+        {
+            "id": "lt_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "lt_vat_reduced_2004",
+                    "amount": 0.05,
+                    "start_date": "2004-05-01"
+                }
+            ]
+        }
+    ]
+}

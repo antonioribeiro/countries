@@ -1,0 +1,44 @@
+{
+    "SDG": {
+        "name": "Sudanese Pound",
+        "iso": {
+            "code": "SDG",
+            "number": "736"
+        },
+        "units": {
+            "major": {
+                "name": "pound",
+                "symbol": ""
+            },
+            "minor": {
+                "name": "piastres",
+                "symbol": ".‏س.ج",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "1",
+                "2",
+                "5",
+                "10",
+                "20",
+                "50"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "1.‏س.ج",
+                "5.‏س.ج",
+                "10.‏س.ج",
+                "20.‏س.ج",
+                "50.‏س.ج",
+                "1"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "TRY": {
+        "name": "Turkish Lira",
+        "iso": {
+            "code": "TRY",
+            "number": "949"
+        },
+        "units": {
+            "major": {
+                "name": "lira",
+                "symbol": ""
+            },
+            "minor": {
+                "name": "kuruş",
+                "symbol": "Kr",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "5",
+                "10",
+                "20",
+                "50"
+            ],
+            "rare": [
+                "100",
+                "200"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "5Kr",
+                "10Kr",
+                "25Kr",
+                "50Kr",
+                "1"
+            ],
+            "rare": [
+                "1Kr"
+            ]
+        }
+    }
+}

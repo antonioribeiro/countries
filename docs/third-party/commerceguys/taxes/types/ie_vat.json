@@ -1,0 +1,95 @@
+{
+    "name": "Irish VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "ie_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "ie_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "ie_vat_standard_2002",
+                    "amount": 0.21,
+                    "start_date": "2002-03-01",
+                    "end_date": "2008-11-30"
+                },
+                {
+                    "id": "ie_vat_standard_2008",
+                    "amount": 0.215,
+                    "start_date": "2008-12-01",
+                    "end_date": "2009-12-31"
+                },
+                {
+                    "id": "ie_vat_standard_2010",
+                    "amount": 0.21,
+                    "start_date": "2010-01-01",
+                    "end_date": "2011-12-31"
+                },
+                {
+                    "id": "ie_vat_standard_2012",
+                    "amount": 0.23,
+                    "start_date": "2012-01-01"
+                }
+            ]
+        },
+        {
+            "id": "ie_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "ie_vat_reduced_2003",
+                    "amount": 0.135,
+                    "start_date": "2003-01-01"
+                }
+            ]
+        },
+        {
+            "id": "ie_vat_second_reduced",
+            "name": "Second Reduced",
+            "amounts": [
+                {
+                    "id": "ie_vat_second_reduced_2011",
+                    "amount": 0.09,
+                    "start_date": "2011-07-01"
+                }
+            ]
+        },
+        {
+            "id": "ie_vat_super_reduced",
+            "name": "Super Reduced",
+            "amounts": [
+                {
+                    "id": "ie_vat_super_reduced_2001",
+                    "amount": 0.043,
+                    "start_date": "2001-01-01",
+                    "end_date": "2003-12-31"
+                },
+                {
+                    "id": "ie_vat_super_reduced_2004",
+                    "amount": 0.044,
+                    "start_date": "2004-01-01",
+                    "end_date": "2004-12-31"
+                },
+                {
+                    "id": "ie_vat_super_reduced_2005",
+                    "amount": 0.048,
+                    "start_date": "2005-01-01"
+                }
+            ]
+        },
+        {
+            "id": "ie_vat_zero",
+            "name": "Zero",
+            "amounts": [
+                {
+                    "id": "ie_vat_zero",
+                    "amount": 0,
+                    "start_date": "1972-04-01"
+                }
+            ]
+        }
+    ]
+}

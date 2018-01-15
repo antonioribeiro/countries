@@ -8,43 +8,112 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "British Indian Ocean Territory",
+    "alt_spellings": [
+        "IO"
+    ],
     "brk_a3": "B69",
     "brk_diff": "1.00",
     "brk_group": "",
     "brk_name": "Br. Indian Ocean Ter.",
+    "capital": "Diego Garcia",
     "cca2": "IO",
     "cca3": "IOT",
     "ccn3": "086",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "GBP",
+        "USD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Indian",
+    "dialling": {
+        "calling_code": [
+            "246"
+        ],
+        "international_prefix": "",
+        "national_destination_code_lengths": [],
+        "national_number_lengths": [],
+        "national_prefix": ""
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\uddee\ud83c\uddf4",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": 0,
+        "fips": "IO",
+        "gaul": 38,
+        "geonameid": 1282588,
+        "imf": 0,
+        "ioc": 0,
+        "itu": "BIO",
+        "marc": "bi",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "IO",
+    "flag": {
+        "emoji": "\ud83c\uddee\ud83c\uddf4"
+    },
     "formal_en": "",
     "formal_fr": "",
     "gdp_md_est": "160.00",
     "gdp_year": "2013.00",
     "geo": {
+        "area": 60,
         "borders": [],
-        "continent": "Seven seas (open ocean)",
-        "region": "Seven seas (open ocean)",
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Territory of GB",
+        "landlocked": false,
+        "latitude": "6 00 S",
+        "latitude_desc": "-6.196269989013672",
+        "latlng": [
+            -6,
+            71.5
+        ],
+        "longitude": "71 30 E",
+        "longitude_desc": "71.34793090820312",
+        "max_latitude": "-5.233333",
+        "max_longitude": "72.483333",
+        "min_latitude": "-7.35",
+        "min_longitude": "71.265278",
+        "postal_code": true,
+        "region": "Africa",
+        "region_code": "",
         "region_un": "Seven seas (open ocean)",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Seven seas (open ocean)"
+        "subregion": "Eastern Africa",
+        "subregion_code": "",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "British Indian Ocean Territory",
     "gu_a3": "IOT",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "IO",
+    "iso_3166_1_alpha3": "IOT",
+    "iso_3166_1_numeric": "086",
     "iso_a2": "IO",
     "iso_a3": "IOT",
     "iso_a3_eh": "IOT",
     "iso_n3": "086",
     "labelrank": "5.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "30.00",
@@ -56,8 +125,14 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Br. Indian Ocean Ter.",
-        "official": ""
+        "common": "British Indian Ocean Territory",
+        "native": {
+            "eng": {
+                "common": "British Indian Ocean Territory",
+                "official": "British Indian Ocean Territory"
+            }
+        },
+        "official": "British Indian Ocean Territory"
     },
     "name_alt": "",
     "name_ciawf": "",
@@ -67,9 +142,6 @@
     "name_sort": "British Indian Ocean Territory",
     "note_adm0": "U.K.",
     "note_brk": "Admin. by U.K.; Claimed by Mauritius and Seychelles",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "4000.00",
     "pop_rank": "4.00",
     "pop_year": "2013.00",
@@ -80,8 +152,70 @@
     "sovereignt": "United Kingdom",
     "su_a3": "IOT",
     "su_dif": "0.00",
+    "subregion_nev": "Seven seas (open ocean)",
     "subunit": "British Indian Ocean Territory",
     "tiny": "5.00",
+    "tld": [
+        ".io"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Tiriogaeth Brydeinig Cefnfor India",
+            "official": "British Indian Ocean Territory"
+        },
+        "deu": {
+            "common": "Britisches Territorium im Indischen Ozean",
+            "official": "Britisch-Indischer Ozean"
+        },
+        "est": {
+            "common": "Briti India ookeani ala",
+            "official": "Briti India ookeani ala"
+        },
+        "fin": {
+            "common": "Brittil\u00e4inen Intian valtameren alue",
+            "official": "Brittil\u00e4inen Intian valtameren alue"
+        },
+        "fra": {
+            "common": "Territoire britannique de l'oc\u00e9an Indien",
+            "official": "Territoire britannique de l' oc\u00e9an Indien"
+        },
+        "hrv": {
+            "common": "Britanski Indijskooceanski teritorij",
+            "official": "British Indian Ocean Territory"
+        },
+        "ita": {
+            "common": "Territorio britannico dell'oceano indiano",
+            "official": "Territorio britannico dell'Oceano Indiano"
+        },
+        "jpn": {
+            "common": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df",
+            "official": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df"
+        },
+        "nld": {
+            "common": "Britse Gebieden in de Indische Oceaan",
+            "official": "Brits Indische Oceaan Territorium"
+        },
+        "por": {
+            "common": "Territ\u00f3rio Brit\u00e2nico do Oceano \u00cdndico",
+            "official": "British Indian Ocean Territory"
+        },
+        "rus": {
+            "common": "\u0411\u0440\u0438\u0442\u0430\u043d\u0441\u043a\u0430\u044f \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0432 \u0418\u043d\u0434\u0438\u0439\u0441\u043a\u043e\u043c \u043e\u043a\u0435\u0430\u043d\u0435",
+            "official": "\u0411\u0440\u0438\u0442\u0430\u043d\u0441\u043a\u0430\u044f \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0418\u043d\u0434\u0438\u0439\u0441\u043a\u043e\u0433\u043e \u043e\u043a\u0435\u0430\u043d\u0430"
+        },
+        "slk": {
+            "common": "Britsk\u00e9 indickooce\u00e1nske \u00fazemie",
+            "official": "Britsk\u00e9 indickooce\u00e1nske \u00fazemie"
+        },
+        "spa": {
+            "common": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico",
+            "official": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico"
+        },
+        "zho": {
+            "common": "\u82f1\u5c5e\u5370\u5ea6\u6d0b\u9886\u5730",
+            "official": "\u82f1\u5c5e\u5370\u5ea6\u6d0b\u9886\u5730"
+        }
+    },
     "type": "Dependency",
     "un_a3": "-099",
     "wb_a2": "-99",

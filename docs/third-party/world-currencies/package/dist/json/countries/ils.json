@@ -1,0 +1,39 @@
+{
+    "ILS": {
+        "name": "Israeli Shekel",
+        "iso": {
+            "code": "ILS",
+            "number": "376"
+        },
+        "units": {
+            "major": {
+                "name": "Shekel",
+                "symbol": "₪"
+            },
+            "minor": {
+                "name": "Agorat",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "20₪",
+                "50₪",
+                "100₪",
+                "200₪"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "10",
+                "0.5₪",
+                "2₪",
+                "5₪",
+                "10₪"
+            ],
+            "rare": []
+        }
+    }
+}

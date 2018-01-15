@@ -1,0 +1,48 @@
+{
+    "PHP": {
+        "name": "Philippine Peso",
+        "iso": {
+            "code": "PHP",
+            "number": "608"
+        },
+        "units": {
+            "major": {
+                "name": "Peso",
+                "symbol": "₱"
+            },
+            "minor": {
+                "name": "Sentimo",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "₱20",
+                "₱50",
+                "₱100",
+                "₱200",
+                "₱500",
+                "₱1000"
+            ],
+            "rare": [
+                "₱5",
+                "₱10"
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "25",
+                "₱1",
+                "₱5",
+                "₱10"
+            ],
+            "rare": [
+                "1",
+                "2",
+                "5",
+                "10"
+            ]
+        }
+    }
+}

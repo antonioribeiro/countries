@@ -8,43 +8,119 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Northern Mariana Islands",
+    "alt_spellings": [
+        "MP",
+        "Commonwealth of the Northern Mariana Islands",
+        "Sankattan Siha Na Islas Mari\u00e5nas"
+    ],
     "brk_a3": "MNP",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "N. Mariana Is.",
+    "capital": "Saipan",
     "cca2": "MP",
     "cca3": "MNP",
     "ccn3": "580",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "USD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "American",
+    "dialling": {
+        "calling_code": [
+            "1670"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "1"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "USA",
+        "edgar": "1V",
+        "emoji": "\ud83c\uddf2\ud83c\uddf5",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "NMI",
+        "fips": "CQ",
+        "gaul": 185,
+        "geonameid": 4041468,
+        "imf": 0,
+        "ioc": "NMA",
+        "itu": "MRA",
+        "marc": "nw",
+        "vat_rates": null,
+        "wmo": "MY"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CQ",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddf5"
+    },
     "formal_en": "Commonwealth of the Northern Mariana Islands",
     "formal_fr": "",
     "gdp_md_est": "682.00",
     "gdp_year": "2013.00",
     "geo": {
+        "area": 464,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Commonwealth of US",
+        "landlocked": false,
+        "latitude": "15 12 N",
+        "latitude_desc": "15.262779235839844",
+        "latlng": [
+            15.2,
+            145.75
+        ],
+        "longitude": "145 45 E",
+        "longitude_desc": "145.8045654296875",
+        "max_latitude": "20.5534826",
+        "max_longitude": "146.0646485",
+        "min_latitude": "4.1103823",
+        "min_longitude": "144.886365",
+        "postal_code": true,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Micronesia"
+        "subregion": "Micronesia",
+        "subregion_code": "057",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Northern Mariana Islands",
     "gu_a3": "MNP",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "MP",
+    "iso_3166_1_alpha3": "MNP",
+    "iso_3166_1_numeric": "580",
     "iso_a2": "MP",
     "iso_a3": "MNP",
     "iso_a3_eh": "MNP",
     "iso_n3": "580",
     "labelrank": "6.00",
+    "languages": {
+        "cal": "Carolinian",
+        "cha": "Chamorro",
+        "eng": "English"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "24.00",
@@ -56,7 +132,21 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "N. Mariana Is.",
+        "common": "Northern Mariana Islands",
+        "native": {
+            "cal": {
+                "common": "Northern Mariana Islands",
+                "official": "Commonwealth of the Northern Mariana Islands"
+            },
+            "cha": {
+                "common": "Na Islas Mari\u00e5nas",
+                "official": "Sankattan Siha Na Islas Mari\u00e5nas"
+            },
+            "eng": {
+                "common": "Northern Mariana Islands",
+                "official": "Commonwealth of the Northern Mariana Islands"
+            }
+        },
         "official": "Commonwealth of the Northern Mariana Islands"
     },
     "name_alt": "",
@@ -67,9 +157,6 @@
     "name_sort": "Northern Mariana Islands",
     "note_adm0": "Commonwealth of U.S.A.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "52263.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
@@ -82,6 +169,63 @@
     "su_dif": "0.00",
     "subunit": "Northern Mariana Islands",
     "tiny": "3.00",
+    "tld": [
+        ".mp"
+    ],
+    "translations": {
+        "deu": {
+            "common": "N\u00f6rdliche Marianen",
+            "official": "Commonwealth der N\u00f6rdlichen Marianen"
+        },
+        "est": {
+            "common": "P\u00f5hja-Mariaanid",
+            "official": "P\u00f5hja-Mariaani \u00dchendus"
+        },
+        "fin": {
+            "common": "Pohjois-Mariaanit",
+            "official": "Pohjois-Mariaanit"
+        },
+        "fra": {
+            "common": "\u00celes Mariannes du Nord",
+            "official": "Commonwealth des \u00eeles Mariannes du Nord"
+        },
+        "hrv": {
+            "common": "Sjevernomarijanski otoci",
+            "official": "Zajednica je Sjeverni Marijanski otoci"
+        },
+        "ita": {
+            "common": "Isole Marianne Settentrionali",
+            "official": "Commonwealth delle Isole Marianne Settentrionali"
+        },
+        "jpn": {
+            "common": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6",
+            "official": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6"
+        },
+        "nld": {
+            "common": "Noordelijke Marianeneilanden",
+            "official": "Commonwealth van de Noordelijke Marianen"
+        },
+        "por": {
+            "common": "Marianas Setentrionais",
+            "official": "Comunidade das Ilhas Marianas do Norte"
+        },
+        "rus": {
+            "common": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+            "official": "\u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043e \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0445 \u043e\u0441\u0442\u0440\u043e\u0432\u043e\u0432"
+        },
+        "slk": {
+            "common": "Severn\u00e9 Mari\u00e1ny",
+            "official": "Spolo\u010denstvo ostrovov Severn\u00e9 Mari\u00e1ny"
+        },
+        "spa": {
+            "common": "Islas Marianas del Norte",
+            "official": "Mancomunidad de las Islas Marianas del Norte"
+        },
+        "zho": {
+            "common": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b",
+            "official": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b"
+        }
+    },
     "type": "Dependency",
     "un_a3": "580",
     "wb_a2": "MP",

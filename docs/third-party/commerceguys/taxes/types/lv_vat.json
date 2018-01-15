@@ -1,0 +1,62 @@
+{
+    "name": "Latvian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "lv_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "lv_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "lv_vat_standard_2004",
+                    "amount": 0.18,
+                    "start_date": "2004-05-01",
+                    "end_date": "2008-12-31"
+                },
+                {
+                    "id": "lv_vat_standard_2009",
+                    "amount": 0.21,
+                    "start_date": "2009-01-01",
+                    "end_date": "2010-12-31"
+                },
+                {
+                    "id": "lv_vat_standard_2011",
+                    "amount": 0.22,
+                    "start_date": "2011-01-01",
+                    "end_date": "2012-06-30"
+                },
+                {
+                    "id": "lv_vat_standard_2012",
+                    "amount": 0.21,
+                    "start_date": "2012-07-01"
+                }
+            ]
+        },
+        {
+            "id": "lv_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "lv_vat_reduced_2004",
+                    "amount": 0.05,
+                    "start_date": "2004-05-01",
+                    "end_date": "2008-12-31"
+                },
+                {
+                    "id": "lv_vat_reduced_2009",
+                    "amount": 0.1,
+                    "start_date": "2009-01-01",
+                    "end_date": "2010-12-31"
+                },
+                {
+                    "id": "lv_vat_reduced_2011",
+                    "amount": 0.12,
+                    "start_date": "2011-01-01"
+                }
+            ]
+        }
+    ]
+}

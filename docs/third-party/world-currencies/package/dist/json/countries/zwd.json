@@ -1,0 +1,36 @@
+{
+    "ZWD": {
+        "name": "Zimbabwean Dollar",
+        "iso": {
+            "code": "ZWD",
+            "number": "932"
+        },
+        "units": {
+            "major": {
+                "name": "dolalr",
+                "symbol": "Z$"
+            },
+            "minor": {
+                "name": "cent",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "Z$1",
+                "Z$5",
+                "Z$10",
+                "Z$20",
+                "Z$50",
+                "Z$100",
+                "Z$500"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [],
+            "rare": []
+        }
+    }
+}

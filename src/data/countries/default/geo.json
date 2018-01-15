@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Georgia",
+    "alt_spellings": [
+        "GE",
+        "Sakartvelo"
+    ],
     "brk_a3": "GEO",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Georgia",
+    "capital": "Tbilisi",
     "cca2": "GE",
     "cca3": "GEO",
     "ccn3": "268",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "GEO",
+    "currencies": [
+        "GEL"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Georgian",
+    "dialling": {
+        "calling_code": [
+            "995"
+        ],
+        "international_prefix": "810",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "8*"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "GRG",
+        "cown": 372,
+        "ds": "GE",
+        "edgar": "2Q",
+        "emoji": "\ud83c\uddec\ud83c\uddea",
+        "eu_member": null,
+        "fao": 73,
+        "fifa": "GEO",
+        "fips": "GG",
+        "gaul": 92,
+        "geonameid": 614540,
+        "imf": 915,
+        "ioc": "GEO",
+        "itu": "GEO",
+        "marc": "gs",
+        "vat_rates": null,
+        "wmo": "GG"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "GG",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\uddea"
+    },
     "formal_en": "Georgia",
     "formal_fr": "",
     "gdp_md_est": "37270.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 69700,
+        "borders": [
+            "ARM",
+            "AZE",
+            "RUS",
+            "TUR"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "42 00 N",
+        "latitude_desc": "42.3207845",
+        "latlng": [
+            42,
+            43.5
+        ],
+        "longitude": "43 30 E",
+        "longitude_desc": "43.3713615",
+        "max_latitude": "43.570556",
+        "max_longitude": "46.635556",
+        "min_latitude": "41.15",
+        "min_longitude": "40.013056",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Georgia",
     "gu_a3": "GEO",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "GE",
+    "iso_3166_1_alpha3": "GEO",
+    "iso_3166_1_numeric": "268",
     "iso_a2": "GE",
     "iso_a3": "GEO",
     "iso_a3_eh": "GEO",
     "iso_n3": "268",
     "labelrank": "5.00",
+    "languages": {
+        "kat": "Georgian"
+    },
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +135,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Georgia",
+        "native": {
+            "kat": {
+                "common": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd",
+                "official": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd"
+            }
+        },
         "official": "Georgia"
     },
     "name_alt": "",
@@ -67,9 +151,6 @@
     "name_sort": "Georgia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "4926330.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +163,63 @@
     "su_dif": "0.00",
     "subunit": "Georgia",
     "tiny": "-99.00",
+    "tld": [
+        ".ge"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Georgien",
+            "official": "Georgia"
+        },
+        "est": {
+            "common": "Gruusia",
+            "official": "Gruusia"
+        },
+        "fin": {
+            "common": "Georgia",
+            "official": "Georgia"
+        },
+        "fra": {
+            "common": "G\u00e9orgie",
+            "official": "R\u00e9publique de G\u00e9orgie"
+        },
+        "hrv": {
+            "common": "Gruzija",
+            "official": "Gruzija"
+        },
+        "ita": {
+            "common": "Georgia",
+            "official": "Georgia"
+        },
+        "jpn": {
+            "common": "\u30b0\u30eb\u30b8\u30a2",
+            "official": "\u30b0\u30eb\u30b8\u30a2"
+        },
+        "nld": {
+            "common": "Georgi\u00eb",
+            "official": "Georgia"
+        },
+        "por": {
+            "common": "Ge\u00f3rgia",
+            "official": "Georgia"
+        },
+        "rus": {
+            "common": "\u0413\u0440\u0443\u0437\u0438\u044f",
+            "official": "\u0413\u0440\u0443\u0437\u0438\u044f"
+        },
+        "slk": {
+            "common": "Gruz\u00ednsko",
+            "official": "Gruz\u00ednsko"
+        },
+        "spa": {
+            "common": "Georgia",
+            "official": "Georgia"
+        },
+        "zho": {
+            "common": "\u683c\u9c81\u5409\u4e9a",
+            "official": "\u683c\u9c81\u5409\u4e9a"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "268",
     "wb_a2": "GE",

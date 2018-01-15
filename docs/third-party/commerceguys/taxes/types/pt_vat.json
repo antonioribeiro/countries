@@ -1,0 +1,73 @@
+{
+    "name": "Portugese VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "pt_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "pt_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "pt_vat_standard_2005",
+                    "amount": 0.21,
+                    "start_date": "2005-07-01",
+                    "end_date": "2008-06-30"
+                },
+                {
+                    "id": "pt_vat_standard_2008",
+                    "amount": 0.2,
+                    "start_date": "2008-07-01",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "pt_vat_standard_2010",
+                    "amount": 0.21,
+                    "start_date": "2010-07-01",
+                    "end_date": "2010-12-31"
+                },
+                {
+                    "id": "pt_vat_standard_2011",
+                    "amount": 0.23,
+                    "start_date": "2011-01-01"
+                }
+            ]
+        },
+        {
+            "id": "pt_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "pt_vat_intermediate_1996",
+                    "amount": 0.12,
+                    "start_date": "1996-07-01",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "pt_vat_intermediate_2010",
+                    "amount": 0.13,
+                    "start_date": "2010-07-01"
+                }
+            ]
+        },
+        {
+            "id": "pt_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "pt_vat_reduced_1996",
+                    "amount": 0.05,
+                    "start_date": "1996-07-01",
+                    "end_date": "2010-06-30"
+                },
+                {
+                    "id": "pt_vat_reduced_2010",
+                    "amount": 0.06,
+                    "start_date": "2010-07-01"
+                }
+            ]
+        }
+    ]
+}

@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Montenegro",
+    "alt_spellings": [
+        "ME",
+        "Crna Gora"
+    ],
     "brk_a3": "MNE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Montenegro",
+    "capital": "Podgorica",
     "cca2": "ME",
     "cca3": "MNE",
     "ccn3": "499",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MNE",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Montenegrin",
+    "dialling": {
+        "calling_code": [
+            "382"
+        ],
+        "international_prefix": "99",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "EIT",
+        "cowc": "MNG",
+        "cown": 341,
+        "ds": "MNE",
+        "edgar": "Z5",
+        "emoji": "\ud83c\uddf2\ud83c\uddea",
+        "eu_member": null,
+        "fao": 273,
+        "fifa": "MNE",
+        "fips": "MJ",
+        "gaul": 2647,
+        "geonameid": 3194884,
+        "imf": 943,
+        "ioc": "MNE",
+        "itu": "MNE",
+        "marc": "mo",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "MJ",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddea"
+    },
     "formal_en": "Montenegro",
     "formal_fr": "",
     "gdp_md_est": "10610.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 13812,
+        "borders": [
+            "ALB",
+            "BIH",
+            "HRV",
+            "UNK",
+            "SRB"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "42 30 N",
+        "latitude_desc": "42.752803802490234",
+        "latlng": [
+            42.5,
+            19.3
+        ],
+        "longitude": "19 18 E",
+        "longitude_desc": "19.237918853759766",
+        "max_latitude": "43.547778",
+        "max_longitude": "20.3425",
+        "min_latitude": "41.864167",
+        "min_longitude": "18.438056",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Montenegro",
     "gu_a3": "MNE",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "ME",
+    "iso_3166_1_alpha3": "MNE",
+    "iso_3166_1_numeric": "499",
     "iso_a2": "ME",
     "iso_a3": "MNE",
     "iso_a3_eh": "MNE",
     "iso_n3": "499",
     "labelrank": "6.00",
+    "languages": {
+        "srp": "Montenegrin"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,6 +136,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Montenegro",
+        "native": {
+            "srp": {
+                "common": "\u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430",
+                "official": "\u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430"
+            }
+        },
         "official": "Montenegro"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "Montenegro",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "642550.00",
     "pop_rank": "11.00",
     "pop_year": "2017.00",
@@ -82,6 +164,63 @@
     "su_dif": "0.00",
     "subunit": "Montenegro",
     "tiny": "-99.00",
+    "tld": [
+        ".me"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "est": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "fin": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "fra": {
+            "common": "Mont\u00e9n\u00e9gro",
+            "official": "Mont\u00e9n\u00e9gro"
+        },
+        "hrv": {
+            "common": "Crna Gora",
+            "official": "Crna Gora"
+        },
+        "ita": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "jpn": {
+            "common": "\u30e2\u30f3\u30c6\u30cd\u30b0\u30ed",
+            "official": "\u30e2\u30f3\u30c6\u30cd\u30b0\u30ed"
+        },
+        "nld": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "por": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "rus": {
+            "common": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f",
+            "official": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0438\u044f"
+        },
+        "slk": {
+            "common": "\u010cierna Hora",
+            "official": "\u010cierna Hora"
+        },
+        "spa": {
+            "common": "Montenegro",
+            "official": "Montenegro"
+        },
+        "zho": {
+            "common": "\u9ed1\u5c71",
+            "official": "\u9ed1\u5c71"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "499",
     "wb_a2": "ME",

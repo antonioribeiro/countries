@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Laos",
+    "alt_spellings": [
+        "LA",
+        "Lao",
+        "Lao People's Democratic Republic",
+        "Sathalanalat Paxathipatai Paxaxon Lao"
+    ],
     "brk_a3": "LAO",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Laos",
+    "capital": "Vientiane",
     "cca2": "LA",
     "cca3": "LAO",
     "ccn3": "418",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "LAO",
+    "currencies": [
+        "LAK"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Laotian",
+    "dialling": {
+        "calling_code": [
+            "856"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "LAO",
+        "cown": 812,
+        "ds": "LAO",
+        "edgar": 0,
+        "emoji": "\ud83c\uddf1\ud83c\udde6",
+        "eu_member": null,
+        "fao": 120,
+        "fifa": "LAO",
+        "fips": "LA",
+        "gaul": 139,
+        "geonameid": 1655842,
+        "imf": 544,
+        "ioc": "LAO",
+        "itu": "LAO",
+        "marc": "ls",
+        "vat_rates": null,
+        "wmo": "LA"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "LA",
+    "flag": {
+        "emoji": "\ud83c\uddf1\ud83c\udde6"
+    },
     "formal_en": "Lao People's Democratic Republic",
     "formal_fr": "",
     "gdp_md_est": "40960.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 236800,
+        "borders": [
+            "MMR",
+            "KHM",
+            "CHN",
+            "THA",
+            "VNM"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "18 00 N",
+        "latitude_desc": "18.65074920654297",
+        "latlng": [
+            18,
+            105
+        ],
+        "longitude": "105 00 E",
+        "longitude_desc": "104.15293884277344",
+        "max_latitude": "22.5",
+        "max_longitude": "107.633333",
+        "min_latitude": "13.933333",
+        "min_longitude": "100.095833",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "South-Eastern Asia"
+        "subregion": "South-Eastern Asia",
+        "subregion_code": "035",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Laos",
     "gu_a3": "LAO",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "LA",
+    "iso_3166_1_alpha3": "LAO",
+    "iso_3166_1_numeric": "418",
     "iso_a2": "LA",
     "iso_a3": "LAO",
     "iso_a3_eh": "LAO",
     "iso_n3": "418",
     "labelrank": "4.00",
+    "languages": {
+        "lao": "Lao"
+    },
     "lastcensus": "2005.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +138,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Laos",
+        "native": {
+            "lao": {
+                "common": "\u0eaa\u0e9b\u0e9b\u0ea5\u0eb2\u0ea7",
+                "official": "\u0eaa\u0eb2\u0e97\u0eb2\u0ea5\u0eb0\u0e99\u0eb0 \u0e8a\u0eb2\u0e97\u0eb4\u0e9b\u0eb0\u0ec4\u0e95 \u0e84\u0ebb\u0e99\u0ea5\u0eb2\u0ea7 \u0e82\u0ead\u0e87"
+            }
+        },
         "official": "Lao People's Democratic Republic"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Lao PDR",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "7126706.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +166,63 @@
     "su_dif": "0.00",
     "subunit": "Laos",
     "tiny": "-99.00",
+    "tld": [
+        ".la"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Laos",
+            "official": "Laos, Demokratische Volksrepublik"
+        },
+        "est": {
+            "common": "Laos",
+            "official": "Laose Demokraatlik Rahvavabariik"
+        },
+        "fin": {
+            "common": "Laos",
+            "official": "Laosin demokraattinen kansantasavalta"
+        },
+        "fra": {
+            "common": "Laos",
+            "official": "R\u00e9publique d\u00e9mocratique populaire lao"
+        },
+        "hrv": {
+            "common": "Laos",
+            "official": "Narodna Demokratska Republika"
+        },
+        "ita": {
+            "common": "Laos",
+            "official": "Repubblica democratica popolare del Laos"
+        },
+        "jpn": {
+            "common": "\u30e9\u30aa\u30b9\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
+            "official": "\u30e9\u30aa\u30b9\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Laos",
+            "official": "Lao Democratische Volksrepubliek"
+        },
+        "por": {
+            "common": "Laos",
+            "official": "Laos, Rep\u00fablica Democr\u00e1tica"
+        },
+        "rus": {
+            "common": "\u041b\u0430\u043e\u0441",
+            "official": "\u041b\u0430\u043e\u0441\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u043e-\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Laos",
+            "official": "Laosk\u00e1 \u013eudovodemokratick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Laos",
+            "official": "Rep\u00fablica Democr\u00e1tica Popular Lao"
+        },
+        "zho": {
+            "common": "\u8001\u631d",
+            "official": "\u8001\u631d\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "418",
     "wb_a2": "LA",

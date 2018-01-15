@@ -8,43 +8,115 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Saint Lucia",
+    "alt_spellings": [
+        "LC"
+    ],
     "brk_a3": "LCA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saint Lucia",
+    "capital": "Castries",
     "cca2": "LC",
     "cca3": "LCA",
     "ccn3": "662",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "LCA",
+    "currencies": [
+        "XCD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Saint Lucian",
+    "dialling": {
+        "calling_code": [
+            "1758"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "1"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "SLU",
+        "cown": 56,
+        "ds": "WL",
+        "edgar": "U9",
+        "emoji": "\ud83c\uddf1\ud83c\udde8",
+        "eu_member": null,
+        "fao": 189,
+        "fifa": "LCA",
+        "fips": "ST",
+        "gaul": 209,
+        "geonameid": 3576468,
+        "imf": 362,
+        "ioc": "LCA",
+        "itu": "LCA",
+        "marc": "xk",
+        "vat_rates": null,
+        "wmo": "LC"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "ST",
+    "flag": {
+        "emoji": "\ud83c\uddf1\ud83c\udde8"
+    },
     "formal_en": "Saint Lucia",
     "formal_fr": "",
     "gdp_md_est": "2083.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 616,
         "borders": [],
-        "continent": "North America",
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "13 53 N",
+        "latitude_desc": "13.86330509185791",
+        "latlng": [
+            13.88333333,
+            -60.96666666
+        ],
+        "longitude": "60 58 W",
+        "longitude_desc": "-60.9665641784668",
+        "max_latitude": "14.1",
+        "max_longitude": "-60.866667",
+        "min_latitude": "13.7",
+        "min_longitude": "-61.066667",
+        "postal_code": false,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Saint Lucia",
     "gu_a3": "LCA",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "LC",
+    "iso_3166_1_alpha3": "LCA",
+    "iso_3166_1_numeric": "662",
     "iso_a2": "LC",
     "iso_a3": "LCA",
     "iso_a3_eh": "LCA",
     "iso_n3": "662",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "11.00",
@@ -57,6 +129,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Saint Lucia",
+        "native": {
+            "eng": {
+                "common": "Saint Lucia",
+                "official": "Saint Lucia"
+            }
+        },
         "official": "Saint Lucia"
     },
     "name_alt": "",
@@ -67,9 +145,6 @@
     "name_sort": "St. Lucia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "164994.00",
     "pop_rank": "9.00",
     "pop_year": "2017.00",
@@ -82,6 +157,63 @@
     "su_dif": "0.00",
     "subunit": "Saint Lucia",
     "tiny": "4.00",
+    "tld": [
+        ".lc"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Saint Lucia",
+            "official": "St. Lucia"
+        },
+        "est": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia"
+        },
+        "fin": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia"
+        },
+        "fra": {
+            "common": "Sainte-Lucie",
+            "official": "Sainte-Lucie"
+        },
+        "hrv": {
+            "common": "Sveta Lucija",
+            "official": "Sveta Lucija"
+        },
+        "ita": {
+            "common": "Santa Lucia",
+            "official": "Santa Lucia"
+        },
+        "jpn": {
+            "common": "\u30bb\u30f3\u30c8\u30eb\u30b7\u30a2",
+            "official": "\u30bb\u30f3\u30c8\u30eb\u30b7\u30a2"
+        },
+        "nld": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia"
+        },
+        "por": {
+            "common": "Santa L\u00facia",
+            "official": "Santa L\u00facia"
+        },
+        "rus": {
+            "common": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f",
+            "official": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0438\u044f"
+        },
+        "slk": {
+            "common": "Sv\u00e4t\u00e1 Lucia",
+            "official": "Sv\u00e4t\u00e1 Lucia"
+        },
+        "spa": {
+            "common": "Santa Luc\u00eda",
+            "official": "Santa Luc\u00eda"
+        },
+        "zho": {
+            "common": "\u5723\u5362\u897f\u4e9a",
+            "official": "\u5723\u5362\u897f\u4e9a"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "662",
     "wb_a2": "LC",

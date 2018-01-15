@@ -8,43 +8,118 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Gambia",
+    "alt_spellings": [
+        "GM",
+        "Republic of the Gambia"
+    ],
     "brk_a3": "GMB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Gambia",
+    "capital": "Banjul",
     "cca2": "GM",
     "cca3": "GMB",
     "ccn3": "270",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "GAM",
+    "currencies": [
+        "GMD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Gambian",
+    "dialling": {
+        "calling_code": [
+            "220"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "GAM",
+        "cown": 420,
+        "ds": "WAG",
+        "edgar": "I6",
+        "emoji": "\ud83c\uddec\ud83c\uddf2",
+        "eu_member": null,
+        "fao": 75,
+        "fifa": "GAM",
+        "fips": "GA",
+        "gaul": 90,
+        "geonameid": 2413451,
+        "imf": 648,
+        "ioc": "GAM",
+        "itu": "GMB",
+        "marc": "gm",
+        "vat_rates": null,
+        "wmo": "GB"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "GA",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\uddf2"
+    },
     "formal_en": "Republic of the Gambia",
     "formal_fr": "",
     "gdp_md_est": "3387.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 10689,
+        "borders": [
+            "SEN"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "13 28 N",
+        "latitude_desc": "13.440265655517578",
+        "latlng": [
+            13.46666666,
+            -16.56666666
+        ],
+        "longitude": "16 34 W",
+        "longitude_desc": "-15.490884780883789",
+        "max_latitude": "13.816667",
+        "max_longitude": "-4",
+        "min_latitude": "7",
+        "min_longitude": "-16.816944",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Western Africa"
+        "subregion": "Western Africa",
+        "subregion_code": "011",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Gambia",
     "gu_a3": "GMB",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "GM",
+    "iso_3166_1_alpha3": "GMB",
+    "iso_3166_1_numeric": "270",
     "iso_a2": "GM",
     "iso_a3": "GMB",
     "iso_a3_eh": "GMB",
     "iso_n3": "270",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "2003.00",
     "level": "2.00",
     "long_len": "10.00",
@@ -57,6 +132,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Gambia",
+        "native": {
+            "eng": {
+                "common": "Gambia",
+                "official": "Republic of the Gambia"
+            }
+        },
         "official": "Republic of the Gambia"
     },
     "name_alt": "",
@@ -67,9 +148,6 @@
     "name_sort": "Gambia, The",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "2051363.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +160,63 @@
     "su_dif": "0.00",
     "subunit": "Gambia",
     "tiny": "-99.00",
+    "tld": [
+        ".gm"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Gambia",
+            "official": "Republik Gambia"
+        },
+        "est": {
+            "common": "Gambia",
+            "official": "Gambia Vabariik"
+        },
+        "fin": {
+            "common": "Gambia",
+            "official": "Gambian tasavalta"
+        },
+        "fra": {
+            "common": "Gambie",
+            "official": "R\u00e9publique de Gambie"
+        },
+        "hrv": {
+            "common": "Gambija",
+            "official": "Republika Gambija"
+        },
+        "ita": {
+            "common": "Gambia",
+            "official": "Repubblica del Gambia"
+        },
+        "jpn": {
+            "common": "\u30ac\u30f3\u30d3\u30a2",
+            "official": "\u30ac\u30f3\u30d3\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Gambia",
+            "official": "Republiek Gambia"
+        },
+        "por": {
+            "common": "G\u00e2mbia",
+            "official": "Rep\u00fablica da G\u00e2mbia"
+        },
+        "rus": {
+            "common": "\u0413\u0430\u043c\u0431\u0438\u044f",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0413\u0430\u043c\u0431\u0438\u044f"
+        },
+        "slk": {
+            "common": "Gambia",
+            "official": "Gambijsk\/u00e1 republika"
+        },
+        "spa": {
+            "common": "Gambia",
+            "official": "Rep\u00fablica de Gambia"
+        },
+        "zho": {
+            "common": "\u5188\u6bd4\u4e9a",
+            "official": "\u5188\u6bd4\u4e9a\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "270",
     "wb_a2": "GM",

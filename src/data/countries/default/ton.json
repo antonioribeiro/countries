@@ -8,43 +8,118 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Tonga",
+    "alt_spellings": [
+        "TO"
+    ],
     "brk_a3": "TON",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Tonga",
+    "capital": "Nuku'alofa",
     "cca2": "TO",
     "cca3": "TON",
     "ccn3": "776",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "TGA",
+    "currencies": [
+        "TOP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Tongan",
+    "dialling": {
+        "calling_code": [
+            "676"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            5,
+            6,
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "TON",
+        "cown": 955,
+        "ds": 0,
+        "edgar": "W4",
+        "emoji": "\ud83c\uddf9\ud83c\uddf4",
+        "eu_member": null,
+        "fao": 219,
+        "fifa": "TGA",
+        "fips": "TN",
+        "gaul": 245,
+        "geonameid": 4032283,
+        "imf": 866,
+        "ioc": "TGA",
+        "itu": "TON",
+        "marc": "to",
+        "vat_rates": null,
+        "wmo": "TO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "TN",
+    "flag": {
+        "emoji": "\ud83c\uddf9\ud83c\uddf4"
+    },
     "formal_en": "Kingdom of Tonga",
     "formal_fr": "",
     "gdp_md_est": "557.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 747,
         "borders": [],
-        "continent": "Oceania",
+        "continent": {
+            "OC": "Oceania"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "20 00 S",
+        "latitude_desc": "-21.147611618041992",
+        "latlng": [
+            -20,
+            -175
+        ],
+        "longitude": "175 00 W",
+        "longitude_desc": "-175.25067138671875",
+        "max_latitude": "-15.566667",
+        "max_longitude": "-150",
+        "min_latitude": "-22.333333",
+        "min_longitude": "-176.2",
+        "postal_code": false,
         "region": "Oceania",
+        "region_code": "009",
         "region_un": "Oceania",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Polynesia"
+        "subregion": "Polynesia",
+        "subregion_code": "061",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Tonga",
     "gu_a3": "TON",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "TO",
+    "iso_3166_1_alpha3": "TON",
+    "iso_3166_1_numeric": "776",
     "iso_a2": "TO",
     "iso_a3": "TON",
     "iso_a3_eh": "TON",
     "iso_n3": "776",
     "labelrank": "4.00",
+    "languages": {
+        "eng": "English",
+        "ton": "Tongan"
+    },
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +132,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Tonga",
+        "native": {
+            "eng": {
+                "common": "Tonga",
+                "official": "Kingdom of Tonga"
+            },
+            "ton": {
+                "common": "Tonga",
+                "official": "Kingdom of Tonga"
+            }
+        },
         "official": "Kingdom of Tonga"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "Tonga",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "106479.00",
     "pop_rank": "9.00",
     "pop_year": "2017.00",
@@ -82,6 +164,63 @@
     "su_dif": "0.00",
     "subunit": "Tonga",
     "tiny": "3.00",
+    "tld": [
+        ".to"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Tonga",
+            "official": "K\u00f6nigreich Tonga"
+        },
+        "est": {
+            "common": "Tonga",
+            "official": "Tonga Kuningriik"
+        },
+        "fin": {
+            "common": "Tonga",
+            "official": "Tongan kuningaskunta"
+        },
+        "fra": {
+            "common": "Tonga",
+            "official": "Royaume des Tonga"
+        },
+        "hrv": {
+            "common": "Tonga",
+            "official": "Kraljevina Tonga"
+        },
+        "ita": {
+            "common": "Tonga",
+            "official": "Regno di Tonga"
+        },
+        "jpn": {
+            "common": "\u30c8\u30f3\u30ac",
+            "official": "\u30c8\u30f3\u30ac\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Tonga",
+            "official": "Koninkrijk Tonga"
+        },
+        "por": {
+            "common": "Tonga",
+            "official": "Reino de Tonga"
+        },
+        "rus": {
+            "common": "\u0422\u043e\u043d\u0433\u0430",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0422\u043e\u043d\u0433\u0430"
+        },
+        "slk": {
+            "common": "Tonga",
+            "official": "Tongsk\u00e9 kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Tonga",
+            "official": "Reino de Tonga"
+        },
+        "zho": {
+            "common": "\u6c64\u52a0",
+            "official": "\u6c64\u52a0\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "776",
     "wb_a2": "TO",

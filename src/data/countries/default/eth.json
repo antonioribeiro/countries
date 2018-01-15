@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Ethiopia",
+    "alt_spellings": [
+        "ET",
+        "\u02be\u012aty\u014d\u1e57\u1e57y\u0101",
+        "Federal Democratic Republic of Ethiopia",
+        "\u12e8\u12a2\u1275\u12ee\u1335\u12eb \u134c\u12f4\u122b\u120b\u12ca \u12f2\u121e\u12ad\u122b\u1232\u12eb\u12ca \u122a\u1350\u1265\u120a\u12ad"
+    ],
     "brk_a3": "ETH",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Ethiopia",
+    "capital": "Addis Ababa",
     "cca2": "ET",
     "cca3": "ETH",
     "ccn3": "231",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ETH",
+    "currencies": [
+        "ETB"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Ethiopian",
+    "dialling": {
+        "calling_code": [
+            "251"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "ETH",
+        "cown": 530,
+        "ds": "ETH",
+        "edgar": "H5",
+        "emoji": "\ud83c\uddea\ud83c\uddf9",
+        "eu_member": null,
+        "fao": 238,
+        "fifa": "ETH",
+        "fips": "ET",
+        "gaul": 79,
+        "geonameid": 337996,
+        "imf": 644,
+        "ioc": "ETH",
+        "itu": "ETH",
+        "marc": "et",
+        "vat_rates": null,
+        "wmo": "ET"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "ET",
+    "flag": {
+        "emoji": "\ud83c\uddea\ud83c\uddf9"
+    },
     "formal_en": "Federal Democratic Republic of Ethiopia",
     "formal_fr": "",
     "gdp_md_est": "174700.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 1104300,
+        "borders": [
+            "DJI",
+            "ERI",
+            "KEN",
+            "SOM",
+            "SSD",
+            "SDN"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "8 00 N",
+        "latitude_desc": "8.626703262329102",
+        "latlng": [
+            8,
+            38
+        ],
+        "longitude": "38 00 E",
+        "longitude_desc": "39.63755416870117",
+        "max_latitude": "14.698889",
+        "max_longitude": "47.45",
+        "min_latitude": "3.433333",
+        "min_longitude": "33.033333",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Ethiopia",
     "gu_a3": "ETH",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "ET",
+    "iso_3166_1_alpha3": "ETH",
+    "iso_3166_1_numeric": "231",
     "iso_a2": "ET",
     "iso_a3": "ETH",
     "iso_a3_eh": "ETH",
     "iso_n3": "231",
     "labelrank": "2.00",
+    "languages": {
+        "amh": "Amharic"
+    },
     "lastcensus": "2007.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +139,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Ethiopia",
+        "native": {
+            "amh": {
+                "common": "\u12a2\u1275\u12ee\u1335\u12eb",
+                "official": "\u12e8\u12a2\u1275\u12ee\u1335\u12eb \u134c\u12f4\u122b\u120b\u12ca \u12f2\u121e\u12ad\u122b\u1232\u12eb\u12ca \u122a\u1350\u1265\u120a\u12ad"
+            }
+        },
         "official": "Federal Democratic Republic of Ethiopia"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Ethiopia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "105350020.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
@@ -82,6 +167,67 @@
     "su_dif": "0.00",
     "subunit": "Ethiopia",
     "tiny": "-99.00",
+    "tld": [
+        ".et"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Ethiopia",
+            "official": "Federal Democratic Republic of Ethiopia"
+        },
+        "deu": {
+            "common": "\u00c4thiopien",
+            "official": "Demokratische Bundesrepublik \u00c4thiopien"
+        },
+        "est": {
+            "common": "Etioopia",
+            "official": "Etioopia Demokraatlik Liitvabariik"
+        },
+        "fin": {
+            "common": "Etiopia",
+            "official": "Etiopian demokraattinen liittotasavalta"
+        },
+        "fra": {
+            "common": "\u00c9thiopie",
+            "official": "R\u00e9publique f\u00e9d\u00e9rale d\u00e9mocratique d'\u00c9thiopie"
+        },
+        "hrv": {
+            "common": "Etiopija",
+            "official": "Savezna Demokratska Republika Etiopija"
+        },
+        "ita": {
+            "common": "Etiopia",
+            "official": "Repubblica federale democratica di Etiopia"
+        },
+        "jpn": {
+            "common": "\u30a8\u30c1\u30aa\u30d4\u30a2",
+            "official": "\u30a8\u30c1\u30aa\u30d4\u30a2\u9023\u90a6\u6c11\u4e3b\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Ethiopi\u00eb",
+            "official": "Federale Democratische Republiek Ethiopi\u00eb"
+        },
+        "por": {
+            "common": "Eti\u00f3pia",
+            "official": "Rep\u00fablica Federal Democr\u00e1tica da Eti\u00f3pia"
+        },
+        "rus": {
+            "common": "\u042d\u0444\u0438\u043e\u043f\u0438\u044f",
+            "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u042d\u0444\u0438\u043e\u043f\u0438\u044f"
+        },
+        "slk": {
+            "common": "Eti\u00f3pia",
+            "official": "Eti\u00f3pska federat\u00edvna demokratick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Etiop\u00eda",
+            "official": "Rep\u00fablica Democr\u00e1tica Federal de Etiop\u00eda"
+        },
+        "zho": {
+            "common": "\u57c3\u585e\u4fc4\u6bd4\u4e9a",
+            "official": "\u57c3\u585e\u4fc4\u6bd4\u4e9a\u8054\u90a6\u6c11\u4e3b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "231",
     "wb_a2": "ET",

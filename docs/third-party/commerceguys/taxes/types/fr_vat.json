@@ -1,0 +1,66 @@
+{
+    "name": "French VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "fr_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "fr_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "fr_vat_standard_2004",
+                    "amount": 0.196,
+                    "start_date": "2004-04-01",
+                    "end_date": "2013-12-31"
+                },
+                {
+                    "id": "fr_vat_standard_2014",
+                    "amount": 0.2,
+                    "start_date": "2014-01-01"
+                }
+            ]
+        },
+        {
+            "id": "fr_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "fr_vat_intermediate_2012",
+                    "amount": 0.07,
+                    "start_date": "2012-01-01",
+                    "end_date": "2013-12-31"
+                },
+                {
+                    "id": "fr_vat_intermediate_2014",
+                    "amount": 0.1,
+                    "start_date": "2014-01-01"
+                }
+            ]
+        },
+        {
+            "id": "fr_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "fr_vat_reduced_1982",
+                    "amount": 0.055,
+                    "start_date": "1982-07-01"
+                }
+            ]
+        },
+        {
+            "id": "fr_vat_super_reduced",
+            "name": "Super Reduced",
+            "amounts": [
+                {
+                    "id": "fr_vat_super_reduced_1986",
+                    "amount": 0.021,
+                    "start_date": "1986-07-01"
+                }
+            ]
+        }
+    ]
+}

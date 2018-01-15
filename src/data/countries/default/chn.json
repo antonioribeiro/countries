@@ -8,43 +8,142 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "China",
+    "alt_spellings": [
+        "CN",
+        "Zh\u014dnggu\u00f3",
+        "Zhongguo",
+        "Zhonghua",
+        "People's Republic of China",
+        "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd",
+        "Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3"
+    ],
     "brk_a3": "CHN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "China",
+    "capital": "Beijing",
     "cca2": "CN",
     "cca3": "CHN",
     "ccn3": "156",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "CHN",
+    "currencies": [
+        "CNY"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Chinese",
+    "dialling": {
+        "calling_code": [
+            "86"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "national_prefix": "0"
+    },
     "economy": "3. Emerging region: BRIC",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}} {{region_short}}{{country}}",
+        "ar5": "ASIA",
+        "cowc": "CHN",
+        "cown": 710,
+        "ds": 0,
+        "edgar": "F4",
+        "emoji": "\ud83c\udde8\ud83c\uddf3",
+        "eu_member": null,
+        "fao": 351,
+        "fifa": "CHN",
+        "fips": "CH",
+        "gaul": 53,
+        "geonameid": 1814991,
+        "imf": 924,
+        "ioc": "CHN",
+        "itu": "CHN",
+        "marc": "cc",
+        "vat_rates": null,
+        "wmo": "CI"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CH",
+    "flag": {
+        "emoji": "\ud83c\udde8\ud83c\uddf3"
+    },
     "formal_en": "People's Republic of China",
     "formal_fr": "",
     "gdp_md_est": "21140000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 9706961,
+        "borders": [
+            "AFG",
+            "BTN",
+            "MMR",
+            "HKG",
+            "IND",
+            "KAZ",
+            "PRK",
+            "KGZ",
+            "LAO",
+            "MAC",
+            "MNG",
+            "PAK",
+            "RUS",
+            "TJK",
+            "VNM",
+            "VNM"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "35 00 N",
+        "latitude_desc": "36.55308532714844",
+        "latlng": [
+            35,
+            105
+        ],
+        "longitude": "105 00 E",
+        "longitude_desc": "103.97543334960938",
+        "max_latitude": "20.7",
+        "max_longitude": "117.816667",
+        "min_latitude": "6.183333",
+        "min_longitude": "106.7",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Eastern Asia"
+        "subregion": "Eastern Asia",
+        "subregion_code": "030",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "China",
     "gu_a3": "CHN",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "CN",
+    "iso_3166_1_alpha3": "CHN",
+    "iso_3166_1_numeric": "156",
     "iso_a2": "CN",
     "iso_a3": "CHN",
     "iso_a3_eh": "CHN",
     "iso_n3": "156",
     "labelrank": "2.00",
+    "languages": {
+        "cmn": "Mandarin"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +156,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "China",
+        "native": {
+            "zho": {
+                "common": "\u4e2d\u56fd",
+                "official": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd"
+            }
+        },
         "official": "People's Republic of China"
     },
     "name_alt": "",
@@ -64,12 +169,19 @@
     "name_len": "5.00",
     "name_long": "China",
     "name_nev": "China",
+    "name_rinvex": {
+        "common": "China",
+        "native": {
+            "cmn": {
+                "common": "\u4e2d\u56fd",
+                "official": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd"
+            }
+        },
+        "official": "People's Republic of China"
+    },
     "name_sort": "China",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1379302771.00",
     "pop_rank": "18.00",
     "pop_year": "2017.00",
@@ -82,6 +194,67 @@
     "su_dif": "0.00",
     "subunit": "China",
     "tiny": "-99.00",
+    "tld": [
+        ".cn",
+        ".\u4e2d\u56fd",
+        ".\u4e2d\u570b",
+        ".\u516c\u53f8",
+        ".\u7f51\u7edc"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Tsieina",
+            "official": "People's Republic of China"
+        },
+        "deu": {
+            "common": "China",
+            "official": "Volksrepublik China"
+        },
+        "est": {
+            "common": "Hiina",
+            "official": "Hiina Rahvavabariik"
+        },
+        "fin": {
+            "common": "Kiina",
+            "official": "Kiinan kansantasavalta"
+        },
+        "fra": {
+            "common": "Chine",
+            "official": "R\u00e9publique populaire de Chine"
+        },
+        "hrv": {
+            "common": "Kina",
+            "official": "Narodna Republika Kina"
+        },
+        "ita": {
+            "common": "Cina",
+            "official": "Repubblica popolare cinese"
+        },
+        "jpn": {
+            "common": "\u4e2d\u56fd",
+            "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "China",
+            "official": "Volksrepubliek China"
+        },
+        "por": {
+            "common": "China",
+            "official": "Rep\u00fablica Popular da China"
+        },
+        "rus": {
+            "common": "\u041a\u0438\u0442\u0430\u0439",
+            "official": "\u041d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0438\u0442\u0430\u0439"
+        },
+        "slk": {
+            "common": "\u010c\u00edna",
+            "official": "\u010c\u00ednska \u013eudov\u00e1 republika"
+        },
+        "spa": {
+            "common": "China",
+            "official": "Rep\u00fablica Popular de China"
+        }
+    },
     "type": "Country",
     "un_a3": "156",
     "wb_a2": "CN",

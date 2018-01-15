@@ -1,0 +1,43 @@
+{
+    "DOP": {
+        "name": "Dominican peso",
+        "iso": {
+            "code": "DOP",
+            "number": "214"
+        },
+        "units": {
+            "major": {
+                "name": "peso",
+                "symbol": "$"
+            },
+            "minor": {
+                "name": "centavo",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "$20",
+                "$50",
+                "$100",
+                "$200",
+                "$500",
+                "$1000",
+                "$2000"
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "$1",
+                "$5",
+                "$10",
+                "$25"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

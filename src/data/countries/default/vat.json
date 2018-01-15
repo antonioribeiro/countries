@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Vatican",
+    "alt_spellings": [
+        "VA",
+        "Holy See (Vatican City State)",
+        "Vatican City State",
+        "Stato della Citt\u00e0 del Vaticano"
+    ],
     "brk_a3": "VAT",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Vatican",
+    "capital": "Vatican City",
     "cca2": "VA",
     "cca3": "VAT",
     "ccn3": "336",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Italian",
+    "dialling": {
+        "calling_code": [
+            "3906698",
+            "379"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": "PAP",
+        "cown": 327,
+        "ds": "V",
+        "edgar": 0,
+        "emoji": "\ud83c\uddfb\ud83c\udde6",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "VAT",
+        "fips": "VT",
+        "gaul": 110,
+        "geonameid": 3164670,
+        "imf": 0,
+        "ioc": 0,
+        "itu": "CVA",
+        "marc": "vc",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "VT",
+    "flag": {
+        "emoji": "\ud83c\uddfb\ud83c\udde6"
+    },
     "formal_en": "State of the Vatican City",
     "formal_fr": "",
     "gdp_md_est": "0.00",
     "gdp_year": "0.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 0.44,
+        "borders": [
+            "ITA"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "41 54 N",
+        "latitude_desc": "41.90308380126953",
+        "latlng": [
+            41.9,
+            12.45
+        ],
+        "longitude": "12 27 E",
+        "longitude_desc": "12.452852249145508",
+        "max_latitude": "41.9",
+        "max_longitude": "12.45",
+        "min_latitude": "41.9",
+        "min_longitude": "12.45",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Vatican",
     "gu_a3": "VAT",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "VA",
+    "iso_3166_1_alpha3": "VAT",
+    "iso_3166_1_numeric": "336",
     "iso_a2": "VA",
     "iso_a3": "VAT",
     "iso_a3_eh": "VAT",
     "iso_n3": "336",
     "labelrank": "6.00",
+    "languages": {
+        "ita": "Italian",
+        "lat": "Latin"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -56,8 +135,18 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Vatican",
-        "official": "State of the Vatican City"
+        "common": "Vatican City",
+        "native": {
+            "ita": {
+                "common": "Vaticano",
+                "official": "Stato della Citt\u00e0 del Vaticano"
+            },
+            "lat": {
+                "common": "Vatican\u00e6",
+                "official": "Status Civitatis Vatican\u00e6"
+            }
+        },
+        "official": "Vatican City State"
     },
     "name_alt": "Holy See",
     "name_ciawf": "Holy See (Vatican City)",
@@ -67,9 +156,6 @@
     "name_sort": "Vatican (Holy See)",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1000.00",
     "pop_rank": "3.00",
     "pop_year": "2015.00",
@@ -82,6 +168,63 @@
     "su_dif": "0.00",
     "subunit": "Vatican",
     "tiny": "4.00",
+    "tld": [
+        ".va"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Vatikanstadt",
+            "official": "Staat Vatikanstadt"
+        },
+        "est": {
+            "common": "Vatikan",
+            "official": "Vatikani Linnriik"
+        },
+        "fin": {
+            "common": "Vatikaani",
+            "official": "Vatikaanin kaupunkivaltio"
+        },
+        "fra": {
+            "common": "Cit\u00e9 du Vatican",
+            "official": "Cit\u00e9 du Vatican"
+        },
+        "hrv": {
+            "common": "Vatikan",
+            "official": "Vatikan"
+        },
+        "ita": {
+            "common": "Citt\u00e0 del Vaticano",
+            "official": "Citt\u00e0 del Vaticano"
+        },
+        "jpn": {
+            "common": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd",
+            "official": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd\u306e\u72b6\u614b"
+        },
+        "nld": {
+            "common": "Vaticaanstad",
+            "official": "Vaticaanstad"
+        },
+        "por": {
+            "common": "Cidade do Vaticano",
+            "official": "Cidade do Vaticano"
+        },
+        "rus": {
+            "common": "\u0412\u0430\u0442\u0438\u043a\u0430\u043d",
+            "official": "\u0413\u043e\u0440\u043e\u0434-\u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0412\u0430\u0442\u0438\u043a\u0430\u043d"
+        },
+        "slk": {
+            "common": "Vatik\u00e1n",
+            "official": "Sv\u00e4t\u00e1 stolica (Vatik\u00e1nsky mestsk\u00fd \u0161t\u00e1t"
+        },
+        "spa": {
+            "common": "Ciudad del Vaticano",
+            "official": "Ciudad del Vaticano"
+        },
+        "zho": {
+            "common": "\u68b5\u8482\u5188",
+            "official": "\u68b5\u8482\u5188\u57ce\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "336",
     "wb_a2": "-99",

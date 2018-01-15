@@ -8,43 +8,121 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Nepal",
+    "alt_spellings": [
+        "NP",
+        "Federal Democratic Republic of Nepal",
+        "Lokt\u0101ntrik Ganatantra Nep\u0101l"
+    ],
     "brk_a3": "NPL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Nepal",
+    "capital": "Kathmandu",
     "cca2": "NP",
     "cca3": "NPL",
     "ccn3": "524",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "NEP",
+    "currencies": [
+        "NPR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Nepalese",
+    "dialling": {
+        "calling_code": [
+            "977"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "NEP",
+        "cown": 790,
+        "ds": "NEP",
+        "edgar": "P6",
+        "emoji": "\ud83c\uddf3\ud83c\uddf5",
+        "eu_member": null,
+        "fao": 149,
+        "fifa": "NEP",
+        "fips": "NP",
+        "gaul": 175,
+        "geonameid": 1282988,
+        "imf": 558,
+        "ioc": "NEP",
+        "itu": "NPL",
+        "marc": "np",
+        "vat_rates": null,
+        "wmo": "NP"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "NP",
+    "flag": {
+        "emoji": "\ud83c\uddf3\ud83c\uddf5"
+    },
     "formal_en": "Nepal",
     "formal_fr": "",
     "gdp_md_est": "71520.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 147181,
+        "borders": [
+            "CHN",
+            "IND"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "28 00 N",
+        "latitude_desc": "28.259138107299805",
+        "latlng": [
+            28,
+            84
+        ],
+        "longitude": "84 00 E",
+        "longitude_desc": "83.94416046142578",
+        "max_latitude": "30.45",
+        "max_longitude": "88.183333",
+        "min_latitude": "26.45",
+        "min_longitude": "80",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "South Asia",
-        "subregion": "Southern Asia"
+        "subregion": "Southern Asia",
+        "subregion_code": "034",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Nepal",
     "gu_a3": "NPL",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "NP",
+    "iso_3166_1_alpha3": "NPL",
+    "iso_3166_1_numeric": "524",
     "iso_a2": "NP",
     "iso_a3": "NPL",
     "iso_a3_eh": "NPL",
     "iso_n3": "524",
     "labelrank": "3.00",
+    "languages": {
+        "nep": "Nepali"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,19 +135,32 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Nepal",
-        "official": "Nepal"
+        "native": {
+            "nep": {
+                "common": "\u0928\u0947\u092a\u093e\u0932",
+                "official": "\u0928\u0947\u092a\u093e\u0932 \u0938\u0902\u0918\u0940\u092f \u0932\u094b\u0915\u0924\u093e\u0928\u094d\u0924\u094d\u0930\u093f\u0915 \u0917\u0923\u0924\u0928\u094d\u0924\u094d\u0930"
+            }
+        },
+        "official": "Federal Democratic Republic of Nepal"
     },
     "name_alt": "",
     "name_ciawf": "Nepal",
     "name_len": "5.00",
     "name_long": "Nepal",
     "name_nev": "Nepal",
+    "name_rinvex": {
+        "common": "Nepal",
+        "native": {
+            "nep": {
+                "common": "\u0928\u092a\u0932",
+                "official": "\u0928\u0947\u092a\u093e\u0932 \u0938\u0902\u0918\u0940\u092f \u0932\u094b\u0915\u0924\u093e\u0928\u094d\u0924\u094d\u0930\u093f\u0915 \u0917\u0923\u0924\u0928\u094d\u0924\u094d\u0930"
+            }
+        },
+        "official": "Federal Democratic Republic of Nepal"
+    },
     "name_sort": "Nepal",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "29384297.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +173,63 @@
     "su_dif": "0.00",
     "subunit": "Nepal",
     "tiny": "-99.00",
+    "tld": [
+        ".np"
+    ],
+    "translations": {
+        "deu": {
+            "common": "N\u00e9pal",
+            "official": "Demokratischen Bundesrepublik Nepal"
+        },
+        "est": {
+            "common": "Nepal",
+            "official": "Nepali Demokraatlik Liitvabariik"
+        },
+        "fin": {
+            "common": "Nepal",
+            "official": "Nepalin demokraattinen liittotasavalta"
+        },
+        "fra": {
+            "common": "N\u00e9pal",
+            "official": "R\u00e9publique du N\u00e9pal"
+        },
+        "hrv": {
+            "common": "Nepal",
+            "official": "Savezna Demokratska Republika Nepal"
+        },
+        "ita": {
+            "common": "Nepal",
+            "official": "Repubblica federale democratica del Nepal"
+        },
+        "jpn": {
+            "common": "\u30cd\u30d1\u30fc\u30eb",
+            "official": "\u30cd\u30d1\u30fc\u30eb\u9023\u90a6\u6c11\u4e3b\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Nepal",
+            "official": "Federale Democratische Republiek Nepal"
+        },
+        "por": {
+            "common": "Nepal",
+            "official": "Rep\u00fablica Democr\u00e1tica Federal do Nepal"
+        },
+        "rus": {
+            "common": "\u041d\u0435\u043f\u0430\u043b",
+            "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041d\u0435\u043f\u0430\u043b"
+        },
+        "slk": {
+            "common": "Nep\u00e1l",
+            "official": "Nep\u00e1lska federat\u00edvna demokratick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Nepal",
+            "official": "Rep\u00fablica Democr\u00e1tica Federal de Nepal"
+        },
+        "zho": {
+            "common": "\u5c3c\u6cca\u5c14",
+            "official": "\u5c3c\u6cca\u5c14\u8054\u90a6\u6c11\u4e3b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "524",
     "wb_a2": "NP",

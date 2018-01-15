@@ -8,43 +8,126 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Chad",
+    "alt_spellings": [
+        "TD",
+        "Tchad",
+        "Republic of Chad",
+        "R\u00e9publique du Tchad"
+    ],
     "brk_a3": "TCD",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Chad",
+    "capital": "N'Djamena",
     "cca2": "TD",
     "cca3": "TCD",
     "ccn3": "148",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "CHA",
+    "currencies": [
+        "XAF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Chadian",
+    "dialling": {
+        "calling_code": [
+            "235"
+        ],
+        "international_prefix": "15",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "CHA",
+        "cown": 483,
+        "ds": "TCH",
+        "edgar": "F2",
+        "emoji": "\ud83c\uddf9\ud83c\udde9",
+        "eu_member": null,
+        "fao": 39,
+        "fifa": "CHA",
+        "fips": "CD",
+        "gaul": 50,
+        "geonameid": 2434508,
+        "imf": 628,
+        "ioc": "CHA",
+        "itu": "TCD",
+        "marc": "cd",
+        "vat_rates": null,
+        "wmo": "CD"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "CD",
+    "flag": {
+        "emoji": "\ud83c\uddf9\ud83c\udde9"
+    },
     "formal_en": "Republic of Chad",
     "formal_fr": "",
     "gdp_md_est": "30590.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 1284000,
+        "borders": [
+            "CMR",
+            "CAF",
+            "LBY",
+            "NER",
+            "NGA",
+            "SSD"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "15 00 N",
+        "latitude_desc": "15.367652893066406",
+        "latlng": [
+            15,
+            19
+        ],
+        "longitude": "19 00 E",
+        "longitude_desc": "18.66758155822754",
+        "max_latitude": "26",
+        "max_longitude": "24",
+        "min_latitude": "7.5",
+        "min_longitude": "2",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Middle Africa"
+        "subregion": "Middle Africa",
+        "subregion_code": "017",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Chad",
     "gu_a3": "TCD",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "TD",
+    "iso_3166_1_alpha3": "TCD",
+    "iso_3166_1_numeric": "148",
     "iso_a2": "TD",
     "iso_a3": "TCD",
     "iso_a3_eh": "TCD",
     "iso_n3": "148",
     "labelrank": "3.00",
+    "languages": {
+        "ara": "Arabic",
+        "fra": "French"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "4.00",
@@ -57,6 +140,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Chad",
+        "native": {
+            "ara": {
+                "common": "\u062a\u0634\u0627\u062f\u200e",
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u062a\u0634\u0627\u062f"
+            },
+            "fra": {
+                "common": "Tchad",
+                "official": "R\u00e9publique du Tchad"
+            }
+        },
         "official": "Republic of Chad"
     },
     "name_alt": "",
@@ -67,9 +160,6 @@
     "name_sort": "Chad",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "12075985.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +172,67 @@
     "su_dif": "0.00",
     "subunit": "Chad",
     "tiny": "-99.00",
+    "tld": [
+        ".td"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Tsiad",
+            "official": "Republic of Chad"
+        },
+        "deu": {
+            "common": "Tschad",
+            "official": "Republik Tschad"
+        },
+        "est": {
+            "common": "T\u0161aad",
+            "official": "T\u0161aadi Vabariik"
+        },
+        "fin": {
+            "common": "T\u0161ad",
+            "official": "T\u0161adin tasavalta"
+        },
+        "fra": {
+            "common": "Tchad",
+            "official": "R\u00e9publique du Tchad"
+        },
+        "hrv": {
+            "common": "\u010cad",
+            "official": "\u010cadu"
+        },
+        "ita": {
+            "common": "Ciad",
+            "official": "Repubblica del Ciad"
+        },
+        "jpn": {
+            "common": "\u30c1\u30e3\u30c9",
+            "official": "\u30c1\u30e3\u30c9\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Tsjaad",
+            "official": "Republiek Tsjaad"
+        },
+        "por": {
+            "common": "Chade",
+            "official": "Rep\u00fablica do Chade"
+        },
+        "rus": {
+            "common": "\u0427\u0430\u0434",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0427\u0430\u0434"
+        },
+        "slk": {
+            "common": "\u010cad",
+            "official": "\u010cadsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Chad",
+            "official": "Rep\u00fablica de Chad"
+        },
+        "zho": {
+            "common": "\u4e4d\u5f97",
+            "official": "\u4e4d\u5f97\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "148",
     "wb_a2": "TD",

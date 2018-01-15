@@ -8,43 +8,134 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Spain",
+    "alt_spellings": [
+        "ES",
+        "Kingdom of Spain",
+        "Reino de Espa\u00f1a"
+    ],
     "brk_a3": "ESP",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Spain",
+    "capital": "Madrid",
     "cca2": "ES",
     "cca3": "ESP",
     "ccn3": "724",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "ESP",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Spanish",
+    "dialling": {
+        "calling_code": [
+            "34"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{region}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "SPN",
+        "cown": 230,
+        "ds": "E",
+        "edgar": "U3",
+        "emoji": "\ud83c\uddea\ud83c\uddf8",
+        "eu_member": true,
+        "fao": 203,
+        "fifa": "ESP",
+        "fips": "SP",
+        "gaul": 229,
+        "geonameid": 2510769,
+        "imf": 184,
+        "ioc": "ESP",
+        "itu": "E",
+        "marc": "sp",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                10
+            ],
+            "standard": 21,
+            "super_reduced": 4
+        },
+        "wmo": "SP"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SP",
+    "flag": {
+        "emoji": "\ud83c\uddea\ud83c\uddf8"
+    },
     "formal_en": "Kingdom of Spain",
     "formal_fr": "",
     "gdp_md_est": "1690000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 505992,
+        "borders": [
+            "AND",
+            "FRA",
+            "GIB",
+            "PRT",
+            "MAR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "40 00 N",
+        "latitude_desc": "40.396026611328125",
+        "latlng": [
+            40,
+            -4
+        ],
+        "longitude": "4 00 W",
+        "longitude_desc": "-3.550692558288574",
+        "max_latitude": "43.916667",
+        "max_longitude": "4.333333",
+        "min_latitude": "27.633333",
+        "min_longitude": "-18.166667",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Spain",
     "gu_a3": "ESP",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "ES",
+    "iso_3166_1_alpha3": "ESP",
+    "iso_3166_1_numeric": "724",
     "iso_a2": "ES",
     "iso_a3": "ESP",
     "iso_a3_eh": "ESP",
     "iso_n3": "724",
     "labelrank": "2.00",
+    "languages": {
+        "cat": "Catalan",
+        "eus": "Basque",
+        "glg": "Galician",
+        "oci": "Occitan",
+        "spa": "Spanish"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +148,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Spain",
+        "native": {
+            "spa": {
+                "common": "Espa\u00f1a",
+                "official": "Reino de Espa\u00f1a"
+            }
+        },
         "official": "Kingdom of Spain"
     },
     "name_alt": "",
@@ -64,12 +161,35 @@
     "name_len": "5.00",
     "name_long": "Spain",
     "name_nev": "Spain",
+    "name_rinvex": {
+        "common": "Spain",
+        "native": {
+            "cat": {
+                "common": "Espanya",
+                "official": "Regne d'Espanya"
+            },
+            "eus": {
+                "common": "Espainia",
+                "official": "Espainiako Erresuma"
+            },
+            "glg": {
+                "common": "",
+                "official": "Reino de Espa\u00f1a"
+            },
+            "oci": {
+                "common": "Espanha",
+                "official": "Reialme d'Espanha"
+            },
+            "spa": {
+                "common": "Espa\u00f1a",
+                "official": "Reino de Espa\u00f1a"
+            }
+        },
+        "official": "Kingdom of Spain"
+    },
     "name_sort": "Spain",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "48958159.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +202,63 @@
     "su_dif": "0.00",
     "subunit": "Spain",
     "tiny": "-99.00",
+    "tld": [
+        ".es"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Spanien",
+            "official": "K\u00f6nigreich Spanien"
+        },
+        "est": {
+            "common": "Hispaania",
+            "official": "Hispaania Kuningriik"
+        },
+        "fin": {
+            "common": "Espanja",
+            "official": "Espanjan kuningaskunta"
+        },
+        "fra": {
+            "common": "Espagne",
+            "official": "Royaume d'Espagne"
+        },
+        "hrv": {
+            "common": "\u0160panjolska",
+            "official": "Kraljevina \u0160panjolska"
+        },
+        "ita": {
+            "common": "Spagna",
+            "official": "Regno di Spagna"
+        },
+        "jpn": {
+            "common": "\u30b9\u30da\u30a4\u30f3",
+            "official": "\u30b9\u30da\u30a4\u30f3\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Spanje",
+            "official": "Koninkrijk Spanje"
+        },
+        "por": {
+            "common": "Espanha",
+            "official": "Reino de Espanha"
+        },
+        "rus": {
+            "common": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0418\u0441\u043f\u0430\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "\u0160panielsko",
+            "official": "\u0160panielske kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Espa\u00f1a",
+            "official": "Reino de Espa\u00f1a"
+        },
+        "zho": {
+            "common": "\u897f\u73ed\u7259",
+            "official": "\u897f\u73ed\u7259\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "724",
     "wb_a2": "ES",

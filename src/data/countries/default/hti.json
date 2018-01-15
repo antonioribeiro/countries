@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Haiti",
+    "alt_spellings": [
+        "HT",
+        "Republic of Haiti",
+        "R\u00e9publique d'Ha\u00efti",
+        "Repiblik Ayiti"
+    ],
     "brk_a3": "HTI",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Haiti",
+    "capital": "Port-au-Prince",
     "cca2": "HT",
     "cca3": "HTI",
     "ccn3": "332",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "HAI",
+    "currencies": [
+        "HTG",
+        "USD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Haitian",
+    "dialling": {
+        "calling_code": [
+            "509"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "HAI",
+        "cown": 41,
+        "ds": "RH",
+        "edgar": "K1",
+        "emoji": "\ud83c\udded\ud83c\uddf9",
+        "eu_member": null,
+        "fao": 93,
+        "fifa": "HAI",
+        "fips": "HA",
+        "gaul": 108,
+        "geonameid": 3723988,
+        "imf": 263,
+        "ioc": "HAI",
+        "itu": "HTI",
+        "marc": "ht",
+        "vat_rates": null,
+        "wmo": "HA"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "HA",
+    "flag": {
+        "emoji": "\ud83c\udded\ud83c\uddf9"
+    },
     "formal_en": "Republic of Haiti",
     "formal_fr": "",
     "gdp_md_est": "19340.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "North America",
+        "area": 27750,
+        "borders": [
+            "DOM"
+        ],
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "19 00 N",
+        "latitude_desc": "19.0732421875",
+        "latlng": [
+            19,
+            -72.41666666
+        ],
+        "longitude": "72 25 W",
+        "longitude_desc": "-72.24127960205078",
+        "max_latitude": "20.083333",
+        "max_longitude": "-71.633333",
+        "min_latitude": "18.016667",
+        "min_longitude": "-74.483333",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Haiti",
     "gu_a3": "HTI",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "HT",
+    "iso_3166_1_alpha3": "HTI",
+    "iso_3166_1_numeric": "332",
     "iso_a2": "HT",
     "iso_a3": "HTI",
     "iso_a3_eh": "HTI",
     "iso_n3": "332",
     "labelrank": "5.00",
+    "languages": {
+        "fra": "French",
+        "hat": "Haitian Creole"
+    },
     "lastcensus": "2003.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +136,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Haiti",
+        "native": {
+            "fra": {
+                "common": "Ha\u00efti",
+                "official": "R\u00e9publique d'Ha\u00efti"
+            },
+            "hat": {
+                "common": "Ayiti",
+                "official": "Repiblik Ayiti"
+            }
+        },
         "official": "Republic of Haiti"
     },
     "name_alt": "",
@@ -67,9 +156,6 @@
     "name_sort": "Haiti",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "10646714.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +168,63 @@
     "su_dif": "0.00",
     "subunit": "Haiti",
     "tiny": "-99.00",
+    "tld": [
+        ".ht"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Haiti",
+            "official": "Republik Haiti"
+        },
+        "est": {
+            "common": "Haiti",
+            "official": "Haiti Vabariik"
+        },
+        "fin": {
+            "common": "Haiti",
+            "official": "Haitin tasavalta"
+        },
+        "fra": {
+            "common": "Ha\u00efti",
+            "official": "R\u00e9publique d'Ha\u00efti"
+        },
+        "hrv": {
+            "common": "Haiti",
+            "official": "Republika Haiti"
+        },
+        "ita": {
+            "common": "Haiti",
+            "official": "Repubblica di Haiti"
+        },
+        "jpn": {
+            "common": "\u30cf\u30a4\u30c1",
+            "official": "\u30cf\u30a4\u30c1\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Ha\u00efti",
+            "official": "Republiek Ha\u00efti"
+        },
+        "por": {
+            "common": "Haiti",
+            "official": "Rep\u00fablica do Haiti"
+        },
+        "rus": {
+            "common": "\u0413\u0430\u0438\u0442\u0438",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0413\u0430\u0438\u0442\u0438"
+        },
+        "slk": {
+            "common": "Haiti",
+            "official": "Haitsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Haiti",
+            "official": "Rep\u00fablica de Hait\u00ed"
+        },
+        "zho": {
+            "common": "\u6d77\u5730",
+            "official": "\u6d77\u5730\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "332",
     "wb_a2": "HT",

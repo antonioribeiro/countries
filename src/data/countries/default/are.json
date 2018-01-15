@@ -8,43 +8,122 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "United Arab Emirates",
+    "alt_spellings": [
+        "AE",
+        "UAE",
+        "Emirates"
+    ],
     "brk_a3": "ARE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
     "cca2": "AE",
     "cca3": "ARE",
     "ccn3": "784",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "UAE",
+    "currencies": [
+        "AED"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Emirati",
+    "dialling": {
+        "calling_code": [
+            "971"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "MAF",
+        "cowc": "UAE",
+        "cown": 696,
+        "ds": 0,
+        "edgar": "C0",
+        "emoji": "\ud83c\udde6\ud83c\uddea",
+        "eu_member": null,
+        "fao": 225,
+        "fifa": "UAE",
+        "fips": "AE",
+        "gaul": 255,
+        "geonameid": 290557,
+        "imf": 466,
+        "ioc": "UAE",
+        "itu": "UAE",
+        "marc": "ts",
+        "vat_rates": null,
+        "wmo": "ER"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AE",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddea"
+    },
     "formal_en": "United Arab Emirates",
     "formal_fr": "",
     "gdp_md_est": "667200.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 83600,
+        "borders": [
+            "OMN",
+            "SAU"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "24 00 N",
+        "latitude_desc": "23.684776306152344",
+        "latlng": [
+            24,
+            54
+        ],
+        "longitude": "54 00 E",
+        "longitude_desc": "54.536643981933594",
+        "max_latitude": "26.133333",
+        "max_longitude": "58",
+        "min_latitude": "22.166667",
+        "min_longitude": "45",
+        "postal_code": false,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "United Arab Emirates",
     "gu_a3": "ARE",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "AE",
+    "iso_3166_1_alpha3": "ARE",
+    "iso_3166_1_numeric": "784",
     "iso_a2": "AE",
     "iso_a3": "ARE",
     "iso_a3_eh": "ARE",
     "iso_n3": "784",
     "labelrank": "4.00",
+    "languages": {
+        "ara": "Arabic"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "20.00",
@@ -57,6 +136,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "United Arab Emirates",
+        "native": {
+            "ara": {
+                "common": "\u062f\u0648\u0644\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+                "official": "\u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629"
+            }
+        },
         "official": "United Arab Emirates"
     },
     "name_alt": "",
@@ -67,9 +152,6 @@
     "name_sort": "United Arab Emirates",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "6072475.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +164,64 @@
     "su_dif": "0.00",
     "subunit": "United Arab Emirates",
     "tiny": "-99.00",
+    "tld": [
+        ".ae",
+        "\u0627\u0645\u0627\u0631\u0627\u062a."
+    ],
+    "translations": {
+        "deu": {
+            "common": "Vereinigte Arabische Emirate",
+            "official": "Vereinigte Arabische Emirate"
+        },
+        "est": {
+            "common": "Araabia \u00dchendemiraadid",
+            "official": "Araabia \u00dchendemiraadid"
+        },
+        "fin": {
+            "common": "Arabiemiraatit",
+            "official": "Yhdistyneet arabiemiirikunnat"
+        },
+        "fra": {
+            "common": "\u00c9mirats arabes unis",
+            "official": "\u00c9mirats arabes unis"
+        },
+        "hrv": {
+            "common": "Ujedinjeni Arapski Emirati",
+            "official": "Ujedinjeni Arapski Emirati"
+        },
+        "ita": {
+            "common": "Emirati Arabi Uniti",
+            "official": "Emirati Arabi Uniti"
+        },
+        "jpn": {
+            "common": "\u30a2\u30e9\u30d6\u9996\u9577\u56fd\u9023\u90a6",
+            "official": "\u30a2\u30e9\u30d6\u9996\u9577\u56fd\u9023\u90a6"
+        },
+        "nld": {
+            "common": "Verenigde Arabische Emiraten",
+            "official": "Verenigde Arabische Emiraten"
+        },
+        "por": {
+            "common": "Emirados \u00c1rabes Unidos",
+            "official": "Emirados \u00c1rabes Unidos"
+        },
+        "rus": {
+            "common": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0451\u043d\u043d\u044b\u0435 \u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0435 \u042d\u043c\u0438\u0440\u0430\u0442\u044b",
+            "official": "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0435 \u042d\u043c\u0438\u0440\u0430\u0442\u044b"
+        },
+        "slk": {
+            "common": "Spojen\u00e9 arabsk\u00e9 emir\u00e1ty",
+            "official": "Spojen\u00e9 arabsk\u00e9 emir\u00e1ty"
+        },
+        "spa": {
+            "common": "Emiratos \u00c1rabes Unidos",
+            "official": "Emiratos \u00c1rabes Unidos"
+        },
+        "zho": {
+            "common": "\u963f\u62c9\u4f2f\u8054\u5408\u914b\u957f\u56fd",
+            "official": "\u963f\u62c9\u4f2f\u8054\u5408\u914b\u957f\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "784",
     "wb_a2": "AE",

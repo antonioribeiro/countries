@@ -1,0 +1,66 @@
+{
+    "name": "Corsican VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "fr_h_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "fr_h_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "fr_h_vat_standard_2004",
+                    "amount": 0.196,
+                    "start_date": "2004-04-01",
+                    "end_date": "2013-12-31"
+                },
+                {
+                    "id": "fr_h_vat_standard_2014",
+                    "amount": 0.2,
+                    "start_date": "2014-01-01"
+                }
+            ]
+        },
+        {
+            "id": "fr_h_vat_special",
+            "name": "Special",
+            "amounts": [
+                {
+                    "id": "fr_h_vat_special_2004",
+                    "amount": 0.08,
+                    "start_date": "2004-04-01",
+                    "end_date": "2013-12-31"
+                },
+                {
+                    "id": "fr_h_vat_special_2014",
+                    "amount": 0.1,
+                    "start_date": "2014-01-01"
+                }
+            ]
+        },
+        {
+            "id": "fr_h_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "fr_h_vat_reduced_1997",
+                    "amount": 0.021,
+                    "start_date": "1997-09-01"
+                }
+            ]
+        },
+        {
+            "id": "fr_h_vat_super_reduced",
+            "name": "Super Reduced",
+            "amounts": [
+                {
+                    "id": "fr_h_vat_super_reduced_1972",
+                    "amount": 0.009,
+                    "start_date": "1972-04-01"
+                }
+            ]
+        }
+    ]
+}

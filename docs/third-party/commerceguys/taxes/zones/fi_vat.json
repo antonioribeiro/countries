@@ -1,0 +1,13 @@
+{
+    "name": "Finland (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "fi_vat_0",
+            "name": "Finland (ex. Åland Islands)",
+            "country_code": "FI",
+            "excluded_postal_codes": "22000:22999"
+        }
+    ]
+}

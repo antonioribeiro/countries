@@ -167,7 +167,7 @@ if (! function_exists('unzip')) {
 
         exec("unzip -o $file");
 
-        if (ends_with('master.zip', $file)) {
+        if (ends_with($file, 'master.zip')) {
             $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
                 return $file !== '.' && $file !== '..' && $file !== $exclude;
             })->first();
@@ -209,7 +209,6 @@ if (! function_exists('load_shapefile')) {
      */
     function load_shapefile($dir)
     {
-        dump(1);
         $shapeRecords = new ShapeFile($dir);
 
         $result = [];
@@ -224,8 +223,6 @@ if (! function_exists('load_shapefile')) {
             unset($data['_deleted']);
 
             $result[] = $data;
-
-            dd($result);
         }
 
         unset($shapeRecords);

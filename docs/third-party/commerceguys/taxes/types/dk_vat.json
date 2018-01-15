@@ -1,0 +1,32 @@
+{
+    "name": "Danish VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "dk_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "dk_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "dk_vat_standard_1992",
+                    "amount": 0.25,
+                    "start_date": "1992-01-01"
+                }
+            ]
+        },
+        {
+            "id": "dk_vat_zero",
+            "name": "Zero",
+            "amounts": [
+                {
+                    "id": "dk_vat_zero",
+                    "amount": 0,
+                    "start_date": "1973-01-01"
+                }
+            ]
+        }
+    ]
+}

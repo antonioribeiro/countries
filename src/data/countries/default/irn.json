@@ -8,43 +8,126 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Iran",
+    "alt_spellings": [
+        "IR",
+        "Islamic Republic of Iran",
+        "Iran, Islamic Republic of",
+        "Jomhuri-ye Esl\u0101mi-ye Ir\u0101n"
+    ],
     "brk_a3": "IRN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Iran",
+    "capital": "Tehran",
     "cca2": "IR",
     "cca3": "IRN",
     "ccn3": "364",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "IRI",
+    "currencies": [
+        "IRR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Iranian",
+    "dialling": {
+        "calling_code": [
+            "98"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "IRN",
+        "cown": 630,
+        "ds": "IR",
+        "edgar": 0,
+        "emoji": "\ud83c\uddee\ud83c\uddf7",
+        "eu_member": null,
+        "fao": 102,
+        "fifa": "IRN",
+        "fips": "IR",
+        "gaul": 117,
+        "geonameid": 130758,
+        "imf": 429,
+        "ioc": "IRI",
+        "itu": "IRN",
+        "marc": "ir",
+        "vat_rates": null,
+        "wmo": "IR"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "IR",
+    "flag": {
+        "emoji": "\ud83c\uddee\ud83c\uddf7"
+    },
     "formal_en": "Islamic Republic of Iran",
     "formal_fr": "",
     "gdp_md_est": "1459000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 1648195,
+        "borders": [
+            "AFG",
+            "ARM",
+            "AZE",
+            "IRQ",
+            "PAK",
+            "TUR",
+            "TKM"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "32 00 N",
+        "latitude_desc": "32.50077819824219",
+        "latlng": [
+            32,
+            53
+        ],
+        "longitude": "53 00 E",
+        "longitude_desc": "54.2942008972168",
+        "max_latitude": "39.7754",
+        "max_longitude": "62",
+        "min_latitude": "25.05",
+        "min_longitude": "27.4455",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Southern Asia"
+        "subregion": "Southern Asia",
+        "subregion_code": "034",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Iran",
     "gu_a3": "IRN",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "IR",
+    "iso_3166_1_alpha3": "IRN",
+    "iso_3166_1_numeric": "364",
     "iso_a2": "IR",
     "iso_a3": "IRN",
     "iso_a3_eh": "IRN",
     "iso_n3": "364",
     "labelrank": "2.00",
+    "languages": {
+        "fas": "Persian"
+    },
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "4.00",
@@ -57,6 +140,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Iran",
+        "native": {
+            "fas": {
+                "common": "\u0627\u06cc\u0631\u0627\u0646",
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0633\u0644\u0627\u0645\u06cc \u0627\u06cc\u0631\u0627\u0646"
+            }
+        },
         "official": "Islamic Republic of Iran"
     },
     "name_alt": "",
@@ -67,9 +156,6 @@
     "name_sort": "Iran, Islamic Rep.",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "82021564.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
@@ -82,6 +168,64 @@
     "su_dif": "0.00",
     "subunit": "Iran",
     "tiny": "-99.00",
+    "tld": [
+        ".ir",
+        "\u0627\u06cc\u0631\u0627\u0646."
+    ],
+    "translations": {
+        "deu": {
+            "common": "Iran",
+            "official": "Islamische Republik Iran"
+        },
+        "est": {
+            "common": "Iraan",
+            "official": "Iraani Islamivabariik"
+        },
+        "fin": {
+            "common": "Iran",
+            "official": "Iranin islamilainen tasavalta"
+        },
+        "fra": {
+            "common": "Iran",
+            "official": "R\u00e9publique islamique d'Iran"
+        },
+        "hrv": {
+            "common": "Iran",
+            "official": "Islamska Republika Iran"
+        },
+        "ita": {
+            "common": "Iran",
+            "official": "Repubblica islamica dell'Iran"
+        },
+        "jpn": {
+            "common": "\u30a4\u30e9\u30f3\u30fb\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd",
+            "official": "\u30a4\u30e9\u30f3\u00b7\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Iran",
+            "official": "Islamitische Republiek Iran"
+        },
+        "por": {
+            "common": "Ir\u00e3o",
+            "official": "Rep\u00fablica Isl\u00e2mica do Ir\u00e3"
+        },
+        "rus": {
+            "common": "\u0418\u0440\u0430\u043d",
+            "official": "\u0418\u0441\u043b\u0430\u043c\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0418\u0440\u0430\u043d"
+        },
+        "slk": {
+            "common": "Ir\u00e1n",
+            "official": "Ir\u00e1nska islamsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Iran",
+            "official": "Rep\u00fablica Isl\u00e1mica de Ir\u00e1n"
+        },
+        "zho": {
+            "common": "\u4f0a\u6717",
+            "official": "\u4f0a\u6717\u4f0a\u65af\u5170\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "364",
     "wb_a2": "IR",

@@ -1,0 +1,13 @@
+{
+    "name": "Austria (VAT)",
+    "scope": "tax",
+    "members": [
+        {
+            "type": "country",
+            "id": "at_vat_0",
+            "name": "Austria (ex. Jungholz and Mittelberg)",
+            "country_code": "AT",
+            "excluded_postal_codes": "6691, 6991:6993"
+        }
+    ]
+}

@@ -8,43 +8,124 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "North Korea",
+    "alt_spellings": [
+        "KP",
+        "Democratic People's Republic of Korea",
+        "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
+        "Chos\u014fn Minjuju\u016di Inmin Konghwaguk",
+        "Korea, Democratic People's Republic of"
+    ],
     "brk_a3": "PRK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Dem. Rep. Korea",
+    "capital": "Pyongyang",
     "cca2": "KP",
     "cca3": "PRK",
     "ccn3": "408",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "PRK",
+    "currencies": [
+        "KPW"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "North Korean",
+    "dialling": {
+        "calling_code": [
+            "850"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "PRK",
+        "cown": 731,
+        "ds": 0,
+        "edgar": 0,
+        "emoji": "\ud83c\uddf0\ud83c\uddf5",
+        "eu_member": null,
+        "fao": 116,
+        "fifa": "PRK",
+        "fips": "KN",
+        "gaul": 67,
+        "geonameid": 1873107,
+        "imf": 0,
+        "ioc": "PRK",
+        "itu": "KRE",
+        "marc": "kn",
+        "vat_rates": null,
+        "wmo": "KR"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "KN",
+    "flag": {
+        "emoji": "\ud83c\uddf0\ud83c\uddf5"
+    },
     "formal_en": "Democratic People's Republic of Korea",
     "formal_fr": "",
     "gdp_md_est": "40000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 120538,
+        "borders": [
+            "CHN",
+            "KOR",
+            "RUS"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "40 00 N",
+        "latitude_desc": "40.077640533447266",
+        "latlng": [
+            40,
+            127
+        ],
+        "longitude": "127 00 E",
+        "longitude_desc": "127.13385009765625",
+        "max_latitude": "43.003889",
+        "max_longitude": "130.672222",
+        "min_latitude": "37.6775",
+        "min_longitude": "124.1875",
+        "postal_code": false,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Eastern Asia"
+        "subregion": "Eastern Asia",
+        "subregion_code": "030",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "North Korea",
     "gu_a3": "PRK",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "KP",
+    "iso_3166_1_alpha3": "PRK",
+    "iso_3166_1_numeric": "408",
     "iso_a2": "KP",
     "iso_a3": "PRK",
     "iso_a3_eh": "PRK",
     "iso_n3": "408",
     "labelrank": "3.00",
+    "languages": {
+        "kor": "Korean"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "15.00",
@@ -57,6 +138,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "North Korea",
+        "native": {
+            "kor": {
+                "common": "\ubd81\ud55c",
+                "official": "\uc870\uc120 \ubbfc\uc8fc\uc8fc\uc758 \uc778\ubbfc \uacf5\ud654\uad6d"
+            }
+        },
         "official": "Democratic People's Republic of Korea"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Korea, Dem. Rep.",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "25248140.00",
     "pop_rank": "15.00",
     "pop_year": "2013.00",
@@ -82,6 +166,63 @@
     "su_dif": "0.00",
     "subunit": "North Korea",
     "tiny": "-99.00",
+    "tld": [
+        ".kp"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Nordkorea",
+            "official": "Demokratische Volksrepublik Korea"
+        },
+        "est": {
+            "common": "P\u00f5hja-Korea",
+            "official": "Korea Rahvademokraatlik Vabariik"
+        },
+        "fin": {
+            "common": "Pohjois-Korea",
+            "official": "Korean demokraattinen kansantasavalta"
+        },
+        "fra": {
+            "common": "Cor\u00e9e du Nord",
+            "official": "R\u00e9publique populaire d\u00e9mocratique de Cor\u00e9e"
+        },
+        "hrv": {
+            "common": "Sjeverna Koreja",
+            "official": "Demokratska Narodna Republika Koreja"
+        },
+        "ita": {
+            "common": "Corea del Nord",
+            "official": "Repubblica democratica popolare di Corea"
+        },
+        "jpn": {
+            "common": "\u671d\u9bae\u6c11\u4e3b\u4e3b\u7fa9\u4eba\u6c11\u5171\u548c\u56fd",
+            "official": "\u671d\u9bae\u6c11\u4e3b\u4e3b\u7fa9\u4eba\u6c11\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Noord-Korea",
+            "official": "Democratische Volksrepubliek Korea"
+        },
+        "por": {
+            "common": "Coreia do Norte",
+            "official": "Rep\u00fablica Popular Democr\u00e1tica da Coreia"
+        },
+        "rus": {
+            "common": "\u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041a\u043e\u0440\u0435\u044f",
+            "official": "\u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u043e-\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0440\u0435\u044f"
+        },
+        "slk": {
+            "common": "K\u00f3rejsk\u00e1 \u013eudovodemokratick\u00e1 republika (K\u013dR, Severn\u00e1 K\u00f3rea)",
+            "official": "K\u00f3rejsk\u00e1 \u013eudovodemokratick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Corea del Norte",
+            "official": "Rep\u00fablica Popular Democr\u00e1tica de Corea"
+        },
+        "zho": {
+            "common": "\u671d\u9c9c",
+            "official": "\u671d\u9c9c\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "408",
     "wb_a2": "KP",

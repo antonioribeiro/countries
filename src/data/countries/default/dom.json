@@ -8,43 +8,119 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Dominican Republic",
+    "alt_spellings": [
+        "DO"
+    ],
     "brk_a3": "DOM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Dominican Rep.",
+    "capital": "Santo Domingo",
     "cca2": "DO",
     "cca3": "DOM",
     "ccn3": "214",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "DOM",
+    "currencies": [
+        "DOP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Dominican",
+    "dialling": {
+        "calling_code": [
+            "1809",
+            "1829",
+            "1849"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "1"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": "DOM",
+        "cown": 42,
+        "ds": "DOM",
+        "edgar": "G8",
+        "emoji": "\ud83c\udde9\ud83c\uddf4",
+        "eu_member": null,
+        "fao": 56,
+        "fifa": "DOM",
+        "fips": "DR",
+        "gaul": 72,
+        "geonameid": 3508796,
+        "imf": 243,
+        "ioc": "DOM",
+        "itu": "DOM",
+        "marc": "dr",
+        "vat_rates": null,
+        "wmo": "DR"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "DR",
+    "flag": {
+        "emoji": "\ud83c\udde9\ud83c\uddf4"
+    },
     "formal_en": "Dominican Republic",
     "formal_fr": "",
     "gdp_md_est": "161900.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "North America",
+        "area": 48671,
+        "borders": [
+            "HTI"
+        ],
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "19 00 N",
+        "latitude_desc": "19.019824981689453",
+        "latlng": [
+            19,
+            -70.66666666
+        ],
+        "longitude": "70 40 W",
+        "longitude_desc": "-70.79285430908203",
+        "max_latitude": "19.933333",
+        "max_longitude": "-68.316667",
+        "min_latitude": "17.473056",
+        "min_longitude": "-71.966667",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Dominican Republic",
     "gu_a3": "DOM",
     "homepart": "1.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "DO",
+    "iso_3166_1_alpha3": "DOM",
+    "iso_3166_1_numeric": "214",
     "iso_a2": "DO",
     "iso_a3": "DOM",
     "iso_a3_eh": "DOM",
     "iso_n3": "214",
     "labelrank": "5.00",
+    "languages": {
+        "spa": "Spanish"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "18.00",
@@ -56,7 +132,13 @@
     "min_label": "4.50",
     "min_zoom": "0.00",
     "name": {
-        "common": "Dominican Rep.",
+        "common": "Dominican Republic",
+        "native": {
+            "spa": {
+                "common": "Rep\u00fablica Dominicana",
+                "official": "Rep\u00fablica Dominicana"
+            }
+        },
         "official": "Dominican Republic"
     },
     "name_alt": "",
@@ -67,9 +149,6 @@
     "name_sort": "Dominican Republic",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "10734247.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +161,67 @@
     "su_dif": "0.00",
     "subunit": "Dominican Republic",
     "tiny": "-99.00",
+    "tld": [
+        ".do"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Gweriniaeth_Dominica",
+            "official": "Dominican Republic"
+        },
+        "deu": {
+            "common": "Dominikanische Republik",
+            "official": "Dominikanische Republik"
+        },
+        "est": {
+            "common": "Dominikaani Vabariik",
+            "official": "Dominikaani Vabariik"
+        },
+        "fin": {
+            "common": "Dominikaaninen tasavalta",
+            "official": "Dominikaaninen tasavalta"
+        },
+        "fra": {
+            "common": "R\u00e9publique dominicaine",
+            "official": "R\u00e9publique Dominicaine"
+        },
+        "hrv": {
+            "common": "Dominikanska Republika",
+            "official": "Dominikanska Republika"
+        },
+        "ita": {
+            "common": "Repubblica Dominicana",
+            "official": "Repubblica Dominicana"
+        },
+        "jpn": {
+            "common": "\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd",
+            "official": "\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Dominicaanse Republiek",
+            "official": "Dominicaanse Republiek"
+        },
+        "por": {
+            "common": "Rep\u00fablica Dominicana",
+            "official": "Rep\u00fablica Dominicana"
+        },
+        "rus": {
+            "common": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+            "official": "\u0414\u043e\u043c\u0438\u043d\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Dominik\u00e1nska republika",
+            "official": "Dominik\u00e1nska republika"
+        },
+        "spa": {
+            "common": "Rep\u00fablica Dominicana",
+            "official": "Rep\u00fablica Dominicana"
+        },
+        "zho": {
+            "common": "\u591a\u660e\u5c3c\u52a0",
+            "official": "\u591a\u660e\u5c3c\u52a0\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "214",
     "wb_a2": "DO",

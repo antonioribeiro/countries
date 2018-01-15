@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Myanmar",
+    "alt_spellings": [
+        "MM",
+        "Burma",
+        "Republic of the Union of Myanmar",
+        "Pyidaunzu Thanm\u0103da My\u0103ma Nainngandaw"
+    ],
     "brk_a3": "MMR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Myanmar",
+    "capital": "Naypyidaw",
     "cca2": "MM",
     "cca3": "MMR",
     "ccn3": "104",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "MYA",
+    "currencies": [
+        "MMK"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Bamar",
+    "dialling": {
+        "calling_code": [
+            "95"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "MYA",
+        "cown": 775,
+        "ds": "BUR",
+        "edgar": "E1",
+        "emoji": "\ud83c\uddf2\ud83c\uddf2",
+        "eu_member": null,
+        "fao": 28,
+        "fifa": "MYA",
+        "fips": "BM",
+        "gaul": 171,
+        "geonameid": 1327865,
+        "imf": 518,
+        "ioc": "MYA",
+        "itu": "MYA",
+        "marc": "br",
+        "vat_rates": null,
+        "wmo": "BM"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BM",
+    "flag": {
+        "emoji": "\ud83c\uddf2\ud83c\uddf2"
+    },
     "formal_en": "Republic of the Union of Myanmar",
     "formal_fr": "",
     "gdp_md_est": "311100.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 676578,
+        "borders": [
+            "BGD",
+            "CHN",
+            "IND",
+            "LAO",
+            "THA"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "22 00 N",
+        "latitude_desc": "20.330142974853516",
+        "latlng": [
+            22,
+            98
+        ],
+        "longitude": "98 00 E",
+        "longitude_desc": "96.52182006835938",
+        "max_latitude": "28.35",
+        "max_longitude": "102",
+        "min_latitude": "6",
+        "min_longitude": "92.190833",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "South-Eastern Asia"
+        "subregion": "South-Eastern Asia",
+        "subregion_code": "035",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Myanmar",
     "gu_a3": "MMR",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "MM",
+    "iso_3166_1_alpha3": "MMR",
+    "iso_3166_1_numeric": "104",
     "iso_a2": "MM",
     "iso_a3": "MMR",
     "iso_a3_eh": "MMR",
     "iso_n3": "104",
     "labelrank": "3.00",
+    "languages": {
+        "mya": "Burmese"
+    },
     "lastcensus": "1983.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +139,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Myanmar",
+        "native": {
+            "mya": {
+                "common": "\u1019\u103c\u1014\u103a\u1019\u102c",
+                "official": "\u1015\u103c\u100a\u103a\u1011\u1031\u102c\u1004\u103a\u1005\u102f \u101e\u1019\u1039\u1019\u1010 \u1019\u103c\u1014\u103a\u1019\u102c\u1014\u102d\u102f\u1004\u103a\u1004\u1036\u1010\u1031\u102c\u103a"
+            }
+        },
         "official": "Republic of the Union of Myanmar"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Myanmar",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "55123814.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
@@ -82,6 +167,63 @@
     "su_dif": "0.00",
     "subunit": "Myanmar",
     "tiny": "-99.00",
+    "tld": [
+        ".mm"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Myanmar",
+            "official": "Republik der Union von Myanmar"
+        },
+        "est": {
+            "common": "Myanmar",
+            "official": "Myanmari Liidu Vabariik"
+        },
+        "fin": {
+            "common": "Myanmar",
+            "official": "Myanmarin liiton tasavalta"
+        },
+        "fra": {
+            "common": "Birmanie",
+            "official": "R\u00e9publique de l'Union du Myanmar"
+        },
+        "hrv": {
+            "common": "Mijanmar",
+            "official": "Republika Unije Mijanmar"
+        },
+        "ita": {
+            "common": "Birmania",
+            "official": "Repubblica dell'Unione di Myanmar"
+        },
+        "jpn": {
+            "common": "\u30df\u30e3\u30f3\u30de\u30fc",
+            "official": "\u30df\u30e3\u30f3\u30de\u30fc\u9023\u90a6\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Myanmar",
+            "official": "Republiek van de Unie van Myanmar"
+        },
+        "por": {
+            "common": "Myanmar",
+            "official": "Rep\u00fablica da Uni\u00e3o de Myanmar"
+        },
+        "rus": {
+            "common": "\u041c\u044c\u044f\u043d\u043c\u0430",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u043e\u044e\u0437\u0430 \u041c\u044c\u044f\u043d\u043c\u0430"
+        },
+        "slk": {
+            "common": "Mjanmarsko",
+            "official": "Mjanmarsk\u00e1 zv\u00e4zov\u00e1 republika"
+        },
+        "spa": {
+            "common": "Myanmar",
+            "official": "Rep\u00fablica de la Uni\u00f3n de Myanmar"
+        },
+        "zho": {
+            "common": "\u7f05\u7538",
+            "official": "\u7f05\u7538\u8054\u90a6\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "104",
     "wb_a2": "MM",

@@ -1,0 +1,50 @@
+{
+    "EGP": {
+        "name": "Egyptian Pound",
+        "iso": {
+            "code": "EGP",
+            "number": "818"
+        },
+        "units": {
+            "major": {
+                "name": "pound",
+                "symbol": "£ "
+            },
+            "minor": {
+                "name": "piastre",
+                "symbol": "Pt",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "Pt5",
+                "Pt10",
+                "Pt25",
+                "Pt50",
+                "£1",
+                "£5",
+                "£10",
+                "£20",
+                "£50",
+                "£100",
+                "£200",
+            ],
+            "rare": [
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "Pt1",
+                "Pt5",
+                "Pt10",
+                "Pt20",
+                "Pt25",
+                "Pt50",
+                "£1"
+            ],
+            "rare": [
+            ]
+        }
+    }
+}

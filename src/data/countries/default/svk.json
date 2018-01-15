@@ -8,43 +8,130 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Slovakia",
+    "alt_spellings": [
+        "SK",
+        "Slovak Republic",
+        "Slovensk\u00e1 republika"
+    ],
     "brk_a3": "SVK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Slovakia",
+    "capital": "Bratislava",
     "cca2": "SK",
     "cca3": "SVK",
     "ccn3": "703",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SVK",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Slovak",
+    "dialling": {
+        "calling_code": [
+            "421"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "EIT",
+        "cowc": "SLO",
+        "cown": 317,
+        "ds": "SK",
+        "edgar": "2B",
+        "emoji": "\ud83c\uddf8\ud83c\uddf0",
+        "eu_member": true,
+        "fao": 199,
+        "fifa": "SVK",
+        "fips": "LO",
+        "gaul": 223,
+        "geonameid": 3057568,
+        "imf": 936,
+        "ioc": "SVK",
+        "itu": "SVK",
+        "marc": "xo",
+        "vat_rates": {
+            "parking": null,
+            "reduced": [
+                10
+            ],
+            "standard": 20,
+            "super_reduced": null
+        },
+        "wmo": "SQ"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "LO",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\uddf0"
+    },
     "formal_en": "Slovak Republic",
     "formal_fr": "",
     "gdp_md_est": "168800.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 49037,
+        "borders": [
+            "AUT",
+            "CZE",
+            "HUN",
+            "POL",
+            "UKR"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "48 40 N",
+        "latitude_desc": "48.70748519897461",
+        "latlng": [
+            48.66666666,
+            19.5
+        ],
+        "longitude": "19 30 E",
+        "longitude_desc": "19.48488998413086",
+        "max_latitude": "49.6",
+        "max_longitude": "26.5",
+        "min_latitude": "45.5",
+        "min_longitude": "17",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Eastern Europe"
+        "subregion": "Eastern Europe",
+        "subregion_code": "151",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Slovakia",
     "gu_a3": "SVK",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "SK",
+    "iso_3166_1_alpha3": "SVK",
+    "iso_3166_1_numeric": "703",
     "iso_a2": "SK",
     "iso_a3": "SVK",
     "iso_a3_eh": "SVK",
     "iso_n3": "703",
     "labelrank": "6.00",
+    "languages": {
+        "slk": "Slovak"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +144,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Slovakia",
+        "native": {
+            "slk": {
+                "common": "Slovensko",
+                "official": "Slovensk\u00e1 republika"
+            }
+        },
         "official": "Slovak Republic"
     },
     "name_alt": "",
@@ -67,9 +160,6 @@
     "name_sort": "Slovak Republic",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "5445829.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -80,8 +170,66 @@
     "sovereignt": "Slovakia",
     "su_a3": "SVK",
     "su_dif": "0.00",
+    "subregion_nev": "Eastern Europe",
     "subunit": "Slovakia",
     "tiny": "-99.00",
+    "tld": [
+        ".sk"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Slowakei",
+            "official": "Slowakische Republik"
+        },
+        "est": {
+            "common": "Slovakkia",
+            "official": "Slovaki Vabariik"
+        },
+        "fin": {
+            "common": "Slovakia",
+            "official": "Slovakian tasavalta"
+        },
+        "fra": {
+            "common": "Slovaquie",
+            "official": "R\u00e9publique slovaque"
+        },
+        "hrv": {
+            "common": "Slova\u010dka",
+            "official": "slova\u010dka"
+        },
+        "ita": {
+            "common": "Slovacchia",
+            "official": "Repubblica slovacca"
+        },
+        "jpn": {
+            "common": "\u30b9\u30ed\u30d0\u30ad\u30a2",
+            "official": "\u30b9\u30ed\u30d0\u30ad\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Slowakije",
+            "official": "Slowaakse Republiek"
+        },
+        "por": {
+            "common": "Eslov\u00e1quia",
+            "official": "Rep\u00fablica Eslovaca"
+        },
+        "rus": {
+            "common": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f",
+            "official": "\u0421\u043b\u043e\u0432\u0430\u0446\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Slovensko",
+            "official": "Slovensk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Rep\u00fablica Eslovaca",
+            "official": "Rep\u00fablica Eslovaca"
+        },
+        "zho": {
+            "common": "\u65af\u6d1b\u4f10\u514b",
+            "official": "\u65af\u6d1b\u4f10\u514b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "703",
     "wb_a2": "SK",

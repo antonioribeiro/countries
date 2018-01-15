@@ -8,43 +8,120 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Brunei",
+    "alt_spellings": [
+        "BN",
+        "Brunei Darussalam",
+        "Nation of Brunei",
+        "the Abode of Peace"
+    ],
     "brk_a3": "BRN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Brunei",
+    "capital": "Bandar Seri Begawan",
     "cca2": "BN",
     "cca3": "BRN",
     "ccn3": "096",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BRU",
+    "currencies": [
+        "BND"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Bruneian",
+    "dialling": {
+        "calling_code": [
+            "673"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "BRU",
+        "cown": 835,
+        "ds": "BRU",
+        "edgar": "D9",
+        "emoji": "\ud83c\udde7\ud83c\uddf3",
+        "eu_member": null,
+        "fao": 26,
+        "fifa": "BRU",
+        "fips": "BX",
+        "gaul": 40,
+        "geonameid": 1820814,
+        "imf": 516,
+        "ioc": "BRU",
+        "itu": "BRU",
+        "marc": "bx",
+        "vat_rates": null,
+        "wmo": "BD"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BX",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddf3"
+    },
     "formal_en": "Negara Brunei Darussalam",
     "formal_fr": "",
     "gdp_md_est": "33730.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 5765,
+        "borders": [
+            "MYS"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "4 30 N",
+        "latitude_desc": "4.5703840255737305",
+        "latlng": [
+            4.5,
+            114.66666666
+        ],
+        "longitude": "114 40 E",
+        "longitude_desc": "114.74818420410156",
+        "max_latitude": "5.05",
+        "max_longitude": "120",
+        "min_latitude": "-2",
+        "min_longitude": "110",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "South-Eastern Asia"
+        "subregion": "South-Eastern Asia",
+        "subregion_code": "035",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Brunei",
     "gu_a3": "BRN",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "BN",
+    "iso_3166_1_alpha3": "BRN",
+    "iso_3166_1_numeric": "096",
     "iso_a2": "BN",
     "iso_a3": "BRN",
     "iso_a3_eh": "BRN",
     "iso_n3": "096",
     "labelrank": "6.00",
+    "languages": {
+        "msa": "Malay"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "17.00",
@@ -57,7 +134,13 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Brunei",
-        "official": "Negara Brunei Darussalam"
+        "native": {
+            "msa": {
+                "common": "Negara Brunei Darussalam",
+                "official": "Nation of Brunei, Abode Damai"
+            }
+        },
+        "official": "Nation of Brunei, Abode of Peace"
     },
     "name_alt": "",
     "name_ciawf": "Brunei",
@@ -67,9 +150,6 @@
     "name_sort": "Brunei",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "443593.00",
     "pop_rank": "10.00",
     "pop_year": "2017.00",
@@ -82,6 +162,67 @@
     "su_dif": "0.00",
     "subunit": "Brunei",
     "tiny": "2.00",
+    "tld": [
+        ".bn"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Brunei",
+            "official": "Nation of Brunei, Abode of Peace"
+        },
+        "deu": {
+            "common": "Brunei",
+            "official": "Nation von Brunei, Wohnung des Friedens"
+        },
+        "est": {
+            "common": "Brunei",
+            "official": "Brunei Darussalami Riik"
+        },
+        "fin": {
+            "common": "Brunei",
+            "official": "Brunei Darussalamin valtio"
+        },
+        "fra": {
+            "common": "Brunei",
+            "official": "\u00c9tat de Brunei Darussalam"
+        },
+        "hrv": {
+            "common": "Brunej",
+            "official": "Nacija od Bruneja, Ku\u0107u Mira"
+        },
+        "ita": {
+            "common": "Brunei",
+            "official": "Nazione di Brunei, Dimora della Pace"
+        },
+        "jpn": {
+            "common": "\u30d6\u30eb\u30cd\u30a4\u30fb\u30c0\u30eb\u30b5\u30e9\u30fc\u30e0",
+            "official": "\u30d6\u30eb\u30cd\u30a4\u3001\u5e73\u548c\u306e\u7cbe\u820e\u306e\u56fd\u5bb6"
+        },
+        "nld": {
+            "common": "Brunei",
+            "official": "Natie van Brunei, de verblijfplaats van de Vrede"
+        },
+        "por": {
+            "common": "Brunei",
+            "official": "Na\u00e7\u00e3o do Brunei, Morada da Paz"
+        },
+        "rus": {
+            "common": "\u0411\u0440\u0443\u043d\u0435\u0439",
+            "official": "\u041d\u0430\u0446\u0438\u044f \u0411\u0440\u0443\u043d\u0435\u0439, \u043e\u0431\u0438\u0442\u0435\u043b\u044c \u043c\u0438\u0440\u0430"
+        },
+        "slk": {
+            "common": "Brunej",
+            "official": "Brunejsk\u00fd sultan\u00e2t"
+        },
+        "spa": {
+            "common": "Brunei",
+            "official": "Naci\u00f3n de Brunei, Morada de la Paz"
+        },
+        "zho": {
+            "common": "\u6587\u83b1",
+            "official": "\u6587\u83b1\u548c\u5e73\u4e4b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "096",
     "wb_a2": "BN",

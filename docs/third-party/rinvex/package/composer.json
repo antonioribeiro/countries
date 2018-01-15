@@ -1,0 +1,73 @@
+{
+    "name": "rinvex/country",
+    "description": "Rinvex Country is a simple and lightweight package for retrieving country details with flexibility. A whole bunch of data including name, demonym, capital, iso codes, dialling codes, geo data, currencies, flags, emoji, and other attributes for all 250 countries worldwide at your fingertips.",
+    "keywords": [
+        "flags",
+        "rinvex",
+        "country",
+        "flexible",
+        "countries",
+        "currencies",
+        "geographic",
+        "languages",
+        "dialling",
+        "demonym",
+        "simple",
+        "emoji",
+        "svg"
+    ],
+    "license": "MIT",
+    "homepage": "https://rinvex.com",
+    "support": {
+        "email": "help@rinvex.com",
+        "issues": "https://github.com/rinvex/country/issues",
+        "source": "https://github.com/rinvex/country",
+        "docs": "https://github.com/rinvex/country/blob/master/README.md"
+    },
+    "authors": [
+        {
+            "name": "Rinvex LLC",
+            "homepage": "https://rinvex.com",
+            "email": "help@rinvex.com"
+        },
+        {
+            "name": "Abdelrahman Omran",
+            "homepage": "https://omranic.com",
+            "email": "me@omranic.com",
+            "role": "Project Lead"
+        },
+        {
+            "name": "The Generous Laravel Community",
+            "homepage": "https://github.com/rinvex/country/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Rinvex\\Country\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rinvex\\Country\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

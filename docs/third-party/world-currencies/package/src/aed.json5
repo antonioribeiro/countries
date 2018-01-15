@@ -1,0 +1,43 @@
+{
+    "AED": {
+        "name": "Emirati Dirham",
+        "iso": {
+            "code": "AED",
+            "number": "784"
+        },
+        "units": {
+            "major": {
+                "name": "dirham",
+                "symbol": ".د.ب"
+            },
+            "minor": {
+                "name": "fils",
+                "symbol": "فلس",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "5.د.ب",
+                "10.د.ب",
+                "20.د.ب",
+                "50.د.ب",
+                "100.د.ب",
+                "200.د.ب",
+                "500.د.ب"
+            ],
+            "rare": [
+                "1000.د.ب",
+            ]
+        },
+        "coins": {
+            "frequent": [
+                "50فلس",
+                "1.د.ب"
+            ],
+            "rare": [
+                "25فلس"
+            ]
+        }
+    }
+}

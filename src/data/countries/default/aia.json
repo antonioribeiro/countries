@@ -8,43 +8,115 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Anguilla",
+    "alt_spellings": [
+        "AI"
+    ],
     "brk_a3": "AIA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Anguilla",
+    "capital": "The Valley",
     "cca2": "AI",
     "cca3": "AIA",
     "ccn3": "660",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "XCD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Anguillian",
+    "dialling": {
+        "calling_code": [
+            "1264"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "1"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": "1A",
+        "emoji": "\ud83c\udde6\ud83c\uddee",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "AIA",
+        "fips": "AV",
+        "gaul": 9,
+        "geonameid": 3573511,
+        "imf": 312,
+        "ioc": "AIA",
+        "itu": "AIA",
+        "marc": "am",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AV",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddee"
+    },
     "formal_en": "",
     "formal_fr": "",
     "gdp_md_est": "175.40",
     "gdp_year": "2009.00",
     "geo": {
+        "area": 91,
         "borders": [],
-        "continent": "North America",
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Territory of GB",
+        "landlocked": false,
+        "latitude": "18 15 N",
+        "latitude_desc": "18.22646713256836",
+        "latlng": [
+            18.25,
+            -63.16666666
+        ],
+        "longitude": "63 10 W",
+        "longitude_desc": "-63.0473518371582",
+        "max_latitude": "18.6",
+        "max_longitude": "-62.916667",
+        "min_latitude": "18.15",
+        "min_longitude": "-63.433333",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Anguilla",
     "gu_a3": "AIA",
     "homepart": "-99.00",
     "income_grp": "3. Upper middle income",
+    "iso_3166_1_alpha2": "AI",
+    "iso_3166_1_alpha3": "AIA",
+    "iso_3166_1_numeric": "660",
     "iso_a2": "AI",
     "iso_a3": "AIA",
     "iso_a3_eh": "AIA",
     "iso_n3": "660",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,7 +129,13 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Anguilla",
-        "official": ""
+        "native": {
+            "eng": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            }
+        },
+        "official": "Anguilla"
     },
     "name_alt": "",
     "name_ciawf": "Anguilla",
@@ -67,9 +145,6 @@
     "name_sort": "Anguilla",
     "note_adm0": "U.K.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "17087.00",
     "pop_rank": "6.00",
     "pop_year": "2017.00",
@@ -82,6 +157,63 @@
     "su_dif": "0.00",
     "subunit": "Anguilla",
     "tiny": "-99.00",
+    "tld": [
+        ".ai"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "est": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "fin": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "fra": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "hrv": {
+            "common": "Angvila",
+            "official": "Anguilla"
+        },
+        "ita": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "jpn": {
+            "common": "\u30a2\u30f3\u30ae\u30e9",
+            "official": "\u30a2\u30f3\u30b0\u30a3\u30e9"
+        },
+        "nld": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "por": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "rus": {
+            "common": "\u0410\u043d\u0433\u0438\u043b\u044c\u044f",
+            "official": "\u0410\u043d\u0433\u0438\u043b\u044c\u044f"
+        },
+        "slk": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "spa": {
+            "common": "Anguilla",
+            "official": "Anguila"
+        },
+        "zho": {
+            "common": "\u5b89\u572d\u62c9",
+            "official": "\u5b89\u572d\u62c9"
+        }
+    },
     "type": "Dependency",
     "un_a3": "660",
     "wb_a2": "-99",

@@ -8,43 +8,127 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Saudi Arabia",
+    "alt_spellings": [
+        "Saudi",
+        "SA",
+        "Kingdom of Saudi Arabia",
+        "Al-Mamlakah al-\u2018Arabiyyah as-Su\u2018\u016bdiyyah"
+    ],
     "brk_a3": "SAU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saudi Arabia",
+    "capital": "Riyadh",
     "cca2": "SA",
     "cca3": "SAU",
     "ccn3": "682",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "KSA",
+    "currencies": [
+        "SAR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Saudi Arabian",
+    "dialling": {
+        "calling_code": [
+            "966"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "MAF",
+        "cowc": "SAU",
+        "cown": 670,
+        "ds": "SA",
+        "edgar": "T0",
+        "emoji": "\ud83c\uddf8\ud83c\udde6",
+        "eu_member": null,
+        "fao": 194,
+        "fifa": "KSA",
+        "fips": "SA",
+        "gaul": 215,
+        "geonameid": 102358,
+        "imf": 456,
+        "ioc": "KSA",
+        "itu": "ARS",
+        "marc": "su",
+        "vat_rates": null,
+        "wmo": "SD"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SA",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\udde6"
+    },
     "formal_en": "Kingdom of Saudi Arabia",
     "formal_fr": "",
     "gdp_md_est": "1731000.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 2149690,
+        "borders": [
+            "IRQ",
+            "JOR",
+            "KWT",
+            "OMN",
+            "QAT",
+            "ARE",
+            "YEM"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "25 00 N",
+        "latitude_desc": "23.994726181030273",
+        "latlng": [
+            25,
+            45
+        ],
+        "longitude": "45 00 E",
+        "longitude_desc": "44.4013557434082",
+        "max_latitude": "32.2",
+        "max_longitude": "55.166667",
+        "min_latitude": "5",
+        "min_longitude": "34.566667",
+        "postal_code": false,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Saudi Arabia",
     "gu_a3": "SAU",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "SA",
+    "iso_3166_1_alpha3": "SAU",
+    "iso_3166_1_numeric": "682",
     "iso_a2": "SA",
     "iso_a3": "SAU",
     "iso_a3_eh": "SAU",
     "iso_n3": "682",
     "labelrank": "2.00",
+    "languages": {
+        "ara": "Arabic"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "12.00",
@@ -57,6 +141,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Saudi Arabia",
+        "native": {
+            "ara": {
+                "common": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+                "official": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629"
+            }
+        },
         "official": "Kingdom of Saudi Arabia"
     },
     "name_alt": "",
@@ -67,9 +157,6 @@
     "name_sort": "Saudi Arabia",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "28571770.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +169,64 @@
     "su_dif": "0.00",
     "subunit": "Saudi Arabia",
     "tiny": "-99.00",
+    "tld": [
+        ".sa",
+        ".\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Saudi-Arabien",
+            "official": "K\u00f6nigreich Saudi-Arabien"
+        },
+        "est": {
+            "common": "Saudi Araabia",
+            "official": "Saudi Araabia Kuningriik"
+        },
+        "fin": {
+            "common": "Saudi-Arabia",
+            "official": "Saudi-Arabian kuningaskunta"
+        },
+        "fra": {
+            "common": "Arabie Saoudite",
+            "official": "Royaume d'Arabie Saoudite"
+        },
+        "hrv": {
+            "common": "Saudijska Arabija",
+            "official": "Kraljevina Saudijska Arabija"
+        },
+        "ita": {
+            "common": "Arabia Saudita",
+            "official": "Arabia Saudita"
+        },
+        "jpn": {
+            "common": "\u30b5\u30a6\u30b8\u30a2\u30e9\u30d3\u30a2",
+            "official": "\u30b5\u30a6\u30b8\u30a2\u30e9\u30d3\u30a2\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Saoedi-Arabi\u00eb",
+            "official": "Koninkrijk van Saoedi-Arabi\u00eb"
+        },
+        "por": {
+            "common": "Ar\u00e1bia Saudita",
+            "official": "Reino da Ar\u00e1bia Saudita"
+        },
+        "rus": {
+            "common": "\u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0432\u0438\u044f",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0421\u0430\u0443\u0434\u043e\u0432\u0441\u043a\u0430\u044f \u0410\u0440\u0430\u0432\u0438\u044f"
+        },
+        "slk": {
+            "common": "Saudsk\u00e1 Ar\u00e1bia",
+            "official": "Saudskoarabsk\u00e9 kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Arabia Saud\u00ed",
+            "official": "Reino de Arabia Saudita"
+        },
+        "zho": {
+            "common": "\u6c99\u7279\u963f\u62c9\u4f2f",
+            "official": "\u6c99\u7279\u963f\u62c9\u4f2f\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "682",
     "wb_a2": "SA",

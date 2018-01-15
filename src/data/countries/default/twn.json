@@ -8,43 +8,130 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Taiwan",
+    "alt_spellings": [
+        "TW",
+        "T\u00e1iw\u0101n",
+        "Republic of China",
+        "\u4e2d\u83ef\u6c11\u570b",
+        "Zh\u014dnghu\u00e1 M\u00edngu\u00f3",
+        "Chinese Taipei"
+    ],
+    "alt_spellings_rinvex": [
+        "TW",
+        "T\u00e1iw\u0101n",
+        "Republic of China",
+        "\u4e2d\u83ef\u6c11\u570b",
+        "Zh\u014dnghu\u00e1 M\u00edngu\u00f3",
+        "Chinese Taipei for IOC",
+        "Taiwan, Province of China"
+    ],
     "brk_a3": "B77",
     "brk_diff": "1.00",
     "brk_group": "",
     "brk_name": "Taiwan",
+    "capital": "Taipei",
     "cca2": "TW",
     "cca3": "TWN",
     "ccn3": "158",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "TPE",
+    "currencies": [
+        "TWD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Taiwanese",
+    "dialling": {
+        "calling_code": [
+            "886"
+        ],
+        "international_prefix": "002",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{city}} {{region_short}} {{postalcode}}{{country}}",
+        "ar5": "ASIA",
+        "cowc": "TAW",
+        "cown": 713,
+        "ds": "RC",
+        "edgar": 0,
+        "emoji": "\ud83c\uddf9\ud83c\uddfc",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "TPE",
+        "fips": "TW",
+        "gaul": 925,
+        "geonameid": 1668284,
+        "imf": 528,
+        "ioc": "TPE",
+        "itu": 0,
+        "marc": "ch",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "TW",
+    "flag": {
+        "emoji": "\ud83c\uddf9\ud83c\uddfc"
+    },
     "formal_en": "",
     "formal_fr": "",
     "gdp_md_est": "1127000.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 36193,
         "borders": [],
-        "continent": "Asia",
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "23 30 N",
+        "latitude_desc": "23.685789108276367",
+        "latlng": [
+            23.5,
+            121
+        ],
+        "longitude": "121 00 E",
+        "longitude_desc": "120.89749145507812",
+        "max_latitude": "26.389444",
+        "max_longitude": "122.107778",
+        "min_latitude": "21.733333",
+        "min_longitude": "118.1152555661",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Eastern Asia"
+        "subregion": "Eastern Asia",
+        "subregion_code": "030",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Taiwan",
     "gu_a3": "TWN",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "TW",
+    "iso_3166_1_alpha3": "TWN",
+    "iso_3166_1_numeric": "158",
     "iso_a2": "TW",
     "iso_a3": "TWN",
     "iso_a3_eh": "TWN",
     "iso_n3": "158",
     "labelrank": "3.00",
+    "languages": {
+        "cmn": "Mandarin"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,19 +144,32 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Taiwan",
-        "official": ""
+        "native": {
+            "zho": {
+                "common": "\u53f0\u7063",
+                "official": "\u4e2d\u83ef\u6c11\u570b"
+            }
+        },
+        "official": "Republic of China (Taiwan)"
     },
     "name_alt": "",
     "name_ciawf": "Taiwan",
     "name_len": "6.00",
     "name_long": "Taiwan",
     "name_nev": "Taiwan",
+    "name_rinvex": {
+        "common": "Taiwan",
+        "native": {
+            "cmn": {
+                "common": "\u81fa\u7063",
+                "official": "\u4e2d\u534e\u6c11\u56fd"
+            }
+        },
+        "official": "Republic of China (Taiwan)"
+    },
     "name_sort": "Taiwan",
     "note_adm0": "",
     "note_brk": "Self admin.; Claimed by China",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "23508428.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +182,66 @@
     "su_dif": "0.00",
     "subunit": "Taiwan",
     "tiny": "-99.00",
+    "tld": [
+        ".tw",
+        ".\u53f0\u7063",
+        ".\u53f0\u6e7e"
+    ],
+    "tld_rinvex": [
+        ".tw",
+        ".\u53f0\u6e7e",
+        ".\u53f0\u7063"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Taiwan",
+            "official": "Republik China (Taiwan)"
+        },
+        "est": {
+            "common": "Taiwan",
+            "official": "Taiwani"
+        },
+        "fin": {
+            "common": "Taiwan",
+            "official": "Kiinan tasavalta"
+        },
+        "fra": {
+            "common": "Ta\u00efwan",
+            "official": "R\u00e9publique de Chine (Ta\u00efwan)"
+        },
+        "hrv": {
+            "common": "Tajvan",
+            "official": "Republika Kina"
+        },
+        "ita": {
+            "common": "Taiwan",
+            "official": "Repubblica cinese (Taiwan)"
+        },
+        "jpn": {
+            "common": "\u53f0\u6e7e\uff08\u53f0\u6e7e\u7701\/\u4e2d\u83ef\u6c11\u56fd\uff09",
+            "official": "\u4e2d\u83ef\u6c11\u56fd"
+        },
+        "nld": {
+            "common": "Taiwan",
+            "official": "Republiek China (Taiwan)"
+        },
+        "por": {
+            "common": "Ilha Formosa",
+            "official": "Rep\u00fablica da China"
+        },
+        "rus": {
+            "common": "\u0422\u0430\u0439\u0432\u0430\u043d\u044c",
+            "official": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Taiwan",
+            "official": "\u010c\u00ednska republika"
+        },
+        "spa": {
+            "common": "Taiw\u00e1n",
+            "official": "Rep\u00fablica de China en Taiw\u00e1n"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "-099",
     "wb_a2": "-99",

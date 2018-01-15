@@ -1,0 +1,44 @@
+{
+    "name": "Slovenian VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "si_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "si_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "si_vat_standard_2004",
+                    "amount": 0.2,
+                    "start_date": "2004-05-01",
+                    "end_date": "2013-06-30"
+                },
+                {
+                    "id": "si_vat_standard_2013",
+                    "amount": 0.22,
+                    "start_date": "2013-07-01"
+                }
+            ]
+        },
+        {
+            "id": "si_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "si_vat_reduced_2004",
+                    "amount": 0.085,
+                    "start_date": "2004-05-01",
+                    "end_date": "2013-06-30"
+                },
+                {
+                    "id": "si_vat_reduced_2013",
+                    "amount": 0.095,
+                    "start_date": "2013-07-01"
+                }
+            ]
+        }
+    ]
+}

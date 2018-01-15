@@ -8,43 +8,128 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Portugal",
+    "alt_spellings": [
+        "PT",
+        "Portuguesa",
+        "Portuguese Republic",
+        "Rep\u00fablica Portuguesa"
+    ],
     "brk_a3": "PR1",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Portugal",
+    "capital": "Lisbon",
     "cca2": "PT",
     "cca3": "PRT",
     "ccn3": "620",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "POR",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Portuguese",
+    "dialling": {
+        "calling_code": [
+            "351"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}} {{region_short}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "POR",
+        "cown": 235,
+        "ds": "P",
+        "edgar": "S1",
+        "emoji": "\ud83c\uddf5\ud83c\uddf9",
+        "eu_member": true,
+        "fao": 174,
+        "fifa": "POR",
+        "fips": "PO",
+        "gaul": 199,
+        "geonameid": 2264397,
+        "imf": 182,
+        "ioc": "POR",
+        "itu": "POR",
+        "marc": "po",
+        "vat_rates": {
+            "parking": 13,
+            "reduced": [
+                6,
+                13
+            ],
+            "standard": 23,
+            "super_reduced": null
+        },
+        "wmo": "PO"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "PO",
+    "flag": {
+        "emoji": "\ud83c\uddf5\ud83c\uddf9"
+    },
     "formal_en": "Portuguese Republic",
     "formal_fr": "",
     "gdp_md_est": "297100.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 92090,
+        "borders": [
+            "ESP"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "39 30 N",
+        "latitude_desc": "39.64200973510742",
+        "latlng": [
+            39.5,
+            -8
+        ],
+        "longitude": "8 00 W",
+        "longitude_desc": "-8.009422302246094",
+        "max_latitude": "42.15",
+        "max_longitude": "-5",
+        "min_latitude": "30.033333",
+        "min_longitude": "-31.266667",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Southern Europe"
+        "subregion": "Southern Europe",
+        "subregion_code": "039",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Portugal",
     "gu_a3": "PRT",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "PT",
+    "iso_3166_1_alpha3": "PRT",
+    "iso_3166_1_numeric": "620",
     "iso_a2": "PT",
     "iso_a3": "PRT",
     "iso_a3_eh": "PRT",
     "iso_n3": "620",
     "labelrank": "2.00",
+    "languages": {
+        "por": "Portuguese"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +142,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Portugal",
+        "native": {
+            "por": {
+                "common": "Portugal",
+                "official": "Rep\u00fablica portugu\u00eas"
+            }
+        },
         "official": "Portuguese Republic"
     },
     "name_alt": "",
@@ -67,9 +158,6 @@
     "name_sort": "Portugal",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "10839514.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +170,63 @@
     "su_dif": "1.00",
     "subunit": "Portugal",
     "tiny": "-99.00",
+    "tld": [
+        ".pt"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Portugal",
+            "official": "Portugiesische Republik"
+        },
+        "est": {
+            "common": "Portugal",
+            "official": "Portugali Vabariik"
+        },
+        "fin": {
+            "common": "Portugali",
+            "official": "Portugalin tasavalta"
+        },
+        "fra": {
+            "common": "Portugal",
+            "official": "R\u00e9publique portugaise"
+        },
+        "hrv": {
+            "common": "Portugal",
+            "official": "Portugalska Republika"
+        },
+        "ita": {
+            "common": "Portogallo",
+            "official": "Repubblica portoghese"
+        },
+        "jpn": {
+            "common": "\u30dd\u30eb\u30c8\u30ac\u30eb",
+            "official": "\u30dd\u30eb\u30c8\u30ac\u30eb\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Portugal",
+            "official": "Portugese Republiek"
+        },
+        "por": {
+            "common": "Portugal",
+            "official": "Rep\u00fablica portugu\u00eas"
+        },
+        "rus": {
+            "common": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0438\u044f",
+            "official": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u044c\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Portugalsko",
+            "official": "Portugalsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Portugal",
+            "official": "Rep\u00fablica Portuguesa"
+        },
+        "zho": {
+            "common": "\u8461\u8404\u7259",
+            "official": "\u8461\u8404\u7259\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "620",
     "wb_a2": "PT",

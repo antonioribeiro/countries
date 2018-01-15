@@ -8,43 +8,123 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Burundi",
+    "alt_spellings": [
+        "BI",
+        "Republic of Burundi",
+        "Republika y'Uburundi",
+        "R\u00e9publique du Burundi"
+    ],
     "brk_a3": "BDI",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Burundi",
+    "capital": "Bujumbura",
     "cca2": "BI",
     "cca3": "BDI",
     "ccn3": "108",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BDI",
+    "currencies": [
+        "BIF"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Burundian",
+    "dialling": {
+        "calling_code": [
+            "257"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "7. Least developed region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "BUI",
+        "cown": 516,
+        "ds": "RU",
+        "edgar": "E2",
+        "emoji": "\ud83c\udde7\ud83c\uddee",
+        "eu_member": null,
+        "fao": 29,
+        "fifa": "BDI",
+        "fips": "BY",
+        "gaul": 43,
+        "geonameid": 433561,
+        "imf": 618,
+        "ioc": "BDI",
+        "itu": "BDI",
+        "marc": "bd",
+        "vat_rates": null,
+        "wmo": "BI"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BY",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\uddee"
+    },
     "formal_en": "Republic of Burundi",
     "formal_fr": "",
     "gdp_md_est": "7892.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 27834,
+        "borders": [
+            "COD",
+            "RWA",
+            "TZA"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "3 30 S",
+        "latitude_desc": "-3.365208148956299",
+        "latlng": [
+            -3.5,
+            30
+        ],
+        "longitude": "30 00 E",
+        "longitude_desc": "29.88650894165039",
+        "max_latitude": "-2.3425",
+        "max_longitude": "30.831389",
+        "min_latitude": "-4.443333",
+        "min_longitude": "29.023889",
+        "postal_code": false,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Eastern Africa"
+        "subregion": "Eastern Africa",
+        "subregion_code": "014",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Burundi",
     "gu_a3": "BDI",
     "homepart": "1.00",
     "income_grp": "5. Low income",
+    "iso_3166_1_alpha2": "BI",
+    "iso_3166_1_alpha3": "BDI",
+    "iso_3166_1_numeric": "108",
     "iso_a2": "BI",
     "iso_a3": "BDI",
     "iso_a3_eh": "BDI",
     "iso_n3": "108",
     "labelrank": "6.00",
+    "languages": {
+        "fra": "French",
+        "run": "Kirundi"
+    },
     "lastcensus": "2008.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +137,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Burundi",
+        "native": {
+            "fra": {
+                "common": "Burundi",
+                "official": "R\u00e9publique du Burundi"
+            },
+            "run": {
+                "common": "Uburundi",
+                "official": "Republika y'Uburundi "
+            }
+        },
         "official": "Republic of Burundi"
     },
     "name_alt": "",
@@ -67,9 +157,6 @@
     "name_sort": "Burundi",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "11466756.00",
     "pop_rank": "14.00",
     "pop_year": "2017.00",
@@ -82,6 +169,67 @@
     "su_dif": "0.00",
     "subunit": "Burundi",
     "tiny": "-99.00",
+    "tld": [
+        ".bi"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Bwrwndi",
+            "official": "Republic of Burundi"
+        },
+        "deu": {
+            "common": "Burundi",
+            "official": "Republik Burundi"
+        },
+        "est": {
+            "common": "Burundi",
+            "official": "Burundi Vabariik"
+        },
+        "fin": {
+            "common": "Burundi",
+            "official": "Burundin tasavalta"
+        },
+        "fra": {
+            "common": "Burundi",
+            "official": "R\u00e9publique du Burundi"
+        },
+        "hrv": {
+            "common": "Burundi",
+            "official": "Burundi"
+        },
+        "ita": {
+            "common": "Burundi",
+            "official": "Repubblica del Burundi"
+        },
+        "jpn": {
+            "common": "\u30d6\u30eb\u30f3\u30b8",
+            "official": "\u30d6\u30eb\u30f3\u30b8\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Burundi",
+            "official": "Republiek Burundi"
+        },
+        "por": {
+            "common": "Burundi",
+            "official": "Rep\u00fablica do Burundi"
+        },
+        "rus": {
+            "common": "\u0411\u0443\u0440\u0443\u043d\u0434\u0438",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0443\u0440\u0443\u043d\u0434\u0438"
+        },
+        "slk": {
+            "common": "Burundi",
+            "official": "Burundsk\u00e1 republika"
+        },
+        "spa": {
+            "common": "Burundi",
+            "official": "Rep\u00fablica de Burundi"
+        },
+        "zho": {
+            "common": "\u5e03\u9686\u8fea",
+            "official": "\u5e03\u9686\u8fea\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "108",
     "wb_a2": "BI",

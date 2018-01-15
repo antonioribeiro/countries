@@ -8,43 +8,116 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Jersey",
+    "alt_spellings": [
+        "JE",
+        "Bailiwick of Jersey",
+        "Bailliage de Jersey",
+        "Bailliage d\u00e9 J\u00e8rri"
+    ],
     "brk_a3": "JEY",
     "brk_diff": "0.00",
     "brk_group": "Channel Islands",
     "brk_name": "Jersey",
+    "capital": "Saint Helier",
     "cca2": "JE",
     "cca3": "JEY",
     "ccn3": "832",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "GBP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Channel Islander",
+    "dialling": {
+        "calling_code": [
+            "44"
+        ],
+        "international_prefix": "",
+        "national_destination_code_lengths": [],
+        "national_number_lengths": [],
+        "national_prefix": ""
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "GBJ",
+        "edgar": "Y9",
+        "emoji": "\ud83c\uddef\ud83c\uddea",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "GBJ",
+        "fips": "JE",
+        "gaul": 128,
+        "geonameid": 3042142,
+        "imf": 0,
+        "ioc": 0,
+        "itu": 0,
+        "marc": "uik",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "JE",
+    "flag": {
+        "emoji": "\ud83c\uddef\ud83c\uddea"
+    },
     "formal_en": "Bailiwick of Jersey",
     "formal_fr": "",
     "gdp_md_est": "5080.00",
     "gdp_year": "2015.00",
     "geo": {
+        "area": 116,
         "borders": [],
-        "continent": "Europe",
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Crown dependency of GB",
+        "landlocked": false,
+        "latitude": "49 15 N",
+        "latitude_desc": "49.2285041809082",
+        "latlng": [
+            49.25,
+            -2.16666666
+        ],
+        "longitude": "2 10 W",
+        "longitude_desc": "-2.1228928565979004",
+        "max_latitude": "49.305833",
+        "max_longitude": "-1.927778",
+        "min_latitude": "49.112778",
+        "min_longitude": "-2.253889",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Northern Europe"
+        "subregion": "Northern Europe",
+        "subregion_code": "154",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Jersey",
     "gu_a3": "JEY",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "JE",
+    "iso_3166_1_alpha3": "JEY",
+    "iso_3166_1_numeric": "832",
     "iso_a2": "JE",
     "iso_a3": "JEY",
     "iso_a3_eh": "JEY",
     "iso_n3": "832",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English",
+        "fra": "French",
+        "nrf": "J\u00e8rriais"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "6.00",
@@ -57,6 +130,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Jersey",
+        "native": {
+            "eng": {
+                "common": "Jersey",
+                "official": "Bailiwick of Jersey"
+            },
+            "fra": {
+                "common": "Jersey",
+                "official": "Bailliage de Jersey"
+            },
+            "nrf": {
+                "common": "J\u00e8rri",
+                "official": "Bailliage d\u00e9 J\u00e8rri"
+            }
+        },
         "official": "Bailiwick of Jersey"
     },
     "name_alt": "",
@@ -67,9 +154,6 @@
     "name_sort": "Jersey",
     "note_adm0": "U.K. crown dependency",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "98840.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
@@ -82,6 +166,63 @@
     "su_dif": "0.00",
     "subunit": "Jersey",
     "tiny": "-99.00",
+    "tld": [
+        ".je"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Jersey",
+            "official": "Vogtei Jersey"
+        },
+        "est": {
+            "common": "Jersey",
+            "official": "Jersey foogtkond"
+        },
+        "fin": {
+            "common": "Jersey",
+            "official": "Jersey"
+        },
+        "fra": {
+            "common": "Jersey",
+            "official": "Bailliage de Jersey"
+        },
+        "hrv": {
+            "common": "Jersey",
+            "official": "Struka od Jersey"
+        },
+        "ita": {
+            "common": "Isola di Jersey",
+            "official": "Baliato di Jersey"
+        },
+        "jpn": {
+            "common": "\u30b8\u30e3\u30fc\u30b8\u30fc",
+            "official": "\u30b8\u30e3\u30fc\u30b8\u306e\u5f97\u610f\u5206\u91ce"
+        },
+        "nld": {
+            "common": "Jersey",
+            "official": "Baljuwschap Jersey"
+        },
+        "por": {
+            "common": "Jersey",
+            "official": "Bailiado de Jersey"
+        },
+        "rus": {
+            "common": "\u0414\u0436\u0435\u0440\u0441\u0438",
+            "official": "\u041a\u043e\u0440\u043e\u043d\u043d\u043e\u0435 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u0414\u0436\u0435\u0440\u0441\u0438"
+        },
+        "slk": {
+            "common": "Jersey",
+            "official": "Bailiwick Jersey"
+        },
+        "spa": {
+            "common": "Jersey",
+            "official": "Bail\u00eda de Jersey"
+        },
+        "zho": {
+            "common": "\u6cfd\u897f\u5c9b",
+            "official": "\u6cfd\u897f\u5c9b"
+        }
+    },
     "type": "Country",
     "un_a3": "832",
     "wb_a2": "JG",

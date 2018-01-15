@@ -8,43 +8,128 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Iraq",
+    "alt_spellings": [
+        "IQ",
+        "Republic of Iraq",
+        "Jumh\u016briyyat al-\u2018Ir\u0101q"
+    ],
     "brk_a3": "IRQ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Iraq",
+    "capital": "Baghdad",
     "cca2": "IQ",
     "cca3": "IRQ",
     "ccn3": "368",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "IRQ",
+    "currencies": [
+        "IQD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Iraqi",
+    "dialling": {
+        "calling_code": [
+            "964"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8,
+            9,
+            10
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "IRQ",
+        "cown": 645,
+        "ds": "IRQ",
+        "edgar": "L0",
+        "emoji": "\ud83c\uddee\ud83c\uddf6",
+        "eu_member": null,
+        "fao": 103,
+        "fifa": "IRQ",
+        "fips": "IZ",
+        "gaul": 118,
+        "geonameid": 99237,
+        "imf": 433,
+        "ioc": "IRQ",
+        "itu": "IRQ",
+        "marc": "iq",
+        "vat_rates": null,
+        "wmo": "IQ"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "IZ",
+    "flag": {
+        "emoji": "\ud83c\uddee\ud83c\uddf6"
+    },
     "formal_en": "Republic of Iraq",
     "formal_fr": "",
     "gdp_md_est": "596700.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 438317,
+        "borders": [
+            "IRN",
+            "JOR",
+            "KWT",
+            "SAU",
+            "SYR",
+            "TUR"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "33 00 N",
+        "latitude_desc": "33.044586181640625",
+        "latlng": [
+            33,
+            44
+        ],
+        "longitude": "44 00 E",
+        "longitude_desc": "43.77495574951172",
+        "max_latitude": "37.352778",
+        "max_longitude": "48.833333",
+        "min_latitude": "28.866667",
+        "min_longitude": "38.800871",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Iraq",
     "gu_a3": "IRQ",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "IQ",
+    "iso_3166_1_alpha3": "IRQ",
+    "iso_3166_1_numeric": "368",
     "iso_a2": "IQ",
     "iso_a3": "IRQ",
     "iso_a3_eh": "IRQ",
     "iso_n3": "368",
     "labelrank": "3.00",
+    "languages": {
+        "ara": "Arabic",
+        "arc": "Aramaic",
+        "ckb": "Sorani"
+    },
     "lastcensus": "1997.00",
     "level": "2.00",
     "long_len": "4.00",
@@ -57,6 +142,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Iraq",
+        "native": {
+            "ara": {
+                "common": "\u0627\u0644\u0639\u0631\u0627\u0642",
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0639\u0631\u0627\u0642"
+            },
+            "arc": {
+                "common": "\u0729\u0718\u073c\u071b\u0722\u0735\u0710",
+                "official": "\u0729\u0718\u073c\u071b\u0722\u0735\u0710 \u0710\u071d\u073c\u072a\u0732\u0729"
+            },
+            "ckb": {
+                "common": "\u06a9\u06c6\u0645\u0627\u0631\u06cc",
+                "official": "\u06a9\u06c6\u0645\u0627\u0631\u06cc \u0639\u06ce\u0631\u0627\u0642"
+            }
+        },
         "official": "Republic of Iraq"
     },
     "name_alt": "",
@@ -67,9 +166,6 @@
     "name_sort": "Iraq",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "39192111.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +178,63 @@
     "su_dif": "0.00",
     "subunit": "Iraq",
     "tiny": "-99.00",
+    "tld": [
+        ".iq"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Irak",
+            "official": "Republik Irak"
+        },
+        "est": {
+            "common": "Iraak",
+            "official": "Iraagi Vabariik"
+        },
+        "fin": {
+            "common": "Irak",
+            "official": "Irakin tasavalta"
+        },
+        "fra": {
+            "common": "Irak",
+            "official": "R\u00e9publique d'Irak"
+        },
+        "hrv": {
+            "common": "Irak",
+            "official": "Republika Irak"
+        },
+        "ita": {
+            "common": "Iraq",
+            "official": "Repubblica dell'Iraq"
+        },
+        "jpn": {
+            "common": "\u30a4\u30e9\u30af",
+            "official": "\u30a4\u30e9\u30af\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Irak",
+            "official": "Republiek Irak"
+        },
+        "por": {
+            "common": "Iraque",
+            "official": "Rep\u00fablica do Iraque"
+        },
+        "rus": {
+            "common": "\u0418\u0440\u0430\u043a",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0418\u0440\u0430\u043a"
+        },
+        "slk": {
+            "common": "Irak",
+            "official": "Irack\u00e1 republika"
+        },
+        "spa": {
+            "common": "Irak",
+            "official": "Rep\u00fablica de Irak"
+        },
+        "zho": {
+            "common": "\u4f0a\u62c9\u514b",
+            "official": "\u4f0a\u62c9\u514b\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "368",
     "wb_a2": "IQ",

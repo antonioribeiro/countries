@@ -8,43 +8,125 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Vietnam",
+    "alt_spellings": [
+        "VN",
+        "Socialist Republic of Vietnam",
+        "C\u1ed9ng h\u00f2a X\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
+        "Viet Nam"
+    ],
     "brk_a3": "VNM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Vietnam",
+    "capital": "Hanoi",
     "cca2": "VN",
     "cca3": "VNM",
     "ccn3": "704",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "VIE",
+    "currencies": [
+        "VND"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Vietnamese",
+    "dialling": {
+        "calling_code": [
+            "84"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            7,
+            8,
+            9,
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "5. Emerging region: G20",
+    "extra": {
+        "address_format": null,
+        "ar5": "ASIA",
+        "cowc": "DRV",
+        "cown": 816,
+        "ds": "VN",
+        "edgar": "Q1",
+        "emoji": "\ud83c\uddfb\ud83c\uddf3",
+        "eu_member": null,
+        "fao": 237,
+        "fifa": "VIE",
+        "fips": "VM",
+        "gaul": 264,
+        "geonameid": 1562822,
+        "imf": 582,
+        "ioc": "VIE",
+        "itu": "VTN",
+        "marc": "vm",
+        "vat_rates": null,
+        "wmo": "VS"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "VM",
+    "flag": {
+        "emoji": "\ud83c\uddfb\ud83c\uddf3"
+    },
     "formal_en": "Socialist Republic of Vietnam",
     "formal_fr": "",
     "gdp_md_est": "594900.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Asia",
+        "area": 331212,
+        "borders": [
+            "KHM",
+            "CHN",
+            "LAO"
+        ],
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "16 10 N",
+        "latitude_desc": "16.9404296875",
+        "latlng": [
+            16.16666666,
+            107.83333333
+        ],
+        "longitude": "107 50 E",
+        "longitude_desc": "106.8164291381836",
+        "max_latitude": "23.666667",
+        "max_longitude": "109.466667",
+        "min_latitude": "8.383333",
+        "min_longitude": "102.216667",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "South-Eastern Asia"
+        "subregion": "South-Eastern Asia",
+        "subregion_code": "035",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Vietnam",
     "gu_a3": "VNM",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "VN",
+    "iso_3166_1_alpha3": "VNM",
+    "iso_3166_1_numeric": "704",
     "iso_a2": "VN",
     "iso_a3": "VNM",
     "iso_a3_eh": "VNM",
     "iso_n3": "704",
     "labelrank": "2.00",
+    "languages": {
+        "vie": "Vietnamese"
+    },
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +139,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Vietnam",
+        "native": {
+            "vie": {
+                "common": "Vi\u1ec7t Nam",
+                "official": "C\u1ed9ng h\u00f2a x\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam"
+            }
+        },
         "official": "Socialist Republic of Vietnam"
     },
     "name_alt": "",
@@ -67,9 +155,6 @@
     "name_sort": "Vietnam",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "96160163.00",
     "pop_rank": "16.00",
     "pop_year": "2017.00",
@@ -82,6 +167,63 @@
     "su_dif": "0.00",
     "subunit": "Vietnam",
     "tiny": "2.00",
+    "tld": [
+        ".vn"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Vietnam",
+            "official": "Sozialistische Republik Vietnam"
+        },
+        "est": {
+            "common": "Vietnam",
+            "official": "Vietnami Sotsialistlik Vabariik"
+        },
+        "fin": {
+            "common": "Vietnam",
+            "official": "Vietnamin sosialistinen tasavalta"
+        },
+        "fra": {
+            "common": "Vi\u00eat Nam",
+            "official": "R\u00e9publique socialiste du Vi\u00eat Nam"
+        },
+        "hrv": {
+            "common": "Vijetnam",
+            "official": "Socijalisti\u010dka Republika Vijetnam"
+        },
+        "ita": {
+            "common": "Vietnam",
+            "official": "Repubblica socialista del Vietnam"
+        },
+        "jpn": {
+            "common": "\u30d9\u30c8\u30ca\u30e0",
+            "official": "\u30d9\u30c8\u30ca\u30e0\u793e\u4f1a\u4e3b\u7fa9\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Vietnam",
+            "official": "Socialistische Republiek Vietnam"
+        },
+        "por": {
+            "common": "Vietname",
+            "official": "Rep\u00fablica Socialista do Vietname"
+        },
+        "rus": {
+            "common": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c",
+            "official": "\u0421\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u044c\u0435\u0442\u043d\u0430\u043c"
+        },
+        "slk": {
+            "common": "Vietnam",
+            "official": "Vietnamsk\u00e1 socialistick\u00e1 republika"
+        },
+        "spa": {
+            "common": "Vietnam",
+            "official": "Rep\u00fablica Socialista de Vietnam"
+        },
+        "zho": {
+            "common": "\u8d8a\u5357",
+            "official": "\u8d8a\u5357\u793e\u4f1a\u4e3b\u4e49\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "704",
     "wb_a2": "VN",

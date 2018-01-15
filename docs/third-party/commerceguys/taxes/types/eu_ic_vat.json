@@ -1,0 +1,20 @@
+{
+    "name": "Intra-Community Supply",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "eu_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "eu_ic_vat",
+            "name": "Intra-Community Supply",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "eu_ic_vat",
+                    "amount": 0
+                }
+            ]
+        }
+    ]
+}

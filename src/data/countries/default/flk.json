@@ -8,43 +8,117 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Falkland Islands",
+    "alt_spellings": [
+        "FK",
+        "Islas Malvinas",
+        "Falkland Islands (Malvinas)"
+    ],
     "brk_a3": "B12",
     "brk_diff": "1.00",
     "brk_group": "",
     "brk_name": "Falkland Is.",
+    "capital": "Stanley",
     "cca2": "FK",
     "cca3": "FLK",
     "ccn3": "238",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "FKP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Falkland Islander",
+    "dialling": {
+        "calling_code": [
+            "500"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            5
+        ],
+        "national_prefix": null
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": 0,
+        "cown": 0,
+        "ds": 0,
+        "edgar": "H7",
+        "emoji": "\ud83c\uddeb\ud83c\uddf0",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "FLK",
+        "fips": "FK",
+        "gaul": 81,
+        "geonameid": 3474414,
+        "imf": 323,
+        "ioc": "FLK",
+        "itu": "FLK",
+        "marc": "fk",
+        "vat_rates": null,
+        "wmo": "FK"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "FK",
+    "flag": {
+        "emoji": "\ud83c\uddeb\ud83c\uddf0"
+    },
     "formal_en": "Falkland Islands",
     "formal_fr": "",
     "gdp_md_est": "281.80",
     "gdp_year": "2012.00",
     "geo": {
+        "area": 12173,
         "borders": [],
-        "continent": "South America",
+        "continent": {
+            "SA": "South America"
+        },
+        "independent": "Territory of GB",
+        "landlocked": false,
+        "latitude": "51 45 S",
+        "latitude_desc": "-51.77312469482422",
+        "latlng": [
+            -51.75,
+            -59
+        ],
+        "longitude": "59 00 W",
+        "longitude_desc": "-59.727909088134766",
+        "max_latitude": "-50.966667",
+        "max_longitude": "-57.666667",
+        "min_latitude": "-52.966667",
+        "min_longitude": "-61.433333",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "South America"
+        "subregion": "South America",
+        "subregion_code": "005",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "Falkland Islands",
     "gu_a3": "FLK",
     "homepart": "-99.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "FK",
+    "iso_3166_1_alpha3": "FLK",
+    "iso_3166_1_numeric": "238",
     "iso_a2": "FK",
     "iso_a3": "FLK",
     "iso_a3_eh": "FLK",
     "iso_n3": "238",
     "labelrank": "5.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "16.00",
@@ -56,7 +130,13 @@
     "min_label": "4.50",
     "min_zoom": "0.00",
     "name": {
-        "common": "Falkland Is.",
+        "common": "Falkland Islands",
+        "native": {
+            "eng": {
+                "common": "Falkland Islands",
+                "official": "Falkland Islands"
+            }
+        },
         "official": "Falkland Islands"
     },
     "name_alt": "Islas Malvinas",
@@ -67,9 +147,6 @@
     "name_sort": "Falkland Islands",
     "note_adm0": "U.K.",
     "note_brk": "Admin. by U.K.; Claimed by Argentina",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "2931.00",
     "pop_rank": "4.00",
     "pop_year": "2014.00",
@@ -82,6 +159,63 @@
     "su_dif": "0.00",
     "subunit": "Falkland Islands",
     "tiny": "-99.00",
+    "tld": [
+        ".fk"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Falklandinseln",
+            "official": "Falkland-Inseln"
+        },
+        "est": {
+            "common": "Falklandi saared",
+            "official": "Falklandi saared"
+        },
+        "fin": {
+            "common": "Falkandinsaaret",
+            "official": "Falkandinsaaret"
+        },
+        "fra": {
+            "common": "\u00celes Malouines",
+            "official": "\u00celes Malouines"
+        },
+        "hrv": {
+            "common": "Falklandski Otoci",
+            "official": "Falklandski otoci"
+        },
+        "ita": {
+            "common": "Isole Falkland o Isole Malvine",
+            "official": "Isole Falkland"
+        },
+        "jpn": {
+            "common": "\u30d5\u30a9\u30fc\u30af\u30e9\u30f3\u30c9\uff08\u30de\u30eb\u30d3\u30ca\u30b9\uff09\u8af8\u5cf6",
+            "official": "\u30d5\u30a9\u30fc\u30af\u30e9\u30f3\u30c9"
+        },
+        "nld": {
+            "common": "Falklandeilanden",
+            "official": "Falkland eilanden"
+        },
+        "por": {
+            "common": "Ilhas Malvinas",
+            "official": "Ilhas Malvinas"
+        },
+        "rus": {
+            "common": "\u0424\u043e\u043b\u043a\u043b\u0435\u043d\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+            "official": "\u0424\u043e\u043b\u043a\u043b\u0435\u043d\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+        },
+        "slk": {
+            "common": "Falklandy",
+            "official": "Falklandsk\u00e9 ostrovy"
+        },
+        "spa": {
+            "common": "Islas Malvinas",
+            "official": "islas Malvinas"
+        },
+        "zho": {
+            "common": "\u798f\u514b\u5170\u7fa4\u5c9b",
+            "official": "\u798f\u514b\u5170\u7fa4\u5c9b"
+        }
+    },
     "type": "Dependency",
     "un_a3": "238",
     "wb_a2": "-99",

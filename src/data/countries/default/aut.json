@@ -8,43 +8,141 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Austria",
+    "alt_spellings": [
+        "AT",
+        "Osterreich",
+        "Oesterreich"
+    ],
     "brk_a3": "AUT",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Austria",
+    "capital": "Vienna",
     "cca2": "AT",
     "cca3": "AUT",
     "ccn3": "040",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "AUT",
+    "currencies": [
+        "EUR"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Austrian",
+    "dialling": {
+        "calling_code": [
+            "43"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            1,
+            2,
+            3
+        ],
+        "national_number_lengths": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "national_prefix": "0"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "AUS",
+        "cown": 305,
+        "ds": "A",
+        "edgar": "C4",
+        "emoji": "\ud83c\udde6\ud83c\uddf9",
+        "eu_member": true,
+        "fao": 11,
+        "fifa": "AUT",
+        "fips": "AU",
+        "gaul": 18,
+        "geonameid": 2782113,
+        "imf": 122,
+        "ioc": "AUT",
+        "itu": "AUT",
+        "marc": "au",
+        "vat_rates": {
+            "parking": 12,
+            "reduced": [
+                10
+            ],
+            "standard": 20,
+            "super_reduced": null
+        },
+        "wmo": "OS"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "AU",
+    "flag": {
+        "emoji": "\ud83c\udde6\ud83c\uddf9"
+    },
     "formal_en": "Republic of Austria",
     "formal_fr": "",
     "gdp_md_est": "416600.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Europe",
+        "area": 83871,
+        "borders": [
+            "CZE",
+            "DEU",
+            "HUN",
+            "ITA",
+            "LIE",
+            "SVK",
+            "SVN",
+            "CHE"
+        ],
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Yes",
+        "landlocked": true,
+        "latitude": "47 20 N",
+        "latitude_desc": "47.58843994140625",
+        "latlng": [
+            47.33333333,
+            13.33333333
+        ],
+        "longitude": "13 20 E",
+        "longitude_desc": "14.14021110534668",
+        "max_latitude": "49.016667",
+        "max_longitude": "19",
+        "min_latitude": "46.377222",
+        "min_longitude": "1.2",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Western Europe"
+        "subregion": "Western Europe",
+        "subregion_code": "155",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Austria",
     "gu_a3": "AUT",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "AT",
+    "iso_3166_1_alpha3": "AUT",
+    "iso_3166_1_numeric": "040",
     "iso_a2": "AT",
     "iso_a3": "AUT",
     "iso_a3_eh": "AUT",
     "iso_n3": "040",
     "labelrank": "4.00",
+    "languages": {
+        "bar": "Austro-Bavarian German"
+    },
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +155,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Austria",
+        "native": {
+            "bar": {
+                "common": "\u00d6sterreich",
+                "official": "Republik \u00d6sterreich"
+            }
+        },
         "official": "Republic of Austria"
     },
     "name_alt": "",
@@ -67,9 +171,6 @@
     "name_sort": "Austria",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "8754413.00",
     "pop_rank": "13.00",
     "pop_year": "2017.00",
@@ -82,6 +183,67 @@
     "su_dif": "0.00",
     "subunit": "Austria",
     "tiny": "-99.00",
+    "tld": [
+        ".at"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Awstria",
+            "official": "Republic of Austria"
+        },
+        "deu": {
+            "common": "\u00d6sterreich",
+            "official": "Republik \u00d6sterreich"
+        },
+        "est": {
+            "common": "Austria",
+            "official": "Austria Vabariik"
+        },
+        "fin": {
+            "common": "It\u00e4valta",
+            "official": "It\u00e4vallan tasavalta"
+        },
+        "fra": {
+            "common": "Autriche",
+            "official": "R\u00e9publique d'Autriche"
+        },
+        "hrv": {
+            "common": "Austrija",
+            "official": "Republika Austrija"
+        },
+        "ita": {
+            "common": "Austria",
+            "official": "Repubblica d'Austria"
+        },
+        "jpn": {
+            "common": "\u30aa\u30fc\u30b9\u30c8\u30ea\u30a2",
+            "official": "\u30aa\u30fc\u30b9\u30c8\u30ea\u30a2\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Oostenrijk",
+            "official": "Republiek Oostenrijk"
+        },
+        "por": {
+            "common": "\u00c1ustria",
+            "official": "Rep\u00fablica da \u00c1ustria"
+        },
+        "rus": {
+            "common": "\u0410\u0432\u0441\u0442\u0440\u0438\u044f",
+            "official": "\u0410\u0432\u0441\u0442\u0440\u0438\u0439\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+        },
+        "slk": {
+            "common": "Rak\u00fasko",
+            "official": "Rak\u00faska republika"
+        },
+        "spa": {
+            "common": "Austria",
+            "official": "Rep\u00fablica de Austria"
+        },
+        "zho": {
+            "common": "\u5965\u5730\u5229",
+            "official": "\u5965\u5730\u5229\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "040",
     "wb_a2": "AT",

@@ -8,43 +8,117 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Bahrain",
+    "alt_spellings": [
+        "BH",
+        "Kingdom of Bahrain",
+        "Mamlakat al-Ba\u1e25rayn"
+    ],
     "brk_a3": "BHR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bahrain",
+    "capital": "Manama",
     "cca2": "BH",
     "cca3": "BHR",
     "ccn3": "048",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "BRN",
+    "currencies": [
+        "BHD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Bahraini",
+    "dialling": {
+        "calling_code": [
+            "973"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            8
+        ],
+        "national_prefix": null
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": "{{recipient}}{{street}}{{postalcode}} {{city}}{{country}}",
+        "ar5": "MAF",
+        "cowc": "BAH",
+        "cown": 692,
+        "ds": "BRN",
+        "edgar": "C6",
+        "emoji": "\ud83c\udde7\ud83c\udded",
+        "eu_member": null,
+        "fao": 13,
+        "fifa": "BHR",
+        "fips": "BA",
+        "gaul": 21,
+        "geonameid": 290291,
+        "imf": 419,
+        "ioc": "BRN",
+        "itu": "BHR",
+        "marc": "ba",
+        "vat_rates": null,
+        "wmo": "BN"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "BA",
+    "flag": {
+        "emoji": "\ud83c\udde7\ud83c\udded"
+    },
     "formal_en": "Kingdom of Bahrain",
     "formal_fr": "",
     "gdp_md_est": "66370.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 765,
         "borders": [],
-        "continent": "Asia",
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "26 00 N",
+        "latitude_desc": "26.094240188598633",
+        "latlng": [
+            26,
+            50.55
+        ],
+        "longitude": "50 33 E",
+        "longitude_desc": "50.54299545288086",
+        "max_latitude": "26.416667",
+        "max_longitude": "50.823333",
+        "min_latitude": "25",
+        "min_longitude": "45",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "Middle East & North Africa",
-        "subregion": "Western Asia"
+        "subregion": "Western Asia",
+        "subregion_code": "145",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Bahrain",
     "gu_a3": "BHR",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "BH",
+    "iso_3166_1_alpha3": "BHR",
+    "iso_3166_1_numeric": "048",
     "iso_a2": "BH",
     "iso_a3": "BHR",
     "iso_a3_eh": "BHR",
     "iso_n3": "048",
     "labelrank": "4.00",
+    "languages": {
+        "ara": "Arabic"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "7.00",
@@ -57,6 +131,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Bahrain",
+        "native": {
+            "ara": {
+                "common": "\u200f\u0627\u0644\u0628\u062d\u0631\u064a\u0646",
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0628\u062d\u0631\u064a\u0646"
+            }
+        },
         "official": "Kingdom of Bahrain"
     },
     "name_alt": "",
@@ -67,9 +147,6 @@
     "name_sort": "Bahrain",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "1410942.00",
     "pop_rank": "12.00",
     "pop_year": "2017.00",
@@ -82,6 +159,67 @@
     "su_dif": "0.00",
     "subunit": "Bahrain",
     "tiny": "2.00",
+    "tld": [
+        ".bh"
+    ],
+    "translations": {
+        "cym": {
+            "common": "Bahrain",
+            "official": "Kingdom of Bahrain"
+        },
+        "deu": {
+            "common": "Bahrain",
+            "official": "K\u00f6nigreich Bahrain"
+        },
+        "est": {
+            "common": "Bahrein",
+            "official": "Bahreini Kuningriik"
+        },
+        "fin": {
+            "common": "Bahrain",
+            "official": "Bahrainin kuningaskunta"
+        },
+        "fra": {
+            "common": "Bahre\u00efn",
+            "official": "Royaume de Bahre\u00efn"
+        },
+        "hrv": {
+            "common": "Bahrein",
+            "official": "Kraljevina Bahrein"
+        },
+        "ita": {
+            "common": "Bahrein",
+            "official": "Regno del Bahrain"
+        },
+        "jpn": {
+            "common": "\u30d0\u30fc\u30ec\u30fc\u30f3",
+            "official": "\u30d0\u30fc\u30ec\u30fc\u30f3\u738b\u56fd"
+        },
+        "nld": {
+            "common": "Bahrein",
+            "official": "Koninkrijk Bahrein"
+        },
+        "por": {
+            "common": "Bahrein",
+            "official": "Reino do Bahrein"
+        },
+        "rus": {
+            "common": "\u0411\u0430\u0445\u0440\u0435\u0439\u043d",
+            "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0411\u0430\u0445\u0440\u0435\u0439\u043d"
+        },
+        "slk": {
+            "common": "Bahrajn",
+            "official": "Bahrajnsk\u00e9 kr\u00e1\u013eovstvo"
+        },
+        "spa": {
+            "common": "Bahrein",
+            "official": "Reino de Bahrein"
+        },
+        "zho": {
+            "common": "\u5df4\u6797",
+            "official": "\u5df4\u6797\u738b\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "048",
     "wb_a2": "BH",

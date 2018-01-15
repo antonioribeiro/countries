@@ -8,43 +8,126 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Sudan",
+    "alt_spellings": [
+        "SD",
+        "Republic of the Sudan",
+        "Jumh\u016br\u012byat as-S\u016bd\u0101n"
+    ],
     "brk_a3": "SDN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Sudan",
+    "capital": "Khartoum",
     "cca2": "SD",
     "cca3": "SDN",
     "ccn3": "729",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "SUD",
+    "currencies": [
+        "SDG"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Sudanese",
+    "dialling": {
+        "calling_code": [
+            "249"
+        ],
+        "international_prefix": "00",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9
+        ],
+        "national_prefix": "0"
+    },
     "economy": "6. Developing region",
+    "extra": {
+        "address_format": null,
+        "ar5": "MAF",
+        "cowc": "SUD",
+        "cown": 625,
+        "ds": "SUD",
+        "edgar": "V2",
+        "emoji": "\ud83c\uddf8\ud83c\udde9",
+        "eu_member": null,
+        "fao": 276,
+        "fifa": "SUD",
+        "fips": "SU",
+        "gaul": 40764,
+        "geonameid": 366755,
+        "imf": 732,
+        "ioc": "SUD",
+        "itu": "SDN",
+        "marc": "sj",
+        "vat_rates": null,
+        "wmo": "SU"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "SU",
+    "flag": {
+        "emoji": "\ud83c\uddf8\ud83c\udde9"
+    },
     "formal_en": "Republic of the Sudan",
     "formal_fr": "",
     "gdp_md_est": "176300.00",
     "gdp_year": "2016.00",
     "geo": {
-        "borders": [],
-        "continent": "Africa",
+        "area": 1886068,
+        "borders": [
+            "CAF",
+            "TCD",
+            "EGY",
+            "ERI",
+            "ETH",
+            "LBY",
+            "SSD"
+        ],
+        "continent": {
+            "AF": "Africa"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "15 00 N",
+        "latitude_desc": "16.085784912109375",
+        "latlng": [
+            15,
+            30
+        ],
+        "longitude": "30 00 E",
+        "longitude_desc": "30.087390899658203",
+        "max_latitude": "27.166667",
+        "max_longitude": "38.833333",
+        "min_latitude": "3.516667",
+        "min_longitude": "21.883333",
+        "postal_code": true,
         "region": "Africa",
+        "region_code": "002",
         "region_un": "Africa",
         "region_wb": "Sub-Saharan Africa",
-        "subregion": "Northern Africa"
+        "subregion": "Northern Africa",
+        "subregion_code": "015",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Sudan",
     "gu_a3": "SDN",
     "homepart": "1.00",
     "income_grp": "4. Lower middle income",
+    "iso_3166_1_alpha2": "SD",
+    "iso_3166_1_alpha3": "SDN",
+    "iso_3166_1_numeric": "729",
     "iso_a2": "SD",
     "iso_a3": "SDN",
     "iso_a3_eh": "SDN",
     "iso_n3": "729",
     "labelrank": "3.00",
+    "languages": {
+        "ara": "Arabic",
+        "eng": "English"
+    },
     "lastcensus": "2008.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +140,16 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Sudan",
+        "native": {
+            "ara": {
+                "common": "\u0627\u0644\u0633\u0648\u062f\u0627\u0646",
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0633\u0648\u062f\u0627\u0646"
+            },
+            "eng": {
+                "common": "Sudan",
+                "official": "Republic of the Sudan"
+            }
+        },
         "official": "Republic of the Sudan"
     },
     "name_alt": "",
@@ -67,9 +160,6 @@
     "name_sort": "Sudan",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "37345935.00",
     "pop_rank": "15.00",
     "pop_year": "2017.00",
@@ -82,6 +172,63 @@
     "su_dif": "0.00",
     "subunit": "Sudan",
     "tiny": "-99.00",
+    "tld": [
+        ".sd"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Sudan",
+            "official": "Republik Sudan"
+        },
+        "est": {
+            "common": "Sudaan",
+            "official": "Sudaani Vabariik"
+        },
+        "fin": {
+            "common": "Sudan",
+            "official": "Sudanin tasavalta"
+        },
+        "fra": {
+            "common": "Soudan",
+            "official": "R\u00e9publique du Soudan"
+        },
+        "hrv": {
+            "common": "Sudan",
+            "official": "Republika Sudan"
+        },
+        "ita": {
+            "common": "Sudan",
+            "official": "Repubblica del Sudan"
+        },
+        "jpn": {
+            "common": "\u30b9\u30fc\u30c0\u30f3",
+            "official": "\u30b9\u30fc\u30c0\u30f3\u5171\u548c\u56fd"
+        },
+        "nld": {
+            "common": "Soedan",
+            "official": "Republiek Soedan"
+        },
+        "por": {
+            "common": "Sud\u00e3o",
+            "official": "Rep\u00fablica do Sud\u00e3o"
+        },
+        "rus": {
+            "common": "\u0421\u0443\u0434\u0430\u043d",
+            "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0443\u0434\u0430\u043d"
+        },
+        "slk": {
+            "common": "Sud\u00e1n",
+            "official": "Sud\u00e1nska republika"
+        },
+        "spa": {
+            "common": "Sud\u00e1n",
+            "official": "Rep\u00fablica de Sud\u00e1n"
+        },
+        "zho": {
+            "common": "\u82cf\u4e39",
+            "official": "\u82cf\u4e39\u5171\u548c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "729",
     "wb_a2": "SD",

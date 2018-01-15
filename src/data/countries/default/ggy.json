@@ -8,43 +8,115 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Guernsey",
+    "alt_spellings": [
+        "GG",
+        "Bailiwick of Guernsey",
+        "Bailliage de Guernesey"
+    ],
     "brk_a3": "GGY",
     "brk_diff": "0.00",
     "brk_group": "Channel Islands",
     "brk_name": "Guernsey",
+    "capital": "St. Peter Port",
     "cca2": "GG",
     "cca3": "GGY",
     "ccn3": "831",
-    "curencies": [],
-    "currencies": [],
+    "cioc": null,
+    "currencies": [
+        "GBP"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Channel Islander",
+    "dialling": {
+        "calling_code": [
+            "44"
+        ],
+        "international_prefix": "",
+        "national_destination_code_lengths": [],
+        "national_number_lengths": [],
+        "national_prefix": ""
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "OECD1990",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "GBG",
+        "edgar": "Y7",
+        "emoji": "\ud83c\uddec\ud83c\uddec",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "GBG",
+        "fips": "GK",
+        "gaul": 104,
+        "geonameid": 3042362,
+        "imf": 0,
+        "ioc": 0,
+        "itu": 0,
+        "marc": "uik",
+        "vat_rates": null,
+        "wmo": 0
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "GK",
+    "flag": {
+        "emoji": "\ud83c\uddec\ud83c\uddec"
+    },
     "formal_en": "Bailiwick of Guernsey",
     "formal_fr": "",
     "gdp_md_est": "3465.00",
     "gdp_year": "2015.00",
     "geo": {
+        "area": 78,
         "borders": [],
-        "continent": "Europe",
+        "continent": {
+            "EU": "Europe"
+        },
+        "independent": "Crown dependency of GB",
+        "landlocked": false,
+        "latitude": "49 28 N",
+        "latitude_desc": "49.72008514404297",
+        "latlng": [
+            49.46666666,
+            -2.58333333
+        ],
+        "longitude": "2 35 W",
+        "longitude_desc": "-2.1999685764312744",
+        "max_latitude": "49.733333",
+        "max_longitude": "-2.158056",
+        "min_latitude": "49.401111",
+        "min_longitude": "-2.7",
+        "postal_code": true,
         "region": "Europe",
+        "region_code": "150",
         "region_un": "Europe",
         "region_wb": "Europe & Central Asia",
-        "subregion": "Northern Europe"
+        "subregion": "Northern Europe",
+        "subregion_code": "154",
+        "world_region": "EMEA"
     },
     "geou_dif": "0.00",
     "geounit": "Guernsey",
     "gu_a3": "GGY",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
+    "iso_3166_1_alpha2": "GG",
+    "iso_3166_1_alpha3": "GGY",
+    "iso_3166_1_numeric": "831",
     "iso_a2": "GG",
     "iso_a3": "GGY",
     "iso_a3_eh": "GGY",
     "iso_n3": "831",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English",
+        "fra": "French",
+        "nfr": "Guern\u00e9siais"
+    },
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "8.00",
@@ -57,6 +129,20 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Guernsey",
+        "native": {
+            "eng": {
+                "common": "Guernsey",
+                "official": "Bailiwick of Guernsey"
+            },
+            "fra": {
+                "common": "Guernesey",
+                "official": "Bailliage de Guernesey"
+            },
+            "nfr": {
+                "common": "Dg\u00e8rn\u00e9siais",
+                "official": "Dg\u00e8rn\u00e9siais"
+            }
+        },
         "official": "Bailiwick of Guernsey"
     },
     "name_alt": "",
@@ -67,9 +153,6 @@
     "name_sort": "Guernsey",
     "note_adm0": "U.K. crown dependency",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "66502.00",
     "pop_rank": "8.00",
     "pop_year": "2017.00",
@@ -82,6 +165,63 @@
     "su_dif": "0.00",
     "subunit": "Guernsey",
     "tiny": "-99.00",
+    "tld": [
+        ".gg"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Guernsey",
+            "official": "Guernsey"
+        },
+        "est": {
+            "common": "Guernsey",
+            "official": "Guernsey foogtkond"
+        },
+        "fin": {
+            "common": "Guernsey",
+            "official": "Guernsey"
+        },
+        "fra": {
+            "common": "Guernesey",
+            "official": "Bailliage de Guernesey"
+        },
+        "hrv": {
+            "common": "Guernsey",
+            "official": "Struka Guernsey"
+        },
+        "ita": {
+            "common": "Guernsey",
+            "official": "Baliato di Guernsey"
+        },
+        "jpn": {
+            "common": "\u30ac\u30fc\u30f3\u30b8\u30fc",
+            "official": "\u30ac\u30fc\u30f3\u30b8\u30fc\u306e\u5f97\u610f\u5206\u91ce"
+        },
+        "nld": {
+            "common": "Guernsey",
+            "official": "Baljuwschap Guernsey"
+        },
+        "por": {
+            "common": "Guernsey",
+            "official": "Bailiado de Guernsey"
+        },
+        "rus": {
+            "common": "\u0413\u0435\u0440\u043d\u0441\u0438",
+            "official": "\u041a\u043e\u0440\u043e\u043d\u043d\u043e\u0435 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u0413\u0435\u0440\u043d\u0441\u0438"
+        },
+        "slk": {
+            "common": "Guernsey",
+            "official": "Guernsey"
+        },
+        "spa": {
+            "common": "Guernsey",
+            "official": "Bail\u00eda de Guernsey"
+        },
+        "zho": {
+            "common": "\u6839\u897f\u5c9b",
+            "official": "\u6839\u897f\u5c9b"
+        }
+    },
     "type": "Country",
     "un_a3": "831",
     "wb_a2": "JG",

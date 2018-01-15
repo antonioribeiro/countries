@@ -1,0 +1,41 @@
+{
+    "PGK": {
+        "name": "Papua New Guinean Kina",
+        "iso": {
+            "code": "PGK",
+            "number": "598"
+        },
+        "units": {
+            "major": {
+                "name": "Kina",
+                "symbol": "K"
+            },
+            "minor": {
+                "name": "Toea",
+                "symbol": "",
+                "majorValue": 0.01
+            }
+        },
+        "banknotes": {
+            "frequent": [
+                "K2",
+                "K5",
+                "K10",
+                "K20",
+                "K50",
+                "K100"
+            ],
+            "rare": []
+        },
+        "coins": {
+            "frequent": [
+                "5",
+                "10",
+                "20",
+                "50",
+                "K1"
+            ],
+            "rare": []
+        }
+    }
+}

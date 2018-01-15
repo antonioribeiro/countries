@@ -8,43 +8,116 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "British Virgin Islands",
+    "alt_spellings": [
+        "VG",
+        "Virgin Islands, British"
+    ],
     "brk_a3": "VGB",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "British Virgin Is.",
+    "capital": "Road Town",
     "cca2": "VG",
     "cca3": "VGB",
     "ccn3": "092",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "IVB",
+    "currencies": [
+        "USD"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Virgin Islander",
+    "dialling": {
+        "calling_code": [
+            "1284"
+        ],
+        "international_prefix": "011",
+        "national_destination_code_lengths": [
+            3
+        ],
+        "national_number_lengths": [
+            10
+        ],
+        "national_prefix": "1"
+    },
     "economy": "2. Developed region: nonG7",
+    "extra": {
+        "address_format": null,
+        "ar5": "LAM",
+        "cowc": 0,
+        "cown": 0,
+        "ds": "BVI",
+        "edgar": 0,
+        "emoji": "\ud83c\uddfb\ud83c\uddec",
+        "eu_member": null,
+        "fao": 0,
+        "fifa": "VGB",
+        "fips": "VI",
+        "gaul": 39,
+        "geonameid": 3577718,
+        "imf": 0,
+        "ioc": "IVB",
+        "itu": "VRG",
+        "marc": "vb",
+        "vat_rates": null,
+        "wmo": "VI"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "VI",
+    "flag": {
+        "emoji": "\ud83c\uddfb\ud83c\uddec"
+    },
     "formal_en": "British Virgin Islands",
     "formal_fr": "",
     "gdp_md_est": "500.00",
     "gdp_year": "2010.00",
     "geo": {
+        "area": 151,
         "borders": [],
-        "continent": "North America",
+        "continent": {
+            "NA": "North America"
+        },
+        "independent": "Territory of GB",
+        "landlocked": false,
+        "latitude": "",
+        "latitude_desc": "18.443071365356445",
+        "latlng": [
+            18.431383,
+            -64.62305
+        ],
+        "longitude": "",
+        "longitude_desc": "-64.57130432128906",
+        "max_latitude": "18.766667",
+        "max_longitude": "-64.266667",
+        "min_latitude": "18.3",
+        "min_longitude": "-64.85",
+        "postal_code": true,
         "region": "Americas",
+        "region_code": "019",
         "region_un": "Americas",
         "region_wb": "Latin America & Caribbean",
-        "subregion": "Caribbean"
+        "subregion": "Caribbean",
+        "subregion_code": "029",
+        "world_region": "AMER"
     },
     "geou_dif": "0.00",
     "geounit": "British Virgin Islands",
     "gu_a3": "VGB",
     "homepart": "-99.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "VG",
+    "iso_3166_1_alpha3": "VGB",
+    "iso_3166_1_numeric": "092",
     "iso_a2": "VG",
     "iso_a3": "VGB",
     "iso_a3_eh": "VGB",
     "iso_n3": "092",
     "labelrank": "6.00",
+    "languages": {
+        "eng": "English"
+    },
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "22.00",
@@ -56,8 +129,14 @@
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "British Virgin Is.",
-        "official": "British Virgin Islands"
+        "common": "British Virgin Islands",
+        "native": {
+            "eng": {
+                "common": "British Virgin Islands",
+                "official": "Virgin Islands"
+            }
+        },
+        "official": "Virgin Islands"
     },
     "name_alt": "",
     "name_ciawf": "British Virgin Islands",
@@ -67,9 +146,6 @@
     "name_sort": "British Virgin Islands",
     "note_adm0": "U.K.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "35015.00",
     "pop_rank": "7.00",
     "pop_year": "2017.00",
@@ -82,6 +158,63 @@
     "su_dif": "0.00",
     "subunit": "British Virgin Islands",
     "tiny": "3.00",
+    "tld": [
+        ".vg"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Britische Jungferninseln",
+            "official": "Jungferninseln"
+        },
+        "est": {
+            "common": "Briti Neitsisaared",
+            "official": "Neitsisaared"
+        },
+        "fin": {
+            "common": "Neitsytsaaret",
+            "official": "Brittil\u00e4iset Neitsytsaaret"
+        },
+        "fra": {
+            "common": "\u00celes Vierges britanniques",
+            "official": "\u00eeles Vierges"
+        },
+        "hrv": {
+            "common": "Britanski Djevi\u010danski Otoci",
+            "official": "Djevi\u010danski Otoci"
+        },
+        "ita": {
+            "common": "Isole Vergini Britanniche",
+            "official": "Isole Vergini"
+        },
+        "jpn": {
+            "common": "\u30a4\u30ae\u30ea\u30b9\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
+            "official": "\u30d0\u30fc\u30b8\u30f3\u8af8\u5cf6"
+        },
+        "nld": {
+            "common": "Britse Maagdeneilanden",
+            "official": "Maagdeneilanden"
+        },
+        "por": {
+            "common": "Ilhas Virgens",
+            "official": "Ilhas Virgens"
+        },
+        "rus": {
+            "common": "\u0411\u0440\u0438\u0442\u0430\u043d\u0441\u043a\u0438\u0435 \u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+            "official": "\u0412\u0438\u0440\u0433\u0438\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+        },
+        "slk": {
+            "common": "Panensk\u00e9 ostrovy",
+            "official": "Panensk\u00e9 ostrovy"
+        },
+        "spa": {
+            "common": "Islas V\u00edrgenes del Reino Unido",
+            "official": "Islas V\u00edrgenes"
+        },
+        "zho": {
+            "common": "\u82f1\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b",
+            "official": "\u82f1\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b"
+        }
+    },
     "type": "Dependency",
     "un_a3": "092",
     "wb_a2": "-99",

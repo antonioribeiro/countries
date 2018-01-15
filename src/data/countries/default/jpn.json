@@ -8,43 +8,118 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "0.00",
     "admin": "Japan",
+    "alt_spellings": [
+        "JP",
+        "Nippon",
+        "Nihon"
+    ],
     "brk_a3": "JPN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Japan",
+    "capital": "Tokyo",
     "cca2": "JP",
     "cca3": "JPN",
     "ccn3": "392",
-    "curencies": [],
-    "currencies": [],
+    "cioc": "JPN",
+    "currencies": [
+        "JPY"
+    ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
+    "demonym": "Japanese",
+    "dialling": {
+        "calling_code": [
+            "81"
+        ],
+        "international_prefix": "010",
+        "national_destination_code_lengths": [
+            2
+        ],
+        "national_number_lengths": [
+            9,
+            10
+        ],
+        "national_prefix": "0"
+    },
     "economy": "1. Developed region: G7",
+    "extra": {
+        "address_format": "\u3012{{postalcode}}{{region_short}}{{city}}{{street}}{{recipient}}{{country}}",
+        "ar5": "OECD1990",
+        "cowc": "JPN",
+        "cown": 740,
+        "ds": "J",
+        "edgar": "M0",
+        "emoji": "\ud83c\uddef\ud83c\uddf5",
+        "eu_member": null,
+        "fao": 110,
+        "fifa": "JPN",
+        "fips": "JA",
+        "gaul": 126,
+        "geonameid": 1861060,
+        "imf": 158,
+        "ioc": "JPN",
+        "itu": "J",
+        "marc": "ja",
+        "vat_rates": null,
+        "wmo": "JP"
+    },
     "featurecla": "Admin-0 country",
     "fips_10_": "JA",
+    "flag": {
+        "emoji": "\ud83c\uddef\ud83c\uddf5"
+    },
     "formal_en": "Japan",
     "formal_fr": "",
     "gdp_md_est": "4932000.00",
     "gdp_year": "2016.00",
     "geo": {
+        "area": 377930,
         "borders": [],
-        "continent": "Asia",
+        "continent": {
+            "AS": "Asia"
+        },
+        "independent": "Yes",
+        "landlocked": false,
+        "latitude": "36 00 N",
+        "latitude_desc": "36.281646728515625",
+        "latlng": [
+            36,
+            138
+        ],
+        "longitude": "138 00 E",
+        "longitude_desc": "139.0772705078125",
+        "max_latitude": "45.520833",
+        "max_longitude": "154",
+        "min_latitude": "20.416667",
+        "min_longitude": "122.933333",
+        "postal_code": true,
         "region": "Asia",
+        "region_code": "142",
         "region_un": "Asia",
         "region_wb": "East Asia & Pacific",
-        "subregion": "Eastern Asia"
+        "subregion": "Eastern Asia",
+        "subregion_code": "030",
+        "world_region": "APAC"
     },
     "geou_dif": "0.00",
     "geounit": "Japan",
     "gu_a3": "JPN",
     "homepart": "1.00",
     "income_grp": "1. High income: OECD",
+    "iso_3166_1_alpha2": "JP",
+    "iso_3166_1_alpha3": "JPN",
+    "iso_3166_1_numeric": "392",
     "iso_a2": "JP",
     "iso_a3": "JPN",
     "iso_a3_eh": "JPN",
     "iso_n3": "392",
     "labelrank": "2.00",
+    "languages": {
+        "jpn": "Japanese"
+    },
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "5.00",
@@ -57,6 +132,12 @@
     "min_zoom": "0.00",
     "name": {
         "common": "Japan",
+        "native": {
+            "jpn": {
+                "common": "\u65e5\u672c",
+                "official": "\u65e5\u672c"
+            }
+        },
         "official": "Japan"
     },
     "name_alt": "",
@@ -67,9 +148,6 @@
     "name_sort": "Japan",
     "note_adm0": "",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "126451398.00",
     "pop_rank": "17.00",
     "pop_year": "2017.00",
@@ -82,6 +160,64 @@
     "su_dif": "0.00",
     "subunit": "Japan",
     "tiny": "-99.00",
+    "tld": [
+        ".jp",
+        ".\u307f\u3093\u306a"
+    ],
+    "translations": {
+        "deu": {
+            "common": "Japan",
+            "official": "Japan"
+        },
+        "est": {
+            "common": "Jaapan",
+            "official": "Jaapan"
+        },
+        "fin": {
+            "common": "Japani",
+            "official": "Japani"
+        },
+        "fra": {
+            "common": "Japon",
+            "official": "Japon"
+        },
+        "hrv": {
+            "common": "Japan",
+            "official": "Japan"
+        },
+        "ita": {
+            "common": "Giappone",
+            "official": "Giappone"
+        },
+        "jpn": {
+            "common": "\u65e5\u672c",
+            "official": "\u65e5\u672c"
+        },
+        "nld": {
+            "common": "Japan",
+            "official": "Japan"
+        },
+        "por": {
+            "common": "Jap\u00e3o",
+            "official": "Jap\u00e3o"
+        },
+        "rus": {
+            "common": "\u042f\u043f\u043e\u043d\u0438\u044f",
+            "official": "\u042f\u043f\u043e\u043d\u0438\u044f"
+        },
+        "slk": {
+            "common": "Japonsko",
+            "official": "Japonsko"
+        },
+        "spa": {
+            "common": "Jap\u00f3n",
+            "official": "Jap\u00f3n"
+        },
+        "zho": {
+            "common": "\u65e5\u672c",
+            "official": "\u65e5\u672c\u56fd"
+        }
+    },
     "type": "Sovereign country",
     "un_a3": "392",
     "wb_a2": "JP",

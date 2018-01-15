@@ -1,0 +1,43 @@
+{
+    "name": "Maltese VAT",
+    "generic_label": "vat",
+    "display_inclusive": true,
+    "zone": "mt_vat",
+    "tag": "EU",
+    "rates": [
+        {
+            "id": "mt_vat_standard",
+            "name": "Standard",
+            "default": true,
+            "amounts": [
+                {
+                    "id": "mt_vat_standard_2004",
+                    "amount": 0.18,
+                    "start_date": "2004-05-01"
+                }
+            ]
+        },
+        {
+            "id": "mt_vat_intermediate",
+            "name": "Intermediate",
+            "amounts": [
+                {
+                    "id": "mt_vat_intermediate_2011",
+                    "amount": 0.07,
+                    "start_date": "2011-01-01"
+                }
+            ]
+        },
+        {
+            "id": "mt_vat_reduced",
+            "name": "Reduced",
+            "amounts": [
+                {
+                    "id": "mt_vat_reduced_2004",
+                    "amount": 0.05,
+                    "start_date": "2004-05-01"
+                }
+            ]
+        }
+    ]
+}
