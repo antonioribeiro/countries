@@ -2,9 +2,9 @@
 
 namespace CommerceGuys\Tax\Resolver\TaxType;
 
+use CommerceGuys\Tax\Resolver\Context;
 use CommerceGuys\Tax\TaxableInterface;
 use CommerceGuys\Tax\Repository\TaxTypeRepositoryInterface;
-use CommerceGuys\Tax\Resolver\Context;
 
 /**
  * Default resolver.

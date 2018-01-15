@@ -2,8 +2,8 @@
 
 namespace CommerceGuys\Tax\Resolver\TaxType;
 
-use CommerceGuys\Tax\TaxableInterface;
 use CommerceGuys\Tax\Resolver\Context;
+use CommerceGuys\Tax\TaxableInterface;
 use CommerceGuys\Tax\Resolver\ResolverSorterTrait;
 
 class ChainTaxTypeResolver implements ChainTaxTypeResolverInterface
@@ -41,7 +41,7 @@ class ChainTaxTypeResolver implements ChainTaxTypeResolverInterface
      */
     public function getResolvers()
     {
-        if (empty($this->sortedResolvers) && !empty($this->resolvers)) {
+        if (empty($this->sortedResolvers) && ! empty($this->resolvers)) {
             $this->sortedResolvers = $this->sortResolvers($this->resolvers);
         }
 

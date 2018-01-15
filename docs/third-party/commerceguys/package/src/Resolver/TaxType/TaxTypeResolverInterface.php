@@ -2,8 +2,8 @@
 
 namespace CommerceGuys\Tax\Resolver\TaxType;
 
-use CommerceGuys\Tax\TaxableInterface;
 use CommerceGuys\Tax\Resolver\Context;
+use CommerceGuys\Tax\TaxableInterface;
 
 /**
  * Tax type resolver interface.

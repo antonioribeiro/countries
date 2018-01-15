@@ -2,9 +2,9 @@
 
 namespace CommerceGuys\Tax\Tests\Repository;
 
+use org\bovigo\vfs\vfsStream;
 use CommerceGuys\Tax\Enum\GenericLabel;
 use CommerceGuys\Tax\Repository\TaxTypeRepository;
-use org\bovigo\vfs\vfsStream;
 
 /**
  * @coversDefaultClass \CommerceGuys\Tax\Repository\TaxTypeRepository
@@ -84,7 +84,7 @@ class TaxTypeRepositoryTest extends \PHPUnit_Framework_TestCase
         $root = vfsStream::setup('resources');
         $directory = vfsStream::newDirectory('tax_type')->at($root);
         foreach ($this->taxTypes as $id => $definition) {
-            $filename = $id . '.json';
+            $filename = $id.'.json';
             vfsStream::newFile($filename)->at($directory)->setContent(json_encode($definition));
         }
 
