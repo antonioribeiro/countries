@@ -3,7 +3,6 @@
 namespace PragmaRX\Countries\Tests\Service;
 
 use PragmaRX\Countries\Tests\TestCase;
-use Illuminate\Support\Facades\Artisan;
 
 class ConsoleCommandsTest extends TestCase
 {

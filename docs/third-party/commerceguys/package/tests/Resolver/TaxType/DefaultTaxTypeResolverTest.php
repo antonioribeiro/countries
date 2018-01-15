@@ -2,10 +2,10 @@
 
 namespace CommerceGuys\Tax\Tests\Resolver;
 
+use org\bovigo\vfs\vfsStream;
 use CommerceGuys\Addressing\AddressInterface;
 use CommerceGuys\Tax\Repository\TaxTypeRepository;
 use CommerceGuys\Tax\Resolver\TaxType\DefaultTaxTypeResolver;
-use org\bovigo\vfs\vfsStream;
 
 /**
  * @coversDefaultClass \CommerceGuys\Tax\Resolver\TaxType\DefaultTaxTypeResolver
@@ -96,12 +96,12 @@ class DefaultTaxTypeResolverTest extends \PHPUnit_Framework_TestCase
         $root = vfsStream::setup('resources');
         $directory = vfsStream::newDirectory('tax_type')->at($root);
         foreach ($this->taxTypes as $id => $definition) {
-            $filename = $id . '.json';
+            $filename = $id.'.json';
             vfsStream::newFile($filename)->at($directory)->setContent(json_encode($definition));
         }
         $directory = vfsStream::newDirectory('zone')->at($root);
         foreach ($this->zones as $id => $definition) {
-            $filename = $id . '.json';
+            $filename = $id.'.json';
             vfsStream::newFile($filename)->at($directory)->setContent(json_encode($definition));
         }
 
