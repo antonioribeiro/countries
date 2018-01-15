@@ -2,11 +2,11 @@
 
 namespace CommerceGuys\Tax\Repository;
 
-use CommerceGuys\Tax\Exception\UnknownTaxTypeException;
-use CommerceGuys\Tax\Model\TaxType;
 use CommerceGuys\Tax\Model\TaxRate;
+use CommerceGuys\Tax\Model\TaxType;
 use CommerceGuys\Tax\Model\TaxRateAmount;
 use CommerceGuys\Zone\Repository\ZoneRepository;
+use CommerceGuys\Tax\Exception\UnknownTaxTypeException;
 use CommerceGuys\Zone\Repository\ZoneRepositoryInterface;
 
 /**
@@ -50,9 +50,9 @@ class TaxTypeRepository implements TaxTypeRepositoryInterface
      */
     public function __construct($definitionPath = null, ZoneRepositoryInterface $zoneRepository = null)
     {
-        $definitionPath = $definitionPath ?: __DIR__ . '/../../resources/';
-        $this->definitionPath = $definitionPath . 'tax_type/';
-        $this->zoneRepository = $zoneRepository ?: new ZoneRepository($definitionPath . 'zone/');
+        $definitionPath = $definitionPath ?: __DIR__.'/../../resources/';
+        $this->definitionPath = $definitionPath.'tax_type/';
+        $this->zoneRepository = $zoneRepository ?: new ZoneRepository($definitionPath.'zone/');
     }
 
     /**
@@ -60,7 +60,7 @@ class TaxTypeRepository implements TaxTypeRepositoryInterface
      */
     public function get($id)
     {
-        if (!isset($this->taxTypes[$id])) {
+        if (! isset($this->taxTypes[$id])) {
             $definition = $this->loadDefinition($id);
             $this->taxTypes[$id] = $this->createTaxTypeFromDefinition($definition);
         }
@@ -104,7 +104,7 @@ class TaxTypeRepository implements TaxTypeRepositoryInterface
      */
     protected function loadDefinition($id)
     {
-        $filename = $this->definitionPath . $id . '.json';
+        $filename = $this->definitionPath.$id.'.json';
         $definition = @file_get_contents($filename);
         if (empty($definition)) {
             throw new UnknownTaxTypeException($id);
@@ -127,13 +127,13 @@ class TaxTypeRepository implements TaxTypeRepositoryInterface
         // Load the referenced zone.
         $definition['zone'] = $this->zoneRepository->get($definition['zone']);
         // Provide defaults.
-        if (!isset($definition['compound'])) {
+        if (! isset($definition['compound'])) {
             $definition['compound'] = false;
         }
-        if (!isset($definition['display_inclusive'])) {
+        if (! isset($definition['display_inclusive'])) {
             $definition['display_inclusive'] = false;
         }
-        if (!isset($definition['rounding_mode'])) {
+        if (! isset($definition['rounding_mode'])) {
             $definition['rounding_mode'] = PHP_ROUND_HALF_UP;
         }
 

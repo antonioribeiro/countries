@@ -168,7 +168,7 @@ class UpdateData extends Base
 
     protected function clearCountryCurrencies($country)
     {
-        if (isset($country['currency']) && !is_null($country['currency'])) {
+        if (isset($country['currency']) && ! is_null($country['currency'])) {
             $country['currencies'] = array_keys($country['currency']);
 
             unset($country['currency']);
