@@ -2,11 +2,11 @@
 
 namespace CommerceGuys\Tax\Resolver\TaxType;
 
-use CommerceGuys\Addressing\AddressInterface;
+use CommerceGuys\Tax\Resolver\Context;
 use CommerceGuys\Tax\TaxableInterface;
 use CommerceGuys\Tax\Model\TaxTypeInterface;
+use CommerceGuys\Addressing\AddressInterface;
 use CommerceGuys\Tax\Repository\TaxTypeRepositoryInterface;
-use CommerceGuys\Tax\Resolver\Context;
 
 /**
  * Resolver for EU VAT.
@@ -58,14 +58,14 @@ class EuTaxTypeResolver implements TaxTypeResolverInterface
         // Since january 1st 2015 all digital services sold to EU customers
         // must apply the destination tax type(s). For example, an ebook sold
         // to Germany needs to have German VAT applied.
-        $isDigital = $context->getDate()->format('Y') >= '2015' && !$taxable->isPhysical();
+        $isDigital = $context->getDate()->format('Y') >= '2015' && ! $taxable->isPhysical();
 
         $resolvedTaxTypes = [];
-        if (empty($storeTaxTypes) && !empty($storeRegistrationTaxTypes)) {
+        if (empty($storeTaxTypes) && ! empty($storeRegistrationTaxTypes)) {
             // The store is not in the EU but is registered to collect VAT.
             // This VAT is only charged on B2C digital services.
             $resolvedTaxTypes = self::NO_APPLICABLE_TAX_TYPE;
-            if ($isDigital && !$customerTaxNumber) {
+            if ($isDigital && ! $customerTaxNumber) {
                 $resolvedTaxTypes = $customerTaxTypes;
             }
         } elseif ($customerTaxNumber && $customerCountry != $storeCountry) {
