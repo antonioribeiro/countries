@@ -2,8 +2,8 @@
 
 namespace CommerceGuys\Tax\Tests\Model;
 
-use CommerceGuys\Tax\Enum\GenericLabel;
 use CommerceGuys\Tax\Model\TaxType;
+use CommerceGuys\Tax\Enum\GenericLabel;
 use Doctrine\Common\Collections\ArrayCollection;
 
 /**

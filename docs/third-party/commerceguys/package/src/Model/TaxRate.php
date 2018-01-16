@@ -2,8 +2,8 @@
 
 namespace CommerceGuys\Tax\Model;
 
-use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Default tax rate implementation.
@@ -124,7 +124,7 @@ class TaxRate implements TaxRateEntityInterface
      */
     public function isDefault()
     {
-        return !empty($this->default);
+        return ! empty($this->default);
     }
 
     /**
@@ -160,7 +160,7 @@ class TaxRate implements TaxRateEntityInterface
      */
     public function hasAmounts()
     {
-        return !$this->amounts->isEmpty();
+        return ! $this->amounts->isEmpty();
     }
 
     /**
@@ -180,12 +180,10 @@ class TaxRate implements TaxRateEntityInterface
             $startDate = $amount->getStartDate();
             $endDate = $amount->getEndDate();
             // Match the date against the optional amount start/end dates.
-            if ((!$startDate || $startDate <= $date) && (!$endDate || $endDate > $date)) {
+            if ((! $startDate || $startDate <= $date) && (! $endDate || $endDate > $date)) {
                 return $amount;
             }
         }
-
-        return null;
     }
 
     /**
@@ -193,7 +191,7 @@ class TaxRate implements TaxRateEntityInterface
      */
     public function addAmount(TaxRateAmountEntityInterface $amount)
     {
-        if (!$this->hasAmount($amount)) {
+        if (! $this->hasAmount($amount)) {
             $amount->setRate($this);
             $this->amounts->add($amount);
         }

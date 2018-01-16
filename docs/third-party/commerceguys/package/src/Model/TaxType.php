@@ -3,9 +3,9 @@
 namespace CommerceGuys\Tax\Model;
 
 use CommerceGuys\Tax\Enum\GenericLabel;
+use Doctrine\Common\Collections\Collection;
 use CommerceGuys\Zone\Model\ZoneEntityInterface;
 use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 
 /**
  * Default tax type implementation.
@@ -156,7 +156,7 @@ class TaxType implements TaxTypeEntityInterface
      */
     public function isCompound()
     {
-        return !empty($this->compound);
+        return ! empty($this->compound);
     }
 
     /**
@@ -174,7 +174,7 @@ class TaxType implements TaxTypeEntityInterface
      */
     public function isDisplayInclusive()
     {
-        return !empty($this->displayInclusive);
+        return ! empty($this->displayInclusive);
     }
 
     /**
@@ -264,7 +264,7 @@ class TaxType implements TaxTypeEntityInterface
      */
     public function hasRates()
     {
-        return !$this->rates->isEmpty();
+        return ! $this->rates->isEmpty();
     }
 
     /**
@@ -272,7 +272,7 @@ class TaxType implements TaxTypeEntityInterface
      */
     public function addRate(TaxRateEntityInterface $rate)
     {
-        if (!$this->hasRate($rate)) {
+        if (! $this->hasRate($rate)) {
             $rate->setType($this);
             $this->rates->add($rate);
         }
