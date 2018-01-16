@@ -3,9 +3,9 @@
 namespace CommerceGuys\Tax\Resolver\TaxType;
 
 use CommerceGuys\Addressing\Address;
-use CommerceGuys\Tax\Model\TaxTypeInterface;
 use CommerceGuys\Tax\Resolver\Context;
 use CommerceGuys\Zone\Model\ZoneInterface;
+use CommerceGuys\Tax\Model\TaxTypeInterface;
 
 trait StoreRegistrationCheckerTrait
 {
@@ -29,7 +29,7 @@ trait StoreRegistrationCheckerTrait
     {
         $storeRegistrations = $context->getStoreRegistrations();
         foreach ($storeRegistrations as $country) {
-            if (!isset($this->emptyAddresses[$country])) {
+            if (! isset($this->emptyAddresses[$country])) {
                 $this->emptyAddresses[$country] = new Address($country);
             }
 
