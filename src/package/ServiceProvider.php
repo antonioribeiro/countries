@@ -4,11 +4,14 @@ namespace PragmaRX\Countries\Package;
 
 use Illuminate\Support\Facades\Validator;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Support\General;
 use PragmaRX\Countries\Package\Support\Hydrator;
 use PragmaRX\Countries\Package\Facade as Countries;
 use PragmaRX\Countries\Package\Console\Commands\Update;
 use PragmaRX\Countries\Package\Support\CountriesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
+use PragmaRX\Countries\Package\Update\Config;
+use PragmaRX\Countries\Package\Update\Updater;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
@@ -20,12 +23,29 @@ class ServiceProvider extends IlluminateServiceProvider
     protected $app;
 
     /**
+     * @var \PragmaRX\Countries\Package\Support\General
+     */
+    protected $general;
+
+    /**
+     * Create a new service provider instance.
+     *
+     * @param  \Illuminate\Contracts\Foundation\Application  $app
+     */
+    public function __construct($app)
+    {
+        parent::__construct($app);
+
+        $this->general = new General(new Config(), new Updater());
+    }
+
+    /**
      * Configure package paths.
      */
     protected function configurePaths()
     {
         $this->publishes([
-            __COUNTRIES_DIR__._dir('/src/config/countries.php') => config_path('countries.php'),
+            __COUNTRIES_DIR__.$this->general->toDir('/src/config/countries.php') => config_path('countries.php'),
         ], 'config');
     }
 
@@ -56,7 +76,7 @@ class ServiceProvider extends IlluminateServiceProvider
             define(
                 '__COUNTRIES_DIR__',
                 realpath(
-                    __DIR__._dir('/../../')
+                    __DIR__.$this->general->toDir('/../../')
                 )
             );
         }
@@ -68,7 +88,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function mergeConfig()
     {
         $this->mergeConfigFrom(
-            __COUNTRIES_DIR__._dir('/src/config/countries.php'), 'countries'
+            __COUNTRIES_DIR__.$this->general->toDir('/src/config/countries.php'), 'countries'
         );
     }
 
@@ -114,7 +134,7 @@ class ServiceProvider extends IlluminateServiceProvider
         $hydrator = new Hydrator();
 
         $this->app->singleton('pragmarx.countries', function () use ($cache, $hydrator) {
-            $repository = new CountriesRepository($cache, $hydrator);
+            $repository = new CountriesRepository($cache, $hydrator, $this->general);
 
             $hydrator->setRepository($repository);
 
