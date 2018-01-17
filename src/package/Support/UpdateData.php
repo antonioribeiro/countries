@@ -157,6 +157,11 @@ class UpdateData extends Base
         return countriesCollect($record);
     }
 
+    /**
+     * @param $result
+     * @param $type
+     * @return Coollection
+     */
     private function addRecordType($result, $type)
     {
         $result['record_type'] = $type;
@@ -170,15 +175,15 @@ class UpdateData extends Base
      * @param $dataDir
      * @return static
      */
-    protected function buildCountriesCollection($dataDir)
+    protected function buildCountriesCoollection($dataDir)
     {
         $this->message('Processing countries...');
 
         $mledoze = $this->loadMledozeCountries();
 
-        $countries = countriesCollect($this->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country, $key) {
+        $countries = countriesCollect($this->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country) {
             return $this->fixNaturalOddCountries($country);
-        })->mapWithKeys(function ($natural, $key) use ($mledoze, $dataDir) {
+        })->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
             list($mledoze, $countryCode) = $this->findMledozeCountry($mledoze, $natural);
 
             $natural = countriesCollect($natural)->mapWithKeys(function ($country, $key) {
@@ -353,8 +358,8 @@ class UpdateData extends Base
     }
 
     /**
-     * @param Collection $mledoze
-     * @param Collection $natural
+     * @param Coollection $mledoze
+     * @param Coollection $natural
      * @return array
      */
     protected function findCountryByAnyField($mledoze, $natural)
@@ -398,8 +403,8 @@ class UpdateData extends Base
     /**
      * Find a mledoze country from natural earth vector data.
      *
-     * @param Collection $mledoze
-     * @param Collection $natural
+     * @param Coollection $mledoze
+     * @param Coollection $natural
      * @return array
      */
     protected function findMledozeCountry($mledoze, $natural)
@@ -496,7 +501,7 @@ class UpdateData extends Base
      * Generate all json files.
      *
      * @param $dir
-     * @param $makeGroupKeyClosure
+     * @param Closure|null $makeGroupKeyClosure
      * @param Coollection $records
      * @param string|null $groupKey
      */
@@ -533,7 +538,7 @@ class UpdateData extends Base
      * @param $data
      * @param $dir
      * @param Closure $normalizerClosure
-     * @param Closure $makeGroupKeyClosure
+     * @param Closure|null $makeGroupKeyClosure
      * @param Closure $mergeData
      * @param string $groupKey
      * @return Coollection
@@ -614,8 +619,8 @@ class UpdateData extends Base
     /**
      * Merge country data with Rinvex data.
      *
-     * @param $natural
-     * @param $rinvex
+     * @param Coollection $natural
+     * @param Coollection $rinvex
      * @param $translation
      * @param string $suffix
      * @return mixed|static
@@ -640,6 +645,7 @@ class UpdateData extends Base
         }
 
         $rinvex['translations'] = $translation;
+
         $rinvex['flag'] = ['emoji' => $rinvex['extra']['emoji']];
 
         $result = [];
@@ -727,9 +733,9 @@ class UpdateData extends Base
     protected function moveFilesWildcard($from, $to)
     {
         countriesCollect(glob($this->dataDir($from)))->each(function ($from) use ($to) {
-            $this->mkDir($to = $this->dataDir($to));
+            $this->mkDir($dir = $this->dataDir($to));
 
-            rename($from, $to.'/'.basename($from));
+            rename($from, $dir.'/'.basename($from));
         });
     }
 
@@ -808,7 +814,7 @@ class UpdateData extends Base
             ['adm0_a3', 'adm0_a3'],
         ];
 
-        list($country, $countryCode) = $this->findByFields($this->countries, $item, $fields, 'cca3');
+        list(, $countryCode) = $this->findByFields($this->countries, $item, $fields, 'cca3');
 
         if (is_null($countryCode)) {
             $countryCode = $this->caseForKey($item['name']);
@@ -854,7 +860,7 @@ class UpdateData extends Base
      */
     private function mergeCountryStatesWithRinvex($states)
     {
-        return countriesCollect($states)->map(function ($state, $key) {
+        return countriesCollect($states)->map(function ($state) {
             return $this->mergeStateWithRinvex($state);
         });
     }
@@ -950,7 +956,7 @@ class UpdateData extends Base
             return $item;
         };
 
-        list($countries, $cities) = $this->generateJsonFiles($result, $dataDir, $normalizerClosure, $codeGeneratorClosure, $mergerClosure);
+        list(, $cities) = $this->generateJsonFiles($result, $dataDir, $normalizerClosure, $codeGeneratorClosure, $mergerClosure);
 
         $this->progress('Generated '.count($cities).' cities.');
     }
@@ -964,10 +970,10 @@ class UpdateData extends Base
 
         $dataDir = '/countries/default/';
 
-        $this->countries = Cache::remember('updateCountries->buildCountriesCollection', 160, function () use ($dataDir) {
+        $this->countries = Cache::remember('updateCountries->buildCountriesCoollection', 160, function () use ($dataDir) {
             $this->eraseDataDir($dataDir);
 
-            return $this->buildCountriesCollection($dataDir);
+            return $this->buildCountriesCoollection($dataDir);
         });
 
         $this->putFile(
@@ -983,8 +989,8 @@ class UpdateData extends Base
     /**
      * Merge the two countries sources.
      *
-     * @param \PragmaRX\Countries\Package\Support\Collection $mledoze
-     * @param \PragmaRX\Countries\Package\Support\Collection $natural
+     * @param \PragmaRX\Countries\Package\Support\Coollection $mledoze
+     * @param \PragmaRX\Countries\Package\Support\Coollection $natural
      * @param string $suffix
      * @return mixed
      */
@@ -1034,7 +1040,7 @@ class UpdateData extends Base
 
         $currencies = $this->loadJsonFiles($this->dataDir('third-party/world-currencies/package/src'));
 
-        $currencies = $currencies->mapWithKeys(function ($currency, $key) {
+        $currencies = $currencies->mapWithKeys(function ($currency) {
             return $currency;
         });
 
@@ -1048,7 +1054,7 @@ class UpdateData extends Base
             return [$item];
         };
 
-        $getCodeClosure = function ($item) {
+        $getCodeClosure = function () {
         };
 
         $generateTaxData = function ($tax) {
@@ -1089,7 +1095,7 @@ class UpdateData extends Base
             return $this->mergeCountryStatesWithRinvex($states);
         };
 
-        list($countries, $states) = $this->generateJsonFiles($result, $dataDir, $normalizerClosure, $getCodeClosure, $mergerClosure);
+        list(, $states) = $this->generateJsonFiles($result, $dataDir, $normalizerClosure, $getCodeClosure, $mergerClosure);
 
         $this->progress('Generated '.count($states).' states.');
     }
@@ -1133,7 +1139,7 @@ class UpdateData extends Base
 
         $this->message('Processing taxes...');
 
-        $normalizerClosure = function ($item, $key) {
+        $normalizerClosure = function ($item) {
             return $item;
         };
 
@@ -1225,7 +1231,7 @@ class UpdateData extends Base
                 ['name.official', 'name'],
             ];
 
-            list($country, $countryCode) = $this->findByFields($this->countries, $item, $fields, 'cca2');
+            list($country) = $this->findByFields($this->countries, $item, $fields, 'cca2');
 
             if ($country->isEmpty()) {
                 return [$cca2 => $item];
@@ -1258,7 +1264,7 @@ class UpdateData extends Base
 
         $this->message('Generating timezone files...');
 
-        $getCountryCodeClosure = function ($timezone) {
+        $getCountryCodeClosure = function () {
         };
 
         $normalizeCountryClosure = function ($country) {
@@ -1338,10 +1344,7 @@ class UpdateData extends Base
             $file = $this->dataDir("/$dir/".strtolower($file).'.csv');
         }
 
-        return countriesCollect($this->csvDecode(
-            file($file),
-            true
-        ));
+        return countriesCollect($this->csvDecode(file($file)));
     }
     /**
      * Make state json filename.
@@ -1546,7 +1549,7 @@ class UpdateData extends Base
      * Load a shapefile.
      *
      * @param $dir
-     * @return \PragmaRX\Countries\Package\Support\Collection
+     * @return \PragmaRX\Countries\Package\Support\Coollection
      */
     function shapeFile($dir)
     {
@@ -1581,7 +1584,7 @@ class UpdateData extends Base
      * Recursively change all array keys case.
      *
      * @param $array
-     * @return Collection
+     * @return Coollection
      */
     function arrayKeysSnakeRecursive($array)
     {
