@@ -9,7 +9,6 @@ use Exception;
 use ShapeFile\ShapeFile;
 use Illuminate\Console\Command;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Traits\FileSupport;
 use PragmaRX\Countries\Package\Facade as CountriesService;
 
 /**
@@ -1346,6 +1345,7 @@ class UpdateData extends Base
 
         return countriesCollect($this->csvDecode(file($file)));
     }
+
     /**
      * Make state json filename.
      *
@@ -1440,14 +1440,14 @@ class UpdateData extends Base
         });
     }
 
-    function getClassDir($class)
+    public function getClassDir($class)
     {
         $reflector = new ReflectionClass($class);
 
         return dirname($reflector->getFileName());
     }
 
-    function download_file($url, $destination)
+    public function download_file($url, $destination)
     {
         if (file_exists($destination)) {
             return;
@@ -1462,7 +1462,7 @@ class UpdateData extends Base
         chmod($destination, 0644);
     }
 
-    function download_fopen($url, $destination)
+    public function download_fopen($url, $destination)
     {
         $fr = fopen($url, 'r');
 
@@ -1478,7 +1478,7 @@ class UpdateData extends Base
         fclose($fw);
     }
 
-    function download_curl($url, $destination)
+    public function download_curl($url, $destination)
     {
         $nextStep = 8192;
 
@@ -1501,7 +1501,7 @@ class UpdateData extends Base
         echo "\n";
     }
 
-    function unzipFile($file, $subPath)
+    public function unzipFile($file, $subPath)
     {
         $path = dirname($file);
 
@@ -1530,7 +1530,7 @@ class UpdateData extends Base
      * @param $dir
      * @return bool
      */
-    function delTree($dir)
+    public function delTree($dir)
     {
         if (! file_exists($dir)) {
             return false;
@@ -1551,7 +1551,7 @@ class UpdateData extends Base
      * @param $dir
      * @return \PragmaRX\Countries\Package\Support\Coollection
      */
-    function shapeFile($dir)
+    public function shapeFile($dir)
     {
         $shapeRecords = new ShapeFile($dir);
 
@@ -1586,7 +1586,7 @@ class UpdateData extends Base
      * @param $array
      * @return Coollection
      */
-    function arrayKeysSnakeRecursive($array)
+    public function arrayKeysSnakeRecursive($array)
     {
         $result = [];
 
@@ -1607,7 +1607,7 @@ class UpdateData extends Base
      * @param $csv
      * @return Coollection
      */
-    function csvDecode($csv)
+    public function csvDecode($csv)
     {
         return countriesCollect(array_map('str_getcsv', $csv));
     }
@@ -1618,7 +1618,7 @@ class UpdateData extends Base
      * @param $string
      * @return string
      */
-    function fixUtf8($string)
+    public function fixUtf8($string)
     {
         return preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
             return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
