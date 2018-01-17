@@ -3,14 +3,14 @@
 namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class Taxes extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -20,12 +20,12 @@ class Taxes extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Updater $updater
      */
-    public function __construct(General $general, Updater $updater)
+    public function __construct(Helper $helper, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
     }
@@ -35,11 +35,11 @@ class Taxes extends Base
      */
     public function update()
     {
-        $this->general->progress('Updating taxes...');
+        $this->helper->progress('Updating taxes...');
 
-        $this->general->eraseDataDir($dataDir = '/taxes/default');
+        $this->helper->eraseDataDir($dataDir = '/taxes/default');
 
-        $taxes = $this->general->loadJsonFiles($this->general->dataDir('third-party/commerceguys/taxes/types'));
+        $taxes = $this->helper->loadJsonFiles($this->helper->dataDir('third-party/commerceguys/taxes/types'));
 
         $taxes = $taxes->mapWithKeys(function ($vat, $key) {
             $parts = countriesCollect(explode('_', $key));
@@ -70,7 +70,7 @@ class Taxes extends Base
             return [$country->cca3 => $vat];
         });
 
-        $this->general->message('Processing taxes...');
+        $this->helper->message('Processing taxes...');
 
         $normalizerClosure = function ($item) {
             return $item;
@@ -86,7 +86,7 @@ class Taxes extends Base
 
         $taxes = $this->updater->generateJsonFiles($taxes, $dataDir, $normalizerClosure, $getCodeClosure, $generateTaxData, null);
 
-        $this->general->progress('Generated '.count($taxes).' taxes.');
+        $this->helper->progress('Generated '.count($taxes).' taxes.');
     }
 
     public function normalizeTax($tax)

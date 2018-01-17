@@ -3,15 +3,15 @@
 namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 use PragmaRX\Countries\Package\Facade as CountriesService;
 
 class Countries extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -36,15 +36,15 @@ class Countries extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Natural $natural
      * @param Mledoze $mledoze
      * @param Rinvex $rinvex
      * @param Updater $updater
      */
-    public function __construct(General $general, Natural $natural, Mledoze $mledoze, Rinvex $rinvex, Updater $updater)
+    public function __construct(Helper $helper, Natural $natural, Mledoze $mledoze, Rinvex $rinvex, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
 
@@ -60,22 +60,22 @@ class Countries extends Base
      */
     public function update()
     {
-        $this->general->progress('Updating countries...');
+        $this->helper->progress('Updating countries...');
 
         $dataDir = '/countries/default/';
 
         $this->updater->setCountries(cache()->remember('updateCountries->buildCountriesCoollection', 160, function () use ($dataDir) {
-            $this->general->eraseDataDir($dataDir);
+            $this->helper->eraseDataDir($dataDir);
 
             return $this->buildCountriesCoollection($dataDir);
         }));
 
-        $this->general->putFile(
-            $this->general->makeJsonFileName('_all_countries', $dataDir),
+        $this->helper->putFile(
+            $this->helper->makeJsonFileName('_all_countries', $dataDir),
             $this->updater->getCountries()->toJson(JSON_PRETTY_PRINT)
         );
 
-        $this->general->progress('Generated '.count($this->updater->getCountries()).' countries.');
+        $this->helper->progress('Generated '.count($this->updater->getCountries()).' countries.');
 
         $this->updater->setCountries(CountriesService::all());
     }
@@ -88,11 +88,11 @@ class Countries extends Base
      */
     public function buildCountriesCoollection($dataDir)
     {
-        $this->general->message('Processing countries...');
+        $this->helper->message('Processing countries...');
 
         $mledoze = $this->mledoze->loadMledozeCountries();
 
-        $countries = countriesCollect($this->general->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country) {
+        $countries = countriesCollect($this->helper->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country) {
             return $this->natural->fixNaturalOddCountries($country);
         })->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
             list($mledoze, $countryCode) = $this->mledoze->findMledozeCountry($mledoze, $natural);
@@ -122,8 +122,8 @@ class Countries extends Base
 
             $result = $result->sortByKeysRecursive();
 
-            $this->general->putFile(
-                $this->general->makeJsonFileName(strtolower($countryCode), $dataDir),
+            $this->helper->putFile(
+                $this->helper->makeJsonFileName(strtolower($countryCode), $dataDir),
                 $result->toJson(JSON_PRETTY_PRINT)
             );
 

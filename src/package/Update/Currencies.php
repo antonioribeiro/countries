@@ -3,14 +3,14 @@
 namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class Currencies extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -20,12 +20,12 @@ class Currencies extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Updater $updater
      */
-    public function __construct(General $general, Updater $updater)
+    public function __construct(Helper $helper, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
     }
@@ -35,17 +35,17 @@ class Currencies extends Base
      */
     public function update()
     {
-        $this->general->progress('Updating currencies...');
+        $this->helper->progress('Updating currencies...');
 
-        $this->general->eraseDataDir($dataDir = '/currencies/default');
+        $this->helper->eraseDataDir($dataDir = '/currencies/default');
 
-        $currencies = $this->general->loadJsonFiles($this->general->dataDir('third-party/world-currencies/package/src'));
+        $currencies = $this->helper->loadJsonFiles($this->helper->dataDir('third-party/world-currencies/package/src'));
 
         $currencies = $currencies->mapWithKeys(function ($currency) {
             return $currency;
         });
 
-        $this->general->message('Processing currencies...');
+        $this->helper->message('Processing currencies...');
 
         $normalizerClosure = function ($item) {
             $item = $this->updater->addDataSource($item, 'world-currencies');
@@ -64,6 +64,6 @@ class Currencies extends Base
 
         $currencies = $this->updater->generateJsonFiles($currencies, $dataDir, $normalizerClosure, $getCodeClosure, $generateTaxData, null);
 
-        $this->general->progress('Generated '.count($currencies).' currencies.');
+        $this->helper->progress('Generated '.count($currencies).' currencies.');
     }
 }

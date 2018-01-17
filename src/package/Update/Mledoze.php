@@ -4,14 +4,14 @@ namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class Mledoze extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -26,13 +26,13 @@ class Mledoze extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Natural $natural
      * @param Updater $updater
      */
-    public function __construct(General $general, Natural $natural, Updater $updater)
+    public function __construct(Helper $helper, Natural $natural, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
 
@@ -44,7 +44,7 @@ class Mledoze extends Base
      */
     public function loadMledozeCountries()
     {
-        $mledoze = countriesCollect($this->general->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
+        $mledoze = countriesCollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
             $country
         ) {
             $country = $this->updater->addDataSource($country, 'mledoze');
@@ -99,7 +99,7 @@ class Mledoze extends Base
         list($country, $countryCode) = $this->updater->findCountryByAnyField($mledoze, $natural);
 
         if (! $country->isEmpty()) {
-            return [countriesCollect($this->general->arrayKeysSnakeRecursive($country)), $countryCode];
+            return [countriesCollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
         }
 
         return [countriesCollect(), $countryCode];

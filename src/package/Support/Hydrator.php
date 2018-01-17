@@ -127,8 +127,8 @@ class Hydrator extends Base
      */
     private function loadCities($country)
     {
-        return $this->repository->loadJson($country['cca3'], 'cities/default')
-                ->overwrite($this->repository->loadJson($country['cca3'], 'cities/overload'));
+        return $this->repository->getHelper()->loadJson($country['cca3'], 'cities/default')
+                ->overwrite($this->repository->getHelper()->loadJson($country['cca3'], 'cities/overload'));
     }
 
     /**
@@ -139,8 +139,8 @@ class Hydrator extends Base
      */
     private function loadStates($country)
     {
-        return $this->repository->loadJson($country['cca3'], 'states/default')
-                ->overwrite($this->repository->loadJson($country['cca3'], 'states/overload'));
+        return $this->repository->getHelper()->loadJson($country['cca3'], 'states/default')
+                ->overwrite($this->repository->getHelper()->loadJson($country['cca3'], 'states/overload'));
     }
 
     /**
@@ -151,8 +151,8 @@ class Hydrator extends Base
      */
     private function loadTaxes($country)
     {
-        return $this->repository->loadJson($country['cca3'], 'taxes/default')
-                                ->overwrite($this->repository->loadJson($country['cca3'], 'taxes/overload'));
+        return $this->repository->getHelper()->loadJson($country['cca3'], 'taxes/default')
+                                ->overwrite($this->repository->getHelper()->loadJson($country['cca3'], 'taxes/overload'));
     }
 
     /**

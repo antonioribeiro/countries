@@ -3,14 +3,14 @@
 namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class States extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -25,13 +25,13 @@ class States extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Rinvex $rinvex
      * @param Updater $updater
      */
-    public function __construct(General $general, Rinvex $rinvex, Updater $updater)
+    public function __construct(Helper $helper, Rinvex $rinvex, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
 
@@ -44,13 +44,13 @@ class States extends Base
      */
     public function update()
     {
-        $this->general->progress('Updating states...');
+        $this->helper->progress('Updating states...');
 
-        $this->general->eraseDataDir($dataDir = '/states/default');
+        $this->helper->eraseDataDir($dataDir = '/states/default');
 
-        $result = $this->general->loadShapeFile('third-party/natural_earth/ne_10m_admin_1_states_provinces');
+        $result = $this->helper->loadShapeFile('third-party/natural_earth/ne_10m_admin_1_states_provinces');
 
-        $this->general->message('Processing states...');
+        $this->helper->message('Processing states...');
 
         $normalizerClosure = function ($item) {
             $item = $this->updater->addDataSource($item, 'natural');
@@ -70,7 +70,7 @@ class States extends Base
 
         list(, $states) = $this->updater->generateJsonFiles($result, $dataDir, $normalizerClosure, $getCodeClosure, $mergerClosure);
 
-        $this->general->progress('Generated '.count($states).' states.');
+        $this->helper->progress('Generated '.count($states).' states.');
     }
 
     /**
@@ -103,6 +103,6 @@ class States extends Base
             }
         }
 
-        return $this->general->caseForKey($item->iso_3166_2);
+        return $this->helper->caseForKey($item->iso_3166_2);
     }
 }

@@ -3,14 +3,14 @@
 namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class Cities extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -20,12 +20,12 @@ class Cities extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Updater $updater
      */
-    public function __construct(General $general, Updater $updater)
+    public function __construct(Helper $helper, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
     }
@@ -35,13 +35,13 @@ class Cities extends Base
      */
     public function update()
     {
-        $this->general->progress('Updating cities...');
+        $this->helper->progress('Updating cities...');
 
-        $this->general->eraseDataDir($dataDir = '/cities/default/');
+        $this->helper->eraseDataDir($dataDir = '/cities/default/');
 
-        $result = $this->general->loadShapeFile('third-party/natural_earth/ne_10m_populated_places');
+        $result = $this->helper->loadShapeFile('third-party/natural_earth/ne_10m_populated_places');
 
-        $this->general->message('Processing cities...');
+        $this->helper->message('Processing cities...');
 
         $normalizerClosure = function ($item) {
             $item = $this->updater->addDataSource($item, 'natural');
@@ -52,7 +52,7 @@ class Cities extends Base
         };
 
         $codeGeneratorClosure = function ($item) {
-            return $this->general->caseForKey($item['nameascii']);
+            return $this->helper->caseForKey($item['nameascii']);
         };
 
         $mergerClosure = function ($item) {
@@ -61,6 +61,6 @@ class Cities extends Base
 
         list(, $cities) = $this->updater->generateJsonFiles($result, $dataDir, $normalizerClosure, $codeGeneratorClosure, $mergerClosure);
 
-        $this->general->progress('Generated '.count($cities).' cities.');
+        $this->helper->progress('Generated '.count($cities).' cities.');
     }
 }

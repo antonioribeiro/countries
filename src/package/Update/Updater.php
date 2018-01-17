@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Console\Command;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 /**
  * @codeCoverageIgnore
@@ -29,9 +29,9 @@ class Updater extends Base
     protected $config;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\General $general
+     * @param \PragmaRX\Countries\Package\Update\Helper $helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @param \PragmaRX\Countries\Package\Update\Rinvex $rinvex
@@ -85,27 +85,27 @@ class Updater extends Base
     {
         $this->config = new Config();
 
-        $this->general = new General($this->config, $this);
+        $this->helper = new Helper($this->config, $this);
 
-        $this->natural = new Natural($this->general, $this);
+        $this->natural = new Natural($this->helper, $this);
 
-        $this->rinvex = new Rinvex($this->general, $this->natural, $this);
+        $this->rinvex = new Rinvex($this->helper, $this->natural, $this);
 
-        $this->states = new States($this->general, $this->rinvex, $this);
+        $this->states = new States($this->helper, $this->rinvex, $this);
 
         $this->natural->setStates($this->states);
 
-        $this->mledoze = new Mledoze($this->general, $this->natural, $this);
+        $this->mledoze = new Mledoze($this->helper, $this->natural, $this);
 
-        $this->countries = new Countries($this->general, $this->natural, $this->mledoze, $this->rinvex, $this);
+        $this->countries = new Countries($this->helper, $this->natural, $this->mledoze, $this->rinvex, $this);
 
-        $this->cities = new Cities($this->general, $this);
+        $this->cities = new Cities($this->helper, $this);
 
-        $this->currencies = new Currencies($this->general, $this);
+        $this->currencies = new Currencies($this->helper, $this);
 
-        $this->taxes = new Taxes($this->general, $this);
+        $this->taxes = new Taxes($this->helper, $this);
 
-        $this->timezones = new Timezones($this->general, $this);
+        $this->timezones = new Timezones($this->helper, $this);
     }
 
     /**
@@ -141,7 +141,7 @@ class Updater extends Base
     {
         $this->command = $command;
 
-        $this->general->downloadFiles();
+        $this->helper->downloadFiles();
 
         $this->countries->update();
 
@@ -155,7 +155,7 @@ class Updater extends Base
 
         $this->timezones->update();
 
-        $this->general->deleteTemporaryFiles();
+        $this->helper->deleteTemporaryFiles();
     }
 
     /**
@@ -250,7 +250,7 @@ class Updater extends Base
         }
 
         $records->each(function (Coollection $record, $key) use ($dir, $makeGroupKeyClosure) {
-            $this->general->mkdir(dirname($file = $this->general->makeJsonFileName($key, $dir)));
+            $this->helper->mkdir(dirname($file = $this->helper->makeJsonFileName($key, $dir)));
 
             $record = $record->mapWithKeys(function ($record, $key) use ($makeGroupKeyClosure) {
                 $key = is_null($makeGroupKeyClosure)
@@ -266,7 +266,7 @@ class Updater extends Base
                     : [$key => $record];
             })->sortByKeysRecursive();
 
-            file_put_contents($file, $this->general->jsonEncode($record));
+            file_put_contents($file, $this->helper->jsonEncode($record));
         });
     }
 
@@ -283,15 +283,15 @@ class Updater extends Base
      */
     public function generateJsonFiles($data, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
     {
-        $this->general->message('Normalizing data...');
+        $this->helper->message('Normalizing data...');
 
         $data = $this->normalizeData($data, $dir, $normalizerClosure);
 
-        $this->general->message('Merging data...');
+        $this->helper->message('Merging data...');
 
         $data = $mergeData($data);
 
-        $this->general->message('Generating files...');
+        $this->helper->message('Generating files...');
 
         $this->generateAllJsonFiles($dir, $makeGroupKeyClosure, $data, $groupKey);
 
@@ -336,7 +336,7 @@ class Updater extends Base
         list(, $countryCode) = $this->findByFields($this->_countries, $item, $fields, 'cca3');
 
         if (is_null($countryCode)) {
-            $countryCode = $this->general->caseForKey($item['name']);
+            $countryCode = $this->helper->caseForKey($item['name']);
         }
 
         $item['iso_a3'] = ! isset($item['iso_a3'])
