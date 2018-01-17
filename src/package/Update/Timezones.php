@@ -2,9 +2,9 @@
 
 namespace PragmaRX\Countries\Package\Update;
 
-use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Countries\Package\Support\Helper;
+use PragmaRX\Coollection\Package\Coollection;
 
 class Timezones extends Base
 {
@@ -30,7 +30,6 @@ class Timezones extends Base
 
         $this->updater = $updater;
     }
-
 
     public function update()
     {
@@ -110,7 +109,7 @@ class Timezones extends Base
             list($country) = $this->updater->findByFields($this->updater->getCountries(), $item, $fields, 'cca2');
 
             if ($country->isEmpty()) {
-               return [$cca2 => $item];
+                return [$cca2 => $item];
             }
 
             return [
