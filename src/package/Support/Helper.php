@@ -170,8 +170,7 @@ class Helper
         if (ends_with($file, 'master.zip')) {
             $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
                 return $file !== '.' && $file !== '..' && $file !== $exclude;
-            })->first()
-            ;
+            })->first();
 
             rename("$path/$dir", $subPath);
         }

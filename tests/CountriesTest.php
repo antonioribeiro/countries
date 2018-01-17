@@ -403,6 +403,5 @@ class CountriesTest extends TestCase
             Countries::where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times->time_start,
             '-1825098837'
         );
-
     }
 }
