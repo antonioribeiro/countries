@@ -83,16 +83,6 @@ class CountriesRepository extends Base
     }
 
     /**
-     * Get json converter home directory.
-     *
-     * @return string
-     */
-    public function getJsonConverterHomeDir()
-    {
-        return getPackageSrcDir(JsonConverter::class);
-    }
-
-    /**
      * Load countries.
      *
      * @return Coollection
@@ -108,16 +98,6 @@ class CountriesRepository extends Base
         $this->countriesJson = $this->countriesJson->overwrite($overload);
 
         return $this->countriesJson;
-    }
-
-    /**
-     * Load timezones.
-     */
-    public function loadTimezones()
-    {
-        if (is_null($this->timezones)) {
-            $this->timezones = require $this->getTimezoneFilename();
-        }
     }
 
     /**
@@ -144,16 +124,6 @@ class CountriesRepository extends Base
         );
 
         return $currencies;
-    }
-
-    /**
-     * Load timezones json file.
-     *
-     * @return string
-     */
-    public function getTimezoneFilename()
-    {
-        return $this->dataDir('/timezones.php');
     }
 
     /**

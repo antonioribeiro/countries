@@ -70,10 +70,6 @@ class Hydrator extends Base
      */
     private function hydrateCountries($countries, $elements = null)
     {
-        if (is_null($elements)) {
-            $elements = ['countries'];
-        }
-
         return $this->repository->collection(
             $countries->map(function ($country) use ($elements) {
                 return $this->hydrateCountry($country, $elements);
@@ -174,17 +170,6 @@ class Hydrator extends Base
         }
 
         return $this->updateHydrated($countryCode, $element);
-    }
-
-    /**
-     * Hydrate a collection, making a collection of collections.
-     *
-     * @param $country
-     * @return \PragmaRX\Coollection\Package\Coollection
-     */
-    public function hydrateCollection($country)
-    {
-        return $this->repository->collection($country);
     }
 
     /**
@@ -290,15 +275,11 @@ class Hydrator extends Base
      */
     public function hydrateBorders($country)
     {
-        $country['borders'] = countriesCollect($country['borders'])->map(function ($border) {
-            $border = $this->repository->call('where', ['cca3', $border]);
-
-            if ($border instanceof Coollection && $border->count() == 1) {
-                return $border->first();
-            }
-
-            return $border;
-        });
+        $country['borders'] = isset($country['borders'])
+            ? $country['borders'] = countriesCollect($country['borders'])->map(function ($border) {
+                return $this->repository->call('where', ['cca3', $border])->first();
+            })
+            : countriesCollect();
 
         return $this->toArray($country);
     }
@@ -311,13 +292,7 @@ class Hydrator extends Base
      */
     public function hydrateTimezones($country)
     {
-        if (is_null($timezones = $this->repository->findTimezones($country['cca3']))) {
-            return $country;
-        }
-
-        $country->overwrite(['timezones' => $timezones]);
-
-        return $country;
+        return $country->overwrite(['timezones' => $this->repository->findTimezones($country['cca3'])]);
     }
 
     /**
@@ -445,9 +420,7 @@ class Hydrator extends Base
             return $data;
         }
 
-        return $data instanceof \stdClass
-            ? json_decode(json_encode($data), true)
-            : $data->toArray();
+        return $data->toArray();
     }
 
     /**
