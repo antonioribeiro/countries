@@ -2,9 +2,6 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
-use Exception;
-use PragmaRX\Coollection\Package\Coollection;
-
 class Base
 {
     /**

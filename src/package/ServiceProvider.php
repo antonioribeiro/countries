@@ -4,14 +4,14 @@ namespace PragmaRX\Countries\Package;
 
 use Illuminate\Support\Facades\Validator;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Update\Config;
+use PragmaRX\Countries\Package\Update\Updater;
 use PragmaRX\Countries\Package\Support\General;
 use PragmaRX\Countries\Package\Support\Hydrator;
 use PragmaRX\Countries\Package\Facade as Countries;
 use PragmaRX\Countries\Package\Console\Commands\Update;
 use PragmaRX\Countries\Package\Support\CountriesRepository;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
-use PragmaRX\Countries\Package\Update\Config;
-use PragmaRX\Countries\Package\Update\Updater;
 
 class ServiceProvider extends IlluminateServiceProvider
 {

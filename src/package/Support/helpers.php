@@ -2,8 +2,7 @@
 
 use PragmaRX\Countries\Package\Support\Collection;
 
-if (! function_exists('array_sort_by_keys_recursive'))
-{
+if (! function_exists('array_sort_by_keys_recursive')) {
     /**
      * Recursively sort array by keys.
      *
@@ -22,8 +21,7 @@ if (! function_exists('array_sort_by_keys_recursive'))
     }
 }
 
-if (! function_exists('countriesCollect'))
-{
+if (! function_exists('countriesCollect')) {
     /**
      * Check if array is multidimensional.
      *
@@ -36,9 +34,7 @@ if (! function_exists('countriesCollect'))
     }
 }
 
-
-if (! function_exists('arrayable'))
-{
+if (! function_exists('arrayable')) {
     /**
      * Recursively change all array keys case.
      *

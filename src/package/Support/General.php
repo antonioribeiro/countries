@@ -473,6 +473,7 @@ class General
     {
         return __COUNTRIES_DIR__.$this->toDir("/tmp/{$path}");
     }
+
     /**
      * Loads a json file.
      *
@@ -584,7 +585,6 @@ class General
         return countriesCollect($decoded);
     }
 
-
     /**
      * Load a file from disk.
      *
@@ -596,8 +596,6 @@ class General
         if (file_exists($file)) {
             return $this->sanitizeFile(file_get_contents($file));
         }
-
-        return null;
     }
 
     /**
@@ -620,4 +618,3 @@ class General
         return str_replace('/', DIRECTORY_SEPARATOR, $string);
     }
 }
-
