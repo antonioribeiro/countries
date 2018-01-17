@@ -10,6 +10,6 @@ class ConsoleCommandsTest extends TestCase
     {
         // $this->assertEquals(0, $this->artisan('countries:update')); // dummy, yeah!
 
-        $this->assertEquals(1, 2-1);
+        $this->assertEquals(1, 2 - 1);
     }
 }
