@@ -2,7 +2,6 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
-use MLD\Converter\JsonConverter;
 use PragmaRX\Coollection\Package\Coollection;
 
 class CountriesRepository extends Base
