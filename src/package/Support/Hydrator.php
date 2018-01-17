@@ -25,6 +25,7 @@ class Hydrator extends Base
         'states',
         'taxes',
         'timezones',
+        'timezones_times',
         'topology',
     ];
 
@@ -293,6 +294,23 @@ class Hydrator extends Base
     public function hydrateTimezones($country)
     {
         return $country->overwrite(['timezones' => $this->repository->findTimezones($country['cca3'])]);
+    }
+
+    /**
+     * Hydrate all times for a country timezones.
+     *
+     * @param $country
+     * @return mixed
+     */
+    public function hydrateTimezonesTimes($country)
+    {
+        $country = $this->hydrateTimezones($country);
+
+        $country['timezones'] = $country->timezones->map(function ($timezone) {
+            return $timezone->overwrite(['times' => $this->repository->findTimezoneTime($timezone['zone_id'])]);
+        });
+
+        return $country;
     }
 
     /**

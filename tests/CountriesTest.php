@@ -340,7 +340,7 @@ class CountriesTest extends TestCase
 
     public function testEverySingleResultUsingExampleArray()
     {
-        $elements = array_keys(config('countries.hydrate.elements'));
+        $elements = collect(config('countries.hydrate.elements'))->except('timezones_times')->keys()->toArray();
 
         $swiss = Countries::where('name.common', 'Switzerland')->first()->hydrate($elements);
 
@@ -395,5 +395,14 @@ class CountriesTest extends TestCase
         array_sort_by_keys_recursive($a);
 
         $this->assertEquals($b, $a);
+    }
+
+    public function testCanHydrateTimezonesTimes()
+    {
+        $this->assertEquals(
+            Countries::where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times->time_start,
+            '-1825098837'
+        );
+
     }
 }

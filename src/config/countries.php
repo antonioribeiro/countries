@@ -24,6 +24,7 @@ return [
             'states' => false,
             'taxes' => false,
             'timezones' => false,
+            'timezones_times' => false,
             'topology' => false,
         ],
     ],

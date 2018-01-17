@@ -35,6 +35,19 @@ class Helper
     }
 
     /**
+     * @param $dir
+     * @param $files
+     */
+    protected function deleteAllFiles($dir, $files): void
+    {
+        foreach ($files as $file) {
+            (is_dir("$dir/$file"))
+                ? $this->delTree("$dir/$file")
+                : unlink("$dir/$file");
+        }
+    }
+
+    /**
      * Make a directory.
      *
      * @param $dir
@@ -149,12 +162,28 @@ class Helper
     /**
      * @param $file
      * @param $subPath
+     * @param $path
+     * @param $exclude
+     */
+    protected function renameMasterToPackage($file, $subPath, $path, $exclude): void
+    {
+        if (ends_with($file, 'master.zip')) {
+            $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
+                return $file !== '.' && $file !== '..' && $file !== $exclude;
+            })->first()
+            ;
+
+            rename("$path/$dir", $subPath);
+        }
+    }
+
+    /**
+     * @param $file
+     * @param $subPath
      */
     public function unzipFile($file, $subPath)
     {
         $path = dirname($file);
-
-        $exclude = basename($file);
 
         if (! ends_with($file, '.zip') || file_exists($subPath = "$path/$subPath")) {
             return;
@@ -164,13 +193,7 @@ class Helper
 
         exec("unzip -o $file");
 
-        if (ends_with($file, 'master.zip')) {
-            $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
-                return $file !== '.' && $file !== '..' && $file !== $exclude;
-            })->first();
-
-            rename("$path/$dir", $subPath);
-        }
+        $this->renameMasterToPackage($file, $subPath, $path, basename($file));
     }
 
     /**
@@ -187,9 +210,7 @@ class Helper
 
         $files = array_diff(scandir($dir), ['.', '..']);
 
-        foreach ($files as $file) {
-            (is_dir("$dir/$file")) ? $this->delTree("$dir/$file") : unlink("$dir/$file");
-        }
+        $this->deleteAllFiles($dir, $files);
 
         return rmdir($dir);
     }
