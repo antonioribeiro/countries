@@ -20,9 +20,7 @@
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">./src</directory>
-            <exclude>./src/package/Support/helpers-update.php</exclude>
-            <exclude>./src/package/Support/UpdateData.php</exclude>
-            <exclude>./src/package/Support/Traits/File.php</exclude>
+            <exclude>./src/package/Update</exclude>
         </whitelist>
     </filter>
     <logging>
