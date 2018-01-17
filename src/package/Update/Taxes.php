@@ -30,9 +30,6 @@ class Taxes extends Base
         $this->updater = $updater;
     }
 
-    /**
-     *
-     */
     public function update()
     {
         $this->helper->progress('Updating taxes...');

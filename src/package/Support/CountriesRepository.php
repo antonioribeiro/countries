@@ -2,8 +2,6 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
-use PragmaRX\Coollection\Package\Coollection;
-
 class CountriesRepository extends Base
 {
     /**
