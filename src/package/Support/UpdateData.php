@@ -5,10 +5,16 @@ namespace PragmaRX\Countries\Package\Support;
 use File;
 use Cache;
 use Closure;
-use PragmaRX\Support\Exceptions\Exception;
+use Exception;
+use ShapeFile\ShapeFile;
+use Illuminate\Console\Command;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Traits\FileSupport;
 use PragmaRX\Countries\Package\Facade as CountriesService;
 
+/**
+ * @codeCoverageIgnore
+ */
 class UpdateData extends Base
 {
     /**
@@ -17,6 +23,62 @@ class UpdateData extends Base
     protected $command;
 
     protected $countries;
+
+    protected $data = [
+        'downloadable' => [
+            'mledoze' => 'https://github.com/mledoze/countries/archive/master.zip',
+
+            'rinvex' => 'https://github.com/rinvex/country/archive/master.zip',
+
+            'natural_earth' => [
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.cpg',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.dbf',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.prj',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.shp',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.shx',
+
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.cpg',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.dbf',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.prj',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.shp',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.shx',
+
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.cpg',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.dbf',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.prj',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.shp',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.shx',
+
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.cpg',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.dbf',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.prj',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.shp',
+                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.shx',
+            ],
+
+            'commerceguys' => 'https://github.com/commerceguys/tax/archive/master.zip',
+
+            'timezonedb' => 'http://timezonedb.com/files/timezonedb.csv.zip',
+
+            'world-currencies' => 'https://github.com/antonioribeiro/world-currencies/archive/master.zip',
+        ],
+
+        'moveable' => [
+            'third-party/mledoze/package/data' => 'third-party/mledoze/data',
+            'third-party/mledoze/package/dist' => 'third-party/mledoze/dist',
+            'third-party/rinvex/package/resources' => 'third-party/rinvex/data',
+            'third-party/mledoze/package/data/*.svg' => 'flags',
+            'third-party/mledoze/package/data/*.geo.json' => 'geo',
+            'third-party/mledoze/package/data/*.topo.json' => 'topo',
+            'third-party/commerceguys/package/resources/tax_type' => 'third-party/commerceguys/taxes/types',
+            'third-party/commerceguys/package/resources/zone' => 'third-party/commerceguys/taxes/zones',
+        ],
+
+        'deletable' => [
+            'third-party',
+            'tmp',
+        ],
+    ];
 
     /**
      * Update all data.
@@ -184,7 +246,7 @@ class UpdateData extends Base
      */
     protected function downloadDataFiles()
     {
-        countriesCollect(config('countries.data.downloadable'))->each(function ($urls, $path) {
+        countriesCollect($this->data['downloadable'])->each(function ($urls, $path) {
             if (! file_exists($destination = $this->dataDir("third-party/$path"))) {
                 countriesCollect($urls)->each(function ($url) use ($path, $destination) {
                     $this->download($url, $destination);
@@ -214,7 +276,7 @@ class UpdateData extends Base
      */
     protected function eraseDataDir($dir)
     {
-        deltree($this->dataDir($dir));
+        $this->delTree($this->dataDir($dir));
     }
 
     /**
@@ -345,7 +407,7 @@ class UpdateData extends Base
         list($country, $countryCode) = $this->findCountryByAnyField($mledoze, $natural);
 
         if (! $country->isEmpty()) {
-            return [countriesCollect(array_keys_snake_recursive($country)), $countryCode];
+            return [countriesCollect($this->arrayKeysSnakeRecursive($country)), $countryCode];
         }
 
         return [countriesCollect(), $countryCode];
@@ -393,7 +455,7 @@ class UpdateData extends Base
         $states = $this->findRinvex($country, 'divisions')->map(function ($state, $postal) {
             $state['postal'] = $postal;
 
-            $state['name'] = fix_utf8($state['name']);
+            $state['name'] = $this->fixUtf8($state['name']);
 
             return $state;
         });
@@ -540,7 +602,7 @@ class UpdateData extends Base
             return $this->loadJson($sha);
         }
 
-        $shapefile = load_shapefile($file);
+        $shapefile = $this->shapeFile($file);
 
         $this->mkDir(dirname($sha));
 
@@ -639,7 +701,7 @@ class UpdateData extends Base
      */
     protected function moveDataFiles()
     {
-        countriesCollect(config('countries.data.moveable'))->each(function ($to, $from) {
+        countriesCollect($this->data['moveable'])->each(function ($to, $from) {
             $this->moveDataFile($from, $to);
         });
     }
@@ -649,7 +711,7 @@ class UpdateData extends Base
      */
     protected function deleteTemporaryFiles()
     {
-        countriesCollect(config('countries.data.deletable'))->each(function ($directory) {
+        countriesCollect($this->data['deletable'])->each(function ($directory) {
             if (file_exists($directory = $this->dataDir($directory))) {
                 File::deleteDirectory($directory);
             }
@@ -855,7 +917,7 @@ class UpdateData extends Base
         if (ends_with($file, '.zip')) {
             $this->message("Unzipping to {$file}");
 
-            unzip($file, $path);
+            $this->unzipFile($file, $path);
         }
     }
 
@@ -1232,5 +1294,331 @@ class UpdateData extends Base
     protected function zoneNameSnake($name)
     {
         return snake_case(str_replace(['\\', '/', '__'], ['_', ''], $name));
+    }
+
+    /**
+     * Display a message in console.
+     *
+     * @param $message
+     * @param string $type
+     */
+    protected function message($message, $type = 'line')
+    {
+        if (! is_null($this->command)) {
+            $this->command->{$type}($message);
+        }
+    }
+
+    /**
+     * Get temp directory.
+     *
+     * @param string $path
+     * @return string
+     */
+    protected function tmpDir($path)
+    {
+        return __COUNTRIES_DIR__._dir("/tmp/{$path}");
+    }
+
+    /**
+     * Loads a json file.
+     *
+     * @param $file
+     * @param string $dir
+     * @return null|string
+     * @throws Exception
+     */
+    public function loadCsv($file, $dir = null)
+    {
+        if (empty($file)) {
+            throw new Exception('loadCsv Error: File name not set');
+        }
+
+        if (! file_exists($file)) {
+            $file = $this->dataDir("/$dir/".strtolower($file).'.csv');
+        }
+
+        return countriesCollect($this->csvDecode(
+            file($file),
+            true
+        ));
+    }
+    /**
+     * Make state json filename.
+     *
+     * @param $key
+     * @return string
+     */
+    protected function makeJsonFileName($key, $dir = '')
+    {
+        if (! ends_with($dir, (DIRECTORY_SEPARATOR))) {
+            $dir .= DIRECTORY_SEPARATOR;
+        }
+
+        return $this->dataDir(_dir($dir).strtolower($key).'.json');
+    }
+
+    /**
+     * Put contents into a file.
+     *
+     * @param $file
+     * @param $contents
+     */
+    public function putFile($file, $contents)
+    {
+        $this->mkdir(dirname($file));
+
+        file_put_contents($file, $contents);
+    }
+
+    /**
+     * Encode and pretty print json.
+     *
+     * @param array $data
+     * @return string
+     */
+    public function jsonEncode($data)
+    {
+        return json_encode($data, JSON_PRETTY_PRINT);
+    }
+
+    /**
+     * Get package home dir.
+     *
+     * @return string
+     */
+    public function getHomeDir()
+    {
+        return $this->getClassDir(Service::class);
+    }
+
+    /**
+     * Command setter.
+     *
+     * @param \Illuminate\Console\Command $command
+     */
+    public function setCommand(Command $command)
+    {
+        $this->command = $command;
+    }
+
+    /**
+     * Make a directory.
+     *
+     * @param $dir
+     */
+    protected function mkDir($dir)
+    {
+        if (file_exists($dir)) {
+            return;
+        }
+
+        mkdir($dir, 0755, true);
+    }
+
+    /**
+     * Download one or more files.
+     *
+     * @param $url
+     * @param $directory
+     */
+    protected function download($url, $directory)
+    {
+        countriesCollect((array) $url)->each(function ($url) use ($directory) {
+            $filename = basename($url);
+
+            $destination = _dir("{$directory}/{$filename}");
+
+            $this->message("Downloading to {$destination}");
+
+            $this->mkDir($directory);
+
+            $this->download_file($url, $destination);
+        });
+    }
+
+    function getClassDir($class)
+    {
+        $reflector = new ReflectionClass($class);
+
+        return dirname($reflector->getFileName());
+    }
+
+    function download_file($url, $destination)
+    {
+        if (file_exists($destination)) {
+            return;
+        }
+
+        try {
+            $this->download_fopen($url, $destination);
+        } catch (\Exception $exception) {
+            $this->download_curl($url, $destination);
+        }
+
+        chmod($destination, 0644);
+    }
+
+    function download_fopen($url, $destination)
+    {
+        $fr = fopen($url, 'r');
+
+        $fw = fopen($destination, 'w');
+
+        while (! feof($fr)) {
+            fwrite($fw, fread($fr, 4096));
+            flush();
+        }
+
+        fclose($fr);
+
+        fclose($fw);
+    }
+
+    function download_curl($url, $destination)
+    {
+        $nextStep = 8192;
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_PROGRESSFUNCTION, function ($resource, $total, $downloaded) use (&$nextStep) {
+            if ($downloaded > $nextStep) {
+                echo '.';
+                $nextStep += 8192;
+            }
+        });
+        curl_setopt($ch, CURLOPT_NOPROGRESS, false); // needed to make progress function work
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'GuzzleHttp/6.2.1 curl/7.54.0 PHP/7.2.0');
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        file_put_contents($destination, curl_exec($ch));
+        curl_close($ch);
+
+        echo "\n";
+    }
+
+    function unzipFile($file, $subPath)
+    {
+        $path = dirname($file);
+
+        $exclude = basename($file);
+
+        if (! ends_with($file, '.zip') || file_exists($subPath = "$path/$subPath")) {
+            return;
+        }
+
+        chdir($path);
+
+        exec("unzip -o $file");
+
+        if (ends_with($file, 'master.zip')) {
+            $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
+                return $file !== '.' && $file !== '..' && $file !== $exclude;
+            })->first();
+
+            rename("$path/$dir", $subPath);
+        }
+    }
+
+    /**
+     * Delete a directory and all its files.
+     *
+     * @param $dir
+     * @return bool
+     */
+    function delTree($dir)
+    {
+        if (! file_exists($dir)) {
+            return false;
+        }
+
+        $files = array_diff(scandir($dir), ['.', '..']);
+
+        foreach ($files as $file) {
+            (is_dir("$dir/$file")) ? $this->delTree("$dir/$file") : unlink("$dir/$file");
+        }
+
+        return rmdir($dir);
+    }
+
+    /**
+     * Load a shapefile.
+     *
+     * @param $dir
+     * @return \PragmaRX\Countries\Package\Support\Collection
+     */
+    function shapeFile($dir)
+    {
+        $shapeRecords = new ShapeFile($dir);
+
+        $result = [];
+
+        foreach ($shapeRecords as $record) {
+            if ($record['dbf']['_deleted']) {
+                continue;
+            }
+
+            $data = $record['dbf'];
+
+            unset($data['_deleted']);
+
+            $result[] = $data;
+        }
+
+        unset($shapeRecords);
+
+        return countriesCollect($result)->mapWithKeys(function ($fields, $key1) {
+            return [
+                strtolower($key1) => countriesCollect($fields)->mapWithKeys(function ($value, $key2) {
+                    return [strtolower($key2) => $value];
+                }),
+            ];
+        });
+    }
+
+    /**
+     * Recursively change all array keys case.
+     *
+     * @param $array
+     * @return Collection
+     */
+    function arrayKeysSnakeRecursive($array)
+    {
+        $result = [];
+
+        $array = arrayable($array) ? $array->toArray() : $array;
+
+        array_walk($array, function ($value, $key) use (&$result) {
+            $result[snake_case($key)] = arrayable($value) || is_array($value)
+                ? $this->arrayKeysSnakeRecursive($value)
+                : $value;
+        });
+
+        return countriesCollect($result);
+    }
+
+    /**
+     * Load CSV file.
+     *
+     * @param $csv
+     * @return Coollection
+     */
+    function csvDecode($csv)
+    {
+        return countriesCollect(array_map('str_getcsv', $csv));
+    }
+
+    /**
+     * Fix a bad UTF8 string.
+     *
+     * @param $string
+     * @return string
+     */
+    function fixUtf8($string)
+    {
+        return preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
+            return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+        }, $string);
     }
 }

@@ -22,13 +22,30 @@ class CountriesTest extends TestCase
 
     public function testCanHydrateAllCountriesBorders()
     {
-        Countries::all()->take(5)->hydrate('borders')->each(function ($hydrated) {
+        Countries::all()->each(function ($country) {
+            $hydrated = $country->hydrate('borders');
+
             if ($hydrated->borders->count()) {
                 $this->assertNotEmpty(($first = $hydrated->borders->first())->name);
 
                 $this->assertInstanceOf(Coollection::class, $first);
             } else {
                 $this->assertNull($hydrated->borders->first());
+            }
+        });
+    }
+
+    public function testCanHydrateAllTimezones()
+    {
+        Countries::all()->each(function ($country) {
+            $hydrated = $country->hydrate('timezones');
+
+            if ($hydrated->timezones->count()) {
+                $this->assertNotEmpty(($first = $hydrated->timezones->first())->abbreviations);
+
+                $this->assertInstanceOf(Coollection::class, $first);
+            } else {
+                $this->assertNull($hydrated->timezones->first());
             }
         });
     }
@@ -351,5 +368,32 @@ class CountriesTest extends TestCase
             ['',   '',   '',   '',  ''],
             $string
         );
+    }
+
+    public function testCanSortArrayByKeys()
+    {
+        $a = [
+            'f' => 'e',
+            'd' => [
+                'c' => [
+                    'b' => 1
+                ],
+                'a' => 2,
+            ],
+        ];
+
+        $b = [
+            'd' => [
+                'a' => 2,
+                'c' => [
+                    'b' => 1
+                ],
+            ],
+            'f' => 'e',
+        ];
+
+        array_sort_by_keys_recursive($a);
+
+        $this->assertEquals($b, $a);
     }
 }
