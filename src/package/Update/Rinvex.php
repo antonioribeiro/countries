@@ -5,14 +5,14 @@ namespace PragmaRX\Countries\Package\Update;
 use Exception;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class Rinvex extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -27,13 +27,13 @@ class Rinvex extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Natural $natural
      * @param Updater $updater
      */
-    public function __construct(General $general, Natural $natural, Updater $updater)
+    public function __construct(Helper $helper, Natural $natural, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
 
@@ -79,7 +79,7 @@ class Rinvex extends Base
      */
     public function findRinvex($result, $type)
     {
-        return $this->general->loadJson(strtolower($result['cca2']), "third-party/rinvex/data/$type");
+        return $this->helper->loadJson(strtolower($result['cca2']), "third-party/rinvex/data/$type");
     }
 
     /**
@@ -116,7 +116,7 @@ class Rinvex extends Base
         $states = $this->findRinvex($country, 'divisions')->map(function ($state, $postal) {
             $state['postal'] = $postal;
 
-            $state['name'] = $this->general->fixUtf8($state['name']);
+            $state['name'] = $this->helper->fixUtf8($state['name']);
 
             return $state;
         });
@@ -150,7 +150,7 @@ class Rinvex extends Base
      */
     public function findRinvexTranslations($result)
     {
-        return $this->general->loadJson(strtolower($result['cca2']), 'third-party/rinvex/data/translations');
+        return $this->helper->loadJson(strtolower($result['cca2']), 'third-party/rinvex/data/translations');
     }
 
     /**

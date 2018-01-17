@@ -10,10 +10,10 @@ use PragmaRX\Countries\Package\Service;
 use PragmaRX\Countries\Package\Update\Config;
 use PragmaRX\Countries\Package\Update\Updater;
 
-class General
+class Helper
 {
     /**
-     * @var General
+     * @var Helper
      */
     protected $config;
     /**

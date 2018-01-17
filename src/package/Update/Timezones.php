@@ -4,14 +4,14 @@ namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Support\General;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class Timezones extends Base
 {
     /**
-     * @var General
+     * @var Helper
      */
-    protected $general;
+    protected $helper;
 
     /**
      * @var Updater
@@ -21,12 +21,12 @@ class Timezones extends Base
     /**
      * Rinvex constructor.
      *
-     * @param General $general
+     * @param Helper $helper
      * @param Updater $updater
      */
-    public function __construct(General $general, Updater $updater)
+    public function __construct(Helper $helper, Updater $updater)
     {
-        $this->general = $general;
+        $this->helper = $helper;
 
         $this->updater = $updater;
     }
@@ -34,23 +34,23 @@ class Timezones extends Base
 
     public function update()
     {
-        $this->general->eraseDataDir($dataDir = '/timezones');
+        $this->helper->eraseDataDir($dataDir = '/timezones');
 
-        $this->general->progress('Loading countries...');
+        $this->helper->progress('Loading countries...');
 
         $countries = cache()->remember(
             'updateTimezone.countries', 160,
             function () {
-                return $this->general->loadCsv($this->general->dataDir('third-party/timezonedb/country.csv'));
+                return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/country.csv'));
             }
         );
 
-        $this->general->progress('Loading zones...');
+        $this->helper->progress('Loading zones...');
 
         $zones = cache()->remember(
             'updateTimezone.zones', 160,
             function () {
-                return $this->general->loadCsv($this->general->dataDir('third-party/timezonedb/zone.csv'))->mapWithKeys(function ($value) {
+                return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/zone.csv'))->mapWithKeys(function ($value) {
                     return [
                         $value[0] => [
                             'zone_id'      => $value[0],
@@ -62,12 +62,12 @@ class Timezones extends Base
             }
         );
 
-        $this->general->progress('Loading timezones...');
+        $this->helper->progress('Loading timezones...');
 
         $timezones = cache()->remember(
             'updateTimezone.timezones', 160,
             function () {
-                return $this->general->loadCsv($this->general->dataDir('third-party/timezonedb/timezone.csv'))->map(function ($timezone) {
+                return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/timezone.csv'))->map(function ($timezone) {
                     return [
                         'zone_id' => $timezone[0],
                         'abbreviation' => $timezone[1],
@@ -79,7 +79,7 @@ class Timezones extends Base
             }
         );
 
-        $this->general->progress('Generating abbreviations...');
+        $this->helper->progress('Generating abbreviations...');
 
         $abbreviations = cache()->remember(
             'updateTimezone.abbreviations', 160,
@@ -92,7 +92,7 @@ class Timezones extends Base
             }
         );
 
-        $this->general->progress('Updating countries timezones...');
+        $this->helper->progress('Updating countries timezones...');
 
         $countries = $countries->mapWithKeys(function ($item) {
             return [$item[0] => [
@@ -138,7 +138,7 @@ class Timezones extends Base
             return $country;
         });
 
-        $this->general->message('Generating timezone files...');
+        $this->helper->message('Generating timezone files...');
 
         $getCountryCodeClosure = function () {
         };
@@ -155,9 +155,9 @@ class Timezones extends Base
 
         $this->updater->generateJsonFiles($timezones, "$dataDir/timezones/default", $dummyClosure, null, $dummyClosure, 'zone_id');
 
-        $this->general->progress('Generated timezones for '.count($countries).' countries.');
+        $this->helper->progress('Generated timezones for '.count($countries).' countries.');
 
-        $this->general->progress('Generated '.count($timezones).' timezones.');
+        $this->helper->progress('Generated '.count($timezones).' timezones.');
     }
 
     /**
