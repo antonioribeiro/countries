@@ -4,8 +4,8 @@ namespace PragmaRX\Countries\Package;
 
 use Illuminate\Support\Facades\Validator;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Support\Helper;
 use PragmaRX\Countries\Package\Update\Config;
+use PragmaRX\Countries\Package\Support\Helper;
 use PragmaRX\Countries\Package\Update\Updater;
 use PragmaRX\Countries\Package\Support\Hydrator;
 use PragmaRX\Countries\Package\Facade as Countries;
