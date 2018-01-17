@@ -211,7 +211,6 @@ Those are some of the hydratable properties:
 - States
 - Taxes
 - Timezone
-- Timezone
 - Topology
 
 ### Extra where rules
@@ -321,18 +320,6 @@ Should return
 Europe/Paris
 ```
 
-#### Get the timezone for a State
-
-```php
-return Countries::where('name.common', 'United States')->first()->timezone->NC;
-```
-
-returns
-
-```php
-America/New_York
-```
-
 #### Get a countries currency
 
 ```php
@@ -374,6 +361,43 @@ returns
     9 => "AZN"
     10 => "BAM"
     ....
+```
+
+#### Get the timezone for a State
+
+```php
+return Countries::where('name.common', 'United States')->first()->timezone->NC;
+```
+
+returns
+
+```php
+America/New_York
+```
+
+#### Get all times for a timezone
+
+```php
+return Countries::where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times;
+```
+
+returns
+
+```php
+"times" => [
+    "abbreviation" => "LMT"
+    "dst" => "0"
+    "gmt_offset" => "-14764"
+    "time_start" => "-1825098837"
+    "zone_id" => "415"
+    1 => [
+        "abbreviation" => "AST"
+        "dst" => "0"
+        "gmt_offset" => "-14400"
+        "time_start" => "-1825098836"
+        "zone_id" => "415"
+    ]
+]
 ```
 
 ### Validation

@@ -2,6 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Support;
 
+use PragmaRX\Coollection\Package\Coollection;
+
 class CountriesRepository extends Base
 {
     /**
@@ -270,6 +272,19 @@ class CountriesRepository extends Base
     {
         return $this->helper->loadJson(
             $this->helper->dataDir('timezones/countries/default/'.strtolower($countryCode).'.json')
+        );
+    }
+
+    /**
+     * Find a country timezone.
+     *
+     * @param $zoneId
+     * @return \PragmaRX\Coollection\Package\Coollection
+     */
+    public function findTimezoneTime($zoneId)
+    {
+        return $this->helper->loadJson(
+            $this->helper->dataDir("timezones/timezones/default/{$zoneId}.json")
         );
     }
 }
