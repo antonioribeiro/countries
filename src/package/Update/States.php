@@ -38,7 +38,6 @@ class States extends Base
         $this->rinvex = $rinvex;
     }
 
-
     /**
      * Update states.
      */
