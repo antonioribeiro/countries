@@ -376,7 +376,7 @@ class CountriesTest extends TestCase
             'f' => 'e',
             'd' => [
                 'c' => [
-                    'b' => 1
+                    'b' => 1,
                 ],
                 'a' => 2,
             ],
@@ -386,7 +386,7 @@ class CountriesTest extends TestCase
             'd' => [
                 'a' => 2,
                 'c' => [
-                    'b' => 1
+                    'b' => 1,
                 ],
             ],
             'f' => 'e',
