@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Package\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Support\Helper;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Support\Helper;
 
 class Timezones extends Base
 {
