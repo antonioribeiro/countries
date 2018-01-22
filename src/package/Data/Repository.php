@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Package\Data;
 
 use PragmaRX\Countries\Package\Services\Cache;
-use PragmaRX\Countries\Package\Contracts\Config;
 use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Package\Contracts\Config;
 use PragmaRX\Countries\Package\Services\Hydrator;
 
 class Repository
