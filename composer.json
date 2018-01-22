@@ -28,11 +28,10 @@
 
     "require": {
         "php": ">=7.0",
-        "laravel/framework": ">=5.5"
+        "pragmarx/coollection": ">=5.5"
     },
 
     "require-dev": {
-        "orchestra/testbench": "~3.0",
         "phpunit/phpunit": "~6.0",
         "squizlabs/php_codesniffer": "^2.3"
     },
