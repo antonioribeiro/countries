@@ -2,12 +2,12 @@
 
 namespace PragmaRX\Countries\Package;
 
-use PragmaRX\Countries\Package\Services\Countries as CountriesService;
 use PragmaRX\Countries\Package\Services\Cache;
-use PragmaRX\Countries\Package\Support\CountriesRepository;
 use PragmaRX\Countries\Package\Services\Helper;
-use PragmaRX\Countries\Package\Services\Hydrator;
 use PragmaRX\Countries\Package\Contracts\Config;
+use PragmaRX\Countries\Package\Services\Hydrator;
+use PragmaRX\Countries\Package\Support\CountriesRepository;
+use PragmaRX\Countries\Package\Services\Countries as CountriesService;
 
 class Countries
 {
@@ -33,8 +33,7 @@ class Countries
         Helper $helper = null,
         Hydrator $hydrator = null,
         CountriesRepository $repository = null
-    )
-    {
+    ) {
         $this->countriesService = new CountriesService($config, $cache, $helper, $hydrator, $repository);
     }
 

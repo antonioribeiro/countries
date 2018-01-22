@@ -2,7 +2,6 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
-use PragmaRX\Countries\Package\Service;
 use PragmaRX\Countries\Package\Contracts\Config;
 
 class Helper
@@ -104,7 +103,6 @@ class Helper
 
         return __COUNTRIES_DIR__.$this->toDir("/src/data$path");
     }
-
 
     /**
      * @param $contents
