@@ -30,7 +30,7 @@ class Collection extends Coollection
     }
 
     /**
-     * Hydrate configured default elements
+     * Hydrate configured default elements.
      *
      * @param Collection $countries
      * @return Collection
