@@ -39,7 +39,6 @@ This package is a collection of some other packages with information on:
 ## Requirements
 
 - PHP 7.0+
-- Laravel 5.3+
 
 ## Installing
 
@@ -49,23 +48,41 @@ Use Composer to install it:
 composer require pragmarx/countries
 ```
 
-## Installing on Laravel
-
-Add the Service Provider and Facade alias to your `config/app.php`:
+## Instantiating
 
 ```php
-// config/app.php
+use PragmaRX\Countries\Package\Countries;
 
-'providers' => [
-    // ...
-    PragmaRX\Countries\ServiceProvider::class,
-];
+echo (new Countries())->where('cca2', 'IT')->first()->currencies->EUR->coins->frequent->first();
 
-'aliases' => [
-    // ...
-    'Countries'=> PragmaRX\Countries\Facade::class,
-];
+// or 
+
+echo Countries::where('cca2', 'IT')->first()->currencies->EUR->coins->frequent->first();
 ```
+
+Should both return 
+
+```
+€1
+```
+
+Overloading the default configuration:
+
+```php
+use PragmaRX\Countries\Package\Services\Config;
+
+$countries = new Countries(new Config([
+    'hydrate' => [
+        'elements' => [
+            'currencies' => true,
+            'flag' => true,
+            'timezones' => true,
+        ],
+    ],
+]));
+```
+
+#
 
 ## Usage
 
@@ -77,20 +94,11 @@ $all = Countries::all();
 
 You, obviously, don't need to use the Facade, you can just get it from the app container:
 
-```php
-$countries = app('pragmarx.countries');
-
-\\ then
-
-$all = $countries->all();
-```
-
 This filter
 
 ```php
 Countries::where('name.common', 'Brazil')
 ```
-
 
 Will find Brazil by its common name, which is a
 
