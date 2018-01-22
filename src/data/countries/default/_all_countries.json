@@ -21,6 +21,7 @@
         "ccn3": "533",
         "cca3": "ABW",
         "cioc": "ARU",
+        "independent": null,
         "currency": [
             "AWG"
         ],
@@ -273,6 +274,7 @@
         "ccn3": "004",
         "cca3": "AFG",
         "cioc": "AFG",
+        "independent": true,
         "currency": [
             "AFN"
         ],
@@ -539,6 +541,7 @@
         "ccn3": "024",
         "cca3": "AGO",
         "cioc": "ANG",
+        "independent": true,
         "currency": [
             "AOA"
         ],
@@ -800,6 +803,7 @@
         "ccn3": "660",
         "cca3": "AIA",
         "cioc": null,
+        "independent": null,
         "currency": [
             "XCD"
         ],
@@ -1043,6 +1047,7 @@
         "ccn3": "248",
         "cca3": "ALA",
         "cioc": null,
+        "independent": null,
         "currency": [
             "EUR"
         ],
@@ -1288,6 +1293,7 @@
         "ccn3": "008",
         "cca3": "ALB",
         "cioc": "ALB",
+        "independent": true,
         "currency": [
             "ALL"
         ],
@@ -1553,6 +1559,7 @@
         "ccn3": "020",
         "cca3": "AND",
         "cioc": "AND",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -1814,6 +1821,7 @@
         "ccn3": "784",
         "cca3": "ARE",
         "cioc": "UAE",
+        "independent": true,
         "currency": [
             "AED"
         ],
@@ -2073,6 +2081,7 @@
         "ccn3": "032",
         "cca3": "ARG",
         "cioc": "ARG",
+        "independent": true,
         "currency": [
             "ARS"
         ],
@@ -2339,6 +2348,7 @@
         "ccn3": "051",
         "cca3": "ARM",
         "cioc": "ARM",
+        "independent": true,
         "currency": [
             "AMD"
         ],
@@ -2621,6 +2631,7 @@
         "ccn3": "016",
         "cca3": "ASM",
         "cioc": "ASA",
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -2866,13 +2877,14 @@
         "ccn3": "010",
         "cca3": "ATA",
         "cioc": null,
+        "independent": null,
         "currency": [],
         "callingCode": [],
         "capital": null,
         "altSpellings": [
             "AQ"
         ],
-        "region": "",
+        "region": "Antarctic",
         "subregion": "",
         "languages": [],
         "translations": {
@@ -3110,6 +3122,7 @@
         "ccn3": "260",
         "cca3": "ATF",
         "cioc": null,
+        "independent": null,
         "currency": [
             "EUR"
         ],
@@ -3119,7 +3132,7 @@
             "TF",
             "French Southern Territories"
         ],
-        "region": "",
+        "region": "Antarctic",
         "subregion": "",
         "languages": {
             "fra": "French"
@@ -3348,6 +3361,7 @@
         "ccn3": "028",
         "cca3": "ATG",
         "cioc": "ANT",
+        "independent": true,
         "currency": [
             "XCD"
         ],
@@ -3595,6 +3609,7 @@
         "ccn3": "036",
         "cca3": "AUS",
         "cioc": "AUS",
+        "independent": true,
         "currency": [
             "AUD"
         ],
@@ -3842,6 +3857,7 @@
         "ccn3": "040",
         "cca3": "AUT",
         "cioc": "AUT",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -4130,6 +4146,7 @@
         "ccn3": "031",
         "cca3": "AZE",
         "cioc": "AZE",
+        "independent": true,
         "currency": [
             "AZN"
         ],
@@ -4399,6 +4416,7 @@
         "ccn3": "108",
         "cca3": "BDI",
         "cioc": "BDI",
+        "independent": true,
         "currency": [
             "BIF"
         ],
@@ -4669,6 +4687,7 @@
         "ccn3": "056",
         "cca3": "BEL",
         "cioc": "BEL",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -4953,6 +4972,7 @@
         "ccn3": "204",
         "cca3": "BEN",
         "cioc": "BEN",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -5214,6 +5234,7 @@
         "ccn3": "854",
         "cca3": "BFA",
         "cioc": "BUR",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -5475,6 +5496,7 @@
         "ccn3": "050",
         "cca3": "BGD",
         "cioc": "BAN",
+        "independent": true,
         "currency": [
             "BDT"
         ],
@@ -5732,6 +5754,7 @@
         "ccn3": "100",
         "cca3": "BGR",
         "cioc": "BUL",
+        "independent": true,
         "currency": [
             "BGN"
         ],
@@ -6004,6 +6027,7 @@
         "ccn3": "048",
         "cca3": "BHR",
         "cioc": "BRN",
+        "independent": true,
         "currency": [
             "BHD"
         ],
@@ -6255,6 +6279,7 @@
         "ccn3": "044",
         "cca3": "BHS",
         "cioc": "BAH",
+        "independent": true,
         "currency": [
             "BSD"
         ],
@@ -6512,6 +6537,7 @@
         "ccn3": "070",
         "cca3": "BIH",
         "cioc": "BIH",
+        "independent": true,
         "currency": [
             "BAM"
         ],
@@ -6773,6 +6799,7 @@
         "ccn3": "652",
         "cca3": "BLM",
         "cioc": null,
+        "independent": null,
         "currency": [
             "EUR"
         ],
@@ -7022,6 +7049,7 @@
         "ccn3": "112",
         "cca3": "BLR",
         "cioc": "BLR",
+        "independent": true,
         "currency": [
             "BYN"
         ],
@@ -7326,6 +7354,7 @@
         "ccn3": "084",
         "cca3": "BLZ",
         "cioc": "BIZ",
+        "independent": true,
         "currency": [
             "BZD"
         ],
@@ -7581,6 +7610,7 @@
         "ccn3": "060",
         "cca3": "BMU",
         "cioc": "BER",
+        "independent": null,
         "currency": [
             "BMD"
         ],
@@ -7846,6 +7876,7 @@
         "ccn3": "068",
         "cca3": "BOL",
         "cioc": "BOL",
+        "independent": true,
         "currency": [
             "BOB",
             "BOV"
@@ -8126,6 +8157,7 @@
         "ccn3": "076",
         "cca3": "BRA",
         "cioc": "BRA",
+        "independent": true,
         "currency": [
             "BRL"
         ],
@@ -8402,6 +8434,7 @@
         "ccn3": "052",
         "cca3": "BRB",
         "cioc": "BAR",
+        "independent": true,
         "currency": [
             "BBD"
         ],
@@ -8649,6 +8682,7 @@
         "ccn3": "096",
         "cca3": "BRN",
         "cioc": "BRU",
+        "independent": true,
         "currency": [
             "BND"
         ],
@@ -8906,6 +8940,7 @@
         "ccn3": "064",
         "cca3": "BTN",
         "cioc": "BHU",
+        "independent": true,
         "currency": [
             "BTN",
             "INR"
@@ -9164,6 +9199,7 @@
         "ccn3": "074",
         "cca3": "BVT",
         "cioc": "",
+        "independent": false,
         "currency": [
             "NOK"
         ],
@@ -9174,7 +9210,7 @@
             "Bouvet\u00f8ya",
             "Bouvet-\u00f8ya"
         ],
-        "region": "",
+        "region": "Antarctic",
         "subregion": "",
         "languages": {
             "nor": "Norwegian"
@@ -9268,6 +9304,7 @@
         "ccn3": "072",
         "cca3": "BWA",
         "cioc": "BOT",
+        "independent": true,
         "currency": [
             "BWP"
         ],
@@ -9530,6 +9567,7 @@
         "ccn3": "140",
         "cca3": "CAF",
         "cioc": "CAF",
+        "independent": true,
         "currency": [
             "XAF"
         ],
@@ -9800,6 +9838,7 @@
         "ccn3": "124",
         "cca3": "CAN",
         "cioc": "CAN",
+        "independent": true,
         "currency": [
             "CAD"
         ],
@@ -10052,6 +10091,7 @@
         "ccn3": "166",
         "cca3": "CCK",
         "cioc": "",
+        "independent": false,
         "currency": [
             "AUD"
         ],
@@ -10170,6 +10210,7 @@
         "ccn3": "756",
         "cca3": "CHE",
         "cioc": "SUI",
+        "independent": true,
         "currency": [
             "CHE",
             "CHF",
@@ -10443,6 +10484,7 @@
         "ccn3": "152",
         "cca3": "CHL",
         "cioc": "CHI",
+        "independent": true,
         "currency": [
             "CLF",
             "CLP"
@@ -10709,6 +10751,7 @@
         "ccn3": "156",
         "cca3": "CHN",
         "cioc": "CHN",
+        "independent": true,
         "currency": [
             "CNY"
         ],
@@ -11013,6 +11056,7 @@
         "ccn3": "384",
         "cca3": "CIV",
         "cioc": "CIV",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -11280,6 +11324,7 @@
         "ccn3": "120",
         "cca3": "CMR",
         "cioc": "CMR",
+        "independent": true,
         "currency": [
             "XAF"
         ],
@@ -11562,6 +11607,7 @@
         "ccn3": "180",
         "cca3": "COD",
         "cioc": "COD",
+        "independent": true,
         "currency": [
             "CDF"
         ],
@@ -11849,6 +11895,7 @@
         "ccn3": "178",
         "cca3": "COG",
         "cioc": "CGO",
+        "independent": true,
         "currency": [
             "XAF"
         ],
@@ -12118,6 +12165,7 @@
         "ccn3": "184",
         "cca3": "COK",
         "cioc": "COK",
+        "independent": null,
         "currency": [
             "NZD",
             "CKD"
@@ -12369,6 +12417,7 @@
         "ccn3": "170",
         "cca3": "COL",
         "cioc": "COL",
+        "independent": true,
         "currency": [
             "COP"
         ],
@@ -12641,6 +12690,7 @@
         "ccn3": "174",
         "cca3": "COM",
         "cioc": "COM",
+        "independent": true,
         "currency": [
             "KMF"
         ],
@@ -12898,6 +12948,7 @@
         "ccn3": "132",
         "cca3": "CPV",
         "cioc": "CPV",
+        "independent": true,
         "currency": [
             "CVE"
         ],
@@ -13149,6 +13200,7 @@
         "ccn3": "188",
         "cca3": "CRI",
         "cioc": "CRC",
+        "independent": true,
         "currency": [
             "CRC"
         ],
@@ -13406,6 +13458,7 @@
         "ccn3": "192",
         "cca3": "CUB",
         "cioc": "CUB",
+        "independent": true,
         "currency": [
             "CUC",
             "CUP"
@@ -13667,6 +13720,7 @@
         "ccn3": "531",
         "cca3": "CUW",
         "cioc": null,
+        "independent": null,
         "currency": [
             "ANG"
         ],
@@ -13910,6 +13964,7 @@
         "ccn3": "162",
         "cca3": "CXR",
         "cioc": "",
+        "independent": false,
         "currency": [
             "AUD"
         ],
@@ -14015,6 +14070,7 @@
         "ccn3": "136",
         "cca3": "CYM",
         "cioc": "CAY",
+        "independent": null,
         "currency": [
             "KYD"
         ],
@@ -14266,6 +14322,7 @@
         "ccn3": "196",
         "cca3": "CYP",
         "cioc": "CYP",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -14539,6 +14596,7 @@
         "ccn3": "203",
         "cca3": "CZE",
         "cioc": "CZE",
+        "independent": true,
         "currency": [
             "CZK"
         ],
@@ -14822,6 +14880,7 @@
         "ccn3": "276",
         "cca3": "DEU",
         "cioc": "GER",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -15108,6 +15167,7 @@
         "ccn3": "262",
         "cca3": "DJI",
         "cioc": "DJI",
+        "independent": true,
         "currency": [
             "DJF"
         ],
@@ -15376,6 +15436,7 @@
         "ccn3": "212",
         "cca3": "DMA",
         "cioc": "DMA",
+        "independent": true,
         "currency": [
             "XCD"
         ],
@@ -15629,6 +15690,7 @@
         "ccn3": "208",
         "cca3": "DNK",
         "cioc": "DEN",
+        "independent": true,
         "currency": [
             "DKK"
         ],
@@ -15891,6 +15953,7 @@
         "ccn3": "214",
         "cca3": "DOM",
         "cioc": "DOM",
+        "independent": true,
         "currency": [
             "DOP"
         ],
@@ -16147,6 +16210,7 @@
         "ccn3": "012",
         "cca3": "DZA",
         "cioc": "ALG",
+        "independent": true,
         "currency": [
             "DZD"
         ],
@@ -16414,6 +16478,7 @@
         "ccn3": "218",
         "cca3": "ECU",
         "cioc": "ECU",
+        "independent": true,
         "currency": [
             "USD"
         ],
@@ -16673,6 +16738,7 @@
         "ccn3": "818",
         "cca3": "EGY",
         "cioc": "EGY",
+        "independent": true,
         "currency": [
             "EGP"
         ],
@@ -16940,6 +17006,7 @@
         "ccn3": "232",
         "cca3": "ERI",
         "cioc": "ERI",
+        "independent": true,
         "currency": [
             "ERN"
         ],
@@ -17215,6 +17282,7 @@
         "ccn3": "732",
         "cca3": "ESH",
         "cioc": null,
+        "independent": null,
         "currency": [
             "MAD",
             "DZD",
@@ -17470,6 +17538,7 @@
         "ccn3": "724",
         "cca3": "ESP",
         "cioc": "ESP",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -17766,6 +17835,7 @@
         "ccn3": "233",
         "cca3": "EST",
         "cioc": "EST",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -18033,6 +18103,7 @@
         "ccn3": "231",
         "cca3": "ETH",
         "cioc": "ETH",
+        "independent": true,
         "currency": [
             "ETB"
         ],
@@ -18304,6 +18375,7 @@
         "ccn3": "246",
         "cca3": "FIN",
         "cioc": "FIN",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -18580,6 +18652,7 @@
         "ccn3": "242",
         "cca3": "FJI",
         "cioc": "FIJ",
+        "independent": true,
         "currency": [
             "FJD"
         ],
@@ -18833,6 +18906,7 @@
         "ccn3": "238",
         "cca3": "FLK",
         "cioc": null,
+        "independent": null,
         "currency": [
             "FKP"
         ],
@@ -19080,6 +19154,7 @@
         "ccn3": "250",
         "cca3": "FRA",
         "cioc": "FRA",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -19358,6 +19433,7 @@
         "ccn3": "234",
         "cca3": "FRO",
         "cioc": null,
+        "independent": null,
         "currency": [
             "DKK"
         ],
@@ -19606,6 +19682,7 @@
         "ccn3": "583",
         "cca3": "FSM",
         "cioc": "FSM",
+        "independent": true,
         "currency": [
             "USD"
         ],
@@ -19853,6 +19930,7 @@
         "ccn3": "266",
         "cca3": "GAB",
         "cioc": "GAB",
+        "independent": true,
         "currency": [
             "XAF"
         ],
@@ -20110,6 +20188,7 @@
         "ccn3": "826",
         "cca3": "GBR",
         "cioc": "GBR",
+        "independent": true,
         "currency": [
             "GBP"
         ],
@@ -20369,6 +20448,7 @@
         "ccn3": "268",
         "cca3": "GEO",
         "cioc": "GEO",
+        "independent": true,
         "currency": [
             "GEL"
         ],
@@ -20632,6 +20712,7 @@
         "ccn3": "831",
         "cca3": "GGY",
         "cioc": null,
+        "independent": null,
         "currency": [
             "GBP"
         ],
@@ -20877,6 +20958,7 @@
         "ccn3": "288",
         "cca3": "GHA",
         "cioc": "GHA",
+        "independent": true,
         "currency": [
             "GHS"
         ],
@@ -21131,6 +21213,7 @@
         "ccn3": "292",
         "cca3": "GIB",
         "cioc": null,
+        "independent": null,
         "currency": [
             "GIP"
         ],
@@ -21378,6 +21461,7 @@
         "ccn3": "324",
         "cca3": "GIN",
         "cioc": "GUI",
+        "independent": true,
         "currency": [
             "GNF"
         ],
@@ -21639,6 +21723,7 @@
         "ccn3": "312",
         "cca3": "GLP",
         "cioc": "",
+        "independent": false,
         "currency": [
             "EUR"
         ],
@@ -21740,6 +21825,7 @@
         "ccn3": "270",
         "cca3": "GMB",
         "cioc": "GAM",
+        "independent": true,
         "currency": [
             "GMD"
         ],
@@ -21993,6 +22079,7 @@
         "ccn3": "624",
         "cca3": "GNB",
         "cioc": "GBS",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -22265,6 +22352,7 @@
         "ccn3": "226",
         "cca3": "GNQ",
         "cioc": "GEQ",
+        "independent": true,
         "currency": [
             "XAF"
         ],
@@ -22528,6 +22616,7 @@
         "ccn3": "300",
         "cca3": "GRC",
         "cioc": "GRE",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -22795,6 +22884,7 @@
         "ccn3": "308",
         "cca3": "GRD",
         "cioc": "GRN",
+        "independent": true,
         "currency": [
             "XCD"
         ],
@@ -23038,6 +23128,7 @@
         "ccn3": "304",
         "cca3": "GRL",
         "cioc": null,
+        "independent": null,
         "currency": [
             "DKK"
         ],
@@ -23283,6 +23374,7 @@
         "ccn3": "320",
         "cca3": "GTM",
         "cioc": "GUA",
+        "independent": true,
         "currency": [
             "GTQ"
         ],
@@ -23536,6 +23628,7 @@
         "ccn3": "254",
         "cca3": "GUF",
         "cioc": "",
+        "independent": false,
         "currency": [
             "EUR"
         ],
@@ -23649,6 +23742,7 @@
         "ccn3": "316",
         "cca3": "GUM",
         "cioc": "GUM",
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -23896,6 +23990,7 @@
         "ccn3": "328",
         "cca3": "GUY",
         "cioc": "GUY",
+        "independent": true,
         "currency": [
             "GYD"
         ],
@@ -24155,6 +24250,7 @@
         "ccn3": "344",
         "cca3": "HKG",
         "cioc": "HKG",
+        "independent": null,
         "currency": [
             "HKD"
         ],
@@ -24414,6 +24510,7 @@
         "ccn3": "334",
         "cca3": "HMD",
         "cioc": null,
+        "independent": null,
         "currency": [
             "AUD"
         ],
@@ -24423,7 +24520,7 @@
             "HM",
             "Heard Island and McDonald Islands"
         ],
-        "region": "",
+        "region": "Antarctic",
         "subregion": "",
         "languages": {
             "eng": "English"
@@ -24656,6 +24753,7 @@
         "ccn3": "340",
         "cca3": "HND",
         "cioc": "HON",
+        "independent": true,
         "currency": [
             "HNL"
         ],
@@ -24912,6 +25010,7 @@
         "ccn3": "191",
         "cca3": "HRV",
         "cioc": "CRO",
+        "independent": true,
         "currency": [
             "HRK"
         ],
@@ -25189,6 +25288,7 @@
         "ccn3": "332",
         "cca3": "HTI",
         "cioc": "HAI",
+        "independent": true,
         "currency": [
             "HTG",
             "USD"
@@ -25445,6 +25545,7 @@
         "ccn3": "348",
         "cca3": "HUN",
         "cioc": "HUN",
+        "independent": true,
         "currency": [
             "HUF"
         ],
@@ -25713,6 +25814,7 @@
         "ccn3": "360",
         "cca3": "IDN",
         "cioc": "INA",
+        "independent": true,
         "currency": [
             "IDR"
         ],
@@ -25975,6 +26077,7 @@
         "ccn3": "833",
         "cca3": "IMN",
         "cioc": null,
+        "independent": null,
         "currency": [
             "GBP"
         ],
@@ -26229,6 +26332,7 @@
         "ccn3": "356",
         "cca3": "IND",
         "cioc": "IND",
+        "independent": true,
         "currency": [
             "INR"
         ],
@@ -26498,6 +26602,7 @@
         "ccn3": "086",
         "cca3": "IOT",
         "cioc": null,
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -26747,6 +26852,7 @@
         "ccn3": "372",
         "cca3": "IRL",
         "cioc": "IRL",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -27010,6 +27116,7 @@
         "ccn3": "364",
         "cca3": "IRN",
         "cioc": "IRI",
+        "independent": true,
         "currency": [
             "IRR"
         ],
@@ -27283,6 +27390,7 @@
         "ccn3": "368",
         "cca3": "IRQ",
         "cioc": "IRQ",
+        "independent": true,
         "currency": [
             "IQD"
         ],
@@ -27548,6 +27656,7 @@
         "ccn3": "352",
         "cca3": "ISL",
         "cioc": "ISL",
+        "independent": true,
         "currency": [
             "ISK"
         ],
@@ -27803,6 +27912,7 @@
         "ccn3": "376",
         "cca3": "ISR",
         "cioc": "ISR",
+        "independent": true,
         "currency": [
             "ILS"
         ],
@@ -28065,6 +28175,7 @@
         "ccn3": "380",
         "cca3": "ITA",
         "cioc": "ITA",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -28358,6 +28469,7 @@
         "ccn3": "388",
         "cca3": "JAM",
         "cioc": "JAM",
+        "independent": true,
         "currency": [
             "JMD"
         ],
@@ -28610,6 +28722,7 @@
         "ccn3": "832",
         "cca3": "JEY",
         "cioc": null,
+        "independent": null,
         "currency": [
             "GBP"
         ],
@@ -28858,6 +28971,7 @@
         "ccn3": "400",
         "cca3": "JOR",
         "cioc": "JOR",
+        "independent": true,
         "currency": [
             "JOD"
         ],
@@ -29119,6 +29233,7 @@
         "ccn3": "392",
         "cca3": "JPN",
         "cioc": "JPN",
+        "independent": true,
         "currency": [
             "JPY"
         ],
@@ -29372,6 +29487,7 @@
         "ccn3": "398",
         "cca3": "KAZ",
         "cioc": "KAZ",
+        "independent": true,
         "currency": [
             "KZT"
         ],
@@ -29648,6 +29764,7 @@
         "ccn3": "404",
         "cca3": "KEN",
         "cioc": "KEN",
+        "independent": true,
         "currency": [
             "KES"
         ],
@@ -29912,6 +30029,7 @@
         "ccn3": "417",
         "cca3": "KGZ",
         "cioc": "KGZ",
+        "independent": true,
         "currency": [
             "KGS"
         ],
@@ -30174,6 +30292,7 @@
         "ccn3": "116",
         "cca3": "KHM",
         "cioc": "CAM",
+        "independent": true,
         "currency": [
             "KHR"
         ],
@@ -30435,6 +30554,7 @@
         "ccn3": "296",
         "cca3": "KIR",
         "cioc": "KIR",
+        "independent": true,
         "currency": [
             "AUD"
         ],
@@ -30683,6 +30803,7 @@
         "ccn3": "659",
         "cca3": "KNA",
         "cioc": "SKN",
+        "independent": true,
         "currency": [
             "XCD"
         ],
@@ -30929,6 +31050,7 @@
         "ccn3": "410",
         "cca3": "KOR",
         "cioc": "KOR",
+        "independent": true,
         "currency": [
             "KRW"
         ],
@@ -31183,6 +31305,7 @@
         "ccn3": null,
         "cca3": "UNK",
         "cioc": "KOS",
+        "independent": null,
         "currency": [
             "EUR"
         ],
@@ -31432,6 +31555,7 @@
         "ccn3": "414",
         "cca3": "KWT",
         "cioc": "KUW",
+        "independent": true,
         "currency": [
             "KWD"
         ],
@@ -31685,6 +31809,7 @@
         "ccn3": "418",
         "cca3": "LAO",
         "cioc": "LAO",
+        "independent": true,
         "currency": [
             "LAK"
         ],
@@ -31950,6 +32075,7 @@
         "ccn3": "422",
         "cca3": "LBN",
         "cioc": "LIB",
+        "independent": true,
         "currency": [
             "LBP"
         ],
@@ -32204,6 +32330,7 @@
         "ccn3": "430",
         "cca3": "LBR",
         "cioc": "LBR",
+        "independent": true,
         "currency": [
             "LRD"
         ],
@@ -32459,6 +32586,7 @@
         "ccn3": "434",
         "cca3": "LBY",
         "cioc": "LBA",
+        "independent": true,
         "currency": [
             "LYD"
         ],
@@ -32721,6 +32849,7 @@
         "ccn3": "662",
         "cca3": "LCA",
         "cioc": "LCA",
+        "independent": true,
         "currency": [
             "XCD"
         ],
@@ -32964,6 +33093,7 @@
         "ccn3": "438",
         "cca3": "LIE",
         "cioc": "LIE",
+        "independent": true,
         "currency": [
             "CHF"
         ],
@@ -33223,6 +33353,7 @@
         "ccn3": "144",
         "cca3": "LKA",
         "cioc": "SRI",
+        "independent": true,
         "currency": [
             "LKR"
         ],
@@ -33479,6 +33610,7 @@
         "ccn3": "426",
         "cca3": "LSO",
         "cioc": "LES",
+        "independent": true,
         "currency": [
             "LSL",
             "ZAR"
@@ -33733,6 +33865,7 @@
         "ccn3": "440",
         "cca3": "LTU",
         "cioc": "LTU",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -34006,6 +34139,7 @@
         "ccn3": "442",
         "cca3": "LUX",
         "cioc": "LUX",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -34275,6 +34409,7 @@
         "ccn3": "428",
         "cca3": "LVA",
         "cioc": "LAT",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -34543,6 +34678,7 @@
         "ccn3": "446",
         "cca3": "MAC",
         "cioc": null,
+        "independent": null,
         "currency": [
             "MOP"
         ],
@@ -34812,6 +34948,7 @@
         "ccn3": "663",
         "cca3": "MAF",
         "cioc": null,
+        "independent": null,
         "currency": [
             "EUR"
         ],
@@ -35066,6 +35203,7 @@
         "ccn3": "504",
         "cca3": "MAR",
         "cioc": "MAR",
+        "independent": true,
         "currency": [
             "MAD"
         ],
@@ -35322,6 +35460,7 @@
         "ccn3": "492",
         "cca3": "MCO",
         "cioc": "MON",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -35574,6 +35713,7 @@
         "ccn3": "498",
         "cca3": "MDA",
         "cioc": "MDA",
+        "independent": true,
         "currency": [
             "MDL"
         ],
@@ -35833,6 +35973,7 @@
         "ccn3": "450",
         "cca3": "MDG",
         "cioc": "MAD",
+        "independent": true,
         "currency": [
             "MGA"
         ],
@@ -36083,6 +36224,7 @@
         "ccn3": "462",
         "cca3": "MDV",
         "cioc": "MDV",
+        "independent": true,
         "currency": [
             "MVR"
         ],
@@ -36332,6 +36474,7 @@
         "ccn3": "484",
         "cca3": "MEX",
         "cioc": "MEX",
+        "independent": true,
         "currency": [
             "MXN"
         ],
@@ -36596,6 +36739,7 @@
         "ccn3": "584",
         "cca3": "MHL",
         "cioc": "MHL",
+        "independent": true,
         "currency": [
             "USD"
         ],
@@ -36844,6 +36988,7 @@
         "ccn3": "807",
         "cca3": "MKD",
         "cioc": "MKD",
+        "independent": true,
         "currency": [
             "MKD"
         ],
@@ -37106,6 +37251,7 @@
         "ccn3": "466",
         "cca3": "MLI",
         "cioc": "MLI",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -37373,6 +37519,7 @@
         "ccn3": "470",
         "cca3": "MLT",
         "cioc": "MLT",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -37629,6 +37776,7 @@
         "ccn3": "104",
         "cca3": "MMR",
         "cioc": "MYA",
+        "independent": true,
         "currency": [
             "MMK"
         ],
@@ -37891,6 +38039,7 @@
         "ccn3": "499",
         "cca3": "MNE",
         "cioc": "MNE",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -38148,6 +38297,7 @@
         "ccn3": "496",
         "cca3": "MNG",
         "cioc": "MGL",
+        "independent": true,
         "currency": [
             "MNT"
         ],
@@ -38408,6 +38558,7 @@
         "ccn3": "580",
         "cca3": "MNP",
         "cioc": null,
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -38657,6 +38808,7 @@
         "ccn3": "508",
         "cca3": "MOZ",
         "cioc": "MOZ",
+        "independent": true,
         "currency": [
             "MZN"
         ],
@@ -38919,6 +39071,7 @@
         "ccn3": "478",
         "cca3": "MRT",
         "cioc": "MTN",
+        "independent": true,
         "currency": [
             "MRO"
         ],
@@ -39176,6 +39329,7 @@
         "ccn3": "500",
         "cca3": "MSR",
         "cioc": null,
+        "independent": null,
         "currency": [
             "XCD"
         ],
@@ -39419,6 +39573,7 @@
         "ccn3": "474",
         "cca3": "MTQ",
         "cioc": "",
+        "independent": false,
         "currency": [
             "EUR"
         ],
@@ -39527,6 +39682,7 @@
         "ccn3": "480",
         "cca3": "MUS",
         "cioc": "MRI",
+        "independent": true,
         "currency": [
             "MUR"
         ],
@@ -39780,6 +39936,7 @@
         "ccn3": "454",
         "cca3": "MWI",
         "cioc": "MAW",
+        "independent": true,
         "currency": [
             "MWK"
         ],
@@ -40038,6 +40195,7 @@
         "ccn3": "458",
         "cca3": "MYS",
         "cioc": "MAS",
+        "independent": true,
         "currency": [
             "MYR"
         ],
@@ -40291,6 +40449,7 @@
         "ccn3": "175",
         "cca3": "MYT",
         "cioc": "",
+        "independent": false,
         "currency": [
             "EUR"
         ],
@@ -40425,6 +40584,7 @@
         "ccn3": "516",
         "cca3": "NAM",
         "cioc": "NAM",
+        "independent": true,
         "currency": [
             "NAD",
             "ZAR"
@@ -40693,6 +40853,7 @@
         "ccn3": "540",
         "cca3": "NCL",
         "cioc": null,
+        "independent": null,
         "currency": [
             "XPF"
         ],
@@ -40936,6 +41097,7 @@
         "ccn3": "562",
         "cca3": "NER",
         "cioc": "NIG",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -41201,6 +41363,7 @@
         "ccn3": "574",
         "cca3": "NFK",
         "cioc": null,
+        "independent": null,
         "currency": [
             "AUD"
         ],
@@ -41449,6 +41612,7 @@
         "ccn3": "566",
         "cca3": "NGA",
         "cioc": "NGR",
+        "independent": true,
         "currency": [
             "NGN"
         ],
@@ -41709,6 +41873,7 @@
         "ccn3": "558",
         "cca3": "NIC",
         "cioc": "NCA",
+        "independent": true,
         "currency": [
             "NIO"
         ],
@@ -41966,6 +42131,7 @@
         "ccn3": "570",
         "cca3": "NIU",
         "cioc": null,
+        "independent": null,
         "currency": [
             "NZD"
         ],
@@ -42210,6 +42376,7 @@
         "ccn3": "528",
         "cca3": "NLD",
         "cioc": "NED",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -42485,6 +42652,7 @@
         "ccn3": "578",
         "cca3": "NOR",
         "cioc": "NOR",
+        "independent": true,
         "currency": [
             "NOK"
         ],
@@ -42748,6 +42916,7 @@
         "ccn3": "524",
         "cca3": "NPL",
         "cioc": "NEP",
+        "independent": true,
         "currency": [
             "NPR"
         ],
@@ -43016,6 +43185,7 @@
         "ccn3": "520",
         "cca3": "NRU",
         "cioc": "NRU",
+        "independent": true,
         "currency": [
             "AUD"
         ],
@@ -43276,6 +43446,7 @@
         "ccn3": "554",
         "cca3": "NZL",
         "cioc": "NZL",
+        "independent": true,
         "currency": [
             "NZD"
         ],
@@ -43524,6 +43695,7 @@
         "ccn3": "512",
         "cca3": "OMN",
         "cioc": "OMA",
+        "independent": true,
         "currency": [
             "OMR"
         ],
@@ -43783,6 +43955,7 @@
         "ccn3": "586",
         "cca3": "PAK",
         "cioc": "PAK",
+        "independent": true,
         "currency": [
             "PKR"
         ],
@@ -44044,6 +44217,7 @@
         "ccn3": "591",
         "cca3": "PAN",
         "cioc": "PAN",
+        "independent": true,
         "currency": [
             "PAB",
             "USD"
@@ -44299,6 +44473,7 @@
         "ccn3": "612",
         "cca3": "PCN",
         "cioc": null,
+        "independent": null,
         "currency": [
             "NZD"
         ],
@@ -44552,6 +44727,7 @@
         "ccn3": "604",
         "cca3": "PER",
         "cioc": "PER",
+        "independent": true,
         "currency": [
             "PEN"
         ],
@@ -44818,6 +44994,7 @@
         "ccn3": "608",
         "cca3": "PHL",
         "cioc": "PHI",
+        "independent": true,
         "currency": [
             "PHP"
         ],
@@ -45072,6 +45249,7 @@
         "ccn3": "585",
         "cca3": "PLW",
         "cioc": "PLW",
+        "independent": true,
         "currency": [
             "USD"
         ],
@@ -45328,6 +45506,7 @@
         "ccn3": "598",
         "cca3": "PNG",
         "cioc": "PNG",
+        "independent": true,
         "currency": [
             "PGK"
         ],
@@ -45581,6 +45760,7 @@
         "ccn3": "616",
         "cca3": "POL",
         "cioc": "POL",
+        "independent": true,
         "currency": [
             "PLN"
         ],
@@ -45856,6 +46036,7 @@
         "ccn3": "630",
         "cca3": "PRI",
         "cioc": "PUR",
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -46106,6 +46287,7 @@
         "ccn3": "408",
         "cca3": "PRK",
         "cioc": "PRK",
+        "independent": true,
         "currency": [
             "KPW"
         ],
@@ -46366,6 +46548,7 @@
         "ccn3": "620",
         "cca3": "PRT",
         "cioc": "POR",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -46631,6 +46814,7 @@
         "ccn3": "600",
         "cca3": "PRY",
         "cioc": "PAR",
+        "independent": true,
         "currency": [
             "PYG"
         ],
@@ -46890,6 +47074,7 @@
         "ccn3": "275",
         "cca3": "PSE",
         "cioc": "PLE",
+        "independent": null,
         "currency": [
             "ILS"
         ],
@@ -47147,6 +47332,7 @@
         "ccn3": "258",
         "cca3": "PYF",
         "cioc": null,
+        "independent": null,
         "currency": [
             "XPF"
         ],
@@ -47397,6 +47583,7 @@
         "ccn3": "634",
         "cca3": "QAT",
         "cioc": "QAT",
+        "independent": true,
         "currency": [
             "QAR"
         ],
@@ -47648,6 +47835,7 @@
         "ccn3": "638",
         "cca3": "REU",
         "cioc": "",
+        "independent": false,
         "currency": [
             "EUR"
         ],
@@ -47749,6 +47937,7 @@
         "ccn3": "642",
         "cca3": "ROU",
         "cioc": "ROU",
+        "independent": true,
         "currency": [
             "RON"
         ],
@@ -48020,6 +48209,7 @@
         "ccn3": "643",
         "cca3": "RUS",
         "cioc": "RUS",
+        "independent": true,
         "currency": [
             "RUB"
         ],
@@ -48312,6 +48502,7 @@
         "ccn3": "646",
         "cca3": "RWA",
         "cioc": "RWA",
+        "independent": true,
         "currency": [
             "RWF"
         ],
@@ -48575,6 +48766,7 @@
         "ccn3": "682",
         "cca3": "SAU",
         "cioc": "KSA",
+        "independent": true,
         "currency": [
             "SAR"
         ],
@@ -48845,6 +49037,7 @@
         "ccn3": "729",
         "cca3": "SDN",
         "cioc": "SUD",
+        "independent": true,
         "currency": [
             "SDG"
         ],
@@ -49109,6 +49302,7 @@
         "ccn3": "686",
         "cca3": "SEN",
         "cioc": "SEN",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -49382,6 +49576,7 @@
         "ccn3": "702",
         "cca3": "SGP",
         "cioc": "SIN",
+        "independent": true,
         "currency": [
             "SGD"
         ],
@@ -49654,6 +49849,7 @@
         "ccn3": "239",
         "cca3": "SGS",
         "cioc": null,
+        "independent": null,
         "currency": [
             "GBP"
         ],
@@ -49665,8 +49861,8 @@
             "GS",
             "South Georgia and the South Sandwich Islands"
         ],
-        "region": "Americas",
-        "subregion": "South America",
+        "region": "Antarctic",
+        "subregion": "",
         "languages": {
             "eng": "English"
         },
@@ -49896,6 +50092,7 @@
         "ccn3": "744",
         "cca3": "SJM",
         "cioc": "",
+        "independent": false,
         "currency": [
             "NOK"
         ],
@@ -49997,6 +50194,7 @@
         "ccn3": "090",
         "cca3": "SLB",
         "cioc": "SOL",
+        "independent": true,
         "currency": [
             "SBD"
         ],
@@ -50240,6 +50438,7 @@
         "ccn3": "694",
         "cca3": "SLE",
         "cioc": "SLE",
+        "independent": true,
         "currency": [
             "SLL"
         ],
@@ -50491,6 +50690,7 @@
         "ccn3": "222",
         "cca3": "SLV",
         "cioc": "ESA",
+        "independent": true,
         "currency": [
             "SVC",
             "USD"
@@ -50750,6 +50950,7 @@
         "ccn3": "674",
         "cca3": "SMR",
         "cioc": "SMR",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -51008,6 +51209,7 @@
         "ccn3": "706",
         "cca3": "SOM",
         "cioc": "SOM",
+        "independent": true,
         "currency": [
             "SOS"
         ],
@@ -51269,6 +51471,7 @@
         "ccn3": "666",
         "cca3": "SPM",
         "cioc": null,
+        "independent": null,
         "currency": [
             "EUR"
         ],
@@ -51515,6 +51718,7 @@
         "ccn3": "688",
         "cca3": "SRB",
         "cioc": "SRB",
+        "independent": true,
         "currency": [
             "RSD"
         ],
@@ -51784,6 +51988,7 @@
         "ccn3": "728",
         "cca3": "SSD",
         "cioc": null,
+        "independent": true,
         "currency": [
             "SSP"
         ],
@@ -52042,6 +52247,7 @@
         "ccn3": "678",
         "cca3": "STP",
         "cioc": "STP",
+        "independent": true,
         "currency": [
             "STD"
         ],
@@ -52292,6 +52498,7 @@
         "ccn3": "740",
         "cca3": "SUR",
         "cioc": "SUR",
+        "independent": true,
         "currency": [
             "SRD"
         ],
@@ -52551,6 +52758,7 @@
         "ccn3": "703",
         "cca3": "SVK",
         "cioc": "SVK",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -52818,6 +53026,7 @@
         "ccn3": "705",
         "cca3": "SVN",
         "cioc": "SLO",
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -53082,6 +53291,7 @@
         "ccn3": "752",
         "cca3": "SWE",
         "cioc": "SWE",
+        "independent": true,
         "currency": [
             "SEK"
         ],
@@ -53347,6 +53557,7 @@
         "ccn3": "748",
         "cca3": "SWZ",
         "cioc": "SWZ",
+        "independent": true,
         "currency": [
             "SZL"
         ],
@@ -53615,6 +53826,7 @@
         "ccn3": "534",
         "cca3": "SXM",
         "cioc": null,
+        "independent": null,
         "currency": [
             "ANG"
         ],
@@ -53870,6 +54082,7 @@
         "ccn3": "690",
         "cca3": "SYC",
         "cioc": "SEY",
+        "independent": true,
         "currency": [
             "SCR"
         ],
@@ -54122,6 +54335,7 @@
         "ccn3": "760",
         "cca3": "SYR",
         "cioc": "SYR",
+        "independent": true,
         "currency": [
             "SYP"
         ],
@@ -54382,6 +54596,7 @@
         "ccn3": "796",
         "cca3": "TCA",
         "cioc": null,
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -54629,6 +54844,7 @@
         "ccn3": "148",
         "cca3": "TCD",
         "cioc": "CHA",
+        "independent": true,
         "currency": [
             "XAF"
         ],
@@ -54897,6 +55113,7 @@
         "ccn3": "768",
         "cca3": "TGO",
         "cioc": "TOG",
+        "independent": true,
         "currency": [
             "XOF"
         ],
@@ -55155,6 +55372,7 @@
         "ccn3": "764",
         "cca3": "THA",
         "cioc": "THA",
+        "independent": true,
         "currency": [
             "THB"
         ],
@@ -55423,6 +55641,7 @@
         "ccn3": "762",
         "cca3": "TJK",
         "cioc": "TJK",
+        "independent": true,
         "currency": [
             "TJS"
         ],
@@ -55693,6 +55912,7 @@
         "ccn3": "772",
         "cca3": "TKL",
         "cioc": "",
+        "independent": false,
         "currency": [
             "NZD"
         ],
@@ -55799,6 +56019,7 @@
         "ccn3": "795",
         "cca3": "TKM",
         "cioc": "TKM",
+        "independent": true,
         "currency": [
             "TMT"
         ],
@@ -56057,6 +56278,7 @@
         "ccn3": "626",
         "cca3": "TLS",
         "cioc": "TLS",
+        "independent": true,
         "currency": [
             "USD"
         ],
@@ -56321,6 +56543,7 @@
         "ccn3": "776",
         "cca3": "TON",
         "cioc": "TGA",
+        "independent": true,
         "currency": [
             "TOP"
         ],
@@ -56567,6 +56790,7 @@
         "ccn3": "780",
         "cca3": "TTO",
         "cioc": "TTO",
+        "independent": true,
         "currency": [
             "TTD"
         ],
@@ -56812,6 +57036,7 @@
         "ccn3": "788",
         "cca3": "TUN",
         "cioc": "TUN",
+        "independent": true,
         "currency": [
             "TND"
         ],
@@ -57065,6 +57290,7 @@
         "ccn3": "792",
         "cca3": "TUR",
         "cioc": "TUR",
+        "independent": true,
         "currency": [
             "TRY"
         ],
@@ -57336,6 +57562,7 @@
         "ccn3": "798",
         "cca3": "TUV",
         "cioc": "TUV",
+        "independent": true,
         "currency": [
             "AUD"
         ],
@@ -57582,6 +57809,7 @@
         "ccn3": "158",
         "cca3": "TWN",
         "cioc": "TPE",
+        "independent": null,
         "currency": [
             "TWD"
         ],
@@ -57861,6 +58089,7 @@
         "ccn3": "834",
         "cca3": "TZA",
         "cioc": "TAN",
+        "independent": true,
         "currency": [
             "TZS"
         ],
@@ -58133,6 +58362,7 @@
         "ccn3": "800",
         "cca3": "UGA",
         "cioc": "UGA",
+        "independent": true,
         "currency": [
             "UGX"
         ],
@@ -58394,6 +58624,7 @@
         "ccn3": "804",
         "cca3": "UKR",
         "cioc": "UKR",
+        "independent": true,
         "currency": [
             "UAH"
         ],
@@ -58656,6 +58887,7 @@
         "ccn3": "581",
         "cca3": "UMI",
         "cioc": null,
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -58892,6 +59124,7 @@
         "ccn3": "858",
         "cca3": "URY",
         "cioc": "URU",
+        "independent": true,
         "currency": [
             "UYI",
             "UYU"
@@ -59148,6 +59381,7 @@
         "ccn3": "840",
         "cca3": "USA",
         "cioc": "USA",
+        "independent": true,
         "currency": [
             "USD",
             "USN",
@@ -59409,6 +59643,7 @@
         "ccn3": "860",
         "cca3": "UZB",
         "cioc": "UZB",
+        "independent": true,
         "currency": [
             "UZS"
         ],
@@ -59675,6 +59910,7 @@
         "ccn3": "336",
         "cca3": "VAT",
         "cioc": null,
+        "independent": true,
         "currency": [
             "EUR"
         ],
@@ -59931,6 +60167,7 @@
         "ccn3": "670",
         "cca3": "VCT",
         "cioc": "VIN",
+        "independent": true,
         "currency": [
             "XCD"
         ],
@@ -60174,6 +60411,7 @@
         "ccn3": "862",
         "cca3": "VEN",
         "cioc": "VEN",
+        "independent": true,
         "currency": [
             "VEF"
         ],
@@ -60431,6 +60669,7 @@
         "ccn3": "092",
         "cca3": "VGB",
         "cioc": "IVB",
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -60676,6 +60915,7 @@
         "ccn3": "850",
         "cca3": "VIR",
         "cioc": "ISV",
+        "independent": null,
         "currency": [
             "USD"
         ],
@@ -60921,6 +61161,7 @@
         "ccn3": "704",
         "cca3": "VNM",
         "cioc": "VIE",
+        "independent": true,
         "currency": [
             "VND"
         ],
@@ -61189,6 +61430,7 @@
         "ccn3": "548",
         "cca3": "VUT",
         "cioc": "VAN",
+        "independent": true,
         "currency": [
             "VUV"
         ],
@@ -61442,6 +61684,7 @@
         "ccn3": "876",
         "cca3": "WLF",
         "cioc": null,
+        "independent": null,
         "currency": [
             "XPF"
         ],
@@ -61693,6 +61936,7 @@
         "ccn3": "882",
         "cca3": "WSM",
         "cioc": "SAM",
+        "independent": true,
         "currency": [
             "WST"
         ],
@@ -61942,6 +62186,7 @@
         "ccn3": "887",
         "cca3": "YEM",
         "cioc": "YEM",
+        "independent": true,
         "currency": [
             "YER"
         ],
@@ -62237,6 +62482,7 @@
         "ccn3": "710",
         "cca3": "ZAF",
         "cioc": "RSA",
+        "independent": true,
         "currency": [
             "ZAR"
         ],
@@ -62510,6 +62756,7 @@
         "ccn3": "894",
         "cca3": "ZMB",
         "cioc": "ZAM",
+        "independent": true,
         "currency": [
             "ZMW"
         ],
@@ -62829,6 +63076,7 @@
         "ccn3": "716",
         "cca3": "ZWE",
         "cioc": "ZIM",
+        "independent": true,
         "currency": [
             "ZWL"
         ],
