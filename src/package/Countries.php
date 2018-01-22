@@ -2,36 +2,40 @@
 
 namespace PragmaRX\Countries\Package;
 
-use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Services\Countries as CountriesService;
+use PragmaRX\Countries\Package\Services\Cache;
 use PragmaRX\Countries\Package\Support\CountriesRepository;
+use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Package\Services\Hydrator;
+use PragmaRX\Countries\Package\Contracts\Config;
 
-class Service
+class Countries
 {
     /**
-     * Countries repository.
+     * The actual Countries class is a service.
      *
-     * @var CountriesRepository
+     * @var CountriesService
      */
-    protected $repository;
+    private $countriesService;
 
     /**
      * Service constructor.
      *
+     * @param Config $config
+     * @param Cache $cache
+     * @param Helper $helper
+     * @param Hydrator $hydrator
      * @param CountriesRepository $repository
      */
-    public function __construct(CountriesRepository $repository)
+    public function __construct(
+        Config $config = null,
+        Cache $cache = null,
+        Helper $helper = null,
+        Hydrator $hydrator = null,
+        CountriesRepository $repository = null
+    )
     {
-        $this->repository = $repository;
-    }
-
-    /**
-     * Get all currencies.
-     *
-     * @return Coollection
-     */
-    public function currencies()
-    {
-        return countriesCollect($this->repository->currencies())->unique()->sort();
+        $this->countriesService = new CountriesService($config, $cache, $helper, $hydrator, $repository);
     }
 
     /**
@@ -43,22 +47,18 @@ class Service
      */
     public function __call($name, array $arguments = [])
     {
-        $result = $this->repository->call($name, $arguments);
-
-        if (config('countries.hydrate.after')) {
-            $result = $this->repository->hydrate($result);
-        }
-
-        return $result;
+        return call_user_func_array([$this->countriesService, $name], $arguments);
     }
 
     /**
-     * Repository getter.
+     * Translate static methods calls to dynamic.
      *
-     * @return CountriesRepository
+     * @param $name
+     * @param array $arguments
+     * @return mixed
      */
-    public function getRepository()
+    public static function __callStatic($name, array $arguments = [])
     {
-        return $this->repository;
+        return call_user_func_array([new static(), $name], $arguments);
     }
 }

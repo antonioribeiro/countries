@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
+use Exception;
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Services\Helper;
 
 class Currencies extends Base
 {
@@ -30,13 +30,22 @@ class Currencies extends Base
         $this->updater = $updater;
     }
 
+    /**
+     * Update all currencies.
+     *
+     * @throws Exception
+     */
     public function update()
     {
-        $this->helper->progress('Updating currencies...');
+        $this->helper->progress('--- Currencies');
 
         $this->helper->eraseDataDir($dataDir = '/currencies/default');
 
-        $currencies = $this->helper->loadJsonFiles($this->helper->dataDir('third-party/world-currencies/package/src'));
+        $currencies = $this->helper->loadJsonFiles($directory = $this->helper->dataDir('third-party/world-currencies/package/src'));
+
+        if ($currencies->isEmpty()) {
+            throw new Exception("No currencies found in {$directory}");
+        }
 
         $currencies = $currencies->mapWithKeys(function ($currency) {
             return $currency;

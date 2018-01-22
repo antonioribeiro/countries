@@ -1,8 +1,10 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Support;
+namespace PragmaRX\Countries\Package\Services;
 
-class Config
+use PragmaRX\Countries\Package\Contracts\Config as ConfigContract;
+
+class Config implements ConfigContract
 {
     /**
      * Configuration.
@@ -45,7 +47,7 @@ class Config
      */
     protected function loadConfig()
     {
-        return countriesCollect(
+        return coollect(
             require __DIR__.'/../../config/countries.php'
         );
     }

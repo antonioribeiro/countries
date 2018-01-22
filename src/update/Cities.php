@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Update\Helper;
 
 class Cities extends Base
 {
@@ -35,7 +35,7 @@ class Cities extends Base
      */
     public function update()
     {
-        $this->helper->progress('Updating cities...');
+        $this->helper->progress('--- Cities');
 
         $this->helper->eraseDataDir($dataDir = '/cities/default/');
 

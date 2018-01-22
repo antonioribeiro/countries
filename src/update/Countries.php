@@ -1,10 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
+use PragmaRX\Countries\Package\Services\Cache;
+use PragmaRX\Countries\Package\Services\Config;
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Services\Helper;
-use PragmaRX\Countries\Package\Facade as CountriesService;
+use PragmaRX\Countries\Package\Countries as CountriesService;
 
 class Countries extends Base
 {
@@ -34,6 +35,11 @@ class Countries extends Base
     private $rinvex;
 
     /**
+     * @var Cache
+     */
+    private $cache;
+
+    /**
      * Rinvex constructor.
      *
      * @param Helper $helper
@@ -53,6 +59,8 @@ class Countries extends Base
         $this->natural = $natural;
 
         $this->rinvex = $rinvex;
+
+        $this->cache = new Cache(new Config());
     }
 
     /**
@@ -60,11 +68,11 @@ class Countries extends Base
      */
     public function update()
     {
-        $this->helper->progress('Updating countries...');
+        $this->helper->progress('--- Countries');
 
         $dataDir = '/countries/default/';
 
-        $this->updater->setCountries(cache()->remember('updateCountries->buildCountriesCoollection', 160, function () use ($dataDir) {
+        $this->updater->setCountries($this->cache->remember('updateCountries->buildCountriesCoollection', 160, function () use ($dataDir) {
             $this->helper->eraseDataDir($dataDir);
 
             return $this->buildCountriesCoollection($dataDir);
@@ -92,12 +100,12 @@ class Countries extends Base
 
         $mledoze = $this->mledoze->loadMledozeCountries();
 
-        $countries = countriesCollect($this->helper->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country) {
+        $countries = coollect($this->helper->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country) {
             return $this->natural->fixNaturalOddCountries($country);
         })->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
             list($mledoze, $countryCode) = $this->mledoze->findMledozeCountry($mledoze, $natural);
 
-            $natural = countriesCollect($natural)->mapWithKeys(function ($country, $key) {
+            $natural = coollect($natural)->mapWithKeys(function ($country, $key) {
                 return [strtolower($key) => $country];
             });
 

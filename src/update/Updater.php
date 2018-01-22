@@ -1,75 +1,21 @@
 <?php
 
-namespace PragmaRX\Countries\Updater;
+namespace PragmaRX\Countries\Update;
 
 use Closure;
-use Illuminate\Console\Command;
+use PragmaRX\Countries\Package\Contracts\Config as ConfigContract;
+use PragmaRX\Countries\Package\Services\Cache;
+use PragmaRX\Countries\Package\Services\Command;
+use PragmaRX\Countries\Package\Services\Config as ConfigService;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Services\Config;
-use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Package\Contracts\Config;
 
 /**
  * @codeCoverageIgnore
  */
 class Updater extends Base
 {
-    protected $data = [
-        'downloadable' => [
-            'mledoze' => 'https://github.com/mledoze/countries/archive/master.zip',
-
-            'rinvex' => 'https://github.com/rinvex/country/archive/master.zip',
-
-            'natural_earth' => [
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.cpg',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.dbf',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.prj',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.shp',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_1_states_provinces.shx',
-
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.cpg',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.dbf',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.prj',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.shp',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_populated_places.shx',
-
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.cpg',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.dbf',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.prj',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.shp',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_countries.shx',
-
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.cpg',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.dbf',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.prj',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.shp',
-                'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/10m_cultural/ne_10m_admin_0_scale_rank_minor_islands.shx',
-            ],
-
-            'commerceguys' => 'https://github.com/commerceguys/tax/archive/master.zip',
-
-            'timezonedb' => 'http://timezonedb.com/files/timezonedb.csv.zip',
-
-            'world-currencies' => 'https://github.com/antonioribeiro/world-currencies/archive/master.zip',
-        ],
-
-        'moveable' => [
-            'third-party/mledoze/package/data' => 'third-party/mledoze/data',
-            'third-party/mledoze/package/dist' => 'third-party/mledoze/dist',
-            'third-party/rinvex/package/resources' => 'third-party/rinvex/data',
-            'third-party/mledoze/package/data/*.svg' => 'flags',
-            'third-party/mledoze/package/data/*.geo.json' => 'geo',
-            'third-party/mledoze/package/data/*.topo.json' => 'topo',
-            'third-party/commerceguys/package/resources/tax_type' => 'third-party/commerceguys/taxes/types',
-            'third-party/commerceguys/package/resources/zone' => 'third-party/commerceguys/taxes/zones',
-        ],
-
-        'deletable' => [
-            'third-party',
-            'tmp',
-        ],
-    ];
-
     /**
      * @param \Illuminate\Console\Command $line
      */
@@ -86,65 +32,74 @@ class Updater extends Base
     protected $config;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Helper $helper
+     * @param \PragmaRX\Countries\Update\Helper $helper
      */
     protected $helper;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Rinvex $rinvex
+     * @param \PragmaRX\Countries\Update\Rinvex $rinvex
      */
     protected $rinvex;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Natural $natural
+     * @param \PragmaRX\Countries\Update\Natural $natural
      */
     protected $natural;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Mledoze $mledoze
+     * @param \PragmaRX\Countries\Update\Mledoze $mledoze
      */
     protected $mledoze;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Countries $countries
+     * @param \PragmaRX\Countries\Update\Countries $countries
      */
     protected $countries;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Cities $cities
+     * @param \PragmaRX\Countries\Update\Cities $cities
      */
     protected $cities;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Currencies $currencies
+     * @param \PragmaRX\Countries\Update\Currencies $currencies
      */
     protected $currencies;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\States $states
+     * @param \PragmaRX\Countries\Update\States $states
      */
     protected $states;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Taxes $taxes
+     * @param \PragmaRX\Countries\Update\Taxes $taxes
      */
     protected $taxes;
 
     /**
-     * @param \PragmaRX\Countries\Package\Update\Timezones $timezones
+     * @param \PragmaRX\Countries\Update\Timezones $timezones
      */
     protected $timezones;
 
     /**
+     * @var Cache
+     */
+    private $cache;
+
+    /**
      * Updater constructor.
-     * @param Config $config
+     * @param ConfigContract $config
      * @param Helper $helper
      */
-    public function __construct(Config $config, Helper $helper)
+    public function __construct(ConfigContract $config, Helper $helper)
     {
         $this->config = $config;
 
         $this->helper = $helper;
+
+        $this->cache = new Cache(new ConfigService());
+
+        $this->cache->clear();
 
         $this->natural = new Natural($this->helper, $this);
 
@@ -165,6 +120,8 @@ class Updater extends Base
         $this->taxes = new Taxes($this->helper, $this);
 
         $this->timezones = new Timezones($this->helper, $this);
+
+        $this->init();
     }
 
     /**
@@ -183,6 +140,13 @@ class Updater extends Base
         return $this->_countries;
     }
 
+    protected function instantiateCommand($command)
+    {
+        return is_null($command)
+            ? new Command()
+            : $command;
+    }
+
     /**
      * @param mixed $countries
      */
@@ -196,9 +160,9 @@ class Updater extends Base
      *
      * @param $command
      */
-    public function update($command)
+    public function update($command = null)
     {
-        $this->command = $command;
+        $this->command = $this->instantiateCommand($command);
 
         $this->helper->downloadFiles();
 
@@ -236,7 +200,7 @@ class Updater extends Base
 
         $record['data_sources'][] = $source;
 
-        return countriesCollect($record);
+        return coollect($record);
     }
 
     /**
@@ -287,11 +251,11 @@ class Updater extends Base
     {
         foreach ($fields as $field) {
             if (isset($by[$field[1]]) && ! is_null($found = $on->where($field[0], $by[$field[1]])->first())) {
-                return [countriesCollect($found), $found->{$codeField}];
+                return [coollect($found), $found->{$codeField}];
             }
         }
 
-        return [countriesCollect(), null];
+        return [coollect(), null];
     }
 
     /**
@@ -316,7 +280,7 @@ class Updater extends Base
                     ? $key
                     : $makeGroupKeyClosure($record, $key);
 
-                $record = countriesCollect($record)->sortBy(function ($value, $key) {
+                $record = coollect($record)->sortBy(function ($value, $key) {
                     return $key;
                 });
 
@@ -365,11 +329,11 @@ class Updater extends Base
      */
     public function normalizeData($result, $dir, $normalizerClosure)
     {
-        return cache()->remember(
+        return $this->cache->remember(
             'normalizeData'.$dir, 160,
             function () use ($dir, $result, $normalizerClosure) {
-                return countriesCollect($result)->map(function ($item, $key) use ($normalizerClosure) {
-                    return $normalizerClosure(countriesCollect($item)->mapWithKeys(function ($value, $key) {
+                return coollect($result)->map(function ($item, $key) use ($normalizerClosure) {
+                    return $normalizerClosure(coollect($item)->mapWithKeys(function ($value, $key) {
                         return [strtolower($key) => $value];
                     }), $key);
                 });
@@ -412,10 +376,15 @@ class Updater extends Base
     /**
      * Command setter.
      *
-     * @param \Illuminate\Console\Command $command
+     * @param Command $command
      */
     public function setCommand(Command $command)
     {
         $this->command = $command;
+    }
+
+    public function init()
+    {
+        $this->defineConstants();
     }
 }

@@ -1,8 +1,13 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Support;
+namespace PragmaRX\Countries\Package\Data;
 
-class CountriesRepository
+use PragmaRX\Countries\Package\Services\Cache;
+use PragmaRX\Countries\Package\Contracts\Config;
+use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Package\Services\Hydrator;
+
+class Repository
 {
     /**
      * Timezones.
@@ -179,7 +184,7 @@ class CountriesRepository
      */
     public function all()
     {
-        return coollect($this->countriesJson);
+        return countriesCollect($this->countriesJson);
     }
 
     /**
@@ -209,8 +214,6 @@ class CountriesRepository
      */
     public function __call($name, array $arguments = [])
     {
-        dump('Repository->__call()');
-
         return call_user_func_array([$this->all(), $name], $arguments);
     }
 

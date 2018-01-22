@@ -30,6 +30,17 @@ class Collection extends Coollection
     }
 
     /**
+     * Hydrate configured default elements
+     *
+     * @param Collection $countries
+     * @return Collection
+     */
+    public function hydrateDefaultElements($countries)
+    {
+        return $countries->hydrate();
+    }
+
+    /**
      * Where on steroids.
      *
      * @param string $key
@@ -45,15 +56,11 @@ class Collection extends Coollection
             $operator = '=';
         }
 
-        if (array_key_exists($key, config('countries.maps'))) {
-            $key = config('countries.maps')[$key];
-        }
+        $countries = method_exists($this, 'where'.ucfirst($key))
+            ? $this->{'where'.ucfirst($key)}($value)
+            : parent::where($key, $operator, $value);
 
-        if (method_exists($this, 'where'.ucfirst($key))) {
-            return $this->{'where'.ucfirst($key)}($value);
-        }
-
-        return parent::where($key, $operator, $value);
+        return $this->hydrateDefaultElements($countries);
     }
 
     /**
@@ -125,7 +132,9 @@ class Collection extends Coollection
             return Arr::has($attributeValue, $value);
         };
 
-        return $this->arrayFinder($arrayName, $value, $finderClosure);
+        return $this->hydrateDefaultElements(
+            $this->arrayFinder($arrayName, $value, $finderClosure)
+        );
     }
 
     /**
@@ -141,6 +150,8 @@ class Collection extends Coollection
             return in_array($value, $attributeValue->toArray());
         };
 
-        return $this->arrayFinder($arrayName, $value, $finderClosure);
+        return $this->hydrateDefaultElements(
+            $this->arrayFinder($arrayName, $value, $finderClosure)
+        );
     }
 }
