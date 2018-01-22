@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0 - 2018-01-22 ---- WIP
+### Changed
+- Package is now PHP agnostic
+- Laravel version is now pragmarx/countries-laravel
+
 ## 0.1.0 - 2017-02-13
 ### Added
 - First version
