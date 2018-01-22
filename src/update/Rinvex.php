@@ -5,7 +5,6 @@ namespace PragmaRX\Countries\Update;
 use Exception;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Update\Helper;
 
 class Rinvex extends Base
 {
