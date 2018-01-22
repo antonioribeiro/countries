@@ -5,8 +5,8 @@ namespace PragmaRX\Countries\Package\Services;
 use Closure;
 use Exception;
 use Psr\SimpleCache\CacheInterface;
-use Nette\Caching\Storages\FileStorage;
 use Nette\Caching\Cache as NetteCache;
+use Nette\Caching\Storages\FileStorage;
 
 class Cache implements CacheInterface
 {
@@ -55,7 +55,7 @@ class Cache implements CacheInterface
         if (is_null($this->dir)) {
             $this->dir = $this->config->cache->directory;
 
-            if (!file_exists($this->dir)) {
+            if (! file_exists($this->dir)) {
                 mkdir($this->dir, 0755, true);
             }
         }
@@ -97,7 +97,7 @@ class Cache implements CacheInterface
     protected function makeExpiration($ttl)
     {
         $expiration = ($ttl
-                ?: $this->config->get('cache.duration')) . ' minutes';
+                ?: $this->config->get('cache.duration')).' minutes';
 
         return $expiration;
     }

@@ -36,7 +36,6 @@ class Hydrator
      */
     protected $repository;
 
-
     /**
      * Config.
      *
