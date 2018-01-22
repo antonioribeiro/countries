@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Update\Helper;
 
 class Natural extends Base
 {
@@ -52,7 +52,7 @@ class Natural extends Base
 
             'code_hasc' => $state['code_hasc'],
 
-            'extra' => countriesCollect($state)->sortByKey()->except([
+            'extra' => coollect($state)->sortByKey()->except([
                 'name', 'name_alt', 'latitude', 'longitude', 'cca2', 'cca3',
                 'iso_a2', 'iso_a3', 'type', 'type_en', 'postal',
                 'iso_3166_2', 'code_hasc',

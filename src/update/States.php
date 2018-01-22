@@ -1,8 +1,8 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Update\Helper;
 
 class States
 {
@@ -42,7 +42,7 @@ class States
      */
     public function update()
     {
-        $this->helper->progress('Updating states...');
+        $this->helper->progress('--- States');
 
         $this->helper->eraseDataDir($dataDir = '/states/default');
 
@@ -79,7 +79,7 @@ class States
      */
     public function makeStatePostalCode($item)
     {
-        $item = countriesCollect($item);
+        $item = coollect($item);
 
         if ($item->iso_3166_2 !== '') {
             $code = explode('-', $item->iso_3166_2);

@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Support;
+namespace PragmaRX\Countries\Package\Services;
 
 use Illuminate\Support\Str;
 use PragmaRX\Coollection\Package\Coollection;
@@ -373,7 +373,7 @@ class Hydrator
     {
         $elements = $this->getHydrationElements($elements);
 
-        return ! $this->isCountry($this->toArray($target))
+        return ! $this->isCountry($target->toArray())
             ? $this->hydrateCountries($target, $elements)
             : $this->hydrateCountry($target, $elements);
     }
@@ -444,21 +444,6 @@ class Hydrator
     public function setRepository($repository)
     {
         $this->repository = $repository;
-    }
-
-    /**
-     * Transform a class into an array.
-     *
-     * @param $data
-     * @return mixed
-     */
-    public function toArray($data)
-    {
-        if (is_array($data) || is_null($data)) {
-            return $data;
-        }
-
-        return $data->toArray();
     }
 
     /**

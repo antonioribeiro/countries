@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Update\Helper;
 
 class Taxes extends Base
 {
@@ -32,14 +32,14 @@ class Taxes extends Base
 
     public function update()
     {
-        $this->helper->progress('Updating taxes...');
+        $this->helper->progress('--- Taxes');
 
         $this->helper->eraseDataDir($dataDir = '/taxes/default');
 
         $taxes = $this->helper->loadJsonFiles($this->helper->dataDir('third-party/commerceguys/taxes/types'));
 
         $taxes = $taxes->mapWithKeys(function ($vat, $key) {
-            $parts = countriesCollect(explode('_', $key));
+            $parts = coollect(explode('_', $key));
             $cca2 = $parts->first();
             $type = $parts->last();
             $modifier = $parts->count() > 2 ? $parts[1] : '';

@@ -2,22 +2,29 @@
 
 namespace PragmaRX\Countries\Tests\Service;
 
-use PragmaRX\Countries\Tests\TestCase;
+use PragmaRX\Countries\Package\Countries;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Facade as Countries;
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
-class CountriesTest extends TestCase
+class CountriesTest extends PHPUnitTestCase
 {
-    public function testCountriesIsInstantiable()
+    public function setUp()
+    {
+        Countries::getCache()->clear();
+    }
+
+    public function testCountriesCanFilterOneCountry()
     {
         $brazil = Countries::where('name.common', 'Brazil')->first();
 
         $this->assertEquals($brazil->name->common, 'Brazil');
     }
 
-    public function testCanMakeACollection()
+    public function testCountriesHydrateCountryBordersFromOneCountry()
     {
-        $this->assertInstanceOf(Coollection::class, Countries::collection([]));
+        $brazil = Countries::where('name.common', 'Brazil')->first()->hydrateBorders();
+
+        $this->assertEquals(740, $brazil->borders->where('name.common', 'Suriname')->first()->ccn3);
     }
 
     public function testCanHydrateAllCountriesBorders()
@@ -96,7 +103,9 @@ class CountriesTest extends TestCase
 
     public function testAllHydrations()
     {
-        $elements = array_keys(config('countries.hydrate.elements'));
+        $elements = Countries::getConfig()->get('hydrate.elements')->map(function ($value) {
+            return true;
+        })->toArray();
 
         $hydrated = Countries::where('tld.0', '.nz')->hydrate($elements);
 
@@ -147,7 +156,7 @@ class CountriesTest extends TestCase
 
     public function testMapping()
     {
-        $this->assertGreaterThan(0, Countries::where('lca3', 'BRA')->count());
+        $this->assertGreaterThan(0, Countries::where('cca3', 'BRA')->count());
     }
 
     public function testCurrencies()
@@ -340,7 +349,7 @@ class CountriesTest extends TestCase
 
     public function testEverySingleResultUsingExampleArray()
     {
-        $elements = collect(config('countries.hydrate.elements'))->except('timezones_times')->keys()->toArray();
+        $elements = collect(Countries::getConfig()->get('hydrate.elements'))->except('timezones_times')->keys()->toArray();
 
         $swiss = Countries::where('name.common', 'Switzerland')->first()->hydrate($elements);
 
@@ -403,6 +412,5 @@ class CountriesTest extends TestCase
             Countries::where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times->time_start,
             '-1825098837'
         );
-
     }
 }

@@ -1,7 +1,8 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Support;
+namespace PragmaRX\Countries\Package\Services;
 
+use Closure;
 use Exception;
 use Psr\SimpleCache\CacheInterface;
 use Nette\Caching\Storages\FileStorage;
@@ -200,5 +201,26 @@ class Cache implements CacheInterface
         }
 
         return base64_encode(serialize($arguments));
+    }
+
+    /**
+     * Get an item from the cache, or store the default value.
+     *
+     * @param  string $key
+     * @param  \DateTimeInterface|\DateInterval|float|int $minutes
+     * @param Closure $callback
+     * @return mixed
+     */
+    public function remember($key, $minutes, Closure $callback)
+    {
+        $value = $this->get($key);
+
+        if (! is_null($value)) {
+            return $value;
+        }
+
+        $this->set($key, $value = $callback(), $minutes);
+
+        return $value;
     }
 }

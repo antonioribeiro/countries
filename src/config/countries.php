@@ -5,15 +5,17 @@ return [
     'cache' => [
         'enabled' => true,
 
-        'service' => PragmaRX\Countries\Package\Support\Cache::class,
+        'service' => PragmaRX\Countries\Package\Services\Cache::class,
 
         'duration' => 180,
+
+        'directory' => sys_get_temp_dir().DIRECTORY_SEPARATOR.'__pragmarx-countries-cache__',
     ],
 
     'hydrate' => [
         'before' => true,
 
-        'after' => true,
+        'after' => false,
 
         'elements' => [
             'borders' => false,

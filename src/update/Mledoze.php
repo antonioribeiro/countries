@@ -1,10 +1,10 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Services\Helper;
+use PragmaRX\Countries\Update\Helper;
 
 class Mledoze extends Base
 {
@@ -44,7 +44,7 @@ class Mledoze extends Base
      */
     public function loadMledozeCountries()
     {
-        $mledoze = countriesCollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
+        $mledoze = coollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
             $country
         ) {
             $country = $this->updater->addDataSource($country, 'mledoze');
@@ -99,10 +99,10 @@ class Mledoze extends Base
         list($country, $countryCode) = $this->updater->findCountryByAnyField($mledoze, $natural);
 
         if (! $country->isEmpty()) {
-            return [countriesCollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
+            return [coollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
         }
 
-        return [countriesCollect(), $countryCode];
+        return [coollect(), $countryCode];
     }
 
     /**
@@ -146,7 +146,7 @@ class Mledoze extends Base
             $result[$key] = $mledozeValue; // Natural Earth Vector
         }
 
-        return countriesCollect($result)->sortBy(function ($value, $key) {
+        return coollect($result)->sortBy(function ($value, $key) {
             return $key;
         });
     }

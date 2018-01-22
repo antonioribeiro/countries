@@ -1,10 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Update;
+namespace PragmaRX\Countries\Update;
 
+use PragmaRX\Countries\Package\Services\Cache;
+use PragmaRX\Countries\Package\Services\Config;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Services\Helper;
 
 class Timezones extends Base
 {
@@ -19,6 +20,11 @@ class Timezones extends Base
     protected $updater;
 
     /**
+     * @var Cache
+     */
+    private $cache;
+
+    /**
      * Rinvex constructor.
      *
      * @param Helper $helper
@@ -29,15 +35,19 @@ class Timezones extends Base
         $this->helper = $helper;
 
         $this->updater = $updater;
+
+        $this->cache = new Cache(new Config());
     }
 
     public function update()
     {
-        $this->helper->eraseDataDir($dataDir = '/timezones');
+        $this->helper->progress('--- Timezones');
 
         $this->helper->progress('Loading countries...');
 
-        $countries = cache()->remember(
+        $this->helper->eraseDataDir($dataDir = '/timezones');
+
+        $countries = $this->cache->remember(
             'updateTimezone.countries', 160,
             function () {
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/country.csv'));
@@ -46,7 +56,7 @@ class Timezones extends Base
 
         $this->helper->progress('Loading zones...');
 
-        $zones = cache()->remember(
+        $zones = $this->cache->remember(
             'updateTimezone.zones', 160,
             function () {
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/zone.csv'))->mapWithKeys(function ($value) {
@@ -63,7 +73,7 @@ class Timezones extends Base
 
         $this->helper->progress('Loading timezones...');
 
-        $timezones = cache()->remember(
+        $timezones = $this->cache->remember(
             'updateTimezone.timezones', 160,
             function () {
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/timezone.csv'))->map(function ($timezone) {
@@ -80,7 +90,7 @@ class Timezones extends Base
 
         $this->helper->progress('Generating abbreviations...');
 
-        $abbreviations = cache()->remember(
+        $abbreviations = $this->cache->remember(
             'updateTimezone.abbreviations', 160,
             function () use ($timezones) {
                 return $timezones->groupBy('zone_id')->map(function (Coollection $timezones) {

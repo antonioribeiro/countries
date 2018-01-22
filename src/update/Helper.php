@@ -1,15 +1,17 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace PragmaRX\Countries\Update;
 
 use Exception;
+use RecursiveDirectoryIterator;
+use RecursiveIteratorIterator;
 use ReflectionClass;
 use ShapeFile\ShapeFile;
-use Illuminate\Support\Facades\File;
-use PragmaRX\Countries\Package\Service;
-use PragmaRX\Countries\Package\Services\Config;
+use PragmaRX\Countries\Package\Services\Command;
+use PragmaRX\Countries\Package\Services\Helper as ServiceHelper;
+use PragmaRX\Countries\Package\Contracts\Config as ConfigContract;
 
-class Helperx
+class Helper
 {
     /**
      * @var Helper
@@ -17,13 +19,68 @@ class Helperx
     protected $config;
 
     /**
+     * @var ServiceHelper
+     */
+    protected $serviceHelper;
+
+    /**
+     * @var Command
+     */
+    protected $command;
+
+    /**
      * Rinvex constructor.
      *
-     * @param Config $config
+     * @param ConfigContract $config
      */
-    public function __construct(Config $config)
+    public function __construct(ConfigContract $config)
     {
         $this->config = $config;
+
+        $this->serviceHelper = new ServiceHelper($config);
+
+        $this->command = new Command();
+    }
+
+    /**
+     * Forward calls to the service helper.
+     *
+     * @param $name
+     * @param $arguments
+     * @return mixed
+     */
+    public function __call($name, $arguments)
+    {
+        return call_user_func_array([$this->serviceHelper, $name], $arguments);
+    }
+
+    /**
+     * Abort with message.
+     *
+     * @param $message
+     * @throws Exception
+     */
+    protected function abort($message)
+    {
+        echo "\n$message\n\nAborted.\n";
+
+        die;
+    }
+
+    /**
+     * Add suffix to string.
+     *
+     * @param $suffix
+     * @param $string
+     * @return mixed
+     */
+    protected function addSuffix($suffix, $string)
+    {
+        if (substr($string, -strlen($suffix)) !== (string) $suffix) {
+            $string .= $suffix;
+        }
+
+        return $string;
     }
 
     /**
@@ -37,6 +94,47 @@ class Helperx
                 ? $this->delTree("$dir/$file")
                 : unlink("$dir/$file");
         }
+    }
+
+    /**
+     * Delete a whole directory.
+     *
+     * @param $dir
+     */
+    protected function deleteDirectory($dir)
+    {
+        $files = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS),
+            RecursiveIteratorIterator::CHILD_FIRST
+        );
+
+        foreach ($files as $fileInfo) {
+            $todo = ($fileInfo->isDir() ? 'rmdir' : 'unlink');
+
+            $todo($fileInfo->getRealPath());
+        }
+
+        rmdir($dir);
+    }
+
+    protected function fopenOrFail($url, $string)
+    {
+        if (($handle = @fopen($url, $string)) === false) {
+            $this->exception("Could not open file $url");
+        }
+
+        return $handle;
+    }
+
+    /**
+     * Raise exception.
+     *
+     * @param $message
+     * @throws Exception
+     */
+    public function exception($message)
+    {
+        throw new Exception($message);
     }
 
     /**
@@ -61,7 +159,7 @@ class Helperx
      */
     public function download($url, $directory)
     {
-        countriesCollect((array) $url)->each(function ($url) use ($directory) {
+        coollect((array) $url)->each(function ($url) use ($directory) {
             $filename = basename($url);
 
             $destination = $this->toDir("{$directory}/{$filename}");
@@ -98,7 +196,11 @@ class Helperx
         try {
             $this->downloadFopen($url, $destination);
         } catch (\Exception $exception) {
-            $this->downloadCurl($url, $destination);
+            try {
+                $this->downloadCurl($url, $destination);
+            } catch (\Exception $exception) {
+                $this->abort("Could not download {$url} to {$destination}");
+            }
         }
 
         chmod($destination, 0644);
@@ -110,9 +212,9 @@ class Helperx
      */
     public function downloadFopen($url, $destination)
     {
-        $fr = fopen($url, 'r');
+        $fr = $this->fopenOrFail($url, 'r');
 
-        $fw = fopen($destination, 'w');
+        $fw = $this->fopenOrFail($destination, 'w');
 
         while (! feof($fr)) {
             fwrite($fw, fread($fr, 4096));
@@ -160,10 +262,9 @@ class Helperx
     protected function renameMasterToPackage($file, $subPath, $path, $exclude): void
     {
         if (ends_with($file, 'master.zip')) {
-            $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
+            $dir = coollect(scandir($path))->filter(function ($file) use ($exclude) {
                 return $file !== '.' && $file !== '..' && $file !== $exclude;
-            })->first()
-            ;
+            })->first();
 
             rename("$path/$dir", $subPath);
         }
@@ -233,9 +334,9 @@ class Helperx
 
         unset($shapeRecords);
 
-        return countriesCollect($result)->mapWithKeys(function ($fields, $key1) {
+        return coollect($result)->mapWithKeys(function ($fields, $key1) {
             return [
-                strtolower($key1) => countriesCollect($fields)->mapWithKeys(function ($value, $key2) {
+                strtolower($key1) => coollect($fields)->mapWithKeys(function ($value, $key2) {
                     return [strtolower($key2) => $value];
                 }),
             ];
@@ -260,7 +361,7 @@ class Helperx
                 : $value;
         });
 
-        return countriesCollect($result);
+        return coollect($result);
     }
 
     /**
@@ -271,7 +372,7 @@ class Helperx
      */
     public function csvDecode($csv)
     {
-        return countriesCollect(array_map('str_getcsv', $csv));
+        return coollect(array_map('str_getcsv', $csv));
     }
 
     /**
@@ -320,7 +421,7 @@ class Helperx
     {
         $this->config->get('downloadable')->each(function ($urls, $path) {
             if (! file_exists($destination = $this->dataDir("third-party/$path"))) {
-                countriesCollect($urls)->each(function ($url) use ($path, $destination) {
+                coollect($urls)->each(function ($url) use ($path, $destination) {
                     $this->download($url, $destination);
 
                     $file = basename($url);
@@ -336,6 +437,8 @@ class Helperx
      */
     public function downloadFiles()
     {
+        $this->progress('--- Download files');
+
         $this->downloadDataFiles();
 
         $this->moveDataFiles();
@@ -382,7 +485,7 @@ class Helperx
      */
     public function loadJsonFiles($dir)
     {
-        return countriesCollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
+        return coollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
             $key = str_replace('.json', '', str_replace('.json5', '', basename($file)));
 
             return [$key => $this->loadJson($file)];
@@ -427,13 +530,13 @@ class Helperx
      */
     public function progress($string = '')
     {
-        if (is_null($command = $this->updater->getCommand())) {
+        if (is_null($this->command)) {
             dump($string);
 
             return;
         }
 
-        $command->line($string);
+        $this->command->line($string);
     }
 
     /**
@@ -444,8 +547,8 @@ class Helperx
      */
     public function message($message, $type = 'line')
     {
-        if (! is_null($command = $this->updater->getCommand())) {
-            $command->{$type}($message);
+        if (! is_null($this->command)) {
+            $this->command->{$type}($message);
         }
     }
 
@@ -471,14 +574,14 @@ class Helperx
     public function loadCsv($file, $dir = null)
     {
         if (empty($file)) {
-            throw new Exception('loadCsv Error: File name not set');
+            $this->abort('loadCsv Error: File name not set');
         }
 
         if (! file_exists($file)) {
-            $file = $this->dataDir("/$dir/".strtolower($file).'.csv');
+            $file = $this->dataDir($this->addSuffix('.csv', "/$dir/".strtolower($file)));
         }
 
-        return countriesCollect($this->csvDecode(file($file)));
+        return coollect($this->csvDecode(file($file)));
     }
 
     /**
@@ -494,7 +597,7 @@ class Helperx
             $dir .= DIRECTORY_SEPARATOR;
         }
 
-        return $this->dataDir($this->toDir($dir).strtolower($key).'.json');
+        return $this->dataDir($this->addSuffix('.json', $this->toDir($dir).strtolower($key)));
     }
 
     /**
@@ -569,10 +672,26 @@ class Helperx
      */
     public function deleteTemporaryFiles()
     {
+        $this->progress('--- Delete temporary files');
+
         $this->config->get('deletable')->each(function ($directory) {
             if (file_exists($directory = $this->dataDir($directory))) {
-                File::deleteDirectory($directory);
+                $this->deleteDirectory($directory);
             }
         });
     }
 }
+//
+//
+//function php-no-xdebug {
+//    temporaryPath="$(mktemp -t php-no-debug.XXXX)"
+//
+//    echo "Moving xdebug to $temporaryPath"
+//
+//    find /usr/local/etc/php/$PHP_VERSION/php.ini /usr/local/etc/php/$PHP_VERSION/conf.d/*.ini ! -name ext-xdebug.ini | xargs cat > "$temporaryPath"
+//
+//    /usr/local/bin/php -n -c "$temporaryPath" "$@"
+//
+//    \rm -f "$temporaryPath"
+//}
+//
