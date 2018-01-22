@@ -2,8 +2,6 @@
 
 namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Countries\Update\Helper;
-
 class States
 {
     /**

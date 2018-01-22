@@ -3,7 +3,6 @@
 namespace PragmaRX\Countries\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Update\Helper;
 
 class Natural extends Base
 {
