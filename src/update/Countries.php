@@ -117,7 +117,8 @@ class Countries extends Base
                 $result = $this->mledoze->mergeWithMledoze($mledoze, $natural);
             }
 
-            $result = $this->rinvex->mergeWithRinvex($result,
+            $result = $this->rinvex->mergeWithRinvex(
+                $result,
                 $this->rinvex->findRinvexCountry($result),
                 $this->rinvex->findRinvexTranslations($result)
             );

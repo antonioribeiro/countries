@@ -330,7 +330,8 @@ class Updater extends Base
     public function normalizeData($result, $dir, $normalizerClosure)
     {
         return $this->cache->remember(
-            'normalizeData'.$dir, 160,
+            'normalizeData'.$dir,
+            160,
             function () use ($dir, $result, $normalizerClosure) {
                 return coollect($result)->map(function ($item, $key) use ($normalizerClosure) {
                     return $normalizerClosure(coollect($item)->mapWithKeys(function ($value, $key) {
