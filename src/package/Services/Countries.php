@@ -2,9 +2,9 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
+use PragmaRX\Countries\Update\Updater;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Update\Updater;
 use PragmaRX\Countries\Package\Data\Repository;
 
 class Countries extends Base
