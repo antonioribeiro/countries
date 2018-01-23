@@ -6,7 +6,7 @@ use PragmaRX\Countries\Package\Services\Cache;
 use PragmaRX\Countries\Package\Services\Helper;
 use PragmaRX\Countries\Package\Contracts\Config;
 use PragmaRX\Countries\Package\Services\Hydrator;
-use PragmaRX\Countries\Package\Support\CountriesRepository;
+use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Countries as CountriesService;
 
 class Countries
@@ -25,14 +25,14 @@ class Countries
      * @param Cache $cache
      * @param Helper $helper
      * @param Hydrator $hydrator
-     * @param CountriesRepository $repository
+     * @param Repository $repository
      */
     public function __construct(
         Config $config = null,
         Cache $cache = null,
         Helper $helper = null,
         Hydrator $hydrator = null,
-        CountriesRepository $repository = null
+        Repository $repository = null
     ) {
         $this->countriesService = new CountriesService($config, $cache, $helper, $hydrator, $repository);
     }

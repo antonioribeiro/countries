@@ -57,7 +57,7 @@ class Repository
     private $config;
 
     /**
-     * CountriesRepository constructor.
+     * Repository constructor.
      *
      * @param Cache $cache
      * @param Hydrator $hydrator

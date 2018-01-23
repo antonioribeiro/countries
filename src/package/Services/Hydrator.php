@@ -32,7 +32,7 @@ class Hydrator
     /**
      * Countries repository.
      *
-     * @var CountriesRepository
+     * @var Repository
      */
     protected $repository;
 
