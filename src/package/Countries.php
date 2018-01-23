@@ -3,10 +3,10 @@
 namespace PragmaRX\Countries\Package;
 
 use PragmaRX\Countries\Package\Services\Cache;
+use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Helper;
 use PragmaRX\Countries\Package\Contracts\Config;
 use PragmaRX\Countries\Package\Services\Hydrator;
-use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Countries as CountriesService;
 
 class Countries
