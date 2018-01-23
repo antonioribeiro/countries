@@ -48,7 +48,8 @@ class Timezones extends Base
         $this->helper->eraseDataDir($dataDir = '/timezones');
 
         $countries = $this->cache->remember(
-            'updateTimezone.countries', 160,
+            'updateTimezone.countries',
+            160,
             function () {
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/country.csv'));
             }
@@ -57,7 +58,8 @@ class Timezones extends Base
         $this->helper->progress('Loading zones...');
 
         $zones = $this->cache->remember(
-            'updateTimezone.zones', 160,
+            'updateTimezone.zones',
+            160,
             function () {
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/zone.csv'))->mapWithKeys(function ($value) {
                     return [
@@ -74,7 +76,8 @@ class Timezones extends Base
         $this->helper->progress('Loading timezones...');
 
         $timezones = $this->cache->remember(
-            'updateTimezone.timezones', 160,
+            'updateTimezone.timezones',
+            160,
             function () {
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/timezone.csv'))->map(function ($timezone) {
                     return [
@@ -91,7 +94,8 @@ class Timezones extends Base
         $this->helper->progress('Generating abbreviations...');
 
         $abbreviations = $this->cache->remember(
-            'updateTimezone.abbreviations', 160,
+            'updateTimezone.abbreviations',
+            160,
             function () use ($timezones) {
                 return $timezones->groupBy('zone_id')->map(function (Coollection $timezones) {
                     return $timezones->map(function ($timezone) {
