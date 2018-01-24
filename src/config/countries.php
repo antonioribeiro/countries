@@ -40,6 +40,8 @@ return [
         'enabled' => true,
         'rules' => [
             'country'           => 'name.common',
+            'name'              => 'name.common',
+            'nameCommon'        => 'name.common',
             'cca2',
             'cca2',
             'cca3',
