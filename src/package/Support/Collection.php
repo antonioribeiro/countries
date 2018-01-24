@@ -3,7 +3,7 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use Closure;
-use Illuminate\Support\Arr;
+use IlluminateExtracted\Support\Arr;
 use PragmaRX\Coollection\Package\Coollection;
 
 class Collection extends Coollection
