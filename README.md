@@ -17,7 +17,6 @@
     <a href="https://styleci.io/repos/74829244"><img alt="StyleCI" src="https://styleci.io/repos/74829244/shield"></a>
 </p>
 
-
 ### What does it gives you?
 
 This package has all sorts of information about countries:
