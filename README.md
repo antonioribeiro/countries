@@ -475,6 +475,10 @@ This package uses some other open source packages and, until we don't build a be
 Since this data is not supposed to change, calls are automatically cached.
 If you want to change this behaviour, you can edit `config/countries.php` file once it's published.
 
+## Framework bridges
+
+- [Laravel](https://github.com/antonioribeiro/countries-laravel)
+
 ## Sample files
 
 - [sample-partial.json](src/data/sample-partial.json): example of a country with no borders hydrated.
@@ -483,13 +487,19 @@ If you want to change this behaviour, you can edit `config/countries.php` file o
 ## Author
 
 [Antonio Carlos Ribeiro](http://twitter.com/iantonioribeiro)
+[All contributors](https://github.com/antonioribeiro/countries-laravel/graphs/contributors)
 
 ## Copyrights
 
-This package make use of those library/packages:
+To build the countries database and relations, this package make use of those sources:
 
 - [mledoze/countries](https://github.com/mledoze/countries)
 - [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector)
+- [rinvex/country](https://github.com/rinvex/country)
+- [rinvex/country](https://github.com/rinvex/country)
+- [commerceguys/tax](https://github.com/commerceguys/tax)
+- [timezonedb](https://timezonedb.com/)
+- [wiredmax/world-currencies](https://github.com/wiredmax/world-currencies)
 
 ## License
 
