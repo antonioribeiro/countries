@@ -17,24 +17,30 @@
     <a href="https://styleci.io/repos/74829244"><img alt="StyleCI" src="https://styleci.io/repos/74829244/shield"></a>
 </p>
 
-### Geoology and Topology for countries
+
+### What does it gives you?
+
+This package has all sorts of information about countries:
+
+| info            | items |
+------------------|-------:|
+| taxes           | 32    |
+| geometry map    | 248   |
+| topology map    | 248   |
+| currencies      | 256   |
+| countries       | 266   |
+| timezones       | 423   |
+| borders         | 649   |
+| flags           | 1,570  |
+| states          | 4,526  |
+| cities          | 7,376  |
+| timezones times | 81,153 |
+
+### Geoology and topology maps
 
 Amongst many other information you'll be able to plot country maps:
 
 ![Switzerland](docs/switzerland-geo.png)
-
-### What does it gives you?
-
-This package is a collection of some other packages with information on:
-
-- Countries & borders
-- States
-- Cities
-- Currencies
-- Timezones
-- Flags
-- Taxes
-- Geometry & Topology
 
 ## Requirements
 
@@ -55,7 +61,7 @@ use PragmaRX\Countries\Package\Countries;
 
 echo (new Countries())->where('cca2', 'IT')->first()->currencies->EUR->coins->frequent->first();
 
-// or 
+// or calling it statically
 
 echo Countries::where('cca2', 'IT')->first()->currencies->EUR->coins->frequent->first();
 ```
