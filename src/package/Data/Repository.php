@@ -6,6 +6,7 @@ use PragmaRX\Countries\Package\Services\Cache;
 use PragmaRX\Countries\Package\Services\Helper;
 use PragmaRX\Countries\Package\Contracts\Config;
 use PragmaRX\Countries\Package\Services\Hydrator;
+use Psr\SimpleCache\CacheInterface as CacheContract;
 
 class Repository
 {
@@ -59,12 +60,12 @@ class Repository
     /**
      * Repository constructor.
      *
-     * @param Cache $cache
+     * @param CacheContract $cache
      * @param Hydrator $hydrator
      * @param Helper $helper
      * @param Config $config
      */
-    public function __construct(Cache $cache, Hydrator $hydrator, Helper $helper, Config $config)
+    public function __construct(CacheContract $cache, Hydrator $hydrator, Helper $helper, Config $config)
     {
         $this->cache = $cache;
 
