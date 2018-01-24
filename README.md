@@ -35,7 +35,7 @@ This package has all sorts of information about countries:
 | cities          | 7,376  |
 | timezones times | 81,153 |
 
-### Geoology and topology maps
+### Geology and topology maps
 
 Amongst many other information you'll be able to plot country maps:
 
