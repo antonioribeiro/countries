@@ -2,7 +2,7 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
-use Illuminate\Support\Str;
+use IlluminateExtracted\Support\Str;
 use PragmaRX\Coollection\Package\Coollection;
 
 class Hydrator
