@@ -24,8 +24,8 @@ This package has all sorts of information about countries:
 | info            | items |
 ------------------|-------:|
 | taxes           | 32    |
-| geometry map    | 248   |
-| topology map    | 248   |
+| geometry maps   | 248   |
+| topology maps   | 248   |
 | currencies      | 256   |
 | countries       | 266   |
 | timezones       | 423   |
