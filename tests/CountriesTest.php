@@ -358,6 +358,10 @@ class CountriesTest extends PHPUnitTestCase
 
             $a = file_get_contents(__DIR__."/../docs/sample-{$element}.json");
 
+            if ($element === 'flag') {
+                unset($b['svg_path']);
+            }
+
             if (arrayable($b)) {
                 $a = json_decode($a, true);
                 $b = $b->toArray();
