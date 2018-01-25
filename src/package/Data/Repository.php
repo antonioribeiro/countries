@@ -240,11 +240,13 @@ class Repository
 
             // Internal svg file
             'svg' => $this->getFlagSvg($country['cca3']),
+
+            'svg_path' => $this->getFlagSvgPath($country['cca3']),
         ];
     }
 
     /**
-     * Read the flag svg file.
+     * Read the flag SVG file.
      *
      * @param $country
      * @return string
@@ -252,8 +254,19 @@ class Repository
     public function getFlagSvg($country)
     {
         return $this->helper->loadFile(
-            $this->helper->dataDir('flags/'.strtolower($country).'.svg')
+            $this->getFlagSvgPath($country)
         );
+    }
+
+    /**
+     * Get the SVG file path.
+     *
+     * @param $country
+     * @return string
+     */
+    public function getFlagSvgPath($country)
+    {
+        return $this->helper->dataDir('flags/'.strtolower($country).'.svg');
     }
 
     /**
