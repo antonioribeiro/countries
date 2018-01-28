@@ -417,4 +417,13 @@ class CountriesTest extends PHPUnitTestCase
             '-1825098837'
         );
     }
+
+    public function testPluck()
+    {
+        $c = new Countries;
+
+        $this->assertEquals(266, $c->all()->count());
+
+        $this->assertEquals(266, $c->all()->pluck('name.common')->count());
+    }
 }
