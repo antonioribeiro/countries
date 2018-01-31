@@ -80,6 +80,24 @@ class Countries extends Base
         $this->init();
     }
 
+    /**
+     * Call a method.
+     *
+     * @param $name
+     * @param array $arguments
+     * @return bool|mixed
+     */
+    public function __call($name, array $arguments = [])
+    {
+        $result = $this->repository->call($name, $arguments);
+
+        if ($this->config->get('hydrate.after')) {
+            $result = $this->repository->hydrate($result);
+        }
+
+        return $result;
+    }
+
     private function createCoollectionMacros()
     {
         $instance = $this;
@@ -105,24 +123,6 @@ class Countries extends Base
     public function currencies()
     {
         return coollect($this->repository->currencies())->unique()->sort();
-    }
-
-    /**
-     * Call a method.
-     *
-     * @param $name
-     * @param array $arguments
-     * @return bool|mixed
-     */
-    public function __call($name, array $arguments = [])
-    {
-        $result = $this->repository->call($name, $arguments);
-
-        if ($this->config->get('hydrate.after')) {
-            $result = $this->repository->hydrate($result);
-        }
-
-        return $result;
     }
 
     /**

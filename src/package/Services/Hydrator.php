@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
-use IlluminateExtracted\Support\Str;
 use PragmaRX\Coollection\Package\Coollection;
+use IlluminateAgnostic\Collection\Support\Str;
 
 class Hydrator
 {
@@ -77,6 +77,15 @@ class Hydrator
         }
 
         return $this->repository->countries[$countryCode]['hydrated'];
+    }
+
+    protected function fixCurrencies($country)
+    {
+        if (!isset($country['currencies']) && isset($country['currency'])) {
+            $country['currencies'] = $country['currency'];
+        }
+
+        return $country;
     }
 
     /**
@@ -342,8 +351,10 @@ class Hydrator
     {
         $currencies = [];
 
+        $country = $this->fixCurrencies($country);
+
         if (isset($country['currencies'])) {
-            $currencies = countriesCollect($country['currencies'])->mapWithKeys(function ($code, $key) {
+            $currencies = countriesCollect($country['currencies'])->mapWithKeys(function ($code) {
                 if ($this->isCurrenciesArray($code)) {
                     return [
                         $code['ISO4217Code'] => $code,
@@ -372,9 +383,9 @@ class Hydrator
     {
         $elements = $this->getHydrationElements($elements);
 
-        return ! $this->isCountry($target->toArray())
-            ? $this->hydrateCountries($target, $elements)
-            : $this->hydrateCountry($target, $elements);
+        return $this->isCountry($target->toArray())
+            ? $this->hydrateCountry($target, $elements)
+            : $this->hydrateCountries($target, $elements);
     }
 
     /**
