@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use Closure;
-use IlluminateExtracted\Support\Arr;
 use PragmaRX\Coollection\Package\Coollection;
+use IlluminateAgnostic\Collection\Support\Arr;
 
 class Collection extends Coollection
 {
@@ -17,7 +17,7 @@ class Collection extends Coollection
      */
     public function __call($name, $arguments)
     {
-        if (starts_with($name, 'where')) {
+        if (starts_with($name, 'where') && $name !== 'where') {
             $name = strtolower(preg_replace('/([A-Z])/', '.$1', lcfirst(substr($name, 5))));
             if (count($arguments) == 2) {
                 return $this->where($name, $arguments[0], $arguments[1]);
