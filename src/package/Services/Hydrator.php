@@ -81,7 +81,7 @@ class Hydrator
 
     protected function fixCurrencies($country)
     {
-        if (!isset($country['currencies']) && isset($country['currency'])) {
+        if (! isset($country['currencies']) && isset($country['currency'])) {
             $country['currencies'] = $country['currency'];
         }
 
