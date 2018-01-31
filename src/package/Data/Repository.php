@@ -77,6 +77,18 @@ class Repository
     }
 
     /**
+     * Call magic method.
+     *
+     * @param $name
+     * @param array $arguments
+     * @return mixed
+     */
+    public function __call($name, array $arguments = [])
+    {
+        return call_user_func_array([$this->all(), $name], $arguments);
+    }
+
+    /**
      * Call a method currencies collection.
      *
      * @param $name
@@ -204,18 +216,6 @@ class Repository
         });
 
         return $currencies->overwrite($overload);
-    }
-
-    /**
-     * Call magic method.
-     *
-     * @param $name
-     * @param array $arguments
-     * @return mixed
-     */
-    public function __call($name, array $arguments = [])
-    {
-        return call_user_func_array([$this->all(), $name], $arguments);
     }
 
     /**
