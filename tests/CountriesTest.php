@@ -37,7 +37,7 @@ class CountriesTest extends PHPUnitTestCase
 
                 $this->assertInstanceOf(Coollection::class, $first);
             } else {
-                $this->assertNull($hydrated->borders->first());
+                $this->assertTrue($hydrated->borders->first()->count() === 0);
             }
         });
     }
@@ -52,7 +52,7 @@ class CountriesTest extends PHPUnitTestCase
 
                 $this->assertInstanceOf(Coollection::class, $first);
             } else {
-                $this->assertNull($hydrated->timezones->first());
+                $this->assertEquals(0, $hydrated->timezones->first()->count());
             }
         });
     }
