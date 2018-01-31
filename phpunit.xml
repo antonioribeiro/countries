@@ -8,9 +8,9 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnError="false"
-         stopOnFailure="false"
          syntaxCheck="true"
          verbose="true"
+         stopOnFailure="true"
 >
     <testsuites>
         <testsuite name="Laravel Test Suite">
