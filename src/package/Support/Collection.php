@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Package\Support;
 
 use Closure;
-use PragmaRX\Coollection\Package\Coollection;
 use IlluminateAgnostic\Arr\Support\Arr;
+use PragmaRX\Coollection\Package\Coollection;
 
 class Collection extends Coollection
 {
