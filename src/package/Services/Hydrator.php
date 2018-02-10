@@ -3,7 +3,7 @@
 namespace PragmaRX\Countries\Package\Services;
 
 use PragmaRX\Coollection\Package\Coollection;
-use IlluminateAgnostic\Collection\Support\Str;
+use IlluminateAgnostic\Str\Support\Str;
 
 class Hydrator
 {

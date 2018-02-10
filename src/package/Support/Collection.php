@@ -4,7 +4,7 @@ namespace PragmaRX\Countries\Package\Support;
 
 use Closure;
 use PragmaRX\Coollection\Package\Coollection;
-use IlluminateAgnostic\Collection\Support\Arr;
+use IlluminateAgnostic\Arr\Support\Arr;
 
 class Collection extends Coollection
 {
