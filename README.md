@@ -58,11 +58,11 @@ composer require pragmarx/countries
 ```php
 use PragmaRX\Countries\Package\Countries;
 
-echo (new Countries())->where('cca2', 'IT')->first()->currencies->EUR->coins->frequent->first();
+echo (new Countries())->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
 
 // or calling it statically
 
-echo Countries::where('cca2', 'IT')->first()->currencies->EUR->coins->frequent->first();
+echo Countries::where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
 ```
 
 Should both return 
