@@ -464,13 +464,6 @@ You have to define all the validations rules in settings, only a few is defined 
 ]
 ```
 
-## Publishing assets
-
-You can publish configuration by doing:
-```
-php artisan vendor:publish --provider=PragmaRX\\Countries\\ServiceProvider
-```
-
 ## Data
 
 This package uses some other open source packages and, until we don't build a better documentation, you can find some more info about data on [mledoze/countries](https://github.com/mledoze/countries/blob/master/README.md) and how to use it on this fantastic [Laravel News article](https://laravel-news.com/countries-and-currencies).
