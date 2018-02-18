@@ -46,6 +46,16 @@ class Cache implements CacheInterface
     }
 
     /**
+     * Check if cache is enabled.
+     *
+     * @return boolean
+     */
+    protected function enabled()
+    {
+        return $this->config->get('cache.enabled');
+    }
+
+    /**
      * Get the cache directory.
      *
      * @return mixed|string|static
@@ -87,7 +97,11 @@ class Cache implements CacheInterface
      */
     public function get($key, $default = null)
     {
-        return $this->cache->load($key, $default);
+        if ($this->enabled()) {
+            return $this->cache->load($key, $default);
+        }
+
+        return null;
     }
 
     /**
@@ -96,8 +110,7 @@ class Cache implements CacheInterface
      */
     protected function makeExpiration($ttl)
     {
-        $expiration = ($ttl
-                ?: $this->config->get('cache.duration')).' minutes';
+        $expiration = ($ttl ?: $this->config->get('cache.duration')).' minutes';
 
         return $expiration;
     }
@@ -112,7 +125,11 @@ class Cache implements CacheInterface
      */
     public function set($key, $value, $ttl = null)
     {
-        return $this->cache->save($key, $value, [NetteCache::EXPIRE => $this->makeExpiration($ttl)]);
+        if ($this->enabled()) {
+            return $this->cache->save($key, $value, [NetteCache::EXPIRE => $this->makeExpiration($ttl)]);
+        }
+
+        return $value;
     }
 
     /**
