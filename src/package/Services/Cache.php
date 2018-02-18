@@ -48,7 +48,7 @@ class Cache implements CacheInterface
     /**
      * Check if cache is enabled.
      *
-     * @return boolean
+     * @return bool
      */
     protected function enabled()
     {
@@ -100,8 +100,6 @@ class Cache implements CacheInterface
         if ($this->enabled()) {
             return $this->cache->load($key, $default);
         }
-
-        return null;
     }
 
     /**
