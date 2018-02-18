@@ -276,7 +276,7 @@ class CountriesTest extends PHPUnitTestCase
             return is_null($value);
         })->count();
 
-        return $this->assertEquals(157, $number);
+        $this->assertEquals(157, $number);
     }
 
     public function testFindCountryByCca2()
