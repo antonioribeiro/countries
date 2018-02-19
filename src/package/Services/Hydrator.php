@@ -46,9 +46,9 @@ class Hydrator
     /**
      * Hydrator constructor.
      *
-     * @param Config $config
+     * @param object $config
      */
-    public function __construct(Config $config)
+    public function __construct($config)
     {
         $this->config = $config;
     }
@@ -383,6 +383,10 @@ class Hydrator
     {
         $elements = $this->getHydrationElements($elements);
 
+        if (coollect($elements)->count() === 0) {
+            return $target;
+        }
+
         return $this->isCountry($target->toArray())
             ? $this->hydrateCountry($target, $elements)
             : $this->hydrateCountries($target, $elements);
@@ -441,6 +445,8 @@ class Hydrator
             }
 
             return [$key => $value];
+        })->filter(function ($element) {
+            return $element;
         });
 
         return $elements;

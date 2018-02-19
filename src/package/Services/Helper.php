@@ -7,16 +7,16 @@ use PragmaRX\Countries\Package\Contracts\Config;
 class Helper
 {
     /**
-     * @var Config
+     * @var object
      */
     protected $config;
 
     /**
      * Rinvex constructor.
      *
-     * @param Config $config
+     * @param object $config
      */
-    public function __construct(Config $config)
+    public function __construct($config)
     {
         $this->config = $config;
     }

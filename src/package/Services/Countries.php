@@ -52,14 +52,14 @@ class Countries extends Base
     /**
      * Service constructor.
      *
-     * @param Config $config
+     * @param object $config
      * @param Cache $cache
      * @param Helper $helper
      * @param Hydrator $hydrator
      * @param Repository $repository
      */
     public function __construct(
-        Config $config = null,
+        $config = null,
         Cache $cache = null,
         Helper $helper = null,
         Hydrator $hydrator = null,
@@ -187,10 +187,10 @@ class Countries extends Base
     /**
      * Instantiate config.
      *
-     * @param Config|null $config
+     * @param object|null $config
      * @return Config
      */
-    protected function instantiateConfig(Config $config = null)
+    protected function instantiateConfig($config = null)
     {
         if (is_null($this->config) || ! is_null($config)) {
             $this->config = ! is_null($config)

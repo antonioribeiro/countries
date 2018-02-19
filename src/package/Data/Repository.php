@@ -53,7 +53,7 @@ class Repository
     private $cache;
 
     /**
-     * @var Config
+     * @var object
      */
     private $config;
 
@@ -63,9 +63,9 @@ class Repository
      * @param CacheContract $cache
      * @param Hydrator $hydrator
      * @param Helper $helper
-     * @param Config $config
+     * @param object $config
      */
-    public function __construct(CacheContract $cache, Hydrator $hydrator, Helper $helper, Config $config)
+    public function __construct(CacheContract $cache, Hydrator $hydrator, Helper $helper, $config)
     {
         $this->cache = $cache;
 
