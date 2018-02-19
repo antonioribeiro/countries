@@ -20,7 +20,7 @@ cache:
     - $HOME/.composer/cache
 
 before_script:
-  - '[[ "$TRAVIS_PHP_VERSION" == "7.2" ]] || phpenv config-rm xdebug.ini'
+  - '[[ "$TRAVIS_PHP_VERSION" == "7.2" || "$TRAVIS_PHP_VERSION" == "nightly" ]] || phpenv config-rm xdebug.ini'
   - travis_retry composer self-update
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
 
