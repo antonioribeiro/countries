@@ -1,19 +1,22 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace PragmaRX\Countries\Package\Services\Cache\Managers;
 
 use Closure;
+use Exception;
 use Psr\SimpleCache\CacheInterface;
-use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
+use Nette\Caching\Cache as NetteCache;
+use Nette\Caching\Storages\FileStorage;
+use PragmaRX\Countries\Package\Services\Config;
 
-class Cache implements CacheInterface
+class Nette implements CacheInterface
 {
     /**
      * Cache.
      *
-     * @var object
+     * @var \Nette\Caching\Cache
      */
-    protected $manager;
+    protected $cache;
 
     /**
      * Config.
@@ -32,40 +35,15 @@ class Cache implements CacheInterface
     /**
      * Cache constructor.
      * @param object $config
-     * @param object $manager
      * @param null $path
      */
-    public function __construct($config = null, $manager = null, $path = null)
+    public function __construct($config = null, $path = null)
     {
-        $this->config = $this->instantiateConfig($config);
+        $this->config = is_null($config) ? new Config() : $config;
 
-        $this->manager = $this->instantiateManager($this->config, $manager, $path);
-    }
-
-    /**
-     * Instantiate the config.
-     *
-     * @param $config
-     * @return Config|mixed
-     */
-    public function instantiateConfig($config)
-    {
-        return is_null($config) ? new Config() : $config;
-    }
-
-    /**
-     * Instantiate the cache manager.
-     *
-     * @param $config
-     * @param $manager
-     * @param $path
-     * @return NetteManager|mixed
-     */
-    public function instantiateManager($config, $manager, $path)
-    {
-        return is_null($manager)
-            ? new NetteManager($config, $path)
-            : $manager;
+        $this->cache = new NetteCache(
+            $this->getStorage($path = null)
+        );
     }
 
     /**
@@ -79,36 +57,61 @@ class Cache implements CacheInterface
     }
 
     /**
+     * Get the cache directory.
+     *
+     * @return mixed|string|static
+     */
+    public function getCacheDir()
+    {
+        if (is_null($this->dir)) {
+            $this->dir = $this->config->cache->directory ?: sys_get_temp_dir().'/__PRAGMARX_COUNTRIES__/cache';
+
+            if (! file_exists($this->dir)) {
+                mkdir($this->dir, 0755, true);
+            }
+        }
+
+        return $this->dir;
+    }
+
+    /**
+     * Get the file storage.
+     *
+     * @param null $path
+     * @return FileStorage
+     */
+    public function getStorage($path = null)
+    {
+        return new FileStorage(
+            is_null($path)
+                ? $this->getCacheDir()
+                : $path
+        );
+    }
+
+    /**
      * Fetches a value from the cache.
      *
      * @param string $key
      * @param null $default
-     * @return mixed|null
+     * @return mixed
      */
     public function get($key, $default = null)
     {
         if ($this->enabled()) {
-            return $this->manager->get($key, $default);
+            return $this->cache->load($key, $default);
         }
-
-        return null;
     }
 
     /**
-     * Create a cache key.
-     *
+     * @param $ttl
      * @return string
-     * @throws Exception
      */
-    public function makeKey()
+    protected function makeExpiration($ttl)
     {
-        $arguments = func_get_args();
+        $expiration = ($ttl ?: $this->config->get('cache.duration')).' minutes';
 
-        if (empty($arguments)) {
-            throw new Exception('Empty key');
-        }
-
-        return base64_encode(serialize($arguments));
+        return $expiration;
     }
 
     /**
@@ -122,7 +125,7 @@ class Cache implements CacheInterface
     public function set($key, $value, $ttl = null)
     {
         if ($this->enabled()) {
-            return $this->manager->set($key, $value, $ttl);
+            return $this->cache->save($key, $value, [NetteCache::EXPIRE => $this->makeExpiration($ttl)]);
         }
 
         return $value;
@@ -136,7 +139,7 @@ class Cache implements CacheInterface
      */
     public function delete($key)
     {
-        $this->manager->delete($key);
+        $this->cache->remove($key);
     }
 
     /**
@@ -144,7 +147,7 @@ class Cache implements CacheInterface
      */
     public function clear()
     {
-        $this->manager->clear();
+        $this->cache->clean([NetteCache::ALL => true]);
     }
 
     /**
@@ -156,7 +159,9 @@ class Cache implements CacheInterface
      */
     public function getMultiple($keys, $default = null)
     {
-        return $this->manager->getMultiple($keys, $default);
+        return coollect($keys)->map(function ($key) {
+            return $this->get($key);
+        });
     }
 
     /**
@@ -168,7 +173,9 @@ class Cache implements CacheInterface
      */
     public function setMultiple($values, $ttl = null)
     {
-        return $this->manager->setMultiple($keys, $ttl);
+        return coollect($values)->map(function ($value, $key) use ($ttl) {
+            return $this->set($key, $value, $ttl);
+        });
     }
 
     /**
@@ -179,7 +186,9 @@ class Cache implements CacheInterface
      */
     public function deleteMultiple($keys)
     {
-        $this->manager->deleteMultiple($keys);
+        coollect($keys)->map(function ($key) {
+            $this->forget($key);
+        });
     }
 
     /**
@@ -190,7 +199,7 @@ class Cache implements CacheInterface
      */
     public function has($key)
     {
-        return $this->manager->has($key);
+        return ! is_null($this->get($key));
     }
 
     /**
@@ -203,11 +212,13 @@ class Cache implements CacheInterface
      */
     public function remember($key, $minutes, Closure $callback)
     {
-        if (! is_null($value = $this->manager->get($key))) {
+        $value = $this->get($key);
+
+        if (! is_null($value)) {
             return $value;
         }
 
-        $this->manager->set($key, $value = $callback(), $minutes);
+        $this->set($key, $value = $callback(), $minutes);
 
         return $value;
     }

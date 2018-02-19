@@ -10,6 +10,8 @@ class CountriesTest extends PHPUnitTestCase
 {
     public function setUp()
     {
+        ini_set('memory_limit', '2048M');
+
         Countries::getCache()->clear();
     }
 
@@ -246,7 +248,7 @@ class CountriesTest extends PHPUnitTestCase
             return $value !== 'unknown';
         })->sort()->values()->unique()->count();
 
-        return $this->assertEquals(165, $number);
+        return $this->assertEquals(161, $number);
     }
 
     public function testNumberOfBorders()
@@ -276,7 +278,7 @@ class CountriesTest extends PHPUnitTestCase
             return is_null($value);
         })->count();
 
-        $this->assertEquals(157, $number);
+        $this->assertEquals(143, $number);
     }
 
     public function testFindCountryByCca2()

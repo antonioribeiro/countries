@@ -14,6 +14,13 @@ class Config implements ConfigContract
     protected $config;
 
     /**
+     * Key prefix.
+     *
+     * @var string
+     */
+    protected $prefix = '';
+
+    /**
      * Config constructor.
      *
      * @param array|null $config
@@ -29,7 +36,7 @@ class Config implements ConfigContract
      */
     public function get($key)
     {
-        return $this->config->get($key);
+        return $this->config->get($this->prefix.$key);
     }
 
     /**
@@ -37,7 +44,13 @@ class Config implements ConfigContract
      */
     protected function initialize($config = [])
     {
-        $this->config = $this->loadConfig()->overwrite($config);
+        if (is_object($config)) {
+            $this->config = $config;
+
+            $this->prefix = 'countries.';
+        } else {
+            $this->config = $this->loadConfig()->overwrite($config);
+        }
     }
 
     /**

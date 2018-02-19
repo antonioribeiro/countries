@@ -21,14 +21,14 @@ class Countries
     /**
      * Service constructor.
      *
-     * @param Config $config
+     * @param $config
      * @param Cache $cache
      * @param Helper $helper
      * @param Hydrator $hydrator
      * @param Repository $repository
      */
     public function __construct(
-        Config $config = null,
+        $config = null,
         Cache $cache = null,
         Helper $helper = null,
         Hydrator $hydrator = null,
