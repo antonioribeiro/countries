@@ -3,7 +3,6 @@
 namespace PragmaRX\Countries\Package\Services\Cache\Managers;
 
 use Closure;
-use Exception;
 use Psr\SimpleCache\CacheInterface;
 use Nette\Caching\Cache as NetteCache;
 use Nette\Caching\Storages\FileStorage;
