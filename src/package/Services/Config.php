@@ -4,7 +4,7 @@ namespace PragmaRX\Countries\Package\Services;
 
 use PragmaRX\Countries\Package\Contracts\Config as ConfigContract;
 
-class Config implements ConfigContract
+class Config
 {
     /**
      * Configuration.
