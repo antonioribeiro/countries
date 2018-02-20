@@ -14,15 +14,207 @@
         "Collectivit\u00e9 de Saint-Martin",
         "Saint Martin (French part)"
     ],
+    "borders": [
+        "SXM"
+    ],
     "brk_a3": "MAF",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saint-Martin",
-    "capital": "Marigot",
+    "capital": [
+        "Marigot"
+    ],
+    "capital_rinvex": "Marigot",
     "cca2": "MF",
     "cca3": "MAF",
     "ccn3": "663",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "St. M.",
+        "abbrev_len": "6.00",
+        "adm0_a3": "MAF",
+        "adm0_a3_is": "MAF",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "MAF",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Saint Martin",
+        "alt_spellings": [
+            "MF",
+            "Collectivity of Saint Martin",
+            "Collectivit\u00e9 de Saint-Martin",
+            "Saint Martin (French part)"
+        ],
+        "borders": [
+            "SXM"
+        ],
+        "brk_a3": "MAF",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Saint-Martin",
+        "capital": [
+            "Marigot"
+        ],
+        "cca2": "MF",
+        "cca3": "MAF",
+        "ccn3": "663",
+        "cioc": null,
+        "currency": [
+            "EUR"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Saint Martin Islander",
+        "dialling": {
+            "calling_code": [
+                "590"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "RN",
+        "flag": {
+            "emoji": "\ud83c\uddf2\ud83c\uddeb"
+        },
+        "formal_en": "Saint-Martin (French part)",
+        "formal_fr": "",
+        "gdp_md_est": "561.50",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 53,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                18.08333333,
+                -63.95
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Saint Martin",
+        "gu_a3": "MAF",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "MF",
+        "iso_a3": "MAF",
+        "iso_a3_eh": "MAF",
+        "iso_n3": "663",
+        "labelrank": "6.00",
+        "languages": {
+            "fra": "French"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "12.00",
+        "mapcolor7": "7.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "9.00",
+        "mapcolor13": "11.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Saint Martin",
+            "native": {
+                "fra": {
+                    "common": "Saint-Martin",
+                    "official": "Saint-Martin"
+                }
+            },
+            "official": "Saint Martin"
+        },
+        "name_alt": "",
+        "name_ciawf": "Saint Martin",
+        "name_len": "9.00",
+        "name_long": "Saint-Martin",
+        "name_nev": "St-Martin",
+        "name_sort": "St. Martin (French part)",
+        "note_adm0": "Fr.",
+        "note_brk": "",
+        "pop_est": "32125.00",
+        "pop_rank": "7.00",
+        "pop_year": "2017.00",
+        "postal": "MF",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "FR1",
+        "sovereignt": "France",
+        "status": "officially-assigned",
+        "su_a3": "MAF",
+        "su_dif": "0.00",
+        "subunit": "Saint Martin",
+        "tiny": "4.00",
+        "tld": [
+            ".fr",
+            ".gp"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Saint Martin",
+                "official": "St. Martin"
+            },
+            "est": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martini \u00fchendus"
+            },
+            "fin": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            },
+            "fra": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            },
+            "hrv": {
+                "common": "Sveti Martin",
+                "official": "Saint Martin"
+            },
+            "ita": {
+                "common": "Saint Martin",
+                "official": "saint Martin"
+            },
+            "jpn": {
+                "common": "\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09",
+                "official": "\u30b5\u30f3\u30de\u30eb\u30bf\u30f3\u5cf6"
+            },
+            "nld": {
+                "common": "Saint-Martin",
+                "official": "Saint Martin"
+            },
+            "por": {
+                "common": "S\u00e3o Martinho",
+                "official": "saint Martin"
+            },
+            "rus": {
+                "common": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d",
+                "official": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d"
+            },
+            "slk": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            },
+            "spa": {
+                "common": "Saint Martin",
+                "official": "Saint Martin"
+            },
+            "zho": {
+                "common": "\u5723\u9a6c\u4e01",
+                "official": "\u5723\u9a6c\u4e01"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "663",
+        "wb_a2": "MF",
+        "wb_a3": "MAF",
+        "wikipedia": "0.00",
+        "woe_id": "56042305.00",
+        "woe_id_eh": "56042305.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "EUR"
     ],
@@ -107,7 +299,193 @@
     "gu_a3": "MAF",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "St. M.",
+        "abbrev_len": "6.00",
+        "adm0_a3": "MAF",
+        "adm0_a3_is": "MAF",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "MAF",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Saint Martin",
+        "alt_spellings": [
+            "MF",
+            "Collectivity of Saint Martin",
+            "Collectivit\u00e9 de Saint-Martin",
+            "Saint Martin (French part)"
+        ],
+        "borders": [
+            "SXM"
+        ],
+        "brk_a3": "MAF",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Saint-Martin",
+        "capital": [
+            "Marigot"
+        ],
+        "cca2": "MF",
+        "cca3": "MAF",
+        "ccn3": "663",
+        "cioc": null,
+        "currency": [
+            "EUR"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Saint Martin Islander",
+        "dialling": {
+            "calling_code": [
+                "590"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "RN",
+        "flag": {
+            "emoji": "\ud83c\uddf2\ud83c\uddeb"
+        },
+        "formal_en": "Saint-Martin (French part)",
+        "formal_fr": "",
+        "gdp_md_est": "561.50",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 53,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                18.08333333,
+                -63.95
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Saint Martin",
+        "gu_a3": "MAF",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "MF",
+        "iso_a3": "MAF",
+        "iso_a3_eh": "MAF",
+        "iso_n3": "663",
+        "labelrank": "6.00",
+        "languages": {
+            "fra": "French"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "12.00",
+        "mapcolor7": "7.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "9.00",
+        "mapcolor13": "11.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Saint Martin",
+            "native": {
+                "fra": {
+                    "common": "Saint-Martin",
+                    "official": "Saint-Martin"
+                }
+            },
+            "official": "Saint Martin"
+        },
+        "name_alt": "",
+        "name_ciawf": "Saint Martin",
+        "name_len": "9.00",
+        "name_long": "Saint-Martin",
+        "name_nev": "St-Martin",
+        "name_sort": "St. Martin (French part)",
+        "note_adm0": "Fr.",
+        "note_brk": "",
+        "pop_est": "32125.00",
+        "pop_rank": "7.00",
+        "pop_year": "2017.00",
+        "postal": "MF",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "FR1",
+        "sovereignt": "France",
+        "status": "officially-assigned",
+        "su_a3": "MAF",
+        "su_dif": "0.00",
+        "subunit": "Saint Martin",
+        "tiny": "4.00",
+        "tld": [
+            ".fr",
+            ".gp"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Saint Martin",
+                "official": "St. Martin"
+            },
+            "est": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martini \u00fchendus"
+            },
+            "fin": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            },
+            "fra": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            },
+            "hrv": {
+                "common": "Sveti Martin",
+                "official": "Saint Martin"
+            },
+            "ita": {
+                "common": "Saint Martin",
+                "official": "saint Martin"
+            },
+            "jpn": {
+                "common": "\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09",
+                "official": "\u30b5\u30f3\u30de\u30eb\u30bf\u30f3\u5cf6"
+            },
+            "nld": {
+                "common": "Saint-Martin",
+                "official": "Saint Martin"
+            },
+            "por": {
+                "common": "S\u00e3o Martinho",
+                "official": "saint Martin"
+            },
+            "rus": {
+                "common": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d",
+                "official": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d"
+            },
+            "slk": {
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
+            },
+            "spa": {
+                "common": "Saint Martin",
+                "official": "Saint Martin"
+            },
+            "zho": {
+                "common": "\u5723\u9a6c\u4e01",
+                "official": "\u5723\u9a6c\u4e01"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "663",
+        "wb_a2": "MF",
+        "wb_a3": "MAF",
+        "wikipedia": "0.00",
+        "woe_id": "56042305.00",
+        "woe_id_eh": "56042305.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "MF",
     "iso_3166_1_alpha3": "MAF",
     "iso_3166_1_numeric": "663",
@@ -122,10 +500,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "12.00",
-    "mapcolor13": "11.00",
     "mapcolor7": "7.00",
     "mapcolor8": "5.00",
     "mapcolor9": "9.00",
+    "mapcolor13": "11.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -155,6 +533,7 @@
     "scalerank": "3",
     "sov_a3": "FR1",
     "sovereignt": "France",
+    "status": "officially-assigned",
     "su_a3": "MAF",
     "su_dif": "0.00",
     "subunit": "Saint Martin",

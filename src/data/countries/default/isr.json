@@ -13,11 +13,21 @@
         "State of Israel",
         "Med\u012bnat Yisr\u0101'el"
     ],
+    "borders": [
+        "EGY",
+        "JOR",
+        "LBN",
+        "PSE",
+        "SYR"
+    ],
     "brk_a3": "ISR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Israel",
-    "capital": "Jerusalem",
+    "capital": [
+        "Jerusalem"
+    ],
+    "capital_rinvex": "Jerusalem",
     "cca2": "IL",
     "cca3": "ISR",
     "ccn3": "376",
@@ -82,7 +92,6 @@
             "EGY",
             "JOR",
             "LBN",
-            "SYR",
             "SYR"
         ],
         "continent": {
@@ -132,10 +141,10 @@
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "9.00",
     "mapcolor7": "3.00",
     "mapcolor8": "2.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "9.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -169,6 +178,7 @@
     "scalerank": "0",
     "sov_a3": "IS1",
     "sovereignt": "Israel",
+    "status": "officially-assigned",
     "su_a3": "ISR",
     "su_dif": "0.00",
     "subunit": "Israel",

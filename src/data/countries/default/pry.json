@@ -14,11 +14,19 @@
         "Rep\u00fablica del Paraguay",
         "Tet\u00e3 Paragu\u00e1i"
     ],
+    "borders": [
+        "ARG",
+        "BOL",
+        "BRA"
+    ],
     "brk_a3": "PRY",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Paraguay",
-    "capital": "Asunci\u00f3n",
+    "capital": [
+        "Asunci\u00f3n"
+    ],
+    "capital_rinvex": "Asunci\u00f3n",
     "cca2": "PY",
     "cca3": "PRY",
     "ccn3": "600",
@@ -129,10 +137,10 @@
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "8.00",
-    "mapcolor13": "2.00",
     "mapcolor7": "6.00",
     "mapcolor8": "3.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "2.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -166,6 +174,7 @@
     "scalerank": "0",
     "sov_a3": "PRY",
     "sovereignt": "Paraguay",
+    "status": "officially-assigned",
     "su_a3": "PRY",
     "su_dif": "0.00",
     "subunit": "Paraguay",

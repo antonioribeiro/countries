@@ -13,11 +13,21 @@
         "Republic of Senegal",
         "R\u00e9publique du S\u00e9n\u00e9gal"
     ],
+    "borders": [
+        "GMB",
+        "GIN",
+        "GNB",
+        "MLI",
+        "MRT"
+    ],
     "brk_a3": "SEN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Senegal",
-    "capital": "Dakar",
+    "capital": [
+        "Dakar"
+    ],
+    "capital_rinvex": "Dakar",
     "cca2": "SN",
     "cca3": "SEN",
     "ccn3": "686",
@@ -129,10 +139,10 @@
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "5.00",
     "mapcolor7": "2.00",
     "mapcolor8": "6.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "5.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -162,6 +172,7 @@
     "scalerank": "0",
     "sov_a3": "SEN",
     "sovereignt": "Senegal",
+    "status": "officially-assigned",
     "su_a3": "SEN",
     "su_dif": "0.00",
     "subunit": "Senegal",

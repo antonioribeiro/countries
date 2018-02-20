@@ -14,11 +14,19 @@
         "Venezuela, Bolivarian Republic of",
         "Rep\u00fablica Bolivariana de Venezuela"
     ],
+    "borders": [
+        "BRA",
+        "COL",
+        "GUY"
+    ],
     "brk_a3": "VEN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Venezuela",
-    "capital": "Caracas",
+    "capital": [
+        "Caracas"
+    ],
+    "capital_rinvex": "Caracas",
     "cca2": "VE",
     "cca3": "VEN",
     "ccn3": "862",
@@ -128,10 +136,10 @@
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "9.00",
-    "mapcolor13": "4.00",
     "mapcolor7": "1.00",
     "mapcolor8": "3.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "4.00",
     "max_label": "7.50",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -161,6 +169,7 @@
     "scalerank": "0",
     "sov_a3": "VEN",
     "sovereignt": "Venezuela",
+    "status": "officially-assigned",
     "su_a3": "VEN",
     "su_dif": "0.00",
     "subunit": "Venezuela",

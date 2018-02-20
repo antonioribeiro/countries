@@ -11,11 +11,22 @@
     "alt_spellings": [
         "BF"
     ],
+    "borders": [
+        "BEN",
+        "CIV",
+        "GHA",
+        "MLI",
+        "NER",
+        "TGO"
+    ],
     "brk_a3": "BFA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Burkina Faso",
-    "capital": "Ouagadougou",
+    "capital": [
+        "Ouagadougou"
+    ],
+    "capital_rinvex": "Ouagadougou",
     "cca2": "BF",
     "cca3": "BFA",
     "ccn3": "854",
@@ -128,10 +139,10 @@
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "12.00",
-    "mapcolor13": "11.00",
     "mapcolor7": "2.00",
     "mapcolor8": "1.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "11.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -161,6 +172,7 @@
     "scalerank": "0",
     "sov_a3": "BFA",
     "sovereignt": "Burkina Faso",
+    "status": "officially-assigned",
     "su_a3": "BFA",
     "su_dif": "0.00",
     "subunit": "Burkina Faso",

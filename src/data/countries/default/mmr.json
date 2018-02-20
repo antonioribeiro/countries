@@ -14,11 +14,21 @@
         "Republic of the Union of Myanmar",
         "Pyidaunzu Thanm\u0103da My\u0103ma Nainngandaw"
     ],
+    "borders": [
+        "BGD",
+        "CHN",
+        "IND",
+        "LAO",
+        "THA"
+    ],
     "brk_a3": "MMR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Myanmar",
-    "capital": "Naypyidaw",
+    "capital": [
+        "Naypyidaw"
+    ],
+    "capital_rinvex": "Naypyidaw",
     "cca2": "MM",
     "cca3": "MMR",
     "ccn3": "104",
@@ -131,10 +141,10 @@
     "lastcensus": "1983.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "13.00",
     "mapcolor7": "2.00",
     "mapcolor8": "2.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "13.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -164,6 +174,7 @@
     "scalerank": "0",
     "sov_a3": "MMR",
     "sovereignt": "Myanmar",
+    "status": "officially-assigned",
     "su_a3": "MMR",
     "su_dif": "0.00",
     "subunit": "Myanmar",

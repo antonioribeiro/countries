@@ -13,11 +13,18 @@
         "USA",
         "United States of America"
     ],
+    "borders": [
+        "CAN",
+        "MEX"
+    ],
     "brk_a3": "USA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "United States",
-    "capital": "Washington D.C.",
+    "capital": [
+        "Washington D.C."
+    ],
+    "capital_rinvex": "Washington D.C.",
     "cca2": "US",
     "cca3": "USA",
     "ccn3": "840",
@@ -128,10 +135,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "13.00",
-    "mapcolor13": "1.00",
     "mapcolor7": "4.00",
     "mapcolor8": "5.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "1.00",
     "max_label": "5.70",
     "min_label": "1.70",
     "min_zoom": "0.00",
@@ -161,6 +168,7 @@
     "scalerank": "0",
     "sov_a3": "US1",
     "sovereignt": "United States of America",
+    "status": "officially-assigned",
     "su_a3": "USA",
     "su_dif": "0.00",
     "subunit": "United States",

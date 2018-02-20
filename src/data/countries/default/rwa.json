@@ -14,11 +14,20 @@
         "Repubulika y'u Rwanda",
         "R\u00e9publique du Rwanda"
     ],
+    "borders": [
+        "BDI",
+        "COD",
+        "TZA",
+        "UGA"
+    ],
     "brk_a3": "RWA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Rwanda",
-    "capital": "Kigali",
+    "capital": [
+        "Kigali"
+    ],
+    "capital_rinvex": "Kigali",
     "cca2": "RW",
     "cca3": "RWA",
     "ccn3": "646",
@@ -132,10 +141,10 @@
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "10.00",
     "mapcolor7": "5.00",
     "mapcolor8": "2.00",
     "mapcolor9": "3.00",
+    "mapcolor13": "10.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -173,6 +182,7 @@
     "scalerank": "0",
     "sov_a3": "RWA",
     "sovereignt": "Rwanda",
+    "status": "officially-assigned",
     "su_a3": "RWA",
     "su_dif": "0.00",
     "subunit": "Rwanda",

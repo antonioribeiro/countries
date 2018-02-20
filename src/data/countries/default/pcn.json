@@ -13,15 +13,201 @@
         "Pitcairn",
         "Pitcairn Henderson Ducie and Oeno Islands"
     ],
+    "borders": [],
     "brk_a3": "PCN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Pitcairn Is.",
-    "capital": "Adamstown",
+    "capital": [
+        "Adamstown"
+    ],
+    "capital_rinvex": "Adamstown",
     "cca2": "PN",
     "cca3": "PCN",
     "ccn3": "612",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "Pit. Is.",
+        "abbrev_len": "8.00",
+        "adm0_a3": "PCN",
+        "adm0_a3_is": "PCN",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "PCN",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Pitcairn Islands",
+        "alt_spellings": [
+            "PN",
+            "Pitcairn",
+            "Pitcairn Henderson Ducie and Oeno Islands"
+        ],
+        "borders": [],
+        "brk_a3": "PCN",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Pitcairn Is.",
+        "capital": [
+            "Adamstown"
+        ],
+        "cca2": "PN",
+        "cca3": "PCN",
+        "ccn3": "612",
+        "cioc": null,
+        "currency": [
+            "NZD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Pitcairn Islander",
+        "dialling": {
+            "calling_code": [
+                "64"
+            ]
+        },
+        "economy": "7. Least developed region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "PC",
+        "flag": {
+            "emoji": "\ud83c\uddf5\ud83c\uddf3"
+        },
+        "formal_en": "Pitcairn, Henderson, Ducie and Oeno Islands",
+        "formal_fr": "",
+        "gdp_md_est": "0.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 47,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -25.06666666,
+                -130.1
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Polynesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Pitcairn Islands",
+        "gu_a3": "PCN",
+        "homepart": "-99.00",
+        "income_grp": "5. Low income",
+        "independent": null,
+        "iso_a2": "PN",
+        "iso_a3": "PCN",
+        "iso_a3_eh": "PCN",
+        "iso_n3": "612",
+        "labelrank": "4.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "16.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "9.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Pitcairn Islands",
+            "native": {
+                "eng": {
+                    "common": "Pitcairn Islands",
+                    "official": "Pitcairn Group of Islands"
+                }
+            },
+            "official": "Pitcairn Group of Islands"
+        },
+        "name_alt": "",
+        "name_ciawf": "Pitcairn Islands",
+        "name_len": "12.00",
+        "name_long": "Pitcairn Islands",
+        "name_nev": "Pitcairn Is.",
+        "name_sort": "Pitcairn Islands",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "54.00",
+        "pop_rank": "1.00",
+        "pop_year": "2016.00",
+        "postal": "PN",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "PCN",
+        "su_dif": "0.00",
+        "subunit": "Pitcairn Islands",
+        "tiny": "-99.00",
+        "tld": [
+            ".pn"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Pitcairn",
+                "official": "Pitcairn Inselgruppe"
+            },
+            "est": {
+                "common": "Pitcairn",
+                "official": "Pitcairni, Hendersoni, Ducie ja Oeno saar"
+            },
+            "fin": {
+                "common": "Pitcairn",
+                "official": "Pitcairn"
+            },
+            "fra": {
+                "common": "\u00celes Pitcairn",
+                "official": "Groupe d'\u00eeles Pitcairn"
+            },
+            "hrv": {
+                "common": "Pitcairnovo oto\u010dje",
+                "official": "Pitcairn skupine otoka"
+            },
+            "ita": {
+                "common": "Isole Pitcairn",
+                "official": "Pitcairn gruppo di isole"
+            },
+            "jpn": {
+                "common": "\u30d4\u30c8\u30b1\u30a2\u30f3",
+                "official": "\u5cf6\u306e\u30d4\u30c8\u30b1\u30a2\u30f3\u30b0\u30eb\u30fc\u30d7"
+            },
+            "nld": {
+                "common": "Pitcairneilanden",
+                "official": "Pitcairn groep eilanden"
+            },
+            "por": {
+                "common": "Ilhas Pitcairn",
+                "official": "Pitcairn grupo de ilhas"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u041f\u0438\u0442\u043a\u044d\u0440\u043d",
+                "official": "\u041f\u0438\u0442\u043a\u044d\u0440\u043d \u0433\u0440\u0443\u043f\u043f\u0430 \u043e\u0441\u0442\u0440\u043e\u0432\u043e\u0432"
+            },
+            "slk": {
+                "common": "Pitcairnove ostrovy",
+                "official": "Pitcairnove ostrovy"
+            },
+            "spa": {
+                "common": "Islas Pitcairn",
+                "official": "Grupo de Islas Pitcairn"
+            },
+            "zho": {
+                "common": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b",
+                "official": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "612",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424918.00",
+        "woe_id_eh": "23424918.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "NZD"
     ],
@@ -106,7 +292,189 @@
     "gu_a3": "PCN",
     "homepart": "-99.00",
     "income_grp": "5. Low income",
-    "independent": null,
+    "independent": {
+        "abbrev": "Pit. Is.",
+        "abbrev_len": "8.00",
+        "adm0_a3": "PCN",
+        "adm0_a3_is": "PCN",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "PCN",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Pitcairn Islands",
+        "alt_spellings": [
+            "PN",
+            "Pitcairn",
+            "Pitcairn Henderson Ducie and Oeno Islands"
+        ],
+        "borders": [],
+        "brk_a3": "PCN",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Pitcairn Is.",
+        "capital": [
+            "Adamstown"
+        ],
+        "cca2": "PN",
+        "cca3": "PCN",
+        "ccn3": "612",
+        "cioc": null,
+        "currency": [
+            "NZD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Pitcairn Islander",
+        "dialling": {
+            "calling_code": [
+                "64"
+            ]
+        },
+        "economy": "7. Least developed region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "PC",
+        "flag": {
+            "emoji": "\ud83c\uddf5\ud83c\uddf3"
+        },
+        "formal_en": "Pitcairn, Henderson, Ducie and Oeno Islands",
+        "formal_fr": "",
+        "gdp_md_est": "0.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 47,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -25.06666666,
+                -130.1
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Polynesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Pitcairn Islands",
+        "gu_a3": "PCN",
+        "homepart": "-99.00",
+        "income_grp": "5. Low income",
+        "independent": null,
+        "iso_a2": "PN",
+        "iso_a3": "PCN",
+        "iso_a3_eh": "PCN",
+        "iso_n3": "612",
+        "labelrank": "4.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "16.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "9.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Pitcairn Islands",
+            "native": {
+                "eng": {
+                    "common": "Pitcairn Islands",
+                    "official": "Pitcairn Group of Islands"
+                }
+            },
+            "official": "Pitcairn Group of Islands"
+        },
+        "name_alt": "",
+        "name_ciawf": "Pitcairn Islands",
+        "name_len": "12.00",
+        "name_long": "Pitcairn Islands",
+        "name_nev": "Pitcairn Is.",
+        "name_sort": "Pitcairn Islands",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "54.00",
+        "pop_rank": "1.00",
+        "pop_year": "2016.00",
+        "postal": "PN",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "PCN",
+        "su_dif": "0.00",
+        "subunit": "Pitcairn Islands",
+        "tiny": "-99.00",
+        "tld": [
+            ".pn"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Pitcairn",
+                "official": "Pitcairn Inselgruppe"
+            },
+            "est": {
+                "common": "Pitcairn",
+                "official": "Pitcairni, Hendersoni, Ducie ja Oeno saar"
+            },
+            "fin": {
+                "common": "Pitcairn",
+                "official": "Pitcairn"
+            },
+            "fra": {
+                "common": "\u00celes Pitcairn",
+                "official": "Groupe d'\u00eeles Pitcairn"
+            },
+            "hrv": {
+                "common": "Pitcairnovo oto\u010dje",
+                "official": "Pitcairn skupine otoka"
+            },
+            "ita": {
+                "common": "Isole Pitcairn",
+                "official": "Pitcairn gruppo di isole"
+            },
+            "jpn": {
+                "common": "\u30d4\u30c8\u30b1\u30a2\u30f3",
+                "official": "\u5cf6\u306e\u30d4\u30c8\u30b1\u30a2\u30f3\u30b0\u30eb\u30fc\u30d7"
+            },
+            "nld": {
+                "common": "Pitcairneilanden",
+                "official": "Pitcairn groep eilanden"
+            },
+            "por": {
+                "common": "Ilhas Pitcairn",
+                "official": "Pitcairn grupo de ilhas"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u041f\u0438\u0442\u043a\u044d\u0440\u043d",
+                "official": "\u041f\u0438\u0442\u043a\u044d\u0440\u043d \u0433\u0440\u0443\u043f\u043f\u0430 \u043e\u0441\u0442\u0440\u043e\u0432\u043e\u0432"
+            },
+            "slk": {
+                "common": "Pitcairnove ostrovy",
+                "official": "Pitcairnove ostrovy"
+            },
+            "spa": {
+                "common": "Islas Pitcairn",
+                "official": "Grupo de Islas Pitcairn"
+            },
+            "zho": {
+                "common": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b",
+                "official": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "612",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424918.00",
+        "woe_id_eh": "23424918.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "PN",
     "iso_3166_1_alpha3": "PCN",
     "iso_3166_1_numeric": "612",
@@ -121,10 +489,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "16.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "6.00",
     "mapcolor8": "6.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "3.00",
     "max_label": "9.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -154,6 +522,7 @@
     "scalerank": "5",
     "sov_a3": "GB1",
     "sovereignt": "United Kingdom",
+    "status": "officially-assigned",
     "su_a3": "PCN",
     "su_dif": "0.00",
     "subunit": "Pitcairn Islands",

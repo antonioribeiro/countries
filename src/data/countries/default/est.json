@@ -14,11 +14,18 @@
         "Republic of Estonia",
         "Eesti Vabariik"
     ],
+    "borders": [
+        "LVA",
+        "RUS"
+    ],
     "brk_a3": "EST",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Estonia",
-    "capital": "Tallinn",
+    "capital": [
+        "Tallinn"
+    ],
+    "capital_rinvex": "Tallinn",
     "cca2": "EE",
     "cca3": "EST",
     "ccn3": "233",
@@ -135,10 +142,10 @@
     "lastcensus": "2000.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "10.00",
     "mapcolor7": "3.00",
     "mapcolor8": "2.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "10.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -168,6 +175,7 @@
     "scalerank": "0",
     "sov_a3": "EST",
     "sovereignt": "Estonia",
+    "status": "officially-assigned",
     "su_a3": "EST",
     "su_dif": "0.00",
     "subunit": "Estonia",

@@ -13,11 +13,21 @@
         "Republic of Colombia",
         "Rep\u00fablica de Colombia"
     ],
+    "borders": [
+        "BRA",
+        "ECU",
+        "PAN",
+        "PER",
+        "VEN"
+    ],
     "brk_a3": "COL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Colombia",
-    "capital": "Bogot\u00e1",
+    "capital": [
+        "Bogot\u00e1"
+    ],
+    "capital_rinvex": "Bogot\u00e1",
     "cca2": "CO",
     "cca3": "COL",
     "ccn3": "170",
@@ -130,10 +140,10 @@
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "8.00",
-    "mapcolor13": "1.00",
     "mapcolor7": "2.00",
     "mapcolor8": "1.00",
     "mapcolor9": "3.00",
+    "mapcolor13": "1.00",
     "max_label": "7.00",
     "min_label": "2.00",
     "min_zoom": "0.00",
@@ -163,6 +173,7 @@
     "scalerank": "0",
     "sov_a3": "COL",
     "sovereignt": "Colombia",
+    "status": "officially-assigned",
     "su_a3": "COL",
     "su_dif": "0.00",
     "subunit": "Colombia",

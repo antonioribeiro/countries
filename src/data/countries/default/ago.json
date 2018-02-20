@@ -13,11 +13,20 @@
         "Rep\u00fablica de Angola",
         "\u0281\u025bpublika de an'\u0261\u0254la"
     ],
+    "borders": [
+        "COG",
+        "COD",
+        "ZMB",
+        "NAM"
+    ],
     "brk_a3": "AGO",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Angola",
-    "capital": "Luanda",
+    "capital": [
+        "Luanda"
+    ],
+    "capital_rinvex": "Luanda",
     "cca2": "AO",
     "cca3": "AGO",
     "ccn3": "024",
@@ -128,10 +137,10 @@
     "lastcensus": "1970.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "1.00",
     "mapcolor7": "3.00",
     "mapcolor8": "2.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "1.00",
     "max_label": "7.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -161,6 +170,7 @@
     "scalerank": "0",
     "sov_a3": "AGO",
     "sovereignt": "Angola",
+    "status": "officially-assigned",
     "su_a3": "AGO",
     "su_dif": "0.00",
     "subunit": "Angola",

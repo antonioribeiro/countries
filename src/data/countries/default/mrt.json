@@ -13,11 +13,20 @@
         "Islamic Republic of Mauritania",
         "al-Jumh\u016briyyah al-\u02beIsl\u0101miyyah al-M\u016br\u012bt\u0101niyyah"
     ],
+    "borders": [
+        "DZA",
+        "MLI",
+        "SEN",
+        "ESH"
+    ],
     "brk_a3": "MRT",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mauritania",
-    "capital": "Nouakchott",
+    "capital": [
+        "Nouakchott"
+    ],
+    "capital_rinvex": "Nouakchott",
     "cca2": "MR",
     "cca3": "MRT",
     "ccn3": "478",
@@ -128,10 +137,10 @@
     "lastcensus": "2000.00",
     "level": "2.00",
     "long_len": "10.00",
-    "mapcolor13": "1.00",
     "mapcolor7": "3.00",
     "mapcolor8": "3.00",
     "mapcolor9": "2.00",
+    "mapcolor13": "1.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -161,6 +170,7 @@
     "scalerank": "0",
     "sov_a3": "MRT",
     "sovereignt": "Mauritania",
+    "status": "officially-assigned",
     "su_a3": "MRT",
     "su_dif": "0.00",
     "subunit": "Mauritania",

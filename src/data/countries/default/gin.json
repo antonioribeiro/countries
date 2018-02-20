@@ -13,11 +13,22 @@
         "Republic of Guinea",
         "R\u00e9publique de Guin\u00e9e"
     ],
+    "borders": [
+        "CIV",
+        "GNB",
+        "LBR",
+        "MLI",
+        "SEN",
+        "SLE"
+    ],
     "brk_a3": "GIN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Guinea",
-    "capital": "Conakry",
+    "capital": [
+        "Conakry"
+    ],
+    "capital_rinvex": "Conakry",
     "cca2": "GN",
     "cca3": "GIN",
     "ccn3": "324",
@@ -130,10 +141,10 @@
     "lastcensus": "1996.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "2.00",
     "mapcolor7": "6.00",
     "mapcolor8": "3.00",
     "mapcolor9": "7.00",
+    "mapcolor13": "2.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -163,6 +174,7 @@
     "scalerank": "0",
     "sov_a3": "GIN",
     "sovereignt": "Guinea",
+    "status": "officially-assigned",
     "su_a3": "GIN",
     "su_dif": "0.00",
     "subunit": "Guinea",

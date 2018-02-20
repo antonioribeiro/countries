@@ -13,11 +13,20 @@
         "\u010cesk\u00e1 republika",
         "\u010cesko"
     ],
+    "borders": [
+        "AUT",
+        "DEU",
+        "POL",
+        "SVK"
+    ],
     "brk_a3": "CZE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Czechia",
-    "capital": "Prague",
+    "capital": [
+        "Prague"
+    ],
+    "capital_rinvex": "Prague",
     "cca2": "CZ",
     "cca3": "CZE",
     "ccn3": "203",
@@ -136,10 +145,10 @@
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "14.00",
-    "mapcolor13": "6.00",
     "mapcolor7": "1.00",
     "mapcolor8": "1.00",
     "mapcolor9": "2.00",
+    "mapcolor13": "6.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -187,6 +196,7 @@
     "scalerank": "0",
     "sov_a3": "CZE",
     "sovereignt": "Czechia",
+    "status": "officially-assigned",
     "su_a3": "CZE",
     "su_dif": "0.00",
     "subunit": "Czechia",

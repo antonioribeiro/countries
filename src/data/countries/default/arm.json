@@ -14,11 +14,20 @@
         "Republic of Armenia",
         "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576\u056b \u0540\u0561\u0576\u0580\u0561\u057a\u0565\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
     ],
+    "borders": [
+        "AZE",
+        "GEO",
+        "IRN",
+        "TUR"
+    ],
     "brk_a3": "ARM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Armenia",
-    "capital": "Yerevan",
+    "capital": [
+        "Yerevan"
+    ],
+    "capital_rinvex": "Yerevan",
     "cca2": "AM",
     "cca3": "ARM",
     "ccn3": "051",
@@ -130,10 +139,10 @@
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "10.00",
     "mapcolor7": "3.00",
     "mapcolor8": "1.00",
     "mapcolor9": "2.00",
+    "mapcolor13": "10.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -177,6 +186,7 @@
     "scalerank": "0",
     "sov_a3": "ARM",
     "sovereignt": "Armenia",
+    "status": "officially-assigned",
     "su_a3": "ARM",
     "su_dif": "0.00",
     "subunit": "Armenia",

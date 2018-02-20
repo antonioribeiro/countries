@@ -12,11 +12,18 @@
         "BT",
         "Kingdom of Bhutan"
     ],
+    "borders": [
+        "CHN",
+        "IND"
+    ],
     "brk_a3": "BTN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bhutan",
-    "capital": "Thimphu",
+    "capital": [
+        "Thimphu"
+    ],
+    "capital_rinvex": "Thimphu",
     "cca2": "BT",
     "cca3": "BTN",
     "ccn3": "064",
@@ -127,10 +134,10 @@
     "lastcensus": "2005.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "8.00",
     "mapcolor7": "5.00",
     "mapcolor8": "6.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "8.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -160,6 +167,7 @@
     "scalerank": "0",
     "sov_a3": "BTN",
     "sovereignt": "Bhutan",
+    "status": "officially-assigned",
     "su_a3": "BTN",
     "su_dif": "0.00",
     "subunit": "Bhutan",

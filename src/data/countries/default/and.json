@@ -13,11 +13,18 @@
         "Principality of Andorra",
         "Principat d'Andorra"
     ],
+    "borders": [
+        "FRA",
+        "ESP"
+    ],
     "brk_a3": "AND",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Andorra",
-    "capital": "Andorra la Vella",
+    "capital": [
+        "Andorra la Vella"
+    ],
+    "capital_rinvex": "Andorra la Vella",
     "cca2": "AD",
     "cca3": "AND",
     "ccn3": "020",
@@ -129,10 +136,10 @@
     "lastcensus": "1989.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "8.00",
     "mapcolor7": "1.00",
     "mapcolor8": "4.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "8.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -162,6 +169,7 @@
     "scalerank": "0",
     "sov_a3": "AND",
     "sovereignt": "Andorra",
+    "status": "officially-assigned",
     "su_a3": "AND",
     "su_dif": "0.00",
     "subunit": "Andorra",

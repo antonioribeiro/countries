@@ -13,11 +13,22 @@
         "Republic of Cameroon",
         "R\u00e9publique du Cameroun"
     ],
+    "borders": [
+        "CAF",
+        "TCD",
+        "COG",
+        "GNQ",
+        "GAB",
+        "NGA"
+    ],
     "brk_a3": "CMR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Cameroon",
-    "capital": "Yaound\u00e9",
+    "capital": [
+        "Yaound\u00e9"
+    ],
+    "capital_rinvex": "Yaound\u00e9",
     "cca2": "CM",
     "cca3": "CMR",
     "ccn3": "120",
@@ -131,10 +142,10 @@
     "lastcensus": "2005.00",
     "level": "2.00",
     "long_len": "8.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "1.00",
     "mapcolor8": "4.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "3.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -168,6 +179,7 @@
     "scalerank": "0",
     "sov_a3": "CMR",
     "sovereignt": "Cameroon",
+    "status": "officially-assigned",
     "su_a3": "CMR",
     "su_dif": "0.00",
     "subunit": "Cameroon",

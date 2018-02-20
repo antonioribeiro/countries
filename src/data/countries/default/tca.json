@@ -11,15 +11,199 @@
     "alt_spellings": [
         "TC"
     ],
+    "borders": [],
     "brk_a3": "TCA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Turks and Caicos Is.",
-    "capital": "Cockburn Town",
+    "capital": [
+        "Cockburn Town"
+    ],
+    "capital_rinvex": "Cockburn Town",
     "cca2": "TC",
     "cca3": "TCA",
     "ccn3": "796",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "T.C. Is.",
+        "abbrev_len": "8.00",
+        "adm0_a3": "TCA",
+        "adm0_a3_is": "TCA",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "TCA",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Turks and Caicos Islands",
+        "alt_spellings": [
+            "TC"
+        ],
+        "borders": [],
+        "brk_a3": "TCA",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Turks and Caicos Is.",
+        "capital": [
+            "Cockburn Town"
+        ],
+        "cca2": "TC",
+        "cca3": "TCA",
+        "ccn3": "796",
+        "cioc": null,
+        "currency": [
+            "USD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Turks and Caicos Islander",
+        "dialling": {
+            "calling_code": [
+                "1649"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "TK",
+        "flag": {
+            "emoji": "\ud83c\uddf9\ud83c\udde8"
+        },
+        "formal_en": "Turks and Caicos Islands",
+        "formal_fr": "",
+        "gdp_md_est": "632.00",
+        "gdp_year": "2007.00",
+        "geo": {
+            "area": 948,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                21.75,
+                -71.58333333
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Turks and Caicos Islands",
+        "gu_a3": "TCA",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "TC",
+        "iso_a3": "TCA",
+        "iso_a3_eh": "TCA",
+        "iso_n3": "796",
+        "labelrank": "6.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "2001.00",
+        "level": "2.00",
+        "long_len": "24.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Turks and Caicos Islands",
+            "native": {
+                "eng": {
+                    "common": "Turks and Caicos Islands",
+                    "official": "Turks and Caicos Islands"
+                }
+            },
+            "official": "Turks and Caicos Islands"
+        },
+        "name_alt": "",
+        "name_ciawf": "Turks and Caicos Islands",
+        "name_len": "20.00",
+        "name_long": "Turks and Caicos Islands",
+        "name_nev": "Turks and Caicos Is.",
+        "name_sort": "Turks and Caicos Islands",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "52570.00",
+        "pop_rank": "8.00",
+        "pop_year": "2017.00",
+        "postal": "TC",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "TCA",
+        "su_dif": "0.00",
+        "subunit": "Turks and Caicos Islands",
+        "tiny": "-99.00",
+        "tld": [
+            ".tc"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Turks-und Caicosinseln",
+                "official": "Turks und Caicos Inseln"
+            },
+            "est": {
+                "common": "Turks ja Caicos",
+                "official": "Turksi ja Caicose saared"
+            },
+            "fin": {
+                "common": "Turks-ja Caicossaaret",
+                "official": "Turks-ja Caicossaaret"
+            },
+            "fra": {
+                "common": "\u00celes Turques-et-Ca\u00efques",
+                "official": "\u00celes Turques et Ca\u00efques"
+            },
+            "hrv": {
+                "common": "Otoci Turks i Caicos",
+                "official": "Otoci Turks i Caicos"
+            },
+            "ita": {
+                "common": "Isole Turks e Caicos",
+                "official": "Turks e Caicos"
+            },
+            "jpn": {
+                "common": "\u30bf\u30fc\u30af\u30b9\u30fb\u30ab\u30a4\u30b3\u30b9\u8af8\u5cf6",
+                "official": "\u30bf\u30fc\u30af\u30b9\u00b7\u30ab\u30a4\u30b3\u30b9\u8af8\u5cf6"
+            },
+            "nld": {
+                "common": "Turks-en Caicoseilanden",
+                "official": "Turks-en Caicoseilanden"
+            },
+            "por": {
+                "common": "Ilhas Turks e Caicos",
+                "official": "Ilhas Turks e Caicos"
+            },
+            "rus": {
+                "common": "\u0422\u0435\u0440\u043a\u0441 \u0438 \u041a\u0430\u0439\u043a\u043e\u0441",
+                "official": "\u0422\u0435\u0440\u043a\u0441 \u0438 \u041a\u0430\u0439\u043a\u043e\u0441 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "common": "Turks a Caicos",
+                "official": "Ostrovy Turks a Caicos"
+            },
+            "spa": {
+                "common": "Islas Turks y Caicos",
+                "official": "Islas Turcas y Caicos"
+            },
+            "zho": {
+                "common": "\u7279\u514b\u65af\u548c\u51ef\u79d1\u65af\u7fa4\u5c9b",
+                "official": "\u7279\u514b\u65af\u548c\u51ef\u79d1\u65af\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "796",
+        "wb_a2": "TC",
+        "wb_a3": "TCA",
+        "wikipedia": "-99.00",
+        "woe_id": "23424962.00",
+        "woe_id_eh": "23424962.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "USD"
     ],
@@ -106,7 +290,187 @@
     "gu_a3": "TCA",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "T.C. Is.",
+        "abbrev_len": "8.00",
+        "adm0_a3": "TCA",
+        "adm0_a3_is": "TCA",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "TCA",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Turks and Caicos Islands",
+        "alt_spellings": [
+            "TC"
+        ],
+        "borders": [],
+        "brk_a3": "TCA",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Turks and Caicos Is.",
+        "capital": [
+            "Cockburn Town"
+        ],
+        "cca2": "TC",
+        "cca3": "TCA",
+        "ccn3": "796",
+        "cioc": null,
+        "currency": [
+            "USD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Turks and Caicos Islander",
+        "dialling": {
+            "calling_code": [
+                "1649"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "TK",
+        "flag": {
+            "emoji": "\ud83c\uddf9\ud83c\udde8"
+        },
+        "formal_en": "Turks and Caicos Islands",
+        "formal_fr": "",
+        "gdp_md_est": "632.00",
+        "gdp_year": "2007.00",
+        "geo": {
+            "area": 948,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                21.75,
+                -71.58333333
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Turks and Caicos Islands",
+        "gu_a3": "TCA",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "TC",
+        "iso_a3": "TCA",
+        "iso_a3_eh": "TCA",
+        "iso_n3": "796",
+        "labelrank": "6.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "2001.00",
+        "level": "2.00",
+        "long_len": "24.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Turks and Caicos Islands",
+            "native": {
+                "eng": {
+                    "common": "Turks and Caicos Islands",
+                    "official": "Turks and Caicos Islands"
+                }
+            },
+            "official": "Turks and Caicos Islands"
+        },
+        "name_alt": "",
+        "name_ciawf": "Turks and Caicos Islands",
+        "name_len": "20.00",
+        "name_long": "Turks and Caicos Islands",
+        "name_nev": "Turks and Caicos Is.",
+        "name_sort": "Turks and Caicos Islands",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "52570.00",
+        "pop_rank": "8.00",
+        "pop_year": "2017.00",
+        "postal": "TC",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "TCA",
+        "su_dif": "0.00",
+        "subunit": "Turks and Caicos Islands",
+        "tiny": "-99.00",
+        "tld": [
+            ".tc"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Turks-und Caicosinseln",
+                "official": "Turks und Caicos Inseln"
+            },
+            "est": {
+                "common": "Turks ja Caicos",
+                "official": "Turksi ja Caicose saared"
+            },
+            "fin": {
+                "common": "Turks-ja Caicossaaret",
+                "official": "Turks-ja Caicossaaret"
+            },
+            "fra": {
+                "common": "\u00celes Turques-et-Ca\u00efques",
+                "official": "\u00celes Turques et Ca\u00efques"
+            },
+            "hrv": {
+                "common": "Otoci Turks i Caicos",
+                "official": "Otoci Turks i Caicos"
+            },
+            "ita": {
+                "common": "Isole Turks e Caicos",
+                "official": "Turks e Caicos"
+            },
+            "jpn": {
+                "common": "\u30bf\u30fc\u30af\u30b9\u30fb\u30ab\u30a4\u30b3\u30b9\u8af8\u5cf6",
+                "official": "\u30bf\u30fc\u30af\u30b9\u00b7\u30ab\u30a4\u30b3\u30b9\u8af8\u5cf6"
+            },
+            "nld": {
+                "common": "Turks-en Caicoseilanden",
+                "official": "Turks-en Caicoseilanden"
+            },
+            "por": {
+                "common": "Ilhas Turks e Caicos",
+                "official": "Ilhas Turks e Caicos"
+            },
+            "rus": {
+                "common": "\u0422\u0435\u0440\u043a\u0441 \u0438 \u041a\u0430\u0439\u043a\u043e\u0441",
+                "official": "\u0422\u0435\u0440\u043a\u0441 \u0438 \u041a\u0430\u0439\u043a\u043e\u0441 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "common": "Turks a Caicos",
+                "official": "Ostrovy Turks a Caicos"
+            },
+            "spa": {
+                "common": "Islas Turks y Caicos",
+                "official": "Islas Turcas y Caicos"
+            },
+            "zho": {
+                "common": "\u7279\u514b\u65af\u548c\u51ef\u79d1\u65af\u7fa4\u5c9b",
+                "official": "\u7279\u514b\u65af\u548c\u51ef\u79d1\u65af\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "796",
+        "wb_a2": "TC",
+        "wb_a3": "TCA",
+        "wikipedia": "-99.00",
+        "woe_id": "23424962.00",
+        "woe_id_eh": "23424962.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "TC",
     "iso_3166_1_alpha3": "TCA",
     "iso_3166_1_numeric": "796",
@@ -121,10 +485,10 @@
     "lastcensus": "2001.00",
     "level": "2.00",
     "long_len": "24.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "6.00",
     "mapcolor8": "6.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "3.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -154,6 +518,7 @@
     "scalerank": "5",
     "sov_a3": "GB1",
     "sovereignt": "United Kingdom",
+    "status": "officially-assigned",
     "su_a3": "TCA",
     "su_dif": "0.00",
     "subunit": "Turks and Caicos Islands",

@@ -1,9 +1,4 @@
 {
-    "abbreviation": "PST",
-    "dst": "0",
-    "gmt_offset": "-28800",
-    "time_start": "-536457600",
-    "zone_id": "105",
     "1": {
         "abbreviation": "PDDT",
         "dst": "1",
@@ -7304,5 +7299,10 @@
         "gmt_offset": "-25200",
         "time_start": "16719984000",
         "zone_id": "105"
-    }
+    },
+    "abbreviation": "PST",
+    "dst": "0",
+    "gmt_offset": "-28800",
+    "time_start": "-536457600",
+    "zone_id": "105"
 }

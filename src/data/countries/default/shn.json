@@ -8,23 +8,481 @@
     "adm0_a3_wb": "-99.00",
     "adm0_dif": "1.00",
     "admin": "Saint Helena",
-    "alt_spellings": null,
+    "alt_spellings": [
+        "Saint Helena",
+        "St. Helena, Ascension and Tristan da Cunha"
+    ],
+    "alt_spellings_rinvex": {
+        "alt_spellings": null,
+        "capital": null,
+        "currency": {
+            "SHP": {
+                "iso_4217_code": "SHP",
+                "iso_4217_minor_unit": 2,
+                "iso_4217_name": "Saint Helena pound",
+                "iso_4217_numeric": 654
+            }
+        },
+        "demonym": null,
+        "dialling": {
+            "calling_code": null,
+            "international_prefix": "00",
+            "national_destination_code_lengths": [
+                2
+            ],
+            "national_number_lengths": [
+                4
+            ],
+            "national_prefix": null
+        },
+        "extra": {
+            "address_format": null,
+            "ar5": "MAF",
+            "cowc": 0,
+            "cown": 0,
+            "ds": 0,
+            "edgar": 0,
+            "emoji": "\ud83c\uddf8\ud83c\udded",
+            "eu_member": null,
+            "fao": 0,
+            "fifa": "SHN",
+            "fips": "SH",
+            "gaul": 207,
+            "geonameid": 3370751,
+            "imf": 856,
+            "ioc": "HEL",
+            "itu": "SHN",
+            "marc": "xj",
+            "vat_rates": null,
+            "wmo": "HE"
+        },
+        "flag": {
+            "emoji": "\ud83c\uddf8\ud83c\udded"
+        },
+        "geo": {
+            "area": null,
+            "borders": null,
+            "continent": {
+                "AF": "Africa"
+            },
+            "independent": "Territory of GB",
+            "landlocked": null,
+            "latitude": "15 57 S",
+            "latitude_desc": "-15.957334518432617",
+            "longitude": "5 42 W",
+            "longitude_desc": "-5.716914176940918",
+            "max_latitude": "-7.9",
+            "max_longitude": "-5.633333",
+            "min_latitude": "-40.4",
+            "min_longitude": "-14.416667",
+            "postal_code": true,
+            "region": "Africa",
+            "region_code": "002",
+            "subregion": "Western Africa",
+            "subregion_code": "011",
+            "world_region": "APAC"
+        },
+        "iso_3166_1_alpha2": "SH",
+        "iso_3166_1_alpha3": "SHN",
+        "iso_3166_1_numeric": "654",
+        "languages": {
+            "eng": "English"
+        },
+        "name": {
+            "common": "Saint Helena",
+            "native": {
+                "eng": {
+                    "common": "Saint Helena",
+                    "official": "Saint Helena"
+                }
+            },
+            "official": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "tld": null,
+        "translations": []
+    },
+    "borders": [],
     "brk_a3": "SHN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Saint Helena",
-    "capital": null,
+    "capital": [
+        "Jamestown"
+    ],
+    "capital_rinvex": {
+        "alt_spellings": null,
+        "capital": null,
+        "currency": {
+            "SHP": {
+                "iso_4217_code": "SHP",
+                "iso_4217_minor_unit": 2,
+                "iso_4217_name": "Saint Helena pound",
+                "iso_4217_numeric": 654
+            }
+        },
+        "demonym": null,
+        "dialling": {
+            "calling_code": null,
+            "international_prefix": "00",
+            "national_destination_code_lengths": [
+                2
+            ],
+            "national_number_lengths": [
+                4
+            ],
+            "national_prefix": null
+        },
+        "extra": {
+            "address_format": null,
+            "ar5": "MAF",
+            "cowc": 0,
+            "cown": 0,
+            "ds": 0,
+            "edgar": 0,
+            "emoji": "\ud83c\uddf8\ud83c\udded",
+            "eu_member": null,
+            "fao": 0,
+            "fifa": "SHN",
+            "fips": "SH",
+            "gaul": 207,
+            "geonameid": 3370751,
+            "imf": 856,
+            "ioc": "HEL",
+            "itu": "SHN",
+            "marc": "xj",
+            "vat_rates": null,
+            "wmo": "HE"
+        },
+        "flag": {
+            "emoji": "\ud83c\uddf8\ud83c\udded"
+        },
+        "geo": {
+            "area": null,
+            "borders": null,
+            "continent": {
+                "AF": "Africa"
+            },
+            "independent": "Territory of GB",
+            "landlocked": null,
+            "latitude": "15 57 S",
+            "latitude_desc": "-15.957334518432617",
+            "longitude": "5 42 W",
+            "longitude_desc": "-5.716914176940918",
+            "max_latitude": "-7.9",
+            "max_longitude": "-5.633333",
+            "min_latitude": "-40.4",
+            "min_longitude": "-14.416667",
+            "postal_code": true,
+            "region": "Africa",
+            "region_code": "002",
+            "subregion": "Western Africa",
+            "subregion_code": "011",
+            "world_region": "APAC"
+        },
+        "iso_3166_1_alpha2": "SH",
+        "iso_3166_1_alpha3": "SHN",
+        "iso_3166_1_numeric": "654",
+        "languages": {
+            "eng": "English"
+        },
+        "name": {
+            "common": "Saint Helena",
+            "native": {
+                "eng": {
+                    "common": "Saint Helena",
+                    "official": "Saint Helena"
+                }
+            },
+            "official": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "tld": null,
+        "translations": []
+    },
     "cca2": "SH",
-    "cca3": "SH",
-    "ccn3": "SH",
-    "curencies": [],
+    "cca3": "SHN",
+    "ccn3": "654",
+    "cioc": {
+        "abbrev": "St.H.",
+        "abbrev_len": "5.00",
+        "adm0_a3": "SHN",
+        "adm0_a3_is": "SHN",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "SHN",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Saint Helena",
+        "alt_spellings": [
+            "Saint Helena",
+            "St. Helena, Ascension and Tristan da Cunha"
+        ],
+        "borders": [],
+        "brk_a3": "SHN",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Saint Helena",
+        "capital": [
+            "Jamestown"
+        ],
+        "cca2": "SH",
+        "cca3": "SHN",
+        "ccn3": "654",
+        "cioc": null,
+        "currency": [
+            "SHP",
+            "GBP"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Saint Helenian",
+        "dialling": {
+            "calling_code": [
+                "290",
+                "247"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "SH",
+        "flag": {
+            "emoji": "\ud83c\uddf8\ud83c\udded"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "31.10",
+        "gdp_year": "2010.00",
+        "geo": {
+            "area": 394,
+            "continent": "Seven seas (open ocean)",
+            "landlocked": null,
+            "latlng": [
+                -15.95,
+                -5.72
+            ],
+            "region": "Africa",
+            "region_un": "Africa",
+            "region_wb": "Sub-Saharan Africa",
+            "subregion": "Western Africa"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Saint Helena",
+        "gu_a3": "SHN",
+        "homepart": "-99.00",
+        "income_grp": "4. Lower middle income",
+        "independent": null,
+        "iso_a2": "SH",
+        "iso_a3": "SHN",
+        "iso_a3_eh": "SHN",
+        "iso_n3": "654",
+        "labelrank": "6.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "12.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Saint Helena, Ascension and Tristan da Cunha",
+            "native": {
+                "eng": {
+                    "common": "Saint Helena, Ascension and Tristan da Cunha",
+                    "official": "Saint Helena, Ascension and Tristan da Cunha"
+                }
+            },
+            "official": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "name_alt": "",
+        "name_ciawf": "Saint Helena, Ascension, and Tristan da Cunha",
+        "name_len": "12.00",
+        "name_long": "Saint Helena",
+        "name_nev": "Saint Helena",
+        "name_sort": "St. Helena",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "7828.00",
+        "pop_rank": "5.00",
+        "pop_year": "2017.00",
+        "postal": "SH",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "SHN",
+        "su_dif": "0.00",
+        "subunit": "Saint Helena",
+        "tiny": "-99.00",
+        "tld": [
+            ".sh",
+            ".ac"
+        ],
+        "translations": {
+            "deu": {
+                "common": "St. Helena, Ascension und Tristan da Cunha",
+                "official": "Sankt Helena, Ascension und Tristan da Cunha"
+            },
+            "est": {
+                "common": "Saint Helena, Ascension ja Tristan da Cunha",
+                "official": "Saint Helena, Ascension ja Tristan da Cunha"
+            },
+            "fin": {
+                "common": "Saint Helena, Ascension ja Tristan da Cunha",
+                "official": "Saint Helena, Ascension ja Tristan da Cunha"
+            },
+            "fra": {
+                "common": "Sainte-H\u00e9l\u00e8ne, Ascension et Tristan da Cunha",
+                "official": "Sainte-H\u00e9l\u00e8ne, Ascension et Tristan da Cunha"
+            },
+            "hrv": {
+                "common": "Sveta Helena",
+                "official": "Sveta Helena"
+            },
+            "ita": {
+                "common": "Sant'Elena, Ascensione e Tristan da Cunha",
+                "official": "Sant'Elena, Ascensione e Tristan da Cunha"
+            },
+            "jpn": {
+                "common": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
+                "official": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3"
+            },
+            "nld": {
+                "common": "Sint-Helena, Ascension en Tristan da Cunha",
+                "official": "Sint-Helena, Ascension en Tristan da Cunha"
+            },
+            "por": {
+                "common": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha",
+                "official": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b, \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0438\u044f \u0438 \u0422\u0440\u0438\u0441\u0442\u0430\u043d-\u0434\u0430-\u041a\u0443\u043d\u044c\u044f",
+                "official": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b, \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0438\u044f \u0438 \u0422\u0440\u0438\u0441\u0442\u0430\u043d-\u0434\u0430-\u041a\u0443\u043d\u044c\u044f"
+            },
+            "slk": {
+                "common": "Sv\u00e4t\u00e1 Helena (z\u00e1morsk\u00e9 \u00fazemie)",
+                "official": "Sv\u00e4t\u00e1 Helena (z\u00e1morsk\u00e9 \u00fazemie)"
+            },
+            "spa": {
+                "common": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a",
+                "official": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a"
+            },
+            "zho": {
+                "common": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a",
+                "official": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "654",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424944.00",
+        "woe_id_eh": "23424944.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "SHP"
     ],
     "data_sources": [
+        "mledoze",
         "natural"
     ],
-    "demonym": null,
+    "demonym": "Saint Helenian",
+    "demonym_rinvex": {
+        "alt_spellings": null,
+        "capital": null,
+        "currency": {
+            "SHP": {
+                "iso_4217_code": "SHP",
+                "iso_4217_minor_unit": 2,
+                "iso_4217_name": "Saint Helena pound",
+                "iso_4217_numeric": 654
+            }
+        },
+        "demonym": null,
+        "dialling": {
+            "calling_code": null,
+            "international_prefix": "00",
+            "national_destination_code_lengths": [
+                2
+            ],
+            "national_number_lengths": [
+                4
+            ],
+            "national_prefix": null
+        },
+        "extra": {
+            "address_format": null,
+            "ar5": "MAF",
+            "cowc": 0,
+            "cown": 0,
+            "ds": 0,
+            "edgar": 0,
+            "emoji": "\ud83c\uddf8\ud83c\udded",
+            "eu_member": null,
+            "fao": 0,
+            "fifa": "SHN",
+            "fips": "SH",
+            "gaul": 207,
+            "geonameid": 3370751,
+            "imf": 856,
+            "ioc": "HEL",
+            "itu": "SHN",
+            "marc": "xj",
+            "vat_rates": null,
+            "wmo": "HE"
+        },
+        "flag": {
+            "emoji": "\ud83c\uddf8\ud83c\udded"
+        },
+        "geo": {
+            "area": null,
+            "borders": null,
+            "continent": {
+                "AF": "Africa"
+            },
+            "independent": "Territory of GB",
+            "landlocked": null,
+            "latitude": "15 57 S",
+            "latitude_desc": "-15.957334518432617",
+            "longitude": "5 42 W",
+            "longitude_desc": "-5.716914176940918",
+            "max_latitude": "-7.9",
+            "max_longitude": "-5.633333",
+            "min_latitude": "-40.4",
+            "min_longitude": "-14.416667",
+            "postal_code": true,
+            "region": "Africa",
+            "region_code": "002",
+            "subregion": "Western Africa",
+            "subregion_code": "011",
+            "world_region": "APAC"
+        },
+        "iso_3166_1_alpha2": "SH",
+        "iso_3166_1_alpha3": "SHN",
+        "iso_3166_1_numeric": "654",
+        "languages": {
+            "eng": "English"
+        },
+        "name": {
+            "common": "Saint Helena",
+            "native": {
+                "eng": {
+                    "common": "Saint Helena",
+                    "official": "Saint Helena"
+                }
+            },
+            "official": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "tld": null,
+        "translations": []
+    },
     "dialling": {
         "calling_code": null,
         "international_prefix": "00",
@@ -77,6 +535,10 @@
         "landlocked": null,
         "latitude": "15 57 S",
         "latitude_desc": "-15.957334518432617",
+        "latlng": [
+            -15.95,
+            -5.72
+        ],
         "longitude": "5 42 W",
         "longitude_desc": "-5.716914176940918",
         "max_latitude": "-7.9",
@@ -97,6 +559,191 @@
     "gu_a3": "SHN",
     "homepart": "-99.00",
     "income_grp": "4. Lower middle income",
+    "independent": {
+        "abbrev": "St.H.",
+        "abbrev_len": "5.00",
+        "adm0_a3": "SHN",
+        "adm0_a3_is": "SHN",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "SHN",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Saint Helena",
+        "alt_spellings": [
+            "Saint Helena",
+            "St. Helena, Ascension and Tristan da Cunha"
+        ],
+        "borders": [],
+        "brk_a3": "SHN",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Saint Helena",
+        "capital": [
+            "Jamestown"
+        ],
+        "cca2": "SH",
+        "cca3": "SHN",
+        "ccn3": "654",
+        "cioc": null,
+        "currency": [
+            "SHP",
+            "GBP"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Saint Helenian",
+        "dialling": {
+            "calling_code": [
+                "290",
+                "247"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "SH",
+        "flag": {
+            "emoji": "\ud83c\uddf8\ud83c\udded"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "31.10",
+        "gdp_year": "2010.00",
+        "geo": {
+            "area": 394,
+            "continent": "Seven seas (open ocean)",
+            "landlocked": null,
+            "latlng": [
+                -15.95,
+                -5.72
+            ],
+            "region": "Africa",
+            "region_un": "Africa",
+            "region_wb": "Sub-Saharan Africa",
+            "subregion": "Western Africa"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Saint Helena",
+        "gu_a3": "SHN",
+        "homepart": "-99.00",
+        "income_grp": "4. Lower middle income",
+        "independent": null,
+        "iso_a2": "SH",
+        "iso_a3": "SHN",
+        "iso_a3_eh": "SHN",
+        "iso_n3": "654",
+        "labelrank": "6.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "12.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Saint Helena, Ascension and Tristan da Cunha",
+            "native": {
+                "eng": {
+                    "common": "Saint Helena, Ascension and Tristan da Cunha",
+                    "official": "Saint Helena, Ascension and Tristan da Cunha"
+                }
+            },
+            "official": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "name_alt": "",
+        "name_ciawf": "Saint Helena, Ascension, and Tristan da Cunha",
+        "name_len": "12.00",
+        "name_long": "Saint Helena",
+        "name_nev": "Saint Helena",
+        "name_sort": "St. Helena",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "7828.00",
+        "pop_rank": "5.00",
+        "pop_year": "2017.00",
+        "postal": "SH",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "SHN",
+        "su_dif": "0.00",
+        "subunit": "Saint Helena",
+        "tiny": "-99.00",
+        "tld": [
+            ".sh",
+            ".ac"
+        ],
+        "translations": {
+            "deu": {
+                "common": "St. Helena, Ascension und Tristan da Cunha",
+                "official": "Sankt Helena, Ascension und Tristan da Cunha"
+            },
+            "est": {
+                "common": "Saint Helena, Ascension ja Tristan da Cunha",
+                "official": "Saint Helena, Ascension ja Tristan da Cunha"
+            },
+            "fin": {
+                "common": "Saint Helena, Ascension ja Tristan da Cunha",
+                "official": "Saint Helena, Ascension ja Tristan da Cunha"
+            },
+            "fra": {
+                "common": "Sainte-H\u00e9l\u00e8ne, Ascension et Tristan da Cunha",
+                "official": "Sainte-H\u00e9l\u00e8ne, Ascension et Tristan da Cunha"
+            },
+            "hrv": {
+                "common": "Sveta Helena",
+                "official": "Sveta Helena"
+            },
+            "ita": {
+                "common": "Sant'Elena, Ascensione e Tristan da Cunha",
+                "official": "Sant'Elena, Ascensione e Tristan da Cunha"
+            },
+            "jpn": {
+                "common": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
+                "official": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3"
+            },
+            "nld": {
+                "common": "Sint-Helena, Ascension en Tristan da Cunha",
+                "official": "Sint-Helena, Ascension en Tristan da Cunha"
+            },
+            "por": {
+                "common": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha",
+                "official": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b, \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0438\u044f \u0438 \u0422\u0440\u0438\u0441\u0442\u0430\u043d-\u0434\u0430-\u041a\u0443\u043d\u044c\u044f",
+                "official": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b, \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0438\u044f \u0438 \u0422\u0440\u0438\u0441\u0442\u0430\u043d-\u0434\u0430-\u041a\u0443\u043d\u044c\u044f"
+            },
+            "slk": {
+                "common": "Sv\u00e4t\u00e1 Helena (z\u00e1morsk\u00e9 \u00fazemie)",
+                "official": "Sv\u00e4t\u00e1 Helena (z\u00e1morsk\u00e9 \u00fazemie)"
+            },
+            "spa": {
+                "common": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a",
+                "official": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a"
+            },
+            "zho": {
+                "common": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a",
+                "official": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "654",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424944.00",
+        "woe_id_eh": "23424944.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "SH",
     "iso_3166_1_alpha3": "SHN",
     "iso_3166_1_numeric": "654",
@@ -111,16 +758,22 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "12.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "6.00",
     "mapcolor8": "6.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "3.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
     "name": {
-        "common": "Saint Helena",
-        "official": ""
+        "common": "Saint Helena, Ascension and Tristan da Cunha",
+        "native": {
+            "eng": {
+                "common": "Saint Helena, Ascension and Tristan da Cunha",
+                "official": "Saint Helena, Ascension and Tristan da Cunha"
+            }
+        },
+        "official": "Saint Helena, Ascension and Tristan da Cunha"
     },
     "name_alt": "",
     "name_ciawf": "Saint Helena, Ascension, and Tristan da Cunha",
@@ -140,9 +793,6 @@
     "name_sort": "St. Helena",
     "note_adm0": "U.K.",
     "note_brk": "",
-    "notes": [
-        "Incomplete record due to missing mledoze country."
-    ],
     "pop_est": "7828.00",
     "pop_rank": "5.00",
     "pop_year": "2017.00",
@@ -151,12 +801,158 @@
     "scalerank": "5",
     "sov_a3": "GB1",
     "sovereignt": "United Kingdom",
+    "status": "officially-assigned",
     "su_a3": "SHN",
     "su_dif": "0.00",
     "subunit": "Saint Helena",
     "tiny": "-99.00",
-    "tld": null,
-    "translations": null,
+    "tld": [
+        ".sh",
+        ".ac"
+    ],
+    "tld_rinvex": {
+        "alt_spellings": null,
+        "capital": null,
+        "currency": {
+            "SHP": {
+                "iso_4217_code": "SHP",
+                "iso_4217_minor_unit": 2,
+                "iso_4217_name": "Saint Helena pound",
+                "iso_4217_numeric": 654
+            }
+        },
+        "demonym": null,
+        "dialling": {
+            "calling_code": null,
+            "international_prefix": "00",
+            "national_destination_code_lengths": [
+                2
+            ],
+            "national_number_lengths": [
+                4
+            ],
+            "national_prefix": null
+        },
+        "extra": {
+            "address_format": null,
+            "ar5": "MAF",
+            "cowc": 0,
+            "cown": 0,
+            "ds": 0,
+            "edgar": 0,
+            "emoji": "\ud83c\uddf8\ud83c\udded",
+            "eu_member": null,
+            "fao": 0,
+            "fifa": "SHN",
+            "fips": "SH",
+            "gaul": 207,
+            "geonameid": 3370751,
+            "imf": 856,
+            "ioc": "HEL",
+            "itu": "SHN",
+            "marc": "xj",
+            "vat_rates": null,
+            "wmo": "HE"
+        },
+        "flag": {
+            "emoji": "\ud83c\uddf8\ud83c\udded"
+        },
+        "geo": {
+            "area": null,
+            "borders": null,
+            "continent": {
+                "AF": "Africa"
+            },
+            "independent": "Territory of GB",
+            "landlocked": null,
+            "latitude": "15 57 S",
+            "latitude_desc": "-15.957334518432617",
+            "longitude": "5 42 W",
+            "longitude_desc": "-5.716914176940918",
+            "max_latitude": "-7.9",
+            "max_longitude": "-5.633333",
+            "min_latitude": "-40.4",
+            "min_longitude": "-14.416667",
+            "postal_code": true,
+            "region": "Africa",
+            "region_code": "002",
+            "subregion": "Western Africa",
+            "subregion_code": "011",
+            "world_region": "APAC"
+        },
+        "iso_3166_1_alpha2": "SH",
+        "iso_3166_1_alpha3": "SHN",
+        "iso_3166_1_numeric": "654",
+        "languages": {
+            "eng": "English"
+        },
+        "name": {
+            "common": "Saint Helena",
+            "native": {
+                "eng": {
+                    "common": "Saint Helena",
+                    "official": "Saint Helena"
+                }
+            },
+            "official": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "tld": null,
+        "translations": []
+    },
+    "translations": {
+        "deu": {
+            "common": "St. Helena, Ascension und Tristan da Cunha",
+            "official": "Sankt Helena, Ascension und Tristan da Cunha"
+        },
+        "est": {
+            "common": "Saint Helena, Ascension ja Tristan da Cunha",
+            "official": "Saint Helena, Ascension ja Tristan da Cunha"
+        },
+        "fin": {
+            "common": "Saint Helena, Ascension ja Tristan da Cunha",
+            "official": "Saint Helena, Ascension ja Tristan da Cunha"
+        },
+        "fra": {
+            "common": "Sainte-H\u00e9l\u00e8ne, Ascension et Tristan da Cunha",
+            "official": "Sainte-H\u00e9l\u00e8ne, Ascension et Tristan da Cunha"
+        },
+        "hrv": {
+            "common": "Sveta Helena",
+            "official": "Sveta Helena"
+        },
+        "ita": {
+            "common": "Sant'Elena, Ascensione e Tristan da Cunha",
+            "official": "Sant'Elena, Ascensione e Tristan da Cunha"
+        },
+        "jpn": {
+            "common": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
+            "official": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3"
+        },
+        "nld": {
+            "common": "Sint-Helena, Ascension en Tristan da Cunha",
+            "official": "Sint-Helena, Ascension en Tristan da Cunha"
+        },
+        "por": {
+            "common": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha",
+            "official": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha"
+        },
+        "rus": {
+            "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b, \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0438\u044f \u0438 \u0422\u0440\u0438\u0441\u0442\u0430\u043d-\u0434\u0430-\u041a\u0443\u043d\u044c\u044f",
+            "official": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u0421\u0432\u044f\u0442\u043e\u0439 \u0415\u043b\u0435\u043d\u044b, \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0438\u044f \u0438 \u0422\u0440\u0438\u0441\u0442\u0430\u043d-\u0434\u0430-\u041a\u0443\u043d\u044c\u044f"
+        },
+        "slk": {
+            "common": "Sv\u00e4t\u00e1 Helena (z\u00e1morsk\u00e9 \u00fazemie)",
+            "official": "Sv\u00e4t\u00e1 Helena (z\u00e1morsk\u00e9 \u00fazemie)"
+        },
+        "spa": {
+            "common": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a",
+            "official": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a"
+        },
+        "zho": {
+            "common": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a",
+            "official": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a"
+        }
+    },
     "type": "Dependency",
     "un_a3": "654",
     "wb_a2": "-99",

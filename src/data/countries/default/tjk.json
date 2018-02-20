@@ -15,11 +15,20 @@
         "\u04b6\u0443\u043c\u04b3\u0443\u0440\u0438\u0438 \u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
         "\u00c7umhuriyi To\u00e7ikiston"
     ],
+    "borders": [
+        "AFG",
+        "CHN",
+        "KGZ",
+        "UZB"
+    ],
     "brk_a3": "TJK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Tajikistan",
-    "capital": "Dushanbe",
+    "capital": [
+        "Dushanbe"
+    ],
+    "capital_rinvex": "Dushanbe",
     "cca2": "TJ",
     "cca3": "TJK",
     "ccn3": "762",
@@ -131,10 +140,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "10.00",
-    "mapcolor13": "5.00",
     "mapcolor7": "3.00",
     "mapcolor8": "6.00",
     "mapcolor9": "2.00",
+    "mapcolor13": "5.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -168,6 +177,7 @@
     "scalerank": "0",
     "sov_a3": "TJK",
     "sovereignt": "Tajikistan",
+    "status": "officially-assigned",
     "su_a3": "TJK",
     "su_dif": "0.00",
     "subunit": "Tajikistan",

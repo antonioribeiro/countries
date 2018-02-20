@@ -14,11 +14,19 @@
         "United Mexican States",
         "Estados Unidos Mexicanos"
     ],
+    "borders": [
+        "BLZ",
+        "GTM",
+        "USA"
+    ],
     "brk_a3": "MEX",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mexico",
-    "capital": "Mexico City",
+    "capital": [
+        "Mexico City"
+    ],
+    "capital_rinvex": "Mexico City",
     "cca2": "MX",
     "cca3": "MEX",
     "ccn3": "484",
@@ -130,10 +138,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "6.00",
     "mapcolor8": "1.00",
     "mapcolor9": "7.00",
+    "mapcolor13": "3.00",
     "max_label": "6.70",
     "min_label": "2.00",
     "min_zoom": "0.00",
@@ -163,6 +171,7 @@
     "scalerank": "0",
     "sov_a3": "MEX",
     "sovereignt": "Mexico",
+    "status": "officially-assigned",
     "su_a3": "MEX",
     "su_dif": "0.00",
     "subregion_nev": "Central America",

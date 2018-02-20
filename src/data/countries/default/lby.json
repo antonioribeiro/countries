@@ -13,11 +13,22 @@
         "State of Libya",
         "Dawlat Libya"
     ],
+    "borders": [
+        "DZA",
+        "TCD",
+        "EGY",
+        "NER",
+        "SDN",
+        "TUN"
+    ],
     "brk_a3": "LBY",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Libya",
-    "capital": "Tripoli",
+    "capital": [
+        "Tripoli"
+    ],
+    "capital_rinvex": "Tripoli",
     "cca2": "LY",
     "cca3": "LBY",
     "ccn3": "434",
@@ -131,10 +142,10 @@
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "5.00",
-    "mapcolor13": "11.00",
     "mapcolor7": "1.00",
     "mapcolor8": "2.00",
     "mapcolor9": "2.00",
+    "mapcolor13": "11.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -164,6 +175,7 @@
     "scalerank": "0",
     "sov_a3": "LBY",
     "sovereignt": "Libya",
+    "status": "officially-assigned",
     "su_a3": "LBY",
     "su_dif": "0.00",
     "subunit": "Libya",

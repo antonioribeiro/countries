@@ -13,11 +13,17 @@
         "UK",
         "Great Britain"
     ],
+    "borders": [
+        "IRL"
+    ],
     "brk_a3": "GBR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "United Kingdom",
-    "capital": "London",
+    "capital": [
+        "London"
+    ],
+    "capital_rinvex": "London",
     "cca2": "GB",
     "cca3": "GBR",
     "ccn3": "826",
@@ -133,10 +139,10 @@
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "14.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "6.00",
     "mapcolor8": "6.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "3.00",
     "max_label": "6.70",
     "min_label": "1.70",
     "min_zoom": "0.00",
@@ -166,6 +172,7 @@
     "scalerank": "0",
     "sov_a3": "GB1",
     "sovereignt": "United Kingdom",
+    "status": "officially-assigned",
     "su_a3": "GBR",
     "su_dif": "0.00",
     "subunit": "United Kingdom",
