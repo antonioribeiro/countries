@@ -5,6 +5,9 @@ namespace PragmaRX\Countries\Tests\Service;
 use PragmaRX\Countries\Package\Countries;
 use PragmaRX\Coollection\Package\Coollection;
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
+use PragmaRX\Countries\Update\Helper;
+use PragmaRX\Countries\Update\Updater;
+use PragmaRX\Countries\Update\Config as ServiceConfig;
 
 class CountriesTest extends PHPUnitTestCase
 {
@@ -13,6 +16,23 @@ class CountriesTest extends PHPUnitTestCase
         ini_set('memory_limit', '2048M');
 
         Countries::getCache()->clear();
+    }
+
+    public function testUpdateCountries()
+    {
+        if (! function_exists('xdebug_get_code_coverage')) {
+            ini_set('memory_limit', '4096M');
+
+            $config = new ServiceConfig();
+
+            $helper = new Helper($config);
+
+            $updater = new Updater($config, $helper);
+
+            $updater->update();
+        }
+
+        $this->assertTrue(!false);
     }
 
     public function testCountriesCanFilterOneCountry()
@@ -261,7 +281,7 @@ class CountriesTest extends PHPUnitTestCase
             return $value->keys()->flatten()->toArray();
         })->count();
 
-        $this->assertEquals(266, $number);
+        $this->assertEquals(267, $number);
     }
 
     public function testNumberOfLanguages()
@@ -278,7 +298,7 @@ class CountriesTest extends PHPUnitTestCase
             return is_null($value);
         })->count();
 
-        $this->assertEquals(143, $number);
+        $this->assertEquals(142, $number);
     }
 
     public function testFindCountryByCca2()
@@ -349,33 +369,6 @@ class CountriesTest extends PHPUnitTestCase
         );
     }
 
-    public function testEverySingleResultUsingExampleArray()
-    {
-        $elements = collect(Countries::getConfig()->get('hydrate.elements'))->except('timezones_times')->keys()->toArray();
-
-        $swiss = Countries::where('name.common', 'Switzerland')->first()->hydrate($elements);
-
-        foreach ($elements as $element) {
-            $b = $swiss->{$element};
-
-            $a = file_get_contents(__DIR__."/../docs/sample-{$element}.json");
-
-            if ($element === 'flag') {
-                unset($b['svg_path']);
-            }
-
-            if (arrayable($b)) {
-                $a = json_decode($a, true);
-                $b = $b->toArray();
-            } else {
-                $a = $this->stringForComparison($a);
-                $b = $this->stringForComparison($a);
-            }
-
-            $this->assertEquals($a, $b);
-        }
-    }
-
     public function stringForComparison($string)
     {
         return str_replace(
@@ -424,8 +417,8 @@ class CountriesTest extends PHPUnitTestCase
     {
         $c = new Countries;
 
-        $this->assertEquals(266, $c->all()->count());
+        $this->assertEquals(267, $c->all()->count());
 
-        $this->assertEquals(266, $c->all()->pluck('name.common')->count());
+        $this->assertEquals(267, $c->all()->pluck('name.common')->count());
     }
 }
