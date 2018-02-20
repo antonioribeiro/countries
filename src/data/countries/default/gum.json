@@ -12,11 +12,15 @@
         "GU",
         "Gu\u00e5h\u00e5n"
     ],
+    "borders": [],
     "brk_a3": "GUM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Guam",
-    "capital": "Hag\u00e5t\u00f1a",
+    "capital": [
+        "Hag\u00e5t\u00f1a"
+    ],
+    "capital_rinvex": "Hag\u00e5t\u00f1a",
     "cca2": "GU",
     "cca3": "GUM",
     "ccn3": "316",
@@ -107,7 +111,198 @@
     "gu_a3": "GUM",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "Guam",
+        "abbrev_len": "4.00",
+        "adm0_a3": "GUM",
+        "adm0_a3_is": "GUM",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "GUM",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Guam",
+        "alt_spellings": [
+            "GU",
+            "Gu\u00e5h\u00e5n"
+        ],
+        "borders": [],
+        "brk_a3": "GUM",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Guam",
+        "capital": [
+            "Hag\u00e5t\u00f1a"
+        ],
+        "cca2": "GU",
+        "cca3": "GUM",
+        "ccn3": "316",
+        "cioc": "GUM",
+        "currency": [
+            "USD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Guamanian",
+        "dialling": {
+            "calling_code": [
+                "1671"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "GQ",
+        "flag": {
+            "emoji": "\ud83c\uddec\ud83c\uddfa"
+        },
+        "formal_en": "Territory of Guam",
+        "formal_fr": "",
+        "gdp_md_est": "4882.00",
+        "gdp_year": "2013.00",
+        "geo": {
+            "area": 549,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                13.46666666,
+                144.78333333
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Micronesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Guam",
+        "gu_a3": "GUM",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "GU",
+        "iso_a3": "GUM",
+        "iso_a3_eh": "GUM",
+        "iso_n3": "316",
+        "labelrank": "6.00",
+        "languages": {
+            "cha": "Chamorro",
+            "eng": "English",
+            "spa": "Spanish"
+        },
+        "lastcensus": "2010.00",
+        "level": "2.00",
+        "long_len": "4.00",
+        "mapcolor7": "4.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "1.00",
+        "mapcolor13": "1.00",
+        "max_label": "10.00",
+        "min_label": "3.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Guam",
+            "native": {
+                "cha": {
+                    "common": "Gu\u00e5h\u00e5n",
+                    "official": "Gu\u00e5h\u00e5n"
+                },
+                "eng": {
+                    "common": "Guam",
+                    "official": "Guam"
+                },
+                "spa": {
+                    "common": "Guam",
+                    "official": "Guam"
+                }
+            },
+            "official": "Guam"
+        },
+        "name_alt": "",
+        "name_ciawf": "Guam",
+        "name_len": "4.00",
+        "name_long": "Guam",
+        "name_nev": "Guam",
+        "name_sort": "Guam",
+        "note_adm0": "U.S.A.",
+        "note_brk": "",
+        "pop_est": "167358.00",
+        "pop_rank": "9.00",
+        "pop_year": "2017.00",
+        "postal": "GU",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "US1",
+        "sovereignt": "United States of America",
+        "status": "officially-assigned",
+        "su_a3": "GUM",
+        "su_dif": "0.00",
+        "subunit": "Guam",
+        "tiny": "2.00",
+        "tld": [
+            ".gu"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "est": {
+                "common": "Guam",
+                "official": "Guami ala"
+            },
+            "fin": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "fra": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "hrv": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "ita": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "jpn": {
+                "common": "\u30b0\u30a2\u30e0",
+                "official": "\u30b0\u30a2\u30e0"
+            },
+            "nld": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "por": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "rus": {
+                "common": "\u0413\u0443\u0430\u043c",
+                "official": "\u0413\u0443\u0430\u043c"
+            },
+            "slk": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "spa": {
+                "common": "Guam",
+                "official": "Guam"
+            },
+            "zho": {
+                "common": "\u5173\u5c9b",
+                "official": "\u5173\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "316",
+        "wb_a2": "GU",
+        "wb_a3": "GUM",
+        "wikipedia": "-99.00",
+        "woe_id": "23424832.00",
+        "woe_id_eh": "23424832.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "GU",
     "iso_3166_1_alpha3": "GUM",
     "iso_3166_1_numeric": "316",
@@ -124,10 +319,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "4.00",
-    "mapcolor13": "1.00",
     "mapcolor7": "4.00",
     "mapcolor8": "5.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "1.00",
     "max_label": "10.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -165,6 +360,7 @@
     "scalerank": "5",
     "sov_a3": "US1",
     "sovereignt": "United States of America",
+    "status": "officially-assigned",
     "su_a3": "GUM",
     "su_dif": "0.00",
     "subunit": "Guam",

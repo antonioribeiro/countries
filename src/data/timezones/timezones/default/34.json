@@ -1,9 +1,4 @@
 {
-    "abbreviation": "AEST",
-    "dst": "0",
-    "gmt_offset": "36000",
-    "time_start": "-2214259200",
-    "zone_id": "34",
     "1": {
         "abbreviation": "AEDT",
         "dst": "1",
@@ -619,5 +614,10 @@
         "gmt_offset": "39600",
         "time_start": "1270310400",
         "zone_id": "34"
-    }
+    },
+    "abbreviation": "AEST",
+    "dst": "0",
+    "gmt_offset": "36000",
+    "time_start": "-2214259200",
+    "zone_id": "34"
 }

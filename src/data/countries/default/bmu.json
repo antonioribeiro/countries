@@ -14,11 +14,15 @@
         "The Bermudas",
         "Somers Isles"
     ],
+    "borders": [],
     "brk_a3": "BMU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Bermuda",
-    "capital": "Hamilton",
+    "capital": [
+        "Hamilton"
+    ],
+    "capital_rinvex": "Hamilton",
     "cca2": "BM",
     "cca3": "BMU",
     "ccn3": "060",
@@ -109,7 +113,194 @@
     "gu_a3": "BMU",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "Berm.",
+        "abbrev_len": "5.00",
+        "adm0_a3": "BMU",
+        "adm0_a3_is": "BMU",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "BMU",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Bermuda",
+        "alt_spellings": [
+            "BM",
+            "The Islands of Bermuda",
+            "The Bermudas",
+            "Somers Isles"
+        ],
+        "borders": [],
+        "brk_a3": "BMU",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Bermuda",
+        "capital": [
+            "Hamilton"
+        ],
+        "cca2": "BM",
+        "cca3": "BMU",
+        "ccn3": "060",
+        "cioc": "BER",
+        "currency": [
+            "BMD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Bermudian",
+        "dialling": {
+            "calling_code": [
+                "1441"
+            ]
+        },
+        "economy": "2. Developed region: nonG7",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "BD",
+        "flag": {
+            "emoji": "\ud83c\udde7\ud83c\uddf2"
+        },
+        "formal_en": "The Bermudas or Somers Isles",
+        "formal_fr": "",
+        "gdp_md_est": "5198.00",
+        "gdp_year": "2013.00",
+        "geo": {
+            "area": 54,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                32.33333333,
+                -64.75
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "North America",
+            "subregion": "Northern America"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Bermuda",
+        "gu_a3": "BMU",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "BM",
+        "iso_a3": "BMU",
+        "iso_a3_eh": "BMU",
+        "iso_n3": "060",
+        "labelrank": "6.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "2010.00",
+        "level": "2.00",
+        "long_len": "7.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Bermuda",
+            "native": {
+                "eng": {
+                    "common": "Bermuda",
+                    "official": "Bermuda"
+                }
+            },
+            "official": "Bermuda"
+        },
+        "name_alt": "",
+        "name_ciawf": "Bermuda",
+        "name_len": "7.00",
+        "name_long": "Bermuda",
+        "name_nev": "Bermuda",
+        "name_sort": "Bermuda",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "70864.00",
+        "pop_rank": "8.00",
+        "pop_year": "2017.00",
+        "postal": "BM",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "BMU",
+        "su_dif": "0.00",
+        "subunit": "Bermuda",
+        "tiny": "4.00",
+        "tld": [
+            ".bm"
+        ],
+        "translations": {
+            "cym": {
+                "common": "Bermiwda",
+                "official": "Bermiwda"
+            },
+            "deu": {
+                "common": "Bermuda",
+                "official": "Bermuda"
+            },
+            "est": {
+                "common": "Bermuda",
+                "official": "Bermuda"
+            },
+            "fin": {
+                "common": "Bermuda",
+                "official": "Bermuda"
+            },
+            "fra": {
+                "common": "Bermudes",
+                "official": "Bermudes"
+            },
+            "hrv": {
+                "common": "Bermudi",
+                "official": "Bermuda"
+            },
+            "ita": {
+                "common": "Bermuda",
+                "official": "Bermuda"
+            },
+            "jpn": {
+                "common": "\u30d0\u30df\u30e5\u30fc\u30c0",
+                "official": "\u30d0\u30df\u30e5\u30fc\u30c0"
+            },
+            "nld": {
+                "common": "Bermuda",
+                "official": "Bermuda"
+            },
+            "por": {
+                "common": "Bermudas",
+                "official": "Bermudas"
+            },
+            "rus": {
+                "common": "\u0411\u0435\u0440\u043c\u0443\u0434\u0441\u043a\u0438\u0435 \u041e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "official": "\u0411\u0435\u0440\u043c\u0443\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "common": "Bermudy",
+                "official": "Bermudy"
+            },
+            "spa": {
+                "common": "Bermudas",
+                "official": "Bermuda"
+            },
+            "zho": {
+                "common": "\u767e\u6155\u5927",
+                "official": "\u767e\u6155\u5927"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "060",
+        "wb_a2": "BM",
+        "wb_a3": "BMU",
+        "wikipedia": "-99.00",
+        "woe_id": "23424756.00",
+        "woe_id_eh": "23424756.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "BM",
     "iso_3166_1_alpha3": "BMU",
     "iso_3166_1_numeric": "060",
@@ -124,10 +315,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "6.00",
     "mapcolor8": "6.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "3.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -157,6 +348,7 @@
     "scalerank": "5",
     "sov_a3": "GB1",
     "sovereignt": "United Kingdom",
+    "status": "officially-assigned",
     "su_a3": "BMU",
     "su_dif": "0.00",
     "subunit": "Bermuda",

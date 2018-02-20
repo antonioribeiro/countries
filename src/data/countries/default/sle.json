@@ -12,11 +12,18 @@
         "SL",
         "Republic of Sierra Leone"
     ],
+    "borders": [
+        "GIN",
+        "LBR"
+    ],
     "brk_a3": "SLE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Sierra Leone",
-    "capital": "Freetown",
+    "capital": [
+        "Freetown"
+    ],
+    "capital_rinvex": "Freetown",
     "cca2": "SL",
     "cca3": "SLE",
     "ccn3": "694",
@@ -125,10 +132,10 @@
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "12.00",
-    "mapcolor13": "7.00",
     "mapcolor7": "1.00",
     "mapcolor8": "4.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "7.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -158,6 +165,7 @@
     "scalerank": "0",
     "sov_a3": "SLE",
     "sovereignt": "Sierra Leone",
+    "status": "officially-assigned",
     "su_a3": "SLE",
     "su_dif": "0.00",
     "subunit": "Sierra Leone",

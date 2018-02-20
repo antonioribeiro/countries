@@ -14,11 +14,18 @@
         "Republic of Moldova",
         "Republica Moldova"
     ],
+    "borders": [
+        "ROU",
+        "UKR"
+    ],
     "brk_a3": "MDA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Moldova",
-    "capital": "Chi\u0219in\u0103u",
+    "capital": [
+        "Chi\u0219in\u0103u"
+    ],
+    "capital_rinvex": "Chi\u0219in\u0103u",
     "cca2": "MD",
     "cca3": "MDA",
     "ccn3": "498",
@@ -127,10 +134,10 @@
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "12.00",
     "mapcolor7": "3.00",
     "mapcolor8": "5.00",
     "mapcolor9": "4.00",
+    "mapcolor13": "12.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -160,6 +167,7 @@
     "scalerank": "0",
     "sov_a3": "MDA",
     "sovereignt": "Moldova",
+    "status": "officially-assigned",
     "su_a3": "MDA",
     "su_dif": "0.00",
     "subunit": "Moldova",

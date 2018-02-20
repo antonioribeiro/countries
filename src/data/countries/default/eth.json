@@ -14,11 +14,22 @@
         "Federal Democratic Republic of Ethiopia",
         "\u12e8\u12a2\u1275\u12ee\u1335\u12eb \u134c\u12f4\u122b\u120b\u12ca \u12f2\u121e\u12ad\u122b\u1232\u12eb\u12ca \u122a\u1350\u1265\u120a\u12ad"
     ],
+    "borders": [
+        "DJI",
+        "ERI",
+        "KEN",
+        "SOM",
+        "SSD",
+        "SDN"
+    ],
     "brk_a3": "ETH",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Ethiopia",
-    "capital": "Addis Ababa",
+    "capital": [
+        "Addis Ababa"
+    ],
+    "capital_rinvex": "Addis Ababa",
     "cca2": "ET",
     "cca3": "ETH",
     "ccn3": "231",
@@ -131,10 +142,10 @@
     "lastcensus": "2007.00",
     "level": "2.00",
     "long_len": "8.00",
-    "mapcolor13": "13.00",
     "mapcolor7": "4.00",
     "mapcolor8": "4.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "13.00",
     "max_label": "7.00",
     "min_label": "2.00",
     "min_zoom": "0.00",
@@ -164,6 +175,7 @@
     "scalerank": "0",
     "sov_a3": "ETH",
     "sovereignt": "Ethiopia",
+    "status": "officially-assigned",
     "su_a3": "ETH",
     "su_dif": "0.00",
     "subunit": "Ethiopia",

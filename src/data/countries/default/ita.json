@@ -13,11 +13,22 @@
         "Italian Republic",
         "Repubblica italiana"
     ],
+    "borders": [
+        "AUT",
+        "FRA",
+        "SMR",
+        "SVN",
+        "CHE",
+        "VAT"
+    ],
     "brk_a3": "ITA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Italy",
-    "capital": "Rome",
+    "capital": [
+        "Rome"
+    ],
+    "capital_rinvex": "Rome",
     "cca2": "IT",
     "cca3": "ITA",
     "ccn3": "380",
@@ -140,10 +151,10 @@
     "lastcensus": "2012.00",
     "level": "2.00",
     "long_len": "5.00",
-    "mapcolor13": "7.00",
     "mapcolor7": "6.00",
     "mapcolor8": "7.00",
     "mapcolor9": "8.00",
+    "mapcolor13": "7.00",
     "max_label": "7.00",
     "min_label": "2.00",
     "min_zoom": "0.00",
@@ -191,6 +202,7 @@
     "scalerank": "0",
     "sov_a3": "ITA",
     "sovereignt": "Italy",
+    "status": "officially-assigned",
     "su_a3": "ITA",
     "su_dif": "0.00",
     "subunit": "Italy",

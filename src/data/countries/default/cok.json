@@ -12,11 +12,15 @@
         "CK",
         "K\u016bki '\u0100irani"
     ],
+    "borders": [],
     "brk_a3": "COK",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Cook Is.",
-    "capital": "Avarua",
+    "capital": [
+        "Avarua"
+    ],
+    "capital_rinvex": "Avarua",
     "cca2": "CK",
     "cca3": "COK",
     "ccn3": "184",
@@ -107,7 +111,198 @@
     "gu_a3": "COK",
     "homepart": "-99.00",
     "income_grp": "3. Upper middle income",
-    "independent": null,
+    "independent": {
+        "abbrev": "Cook Is.",
+        "abbrev_len": "8.00",
+        "adm0_a3": "COK",
+        "adm0_a3_is": "COK",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "COK",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Cook Islands",
+        "alt_spellings": [
+            "CK",
+            "K\u016bki '\u0100irani"
+        ],
+        "borders": [],
+        "brk_a3": "COK",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Cook Is.",
+        "capital": [
+            "Avarua"
+        ],
+        "cca2": "CK",
+        "cca3": "COK",
+        "ccn3": "184",
+        "cioc": "COK",
+        "currency": [
+            "NZD",
+            "CKD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Cook Islander",
+        "dialling": {
+            "calling_code": [
+                "682"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "CW",
+        "flag": {
+            "emoji": "\ud83c\udde8\ud83c\uddf0"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "244.10",
+        "gdp_year": "2010.00",
+        "geo": {
+            "area": 236,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -21.23333333,
+                -159.76666666
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Polynesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Cook Islands",
+        "gu_a3": "COK",
+        "homepart": "-99.00",
+        "income_grp": "3. Upper middle income",
+        "independent": null,
+        "iso_a2": "CK",
+        "iso_a3": "COK",
+        "iso_a3_eh": "COK",
+        "iso_n3": "184",
+        "labelrank": "4.00",
+        "languages": {
+            "eng": "English",
+            "rar": "Cook Islands M\u0101ori"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "12.00",
+        "mapcolor7": "3.00",
+        "mapcolor8": "3.00",
+        "mapcolor9": "4.00",
+        "mapcolor13": "4.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Cook Islands",
+            "native": {
+                "eng": {
+                    "common": "Cook Islands",
+                    "official": "Cook Islands"
+                },
+                "rar": {
+                    "common": "K\u016bki '\u0100irani",
+                    "official": "K\u016bki '\u0100irani"
+                }
+            },
+            "official": "Cook Islands"
+        },
+        "name_alt": "",
+        "name_ciawf": "Cook Islands",
+        "name_len": "8.00",
+        "name_long": "Cook Islands",
+        "name_nev": "Cook Is.",
+        "name_sort": "Cook Islands",
+        "note_adm0": "Assoc. with N.Z.",
+        "note_brk": "",
+        "pop_est": "9290.00",
+        "pop_rank": "5.00",
+        "pop_year": "2017.00",
+        "postal": "CK",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "NZ1",
+        "sovereignt": "New Zealand",
+        "status": "officially-assigned",
+        "su_a3": "COK",
+        "su_dif": "0.00",
+        "subunit": "Cook Islands",
+        "tiny": "3.00",
+        "tld": [
+            ".ck"
+        ],
+        "translations": {
+            "cym": {
+                "common": "Ynysoedd Cook",
+                "official": "Ynysoedd Cook"
+            },
+            "deu": {
+                "common": "Cookinseln",
+                "official": "Cook-Inseln"
+            },
+            "est": {
+                "common": "Cooki saared",
+                "official": "Cooki saared"
+            },
+            "fin": {
+                "common": "Cookinsaaret",
+                "official": "Cookinsaaret"
+            },
+            "fra": {
+                "common": "\u00celes Cook",
+                "official": "\u00celes Cook"
+            },
+            "hrv": {
+                "common": "Cookovo Oto\u010dje",
+                "official": "Cook Islands"
+            },
+            "ita": {
+                "common": "Isole Cook",
+                "official": "Isole Cook"
+            },
+            "jpn": {
+                "common": "\u30af\u30c3\u30af\u8af8\u5cf6",
+                "official": "\u30af\u30c3\u30af\u8af8\u5cf6"
+            },
+            "nld": {
+                "common": "Cookeilanden",
+                "official": "Cook eilanden"
+            },
+            "por": {
+                "common": "Ilhas Cook",
+                "official": "Ilhas Cook"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u041a\u0443\u043a\u0430",
+                "official": "\u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041a\u0443\u043a\u0430"
+            },
+            "slk": {
+                "common": "Cookove ostrovy",
+                "official": "Cookove ostrovy"
+            },
+            "spa": {
+                "common": "Islas Cook",
+                "official": "Islas Cook"
+            },
+            "zho": {
+                "common": "\u5e93\u514b\u7fa4\u5c9b",
+                "official": "\u5e93\u514b\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "184",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424795.00",
+        "woe_id_eh": "23424795.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "CK",
     "iso_3166_1_alpha3": "COK",
     "iso_3166_1_numeric": "184",
@@ -123,10 +318,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "12.00",
-    "mapcolor13": "4.00",
     "mapcolor7": "3.00",
     "mapcolor8": "3.00",
     "mapcolor9": "4.00",
+    "mapcolor13": "4.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -160,6 +355,7 @@
     "scalerank": "5",
     "sov_a3": "NZ1",
     "sovereignt": "New Zealand",
+    "status": "officially-assigned",
     "su_a3": "COK",
     "su_dif": "0.00",
     "subunit": "Cook Islands",

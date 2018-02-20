@@ -15,11 +15,19 @@
         "Jamhuuriyadda Federaalka Soomaaliya",
         "Jumh\u016briyyat a\u1e63-\u1e62\u016bm\u0101l al-Fider\u0101liyya"
     ],
+    "borders": [
+        "DJI",
+        "ETH",
+        "KEN"
+    ],
     "brk_a3": "SOM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Somalia",
-    "capital": "Mogadishu",
+    "capital": [
+        "Mogadishu"
+    ],
+    "capital_rinvex": "Mogadishu",
     "cca2": "SO",
     "cca3": "SOM",
     "ccn3": "706",
@@ -131,10 +139,10 @@
     "lastcensus": "1987.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "7.00",
     "mapcolor7": "2.00",
     "mapcolor8": "8.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "7.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -168,6 +176,7 @@
     "scalerank": "0",
     "sov_a3": "SOM",
     "sovereignt": "Somalia",
+    "status": "officially-assigned",
     "su_a3": "SOM",
     "su_dif": "0.00",
     "subunit": "Somalia",

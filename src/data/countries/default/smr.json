@@ -13,11 +13,17 @@
         "Republic of San Marino",
         "Repubblica di San Marino"
     ],
+    "borders": [
+        "ITA"
+    ],
     "brk_a3": "SMR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "San Marino",
-    "capital": "City of San Marino",
+    "capital": [
+        "City of San Marino"
+    ],
+    "capital_rinvex": "City of San Marino",
     "cca2": "SM",
     "cca3": "SMR",
     "ccn3": "674",
@@ -128,10 +134,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "10.00",
-    "mapcolor13": "6.00",
     "mapcolor7": "2.00",
     "mapcolor8": "3.00",
     "mapcolor9": "1.00",
+    "mapcolor13": "6.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -161,6 +167,7 @@
     "scalerank": "0",
     "sov_a3": "SMR",
     "sovereignt": "San Marino",
+    "status": "officially-assigned",
     "su_a3": "SMR",
     "su_dif": "0.00",
     "subunit": "San Marino",

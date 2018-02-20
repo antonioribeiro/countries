@@ -14,11 +14,20 @@
         "Na\u00edj\u00edr\u00ed\u00e0",
         "Federal Republic of Nigeria"
     ],
+    "borders": [
+        "BEN",
+        "CMR",
+        "TCD",
+        "NER"
+    ],
     "brk_a3": "NGA",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Nigeria",
-    "capital": "Abuja",
+    "capital": [
+        "Abuja"
+    ],
+    "capital_rinvex": "Abuja",
     "cca2": "NG",
     "cca3": "NGA",
     "ccn3": "566",
@@ -130,10 +139,10 @@
     "lastcensus": "2006.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "2.00",
     "mapcolor7": "3.00",
     "mapcolor8": "2.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "2.00",
     "max_label": "6.70",
     "min_label": "1.70",
     "min_zoom": "0.00",
@@ -163,6 +172,7 @@
     "scalerank": "0",
     "sov_a3": "NGA",
     "sovereignt": "Nigeria",
+    "status": "officially-assigned",
     "su_a3": "NGA",
     "su_dif": "0.00",
     "subunit": "Nigeria",

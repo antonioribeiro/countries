@@ -11,11 +11,18 @@
     "alt_spellings": [
         "MN"
     ],
+    "borders": [
+        "CHN",
+        "RUS"
+    ],
     "brk_a3": "MNG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Mongolia",
-    "capital": "Ulan Bator",
+    "capital": [
+        "Ulan Bator"
+    ],
+    "capital_rinvex": "Ulan Bator",
     "cca2": "MN",
     "cca3": "MNG",
     "ccn3": "496",
@@ -127,10 +134,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "8.00",
-    "mapcolor13": "6.00",
     "mapcolor7": "3.00",
     "mapcolor8": "5.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "6.00",
     "max_label": "7.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -160,6 +167,7 @@
     "scalerank": "0",
     "sov_a3": "MNG",
     "sovereignt": "Mongolia",
+    "status": "officially-assigned",
     "su_a3": "MNG",
     "su_dif": "0.00",
     "subunit": "Mongolia",

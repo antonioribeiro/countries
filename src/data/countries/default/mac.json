@@ -16,15 +16,209 @@
         "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u570b\u6fb3\u9580\u7279\u5225\u884c\u653f\u5340",
         "Regi\u00e3o Administrativa Especial de Macau da Rep\u00fablica Popular da China"
     ],
+    "borders": [
+        "CHN"
+    ],
     "brk_a3": "MAC",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Macao",
-    "capital": null,
+    "capital": [
+        ""
+    ],
+    "capital_rinvex": "",
     "cca2": "MO",
     "cca3": "MAC",
     "ccn3": "446",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "Mac.",
+        "abbrev_len": "4.00",
+        "adm0_a3": "MAC",
+        "adm0_a3_is": "MAC",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "MAC",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Macao S.A.R",
+        "alt_spellings": [
+            "MO",
+            "\u6fb3\u95e8",
+            "Macao",
+            "Macao Special Administrative Region of the People's Republic of China",
+            "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u570b\u6fb3\u9580\u7279\u5225\u884c\u653f\u5340",
+            "Regi\u00e3o Administrativa Especial de Macau da Rep\u00fablica Popular da China"
+        ],
+        "borders": [
+            "CHN"
+        ],
+        "brk_a3": "MAC",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Macao",
+        "capital": [
+            ""
+        ],
+        "cca2": "MO",
+        "cca3": "MAC",
+        "ccn3": "446",
+        "cioc": null,
+        "currency": [
+            "MOP"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Chinese",
+        "dialling": {
+            "calling_code": [
+                "853"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "MC",
+        "flag": {
+            "emoji": "\ud83c\uddf2\ud83c\uddf4"
+        },
+        "formal_en": "Macao Special Administrative Region, PRC",
+        "formal_fr": "",
+        "gdp_md_est": "63220.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 30,
+            "continent": "Asia",
+            "landlocked": null,
+            "latlng": [
+                22.16666666,
+                113.55
+            ],
+            "region": "Asia",
+            "region_un": "Asia",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Eastern Asia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Macao S.A.R",
+        "gu_a3": "MAC",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "MO",
+        "iso_a3": "MAC",
+        "iso_a3_eh": "MAC",
+        "iso_n3": "446",
+        "labelrank": "4.00",
+        "languages": {
+            "por": "Portuguese",
+            "zho": "Chinese"
+        },
+        "lastcensus": "2011.00",
+        "level": "2.00",
+        "long_len": "5.00",
+        "mapcolor7": "4.00",
+        "mapcolor8": "4.00",
+        "mapcolor9": "4.00",
+        "mapcolor13": "3.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Macau",
+            "native": {
+                "por": {
+                    "common": "Macau",
+                    "official": "Regi\u00e3o Administrativa Especial de Macau da Rep\u00fablica Popular da China"
+                },
+                "zho": {
+                    "common": "\u6fb3\u95e8",
+                    "official": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a"
+                }
+            },
+            "official": "Macao Special Administrative Region of the People's Republic of China"
+        },
+        "name_alt": "",
+        "name_ciawf": "Macau",
+        "name_len": "5.00",
+        "name_long": "Macao",
+        "name_nev": "Macao",
+        "name_sort": "Macao SAR, China",
+        "note_adm0": "China",
+        "note_brk": "",
+        "pop_est": "601969.00",
+        "pop_rank": "11.00",
+        "pop_year": "2017.00",
+        "postal": "MO",
+        "record_type": "country",
+        "scalerank": "0",
+        "sov_a3": "CH1",
+        "sovereignt": "China",
+        "status": "officially-assigned",
+        "su_a3": "MAC",
+        "su_dif": "0.00",
+        "subunit": "Macao S.A.R",
+        "tiny": "-99.00",
+        "tld": [
+            ".mo"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Macao",
+                "official": "Sonderverwaltungsregion Macau der Volksrepublik China"
+            },
+            "est": {
+                "common": "Macau",
+                "official": "Macau erihalduspiirkond"
+            },
+            "fin": {
+                "common": "Macao",
+                "official": "Macaon Kiinan kansantasavallan erityishallintoalue"
+            },
+            "fra": {
+                "common": "Macao",
+                "official": "R\u00e9gion administrative sp\u00e9ciale de Macao de la R\u00e9publique populaire de Chine"
+            },
+            "hrv": {
+                "common": "Makao",
+                "official": "Makao Posebnog upravnog podru\u010djaNarodne Republike Kine"
+            },
+            "ita": {
+                "common": "Macao",
+                "official": "Macao Regione amministrativa speciale della Repubblica Popolare Cinese"
+            },
+            "jpn": {
+                "common": "\u30de\u30ab\u30aa",
+                "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u30de\u30ab\u30aa\u7279\u5225\u884c\u653f\u533a"
+            },
+            "nld": {
+                "common": "Macao",
+                "official": "Speciale Administratieve Regio Macau van de Volksrepubliek China"
+            },
+            "por": {
+                "common": "Macau",
+                "official": "Macau Regi\u00e3o Administrativa Especial da Rep\u00fablica Popular da China"
+            },
+            "rus": {
+                "common": "\u041c\u0430\u043a\u0430\u043e",
+                "official": "\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d \u041c\u0430\u043a\u0430\u043e \u041a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0439 \u041d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u0438\u0442\u0430\u0439"
+            },
+            "slk": {
+                "common": "Macao",
+                "official": "Macao, \u0160peci\u00e0lna administrat\u00edvna oblas\u0166"
+            },
+            "spa": {
+                "common": "Macao",
+                "official": "Macao, Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China"
+            }
+        },
+        "type": "Country",
+        "un_a3": "446",
+        "wb_a2": "MO",
+        "wb_a3": "MAC",
+        "wikipedia": "-99.00",
+        "woe_id": "20070017.00",
+        "woe_id_eh": "20070017.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "MOP"
     ],
@@ -113,7 +307,195 @@
     "gu_a3": "MAC",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "Mac.",
+        "abbrev_len": "4.00",
+        "adm0_a3": "MAC",
+        "adm0_a3_is": "MAC",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "MAC",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Macao S.A.R",
+        "alt_spellings": [
+            "MO",
+            "\u6fb3\u95e8",
+            "Macao",
+            "Macao Special Administrative Region of the People's Republic of China",
+            "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u570b\u6fb3\u9580\u7279\u5225\u884c\u653f\u5340",
+            "Regi\u00e3o Administrativa Especial de Macau da Rep\u00fablica Popular da China"
+        ],
+        "borders": [
+            "CHN"
+        ],
+        "brk_a3": "MAC",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Macao",
+        "capital": [
+            ""
+        ],
+        "cca2": "MO",
+        "cca3": "MAC",
+        "ccn3": "446",
+        "cioc": null,
+        "currency": [
+            "MOP"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Chinese",
+        "dialling": {
+            "calling_code": [
+                "853"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "MC",
+        "flag": {
+            "emoji": "\ud83c\uddf2\ud83c\uddf4"
+        },
+        "formal_en": "Macao Special Administrative Region, PRC",
+        "formal_fr": "",
+        "gdp_md_est": "63220.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 30,
+            "continent": "Asia",
+            "landlocked": null,
+            "latlng": [
+                22.16666666,
+                113.55
+            ],
+            "region": "Asia",
+            "region_un": "Asia",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Eastern Asia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Macao S.A.R",
+        "gu_a3": "MAC",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "MO",
+        "iso_a3": "MAC",
+        "iso_a3_eh": "MAC",
+        "iso_n3": "446",
+        "labelrank": "4.00",
+        "languages": {
+            "por": "Portuguese",
+            "zho": "Chinese"
+        },
+        "lastcensus": "2011.00",
+        "level": "2.00",
+        "long_len": "5.00",
+        "mapcolor7": "4.00",
+        "mapcolor8": "4.00",
+        "mapcolor9": "4.00",
+        "mapcolor13": "3.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Macau",
+            "native": {
+                "por": {
+                    "common": "Macau",
+                    "official": "Regi\u00e3o Administrativa Especial de Macau da Rep\u00fablica Popular da China"
+                },
+                "zho": {
+                    "common": "\u6fb3\u95e8",
+                    "official": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a"
+                }
+            },
+            "official": "Macao Special Administrative Region of the People's Republic of China"
+        },
+        "name_alt": "",
+        "name_ciawf": "Macau",
+        "name_len": "5.00",
+        "name_long": "Macao",
+        "name_nev": "Macao",
+        "name_sort": "Macao SAR, China",
+        "note_adm0": "China",
+        "note_brk": "",
+        "pop_est": "601969.00",
+        "pop_rank": "11.00",
+        "pop_year": "2017.00",
+        "postal": "MO",
+        "record_type": "country",
+        "scalerank": "0",
+        "sov_a3": "CH1",
+        "sovereignt": "China",
+        "status": "officially-assigned",
+        "su_a3": "MAC",
+        "su_dif": "0.00",
+        "subunit": "Macao S.A.R",
+        "tiny": "-99.00",
+        "tld": [
+            ".mo"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Macao",
+                "official": "Sonderverwaltungsregion Macau der Volksrepublik China"
+            },
+            "est": {
+                "common": "Macau",
+                "official": "Macau erihalduspiirkond"
+            },
+            "fin": {
+                "common": "Macao",
+                "official": "Macaon Kiinan kansantasavallan erityishallintoalue"
+            },
+            "fra": {
+                "common": "Macao",
+                "official": "R\u00e9gion administrative sp\u00e9ciale de Macao de la R\u00e9publique populaire de Chine"
+            },
+            "hrv": {
+                "common": "Makao",
+                "official": "Makao Posebnog upravnog podru\u010djaNarodne Republike Kine"
+            },
+            "ita": {
+                "common": "Macao",
+                "official": "Macao Regione amministrativa speciale della Repubblica Popolare Cinese"
+            },
+            "jpn": {
+                "common": "\u30de\u30ab\u30aa",
+                "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u30de\u30ab\u30aa\u7279\u5225\u884c\u653f\u533a"
+            },
+            "nld": {
+                "common": "Macao",
+                "official": "Speciale Administratieve Regio Macau van de Volksrepubliek China"
+            },
+            "por": {
+                "common": "Macau",
+                "official": "Macau Regi\u00e3o Administrativa Especial da Rep\u00fablica Popular da China"
+            },
+            "rus": {
+                "common": "\u041c\u0430\u043a\u0430\u043e",
+                "official": "\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d \u041c\u0430\u043a\u0430\u043e \u041a\u0438\u0442\u0430\u0439\u0441\u043a\u043e\u0439 \u041d\u0430\u0440\u043e\u0434\u043d\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u0438\u0442\u0430\u0439"
+            },
+            "slk": {
+                "common": "Macao",
+                "official": "Macao, \u0160peci\u00e0lna administrat\u00edvna oblas\u0166"
+            },
+            "spa": {
+                "common": "Macao",
+                "official": "Macao, Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China"
+            }
+        },
+        "type": "Country",
+        "un_a3": "446",
+        "wb_a2": "MO",
+        "wb_a3": "MAC",
+        "wikipedia": "-99.00",
+        "woe_id": "20070017.00",
+        "woe_id_eh": "20070017.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "MO",
     "iso_3166_1_alpha3": "MAC",
     "iso_3166_1_numeric": "446",
@@ -129,10 +511,10 @@
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "5.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "4.00",
     "mapcolor8": "4.00",
     "mapcolor9": "4.00",
+    "mapcolor13": "3.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -180,6 +562,7 @@
     "scalerank": "0",
     "sov_a3": "CH1",
     "sovereignt": "China",
+    "status": "officially-assigned",
     "su_a3": "MAC",
     "su_dif": "0.00",
     "subunit": "Macao S.A.R",

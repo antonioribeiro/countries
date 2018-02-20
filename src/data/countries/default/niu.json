@@ -11,15 +11,204 @@
     "alt_spellings": [
         "NU"
     ],
+    "borders": [],
     "brk_a3": "NIU",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Niue",
-    "capital": "Alofi",
+    "capital": [
+        "Alofi"
+    ],
+    "capital_rinvex": "Alofi",
     "cca2": "NU",
     "cca3": "NIU",
     "ccn3": "570",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "Niue",
+        "abbrev_len": "4.00",
+        "adm0_a3": "NIU",
+        "adm0_a3_is": "NIU",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "NIU",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Niue",
+        "alt_spellings": [
+            "NU"
+        ],
+        "borders": [],
+        "brk_a3": "NIU",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Niue",
+        "capital": [
+            "Alofi"
+        ],
+        "cca2": "NU",
+        "cca3": "NIU",
+        "ccn3": "570",
+        "cioc": null,
+        "currency": [
+            "NZD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Niuean",
+        "dialling": {
+            "calling_code": [
+                "683"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "NE",
+        "flag": {
+            "emoji": "\ud83c\uddf3\ud83c\uddfa"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "10.00",
+        "gdp_year": "2003.00",
+        "geo": {
+            "area": 260,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -19.03333333,
+                -169.86666666
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Polynesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Niue",
+        "gu_a3": "NIU",
+        "homepart": "-99.00",
+        "income_grp": "3. Upper middle income",
+        "independent": null,
+        "iso_a2": "NU",
+        "iso_a3": "NIU",
+        "iso_a3_eh": "NIU",
+        "iso_n3": "570",
+        "labelrank": "4.00",
+        "languages": {
+            "eng": "English",
+            "niu": "Niuean"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "4.00",
+        "mapcolor7": "3.00",
+        "mapcolor8": "3.00",
+        "mapcolor9": "4.00",
+        "mapcolor13": "4.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Niue",
+            "native": {
+                "eng": {
+                    "common": "Niue",
+                    "official": "Niue"
+                },
+                "niu": {
+                    "common": "Niu\u0113",
+                    "official": "Niu\u0113"
+                }
+            },
+            "official": "Niue"
+        },
+        "name_alt": "",
+        "name_ciawf": "Niue",
+        "name_len": "4.00",
+        "name_long": "Niue",
+        "name_nev": "Niue",
+        "name_sort": "Niue",
+        "note_adm0": "Assoc. with N.Z.",
+        "note_brk": "",
+        "pop_est": "1626.00",
+        "pop_rank": "3.00",
+        "pop_year": "2015.00",
+        "postal": "NU",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "NZ1",
+        "sovereignt": "New Zealand",
+        "status": "officially-assigned",
+        "su_a3": "NIU",
+        "su_dif": "0.00",
+        "subunit": "Niue",
+        "tiny": "3.00",
+        "tld": [
+            ".nu"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "est": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "fin": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "fra": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "hrv": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "ita": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "jpn": {
+                "common": "\u30cb\u30a6\u30a8",
+                "official": "\u30cb\u30a6\u30a8"
+            },
+            "nld": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "por": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "rus": {
+                "common": "\u041d\u0438\u0443\u044d",
+                "official": "\u041d\u0438\u0443\u044d"
+            },
+            "slk": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "spa": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "zho": {
+                "common": "\u7ebd\u57c3",
+                "official": "\u7ebd\u57c3"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "570",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424904.00",
+        "woe_id_eh": "23424904.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "NZD"
     ],
@@ -106,7 +295,192 @@
     "gu_a3": "NIU",
     "homepart": "-99.00",
     "income_grp": "3. Upper middle income",
-    "independent": null,
+    "independent": {
+        "abbrev": "Niue",
+        "abbrev_len": "4.00",
+        "adm0_a3": "NIU",
+        "adm0_a3_is": "NIU",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "NIU",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Niue",
+        "alt_spellings": [
+            "NU"
+        ],
+        "borders": [],
+        "brk_a3": "NIU",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Niue",
+        "capital": [
+            "Alofi"
+        ],
+        "cca2": "NU",
+        "cca3": "NIU",
+        "ccn3": "570",
+        "cioc": null,
+        "currency": [
+            "NZD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Niuean",
+        "dialling": {
+            "calling_code": [
+                "683"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "NE",
+        "flag": {
+            "emoji": "\ud83c\uddf3\ud83c\uddfa"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "10.00",
+        "gdp_year": "2003.00",
+        "geo": {
+            "area": 260,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -19.03333333,
+                -169.86666666
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Polynesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Niue",
+        "gu_a3": "NIU",
+        "homepart": "-99.00",
+        "income_grp": "3. Upper middle income",
+        "independent": null,
+        "iso_a2": "NU",
+        "iso_a3": "NIU",
+        "iso_a3_eh": "NIU",
+        "iso_n3": "570",
+        "labelrank": "4.00",
+        "languages": {
+            "eng": "English",
+            "niu": "Niuean"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "4.00",
+        "mapcolor7": "3.00",
+        "mapcolor8": "3.00",
+        "mapcolor9": "4.00",
+        "mapcolor13": "4.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Niue",
+            "native": {
+                "eng": {
+                    "common": "Niue",
+                    "official": "Niue"
+                },
+                "niu": {
+                    "common": "Niu\u0113",
+                    "official": "Niu\u0113"
+                }
+            },
+            "official": "Niue"
+        },
+        "name_alt": "",
+        "name_ciawf": "Niue",
+        "name_len": "4.00",
+        "name_long": "Niue",
+        "name_nev": "Niue",
+        "name_sort": "Niue",
+        "note_adm0": "Assoc. with N.Z.",
+        "note_brk": "",
+        "pop_est": "1626.00",
+        "pop_rank": "3.00",
+        "pop_year": "2015.00",
+        "postal": "NU",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "NZ1",
+        "sovereignt": "New Zealand",
+        "status": "officially-assigned",
+        "su_a3": "NIU",
+        "su_dif": "0.00",
+        "subunit": "Niue",
+        "tiny": "3.00",
+        "tld": [
+            ".nu"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "est": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "fin": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "fra": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "hrv": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "ita": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "jpn": {
+                "common": "\u30cb\u30a6\u30a8",
+                "official": "\u30cb\u30a6\u30a8"
+            },
+            "nld": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "por": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "rus": {
+                "common": "\u041d\u0438\u0443\u044d",
+                "official": "\u041d\u0438\u0443\u044d"
+            },
+            "slk": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "spa": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "zho": {
+                "common": "\u7ebd\u57c3",
+                "official": "\u7ebd\u57c3"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "570",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424904.00",
+        "woe_id_eh": "23424904.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "NU",
     "iso_3166_1_alpha3": "NIU",
     "iso_3166_1_numeric": "570",
@@ -122,10 +496,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "4.00",
-    "mapcolor13": "4.00",
     "mapcolor7": "3.00",
     "mapcolor8": "3.00",
     "mapcolor9": "4.00",
+    "mapcolor13": "4.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -159,6 +533,7 @@
     "scalerank": "5",
     "sov_a3": "NZ1",
     "sovereignt": "New Zealand",
+    "status": "officially-assigned",
     "su_a3": "NIU",
     "su_dif": "0.00",
     "subunit": "Niue",

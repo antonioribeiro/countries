@@ -12,11 +12,22 @@
         "AF",
         "Af\u0121\u0101nist\u0101n"
     ],
+    "borders": [
+        "IRN",
+        "PAK",
+        "TKM",
+        "UZB",
+        "TJK",
+        "CHN"
+    ],
     "brk_a3": "AFG",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Afghanistan",
-    "capital": "Kabul",
+    "capital": [
+        "Kabul"
+    ],
+    "capital_rinvex": "Kabul",
     "cca2": "AF",
     "cca3": "AFG",
     "ccn3": "004",
@@ -132,10 +143,10 @@
     "lastcensus": "1979.00",
     "level": "2.00",
     "long_len": "11.00",
-    "mapcolor13": "7.00",
     "mapcolor7": "5.00",
     "mapcolor8": "6.00",
     "mapcolor9": "8.00",
+    "mapcolor13": "7.00",
     "max_label": "7.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -173,6 +184,7 @@
     "scalerank": "0",
     "sov_a3": "AFG",
     "sovereignt": "Afghanistan",
+    "status": "officially-assigned",
     "su_a3": "AFG",
     "su_dif": "0.00",
     "subunit": "Afghanistan",

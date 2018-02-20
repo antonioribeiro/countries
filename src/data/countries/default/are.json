@@ -13,11 +13,18 @@
         "UAE",
         "Emirates"
     ],
+    "borders": [
+        "OMN",
+        "SAU"
+    ],
     "brk_a3": "ARE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "United Arab Emirates",
-    "capital": "Abu Dhabi",
+    "capital": [
+        "Abu Dhabi"
+    ],
+    "capital_rinvex": "Abu Dhabi",
     "cca2": "AE",
     "cca3": "ARE",
     "ccn3": "784",
@@ -128,10 +135,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "20.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "2.00",
     "mapcolor8": "1.00",
     "mapcolor9": "3.00",
+    "mapcolor13": "3.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -161,6 +168,7 @@
     "scalerank": "0",
     "sov_a3": "ARE",
     "sovereignt": "United Arab Emirates",
+    "status": "officially-assigned",
     "su_a3": "ARE",
     "su_dif": "0.00",
     "subunit": "United Arab Emirates",

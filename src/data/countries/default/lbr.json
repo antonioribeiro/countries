@@ -12,11 +12,19 @@
         "LR",
         "Republic of Liberia"
     ],
+    "borders": [
+        "GIN",
+        "CIV",
+        "SLE"
+    ],
     "brk_a3": "LBR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Liberia",
-    "capital": "Monrovia",
+    "capital": [
+        "Monrovia"
+    ],
+    "capital_rinvex": "Monrovia",
     "cca2": "LR",
     "cca3": "LBR",
     "ccn3": "430",
@@ -128,10 +136,10 @@
     "lastcensus": "2008.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "9.00",
     "mapcolor7": "2.00",
     "mapcolor8": "3.00",
     "mapcolor9": "4.00",
+    "mapcolor13": "9.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -161,6 +169,7 @@
     "scalerank": "0",
     "sov_a3": "LBR",
     "sovereignt": "Liberia",
+    "status": "officially-assigned",
     "su_a3": "LBR",
     "su_dif": "0.00",
     "subunit": "Liberia",

@@ -18,11 +18,21 @@
         "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
         "Respublika Kazakhstan"
     ],
+    "borders": [
+        "CHN",
+        "KGZ",
+        "RUS",
+        "TKM",
+        "UZB"
+    ],
     "brk_a3": "KAZ",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Kazakhstan",
-    "capital": "Astana",
+    "capital": [
+        "Astana"
+    ],
+    "capital_rinvex": "Astana",
     "cca2": "KZ",
     "cca3": "KAZ",
     "ccn3": "398",
@@ -136,10 +146,10 @@
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "10.00",
-    "mapcolor13": "1.00",
     "mapcolor7": "6.00",
     "mapcolor8": "1.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "1.00",
     "max_label": "7.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -173,6 +183,7 @@
     "scalerank": "0",
     "sov_a3": "KAZ",
     "sovereignt": "Kazakhstan",
+    "status": "officially-assigned",
     "su_a3": "KAZ",
     "su_dif": "0.00",
     "subunit": "Kazakhstan",

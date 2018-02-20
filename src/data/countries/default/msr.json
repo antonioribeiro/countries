@@ -11,15 +11,199 @@
     "alt_spellings": [
         "MS"
     ],
+    "borders": [],
     "brk_a3": "MSR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Montserrat",
-    "capital": "Plymouth",
+    "capital": [
+        "Plymouth"
+    ],
+    "capital_rinvex": "Plymouth",
     "cca2": "MS",
     "cca3": "MSR",
     "ccn3": "500",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "Monts.",
+        "abbrev_len": "6.00",
+        "adm0_a3": "MSR",
+        "adm0_a3_is": "MSR",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "MSR",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Montserrat",
+        "alt_spellings": [
+            "MS"
+        ],
+        "borders": [],
+        "brk_a3": "MSR",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Montserrat",
+        "capital": [
+            "Plymouth"
+        ],
+        "cca2": "MS",
+        "cca3": "MSR",
+        "ccn3": "500",
+        "cioc": null,
+        "currency": [
+            "XCD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Montserratian",
+        "dialling": {
+            "calling_code": [
+                "1664"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "MH",
+        "flag": {
+            "emoji": "\ud83c\uddf2\ud83c\uddf8"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "43.80",
+        "gdp_year": "2006.00",
+        "geo": {
+            "area": 102,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                16.75,
+                -62.2
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Montserrat",
+        "gu_a3": "MSR",
+        "homepart": "-99.00",
+        "income_grp": "4. Lower middle income",
+        "independent": null,
+        "iso_a2": "MS",
+        "iso_a3": "MSR",
+        "iso_a3_eh": "MSR",
+        "iso_n3": "500",
+        "labelrank": "6.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "10.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Montserrat",
+            "native": {
+                "eng": {
+                    "common": "Montserrat",
+                    "official": "Montserrat"
+                }
+            },
+            "official": "Montserrat"
+        },
+        "name_alt": "",
+        "name_ciawf": "Montserrat",
+        "name_len": "10.00",
+        "name_long": "Montserrat",
+        "name_nev": "Montserrat",
+        "name_sort": "Montserrat",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "5292.00",
+        "pop_rank": "5.00",
+        "pop_year": "2017.00",
+        "postal": "MS",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "MSR",
+        "su_dif": "0.00",
+        "subunit": "Montserrat",
+        "tiny": "6.00",
+        "tld": [
+            ".ms"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "est": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "fin": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "fra": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "hrv": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "ita": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "jpn": {
+                "common": "\u30e2\u30f3\u30c8\u30bb\u30e9\u30c8",
+                "official": "\u30e2\u30f3\u30c8\u30bb\u30e9\u30c8"
+            },
+            "nld": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "por": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "rus": {
+                "common": "\u041c\u043e\u043d\u0442\u0441\u0435\u0440\u0440\u0430\u0442",
+                "official": "\u041c\u043e\u043d\u0442\u0441\u0435\u0440\u0440\u0430\u0442"
+            },
+            "slk": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "spa": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "zho": {
+                "common": "\u8499\u7279\u585e\u62c9\u7279",
+                "official": "\u8499\u7279\u585e\u62c9\u7279"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "500",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424888.00",
+        "woe_id_eh": "23424888.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "XCD"
     ],
@@ -106,7 +290,187 @@
     "gu_a3": "MSR",
     "homepart": "-99.00",
     "income_grp": "4. Lower middle income",
-    "independent": null,
+    "independent": {
+        "abbrev": "Monts.",
+        "abbrev_len": "6.00",
+        "adm0_a3": "MSR",
+        "adm0_a3_is": "MSR",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "MSR",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Montserrat",
+        "alt_spellings": [
+            "MS"
+        ],
+        "borders": [],
+        "brk_a3": "MSR",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Montserrat",
+        "capital": [
+            "Plymouth"
+        ],
+        "cca2": "MS",
+        "cca3": "MSR",
+        "ccn3": "500",
+        "cioc": null,
+        "currency": [
+            "XCD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Montserratian",
+        "dialling": {
+            "calling_code": [
+                "1664"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "MH",
+        "flag": {
+            "emoji": "\ud83c\uddf2\ud83c\uddf8"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "43.80",
+        "gdp_year": "2006.00",
+        "geo": {
+            "area": 102,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                16.75,
+                -62.2
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Montserrat",
+        "gu_a3": "MSR",
+        "homepart": "-99.00",
+        "income_grp": "4. Lower middle income",
+        "independent": null,
+        "iso_a2": "MS",
+        "iso_a3": "MSR",
+        "iso_a3_eh": "MSR",
+        "iso_n3": "500",
+        "labelrank": "6.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "10.00",
+        "mapcolor7": "6.00",
+        "mapcolor8": "6.00",
+        "mapcolor9": "6.00",
+        "mapcolor13": "3.00",
+        "max_label": "10.00",
+        "min_label": "5.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Montserrat",
+            "native": {
+                "eng": {
+                    "common": "Montserrat",
+                    "official": "Montserrat"
+                }
+            },
+            "official": "Montserrat"
+        },
+        "name_alt": "",
+        "name_ciawf": "Montserrat",
+        "name_len": "10.00",
+        "name_long": "Montserrat",
+        "name_nev": "Montserrat",
+        "name_sort": "Montserrat",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "5292.00",
+        "pop_rank": "5.00",
+        "pop_year": "2017.00",
+        "postal": "MS",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "MSR",
+        "su_dif": "0.00",
+        "subunit": "Montserrat",
+        "tiny": "6.00",
+        "tld": [
+            ".ms"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "est": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "fin": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "fra": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "hrv": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "ita": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "jpn": {
+                "common": "\u30e2\u30f3\u30c8\u30bb\u30e9\u30c8",
+                "official": "\u30e2\u30f3\u30c8\u30bb\u30e9\u30c8"
+            },
+            "nld": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "por": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "rus": {
+                "common": "\u041c\u043e\u043d\u0442\u0441\u0435\u0440\u0440\u0430\u0442",
+                "official": "\u041c\u043e\u043d\u0442\u0441\u0435\u0440\u0440\u0430\u0442"
+            },
+            "slk": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "spa": {
+                "common": "Montserrat",
+                "official": "Montserrat"
+            },
+            "zho": {
+                "common": "\u8499\u7279\u585e\u62c9\u7279",
+                "official": "\u8499\u7279\u585e\u62c9\u7279"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "500",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424888.00",
+        "woe_id_eh": "23424888.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "MS",
     "iso_3166_1_alpha3": "MSR",
     "iso_3166_1_numeric": "500",
@@ -121,10 +485,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "10.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "6.00",
     "mapcolor8": "6.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "3.00",
     "max_label": "10.00",
     "min_label": "5.00",
     "min_zoom": "0.00",
@@ -154,6 +518,7 @@
     "scalerank": "3",
     "sov_a3": "GB1",
     "sovereignt": "United Kingdom",
+    "status": "officially-assigned",
     "su_a3": "MSR",
     "su_dif": "0.00",
     "subunit": "Montserrat",

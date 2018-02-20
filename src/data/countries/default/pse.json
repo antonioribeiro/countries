@@ -14,11 +14,19 @@
         "State of Palestine",
         "Dawlat Filas\u1e6din"
     ],
+    "borders": [
+        "ISR",
+        "EGY",
+        "JOR"
+    ],
     "brk_a3": "PSX",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Palestine",
-    "capital": "Ramallah",
+    "capital": [
+        "Ramallah"
+    ],
+    "capital_rinvex": "Ramallah",
     "cca2": "PS",
     "cca3": "PSE",
     "ccn3": "275",
@@ -113,7 +121,195 @@
     "gu_a3": "PSX",
     "homepart": "-99.00",
     "income_grp": "4. Lower middle income",
-    "independent": null,
+    "independent": {
+        "abbrev": "Pal.",
+        "abbrev_len": "4.00",
+        "adm0_a3": "PSX",
+        "adm0_a3_is": "PSE",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "PSX",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Palestine",
+        "alt_spellings": [
+            "PS",
+            "Palestine, State of",
+            "State of Palestine",
+            "Dawlat Filas\u1e6din"
+        ],
+        "borders": [
+            "ISR",
+            "EGY",
+            "JOR"
+        ],
+        "brk_a3": "PSX",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Palestine",
+        "capital": [
+            "Ramallah"
+        ],
+        "cca2": "PS",
+        "cca3": "PSE",
+        "ccn3": "275",
+        "cioc": "PLE",
+        "currency": [
+            "ILS"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Palestinian",
+        "dialling": {
+            "calling_code": [
+                "970"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "-99",
+        "flag": {
+            "emoji": "\ud83c\uddf5\ud83c\uddf8"
+        },
+        "formal_en": "West Bank and Gaza",
+        "formal_fr": "",
+        "gdp_md_est": "21220.77",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 6220,
+            "continent": "Asia",
+            "landlocked": null,
+            "latlng": [
+                31.9,
+                35.2
+            ],
+            "region": "Asia",
+            "region_un": "Asia",
+            "region_wb": "Middle East & North Africa",
+            "subregion": "Western Asia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Palestine",
+        "gu_a3": "PSX",
+        "homepart": "-99.00",
+        "income_grp": "4. Lower middle income",
+        "independent": null,
+        "iso_a2": "PS",
+        "iso_a3": "PSE",
+        "iso_a3_eh": "PSE",
+        "iso_n3": "275",
+        "labelrank": "5.00",
+        "languages": {
+            "ara": "Arabic"
+        },
+        "lastcensus": "2007.00",
+        "level": "2.00",
+        "long_len": "9.00",
+        "mapcolor7": "3.00",
+        "mapcolor8": "2.00",
+        "mapcolor9": "5.00",
+        "mapcolor13": "8.00",
+        "max_label": "9.50",
+        "min_label": "4.50",
+        "min_zoom": "7.00",
+        "name": {
+            "common": "Palestine",
+            "native": {
+                "ara": {
+                    "common": "\u0641\u0644\u0633\u0637\u064a\u0646",
+                    "official": "\u062f\u0648\u0644\u0629 \u0641\u0644\u0633\u0637\u064a\u0646"
+                }
+            },
+            "official": "State of Palestine"
+        },
+        "name_alt": "",
+        "name_ciawf": "",
+        "name_len": "9.00",
+        "name_long": "Palestine",
+        "name_nev": "Palestine",
+        "name_sort": "Palestine (West Bank and Gaza)",
+        "note_adm0": "Partial self-admin.",
+        "note_brk": "Partial self-admin.",
+        "pop_est": "4543126.00",
+        "pop_rank": "12.00",
+        "pop_year": "2017.00",
+        "postal": "PAL",
+        "record_type": "country",
+        "scalerank": "0",
+        "sov_a3": "IS1",
+        "sovereignt": "Israel",
+        "status": "officially-assigned",
+        "su_a3": "PSX",
+        "su_dif": "0.00",
+        "subunit": "Palestine",
+        "tiny": "-99.00",
+        "tld": [
+            ".ps",
+            "\u0641\u0644\u0633\u0637\u064a\u0646."
+        ],
+        "translations": {
+            "deu": {
+                "common": "Pal\u00e4stina",
+                "official": "Staat Pal\u00e4stina"
+            },
+            "est": {
+                "common": "Palestiina",
+                "official": "Palestiina Riik"
+            },
+            "fin": {
+                "common": "Palestiina",
+                "official": "Palestiinan valtio"
+            },
+            "fra": {
+                "common": "Palestine",
+                "official": "\u00c9tat de Palestine"
+            },
+            "hrv": {
+                "common": "Palestina",
+                "official": "State of Palestine"
+            },
+            "ita": {
+                "common": "Palestina",
+                "official": "Stato di Palestina"
+            },
+            "jpn": {
+                "common": "\u30d1\u30ec\u30b9\u30c1\u30ca",
+                "official": "\u30d1\u30ec\u30b9\u30c1\u30ca\u81ea\u6cbb\u653f\u5e9c"
+            },
+            "nld": {
+                "common": "Palestijnse gebieden",
+                "official": "Staat Palestina"
+            },
+            "por": {
+                "common": "Palestina",
+                "official": "Estado da Palestina"
+            },
+            "rus": {
+                "common": "\u041f\u0430\u043b\u0435\u0441\u0442\u0438\u043d\u0430",
+                "official": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u041f\u0430\u043b\u0435\u0441\u0442\u0438\u043d\u0430"
+            },
+            "slk": {
+                "common": "Palest\u00edna",
+                "official": "Palest\u00ednsky \u0161t\u00e1t"
+            },
+            "spa": {
+                "common": "Palestina",
+                "official": "Estado de Palestina"
+            },
+            "zho": {
+                "common": "\u5df4\u52d2\u65af\u5766",
+                "official": "\u5df4\u52d2\u65af\u5766\u56fd"
+            }
+        },
+        "type": "Disputed",
+        "un_a3": "275",
+        "wb_a2": "GZ",
+        "wb_a3": "WBG",
+        "wikipedia": "-99.00",
+        "woe_id": "28289408.00",
+        "woe_id_eh": "28289408.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "PS",
     "iso_3166_1_alpha3": "PSE",
     "iso_3166_1_numeric": "275",
@@ -128,10 +324,10 @@
     "lastcensus": "2007.00",
     "level": "2.00",
     "long_len": "9.00",
-    "mapcolor13": "8.00",
     "mapcolor7": "3.00",
     "mapcolor8": "2.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "8.00",
     "max_label": "9.50",
     "min_label": "4.50",
     "min_zoom": "7.00",
@@ -161,6 +357,7 @@
     "scalerank": "0",
     "sov_a3": "IS1",
     "sovereignt": "Israel",
+    "status": "officially-assigned",
     "su_a3": "PSX",
     "su_dif": "0.00",
     "subunit": "Palestine",

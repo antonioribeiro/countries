@@ -13,11 +13,21 @@
         "Republic of Peru",
         "Rep\u00fablica del Per\u00fa"
     ],
+    "borders": [
+        "BOL",
+        "BRA",
+        "CHL",
+        "COL",
+        "ECU"
+    ],
     "brk_a3": "PER",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Peru",
-    "capital": "Lima",
+    "capital": [
+        "Lima"
+    ],
+    "capital_rinvex": "Lima",
     "cca2": "PE",
     "cca3": "PER",
     "ccn3": "604",
@@ -132,10 +142,10 @@
     "lastcensus": "2007.00",
     "level": "2.00",
     "long_len": "4.00",
-    "mapcolor13": "11.00",
     "mapcolor7": "4.00",
     "mapcolor8": "4.00",
     "mapcolor9": "4.00",
+    "mapcolor13": "11.00",
     "max_label": "7.00",
     "min_label": "2.00",
     "min_zoom": "0.00",
@@ -173,6 +183,7 @@
     "scalerank": "0",
     "sov_a3": "PER",
     "sovereignt": "Peru",
+    "status": "officially-assigned",
     "su_a3": "PER",
     "su_dif": "0.00",
     "subunit": "Peru",

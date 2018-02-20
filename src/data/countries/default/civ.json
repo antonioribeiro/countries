@@ -15,11 +15,21 @@
         "Republic of C\u00f4te d'Ivoire",
         "R\u00e9publique de C\u00f4te d'Ivoire"
     ],
+    "borders": [
+        "BFA",
+        "GHA",
+        "GIN",
+        "LBR",
+        "MLI"
+    ],
     "brk_a3": "CIV",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "C\u00c3\u00b4te d'Ivoire",
-    "capital": "Yamoussoukro",
+    "capital": [
+        "Yamoussoukro"
+    ],
+    "capital_rinvex": "Yamoussoukro",
     "cca2": "CI",
     "cca3": "CIV",
     "ccn3": "384",
@@ -131,10 +141,10 @@
     "lastcensus": "1998.00",
     "level": "2.00",
     "long_len": "13.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "4.00",
     "mapcolor8": "6.00",
     "mapcolor9": "3.00",
+    "mapcolor13": "3.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -164,6 +174,7 @@
     "scalerank": "0",
     "sov_a3": "CIV",
     "sovereignt": "Ivory Coast",
+    "status": "officially-assigned",
     "su_a3": "CIV",
     "su_dif": "0.00",
     "subunit": "Ivory Coast",

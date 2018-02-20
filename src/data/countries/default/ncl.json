@@ -11,15 +11,199 @@
     "alt_spellings": [
         "NC"
     ],
+    "borders": [],
     "brk_a3": "NCL",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "New Caledonia",
-    "capital": "Noum\u00e9a",
+    "capital": [
+        "Noum\u00e9a"
+    ],
+    "capital_rinvex": "Noum\u00e9a",
     "cca2": "NC",
     "cca3": "NCL",
     "ccn3": "540",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "New C.",
+        "abbrev_len": "6.00",
+        "adm0_a3": "NCL",
+        "adm0_a3_is": "NCL",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "NCL",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "New Caledonia",
+        "alt_spellings": [
+            "NC"
+        ],
+        "borders": [],
+        "brk_a3": "NCL",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "New Caledonia",
+        "capital": [
+            "Noum\u00e9a"
+        ],
+        "cca2": "NC",
+        "cca3": "NCL",
+        "ccn3": "540",
+        "cioc": null,
+        "currency": [
+            "XPF"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "New Caledonian",
+        "dialling": {
+            "calling_code": [
+                "687"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "NC",
+        "flag": {
+            "emoji": "\ud83c\uddf3\ud83c\udde8"
+        },
+        "formal_en": "New Caledonia",
+        "formal_fr": "Nouvelle-Cal\u00c3\u00a9donie",
+        "gdp_md_est": "10770.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 18575,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -21.5,
+                165.5
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Melanesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "New Caledonia",
+        "gu_a3": "NCL",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "NC",
+        "iso_a3": "NCL",
+        "iso_a3_eh": "NCL",
+        "iso_n3": "540",
+        "labelrank": "3.00",
+        "languages": {
+            "fra": "French"
+        },
+        "lastcensus": "2009.00",
+        "level": "2.00",
+        "long_len": "13.00",
+        "mapcolor7": "7.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "9.00",
+        "mapcolor13": "11.00",
+        "max_label": "8.00",
+        "min_label": "4.60",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "New Caledonia",
+            "native": {
+                "fra": {
+                    "common": "Nouvelle-Cal\u00e9donie",
+                    "official": "Nouvelle-Cal\u00e9donie"
+                }
+            },
+            "official": "New Caledonia"
+        },
+        "name_alt": "",
+        "name_ciawf": "New Caledonia",
+        "name_len": "13.00",
+        "name_long": "New Caledonia",
+        "name_nev": "New Caledonia",
+        "name_sort": "New Caledonia",
+        "note_adm0": "Fr.",
+        "note_brk": "",
+        "pop_est": "279070.00",
+        "pop_rank": "10.00",
+        "pop_year": "2017.00",
+        "postal": "NC",
+        "record_type": "country",
+        "scalerank": "1",
+        "sov_a3": "FR1",
+        "sovereignt": "France",
+        "status": "officially-assigned",
+        "su_a3": "NCL",
+        "su_dif": "0.00",
+        "subunit": "New Caledonia",
+        "tiny": "-99.00",
+        "tld": [
+            ".nc"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Neukaledonien",
+                "official": "Neukaledonien"
+            },
+            "est": {
+                "common": "Uus-Kaledoonia",
+                "official": "Uus-Kaledoonia"
+            },
+            "fin": {
+                "common": "Uusi-Kaledonia",
+                "official": "Uusi-Kaledonia"
+            },
+            "fra": {
+                "common": "Nouvelle-Cal\u00e9donie",
+                "official": "Nouvelle-Cal\u00e9donie"
+            },
+            "hrv": {
+                "common": "Nova Kaledonija",
+                "official": "Nova Kaledonija"
+            },
+            "ita": {
+                "common": "Nuova Caledonia",
+                "official": "Nuova Caledonia"
+            },
+            "jpn": {
+                "common": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2",
+                "official": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2"
+            },
+            "nld": {
+                "common": "Nieuw-Caledoni\u00eb",
+                "official": "nieuw -Caledoni\u00eb"
+            },
+            "por": {
+                "common": "Nova Caled\u00f3nia",
+                "official": "New Caledonia"
+            },
+            "rus": {
+                "common": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f",
+                "official": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f"
+            },
+            "slk": {
+                "common": "Nov\u00e1 Kaled\u00f3nia",
+                "official": "Nov\u00e1 Kaled\u00f3nia"
+            },
+            "spa": {
+                "common": "Nueva Caledonia",
+                "official": "nueva Caledonia"
+            },
+            "zho": {
+                "common": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a",
+                "official": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "540",
+        "wb_a2": "NC",
+        "wb_a3": "NCL",
+        "wikipedia": "-99.00",
+        "woe_id": "23424903.00",
+        "woe_id_eh": "23424903.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "XPF"
     ],
@@ -106,7 +290,187 @@
     "gu_a3": "NCL",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "New C.",
+        "abbrev_len": "6.00",
+        "adm0_a3": "NCL",
+        "adm0_a3_is": "NCL",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "NCL",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "New Caledonia",
+        "alt_spellings": [
+            "NC"
+        ],
+        "borders": [],
+        "brk_a3": "NCL",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "New Caledonia",
+        "capital": [
+            "Noum\u00e9a"
+        ],
+        "cca2": "NC",
+        "cca3": "NCL",
+        "ccn3": "540",
+        "cioc": null,
+        "currency": [
+            "XPF"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "New Caledonian",
+        "dialling": {
+            "calling_code": [
+                "687"
+            ]
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "NC",
+        "flag": {
+            "emoji": "\ud83c\uddf3\ud83c\udde8"
+        },
+        "formal_en": "New Caledonia",
+        "formal_fr": "Nouvelle-Cal\u00c3\u00a9donie",
+        "gdp_md_est": "10770.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 18575,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -21.5,
+                165.5
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Melanesia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "New Caledonia",
+        "gu_a3": "NCL",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "NC",
+        "iso_a3": "NCL",
+        "iso_a3_eh": "NCL",
+        "iso_n3": "540",
+        "labelrank": "3.00",
+        "languages": {
+            "fra": "French"
+        },
+        "lastcensus": "2009.00",
+        "level": "2.00",
+        "long_len": "13.00",
+        "mapcolor7": "7.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "9.00",
+        "mapcolor13": "11.00",
+        "max_label": "8.00",
+        "min_label": "4.60",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "New Caledonia",
+            "native": {
+                "fra": {
+                    "common": "Nouvelle-Cal\u00e9donie",
+                    "official": "Nouvelle-Cal\u00e9donie"
+                }
+            },
+            "official": "New Caledonia"
+        },
+        "name_alt": "",
+        "name_ciawf": "New Caledonia",
+        "name_len": "13.00",
+        "name_long": "New Caledonia",
+        "name_nev": "New Caledonia",
+        "name_sort": "New Caledonia",
+        "note_adm0": "Fr.",
+        "note_brk": "",
+        "pop_est": "279070.00",
+        "pop_rank": "10.00",
+        "pop_year": "2017.00",
+        "postal": "NC",
+        "record_type": "country",
+        "scalerank": "1",
+        "sov_a3": "FR1",
+        "sovereignt": "France",
+        "status": "officially-assigned",
+        "su_a3": "NCL",
+        "su_dif": "0.00",
+        "subunit": "New Caledonia",
+        "tiny": "-99.00",
+        "tld": [
+            ".nc"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Neukaledonien",
+                "official": "Neukaledonien"
+            },
+            "est": {
+                "common": "Uus-Kaledoonia",
+                "official": "Uus-Kaledoonia"
+            },
+            "fin": {
+                "common": "Uusi-Kaledonia",
+                "official": "Uusi-Kaledonia"
+            },
+            "fra": {
+                "common": "Nouvelle-Cal\u00e9donie",
+                "official": "Nouvelle-Cal\u00e9donie"
+            },
+            "hrv": {
+                "common": "Nova Kaledonija",
+                "official": "Nova Kaledonija"
+            },
+            "ita": {
+                "common": "Nuova Caledonia",
+                "official": "Nuova Caledonia"
+            },
+            "jpn": {
+                "common": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2",
+                "official": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2"
+            },
+            "nld": {
+                "common": "Nieuw-Caledoni\u00eb",
+                "official": "nieuw -Caledoni\u00eb"
+            },
+            "por": {
+                "common": "Nova Caled\u00f3nia",
+                "official": "New Caledonia"
+            },
+            "rus": {
+                "common": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f",
+                "official": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f"
+            },
+            "slk": {
+                "common": "Nov\u00e1 Kaled\u00f3nia",
+                "official": "Nov\u00e1 Kaled\u00f3nia"
+            },
+            "spa": {
+                "common": "Nueva Caledonia",
+                "official": "nueva Caledonia"
+            },
+            "zho": {
+                "common": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a",
+                "official": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "540",
+        "wb_a2": "NC",
+        "wb_a3": "NCL",
+        "wikipedia": "-99.00",
+        "woe_id": "23424903.00",
+        "woe_id_eh": "23424903.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "NC",
     "iso_3166_1_alpha3": "NCL",
     "iso_3166_1_numeric": "540",
@@ -121,10 +485,10 @@
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "13.00",
-    "mapcolor13": "11.00",
     "mapcolor7": "7.00",
     "mapcolor8": "5.00",
     "mapcolor9": "9.00",
+    "mapcolor13": "11.00",
     "max_label": "8.00",
     "min_label": "4.60",
     "min_zoom": "0.00",
@@ -154,6 +518,7 @@
     "scalerank": "1",
     "sov_a3": "FR1",
     "sovereignt": "France",
+    "status": "officially-assigned",
     "su_a3": "NCL",
     "su_dif": "0.00",
     "subunit": "New Caledonia",

@@ -15,11 +15,19 @@
         "Gro\u00dfherzogtum Luxemburg",
         "Groussherzogtum L\u00ebtzebuerg"
     ],
+    "borders": [
+        "BEL",
+        "FRA",
+        "DEU"
+    ],
     "brk_a3": "LUX",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Luxembourg",
-    "capital": "Luxembourg",
+    "capital": [
+        "Luxembourg"
+    ],
+    "capital_rinvex": "Luxembourg",
     "cca2": "LU",
     "cca3": "LUX",
     "ccn3": "442",
@@ -139,10 +147,10 @@
     "lastcensus": "2011.00",
     "level": "2.00",
     "long_len": "10.00",
-    "mapcolor13": "7.00",
     "mapcolor7": "1.00",
     "mapcolor8": "7.00",
     "mapcolor9": "3.00",
+    "mapcolor13": "7.00",
     "max_label": "10.00",
     "min_label": "5.70",
     "min_zoom": "0.00",
@@ -180,6 +188,7 @@
     "scalerank": "0",
     "sov_a3": "LUX",
     "sovereignt": "Luxembourg",
+    "status": "officially-assigned",
     "su_a3": "LUX",
     "su_dif": "0.00",
     "subunit": "Luxembourg",

@@ -13,11 +13,21 @@
         "Republic of Azerbaijan",
         "Az\u0259rbaycan Respublikas\u0131"
     ],
+    "borders": [
+        "ARM",
+        "GEO",
+        "IRN",
+        "RUS",
+        "TUR"
+    ],
     "brk_a3": "AZE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Azerbaijan",
-    "capital": "Baku",
+    "capital": [
+        "Baku"
+    ],
+    "capital_rinvex": "Baku",
     "cca2": "AZ",
     "cca3": "AZE",
     "ccn3": "031",
@@ -131,10 +141,10 @@
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "10.00",
-    "mapcolor13": "8.00",
     "mapcolor7": "1.00",
     "mapcolor8": "6.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "8.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -168,6 +178,7 @@
     "scalerank": "0",
     "sov_a3": "AZE",
     "sovereignt": "Azerbaijan",
+    "status": "officially-assigned",
     "su_a3": "AZE",
     "su_dif": "0.00",
     "subunit": "Azerbaijan",

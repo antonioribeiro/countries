@@ -14,11 +14,19 @@
         "C\u1ed9ng h\u00f2a X\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
         "Viet Nam"
     ],
+    "borders": [
+        "KHM",
+        "CHN",
+        "LAO"
+    ],
     "brk_a3": "VNM",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Vietnam",
-    "capital": "Hanoi",
+    "capital": [
+        "Hanoi"
+    ],
+    "capital_rinvex": "Hanoi",
     "cca2": "VN",
     "cca3": "VNM",
     "ccn3": "704",
@@ -131,10 +139,10 @@
     "lastcensus": "2009.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "4.00",
     "mapcolor7": "5.00",
     "mapcolor8": "6.00",
     "mapcolor9": "5.00",
+    "mapcolor13": "4.00",
     "max_label": "7.00",
     "min_label": "2.00",
     "min_zoom": "0.00",
@@ -164,6 +172,7 @@
     "scalerank": "0",
     "sov_a3": "VNM",
     "sovereignt": "Vietnam",
+    "status": "officially-assigned",
     "su_a3": "VNM",
     "su_dif": "0.00",
     "subunit": "Vietnam",

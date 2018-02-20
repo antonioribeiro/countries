@@ -12,11 +12,20 @@
         "ZW",
         "Republic of Zimbabwe"
     ],
+    "borders": [
+        "BWA",
+        "MOZ",
+        "ZAF",
+        "ZMB"
+    ],
     "brk_a3": "ZWE",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Zimbabwe",
-    "capital": "Harare",
+    "capital": [
+        "Harare"
+    ],
+    "capital_rinvex": "Harare",
     "cca2": "ZW",
     "cca3": "ZWE",
     "ccn3": "716",
@@ -144,10 +153,10 @@
     "lastcensus": "2002.00",
     "level": "2.00",
     "long_len": "8.00",
-    "mapcolor13": "9.00",
     "mapcolor7": "1.00",
     "mapcolor8": "5.00",
     "mapcolor9": "3.00",
+    "mapcolor13": "9.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -233,6 +242,7 @@
     "scalerank": "0",
     "sov_a3": "ZWE",
     "sovereignt": "Zimbabwe",
+    "status": "officially-assigned",
     "su_a3": "ZWE",
     "su_dif": "0.00",
     "subunit": "Zimbabwe",

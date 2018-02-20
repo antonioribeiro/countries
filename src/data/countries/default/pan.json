@@ -13,11 +13,18 @@
         "Republic of Panama",
         "Rep\u00fablica de Panam\u00e1"
     ],
+    "borders": [
+        "COL",
+        "CRI"
+    ],
     "brk_a3": "PAN",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Panama",
-    "capital": "Panama City",
+    "capital": [
+        "Panama City"
+    ],
+    "capital_rinvex": "Panama City",
     "cca2": "PA",
     "cca3": "PAN",
     "ccn3": "591",
@@ -127,10 +134,10 @@
     "lastcensus": "2010.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "3.00",
     "mapcolor7": "4.00",
     "mapcolor8": "4.00",
     "mapcolor9": "6.00",
+    "mapcolor13": "3.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -160,6 +167,7 @@
     "scalerank": "0",
     "sov_a3": "PAN",
     "sovereignt": "Panama",
+    "status": "officially-assigned",
     "su_a3": "PAN",
     "su_dif": "0.00",
     "subunit": "Panama",

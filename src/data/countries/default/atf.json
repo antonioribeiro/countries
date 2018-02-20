@@ -12,15 +12,199 @@
         "TF",
         "French Southern Territories"
     ],
+    "borders": [],
     "brk_a3": "ATF",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Fr. S. and Antarctic Lands",
-    "capital": "Port-aux-Fran\u00e7ais",
+    "capital": [
+        "Port-aux-Fran\u00e7ais"
+    ],
+    "capital_rinvex": "Port-aux-Fran\u00e7ais",
     "cca2": "TF",
     "cca3": "ATF",
     "ccn3": "260",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "Fr. S.A.L.",
+        "abbrev_len": "10.00",
+        "adm0_a3": "ATF",
+        "adm0_a3_is": "ATF",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "ATF",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "French Southern and Antarctic Lands",
+        "alt_spellings": [
+            "TF",
+            "French Southern Territories"
+        ],
+        "borders": [],
+        "brk_a3": "ATF",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Fr. S. and Antarctic Lands",
+        "capital": [
+            "Port-aux-Fran\u00e7ais"
+        ],
+        "cca2": "TF",
+        "cca3": "ATF",
+        "ccn3": "260",
+        "cioc": null,
+        "currency": [
+            "EUR"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "French",
+        "dialling": {
+            "calling_code": []
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "FS",
+        "flag": {
+            "emoji": "\ud83c\uddf9\ud83c\uddeb"
+        },
+        "formal_en": "Territory of the French Southern and Antarctic Lands",
+        "formal_fr": "",
+        "gdp_md_est": "16.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 7747,
+            "continent": "Seven seas (open ocean)",
+            "landlocked": null,
+            "latlng": [
+                -49.25,
+                69.167
+            ],
+            "region": "Antarctic",
+            "region_un": "Seven seas (open ocean)",
+            "region_wb": "Sub-Saharan Africa",
+            "subregion": ""
+        },
+        "geou_dif": "0.00",
+        "geounit": "French Southern and Antarctic Lands",
+        "gu_a3": "ATF",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "TF",
+        "iso_a3": "ATF",
+        "iso_a3_eh": "ATF",
+        "iso_n3": "260",
+        "labelrank": "6.00",
+        "languages": {
+            "fra": "French"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "35.00",
+        "mapcolor7": "7.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "9.00",
+        "mapcolor13": "11.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "French Southern and Antarctic Lands",
+            "native": {
+                "fra": {
+                    "common": "Terres australes et antarctiques fran\u00e7aises",
+                    "official": "Territoire des Terres australes et antarctiques fran\u00e7aises"
+                }
+            },
+            "official": "Territory of the French Southern and Antarctic Lands"
+        },
+        "name_alt": "",
+        "name_ciawf": "",
+        "name_len": "22.00",
+        "name_long": "French Southern and Antarctic Lands",
+        "name_nev": "Fr. S. Antarctic Lands",
+        "name_sort": "French Southern and Antarctic Lands",
+        "note_adm0": "Fr.",
+        "note_brk": "",
+        "pop_est": "140.00",
+        "pop_rank": "1.00",
+        "pop_year": "2017.00",
+        "postal": "TF",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "FR1",
+        "sovereignt": "France",
+        "status": "officially-assigned",
+        "su_a3": "ATF",
+        "su_dif": "0.00",
+        "subregion_nev": "Seven seas (open ocean)",
+        "subunit": "French Southern and Antarctic Lands",
+        "tiny": "2.00",
+        "tld": [
+            ".tf"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Franz\u00f6sische S\u00fcd-und Antarktisgebiete",
+                "official": "Gebiet der Franz\u00f6sisch S\u00fcd-und Antarktisgebiete"
+            },
+            "est": {
+                "common": "Prantsuse L\u00f5unaalad",
+                "official": "Prantsuse L\u00f5unaalad"
+            },
+            "fin": {
+                "common": "Ranskan etel\u00e4iset ja antarktiset alueet",
+                "official": "Ranskan etel\u00e4iset ja antarktiset alueet"
+            },
+            "fra": {
+                "common": "Terres australes et antarctiques fran\u00e7aises",
+                "official": "Territoire des Terres australes et antarctiques fran\u00e7aises"
+            },
+            "hrv": {
+                "common": "Francuski ju\u017eni i antarkti\u010dki teritoriji",
+                "official": "Teritoriju Francuski ju\u017eni i antarkti\u010dki teritoriji"
+            },
+            "ita": {
+                "common": "Territori Francesi del Sud",
+                "official": "Territorio della australi e antartiche francesi Terre"
+            },
+            "jpn": {
+                "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
+                "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u00b7\u5357\u6975\u5730\u57df\u306e\u9818\u571f"
+            },
+            "nld": {
+                "common": "Franse Gebieden in de zuidelijke Indische Oceaan",
+                "official": "Grondgebied van de Franse Zuidelijke en Antarctische gebieden"
+            },
+            "por": {
+                "common": "Terras Austrais e Ant\u00e1rticas Francesas",
+                "official": "Territ\u00f3rio do Sul e Ant\u00e1rtica Francesa"
+            },
+            "rus": {
+                "common": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0435 \u042e\u0436\u043d\u044b\u0435 \u0438 \u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438",
+                "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0435 \u042e\u0436\u043d\u044b\u0435 \u0438 \u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0437\u0435\u043c\u043b\u0438"
+            },
+            "slk": {
+                "common": "Franc\u00fazske ju\u017dn\u00e9 a antarktick\u00e9 \u00fazemia",
+                "official": "Franc\u00fazske ju\u017en\u00e9 a antarktick\u00e9 \u00fazemia"
+            },
+            "spa": {
+                "common": "Tierras Australes y Ant\u00e1rticas Francesas",
+                "official": "Territorio del Franc\u00e9s Tierras australes y ant\u00e1rticas"
+            },
+            "zho": {
+                "common": "\u6cd5\u56fd\u5357\u90e8\u548c\u5357\u6781\u571f\u5730",
+                "official": "\u6cd5\u56fd\u5357\u90e8\u548c\u5357\u6781\u571f\u5730"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "-099",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "28289406.00",
+        "woe_id_eh": "28289406.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "EUR"
     ],
@@ -101,7 +285,187 @@
     "gu_a3": "ATF",
     "homepart": "-99.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "Fr. S.A.L.",
+        "abbrev_len": "10.00",
+        "adm0_a3": "ATF",
+        "adm0_a3_is": "ATF",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "ATF",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "French Southern and Antarctic Lands",
+        "alt_spellings": [
+            "TF",
+            "French Southern Territories"
+        ],
+        "borders": [],
+        "brk_a3": "ATF",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Fr. S. and Antarctic Lands",
+        "capital": [
+            "Port-aux-Fran\u00e7ais"
+        ],
+        "cca2": "TF",
+        "cca3": "ATF",
+        "ccn3": "260",
+        "cioc": null,
+        "currency": [
+            "EUR"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "French",
+        "dialling": {
+            "calling_code": []
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "FS",
+        "flag": {
+            "emoji": "\ud83c\uddf9\ud83c\uddeb"
+        },
+        "formal_en": "Territory of the French Southern and Antarctic Lands",
+        "formal_fr": "",
+        "gdp_md_est": "16.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 7747,
+            "continent": "Seven seas (open ocean)",
+            "landlocked": null,
+            "latlng": [
+                -49.25,
+                69.167
+            ],
+            "region": "Antarctic",
+            "region_un": "Seven seas (open ocean)",
+            "region_wb": "Sub-Saharan Africa",
+            "subregion": ""
+        },
+        "geou_dif": "0.00",
+        "geounit": "French Southern and Antarctic Lands",
+        "gu_a3": "ATF",
+        "homepart": "-99.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "TF",
+        "iso_a3": "ATF",
+        "iso_a3_eh": "ATF",
+        "iso_n3": "260",
+        "labelrank": "6.00",
+        "languages": {
+            "fra": "French"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "35.00",
+        "mapcolor7": "7.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "9.00",
+        "mapcolor13": "11.00",
+        "max_label": "9.00",
+        "min_label": "4.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "French Southern and Antarctic Lands",
+            "native": {
+                "fra": {
+                    "common": "Terres australes et antarctiques fran\u00e7aises",
+                    "official": "Territoire des Terres australes et antarctiques fran\u00e7aises"
+                }
+            },
+            "official": "Territory of the French Southern and Antarctic Lands"
+        },
+        "name_alt": "",
+        "name_ciawf": "",
+        "name_len": "22.00",
+        "name_long": "French Southern and Antarctic Lands",
+        "name_nev": "Fr. S. Antarctic Lands",
+        "name_sort": "French Southern and Antarctic Lands",
+        "note_adm0": "Fr.",
+        "note_brk": "",
+        "pop_est": "140.00",
+        "pop_rank": "1.00",
+        "pop_year": "2017.00",
+        "postal": "TF",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "FR1",
+        "sovereignt": "France",
+        "status": "officially-assigned",
+        "su_a3": "ATF",
+        "su_dif": "0.00",
+        "subregion_nev": "Seven seas (open ocean)",
+        "subunit": "French Southern and Antarctic Lands",
+        "tiny": "2.00",
+        "tld": [
+            ".tf"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Franz\u00f6sische S\u00fcd-und Antarktisgebiete",
+                "official": "Gebiet der Franz\u00f6sisch S\u00fcd-und Antarktisgebiete"
+            },
+            "est": {
+                "common": "Prantsuse L\u00f5unaalad",
+                "official": "Prantsuse L\u00f5unaalad"
+            },
+            "fin": {
+                "common": "Ranskan etel\u00e4iset ja antarktiset alueet",
+                "official": "Ranskan etel\u00e4iset ja antarktiset alueet"
+            },
+            "fra": {
+                "common": "Terres australes et antarctiques fran\u00e7aises",
+                "official": "Territoire des Terres australes et antarctiques fran\u00e7aises"
+            },
+            "hrv": {
+                "common": "Francuski ju\u017eni i antarkti\u010dki teritoriji",
+                "official": "Teritoriju Francuski ju\u017eni i antarkti\u010dki teritoriji"
+            },
+            "ita": {
+                "common": "Territori Francesi del Sud",
+                "official": "Territorio della australi e antartiche francesi Terre"
+            },
+            "jpn": {
+                "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
+                "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u00b7\u5357\u6975\u5730\u57df\u306e\u9818\u571f"
+            },
+            "nld": {
+                "common": "Franse Gebieden in de zuidelijke Indische Oceaan",
+                "official": "Grondgebied van de Franse Zuidelijke en Antarctische gebieden"
+            },
+            "por": {
+                "common": "Terras Austrais e Ant\u00e1rticas Francesas",
+                "official": "Territ\u00f3rio do Sul e Ant\u00e1rtica Francesa"
+            },
+            "rus": {
+                "common": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0435 \u042e\u0436\u043d\u044b\u0435 \u0438 \u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438",
+                "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0435 \u042e\u0436\u043d\u044b\u0435 \u0438 \u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0437\u0435\u043c\u043b\u0438"
+            },
+            "slk": {
+                "common": "Franc\u00fazske ju\u017dn\u00e9 a antarktick\u00e9 \u00fazemia",
+                "official": "Franc\u00fazske ju\u017en\u00e9 a antarktick\u00e9 \u00fazemia"
+            },
+            "spa": {
+                "common": "Tierras Australes y Ant\u00e1rticas Francesas",
+                "official": "Territorio del Franc\u00e9s Tierras australes y ant\u00e1rticas"
+            },
+            "zho": {
+                "common": "\u6cd5\u56fd\u5357\u90e8\u548c\u5357\u6781\u571f\u5730",
+                "official": "\u6cd5\u56fd\u5357\u90e8\u548c\u5357\u6781\u571f\u5730"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "-099",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "28289406.00",
+        "woe_id_eh": "28289406.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "TF",
     "iso_3166_1_alpha3": "ATF",
     "iso_3166_1_numeric": "260",
@@ -116,10 +480,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "35.00",
-    "mapcolor13": "11.00",
     "mapcolor7": "7.00",
     "mapcolor8": "5.00",
     "mapcolor9": "9.00",
+    "mapcolor13": "11.00",
     "max_label": "9.00",
     "min_label": "4.00",
     "min_zoom": "0.00",
@@ -149,6 +513,7 @@
     "scalerank": "3",
     "sov_a3": "FR1",
     "sovereignt": "France",
+    "status": "officially-assigned",
     "su_a3": "ATF",
     "su_dif": "0.00",
     "subregion_nev": "Seven seas (open ocean)",

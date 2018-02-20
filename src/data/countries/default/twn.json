@@ -25,11 +25,15 @@
         "Chinese Taipei for IOC",
         "Taiwan, Province of China"
     ],
+    "borders": [],
     "brk_a3": "B77",
     "brk_diff": "1.00",
     "brk_group": "",
     "brk_name": "Taiwan",
-    "capital": "Taipei",
+    "capital": [
+        "Taipei"
+    ],
+    "capital_rinvex": "Taipei",
     "cca2": "TW",
     "cca3": "TWN",
     "ccn3": "158",
@@ -121,7 +125,190 @@
     "gu_a3": "TWN",
     "homepart": "1.00",
     "income_grp": "2. High income: nonOECD",
-    "independent": null,
+    "independent": {
+        "abbrev": "Taiwan",
+        "abbrev_len": "6.00",
+        "adm0_a3": "TWN",
+        "adm0_a3_is": "TWN",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "TWN",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "0.00",
+        "admin": "Taiwan",
+        "alt_spellings": [
+            "TW",
+            "T\u00e1iw\u0101n",
+            "Republic of China",
+            "\u4e2d\u83ef\u6c11\u570b",
+            "Zh\u014dnghu\u00e1 M\u00edngu\u00f3",
+            "Chinese Taipei"
+        ],
+        "borders": [],
+        "brk_a3": "B77",
+        "brk_diff": "1.00",
+        "brk_group": "",
+        "brk_name": "Taiwan",
+        "capital": [
+            "Taipei"
+        ],
+        "cca2": "TW",
+        "cca3": "TWN",
+        "ccn3": "158",
+        "cioc": "TPE",
+        "currency": [
+            "TWD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Taiwanese",
+        "dialling": {
+            "calling_code": [
+                "886"
+            ]
+        },
+        "economy": "2. Developed region: nonG7",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "TW",
+        "flag": {
+            "emoji": "\ud83c\uddf9\ud83c\uddfc"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "1127000.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 36193,
+            "continent": "Asia",
+            "landlocked": null,
+            "latlng": [
+                23.5,
+                121
+            ],
+            "region": "Asia",
+            "region_un": "Asia",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Eastern Asia"
+        },
+        "geou_dif": "0.00",
+        "geounit": "Taiwan",
+        "gu_a3": "TWN",
+        "homepart": "1.00",
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "TW",
+        "iso_a3": "TWN",
+        "iso_a3_eh": "TWN",
+        "iso_n3": "158",
+        "labelrank": "3.00",
+        "languages": {
+            "zho": "Chinese"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "6.00",
+        "mapcolor7": "1.00",
+        "mapcolor8": "5.00",
+        "mapcolor9": "7.00",
+        "mapcolor13": "2.00",
+        "max_label": "8.00",
+        "min_label": "3.00",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Taiwan",
+            "native": {
+                "zho": {
+                    "common": "\u53f0\u7063",
+                    "official": "\u4e2d\u83ef\u6c11\u570b"
+                }
+            },
+            "official": "Republic of China (Taiwan)"
+        },
+        "name_alt": "",
+        "name_ciawf": "Taiwan",
+        "name_len": "6.00",
+        "name_long": "Taiwan",
+        "name_nev": "Taiwan",
+        "name_sort": "Taiwan",
+        "note_adm0": "",
+        "note_brk": "Self admin.; Claimed by China",
+        "pop_est": "23508428.00",
+        "pop_rank": "15.00",
+        "pop_year": "2017.00",
+        "postal": "TW",
+        "record_type": "country",
+        "scalerank": "0",
+        "sov_a3": "TWN",
+        "sovereignt": "Taiwan",
+        "status": "officially-assigned",
+        "su_a3": "TWN",
+        "su_dif": "0.00",
+        "subunit": "Taiwan",
+        "tiny": "-99.00",
+        "tld": [
+            ".tw",
+            ".\u53f0\u7063",
+            ".\u53f0\u6e7e"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Taiwan",
+                "official": "Republik China (Taiwan)"
+            },
+            "est": {
+                "common": "Taiwan",
+                "official": "Taiwani"
+            },
+            "fin": {
+                "common": "Taiwan",
+                "official": "Kiinan tasavalta"
+            },
+            "fra": {
+                "common": "Ta\u00efwan",
+                "official": "R\u00e9publique de Chine (Ta\u00efwan)"
+            },
+            "hrv": {
+                "common": "Tajvan",
+                "official": "Republika Kina"
+            },
+            "ita": {
+                "common": "Taiwan",
+                "official": "Repubblica cinese (Taiwan)"
+            },
+            "jpn": {
+                "common": "\u53f0\u6e7e",
+                "official": "\u4e2d\u83ef\u6c11\u56fd"
+            },
+            "nld": {
+                "common": "Taiwan",
+                "official": "Republiek China (Taiwan)"
+            },
+            "por": {
+                "common": "Ilha Formosa",
+                "official": "Rep\u00fablica da China"
+            },
+            "rus": {
+                "common": "\u0422\u0430\u0439\u0432\u0430\u043d\u044c",
+                "official": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430"
+            },
+            "slk": {
+                "common": "Taiwan",
+                "official": "\u010c\u00ednska republika"
+            },
+            "spa": {
+                "common": "Taiw\u00e1n",
+                "official": "Rep\u00fablica de China en Taiw\u00e1n"
+            }
+        },
+        "type": "Sovereign country",
+        "un_a3": "-099",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "23424971.00",
+        "woe_id_eh": "23424971.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "TW",
     "iso_3166_1_alpha3": "TWN",
     "iso_3166_1_numeric": "158",
@@ -136,10 +323,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "6.00",
-    "mapcolor13": "2.00",
     "mapcolor7": "1.00",
     "mapcolor8": "5.00",
     "mapcolor9": "7.00",
+    "mapcolor13": "2.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -179,6 +366,7 @@
     "scalerank": "0",
     "sov_a3": "TWN",
     "sovereignt": "Taiwan",
+    "status": "officially-assigned",
     "su_a3": "TWN",
     "su_dif": "0.00",
     "subunit": "Taiwan",

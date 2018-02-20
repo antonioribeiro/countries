@@ -1,9 +1,4 @@
 {
-    "abbreviation": "LMT",
-    "dst": "0",
-    "gmt_offset": "10751",
-    "time_start": "-2840151552",
-    "zone_id": "163",
     "1": {
         "abbreviation": "TBMT",
         "dst": "0",
@@ -346,5 +341,10 @@
         "gmt_offset": "14400",
         "time_start": "1111878000",
         "zone_id": "163"
-    }
+    },
+    "abbreviation": "LMT",
+    "dst": "0",
+    "gmt_offset": "10751",
+    "time_start": "-2840151552",
+    "zone_id": "163"
 }

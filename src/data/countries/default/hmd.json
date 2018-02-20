@@ -16,15 +16,200 @@
         "HM",
         "Heard Island and McDonald Mcdonald Islands"
     ],
+    "borders": [],
     "brk_a3": "HMD",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Heard I. and McDonald Is.",
-    "capital": null,
+    "capital": [
+        ""
+    ],
+    "capital_rinvex": "",
     "cca2": "HM",
     "cca3": "HMD",
     "ccn3": "334",
-    "cioc": null,
+    "cioc": {
+        "abbrev": "H.M.Is.",
+        "abbrev_len": "7.00",
+        "adm0_a3": "HMD",
+        "adm0_a3_is": "HMD",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "HMD",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Heard Island and McDonald Islands",
+        "alt_spellings": [
+            "HM",
+            "Heard Island and McDonald Islands"
+        ],
+        "borders": [],
+        "brk_a3": "HMD",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Heard I. and McDonald Is.",
+        "capital": [
+            ""
+        ],
+        "cca2": "HM",
+        "cca3": "HMD",
+        "ccn3": "334",
+        "cioc": null,
+        "currency": [
+            "AUD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Heard and McDonald Islander",
+        "dialling": {
+            "calling_code": []
+        },
+        "economy": "7. Least developed region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "HM",
+        "flag": {
+            "emoji": "\ud83c\udded\ud83c\uddf2"
+        },
+        "formal_en": "Territory of Heard Island and McDonald Islands",
+        "formal_fr": "",
+        "gdp_md_est": "0.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 412,
+            "continent": "Seven seas (open ocean)",
+            "landlocked": null,
+            "latlng": [
+                -53.1,
+                72.51666666
+            ],
+            "region": "Antarctic",
+            "region_un": "Seven seas (open ocean)",
+            "region_wb": "Sub-Saharan Africa",
+            "subregion": ""
+        },
+        "geou_dif": "0.00",
+        "geounit": "Heard Island and McDonald Islands",
+        "gu_a3": "HMD",
+        "homepart": "-99.00",
+        "income_grp": "5. Low income",
+        "independent": null,
+        "iso_a2": "HM",
+        "iso_a3": "HMD",
+        "iso_a3_eh": "HMD",
+        "iso_n3": "334",
+        "labelrank": "5.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "29.00",
+        "mapcolor7": "1.00",
+        "mapcolor8": "2.00",
+        "mapcolor9": "2.00",
+        "mapcolor13": "7.00",
+        "max_label": "9.50",
+        "min_label": "4.50",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Heard Island and McDonald Islands",
+            "native": {
+                "eng": {
+                    "common": "Heard Island and McDonald Islands",
+                    "official": "Heard Island and McDonald Islands"
+                }
+            },
+            "official": "Heard Island and McDonald Islands"
+        },
+        "name_alt": "",
+        "name_ciawf": "",
+        "name_len": "25.00",
+        "name_long": "Heard I. and McDonald Islands",
+        "name_nev": "Heard I. and McDonald Is.",
+        "name_sort": "Heard Island and McDonald Islands",
+        "note_adm0": "Auz.",
+        "note_brk": "",
+        "pop_est": "0.00",
+        "pop_rank": "1.00",
+        "pop_year": "2017.00",
+        "postal": "HM",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "AU1",
+        "sovereignt": "Australia",
+        "status": "officially-assigned",
+        "su_a3": "HMD",
+        "su_dif": "0.00",
+        "subregion_nev": "Seven seas (open ocean)",
+        "subunit": "Heard Island and McDonald Islands",
+        "tiny": "-99.00",
+        "tld": [
+            ".hm",
+            ".aq"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Heard und die McDonaldinseln",
+                "official": "Heard und McDonaldinseln"
+            },
+            "est": {
+                "common": "Heard ja McDonald",
+                "official": "Heardi ja McDonaldi saarte ala"
+            },
+            "fin": {
+                "common": "Heard ja McDonaldinsaaret",
+                "official": "Heard ja McDonaldinsaaret"
+            },
+            "fra": {
+                "common": "\u00celes Heard-et-MacDonald",
+                "official": "Des \u00eeles Heard et McDonald"
+            },
+            "hrv": {
+                "common": "Otok Heard i oto\u010dje McDonald",
+                "official": "Otok Heard i oto\u010dje McDonald"
+            },
+            "ita": {
+                "common": "Isole Heard e McDonald",
+                "official": "Isole Heard e McDonald"
+            },
+            "jpn": {
+                "common": "\u30cf\u30fc\u30c9\u5cf6\u3068\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u8af8\u5cf6",
+                "official": "\u30cf\u30fc\u30c9\u5cf6\u3068\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u8af8\u5cf6"
+            },
+            "nld": {
+                "common": "Heard-en McDonaldeilanden",
+                "official": "Heard en McDonaldeilanden"
+            },
+            "por": {
+                "common": "Ilha Heard e Ilhas McDonald",
+                "official": "Ilha Heard e Ilhas McDonald"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0425\u0435\u0440\u0434 \u0438 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041c\u0430\u043a\u0434\u043e\u043d\u0430\u043b\u044c\u0434",
+                "official": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0425\u0435\u0440\u0434 \u0438 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041c\u0430\u043a\u0434\u043e\u043d\u0430\u043b\u044c\u0434"
+            },
+            "slk": {
+                "common": "Heardov ostrov",
+                "official": "Terit\u00f3rium Heardovho ostrova a Macdonaldov\u00fdch ostrovov"
+            },
+            "spa": {
+                "common": "Islas Heard y McDonald",
+                "official": "Islas Heard y McDonald"
+            },
+            "zho": {
+                "common": "\u8d6b\u5fb7\u5c9b\u548c\u9ea6\u5f53\u52b3\u7fa4\u5c9b",
+                "official": "\u8d6b\u5fb7\u5c9b\u548c\u9ea6\u5f53\u52b3\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "-099",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "28289411.00",
+        "woe_id_eh": "28289411.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "currencies": [
         "AUD"
     ],
@@ -105,7 +290,188 @@
     "gu_a3": "HMD",
     "homepart": "-99.00",
     "income_grp": "5. Low income",
-    "independent": null,
+    "independent": {
+        "abbrev": "H.M.Is.",
+        "abbrev_len": "7.00",
+        "adm0_a3": "HMD",
+        "adm0_a3_is": "HMD",
+        "adm0_a3_un": "-99.00",
+        "adm0_a3_us": "HMD",
+        "adm0_a3_wb": "-99.00",
+        "adm0_dif": "1.00",
+        "admin": "Heard Island and McDonald Islands",
+        "alt_spellings": [
+            "HM",
+            "Heard Island and McDonald Islands"
+        ],
+        "borders": [],
+        "brk_a3": "HMD",
+        "brk_diff": "0.00",
+        "brk_group": "",
+        "brk_name": "Heard I. and McDonald Is.",
+        "capital": [
+            ""
+        ],
+        "cca2": "HM",
+        "cca3": "HMD",
+        "ccn3": "334",
+        "cioc": null,
+        "currency": [
+            "AUD"
+        ],
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonym": "Heard and McDonald Islander",
+        "dialling": {
+            "calling_code": []
+        },
+        "economy": "7. Least developed region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "HM",
+        "flag": {
+            "emoji": "\ud83c\udded\ud83c\uddf2"
+        },
+        "formal_en": "Territory of Heard Island and McDonald Islands",
+        "formal_fr": "",
+        "gdp_md_est": "0.00",
+        "gdp_year": "2016.00",
+        "geo": {
+            "area": 412,
+            "continent": "Seven seas (open ocean)",
+            "landlocked": null,
+            "latlng": [
+                -53.1,
+                72.51666666
+            ],
+            "region": "Antarctic",
+            "region_un": "Seven seas (open ocean)",
+            "region_wb": "Sub-Saharan Africa",
+            "subregion": ""
+        },
+        "geou_dif": "0.00",
+        "geounit": "Heard Island and McDonald Islands",
+        "gu_a3": "HMD",
+        "homepart": "-99.00",
+        "income_grp": "5. Low income",
+        "independent": null,
+        "iso_a2": "HM",
+        "iso_a3": "HMD",
+        "iso_a3_eh": "HMD",
+        "iso_n3": "334",
+        "labelrank": "5.00",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99.00",
+        "level": "2.00",
+        "long_len": "29.00",
+        "mapcolor7": "1.00",
+        "mapcolor8": "2.00",
+        "mapcolor9": "2.00",
+        "mapcolor13": "7.00",
+        "max_label": "9.50",
+        "min_label": "4.50",
+        "min_zoom": "0.00",
+        "name": {
+            "common": "Heard Island and McDonald Islands",
+            "native": {
+                "eng": {
+                    "common": "Heard Island and McDonald Islands",
+                    "official": "Heard Island and McDonald Islands"
+                }
+            },
+            "official": "Heard Island and McDonald Islands"
+        },
+        "name_alt": "",
+        "name_ciawf": "",
+        "name_len": "25.00",
+        "name_long": "Heard I. and McDonald Islands",
+        "name_nev": "Heard I. and McDonald Is.",
+        "name_sort": "Heard Island and McDonald Islands",
+        "note_adm0": "Auz.",
+        "note_brk": "",
+        "pop_est": "0.00",
+        "pop_rank": "1.00",
+        "pop_year": "2017.00",
+        "postal": "HM",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "AU1",
+        "sovereignt": "Australia",
+        "status": "officially-assigned",
+        "su_a3": "HMD",
+        "su_dif": "0.00",
+        "subregion_nev": "Seven seas (open ocean)",
+        "subunit": "Heard Island and McDonald Islands",
+        "tiny": "-99.00",
+        "tld": [
+            ".hm",
+            ".aq"
+        ],
+        "translations": {
+            "deu": {
+                "common": "Heard und die McDonaldinseln",
+                "official": "Heard und McDonaldinseln"
+            },
+            "est": {
+                "common": "Heard ja McDonald",
+                "official": "Heardi ja McDonaldi saarte ala"
+            },
+            "fin": {
+                "common": "Heard ja McDonaldinsaaret",
+                "official": "Heard ja McDonaldinsaaret"
+            },
+            "fra": {
+                "common": "\u00celes Heard-et-MacDonald",
+                "official": "Des \u00eeles Heard et McDonald"
+            },
+            "hrv": {
+                "common": "Otok Heard i oto\u010dje McDonald",
+                "official": "Otok Heard i oto\u010dje McDonald"
+            },
+            "ita": {
+                "common": "Isole Heard e McDonald",
+                "official": "Isole Heard e McDonald"
+            },
+            "jpn": {
+                "common": "\u30cf\u30fc\u30c9\u5cf6\u3068\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u8af8\u5cf6",
+                "official": "\u30cf\u30fc\u30c9\u5cf6\u3068\u30de\u30af\u30c9\u30ca\u30eb\u30c9\u8af8\u5cf6"
+            },
+            "nld": {
+                "common": "Heard-en McDonaldeilanden",
+                "official": "Heard en McDonaldeilanden"
+            },
+            "por": {
+                "common": "Ilha Heard e Ilhas McDonald",
+                "official": "Ilha Heard e Ilhas McDonald"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0425\u0435\u0440\u0434 \u0438 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041c\u0430\u043a\u0434\u043e\u043d\u0430\u043b\u044c\u0434",
+                "official": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0425\u0435\u0440\u0434 \u0438 \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041c\u0430\u043a\u0434\u043e\u043d\u0430\u043b\u044c\u0434"
+            },
+            "slk": {
+                "common": "Heardov ostrov",
+                "official": "Terit\u00f3rium Heardovho ostrova a Macdonaldov\u00fdch ostrovov"
+            },
+            "spa": {
+                "common": "Islas Heard y McDonald",
+                "official": "Islas Heard y McDonald"
+            },
+            "zho": {
+                "common": "\u8d6b\u5fb7\u5c9b\u548c\u9ea6\u5f53\u52b3\u7fa4\u5c9b",
+                "official": "\u8d6b\u5fb7\u5c9b\u548c\u9ea6\u5f53\u52b3\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "-099",
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikipedia": "-99.00",
+        "woe_id": "28289411.00",
+        "woe_id_eh": "28289411.00",
+        "woe_note": "Exact WOE match as country"
+    },
     "iso_3166_1_alpha2": "HM",
     "iso_3166_1_alpha3": "HMD",
     "iso_3166_1_numeric": "334",
@@ -120,10 +486,10 @@
     "lastcensus": "-99.00",
     "level": "2.00",
     "long_len": "29.00",
-    "mapcolor13": "7.00",
     "mapcolor7": "1.00",
     "mapcolor8": "2.00",
     "mapcolor9": "2.00",
+    "mapcolor13": "7.00",
     "max_label": "9.50",
     "min_label": "4.50",
     "min_zoom": "0.00",
@@ -153,6 +519,7 @@
     "scalerank": "5",
     "sov_a3": "AU1",
     "sovereignt": "Australia",
+    "status": "officially-assigned",
     "su_a3": "HMD",
     "su_dif": "0.00",
     "subregion_nev": "Seven seas (open ocean)",

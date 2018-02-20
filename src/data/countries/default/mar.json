@@ -13,11 +13,19 @@
         "Kingdom of Morocco",
         "Al-Mamlakah al-Ma\u0121ribiyah"
     ],
+    "borders": [
+        "DZA",
+        "ESH",
+        "ESP"
+    ],
     "brk_a3": "MAR",
     "brk_diff": "0.00",
     "brk_group": "",
     "brk_name": "Morocco",
-    "capital": "Rabat",
+    "capital": [
+        "Rabat"
+    ],
+    "capital_rinvex": "Rabat",
     "cca2": "MA",
     "cca3": "MAR",
     "ccn3": "504",
@@ -128,10 +136,10 @@
     "lastcensus": "2004.00",
     "level": "2.00",
     "long_len": "7.00",
-    "mapcolor13": "9.00",
     "mapcolor7": "2.00",
     "mapcolor8": "2.00",
     "mapcolor9": "3.00",
+    "mapcolor13": "9.00",
     "max_label": "8.00",
     "min_label": "3.00",
     "min_zoom": "0.00",
@@ -165,6 +173,7 @@
     "scalerank": "0",
     "sov_a3": "MAR",
     "sovereignt": "Morocco",
+    "status": "officially-assigned",
     "su_a3": "MAR",
     "su_dif": "0.00",
     "subunit": "Morocco",
