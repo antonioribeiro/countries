@@ -86,7 +86,7 @@ class Helper
      * @param $dir
      * @param $files
      */
-    protected function deleteAllFiles($dir, $files): void
+    protected function deleteAllFiles($dir, $files)
     {
         foreach ($files as $file) {
             (is_dir("$dir/$file"))
@@ -258,7 +258,7 @@ class Helper
      * @param $path
      * @param $exclude
      */
-    protected function renameMasterToPackage($file, $subPath, $path, $exclude): void
+    protected function renameMasterToPackage($file, $subPath, $path, $exclude)
     {
         if (ends_with($file, 'master.zip')) {
             $dir = coollect(scandir($path))->filter(function ($file) use ($exclude) {
