@@ -36,7 +36,8 @@
 
     "require-dev": {
         "phpunit/phpunit": "~6.0|~7.0",
-        "squizlabs/php_codesniffer": "^2.3"
+        "squizlabs/php_codesniffer": "^2.3",
+        "gasparesganga/php-shapefile": "^2.4"
     },
 
     "autoload": {
