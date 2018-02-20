@@ -18,10 +18,10 @@ return [
         'after' => false,
 
         'elements' => [
+            'flag' => true,
             'borders' => false,
             'cities' => false,
             'currencies' => false,
-            'flag' => false,
             'geometry' => false,
             'states' => false,
             'taxes' => false,
