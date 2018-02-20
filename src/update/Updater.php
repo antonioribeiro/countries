@@ -9,7 +9,6 @@ use PragmaRX\Countries\Package\Services\Cache;
 use PragmaRX\Countries\Package\Contracts\Config;
 use PragmaRX\Countries\Package\Services\Command;
 use PragmaRX\Countries\Package\Services\Config as ConfigService;
-use PragmaRX\Countries\Package\Contracts\Config as ConfigContract;
 
 /**
  * @codeCoverageIgnore
@@ -87,11 +86,16 @@ class Updater extends Base
     private $cache;
 
     /**
+     * @var Nationality
+     */
+    private $nationality;
+
+    /**
      * Updater constructor.
-     * @param ConfigContract $config
+     * @param object $config
      * @param Helper $helper
      */
-    public function __construct(ConfigContract $config, Helper $helper)
+    public function __construct($config, Helper $helper)
     {
         $this->config = $config;
 
@@ -121,6 +125,8 @@ class Updater extends Base
 
         $this->timezones = new Timezones($this->helper, $this);
 
+        $this->nationality = new Nationality($this->helper, $this);
+
         $this->init();
     }
 
@@ -147,6 +153,13 @@ class Updater extends Base
             : $command;
     }
 
+    private function loadCountries()
+    {
+        if (is_null($this->_countries)) {
+            $this->_countries = $this->helper->loadJson(__DIR__.'/../data/countries/default/_all_countries.json');
+        }
+    }
+
     /**
      * @param mixed $countries
      */
@@ -169,6 +182,8 @@ class Updater extends Base
         $this->countries->update();
 
         $this->currencies->update();
+
+        $this->loadCountries();
 
         $this->states->update();
 
@@ -250,7 +265,9 @@ class Updater extends Base
     public function findByFields($on, $by, $fields, $codeField)
     {
         foreach ($fields as $field) {
-            if (isset($by[$field[1]]) && ! is_null($found = $on->where($field[0], $by[$field[1]])->first())) {
+            $found = $on->where($field[0], $by[$field[1]])->first();
+
+            if (isset($by[$field[1]]) && ! is_null($found) && $found->count() > 0) {
                 return [coollect($found), $found->{$codeField}];
             }
         }
@@ -329,11 +346,17 @@ class Updater extends Base
      */
     public function normalizeData($result, $dir, $normalizerClosure)
     {
+        $counter = 0;
+
         return $this->cache->remember(
             'normalizeData'.$dir,
             160,
-            function () use ($dir, $result, $normalizerClosure) {
-                return coollect($result)->map(function ($item, $key) use ($normalizerClosure) {
+            function () use ($dir, $result, $normalizerClosure, &$counter) {
+                return coollect($result)->map(function ($item, $key) use ($normalizerClosure, &$counter) {
+                    if ($counter++ % 1000 === 0) {
+                        $this->helper->message("Normalized: {$counter}");
+                    }
+
                     return $normalizerClosure(coollect($item)->mapWithKeys(function ($value, $key) {
                         return [strtolower($key) => $value];
                     }), $key);

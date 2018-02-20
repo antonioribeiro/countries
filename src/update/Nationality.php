@@ -5,7 +5,7 @@ namespace PragmaRX\Countries\Update;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
 
-class Mledoze extends Base
+class Nationality extends Base
 {
     /**
      * @var Helper
@@ -18,30 +18,22 @@ class Mledoze extends Base
     protected $updater;
 
     /**
-     * @var Natural
-     */
-    private $natural;
-
-    /**
      * Rinvex constructor.
      *
      * @param Helper $helper
-     * @param Natural $natural
      * @param Updater $updater
      */
-    public function __construct(Helper $helper, Natural $natural, Updater $updater)
+    public function __construct(Helper $helper, Updater $updater)
     {
         $this->helper = $helper;
 
         $this->updater = $updater;
-
-        $this->natural = $natural;
     }
 
     /**
      * @return Coollection
      */
-    public function loadMledozeCountries()
+    public function load()
     {
         $mledoze = coollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
             $country
@@ -104,15 +96,6 @@ class Mledoze extends Base
         return [coollect(), $countryCode];
     }
 
-    private function makeFlag($result)
-    {
-        if (isset($result['flag']) && is_string($result['flag'])) {
-            $result['flag'] = ['emoji' => $result['flag']];
-        }
-
-        return $result;
-    }
-
     /**
      * Merge the two countries sources.
      *
@@ -153,8 +136,6 @@ class Mledoze extends Base
 
             $result[$key] = $mledozeValue; // Natural Earth Vector
         }
-
-        $result = $this->makeFlag($result);
 
         return coollect($result)->sortBy(function ($value, $key) {
             return $key;
