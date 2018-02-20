@@ -49,7 +49,7 @@ class Rinvex extends Base
     {
         $mergeable = [
             'calling_code' => 'dialling',
-            'borders'      => 'geo',
+//            'borders'      => 'geo',
             'area'         => 'geo',
             'continent'    => 'geo',
             'landlocked'   => 'geo',
@@ -172,6 +172,7 @@ class Rinvex extends Base
         $merge = coollect([
             'geo',
             'translations',
+            'flag',
         ]);
 
         $natural = $this->fillRinvexFields($natural);

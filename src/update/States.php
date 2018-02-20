@@ -60,7 +60,13 @@ class States
             return $this->makeStatePostalCode($item);
         };
 
-        $mergerClosure = function ($states) {
+        $counter = 0;
+
+        $mergerClosure = function ($states) use (&$counter) {
+            if ($counter++ % 100 === 0) {
+                $this->helper->message("Processed: $counter");
+            }
+
             return $this->rinvex->mergeCountryStatesWithRinvex($states);
         };
 

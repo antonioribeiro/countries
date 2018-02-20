@@ -2,9 +2,7 @@
 
 namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Countries\Package\Contracts\Config as ConfigContract;
-
-class Config implements ConfigContract
+class Config
 {
     protected $data = [
         'downloadable' => [
@@ -43,6 +41,8 @@ class Config implements ConfigContract
             'timezonedb' => 'https://timezonedb.com/files/timezonedb.csv.zip',
 
             'world-currencies' => 'https://github.com/antonioribeiro/world-currencies/archive/master.zip',
+
+            'country-nationality-list' => 'https://github.com/Dinu/country-nationality-list/archive/master.zip',
         ],
 
         'moveable' => [

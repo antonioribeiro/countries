@@ -100,7 +100,11 @@ class Countries extends Base
 
         $mledoze = $this->mledoze->loadMledozeCountries();
 
-        $countries = coollect($this->helper->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries'))->map(function ($country) {
+        $shapeFile = $this->helper->loadShapeFile('third-party/natural_earth/ne_10m_admin_0_countries');
+
+        $this->helper->message('Generating countries...');
+
+        $countries = coollect($shapeFile)->map(function ($country) {
             return $this->natural->fixNaturalOddCountries($country);
         })->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
             list($mledoze, $countryCode) = $this->mledoze->findMledozeCountry($mledoze, $natural);
@@ -136,6 +140,8 @@ class Countries extends Base
                 $result->toJson(JSON_PRETTY_PRINT)
             );
 
+            $this->helper->message($result['name']['common']);
+
             return [$countryCode => $result];
         });
 
@@ -145,7 +151,7 @@ class Countries extends Base
     public function clearCountryCurrencies($country)
     {
         if (isset($country['currency']) && ! is_null($country['currency'])) {
-            $country['currencies'] = array_keys($country['currency']);
+            $country['currencies'] = $country['currency']->keys();
 
             unset($country['currency']);
         } else {

@@ -9,7 +9,6 @@ use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
 use PragmaRX\Countries\Package\Services\Command;
 use PragmaRX\Countries\Package\Services\Helper as ServiceHelper;
-use PragmaRX\Countries\Package\Contracts\Config as ConfigContract;
 
 class Helper
 {
@@ -31,9 +30,9 @@ class Helper
     /**
      * Rinvex constructor.
      *
-     * @param ConfigContract $config
+     * @param object $config
      */
-    public function __construct(ConfigContract $config)
+    public function __construct($config)
     {
         $this->config = $config;
 
@@ -465,6 +464,8 @@ class Helper
         $this->progress('Loading shape file...');
 
         if (file_exists($sha = $this->dataDir('tmp/'.sha1($file = $this->dataDir($file))))) {
+            $this->progress('Loaded.');
+
             return $this->loadJson($sha);
         }
 
@@ -473,6 +474,8 @@ class Helper
         $this->mkDir(dirname($sha));
 
         file_put_contents($sha, $shapeFile->toJson());
+
+        $this->progress('Loaded.');
 
         return $shapeFile;
     }
