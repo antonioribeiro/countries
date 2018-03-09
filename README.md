@@ -91,7 +91,7 @@ $countries = new Countries(new Config([
 
 ## Usage
 
-The package is based on Laravel Collections, so you basically have access to all methods in Collections, like
+This package is not tied to Laravel and doesn't require it to be installed (we have a [bridge](https://github.com/antonioribeiro/countries-laravel) for this purpose), but it has [Laravel Collections](https://laravel.com/docs/5.6/collections) in its core, all methods in Collections are available, this way you can do things like filter, map, reduce, search, sort, reject, and a lot more:
 
 ```php
 $all = Countries::all();
@@ -413,57 +413,6 @@ returns
 ]
 ```
 
-### Validation
-
-The validation is extending Laravel's validation, so you can use it like any other validation rules, like
-
-```php
-/**
- * Store a new blog post.
- *
- * @param  Request  $request
- * @return Response
- */
-public function store(Request $request)
-{
-    $this->validate($request, [
-        'title' => 'required|unique:posts|max:255',
-        'body' => 'required',
-        'country' => 'country' //Checks if valid name.common
-    ]);
-
-    // The blog post is valid, store in database...
-}
-```
-
-Which validation rules there is and what there name should be, can all be configured in the configuration file.
-
-```php
-'validation' => [
-    'rules' => [
-	    'countryCommon' => 'name.common'
-	]
-]
-```
-
-By changing the configuration like this, we can now access the property `name.common`, by the validation rule `countryCommon`
-
-You have to define all the validations rules in settings, only a few is defined by default, the default is
-
-```php
-'rules' 	=> [
-    'country' 			=> 'name.common',
-    'cca2',
-    'cca2',
-    'cca3',
-    'ccn3',
-    'cioc',
-    'currencies'			=> 'ISO4217',
-    'language',
-    'language_short'	=> 'ISO639_3',
-]
-```
-
 ## Publishing assets
 
 You can publish configuration by doing:
@@ -496,7 +445,7 @@ If you want to change this behaviour, you can edit `config/countries.php` file o
 
 ## Copyrights
 
-To build the countries database and relations, this package make use of those sources:
+To build the countries database and relations, this package make use of those sources and packages:
 
 - [mledoze/countries](https://github.com/mledoze/countries)
 - [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector)
