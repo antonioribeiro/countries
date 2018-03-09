@@ -58,11 +58,11 @@ composer require pragmarx/countries
 ```php
 use PragmaRX\Countries\Package\Countries;
 
-echo (new Countries())->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
+echo $countries->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
 
 // or calling it statically
 
-echo Countries::where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
+echo $countries->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
 ```
 
 Should both return 
@@ -91,18 +91,28 @@ $countries = new Countries(new Config([
 
 ## Usage
 
-This package is not tied to Laravel and doesn't require it to be installed (we have a [bridge](https://github.com/antonioribeiro/countries-laravel) for this purpose), but it has [Laravel Collections](https://laravel.com/docs/5.6/collections) in its core, all methods in Collections are available, this way you can do things like filter, map, reduce, search, sort, reject, and a lot more:
+This package is not tied to Laravel and doesn't require it to be installed (we have a [bridge](https://github.com/antonioribeiro/countries-laravel) for this purpose), but it has [Laravel Collections](https://laravel.com/docs/5.6/collections) in its core, all methods in Collections are available, this way you can do things like filter, map, reduce, search, sort, reject, and a lot more. It, actually, uses [Coollection](https://github.com/antonioribeiro/coollection), which is Laravel Collections with a fluent syntax, allowing us to have access to array properties as object properties.
+
+To get all countries in the data base you just have to:
 
 ```php
-$all = Countries::all();
+use PragmaRX\Countries\Package\Countries;
+
+$countries = new Countries();
+
+$all = $countries->all();
 ```
 
-You, obviously, don't need to use the Facade, you can just get it from the app container:
-
-This filter
+To get a json you:
 
 ```php
-Countries::where('name.common', 'Brazil')
+return $countries->toJson();
+```
+
+Filter by keys and values:
+
+```php
+$countries->where('name.common', 'Brazil')
 ```
 
 Will find Brazil by its common name, which is a
@@ -124,19 +134,19 @@ Will find Brazil by its common name, which is a
 Or alternatively you can filter like this
 
 ```php
-Countries::whereNameCommon('Brazil')
+$countries->whereNameCommon('Brazil')
 ```
 
 And, you can go deepeer
 
 ```php
-Countries::where('name.native.por.common', 'Brasil')
+$countries->where('name.native.por.common', 'Brasil')
 ```
 
 Or search by the country top level domain
 
 ```php
-Countries::where('tld.0', '.ch')
+$countries->where('tld.0', '.ch')
 ```
 
 To get
@@ -154,7 +164,7 @@ To get
 And use things like pluck
 
 ```php
-Countries::where('cca3', 'USA')->first()->hydrateStates()->states->pluck('name', 'postal')
+$countries->where('cca3', 'USA')->first()->hydrateStates()->states->pluck('name', 'postal')
 ```
 
 To get
@@ -170,7 +180,7 @@ To get
 The package uses a modified Collection which allows you to access properties and methods as objects:
 
 ```php
-Countries::where('cca3', 'FRA')
+$countries->where('cca3', 'FRA')
          ->first()
          ->borders
          ->first()
@@ -187,7 +197,7 @@ Principality of Andorra
 Borders hydration is disabled by default, but you can have your borders hydrated easily by calling the hydrate method:
 
 ```php
-Countries::where('name.common', 'United Kingdom')
+$countries->where('name.common', 'United Kingdom')
          ->hydrate('borders')
          ->first()
          ->borders
@@ -208,9 +218,9 @@ Ireland
 To improve performance, hydration, which is enabled by default, can be disable on most country properties, and this is how you manually hydrate properties:
 
 ```php
-Countries::where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
+$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
 
-Countries::where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
+$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
 ```
 
 Those are some of the hydratable properties:
@@ -233,8 +243,8 @@ Some properties are stored differently and we therefore need special rules for a
 
 You can of course access them like other properties
 ```php
-Countries::whereISO639_3('por')->count()
-Countries::where('ISO639_3', 'por')->count()
+$countries->whereISO639_3('por')->count()
+$countries->where('ISO639_3', 'por')->count()
 ```
 
 ### Mapping
@@ -247,11 +257,11 @@ Sometimes you would like to access a property by a different name, this can be d
 Here we bind the language 3 letter short code ISO format to `lca3`, which is short for `language code alpha 3-letter`.
 So now we can access the property by
 ```php
-Countries::whereLca3('por')
+$countries->whereLca3('por')
 ```
 Or
 ```php
-Countries::where('lca3', 'por')
+$countries->where('lca3', 'por')
 ```
 
 ## Some other examples from **Laravel News** and some other contributors
@@ -259,7 +269,7 @@ Countries::where('lca3', 'por')
 #### Generate a list of countries
 
 ```php
-Countries::all()->pluck('name.common');
+$countries->all()->pluck('name.common');
 ```
 
 returns
@@ -277,25 +287,25 @@ returns
 #### Generate a list of currencies
 
 ```php
-Countries::all()->pluck('currencies');
+$countries->all()->pluck('currencies');
 ```
 
 returns
 
 ```php
-Countries::all()->pluck('currencies')
+$countries->all()->pluck('currencies')
 ```
 
 #### Get the currency symbol
 
 ```php
-Countries::where('name.common', 'Brazil')->first()->hydrate('currency')->currencies->BRL->units->major->symbol
+$countries->where('name.common', 'Brazil')->first()->hydrate('currency')->currencies->BRL->units->major->symbol
 ```
 
 #### Generate a list of States
 
 ```php
-Countries::where('name.common', 'United States')
+$countries->where('name.common', 'United States')
     ->first()
     ->hydrateStates()
     ->states
@@ -319,7 +329,7 @@ returns
 #### Hydrate and get a cities
 
 ```php
-Countries::where('cca3', 'FRA')
+$countries->where('cca3', 'FRA')
     ->first()
     ->hydrate('cities')
     ->cities
@@ -336,7 +346,7 @@ Europe/Paris
 #### Get a countries currency
 
 ```php
-Countries::where('name.common', 'United States')->first()->currency;
+$countries->where('name.common', 'United States')->first()->currency;
 ```
 
 returns
@@ -355,7 +365,7 @@ returns
 #### Get all currencies
 
 ```php
-Countries::currencies()
+$countries->currencies()
 ```
 
 returns
@@ -379,7 +389,7 @@ returns
 #### Get the timezone for a State
 
 ```php
-return Countries::where('name.common', 'United States')->first()->timezone->NC;
+return $countries->where('name.common', 'United States')->first()->timezone->NC;
 ```
 
 returns
@@ -391,7 +401,7 @@ America/New_York
 #### Get all timezones for a country
 
 ```php
-(new Countries())->where('name.common', 'Brazil')
+$countries->where('name.common', 'Brazil')
   ->first()
   ->hydrateTimezones()
   ->timezones
@@ -405,7 +415,7 @@ America/New_York
 #### Get all times for a timezone
 
 ```php
-return Countries::where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times;
+return $countries->where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times;
 ```
 
 returns
