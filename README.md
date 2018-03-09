@@ -91,7 +91,7 @@ $countries = new Countries(new Config([
 
 ## Usage
 
-This package is not tied to Laravel and doesn't require it to be installed (we have a [bridge](https://github.com/antonioribeiro/countries-laravel) for this purpose), but it has [Laravel Collections](https://laravel.com/docs/5.6/collections) in its core, all methods in Collections are available, this way you can do things like filter, map, reduce, search, sort, reject, and a lot more. It, actually, uses [Coollection](https://github.com/antonioribeiro/coollection), which is Laravel Collections with a fluent syntax, allowing us to have access to array properties as object properties.
+This package is not tied to Laravel and doesn't require it to be installed (we have a [bridge](https://github.com/antonioribeiro/countries-laravel) for this purpose), but it has [Laravel Collections](https://laravel.com/docs/5.6/collections) in its core, all methods in Collections are available, this way you can do things like filter, map, reduce, search, sort, reject, and a lot more. It, actually, uses [Coollection](https://github.com/antonioribeiro/coollection), which is Laravel Collections with a fluent syntax, allowing us to have access to array keys (and values) as object properties.
 
 To get all countries in the data base you just have to:
 
