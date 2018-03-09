@@ -388,6 +388,20 @@ returns
 America/New_York
 ```
 
+#### Get all timezones for a country
+
+```php
+(new Countries())->where('name.common', 'Brazil')
+  ->first()
+  ->hydrateTimezones()
+  ->timezones
+  ->map(function ($timezone) {
+      return $timezone->zone_name;
+  })->values()
+  ->unique()
+  ->toArray()
+```
+
 #### Get all times for a timezone
 
 ```php
