@@ -2,6 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
+use Exception;
+
 class Helper
 {
     /**
