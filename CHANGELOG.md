@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.7 - 2018-03-13
+### Fixed
+- Missing Exception class
+
 ## 0.5.5 - 2018-02-17
 ### Changed
 - Removed hard coded cache set to 10 minutes
