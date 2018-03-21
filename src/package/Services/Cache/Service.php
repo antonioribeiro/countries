@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Package\Services\Cache;
 
 use Closure;
-use PragmaRX\Countries\Package\Services\Config;
 use Psr\SimpleCache\CacheInterface;
+use PragmaRX\Countries\Package\Services\Config;
 use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
 
 class Service implements CacheInterface
