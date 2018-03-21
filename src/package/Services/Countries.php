@@ -6,6 +6,7 @@ use PragmaRX\Countries\Update\Updater;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Data\Repository;
+use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 
 class Countries extends Base
 {
@@ -65,6 +66,8 @@ class Countries extends Base
         Hydrator $hydrator = null,
         Repository $repository = null
     ) {
+        $a = new \PragmaRX\Countries\Package\Services\Cache\Service();
+
         $this->helper = $this->instantiateHelper($helper);
 
         $this->config = $this->instantiateConfig($config);
