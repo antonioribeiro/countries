@@ -4,7 +4,7 @@ namespace PragmaRX\Countries\Update;
 
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Services\Cache;
+use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Services\Config;
 
 class Timezones extends Base

@@ -1,12 +1,13 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace PragmaRX\Countries\Package\Services\Cache;
 
 use Closure;
+use PragmaRX\Countries\Package\Services\Config;
 use Psr\SimpleCache\CacheInterface;
 use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
 
-class Cache implements CacheInterface
+class Service implements CacheInterface
 {
     /**
      * Cache.

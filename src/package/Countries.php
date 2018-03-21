@@ -2,7 +2,7 @@
 
 namespace PragmaRX\Countries\Package;
 
-use PragmaRX\Countries\Package\Services\Cache;
+use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Helper;
 use PragmaRX\Countries\Package\Services\Hydrator;
