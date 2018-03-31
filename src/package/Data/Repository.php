@@ -231,8 +231,8 @@ class Repository
             'sprite' => '<span class="flag flag-'.($flag = strtolower($country['cca3'])).'"></span>',
 
             // https://github.com/lipis/flag-icon-css
-            'flag-icon' => '<span class="flag-icon flag-icon-'.(strtolower($country['iso_a2']).'"></span>',
-            'flag-icon-squared' => '<span class="flag-icon flag-icon-'.(strtolower($country['iso_a2']).' flag-icon-squared"></span>',
+            'flag-icon' => '<span class="flag-icon flag-icon-'.(strtolower($country['iso_a2'])).'"></span>',
+            'flag-icon-squared' => '<span class="flag-icon flag-icon-'.(strtolower($country['iso_a2'])).' flag-icon-squared"></span>',
 
             // https://github.com/lafeber/world-flags-sprite
             'world-flags-sprite' => '<span class="flag '.$flag.'"></span>',
