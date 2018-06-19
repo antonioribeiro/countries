@@ -474,7 +474,6 @@ To build the countries database and relations, this package make use of those so
 - [mledoze/countries](https://github.com/mledoze/countries)
 - [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector)
 - [rinvex/country](https://github.com/rinvex/country)
-- [rinvex/country](https://github.com/rinvex/country)
 - [commerceguys/tax](https://github.com/commerceguys/tax)
 - [timezonedb](https://timezonedb.com/)
 - [wiredmax/world-currencies](https://github.com/wiredmax/world-currencies)
