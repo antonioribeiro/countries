@@ -439,7 +439,7 @@ returns
 
 ## Flags
 
-Countries provides many different flag sources, this is how you use one of the avaiable:
+Countries provides many different flag sources, including SVG flags. This is how you use one of the avaiable sources:
 
 ### Install [flag-icon](https://github.com/lipis/flag-icon-css)
 
