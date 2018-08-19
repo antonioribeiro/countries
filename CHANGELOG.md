@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0 - 2018-08-19
+### Fixed
+- flag-icon tag
+### Changed 
+- Countries service directory
+
 ## 0.5.7 - 2018-03-13
 ### Fixed
 - Missing Exception class
