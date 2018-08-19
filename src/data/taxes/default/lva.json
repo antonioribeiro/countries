@@ -61,6 +61,17 @@
                 ],
                 "id": "lv_vat_reduced",
                 "name": "Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "id": "lv_vat_super_reduced_2018",
+                        "start_date": "2018-01-01"
+                    }
+                ],
+                "id": "lv_vat_super_reduced",
+                "name": "Super Reduced"
             }
         ],
         "record_type": "tax",

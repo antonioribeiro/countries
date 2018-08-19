@@ -469,6 +469,8 @@ class Helper
             return $this->loadJson($sha);
         }
 
+        $this->progress($file);
+
         $shapeFile = $this->shapeFile($file);
 
         $this->mkDir(dirname($sha));

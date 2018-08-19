@@ -25,8 +25,14 @@
                     },
                     {
                         "amount": 0.23,
+                        "end_date": "2016-05-31",
                         "id": "gr_vat_standard_2010_07",
                         "start_date": "2010-07-01"
+                    },
+                    {
+                        "amount": 0.24,
+                        "id": "gr_vat_standard_2016_06",
+                        "start_date": "2016-06-01"
                     }
                 ],
                 "default": true,
