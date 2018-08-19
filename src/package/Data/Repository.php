@@ -228,14 +228,14 @@ class Repository
         return [
             // https://www.flag-sprites.com/
             // https://github.com/LeoColomb/flag-sprites
-            'sprite' => '<span class="flag flag-'.($flag = strtolower($country['cca3'])).'"></span>',
+            'sprite' => '<span class="flag flag-'.($cca3 = strtolower($country['cca3'])).'"></span>',
 
             // https://github.com/lipis/flag-icon-css
-            'flag-icon' => '<span class="flag-icon flag-icon-'.$flag.'"></span>',
-            'flag-icon-squared' => '<span class="flag-icon flag-icon-'.$flag.' flag-icon-squared"></span>',
+            'flag-icon' => '<span class="flag-icon flag-icon-'.($cca2 = strtolower($country['cca2'])).'"></span>',
+            'flag-icon-squared' => '<span class="flag-icon flag-icon-'.$cca2.' flag-icon-squared"></span>',
 
             // https://github.com/lafeber/world-flags-sprite
-            'world-flags-sprite' => '<span class="flag '.$flag.'"></span>',
+            'world-flags-sprite' => '<span class="flag '.$cca3.'"></span>',
 
             // Internal svg file
             'svg' => $this->getFlagSvg($country['cca3']),
