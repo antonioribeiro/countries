@@ -439,7 +439,7 @@ returns
 
 ## Flags
 
-There are many flag sources, this is how you use one of those:
+Countries provides many different flag sources, this is how you use one of the avaiable:
 
 ### Install [flag-icon](https://github.com/lipis/flag-icon-css)
 
@@ -463,7 +463,7 @@ $unitedStatesFlag =
     ->flag_icon;
 ```
 
-### Use it in your blade template
+### Render it in your blade template
 
 ```
 {!! $unitedStatesFlag !!}
