@@ -1,0 +1,31 @@
+{
+    "gst": {
+        "cca2": "ID",
+        "cca3": "IDN",
+        "data_sources": [
+            "commerceguys"
+        ],
+        "display_inclusive": true,
+        "generic_label": "GST",
+        "name": "Indonesian GST",
+        "rates": [
+            {
+                "amounts": [
+                    {
+                        "amount": 0.1,
+                        "id": "id_gst_standard",
+                        "start_date": "2012-01-01"
+                    }
+                ],
+                "default": true,
+                "id": "id_gst_standard",
+                "name": "Standard"
+            }
+        ],
+        "record_type": "tax",
+        "tax_modifier": "",
+        "tax_type": "gst",
+        "vat_id": "id_gst",
+        "zone": "id_gst"
+    }
+}
