@@ -437,6 +437,38 @@ returns
 ]
 ```
 
+## Flags
+
+There are many flag sources, this is how you use one of those:
+
+### Install [flag-icon](https://github.com/lipis/flag-icon-css)
+
+```
+npm install --save-dev flag-icon-css
+```
+
+### Import it to your project
+
+```
+@import '~flag-icon-css/sass/flag-icon.scss';
+```
+
+### Use Countries to get the flag span
+
+```
+$unitedStatesFlag = 
+    $this->countries->where('cca3', 'USA')
+    ->first()
+    ->flag
+    ->flag_icon;
+```
+
+### Use it in your blade template
+
+```
+{!! $unitedStatesFlag !!}
+```
+
 ## Publishing assets
 
 You can publish configuration by doing:
