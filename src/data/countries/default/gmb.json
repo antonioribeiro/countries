@@ -1,12 +1,12 @@
 {
     "abbrev": "Gambia",
-    "abbrev_len": "6.00",
+    "abbrev_len": "6",
     "adm0_a3": "GMB",
     "adm0_a3_is": "GMB",
-    "adm0_a3_un": "-99.00",
+    "adm0_a3_un": "-99",
     "adm0_a3_us": "GMB",
-    "adm0_a3_wb": "-99.00",
-    "adm0_dif": "0.00",
+    "adm0_a3_wb": "-99",
+    "adm0_dif": "",
     "admin": "Gambia",
     "alt_spellings": [
         "GM",
@@ -16,7 +16,7 @@
         "SEN"
     ],
     "brk_a3": "GMB",
-    "brk_diff": "0.00",
+    "brk_diff": "",
     "brk_group": "",
     "brk_name": "Gambia",
     "capital": [
@@ -78,7 +78,7 @@
     "formal_en": "Republic of the Gambia",
     "formal_fr": "",
     "gdp_md_est": "3387.00",
-    "gdp_year": "2016.00",
+    "gdp_year": "2016",
     "geo": {
         "area": 10689,
         "borders": [
@@ -110,10 +110,10 @@
         "subregion_code": "011",
         "world_region": "EMEA"
     },
-    "geou_dif": "0.00",
+    "geou_dif": "",
     "geounit": "Gambia",
     "gu_a3": "GMB",
-    "homepart": "1.00",
+    "homepart": "1",
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "GM",
@@ -123,20 +123,20 @@
     "iso_a3": "GMB",
     "iso_a3_eh": "GMB",
     "iso_n3": "270",
-    "labelrank": "6.00",
+    "labelrank": "6",
     "languages": {
         "eng": "English"
     },
-    "lastcensus": "2003.00",
-    "level": "2.00",
-    "long_len": "10.00",
-    "mapcolor7": "1.00",
-    "mapcolor8": "4.00",
-    "mapcolor9": "1.00",
-    "mapcolor13": "8.00",
-    "max_label": "10.00",
-    "min_label": "5.00",
-    "min_zoom": "0.00",
+    "lastcensus": "2003",
+    "level": "2",
+    "long_len": "10",
+    "mapcolor7": "1",
+    "mapcolor8": "4",
+    "mapcolor9": "1",
+    "mapcolor13": "8",
+    "max_label": "10.0",
+    "min_label": "5.0",
+    "min_zoom": "0.0",
     "name": {
         "common": "Gambia",
         "native": {
@@ -148,30 +148,56 @@
         "official": "Republic of the Gambia"
     },
     "name_alt": "",
+    "name_ar": "\u00d8\u00ba\u00d8\u00a7\u00d9\u0085\u00d8\u00a8\u00d9\u008a\u00d8\u00a7",
+    "name_bn": "\u00e0\u00a6\u0097\u00e0\u00a6\u00be\u00e0\u00a6\u00ae\u00e0\u00a7\u008d\u00e0\u00a6\u00ac\u00e0\u00a6\u00bf\u00e0\u00a6\u00af\u00e0\u00a6\u00bc\u00e0\u00a6\u00be",
     "name_ciawf": "Gambia, The",
-    "name_len": "6.00",
+    "name_de": "Gambia",
+    "name_el": "\u00ce\u0093\u00ce\u00ba\u00ce\u00ac\u00ce\u00bc\u00cf\u0080\u00ce\u00b9\u00ce\u00b1",
+    "name_en": "The Gambia",
+    "name_es": "Gambia",
+    "name_fr": "Gambie",
+    "name_hi": "\u00e0\u00a4\u0097\u00e0\u00a4\u00be\u00e0\u00a4\u00ae\u00e0\u00a5\u008d\u00e0\u00a4\u00ac\u00e0\u00a4\u00bf\u00e0\u00a4\u00af\u00e0\u00a4\u00be",
+    "name_hu": "Gambia",
+    "name_id": "Gambia",
+    "name_it": "Gambia",
+    "name_ja": "",
+    "name_ko": "\u00e3\u0082\u00ac\u00e3\u0083\u00b3\u00e3\u0083\u0093\u00e3\u0082\u00a2",
+    "name_len": "6",
     "name_long": "The Gambia",
     "name_nev": "Gambia",
+    "name_nl": "\u00ea\u00b0\u0090\u00eb\u00b9\u0084\u00ec\u0095\u0084",
+    "name_pl": "Gambia",
+    "name_pt": "Gambia",
+    "name_ru": "G\u00c3\u00a2mbia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d0\u00b0\u00d0\u00bc\u00d0\u00b1\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Gambia, The",
+    "name_sv": "",
+    "name_tr": "Gambia",
+    "name_vi": "Gambiya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gam",
+    "name_zh": "bia",
+    "ne_id": "1159320797",
     "note_adm0": "",
     "note_brk": "",
-    "pop_est": "2051363.00",
-    "pop_rank": "12.00",
-    "pop_year": "2017.00",
+    "pop_est": "2051363",
+    "pop_rank": "12",
+    "pop_year": "2017",
     "postal": "GM",
     "record_type": "country",
-    "scalerank": "0",
+    "scalerank": "",
     "sov_a3": "GMB",
     "sovereignt": "Gambia",
     "status": "officially-assigned",
     "su_a3": "GMB",
-    "su_dif": "0.00",
+    "su_dif": "",
     "subunit": "Gambia",
-    "tiny": "-99.00",
+    "tiny": "-99",
     "tld": [
         ".gm"
     ],
     "translations": {
+        "ces": {
+            "common": "Gambie",
+            "official": "Gambijsk\u00e1 republika"
+        },
         "deu": {
             "common": "Gambia",
             "official": "Republik Gambia"
@@ -214,7 +240,7 @@
         },
         "slk": {
             "common": "Gambia",
-            "official": "Gambijsk\/u00e1 republika"
+            "official": "Gambijsk\u00e1 republika"
         },
         "spa": {
             "common": "Gambia",
@@ -229,8 +255,9 @@
     "un_a3": "270",
     "wb_a2": "GM",
     "wb_a3": "GMB",
-    "wikipedia": "-99.00",
-    "woe_id": "23424821.00",
-    "woe_id_eh": "23424821.00",
+    "wikidataid": "Q1005",
+    "wikipedia": "-99",
+    "woe_id": "23424821",
+    "woe_id_eh": "23424821",
     "woe_note": "Exact WOE match as country"
 }
