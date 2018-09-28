@@ -437,6 +437,38 @@ returns
 ]
 ```
 
+## Flags
+
+Countries provides many different flag sources, including SVG flags. This is how you use one of the avaiable sources:
+
+### Install [flag-icon](https://github.com/lipis/flag-icon-css)
+
+```
+npm install --save-dev flag-icon-css
+```
+
+### Import it to your project
+
+```
+@import '~flag-icon-css/sass/flag-icon.scss';
+```
+
+### Use Countries to get the flag span
+
+```
+$unitedStatesFlag = 
+    $this->countries->where('cca3', 'USA')
+    ->first()
+    ->flag
+    ->flag_icon;
+```
+
+### Render it in your blade template
+
+```
+{!! $unitedStatesFlag !!}
+```
+
 ## Publishing assets
 
 You can publish configuration by doing:
@@ -473,7 +505,6 @@ To build the countries database and relations, this package make use of those so
 
 - [mledoze/countries](https://github.com/mledoze/countries)
 - [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector)
-- [rinvex/country](https://github.com/rinvex/country)
 - [rinvex/country](https://github.com/rinvex/country)
 - [commerceguys/tax](https://github.com/commerceguys/tax)
 - [timezonedb](https://timezonedb.com/)

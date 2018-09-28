@@ -1,12 +1,12 @@
 {
     "abbrev": "Neth.",
-    "abbrev_len": "5.00",
+    "abbrev_len": "5",
     "adm0_a3": "NLD",
     "adm0_a3_is": "NLD",
-    "adm0_a3_un": "-99.00",
+    "adm0_a3_un": "-99",
     "adm0_a3_us": "NLD",
-    "adm0_a3_wb": "-99.00",
-    "adm0_dif": "1.00",
+    "adm0_a3_wb": "-99",
+    "adm0_dif": "1",
     "admin": "Netherlands",
     "alt_spellings": [
         "NL",
@@ -24,7 +24,7 @@
         "DEU"
     ],
     "brk_a3": "NLD",
-    "brk_diff": "0.00",
+    "brk_diff": "",
     "brk_group": "",
     "brk_name": "Netherlands",
     "capital": [
@@ -93,7 +93,7 @@
     "formal_en": "Kingdom of the Netherlands",
     "formal_fr": "",
     "gdp_md_est": "870800.00",
-    "gdp_year": "2016.00",
+    "gdp_year": "2016",
     "geo": {
         "area": 41850,
         "borders": [
@@ -126,10 +126,10 @@
         "subregion_code": "155",
         "world_region": "EMEA"
     },
-    "geou_dif": "0.00",
+    "geou_dif": "",
     "geounit": "Netherlands",
     "gu_a3": "NLD",
-    "homepart": "1.00",
+    "homepart": "1",
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "NL",
@@ -139,20 +139,20 @@
     "iso_a3": "NLD",
     "iso_a3_eh": "NLD",
     "iso_n3": "528",
-    "labelrank": "5.00",
+    "labelrank": "5",
     "languages": {
         "nld": "Dutch"
     },
-    "lastcensus": "2011.00",
-    "level": "2.00",
-    "long_len": "11.00",
-    "mapcolor7": "4.00",
-    "mapcolor8": "2.00",
-    "mapcolor9": "2.00",
-    "mapcolor13": "9.00",
-    "max_label": "10.00",
-    "min_label": "5.00",
-    "min_zoom": "0.00",
+    "lastcensus": "2011",
+    "level": "2",
+    "long_len": "11",
+    "mapcolor7": "4",
+    "mapcolor8": "2",
+    "mapcolor9": "2",
+    "mapcolor13": "9",
+    "max_label": "10.0",
+    "min_label": "5.0",
+    "min_zoom": "0.0",
     "name": {
         "common": "Netherlands",
         "native": {
@@ -164,10 +164,26 @@
         "official": "Kingdom of the Netherlands"
     },
     "name_alt": "",
+    "name_ar": "\u00d9\u0087\u00d9\u0088\u00d9\u0084\u00d9\u0086\u00d8\u00af\u00d8\u00a7",
+    "name_bn": "\u00e0\u00a6\u00a8\u00e0\u00a7\u0087\u00e0\u00a6\u00a6\u00e0\u00a6\u00be\u00e0\u00a6\u00b0\u00e0\u00a6\u00b2\u00e0\u00a7\u008d\u00e0\u00a6\u00af\u00e0\u00a6\u00be\u00e0\u00a6\u00a8\u00e0\u00a7\u008d\u00e0\u00a6\u00a1\u00e0\u00a6\u00b8",
     "name_ciawf": "Netherlands",
-    "name_len": "11.00",
+    "name_de": "Niederlande",
+    "name_el": "\u00ce\u009f\u00ce\u00bb\u00ce\u00bb\u00ce\u00b1\u00ce\u00bd\u00ce\u00b4\u00ce\u00af\u00ce\u00b1",
+    "name_en": "Netherlands",
+    "name_es": "Pa\u00c3\u00adses Bajos",
+    "name_fr": "Pays-Bas",
+    "name_hi": "\u00e0\u00a4\u00a8\u00e0\u00a5\u0080\u00e0\u00a4\u00a6\u00e0\u00a4\u00b0\u00e0\u00a4\u00b2\u00e0\u00a5\u0088\u00e0\u00a4\u00a3\u00e0\u00a5\u008d\u00e0\u00a4\u00a1",
+    "name_hu": "Hollandia",
+    "name_id": "Belanda",
+    "name_it": "Paesi Bassi",
+    "name_ja": "",
+    "name_ko": "\u00e3\u0082\u00aa\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0080",
+    "name_len": "11",
     "name_long": "Netherlands",
     "name_nev": "Netherlands",
+    "name_nl": "\u00eb\u0084\u00a4\u00eb\u008d\u009c\u00eb\u009e\u0080\u00eb\u0093\u009c",
+    "name_pl": "Nederland",
+    "name_pt": "Holandia",
     "name_rinvex": {
         "common": "Netherlands",
         "native": {
@@ -178,26 +194,36 @@
         },
         "official": "Netherlands"
     },
+    "name_ru": "Pa\u00c3\u00adses Baixos\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00b8\u00d0\u00b4\u00d0\u00b5\u00d1\u0080\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u008b",
     "name_sort": "Netherlands",
+    "name_sv": "",
+    "name_tr": "Nederl\u00c3\u00a4nderna",
+    "name_vi": "Hollanda\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000H\u00c3\u00a0",
+    "name_zh": "Lan",
+    "ne_id": "1159321101",
     "note_adm0": "",
     "note_brk": "",
-    "pop_est": "17084719.00",
-    "pop_rank": "14.00",
-    "pop_year": "2017.00",
+    "pop_est": "17084719",
+    "pop_rank": "14",
+    "pop_year": "2017",
     "postal": "NL",
     "record_type": "country",
-    "scalerank": "0",
+    "scalerank": "",
     "sov_a3": "NL1",
     "sovereignt": "Netherlands",
     "status": "officially-assigned",
     "su_a3": "NLD",
-    "su_dif": "0.00",
+    "su_dif": "",
     "subunit": "Netherlands",
-    "tiny": "-99.00",
+    "tiny": "-99",
     "tld": [
         ".nl"
     ],
     "translations": {
+        "ces": {
+            "common": "Nizozemsko",
+            "official": "Nizozemsk\u00e9 kr\u00e1lovstv\u00ed"
+        },
         "deu": {
             "common": "Niederlande",
             "official": "Niederlande"
@@ -255,8 +281,9 @@
     "un_a3": "528",
     "wb_a2": "NL",
     "wb_a3": "NLD",
-    "wikipedia": "-99.00",
-    "woe_id": "-90.00",
-    "woe_id_eh": "23424909.00",
+    "wikidataid": "Q55",
+    "wikipedia": "-99",
+    "woe_id": "-90",
+    "woe_id_eh": "23424909",
     "woe_note": "Doesn't include new former units of Netherlands Antilles (24549811, 24549808, and 24549809)"
 }
