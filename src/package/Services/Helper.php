@@ -70,7 +70,7 @@ class Helper
     public function loadJsonFiles($dir)
     {
         return coollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
-            $key = str_replace(array('.json5', '.json'), '', basename($file));
+            $key = str_replace(['.json5', '.json'], '', basename($file));
 
             return [$key => $this->loadJson($file)];
         });
