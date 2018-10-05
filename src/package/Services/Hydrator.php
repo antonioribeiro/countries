@@ -132,7 +132,7 @@ class Hydrator
      */
     private function isCountry($element)
     {
-        return ($element instanceof Coollection || is_array($element)) && isset($element['cca3']);
+        return ($element instanceof Coollection || \is_array($element)) && isset($element['cca3']);
     }
 
     /**
@@ -143,7 +143,7 @@ class Hydrator
      */
     private function isCurrenciesArray($data)
     {
-        return is_array($data) && isset($data['ISO4217Code']);
+        return \is_array($data) && isset($data['ISO4217Code']);
     }
 
     /**
@@ -274,7 +274,7 @@ class Hydrator
     {
         $elements = ($elements ?: $this->config->get('hydrate.elements'));
 
-        if (is_string($elements) || is_numeric($elements)) {
+        if (\is_string($elements) || is_numeric($elements)) {
             return [$elements => true];
         }
 

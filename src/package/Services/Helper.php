@@ -54,7 +54,7 @@ class Helper
 
         $decoded = json5_decode($this->loadFile($file), true);
 
-        if (is_null($decoded)) {
+        if (\is_null($decoded)) {
             throw new Exception("Error decoding json file: $file");
         }
 
@@ -70,7 +70,7 @@ class Helper
     public function loadJsonFiles($dir)
     {
         return coollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
-            $key = str_replace('.json', '', str_replace('.json5', '', basename($file)));
+            $key = str_replace(array('.json5', '.json'), '', basename($file));
 
             return [$key => $this->loadJson($file)];
         });

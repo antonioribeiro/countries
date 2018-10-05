@@ -45,7 +45,7 @@ class Countries
      */
     public function __call($name, array $arguments = [])
     {
-        return call_user_func_array([$this->countriesService, $name], $arguments);
+        return \call_user_func_array([$this->countriesService, $name], $arguments);
     }
 
     /**
@@ -57,6 +57,6 @@ class Countries
      */
     public static function __callStatic($name, array $arguments = [])
     {
-        return call_user_func_array([new static(), $name], $arguments);
+        return \call_user_func_array([new static(), $name], $arguments);
     }
 }

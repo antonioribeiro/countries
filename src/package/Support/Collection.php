@@ -17,11 +17,13 @@ class Collection extends Coollection
      */
     public function __call($name, $arguments)
     {
-        if (starts_with($name, 'where') && $name !== 'where') {
+        if ($name !== 'where' && starts_with($name, 'where')) {
             $name = strtolower(preg_replace('/([A-Z])/', '.$1', lcfirst(substr($name, 5))));
-            if (count($arguments) == 2) {
+            if (\count($arguments) === 2) {
                 return $this->where($name, $arguments[0], $arguments[1]);
-            } elseif (count($arguments) == 1) {
+            }
+
+            if (\count($arguments) === 1) {
                 return $this->where($name, $arguments[0]);
             }
         }
@@ -50,7 +52,7 @@ class Collection extends Coollection
      */
     public function where($key, $operator, $value = null)
     {
-        if (func_num_args() == 2) {
+        if (\func_num_args() === 2) {
             $value = $operator;
 
             $operator = '=';
@@ -113,7 +115,7 @@ class Collection extends Coollection
                 $attributeValue = null;
             }
 
-            return is_null($attributeValue)
+            return \is_null($attributeValue)
                 ? null
                 : $finderClosure($find, $attributeValue, $data);
         });
@@ -147,7 +149,7 @@ class Collection extends Coollection
     private function _whereAttribute(string $arrayName, $value)
     {
         $finderClosure = function ($value, $attributeValue) {
-            return in_array($value, $attributeValue->toArray());
+            return \in_array($value, $attributeValue->toArray());
         };
 
         return $this->hydrateDefaultElements(
