@@ -52,18 +52,16 @@
         "cca3": "GIB",
         "ccn3": "292",
         "cioc": null,
-        "currency": [
-            "GIP"
-        ],
+        "currencies": {
+            "g_i_p": {
+                "name": "Gibraltar pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Gibraltar",
-        "dialling": {
-            "calling_code": [
-                "350"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GI",
@@ -91,6 +89,12 @@
         "geounit": "Gibraltar",
         "gu_a3": "GIB",
         "homepart": "-99",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "50"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "GI",
@@ -200,7 +204,15 @@
                 "common": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb",
                 "official": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb"
             },
+            "kor": {
+                "common": "\uc9c0\ube0c\ub864\ud130",
+                "official": "\uc9c0\ube0c\ub864\ud130"
+            },
             "nld": {
+                "common": "Gibraltar",
+                "official": "Gibraltar"
+            },
+            "pol": {
                 "common": "Gibraltar",
                 "official": "Gibraltar"
             },
@@ -219,6 +231,10 @@
             "spa": {
                 "common": "Gibraltar",
                 "official": "Gibraltar"
+            },
+            "urd": {
+                "common": "\u062c\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642",
+                "official": "\u062c\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642"
             },
             "zho": {
                 "common": "\u76f4\u5e03\u7f57\u9640",
@@ -322,6 +338,12 @@
     "geounit": "Gibraltar",
     "gu_a3": "GIB",
     "homepart": "-99",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "50"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": {
         "abbrev": "Gib.",
@@ -350,18 +372,16 @@
         "cca3": "GIB",
         "ccn3": "292",
         "cioc": null,
-        "currency": [
-            "GIP"
-        ],
+        "currencies": {
+            "g_i_p": {
+                "name": "Gibraltar pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Gibraltar",
-        "dialling": {
-            "calling_code": [
-                "350"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GI",
@@ -389,6 +409,12 @@
         "geounit": "Gibraltar",
         "gu_a3": "GIB",
         "homepart": "-99",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "50"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "GI",
@@ -498,7 +524,15 @@
                 "common": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb",
                 "official": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb"
             },
+            "kor": {
+                "common": "\uc9c0\ube0c\ub864\ud130",
+                "official": "\uc9c0\ube0c\ub864\ud130"
+            },
             "nld": {
+                "common": "Gibraltar",
+                "official": "Gibraltar"
+            },
+            "pol": {
                 "common": "Gibraltar",
                 "official": "Gibraltar"
             },
@@ -517,6 +551,10 @@
             "spa": {
                 "common": "Gibraltar",
                 "official": "Gibraltar"
+            },
+            "urd": {
+                "common": "\u062c\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642",
+                "official": "\u062c\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642"
             },
             "zho": {
                 "common": "\u76f4\u5e03\u7f57\u9640",
@@ -643,7 +681,15 @@
             "common": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb",
             "official": "\u30b8\u30d6\u30e9\u30eb\u30bf\u30eb"
         },
+        "kor": {
+            "common": "\uc9c0\ube0c\ub864\ud130",
+            "official": "\uc9c0\ube0c\ub864\ud130"
+        },
         "nld": {
+            "common": "Gibraltar",
+            "official": "Gibraltar"
+        },
+        "pol": {
             "common": "Gibraltar",
             "official": "Gibraltar"
         },
@@ -662,6 +708,10 @@
         "spa": {
             "common": "Gibraltar",
             "official": "Gibraltar"
+        },
+        "urd": {
+            "common": "\u062c\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642",
+            "official": "\u062c\u0628\u0644 \u0627\u0644\u0637\u0627\u0631\u0642"
         },
         "zho": {
             "common": "\u76f4\u5e03\u7f57\u9640",

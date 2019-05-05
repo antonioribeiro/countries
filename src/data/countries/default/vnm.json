@@ -123,6 +123,12 @@
     "geounit": "Vietnam",
     "gu_a3": "VNM",
     "homepart": "1",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "4"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "VN",
@@ -235,9 +241,17 @@
             "common": "\u30d9\u30c8\u30ca\u30e0",
             "official": "\u30d9\u30c8\u30ca\u30e0\u793e\u4f1a\u4e3b\u7fa9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubca0\ud2b8\ub0a8",
+            "official": "\ubca0\ud2b8\ub0a8 \uc0ac\ud68c\uc8fc\uc758 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Vietnam",
             "official": "Socialistische Republiek Vietnam"
+        },
+        "pol": {
+            "common": "Wietnam",
+            "official": "Socjalistyczna Republika Wietnamu"
         },
         "por": {
             "common": "Vietname",
@@ -254,6 +268,10 @@
         "spa": {
             "common": "Vietnam",
             "official": "Rep\u00fablica Socialista de Vietnam"
+        },
+        "urd": {
+            "common": "\u0648\u06cc\u062a\u0646\u0627\u0645",
+            "official": "\u0627\u0634\u062a\u0631\u0627\u06a9\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0648\u06cc\u062a\u0646\u0627\u0645"
         },
         "zho": {
             "common": "\u8d8a\u5357",

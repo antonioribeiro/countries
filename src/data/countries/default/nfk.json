@@ -52,18 +52,16 @@
         "cca3": "NFK",
         "ccn3": "574",
         "cioc": null,
-        "currency": [
-            "AUD"
-        ],
+        "currencies": {
+            "a_u_d": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Norfolk Islander",
-        "dialling": {
-            "calling_code": [
-                "672"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NF",
@@ -91,6 +89,12 @@
         "geounit": "Norfolk Island",
         "gu_a3": "NFK",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "72"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "NF",
@@ -179,7 +183,7 @@
             },
             "deu": {
                 "common": "Norfolkinsel",
-                "official": "Gebiet der Norfolk-Insel"
+                "official": "Gebiet der Norfolkinsel"
             },
             "est": {
                 "common": "Norfolk",
@@ -205,9 +209,17 @@
                 "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
                 "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\ub178\ud37d \uc12c",
+                "official": "\ub178\ud37d \uc12c"
+            },
             "nld": {
                 "common": "Norfolkeiland",
                 "official": "Grondgebied van Norfolk Island"
+            },
+            "pol": {
+                "common": "Wyspa Norfolk",
+                "official": "Terytorium Wyspy Norfolk"
             },
             "por": {
                 "common": "Ilha Norfolk",
@@ -224,6 +236,10 @@
             "spa": {
                 "common": "Isla de Norfolk",
                 "official": "Territorio de la Isla Norfolk"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
             },
             "zho": {
                 "common": "\u8bfa\u798f\u514b\u5c9b",
@@ -325,6 +341,12 @@
     "geounit": "Norfolk Island",
     "gu_a3": "NFK",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "72"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": {
         "abbrev": "Nfk. I.",
@@ -353,18 +375,16 @@
         "cca3": "NFK",
         "ccn3": "574",
         "cioc": null,
-        "currency": [
-            "AUD"
-        ],
+        "currencies": {
+            "a_u_d": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Norfolk Islander",
-        "dialling": {
-            "calling_code": [
-                "672"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NF",
@@ -392,6 +412,12 @@
         "geounit": "Norfolk Island",
         "gu_a3": "NFK",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "72"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "NF",
@@ -480,7 +506,7 @@
             },
             "deu": {
                 "common": "Norfolkinsel",
-                "official": "Gebiet der Norfolk-Insel"
+                "official": "Gebiet der Norfolkinsel"
             },
             "est": {
                 "common": "Norfolk",
@@ -506,9 +532,17 @@
                 "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
                 "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\ub178\ud37d \uc12c",
+                "official": "\ub178\ud37d \uc12c"
+            },
             "nld": {
                 "common": "Norfolkeiland",
                 "official": "Grondgebied van Norfolk Island"
+            },
+            "pol": {
+                "common": "Wyspa Norfolk",
+                "official": "Terytorium Wyspy Norfolk"
             },
             "por": {
                 "common": "Ilha Norfolk",
@@ -525,6 +559,10 @@
             "spa": {
                 "common": "Isla de Norfolk",
                 "official": "Territorio de la Isla Norfolk"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
             },
             "zho": {
                 "common": "\u8bfa\u798f\u514b\u5c9b",
@@ -656,9 +694,17 @@
             "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
             "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
         },
+        "kor": {
+            "common": "\ub178\ud37d \uc12c",
+            "official": "\ub178\ud37d \uc12c"
+        },
         "nld": {
             "common": "Norfolkeiland",
             "official": "Grondgebied van Norfolk Island"
+        },
+        "pol": {
+            "common": "Wyspa Norfolk",
+            "official": "Terytorium Wyspy Norfolk"
         },
         "por": {
             "common": "Ilha Norfolk",
@@ -675,6 +721,10 @@
         "spa": {
             "common": "Isla de Norfolk",
             "official": "Territorio de la Isla Norfolk"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
+            "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
         },
         "zho": {
             "common": "\u8bfa\u798f\u514b\u5c9b",

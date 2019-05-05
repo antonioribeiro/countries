@@ -130,6 +130,12 @@
     "geounit": "Netherlands",
     "gu_a3": "NLD",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "1"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "NL",
@@ -252,9 +258,17 @@
             "common": "\u30aa\u30e9\u30f3\u30c0",
             "official": "\u30aa\u30e9\u30f3\u30c0"
         },
+        "kor": {
+            "common": "\ub124\ub35c\ub780\ub4dc",
+            "official": "\ub124\ub35c\ub780\ub4dc \uc655\uad6d"
+        },
         "nld": {
             "common": "Nederland",
             "official": "Nederland"
+        },
+        "pol": {
+            "common": "Holandia",
+            "official": "Kr\u00f3lestwo Niderland\u00f3w"
         },
         "por": {
             "common": "Holanda",
@@ -271,6 +285,10 @@
         "spa": {
             "common": "Pa\u00edses Bajos",
             "official": "Pa\u00edses Bajos"
+        },
+        "urd": {
+            "common": "\u0646\u06cc\u062f\u0631\u0644\u06cc\u0646\u0688\u0632",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0646\u06cc\u062f\u0631\u0644\u06cc\u0646\u0688\u0632"
         },
         "zho": {
             "common": "\u8377\u5170",

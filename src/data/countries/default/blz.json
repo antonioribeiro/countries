@@ -115,6 +115,12 @@
     "geounit": "Belize",
     "gu_a3": "BLZ",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "01"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BZ",
@@ -241,7 +247,15 @@
             "common": "\u30d9\u30ea\u30fc\u30ba",
             "official": "\u30d9\u30ea\u30fc\u30ba"
         },
+        "kor": {
+            "common": "\ubca8\ub9ac\uc988",
+            "official": "\ubca8\ub9ac\uc988"
+        },
         "nld": {
+            "common": "Belize",
+            "official": "Belize"
+        },
+        "pol": {
             "common": "Belize",
             "official": "Belize"
         },
@@ -260,6 +274,10 @@
         "spa": {
             "common": "Belice",
             "official": "Belice"
+        },
+        "urd": {
+            "common": "\u0628\u06cc\u0644\u06cc\u0632",
+            "official": "\u0628\u06cc\u0644\u06cc\u0632"
         },
         "zho": {
             "common": "\u4f2f\u5229\u5179",

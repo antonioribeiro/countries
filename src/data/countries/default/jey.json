@@ -54,18 +54,20 @@
         "cca3": "JEY",
         "ccn3": "832",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "j_e_p": {
+                "name": "Jersey pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Channel Islander",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "JE",
@@ -93,6 +95,12 @@
         "geounit": "Jersey",
         "gu_a3": "JEY",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "JE",
@@ -212,9 +220,17 @@
                 "common": "\u30b8\u30e3\u30fc\u30b8\u30fc",
                 "official": "\u30b8\u30e3\u30fc\u30b8\u306e\u5f97\u610f\u5206\u91ce"
             },
+            "kor": {
+                "common": "\uc800\uc9c0 \uc12c",
+                "official": "\uc800\uc9c0 \uc12c"
+            },
             "nld": {
                 "common": "Jersey",
                 "official": "Baljuwschap Jersey"
+            },
+            "pol": {
+                "common": "Jersey",
+                "official": "Jersey"
             },
             "por": {
                 "common": "Jersey",
@@ -231,6 +247,10 @@
             "spa": {
                 "common": "Jersey",
                 "official": "Bail\u00eda de Jersey"
+            },
+            "urd": {
+                "common": "\u062c\u0631\u0632\u06cc",
+                "official": "\u062c\u0631\u0632\u06cc"
             },
             "zho": {
                 "common": "\u6cfd\u897f\u5c9b",
@@ -328,6 +348,12 @@
     "geounit": "Jersey",
     "gu_a3": "JEY",
     "homepart": "-99",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "4"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Jey.",
@@ -357,18 +383,20 @@
         "cca3": "JEY",
         "ccn3": "832",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "j_e_p": {
+                "name": "Jersey pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Channel Islander",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "JE",
@@ -396,6 +424,12 @@
         "geounit": "Jersey",
         "gu_a3": "JEY",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "JE",
@@ -515,9 +549,17 @@
                 "common": "\u30b8\u30e3\u30fc\u30b8\u30fc",
                 "official": "\u30b8\u30e3\u30fc\u30b8\u306e\u5f97\u610f\u5206\u91ce"
             },
+            "kor": {
+                "common": "\uc800\uc9c0 \uc12c",
+                "official": "\uc800\uc9c0 \uc12c"
+            },
             "nld": {
                 "common": "Jersey",
                 "official": "Baljuwschap Jersey"
+            },
+            "pol": {
+                "common": "Jersey",
+                "official": "Jersey"
             },
             "por": {
                 "common": "Jersey",
@@ -534,6 +576,10 @@
             "spa": {
                 "common": "Jersey",
                 "official": "Bail\u00eda de Jersey"
+            },
+            "urd": {
+                "common": "\u062c\u0631\u0632\u06cc",
+                "official": "\u062c\u0631\u0632\u06cc"
             },
             "zho": {
                 "common": "\u6cfd\u897f\u5c9b",
@@ -670,9 +716,17 @@
             "common": "\u30b8\u30e3\u30fc\u30b8\u30fc",
             "official": "\u30b8\u30e3\u30fc\u30b8\u306e\u5f97\u610f\u5206\u91ce"
         },
+        "kor": {
+            "common": "\uc800\uc9c0 \uc12c",
+            "official": "\uc800\uc9c0 \uc12c"
+        },
         "nld": {
             "common": "Jersey",
             "official": "Baljuwschap Jersey"
+        },
+        "pol": {
+            "common": "Jersey",
+            "official": "Jersey"
         },
         "por": {
             "common": "Jersey",
@@ -689,6 +743,10 @@
         "spa": {
             "common": "Jersey",
             "official": "Bail\u00eda de Jersey"
+        },
+        "urd": {
+            "common": "\u062c\u0631\u0632\u06cc",
+            "official": "\u062c\u0631\u0632\u06cc"
         },
         "zho": {
             "common": "\u6cfd\u897f\u5c9b",

@@ -122,6 +122,12 @@
     "geounit": "Eritrea",
     "gu_a3": "ERI",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "91"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "ER",
@@ -248,9 +254,17 @@
             "common": "\u30a8\u30ea\u30c8\u30ea\u30a2",
             "official": "\u30a8\u30ea\u30c8\u30ea\u30a2\u56fd"
         },
+        "kor": {
+            "common": "\uc5d0\ub9ac\ud2b8\ub808\uc544",
+            "official": "\uc5d0\ub9ac\ud2b8\ub808\uc544\uad6d"
+        },
         "nld": {
             "common": "Eritrea",
             "official": "Staat Eritrea"
+        },
+        "pol": {
+            "common": "Erytrea",
+            "official": "Pa\u0144stwo Erytrea"
         },
         "por": {
             "common": "Eritreia",
@@ -267,6 +281,10 @@
         "spa": {
             "common": "Eritrea",
             "official": "Estado de Eritrea"
+        },
+        "urd": {
+            "common": "\u0627\u0631\u062a\u0631\u06cc\u0627",
+            "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0627\u0631\u062a\u0631\u06cc\u0627"
         },
         "zho": {
             "common": "\u5384\u7acb\u7279\u91cc\u4e9a",

@@ -124,6 +124,12 @@
     "geounit": "Peru",
     "gu_a3": "PER",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "1"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "PE",
@@ -246,9 +252,17 @@
             "common": "\u30da\u30eb\u30fc",
             "official": "\u30da\u30eb\u30fc\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud398\ub8e8",
+            "official": "\ud398\ub8e8 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Peru",
             "official": "Republiek Peru"
+        },
+        "pol": {
+            "common": "Peru",
+            "official": "Republika Peru"
         },
         "por": {
             "common": "Per\u00fa",
@@ -265,6 +279,10 @@
         "spa": {
             "common": "Per\u00fa",
             "official": "Rep\u00fablica de Per\u00fa"
+        },
+        "urd": {
+            "common": "\u067e\u06cc\u0631\u0648",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u06cc\u0631\u0648"
         },
         "zho": {
             "common": "\u79d8\u9c81",

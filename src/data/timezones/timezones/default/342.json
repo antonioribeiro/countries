@@ -1,14 +1,56 @@
 {
     "1": {
-        "abbreviation": "GMT",
+        "abbreviation": "SMT",
         "dst": "0",
-        "gmt_offset": "0",
-        "time_start": "-1830383032",
+        "gmt_offset": "24925",
+        "time_start": "-2177477725",
+        "zone_id": "342"
+    },
+    "2": {
+        "abbreviation": "+07",
+        "dst": "0",
+        "gmt_offset": "25200",
+        "time_start": "-2038200925",
+        "zone_id": "342"
+    },
+    "3": {
+        "abbreviation": "+0720",
+        "dst": "1",
+        "gmt_offset": "26400",
+        "time_start": "-1167634800",
+        "zone_id": "342"
+    },
+    "4": {
+        "abbreviation": "+0730",
+        "dst": "0",
+        "gmt_offset": "27000",
+        "time_start": "-894180000",
+        "zone_id": "342"
+    },
+    "5": {
+        "abbreviation": "+09",
+        "dst": "0",
+        "gmt_offset": "32400",
+        "time_start": "-879665400",
+        "zone_id": "342"
+    },
+    "6": {
+        "abbreviation": "+0730",
+        "dst": "0",
+        "gmt_offset": "27000",
+        "time_start": "-767005200",
+        "zone_id": "342"
+    },
+    "7": {
+        "abbreviation": "+08",
+        "dst": "0",
+        "gmt_offset": "28800",
+        "time_start": "378664200",
         "zone_id": "342"
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "-968",
-    "time_start": "-1830383033",
+    "gmt_offset": "24925",
+    "time_start": "-2177477726",
     "zone_id": "342"
 }

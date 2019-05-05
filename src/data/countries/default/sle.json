@@ -116,6 +116,12 @@
     "geounit": "Sierra Leone",
     "gu_a3": "SLE",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "32"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "SL",
@@ -228,9 +234,17 @@
             "common": "\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd",
             "official": "\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc2dc\uc5d0\ub77c\ub9ac\uc628",
+            "official": "\uc2dc\uc5d0\ub77c\ub9ac\uc628 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Sierra Leone",
             "official": "Republiek Sierra Leone"
+        },
+        "pol": {
+            "common": "Sierra Leone",
+            "official": "Sierra Leone"
         },
         "por": {
             "common": "Serra Leoa",
@@ -247,6 +261,10 @@
         "spa": {
             "common": "Sierra Leone",
             "official": "Rep\u00fablica de Sierra Leona"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0631\u0627\u0644\u06cc\u0648\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u06cc\u0631\u0627\u0644\u06cc\u0648\u0646"
         },
         "zho": {
             "common": "\u585e\u62c9\u5229\u6602",

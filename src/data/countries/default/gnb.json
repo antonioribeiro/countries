@@ -117,6 +117,12 @@
     "geounit": "Guinea-Bissau",
     "gu_a3": "GNB",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "45"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "GW",
@@ -243,9 +249,17 @@
             "common": "\u30ae\u30cb\u30a2\u30d3\u30b5\u30a6",
             "official": "\u30ae\u30cb\u30a2\u30d3\u30b5\u30a6\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uae30\ub2c8\ube44\uc0ac\uc6b0",
+            "official": "\uae30\ub2c8\ube44\uc0ac\uc6b0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Guinee-Bissau",
             "official": "Republiek Guinee-Bissau"
+        },
+        "pol": {
+            "common": "Gwinea Bissau",
+            "official": "Republika Gwinei Bissau"
         },
         "por": {
             "common": "Guin\u00e9-Bissau",
@@ -262,6 +276,10 @@
         "spa": {
             "common": "Guinea-Bis\u00e1u",
             "official": "Rep\u00fablica de Guinea-Bissau"
+        },
+        "urd": {
+            "common": "\u06af\u0646\u06cc \u0628\u0633\u0627\u0624",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u0646\u06cc \u0628\u0633\u0627\u0624"
         },
         "zho": {
             "common": "\u51e0\u5185\u4e9a\u6bd4\u7ecd",

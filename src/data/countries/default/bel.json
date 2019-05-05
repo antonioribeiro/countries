@@ -136,6 +136,12 @@
     "geounit": "Belgium",
     "gu_a3": "BEL",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "2"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "BE",
@@ -262,9 +268,17 @@
             "common": "\u30d9\u30eb\u30ae\u30fc",
             "official": "\u30d9\u30eb\u30ae\u30fc\u738b\u56fd"
         },
+        "kor": {
+            "common": "\ubca8\uae30\uc5d0",
+            "official": "\ubca8\uae30\uc5d0 \uc655\uad6d"
+        },
         "nld": {
             "common": "Belgi\u00eb",
             "official": "Koninkrijk Belgi\u00eb"
+        },
+        "pol": {
+            "common": "Belgia",
+            "official": "Kr\u00f3lestwo Belgii"
         },
         "por": {
             "common": "B\u00e9lgica",
@@ -281,6 +295,10 @@
         "spa": {
             "common": "B\u00e9lgica",
             "official": "Reino de B\u00e9lgica"
+        },
+        "urd": {
+            "common": "\u0628\u0644\u062c\u0626\u06cc\u0645",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0628\u0644\u062c\u0626\u06cc\u0645"
         },
         "zho": {
             "common": "\u6bd4\u5229\u65f6",

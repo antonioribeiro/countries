@@ -124,6 +124,12 @@
     "geounit": "Taiwan",
     "gu_a3": "TWN",
     "homepart": "1",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "86"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Taiwan",
@@ -155,18 +161,16 @@
         "cca3": "TWN",
         "ccn3": "158",
         "cioc": "TPE",
-        "currency": [
-            "TWD"
-        ],
+        "currencies": {
+            "t_w_d": {
+                "name": "New Taiwan dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Taiwanese",
-        "dialling": {
-            "calling_code": [
-                "886"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "TW",
@@ -194,6 +198,12 @@
         "geounit": "Taiwan",
         "gu_a3": "TWN",
         "homepart": "1",
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "86"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "TW",
@@ -305,9 +315,17 @@
                 "common": "\u53f0\u6e7e",
                 "official": "\u4e2d\u83ef\u6c11\u56fd"
             },
+            "kor": {
+                "common": "\ub300\ub9cc",
+                "official": "\uc911\ud654\ubbfc\uad6d"
+            },
             "nld": {
                 "common": "Taiwan",
                 "official": "Republiek China (Taiwan)"
+            },
+            "pol": {
+                "common": "Tajwan",
+                "official": "Republika Chi\u0144ska (Tajwan)"
             },
             "por": {
                 "common": "Ilha Formosa",
@@ -324,6 +342,10 @@
             "spa": {
                 "common": "Taiw\u00e1n",
                 "official": "Rep\u00fablica de China en Taiw\u00e1n"
+            },
+            "urd": {
+                "common": "\u062a\u0627\u0626\u06cc\u0648\u0627\u0646",
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646 (\u062a\u0627\u0626\u06cc\u0648\u0627\u0646)"
             }
         },
         "type": "Sovereign country",
@@ -463,9 +485,17 @@
             "common": "\u53f0\u6e7e\uff08\u53f0\u6e7e\u7701\/\u4e2d\u83ef\u6c11\u56fd\uff09",
             "official": "\u4e2d\u83ef\u6c11\u56fd"
         },
+        "kor": {
+            "common": "\ub300\ub9cc",
+            "official": "\uc911\ud654\ubbfc\uad6d"
+        },
         "nld": {
             "common": "Taiwan",
             "official": "Republiek China (Taiwan)"
+        },
+        "pol": {
+            "common": "Tajwan",
+            "official": "Republika Chi\u0144ska (Tajwan)"
         },
         "por": {
             "common": "Ilha Formosa",
@@ -482,6 +512,10 @@
         "spa": {
             "common": "Taiw\u00e1n",
             "official": "Rep\u00fablica de China en Taiw\u00e1n"
+        },
+        "urd": {
+            "common": "\u062a\u0627\u0626\u06cc\u0648\u0627\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646 (\u062a\u0627\u0626\u06cc\u0648\u0627\u0646)"
         }
     },
     "type": "Sovereign country",

@@ -124,6 +124,12 @@
     "geounit": "Ireland",
     "gu_a3": "IRL",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "53"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "IE",
@@ -241,9 +247,17 @@
             "common": "\u30a2\u30a4\u30eb\u30e9\u30f3\u30c9",
             "official": "\u30a2\u30a4\u30eb\u30e9\u30f3\u30c9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc544\uc77c\ub79c\ub4dc",
+            "official": "\uc544\uc77c\ub79c\ub4dc \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Ierland",
             "official": "Republic of Ireland"
+        },
+        "pol": {
+            "common": "Irlandia",
+            "official": "Republika Irlandii"
         },
         "por": {
             "common": "Irlanda",
@@ -260,6 +274,10 @@
         "spa": {
             "common": "Irlanda",
             "official": "Rep\u00fablica de Irlanda"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0622\u0626\u0631\u0644\u06cc\u0646\u0688",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0632\u06cc\u0631\u06c1 \u0622\u0626\u0631\u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u7231\u5c14\u5170",

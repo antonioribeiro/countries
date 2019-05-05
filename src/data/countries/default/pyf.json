@@ -54,18 +54,16 @@
         "cca3": "PYF",
         "ccn3": "258",
         "cioc": null,
-        "currency": [
-            "XPF"
-        ],
+        "currencies": {
+            "x_p_f": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "French Polynesian",
-        "dialling": {
-            "calling_code": [
-                "689"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "FP",
@@ -93,6 +91,12 @@
         "geounit": "French Polynesia",
         "gu_a3": "PYF",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "89"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "PF",
@@ -202,9 +206,17 @@
                 "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
                 "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2"
             },
+            "kor": {
+                "common": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544",
+                "official": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544"
+            },
             "nld": {
                 "common": "Frans-Polynesi\u00eb",
                 "official": "Frans-Polynesi\u00eb"
+            },
+            "pol": {
+                "common": "Polinezja Francuska",
+                "official": "Polinezja Francuska"
             },
             "por": {
                 "common": "Polin\u00e9sia Francesa",
@@ -221,6 +233,10 @@
             "spa": {
                 "common": "Polinesia Francesa",
                 "official": "Polinesia franc\u00e9s"
+            },
+            "urd": {
+                "common": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627",
+                "official": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627"
             },
             "zho": {
                 "common": "\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a",
@@ -322,6 +338,12 @@
     "geounit": "French Polynesia",
     "gu_a3": "PYF",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "89"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Fr. Poly.",
@@ -351,18 +373,16 @@
         "cca3": "PYF",
         "ccn3": "258",
         "cioc": null,
-        "currency": [
-            "XPF"
-        ],
+        "currencies": {
+            "x_p_f": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "French Polynesian",
-        "dialling": {
-            "calling_code": [
-                "689"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "FP",
@@ -390,6 +410,12 @@
         "geounit": "French Polynesia",
         "gu_a3": "PYF",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "89"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "PF",
@@ -499,9 +525,17 @@
                 "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
                 "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2"
             },
+            "kor": {
+                "common": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544",
+                "official": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544"
+            },
             "nld": {
                 "common": "Frans-Polynesi\u00eb",
                 "official": "Frans-Polynesi\u00eb"
+            },
+            "pol": {
+                "common": "Polinezja Francuska",
+                "official": "Polinezja Francuska"
             },
             "por": {
                 "common": "Polin\u00e9sia Francesa",
@@ -518,6 +552,10 @@
             "spa": {
                 "common": "Polinesia Francesa",
                 "official": "Polinesia franc\u00e9s"
+            },
+            "urd": {
+                "common": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627",
+                "official": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627"
             },
             "zho": {
                 "common": "\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a",
@@ -644,9 +682,17 @@
             "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
             "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2"
         },
+        "kor": {
+            "common": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544",
+            "official": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544"
+        },
         "nld": {
             "common": "Frans-Polynesi\u00eb",
             "official": "Frans-Polynesi\u00eb"
+        },
+        "pol": {
+            "common": "Polinezja Francuska",
+            "official": "Polinezja Francuska"
         },
         "por": {
             "common": "Polin\u00e9sia Francesa",
@@ -663,6 +709,10 @@
         "spa": {
             "common": "Polinesia Francesa",
             "official": "Polinesia franc\u00e9s"
+        },
+        "urd": {
+            "common": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627",
+            "official": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627"
         },
         "zho": {
             "common": "\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a",

@@ -112,6 +112,12 @@
     "geounit": "Dominica",
     "gu_a3": "DMA",
     "homepart": "1",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "767"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "DM",
@@ -228,9 +234,17 @@
             "common": "\u30c9\u30df\u30cb\u30ab\u56fd",
             "official": "\u30c9\u30df\u30cb\u30ab\u56fd"
         },
+        "kor": {
+            "common": "\ub3c4\ubbf8\ub2c8\uce74 \uacf5\ud654\uad6d",
+            "official": "\ub3c4\ubbf8\ub2c8\uce74 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Dominica",
             "official": "Gemenebest Dominica"
+        },
+        "pol": {
+            "common": "Dominika",
+            "official": "Wsp\u00f3lnota Dominiki"
         },
         "por": {
             "common": "Dominica",
@@ -247,6 +261,10 @@
         "spa": {
             "common": "Dominica",
             "official": "Mancomunidad de Dominica"
+        },
+        "urd": {
+            "common": "\u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0627",
+            "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0627"
         },
         "zho": {
             "common": "\u591a\u7c73\u5c3c\u52a0",

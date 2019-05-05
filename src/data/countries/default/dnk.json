@@ -121,6 +121,12 @@
     "geounit": "Denmark",
     "gu_a3": "DNK",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "5"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "DK",
@@ -237,9 +243,17 @@
             "common": "\u30c7\u30f3\u30de\u30fc\u30af",
             "official": "\u30c7\u30f3\u30de\u30fc\u30af\u738b\u56fd"
         },
+        "kor": {
+            "common": "\ub374\ub9c8\ud06c",
+            "official": "\ub374\ub9c8\ud06c \uc655\uad6d"
+        },
         "nld": {
             "common": "Denemarken",
             "official": "Koninkrijk Denemarken"
+        },
+        "pol": {
+            "common": "Dania",
+            "official": "Kr\u00f3lestwo Danii"
         },
         "por": {
             "common": "Dinamarca",
@@ -256,6 +270,10 @@
         "spa": {
             "common": "Dinamarca",
             "official": "Reino de Dinamarca"
+        },
+        "urd": {
+            "common": "\u0688\u0646\u0645\u0627\u0631\u06a9",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0688\u0646\u0645\u0627\u0631\u06a9"
         },
         "zho": {
             "common": "\u4e39\u9ea6",

@@ -120,6 +120,12 @@
     "geounit": "Palestine",
     "gu_a3": "PSX",
     "homepart": "-99",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "70"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": {
         "abbrev": "Pal.",
@@ -153,18 +159,24 @@
         "cca3": "PSE",
         "ccn3": "275",
         "cioc": "PLE",
-        "currency": [
-            "ILS"
-        ],
+        "currencies": {
+            "e_g_p": {
+                "name": "Egyptian pound",
+                "symbol": "E\u00a3"
+            },
+            "i_l_s": {
+                "name": "Israeli new shekel",
+                "symbol": "\u20aa"
+            },
+            "j_o_d": {
+                "name": "Jordanian dinar",
+                "symbol": "JD"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Palestinian",
-        "dialling": {
-            "calling_code": [
-                "970"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -192,6 +204,12 @@
         "geounit": "Palestine",
         "gu_a3": "PSX",
         "homepart": "-99",
+        "idd": {
+            "root": "+9",
+            "suffixes": [
+                "70"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "PS",
@@ -302,9 +320,17 @@
                 "common": "\u30d1\u30ec\u30b9\u30c1\u30ca",
                 "official": "\u30d1\u30ec\u30b9\u30c1\u30ca\u81ea\u6cbb\u653f\u5e9c"
             },
+            "kor": {
+                "common": "\ud314\ub808\uc2a4\ud0c0\uc778",
+                "official": "\ud314\ub808\uc2a4\ud0c0\uc778\uad6d"
+            },
             "nld": {
                 "common": "Palestijnse gebieden",
                 "official": "Staat Palestina"
+            },
+            "pol": {
+                "common": "Palestyna",
+                "official": "Pa\u0144stwo Palestyna"
             },
             "por": {
                 "common": "Palestina",
@@ -321,6 +347,10 @@
             "spa": {
                 "common": "Palestina",
                 "official": "Estado de Palestina"
+            },
+            "urd": {
+                "common": "\u0641\u0644\u0633\u0637\u06cc\u0646",
+                "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0641\u0644\u0633\u0637\u06cc\u0646"
             },
             "zho": {
                 "common": "\u5df4\u52d2\u65af\u5766",
@@ -448,9 +478,17 @@
             "common": "\u30d1\u30ec\u30b9\u30c1\u30ca",
             "official": "\u30d1\u30ec\u30b9\u30c1\u30ca\u81ea\u6cbb\u653f\u5e9c"
         },
+        "kor": {
+            "common": "\ud314\ub808\uc2a4\ud0c0\uc778",
+            "official": "\ud314\ub808\uc2a4\ud0c0\uc778\uad6d"
+        },
         "nld": {
             "common": "Palestijnse gebieden",
             "official": "Staat Palestina"
+        },
+        "pol": {
+            "common": "Palestyna",
+            "official": "Pa\u0144stwo Palestyna"
         },
         "por": {
             "common": "Palestina",
@@ -467,6 +505,10 @@
         "spa": {
             "common": "Palestina",
             "official": "Estado de Palestina"
+        },
+        "urd": {
+            "common": "\u0641\u0644\u0633\u0637\u06cc\u0646",
+            "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0641\u0644\u0633\u0637\u06cc\u0646"
         },
         "zho": {
             "common": "\u5df4\u52d2\u65af\u5766",

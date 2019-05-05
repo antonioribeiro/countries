@@ -54,18 +54,16 @@
         "cca3": "BLM",
         "ccn3": "652",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Saint Barth\u00e9lemy Islander",
-        "dialling": {
-            "calling_code": [
-                "590"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "TB",
@@ -93,6 +91,12 @@
         "geounit": "Saint Barthelemy",
         "gu_a3": "BLM",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "90"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "BL",
@@ -176,7 +180,7 @@
             },
             "deu": {
                 "common": "Saint-Barth\u00e9lemy",
-                "official": "Gebietsk\u00f6rperschaft Saint -Barth\u00e9lemy"
+                "official": "Gebietsk\u00f6rperschaft Saint-Barth\u00e9lemy"
             },
             "est": {
                 "common": "Saint-Barth\u00e9lemy",
@@ -202,9 +206,17 @@
                 "common": "\u30b5\u30f3\u30fb\u30d0\u30eb\u30c6\u30eb\u30df\u30fc",
                 "official": "\u30b5\u30f3\u00b7\u30d0\u30eb\u30c6\u30eb\u30df\u30fc\u5cf6\u306e\u96c6\u5408\u4f53"
             },
+            "kor": {
+                "common": "\uc0dd\ubc14\ub974\ud154\ub808\ubbf8",
+                "official": "\uc0dd\ubc14\ub974\ud154\ub808\ubbf8"
+            },
             "nld": {
                 "common": "Saint Barth\u00e9lemy",
                 "official": "Gemeenschap Saint Barth\u00e9lemy"
+            },
+            "pol": {
+                "common": "Saint-Barth\u00e9lemy",
+                "official": "Saint-Barth\u00e9lemy"
             },
             "por": {
                 "common": "S\u00e3o Bartolomeu",
@@ -221,6 +233,10 @@
             "spa": {
                 "common": "San Bartolom\u00e9",
                 "official": "Colectividad de San Barth\u00e9lemy"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u0628\u0627\u0631\u062a\u06be\u06cc\u0645\u0644\u06d2",
+                "official": "\u0633\u06cc\u0646\u0679 \u0628\u0627\u0631\u062a\u06be\u06cc\u0645\u0644\u06d2"
             },
             "zho": {
                 "common": "\u5723\u5df4\u6cf0\u52d2\u7c73",
@@ -318,6 +334,12 @@
     "geounit": "Saint Barthelemy",
     "gu_a3": "BLM",
     "homepart": "-99",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "90"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": {
         "abbrev": "St. B.",
@@ -347,18 +369,16 @@
         "cca3": "BLM",
         "ccn3": "652",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Saint Barth\u00e9lemy Islander",
-        "dialling": {
-            "calling_code": [
-                "590"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "TB",
@@ -386,6 +406,12 @@
         "geounit": "Saint Barthelemy",
         "gu_a3": "BLM",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "90"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "BL",
@@ -469,7 +495,7 @@
             },
             "deu": {
                 "common": "Saint-Barth\u00e9lemy",
-                "official": "Gebietsk\u00f6rperschaft Saint -Barth\u00e9lemy"
+                "official": "Gebietsk\u00f6rperschaft Saint-Barth\u00e9lemy"
             },
             "est": {
                 "common": "Saint-Barth\u00e9lemy",
@@ -495,9 +521,17 @@
                 "common": "\u30b5\u30f3\u30fb\u30d0\u30eb\u30c6\u30eb\u30df\u30fc",
                 "official": "\u30b5\u30f3\u00b7\u30d0\u30eb\u30c6\u30eb\u30df\u30fc\u5cf6\u306e\u96c6\u5408\u4f53"
             },
+            "kor": {
+                "common": "\uc0dd\ubc14\ub974\ud154\ub808\ubbf8",
+                "official": "\uc0dd\ubc14\ub974\ud154\ub808\ubbf8"
+            },
             "nld": {
                 "common": "Saint Barth\u00e9lemy",
                 "official": "Gemeenschap Saint Barth\u00e9lemy"
+            },
+            "pol": {
+                "common": "Saint-Barth\u00e9lemy",
+                "official": "Saint-Barth\u00e9lemy"
             },
             "por": {
                 "common": "S\u00e3o Bartolomeu",
@@ -514,6 +548,10 @@
             "spa": {
                 "common": "San Bartolom\u00e9",
                 "official": "Colectividad de San Barth\u00e9lemy"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u0628\u0627\u0631\u062a\u06be\u06cc\u0645\u0644\u06d2",
+                "official": "\u0633\u06cc\u0646\u0679 \u0628\u0627\u0631\u062a\u06be\u06cc\u0645\u0644\u06d2"
             },
             "zho": {
                 "common": "\u5723\u5df4\u6cf0\u52d2\u7c73",
@@ -640,9 +678,17 @@
             "common": "\u30b5\u30f3\u30fb\u30d0\u30eb\u30c6\u30eb\u30df\u30fc",
             "official": "\u30b5\u30f3\u00b7\u30d0\u30eb\u30c6\u30eb\u30df\u30fc\u5cf6\u306e\u96c6\u5408\u4f53"
         },
+        "kor": {
+            "common": "\uc0dd\ubc14\ub974\ud154\ub808\ubbf8",
+            "official": "\uc0dd\ubc14\ub974\ud154\ub808\ubbf8"
+        },
         "nld": {
             "common": "Saint Barth\u00e9lemy",
             "official": "Gemeenschap Saint Barth\u00e9lemy"
+        },
+        "pol": {
+            "common": "Saint-Barth\u00e9lemy",
+            "official": "Saint-Barth\u00e9lemy"
         },
         "por": {
             "common": "S\u00e3o Bartolomeu",
@@ -659,6 +705,10 @@
         "spa": {
             "common": "San Bartolom\u00e9",
             "official": "Colectividad de San Barth\u00e9lemy"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0646\u0679 \u0628\u0627\u0631\u062a\u06be\u06cc\u0645\u0644\u06d2",
+            "official": "\u0633\u06cc\u0646\u0679 \u0628\u0627\u0631\u062a\u06be\u06cc\u0645\u0644\u06d2"
         },
         "zho": {
             "common": "\u5723\u5df4\u6cf0\u52d2\u7c73",

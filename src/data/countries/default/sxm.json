@@ -54,18 +54,16 @@
         "cca3": "SXM",
         "ccn3": "534",
         "cioc": null,
-        "currency": [
-            "ANG"
-        ],
+        "currencies": {
+            "a_n_g": {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "\u0192"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "St. Maartener",
-        "dialling": {
-            "calling_code": [
-                "1721"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NT",
@@ -93,6 +91,12 @@
         "geounit": "Sint Maarten",
         "gu_a3": "SXM",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "721"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "SX",
@@ -200,6 +204,10 @@
                 "common": "Saint-Martin",
                 "official": "Sint Maarten"
             },
+            "hrv": {
+                "common": "Sveti Martin",
+                "official": "Sveti Martin"
+            },
             "ita": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
@@ -208,7 +216,15 @@
                 "common": "\u30b7\u30f3\u30c8\u30fb\u30de\u30fc\u30eb\u30c6\u30f3",
                 "official": "\u30b7\u30f3\u30c8\u30de\u30fc\u30eb\u30c6\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc2e0\ud2b8\ub9c8\ub974\ud134",
+                "official": "\uc2e0\ud2b8\ub9c8\ub974\ud134"
+            },
             "nld": {
+                "common": "Sint Maarten",
+                "official": "Sint Maarten"
+            },
+            "pol": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
             },
@@ -227,6 +243,10 @@
             "spa": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
+            },
+            "urd": {
+                "common": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+                "official": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
             },
             "zho": {
                 "common": "\u5723\u9a6c\u4e01\u5c9b",
@@ -330,6 +350,12 @@
     "geounit": "Sint Maarten",
     "gu_a3": "SXM",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "721"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "St. M.",
@@ -359,18 +385,16 @@
         "cca3": "SXM",
         "ccn3": "534",
         "cioc": null,
-        "currency": [
-            "ANG"
-        ],
+        "currencies": {
+            "a_n_g": {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "\u0192"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "St. Maartener",
-        "dialling": {
-            "calling_code": [
-                "1721"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NT",
@@ -398,6 +422,12 @@
         "geounit": "Sint Maarten",
         "gu_a3": "SXM",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "721"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "SX",
@@ -505,6 +535,10 @@
                 "common": "Saint-Martin",
                 "official": "Sint Maarten"
             },
+            "hrv": {
+                "common": "Sveti Martin",
+                "official": "Sveti Martin"
+            },
             "ita": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
@@ -513,7 +547,15 @@
                 "common": "\u30b7\u30f3\u30c8\u30fb\u30de\u30fc\u30eb\u30c6\u30f3",
                 "official": "\u30b7\u30f3\u30c8\u30de\u30fc\u30eb\u30c6\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc2e0\ud2b8\ub9c8\ub974\ud134",
+                "official": "\uc2e0\ud2b8\ub9c8\ub974\ud134"
+            },
             "nld": {
+                "common": "Sint Maarten",
+                "official": "Sint Maarten"
+            },
+            "pol": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
             },
@@ -532,6 +574,10 @@
             "spa": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
+            },
+            "urd": {
+                "common": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+                "official": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
             },
             "zho": {
                 "common": "\u5723\u9a6c\u4e01\u5c9b",
@@ -656,6 +702,10 @@
             "common": "Saint-Martin",
             "official": "Sint Maarten"
         },
+        "hrv": {
+            "common": "Sveti Martin",
+            "official": "Sveti Martin"
+        },
         "ita": {
             "common": "Sint Maarten",
             "official": "Sint Maarten"
@@ -664,7 +714,15 @@
             "common": "\u30b7\u30f3\u30c8\u30fb\u30de\u30fc\u30eb\u30c6\u30f3",
             "official": "\u30b7\u30f3\u30c8\u30de\u30fc\u30eb\u30c6\u30f3\u5cf6"
         },
+        "kor": {
+            "common": "\uc2e0\ud2b8\ub9c8\ub974\ud134",
+            "official": "\uc2e0\ud2b8\ub9c8\ub974\ud134"
+        },
         "nld": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "pol": {
             "common": "Sint Maarten",
             "official": "Sint Maarten"
         },
@@ -683,6 +741,10 @@
         "spa": {
             "common": "Sint Maarten",
             "official": "Sint Maarten"
+        },
+        "urd": {
+            "common": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+            "official": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
         },
         "zho": {
             "common": "\u5723\u9a6c\u4e01\u5c9b",

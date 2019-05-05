@@ -125,6 +125,12 @@
     "geounit": "Ivory Coast",
     "gu_a3": "CIV",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "25"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "CI",
@@ -237,9 +243,17 @@
             "common": "\u30b3\u30fc\u30c8\u30b8\u30dc\u30ef\u30fc\u30eb",
             "official": "\u30b3\u30fc\u30c8\u30b8\u30dc\u30ef\u30fc\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ucf54\ud2b8\ub514\ubd80\uc544\ub974",
+            "official": "\ucf54\ud2b8\ub514\ubd80\uc544\ub974 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Ivoorkust",
             "official": "Republiek Ivoorkust"
+        },
+        "pol": {
+            "common": "Wybrze\u017be Ko\u015bci S\u0142oniowej",
+            "official": "Republika Wybrze\u017ba Ko\u015bci S\u0142oniowej"
         },
         "por": {
             "common": "Costa do Marfim",
@@ -256,6 +270,10 @@
         "spa": {
             "common": "Costa de Marfil",
             "official": "Rep\u00fablica de C\u00f4te d'Ivoire"
+        },
+        "urd": {
+            "common": "\u0622\u0626\u06cc\u0648\u0631\u06cc \u06a9\u0648\u0633\u0679",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u062a \u062f\u06cc\u0648\u0627\u063a"
         },
         "zho": {
             "common": "\u79d1\u7279\u8fea\u74e6",

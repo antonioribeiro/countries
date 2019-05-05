@@ -30,7 +30,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "219",
+        "zone_id": "220",
         "zone_name": "Asia\/Aqtau"
     },
     "asia_aqtobe": {
@@ -47,7 +47,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "218",
+        "zone_id": "219",
         "zone_name": "Asia\/Aqtobe"
     },
     "asia_atyrau": {
@@ -65,7 +65,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "220",
+        "zone_id": "221",
         "zone_name": "Asia\/Atyrau"
     },
     "asia_oral": {
@@ -83,8 +83,25 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "221",
+        "zone_id": "222",
         "zone_name": "Asia\/Oral"
+    },
+    "asia_qostanay": {
+        "abbreviations": [
+            "+04",
+            "+05",
+            "+06",
+            "LMT"
+        ],
+        "cca2": "KZ",
+        "cca3": "KAZ",
+        "country_code": "KZ",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "218",
+        "zone_name": "Asia\/Qostanay"
     },
     "asia_qyzylorda": {
         "abbreviations": [

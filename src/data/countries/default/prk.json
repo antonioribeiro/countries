@@ -13,6 +13,15 @@
         "Democratic People's Republic of Korea",
         "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
         "Chos\u014fn Minjuju\u016di Inmin Konghwaguk",
+        "Korea, Democratic People's Republic of",
+        "\ubd81\ud55c",
+        "\ubd81\uc870\uc120"
+    ],
+    "alt_spellings_rinvex": [
+        "KP",
+        "Democratic People's Republic of Korea",
+        "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
+        "Chos\u014fn Minjuju\u016di Inmin Konghwaguk",
         "Korea, Democratic People's Republic of"
     ],
     "borders": [
@@ -122,6 +131,12 @@
     "geounit": "North Korea",
     "gu_a3": "PRK",
     "homepart": "1",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "50"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "KP",
@@ -149,8 +164,8 @@
         "common": "North Korea",
         "native": {
             "kor": {
-                "common": "\ubd81\ud55c",
-                "official": "\uc870\uc120 \ubbfc\uc8fc\uc8fc\uc758 \uc778\ubbfc \uacf5\ud654\uad6d"
+                "common": "\uc870\uc120",
+                "official": "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d"
             }
         },
         "official": "Democratic People's Republic of Korea"
@@ -176,6 +191,16 @@
     "name_nl": "\u00ec\u00a1\u00b0\u00ec\u0084\u00a0\u00eb\u00af\u00bc\u00ec\u00a3\u00bc\u00ec\u00a3\u00bc\u00ec\u009d",
     "name_pl": "\u0098\u00ec\u009d\u00b8\u00eb\u00af\u00bc\u00ea\u00b3\u00b5\u00ed\u0099\u0094\u00ea\u00b5\u00adNoord-Korea",
     "name_pt": "Korea P\u00c3\u00b3\u00c5\u0082nocna",
+    "name_rinvex": {
+        "common": "North Korea",
+        "native": {
+            "kor": {
+                "common": "\ubd81\ud55c",
+                "official": "\uc870\uc120 \ubbfc\uc8fc\uc8fc\uc758 \uc778\ubbfc \uacf5\ud654\uad6d"
+            }
+        },
+        "official": "Democratic People's Republic of Korea"
+    },
     "name_ru": "Coreia do Norte\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009a\u00d0\u00be\u00d1\u0080\u00d0\u00b5\u00d0\u00b9\u00d1\u0081\u00d0\u00ba\u00d0\u00b0\u00d1\u008f \u00d0\u009d\u00d0\u00b0\u00d1\u0080\u00d0\u00be\u00d0\u00b4\u00d0\u00bd\u00d0\u00be-\u00d0\u0094\u00d0",
     "name_sort": "Korea, Dem. Rep.",
     "name_sv": "\u00b5\u00d0\u00bc\u00d0\u00be\u00d0\u00ba\u00d1\u0080\u00d0\u00b0\u00d1\u0082\u00d0\u00b8\u00d1\u0087\u00d0\u00b5\u00d1\u0081\u00d0\u00ba\u00d0\u00b0\u00d1\u008f \u00d0\u00a0\u00d0\u00b5\u00d1\u0081\u00d0\u00bf\u00d1\u0083\u00d0",
@@ -234,9 +259,17 @@
             "common": "\u671d\u9bae\u6c11\u4e3b\u4e3b\u7fa9\u4eba\u6c11\u5171\u548c\u56fd",
             "official": "\u671d\u9bae\u6c11\u4e3b\u4e3b\u7fa9\u4eba\u6c11\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc870\uc120",
+            "official": "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Noord-Korea",
             "official": "Democratische Volksrepubliek Korea"
+        },
+        "pol": {
+            "common": "Korea P\u00f3\u0142nocna",
+            "official": "Korea\u0144ska Republika Ludowo-Demokratyczna"
         },
         "por": {
             "common": "Coreia do Norte",
@@ -253,6 +286,10 @@
         "spa": {
             "common": "Corea del Norte",
             "official": "Rep\u00fablica Popular Democr\u00e1tica de Corea"
+        },
+        "urd": {
+            "common": "\u0634\u0645\u0627\u0644\u06cc \u06a9\u0648\u0631\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc \u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0631\u06cc\u0627"
         },
         "zho": {
             "common": "\u671d\u9c9c",

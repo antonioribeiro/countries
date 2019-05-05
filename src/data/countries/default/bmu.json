@@ -112,6 +112,12 @@
     "geounit": "Bermuda",
     "gu_a3": "BMU",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "441"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Berm.",
@@ -141,18 +147,16 @@
         "cca3": "BMU",
         "ccn3": "060",
         "cioc": "BER",
-        "currency": [
-            "BMD"
-        ],
+        "currencies": {
+            "b_m_d": {
+                "name": "Bermudian dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Bermudian",
-        "dialling": {
-            "calling_code": [
-                "1441"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "BD",
@@ -180,6 +184,12 @@
         "geounit": "Bermuda",
         "gu_a3": "BMU",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "441"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "BM",
@@ -294,9 +304,17 @@
                 "common": "\u30d0\u30df\u30e5\u30fc\u30c0",
                 "official": "\u30d0\u30df\u30e5\u30fc\u30c0"
             },
+            "kor": {
+                "common": "\ubc84\ubba4\ub2e4",
+                "official": "\ubc84\ubba4\ub2e4"
+            },
             "nld": {
                 "common": "Bermuda",
                 "official": "Bermuda"
+            },
+            "pol": {
+                "common": "Bermudy",
+                "official": "Bermudy"
             },
             "por": {
                 "common": "Bermudas",
@@ -313,6 +331,10 @@
             "spa": {
                 "common": "Bermudas",
                 "official": "Bermuda"
+            },
+            "urd": {
+                "common": "\u0628\u0631\u0645\u0648\u062f\u0627",
+                "official": "\u0628\u0631\u0645\u0648\u062f\u0627"
             },
             "zho": {
                 "common": "\u767e\u6155\u5927",
@@ -444,9 +466,17 @@
             "common": "\u30d0\u30df\u30e5\u30fc\u30c0",
             "official": "\u30d0\u30df\u30e5\u30fc\u30c0"
         },
+        "kor": {
+            "common": "\ubc84\ubba4\ub2e4",
+            "official": "\ubc84\ubba4\ub2e4"
+        },
         "nld": {
             "common": "Bermuda",
             "official": "Bermuda"
+        },
+        "pol": {
+            "common": "Bermudy",
+            "official": "Bermudy"
         },
         "por": {
             "common": "Bermudas",
@@ -463,6 +493,10 @@
         "spa": {
             "common": "Bermudas",
             "official": "Bermuda"
+        },
+        "urd": {
+            "common": "\u0628\u0631\u0645\u0648\u062f\u0627",
+            "official": "\u0628\u0631\u0645\u0648\u062f\u0627"
         },
         "zho": {
             "common": "\u767e\u6155\u5927",

@@ -119,6 +119,12 @@
     "geounit": "Uruguay",
     "gu_a3": "URY",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "98"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "UY",
@@ -231,9 +237,17 @@
             "common": "\u30a6\u30eb\u30b0\u30a2\u30a4",
             "official": "\u30a6\u30eb\u30b0\u30a2\u30a4\u6771\u65b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc6b0\ub8e8\uacfc\uc774",
+            "official": "\uc6b0\ub8e8\uacfc\uc774 \ub3d9\ubc29 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Uruguay",
             "official": "Oosterse Republiek Uruguay"
+        },
+        "pol": {
+            "common": "Urugwaj",
+            "official": "Wschodnia Republika Urugwaju"
         },
         "por": {
             "common": "Uruguai",
@@ -250,6 +264,10 @@
         "spa": {
             "common": "Uruguay",
             "official": "Rep\u00fablica Oriental del Uruguay"
+        },
+        "urd": {
+            "common": "\u06cc\u0648\u0631\u0627\u06af\u0648\u0626\u06d2",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0634\u0631\u0642\u06cc\u06c1 \u06cc\u0648\u0631\u0627\u06af\u0648\u0626\u06d2"
         },
         "zho": {
             "common": "\u4e4c\u62c9\u572d",

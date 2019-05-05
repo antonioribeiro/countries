@@ -110,6 +110,12 @@
     "geounit": "United States Virgin Islands",
     "gu_a3": "VIR",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "340"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "V.I. (U.S.)",
@@ -137,18 +143,16 @@
         "cca3": "VIR",
         "ccn3": "850",
         "cioc": "ISV",
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United State Dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Virgin Islander",
-        "dialling": {
-            "calling_code": [
-                "1340"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "VQ",
@@ -176,6 +180,12 @@
         "geounit": "United States Virgin Islands",
         "gu_a3": "VIR",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "340"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "VI",
@@ -259,7 +269,7 @@
             },
             "deu": {
                 "common": "Amerikanische Jungferninseln",
-                "official": "Jungferninseln der Vereinigten Staaten"
+                "official": "Amerikanische Jungferninseln"
             },
             "est": {
                 "common": "Neitsisaared, USA",
@@ -285,9 +295,17 @@
                 "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
                 "official": "\u7c73\u56fd\u306e\u30d0\u30fc\u30b8\u30f3\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ubbf8\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc",
+                "official": "\ubbf8\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc"
+            },
             "nld": {
                 "common": "Amerikaanse Maagdeneilanden",
                 "official": "Maagdeneilanden van de Verenigde Staten"
+            },
+            "pol": {
+                "common": "Wyspy Dziewicze Stan\u00f3w Zjednoczonych",
+                "official": "Wyspy Dziewicze Stan\u00f3w Zjednoczonych"
             },
             "por": {
                 "common": "Ilhas Virgens dos Estados Unidos",
@@ -304,6 +322,10 @@
             "spa": {
                 "common": "Islas V\u00edrgenes de los Estados Unidos",
                 "official": "Islas V\u00edrgenes de los Estados Unidos"
+            },
+            "urd": {
+                "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646",
+                "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646"
             },
             "zho": {
                 "common": "\u7f8e\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b",
@@ -430,9 +452,17 @@
             "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
             "official": "\u7c73\u56fd\u306e\u30d0\u30fc\u30b8\u30f3\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\ubbf8\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc",
+            "official": "\ubbf8\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc"
+        },
         "nld": {
             "common": "Amerikaanse Maagdeneilanden",
             "official": "Maagdeneilanden van de Verenigde Staten"
+        },
+        "pol": {
+            "common": "Wyspy Dziewicze Stan\u00f3w Zjednoczonych",
+            "official": "Wyspy Dziewicze Stan\u00f3w Zjednoczonych"
         },
         "por": {
             "common": "Ilhas Virgens dos Estados Unidos",
@@ -449,6 +479,10 @@
         "spa": {
             "common": "Islas V\u00edrgenes de los Estados Unidos",
             "official": "Islas V\u00edrgenes de los Estados Unidos"
+        },
+        "urd": {
+            "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646",
+            "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646"
         },
         "zho": {
             "common": "\u7f8e\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b",

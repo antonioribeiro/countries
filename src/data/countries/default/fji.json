@@ -113,6 +113,12 @@
     "geounit": "Fiji",
     "gu_a3": "FJI",
     "homepart": "1",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "79"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "FJ",
@@ -235,9 +241,17 @@
             "common": "\u30d5\u30a3\u30b8\u30fc",
             "official": "\u30d5\u30a3\u30b8\u30fc\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud53c\uc9c0",
+            "official": "\ud53c\uc9c0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Fiji",
             "official": "Republiek Fiji"
+        },
+        "pol": {
+            "common": "Fid\u017ci",
+            "official": "Republika Fid\u017ci"
         },
         "por": {
             "common": "Fiji",
@@ -254,6 +268,10 @@
         "spa": {
             "common": "Fiyi",
             "official": "Rep\u00fablica de Fiji"
+        },
+        "urd": {
+            "common": "\u0641\u062c\u06cc",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u062c\u06cc"
         },
         "zho": {
             "common": "\u6590\u6d4e",

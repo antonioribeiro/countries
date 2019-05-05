@@ -129,6 +129,12 @@
     "geounit": "Luxembourg",
     "gu_a3": "LUX",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "52"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "LU",
@@ -251,9 +257,17 @@
             "common": "\u30eb\u30af\u30bb\u30f3\u30d6\u30eb\u30af",
             "official": "\u30eb\u30af\u30bb\u30f3\u30d6\u30eb\u30af\u5927\u516c\u56fd"
         },
+        "kor": {
+            "common": "\ub8e9\uc148\ubd80\ub974\ud06c",
+            "official": "\ub8e9\uc148\ubd80\ub974\ud06c \ub300\uacf5\uad6d"
+        },
         "nld": {
             "common": "Luxemburg",
             "official": "Groothertogdom Luxemburg"
+        },
+        "pol": {
+            "common": "Luksemburg",
+            "official": "Wielkie Ksi\u0119stwo Luksemburga"
         },
         "por": {
             "common": "Luxemburgo",
@@ -270,6 +284,10 @@
         "spa": {
             "common": "Luxemburgo",
             "official": "Gran Ducado de Luxemburgo"
+        },
+        "urd": {
+            "common": "\u0644\u06a9\u0633\u0645\u0628\u0631\u06af",
+            "official": "\u062f\u0648\u0642\u06cc\u06c1 \u06a9\u0628\u06cc\u0631\u0644\u06a9\u0633\u0645\u0628\u0631\u06af"
         },
         "zho": {
             "common": "\u5362\u68ee\u5821",

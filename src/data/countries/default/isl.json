@@ -114,6 +114,12 @@
     "geounit": "Iceland",
     "gu_a3": "ISL",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "54"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "IS",
@@ -226,9 +232,17 @@
             "common": "\u30a2\u30a4\u30b9\u30e9\u30f3\u30c9",
             "official": "\u30a2\u30a4\u30b9\u30e9\u30f3\u30c9"
         },
+        "kor": {
+            "common": "\uc544\uc774\uc2ac\ub780\ub4dc",
+            "official": "\uc544\uc774\uc2ac\ub780\ub4dc \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "IJsland",
             "official": "IJsland"
+        },
+        "pol": {
+            "common": "Islandia",
+            "official": "Republika Islandii"
         },
         "por": {
             "common": "Isl\u00e2ndia",
@@ -245,6 +259,10 @@
         "spa": {
             "common": "Islandia",
             "official": "Islandia"
+        },
+        "urd": {
+            "common": "\u0622\u0626\u0633 \u0644\u06cc\u0646\u0688",
+            "official": "\u0622\u0626\u0633 \u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u51b0\u5c9b",

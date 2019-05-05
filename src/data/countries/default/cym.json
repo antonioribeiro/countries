@@ -109,6 +109,12 @@
     "geounit": "Cayman Islands",
     "gu_a3": "CYM",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "345"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Cym. Is.",
@@ -135,18 +141,16 @@
         "cca3": "CYM",
         "ccn3": "136",
         "cioc": "CAY",
-        "currency": [
-            "KYD"
-        ],
+        "currencies": {
+            "k_y_d": {
+                "name": "Cayman Islands dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Caymanian",
-        "dialling": {
-            "calling_code": [
-                "1345"
-            ]
-        },
         "economy": "5. Emerging region: G20",
         "featurecla": "Admin-0 country",
         "fips_10_": "CJ",
@@ -174,6 +178,12 @@
         "geounit": "Cayman Islands",
         "gu_a3": "CYM",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "345"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "KY",
@@ -287,9 +297,17 @@
                 "common": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
                 "official": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ucf00\uc774\ub9e8 \uc81c\ub3c4",
+                "official": "\ucf00\uc774\ub9e8 \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Caymaneilanden",
                 "official": "Caymaneilanden"
+            },
+            "pol": {
+                "common": "Kajmany",
+                "official": "Kajmany"
             },
             "por": {
                 "common": "Ilhas Caim\u00e3o",
@@ -306,6 +324,10 @@
             "spa": {
                 "common": "Islas Caim\u00e1n",
                 "official": "Islas Caim\u00e1n"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646"
             },
             "zho": {
                 "common": "\u5f00\u66fc\u7fa4\u5c9b",
@@ -436,9 +458,17 @@
             "common": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
             "official": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\ucf00\uc774\ub9e8 \uc81c\ub3c4",
+            "official": "\ucf00\uc774\ub9e8 \uc81c\ub3c4"
+        },
         "nld": {
             "common": "Caymaneilanden",
             "official": "Caymaneilanden"
+        },
+        "pol": {
+            "common": "Kajmany",
+            "official": "Kajmany"
         },
         "por": {
             "common": "Ilhas Caim\u00e3o",
@@ -455,6 +485,10 @@
         "spa": {
             "common": "Islas Caim\u00e1n",
             "official": "Islas Caim\u00e1n"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646",
+            "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646"
         },
         "zho": {
             "common": "\u5f00\u66fc\u7fa4\u5c9b",

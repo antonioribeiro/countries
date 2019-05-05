@@ -7,17 +7,17 @@
         "zone_id": "259"
     },
     "2": {
-        "abbreviation": "CDT",
-        "dst": "1",
+        "abbreviation": "EST",
+        "dst": "0",
         "gmt_offset": "-18000",
-        "time_start": "576057600",
+        "time_start": "377935200",
         "zone_id": "259"
     },
     "3": {
         "abbreviation": "CST",
         "dst": "0",
         "gmt_offset": "-21600",
-        "time_start": "594198000",
+        "time_start": "407653200",
         "zone_id": "259"
     },
     "4": {
@@ -7078,7 +7078,7 @@
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "-24076",
+    "gmt_offset": "-21508",
     "time_start": "-1514743201",
     "zone_id": "259"
 }

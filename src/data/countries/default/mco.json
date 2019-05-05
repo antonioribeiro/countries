@@ -116,6 +116,12 @@
     "geounit": "Monaco",
     "gu_a3": "MCO",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "77"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "MC",
@@ -228,9 +234,17 @@
             "common": "\u30e2\u30ca\u30b3",
             "official": "\u30e2\u30ca\u30b3\u516c\u56fd"
         },
+        "kor": {
+            "common": "\ubaa8\ub098\ucf54",
+            "official": "\ubaa8\ub098\ucf54 \uacf5\uad6d"
+        },
         "nld": {
             "common": "Monaco",
             "official": "Vorstendom Monaco"
+        },
+        "pol": {
+            "common": "Monako",
+            "official": "Ksi\u0119stwo Monako"
         },
         "por": {
             "common": "M\u00f3naco",
@@ -247,6 +261,10 @@
         "spa": {
             "common": "M\u00f3naco",
             "official": "Principado de M\u00f3naco"
+        },
+        "urd": {
+            "common": "\u0645\u0648\u0646\u0627\u06a9\u0648",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0646\u0627\u06a9\u0648"
         },
         "zho": {
             "common": "\u6469\u7eb3\u54e5",

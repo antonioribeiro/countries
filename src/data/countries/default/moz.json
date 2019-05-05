@@ -126,6 +126,12 @@
     "geounit": "Mozambique",
     "gu_a3": "MOZ",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "58"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "MZ",
@@ -238,9 +244,17 @@
             "common": "\u30e2\u30b6\u30f3\u30d3\u30fc\u30af",
             "official": "\u30e2\u30b6\u30f3\u30d3\u30fc\u30af\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubaa8\uc7a0\ube44\ud06c",
+            "official": "\ubaa8\uc7a0\ube44\ud06c \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Mozambique",
             "official": "Republiek Mozambique"
+        },
+        "pol": {
+            "common": "Mozambik",
+            "official": "Republika Mozambiku"
         },
         "por": {
             "common": "Mo\u00e7ambique",
@@ -257,6 +271,10 @@
         "spa": {
             "common": "Mozambique",
             "official": "Rep\u00fablica de Mozambique"
+        },
+        "urd": {
+            "common": "\u0645\u0648\u0632\u0645\u0628\u06cc\u0642",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0648\u0632\u0645\u0628\u06cc\u0642"
         },
         "zho": {
             "common": "\u83ab\u6851\u6bd4\u514b",

@@ -130,6 +130,12 @@
     "geounit": "Bolivia",
     "gu_a3": "BOL",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "91"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BO",
@@ -261,9 +267,17 @@
             "common": "\u30dc\u30ea\u30d3\u30a2\u591a\u6c11\u65cf\u56fd",
             "official": "\u30dc\u30ea\u30d3\u30a2\u306e\u591a\u6c11\u65cf\u56fd"
         },
+        "kor": {
+            "common": "\ubcfc\ub9ac\ube44\uc544",
+            "official": "\ubcfc\ub9ac\ube44\uc544 \ub2e4\ubbfc\uc871\uad6d"
+        },
         "nld": {
             "common": "Bolivia",
             "official": "Plurinationale Staat van Bolivia"
+        },
+        "pol": {
+            "common": "Boliwia",
+            "official": "Wielonarodowe Pa\u0144stwo Boliwia"
         },
         "por": {
             "common": "Bol\u00edvia",
@@ -280,6 +294,10 @@
         "spa": {
             "common": "Bolivia",
             "official": "Estado Plurinacional de Bolivia"
+        },
+        "urd": {
+            "common": "\u0628\u0648\u0644\u06cc\u0648\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0648\u0644\u06cc\u0648\u06cc\u0627"
         },
         "zho": {
             "common": "\u73bb\u5229\u7ef4\u4e9a",

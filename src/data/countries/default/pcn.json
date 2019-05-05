@@ -52,18 +52,16 @@
         "cca3": "PCN",
         "ccn3": "612",
         "cioc": null,
-        "currency": [
-            "NZD"
-        ],
+        "currencies": {
+            "n_z_d": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Pitcairn Islander",
-        "dialling": {
-            "calling_code": [
-                "64"
-            ]
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "PC",
@@ -91,6 +89,12 @@
         "geounit": "Pitcairn Islands",
         "gu_a3": "PCN",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": null,
         "iso_a2": "PN",
@@ -173,8 +177,8 @@
                 "official": "Pitcairnovy ostrovy"
             },
             "deu": {
-                "common": "Pitcairn",
-                "official": "Pitcairn Inselgruppe"
+                "common": "Pitcairninseln",
+                "official": "Pitcairninseln"
             },
             "est": {
                 "common": "Pitcairn",
@@ -200,9 +204,17 @@
                 "common": "\u30d4\u30c8\u30b1\u30a2\u30f3",
                 "official": "\u5cf6\u306e\u30d4\u30c8\u30b1\u30a2\u30f3\u30b0\u30eb\u30fc\u30d7"
             },
+            "kor": {
+                "common": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4",
+                "official": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Pitcairneilanden",
                 "official": "Pitcairn groep eilanden"
+            },
+            "pol": {
+                "common": "Pitcairn",
+                "official": "Wyspy Pitcairn, Henderson, Ducie i Oeno"
             },
             "por": {
                 "common": "Ilhas Pitcairn",
@@ -219,6 +231,10 @@
             "spa": {
                 "common": "Islas Pitcairn",
                 "official": "Grupo de Islas Pitcairn"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u067e\u0679\u06a9\u06cc\u0631\u0646",
+                "official": "\u067e\u0679\u06a9\u06cc\u0631\u0646 \u062c\u0632\u0627\u0626\u0631"
             },
             "zho": {
                 "common": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b",
@@ -318,6 +334,12 @@
     "geounit": "Pitcairn Islands",
     "gu_a3": "PCN",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "4"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": {
         "abbrev": "Pit. Is.",
@@ -346,18 +368,16 @@
         "cca3": "PCN",
         "ccn3": "612",
         "cioc": null,
-        "currency": [
-            "NZD"
-        ],
+        "currencies": {
+            "n_z_d": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Pitcairn Islander",
-        "dialling": {
-            "calling_code": [
-                "64"
-            ]
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "PC",
@@ -385,6 +405,12 @@
         "geounit": "Pitcairn Islands",
         "gu_a3": "PCN",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": null,
         "iso_a2": "PN",
@@ -467,8 +493,8 @@
                 "official": "Pitcairnovy ostrovy"
             },
             "deu": {
-                "common": "Pitcairn",
-                "official": "Pitcairn Inselgruppe"
+                "common": "Pitcairninseln",
+                "official": "Pitcairninseln"
             },
             "est": {
                 "common": "Pitcairn",
@@ -494,9 +520,17 @@
                 "common": "\u30d4\u30c8\u30b1\u30a2\u30f3",
                 "official": "\u5cf6\u306e\u30d4\u30c8\u30b1\u30a2\u30f3\u30b0\u30eb\u30fc\u30d7"
             },
+            "kor": {
+                "common": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4",
+                "official": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Pitcairneilanden",
                 "official": "Pitcairn groep eilanden"
+            },
+            "pol": {
+                "common": "Pitcairn",
+                "official": "Wyspy Pitcairn, Henderson, Ducie i Oeno"
             },
             "por": {
                 "common": "Ilhas Pitcairn",
@@ -513,6 +547,10 @@
             "spa": {
                 "common": "Islas Pitcairn",
                 "official": "Grupo de Islas Pitcairn"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u067e\u0679\u06a9\u06cc\u0631\u0646",
+                "official": "\u067e\u0679\u06a9\u06cc\u0631\u0646 \u062c\u0632\u0627\u0626\u0631"
             },
             "zho": {
                 "common": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b",
@@ -639,9 +677,17 @@
             "common": "\u30d4\u30c8\u30b1\u30a2\u30f3",
             "official": "\u5cf6\u306e\u30d4\u30c8\u30b1\u30a2\u30f3\u30b0\u30eb\u30fc\u30d7"
         },
+        "kor": {
+            "common": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4",
+            "official": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4"
+        },
         "nld": {
             "common": "Pitcairneilanden",
             "official": "Pitcairn groep eilanden"
+        },
+        "pol": {
+            "common": "Pitcairn",
+            "official": "Wyspy Pitcairn, Henderson, Ducie i Oeno"
         },
         "por": {
             "common": "Ilhas Pitcairn",
@@ -658,6 +704,10 @@
         "spa": {
             "common": "Islas Pitcairn",
             "official": "Grupo de Islas Pitcairn"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u0627\u0626\u0631 \u067e\u0679\u06a9\u06cc\u0631\u0646",
+            "official": "\u067e\u0679\u06a9\u06cc\u0631\u0646 \u062c\u0632\u0627\u0626\u0631"
         },
         "zho": {
             "common": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b",

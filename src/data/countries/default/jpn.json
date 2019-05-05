@@ -112,6 +112,12 @@
     "geounit": "Japan",
     "gu_a3": "JPN",
     "homepart": "1",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "1"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "JP",
@@ -225,9 +231,17 @@
             "common": "\u65e5\u672c",
             "official": "\u65e5\u672c"
         },
+        "kor": {
+            "common": "\uc77c\ubcf8",
+            "official": "\uc77c\ubcf8\uad6d"
+        },
         "nld": {
             "common": "Japan",
             "official": "Japan"
+        },
+        "pol": {
+            "common": "Japonia",
+            "official": "Japonia"
         },
         "por": {
             "common": "Jap\u00e3o",
@@ -244,6 +258,10 @@
         "spa": {
             "common": "Jap\u00f3n",
             "official": "Jap\u00f3n"
+        },
+        "urd": {
+            "common": "\u062c\u0627\u067e\u0627\u0646",
+            "official": "\u062c\u0627\u067e\u0627\u0646"
         },
         "zho": {
             "common": "\u65e5\u672c",

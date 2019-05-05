@@ -58,18 +58,16 @@
         "cca3": "MAF",
         "ccn3": "663",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Saint Martin Islander",
-        "dialling": {
-            "calling_code": [
-                "590"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "RN",
@@ -97,6 +95,12 @@
         "geounit": "Saint Martin",
         "gu_a3": "MAF",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "90"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "MF",
@@ -180,8 +184,8 @@
                 "official": "Svat\u00fd Martin"
             },
             "deu": {
-                "common": "Saint Martin",
-                "official": "St. Martin"
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
             },
             "est": {
                 "common": "Saint-Martin",
@@ -207,9 +211,17 @@
                 "common": "\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09",
                 "official": "\u30b5\u30f3\u30de\u30eb\u30bf\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc0dd\ub9c8\ub974\ud0f1",
+                "official": "\uc0dd\ub9c8\ub974\ud0f1"
+            },
             "nld": {
                 "common": "Saint-Martin",
                 "official": "Saint Martin"
+            },
+            "pol": {
+                "common": "Saint-Martin",
+                "official": "Wsp\u00f3lnota Saint-Martin"
             },
             "por": {
                 "common": "S\u00e3o Martinho",
@@ -226,6 +238,10 @@
             "spa": {
                 "common": "Saint Martin",
                 "official": "Saint Martin"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+                "official": "\u0633\u06cc\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
             },
             "zho": {
                 "common": "\u5723\u9a6c\u4e01",
@@ -325,6 +341,12 @@
     "geounit": "Saint Martin",
     "gu_a3": "MAF",
     "homepart": "-99",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "90"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "St. M.",
@@ -356,18 +378,16 @@
         "cca3": "MAF",
         "ccn3": "663",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Saint Martin Islander",
-        "dialling": {
-            "calling_code": [
-                "590"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "RN",
@@ -395,6 +415,12 @@
         "geounit": "Saint Martin",
         "gu_a3": "MAF",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "90"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "MF",
@@ -478,8 +504,8 @@
                 "official": "Svat\u00fd Martin"
             },
             "deu": {
-                "common": "Saint Martin",
-                "official": "St. Martin"
+                "common": "Saint-Martin",
+                "official": "Saint-Martin"
             },
             "est": {
                 "common": "Saint-Martin",
@@ -505,9 +531,17 @@
                 "common": "\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09",
                 "official": "\u30b5\u30f3\u30de\u30eb\u30bf\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc0dd\ub9c8\ub974\ud0f1",
+                "official": "\uc0dd\ub9c8\ub974\ud0f1"
+            },
             "nld": {
                 "common": "Saint-Martin",
                 "official": "Saint Martin"
+            },
+            "pol": {
+                "common": "Saint-Martin",
+                "official": "Wsp\u00f3lnota Saint-Martin"
             },
             "por": {
                 "common": "S\u00e3o Martinho",
@@ -524,6 +558,10 @@
             "spa": {
                 "common": "Saint Martin",
                 "official": "Saint Martin"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+                "official": "\u0633\u06cc\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
             },
             "zho": {
                 "common": "\u5723\u9a6c\u4e01",
@@ -651,9 +689,17 @@
             "common": "\u30b5\u30f3\u30fb\u30de\u30eb\u30bf\u30f3\uff08\u30d5\u30e9\u30f3\u30b9\u9818\uff09",
             "official": "\u30b5\u30f3\u30de\u30eb\u30bf\u30f3\u5cf6"
         },
+        "kor": {
+            "common": "\uc0dd\ub9c8\ub974\ud0f1",
+            "official": "\uc0dd\ub9c8\ub974\ud0f1"
+        },
         "nld": {
             "common": "Saint-Martin",
             "official": "Saint Martin"
+        },
+        "pol": {
+            "common": "Saint-Martin",
+            "official": "Wsp\u00f3lnota Saint-Martin"
         },
         "por": {
             "common": "S\u00e3o Martinho",
@@ -670,6 +716,10 @@
         "spa": {
             "common": "Saint Martin",
             "official": "Saint Martin"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+            "official": "\u0633\u06cc\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
         },
         "zho": {
             "common": "\u5723\u9a6c\u4e01",

@@ -135,6 +135,12 @@
     "geounit": "Belarus",
     "gu_a3": "BLR",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "75"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BY",
@@ -274,9 +280,17 @@
             "common": "\u30d9\u30e9\u30eb\u30fc\u30b7",
             "official": "\u30d9\u30e9\u30eb\u30fc\u30b7\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubca8\ub77c\ub8e8\uc2a4",
+            "official": "\ubca8\ub77c\ub8e8\uc2a4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Wit-Rusland",
             "official": "Republiek Belarus"
+        },
+        "pol": {
+            "common": "Bia\u0142oru\u015b",
+            "official": "Republika Bia\u0142orusi"
         },
         "por": {
             "common": "Bielor\u00fassia",
@@ -293,6 +307,10 @@
         "spa": {
             "common": "Bielorrusia",
             "official": "Rep\u00fablica de Belar\u00fas"
+        },
+        "urd": {
+            "common": "\u0628\u06cc\u0644\u0627\u0631\u0648\u0633",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u06cc\u0644\u0627\u0631\u0648\u0633"
         },
         "zho": {
             "common": "\u767d\u4fc4\u7f57\u65af",

@@ -48,18 +48,16 @@
         "cca3": "AIA",
         "ccn3": "660",
         "cioc": null,
-        "currency": [
-            "XCD"
-        ],
+        "currencies": {
+            "x_c_d": {
+                "name": "Eastern Caribbean dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Anguillian",
-        "dialling": {
-            "calling_code": [
-                "1264"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AV",
@@ -87,6 +85,12 @@
         "geounit": "Anguilla",
         "gu_a3": "AIA",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "264"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "AI",
@@ -196,7 +200,15 @@
                 "common": "\u30a2\u30f3\u30ae\u30e9",
                 "official": "\u30a2\u30f3\u30b0\u30a3\u30e9"
             },
+            "kor": {
+                "common": "\uc575\uadc8\ub77c",
+                "official": "\uc575\uadc8\ub77c"
+            },
             "nld": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "pol": {
                 "common": "Anguilla",
                 "official": "Anguilla"
             },
@@ -215,6 +227,10 @@
             "spa": {
                 "common": "Anguilla",
                 "official": "Anguila"
+            },
+            "urd": {
+                "common": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627",
+                "official": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627"
             },
             "zho": {
                 "common": "\u5b89\u572d\u62c9",
@@ -316,6 +332,12 @@
     "geounit": "Anguilla",
     "gu_a3": "AIA",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "264"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": {
         "abbrev": "Ang.",
@@ -342,18 +364,16 @@
         "cca3": "AIA",
         "ccn3": "660",
         "cioc": null,
-        "currency": [
-            "XCD"
-        ],
+        "currencies": {
+            "x_c_d": {
+                "name": "Eastern Caribbean dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Anguillian",
-        "dialling": {
-            "calling_code": [
-                "1264"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AV",
@@ -381,6 +401,12 @@
         "geounit": "Anguilla",
         "gu_a3": "AIA",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "264"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "AI",
@@ -490,7 +516,15 @@
                 "common": "\u30a2\u30f3\u30ae\u30e9",
                 "official": "\u30a2\u30f3\u30b0\u30a3\u30e9"
             },
+            "kor": {
+                "common": "\uc575\uadc8\ub77c",
+                "official": "\uc575\uadc8\ub77c"
+            },
             "nld": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "pol": {
                 "common": "Anguilla",
                 "official": "Anguilla"
             },
@@ -509,6 +543,10 @@
             "spa": {
                 "common": "Anguilla",
                 "official": "Anguila"
+            },
+            "urd": {
+                "common": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627",
+                "official": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627"
             },
             "zho": {
                 "common": "\u5b89\u572d\u62c9",
@@ -635,7 +673,15 @@
             "common": "\u30a2\u30f3\u30ae\u30e9",
             "official": "\u30a2\u30f3\u30b0\u30a3\u30e9"
         },
+        "kor": {
+            "common": "\uc575\uadc8\ub77c",
+            "official": "\uc575\uadc8\ub77c"
+        },
         "nld": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
+        "pol": {
             "common": "Anguilla",
             "official": "Anguilla"
         },
@@ -654,6 +700,10 @@
         "spa": {
             "common": "Anguilla",
             "official": "Anguila"
+        },
+        "urd": {
+            "common": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627",
+            "official": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627"
         },
         "zho": {
             "common": "\u5b89\u572d\u62c9",

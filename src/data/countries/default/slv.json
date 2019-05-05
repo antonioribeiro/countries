@@ -118,6 +118,12 @@
     "geounit": "El Salvador",
     "gu_a3": "SLV",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "03"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "SV",
@@ -234,9 +240,17 @@
             "common": "\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb",
             "official": "\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc5d8\uc0b4\ubc14\ub3c4\ub974",
+            "official": "\uc5d8\uc0b4\ubc14\ub3c4\ub974 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "El Salvador",
             "official": "Republiek El Salvador"
+        },
+        "pol": {
+            "common": "Salwador",
+            "official": "Republika Salwadoru"
         },
         "por": {
             "common": "El Salvador",
@@ -253,6 +267,10 @@
         "spa": {
             "common": "El Salvador",
             "official": "Rep\u00fablica de El Salvador"
+        },
+        "urd": {
+            "common": "\u0627\u06cc\u0644 \u0633\u06cc\u0644\u0648\u0627\u0688\u0648\u0631",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u06cc\u0644 \u0633\u06cc\u0644\u0648\u0627\u0688\u0648\u0631"
         },
         "zho": {
             "common": "\u8428\u5c14\u74e6\u591a",

@@ -117,6 +117,12 @@
     "geounit": "Liechtenstein",
     "gu_a3": "LIE",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "23"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "LI",
@@ -229,9 +235,17 @@
             "common": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3",
             "official": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3\u516c\u56fd"
         },
+        "kor": {
+            "common": "\ub9ac\ud788\ud150\uc288\ud0c0\uc778",
+            "official": "\ub9ac\ud788\ud150\uc288\ud0c0\uc778 \uacf5\uad6d"
+        },
         "nld": {
             "common": "Liechtenstein",
             "official": "Vorstendom Liechtenstein"
+        },
+        "pol": {
+            "common": "Liechtenstein",
+            "official": "Ksi\u0119stwo Liechtensteinu"
         },
         "por": {
             "common": "Liechtenstein",
@@ -248,6 +262,10 @@
         "spa": {
             "common": "Liechtenstein",
             "official": "Principado de Liechtenstein"
+        },
+        "urd": {
+            "common": "\u0644\u06cc\u062e\u062a\u06cc\u0646\u0633\u062a\u0627\u0626\u0646",
+            "official": "\u0627\u0645\u0627\u0631\u0627\u062a \u0644\u06cc\u062e\u062a\u06cc\u0646\u0633\u062a\u0627\u0626\u0646"
         },
         "zho": {
             "common": "\u5217\u652f\u6566\u58eb\u767b",

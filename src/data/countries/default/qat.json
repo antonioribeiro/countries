@@ -115,6 +115,12 @@
     "geounit": "Qatar",
     "gu_a3": "QAT",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "74"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "QA",
@@ -228,9 +234,17 @@
             "common": "\u30ab\u30bf\u30fc\u30eb",
             "official": "\u30ab\u30bf\u30fc\u30eb\u56fd"
         },
+        "kor": {
+            "common": "\uce74\ud0c0\ub974",
+            "official": "\uce74\ud0c0\ub974\uad6d"
+        },
         "nld": {
             "common": "Qatar",
             "official": "Staat Qatar"
+        },
+        "pol": {
+            "common": "Katar",
+            "official": "Pa\u0144stwo Katar"
         },
         "por": {
             "common": "Catar",
@@ -247,6 +261,10 @@
         "spa": {
             "common": "Catar",
             "official": "Estado de Qatar"
+        },
+        "urd": {
+            "common": "\u0642\u0637\u0631",
+            "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0642\u0637\u0631"
         },
         "zho": {
             "common": "\u5361\u5854\u5c14",

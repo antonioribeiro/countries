@@ -54,18 +54,16 @@
         "cca3": "ALA",
         "ccn3": "248",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "\u00c5landish",
-        "dialling": {
-            "calling_code": [
-                "358"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -93,6 +91,12 @@
         "geounit": "Aland",
         "gu_a3": "ALD",
         "homepart": "-99",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "AX",
@@ -202,9 +206,17 @@
                 "common": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6",
                 "official": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\uc62c\ub780\ub4dc \uc81c\ub3c4",
+                "official": "\uc62c\ub780\ub4dc \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "\u00c5landeilanden",
                 "official": "\u00c5land eilanden"
+            },
+            "pol": {
+                "common": "Wyspy Alandzkie",
+                "official": "Wyspy Alandzkie"
             },
             "por": {
                 "common": "Al\u00e2ndia",
@@ -221,6 +233,10 @@
             "spa": {
                 "common": "Alandia",
                 "official": "Islas \u00c5land"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
             },
             "zho": {
                 "common": "\u5965\u5170\u7fa4\u5c9b",
@@ -318,6 +334,12 @@
     "geounit": "Aland",
     "gu_a3": "ALD",
     "homepart": "-99",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "5818"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": {
         "abbrev": "\u00c3\u0085land",
@@ -347,18 +369,16 @@
         "cca3": "ALA",
         "ccn3": "248",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "\u00c5landish",
-        "dialling": {
-            "calling_code": [
-                "358"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -386,6 +406,12 @@
         "geounit": "Aland",
         "gu_a3": "ALD",
         "homepart": "-99",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "AX",
@@ -495,9 +521,17 @@
                 "common": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6",
                 "official": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\uc62c\ub780\ub4dc \uc81c\ub3c4",
+                "official": "\uc62c\ub780\ub4dc \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "\u00c5landeilanden",
                 "official": "\u00c5land eilanden"
+            },
+            "pol": {
+                "common": "Wyspy Alandzkie",
+                "official": "Wyspy Alandzkie"
             },
             "por": {
                 "common": "Al\u00e2ndia",
@@ -514,6 +548,10 @@
             "spa": {
                 "common": "Alandia",
                 "official": "Islas \u00c5land"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
             },
             "zho": {
                 "common": "\u5965\u5170\u7fa4\u5c9b",
@@ -640,9 +678,17 @@
             "common": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6",
             "official": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\uc62c\ub780\ub4dc \uc81c\ub3c4",
+            "official": "\uc62c\ub780\ub4dc \uc81c\ub3c4"
+        },
         "nld": {
             "common": "\u00c5landeilanden",
             "official": "\u00c5land eilanden"
+        },
+        "pol": {
+            "common": "Wyspy Alandzkie",
+            "official": "Wyspy Alandzkie"
         },
         "por": {
             "common": "Al\u00e2ndia",
@@ -659,6 +705,10 @@
         "spa": {
             "common": "Alandia",
             "official": "Islas \u00c5land"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
+            "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
         },
         "zho": {
             "common": "\u5965\u5170\u7fa4\u5c9b",

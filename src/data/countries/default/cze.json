@@ -128,6 +128,12 @@
     "geounit": "Czechia",
     "gu_a3": "CZE",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "20"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "CZ",
@@ -263,9 +269,17 @@
             "common": "\u30c1\u30a7\u30b3",
             "official": "\u30c1\u30a7\u30b3\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uccb4\ucf54",
+            "official": "\uccb4\ucf54"
+        },
         "nld": {
             "common": "Tsjechi\u00eb",
             "official": "Tsjechische Republiek"
+        },
+        "pol": {
+            "common": "Czechy",
+            "official": "Republika Czeska"
         },
         "por": {
             "common": "Rep\u00fablica Checa",
@@ -282,6 +296,10 @@
         "spa": {
             "common": "Rep\u00fablica Checa",
             "official": "Rep\u00fablica Checa"
+        },
+        "urd": {
+            "common": "\u0686\u064a\u06a9",
+            "official": "\u0686\u064a\u06a9 \u062c\u0645\u06c1\u0648\u0631\u064a\u06c1"
         },
         "zho": {
             "common": "\u6377\u514b",

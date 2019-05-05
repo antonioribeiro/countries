@@ -118,6 +118,12 @@
     "geounit": "Cambodia",
     "gu_a3": "KHM",
     "homepart": "1",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "55"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "KH",
@@ -234,9 +240,17 @@
             "common": "\u30ab\u30f3\u30dc\u30b8\u30a2",
             "official": "\u30ab\u30f3\u30dc\u30b8\u30a2\u738b\u56fd"
         },
+        "kor": {
+            "common": "\uce84\ubcf4\ub514\uc544",
+            "official": "\uce84\ubcf4\ub514\uc544 \uc655\uad6d"
+        },
         "nld": {
             "common": "Cambodja",
             "official": "Koninkrijk Cambodja"
+        },
+        "pol": {
+            "common": "Kambod\u017ca",
+            "official": "Kr\u00f3lestwo Kambod\u017cy"
         },
         "por": {
             "common": "Camboja",
@@ -253,6 +267,10 @@
         "spa": {
             "common": "Camboya",
             "official": "Reino de Camboya"
+        },
+        "urd": {
+            "common": "\u06a9\u0645\u0628\u0648\u0688\u06cc\u0627",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u06a9\u0645\u0628\u0648\u0688\u06cc\u0627"
         },
         "zho": {
             "common": "\u67ec\u57d4\u5be8",

@@ -130,6 +130,12 @@
     "geounit": "Tanzania",
     "gu_a3": "TZA",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "55"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "TZ",
@@ -247,9 +253,17 @@
             "common": "\u30bf\u30f3\u30b6\u30cb\u30a2",
             "official": "\u30bf\u30f3\u30b6\u30cb\u30a2\u9023\u5408\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud0c4\uc790\ub2c8\uc544",
+            "official": "\ud0c4\uc790\ub2c8\uc544 \uc5f0\ud569 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Tanzania",
             "official": "Verenigde Republiek Tanzania"
+        },
+        "pol": {
+            "common": "Tanzania",
+            "official": "Zjednoczona Republika Tanzanii"
         },
         "por": {
             "common": "Tanz\u00e2nia",
@@ -266,6 +280,10 @@
         "spa": {
             "common": "Tanzania",
             "official": "Rep\u00fablica Unida de Tanzania"
+        },
+        "urd": {
+            "common": "\u062a\u0646\u0632\u0627\u0646\u06cc\u06c1",
+            "official": "\u0645\u062a\u062d\u062f\u06c1 \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062a\u0646\u0632\u0627\u0646\u06cc\u06c1"
         },
         "zho": {
             "common": "\u5766\u6851\u5c3c\u4e9a",

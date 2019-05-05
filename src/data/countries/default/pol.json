@@ -135,6 +135,12 @@
     "geounit": "Poland",
     "gu_a3": "POL",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "8"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "PL",
@@ -247,9 +253,17 @@
             "common": "\u30dd\u30fc\u30e9\u30f3\u30c9",
             "official": "\u30dd\u30fc\u30e9\u30f3\u30c9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud3f4\ub780\ub4dc",
+            "official": "\ud3f4\ub780\ub4dc \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Polen",
             "official": "Republiek Polen"
+        },
+        "pol": {
+            "common": "Polska",
+            "official": "Rzeczpospolita Polska"
         },
         "por": {
             "common": "Pol\u00f3nia",
@@ -266,6 +280,10 @@
         "spa": {
             "common": "Polonia",
             "official": "Rep\u00fablica de Polonia"
+        },
+        "urd": {
+            "common": "\u067e\u0648\u0644\u06cc\u0646\u0688",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0648\u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u6ce2\u5170",

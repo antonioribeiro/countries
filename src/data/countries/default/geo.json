@@ -120,6 +120,12 @@
     "geounit": "Georgia",
     "gu_a3": "GEO",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "95"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "GE",
@@ -232,9 +238,17 @@
             "common": "\u30b0\u30eb\u30b8\u30a2",
             "official": "\u30b0\u30eb\u30b8\u30a2"
         },
+        "kor": {
+            "common": "\uc870\uc9c0\uc544",
+            "official": "\uc870\uc9c0\uc544"
+        },
         "nld": {
             "common": "Georgi\u00eb",
             "official": "Georgia"
+        },
+        "pol": {
+            "common": "Gruzja",
+            "official": "Gruzja"
         },
         "por": {
             "common": "Ge\u00f3rgia",
@@ -251,6 +265,10 @@
         "spa": {
             "common": "Georgia",
             "official": "Georgia"
+        },
+        "urd": {
+            "common": "\u062c\u0627\u0631\u062c\u06cc\u0627",
+            "official": "\u062c\u0627\u0631\u062c\u06cc\u0627"
         },
         "zho": {
             "common": "\u683c\u9c81\u5409\u4e9a",

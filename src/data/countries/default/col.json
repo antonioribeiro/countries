@@ -124,6 +124,12 @@
     "geounit": "Colombia",
     "gu_a3": "COL",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "7"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "CO",
@@ -240,9 +246,17 @@
             "common": "\u30b3\u30ed\u30f3\u30d3\u30a2",
             "official": "\u30b3\u30ed\u30f3\u30d3\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ucf5c\ub86c\ube44\uc544",
+            "official": "\ucf5c\ub86c\ube44\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Colombia",
             "official": "Republiek Colombia"
+        },
+        "pol": {
+            "common": "Kolumbia",
+            "official": "Republika Kolumbii"
         },
         "por": {
             "common": "Col\u00f4mbia",
@@ -259,6 +273,10 @@
         "spa": {
             "common": "Colombia",
             "official": "Rep\u00fablica de Colombia"
+        },
+        "urd": {
+            "common": "\u06a9\u0648\u0644\u0645\u0628\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0644\u0645\u0628\u06cc\u0627"
         },
         "zho": {
             "common": "\u54e5\u4f26\u6bd4\u4e9a",

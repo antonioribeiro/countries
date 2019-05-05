@@ -118,6 +118,12 @@
     "geounit": "Malaysia",
     "gu_a3": "MYS",
     "homepart": "1",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "0"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "MY",
@@ -235,9 +241,17 @@
             "common": "\u30de\u30ec\u30fc\u30b7\u30a2",
             "official": "\u30de\u30ec\u30fc\u30b7\u30a2"
         },
+        "kor": {
+            "common": "\ub9d0\ub808\uc774\uc2dc\uc544",
+            "official": "\ub9d0\ub808\uc774\uc2dc\uc544"
+        },
         "nld": {
             "common": "Maleisi\u00eb",
             "official": "Maleisi\u00eb"
+        },
+        "pol": {
+            "common": "Malezja",
+            "official": "Malezja"
         },
         "por": {
             "common": "Mal\u00e1sia",
@@ -254,6 +268,10 @@
         "spa": {
             "common": "Malasia",
             "official": "Malasia"
+        },
+        "urd": {
+            "common": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627",
+            "official": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627"
         },
         "zho": {
             "common": "\u9a6c\u6765\u897f\u4e9a",

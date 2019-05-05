@@ -118,6 +118,12 @@
     "geounit": "Panama",
     "gu_a3": "PAN",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "07"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "PA",
@@ -230,9 +236,17 @@
             "common": "\u30d1\u30ca\u30de",
             "official": "\u30d1\u30ca\u30de\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud30c\ub098\ub9c8",
+            "official": "\ud30c\ub098\ub9c8 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Panama",
             "official": "Republiek Panama"
+        },
+        "pol": {
+            "common": "Panama",
+            "official": "Republika Panamy"
         },
         "por": {
             "common": "Panam\u00e1",
@@ -249,6 +263,10 @@
         "spa": {
             "common": "Panam\u00e1",
             "official": "Rep\u00fablica de Panam\u00e1"
+        },
+        "urd": {
+            "common": "\u067e\u0627\u0646\u0627\u0645\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0627\u0646\u0627\u0645\u0627"
         },
         "zho": {
             "common": "\u5df4\u62ff\u9a6c",

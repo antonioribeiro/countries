@@ -124,6 +124,12 @@
     "geounit": "Cyprus",
     "gu_a3": "CYP",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "57"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "CY",
@@ -246,9 +252,17 @@
             "common": "\u30ad\u30d7\u30ed\u30b9",
             "official": "\u30ad\u30d7\u30ed\u30b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud0a4\ud504\ub85c\uc2a4",
+            "official": "\ud0a4\ud504\ub85c\uc2a4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Cyprus",
             "official": "Republiek Cyprus"
+        },
+        "pol": {
+            "common": "Cypr",
+            "official": "Republika Cypryjska"
         },
         "por": {
             "common": "Chipre",
@@ -265,6 +279,10 @@
         "spa": {
             "common": "Chipre",
             "official": "Rep\u00fablica de Chipre"
+        },
+        "urd": {
+            "common": "\u0642\u0628\u0631\u0635",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0642\u0628\u0631\u0635"
         },
         "zho": {
             "common": "\u585e\u6d66\u8def\u65af",

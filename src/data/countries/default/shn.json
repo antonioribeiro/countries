@@ -25,7 +25,9 @@
         },
         "demonym": null,
         "dialling": {
-            "calling_code": null,
+            "calling_code": [
+                "290"
+            ],
             "international_prefix": "00",
             "national_destination_code_lengths": [
                 2
@@ -122,7 +124,9 @@
         },
         "demonym": null,
         "dialling": {
-            "calling_code": null,
+            "calling_code": [
+                "290"
+            ],
             "international_prefix": "00",
             "national_destination_code_lengths": [
                 2
@@ -227,20 +231,20 @@
         "cca3": "SHN",
         "ccn3": "654",
         "cioc": null,
-        "currency": [
-            "SHP",
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "Pound sterling",
+                "symbol": "\u00a3"
+            },
+            "s_h_p": {
+                "name": "Saint Helena pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Saint Helenian",
-        "dialling": {
-            "calling_code": [
-                "290",
-                "247"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "SH",
@@ -268,6 +272,13 @@
         "geounit": "Saint Helena",
         "gu_a3": "SHN",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "90",
+                "47"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "SH",
@@ -378,9 +389,17 @@
                 "common": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
                 "official": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3"
             },
+            "kor": {
+                "common": "\uc138\uc778\ud2b8\ud5ec\ub808\ub098",
+                "official": "\uc138\uc778\ud2b8\ud5ec\ub808\ub098"
+            },
             "nld": {
                 "common": "Sint-Helena, Ascension en Tristan da Cunha",
                 "official": "Sint-Helena, Ascension en Tristan da Cunha"
+            },
+            "pol": {
+                "common": "Wyspa \u015awi\u0119tej Heleny, Wyspa Wniebowst\u0105pienia i Tristan da Cunha",
+                "official": "Wyspa \u015awi\u0119tej Heleny, Wyspa Wniebowst\u0105pienia i Tristan da Cunha"
             },
             "por": {
                 "common": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha",
@@ -397,6 +416,10 @@
             "spa": {
                 "common": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a",
                 "official": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u06c1\u0644\u06cc\u0646\u0627\u060c \u0627\u0633\u06cc\u0646\u0634\u0646 \u0648 \u062a\u0631\u0633\u0679\u0627\u0646 \u062f\u0627 \u06a9\u0648\u0646\u06cc\u0627",
+                "official": "\u0633\u06cc\u0646\u0679 \u06c1\u0644\u06cc\u0646\u0627\u060c \u0627\u0633\u06cc\u0646\u0634\u0646 \u0648 \u062a\u0631\u0633\u0679\u0627\u0646 \u062f\u0627 \u06a9\u0648\u0646\u06cc\u0627"
             },
             "zho": {
                 "common": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a",
@@ -434,7 +457,9 @@
         },
         "demonym": null,
         "dialling": {
-            "calling_code": null,
+            "calling_code": [
+                "290"
+            ],
             "international_prefix": "00",
             "national_destination_code_lengths": [
                 2
@@ -511,7 +536,9 @@
         "translations": []
     },
     "dialling": {
-        "calling_code": null,
+        "calling_code": [
+            "290"
+        ],
         "international_prefix": "00",
         "national_destination_code_lengths": [
             2
@@ -585,6 +612,13 @@
     "geounit": "Saint Helena",
     "gu_a3": "SHN",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "90",
+            "47"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": {
         "abbrev": "St.H.",
@@ -612,20 +646,20 @@
         "cca3": "SHN",
         "ccn3": "654",
         "cioc": null,
-        "currency": [
-            "SHP",
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "Pound sterling",
+                "symbol": "\u00a3"
+            },
+            "s_h_p": {
+                "name": "Saint Helena pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Saint Helenian",
-        "dialling": {
-            "calling_code": [
-                "290",
-                "247"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "SH",
@@ -653,6 +687,13 @@
         "geounit": "Saint Helena",
         "gu_a3": "SHN",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "90",
+                "47"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "SH",
@@ -763,9 +804,17 @@
                 "common": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
                 "official": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3"
             },
+            "kor": {
+                "common": "\uc138\uc778\ud2b8\ud5ec\ub808\ub098",
+                "official": "\uc138\uc778\ud2b8\ud5ec\ub808\ub098"
+            },
             "nld": {
                 "common": "Sint-Helena, Ascension en Tristan da Cunha",
                 "official": "Sint-Helena, Ascension en Tristan da Cunha"
+            },
+            "pol": {
+                "common": "Wyspa \u015awi\u0119tej Heleny, Wyspa Wniebowst\u0105pienia i Tristan da Cunha",
+                "official": "Wyspa \u015awi\u0119tej Heleny, Wyspa Wniebowst\u0105pienia i Tristan da Cunha"
             },
             "por": {
                 "common": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha",
@@ -782,6 +831,10 @@
             "spa": {
                 "common": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a",
                 "official": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u06c1\u0644\u06cc\u0646\u0627\u060c \u0627\u0633\u06cc\u0646\u0634\u0646 \u0648 \u062a\u0631\u0633\u0679\u0627\u0646 \u062f\u0627 \u06a9\u0648\u0646\u06cc\u0627",
+                "official": "\u0633\u06cc\u0646\u0679 \u06c1\u0644\u06cc\u0646\u0627\u060c \u0627\u0633\u06cc\u0646\u0634\u0646 \u0648 \u062a\u0631\u0633\u0679\u0627\u0646 \u062f\u0627 \u06a9\u0648\u0646\u06cc\u0627"
             },
             "zho": {
                 "common": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a",
@@ -899,7 +952,9 @@
         },
         "demonym": null,
         "dialling": {
-            "calling_code": null,
+            "calling_code": [
+                "290"
+            ],
             "international_prefix": "00",
             "national_destination_code_lengths": [
                 2
@@ -1008,9 +1063,17 @@
             "common": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3",
             "official": "\u30bb\u30f3\u30c8\u30d8\u30ec\u30ca\u30fb\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3\u304a\u3088\u3073\u30c8\u30ea\u30b9\u30bf\u30f3\u30c0\u30af\u30fc\u30cb\u30e3"
         },
+        "kor": {
+            "common": "\uc138\uc778\ud2b8\ud5ec\ub808\ub098",
+            "official": "\uc138\uc778\ud2b8\ud5ec\ub808\ub098"
+        },
         "nld": {
             "common": "Sint-Helena, Ascension en Tristan da Cunha",
             "official": "Sint-Helena, Ascension en Tristan da Cunha"
+        },
+        "pol": {
+            "common": "Wyspa \u015awi\u0119tej Heleny, Wyspa Wniebowst\u0105pienia i Tristan da Cunha",
+            "official": "Wyspa \u015awi\u0119tej Heleny, Wyspa Wniebowst\u0105pienia i Tristan da Cunha"
         },
         "por": {
             "common": "Santa Helena, Ascens\u00e3o e Trist\u00e3o da Cunha",
@@ -1027,6 +1090,10 @@
         "spa": {
             "common": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a",
             "official": "Santa Elena, Ascensi\u00f3n y Trist\u00e1n de Acu\u00f1a"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0646\u0679 \u06c1\u0644\u06cc\u0646\u0627\u060c \u0627\u0633\u06cc\u0646\u0634\u0646 \u0648 \u062a\u0631\u0633\u0679\u0627\u0646 \u062f\u0627 \u06a9\u0648\u0646\u06cc\u0627",
+            "official": "\u0633\u06cc\u0646\u0679 \u06c1\u0644\u06cc\u0646\u0627\u060c \u0627\u0633\u06cc\u0646\u0634\u0646 \u0648 \u062a\u0631\u0633\u0679\u0627\u0646 \u062f\u0627 \u06a9\u0648\u0646\u06cc\u0627"
         },
         "zho": {
             "common": "\u5723\u8d6b\u52d2\u62ff\u3001\u963f\u68ee\u677e\u548c\u7279\u91cc\u65af\u5766-\u8fbe\u5e93\u5c3c\u4e9a",

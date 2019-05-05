@@ -10,6 +10,15 @@
     "admin": "eSwatini",
     "alt_spellings": [
         "SZ",
+        "Swaziland",
+        "weSwatini",
+        "Swatini",
+        "Ngwane",
+        "Kingdom of Eswatini",
+        "Umbuso weSwatini"
+    ],
+    "alt_spellings_rinvex": [
+        "SZ",
         "weSwatini",
         "Swatini",
         "Ngwane",
@@ -120,6 +129,12 @@
     "geounit": "eSwatini",
     "gu_a3": "SWZ",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "68"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "SZ",
@@ -145,18 +160,18 @@
     "min_label": "4.0",
     "min_zoom": "0.0",
     "name": {
-        "common": "Swaziland",
+        "common": "Eswatini",
         "native": {
             "eng": {
-                "common": "Swaziland",
-                "official": "Kingdom of Swaziland"
+                "common": "Eswatini",
+                "official": "Kingdom of Eswatini"
             },
             "ssw": {
-                "common": "Swaziland",
-                "official": "Kingdom of Swaziland"
+                "common": "eSwatini",
+                "official": "Umbuso weSwatini"
             }
         },
-        "official": "Kingdom of Swaziland"
+        "official": "Kingdom of Eswatini"
     },
     "name_alt": "",
     "name_ar": "\u00d8\u00b3\u00d9\u0088\u00d8\u00a7\u00d8\u00b2\u00d9\u008a\u00d9\u0084\u00d8\u00a7\u00d9\u0086\u00d8\u00af",
@@ -179,6 +194,20 @@
     "name_nl": "\u00ec\u008a\u00a4\u00ec\u0099\u0080\u00ec\u00a7\u0088\u00eb\u009e\u0080\u00eb\u0093\u009c",
     "name_pl": "Swaziland",
     "name_pt": "Suazi",
+    "name_rinvex": {
+        "common": "Swaziland",
+        "native": {
+            "eng": {
+                "common": "Swaziland",
+                "official": "Kingdom of Swaziland"
+            },
+            "ssw": {
+                "common": "Swaziland",
+                "official": "Kingdom of Swaziland"
+            }
+        },
+        "official": "Kingdom of Swaziland"
+    },
     "name_ru": "Suazil\u00c3\u00a2ndia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b2\u00d0\u00b0\u00d0\u00b7\u00d0\u00b8\u00d0\u00bb\u00d0\u00b5\u00d0\u00bd\u00d0\u00b4",
     "name_sort": "eSwatini",
     "name_sv": "",
@@ -215,7 +244,7 @@
         },
         "est": {
             "common": "Svaasimaa",
-            "official": "Svaasimaa Kuningriik"
+            "official": "eSwatini Kuningriik"
         },
         "fin": {
             "common": "Swazimaa",
@@ -237,9 +266,17 @@
             "common": "\u30b9\u30ef\u30b8\u30e9\u30f3\u30c9",
             "official": "\u30b9\u30ef\u30b8\u30e9\u30f3\u30c9\u738b\u56fd"
         },
+        "kor": {
+            "common": "\uc5d0\uc2a4\uc640\ud2f0\ub2c8",
+            "official": "\uc5d0\uc2a4\uc640\ud2f0\ub2c8 \uc655\uad6d"
+        },
         "nld": {
             "common": "Swaziland",
             "official": "Koninkrijk Swaziland"
+        },
+        "pol": {
+            "common": "Suazi",
+            "official": "Kr\u00f3lestwo Suazi"
         },
         "por": {
             "common": "Suazil\u00e2ndia",
@@ -256,6 +293,10 @@
         "spa": {
             "common": "Suazilandia",
             "official": "Reino de Swazilandia"
+        },
+        "urd": {
+            "common": "\u0633\u0648\u0627\u0632\u06cc \u0644\u06cc\u0646\u0688",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0633\u0648\u0627\u0632\u06cc \u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u65af\u5a01\u58eb\u5170",

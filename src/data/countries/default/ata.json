@@ -48,14 +48,11 @@
         "cca3": "ATA",
         "ccn3": "010",
         "cioc": null,
-        "currency": [],
+        "currencies": [],
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Antarctican",
-        "dialling": {
-            "calling_code": []
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AY",
@@ -83,6 +80,10 @@
         "geounit": "Antarctica",
         "gu_a3": "ATA",
         "homepart": "1",
+        "idd": {
+            "root": "",
+            "suffixes": []
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "AQ",
@@ -190,9 +191,17 @@
                 "common": "\u5357\u6975",
                 "official": "\u5357\u6975\u5927\u9678"
             },
+            "kor": {
+                "common": "\ub0a8\uadf9",
+                "official": "\ub0a8\uadf9"
+            },
             "nld": {
                 "common": "Antarctica",
                 "official": "Antarctica"
+            },
+            "pol": {
+                "common": "Antarktyka",
+                "official": "Antarktyka"
             },
             "por": {
                 "common": "Ant\u00e1rtida",
@@ -210,6 +219,10 @@
                 "common": "Ant\u00e1rtida",
                 "official": "Ant\u00e1rtida"
             },
+            "urd": {
+                "common": "\u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06a9\u0627",
+                "official": "\u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06a9\u0627"
+            },
             "zho": {
                 "common": "\u5357\u6781\u6d32",
                 "official": "\u5357\u6781\u6d32"
@@ -226,6 +239,7 @@
         "woe_note": "Exact WOE match as country"
     },
     "currencies": [],
+    "currency": null,
     "data_sources": [
         "mledoze",
         "natural"
@@ -302,6 +316,10 @@
     "geounit": "Antarctica",
     "gu_a3": "ATA",
     "homepart": "1",
+    "idd": {
+        "root": "",
+        "suffixes": []
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Ant.",
@@ -328,14 +346,11 @@
         "cca3": "ATA",
         "ccn3": "010",
         "cioc": null,
-        "currency": [],
+        "currencies": [],
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Antarctican",
-        "dialling": {
-            "calling_code": []
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AY",
@@ -363,6 +378,10 @@
         "geounit": "Antarctica",
         "gu_a3": "ATA",
         "homepart": "1",
+        "idd": {
+            "root": "",
+            "suffixes": []
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "AQ",
@@ -470,9 +489,17 @@
                 "common": "\u5357\u6975",
                 "official": "\u5357\u6975\u5927\u9678"
             },
+            "kor": {
+                "common": "\ub0a8\uadf9",
+                "official": "\ub0a8\uadf9"
+            },
             "nld": {
                 "common": "Antarctica",
                 "official": "Antarctica"
+            },
+            "pol": {
+                "common": "Antarktyka",
+                "official": "Antarktyka"
             },
             "por": {
                 "common": "Ant\u00e1rtida",
@@ -489,6 +516,10 @@
             "spa": {
                 "common": "Ant\u00e1rtida",
                 "official": "Ant\u00e1rtida"
+            },
+            "urd": {
+                "common": "\u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06a9\u0627",
+                "official": "\u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06a9\u0627"
             },
             "zho": {
                 "common": "\u5357\u6781\u6d32",
@@ -623,9 +654,17 @@
             "common": "\u5357\u6975",
             "official": "\u5357\u6975\u5927\u9678"
         },
+        "kor": {
+            "common": "\ub0a8\uadf9",
+            "official": "\ub0a8\uadf9"
+        },
         "nld": {
             "common": "Antarctica",
             "official": "Antarctica"
+        },
+        "pol": {
+            "common": "Antarktyka",
+            "official": "Antarktyka"
         },
         "por": {
             "common": "Ant\u00e1rtida",
@@ -642,6 +681,10 @@
         "spa": {
             "common": "Ant\u00e1rtida",
             "official": "Ant\u00e1rtida"
+        },
+        "urd": {
+            "common": "\u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06a9\u0627",
+            "official": "\u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06a9\u0627"
         },
         "zho": {
             "common": "\u5357\u6781\u6d32",

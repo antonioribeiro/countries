@@ -32,7 +32,7 @@
     "ccn3": "862",
     "cioc": "VEN",
     "currencies": [
-        "VEF"
+        "VES"
     ],
     "data_sources": [
         "mledoze",
@@ -120,6 +120,12 @@
     "geounit": "Venezuela",
     "gu_a3": "VEN",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "8"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "VE",
@@ -232,9 +238,17 @@
             "common": "\u30d9\u30cd\u30ba\u30a8\u30e9\u30fb\u30dc\u30ea\u30d0\u30eb\u5171\u548c\u56fd",
             "official": "\u30d9\u30cd\u30ba\u30a8\u30e9\u00b7\u30dc\u30ea\u30d0\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubca0\ub124\uc218\uc5d8\ub77c",
+            "official": "\ubca0\ub124\uc218\uc5d8\ub77c \ubcfc\ub9ac\ubc14\ub974 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Venezuela",
             "official": "Bolivariaanse Republiek Venezuela"
+        },
+        "pol": {
+            "common": "Wenezuela",
+            "official": "Boliwaria\u0144ska Republika Wenezueli"
         },
         "por": {
             "common": "Venezuela",
@@ -251,6 +265,10 @@
         "spa": {
             "common": "Venezuela",
             "official": "Rep\u00fablica Bolivariana de Venezuela"
+        },
+        "urd": {
+            "common": "\u0648\u06cc\u0646\u06cc\u0632\u0648\u06cc\u0644\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0648\u06cc\u0646\u06cc\u0632\u0648\u06cc\u0644\u0627"
         },
         "zho": {
             "common": "\u59d4\u5185\u745e\u62c9",
