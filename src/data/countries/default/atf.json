@@ -50,16 +50,16 @@
         "cca3": "ATF",
         "ccn3": "260",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "French",
-        "dialling": {
-            "calling_code": []
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "FS",
@@ -87,6 +87,12 @@
         "geounit": "French Southern and Antarctic Lands",
         "gu_a3": "ATF",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "62"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "TF",
@@ -170,8 +176,8 @@
                 "official": "Teritorium Francouzsk\u00e1 ji\u017en\u00ed a antarktick\u00e1 \u00fazem\u00ed"
             },
             "deu": {
-                "common": "Franz\u00f6sische S\u00fcd-und Antarktisgebiete",
-                "official": "Gebiet der Franz\u00f6sisch S\u00fcd-und Antarktisgebiete"
+                "common": "Franz\u00f6sische S\u00fcd- und Antarktisgebiete",
+                "official": "Gebiet der Franz\u00f6sisch S\u00fcd- und Antarktisgebiete"
             },
             "est": {
                 "common": "Prantsuse L\u00f5unaalad",
@@ -197,9 +203,17 @@
                 "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
                 "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u00b7\u5357\u6975\u5730\u57df\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\ud504\ub791\uc2a4\ub839 \ub0a8\ubd80\uc640 \ub0a8\uadf9 \uc9c0\uc5ed",
+                "official": "\ud504\ub791\uc2a4\ub839 \ub0a8\ubd80\uc640 \ub0a8\uadf9 \uc9c0\uc5ed"
+            },
             "nld": {
                 "common": "Franse Gebieden in de zuidelijke Indische Oceaan",
                 "official": "Grondgebied van de Franse Zuidelijke en Antarctische gebieden"
+            },
+            "pol": {
+                "common": "Francuskie Terytoria Po\u0142udniowe i Antarktyczne",
+                "official": "Francuskie Terytoria Po\u0142udniowe i Antarktyczne"
             },
             "por": {
                 "common": "Terras Austrais e Ant\u00e1rticas Francesas",
@@ -216,6 +230,10 @@
             "spa": {
                 "common": "Tierras Australes y Ant\u00e1rticas Francesas",
                 "official": "Territorio del Franc\u00e9s Tierras australes y ant\u00e1rticas"
+            },
+            "urd": {
+                "common": "\u0633\u0631\u0632\u0645\u06cc\u0646 \u062c\u0646\u0648\u0628\u06cc \u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc\u06c1 \u0648 \u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06cc\u06a9\u0627",
+                "official": "\u0633\u0631\u0632\u0645\u06cc\u0646\u0650 \u062c\u0646\u0648\u0628\u06cc \u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc\u06c1 \u0648 \u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06cc\u06a9\u06c1"
             },
             "zho": {
                 "common": "\u6cd5\u56fd\u5357\u90e8\u548c\u5357\u6781\u571f\u5730",
@@ -311,6 +329,12 @@
     "geounit": "French Southern and Antarctic Lands",
     "gu_a3": "ATF",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "62"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Fr. S.A.L.",
@@ -338,16 +362,16 @@
         "cca3": "ATF",
         "ccn3": "260",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "French",
-        "dialling": {
-            "calling_code": []
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "FS",
@@ -375,6 +399,12 @@
         "geounit": "French Southern and Antarctic Lands",
         "gu_a3": "ATF",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "62"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "TF",
@@ -458,8 +488,8 @@
                 "official": "Teritorium Francouzsk\u00e1 ji\u017en\u00ed a antarktick\u00e1 \u00fazem\u00ed"
             },
             "deu": {
-                "common": "Franz\u00f6sische S\u00fcd-und Antarktisgebiete",
-                "official": "Gebiet der Franz\u00f6sisch S\u00fcd-und Antarktisgebiete"
+                "common": "Franz\u00f6sische S\u00fcd- und Antarktisgebiete",
+                "official": "Gebiet der Franz\u00f6sisch S\u00fcd- und Antarktisgebiete"
             },
             "est": {
                 "common": "Prantsuse L\u00f5unaalad",
@@ -485,9 +515,17 @@
                 "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
                 "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u00b7\u5357\u6975\u5730\u57df\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\ud504\ub791\uc2a4\ub839 \ub0a8\ubd80\uc640 \ub0a8\uadf9 \uc9c0\uc5ed",
+                "official": "\ud504\ub791\uc2a4\ub839 \ub0a8\ubd80\uc640 \ub0a8\uadf9 \uc9c0\uc5ed"
+            },
             "nld": {
                 "common": "Franse Gebieden in de zuidelijke Indische Oceaan",
                 "official": "Grondgebied van de Franse Zuidelijke en Antarctische gebieden"
+            },
+            "pol": {
+                "common": "Francuskie Terytoria Po\u0142udniowe i Antarktyczne",
+                "official": "Francuskie Terytoria Po\u0142udniowe i Antarktyczne"
             },
             "por": {
                 "common": "Terras Austrais e Ant\u00e1rticas Francesas",
@@ -504,6 +542,10 @@
             "spa": {
                 "common": "Tierras Australes y Ant\u00e1rticas Francesas",
                 "official": "Territorio del Franc\u00e9s Tierras australes y ant\u00e1rticas"
+            },
+            "urd": {
+                "common": "\u0633\u0631\u0632\u0645\u06cc\u0646 \u062c\u0646\u0648\u0628\u06cc \u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc\u06c1 \u0648 \u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06cc\u06a9\u0627",
+                "official": "\u0633\u0631\u0632\u0645\u06cc\u0646\u0650 \u062c\u0646\u0648\u0628\u06cc \u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc\u06c1 \u0648 \u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06cc\u06a9\u06c1"
             },
             "zho": {
                 "common": "\u6cd5\u56fd\u5357\u90e8\u548c\u5357\u6781\u571f\u5730",
@@ -631,9 +673,17 @@
             "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
             "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u00b7\u5357\u6975\u5730\u57df\u306e\u9818\u571f"
         },
+        "kor": {
+            "common": "\ud504\ub791\uc2a4\ub839 \ub0a8\ubd80\uc640 \ub0a8\uadf9 \uc9c0\uc5ed",
+            "official": "\ud504\ub791\uc2a4\ub839 \ub0a8\ubd80\uc640 \ub0a8\uadf9 \uc9c0\uc5ed"
+        },
         "nld": {
             "common": "Franse Gebieden in de zuidelijke Indische Oceaan",
             "official": "Grondgebied van de Franse Zuidelijke en Antarctische gebieden"
+        },
+        "pol": {
+            "common": "Francuskie Terytoria Po\u0142udniowe i Antarktyczne",
+            "official": "Francuskie Terytoria Po\u0142udniowe i Antarktyczne"
         },
         "por": {
             "common": "Terras Austrais e Ant\u00e1rticas Francesas",
@@ -650,6 +700,10 @@
         "spa": {
             "common": "Tierras Australes y Ant\u00e1rticas Francesas",
             "official": "Territorio del Franc\u00e9s Tierras australes y ant\u00e1rticas"
+        },
+        "urd": {
+            "common": "\u0633\u0631\u0632\u0645\u06cc\u0646 \u062c\u0646\u0648\u0628\u06cc \u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc\u06c1 \u0648 \u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06cc\u06a9\u0627",
+            "official": "\u0633\u0631\u0632\u0645\u06cc\u0646\u0650 \u062c\u0646\u0648\u0628\u06cc \u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc\u06c1 \u0648 \u0627\u0646\u0679\u0627\u0631\u06a9\u0679\u06cc\u06a9\u06c1"
         },
         "zho": {
             "common": "\u6cd5\u56fd\u5357\u90e8\u548c\u5357\u6781\u571f\u5730",

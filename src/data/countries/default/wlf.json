@@ -52,18 +52,16 @@
         "cca3": "WLF",
         "ccn3": "876",
         "cioc": null,
-        "currency": [
-            "XPF"
-        ],
+        "currencies": {
+            "x_p_f": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Wallis and Futuna Islander",
-        "dialling": {
-            "calling_code": [
-                "681"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "WF",
@@ -91,6 +89,12 @@
         "geounit": "Wallis and Futuna",
         "gu_a3": "WLF",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "81"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "WF",
@@ -200,9 +204,17 @@
                 "common": "\u30a6\u30a9\u30ea\u30b9\u30fb\u30d5\u30c4\u30ca",
                 "official": "\u30a6\u30a9\u30ea\u30b9\u00b7\u30d5\u30c4\u30ca\u8af8\u5cf6\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098",
+                "official": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098"
+            },
             "nld": {
                 "common": "Wallis en Futuna",
                 "official": "Grondgebied van de Wallis en Futuna"
+            },
+            "pol": {
+                "common": "Wallis i Futuna",
+                "official": "Terytorium Wysp Wallis i Futuna"
             },
             "por": {
                 "common": "Wallis e Futuna",
@@ -219,6 +231,10 @@
             "spa": {
                 "common": "Wallis y Futuna",
                 "official": "Territorio de las Islas Wallis y Futuna"
+            },
+            "urd": {
+                "common": "\u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1",
+                "official": "\u0633\u0631 \u0632\u0645\u06cc\u0646\u0650 \u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1 \u062c\u0632\u0627\u0626\u0631"
             },
             "zho": {
                 "common": "\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3\u7fa4\u5c9b",
@@ -320,6 +336,12 @@
     "geounit": "Wallis and Futuna",
     "gu_a3": "WLF",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "81"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": {
         "abbrev": "Wlf.",
@@ -348,18 +370,16 @@
         "cca3": "WLF",
         "ccn3": "876",
         "cioc": null,
-        "currency": [
-            "XPF"
-        ],
+        "currencies": {
+            "x_p_f": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Wallis and Futuna Islander",
-        "dialling": {
-            "calling_code": [
-                "681"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "WF",
@@ -387,6 +407,12 @@
         "geounit": "Wallis and Futuna",
         "gu_a3": "WLF",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "81"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "WF",
@@ -496,9 +522,17 @@
                 "common": "\u30a6\u30a9\u30ea\u30b9\u30fb\u30d5\u30c4\u30ca",
                 "official": "\u30a6\u30a9\u30ea\u30b9\u00b7\u30d5\u30c4\u30ca\u8af8\u5cf6\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098",
+                "official": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098"
+            },
             "nld": {
                 "common": "Wallis en Futuna",
                 "official": "Grondgebied van de Wallis en Futuna"
+            },
+            "pol": {
+                "common": "Wallis i Futuna",
+                "official": "Terytorium Wysp Wallis i Futuna"
             },
             "por": {
                 "common": "Wallis e Futuna",
@@ -515,6 +549,10 @@
             "spa": {
                 "common": "Wallis y Futuna",
                 "official": "Territorio de las Islas Wallis y Futuna"
+            },
+            "urd": {
+                "common": "\u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1",
+                "official": "\u0633\u0631 \u0632\u0645\u06cc\u0646\u0650 \u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1 \u062c\u0632\u0627\u0626\u0631"
             },
             "zho": {
                 "common": "\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3\u7fa4\u5c9b",
@@ -641,9 +679,17 @@
             "common": "\u30a6\u30a9\u30ea\u30b9\u30fb\u30d5\u30c4\u30ca",
             "official": "\u30a6\u30a9\u30ea\u30b9\u00b7\u30d5\u30c4\u30ca\u8af8\u5cf6\u306e\u9818\u571f"
         },
+        "kor": {
+            "common": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098",
+            "official": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098"
+        },
         "nld": {
             "common": "Wallis en Futuna",
             "official": "Grondgebied van de Wallis en Futuna"
+        },
+        "pol": {
+            "common": "Wallis i Futuna",
+            "official": "Terytorium Wysp Wallis i Futuna"
         },
         "por": {
             "common": "Wallis e Futuna",
@@ -660,6 +706,10 @@
         "spa": {
             "common": "Wallis y Futuna",
             "official": "Territorio de las Islas Wallis y Futuna"
+        },
+        "urd": {
+            "common": "\u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1",
+            "official": "\u0633\u0631 \u0632\u0645\u06cc\u0646\u0650 \u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1 \u062c\u0632\u0627\u0626\u0631"
         },
         "zho": {
             "common": "\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3\u7fa4\u5c9b",

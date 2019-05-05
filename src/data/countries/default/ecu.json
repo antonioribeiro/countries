@@ -118,6 +118,12 @@
     "geounit": "Ecuador",
     "gu_a3": "ECU",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "93"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "EC",
@@ -234,9 +240,17 @@
             "common": "\u30a8\u30af\u30a2\u30c9\u30eb",
             "official": "\u30a8\u30af\u30a2\u30c9\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc5d0\ucf70\ub3c4\ub974",
+            "official": "\uc5d0\ucf70\ub3c4\ub974 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Ecuador",
             "official": "Republiek Ecuador"
+        },
+        "pol": {
+            "common": "Ekwador",
+            "official": "Ekwador"
         },
         "por": {
             "common": "Equador",
@@ -253,6 +267,10 @@
         "spa": {
             "common": "Ecuador",
             "official": "Rep\u00fablica del Ecuador"
+        },
+        "urd": {
+            "common": "\u0627\u06cc\u06a9\u0648\u0627\u0688\u0648\u0631",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u06cc\u06a9\u0648\u0688\u0648\u0631"
         },
         "zho": {
             "common": "\u5384\u74dc\u591a\u5c14",

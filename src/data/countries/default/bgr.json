@@ -132,6 +132,12 @@
     "geounit": "Bulgaria",
     "gu_a3": "BGR",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "59"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BG",
@@ -248,9 +254,17 @@
             "common": "\u30d6\u30eb\u30ac\u30ea\u30a2",
             "official": "\u30d6\u30eb\u30ac\u30ea\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubd88\uac00\ub9ac\uc544",
+            "official": "\ubd88\uac00\ub9ac\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Bulgarije",
             "official": "Republiek Bulgarije"
+        },
+        "pol": {
+            "common": "Bu\u0142garia",
+            "official": "Republika Bu\u0142garii"
         },
         "por": {
             "common": "Bulg\u00e1ria",
@@ -267,6 +281,10 @@
         "spa": {
             "common": "Bulgaria",
             "official": "Rep\u00fablica de Bulgaria"
+        },
+        "urd": {
+            "common": "\u0628\u0644\u063a\u0627\u0631\u06cc\u06c1",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0644\u063a\u0627\u0631\u06cc\u06c1"
         },
         "zho": {
             "common": "\u4fdd\u52a0\u5229\u4e9a",

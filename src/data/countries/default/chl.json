@@ -121,6 +121,12 @@
     "geounit": "Chile",
     "gu_a3": "CHL",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "6"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "CL",
@@ -237,9 +243,17 @@
             "common": "\u30c1\u30ea",
             "official": "\u30c1\u30ea\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uce60\ub808",
+            "official": "\uce60\ub808 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Chili",
             "official": "Republiek Chili"
+        },
+        "pol": {
+            "common": "Chile",
+            "official": "Republika Chile"
         },
         "por": {
             "common": "Chile",
@@ -256,6 +270,10 @@
         "spa": {
             "common": "Chile",
             "official": "Rep\u00fablica de Chile"
+        },
+        "urd": {
+            "common": "\u0686\u0644\u06cc",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u0644\u06cc"
         },
         "zho": {
             "common": "\u667a\u5229",

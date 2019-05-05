@@ -119,6 +119,12 @@
     "geounit": "Yemen",
     "gu_a3": "YEM",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "67"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "YE",
@@ -231,9 +237,17 @@
             "common": "\u30a4\u30a8\u30e1\u30f3",
             "official": "\u30a4\u30a8\u30e1\u30f3\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc608\uba58",
+            "official": "\uc608\uba58 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Jemen",
             "official": "Republiek Jemen"
+        },
+        "pol": {
+            "common": "Jemen",
+            "official": "Republika Jeme\u0144ska"
         },
         "por": {
             "common": "I\u00e9men",
@@ -250,6 +264,10 @@
         "spa": {
             "common": "Yemen",
             "official": "Rep\u00fablica de Yemen"
+        },
+        "urd": {
+            "common": "\u06cc\u0645\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06cc\u0645\u0646"
         },
         "zho": {
             "common": "\u4e5f\u95e8",

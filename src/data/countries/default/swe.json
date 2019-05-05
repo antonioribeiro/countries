@@ -125,6 +125,12 @@
     "geounit": "Sweden",
     "gu_a3": "SWE",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "6"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "SE",
@@ -237,9 +243,17 @@
             "common": "\u30b9\u30a6\u30a7\u30fc\u30c7\u30f3",
             "official": "\u30b9\u30a6\u30a7\u30fc\u30c7\u30f3\u738b\u56fd"
         },
+        "kor": {
+            "common": "\uc2a4\uc6e8\ub374",
+            "official": "\uc2a4\uc6e8\ub374 \uc655\uad6d"
+        },
         "nld": {
             "common": "Zweden",
             "official": "Koninkrijk Zweden"
+        },
+        "pol": {
+            "common": "Szwecja",
+            "official": "Kr\u00f3lestwo Szwecji"
         },
         "por": {
             "common": "Su\u00e9cia",
@@ -256,6 +270,10 @@
         "spa": {
             "common": "Suecia",
             "official": "Reino de Suecia"
+        },
+        "urd": {
+            "common": "\u0633\u0648\u06cc\u0688\u0646",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0633\u0648\u06cc\u0688\u0646"
         },
         "zho": {
             "common": "\u745e\u5178",

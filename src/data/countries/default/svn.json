@@ -128,6 +128,12 @@
     "geounit": "Slovenia",
     "gu_a3": "SVN",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "86"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "SI",
@@ -240,9 +246,17 @@
             "common": "\u30b9\u30ed\u30d9\u30cb\u30a2",
             "official": "\u30b9\u30ed\u30d9\u30cb\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc2ac\ub85c\ubca0\ub2c8\uc544",
+            "official": "\uc2ac\ub85c\ubca0\ub2c8\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Sloveni\u00eb",
             "official": "Republiek Sloveni\u00eb"
+        },
+        "pol": {
+            "common": "S\u0142owenia",
+            "official": "Republika S\u0142owenii"
         },
         "por": {
             "common": "Eslov\u00e9nia",
@@ -259,6 +273,10 @@
         "spa": {
             "common": "Eslovenia",
             "official": "Rep\u00fablica de Eslovenia"
+        },
+        "urd": {
+            "common": "\u0633\u0644\u0648\u0648\u06cc\u0646\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0644\u0648\u0648\u06cc\u0646\u06cc\u0627"
         },
         "zho": {
             "common": "\u65af\u6d1b\u6587\u5c3c\u4e9a",

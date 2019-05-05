@@ -144,6 +144,12 @@
     "geounit": "Austria",
     "gu_a3": "AUT",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "3"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "AT",
@@ -260,9 +266,17 @@
             "common": "\u30aa\u30fc\u30b9\u30c8\u30ea\u30a2",
             "official": "\u30aa\u30fc\u30b9\u30c8\u30ea\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc624\uc2a4\ud2b8\ub9ac\uc544",
+            "official": "\uc624\uc2a4\ud2b8\ub9ac\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Oostenrijk",
             "official": "Republiek Oostenrijk"
+        },
+        "pol": {
+            "common": "Austria",
+            "official": "Republika Austrii"
         },
         "por": {
             "common": "\u00c1ustria",
@@ -279,6 +293,10 @@
         "spa": {
             "common": "Austria",
             "official": "Rep\u00fablica de Austria"
+        },
+        "urd": {
+            "common": "\u0622\u0633\u0679\u0631\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0622\u0633\u0679\u0631\u06cc\u0627"
         },
         "zho": {
             "common": "\u5965\u5730\u5229",

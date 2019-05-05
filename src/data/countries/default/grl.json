@@ -50,18 +50,16 @@
         "cca3": "GRL",
         "ccn3": "304",
         "cioc": null,
-        "currency": [
-            "DKK"
-        ],
+        "currencies": {
+            "d_k_k": {
+                "name": "krone",
+                "symbol": "kr."
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Greenlandic",
-        "dialling": {
-            "calling_code": [
-                "299"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GL",
@@ -89,6 +87,12 @@
         "geounit": "Greenland",
         "gu_a3": "GRL",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "99"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "GL",
@@ -199,9 +203,17 @@
                 "common": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
                 "official": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9"
             },
+            "kor": {
+                "common": "\uadf8\ub9b0\ub780\ub4dc",
+                "official": "\uadf8\ub9b0\ub780\ub4dc"
+            },
             "nld": {
                 "common": "Groenland",
                 "official": "Groenland"
+            },
+            "pol": {
+                "common": "Grenlandia",
+                "official": "Grenlandia"
             },
             "por": {
                 "common": "Gronel\u00e2ndia",
@@ -218,6 +230,10 @@
             "spa": {
                 "common": "Groenlandia",
                 "official": "Groenlandia"
+            },
+            "urd": {
+                "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
+                "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
             },
             "zho": {
                 "common": "\u683c\u9675\u5170",
@@ -319,6 +335,12 @@
     "geounit": "Greenland",
     "gu_a3": "GRL",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "99"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Grlnd.",
@@ -346,18 +368,16 @@
         "cca3": "GRL",
         "ccn3": "304",
         "cioc": null,
-        "currency": [
-            "DKK"
-        ],
+        "currencies": {
+            "d_k_k": {
+                "name": "krone",
+                "symbol": "kr."
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Greenlandic",
-        "dialling": {
-            "calling_code": [
-                "299"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GL",
@@ -385,6 +405,12 @@
         "geounit": "Greenland",
         "gu_a3": "GRL",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "99"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "GL",
@@ -495,9 +521,17 @@
                 "common": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
                 "official": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9"
             },
+            "kor": {
+                "common": "\uadf8\ub9b0\ub780\ub4dc",
+                "official": "\uadf8\ub9b0\ub780\ub4dc"
+            },
             "nld": {
                 "common": "Groenland",
                 "official": "Groenland"
+            },
+            "pol": {
+                "common": "Grenlandia",
+                "official": "Grenlandia"
             },
             "por": {
                 "common": "Gronel\u00e2ndia",
@@ -514,6 +548,10 @@
             "spa": {
                 "common": "Groenlandia",
                 "official": "Groenlandia"
+            },
+            "urd": {
+                "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
+                "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
             },
             "zho": {
                 "common": "\u683c\u9675\u5170",
@@ -641,9 +679,17 @@
             "common": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
             "official": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9"
         },
+        "kor": {
+            "common": "\uadf8\ub9b0\ub780\ub4dc",
+            "official": "\uadf8\ub9b0\ub780\ub4dc"
+        },
         "nld": {
             "common": "Groenland",
             "official": "Groenland"
+        },
+        "pol": {
+            "common": "Grenlandia",
+            "official": "Grenlandia"
         },
         "por": {
             "common": "Gronel\u00e2ndia",
@@ -660,6 +706,10 @@
         "spa": {
             "common": "Groenlandia",
             "official": "Groenlandia"
+        },
+        "urd": {
+            "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
+            "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u683c\u9675\u5170",

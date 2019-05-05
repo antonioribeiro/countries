@@ -114,6 +114,12 @@
     "geounit": "Gambia",
     "gu_a3": "GMB",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "20"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "GM",
@@ -226,9 +232,17 @@
             "common": "\u30ac\u30f3\u30d3\u30a2",
             "official": "\u30ac\u30f3\u30d3\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uac10\ube44\uc544",
+            "official": "\uac10\ube44\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Gambia",
             "official": "Republiek Gambia"
+        },
+        "pol": {
+            "common": "Gambia",
+            "official": "Republika Gambii"
         },
         "por": {
             "common": "G\u00e2mbia",
@@ -245,6 +259,10 @@
         "spa": {
             "common": "Gambia",
             "official": "Rep\u00fablica de Gambia"
+        },
+        "urd": {
+            "common": "\u06af\u06cc\u0645\u0628\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u06cc\u0645\u0628\u06cc\u0627"
         },
         "zho": {
             "common": "\u5188\u6bd4\u4e9a",

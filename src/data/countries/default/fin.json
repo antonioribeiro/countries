@@ -129,6 +129,12 @@
     "geounit": "Finland",
     "gu_a3": "FIN",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "58"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "FI",
@@ -246,9 +252,17 @@
             "common": "\u30d5\u30a3\u30f3\u30e9\u30f3\u30c9",
             "official": "\u30d5\u30a3\u30f3\u30e9\u30f3\u30c9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud540\ub780\ub4dc",
+            "official": "\ud540\ub780\ub4dc \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Finland",
             "official": "Republiek Finland"
+        },
+        "pol": {
+            "common": "Finlandia",
+            "official": "Republika Finlandii"
         },
         "por": {
             "common": "Finl\u00e2ndia",
@@ -265,6 +279,10 @@
         "spa": {
             "common": "Finlandia",
             "official": "Rep\u00fablica de Finlandia"
+        },
+        "urd": {
+            "common": "\u0641\u0646 \u0644\u06cc\u0646\u0688",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u0646 \u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u82ac\u5170",

@@ -58,18 +58,16 @@
         "cca3": "CUW",
         "ccn3": "531",
         "cioc": null,
-        "currency": [
-            "ANG"
-        ],
+        "currencies": {
+            "a_n_g": {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "\u0192"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Dutch",
-        "dialling": {
-            "calling_code": [
-                "5999"
-            ]
-        },
+        "demonym": "Cura\u00e7aoan",
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NT",
@@ -97,6 +95,12 @@
         "geounit": "Cura\u00c3\u00a7ao",
         "gu_a3": "CUW",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "999"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "CW",
@@ -202,11 +206,23 @@
             },
             "fra": {
                 "common": "Cura\u00e7ao",
-                "official": "Cura\u00e7ao"
+                "official": "Pays de Cura\u00e7ao"
+            },
+            "ita": {
+                "common": "Cura\u00e7ao",
+                "official": "Paese di Cura\u00e7ao"
+            },
+            "kor": {
+                "common": "\ud034\ub77c\uc18c",
+                "official": "\ud034\ub77c\uc18c"
             },
             "nld": {
                 "common": "Cura\u00e7ao",
                 "official": "Land Cura\u00e7ao"
+            },
+            "pol": {
+                "common": "Cura\u00e7ao",
+                "official": "Cura\u00e7ao"
             },
             "por": {
                 "common": "ilha da Cura\u00e7\u00e3o",
@@ -223,6 +239,10 @@
             "spa": {
                 "common": "Curazao",
                 "official": "Pa\u00eds de Curazao"
+            },
+            "urd": {
+                "common": "\u06a9\u06cc\u0648\u0631\u0627\u0633\u0627\u0624",
+                "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u06a9\u06cc\u0648\u0631\u0627\u0633\u0627\u0624"
             },
             "zho": {
                 "common": "\u5e93\u62c9\u7d22",
@@ -246,10 +266,11 @@
         "mledoze",
         "natural"
     ],
-    "demonym": "Dutch",
+    "demonym": "Cura\u00e7aoan",
+    "demonym_rinvex": "Dutch",
     "dialling": {
         "calling_code": [
-            "5999"
+            "599"
         ],
         "international_prefix": "00",
         "national_destination_code_lengths": [
@@ -324,6 +345,12 @@
     "geounit": "Cura\u00c3\u00a7ao",
     "gu_a3": "CUW",
     "homepart": "-99",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "999"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Cur.",
@@ -355,18 +382,16 @@
         "cca3": "CUW",
         "ccn3": "531",
         "cioc": null,
-        "currency": [
-            "ANG"
-        ],
+        "currencies": {
+            "a_n_g": {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "\u0192"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Dutch",
-        "dialling": {
-            "calling_code": [
-                "5999"
-            ]
-        },
+        "demonym": "Cura\u00e7aoan",
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NT",
@@ -394,6 +419,12 @@
         "geounit": "Cura\u00c3\u00a7ao",
         "gu_a3": "CUW",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "999"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "CW",
@@ -499,11 +530,23 @@
             },
             "fra": {
                 "common": "Cura\u00e7ao",
-                "official": "Cura\u00e7ao"
+                "official": "Pays de Cura\u00e7ao"
+            },
+            "ita": {
+                "common": "Cura\u00e7ao",
+                "official": "Paese di Cura\u00e7ao"
+            },
+            "kor": {
+                "common": "\ud034\ub77c\uc18c",
+                "official": "\ud034\ub77c\uc18c"
             },
             "nld": {
                 "common": "Cura\u00e7ao",
                 "official": "Land Cura\u00e7ao"
+            },
+            "pol": {
+                "common": "Cura\u00e7ao",
+                "official": "Cura\u00e7ao"
             },
             "por": {
                 "common": "ilha da Cura\u00e7\u00e3o",
@@ -520,6 +563,10 @@
             "spa": {
                 "common": "Curazao",
                 "official": "Pa\u00eds de Curazao"
+            },
+            "urd": {
+                "common": "\u06a9\u06cc\u0648\u0631\u0627\u0633\u0627\u0624",
+                "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u06a9\u06cc\u0648\u0631\u0627\u0633\u0627\u0624"
             },
             "zho": {
                 "common": "\u5e93\u62c9\u7d22",
@@ -644,9 +691,21 @@
             "common": "Cura\u00e7ao",
             "official": "Cura\u00e7ao"
         },
+        "ita": {
+            "common": "Cura\u00e7ao",
+            "official": "Paese di Cura\u00e7ao"
+        },
+        "kor": {
+            "common": "\ud034\ub77c\uc18c",
+            "official": "\ud034\ub77c\uc18c"
+        },
         "nld": {
             "common": "Cura\u00e7ao",
             "official": "Land Cura\u00e7ao"
+        },
+        "pol": {
+            "common": "Cura\u00e7ao",
+            "official": "Cura\u00e7ao"
         },
         "por": {
             "common": "ilha da Cura\u00e7\u00e3o",
@@ -663,6 +722,10 @@
         "spa": {
             "common": "Curazao",
             "official": "Pa\u00eds de Curazao"
+        },
+        "urd": {
+            "common": "\u06a9\u06cc\u0648\u0631\u0627\u0633\u0627\u0624",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u06a9\u06cc\u0648\u0631\u0627\u0633\u0627\u0624"
         },
         "zho": {
             "common": "\u5e93\u62c9\u7d22",

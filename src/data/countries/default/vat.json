@@ -58,19 +58,16 @@
         "cca3": "VAT",
         "ccn3": "336",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Vatican",
-        "dialling": {
-            "calling_code": [
-                "3906698",
-                "379"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "VT",
@@ -98,6 +95,13 @@
         "geounit": "Vatican",
         "gu_a3": "VAT",
         "homepart": "1",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "906698",
+                "79"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": true,
         "iso_a2": "VA",
@@ -212,9 +216,17 @@
                 "common": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd",
                 "official": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd\u306e\u72b6\u614b"
             },
+            "kor": {
+                "common": "\ubc14\ud2f0\uce78",
+                "official": "\ubc14\ud2f0\uce78 \uc2dc\uad6d"
+            },
             "nld": {
                 "common": "Vaticaanstad",
                 "official": "Vaticaanstad"
+            },
+            "pol": {
+                "common": "Watykan",
+                "official": "Pa\u0144stwo Watyka\u0144skie"
             },
             "por": {
                 "common": "Cidade do Vaticano",
@@ -231,6 +243,10 @@
             "spa": {
                 "common": "Ciudad del Vaticano",
                 "official": "Ciudad del Vaticano"
+            },
+            "urd": {
+                "common": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc",
+                "official": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc"
             },
             "zho": {
                 "common": "\u68b5\u8482\u5188",
@@ -336,6 +352,13 @@
     "geounit": "Vatican",
     "gu_a3": "VAT",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "906698",
+            "79"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "VA",
@@ -453,9 +476,17 @@
             "common": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd",
             "official": "\u30d0\u30c1\u30ab\u30f3\u5e02\u56fd\u306e\u72b6\u614b"
         },
+        "kor": {
+            "common": "\ubc14\ud2f0\uce78",
+            "official": "\ubc14\ud2f0\uce78 \uc2dc\uad6d"
+        },
         "nld": {
             "common": "Vaticaanstad",
             "official": "Vaticaanstad"
+        },
+        "pol": {
+            "common": "Watykan",
+            "official": "Pa\u0144stwo Watyka\u0144skie"
         },
         "por": {
             "common": "Cidade do Vaticano",
@@ -472,6 +503,10 @@
         "spa": {
             "common": "Ciudad del Vaticano",
             "official": "Ciudad del Vaticano"
+        },
+        "urd": {
+            "common": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc",
+            "official": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc"
         },
         "zho": {
             "common": "\u68b5\u8482\u5188",

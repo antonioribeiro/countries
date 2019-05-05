@@ -48,18 +48,16 @@
         "cca3": "IOT",
         "ccn3": "086",
         "cioc": null,
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Indian",
-        "dialling": {
-            "calling_code": [
-                "246"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "IO",
@@ -87,6 +85,12 @@
         "geounit": "British Indian Ocean Territory",
         "gu_a3": "IOT",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "46"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "IO",
@@ -175,7 +179,7 @@
             },
             "deu": {
                 "common": "Britisches Territorium im Indischen Ozean",
-                "official": "Britisch-Indischer Ozean"
+                "official": "Britisches Territorium im Indischen Ozean"
             },
             "est": {
                 "common": "Briti India ookeani ala",
@@ -201,9 +205,17 @@
                 "common": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df",
                 "official": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df"
             },
+            "kor": {
+                "common": "\uc778\ub3c4",
+                "official": "\uc778\ub3c4 \uacf5\ud654\uad6d"
+            },
             "nld": {
                 "common": "Britse Gebieden in de Indische Oceaan",
                 "official": "Brits Indische Oceaan Territorium"
+            },
+            "pol": {
+                "common": "Brytyjskie Terytorium Oceanu Indyjskiego",
+                "official": "Brytyjskie Terytorium Oceanu Indyjskiego"
             },
             "por": {
                 "common": "Territ\u00f3rio Brit\u00e2nico do Oceano \u00cdndico",
@@ -220,6 +232,10 @@
             "spa": {
                 "common": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico",
                 "official": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico"
+            },
+            "urd": {
+                "common": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u0628\u062d\u0631\u06c1\u0646\u062f \u062e\u0637\u06c1",
+                "official": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u0628\u062d\u0631\u06c1\u0646\u062f \u062e\u0637\u06c1"
             },
             "zho": {
                 "common": "\u82f1\u5c5e\u5370\u5ea6\u6d0b\u9886\u5730",
@@ -318,6 +334,12 @@
     "geounit": "British Indian Ocean Territory",
     "gu_a3": "IOT",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "46"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "I.O.T.",
@@ -344,18 +366,16 @@
         "cca3": "IOT",
         "ccn3": "086",
         "cioc": null,
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Indian",
-        "dialling": {
-            "calling_code": [
-                "246"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "IO",
@@ -383,6 +403,12 @@
         "geounit": "British Indian Ocean Territory",
         "gu_a3": "IOT",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "46"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "IO",
@@ -471,7 +497,7 @@
             },
             "deu": {
                 "common": "Britisches Territorium im Indischen Ozean",
-                "official": "Britisch-Indischer Ozean"
+                "official": "Britisches Territorium im Indischen Ozean"
             },
             "est": {
                 "common": "Briti India ookeani ala",
@@ -497,9 +523,17 @@
                 "common": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df",
                 "official": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df"
             },
+            "kor": {
+                "common": "\uc778\ub3c4",
+                "official": "\uc778\ub3c4 \uacf5\ud654\uad6d"
+            },
             "nld": {
                 "common": "Britse Gebieden in de Indische Oceaan",
                 "official": "Brits Indische Oceaan Territorium"
+            },
+            "pol": {
+                "common": "Brytyjskie Terytorium Oceanu Indyjskiego",
+                "official": "Brytyjskie Terytorium Oceanu Indyjskiego"
             },
             "por": {
                 "common": "Territ\u00f3rio Brit\u00e2nico do Oceano \u00cdndico",
@@ -516,6 +550,10 @@
             "spa": {
                 "common": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico",
                 "official": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico"
+            },
+            "urd": {
+                "common": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u0628\u062d\u0631\u06c1\u0646\u062f \u062e\u0637\u06c1",
+                "official": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u0628\u062d\u0631\u06c1\u0646\u062f \u062e\u0637\u06c1"
             },
             "zho": {
                 "common": "\u82f1\u5c5e\u5370\u5ea6\u6d0b\u9886\u5730",
@@ -647,9 +685,17 @@
             "common": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df",
             "official": "\u30a4\u30ae\u30ea\u30b9\u9818\u30a4\u30f3\u30c9\u6d0b\u5730\u57df"
         },
+        "kor": {
+            "common": "\uc778\ub3c4",
+            "official": "\uc778\ub3c4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Britse Gebieden in de Indische Oceaan",
             "official": "Brits Indische Oceaan Territorium"
+        },
+        "pol": {
+            "common": "Brytyjskie Terytorium Oceanu Indyjskiego",
+            "official": "Brytyjskie Terytorium Oceanu Indyjskiego"
         },
         "por": {
             "common": "Territ\u00f3rio Brit\u00e2nico do Oceano \u00cdndico",
@@ -666,6 +712,10 @@
         "spa": {
             "common": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico",
             "official": "Territorio Brit\u00e1nico del Oc\u00e9ano \u00cdndico"
+        },
+        "urd": {
+            "common": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u0628\u062d\u0631\u06c1\u0646\u062f \u062e\u0637\u06c1",
+            "official": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u0628\u062d\u0631\u06c1\u0646\u062f \u062e\u0637\u06c1"
         },
         "zho": {
             "common": "\u82f1\u5c5e\u5370\u5ea6\u6d0b\u9886\u5730",

@@ -52,18 +52,20 @@
         "cca3": "FRO",
         "ccn3": "234",
         "cioc": null,
-        "currency": [
-            "DKK"
-        ],
+        "currencies": {
+            "d_k_k": {
+                "name": "Danish krone",
+                "symbol": "kr"
+            },
+            "f_o_k": {
+                "name": "Faroese kr\u00f3na",
+                "symbol": "kr"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Faroese",
-        "dialling": {
-            "calling_code": [
-                "298"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "FO",
@@ -91,6 +93,12 @@
         "geounit": "Faroe Islands",
         "gu_a3": "FRO",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "98"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "FO",
@@ -205,9 +213,17 @@
                 "common": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
                 "official": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ud398\ub85c \uc81c\ub3c4",
+                "official": "\ud398\ub85c \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Faer\u00f6er",
                 "official": "Faer\u00f6er"
+            },
+            "pol": {
+                "common": "Wyspy Owcze",
+                "official": "Wyspy Owcze"
             },
             "por": {
                 "common": "Ilhas Faro\u00e9",
@@ -224,6 +240,10 @@
             "spa": {
                 "common": "Islas Faroe",
                 "official": "Islas Feroe"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
             },
             "zho": {
                 "common": "\u6cd5\u7f57\u7fa4\u5c9b",
@@ -325,6 +345,12 @@
     "geounit": "Faroe Islands",
     "gu_a3": "FRO",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "98"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Faeroe Is.",
@@ -353,18 +379,20 @@
         "cca3": "FRO",
         "ccn3": "234",
         "cioc": null,
-        "currency": [
-            "DKK"
-        ],
+        "currencies": {
+            "d_k_k": {
+                "name": "Danish krone",
+                "symbol": "kr"
+            },
+            "f_o_k": {
+                "name": "Faroese kr\u00f3na",
+                "symbol": "kr"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Faroese",
-        "dialling": {
-            "calling_code": [
-                "298"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "FO",
@@ -392,6 +420,12 @@
         "geounit": "Faroe Islands",
         "gu_a3": "FRO",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "98"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "FO",
@@ -506,9 +540,17 @@
                 "common": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
                 "official": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ud398\ub85c \uc81c\ub3c4",
+                "official": "\ud398\ub85c \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Faer\u00f6er",
                 "official": "Faer\u00f6er"
+            },
+            "pol": {
+                "common": "Wyspy Owcze",
+                "official": "Wyspy Owcze"
             },
             "por": {
                 "common": "Ilhas Faro\u00e9",
@@ -525,6 +567,10 @@
             "spa": {
                 "common": "Islas Faroe",
                 "official": "Islas Feroe"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
             },
             "zho": {
                 "common": "\u6cd5\u7f57\u7fa4\u5c9b",
@@ -656,9 +702,17 @@
             "common": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
             "official": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\ud398\ub85c \uc81c\ub3c4",
+            "official": "\ud398\ub85c \uc81c\ub3c4"
+        },
         "nld": {
             "common": "Faer\u00f6er",
             "official": "Faer\u00f6er"
+        },
+        "pol": {
+            "common": "Wyspy Owcze",
+            "official": "Wyspy Owcze"
         },
         "por": {
             "common": "Ilhas Faro\u00e9",
@@ -675,6 +729,10 @@
         "spa": {
             "common": "Islas Faroe",
             "official": "Islas Feroe"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
+            "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
         },
         "zho": {
             "common": "\u6cd5\u7f57\u7fa4\u5c9b",

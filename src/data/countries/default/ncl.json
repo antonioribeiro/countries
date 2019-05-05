@@ -48,18 +48,16 @@
         "cca3": "NCL",
         "ccn3": "540",
         "cioc": null,
-        "currency": [
-            "XPF"
-        ],
+        "currencies": {
+            "x_p_f": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "New Caledonian",
-        "dialling": {
-            "calling_code": [
-                "687"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NC",
@@ -87,6 +85,12 @@
         "geounit": "New Caledonia",
         "gu_a3": "NCL",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "87"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "NC",
@@ -196,9 +200,17 @@
                 "common": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2",
                 "official": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2"
             },
+            "kor": {
+                "common": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8",
+                "official": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8"
+            },
             "nld": {
                 "common": "Nieuw-Caledoni\u00eb",
                 "official": "nieuw -Caledoni\u00eb"
+            },
+            "pol": {
+                "common": "Nowa Kaledonia",
+                "official": "Nowa Kaledonia"
             },
             "por": {
                 "common": "Nova Caled\u00f3nia",
@@ -215,6 +227,10 @@
             "spa": {
                 "common": "Nueva Caledonia",
                 "official": "nueva Caledonia"
+            },
+            "urd": {
+                "common": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627",
+                "official": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627"
             },
             "zho": {
                 "common": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a",
@@ -316,6 +332,12 @@
     "geounit": "New Caledonia",
     "gu_a3": "NCL",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "87"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "New C.",
@@ -342,18 +364,16 @@
         "cca3": "NCL",
         "ccn3": "540",
         "cioc": null,
-        "currency": [
-            "XPF"
-        ],
+        "currencies": {
+            "x_p_f": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "New Caledonian",
-        "dialling": {
-            "calling_code": [
-                "687"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NC",
@@ -381,6 +401,12 @@
         "geounit": "New Caledonia",
         "gu_a3": "NCL",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "87"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "NC",
@@ -490,9 +516,17 @@
                 "common": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2",
                 "official": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2"
             },
+            "kor": {
+                "common": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8",
+                "official": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8"
+            },
             "nld": {
                 "common": "Nieuw-Caledoni\u00eb",
                 "official": "nieuw -Caledoni\u00eb"
+            },
+            "pol": {
+                "common": "Nowa Kaledonia",
+                "official": "Nowa Kaledonia"
             },
             "por": {
                 "common": "Nova Caled\u00f3nia",
@@ -509,6 +543,10 @@
             "spa": {
                 "common": "Nueva Caledonia",
                 "official": "nueva Caledonia"
+            },
+            "urd": {
+                "common": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627",
+                "official": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627"
             },
             "zho": {
                 "common": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a",
@@ -635,9 +673,17 @@
             "common": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2",
             "official": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2"
         },
+        "kor": {
+            "common": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8",
+            "official": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8"
+        },
         "nld": {
             "common": "Nieuw-Caledoni\u00eb",
             "official": "nieuw -Caledoni\u00eb"
+        },
+        "pol": {
+            "common": "Nowa Kaledonia",
+            "official": "Nowa Kaledonia"
         },
         "por": {
             "common": "Nova Caled\u00f3nia",
@@ -654,6 +700,10 @@
         "spa": {
             "common": "Nueva Caledonia",
             "official": "nueva Caledonia"
+        },
+        "urd": {
+            "common": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627",
+            "official": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627"
         },
         "zho": {
             "common": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a",

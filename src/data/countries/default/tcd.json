@@ -126,6 +126,12 @@
     "geounit": "Chad",
     "gu_a3": "TCD",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "35"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "TD",
@@ -247,9 +253,17 @@
             "common": "\u30c1\u30e3\u30c9",
             "official": "\u30c1\u30e3\u30c9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ucc28\ub4dc",
+            "official": "\ucc28\ub4dc \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Tsjaad",
             "official": "Republiek Tsjaad"
+        },
+        "pol": {
+            "common": "Czad",
+            "official": "Republika Czadu"
         },
         "por": {
             "common": "Chade",
@@ -266,6 +280,10 @@
         "spa": {
             "common": "Chad",
             "official": "Rep\u00fablica de Chad"
+        },
+        "urd": {
+            "common": "\u0686\u0627\u0688",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u0627\u0688"
         },
         "zho": {
             "common": "\u4e4d\u5f97",

@@ -62,18 +62,16 @@
         "cca3": "MAC",
         "ccn3": "446",
         "cioc": null,
-        "currency": [
-            "MOP"
-        ],
+        "currencies": {
+            "m_o_p": {
+                "name": "Macanese pataca",
+                "symbol": "P"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Macanese",
-        "dialling": {
-            "calling_code": [
-                "853"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "MC",
@@ -101,6 +99,12 @@
         "geounit": "Macao S.A.R",
         "gu_a3": "MAC",
         "homepart": "-99",
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "53"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "MO",
@@ -215,9 +219,17 @@
                 "common": "\u30de\u30ab\u30aa",
                 "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u30de\u30ab\u30aa\u7279\u5225\u884c\u653f\u533a"
             },
+            "kor": {
+                "common": "\ub9c8\uce74\uc624",
+                "official": "\uc911\ud654\uc778\ubbfc\uacf5\ud654\uad6d \ub9c8\uce74\uc624 \ud2b9\ubcc4\ud589\uc815\uad6c"
+            },
             "nld": {
                 "common": "Macao",
                 "official": "Speciale Administratieve Regio Macau van de Volksrepubliek China"
+            },
+            "pol": {
+                "common": "Makau",
+                "official": "Specjalny Region Administracyjny Chi\u0144skiej Republiki Ludowej Makau"
             },
             "por": {
                 "common": "Macau",
@@ -234,6 +246,10 @@
             "spa": {
                 "common": "Macao",
                 "official": "Macao, Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China"
+            },
+            "urd": {
+                "common": "\u0645\u06a9\u0627\u0624",
+                "official": "\u0645\u06a9\u0627\u0624 \u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646 \u06a9\u0627 \u062e\u0635\u0648\u0635\u06cc \u0627\u0646\u062a\u0638\u0627\u0645\u06cc \u0639\u0644\u0627\u0642\u06c1"
             }
         },
         "type": "Country",
@@ -334,6 +350,12 @@
     "geounit": "Macao S.A.R",
     "gu_a3": "MAC",
     "homepart": "-99",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "53"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Mac.",
@@ -367,18 +389,16 @@
         "cca3": "MAC",
         "ccn3": "446",
         "cioc": null,
-        "currency": [
-            "MOP"
-        ],
+        "currencies": {
+            "m_o_p": {
+                "name": "Macanese pataca",
+                "symbol": "P"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Macanese",
-        "dialling": {
-            "calling_code": [
-                "853"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "MC",
@@ -406,6 +426,12 @@
         "geounit": "Macao S.A.R",
         "gu_a3": "MAC",
         "homepart": "-99",
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "53"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "MO",
@@ -520,9 +546,17 @@
                 "common": "\u30de\u30ab\u30aa",
                 "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u30de\u30ab\u30aa\u7279\u5225\u884c\u653f\u533a"
             },
+            "kor": {
+                "common": "\ub9c8\uce74\uc624",
+                "official": "\uc911\ud654\uc778\ubbfc\uacf5\ud654\uad6d \ub9c8\uce74\uc624 \ud2b9\ubcc4\ud589\uc815\uad6c"
+            },
             "nld": {
                 "common": "Macao",
                 "official": "Speciale Administratieve Regio Macau van de Volksrepubliek China"
+            },
+            "pol": {
+                "common": "Makau",
+                "official": "Specjalny Region Administracyjny Chi\u0144skiej Republiki Ludowej Makau"
             },
             "por": {
                 "common": "Macau",
@@ -539,6 +573,10 @@
             "spa": {
                 "common": "Macao",
                 "official": "Macao, Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China"
+            },
+            "urd": {
+                "common": "\u0645\u06a9\u0627\u0624",
+                "official": "\u0645\u06a9\u0627\u0624 \u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646 \u06a9\u0627 \u062e\u0635\u0648\u0635\u06cc \u0627\u0646\u062a\u0638\u0627\u0645\u06cc \u0639\u0644\u0627\u0642\u06c1"
             }
         },
         "type": "Country",
@@ -680,9 +718,17 @@
             "common": "\u30de\u30ab\u30aa",
             "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u30de\u30ab\u30aa\u7279\u5225\u884c\u653f\u533a"
         },
+        "kor": {
+            "common": "\ub9c8\uce74\uc624",
+            "official": "\uc911\ud654\uc778\ubbfc\uacf5\ud654\uad6d \ub9c8\uce74\uc624 \ud2b9\ubcc4\ud589\uc815\uad6c"
+        },
         "nld": {
             "common": "Macao",
             "official": "Speciale Administratieve Regio Macau van de Volksrepubliek China"
+        },
+        "pol": {
+            "common": "Makau",
+            "official": "Specjalny Region Administracyjny Chi\u0144skiej Republiki Ludowej Makau"
         },
         "por": {
             "common": "Macau",
@@ -699,6 +745,10 @@
         "spa": {
             "common": "Macao",
             "official": "Macao, Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China"
+        },
+        "urd": {
+            "common": "\u0645\u06a9\u0627\u0624",
+            "official": "\u0645\u06a9\u0627\u0624 \u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646 \u06a9\u0627 \u062e\u0635\u0648\u0635\u06cc \u0627\u0646\u062a\u0638\u0627\u0645\u06cc \u0639\u0644\u0627\u0642\u06c1"
         }
     },
     "type": "Country",

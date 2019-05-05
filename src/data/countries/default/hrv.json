@@ -132,6 +132,12 @@
     "geounit": "Croatia",
     "gu_a3": "HRV",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "85"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "HR",
@@ -248,9 +254,17 @@
             "common": "\u30af\u30ed\u30a2\u30c1\u30a2",
             "official": "\u30af\u30ed\u30a2\u30c1\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud06c\ub85c\uc544\ud2f0\uc544",
+            "official": "\ud06c\ub85c\uc544\ud2f0\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Kroati\u00eb",
             "official": "Republiek Kroati\u00eb"
+        },
+        "pol": {
+            "common": "Chorwacja",
+            "official": "Republika Chorwacji"
         },
         "por": {
             "common": "Cro\u00e1cia",
@@ -267,6 +281,10 @@
         "spa": {
             "common": "Croacia",
             "official": "Rep\u00fablica de Croacia"
+        },
+        "urd": {
+            "common": "\u06a9\u0631\u0648\u06cc\u0626\u0634\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0631\u0648\u06cc\u0626\u0634\u0627"
         },
         "zho": {
             "common": "\u514b\u7f57\u5730\u4e9a",

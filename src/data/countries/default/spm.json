@@ -50,18 +50,16 @@
         "cca3": "SPM",
         "ccn3": "666",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "French",
-        "dialling": {
-            "calling_code": [
-                "508"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "SB",
@@ -89,6 +87,12 @@
         "geounit": "Saint Pierre and Miquelon",
         "gu_a3": "SPM",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "08"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "PM",
@@ -172,7 +176,7 @@
                 "official": "Saint-Pierre a Miquelon"
             },
             "deu": {
-                "common": "Saint-Pierre und Miquelon",
+                "common": "St. Pierre und Miquelon",
                 "official": "St. Pierre und Miquelon"
             },
             "est": {
@@ -199,9 +203,17 @@
                 "common": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u30fb\u30df\u30af\u30ed\u30f3\u5cf6",
                 "official": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u00b7\u30df\u30af\u30ed\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc0dd\ud53c\uc5d0\ub974 \ubbf8\ud074\ub871",
+                "official": "\uc0dd\ud53c\uc5d0\ub974 \ubbf8\ud074\ub871"
+            },
             "nld": {
                 "common": "Saint Pierre en Miquelon",
                 "official": "Saint-Pierre en Miquelon"
+            },
+            "pol": {
+                "common": "Saint-Pierre i Miquelon",
+                "official": "Saint-Pierre i Miquelon"
             },
             "por": {
                 "common": "Saint-Pierre e Miquelon",
@@ -218,6 +230,10 @@
             "spa": {
                 "common": "San Pedro y Miquel\u00f3n",
                 "official": "San Pedro y Miquel\u00f3n"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u067e\u06cc\u0626\u0631 \u0648 \u0645\u06cc\u06a9\u06cc\u0644\u0648\u0646",
+                "official": "\u0633\u06cc\u0646\u0679 \u067e\u06cc\u0626\u0631 \u0648 \u0645\u06cc\u06a9\u06cc\u0644\u0648\u0646"
             },
             "zho": {
                 "common": "\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686",
@@ -319,6 +335,12 @@
     "geounit": "Saint Pierre and Miquelon",
     "gu_a3": "SPM",
     "homepart": "-99",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "08"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": {
         "abbrev": "St. P.M.",
@@ -346,18 +368,16 @@
         "cca3": "SPM",
         "ccn3": "666",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "French",
-        "dialling": {
-            "calling_code": [
-                "508"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "SB",
@@ -385,6 +405,12 @@
         "geounit": "Saint Pierre and Miquelon",
         "gu_a3": "SPM",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "08"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "PM",
@@ -468,7 +494,7 @@
                 "official": "Saint-Pierre a Miquelon"
             },
             "deu": {
-                "common": "Saint-Pierre und Miquelon",
+                "common": "St. Pierre und Miquelon",
                 "official": "St. Pierre und Miquelon"
             },
             "est": {
@@ -495,9 +521,17 @@
                 "common": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u30fb\u30df\u30af\u30ed\u30f3\u5cf6",
                 "official": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u00b7\u30df\u30af\u30ed\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc0dd\ud53c\uc5d0\ub974 \ubbf8\ud074\ub871",
+                "official": "\uc0dd\ud53c\uc5d0\ub974 \ubbf8\ud074\ub871"
+            },
             "nld": {
                 "common": "Saint Pierre en Miquelon",
                 "official": "Saint-Pierre en Miquelon"
+            },
+            "pol": {
+                "common": "Saint-Pierre i Miquelon",
+                "official": "Saint-Pierre i Miquelon"
             },
             "por": {
                 "common": "Saint-Pierre e Miquelon",
@@ -514,6 +548,10 @@
             "spa": {
                 "common": "San Pedro y Miquel\u00f3n",
                 "official": "San Pedro y Miquel\u00f3n"
+            },
+            "urd": {
+                "common": "\u0633\u06cc\u0646\u0679 \u067e\u06cc\u0626\u0631 \u0648 \u0645\u06cc\u06a9\u06cc\u0644\u0648\u0646",
+                "official": "\u0633\u06cc\u0646\u0679 \u067e\u06cc\u0626\u0631 \u0648 \u0645\u06cc\u06a9\u06cc\u0644\u0648\u0646"
             },
             "zho": {
                 "common": "\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686",
@@ -641,9 +679,17 @@
             "common": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u30fb\u30df\u30af\u30ed\u30f3\u5cf6",
             "official": "\u30b5\u30f3\u30d4\u30a8\u30fc\u30eb\u5cf6\u00b7\u30df\u30af\u30ed\u30f3\u5cf6"
         },
+        "kor": {
+            "common": "\uc0dd\ud53c\uc5d0\ub974 \ubbf8\ud074\ub871",
+            "official": "\uc0dd\ud53c\uc5d0\ub974 \ubbf8\ud074\ub871"
+        },
         "nld": {
             "common": "Saint Pierre en Miquelon",
             "official": "Saint-Pierre en Miquelon"
+        },
+        "pol": {
+            "common": "Saint-Pierre i Miquelon",
+            "official": "Saint-Pierre i Miquelon"
         },
         "por": {
             "common": "Saint-Pierre e Miquelon",
@@ -660,6 +706,10 @@
         "spa": {
             "common": "San Pedro y Miquel\u00f3n",
             "official": "San Pedro y Miquel\u00f3n"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0646\u0679 \u067e\u06cc\u0626\u0631 \u0648 \u0645\u06cc\u06a9\u06cc\u0644\u0648\u0646",
+            "official": "\u0633\u06cc\u0646\u0679 \u067e\u06cc\u0626\u0631 \u0648 \u0645\u06cc\u06a9\u06cc\u0644\u0648\u0646"
         },
         "zho": {
             "common": "\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686",

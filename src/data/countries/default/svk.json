@@ -130,6 +130,12 @@
     "geounit": "Slovakia",
     "gu_a3": "SVK",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "21"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "SK",
@@ -243,9 +249,17 @@
             "common": "\u30b9\u30ed\u30d0\u30ad\u30a2",
             "official": "\u30b9\u30ed\u30d0\u30ad\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc2ac\ub85c\ubc14\ud0a4\uc544",
+            "official": "\uc2ac\ub85c\ubc14\ud0a4\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Slowakije",
             "official": "Slowaakse Republiek"
+        },
+        "pol": {
+            "common": "S\u0142owacja",
+            "official": "Republika S\u0142owacka"
         },
         "por": {
             "common": "Eslov\u00e1quia",
@@ -262,6 +276,10 @@
         "spa": {
             "common": "Rep\u00fablica Eslovaca",
             "official": "Rep\u00fablica Eslovaca"
+        },
+        "urd": {
+            "common": "\u0633\u0644\u0648\u0648\u0627\u06a9\u06cc\u06c1",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0644\u0648\u0648\u0627\u06a9\u06cc\u06c1"
         },
         "zho": {
             "common": "\u65af\u6d1b\u4f10\u514b",

@@ -135,6 +135,12 @@
     "geounit": "Brazil",
     "gu_a3": "BRA",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "5"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BR",
@@ -251,9 +257,17 @@
             "common": "\u30d6\u30e9\u30b8\u30eb",
             "official": "\u30d6\u30e9\u30b8\u30eb\u9023\u90a6\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ube0c\ub77c\uc9c8",
+            "official": "\ube0c\ub77c\uc9c8 \uc5f0\ubc29 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Brazili\u00eb",
             "official": "Federale Republiek Brazili\u00eb"
+        },
+        "pol": {
+            "common": "Brazylia",
+            "official": "Federacyjna Republika Brazylii"
         },
         "por": {
             "common": "Brasil",
@@ -270,6 +284,10 @@
         "spa": {
             "common": "Brasil",
             "official": "Rep\u00fablica Federativa del Brasil"
+        },
+        "urd": {
+            "common": "\u0628\u0631\u0627\u0632\u06cc\u0644",
+            "official": "\u0648\u0641\u0627\u0642\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0631\u0627\u0632\u06cc\u0644"
         },
         "zho": {
             "common": "\u5df4\u897f",

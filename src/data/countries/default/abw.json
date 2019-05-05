@@ -109,6 +109,12 @@
     "geounit": "Aruba",
     "gu_a3": "ABW",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "97"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Aruba",
@@ -135,18 +141,16 @@
         "cca3": "ABW",
         "ccn3": "533",
         "cioc": "ARU",
-        "currency": [
-            "AWG"
-        ],
+        "currencies": {
+            "a_w_g": {
+                "name": "Aruban florin",
+                "symbol": "\u0192"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Aruban",
-        "dialling": {
-            "calling_code": [
-                "297"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AA",
@@ -174,6 +178,12 @@
         "geounit": "Aruba",
         "gu_a3": "ABW",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "97"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "AW",
@@ -288,7 +298,15 @@
                 "common": "\u30a2\u30eb\u30d0",
                 "official": "\u30a2\u30eb\u30d0"
             },
+            "kor": {
+                "common": "\uc544\ub8e8\ubc14",
+                "official": "\uc544\ub8e8\ubc14"
+            },
             "nld": {
+                "common": "Aruba",
+                "official": "Aruba"
+            },
+            "pol": {
                 "common": "Aruba",
                 "official": "Aruba"
             },
@@ -307,6 +325,10 @@
             "spa": {
                 "common": "Aruba",
                 "official": "Aruba"
+            },
+            "urd": {
+                "common": "\u0627\u0631\u0648\u0628\u0627",
+                "official": "\u0627\u0631\u0648\u0628\u0627"
             },
             "zho": {
                 "common": "\u963f\u9c81\u5df4",
@@ -438,7 +460,15 @@
             "common": "\u30a2\u30eb\u30d0",
             "official": "\u30a2\u30eb\u30d0"
         },
+        "kor": {
+            "common": "\uc544\ub8e8\ubc14",
+            "official": "\uc544\ub8e8\ubc14"
+        },
         "nld": {
+            "common": "Aruba",
+            "official": "Aruba"
+        },
+        "pol": {
             "common": "Aruba",
             "official": "Aruba"
         },
@@ -457,6 +487,10 @@
         "spa": {
             "common": "Aruba",
             "official": "Aruba"
+        },
+        "urd": {
+            "common": "\u0627\u0631\u0648\u0628\u0627",
+            "official": "\u0627\u0631\u0648\u0628\u0627"
         },
         "zho": {
             "common": "\u963f\u9c81\u5df4",

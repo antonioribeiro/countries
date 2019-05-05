@@ -129,6 +129,12 @@
     "geounit": "Switzerland",
     "gu_a3": "CHE",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "1"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "CH",
@@ -256,9 +262,17 @@
             "common": "\u30b9\u30a4\u30b9",
             "official": "\u30b9\u30a4\u30b9\u9023\u90a6"
         },
+        "kor": {
+            "common": "\uc2a4\uc704\uc2a4",
+            "official": "\uc2a4\uc704\uc2a4 \uc5f0\ubc29"
+        },
         "nld": {
             "common": "Zwitserland",
             "official": "Zwitserse Confederatie"
+        },
+        "pol": {
+            "common": "Szwajcaria",
+            "official": "Konfederacja Szwajcarska"
         },
         "por": {
             "common": "Su\u00ed\u00e7a",
@@ -275,6 +289,10 @@
         "spa": {
             "common": "Suiza",
             "official": "Confederaci\u00f3n Suiza"
+        },
+        "urd": {
+            "common": "\u0633\u0648\u06cc\u0679\u0630\u0631\u0644\u06cc\u0646\u0688",
+            "official": "\u0633\u0648\u0626\u06cc\u0633  \u0645\u062a\u062d\u062f\u06c1"
         },
         "zho": {
             "common": "\u745e\u58eb",

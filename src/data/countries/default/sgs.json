@@ -50,18 +50,16 @@
         "cca3": "SGS",
         "ccn3": "239",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "s_h_p": {
+                "name": "Saint Helena pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "South Georgian South Sandwich Islander",
-        "dialling": {
-            "calling_code": [
-                "500"
-            ]
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "SX",
@@ -89,6 +87,12 @@
         "geounit": "South Georgia and the Islands",
         "gu_a3": "SGS",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "00"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": null,
         "iso_a2": "GS",
@@ -199,9 +203,17 @@
                 "common": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u30fb\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6",
                 "official": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u00b7\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\uc870\uc9c0\uc544",
+                "official": "\uc870\uc9c0\uc544"
+            },
             "nld": {
                 "common": "Zuid-Georgia en Zuidelijke Sandwicheilanden",
                 "official": "Zuid-Georgi\u00eb en de Zuidelijke Sandwich-eilanden"
+            },
+            "pol": {
+                "common": "Georgia Po\u0142udniowa i Sandwich Po\u0142udniowy",
+                "official": "Georgia Po\u0142udniowa i Sandwich Po\u0142udniowy"
             },
             "por": {
                 "common": "Ilhas Ge\u00f3rgia do Sul e Sandwich do Sul",
@@ -218,6 +230,10 @@
             "spa": {
                 "common": "Islas Georgias del Sur y Sandwich del Sur",
                 "official": "Georgia del Sur y las Islas Sandwich del Sur"
+            },
+            "urd": {
+                "common": "\u062c\u0646\u0648\u0628\u06cc \u062c\u0627\u0631\u062c\u06cc\u0627",
+                "official": "\u062c\u0646\u0648\u0628\u06cc \u062c\u0627\u0631\u062c\u06cc\u0627 \u0648 \u062c\u0632\u0627\u0626\u0631 \u062c\u0646\u0648\u0628\u06cc \u0633\u06cc\u0646\u0688\u0648\u0686"
             },
             "zho": {
                 "common": "\u5357\u4e54\u6cbb\u4e9a",
@@ -315,6 +331,12 @@
     "geounit": "South Georgia and the Islands",
     "gu_a3": "SGS",
     "homepart": "-99",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "00"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": {
         "abbrev": "S.G. & Is.",
@@ -342,18 +364,16 @@
         "cca3": "SGS",
         "ccn3": "239",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "s_h_p": {
+                "name": "Saint Helena pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "South Georgian South Sandwich Islander",
-        "dialling": {
-            "calling_code": [
-                "500"
-            ]
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "SX",
@@ -381,6 +401,12 @@
         "geounit": "South Georgia and the Islands",
         "gu_a3": "SGS",
         "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "00"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": null,
         "iso_a2": "GS",
@@ -491,9 +517,17 @@
                 "common": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u30fb\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6",
                 "official": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u00b7\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\uc870\uc9c0\uc544",
+                "official": "\uc870\uc9c0\uc544"
+            },
             "nld": {
                 "common": "Zuid-Georgia en Zuidelijke Sandwicheilanden",
                 "official": "Zuid-Georgi\u00eb en de Zuidelijke Sandwich-eilanden"
+            },
+            "pol": {
+                "common": "Georgia Po\u0142udniowa i Sandwich Po\u0142udniowy",
+                "official": "Georgia Po\u0142udniowa i Sandwich Po\u0142udniowy"
             },
             "por": {
                 "common": "Ilhas Ge\u00f3rgia do Sul e Sandwich do Sul",
@@ -510,6 +544,10 @@
             "spa": {
                 "common": "Islas Georgias del Sur y Sandwich del Sur",
                 "official": "Georgia del Sur y las Islas Sandwich del Sur"
+            },
+            "urd": {
+                "common": "\u062c\u0646\u0648\u0628\u06cc \u062c\u0627\u0631\u062c\u06cc\u0627",
+                "official": "\u062c\u0646\u0648\u0628\u06cc \u062c\u0627\u0631\u062c\u06cc\u0627 \u0648 \u062c\u0632\u0627\u0626\u0631 \u062c\u0646\u0648\u0628\u06cc \u0633\u06cc\u0646\u0688\u0648\u0686"
             },
             "zho": {
                 "common": "\u5357\u4e54\u6cbb\u4e9a",
@@ -637,9 +675,17 @@
             "common": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u30fb\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6",
             "official": "\u30b5\u30a6\u30b9\u30b8\u30e7\u30fc\u30b8\u30a2\u00b7\u30b5\u30a6\u30b9\u30b5\u30f3\u30c9\u30a6\u30a3\u30c3\u30c1\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\uc870\uc9c0\uc544",
+            "official": "\uc870\uc9c0\uc544"
+        },
         "nld": {
             "common": "Zuid-Georgia en Zuidelijke Sandwicheilanden",
             "official": "Zuid-Georgi\u00eb en de Zuidelijke Sandwich-eilanden"
+        },
+        "pol": {
+            "common": "Georgia Po\u0142udniowa i Sandwich Po\u0142udniowy",
+            "official": "Georgia Po\u0142udniowa i Sandwich Po\u0142udniowy"
         },
         "por": {
             "common": "Ilhas Ge\u00f3rgia do Sul e Sandwich do Sul",
@@ -656,6 +702,10 @@
         "spa": {
             "common": "Islas Georgias del Sur y Sandwich del Sur",
             "official": "Georgia del Sur y las Islas Sandwich del Sur"
+        },
+        "urd": {
+            "common": "\u062c\u0646\u0648\u0628\u06cc \u062c\u0627\u0631\u062c\u06cc\u0627",
+            "official": "\u062c\u0646\u0648\u0628\u06cc \u062c\u0627\u0631\u062c\u06cc\u0627 \u0648 \u062c\u0632\u0627\u0626\u0631 \u062c\u0646\u0648\u0628\u06cc \u0633\u06cc\u0646\u0688\u0648\u0686"
         },
         "zho": {
             "common": "\u5357\u4e54\u6cbb\u4e9a",

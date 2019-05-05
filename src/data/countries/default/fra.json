@@ -138,6 +138,12 @@
     "geounit": "France",
     "gu_a3": "FRA",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "3"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "FR",
@@ -250,9 +256,17 @@
             "common": "\u30d5\u30e9\u30f3\u30b9",
             "official": "\u30d5\u30e9\u30f3\u30b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud504\ub791\uc2a4",
+            "official": "\ud504\ub791\uc2a4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Frankrijk",
             "official": "Franse Republiek"
+        },
+        "pol": {
+            "common": "Francja",
+            "official": "Republika Francuska"
         },
         "por": {
             "common": "Fran\u00e7a",
@@ -269,6 +283,10 @@
         "spa": {
             "common": "Francia",
             "official": "Rep\u00fablica franc\u00e9s"
+        },
+        "urd": {
+            "common": "\u0641\u0631\u0627\u0646\u0633",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u0631\u0627\u0646\u0633"
         },
         "zho": {
             "common": "\u6cd5\u56fd",

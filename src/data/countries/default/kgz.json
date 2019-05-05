@@ -123,6 +123,12 @@
     "geounit": "Kyrgyzstan",
     "gu_a3": "KGZ",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "96"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "KG",
@@ -240,9 +246,17 @@
             "common": "\u30ad\u30eb\u30ae\u30b9",
             "official": "\u30ad\u30eb\u30ae\u30b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud0a4\ub974\uae30\uc2a4\uc2a4\ud0c4",
+            "official": "\ud0a4\ub974\uae30\uc2a4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Kirgizi\u00eb",
             "official": "Kirgizische Republiek"
+        },
+        "pol": {
+            "common": "Kirgistan",
+            "official": "Republika Kirgiska"
         },
         "por": {
             "common": "Quirguist\u00e3o",
@@ -259,6 +273,10 @@
         "spa": {
             "common": "Kirguizist\u00e1n",
             "official": "Rep\u00fablica Kirguisa"
+        },
+        "urd": {
+            "common": "\u06a9\u0631\u063a\u06cc\u0632\u0633\u062a\u0627\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0631\u063a\u06cc\u0632\u0633\u062a\u0627\u0646"
         },
         "zho": {
             "common": "\u5409\u5c14\u5409\u65af\u65af\u5766",

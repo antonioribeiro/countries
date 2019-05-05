@@ -115,6 +115,14 @@
     "geounit": "Dominican Republic",
     "gu_a3": "DOM",
     "homepart": "1",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "809",
+            "829",
+            "849"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "DO",
@@ -231,9 +239,17 @@
             "common": "\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd",
             "official": "\u30c9\u30df\u30cb\u30ab\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub3c4\ubbf8\ub2c8\uce74 \uacf5\ud654\uad6d",
+            "official": "\ub3c4\ubbf8\ub2c8\uce74 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Dominicaanse Republiek",
             "official": "Dominicaanse Republiek"
+        },
+        "pol": {
+            "common": "Dominikana",
+            "official": "Republika Dominika\u0144ska"
         },
         "por": {
             "common": "Rep\u00fablica Dominicana",
@@ -250,6 +266,10 @@
         "spa": {
             "common": "Rep\u00fablica Dominicana",
             "official": "Rep\u00fablica Dominicana"
+        },
+        "urd": {
+            "common": "\u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0646"
         },
         "zho": {
             "common": "\u591a\u660e\u5c3c\u52a0",

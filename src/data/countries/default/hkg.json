@@ -113,6 +113,12 @@
     "geounit": "Hong Kong S.A.R.",
     "gu_a3": "HKG",
     "homepart": "-99",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "52"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "H.K.",
@@ -141,18 +147,16 @@
         "cca3": "HKG",
         "ccn3": "344",
         "cioc": "HKG",
-        "currency": [
-            "HKD"
-        ],
+        "currencies": {
+            "h_k_d": {
+                "name": "Hong Kong dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Hong Konger",
-        "dialling": {
-            "calling_code": [
-                "852"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "HK",
@@ -180,6 +184,12 @@
         "geounit": "Hong Kong S.A.R.",
         "gu_a3": "HKG",
         "homepart": "-99",
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "52"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "HK",
@@ -269,7 +279,7 @@
             },
             "deu": {
                 "common": "Hongkong",
-                "official": "Sonderverwaltungszone der Volksrepublik China"
+                "official": "Sonderverwaltungszone Hongkong der Volksrepublik China"
             },
             "est": {
                 "common": "Hongkong",
@@ -295,9 +305,17 @@
                 "common": "\u9999\u6e2f",
                 "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u9999\u6e2f\u7279\u5225\u884c\u653f\u533a"
             },
+            "kor": {
+                "common": "\ud64d\ucf69",
+                "official": "\uc911\ud654\uc778\ubbfc\uacf5\ud654\uad6d \ud64d\ucf69 \ud2b9\ubcc4\ud589\uc815\uad6c"
+            },
             "nld": {
                 "common": "Hongkong",
                 "official": "Hong Kong Speciale Administratieve Regio van de Volksrepubliek China"
+            },
+            "pol": {
+                "common": "Hongkong",
+                "official": "Specjalny Region Administracyjny Chi\u0144skiej Republiki Ludowej Hongkong"
             },
             "por": {
                 "common": "Hong Kong",
@@ -314,6 +332,10 @@
             "spa": {
                 "common": "Hong Kong",
                 "official": "Hong Kong Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China"
+            },
+            "urd": {
+                "common": "\u06c1\u0627\u0646\u06af \u06a9\u0627\u0646\u06af",
+                "official": "\u06c1\u0627\u0646\u06af \u06a9\u0627\u0646\u06af \u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646 \u06a9\u0627 \u062e\u0635\u0648\u0635\u06cc \u0627\u0646\u062a\u0638\u0627\u0645\u06cc \u0639\u0644\u0627\u0642\u06c1"
             }
         },
         "type": "Country",
@@ -456,9 +478,17 @@
             "common": "\u9999\u6e2f",
             "official": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u56fd\u9999\u6e2f\u7279\u5225\u884c\u653f\u533a"
         },
+        "kor": {
+            "common": "\ud64d\ucf69",
+            "official": "\uc911\ud654\uc778\ubbfc\uacf5\ud654\uad6d \ud64d\ucf69 \ud2b9\ubcc4\ud589\uc815\uad6c"
+        },
         "nld": {
             "common": "Hongkong",
             "official": "Hong Kong Speciale Administratieve Regio van de Volksrepubliek China"
+        },
+        "pol": {
+            "common": "Hongkong",
+            "official": "Specjalny Region Administracyjny Chi\u0144skiej Republiki Ludowej Hongkong"
         },
         "por": {
             "common": "Hong Kong",
@@ -475,6 +505,10 @@
         "spa": {
             "common": "Hong Kong",
             "official": "Hong Kong Regi\u00f3n Administrativa Especial de la Rep\u00fablica Popular China"
+        },
+        "urd": {
+            "common": "\u06c1\u0627\u0646\u06af \u06a9\u0627\u0646\u06af",
+            "official": "\u06c1\u0627\u0646\u06af \u06a9\u0627\u0646\u06af \u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646 \u06a9\u0627 \u062e\u0635\u0648\u0635\u06cc \u0627\u0646\u062a\u0638\u0627\u0645\u06cc \u0639\u0644\u0627\u0642\u06c1"
         }
     },
     "type": "Country",

@@ -31,8 +31,14 @@
                 "amounts": [
                     {
                         "amount": 0.06,
+                        "end_date": "2018-12-31",
                         "id": "nl_vat_reduced_1986",
                         "start_date": "1986-10-01"
+                    },
+                    {
+                        "amount": 0.09,
+                        "id": "nl_vat_reduced_2019",
+                        "start_date": "2019-01-01"
                     }
                 ],
                 "id": "nl_vat_reduced",

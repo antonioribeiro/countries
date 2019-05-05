@@ -52,18 +52,16 @@
         "cca3": "MNP",
         "ccn3": "580",
         "cioc": null,
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United State Dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "American",
-        "dialling": {
-            "calling_code": [
-                "1670"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "CQ",
@@ -91,6 +89,12 @@
         "geounit": "Northern Mariana Islands",
         "gu_a3": "MNP",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "670"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "MP",
@@ -210,9 +214,17 @@
                 "common": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6",
                 "official": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4",
+                "official": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Noordelijke Marianeneilanden",
                 "official": "Commonwealth van de Noordelijke Marianen"
+            },
+            "pol": {
+                "common": "Mariany P\u00f3\u0142nocne",
+                "official": "Wsp\u00f3lnota Marian\u00f3w P\u00f3\u0142nocnych"
             },
             "por": {
                 "common": "Marianas Setentrionais",
@@ -229,6 +241,10 @@
             "spa": {
                 "common": "Islas Marianas del Norte",
                 "official": "Mancomunidad de las Islas Marianas del Norte"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
+                "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
             },
             "zho": {
                 "common": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b",
@@ -330,6 +346,12 @@
     "geounit": "Northern Mariana Islands",
     "gu_a3": "MNP",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "670"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "N.M.I.",
@@ -358,18 +380,16 @@
         "cca3": "MNP",
         "ccn3": "580",
         "cioc": null,
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United State Dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "American",
-        "dialling": {
-            "calling_code": [
-                "1670"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "CQ",
@@ -397,6 +417,12 @@
         "geounit": "Northern Mariana Islands",
         "gu_a3": "MNP",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "670"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "MP",
@@ -516,9 +542,17 @@
                 "common": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6",
                 "official": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4",
+                "official": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Noordelijke Marianeneilanden",
                 "official": "Commonwealth van de Noordelijke Marianen"
+            },
+            "pol": {
+                "common": "Mariany P\u00f3\u0142nocne",
+                "official": "Wsp\u00f3lnota Marian\u00f3w P\u00f3\u0142nocnych"
             },
             "por": {
                 "common": "Marianas Setentrionais",
@@ -535,6 +569,10 @@
             "spa": {
                 "common": "Islas Marianas del Norte",
                 "official": "Mancomunidad de las Islas Marianas del Norte"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
+                "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
             },
             "zho": {
                 "common": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b",
@@ -671,9 +709,17 @@
             "common": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6",
             "official": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4",
+            "official": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4"
+        },
         "nld": {
             "common": "Noordelijke Marianeneilanden",
             "official": "Commonwealth van de Noordelijke Marianen"
+        },
+        "pol": {
+            "common": "Mariany P\u00f3\u0142nocne",
+            "official": "Wsp\u00f3lnota Marian\u00f3w P\u00f3\u0142nocnych"
         },
         "por": {
             "common": "Marianas Setentrionais",
@@ -690,6 +736,10 @@
         "spa": {
             "common": "Islas Marianas del Norte",
             "official": "Mancomunidad de las Islas Marianas del Norte"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
+            "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
         },
         "zho": {
             "common": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b",

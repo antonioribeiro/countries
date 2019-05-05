@@ -109,6 +109,12 @@
     "geounit": "Australia",
     "gu_a3": "AUS",
     "homepart": "1",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "1"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "AU",
@@ -225,9 +231,17 @@
             "common": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2",
             "official": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u9023\u90a6"
         },
+        "kor": {
+            "common": "\ud638\uc8fc",
+            "official": "\uc624\uc2a4\ud2b8\ub808\uc77c\ub9ac\uc544 \uc5f0\ubc29"
+        },
         "nld": {
             "common": "Australi\u00eb",
             "official": "Gemenebest van Australi\u00eb"
+        },
+        "pol": {
+            "common": "Australia",
+            "official": "Zwi\u0105zek Australijski"
         },
         "por": {
             "common": "Austr\u00e1lia",
@@ -244,6 +258,10 @@
         "spa": {
             "common": "Australia",
             "official": "Mancomunidad de Australia"
+        },
+        "urd": {
+            "common": "\u0622\u0633\u0679\u0631\u06cc\u0644\u06cc\u0627",
+            "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u0622\u0633\u0679\u0631\u06cc\u0644\u06cc\u0627"
         },
         "zho": {
             "common": "\u6fb3\u5927\u5229\u4e9a",

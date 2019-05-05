@@ -110,6 +110,12 @@
     "geounit": "British Virgin Islands",
     "gu_a3": "VGB",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "284"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": {
         "abbrev": "V.I. (Br.)",
@@ -137,18 +143,16 @@
         "cca3": "VGB",
         "ccn3": "092",
         "cioc": "IVB",
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Virgin Islander",
-        "dialling": {
-            "calling_code": [
-                "1284"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "VI",
@@ -176,6 +180,12 @@
         "geounit": "British Virgin Islands",
         "gu_a3": "VGB",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "284"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "VG",
@@ -285,9 +295,17 @@
                 "common": "\u30a4\u30ae\u30ea\u30b9\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
                 "official": "\u30d0\u30fc\u30b8\u30f3\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\uc601\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc",
+                "official": "\uc601\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc"
+            },
             "nld": {
                 "common": "Britse Maagdeneilanden",
                 "official": "Maagdeneilanden"
+            },
+            "pol": {
+                "common": "Brytyjskie Wyspy Dziewicze",
+                "official": "Brytyjskie Wyspy Dziewicze"
             },
             "por": {
                 "common": "Ilhas Virgens",
@@ -304,6 +322,10 @@
             "spa": {
                 "common": "Islas V\u00edrgenes del Reino Unido",
                 "official": "Islas V\u00edrgenes"
+            },
+            "urd": {
+                "common": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646",
+                "official": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646"
             },
             "zho": {
                 "common": "\u82f1\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b",
@@ -430,9 +452,17 @@
             "common": "\u30a4\u30ae\u30ea\u30b9\u9818\u30f4\u30a1\u30fc\u30b8\u30f3\u8af8\u5cf6",
             "official": "\u30d0\u30fc\u30b8\u30f3\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\uc601\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc",
+            "official": "\uc601\uad6d\ub839 \ubc84\uc9c4\uc544\uc77c\ub79c\ub4dc"
+        },
         "nld": {
             "common": "Britse Maagdeneilanden",
             "official": "Maagdeneilanden"
+        },
+        "pol": {
+            "common": "Brytyjskie Wyspy Dziewicze",
+            "official": "Brytyjskie Wyspy Dziewicze"
         },
         "por": {
             "common": "Ilhas Virgens",
@@ -449,6 +479,10 @@
         "spa": {
             "common": "Islas V\u00edrgenes del Reino Unido",
             "official": "Islas V\u00edrgenes"
+        },
+        "urd": {
+            "common": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646",
+            "official": "\u0628\u0631\u0637\u0627\u0646\u0648\u06cc \u062c\u0632\u0627\u0626\u0631 \u0648\u0631\u062c\u0646"
         },
         "zho": {
             "common": "\u82f1\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b",

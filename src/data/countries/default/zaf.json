@@ -128,6 +128,12 @@
     "geounit": "South Africa",
     "gu_a3": "ZAF",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "7"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "ZA",
@@ -290,9 +296,17 @@
             "common": "\u5357\u30a2\u30d5\u30ea\u30ab",
             "official": "\u5357\u30a2\u30d5\u30ea\u30ab\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub0a8\uc544\ud504\ub9ac\uce74",
+            "official": "\ub0a8\uc544\ud504\ub9ac\uce74 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Zuid-Afrika",
             "official": "Zuid -Afrika"
+        },
+        "pol": {
+            "common": "Po\u0142udniowa Afryka",
+            "official": "Republika Po\u0142udniowej Afryki"
         },
         "por": {
             "common": "\u00c1frica do Sul",
@@ -309,6 +323,10 @@
         "spa": {
             "common": "Rep\u00fablica de Sud\u00e1frica",
             "official": "Rep\u00fablica de Sud\u00e1frica"
+        },
+        "urd": {
+            "common": "\u062c\u0646\u0648\u0628\u06cc \u0627\u0641\u0631\u06cc\u0642\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0646\u0648\u0628\u06cc \u0627\u0641\u0631\u06cc\u0642\u0627"
         },
         "zho": {
             "common": "\u5357\u975e",

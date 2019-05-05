@@ -120,6 +120,12 @@
     "geounit": "Ghana",
     "gu_a3": "GHA",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "33"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "GH",
@@ -232,9 +238,17 @@
             "common": "\u30ac\u30fc\u30ca",
             "official": "\u30ac\u30fc\u30ca\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uac00\ub098",
+            "official": "\uac00\ub098 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Ghana",
             "official": "Republiek Ghana"
+        },
+        "pol": {
+            "common": "Ghana",
+            "official": "Republika Ghany"
         },
         "por": {
             "common": "Gana",
@@ -251,6 +265,10 @@
         "spa": {
             "common": "Ghana",
             "official": "Rep\u00fablica de Ghana"
+        },
+        "urd": {
+            "common": "\u06af\u06be\u0627\u0646\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u06be\u0627\u0646\u0627"
         },
         "zho": {
             "common": "\u52a0\u7eb3",

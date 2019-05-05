@@ -112,6 +112,12 @@
     "geounit": "Cuba",
     "gu_a3": "CUB",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "3"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "CU",
@@ -228,9 +234,17 @@
             "common": "\u30ad\u30e5\u30fc\u30d0",
             "official": "\u30ad\u30e5\u30fc\u30d0\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ucfe0\ubc14",
+            "official": "\ucfe0\ubc14 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Cuba",
             "official": "Republiek Cuba"
+        },
+        "pol": {
+            "common": "Kuba",
+            "official": "Republika Kuby"
         },
         "por": {
             "common": "Cuba",
@@ -247,6 +261,10 @@
         "spa": {
             "common": "Cuba",
             "official": "Rep\u00fablica de Cuba"
+        },
+        "urd": {
+            "common": "\u06a9\u06cc\u0648\u0628\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u06cc\u0648\u0628\u0627"
         },
         "zho": {
             "common": "\u53e4\u5df4",

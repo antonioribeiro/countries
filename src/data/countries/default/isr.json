@@ -124,6 +124,12 @@
     "geounit": "Israel",
     "gu_a3": "ISR",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "72"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "IL",
@@ -241,9 +247,17 @@
             "common": "\u30a4\u30b9\u30e9\u30a8\u30eb",
             "official": "\u30a4\u30b9\u30e9\u30a8\u30eb\u56fd"
         },
+        "kor": {
+            "common": "\uc774\uc2a4\ub77c\uc5d8",
+            "official": "\uc774\uc2a4\ub77c\uc5d8\uad6d"
+        },
         "nld": {
             "common": "Isra\u00ebl",
             "official": "Staat Isra\u00ebl"
+        },
+        "pol": {
+            "common": "Izrael",
+            "official": "Pa\u0144stwo Izrael"
         },
         "por": {
             "common": "Israel",
@@ -260,6 +274,10 @@
         "spa": {
             "common": "Israel",
             "official": "Estado de Israel"
+        },
+        "urd": {
+            "common": "\u0627\u0633\u0631\u0627\u0626\u06cc\u0644",
+            "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0627\u0633\u0631\u0627\u0626\u06cc\u0644"
         },
         "zho": {
             "common": "\u4ee5\u8272\u5217",

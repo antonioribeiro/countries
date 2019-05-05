@@ -54,18 +54,20 @@
         "cca3": "IMN",
         "ccn3": "833",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "i_m_p": {
+                "name": "Manx pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Manx",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "IM",
@@ -93,6 +95,12 @@
         "geounit": "Isle of Man",
         "gu_a3": "IMN",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "IM",
@@ -207,9 +215,17 @@
                 "common": "\u30de\u30f3\u5cf6",
                 "official": "\u30de\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\ub9e8\uc12c",
+                "official": "\ub9e8\uc12c"
+            },
             "nld": {
                 "common": "Isle of Man",
                 "official": "Isle of Man"
+            },
+            "pol": {
+                "common": "Wyspa Man",
+                "official": "Wyspa Man"
             },
             "por": {
                 "common": "Ilha de Man",
@@ -226,6 +242,10 @@
             "spa": {
                 "common": "Isla de Man",
                 "official": "Isla de Man"
+            },
+            "urd": {
+                "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646",
+                "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646"
             },
             "zho": {
                 "common": "\u9a6c\u6069\u5c9b",
@@ -323,6 +343,12 @@
     "geounit": "Isle of Man",
     "gu_a3": "IMN",
     "homepart": "-99",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "4"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "IoMan",
@@ -352,18 +378,20 @@
         "cca3": "IMN",
         "ccn3": "833",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "i_m_p": {
+                "name": "Manx pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Manx",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "IM",
@@ -391,6 +419,12 @@
         "geounit": "Isle of Man",
         "gu_a3": "IMN",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "IM",
@@ -505,9 +539,17 @@
                 "common": "\u30de\u30f3\u5cf6",
                 "official": "\u30de\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\ub9e8\uc12c",
+                "official": "\ub9e8\uc12c"
+            },
             "nld": {
                 "common": "Isle of Man",
                 "official": "Isle of Man"
+            },
+            "pol": {
+                "common": "Wyspa Man",
+                "official": "Wyspa Man"
             },
             "por": {
                 "common": "Ilha de Man",
@@ -524,6 +566,10 @@
             "spa": {
                 "common": "Isla de Man",
                 "official": "Isla de Man"
+            },
+            "urd": {
+                "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646",
+                "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646"
             },
             "zho": {
                 "common": "\u9a6c\u6069\u5c9b",
@@ -655,9 +701,17 @@
             "common": "\u30de\u30f3\u5cf6",
             "official": "\u30de\u30f3\u5cf6"
         },
+        "kor": {
+            "common": "\ub9e8\uc12c",
+            "official": "\ub9e8\uc12c"
+        },
         "nld": {
             "common": "Isle of Man",
             "official": "Isle of Man"
+        },
+        "pol": {
+            "common": "Wyspa Man",
+            "official": "Wyspa Man"
         },
         "por": {
             "common": "Ilha de Man",
@@ -674,6 +728,10 @@
         "spa": {
             "common": "Isla de Man",
             "official": "Isla de Man"
+        },
+        "urd": {
+            "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646",
+            "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646"
         },
         "zho": {
             "common": "\u9a6c\u6069\u5c9b",

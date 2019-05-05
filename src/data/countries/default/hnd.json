@@ -120,6 +120,12 @@
     "geounit": "Honduras",
     "gu_a3": "HND",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "04"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "HN",
@@ -232,9 +238,17 @@
             "common": "\u30db\u30f3\u30b8\u30e5\u30e9\u30b9",
             "official": "\u30db\u30f3\u30b8\u30e5\u30e9\u30b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc628\ub450\ub77c\uc2a4",
+            "official": "\uc628\ub450\ub77c\uc2a4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Honduras",
             "official": "Republiek Honduras"
+        },
+        "pol": {
+            "common": "Honduras",
+            "official": "Republika Hondurasu"
         },
         "por": {
             "common": "Honduras",
@@ -251,6 +265,10 @@
         "spa": {
             "common": "Honduras",
             "official": "Rep\u00fablica de Honduras"
+        },
+        "urd": {
+            "common": "\u06c1\u0648\u0646\u0688\u0648\u0631\u0627\u0633",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06c1\u0648\u0646\u0688\u0648\u0631\u0627\u0633"
         },
         "zho": {
             "common": "\u6d2a\u90fd\u62c9\u65af",

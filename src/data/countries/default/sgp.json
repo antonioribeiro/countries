@@ -113,6 +113,12 @@
     "geounit": "Singapore",
     "gu_a3": "SGP",
     "homepart": "1",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "5"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "SG",
@@ -264,9 +270,17 @@
             "common": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
             "official": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc2f1\uac00\ud3ec\ub974",
+            "official": "\uc2f1\uac00\ud3ec\ub974 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Singapore",
             "official": "Republiek Singapore"
+        },
+        "pol": {
+            "common": "Singapur",
+            "official": "Republika Singapuru"
         },
         "por": {
             "common": "Singapura",
@@ -283,6 +297,10 @@
         "spa": {
             "common": "Singapur",
             "official": "Rep\u00fablica de Singapur"
+        },
+        "urd": {
+            "common": "\u0633\u0646\u06af\u0627\u067e\u0648\u0631",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0646\u06af\u0627\u067e\u0648\u0631"
         }
     },
     "type": "Sovereign country",

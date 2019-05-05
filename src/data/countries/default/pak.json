@@ -123,6 +123,12 @@
     "geounit": "Pakistan",
     "gu_a3": "PAK",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "2"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "PK",
@@ -240,9 +246,17 @@
             "common": "\u30d1\u30ad\u30b9\u30bf\u30f3",
             "official": "\u30d1\u30ad\u30b9\u30bf\u30f3"
         },
+        "kor": {
+            "common": "\ud30c\ud0a4\uc2a4\ud0c4",
+            "official": "\ud30c\ud0a4\uc2a4\ud0c4 \uc774\uc2ac\ub78c \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Pakistan",
             "official": "Islamitische Republiek Pakistan"
+        },
+        "pol": {
+            "common": "Pakistan",
+            "official": "Islamska Republika Pakistanu"
         },
         "por": {
             "common": "Paquist\u00e3o",
@@ -259,6 +273,10 @@
         "spa": {
             "common": "Pakist\u00e1n",
             "official": "Rep\u00fablica Isl\u00e1mica de Pakist\u00e1n"
+        },
+        "urd": {
+            "common": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+            "official": "\u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0627\u06a9\u0633\u062a\u0627\u0646"
         },
         "zho": {
             "common": "\u5df4\u57fa\u65af\u5766",

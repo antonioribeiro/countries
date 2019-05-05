@@ -48,18 +48,16 @@
         "cca3": "NIU",
         "ccn3": "570",
         "cioc": null,
-        "currency": [
-            "NZD"
-        ],
+        "currencies": {
+            "n_z_d": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Niuean",
-        "dialling": {
-            "calling_code": [
-                "683"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NE",
@@ -87,6 +85,12 @@
         "geounit": "Niue",
         "gu_a3": "NIU",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "83"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "NU",
@@ -201,7 +205,15 @@
                 "common": "\u30cb\u30a6\u30a8",
                 "official": "\u30cb\u30a6\u30a8"
             },
+            "kor": {
+                "common": "\ub2c8\uc6b0\uc5d0",
+                "official": "\ub2c8\uc6b0\uc5d0"
+            },
             "nld": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "pol": {
                 "common": "Niue",
                 "official": "Niue"
             },
@@ -220,6 +232,10 @@
             "spa": {
                 "common": "Niue",
                 "official": "Niue"
+            },
+            "urd": {
+                "common": "\u0646\u06cc\u0648\u0648\u06d2",
+                "official": "\u0646\u06cc\u0648\u0648\u06d2"
             },
             "zho": {
                 "common": "\u7ebd\u57c3",
@@ -321,6 +337,12 @@
     "geounit": "Niue",
     "gu_a3": "NIU",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "83"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": {
         "abbrev": "Niue",
@@ -347,18 +369,16 @@
         "cca3": "NIU",
         "ccn3": "570",
         "cioc": null,
-        "currency": [
-            "NZD"
-        ],
+        "currencies": {
+            "n_z_d": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Niuean",
-        "dialling": {
-            "calling_code": [
-                "683"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NE",
@@ -386,6 +406,12 @@
         "geounit": "Niue",
         "gu_a3": "NIU",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "83"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "NU",
@@ -500,7 +526,15 @@
                 "common": "\u30cb\u30a6\u30a8",
                 "official": "\u30cb\u30a6\u30a8"
             },
+            "kor": {
+                "common": "\ub2c8\uc6b0\uc5d0",
+                "official": "\ub2c8\uc6b0\uc5d0"
+            },
             "nld": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "pol": {
                 "common": "Niue",
                 "official": "Niue"
             },
@@ -519,6 +553,10 @@
             "spa": {
                 "common": "Niue",
                 "official": "Niue"
+            },
+            "urd": {
+                "common": "\u0646\u06cc\u0648\u0648\u06d2",
+                "official": "\u0646\u06cc\u0648\u0648\u06d2"
             },
             "zho": {
                 "common": "\u7ebd\u57c3",
@@ -650,7 +688,15 @@
             "common": "\u30cb\u30a6\u30a8",
             "official": "\u30cb\u30a6\u30a8"
         },
+        "kor": {
+            "common": "\ub2c8\uc6b0\uc5d0",
+            "official": "\ub2c8\uc6b0\uc5d0"
+        },
         "nld": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "pol": {
             "common": "Niue",
             "official": "Niue"
         },
@@ -669,6 +715,10 @@
         "spa": {
             "common": "Niue",
             "official": "Niue"
+        },
+        "urd": {
+            "common": "\u0646\u06cc\u0648\u0648\u06d2",
+            "official": "\u0646\u06cc\u0648\u0648\u06d2"
         },
         "zho": {
             "common": "\u7ebd\u57c3",

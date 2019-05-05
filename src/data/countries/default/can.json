@@ -113,6 +113,12 @@
     "geounit": "Canada",
     "gu_a3": "CAN",
     "homepart": "1",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            ""
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "CA",
@@ -235,9 +241,17 @@
             "common": "\u30ab\u30ca\u30c0",
             "official": "\u30ab\u30ca\u30c0"
         },
+        "kor": {
+            "common": "\uce90\ub098\ub2e4",
+            "official": "\uce90\ub098\ub2e4"
+        },
         "nld": {
             "common": "Canada",
             "official": "Canada"
+        },
+        "pol": {
+            "common": "Kanada",
+            "official": "Kanada"
         },
         "por": {
             "common": "Canad\u00e1",
@@ -254,6 +268,10 @@
         "spa": {
             "common": "Canad\u00e1",
             "official": "Canad\u00e1"
+        },
+        "urd": {
+            "common": "\u06a9\u06cc\u0646\u06cc\u0688\u0627",
+            "official": "\u06a9\u06cc\u0646\u06cc\u0688\u0627"
         },
         "zho": {
             "common": "\u52a0\u62ff\u5927",

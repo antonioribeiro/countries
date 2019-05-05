@@ -112,6 +112,12 @@
     "geounit": "American Samoa",
     "gu_a3": "ASM",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "684"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": {
         "abbrev": "Am. Samoa",
@@ -141,18 +147,16 @@
         "cca3": "ASM",
         "ccn3": "016",
         "cioc": "ASA",
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United State Dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "American Samoan",
-        "dialling": {
-            "calling_code": [
-                "1684"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AQ",
@@ -180,6 +184,12 @@
         "geounit": "American Samoa",
         "gu_a3": "ASM",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "684"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "AS",
@@ -294,9 +304,17 @@
                 "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2",
                 "official": "\u7c73\u30b5\u30e2\u30a2"
             },
+            "kor": {
+                "common": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544",
+                "official": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544"
+            },
             "nld": {
                 "common": "Amerikaans Samoa",
                 "official": "Amerikaans Samoa"
+            },
+            "pol": {
+                "common": "Samoa Ameryka\u0144skie",
+                "official": "Samoa Ameryka\u0144skie"
             },
             "por": {
                 "common": "Samoa Americana",
@@ -313,6 +331,10 @@
             "spa": {
                 "common": "Samoa Americana",
                 "official": "Samoa Americana"
+            },
+            "urd": {
+                "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627",
+                "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627"
             },
             "zho": {
                 "common": "\u7f8e\u5c5e\u8428\u6469\u4e9a",
@@ -444,9 +466,17 @@
             "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2",
             "official": "\u7c73\u30b5\u30e2\u30a2"
         },
+        "kor": {
+            "common": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544",
+            "official": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544"
+        },
         "nld": {
             "common": "Amerikaans Samoa",
             "official": "Amerikaans Samoa"
+        },
+        "pol": {
+            "common": "Samoa Ameryka\u0144skie",
+            "official": "Samoa Ameryka\u0144skie"
         },
         "por": {
             "common": "Samoa Americana",
@@ -463,6 +493,10 @@
         "spa": {
             "common": "Samoa Americana",
             "official": "Samoa Americana"
+        },
+        "urd": {
+            "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627",
+            "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627"
         },
         "zho": {
             "common": "\u7f8e\u5c5e\u8428\u6469\u4e9a",

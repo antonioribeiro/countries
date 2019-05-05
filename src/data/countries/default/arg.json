@@ -125,6 +125,12 @@
     "geounit": "Argentina",
     "gu_a3": "ARG",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "4"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "AR",
@@ -246,9 +252,17 @@
             "common": "\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3",
             "official": "\u30a2\u30eb\u30bc\u30f3\u30c1\u30f3\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc544\ub974\ud5e8\ud2f0\ub098",
+            "official": "\uc544\ub974\ud5e8\ud2f0\ub098 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Argentini\u00eb",
             "official": "Argentijnse Republiek"
+        },
+        "pol": {
+            "common": "Argentyna",
+            "official": "Republika Argenty\u0144ska"
         },
         "por": {
             "common": "Argentina",
@@ -265,6 +279,10 @@
         "spa": {
             "common": "Argentina",
             "official": "Rep\u00fablica Argentina"
+        },
+        "urd": {
+            "common": "\u0627\u0631\u062c\u0646\u0679\u0627\u0626\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0631\u062c\u0646\u0679\u0627\u0626\u0646"
         },
         "zho": {
             "common": "\u963f\u6839\u5ef7",

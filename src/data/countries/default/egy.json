@@ -119,6 +119,12 @@
     "geounit": "Egypt",
     "gu_a3": "EGY",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "0"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "EG",
@@ -236,9 +242,17 @@
             "common": "\u30a8\u30b8\u30d7\u30c8",
             "official": "\u30a8\u30b8\u30d7\u30c8\u00b7\u30a2\u30e9\u30d6\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc774\uc9d1\ud2b8",
+            "official": "\uc774\uc9d1\ud2b8 \uc544\ub78d \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Egypte",
             "official": "Arabische Republiek Egypte"
+        },
+        "pol": {
+            "common": "Egipt",
+            "official": "Arabska Republika Egiptu"
         },
         "por": {
             "common": "Egito",
@@ -255,6 +269,10 @@
         "spa": {
             "common": "Egipto",
             "official": "Rep\u00fablica \u00c1rabe de Egipto"
+        },
+        "urd": {
+            "common": "\u0645\u0635\u0631",
+            "official": "\u0645\u0635\u0631\u06cc \u0639\u0631\u0628 \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1"
         },
         "zho": {
             "common": "\u57c3\u53ca",

@@ -62,18 +62,16 @@
         "cca3": "SSD",
         "ccn3": "728",
         "cioc": null,
-        "currency": [
-            "SSP"
-        ],
+        "currencies": {
+            "s_s_p": {
+                "name": "South Sudanese pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "South Sudanese",
-        "dialling": {
-            "calling_code": [
-                "211"
-            ]
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -101,6 +99,12 @@
         "geounit": "South Sudan",
         "gu_a3": "SDS",
         "homepart": "1",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "11"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": true,
         "iso_a2": "SS",
@@ -211,9 +215,17 @@
                 "common": "\u5357\u30b9\u30fc\u30c0\u30f3",
                 "official": "\u5357\u30b9\u30fc\u30c0\u30f3\u5171\u548c\u56fd"
             },
+            "kor": {
+                "common": "\ub0a8\uc218\ub2e8",
+                "official": "\ub0a8\uc218\ub2e8 \uacf5\ud654\uad6d"
+            },
             "nld": {
                 "common": "Zuid-Soedan",
                 "official": "Republiek Zuid-Soedan"
+            },
+            "pol": {
+                "common": "Sudan",
+                "official": "Republika Sudanu"
             },
             "por": {
                 "common": "Sud\u00e3o do Sul",
@@ -230,6 +242,10 @@
             "spa": {
                 "common": "Sud\u00e1n del Sur",
                 "official": "Rep\u00fablica de Sud\u00e1n del Sur"
+            },
+            "urd": {
+                "common": "\u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646",
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646"
             },
             "zho": {
                 "common": "\u5357\u82cf\u4e39",
@@ -338,6 +354,12 @@
     "geounit": "South Sudan",
     "gu_a3": "SDS",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "11"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "SS",
@@ -451,9 +473,17 @@
             "common": "\u5357\u30b9\u30fc\u30c0\u30f3",
             "official": "\u5357\u30b9\u30fc\u30c0\u30f3\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub0a8\uc218\ub2e8",
+            "official": "\ub0a8\uc218\ub2e8 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Zuid-Soedan",
             "official": "Republiek Zuid-Soedan"
+        },
+        "pol": {
+            "common": "Sudan",
+            "official": "Republika Sudanu"
         },
         "por": {
             "common": "Sud\u00e3o do Sul",
@@ -470,6 +500,10 @@
         "spa": {
             "common": "Sud\u00e1n del Sur",
             "official": "Rep\u00fablica de Sud\u00e1n del Sur"
+        },
+        "urd": {
+            "common": "\u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646"
         },
         "zho": {
             "common": "\u5357\u82cf\u4e39",

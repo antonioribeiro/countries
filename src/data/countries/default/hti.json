@@ -117,6 +117,12 @@
     "geounit": "Haiti",
     "gu_a3": "HTI",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "09"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "HT",
@@ -234,9 +240,17 @@
             "common": "\u30cf\u30a4\u30c1",
             "official": "\u30cf\u30a4\u30c1\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc544\uc774\ud2f0",
+            "official": "\uc544\uc774\ud2f0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Ha\u00efti",
             "official": "Republiek Ha\u00efti"
+        },
+        "pol": {
+            "common": "Haiti",
+            "official": "Republika Haiti"
         },
         "por": {
             "common": "Haiti",
@@ -253,6 +267,10 @@
         "spa": {
             "common": "Haiti",
             "official": "Rep\u00fablica de Hait\u00ed"
+        },
+        "urd": {
+            "common": "\u06c1\u06cc\u0679\u06cc",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06c1\u06cc\u0679\u06cc"
         },
         "zho": {
             "common": "\u6d77\u5730",

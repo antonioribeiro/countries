@@ -129,6 +129,12 @@
     "geounit": "Lithuania",
     "gu_a3": "LTU",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "70"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "LT",
@@ -241,9 +247,17 @@
             "common": "\u30ea\u30c8\u30a2\u30cb\u30a2",
             "official": "\u30ea\u30c8\u30a2\u30cb\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub9ac\ud22c\uc544\ub2c8\uc544",
+            "official": "\ub9ac\ud22c\uc544\ub2c8\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Litouwen",
             "official": "Republiek Litouwen"
+        },
+        "pol": {
+            "common": "Litwa",
+            "official": "Republika Litewska"
         },
         "por": {
             "common": "Litu\u00e2nia",
@@ -260,6 +274,10 @@
         "spa": {
             "common": "Lituania",
             "official": "Rep\u00fablica de Lituania"
+        },
+        "urd": {
+            "common": "\u0644\u062a\u06be\u0648\u0648\u06cc\u0646\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0644\u062a\u06be\u0648\u0648\u06cc\u0646\u06cc\u0627"
         },
         "zho": {
             "common": "\u7acb\u9676\u5b9b",

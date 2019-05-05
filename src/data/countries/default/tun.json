@@ -117,6 +117,12 @@
     "geounit": "Tunisia",
     "gu_a3": "TUN",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "16"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "TN",
@@ -229,9 +235,17 @@
             "common": "\u30c1\u30e5\u30cb\u30b8\u30a2",
             "official": "\u30c1\u30e5\u30cb\u30b8\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud280\ub2c8\uc9c0",
+            "official": "\ud280\ub2c8\uc9c0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Tunesi\u00eb",
             "official": "Republiek Tunesi\u00eb"
+        },
+        "pol": {
+            "common": "Tunezja",
+            "official": "Republika Tunezyjska"
         },
         "por": {
             "common": "Tun\u00edsia",
@@ -248,6 +262,10 @@
         "spa": {
             "common": "T\u00fanez",
             "official": "Rep\u00fablica de T\u00fanez"
+        },
+        "urd": {
+            "common": "\u062a\u0648\u0646\u0633",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062a\u0648\u0646\u0633"
         },
         "zho": {
             "common": "\u7a81\u5c3c\u65af",

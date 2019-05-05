@@ -133,6 +133,12 @@
     "geounit": "Italy",
     "gu_a3": "ITA",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "9"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "IT",
@@ -265,9 +271,17 @@
             "common": "\u30a4\u30bf\u30ea\u30a2",
             "official": "\u30a4\u30bf\u30ea\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc774\ud0c8\ub9ac\uc544",
+            "official": "\uc774\ud0c8\ub9ac\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Itali\u00eb",
             "official": "Italiaanse Republiek"
+        },
+        "pol": {
+            "common": "W\u0142ochy",
+            "official": "Republika W\u0142oska"
         },
         "por": {
             "common": "It\u00e1lia",
@@ -284,6 +298,10 @@
         "spa": {
             "common": "Italia",
             "official": "Rep\u00fablica Italiana"
+        },
+        "urd": {
+            "common": "\u0627\u0637\u0627\u0644\u06cc\u06c1",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0637\u0627\u0644\u06cc\u06c1"
         },
         "zho": {
             "common": "\u610f\u5927\u5229",

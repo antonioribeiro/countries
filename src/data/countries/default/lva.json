@@ -128,6 +128,12 @@
     "geounit": "Latvia",
     "gu_a3": "LVA",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "71"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "LV",
@@ -240,9 +246,17 @@
             "common": "\u30e9\u30c8\u30d3\u30a2",
             "official": "\u30e9\u30c8\u30d3\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub77c\ud2b8\ube44\uc544",
+            "official": "\ub77c\ud2b8\ube44\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Letland",
             "official": "Republiek Letland"
+        },
+        "pol": {
+            "common": "\u0141otwa",
+            "official": "Republika \u0141otewska"
         },
         "por": {
             "common": "Let\u00f3nia",
@@ -259,6 +273,10 @@
         "spa": {
             "common": "Letonia",
             "official": "Rep\u00fablica de Letonia"
+        },
+        "urd": {
+            "common": "\u0644\u0679\u0648\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0644\u0679\u0648\u06cc\u0627"
         },
         "zho": {
             "common": "\u62c9\u8131\u7ef4\u4e9a",
