@@ -1,14 +1,14 @@
 {
     "banknotes": {
         "frequent": [
-            "5",
-            "10",
-            "20",
-            "50"
+            "\u20ba5",
+            "\u20ba10",
+            "\u20ba20",
+            "\u20ba50"
         ],
         "rare": [
-            "100",
-            "200"
+            "\u20ba100",
+            "\u20ba200"
         ]
     },
     "coins": {
@@ -17,7 +17,7 @@
             "10Kr",
             "25Kr",
             "50Kr",
-            "1"
+            "\u20ba1"
         ],
         "rare": [
             "1Kr"
@@ -35,7 +35,7 @@
     "units": {
         "major": {
             "name": "lira",
-            "symbol": ""
+            "symbol": "\u20ba"
         },
         "minor": {
             "majorValue": 0.01,
