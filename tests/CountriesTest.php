@@ -11,7 +11,7 @@ use PragmaRX\Countries\Update\Config as ServiceConfig;
 
 class CountriesTest extends PHPUnitTestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         ini_set('memory_limit', '2048M');
 

@@ -354,11 +354,15 @@ class Hydrator
         $country = $this->fixCurrencies($country);
 
         if (isset($country['currencies'])) {
-            $currencies = countriesCollect($country['currencies'])->mapWithKeys(function ($code) {
+            $currencies = countriesCollect($country['currencies'])->mapWithKeys(function ($code, $currencyCode) use ($country) {
                 if ($this->isCurrenciesArray($code)) {
                     return [
                         $code['ISO4217Code'] => $code,
                     ];
+                }
+
+                if (is_object($code)) {
+                    $code = $currencyCode;
                 }
 
                 return [
