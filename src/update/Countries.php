@@ -107,7 +107,7 @@ class Countries extends Base
         $countries = coollect($shapeFile)->map(function ($country) {
             return $this->natural->fixNaturalOddCountries($country);
         })->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
-            list($mledoze, $countryCode) = $this->mledoze->findMledozeCountry($mledoze, $natural);
+            [$mledoze, $countryCode] = $this->mledoze->findMledozeCountry($mledoze, $natural);
 
             $natural = coollect($natural)->mapWithKeys(function ($country, $key) {
                 return [strtolower($key) => $country];
