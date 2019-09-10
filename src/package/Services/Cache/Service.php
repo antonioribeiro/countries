@@ -51,7 +51,7 @@ class Service implements CacheInterface
      */
     public function instantiateConfig($config)
     {
-        return is_null($config) ? new Config() : $config;
+        return \is_null($config) ? new Config() : $config;
     }
 
     /**
@@ -64,7 +64,7 @@ class Service implements CacheInterface
      */
     public function instantiateManager($config, $manager, $path)
     {
-        return is_null($manager)
+        return \is_null($manager)
             ? new NetteManager($config, $path)
             : $manager;
     }
@@ -101,7 +101,7 @@ class Service implements CacheInterface
      */
     public function makeKey()
     {
-        $arguments = func_get_args();
+        $arguments = \func_get_args();
 
         if (empty($arguments)) {
             throw new Exception('Empty key');
@@ -202,7 +202,7 @@ class Service implements CacheInterface
      */
     public function remember($key, $minutes, Closure $callback)
     {
-        if (! is_null($value = $this->manager->get($key))) {
+        if (! \is_null($value = $this->manager->get($key))) {
             return $value;
         }
 

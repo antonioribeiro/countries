@@ -84,7 +84,7 @@ class Repository
      */
     public function __call($name, array $arguments = [])
     {
-        return call_user_func_array([$this->all(), $name], $arguments);
+        return \call_user_func_array([$this->all(), $name], $arguments);
     }
 
     /**
@@ -100,7 +100,7 @@ class Repository
             return $value;
         }
 
-        $result = call_user_func_array([$this, $name], $arguments);
+        $result = \call_user_func_array([$this, $name], $arguments);
 
         if ($this->config->get('hydrate.before')) {
             $result = $this->hydrator->hydrate($result);
