@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "AUT",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Austria",
     "alt_spellings": [
         "AT",
@@ -24,7 +24,7 @@
         "CHE"
     ],
     "brk_a3": "AUT",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Austria",
     "capital": [
@@ -140,7 +140,7 @@
         "subregion_code": "155",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Austria",
     "gu_a3": "AUT",
     "homepart": "1",
@@ -196,20 +196,20 @@
     "name_hu": "Ausztria",
     "name_id": "Austria",
     "name_it": "Austria",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00e3\u0083\u0088\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0082\u00b9\u00e3\u0083\u0088\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ko": "\u00ec\u0098\u00a4\u00ec\u008a\u00a4\u00ed\u008a\u00b8\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
     "name_len": "7",
     "name_long": "Austria",
     "name_nev": "Austria",
-    "name_nl": "\u00ec\u0098\u00a4\u00ec\u008a\u00a4\u00ed\u008a\u00b8\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
-    "name_pl": "Oostenrijk",
-    "name_pt": "Austria",
-    "name_ru": "\u00c3\u0081ustria\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0090\u00d0\u00b2\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Oostenrijk",
+    "name_pl": "Austria",
+    "name_pt": "\u00c3\u0081ustria",
+    "name_ru": "\u00d0\u0090\u00d0\u00b2\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Austria",
-    "name_sv": "",
-    "name_tr": "\u00c3\u0096sterrike",
-    "name_vi": "Avusturya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c3\u0081o",
-    "name_zh": "",
+    "name_sv": "\u00c3\u0096sterrike",
+    "name_tr": "Avusturya",
+    "name_vi": "\u00c3\u0081o",
+    "name_zh": "\u00e5\u00a5\u00a5\u00e5\u009c\u00b0\u00e5\u0088\u00a9",
     "ne_id": "1159320379",
     "note_adm0": "",
     "note_brk": "",
@@ -218,12 +218,12 @@
     "pop_year": "2017",
     "postal": "A",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "AUT",
     "sovereignt": "Austria",
     "status": "officially-assigned",
     "su_a3": "AUT",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Austria",
     "tiny": "-99",
     "tld": [
@@ -273,6 +273,10 @@
         "nld": {
             "common": "Oostenrijk",
             "official": "Republiek Oostenrijk"
+        },
+        "per": {
+            "common": "\u0627\u062a\u0631\u06cc\u0634",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u062a\u0631\u06cc\u0634"
         },
         "pol": {
             "common": "Austria",

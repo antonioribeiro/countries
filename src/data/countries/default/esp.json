@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "ESP",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Spain",
     "alt_spellings": [
         "ES",
@@ -21,7 +21,7 @@
         "MAR"
     ],
     "brk_a3": "ESP",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Spain",
     "capital": [
@@ -126,7 +126,7 @@
         "subregion_code": "039",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Spain",
     "gu_a3": "ESP",
     "homepart": "1",
@@ -186,14 +186,14 @@
     "name_hu": "Spanyolorsz\u00c3\u00a1g",
     "name_id": "Spanyol",
     "name_it": "Spagna",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b9\u00e3\u0083\u009a\u00e3\u0082\u00a4\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0082\u00b9\u00e3\u0083\u009a\u00e3\u0082\u00a4\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u008a\u00a4\u00ed\u008e\u0098\u00ec\u009d\u00b8",
     "name_len": "5",
     "name_long": "Spain",
     "name_nev": "Spain",
-    "name_nl": "\u00ec\u008a\u00a4\u00ed\u008e\u0098\u00ec\u009d\u00b8",
-    "name_pl": "Spanje",
-    "name_pt": "Hiszpania",
+    "name_nl": "Spanje",
+    "name_pl": "Hiszpania",
+    "name_pt": "Espanha",
     "name_rinvex": {
         "common": "Spain",
         "native": {
@@ -220,12 +220,12 @@
         },
         "official": "Kingdom of Spain"
     },
-    "name_ru": "Espanha\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0098\u00d1\u0081\u00d0\u00bf\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
+    "name_ru": "\u00d0\u0098\u00d1\u0081\u00d0\u00bf\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Spain",
-    "name_sv": "",
-    "name_tr": "Spanien",
-    "name_vi": "\u00c4\u00b0spanya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000T\u00c3\u00a2",
-    "name_zh": "y Ban Nha",
+    "name_sv": "Spanien",
+    "name_tr": "\u00c4\u00b0spanya",
+    "name_vi": "T\u00c3\u00a2y Ban Nha",
+    "name_zh": "\u00e8\u00a5\u00bf\u00e7\u008f\u00ad\u00e7\u0089\u0099",
     "ne_id": "1159320587",
     "note_adm0": "",
     "note_brk": "",
@@ -234,12 +234,12 @@
     "pop_year": "2017",
     "postal": "E",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "ESP",
     "sovereignt": "Spain",
     "status": "officially-assigned",
     "su_a3": "ESP",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Spain",
     "tiny": "-99",
     "tld": [
@@ -285,6 +285,10 @@
         "nld": {
             "common": "Spanje",
             "official": "Koninkrijk Spanje"
+        },
+        "per": {
+            "common": "\u0627\u0633\u067e\u0627\u0646\u06cc\u0627",
+            "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u0627\u0633\u067e\u0627\u0646\u06cc\u0627"
         },
         "pol": {
             "common": "Hiszpania",

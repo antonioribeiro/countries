@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "KGZ",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Kyrgyzstan",
     "alt_spellings": [
         "KG",
@@ -22,7 +22,7 @@
         "UZB"
     ],
     "brk_a3": "KGZ",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Kyrgyzstan",
     "capital": [
@@ -119,7 +119,7 @@
         "subregion_code": "143",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Kyrgyzstan",
     "gu_a3": "KGZ",
     "homepart": "1",
@@ -180,20 +180,20 @@
     "name_hu": "Kirgiziszt\u00c3\u00a1n",
     "name_id": "Kirgizstan",
     "name_it": "Kirghizistan",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00ad\u00e3\u0083\u00ab\u00e3\u0082\u00ae\u00e3\u0082\u00b9",
+    "name_ja": "\u00e3\u0082\u00ad\u00e3\u0083\u00ab\u00e3\u0082\u00ae\u00e3\u0082\u00b9",
+    "name_ko": "\u00ed\u0082\u00a4\u00eb\u00a5\u00b4\u00ea\u00b8\u00b0\u00ec\u008a\u00a4\u00ec\u008a\u00a4\u00ed\u0083\u0084",
     "name_len": "10",
     "name_long": "Kyrgyzstan",
     "name_nev": "Kyrgyzstan",
-    "name_nl": "\u00ed\u0082\u00a4\u00eb\u00a5\u00b4\u00ea\u00b8\u00b0\u00ec\u008a\u00a4\u00ec\u008a\u00a4\u00ed\u0083",
-    "name_pl": "\u0084\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Kirgizi\u00c3\u00ab",
-    "name_pt": "Kirgistan",
-    "name_ru": "Quirguist\u00c3\u00a3o\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009a\u00d0\u00b8\u00d1\u0080\u00d0\u00b3\u00d0\u00b8\u00d0\u00b7\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Kirgizi\u00c3\u00ab",
+    "name_pl": "Kirgistan",
+    "name_pt": "Quirguist\u00c3\u00a3o",
+    "name_ru": "\u00d0\u009a\u00d0\u00b8\u00d1\u0080\u00d0\u00b3\u00d0\u00b8\u00d0\u00b7\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Kyrgyz Republic",
-    "name_sv": "",
-    "name_tr": "Kirgizistan",
-    "name_vi": "K\u00c4\u00b1rg\u00c4\u00b1zistan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Kyr",
-    "name_zh": "gyzstan",
+    "name_sv": "Kirgizistan",
+    "name_tr": "K\u00c4\u00b1rg\u00c4\u00b1zistan",
+    "name_vi": "Kyrgyzstan",
+    "name_zh": "\u00e5\u0090\u0089\u00e5\u00b0\u0094\u00e5\u0090\u0089\u00e6\u0096\u00af\u00e6\u0096\u00af\u00e5\u009d\u00a6",
     "ne_id": "1159320977",
     "note_adm0": "",
     "note_brk": "",
@@ -202,12 +202,12 @@
     "pop_year": "2017",
     "postal": "KG",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "KGZ",
     "sovereignt": "Kyrgyzstan",
     "status": "officially-assigned",
     "su_a3": "KGZ",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Kyrgyzstan",
     "tiny": "-99",
     "tld": [
@@ -253,6 +253,10 @@
         "nld": {
             "common": "Kirgizi\u00eb",
             "official": "Kirgizische Republiek"
+        },
+        "per": {
+            "common": "\u0642\u0631\u0642\u06cc\u0632\u0633\u062a\u0627\u0646",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0642\u0650\u0631\u0642\u06cc\u0632\u0633\u062a\u0627\u0646"
         },
         "pol": {
             "common": "Kirgistan",

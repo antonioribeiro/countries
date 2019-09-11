@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "JPN",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Japan",
     "alt_spellings": [
         "JP",
@@ -15,7 +15,7 @@
     ],
     "borders": [],
     "brk_a3": "JPN",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Japan",
     "capital": [
@@ -108,7 +108,7 @@
         "subregion_code": "030",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Japan",
     "gu_a3": "JPN",
     "homepart": "1",
@@ -164,20 +164,20 @@
     "name_hu": "Jap\u00c3\u00a1n",
     "name_id": "Jepang",
     "name_it": "Giappone",
-    "name_ja": "",
-    "name_ko": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac",
+    "name_ja": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac",
+    "name_ko": "\u00ec\u009d\u00bc\u00eb\u00b3\u00b8",
     "name_len": "5",
     "name_long": "Japan",
     "name_nev": "Japan",
-    "name_nl": "\u00ec\u009d\u00bc\u00eb\u00b3\u00b8",
-    "name_pl": "Japan",
-    "name_pt": "Japonia",
-    "name_ru": "Jap\u00c3\u00a3o\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00af\u00d0\u00bf\u00d0\u00be\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Japan",
+    "name_pl": "Japonia",
+    "name_pt": "Jap\u00c3\u00a3o",
+    "name_ru": "\u00d0\u00af\u00d0\u00bf\u00d0\u00be\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Japan",
-    "name_sv": "",
-    "name_tr": "Japan",
-    "name_vi": "Japonya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Nh\u00e1",
-    "name_zh": "\u00ba\u00adt B\u00e1\u00ba\u00a3n",
+    "name_sv": "Japan",
+    "name_tr": "Japonya",
+    "name_vi": "Nh\u00e1\u00ba\u00adt B\u00e1\u00ba\u00a3n",
+    "name_zh": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac",
     "ne_id": "1159320937",
     "note_adm0": "",
     "note_brk": "",
@@ -191,7 +191,7 @@
     "sovereignt": "Japan",
     "status": "officially-assigned",
     "su_a3": "JPN",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Japan",
     "tiny": "-99",
     "tld": [
@@ -238,6 +238,10 @@
         "nld": {
             "common": "Japan",
             "official": "Japan"
+        },
+        "per": {
+            "common": "\u0698\u0627\u067e\u0646",
+            "official": "\u0698\u0627\u067e\u0646"
         },
         "pol": {
             "common": "Japonia",

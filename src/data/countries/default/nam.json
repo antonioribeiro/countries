@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "NAM",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Namibia",
     "alt_spellings": [
         "NA",
@@ -20,7 +20,7 @@
         "ZMB"
     ],
     "brk_a3": "NAM",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Namibia",
     "capital": [
@@ -119,7 +119,7 @@
         "subregion_code": "018",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Namibia",
     "gu_a3": "NAM",
     "homepart": "1",
@@ -215,20 +215,20 @@
     "name_hu": "Nam\u00c3\u00adbia",
     "name_id": "Namibia",
     "name_it": "Namibia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u008a\u00e3\u0083\u009f\u00e3\u0083\u0093\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u008a\u00e3\u0083\u009f\u00e3\u0083\u0093\u00e3\u0082\u00a2",
+    "name_ko": "\u00eb\u0082\u0098\u00eb\u00af\u00b8\u00eb\u00b9\u0084\u00ec\u0095\u0084",
     "name_len": "7",
     "name_long": "Namibia",
     "name_nev": "Namibia",
-    "name_nl": "\u00eb\u0082\u0098\u00eb\u00af\u00b8\u00eb\u00b9\u0084\u00ec\u0095\u0084",
-    "name_pl": "Namibi\u00c3\u00ab",
-    "name_pt": "Namibia",
-    "name_ru": "Nam\u00c3\u00adbia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00b0\u00d0\u00bc\u00d0\u00b8\u00d0\u00b1\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Namibi\u00c3\u00ab",
+    "name_pl": "Namibia",
+    "name_pt": "Nam\u00c3\u00adbia",
+    "name_ru": "\u00d0\u009d\u00d0\u00b0\u00d0\u00bc\u00d0\u00b8\u00d0\u00b1\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Namibia",
-    "name_sv": "",
-    "name_tr": "Namibia",
-    "name_vi": "Namibya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Nam",
-    "name_zh": "ibia",
+    "name_sv": "Namibia",
+    "name_tr": "Namibya",
+    "name_vi": "Namibia",
+    "name_zh": "\u00e7\u00ba\u00b3\u00e7\u00b1\u00b3\u00e6\u00af\u0094\u00e4\u00ba\u009a",
     "ne_id": "1159321085",
     "note_adm0": "",
     "note_brk": "",
@@ -237,12 +237,12 @@
     "pop_year": "2017",
     "postal": "NA",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "NAM",
     "sovereignt": "Namibia",
     "status": "officially-assigned",
     "su_a3": "NAM",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Namibia",
     "tiny": "-99",
     "tld": [
@@ -288,6 +288,10 @@
         "nld": {
             "common": "Namibi\u00eb",
             "official": "Republiek Namibi\u00eb"
+        },
+        "per": {
+            "common": "\u0646\u0627\u0645\u06cc\u0628\u06cc\u0627",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0646\u0627\u0645\u06cc\u0628\u06cc\u0627"
         },
         "pol": {
             "common": "Namibia",

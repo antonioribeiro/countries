@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "CIV",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Ivory Coast",
     "alt_spellings": [
         "CI",
@@ -23,7 +23,7 @@
         "MLI"
     ],
     "brk_a3": "CIV",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "C\u00c3\u00b4te d'Ivoire",
     "capital": [
@@ -121,7 +121,7 @@
         "subregion_code": "011",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Ivory Coast",
     "gu_a3": "CIV",
     "homepart": "1",
@@ -177,20 +177,20 @@
     "name_hu": "Elef\u00c3\u00a1ntcsontpart",
     "name_id": "Pantai Gading",
     "name_it": "Costa d'Avorio",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b3\u00e3\u0083\u00bc\u00e3\u0083\u0088\u00e3\u0082\u00b8\u00e3\u0083\u009c\u00e3\u0083\u00af\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00b3\u00e3\u0083\u00bc\u00e3\u0083\u0088\u00e3\u0082\u00b8\u00e3\u0083\u009c\u00e3\u0083\u00af\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u00bd\u0094\u00ed\u008a\u00b8\u00eb\u0094\u0094\u00eb\u00b6\u0080\u00ec\u0095\u0084\u00eb\u00a5\u00b4",
     "name_len": "13",
     "name_long": "C\u00c3\u00b4te d'Ivoire",
     "name_nev": "C\u00c3\u00b4te d'Ivoire",
-    "name_nl": "\u00ec\u00bd\u0094\u00ed\u008a\u00b8\u00eb\u0094\u0094\u00eb\u00b6\u0080\u00ec\u0095\u0084\u00eb\u00a5",
-    "name_pl": "\u00b4\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ivoorkust",
-    "name_pt": "Wybrze\u00c5\u00bce Ko\u00c5\u009bci S\u00c5\u0082oniowej",
-    "name_ru": "Costa do Marfim\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009a\u00d0\u00be\u00d1\u0082-\u00d0\u00b4\u00e2\u0080\u0099\u00d0\u0098\u00d0\u00b2\u00d1\u0083\u00d0\u00b0\u00d1\u0080",
+    "name_nl": "Ivoorkust",
+    "name_pl": "Wybrze\u00c5\u00bce Ko\u00c5\u009bci S\u00c5\u0082oniowej",
+    "name_pt": "Costa do Marfim",
+    "name_ru": "\u00d0\u009a\u00d0\u00be\u00d1\u0082-\u00d0\u00b4\u00e2\u0080\u0099\u00d0\u0098\u00d0\u00b2\u00d1\u0083\u00d0\u00b0\u00d1\u0080",
     "name_sort": "C\u00c3\u00b4te d'Ivoire",
-    "name_sv": "",
-    "name_tr": "Elfenbenskusten",
-    "name_vi": "Fildi\u00c5\u009fi Sahili\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000B\u00e1\u00bb",
-    "name_zh": "\u009d Bi\u00e1\u00bb\u0083n Ng\u00c3\u00a0",
+    "name_sv": "Elfenbenskusten",
+    "name_tr": "Fildi\u00c5\u009fi Sahili",
+    "name_vi": "B\u00e1\u00bb\u009d Bi\u00e1\u00bb\u0083n Ng\u00c3\u00a0",
+    "name_zh": "\u00e7\u00a7\u0091\u00e7\u0089\u00b9\u00e8\u00bf\u00aa\u00e7\u0093\u00a6",
     "ne_id": "1159320507",
     "note_adm0": "",
     "note_brk": "",
@@ -199,12 +199,12 @@
     "pop_year": "2017",
     "postal": "CI",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "CIV",
     "sovereignt": "Ivory Coast",
     "status": "officially-assigned",
     "su_a3": "CIV",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Ivory Coast",
     "tiny": "-99",
     "tld": [
@@ -250,6 +250,10 @@
         "nld": {
             "common": "Ivoorkust",
             "official": "Republiek Ivoorkust"
+        },
+        "per": {
+            "common": "\u0633\u0627\u062d\u0644 \u0639\u0627\u062c",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0627\u062d\u0644 \u0639\u0627\u062c"
         },
         "pol": {
             "common": "Wybrze\u017be Ko\u015bci S\u0142oniowej",
