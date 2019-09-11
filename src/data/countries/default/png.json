@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "PNG",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Papua New Guinea",
     "alt_spellings": [
         "PG",
@@ -17,7 +17,7 @@
         "IDN"
     ],
     "brk_a3": "PN1",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Papua New Guinea",
     "capital": [
@@ -111,7 +111,7 @@
         "subregion_code": "054",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Papua New Guinea",
     "gu_a3": "PNG",
     "homepart": "1",
@@ -177,20 +177,20 @@
     "name_hu": "P\u00c3\u00a1pua \u00c3\u009aj-Guinea",
     "name_id": "Papua Nugini",
     "name_it": "Papua Nuova Guinea",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0091\u00e3\u0083\u0097\u00e3\u0082\u00a2\u00e3\u0083\u008b\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0082\u00ae\u00e3\u0083\u008b\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u0091\u00e3\u0083\u0097\u00e3\u0082\u00a2\u00e3\u0083\u008b\u00e3\u0083\u00a5\u00e3\u0083\u00bc\u00e3\u0082\u00ae\u00e3\u0083\u008b\u00e3\u0082\u00a2",
+    "name_ko": "\u00ed\u008c\u008c\u00ed\u0091\u00b8\u00ec\u0095\u0084\u00eb\u0089\u00b4\u00ea\u00b8\u00b0\u00eb\u008b\u0088",
     "name_len": "16",
     "name_long": "Papua New Guinea",
     "name_nev": "Papua New Guinea",
-    "name_nl": "\u00ed\u008c\u008c\u00ed\u0091\u00b8\u00ec\u0095\u0084\u00eb\u0089\u00b4\u00ea\u00b8\u00b0\u00eb\u008b",
-    "name_pl": "\u0088\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Papoea-Nieuw-Guinea",
-    "name_pt": "Papua-Nowa Gwinea",
-    "name_ru": "Papua-Nova Guin\u00c3\u00a9\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009f\u00d0\u00b0\u00d0\u00bf\u00d1\u0083\u00d0\u00b0-\u00d0\u009d\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d1\u008f \u00d0\u0093\u00d0\u00b2\u00d0\u00b8\u00d0\u00bd\u00d0\u00b5\u00d1\u008f",
+    "name_nl": "Papoea-Nieuw-Guinea",
+    "name_pl": "Papua-Nowa Gwinea",
+    "name_pt": "Papua-Nova Guin\u00c3\u00a9",
+    "name_ru": "\u00d0\u009f\u00d0\u00b0\u00d0\u00bf\u00d1\u0083\u00d0\u00b0-\u00d0\u009d\u00d0\u00be\u00d0\u00b2\u00d0\u00b0\u00d1\u008f \u00d0\u0093\u00d0\u00b2\u00d0\u00b8\u00d0\u00bd\u00d0\u00b5\u00d1\u008f",
     "name_sort": "Papua New Guinea",
-    "name_sv": "",
-    "name_tr": "Papua Nya Guinea",
-    "name_vi": "Papua Yeni Gine\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Pap",
-    "name_zh": "ua New Guinea",
+    "name_sv": "Papua Nya Guinea",
+    "name_tr": "Papua Yeni Gine",
+    "name_vi": "Papua New Guinea",
+    "name_zh": "\u00e5\u00b7\u00b4\u00e5\u00b8\u0083\u00e4\u00ba\u009a\u00e6\u0096\u00b0\u00e5\u0087\u00a0\u00e5\u0086\u0085\u00e4\u00ba\u009a",
     "ne_id": "1159321173",
     "note_adm0": "",
     "note_brk": "",
@@ -199,7 +199,7 @@
     "pop_year": "2017",
     "postal": "PG",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "PNG",
     "sovereignt": "Papua New Guinea",
     "status": "officially-assigned",
@@ -250,6 +250,10 @@
         "nld": {
             "common": "Papoea-Nieuw-Guinea",
             "official": "Onafhankelijke Staat Papoea -Nieuw-Guinea"
+        },
+        "per": {
+            "common": "\u067e\u0627\u067e\u0648\u0622 \u06af\u06cc\u0646\u0647 \u0646\u0648",
+            "official": "\u0645\u0645\u0644\u06a9\u062a \u0645\u0633\u062a\u0642\u0644 \u067e\u0627\u067e\u0648\u0622 \u06af\u06cc\u0646\u0647\u0654 \u0646\u0648"
         },
         "pol": {
             "common": "Papua-Nowa Gwinea",

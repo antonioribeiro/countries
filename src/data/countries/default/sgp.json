@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SGP",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Singapore",
     "alt_spellings": [
         "SG",
@@ -16,7 +16,7 @@
     ],
     "borders": [],
     "brk_a3": "SGP",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Singapore",
     "capital": [
@@ -109,7 +109,7 @@
         "subregion_code": "035",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Singapore",
     "gu_a3": "SGP",
     "homepart": "1",
@@ -180,14 +180,14 @@
     "name_hu": "Szingap\u00c3\u00bar",
     "name_id": "Singapura",
     "name_it": "Singapore",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0082\u00ac\u00e3\u0083\u009d\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0082\u00ac\u00e3\u0083\u009d\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u008b\u00b1\u00ea\u00b0\u0080\u00ed\u008f\u00ac\u00eb\u00a5\u00b4",
     "name_len": "9",
     "name_long": "Singapore",
     "name_nev": "Singapore",
-    "name_nl": "\u00ec\u008b\u00b1\u00ea\u00b0\u0080\u00ed\u008f\u00ac\u00eb\u00a5\u00b4",
-    "name_pl": "Singapore",
-    "name_pt": "Singapur",
+    "name_nl": "Singapore",
+    "name_pl": "Singapur",
+    "name_pt": "Singapura",
     "name_rinvex": {
         "common": "Singapore",
         "native": {
@@ -210,12 +210,12 @@
         },
         "official": "Republic of Singapore"
     },
-    "name_ru": "Singapura\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d0\u00b3\u00d0\u00b0\u00d0\u00bf\u00d1\u0083\u00d1\u0080",
+    "name_ru": "\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d0\u00b3\u00d0\u00b0\u00d0\u00bf\u00d1\u0083\u00d1\u0080",
     "name_sort": "Singapore",
-    "name_sv": "",
-    "name_tr": "Singapore",
-    "name_vi": "Singapur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sin",
-    "name_zh": "gapore",
+    "name_sv": "Singapore",
+    "name_tr": "Singapur",
+    "name_vi": "Singapore",
+    "name_zh": "\u00e6\u0096\u00b0\u00e5\u008a\u00a0\u00e5\u009d\u00a1",
     "ne_id": "1159321247",
     "note_adm0": "",
     "note_brk": "",
@@ -229,7 +229,7 @@
     "sovereignt": "Singapore",
     "status": "officially-assigned",
     "su_a3": "SGP",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Singapore",
     "tiny": "3",
     "tld": [
@@ -277,6 +277,10 @@
         "nld": {
             "common": "Singapore",
             "official": "Republiek Singapore"
+        },
+        "per": {
+            "common": "\u0633\u0646\u06af\u0627\u067e\u0648\u0631",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0646\u06af\u0627\u067e\u0648\u0631"
         },
         "pol": {
             "common": "Singapur",

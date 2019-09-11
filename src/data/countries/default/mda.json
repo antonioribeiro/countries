@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MDA",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Moldova",
     "alt_spellings": [
         "MD",
@@ -19,7 +19,7 @@
         "UKR"
     ],
     "brk_a3": "MDA",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Moldova",
     "capital": [
@@ -114,7 +114,7 @@
         "subregion_code": "151",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Moldova",
     "gu_a3": "MDA",
     "homepart": "1",
@@ -170,20 +170,20 @@
     "name_hu": "Moldova",
     "name_id": "Moldova",
     "name_it": "Moldavia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00a2\u00e3\u0083\u00ab\u00e3\u0083\u0089\u00e3\u0083\u0090",
+    "name_ja": "\u00e3\u0083\u00a2\u00e3\u0083\u00ab\u00e3\u0083\u0089\u00e3\u0083\u0090",
+    "name_ko": "\u00eb\u00aa\u00b0\u00eb\u008f\u0084\u00eb\u00b0\u0094",
     "name_len": "7",
     "name_long": "Moldova",
     "name_nev": "Moldova",
-    "name_nl": "\u00eb\u00aa\u00b0\u00eb\u008f\u0084\u00eb\u00b0\u0094",
-    "name_pl": "Moldavi\u00c3\u00ab",
-    "name_pt": "Mo\u00c5\u0082dawia",
-    "name_ru": "Mold\u00c3\u00a1via\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00be\u00d0\u00bb\u00d0\u00b4\u00d0\u00b0\u00d0\u00b2\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Moldavi\u00c3\u00ab",
+    "name_pl": "Mo\u00c5\u0082dawia",
+    "name_pt": "Mold\u00c3\u00a1via",
+    "name_ru": "\u00d0\u009c\u00d0\u00be\u00d0\u00bb\u00d0\u00b4\u00d0\u00b0\u00d0\u00b2\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Moldova",
-    "name_sv": "",
-    "name_tr": "Moldavien",
-    "name_vi": "Moldova\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Mol",
-    "name_zh": "dova",
+    "name_sv": "Moldavien",
+    "name_tr": "Moldova",
+    "name_vi": "Moldova",
+    "name_zh": "\u00e6\u0091\u00a9\u00e5\u00b0\u0094\u00e5\u00a4\u009a\u00e7\u0093\u00a6",
     "ne_id": "1159321045",
     "note_adm0": "",
     "note_brk": "",
@@ -192,12 +192,12 @@
     "pop_year": "2017",
     "postal": "MD",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "MDA",
     "sovereignt": "Moldova",
     "status": "officially-assigned",
     "su_a3": "MDA",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Moldova",
     "tiny": "-99",
     "tld": [
@@ -243,6 +243,10 @@
         "nld": {
             "common": "Moldavi\u00eb",
             "official": "Republiek Moldavi\u00eb"
+        },
+        "per": {
+            "common": "\u0645\u0648\u0644\u062f\u0627\u0648\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0645\u0648\u0644\u062f\u0627\u0648\u06cc"
         },
         "pol": {
             "common": "Mo\u0142dawia",

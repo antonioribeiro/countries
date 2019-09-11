@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MAR",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Morocco",
     "alt_spellings": [
         "MA",
@@ -19,7 +19,7 @@
         "ESP"
     ],
     "brk_a3": "MAR",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Morocco",
     "capital": [
@@ -115,7 +115,7 @@
         "subregion_code": "015",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Morocco",
     "gu_a3": "MAR",
     "homepart": "1",
@@ -176,20 +176,20 @@
     "name_hu": "Marokk\u00c3\u00b3",
     "name_id": "Maroko",
     "name_it": "Marocco",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u0083\u00e3\u0082\u00b3",
+    "name_ja": "\u00e3\u0083\u00a2\u00e3\u0083\u00ad\u00e3\u0083\u0083\u00e3\u0082\u00b3",
+    "name_ko": "\u00eb\u00aa\u00a8\u00eb\u00a1\u009c\u00ec\u00bd\u0094",
     "name_len": "7",
     "name_long": "Morocco",
     "name_nev": "Morocco",
-    "name_nl": "\u00eb\u00aa\u00a8\u00eb\u00a1\u009c\u00ec\u00bd\u0094",
-    "name_pl": "Marokko",
-    "name_pt": "Maroko",
-    "name_ru": "Marrocos\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d0\u00be\u00d0\u00ba\u00d0\u00ba\u00d0\u00be",
+    "name_nl": "Marokko",
+    "name_pl": "Maroko",
+    "name_pt": "Marrocos",
+    "name_ru": "\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d0\u00be\u00d0\u00ba\u00d0\u00ba\u00d0\u00be",
     "name_sort": "Morocco",
-    "name_sv": "",
-    "name_tr": "Marocko",
-    "name_vi": "Fas\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Mar",
-    "name_zh": "oc",
+    "name_sv": "Marocko",
+    "name_tr": "Fas",
+    "name_vi": "Maroc",
+    "name_zh": "\u00e6\u0091\u00a9\u00e6\u00b4\u009b\u00e5\u0093\u00a5",
     "ne_id": "1159321035",
     "note_adm0": "",
     "note_brk": "",
@@ -198,12 +198,12 @@
     "pop_year": "2017",
     "postal": "MA",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "MAR",
     "sovereignt": "Morocco",
     "status": "officially-assigned",
     "su_a3": "MAR",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Morocco",
     "tiny": "-99",
     "tld": [
@@ -250,6 +250,10 @@
         "nld": {
             "common": "Marokko",
             "official": "Koninkrijk Marokko"
+        },
+        "per": {
+            "common": "\u0645\u0631\u0627\u06a9\u0634",
+            "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u0645\u0631\u0627\u06a9\u0634"
         },
         "pol": {
             "common": "Maroko",

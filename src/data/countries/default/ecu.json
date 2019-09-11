@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "ECU",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Ecuador",
     "alt_spellings": [
         "EC",
@@ -18,7 +18,7 @@
         "PER"
     ],
     "brk_a3": "ECU",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Ecuador",
     "capital": [
@@ -114,7 +114,7 @@
         "subregion_code": "005",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Ecuador",
     "gu_a3": "ECU",
     "homepart": "1",
@@ -170,20 +170,20 @@
     "name_hu": "Ecuador",
     "name_id": "Ekuador",
     "name_it": "Ecuador",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a8\u00e3\u0082\u00af\u00e3\u0082\u00a2\u00e3\u0083\u0089\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00a8\u00e3\u0082\u00af\u00e3\u0082\u00a2\u00e3\u0083\u0089\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u0097\u0090\u00ec\u00bd\u00b0\u00eb\u008f\u0084\u00eb\u00a5\u00b4",
     "name_len": "7",
     "name_long": "Ecuador",
     "name_nev": "Ecuador",
-    "name_nl": "\u00ec\u0097\u0090\u00ec\u00bd\u00b0\u00eb\u008f\u0084\u00eb\u00a5\u00b4",
-    "name_pl": "Ecuador",
-    "name_pt": "Ekwador",
-    "name_ru": "Equador\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00ad\u00d0\u00ba\u00d0\u00b2\u00d0\u00b0\u00d0\u00b4\u00d0\u00be\u00d1\u0080",
+    "name_nl": "Ecuador",
+    "name_pl": "Ekwador",
+    "name_pt": "Equador",
+    "name_ru": "\u00d0\u00ad\u00d0\u00ba\u00d0\u00b2\u00d0\u00b0\u00d0\u00b4\u00d0\u00be\u00d1\u0080",
     "name_sort": "Ecuador",
-    "name_sv": "",
-    "name_tr": "Ecuador",
-    "name_vi": "Ekvador\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ecu",
-    "name_zh": "ador",
+    "name_sv": "Ecuador",
+    "name_tr": "Ekvador",
+    "name_vi": "Ecuador",
+    "name_zh": "\u00e5\u008e\u0084\u00e7\u0093\u009c\u00e5\u00a4\u009a\u00e5\u00b0\u0094",
     "ne_id": "1159320567",
     "note_adm0": "",
     "note_brk": "",
@@ -192,12 +192,12 @@
     "pop_year": "2017",
     "postal": "EC",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "ECU",
     "sovereignt": "Ecuador",
     "status": "officially-assigned",
     "su_a3": "ECU",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Ecuador",
     "tiny": "-99",
     "tld": [
@@ -247,6 +247,10 @@
         "nld": {
             "common": "Ecuador",
             "official": "Republiek Ecuador"
+        },
+        "per": {
+            "common": "\u0627\u06a9\u0648\u0627\u062f\u0648\u0631",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u06a9\u0648\u0627\u062f\u0648\u0631"
         },
         "pol": {
             "common": "Ekwador",

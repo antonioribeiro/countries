@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MOZ",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Mozambique",
     "alt_spellings": [
         "MZ",
@@ -22,7 +22,7 @@
         "ZWE"
     ],
     "brk_a3": "MOZ",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mozambique",
     "capital": [
@@ -122,7 +122,7 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Mozambique",
     "gu_a3": "MOZ",
     "homepart": "1",
@@ -178,20 +178,20 @@
     "name_hu": "Mozambik",
     "name_id": "Mozambik",
     "name_it": "Mozambico",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00a2\u00e3\u0082\u00b6\u00e3\u0083\u00b3\u00e3\u0083\u0093\u00e3\u0083\u00bc\u00e3\u0082\u00af",
+    "name_ja": "\u00e3\u0083\u00a2\u00e3\u0082\u00b6\u00e3\u0083\u00b3\u00e3\u0083\u0093\u00e3\u0083\u00bc\u00e3\u0082\u00af",
+    "name_ko": "\u00eb\u00aa\u00a8\u00ec\u009e\u00a0\u00eb\u00b9\u0084\u00ed\u0081\u00ac",
     "name_len": "10",
     "name_long": "Mozambique",
     "name_nev": "Mozambique",
-    "name_nl": "\u00eb\u00aa\u00a8\u00ec\u009e\u00a0\u00eb\u00b9\u0084\u00ed\u0081\u00ac",
-    "name_pl": "Mozambique",
-    "name_pt": "Mozambik",
-    "name_ru": "Mo\u00c3\u00a7ambique\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00be\u00d0\u00b7\u00d0\u00b0\u00d0\u00bc\u00d0\u00b1\u00d0\u00b8\u00d0\u00ba",
+    "name_nl": "Mozambique",
+    "name_pl": "Mozambik",
+    "name_pt": "Mo\u00c3\u00a7ambique",
+    "name_ru": "\u00d0\u009c\u00d0\u00be\u00d0\u00b7\u00d0\u00b0\u00d0\u00bc\u00d0\u00b1\u00d0\u00b8\u00d0\u00ba",
     "name_sort": "Mozambique",
-    "name_sv": "",
-    "name_tr": "Mo\u00c3\u00a7ambique",
-    "name_vi": "Mozambik\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Moz",
-    "name_zh": "ambique",
+    "name_sv": "Mo\u00c3\u00a7ambique",
+    "name_tr": "Mozambik",
+    "name_vi": "Mozambique",
+    "name_zh": "\u00e8\u008e\u00ab\u00e6\u00a1\u0091\u00e6\u00af\u0094\u00e5\u0085\u008b",
     "ne_id": "1159321073",
     "note_adm0": "",
     "note_brk": "",
@@ -200,12 +200,12 @@
     "pop_year": "2017",
     "postal": "MZ",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "MOZ",
     "sovereignt": "Mozambique",
     "status": "officially-assigned",
     "su_a3": "MOZ",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Mozambique",
     "tiny": "-99",
     "tld": [
@@ -251,6 +251,10 @@
         "nld": {
             "common": "Mozambique",
             "official": "Republiek Mozambique"
+        },
+        "per": {
+            "common": "\u0645\u0648\u0632\u0627\u0645\u0628\u06cc\u06a9",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0645\u0648\u0632\u0627\u0645\u0628\u06cc\u06a9"
         },
         "pol": {
             "common": "Mozambik",

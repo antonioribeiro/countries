@@ -24,7 +24,7 @@
         "DEU"
     ],
     "brk_a3": "NLD",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Netherlands",
     "capital": [
@@ -126,7 +126,7 @@
         "subregion_code": "155",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Netherlands",
     "gu_a3": "NLD",
     "homepart": "1",
@@ -182,14 +182,14 @@
     "name_hu": "Hollandia",
     "name_id": "Belanda",
     "name_it": "Paesi Bassi",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00aa\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0080",
+    "name_ja": "\u00e3\u0082\u00aa\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0080",
+    "name_ko": "\u00eb\u0084\u00a4\u00eb\u008d\u009c\u00eb\u009e\u0080\u00eb\u0093\u009c",
     "name_len": "11",
     "name_long": "Netherlands",
     "name_nev": "Netherlands",
-    "name_nl": "\u00eb\u0084\u00a4\u00eb\u008d\u009c\u00eb\u009e\u0080\u00eb\u0093\u009c",
-    "name_pl": "Nederland",
-    "name_pt": "Holandia",
+    "name_nl": "Nederland",
+    "name_pl": "Holandia",
+    "name_pt": "Pa\u00c3\u00adses Baixos",
     "name_rinvex": {
         "common": "Netherlands",
         "native": {
@@ -200,12 +200,12 @@
         },
         "official": "Netherlands"
     },
-    "name_ru": "Pa\u00c3\u00adses Baixos\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00b8\u00d0\u00b4\u00d0\u00b5\u00d1\u0080\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u008b",
+    "name_ru": "\u00d0\u009d\u00d0\u00b8\u00d0\u00b4\u00d0\u00b5\u00d1\u0080\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u008b",
     "name_sort": "Netherlands",
-    "name_sv": "",
-    "name_tr": "Nederl\u00c3\u00a4nderna",
-    "name_vi": "Hollanda\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000H\u00c3\u00a0",
-    "name_zh": "Lan",
+    "name_sv": "Nederl\u00c3\u00a4nderna",
+    "name_tr": "Hollanda",
+    "name_vi": "H\u00c3\u00a0 Lan",
+    "name_zh": "\u00e8\u008d\u00b7\u00e8\u0098\u00ad",
     "ne_id": "1159321101",
     "note_adm0": "",
     "note_brk": "",
@@ -214,12 +214,12 @@
     "pop_year": "2017",
     "postal": "NL",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "NL1",
     "sovereignt": "Netherlands",
     "status": "officially-assigned",
     "su_a3": "NLD",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Netherlands",
     "tiny": "-99",
     "tld": [
@@ -265,6 +265,10 @@
         "nld": {
             "common": "Nederland",
             "official": "Nederland"
+        },
+        "per": {
+            "common": "\u0647\u0644\u0646\u062f",
+            "official": "\u0647\u0644\u0646\u062f"
         },
         "pol": {
             "common": "Holandia",

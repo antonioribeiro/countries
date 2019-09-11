@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SWE",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Sweden",
     "alt_spellings": [
         "SE",
@@ -18,7 +18,7 @@
         "NOR"
     ],
     "brk_a3": "SWE",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sweden",
     "capital": [
@@ -121,7 +121,7 @@
         "subregion_code": "154",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Sweden",
     "gu_a3": "SWE",
     "homepart": "1",
@@ -177,20 +177,20 @@
     "name_hu": "Sv\u00c3\u00a9dorsz\u00c3\u00a1g",
     "name_id": "Swedia",
     "name_it": "Svezia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b9\u00e3\u0082\u00a6\u00e3\u0082\u00a7\u00e3\u0083\u00bc\u00e3\u0083\u0087\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0082\u00b9\u00e3\u0082\u00a6\u00e3\u0082\u00a7\u00e3\u0083\u00bc\u00e3\u0083\u0087\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u008a\u00a4\u00ec\u009b\u00a8\u00eb\u008d\u00b4",
     "name_len": "6",
     "name_long": "Sweden",
     "name_nev": "Sweden",
-    "name_nl": "\u00ec\u008a\u00a4\u00ec\u009b\u00a8\u00eb\u008d\u00b4",
-    "name_pl": "Zweden",
-    "name_pt": "Szwecja",
-    "name_ru": "Su\u00c3\u00a9cia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a8\u00d0\u00b2\u00d0\u00b5\u00d1\u0086\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Zweden",
+    "name_pl": "Szwecja",
+    "name_pt": "Su\u00c3\u00a9cia",
+    "name_ru": "\u00d0\u00a8\u00d0\u00b2\u00d0\u00b5\u00d1\u0086\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Sweden",
-    "name_sv": "",
-    "name_tr": "Sverige",
-    "name_vi": "\u00c4\u00b0sve\u00c3\u00a7\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Th\u00e1",
-    "name_zh": "\u00bb\u00a5y \u00c4\u0090i\u00e1\u00bb\u0083n",
+    "name_sv": "Sverige",
+    "name_tr": "\u00c4\u00b0sve\u00c3\u00a7",
+    "name_vi": "Th\u00e1\u00bb\u00a5y \u00c4\u0090i\u00e1\u00bb\u0083n",
+    "name_zh": "\u00e7\u0091\u009e\u00e5\u0085\u00b8",
     "ne_id": "1159321287",
     "note_adm0": "",
     "note_brk": "",
@@ -199,12 +199,12 @@
     "pop_year": "2017",
     "postal": "S",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SWE",
     "sovereignt": "Sweden",
     "status": "officially-assigned",
     "su_a3": "SWE",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Sweden",
     "tiny": "-99",
     "tld": [
@@ -250,6 +250,10 @@
         "nld": {
             "common": "Zweden",
             "official": "Koninkrijk Zweden"
+        },
+        "per": {
+            "common": "\u0633\u0648\u0626\u062f",
+            "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u0633\u0648\u0626\u062f"
         },
         "pol": {
             "common": "Szwecja",

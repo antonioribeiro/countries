@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "TLS",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "East Timor",
     "alt_spellings": [
         "TL",
@@ -21,7 +21,7 @@
         "IDN"
     ],
     "brk_a3": "TLS",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Timor-Leste",
     "capital": [
@@ -115,7 +115,7 @@
         "subregion_code": "035",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "East Timor",
     "gu_a3": "TLS",
     "homepart": "1",
@@ -176,20 +176,20 @@
     "name_hu": "Kelet-Timor",
     "name_id": "Timor Leste",
     "name_it": "Timor Est",
-    "name_ja": "",
-    "name_ko": "\u00e6\u009d\u00b1\u00e3\u0083\u0086\u00e3\u0082\u00a3\u00e3\u0083\u00a2\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ja": "\u00e6\u009d\u00b1\u00e3\u0083\u0086\u00e3\u0082\u00a3\u00e3\u0083\u00a2\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ko": "\u00eb\u008f\u0099\u00ed\u008b\u00b0\u00eb\u00aa\u00a8\u00eb\u00a5\u00b4",
     "name_len": "11",
     "name_long": "Timor-Leste",
     "name_nev": "Timor-Leste",
-    "name_nl": "\u00eb\u008f\u0099\u00ed\u008b\u00b0\u00eb\u00aa\u00a8\u00eb\u00a5\u00b4",
-    "name_pl": "Oost-Timor",
-    "name_pt": "Timor Wschodni",
-    "name_ru": "Timor-Leste\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0092\u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d0\u00be\u00d1\u0087\u00d0\u00bd\u00d1\u008b\u00d0\u00b9 \u00d0\u00a2\u00d0\u00b8\u00d0\u00bc\u00d0\u00be\u00d1\u0080",
+    "name_nl": "Oost-Timor",
+    "name_pl": "Timor Wschodni",
+    "name_pt": "Timor-Leste",
+    "name_ru": "\u00d0\u0092\u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d0\u00be\u00d1\u0087\u00d0\u00bd\u00d1\u008b\u00d0\u00b9 \u00d0\u00a2\u00d0\u00b8\u00d0\u00bc\u00d0\u00be\u00d1\u0080",
     "name_sort": "Timor-Leste",
-    "name_sv": "",
-    "name_tr": "\u00c3\u0096sttimor",
-    "name_vi": "Do\u00c4\u009fu Timor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c4\u0090\u00c3",
-    "name_zh": "\u00b4ng Timor",
+    "name_sv": "\u00c3\u0096sttimor",
+    "name_tr": "Do\u00c4\u009fu Timor",
+    "name_vi": "\u00c4\u0090\u00c3\u00b4ng Timor",
+    "name_zh": "\u00e4\u00b8\u009c\u00e5\u00b8\u009d\u00e6\u00b1\u00b6",
     "ne_id": "1159321313",
     "note_adm0": "",
     "note_brk": "",
@@ -203,7 +203,7 @@
     "sovereignt": "East Timor",
     "status": "officially-assigned",
     "su_a3": "TLS",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "East Timor",
     "tiny": "-99",
     "tld": [
@@ -249,6 +249,10 @@
         "nld": {
             "common": "Oost-Timor",
             "official": "Democratische Republiek Oost-Timor"
+        },
+        "per": {
+            "common": "\u062a\u06cc\u0645\u0648\u0631 \u0634\u0631\u0642\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062f\u0645\u0648\u06a9\u0631\u0627\u062a\u06cc\u06a9 \u062a\u06cc\u0645\u0648\u0631 \u0634\u0631\u0642\u06cc"
         },
         "pol": {
             "common": "Timor Wschodni",
