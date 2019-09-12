@@ -7,6 +7,7 @@ use ReflectionClass;
 use ShapeFile\ShapeFile;
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
+use IlluminateAgnostic\Str\Support\Str;
 use PragmaRX\Countries\Package\Services\Command;
 use PragmaRX\Countries\Package\Services\Helper as ServiceHelper;
 
@@ -647,7 +648,7 @@ class Helper
      */
     public function dataDir($path = '')
     {
-        $path = (empty($path) || starts_with($path, DIRECTORY_SEPARATOR)) ? $path : "/{$path}";
+        $path = (empty($path) || Str::startsWith($path, DIRECTORY_SEPARATOR)) ? $path : "/{$path}";
 
         return __COUNTRIES_DIR__.$this->toDir("/src/data$path");
     }

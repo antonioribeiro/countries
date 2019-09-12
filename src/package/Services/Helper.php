@@ -3,6 +3,7 @@
 namespace PragmaRX\Countries\Package\Services;
 
 use Exception;
+use IlluminateAgnostic\Str\Support\Str;
 
 class Helper
 {
@@ -99,7 +100,7 @@ class Helper
      */
     public function dataDir($path = '')
     {
-        $path = (empty($path) || starts_with($path, DIRECTORY_SEPARATOR)) ? $path : "/{$path}";
+        $path = (empty($path) || Str::startsWith($path, DIRECTORY_SEPARATOR)) ? $path : "/{$path}";
 
         return __COUNTRIES_DIR__.$this->toDir("/src/data$path");
     }
