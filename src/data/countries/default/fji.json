@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "FJI",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Fiji",
     "alt_spellings": [
         "FJ",
@@ -17,7 +17,7 @@
     ],
     "borders": [],
     "brk_a3": "FJI",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Fiji",
     "capital": [
@@ -109,10 +109,16 @@
         "subregion_code": "054",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Fiji",
     "gu_a3": "FJI",
     "homepart": "1",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "79"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "FJ",
@@ -169,20 +175,20 @@
     "name_hu": "Fidzsi-szigetek",
     "name_id": "Fiji",
     "name_it": "Figi",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+    "name_ja": "\u00e3\u0083\u0095\u00e3\u0082\u00a3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+    "name_ko": "\u00ed\u0094\u00bc\u00ec\u00a7\u0080",
     "name_len": "4",
     "name_long": "Fiji",
     "name_nev": "Fiji",
-    "name_nl": "\u00ed\u0094\u00bc\u00ec\u00a7\u0080",
-    "name_pl": "Fiji",
-    "name_pt": "Fid\u00c5\u00bci",
-    "name_ru": "Fiji\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a4\u00d0\u00b8\u00d0\u00b4\u00d0\u00b6\u00d0\u00b8",
+    "name_nl": "Fiji",
+    "name_pl": "Fid\u00c5\u00bci",
+    "name_pt": "Fiji",
+    "name_ru": "\u00d0\u00a4\u00d0\u00b8\u00d0\u00b4\u00d0\u00b6\u00d0\u00b8",
     "name_sort": "Fiji",
-    "name_sv": "",
+    "name_sv": "Fiji",
     "name_tr": "Fiji",
-    "name_vi": "Fiji\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Fij",
-    "name_zh": "i",
+    "name_vi": "Fiji",
+    "name_zh": "\u00e6\u0096\u0090\u00e6\u00bf\u009f",
     "ne_id": "1159320625",
     "note_adm0": "",
     "note_brk": "",
@@ -196,7 +202,7 @@
     "sovereignt": "Fiji",
     "status": "officially-assigned",
     "su_a3": "FJI",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Fiji",
     "tiny": "-99",
     "tld": [
@@ -235,9 +241,21 @@
             "common": "\u30d5\u30a3\u30b8\u30fc",
             "official": "\u30d5\u30a3\u30b8\u30fc\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud53c\uc9c0",
+            "official": "\ud53c\uc9c0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Fiji",
             "official": "Republiek Fiji"
+        },
+        "per": {
+            "common": "\u0641\u06cc\u062c\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062c\u0632\u0627\u06cc\u0631 \u0641\u06cc\u062c\u06cc"
+        },
+        "pol": {
+            "common": "Fid\u017ci",
+            "official": "Republika Fid\u017ci"
         },
         "por": {
             "common": "Fiji",
@@ -254,6 +272,10 @@
         "spa": {
             "common": "Fiyi",
             "official": "Rep\u00fablica de Fiji"
+        },
+        "urd": {
+            "common": "\u0641\u062c\u06cc",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u062c\u06cc"
         },
         "zho": {
             "common": "\u6590\u6d4e",

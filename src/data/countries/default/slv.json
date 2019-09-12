@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SLV",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "El Salvador",
     "alt_spellings": [
         "SV",
@@ -18,7 +18,7 @@
         "HND"
     ],
     "brk_a3": "SLV",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "El Salvador",
     "capital": [
@@ -114,10 +114,16 @@
         "subregion_code": "013",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "El Salvador",
     "gu_a3": "SLV",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "03"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "SV",
@@ -164,20 +170,20 @@
     "name_hu": "El Salvador",
     "name_id": "El Salvador",
     "name_it": "El Salvador",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a8\u00e3\u0083\u00ab\u00e3\u0082\u00b5\u00e3\u0083\u00ab\u00e3\u0083\u0090\u00e3\u0083\u0089\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00a8\u00e3\u0083\u00ab\u00e3\u0082\u00b5\u00e3\u0083\u00ab\u00e3\u0083\u0090\u00e3\u0083\u0089\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u0097\u0098\u00ec\u0082\u00b4\u00eb\u00b0\u0094\u00eb\u008f\u0084\u00eb\u00a5\u00b4",
     "name_len": "11",
     "name_long": "El Salvador",
     "name_nev": "El Salvador",
-    "name_nl": "\u00ec\u0097\u0098\u00ec\u0082\u00b4\u00eb\u00b0\u0094\u00eb\u008f\u0084\u00eb\u00a5\u00b4",
-    "name_pl": "El Salvador",
-    "name_pt": "Salwador",
-    "name_ru": "El Salvador\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b0\u00d0\u00bb\u00d1\u008c\u00d0\u00b2\u00d0\u00b0\u00d0\u00b4\u00d0\u00be\u00d1\u0080",
+    "name_nl": "El Salvador",
+    "name_pl": "Salwador",
+    "name_pt": "El Salvador",
+    "name_ru": "\u00d0\u00a1\u00d0\u00b0\u00d0\u00bb\u00d1\u008c\u00d0\u00b2\u00d0\u00b0\u00d0\u00b4\u00d0\u00be\u00d1\u0080",
     "name_sort": "El Salvador",
-    "name_sv": "",
+    "name_sv": "El Salvador",
     "name_tr": "El Salvador",
-    "name_vi": "El Salvador\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000El",
-    "name_zh": "Salvador",
+    "name_vi": "El Salvador",
+    "name_zh": "\u00e8\u0090\u00a8\u00e5\u00b0\u0094\u00e7\u0093\u00a6\u00e5\u00a4\u009a",
     "ne_id": "1159321253",
     "note_adm0": "",
     "note_brk": "",
@@ -186,12 +192,12 @@
     "pop_year": "2017",
     "postal": "SV",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SLV",
     "sovereignt": "El Salvador",
     "status": "officially-assigned",
     "su_a3": "SLV",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "El Salvador",
     "tiny": "-99",
     "tld": [
@@ -234,9 +240,21 @@
             "common": "\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb",
             "official": "\u30a8\u30eb\u30b5\u30eb\u30d0\u30c9\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc5d8\uc0b4\ubc14\ub3c4\ub974",
+            "official": "\uc5d8\uc0b4\ubc14\ub3c4\ub974 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "El Salvador",
             "official": "Republiek El Salvador"
+        },
+        "per": {
+            "common": "\u0627\u0644\u0633\u0627\u0644\u0648\u0627\u062f\u0648\u0631",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0644\u0633\u0627\u0644\u0648\u0627\u062f\u0648\u0631"
+        },
+        "pol": {
+            "common": "Salwador",
+            "official": "Republika Salwadoru"
         },
         "por": {
             "common": "El Salvador",
@@ -253,6 +271,10 @@
         "spa": {
             "common": "El Salvador",
             "official": "Rep\u00fablica de El Salvador"
+        },
+        "urd": {
+            "common": "\u0627\u06cc\u0644 \u0633\u06cc\u0644\u0648\u0627\u0688\u0648\u0631",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u06cc\u0644 \u0633\u06cc\u0644\u0648\u0627\u0688\u0648\u0631"
         },
         "zho": {
             "common": "\u8428\u5c14\u74e6\u591a",

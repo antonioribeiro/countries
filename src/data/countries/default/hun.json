@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "HUN",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Hungary",
     "alt_spellings": [
         "HU"
@@ -21,7 +21,7 @@
         "UKR"
     ],
     "brk_a3": "HUN",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Hungary",
     "capital": [
@@ -130,10 +130,16 @@
         "subregion_code": "151",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Hungary",
     "gu_a3": "HUN",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "6"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "HU",
@@ -180,20 +186,20 @@
     "name_hu": "Magyarorsz\u00c3\u00a1g",
     "name_id": "Hongaria",
     "name_it": "Ungheria",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u008f\u00e3\u0083\u00b3\u00e3\u0082\u00ac\u00e3\u0083\u00aa\u00e3\u0083\u00bc",
+    "name_ja": "\u00e3\u0083\u008f\u00e3\u0083\u00b3\u00e3\u0082\u00ac\u00e3\u0083\u00aa\u00e3\u0083\u00bc",
+    "name_ko": "\u00ed\u0097\u009d\u00ea\u00b0\u0080\u00eb\u00a6\u00ac",
     "name_len": "7",
     "name_long": "Hungary",
     "name_nev": "Hungary",
-    "name_nl": "\u00ed\u0097\u009d\u00ea\u00b0\u0080\u00eb\u00a6\u00ac",
-    "name_pl": "Hongarije",
-    "name_pt": "W\u00c4\u0099gry",
-    "name_ru": "Hungria\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0092\u00d0\u00b5\u00d0\u00bd\u00d0\u00b3\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Hongarije",
+    "name_pl": "W\u00c4\u0099gry",
+    "name_pt": "Hungria",
+    "name_ru": "\u00d0\u0092\u00d0\u00b5\u00d0\u00bd\u00d0\u00b3\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Hungary",
-    "name_sv": "",
-    "name_tr": "Ungern",
-    "name_vi": "Macaristan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Hun",
-    "name_zh": "gary",
+    "name_sv": "Ungern",
+    "name_tr": "Macaristan",
+    "name_vi": "Hungary",
+    "name_zh": "\u00e5\u008c\u0088\u00e7\u0089\u0099\u00e5\u0088\u00a9",
     "ne_id": "1159320841",
     "note_adm0": "",
     "note_brk": "",
@@ -202,12 +208,12 @@
     "pop_year": "2017",
     "postal": "HU",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "HUN",
     "sovereignt": "Hungary",
     "status": "officially-assigned",
     "su_a3": "HUN",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Hungary",
     "tiny": "-99",
     "tld": [
@@ -246,9 +252,21 @@
             "common": "\u30cf\u30f3\u30ac\u30ea\u30fc",
             "official": "\u30cf\u30f3\u30ac\u30ea\u30fc"
         },
+        "kor": {
+            "common": "\ud5dd\uac00\ub9ac",
+            "official": "\ud5dd\uac00\ub9ac"
+        },
         "nld": {
             "common": "Hongarije",
             "official": "Hongarije"
+        },
+        "per": {
+            "common": "\u0645\u062c\u0627\u0631\u0633\u062a\u0627\u0646",
+            "official": "\u0645\u062c\u0627\u0631\u0633\u062a\u0627\u0646"
+        },
+        "pol": {
+            "common": "W\u0119gry",
+            "official": "W\u0119gry"
         },
         "por": {
             "common": "Hungria",
@@ -265,6 +283,10 @@
         "spa": {
             "common": "Hungr\u00eda",
             "official": "Hungr\u00eda"
+        },
+        "urd": {
+            "common": "\u0645\u062c\u0627\u0631\u0633\u062a\u0627\u0646",
+            "official": "\u0645\u062c\u0627\u0631\u0633\u062a\u0627\u0646"
         },
         "zho": {
             "common": "\u5308\u7259\u5229",

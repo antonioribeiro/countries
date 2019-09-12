@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "ISL",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Iceland",
     "alt_spellings": [
         "IS",
@@ -16,7 +16,7 @@
     ],
     "borders": [],
     "brk_a3": "ISL",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Iceland",
     "capital": [
@@ -110,10 +110,16 @@
         "subregion_code": "154",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Iceland",
     "gu_a3": "ISL",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "54"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "IS",
@@ -160,20 +166,20 @@
     "name_hu": "Izland",
     "name_id": "Islandia",
     "name_it": "Islanda",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a2\u00e3\u0082\u00a4\u00e3\u0082\u00b9\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+    "name_ja": "\u00e3\u0082\u00a2\u00e3\u0082\u00a4\u00e3\u0082\u00b9\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+    "name_ko": "\u00ec\u0095\u0084\u00ec\u009d\u00b4\u00ec\u008a\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c",
     "name_len": "7",
     "name_long": "Iceland",
     "name_nev": "Iceland",
-    "name_nl": "\u00ec\u0095\u0084\u00ec\u009d\u00b4\u00ec\u008a\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c",
-    "name_pl": "IJsland",
-    "name_pt": "Islandia",
-    "name_ru": "Isl\u00c3\u00a2ndia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0098\u00d1\u0081\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "IJsland",
+    "name_pl": "Islandia",
+    "name_pt": "Isl\u00c3\u00a2ndia",
+    "name_ru": "\u00d0\u0098\u00d1\u0081\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Iceland",
-    "name_sv": "",
-    "name_tr": "Island",
-    "name_vi": "\u00c4\u00b0zlanda\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ice",
-    "name_zh": "land",
+    "name_sv": "Island",
+    "name_tr": "\u00c4\u00b0zlanda",
+    "name_vi": "Iceland",
+    "name_zh": "\u00e5\u0086\u00b0\u00e5\u00b2\u009b",
     "ne_id": "1159320917",
     "note_adm0": "",
     "note_brk": "",
@@ -182,12 +188,12 @@
     "pop_year": "2017",
     "postal": "IS",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "ISL",
     "sovereignt": "Iceland",
     "status": "officially-assigned",
     "su_a3": "ISL",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Iceland",
     "tiny": "-99",
     "tld": [
@@ -226,9 +232,21 @@
             "common": "\u30a2\u30a4\u30b9\u30e9\u30f3\u30c9",
             "official": "\u30a2\u30a4\u30b9\u30e9\u30f3\u30c9"
         },
+        "kor": {
+            "common": "\uc544\uc774\uc2ac\ub780\ub4dc",
+            "official": "\uc544\uc774\uc2ac\ub780\ub4dc \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "IJsland",
             "official": "IJsland"
+        },
+        "per": {
+            "common": "\u0627\u06cc\u0633\u0644\u0646\u062f",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u06cc\u0633\u0644\u0646\u062f"
+        },
+        "pol": {
+            "common": "Islandia",
+            "official": "Republika Islandii"
         },
         "por": {
             "common": "Isl\u00e2ndia",
@@ -245,6 +263,10 @@
         "spa": {
             "common": "Islandia",
             "official": "Islandia"
+        },
+        "urd": {
+            "common": "\u0622\u0626\u0633 \u0644\u06cc\u0646\u0688",
+            "official": "\u0622\u0626\u0633 \u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u51b0\u5c9b",

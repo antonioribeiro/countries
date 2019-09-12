@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SAU",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Saudi Arabia",
     "alt_spellings": [
         "Saudi",
@@ -24,7 +24,7 @@
         "YEM"
     ],
     "brk_a3": "SAU",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Saudi Arabia",
     "capital": [
@@ -125,10 +125,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Saudi Arabia",
     "gu_a3": "SAU",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "66"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "SA",
@@ -175,20 +181,20 @@
     "name_hu": "Sza\u00c3\u00bad-Ar\u00c3\u00a1bia",
     "name_id": "Arab Saudi",
     "name_it": "Arabia Saudita",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b5\u00e3\u0082\u00a6\u00e3\u0082\u00b8\u00e3\u0082\u00a2\u00e3\u0083\u00a9\u00e3\u0083\u0093\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0082\u00b5\u00e3\u0082\u00a6\u00e3\u0082\u00b8\u00e3\u0082\u00a2\u00e3\u0083\u00a9\u00e3\u0083\u0093\u00e3\u0082\u00a2",
+    "name_ko": "\u00ec\u0082\u00ac\u00ec\u009a\u00b0\u00eb\u0094\u0094\u00ec\u0095\u0084\u00eb\u009d\u00bc\u00eb\u00b9\u0084\u00ec\u0095\u0084",
     "name_len": "12",
     "name_long": "Saudi Arabia",
     "name_nev": "Saudi Arabia",
-    "name_nl": "\u00ec\u0082\u00ac\u00ec\u009a\u00b0\u00eb\u0094\u0094\u00ec\u0095\u0084\u00eb\u009d\u00bc\u00eb\u00b9",
-    "name_pl": "\u0084\u00ec\u0095\u0084\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Saoedi-Arabi\u00c3\u00ab",
-    "name_pt": "Arabia Saudyjska",
-    "name_ru": "Ar\u00c3\u00a1bia Saudita\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b0\u00d1\u0083\u00d0\u00b4\u00d0\u00be\u00d0\u00b2\u00d1\u0081\u00d0\u00ba\u00d0\u00b0\u00d1\u008f \u00d0\u0090\u00d1\u0080\u00d0\u00b0\u00d0\u00b2\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Saoedi-Arabi\u00c3\u00ab",
+    "name_pl": "Arabia Saudyjska",
+    "name_pt": "Ar\u00c3\u00a1bia Saudita",
+    "name_ru": "\u00d0\u00a1\u00d0\u00b0\u00d1\u0083\u00d0\u00b4\u00d0\u00be\u00d0\u00b2\u00d1\u0081\u00d0\u00ba\u00d0\u00b0\u00d1\u008f \u00d0\u0090\u00d1\u0080\u00d0\u00b0\u00d0\u00b2\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Saudi Arabia",
-    "name_sv": "",
-    "name_tr": "Saudiarabien",
-    "name_vi": "Suudi Arabistan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00e1\u00ba\u00a2",
-    "name_zh": "R\u00e1\u00ba\u00adp Saudi",
+    "name_sv": "Saudiarabien",
+    "name_tr": "Suudi Arabistan",
+    "name_vi": "\u00e1\u00ba\u00a2 R\u00e1\u00ba\u00adp Saudi",
+    "name_zh": "\u00e6\u00b2\u0099\u00e7\u0089\u00b9\u00e9\u0098\u00bf\u00e6\u008b\u0089\u00e4\u00bc\u00af",
     "ne_id": "1159321225",
     "note_adm0": "",
     "note_brk": "",
@@ -197,12 +203,12 @@
     "pop_year": "2017",
     "postal": "SA",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SAU",
     "sovereignt": "Saudi Arabia",
     "status": "officially-assigned",
     "su_a3": "SAU",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Saudi Arabia",
     "tiny": "-99",
     "tld": [
@@ -242,9 +248,21 @@
             "common": "\u30b5\u30a6\u30b8\u30a2\u30e9\u30d3\u30a2",
             "official": "\u30b5\u30a6\u30b8\u30a2\u30e9\u30d3\u30a2\u738b\u56fd"
         },
+        "kor": {
+            "common": "\uc0ac\uc6b0\ub514\uc544\ub77c\ube44\uc544",
+            "official": "\uc0ac\uc6b0\ub514\uc544\ub77c\ube44\uc544 \uc655\uad6d"
+        },
         "nld": {
             "common": "Saoedi-Arabi\u00eb",
             "official": "Koninkrijk van Saoedi-Arabi\u00eb"
+        },
+        "per": {
+            "common": "\u0639\u0631\u0628\u0633\u062a\u0627\u0646 \u0633\u0639\u0648\u062f\u06cc",
+            "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u0639\u0631\u0628\u06cc \u0633\u064e\u0639\u0648\u062f\u06cc"
+        },
+        "pol": {
+            "common": "Arabia Saudyjska",
+            "official": "Kr\u00f3lestwo Arabii Saudyjskiej"
         },
         "por": {
             "common": "Ar\u00e1bia Saudita",
@@ -261,6 +279,10 @@
         "spa": {
             "common": "Arabia Saud\u00ed",
             "official": "Reino de Arabia Saudita"
+        },
+        "urd": {
+            "common": "\u0633\u0639\u0648\u062f\u06cc \u0639\u0631\u0628",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0633\u0639\u0648\u062f\u06cc \u0639\u0631\u0628"
         },
         "zho": {
             "common": "\u6c99\u7279\u963f\u62c9\u4f2f",

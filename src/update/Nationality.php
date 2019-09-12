@@ -87,7 +87,7 @@ class Nationality extends Base
      */
     public function findMledozeCountry($mledoze, $natural)
     {
-        list($country, $countryCode) = $this->updater->findCountryByAnyField($mledoze, $natural);
+        [$country, $countryCode] = $this->updater->findCountryByAnyField($mledoze, $natural);
 
         if (! $country->isEmpty()) {
             return [coollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];

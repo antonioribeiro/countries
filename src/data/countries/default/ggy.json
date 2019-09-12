@@ -15,7 +15,7 @@
     ],
     "borders": [],
     "brk_a3": "GGY",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "Channel Islands",
     "brk_name": "Guernsey",
     "capital": [
@@ -42,7 +42,7 @@
         ],
         "borders": [],
         "brk_a3": "GGY",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "Channel Islands",
         "brk_name": "Guernsey",
         "capital": [
@@ -52,18 +52,20 @@
         "cca3": "GGY",
         "ccn3": "831",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "g_g_p": {
+                "name": "Guernsey pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Channel Islander",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GK",
@@ -87,10 +89,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "Northern Europe"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Guernsey",
         "gu_a3": "GGY",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "GG",
@@ -144,20 +152,20 @@
         "name_hu": "Guernsey Bailiffs\u00c3\u00a9g",
         "name_id": "Guernsey",
         "name_it": "Guernsey",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00ac\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ja": "\u00e3\u0082\u00ac\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ko": "\u00ea\u00b1\u00b4\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
         "name_len": "8",
         "name_long": "Guernsey",
         "name_nev": "Guernsey",
-        "name_nl": "\u00ea\u00b1\u00b4\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
+        "name_nl": "Guernsey",
         "name_pl": "Guernsey",
         "name_pt": "Guernsey",
-        "name_ru": "Guernsey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bd\u00d1\u0081\u00d0\u00b8",
+        "name_ru": "\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bd\u00d1\u0081\u00d0\u00b8",
         "name_sort": "Guernsey",
-        "name_sv": "",
+        "name_sv": "Guernsey",
         "name_tr": "Guernsey",
-        "name_vi": "Guernsey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gue",
-        "name_zh": "rnsey",
+        "name_vi": "Guernsey",
+        "name_zh": "\u00e6\u00a0\u00b9\u00e8\u00a5\u00bf\u00e5\u00b2\u009b",
         "ne_id": "1159320715",
         "note_adm0": "U.K. crown dependency",
         "note_brk": "",
@@ -171,7 +179,7 @@
         "sovereignt": "United Kingdom",
         "status": "officially-assigned",
         "su_a3": "GGY",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Guernsey",
         "tiny": "-99",
         "tld": [
@@ -184,7 +192,7 @@
             },
             "deu": {
                 "common": "Guernsey",
-                "official": "Guernsey"
+                "official": "Vogtei Guernsey"
             },
             "est": {
                 "common": "Guernsey",
@@ -210,9 +218,21 @@
                 "common": "\u30ac\u30fc\u30f3\u30b8\u30fc",
                 "official": "\u30ac\u30fc\u30f3\u30b8\u30fc\u306e\u5f97\u610f\u5206\u91ce"
             },
+            "kor": {
+                "common": "\uac74\uc9c0 \uc12c",
+                "official": "\uac74\uc9c0 \uc12c"
+            },
             "nld": {
                 "common": "Guernsey",
                 "official": "Baljuwschap Guernsey"
+            },
+            "per": {
+                "common": "\u06af\u0631\u0646\u0632\u06cc",
+                "official": "\u06af\u0631\u0646\u0632\u06cc"
+            },
+            "pol": {
+                "common": "Guernsey",
+                "official": "Baliwat Guernsey"
             },
             "por": {
                 "common": "Guernsey",
@@ -229,6 +249,10 @@
             "spa": {
                 "common": "Guernsey",
                 "official": "Bail\u00eda de Guernsey"
+            },
+            "urd": {
+                "common": "\u06af\u0631\u0646\u0632\u06cc",
+                "official": "\u06af\u0631\u0646\u0632\u06cc \u0631\u0648\u062f\u0628\u0627\u0631"
             },
             "zho": {
                 "common": "\u6839\u897f\u5c9b",
@@ -322,10 +346,16 @@
         "subregion_code": "154",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Guernsey",
     "gu_a3": "GGY",
     "homepart": "-99",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "4"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Guern.",
@@ -344,7 +374,7 @@
         ],
         "borders": [],
         "brk_a3": "GGY",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "Channel Islands",
         "brk_name": "Guernsey",
         "capital": [
@@ -354,18 +384,20 @@
         "cca3": "GGY",
         "ccn3": "831",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "g_g_p": {
+                "name": "Guernsey pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Channel Islander",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GK",
@@ -389,10 +421,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "Northern Europe"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Guernsey",
         "gu_a3": "GGY",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "GG",
@@ -446,20 +484,20 @@
         "name_hu": "Guernsey Bailiffs\u00c3\u00a9g",
         "name_id": "Guernsey",
         "name_it": "Guernsey",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00ac\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ja": "\u00e3\u0082\u00ac\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ko": "\u00ea\u00b1\u00b4\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
         "name_len": "8",
         "name_long": "Guernsey",
         "name_nev": "Guernsey",
-        "name_nl": "\u00ea\u00b1\u00b4\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
+        "name_nl": "Guernsey",
         "name_pl": "Guernsey",
         "name_pt": "Guernsey",
-        "name_ru": "Guernsey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bd\u00d1\u0081\u00d0\u00b8",
+        "name_ru": "\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bd\u00d1\u0081\u00d0\u00b8",
         "name_sort": "Guernsey",
-        "name_sv": "",
+        "name_sv": "Guernsey",
         "name_tr": "Guernsey",
-        "name_vi": "Guernsey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gue",
-        "name_zh": "rnsey",
+        "name_vi": "Guernsey",
+        "name_zh": "\u00e6\u00a0\u00b9\u00e8\u00a5\u00bf\u00e5\u00b2\u009b",
         "ne_id": "1159320715",
         "note_adm0": "U.K. crown dependency",
         "note_brk": "",
@@ -473,7 +511,7 @@
         "sovereignt": "United Kingdom",
         "status": "officially-assigned",
         "su_a3": "GGY",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Guernsey",
         "tiny": "-99",
         "tld": [
@@ -486,7 +524,7 @@
             },
             "deu": {
                 "common": "Guernsey",
-                "official": "Guernsey"
+                "official": "Vogtei Guernsey"
             },
             "est": {
                 "common": "Guernsey",
@@ -512,9 +550,21 @@
                 "common": "\u30ac\u30fc\u30f3\u30b8\u30fc",
                 "official": "\u30ac\u30fc\u30f3\u30b8\u30fc\u306e\u5f97\u610f\u5206\u91ce"
             },
+            "kor": {
+                "common": "\uac74\uc9c0 \uc12c",
+                "official": "\uac74\uc9c0 \uc12c"
+            },
             "nld": {
                 "common": "Guernsey",
                 "official": "Baljuwschap Guernsey"
+            },
+            "per": {
+                "common": "\u06af\u0631\u0646\u0632\u06cc",
+                "official": "\u06af\u0631\u0646\u0632\u06cc"
+            },
+            "pol": {
+                "common": "Guernsey",
+                "official": "Baliwat Guernsey"
             },
             "por": {
                 "common": "Guernsey",
@@ -531,6 +581,10 @@
             "spa": {
                 "common": "Guernsey",
                 "official": "Bail\u00eda de Guernsey"
+            },
+            "urd": {
+                "common": "\u06af\u0631\u0646\u0632\u06cc",
+                "official": "\u06af\u0631\u0646\u0632\u06cc \u0631\u0648\u062f\u0628\u0627\u0631"
             },
             "zho": {
                 "common": "\u6839\u897f\u5c9b",
@@ -601,20 +655,20 @@
     "name_hu": "Guernsey Bailiffs\u00c3\u00a9g",
     "name_id": "Guernsey",
     "name_it": "Guernsey",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00ac\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+    "name_ja": "\u00e3\u0082\u00ac\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+    "name_ko": "\u00ea\u00b1\u00b4\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
     "name_len": "8",
     "name_long": "Guernsey",
     "name_nev": "Guernsey",
-    "name_nl": "\u00ea\u00b1\u00b4\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
+    "name_nl": "Guernsey",
     "name_pl": "Guernsey",
     "name_pt": "Guernsey",
-    "name_ru": "Guernsey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bd\u00d1\u0081\u00d0\u00b8",
+    "name_ru": "\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bd\u00d1\u0081\u00d0\u00b8",
     "name_sort": "Guernsey",
-    "name_sv": "",
+    "name_sv": "Guernsey",
     "name_tr": "Guernsey",
-    "name_vi": "Guernsey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gue",
-    "name_zh": "rnsey",
+    "name_vi": "Guernsey",
+    "name_zh": "\u00e6\u00a0\u00b9\u00e8\u00a5\u00bf\u00e5\u00b2\u009b",
     "ne_id": "1159320715",
     "note_adm0": "U.K. crown dependency",
     "note_brk": "",
@@ -628,7 +682,7 @@
     "sovereignt": "United Kingdom",
     "status": "officially-assigned",
     "su_a3": "GGY",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Guernsey",
     "tiny": "-99",
     "tld": [
@@ -667,9 +721,21 @@
             "common": "\u30ac\u30fc\u30f3\u30b8\u30fc",
             "official": "\u30ac\u30fc\u30f3\u30b8\u30fc\u306e\u5f97\u610f\u5206\u91ce"
         },
+        "kor": {
+            "common": "\uac74\uc9c0 \uc12c",
+            "official": "\uac74\uc9c0 \uc12c"
+        },
         "nld": {
             "common": "Guernsey",
             "official": "Baljuwschap Guernsey"
+        },
+        "per": {
+            "common": "\u06af\u0631\u0646\u0632\u06cc",
+            "official": "\u06af\u0631\u0646\u0632\u06cc"
+        },
+        "pol": {
+            "common": "Guernsey",
+            "official": "Baliwat Guernsey"
         },
         "por": {
             "common": "Guernsey",
@@ -686,6 +752,10 @@
         "spa": {
             "common": "Guernsey",
             "official": "Bail\u00eda de Guernsey"
+        },
+        "urd": {
+            "common": "\u06af\u0631\u0646\u0632\u06cc",
+            "official": "\u06af\u0631\u0646\u0632\u06cc \u0631\u0648\u062f\u0628\u0627\u0631"
         },
         "zho": {
             "common": "\u6839\u897f\u5c9b",

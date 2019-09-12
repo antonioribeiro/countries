@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "ALB",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Albania",
     "alt_spellings": [
         "AL",
@@ -21,7 +21,7 @@
         "UNK"
     ],
     "brk_a3": "ALB",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Albania",
     "capital": [
@@ -120,10 +120,16 @@
         "subregion_code": "039",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Albania",
     "gu_a3": "ALB",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "55"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "AL",
@@ -170,20 +176,20 @@
     "name_hu": "Alb\u00c3\u00a1nia",
     "name_id": "Albania",
     "name_it": "Albania",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a2\u00e3\u0083\u00ab\u00e3\u0083\u0090\u00e3\u0083\u008b\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0082\u00a2\u00e3\u0083\u00ab\u00e3\u0083\u0090\u00e3\u0083\u008b\u00e3\u0082\u00a2",
+    "name_ko": "\u00ec\u0095\u008c\u00eb\u00b0\u0094\u00eb\u008b\u0088\u00ec\u0095\u0084",
     "name_len": "7",
     "name_long": "Albania",
     "name_nev": "Albania",
-    "name_nl": "\u00ec\u0095\u008c\u00eb\u00b0\u0094\u00eb\u008b\u0088\u00ec\u0095\u0084",
-    "name_pl": "Albani\u00c3\u00ab",
-    "name_pt": "Albania",
-    "name_ru": "Alb\u00c3\u00a2nia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0090\u00d0\u00bb\u00d0\u00b1\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Albani\u00c3\u00ab",
+    "name_pl": "Albania",
+    "name_pt": "Alb\u00c3\u00a2nia",
+    "name_ru": "\u00d0\u0090\u00d0\u00bb\u00d0\u00b1\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Albania",
-    "name_sv": "",
-    "name_tr": "Albanien",
-    "name_vi": "Arnavutluk\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Alb",
-    "name_zh": "ania",
+    "name_sv": "Albanien",
+    "name_tr": "Arnavutluk",
+    "name_vi": "Albania",
+    "name_zh": "\u00e9\u0098\u00bf\u00e5\u00b0\u0094\u00e5\u00b7\u00b4\u00e5\u00b0\u00bc\u00e4\u00ba\u009a",
     "ne_id": "1159320325",
     "note_adm0": "",
     "note_brk": "",
@@ -192,12 +198,12 @@
     "pop_year": "2017",
     "postal": "AL",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "ALB",
     "sovereignt": "Albania",
     "status": "officially-assigned",
     "su_a3": "ALB",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Albania",
     "tiny": "-99",
     "tld": [
@@ -240,9 +246,21 @@
             "common": "\u30a2\u30eb\u30d0\u30cb\u30a2",
             "official": "\u30a2\u30eb\u30d0\u30cb\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc54c\ubc14\ub2c8\uc544",
+            "official": "\uc54c\ubc14\ub2c8\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Albani\u00eb",
             "official": "Republiek Albani\u00eb"
+        },
+        "per": {
+            "common": "\u0622\u0644\u0628\u0627\u0646\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0622\u0644\u0628\u0627\u0646\u06cc"
+        },
+        "pol": {
+            "common": "Albania",
+            "official": "Republika Albanii"
         },
         "por": {
             "common": "Alb\u00e2nia",
@@ -259,6 +277,10 @@
         "spa": {
             "common": "Albania",
             "official": "Rep\u00fablica de Albania"
+        },
+        "urd": {
+            "common": "\u0627\u0644\u0628\u0627\u0646\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0644\u0628\u0627\u0646\u06cc\u0627"
         },
         "zho": {
             "common": "\u963f\u5c14\u5df4\u5c3c\u4e9a",

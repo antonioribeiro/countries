@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SEN",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Senegal",
     "alt_spellings": [
         "SN",
@@ -21,7 +21,7 @@
         "MRT"
     ],
     "brk_a3": "SEN",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Senegal",
     "capital": [
@@ -119,10 +119,16 @@
         "subregion_code": "011",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Senegal",
     "gu_a3": "SEN",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "21"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "SN",
@@ -169,20 +175,20 @@
     "name_hu": "Szeneg\u00c3\u00a1l",
     "name_id": "Senegal",
     "name_it": "Senegal",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00bb\u00e3\u0083\u008d\u00e3\u0082\u00ac\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00bb\u00e3\u0083\u008d\u00e3\u0082\u00ac\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u0084\u00b8\u00eb\u0084\u00a4\u00ea\u00b0\u0088",
     "name_len": "7",
     "name_long": "Senegal",
     "name_nev": "Senegal",
-    "name_nl": "\u00ec\u0084\u00b8\u00eb\u0084\u00a4\u00ea\u00b0\u0088",
+    "name_nl": "Senegal",
     "name_pl": "Senegal",
     "name_pt": "Senegal",
-    "name_ru": "Senegal\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b5\u00d0\u00bd\u00d0\u00b5\u00d0\u00b3\u00d0\u00b0\u00d0\u00bb",
+    "name_ru": "\u00d0\u00a1\u00d0\u00b5\u00d0\u00bd\u00d0\u00b5\u00d0\u00b3\u00d0\u00b0\u00d0\u00bb",
     "name_sort": "Senegal",
-    "name_sv": "",
+    "name_sv": "Senegal",
     "name_tr": "Senegal",
-    "name_vi": "Senegal\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000S\u00c3\u00a9",
-    "name_zh": "n\u00c3\u00a9gal",
+    "name_vi": "S\u00c3\u00a9n\u00c3\u00a9gal",
+    "name_zh": "\u00e5\u00a1\u009e\u00e5\u0086\u0085\u00e5\u008a\u00a0\u00e5\u00b0\u0094",
     "ne_id": "1159321243",
     "note_adm0": "",
     "note_brk": "",
@@ -191,12 +197,12 @@
     "pop_year": "2017",
     "postal": "SN",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SEN",
     "sovereignt": "Senegal",
     "status": "officially-assigned",
     "su_a3": "SEN",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Senegal",
     "tiny": "-99",
     "tld": [
@@ -235,9 +241,21 @@
             "common": "\u30bb\u30cd\u30ac\u30eb",
             "official": "\u30bb\u30cd\u30ac\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc138\ub124\uac08",
+            "official": "\uc138\ub124\uac08 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Senegal",
             "official": "Republiek Senegal"
+        },
+        "per": {
+            "common": "\u0633\u0646\u06af\u0627\u0644",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0646\u06af\u0627\u0644"
+        },
+        "pol": {
+            "common": "Senegal",
+            "official": "Senegal"
         },
         "por": {
             "common": "Senegal",
@@ -254,6 +272,10 @@
         "spa": {
             "common": "Senegal",
             "official": "Rep\u00fablica de Senegal"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0646\u06cc\u06af\u0627\u0644",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u06cc\u0646\u06cc\u06af\u0627\u0644"
         },
         "zho": {
             "common": "\u585e\u5185\u52a0\u5c14",

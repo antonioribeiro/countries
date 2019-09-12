@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "KNA",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Saint Kitts and Nevis",
     "alt_spellings": [
         "KN",
@@ -14,7 +14,7 @@
     ],
     "borders": [],
     "brk_a3": "KNA",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Saint Kitts and Nevis",
     "capital": [
@@ -106,10 +106,16 @@
         "subregion_code": "029",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Saint Kitts and Nevis",
     "gu_a3": "KNA",
     "homepart": "1",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "869"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "KN",
@@ -138,10 +144,10 @@
         "native": {
             "eng": {
                 "common": "Saint Kitts and Nevis",
-                "official": "Federation of Saint Christopher and Nevisa"
+                "official": "Federation of Saint Christopher and Nevis"
             }
         },
-        "official": "Federation of Saint Christopher and Nevisa"
+        "official": "Federation of Saint Christopher and Nevis"
     },
     "name_alt": "",
     "name_ar": "\u00d8\u00b3\u00d8\u00a7\u00d9\u0086\u00d8\u00aa \u00d9\u0083\u00d9\u008a\u00d8\u00aa\u00d8\u00b3 \u00d9\u0088\u00d9\u0086\u00d9\u008a\u00d9\u0081\u00d9\u008a\u00d8\u00b3",
@@ -156,20 +162,30 @@
     "name_hu": "Saint Kitts \u00c3\u00a9s Nevis",
     "name_id": "Saint Kitts dan Nevis",
     "name_it": "Saint Kitts e Nevis",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00bb\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0082\u00af\u00e3\u0083\u00aa\u00e3\u0082\u00b9\u00e3\u0083\u0088\u00e3\u0083\u0095\u00e3\u0082\u00a1\u00e3\u0083\u00bc\u00e3\u0083\u00bb",
+    "name_ja": "\u00e3\u0082\u00bb\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0082\u00af\u00e3\u0083\u00aa\u00e3\u0082\u00b9\u00e3\u0083\u0088\u00e3\u0083\u0095\u00e3\u0082\u00a1\u00e3\u0083\u00bc\u00e3\u0083\u00bb\u00e3\u0083\u008d\u00e3\u0082\u00a4\u00e3\u0083\u0093\u00e3\u0082\u00b9",
+    "name_ko": "\u00ec\u0084\u00b8\u00ec\u009d\u00b8\u00ed\u008a\u00b8\u00ed\u0082\u00a4\u00ec\u00b8\u00a0 \u00eb\u0084\u00a4\u00eb\u00b9\u0084\u00ec\u008a\u00a4",
     "name_len": "19",
     "name_long": "Saint Kitts and Nevis",
     "name_nev": "St. Kitts and Nevis",
-    "name_nl": "\u00e3\u0083\u008d\u00e3\u0082\u00a4\u00e3\u0083\u0093\u00e3\u0082\u00b9\u0000\u0000\u0000\u00ec\u0084\u00b8\u00ec\u009d\u00b8\u00ed\u008a\u00b8\u00ed\u0082\u00a4\u00ec\u00b8\u00a0 \u00eb",
-    "name_pl": "\u0084\u00a4\u00eb\u00b9\u0084\u00ec\u008a\u00a4\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Saint Kitts en Nevis",
-    "name_pt": "Saint Kitts i Nevis",
-    "name_ru": "S\u00c3\u00a3o Crist\u00c3\u00b3v\u00c3\u00a3o e Nevis\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b5\u00d0\u00bd\u00d1\u0082-\u00d0\u009a\u00d0\u00b8\u00d1\u0082\u00d1\u0081 \u00d0\u00b8 \u00d0\u009d\u00d0\u00b5\u00d0\u00b2\u00d0\u00b8\u00d1\u0081",
+    "name_nl": "Saint Kitts en Nevis",
+    "name_pl": "Saint Kitts i Nevis",
+    "name_pt": "S\u00c3\u00a3o Crist\u00c3\u00b3v\u00c3\u00a3o e Nevis",
+    "name_rinvex": {
+        "common": "Saint Kitts and Nevis",
+        "native": {
+            "eng": {
+                "common": "Saint Kitts and Nevis",
+                "official": "Federation of Saint Christopher and Nevisa"
+            }
+        },
+        "official": "Federation of Saint Christopher and Nevisa"
+    },
+    "name_ru": "\u00d0\u00a1\u00d0\u00b5\u00d0\u00bd\u00d1\u0082-\u00d0\u009a\u00d0\u00b8\u00d1\u0082\u00d1\u0081 \u00d0\u00b8 \u00d0\u009d\u00d0\u00b5\u00d0\u00b2\u00d0\u00b8\u00d1\u0081",
     "name_sort": "St. Kitts and Nevis",
-    "name_sv": "",
-    "name_tr": "Saint Kitts och Nevis",
-    "name_vi": "Saint Kitts ve Nevis\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sai",
-    "name_zh": "nt Kitts v\u00c3\u00a0 Nevis",
+    "name_sv": "Saint Kitts och Nevis",
+    "name_tr": "Saint Kitts ve Nevis",
+    "name_vi": "Saint Kitts v\u00c3\u00a0 Nevis",
+    "name_zh": "\u00e8\u0081\u0096\u00e5\u0085\u008b\u00e9\u0087\u008c\u00e6\u0096\u00af\u00e5\u00a4\u009a\u00e7\u00a6\u008f\u00e8\u0088\u0087\u00e5\u00b0\u00bc\u00e7\u00b6\u00ad\u00e6\u0096\u00af",
     "ne_id": "1159320983",
     "note_adm0": "",
     "note_brk": "",
@@ -183,7 +199,7 @@
     "sovereignt": "Saint Kitts and Nevis",
     "status": "officially-assigned",
     "su_a3": "KNA",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Saint Kitts and Nevis",
     "tiny": "4",
     "tld": [
@@ -222,9 +238,21 @@
             "common": "\u30bb\u30f3\u30c8\u30af\u30ea\u30b9\u30c8\u30d5\u30a1\u30fc\u30fb\u30cd\u30a4\u30d3\u30b9",
             "official": "\u30bb\u30f3\u30c8\u30af\u30ea\u30b9\u30c8\u30d5\u30a1\u30fcNevisa\u9023\u76df"
         },
+        "kor": {
+            "common": "\uc138\uc778\ud2b8\ud0a4\uce20 \ub124\ube44\uc2a4",
+            "official": "\uc138\uc778\ud2b8\ud0a4\uce20 \ub124\ube44\uc2a4 \uc5f0\ubc29"
+        },
         "nld": {
             "common": "Saint Kitts en Nevis",
             "official": "Federatie van Saint Kitts en Nevisa"
+        },
+        "per": {
+            "common": "\u0633\u0646\u062a \u06a9\u06cc\u062a\u0633 \u0648 \u0646\u0648\u06cc\u0633",
+            "official": "\u0641\u062f\u0631\u0627\u0633\u06cc\u0648\u0646 \u0633\u0646\u062a \u06a9\u06cc\u062a\u0633 \u0648 \u0646\u0648\u06cc\u0633"
+        },
+        "pol": {
+            "common": "Saint Kitts i Nevis",
+            "official": "Federacja Saint Kitts i Nevis"
         },
         "por": {
             "common": "S\u00e3o Crist\u00f3v\u00e3o e Nevis",
@@ -241,6 +269,10 @@
         "spa": {
             "common": "San Crist\u00f3bal y Nieves",
             "official": "Federaci\u00f3n de San Crist\u00f3bal y Nevisa"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0646\u0679 \u06a9\u06cc\u0679\u0632 \u0648 \u0646\u0627\u0648\u06cc\u0633",
+            "official": "\u0648\u0641\u0627\u0642\u0650 \u0633\u06cc\u0646\u0679 \u06a9\u06cc\u0679\u0632 \u0648 \u0646\u0627\u0648\u06cc\u0633"
         },
         "zho": {
             "common": "\u5723\u57fa\u8328\u548c\u5c3c\u7ef4\u65af",

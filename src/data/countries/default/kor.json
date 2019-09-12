@@ -6,9 +6,16 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "KOR",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "South Korea",
     "alt_spellings": [
+        "KR",
+        "Korea, Republic of",
+        "Republic of Korea",
+        "\ub0a8\ud55c",
+        "\ub0a8\uc870\uc120"
+    ],
+    "alt_spellings_rinvex": [
         "KR",
         "Korea, Republic of",
         "Republic of Korea"
@@ -17,7 +24,7 @@
         "PRK"
     ],
     "brk_a3": "KOR",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Republic of Korea",
     "capital": [
@@ -112,10 +119,16 @@
         "subregion_code": "030",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "South Korea",
     "gu_a3": "KOR",
     "homepart": "1",
+    "idd": {
+        "root": "+8",
+        "suffixes": [
+            "2"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "KR",
@@ -143,8 +156,8 @@
         "common": "South Korea",
         "native": {
             "kor": {
-                "common": "\ub300\ud55c\ubbfc\uad6d",
-                "official": "\ud55c\uad6d"
+                "common": "\ud55c\uad6d",
+                "official": "\ub300\ud55c\ubbfc\uad6d"
             }
         },
         "official": "Republic of Korea"
@@ -162,20 +175,30 @@
     "name_hu": "D\u00c3\u00a9l-Korea",
     "name_id": "Korea Selatan",
     "name_it": "Corea del Sud",
-    "name_ja": "",
-    "name_ko": "\u00e5\u00a4\u00a7\u00e9\u009f\u0093\u00e6\u00b0\u0091\u00e5\u009b\u00bd",
+    "name_ja": "\u00e5\u00a4\u00a7\u00e9\u009f\u0093\u00e6\u00b0\u0091\u00e5\u009b\u00bd",
+    "name_ko": "\u00eb\u008c\u0080\u00ed\u0095\u009c\u00eb\u00af\u00bc\u00ea\u00b5\u00ad",
     "name_len": "11",
     "name_long": "Republic of Korea",
     "name_nev": "South Korea",
-    "name_nl": "\u00eb\u008c\u0080\u00ed\u0095\u009c\u00eb\u00af\u00bc\u00ea\u00b5\u00ad",
-    "name_pl": "Zuid-Korea",
-    "name_pt": "Korea Po\u00c5\u0082udniowa",
-    "name_ru": "Coreia do Sul\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a0\u00d0\u00b5\u00d1\u0081\u00d0\u00bf\u00d1\u0083\u00d0\u00b1\u00d0\u00bb\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0 \u00d0\u009a\u00d0\u00be\u00d1\u0080\u00d0\u00b5\u00d1\u008f",
+    "name_nl": "Zuid-Korea",
+    "name_pl": "Korea Po\u00c5\u0082udniowa",
+    "name_pt": "Coreia do Sul",
+    "name_rinvex": {
+        "common": "South Korea",
+        "native": {
+            "kor": {
+                "common": "\ub300\ud55c\ubbfc\uad6d",
+                "official": "\ud55c\uad6d"
+            }
+        },
+        "official": "Republic of Korea"
+    },
+    "name_ru": "\u00d0\u00a0\u00d0\u00b5\u00d1\u0081\u00d0\u00bf\u00d1\u0083\u00d0\u00b1\u00d0\u00bb\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0 \u00d0\u009a\u00d0\u00be\u00d1\u0080\u00d0\u00b5\u00d1\u008f",
     "name_sort": "Korea, Rep.",
-    "name_sv": "",
-    "name_tr": "Sydkorea",
-    "name_vi": "G\u00c3\u00bcney Kore\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000H\u00c3\u00a0",
-    "name_zh": "n Qu\u00e1\u00bb\u0091c",
+    "name_sv": "Sydkorea",
+    "name_tr": "G\u00c3\u00bcney Kore",
+    "name_vi": "H\u00c3\u00a0n Qu\u00e1\u00bb\u0091c",
+    "name_zh": "\u00e5\u00a4\u00a7\u00e9\u009f\u00a9\u00e6\u00b0\u0091\u00e5\u009b\u00bd",
     "ne_id": "1159320985",
     "note_adm0": "",
     "note_brk": "",
@@ -184,12 +207,12 @@
     "pop_year": "2017",
     "postal": "KR",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "KOR",
     "sovereignt": "South Korea",
     "status": "officially-assigned",
     "su_a3": "KOR",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "South Korea",
     "tiny": "-99",
     "tld": [
@@ -229,9 +252,21 @@
             "common": "\u5927\u97d3\u6c11\u56fd",
             "official": "\u5927\u97d3\u6c11\u56fd"
         },
+        "kor": {
+            "common": "\ud55c\uad6d",
+            "official": "\ub300\ud55c\ubbfc\uad6d"
+        },
         "nld": {
             "common": "Zuid-Korea",
             "official": "Republiek Korea"
+        },
+        "per": {
+            "common": "\u06a9\u0631\u0647\u0654 \u062c\u0646\u0648\u0628\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u06a9\u0631\u0647"
+        },
+        "pol": {
+            "common": "Korea Po\u0142udniowa",
+            "official": "Republika Korei"
         },
         "por": {
             "common": "Coreia do Sul",
@@ -248,6 +283,10 @@
         "spa": {
             "common": "Corea del Sur",
             "official": "Rep\u00fablica de Corea"
+        },
+        "urd": {
+            "common": "\u062c\u0646\u0648\u0628\u06cc \u06a9\u0648\u0631\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0631\u06cc\u0627 "
         },
         "zho": {
             "common": "\u97e9\u56fd",

@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "HRV",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Croatia",
     "alt_spellings": [
         "HR",
@@ -22,7 +22,7 @@
         "SVN"
     ],
     "brk_a3": "HRV",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Croatia",
     "capital": [
@@ -128,10 +128,16 @@
         "subregion_code": "039",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Croatia",
     "gu_a3": "HRV",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "85"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "HR",
@@ -178,20 +184,20 @@
     "name_hu": "Horv\u00c3\u00a1torsz\u00c3\u00a1g",
     "name_id": "Kroasia",
     "name_it": "Croazia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00af\u00e3\u0083\u00ad\u00e3\u0082\u00a2\u00e3\u0083\u0081\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0082\u00af\u00e3\u0083\u00ad\u00e3\u0082\u00a2\u00e3\u0083\u0081\u00e3\u0082\u00a2",
+    "name_ko": "\u00ed\u0081\u00ac\u00eb\u00a1\u009c\u00ec\u0095\u0084\u00ed\u008b\u00b0\u00ec\u0095\u0084",
     "name_len": "7",
     "name_long": "Croatia",
     "name_nev": "Croatia",
-    "name_nl": "\u00ed\u0081\u00ac\u00eb\u00a1\u009c\u00ec\u0095\u0084\u00ed\u008b\u00b0\u00ec\u0095\u0084",
-    "name_pl": "Kroati\u00c3\u00ab",
-    "name_pt": "Chorwacja",
-    "name_ru": "Cro\u00c3\u00a1cia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a5\u00d0\u00be\u00d1\u0080\u00d0\u00b2\u00d0\u00b0\u00d1\u0082\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Kroati\u00c3\u00ab",
+    "name_pl": "Chorwacja",
+    "name_pt": "Cro\u00c3\u00a1cia",
+    "name_ru": "\u00d0\u00a5\u00d0\u00be\u00d1\u0080\u00d0\u00b2\u00d0\u00b0\u00d1\u0082\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Croatia",
-    "name_sv": "",
-    "name_tr": "Kroatien",
-    "name_vi": "H\u00c4\u00b1rvatistan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Cro",
-    "name_zh": "atia",
+    "name_sv": "Kroatien",
+    "name_tr": "H\u00c4\u00b1rvatistan",
+    "name_vi": "Croatia",
+    "name_zh": "\u00e5\u0085\u008b\u00e7\u00bd\u0097\u00e5\u009c\u00b0\u00e4\u00ba\u009a",
     "ne_id": "1159320833",
     "note_adm0": "",
     "note_brk": "",
@@ -200,12 +206,12 @@
     "pop_year": "2017",
     "postal": "HR",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "HRV",
     "sovereignt": "Croatia",
     "status": "officially-assigned",
     "su_a3": "HRV",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Croatia",
     "tiny": "-99",
     "tld": [
@@ -248,9 +254,21 @@
             "common": "\u30af\u30ed\u30a2\u30c1\u30a2",
             "official": "\u30af\u30ed\u30a2\u30c1\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud06c\ub85c\uc544\ud2f0\uc544",
+            "official": "\ud06c\ub85c\uc544\ud2f0\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Kroati\u00eb",
             "official": "Republiek Kroati\u00eb"
+        },
+        "per": {
+            "common": "\u06a9\u0631\u064f\u0648\u0627\u0633\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u06a9\u0631\u0648\u0627\u0633\u06cc"
+        },
+        "pol": {
+            "common": "Chorwacja",
+            "official": "Republika Chorwacji"
         },
         "por": {
             "common": "Cro\u00e1cia",
@@ -267,6 +285,10 @@
         "spa": {
             "common": "Croacia",
             "official": "Rep\u00fablica de Croacia"
+        },
+        "urd": {
+            "common": "\u06a9\u0631\u0648\u06cc\u0626\u0634\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0631\u0648\u06cc\u0626\u0634\u0627"
         },
         "zho": {
             "common": "\u514b\u7f57\u5730\u4e9a",

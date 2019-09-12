@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "LBR",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Liberia",
     "alt_spellings": [
         "LR",
@@ -18,7 +18,7 @@
         "SLE"
     ],
     "brk_a3": "LBR",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Liberia",
     "capital": [
@@ -116,10 +116,16 @@
         "subregion_code": "011",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Liberia",
     "gu_a3": "LBR",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "31"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "LR",
@@ -166,20 +172,20 @@
     "name_hu": "Lib\u00c3\u00a9ria",
     "name_id": "Liberia",
     "name_it": "Liberia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00aa\u00e3\u0083\u0099\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u00aa\u00e3\u0083\u0099\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ko": "\u00eb\u009d\u00bc\u00ec\u009d\u00b4\u00eb\u00b2\u00a0\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
     "name_len": "7",
     "name_long": "Liberia",
     "name_nev": "Liberia",
-    "name_nl": "\u00eb\u009d\u00bc\u00ec\u009d\u00b4\u00eb\u00b2\u00a0\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
+    "name_nl": "Liberia",
     "name_pl": "Liberia",
-    "name_pt": "Liberia",
-    "name_ru": "Lib\u00c3\u00a9ria\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009b\u00d0\u00b8\u00d0\u00b1\u00d0\u00b5\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
+    "name_pt": "Lib\u00c3\u00a9ria",
+    "name_ru": "\u00d0\u009b\u00d0\u00b8\u00d0\u00b1\u00d0\u00b5\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Liberia",
-    "name_sv": "",
-    "name_tr": "Liberia",
-    "name_vi": "Liberya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Lib",
-    "name_zh": "eria",
+    "name_sv": "Liberia",
+    "name_tr": "Liberya",
+    "name_vi": "Liberia",
+    "name_zh": "\u00e5\u0088\u00a9\u00e6\u00af\u0094\u00e9\u0087\u008c\u00e4\u00ba\u009a",
     "ne_id": "1159321015",
     "note_adm0": "",
     "note_brk": "",
@@ -188,12 +194,12 @@
     "pop_year": "2017",
     "postal": "LR",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "LBR",
     "sovereignt": "Liberia",
     "status": "officially-assigned",
     "su_a3": "LBR",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Liberia",
     "tiny": "-99",
     "tld": [
@@ -232,9 +238,21 @@
             "common": "\u30ea\u30d9\u30ea\u30a2",
             "official": "\u30ea\u30d9\u30ea\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub77c\uc774\ubca0\ub9ac\uc544",
+            "official": "\ub77c\uc774\ubca0\ub9ac\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Liberia",
             "official": "Republiek Liberia"
+        },
+        "per": {
+            "common": "\u0644\u06cc\u0628\u0640\u0650\u0631\u06cc\u0627",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0644\u06cc\u0628\u0631\u06cc\u0627"
+        },
+        "pol": {
+            "common": "Liberia",
+            "official": "Republika Liberii"
         },
         "por": {
             "common": "Lib\u00e9ria",
@@ -251,6 +269,10 @@
         "spa": {
             "common": "Liberia",
             "official": "Rep\u00fablica de Liberia"
+        },
+        "urd": {
+            "common": "\u0644\u0627\u0626\u0628\u06cc\u0631\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0644\u0627\u0626\u0628\u06cc\u0631\u06cc\u0627"
         },
         "zho": {
             "common": "\u5229\u6bd4\u91cc\u4e9a",

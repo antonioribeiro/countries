@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "CHE",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Switzerland",
     "alt_spellings": [
         "CH",
@@ -24,7 +24,7 @@
         "DEU"
     ],
     "brk_a3": "CHE",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Switzerland",
     "capital": [
@@ -125,10 +125,16 @@
         "subregion_code": "155",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Switzerland",
     "gu_a3": "CHE",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "1"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "CH",
@@ -190,20 +196,20 @@
     "name_hu": "Sv\u00c3\u00a1jc",
     "name_id": "Swiss",
     "name_it": "Svizzera",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b9\u00e3\u0082\u00a4\u00e3\u0082\u00b9",
+    "name_ja": "\u00e3\u0082\u00b9\u00e3\u0082\u00a4\u00e3\u0082\u00b9",
+    "name_ko": "\u00ec\u008a\u00a4\u00ec\u009c\u0084\u00ec\u008a\u00a4",
     "name_len": "11",
     "name_long": "Switzerland",
     "name_nev": "Switzerland",
-    "name_nl": "\u00ec\u008a\u00a4\u00ec\u009c\u0084\u00ec\u008a\u00a4",
-    "name_pl": "Zwitserland",
-    "name_pt": "Szwajcaria",
-    "name_ru": "Su\u00c3\u00ad\u00c3\u00a7a\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a8\u00d0\u00b2\u00d0\u00b5\u00d0\u00b9\u00d1\u0086\u00d0\u00b0\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Zwitserland",
+    "name_pl": "Szwajcaria",
+    "name_pt": "Su\u00c3\u00ad\u00c3\u00a7a",
+    "name_ru": "\u00d0\u00a8\u00d0\u00b2\u00d0\u00b5\u00d0\u00b9\u00d1\u0086\u00d0\u00b0\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Switzerland",
-    "name_sv": "",
-    "name_tr": "Schweiz",
-    "name_vi": "\u00c4\u00b0svi\u00c3\u00a7re\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Th\u00e1",
-    "name_zh": "\u00bb\u00a5y S\u00c4\u00a9",
+    "name_sv": "Schweiz",
+    "name_tr": "\u00c4\u00b0svi\u00c3\u00a7re",
+    "name_vi": "Th\u00e1\u00bb\u00a5y S\u00c4\u00a9",
+    "name_zh": "\u00e7\u0091\u009e\u00e5\u00a3\u00ab",
     "ne_id": "1159320491",
     "note_adm0": "",
     "note_brk": "",
@@ -212,12 +218,12 @@
     "pop_year": "2017",
     "postal": "CH",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "CHE",
     "sovereignt": "Switzerland",
     "status": "officially-assigned",
     "su_a3": "CHE",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Switzerland",
     "tiny": "-99",
     "tld": [
@@ -256,9 +262,21 @@
             "common": "\u30b9\u30a4\u30b9",
             "official": "\u30b9\u30a4\u30b9\u9023\u90a6"
         },
+        "kor": {
+            "common": "\uc2a4\uc704\uc2a4",
+            "official": "\uc2a4\uc704\uc2a4 \uc5f0\ubc29"
+        },
         "nld": {
             "common": "Zwitserland",
             "official": "Zwitserse Confederatie"
+        },
+        "per": {
+            "common": "\u0633\u0648\u0626\u06cc\u0633",
+            "official": "\u06a9\u0646\u0641\u062f\u0631\u0627\u0633\u06cc\u0648\u0646 \u0633\u0648\u0626\u06cc\u0633"
+        },
+        "pol": {
+            "common": "Szwajcaria",
+            "official": "Konfederacja Szwajcarska"
         },
         "por": {
             "common": "Su\u00ed\u00e7a",
@@ -275,6 +293,10 @@
         "spa": {
             "common": "Suiza",
             "official": "Confederaci\u00f3n Suiza"
+        },
+        "urd": {
+            "common": "\u0633\u0648\u06cc\u0679\u0630\u0631\u0644\u06cc\u0646\u0688",
+            "official": "\u0633\u0648\u0626\u06cc\u0633  \u0645\u062a\u062d\u062f\u06c1"
         },
         "zho": {
             "common": "\u745e\u58eb",

@@ -16,7 +16,7 @@
     ],
     "borders": [],
     "brk_a3": "ASM",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "American Samoa",
     "capital": [
@@ -108,10 +108,16 @@
         "subregion_code": "061",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "American Samoa",
     "gu_a3": "ASM",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "684"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": {
         "abbrev": "Am. Samoa",
@@ -131,7 +137,7 @@
         ],
         "borders": [],
         "brk_a3": "ASM",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "American Samoa",
         "capital": [
@@ -141,18 +147,16 @@
         "cca3": "ASM",
         "ccn3": "016",
         "cioc": "ASA",
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "American Samoan",
-        "dialling": {
-            "calling_code": [
-                "1684"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AQ",
@@ -176,10 +180,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "Polynesia"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "American Samoa",
         "gu_a3": "ASM",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "684"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "AS",
@@ -228,20 +238,20 @@
         "name_hu": "Amerikai Szamoa",
         "name_id": "Samoa Amerika",
         "name_it": "Samoa Americane",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00a2\u00e3\u0083\u00a1\u00e3\u0083\u00aa\u00e3\u0082\u00ab\u00e9\u00a0\u0098\u00e3\u0082\u00b5\u00e3\u0083\u00a2\u00e3\u0082\u00a2",
+        "name_ja": "\u00e3\u0082\u00a2\u00e3\u0083\u00a1\u00e3\u0083\u00aa\u00e3\u0082\u00ab\u00e9\u00a0\u0098\u00e3\u0082\u00b5\u00e3\u0083\u00a2\u00e3\u0082\u00a2",
+        "name_ko": "\u00ec\u0095\u0084\u00eb\u00a9\u0094\u00eb\u00a6\u00ac\u00ec\u00b9\u00b8\u00ec\u0082\u00ac\u00eb\u00aa\u00a8\u00ec\u0095\u0084",
         "name_len": "14",
         "name_long": "American Samoa",
         "name_nev": "American Samoa",
-        "name_nl": "\u00ec\u0095\u0084\u00eb\u00a9\u0094\u00eb\u00a6\u00ac\u00ec\u00b9\u00b8\u00ec\u0082\u00ac\u00eb\u00aa",
-        "name_pl": "\u00a8\u00ec\u0095\u0084\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Amerikaans-Samoa",
-        "name_pt": "Samoa Ameryka\u00c5\u0084skie",
-        "name_ru": "Samoa Americana\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0090\u00d0\u00bc\u00d0\u00b5\u00d1\u0080\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0\u00d0\u00bd\u00d1\u0081\u00d0\u00ba\u00d0\u00be\u00d0\u00b5 \u00d0\u00a1\u00d0\u00b0\u00d0\u00bc\u00d0\u00be\u00d0\u00b0",
+        "name_nl": "Amerikaans-Samoa",
+        "name_pl": "Samoa Ameryka\u00c5\u0084skie",
+        "name_pt": "Samoa Americana",
+        "name_ru": "\u00d0\u0090\u00d0\u00bc\u00d0\u00b5\u00d1\u0080\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0\u00d0\u00bd\u00d1\u0081\u00d0\u00ba\u00d0\u00be\u00d0\u00b5 \u00d0\u00a1\u00d0\u00b0\u00d0\u00bc\u00d0\u00be\u00d0\u00b0",
         "name_sort": "American Samoa",
-        "name_sv": "",
-        "name_tr": "Amerikanska Samoa",
-        "name_vi": "Amerikan Samoas\u00c4\u00b1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sam",
-        "name_zh": "oa thu\u00e1\u00bb\u0099c M\u00e1\u00bb\u00b9",
+        "name_sv": "Amerikanska Samoa",
+        "name_tr": "Amerikan Samoas\u00c4\u00b1",
+        "name_vi": "Samoa thu\u00e1\u00bb\u0099c M\u00e1\u00bb\u00b9",
+        "name_zh": "\u00e7\u00be\u008e\u00e5\u00b1\u00ac\u00e8\u0096\u00a9\u00e6\u0091\u00a9\u00e4\u00ba\u009e",
         "ne_id": "1159321357",
         "note_adm0": "U.S.A.",
         "note_brk": "",
@@ -255,7 +265,7 @@
         "sovereignt": "United States of America",
         "status": "officially-assigned",
         "su_a3": "ASM",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "American Samoa",
         "tiny": "3",
         "tld": [
@@ -294,9 +304,21 @@
                 "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2",
                 "official": "\u7c73\u30b5\u30e2\u30a2"
             },
+            "kor": {
+                "common": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544",
+                "official": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544"
+            },
             "nld": {
                 "common": "Amerikaans Samoa",
                 "official": "Amerikaans Samoa"
+            },
+            "per": {
+                "common": "\u0633\u0627\u0645\u0648\u0622\u06cc \u0622\u0645\u0631\u06cc\u06a9\u0627",
+                "official": "\u0633\u0627\u0645\u0648\u0622\u06cc \u0622\u0645\u0631\u06cc\u06a9\u0627"
+            },
+            "pol": {
+                "common": "Samoa Ameryka\u0144skie",
+                "official": "Samoa Ameryka\u0144skie"
             },
             "por": {
                 "common": "Samoa Americana",
@@ -313,6 +335,10 @@
             "spa": {
                 "common": "Samoa Americana",
                 "official": "Samoa Americana"
+            },
+            "urd": {
+                "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627",
+                "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627"
             },
             "zho": {
                 "common": "\u7f8e\u5c5e\u8428\u6469\u4e9a",
@@ -378,20 +404,20 @@
     "name_hu": "Amerikai Szamoa",
     "name_id": "Samoa Amerika",
     "name_it": "Samoa Americane",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a2\u00e3\u0083\u00a1\u00e3\u0083\u00aa\u00e3\u0082\u00ab\u00e9\u00a0\u0098\u00e3\u0082\u00b5\u00e3\u0083\u00a2\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0082\u00a2\u00e3\u0083\u00a1\u00e3\u0083\u00aa\u00e3\u0082\u00ab\u00e9\u00a0\u0098\u00e3\u0082\u00b5\u00e3\u0083\u00a2\u00e3\u0082\u00a2",
+    "name_ko": "\u00ec\u0095\u0084\u00eb\u00a9\u0094\u00eb\u00a6\u00ac\u00ec\u00b9\u00b8\u00ec\u0082\u00ac\u00eb\u00aa\u00a8\u00ec\u0095\u0084",
     "name_len": "14",
     "name_long": "American Samoa",
     "name_nev": "American Samoa",
-    "name_nl": "\u00ec\u0095\u0084\u00eb\u00a9\u0094\u00eb\u00a6\u00ac\u00ec\u00b9\u00b8\u00ec\u0082\u00ac\u00eb\u00aa",
-    "name_pl": "\u00a8\u00ec\u0095\u0084\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Amerikaans-Samoa",
-    "name_pt": "Samoa Ameryka\u00c5\u0084skie",
-    "name_ru": "Samoa Americana\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0090\u00d0\u00bc\u00d0\u00b5\u00d1\u0080\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0\u00d0\u00bd\u00d1\u0081\u00d0\u00ba\u00d0\u00be\u00d0\u00b5 \u00d0\u00a1\u00d0\u00b0\u00d0\u00bc\u00d0\u00be\u00d0\u00b0",
+    "name_nl": "Amerikaans-Samoa",
+    "name_pl": "Samoa Ameryka\u00c5\u0084skie",
+    "name_pt": "Samoa Americana",
+    "name_ru": "\u00d0\u0090\u00d0\u00bc\u00d0\u00b5\u00d1\u0080\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0\u00d0\u00bd\u00d1\u0081\u00d0\u00ba\u00d0\u00be\u00d0\u00b5 \u00d0\u00a1\u00d0\u00b0\u00d0\u00bc\u00d0\u00be\u00d0\u00b0",
     "name_sort": "American Samoa",
-    "name_sv": "",
-    "name_tr": "Amerikanska Samoa",
-    "name_vi": "Amerikan Samoas\u00c4\u00b1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sam",
-    "name_zh": "oa thu\u00e1\u00bb\u0099c M\u00e1\u00bb\u00b9",
+    "name_sv": "Amerikanska Samoa",
+    "name_tr": "Amerikan Samoas\u00c4\u00b1",
+    "name_vi": "Samoa thu\u00e1\u00bb\u0099c M\u00e1\u00bb\u00b9",
+    "name_zh": "\u00e7\u00be\u008e\u00e5\u00b1\u00ac\u00e8\u0096\u00a9\u00e6\u0091\u00a9\u00e4\u00ba\u009e",
     "ne_id": "1159321357",
     "note_adm0": "U.S.A.",
     "note_brk": "",
@@ -405,7 +431,7 @@
     "sovereignt": "United States of America",
     "status": "officially-assigned",
     "su_a3": "ASM",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "American Samoa",
     "tiny": "3",
     "tld": [
@@ -444,9 +470,21 @@
             "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2",
             "official": "\u7c73\u30b5\u30e2\u30a2"
         },
+        "kor": {
+            "common": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544",
+            "official": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544"
+        },
         "nld": {
             "common": "Amerikaans Samoa",
             "official": "Amerikaans Samoa"
+        },
+        "per": {
+            "common": "\u0633\u0627\u0645\u0648\u0622\u06cc \u0622\u0645\u0631\u06cc\u06a9\u0627",
+            "official": "\u0633\u0627\u0645\u0648\u0622\u06cc \u0622\u0645\u0631\u06cc\u06a9\u0627"
+        },
+        "pol": {
+            "common": "Samoa Ameryka\u0144skie",
+            "official": "Samoa Ameryka\u0144skie"
         },
         "por": {
             "common": "Samoa Americana",
@@ -463,6 +501,10 @@
         "spa": {
             "common": "Samoa Americana",
             "official": "Samoa Americana"
+        },
+        "urd": {
+            "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627",
+            "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627"
         },
         "zho": {
             "common": "\u7f8e\u5c5e\u8428\u6469\u4e9a",

@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "JOR",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Jordan",
     "alt_spellings": [
         "JO",
@@ -21,7 +21,7 @@
         "SYR"
     ],
     "brk_a3": "JOR",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Jordan",
     "capital": [
@@ -119,10 +119,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Jordan",
     "gu_a3": "JOR",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "62"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "JO",
@@ -169,20 +175,20 @@
     "name_hu": "Jord\u00c3\u00a1nia",
     "name_id": "Yordania",
     "name_it": "Giordania",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00a8\u00e3\u0083\u00ab\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0083\u00a8\u00e3\u0083\u00ab\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u009a\u0094\u00eb\u00a5\u00b4\u00eb\u008b\u00a8",
     "name_len": "6",
     "name_long": "Jordan",
     "name_nev": "Jordan",
-    "name_nl": "\u00ec\u009a\u0094\u00eb\u00a5\u00b4\u00eb\u008b\u00a8",
-    "name_pl": "Jordani\u00c3\u00ab",
-    "name_pt": "Jordania",
-    "name_ru": "Jord\u00c3\u00a2nia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0098\u00d0\u00be\u00d1\u0080\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Jordani\u00c3\u00ab",
+    "name_pl": "Jordania",
+    "name_pt": "Jord\u00c3\u00a2nia",
+    "name_ru": "\u00d0\u0098\u00d0\u00be\u00d1\u0080\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Jordan",
-    "name_sv": "",
-    "name_tr": "Jordanien",
-    "name_vi": "\u00c3\u009crd\u00c3\u00bcn\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Jor",
-    "name_zh": "dan",
+    "name_sv": "Jordanien",
+    "name_tr": "\u00c3\u009crd\u00c3\u00bcn",
+    "name_vi": "Jordan",
+    "name_zh": "\u00e7\u00ba\u00a6\u00e6\u0097\u00a6",
     "ne_id": "1159320935",
     "note_adm0": "",
     "note_brk": "",
@@ -191,12 +197,12 @@
     "pop_year": "2017",
     "postal": "J",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "JOR",
     "sovereignt": "Jordan",
     "status": "officially-assigned",
     "su_a3": "JOR",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Jordan",
     "tiny": "-99",
     "tld": [
@@ -236,9 +242,21 @@
             "common": "\u30e8\u30eb\u30c0\u30f3",
             "official": "\u30e8\u30eb\u30c0\u30f3\u00b7\u30cf\u30b7\u30df\u30c6\u738b\u56fd"
         },
+        "kor": {
+            "common": "\uc694\ub974\ub2e8",
+            "official": "\uc694\ub974\ub2e8 \ud558\uc2ec \uc655\uad6d"
+        },
         "nld": {
             "common": "Jordani\u00eb",
             "official": "Hasjemitisch Koninkrijk Jordani\u00eb"
+        },
+        "per": {
+            "common": "\u0627\u0631\u062f\u0646",
+            "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u0627\u064f\u0631\u062f\u064f\u0646 \u0647\u0627\u0634\u0645\u06cc"
+        },
+        "pol": {
+            "common": "Jordania",
+            "official": "Jorda\u0144skie Kr\u00f3lestwo Haszymidzkie"
         },
         "por": {
             "common": "Jord\u00e2nia",
@@ -255,6 +273,10 @@
         "spa": {
             "common": "Jordania",
             "official": "Reino Hachemita de Jordania"
+        },
+        "urd": {
+            "common": "\u0627\u0631\u062f\u0646",
+            "official": "\u06be\u0627\u0634\u0645\u06cc \u0645\u0645\u0644\u06a9\u062a\u0650 \u0627\u0631\u062f\u0646"
         },
         "zho": {
             "common": "\u7ea6\u65e6",

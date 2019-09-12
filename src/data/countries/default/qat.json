@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "QAT",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Qatar",
     "alt_spellings": [
         "QA",
@@ -17,7 +17,7 @@
         "SAU"
     ],
     "brk_a3": "QAT",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Qatar",
     "capital": [
@@ -111,10 +111,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Qatar",
     "gu_a3": "QAT",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "74"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "QA",
@@ -161,20 +167,20 @@
     "name_hu": "Katar",
     "name_id": "Qatar",
     "name_it": "Qatar",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00ab\u00e3\u0082\u00bf\u00e3\u0083\u00bc\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u00b9\u00b4\u00ed\u0083\u0080\u00eb\u00a5\u00b4",
     "name_len": "5",
     "name_long": "Qatar",
     "name_nev": "Qatar",
-    "name_nl": "\u00ec\u00b9\u00b4\u00ed\u0083\u0080\u00eb\u00a5\u00b4",
-    "name_pl": "Qatar",
-    "name_pt": "Katar",
-    "name_ru": "Catar\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009a\u00d0\u00b0\u00d1\u0082\u00d0\u00b0\u00d1\u0080",
+    "name_nl": "Qatar",
+    "name_pl": "Katar",
+    "name_pt": "Catar",
+    "name_ru": "\u00d0\u009a\u00d0\u00b0\u00d1\u0082\u00d0\u00b0\u00d1\u0080",
     "name_sort": "Qatar",
-    "name_sv": "",
-    "name_tr": "Qatar",
-    "name_vi": "Katar\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Qat",
-    "name_zh": "ar",
+    "name_sv": "Qatar",
+    "name_tr": "Katar",
+    "name_vi": "Qatar",
+    "name_zh": "\u00e5\u008d\u00a1\u00e5\u00a1\u0094\u00e5\u00b0\u0094",
     "ne_id": "1159321197",
     "note_adm0": "",
     "note_brk": "",
@@ -183,12 +189,12 @@
     "pop_year": "2017",
     "postal": "QA",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "QAT",
     "sovereignt": "Qatar",
     "status": "officially-assigned",
     "su_a3": "QAT",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Qatar",
     "tiny": "-99",
     "tld": [
@@ -228,9 +234,21 @@
             "common": "\u30ab\u30bf\u30fc\u30eb",
             "official": "\u30ab\u30bf\u30fc\u30eb\u56fd"
         },
+        "kor": {
+            "common": "\uce74\ud0c0\ub974",
+            "official": "\uce74\ud0c0\ub974\uad6d"
+        },
         "nld": {
             "common": "Qatar",
             "official": "Staat Qatar"
+        },
+        "per": {
+            "common": "\u0642\u0637\u0631",
+            "official": "\u062f\u0648\u0644\u062a \u0642\u0637\u0631"
+        },
+        "pol": {
+            "common": "Katar",
+            "official": "Pa\u0144stwo Katar"
         },
         "por": {
             "common": "Catar",
@@ -247,6 +265,10 @@
         "spa": {
             "common": "Catar",
             "official": "Estado de Qatar"
+        },
+        "urd": {
+            "common": "\u0642\u0637\u0631",
+            "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0642\u0637\u0631"
         },
         "zho": {
             "common": "\u5361\u5854\u5c14",

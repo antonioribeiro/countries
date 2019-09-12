@@ -13,7 +13,7 @@
     ],
     "borders": [],
     "brk_a3": "UMI",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "U.S. Minor Outlying Is.",
     "capital": [
@@ -38,7 +38,7 @@
         ],
         "borders": [],
         "brk_a3": "UMI",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "U.S. Minor Outlying Is.",
         "capital": [
@@ -48,16 +48,16 @@
         "cca3": "UMI",
         "ccn3": "581",
         "cioc": null,
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "American",
-        "dialling": {
-            "calling_code": []
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -81,10 +81,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "North America"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "United States Minor Outlying Islands",
         "gu_a3": "UMI",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "68"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": null,
         "iso_a2": "UM",
@@ -155,7 +161,7 @@
         "sovereignt": "United States of America",
         "status": "officially-assigned",
         "su_a3": "UMI",
-        "su_dif": "",
+        "su_dif": "0",
         "subregion_nev": "Seven seas (open ocean)",
         "subunit": "United States Minor Outlying Islands",
         "tiny": "-99",
@@ -195,9 +201,21 @@
                 "common": "\u5408\u8846\u56fd\u9818\u6709\u5c0f\u96e2\u5cf6",
                 "official": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u5916\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ubbf8\uad6d\ub839 \uad70\uc18c \uc81c\ub3c4",
+                "official": "\ubbf8\uad6d\ub839 \uad70\uc18c \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Kleine afgelegen eilanden van de Verenigde Staten",
                 "official": "Kleine afgelegen eilanden van de Verenigde Staten"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u0686\u06a9 \u062d\u0627\u0634\u06cc\u0647\u200c\u0627\u06cc \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u0686\u06a9 \u062d\u0627\u0634\u06cc\u0647\u200c\u0627\u06cc \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627"
+            },
+            "pol": {
+                "common": "Dalekie Wyspy Mniejsze Stan\u00f3w Zjednoczonych",
+                "official": "Dalekie Wyspy Mniejsze Stan\u00f3w Zjednoczonych"
             },
             "por": {
                 "common": "Ilhas Menores Distantes dos Estados Unidos",
@@ -214,6 +232,10 @@
             "spa": {
                 "common": "Islas Ultramarinas Menores de Estados Unidos",
                 "official": "Estados Unidos Islas menores alejadas de"
+            },
+            "urd": {
+                "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0686\u06be\u0648\u0679\u06d2 \u0628\u06cc\u0631\u0648\u0646\u06cc \u062c\u0632\u0627\u0626\u0631",
+                "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0686\u06be\u0648\u0679\u06d2 \u0628\u06cc\u0631\u0648\u0646\u06cc \u062c\u0632\u0627\u0626\u0631"
             },
             "zho": {
                 "common": "\u7f8e\u56fd\u672c\u571f\u5916\u5c0f\u5c9b\u5c7f",
@@ -305,10 +327,16 @@
         "subregion_code": "",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "United States Minor Outlying Islands",
     "gu_a3": "UMI",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "68"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": {
         "abbrev": "U.S. MOI",
@@ -325,7 +353,7 @@
         ],
         "borders": [],
         "brk_a3": "UMI",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "U.S. Minor Outlying Is.",
         "capital": [
@@ -335,16 +363,16 @@
         "cca3": "UMI",
         "ccn3": "581",
         "cioc": null,
-        "currency": [
-            "USD"
-        ],
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "American",
-        "dialling": {
-            "calling_code": []
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -368,10 +396,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "North America"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "United States Minor Outlying Islands",
         "gu_a3": "UMI",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "68"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": null,
         "iso_a2": "UM",
@@ -442,7 +476,7 @@
         "sovereignt": "United States of America",
         "status": "officially-assigned",
         "su_a3": "UMI",
-        "su_dif": "",
+        "su_dif": "0",
         "subregion_nev": "Seven seas (open ocean)",
         "subunit": "United States Minor Outlying Islands",
         "tiny": "-99",
@@ -482,9 +516,21 @@
                 "common": "\u5408\u8846\u56fd\u9818\u6709\u5c0f\u96e2\u5cf6",
                 "official": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u5916\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ubbf8\uad6d\ub839 \uad70\uc18c \uc81c\ub3c4",
+                "official": "\ubbf8\uad6d\ub839 \uad70\uc18c \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Kleine afgelegen eilanden van de Verenigde Staten",
                 "official": "Kleine afgelegen eilanden van de Verenigde Staten"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u0686\u06a9 \u062d\u0627\u0634\u06cc\u0647\u200c\u0627\u06cc \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u0686\u06a9 \u062d\u0627\u0634\u06cc\u0647\u200c\u0627\u06cc \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627"
+            },
+            "pol": {
+                "common": "Dalekie Wyspy Mniejsze Stan\u00f3w Zjednoczonych",
+                "official": "Dalekie Wyspy Mniejsze Stan\u00f3w Zjednoczonych"
             },
             "por": {
                 "common": "Ilhas Menores Distantes dos Estados Unidos",
@@ -501,6 +547,10 @@
             "spa": {
                 "common": "Islas Ultramarinas Menores de Estados Unidos",
                 "official": "Estados Unidos Islas menores alejadas de"
+            },
+            "urd": {
+                "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0686\u06be\u0648\u0679\u06d2 \u0628\u06cc\u0631\u0648\u0646\u06cc \u062c\u0632\u0627\u0626\u0631",
+                "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0686\u06be\u0648\u0679\u06d2 \u0628\u06cc\u0631\u0648\u0646\u06cc \u062c\u0632\u0627\u0626\u0631"
             },
             "zho": {
                 "common": "\u7f8e\u56fd\u672c\u571f\u5916\u5c0f\u5c9b\u5c7f",
@@ -588,7 +638,7 @@
     "sovereignt": "United States of America",
     "status": "officially-assigned",
     "su_a3": "UMI",
-    "su_dif": "",
+    "su_dif": "0",
     "subregion_nev": "Seven seas (open ocean)",
     "subunit": "United States Minor Outlying Islands",
     "tiny": "-99",
@@ -628,9 +678,21 @@
             "common": "\u5408\u8846\u56fd\u9818\u6709\u5c0f\u96e2\u5cf6",
             "official": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u5916\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\ubbf8\uad6d\ub839 \uad70\uc18c \uc81c\ub3c4",
+            "official": "\ubbf8\uad6d\ub839 \uad70\uc18c \uc81c\ub3c4"
+        },
         "nld": {
             "common": "Kleine afgelegen eilanden van de Verenigde Staten",
             "official": "Kleine afgelegen eilanden van de Verenigde Staten"
+        },
+        "per": {
+            "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u0686\u06a9 \u062d\u0627\u0634\u06cc\u0647\u200c\u0627\u06cc \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
+            "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u0686\u06a9 \u062d\u0627\u0634\u06cc\u0647\u200c\u0627\u06cc \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627"
+        },
+        "pol": {
+            "common": "Dalekie Wyspy Mniejsze Stan\u00f3w Zjednoczonych",
+            "official": "Dalekie Wyspy Mniejsze Stan\u00f3w Zjednoczonych"
         },
         "por": {
             "common": "Ilhas Menores Distantes dos Estados Unidos",
@@ -647,6 +709,10 @@
         "spa": {
             "common": "Islas Ultramarinas Menores de Estados Unidos",
             "official": "Estados Unidos Islas menores alejadas de"
+        },
+        "urd": {
+            "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0686\u06be\u0648\u0679\u06d2 \u0628\u06cc\u0631\u0648\u0646\u06cc \u062c\u0632\u0627\u0626\u0631",
+            "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0686\u06be\u0648\u0679\u06d2 \u0628\u06cc\u0631\u0648\u0646\u06cc \u062c\u0632\u0627\u0626\u0631"
         },
         "zho": {
             "common": "\u7f8e\u56fd\u672c\u571f\u5916\u5c0f\u5c9b\u5c7f",

@@ -6,14 +6,14 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "ATG",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Antigua and Barbuda",
     "alt_spellings": [
         "AG"
     ],
     "borders": [],
     "brk_a3": "ATG",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Antigua and Barb.",
     "capital": [
@@ -105,10 +105,16 @@
         "subregion_code": "029",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Antigua and Barbuda",
     "gu_a3": "ATG",
     "homepart": "1",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "268"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "AG",
@@ -182,7 +188,7 @@
     "sovereignt": "Antigua and Barbuda",
     "status": "officially-assigned",
     "su_a3": "ATG",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Antigua and Barbuda",
     "tiny": "4",
     "tld": [
@@ -225,9 +231,21 @@
             "common": "\u30a2\u30f3\u30c6\u30a3\u30b0\u30a2\u30fb\u30d0\u30fc\u30d6\u30fc\u30c0",
             "official": "\u30a2\u30f3\u30c1\u30b0\u30a2\u30d0\u30fc\u30d6\u30fc\u30c0"
         },
+        "kor": {
+            "common": "\uc564\ud2f0\uac00 \ubc14\ubd80\ub2e4",
+            "official": "\uc564\ud2f0\uac00 \ubc14\ubd80\ub2e4"
+        },
         "nld": {
             "common": "Antigua en Barbuda",
             "official": "Antigua en Barbuda"
+        },
+        "per": {
+            "common": "\u0622\u0646\u062a\u06cc\u06af\u0648\u0627 \u0648 \u0628\u0627\u0631\u0628\u0648\u062f\u0627",
+            "official": "\u0622\u0646\u062a\u06cc\u06af\u0648\u0627 \u0648 \u0628\u0627\u0631\u0628\u0648\u062f\u0627"
+        },
+        "pol": {
+            "common": "Antigua i Barbuda",
+            "official": "Antigua i Barbuda"
         },
         "por": {
             "common": "Ant\u00edgua e Barbuda",
@@ -244,6 +262,10 @@
         "spa": {
             "common": "Antigua y Barbuda",
             "official": "Antigua y Barbuda"
+        },
+        "urd": {
+            "common": "\u0627\u06cc\u0646\u0679\u06cc\u06af\u0648\u0627 \u0648 \u0628\u0627\u0631\u0628\u0648\u0688\u0627",
+            "official": "\u0627\u06cc\u0646\u0679\u06cc\u06af\u0648\u0627 \u0648 \u0628\u0627\u0631\u0628\u0648\u0688\u0627"
         },
         "zho": {
             "common": "\u5b89\u63d0\u74dc\u548c\u5df4\u5e03\u8fbe",

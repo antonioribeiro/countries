@@ -17,8 +17,29 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "373",
+        "zone_id": "374",
         "zone_name": "Europe\/Kiev"
+    },
+    "europe_simferopol": {
+        "abbreviations": [
+            "CEST",
+            "CET",
+            "EEST",
+            "EET",
+            "LMT",
+            "MSD",
+            "MSK",
+            "SMT"
+        ],
+        "cca2": "UA",
+        "cca3": "UKR",
+        "country_code": "UA",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "311",
+        "zone_name": "Europe\/Simferopol"
     },
     "europe_uzhgorod": {
         "abbreviations": [
@@ -37,7 +58,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "374",
+        "zone_id": "375",
         "zone_name": "Europe\/Uzhgorod"
     },
     "europe_zaporozhye": {
@@ -58,7 +79,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "375",
+        "zone_id": "376",
         "zone_name": "Europe\/Zaporozhye"
     }
 }

@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MDG",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Madagascar",
     "alt_spellings": [
         "MG",
@@ -16,7 +16,7 @@
     ],
     "borders": [],
     "brk_a3": "MDG",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Madagascar",
     "capital": [
@@ -108,10 +108,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Madagascar",
     "gu_a3": "MDG",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "61"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "MG",
@@ -163,20 +169,20 @@
     "name_hu": "Madagaszk\u00c3\u00a1r",
     "name_id": "Madagaskar",
     "name_it": "Madagascar",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u009e\u00e3\u0083\u0080\u00e3\u0082\u00ac\u00e3\u0082\u00b9\u00e3\u0082\u00ab\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0083\u009e\u00e3\u0083\u0080\u00e3\u0082\u00ac\u00e3\u0082\u00b9\u00e3\u0082\u00ab\u00e3\u0083\u00ab",
+    "name_ko": "\u00eb\u00a7\u0088\u00eb\u008b\u00a4\u00ea\u00b0\u0080\u00ec\u008a\u00a4\u00ec\u00b9\u00b4\u00eb\u00a5\u00b4",
     "name_len": "10",
     "name_long": "Madagascar",
     "name_nev": "Madagascar",
-    "name_nl": "\u00eb\u00a7\u0088\u00eb\u008b\u00a4\u00ea\u00b0\u0080\u00ec\u008a\u00a4\u00ec\u00b9\u00b4\u00eb\u00a5",
-    "name_pl": "\u00b4\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Madagaskar",
-    "name_pt": "Madagaskar",
-    "name_ru": "Madag\u00c3\u00a1scar\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00b0\u00d0\u00b4\u00d0\u00b0\u00d0\u00b3\u00d0\u00b0\u00d1\u0081\u00d0\u00ba\u00d0\u00b0\u00d1\u0080",
+    "name_nl": "Madagaskar",
+    "name_pl": "Madagaskar",
+    "name_pt": "Madag\u00c3\u00a1scar",
+    "name_ru": "\u00d0\u009c\u00d0\u00b0\u00d0\u00b4\u00d0\u00b0\u00d0\u00b3\u00d0\u00b0\u00d1\u0081\u00d0\u00ba\u00d0\u00b0\u00d1\u0080",
     "name_sort": "Madagascar",
-    "name_sv": "",
+    "name_sv": "Madagaskar",
     "name_tr": "Madagaskar",
-    "name_vi": "Madagaskar\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Mad",
-    "name_zh": "agascar",
+    "name_vi": "Madagascar",
+    "name_zh": "\u00e9\u00a9\u00ac\u00e8\u00be\u00be\u00e5\u008a\u00a0\u00e6\u0096\u00af\u00e5\u008a\u00a0",
     "ne_id": "1159321051",
     "note_adm0": "",
     "note_brk": "",
@@ -185,12 +191,12 @@
     "pop_year": "2017",
     "postal": "MG",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "MDG",
     "sovereignt": "Madagascar",
     "status": "officially-assigned",
     "su_a3": "MDG",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Madagascar",
     "tiny": "-99",
     "tld": [
@@ -229,9 +235,21 @@
             "common": "\u30de\u30c0\u30ac\u30b9\u30ab\u30eb",
             "official": "\u30de\u30c0\u30ac\u30b9\u30ab\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub9c8\ub2e4\uac00\uc2a4\uce74\ub974",
+            "official": "\ub9c8\ub2e4\uac00\uc2a4\uce74\ub974 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Madagaskar",
             "official": "Republiek Madagaskar"
+        },
+        "per": {
+            "common": "\u0645\u0627\u062f\u0627\u06af\u0627\u0633\u06a9\u0627\u0631",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0645\u0627\u062f\u0627\u06af\u0627\u0633\u06a9\u0627\u0631"
+        },
+        "pol": {
+            "common": "Madagaskar",
+            "official": "Republika Madagaskaru"
         },
         "por": {
             "common": "Madag\u00e1scar",
@@ -248,6 +266,10 @@
         "spa": {
             "common": "Madagascar",
             "official": "Rep\u00fablica de Madagascar"
+        },
+        "urd": {
+            "common": "\u0645\u0688\u063a\u0627\u0633\u06a9\u0631",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0688\u063a\u0627\u0633\u06a9\u0631"
         },
         "zho": {
             "common": "\u9a6c\u8fbe\u52a0\u65af\u52a0",

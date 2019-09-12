@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "BHS",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "The Bahamas",
     "alt_spellings": [
         "BS",
@@ -14,7 +14,7 @@
     ],
     "borders": [],
     "brk_a3": "BHS",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bahamas",
     "capital": [
@@ -106,10 +106,16 @@
         "subregion_code": "029",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "The Bahamas",
     "gu_a3": "BHS",
     "homepart": "1",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "242"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "BS",
@@ -156,20 +162,20 @@
     "name_hu": "Bahama-szigetek",
     "name_id": "Bahama",
     "name_it": "Bahama",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0090\u00e3\u0083\u008f\u00e3\u0083\u009e",
+    "name_ja": "\u00e3\u0083\u0090\u00e3\u0083\u008f\u00e3\u0083\u009e",
+    "name_ko": "\u00eb\u00b0\u0094\u00ed\u0095\u0098\u00eb\u00a7\u0088",
     "name_len": "7",
     "name_long": "Bahamas",
     "name_nev": "Bahamas",
-    "name_nl": "\u00eb\u00b0\u0094\u00ed\u0095\u0098\u00eb\u00a7\u0088",
-    "name_pl": "Bahama's",
-    "name_pt": "Bahamy",
-    "name_ru": "Bahamas\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0091\u00d0\u00b0\u00d0\u00b3\u00d0\u00b0\u00d0\u00bc\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u009e\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+    "name_nl": "Bahama's",
+    "name_pl": "Bahamy",
+    "name_pt": "Bahamas",
+    "name_ru": "\u00d0\u0091\u00d0\u00b0\u00d0\u00b3\u00d0\u00b0\u00d0\u00bc\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u009e\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
     "name_sort": "Bahamas, The",
-    "name_sv": "",
-    "name_tr": "Bahamas",
-    "name_vi": "Bahamalar\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Bah",
-    "name_zh": "amas",
+    "name_sv": "Bahamas",
+    "name_tr": "Bahamalar",
+    "name_vi": "Bahamas",
+    "name_zh": "\u00e5\u00b7\u00b4\u00e5\u0093\u0088\u00e9\u00a9\u00ac",
     "ne_id": "1159320415",
     "note_adm0": "",
     "note_brk": "",
@@ -183,7 +189,7 @@
     "sovereignt": "The Bahamas",
     "status": "officially-assigned",
     "su_a3": "BHS",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "The Bahamas",
     "tiny": "-99",
     "tld": [
@@ -226,9 +232,21 @@
             "common": "\u30d0\u30cf\u30de",
             "official": "\u30d0\u30cf\u30de"
         },
+        "kor": {
+            "common": "\ubc14\ud558\ub9c8",
+            "official": "\ubc14\ud558\ub9c8 \uc5f0\ubc29"
+        },
         "nld": {
             "common": "Bahama\u2019s",
             "official": "Gemenebest van de Bahama's"
+        },
+        "per": {
+            "common": "\u0628\u0627\u0647\u0627\u0645\u0627",
+            "official": "\u0642\u0644\u0645\u0631\u0648 \u0647\u0645\u0633\u0648\u062f \u0628\u0627\u0647\u0627\u0645\u0627"
+        },
+        "pol": {
+            "common": "Bahamy",
+            "official": "Bahamy"
         },
         "por": {
             "common": "Bahamas",
@@ -245,6 +263,10 @@
         "spa": {
             "common": "Bahamas",
             "official": "Commonwealth de las Bahamas"
+        },
+        "urd": {
+            "common": "\u0628\u06c1\u0627\u0645\u0627\u0633",
+            "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u0628\u06c1\u0627\u0645\u0627\u0633"
         },
         "zho": {
             "common": "\u5df4\u54c8\u9a6c",

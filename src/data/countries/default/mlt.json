@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MLT",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Malta",
     "alt_spellings": [
         "MT",
@@ -15,7 +15,7 @@
     ],
     "borders": [],
     "brk_a3": "MLT",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Malta",
     "capital": [
@@ -115,10 +115,16 @@
         "subregion_code": "039",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Malta",
     "gu_a3": "MLT",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "56"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "MT",
@@ -170,20 +176,20 @@
     "name_hu": "M\u00c3\u00a1lta",
     "name_id": "Malta",
     "name_it": "Malta",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u009e\u00e3\u0083\u00ab\u00e3\u0082\u00bf",
+    "name_ja": "\u00e3\u0083\u009e\u00e3\u0083\u00ab\u00e3\u0082\u00bf",
+    "name_ko": "\u00eb\u00aa\u00b0\u00ed\u0083\u0080",
     "name_len": "5",
     "name_long": "Malta",
     "name_nev": "Malta",
-    "name_nl": "\u00eb\u00aa\u00b0\u00ed\u0083\u0080",
+    "name_nl": "Malta",
     "name_pl": "Malta",
     "name_pt": "Malta",
-    "name_ru": "Malta\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00b0\u00d0\u00bb\u00d1\u008c\u00d1\u0082\u00d0\u00b0",
+    "name_ru": "\u00d0\u009c\u00d0\u00b0\u00d0\u00bb\u00d1\u008c\u00d1\u0082\u00d0\u00b0",
     "name_sort": "Malta",
-    "name_sv": "",
+    "name_sv": "Malta",
     "name_tr": "Malta",
-    "name_vi": "Malta\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Mal",
-    "name_zh": "ta",
+    "name_vi": "Malta",
+    "name_zh": "\u00e9\u00a9\u00ac\u00e8\u0080\u00b3\u00e4\u00bb\u0096",
     "ne_id": "1159321065",
     "note_adm0": "",
     "note_brk": "",
@@ -197,7 +203,7 @@
     "sovereignt": "Malta",
     "status": "officially-assigned",
     "su_a3": "MLT",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Malta",
     "tiny": "3",
     "tld": [
@@ -236,9 +242,21 @@
             "common": "\u30de\u30eb\u30bf",
             "official": "\u30de\u30eb\u30bf\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubab0\ud0c0",
+            "official": "\ubab0\ud0c0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Malta",
             "official": "Republiek Malta"
+        },
+        "per": {
+            "common": "\u0645\u0627\u0644\u062a",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0645\u0627\u0644\u062a"
+        },
+        "pol": {
+            "common": "Malta",
+            "official": "Republika Malty"
         },
         "por": {
             "common": "Malta",
@@ -255,6 +273,10 @@
         "spa": {
             "common": "Malta",
             "official": "Rep\u00fablica de Malta"
+        },
+        "urd": {
+            "common": "\u0645\u0627\u0644\u0679\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0627\u0644\u0679\u0627"
         },
         "zho": {
             "common": "\u9a6c\u8033\u4ed6",

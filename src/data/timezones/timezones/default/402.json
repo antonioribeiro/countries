@@ -2,7 +2,7 @@
     "1": {
         "abbreviation": "LMT",
         "dst": "0",
-        "gmt_offset": "-32473",
+        "gmt_offset": "-32261",
         "time_start": "-3225223727",
         "zone_id": "402"
     },
@@ -10,7 +10,7 @@
         "abbreviation": "PST",
         "dst": "0",
         "gmt_offset": "-28800",
-        "time_start": "-2188954727",
+        "time_start": "-2188954939",
         "zone_id": "402"
     },
     "3": {
@@ -189,9 +189,9 @@
         "zone_id": "402"
     },
     "28": {
-        "abbreviation": "PDT",
+        "abbreviation": "YDT",
         "dst": "1",
-        "gmt_offset": "-25200",
+        "gmt_offset": "-28800",
         "time_start": "325677600",
         "zone_id": "402"
     },
@@ -199,7 +199,7 @@
         "abbreviation": "PST",
         "dst": "0",
         "gmt_offset": "-28800",
-        "time_start": "341398800",
+        "time_start": "341402400",
         "zone_id": "402"
     },
     "30": {
@@ -7477,7 +7477,7 @@
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "53927",
+    "gmt_offset": "54139",
     "time_start": "-3225223728",
     "zone_id": "402"
 }

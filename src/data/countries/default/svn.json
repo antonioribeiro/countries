@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SVN",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Slovenia",
     "alt_spellings": [
         "SI",
@@ -20,7 +20,7 @@
         "HUN"
     ],
     "brk_a3": "SVN",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Slovenia",
     "capital": [
@@ -124,10 +124,16 @@
         "subregion_code": "039",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Slovenia",
     "gu_a3": "SVN",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "86"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "SI",
@@ -174,20 +180,20 @@
     "name_hu": "Szlov\u00c3\u00a9nia",
     "name_id": "Slovenia",
     "name_it": "Slovenia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b9\u00e3\u0083\u00ad\u00e3\u0083\u0099\u00e3\u0083\u008b\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0082\u00b9\u00e3\u0083\u00ad\u00e3\u0083\u0099\u00e3\u0083\u008b\u00e3\u0082\u00a2",
+    "name_ko": "\u00ec\u008a\u00ac\u00eb\u00a1\u009c\u00eb\u00b2\u00a0\u00eb\u008b\u0088\u00ec\u0095\u0084",
     "name_len": "8",
     "name_long": "Slovenia",
     "name_nev": "Slovenia",
-    "name_nl": "\u00ec\u008a\u00ac\u00eb\u00a1\u009c\u00eb\u00b2\u00a0\u00eb\u008b\u0088\u00ec\u0095\u0084",
-    "name_pl": "Sloveni\u00c3\u00ab",
-    "name_pt": "S\u00c5\u0082owenia",
-    "name_ru": "Eslov\u00c3\u00a9nia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00bb\u00d0\u00be\u00d0\u00b2\u00d0\u00b5\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Sloveni\u00c3\u00ab",
+    "name_pl": "S\u00c5\u0082owenia",
+    "name_pt": "Eslov\u00c3\u00a9nia",
+    "name_ru": "\u00d0\u00a1\u00d0\u00bb\u00d0\u00be\u00d0\u00b2\u00d0\u00b5\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Slovenia",
-    "name_sv": "",
-    "name_tr": "Slovenien",
-    "name_vi": "Slovenya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Slo",
-    "name_zh": "venia",
+    "name_sv": "Slovenien",
+    "name_tr": "Slovenya",
+    "name_vi": "Slovenia",
+    "name_zh": "\u00e6\u0096\u00af\u00e6\u00b4\u009b\u00e6\u0096\u0087\u00e5\u00b0\u00bc\u00e4\u00ba\u009a",
     "ne_id": "1159321285",
     "note_adm0": "",
     "note_brk": "",
@@ -196,12 +202,12 @@
     "pop_year": "2017",
     "postal": "SLO",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SVN",
     "sovereignt": "Slovenia",
     "status": "officially-assigned",
     "su_a3": "SVN",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Slovenia",
     "tiny": "-99",
     "tld": [
@@ -240,9 +246,21 @@
             "common": "\u30b9\u30ed\u30d9\u30cb\u30a2",
             "official": "\u30b9\u30ed\u30d9\u30cb\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc2ac\ub85c\ubca0\ub2c8\uc544",
+            "official": "\uc2ac\ub85c\ubca0\ub2c8\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Sloveni\u00eb",
             "official": "Republiek Sloveni\u00eb"
+        },
+        "per": {
+            "common": "\u0627\u0633\u0644\u0648\u0648\u0646\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0633\u0644\u0648\u0648\u0646\u06cc"
+        },
+        "pol": {
+            "common": "S\u0142owenia",
+            "official": "Republika S\u0142owenii"
         },
         "por": {
             "common": "Eslov\u00e9nia",
@@ -259,6 +277,10 @@
         "spa": {
             "common": "Eslovenia",
             "official": "Rep\u00fablica de Eslovenia"
+        },
+        "urd": {
+            "common": "\u0633\u0644\u0648\u0648\u06cc\u0646\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0644\u0648\u0648\u06cc\u0646\u06cc\u0627"
         },
         "zho": {
             "common": "\u65af\u6d1b\u6587\u5c3c\u4e9a",

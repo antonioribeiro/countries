@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "KWT",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Kuwait",
     "alt_spellings": [
         "KW",
@@ -18,7 +18,7 @@
         "SAU"
     ],
     "brk_a3": "KWT",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Kuwait",
     "capital": [
@@ -113,10 +113,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Kuwait",
     "gu_a3": "KWT",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "65"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "KW",
@@ -163,20 +169,20 @@
     "name_hu": "Kuvait",
     "name_id": "Kuwait",
     "name_it": "Kuwait",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00af\u00e3\u0082\u00a6\u00e3\u0082\u00a7\u00e3\u0083\u00bc\u00e3\u0083\u0088",
+    "name_ja": "\u00e3\u0082\u00af\u00e3\u0082\u00a6\u00e3\u0082\u00a7\u00e3\u0083\u00bc\u00e3\u0083\u0088",
+    "name_ko": "\u00ec\u00bf\u00a0\u00ec\u009b\u00a8\u00ec\u009d\u00b4\u00ed\u008a\u00b8",
     "name_len": "6",
     "name_long": "Kuwait",
     "name_nev": "Kuwait",
-    "name_nl": "\u00ec\u00bf\u00a0\u00ec\u009b\u00a8\u00ec\u009d\u00b4\u00ed\u008a\u00b8",
-    "name_pl": "Koeweit",
-    "name_pt": "Kuwejt",
-    "name_ru": "Kuwait\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009a\u00d1\u0083\u00d0\u00b2\u00d0\u00b5\u00d0\u00b9\u00d1\u0082",
+    "name_nl": "Koeweit",
+    "name_pl": "Kuwejt",
+    "name_pt": "Kuwait",
+    "name_ru": "\u00d0\u009a\u00d1\u0083\u00d0\u00b2\u00d0\u00b5\u00d0\u00b9\u00d1\u0082",
     "name_sort": "Kuwait",
-    "name_sv": "",
-    "name_tr": "Kuwait",
-    "name_vi": "Kuveyt\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Kuw",
-    "name_zh": "ait",
+    "name_sv": "Kuwait",
+    "name_tr": "Kuveyt",
+    "name_vi": "Kuwait",
+    "name_zh": "\u00e7\u00a7\u0091\u00e5\u00a8\u0081\u00e7\u0089\u00b9",
     "ne_id": "1159321009",
     "note_adm0": "",
     "note_brk": "",
@@ -185,12 +191,12 @@
     "pop_year": "2017",
     "postal": "KW",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "KWT",
     "sovereignt": "Kuwait",
     "status": "officially-assigned",
     "su_a3": "KWT",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Kuwait",
     "tiny": "-99",
     "tld": [
@@ -229,9 +235,21 @@
             "common": "\u30af\u30a6\u30a7\u30fc\u30c8",
             "official": "\u30af\u30a6\u30a7\u30fc\u30c8\u56fd"
         },
+        "kor": {
+            "common": "\ucfe0\uc6e8\uc774\ud2b8",
+            "official": "\ucfe0\uc6e8\uc774\ud2b8\uad6d"
+        },
         "nld": {
             "common": "Koeweit",
             "official": "Staat Koeweit"
+        },
+        "per": {
+            "common": "\u06a9\u064f\u0648\u06cc\u062a",
+            "official": "\u062f\u0648\u0644\u062a \u06a9\u0648\u06cc\u062a"
+        },
+        "pol": {
+            "common": "Kuwejt",
+            "official": "Pa\u0144stwo Kuwejt"
         },
         "por": {
             "common": "Kuwait",
@@ -248,6 +266,10 @@
         "spa": {
             "common": "Kuwait",
             "official": "Estado de Kuwait"
+        },
+        "urd": {
+            "common": "\u06a9\u0648\u06cc\u062a",
+            "official": "\u062f\u0648\u0644\u062a\u0650 \u06a9\u0648\u06cc\u062a"
         },
         "zho": {
             "common": "\u79d1\u5a01\u7279",

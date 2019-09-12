@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "BGR",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Bulgaria",
     "alt_spellings": [
         "BG",
@@ -21,7 +21,7 @@
         "TUR"
     ],
     "brk_a3": "BGR",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bulgaria",
     "capital": [
@@ -128,10 +128,16 @@
         "subregion_code": "151",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Bulgaria",
     "gu_a3": "BGR",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "59"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BG",
@@ -178,20 +184,20 @@
     "name_hu": "Bulg\u00c3\u00a1ria",
     "name_id": "Bulgaria",
     "name_it": "Bulgaria",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0096\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u0096\u00e3\u0083\u00ab\u00e3\u0082\u00ac\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ko": "\u00eb\u00b6\u0088\u00ea\u00b0\u0080\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
     "name_len": "8",
     "name_long": "Bulgaria",
     "name_nev": "Bulgaria",
-    "name_nl": "\u00eb\u00b6\u0088\u00ea\u00b0\u0080\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
-    "name_pl": "Bulgarije",
-    "name_pt": "Bu\u00c5\u0082garia",
-    "name_ru": "Bulg\u00c3\u00a1ria\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0091\u00d0\u00be\u00d0\u00bb\u00d0\u00b3\u00d0\u00b0\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Bulgarije",
+    "name_pl": "Bu\u00c5\u0082garia",
+    "name_pt": "Bulg\u00c3\u00a1ria",
+    "name_ru": "\u00d0\u0091\u00d0\u00be\u00d0\u00bb\u00d0\u00b3\u00d0\u00b0\u00d1\u0080\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Bulgaria",
-    "name_sv": "",
-    "name_tr": "Bulgarien",
-    "name_vi": "Bulgaristan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Bul",
-    "name_zh": "garia",
+    "name_sv": "Bulgarien",
+    "name_tr": "Bulgaristan",
+    "name_vi": "Bulgaria",
+    "name_zh": "\u00e4\u00bf\u009d\u00e5\u008a\u00a0\u00e5\u0088\u00a9\u00e4\u00ba\u009a",
     "ne_id": "1159320409",
     "note_adm0": "",
     "note_brk": "",
@@ -200,12 +206,12 @@
     "pop_year": "2017",
     "postal": "BG",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "BGR",
     "sovereignt": "Bulgaria",
     "status": "officially-assigned",
     "su_a3": "BGR",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Bulgaria",
     "tiny": "-99",
     "tld": [
@@ -248,9 +254,21 @@
             "common": "\u30d6\u30eb\u30ac\u30ea\u30a2",
             "official": "\u30d6\u30eb\u30ac\u30ea\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubd88\uac00\ub9ac\uc544",
+            "official": "\ubd88\uac00\ub9ac\uc544 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Bulgarije",
             "official": "Republiek Bulgarije"
+        },
+        "per": {
+            "common": "\u0628\u0644\u063a\u0627\u0631\u0633\u062a\u0627\u0646",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0628\u0644\u063a\u0627\u0631\u0633\u062a\u0627\u0646"
+        },
+        "pol": {
+            "common": "Bu\u0142garia",
+            "official": "Republika Bu\u0142garii"
         },
         "por": {
             "common": "Bulg\u00e1ria",
@@ -267,6 +285,10 @@
         "spa": {
             "common": "Bulgaria",
             "official": "Rep\u00fablica de Bulgaria"
+        },
+        "urd": {
+            "common": "\u0628\u0644\u063a\u0627\u0631\u06cc\u06c1",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0644\u063a\u0627\u0631\u06cc\u06c1"
         },
         "zho": {
             "common": "\u4fdd\u52a0\u5229\u4e9a",

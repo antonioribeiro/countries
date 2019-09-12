@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "DEU",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Germany",
     "alt_spellings": [
         "DE",
@@ -25,7 +25,7 @@
         "CHE"
     ],
     "brk_a3": "DEU",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Germany",
     "capital": [
@@ -142,10 +142,16 @@
         "subregion_code": "155",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Germany",
     "gu_a3": "DEU",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "9"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "DE",
@@ -192,20 +198,20 @@
     "name_hu": "N\u00c3\u00a9metorsz\u00c3\u00a1g",
     "name_id": "Jerman",
     "name_it": "Germania",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0089\u00e3\u0082\u00a4\u00e3\u0083\u0084",
+    "name_ja": "\u00e3\u0083\u0089\u00e3\u0082\u00a4\u00e3\u0083\u0084",
+    "name_ko": "\u00eb\u008f\u0085\u00ec\u009d\u00bc",
     "name_len": "7",
     "name_long": "Germany",
     "name_nev": "Germany",
-    "name_nl": "\u00eb\u008f\u0085\u00ec\u009d\u00bc",
-    "name_pl": "Duitsland",
-    "name_pt": "Niemcy",
-    "name_ru": "Alemanha\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bc\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Duitsland",
+    "name_pl": "Niemcy",
+    "name_pt": "Alemanha",
+    "name_ru": "\u00d0\u0093\u00d0\u00b5\u00d1\u0080\u00d0\u00bc\u00d0\u00b0\u00d0\u00bd\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Germany",
-    "name_sv": "",
-    "name_tr": "Tyskland",
-    "name_vi": "Almanya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c4\u0090\u00e1",
-    "name_zh": "\u00bb\u00a9c",
+    "name_sv": "Tyskland",
+    "name_tr": "Almanya",
+    "name_vi": "\u00c4\u0090\u00e1\u00bb\u00a9c",
+    "name_zh": "\u00e5\u00be\u00b7\u00e5\u009b\u00bd",
     "ne_id": "1159320539",
     "note_adm0": "",
     "note_brk": "",
@@ -214,12 +220,12 @@
     "pop_year": "2017",
     "postal": "D",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "DEU",
     "sovereignt": "Germany",
     "status": "officially-assigned",
     "su_a3": "DEU",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Germany",
     "tiny": "-99",
     "tld": [
@@ -258,9 +264,21 @@
             "common": "\u30c9\u30a4\u30c4",
             "official": "\u30c9\u30a4\u30c4\u9023\u90a6\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub3c5\uc77c",
+            "official": "\ub3c5\uc77c \uc5f0\ubc29 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Duitsland",
             "official": "Bondsrepubliek Duitsland"
+        },
+        "per": {
+            "common": "\u0622\u0644\u0645\u0627\u0646",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0641\u062f\u0631\u0627\u0644 \u0622\u0644\u0645\u0627\u0646"
+        },
+        "pol": {
+            "common": "Niemcy",
+            "official": "Republika Federalna Niemiec"
         },
         "por": {
             "common": "Alemanha",
@@ -277,6 +295,10 @@
         "spa": {
             "common": "Alemania",
             "official": "Rep\u00fablica Federal de Alemania"
+        },
+        "urd": {
+            "common": "\u062c\u0631\u0645\u0646\u06cc",
+            "official": "\u0648\u0641\u0627\u0642\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0631\u0645\u0646\u06cc"
         },
         "zho": {
             "common": "\u5fb7\u56fd",

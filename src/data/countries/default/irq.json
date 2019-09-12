@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "IRQ",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Iraq",
     "alt_spellings": [
         "IQ",
@@ -22,7 +22,7 @@
         "TUR"
     ],
     "brk_a3": "IRQ",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Iraq",
     "capital": [
@@ -123,10 +123,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Iraq",
     "gu_a3": "IRQ",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "64"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "IQ",
@@ -183,20 +189,20 @@
     "name_hu": "Irak",
     "name_id": "Irak",
     "name_it": "Iraq",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a4\u00e3\u0083\u00a9\u00e3\u0082\u00af",
+    "name_ja": "\u00e3\u0082\u00a4\u00e3\u0083\u00a9\u00e3\u0082\u00af",
+    "name_ko": "\u00ec\u009d\u00b4\u00eb\u009d\u00bc\u00ed\u0081\u00ac",
     "name_len": "4",
     "name_long": "Iraq",
     "name_nev": "Iraq",
-    "name_nl": "\u00ec\u009d\u00b4\u00eb\u009d\u00bc\u00ed\u0081\u00ac",
+    "name_nl": "Irak",
     "name_pl": "Irak",
-    "name_pt": "Irak",
-    "name_ru": "Iraque\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0098\u00d1\u0080\u00d0\u00b0\u00d0\u00ba",
+    "name_pt": "Iraque",
+    "name_ru": "\u00d0\u0098\u00d1\u0080\u00d0\u00b0\u00d0\u00ba",
     "name_sort": "Iraq",
-    "name_sv": "",
+    "name_sv": "Irak",
     "name_tr": "Irak",
-    "name_vi": "Irak\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ira",
-    "name_zh": "q",
+    "name_vi": "Iraq",
+    "name_zh": "\u00e4\u00bc\u008a\u00e6\u008b\u0089\u00e5\u0085\u008b",
     "ne_id": "1159320887",
     "note_adm0": "",
     "note_brk": "",
@@ -205,12 +211,12 @@
     "pop_year": "2017",
     "postal": "IRQ",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "IRQ",
     "sovereignt": "Iraq",
     "status": "officially-assigned",
     "su_a3": "IRQ",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Iraq",
     "tiny": "-99",
     "tld": [
@@ -249,9 +255,21 @@
             "common": "\u30a4\u30e9\u30af",
             "official": "\u30a4\u30e9\u30af\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc774\ub77c\ud06c",
+            "official": "\uc774\ub77c\ud06c \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Irak",
             "official": "Republiek Irak"
+        },
+        "per": {
+            "common": "\u0639\u0631\u0627\u0642",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0639\u0631\u0627\u0642"
+        },
+        "pol": {
+            "common": "Irak",
+            "official": "Republika Iraku"
         },
         "por": {
             "common": "Iraque",
@@ -268,6 +286,10 @@
         "spa": {
             "common": "Irak",
             "official": "Rep\u00fablica de Irak"
+        },
+        "urd": {
+            "common": "\u0639\u0631\u0627\u0642",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0639\u0631\u0627\u0642"
         },
         "zho": {
             "common": "\u4f0a\u62c9\u514b",

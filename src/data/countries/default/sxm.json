@@ -16,7 +16,7 @@
         "MAF"
     ],
     "brk_a3": "SXM",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sint Maarten",
     "capital": [
@@ -44,7 +44,7 @@
             "MAF"
         ],
         "brk_a3": "SXM",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Sint Maarten",
         "capital": [
@@ -54,18 +54,16 @@
         "cca3": "SXM",
         "ccn3": "534",
         "cioc": null,
-        "currency": [
-            "ANG"
-        ],
+        "currencies": {
+            "a_n_g": {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "\u0192"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "St. Maartener",
-        "dialling": {
-            "calling_code": [
-                "1721"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NT",
@@ -89,10 +87,16 @@
             "region_wb": "Latin America & Caribbean",
             "subregion": "Caribbean"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Sint Maarten",
         "gu_a3": "SXM",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "721"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "SX",
@@ -146,20 +150,20 @@
         "name_hu": "Sint Maarten",
         "name_id": "Sint Maarten",
         "name_it": "Sint Maarten",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0083\u0086\u00e3\u0083\u00b3",
+        "name_ja": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0083\u0086\u00e3\u0083\u00b3",
+        "name_ko": "\u00ec\u008b\u00a0\u00ed\u008a\u00b8\u00eb\u00a7\u0088\u00eb\u00a5\u00b4\u00ed\u0084\u00b4",
         "name_len": "12",
         "name_long": "Sint Maarten",
         "name_nev": "Sint Maarten",
-        "name_nl": "\u00ec\u008b\u00a0\u00ed\u008a\u00b8\u00eb\u00a7\u0088\u00eb\u00a5\u00b4\u00ed\u0084\u00b4",
+        "name_nl": "Sint Maarten",
         "name_pl": "Sint Maarten",
-        "name_pt": "Sint Maarten",
-        "name_ru": "S\u00c3\u00a3o Martinho\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d1\u0082-\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d1\u0082\u00d0\u00b5\u00d0\u00bd",
+        "name_pt": "S\u00c3\u00a3o Martinho",
+        "name_ru": "\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d1\u0082-\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d1\u0082\u00d0\u00b5\u00d0\u00bd",
         "name_sort": "St. Maarten (Dutch part)",
-        "name_sv": "",
+        "name_sv": "Sint Maarten",
         "name_tr": "Sint Maarten",
-        "name_vi": "Sint Maarten\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sin",
-        "name_zh": "t Maarten",
+        "name_vi": "Sint Maarten",
+        "name_zh": "\u00e8\u008d\u00b7\u00e5\u00b1\u00ac\u00e8\u0081\u0096\u00e9\u00a6\u00ac\u00e4\u00b8\u0081",
         "ne_id": "1159321103",
         "note_adm0": "Neth.",
         "note_brk": "",
@@ -173,7 +177,7 @@
         "sovereignt": "Netherlands",
         "status": "officially-assigned",
         "su_a3": "SXM",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Sint Maarten",
         "tiny": "4",
         "tld": [
@@ -200,6 +204,10 @@
                 "common": "Saint-Martin",
                 "official": "Sint Maarten"
             },
+            "hrv": {
+                "common": "Sveti Martin",
+                "official": "Sveti Martin"
+            },
             "ita": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
@@ -208,7 +216,19 @@
                 "common": "\u30b7\u30f3\u30c8\u30fb\u30de\u30fc\u30eb\u30c6\u30f3",
                 "official": "\u30b7\u30f3\u30c8\u30de\u30fc\u30eb\u30c6\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc2e0\ud2b8\ub9c8\ub974\ud134",
+                "official": "\uc2e0\ud2b8\ub9c8\ub974\ud134"
+            },
             "nld": {
+                "common": "Sint Maarten",
+                "official": "Sint Maarten"
+            },
+            "per": {
+                "common": "\u0633\u0646 \u0645\u0627\u0631\u062a\u0646",
+                "official": "\u0633\u0646 \u0645\u0627\u0631\u062a\u0646"
+            },
+            "pol": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
             },
@@ -227,6 +247,10 @@
             "spa": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
+            },
+            "urd": {
+                "common": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+                "official": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
             },
             "zho": {
                 "common": "\u5723\u9a6c\u4e01\u5c9b",
@@ -326,10 +350,16 @@
         "subregion_code": "029",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Sint Maarten",
     "gu_a3": "SXM",
     "homepart": "-99",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "721"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "St. M.",
@@ -349,7 +379,7 @@
             "MAF"
         ],
         "brk_a3": "SXM",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Sint Maarten",
         "capital": [
@@ -359,18 +389,16 @@
         "cca3": "SXM",
         "ccn3": "534",
         "cioc": null,
-        "currency": [
-            "ANG"
-        ],
+        "currencies": {
+            "a_n_g": {
+                "name": "Netherlands Antillean guilder",
+                "symbol": "\u0192"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "St. Maartener",
-        "dialling": {
-            "calling_code": [
-                "1721"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NT",
@@ -394,10 +422,16 @@
             "region_wb": "Latin America & Caribbean",
             "subregion": "Caribbean"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Sint Maarten",
         "gu_a3": "SXM",
         "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "721"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "SX",
@@ -451,20 +485,20 @@
         "name_hu": "Sint Maarten",
         "name_id": "Sint Maarten",
         "name_it": "Sint Maarten",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0083\u0086\u00e3\u0083\u00b3",
+        "name_ja": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0083\u0086\u00e3\u0083\u00b3",
+        "name_ko": "\u00ec\u008b\u00a0\u00ed\u008a\u00b8\u00eb\u00a7\u0088\u00eb\u00a5\u00b4\u00ed\u0084\u00b4",
         "name_len": "12",
         "name_long": "Sint Maarten",
         "name_nev": "Sint Maarten",
-        "name_nl": "\u00ec\u008b\u00a0\u00ed\u008a\u00b8\u00eb\u00a7\u0088\u00eb\u00a5\u00b4\u00ed\u0084\u00b4",
+        "name_nl": "Sint Maarten",
         "name_pl": "Sint Maarten",
-        "name_pt": "Sint Maarten",
-        "name_ru": "S\u00c3\u00a3o Martinho\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d1\u0082-\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d1\u0082\u00d0\u00b5\u00d0\u00bd",
+        "name_pt": "S\u00c3\u00a3o Martinho",
+        "name_ru": "\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d1\u0082-\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d1\u0082\u00d0\u00b5\u00d0\u00bd",
         "name_sort": "St. Maarten (Dutch part)",
-        "name_sv": "",
+        "name_sv": "Sint Maarten",
         "name_tr": "Sint Maarten",
-        "name_vi": "Sint Maarten\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sin",
-        "name_zh": "t Maarten",
+        "name_vi": "Sint Maarten",
+        "name_zh": "\u00e8\u008d\u00b7\u00e5\u00b1\u00ac\u00e8\u0081\u0096\u00e9\u00a6\u00ac\u00e4\u00b8\u0081",
         "ne_id": "1159321103",
         "note_adm0": "Neth.",
         "note_brk": "",
@@ -478,7 +512,7 @@
         "sovereignt": "Netherlands",
         "status": "officially-assigned",
         "su_a3": "SXM",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Sint Maarten",
         "tiny": "4",
         "tld": [
@@ -505,6 +539,10 @@
                 "common": "Saint-Martin",
                 "official": "Sint Maarten"
             },
+            "hrv": {
+                "common": "Sveti Martin",
+                "official": "Sveti Martin"
+            },
             "ita": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
@@ -513,7 +551,19 @@
                 "common": "\u30b7\u30f3\u30c8\u30fb\u30de\u30fc\u30eb\u30c6\u30f3",
                 "official": "\u30b7\u30f3\u30c8\u30de\u30fc\u30eb\u30c6\u30f3\u5cf6"
             },
+            "kor": {
+                "common": "\uc2e0\ud2b8\ub9c8\ub974\ud134",
+                "official": "\uc2e0\ud2b8\ub9c8\ub974\ud134"
+            },
             "nld": {
+                "common": "Sint Maarten",
+                "official": "Sint Maarten"
+            },
+            "per": {
+                "common": "\u0633\u0646 \u0645\u0627\u0631\u062a\u0646",
+                "official": "\u0633\u0646 \u0645\u0627\u0631\u062a\u0646"
+            },
+            "pol": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
             },
@@ -532,6 +582,10 @@
             "spa": {
                 "common": "Sint Maarten",
                 "official": "Sint Maarten"
+            },
+            "urd": {
+                "common": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+                "official": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
             },
             "zho": {
                 "common": "\u5723\u9a6c\u4e01\u5c9b",
@@ -602,20 +656,20 @@
     "name_hu": "Sint Maarten",
     "name_id": "Sint Maarten",
     "name_it": "Sint Maarten",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0083\u0086\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0082\u00b7\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00ab\u00e3\u0083\u0086\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u008b\u00a0\u00ed\u008a\u00b8\u00eb\u00a7\u0088\u00eb\u00a5\u00b4\u00ed\u0084\u00b4",
     "name_len": "12",
     "name_long": "Sint Maarten",
     "name_nev": "Sint Maarten",
-    "name_nl": "\u00ec\u008b\u00a0\u00ed\u008a\u00b8\u00eb\u00a7\u0088\u00eb\u00a5\u00b4\u00ed\u0084\u00b4",
+    "name_nl": "Sint Maarten",
     "name_pl": "Sint Maarten",
-    "name_pt": "Sint Maarten",
-    "name_ru": "S\u00c3\u00a3o Martinho\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d1\u0082-\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d1\u0082\u00d0\u00b5\u00d0\u00bd",
+    "name_pt": "S\u00c3\u00a3o Martinho",
+    "name_ru": "\u00d0\u00a1\u00d0\u00b8\u00d0\u00bd\u00d1\u0082-\u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d1\u0082\u00d0\u00b5\u00d0\u00bd",
     "name_sort": "St. Maarten (Dutch part)",
-    "name_sv": "",
+    "name_sv": "Sint Maarten",
     "name_tr": "Sint Maarten",
-    "name_vi": "Sint Maarten\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sin",
-    "name_zh": "t Maarten",
+    "name_vi": "Sint Maarten",
+    "name_zh": "\u00e8\u008d\u00b7\u00e5\u00b1\u00ac\u00e8\u0081\u0096\u00e9\u00a6\u00ac\u00e4\u00b8\u0081",
     "ne_id": "1159321103",
     "note_adm0": "Neth.",
     "note_brk": "",
@@ -629,7 +683,7 @@
     "sovereignt": "Netherlands",
     "status": "officially-assigned",
     "su_a3": "SXM",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Sint Maarten",
     "tiny": "4",
     "tld": [
@@ -656,6 +710,10 @@
             "common": "Saint-Martin",
             "official": "Sint Maarten"
         },
+        "hrv": {
+            "common": "Sveti Martin",
+            "official": "Sveti Martin"
+        },
         "ita": {
             "common": "Sint Maarten",
             "official": "Sint Maarten"
@@ -664,7 +722,19 @@
             "common": "\u30b7\u30f3\u30c8\u30fb\u30de\u30fc\u30eb\u30c6\u30f3",
             "official": "\u30b7\u30f3\u30c8\u30de\u30fc\u30eb\u30c6\u30f3\u5cf6"
         },
+        "kor": {
+            "common": "\uc2e0\ud2b8\ub9c8\ub974\ud134",
+            "official": "\uc2e0\ud2b8\ub9c8\ub974\ud134"
+        },
         "nld": {
+            "common": "Sint Maarten",
+            "official": "Sint Maarten"
+        },
+        "per": {
+            "common": "\u0633\u0646 \u0645\u0627\u0631\u062a\u0646",
+            "official": "\u0633\u0646 \u0645\u0627\u0631\u062a\u0646"
+        },
+        "pol": {
             "common": "Sint Maarten",
             "official": "Sint Maarten"
         },
@@ -683,6 +753,10 @@
         "spa": {
             "common": "Sint Maarten",
             "official": "Sint Maarten"
+        },
+        "urd": {
+            "common": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646",
+            "official": "\u0633\u0646\u0679 \u0645\u0627\u0631\u0679\u0646"
         },
         "zho": {
             "common": "\u5723\u9a6c\u4e01\u5c9b",

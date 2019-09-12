@@ -13,7 +13,7 @@
     ],
     "borders": [],
     "brk_a3": "NIU",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Niue",
     "capital": [
@@ -38,7 +38,7 @@
         ],
         "borders": [],
         "brk_a3": "NIU",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Niue",
         "capital": [
@@ -48,18 +48,16 @@
         "cca3": "NIU",
         "ccn3": "570",
         "cioc": null,
-        "currency": [
-            "NZD"
-        ],
+        "currencies": {
+            "n_z_d": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Niuean",
-        "dialling": {
-            "calling_code": [
-                "683"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NE",
@@ -83,10 +81,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "Polynesia"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Niue",
         "gu_a3": "NIU",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "83"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "NU",
@@ -135,20 +139,20 @@
         "name_hu": "Niue",
         "name_id": "Niue",
         "name_it": "Niue",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0083\u008b\u00e3\u0082\u00a6\u00e3\u0082\u00a8",
+        "name_ja": "\u00e3\u0083\u008b\u00e3\u0082\u00a6\u00e3\u0082\u00a8",
+        "name_ko": "\u00eb\u008b\u0088\u00ec\u009a\u00b0\u00ec\u0097\u0090",
         "name_len": "4",
         "name_long": "Niue",
         "name_nev": "Niue",
-        "name_nl": "\u00eb\u008b\u0088\u00ec\u009a\u00b0\u00ec\u0097\u0090",
+        "name_nl": "Niue",
         "name_pl": "Niue",
         "name_pt": "Niue",
-        "name_ru": "Niue\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00b8\u00d1\u0083\u00d1\u008d",
+        "name_ru": "\u00d0\u009d\u00d0\u00b8\u00d1\u0083\u00d1\u008d",
         "name_sort": "Niue",
-        "name_sv": "",
+        "name_sv": "Niue",
         "name_tr": "Niue",
-        "name_vi": "Niue\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Niu",
-        "name_zh": "e",
+        "name_vi": "Niue",
+        "name_zh": "\u00e7\u00b4\u0090\u00e5\u009f\u0083",
         "ne_id": "1159321133",
         "note_adm0": "Assoc. with N.Z.",
         "note_brk": "",
@@ -162,7 +166,7 @@
         "sovereignt": "New Zealand",
         "status": "officially-assigned",
         "su_a3": "NIU",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Niue",
         "tiny": "3",
         "tld": [
@@ -201,7 +205,19 @@
                 "common": "\u30cb\u30a6\u30a8",
                 "official": "\u30cb\u30a6\u30a8"
             },
+            "kor": {
+                "common": "\ub2c8\uc6b0\uc5d0",
+                "official": "\ub2c8\uc6b0\uc5d0"
+            },
             "nld": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "per": {
+                "common": "\u0646\u06cc\u0648\u0648\u06cc",
+                "official": "\u0646\u06cc\u0648\u0648\u06cc"
+            },
+            "pol": {
                 "common": "Niue",
                 "official": "Niue"
             },
@@ -220,6 +236,10 @@
             "spa": {
                 "common": "Niue",
                 "official": "Niue"
+            },
+            "urd": {
+                "common": "\u0646\u06cc\u0648\u0648\u06d2",
+                "official": "\u0646\u06cc\u0648\u0648\u06d2"
             },
             "zho": {
                 "common": "\u7ebd\u57c3",
@@ -317,10 +337,16 @@
         "subregion_code": "061",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Niue",
     "gu_a3": "NIU",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "83"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": {
         "abbrev": "Niue",
@@ -337,7 +363,7 @@
         ],
         "borders": [],
         "brk_a3": "NIU",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Niue",
         "capital": [
@@ -347,18 +373,16 @@
         "cca3": "NIU",
         "ccn3": "570",
         "cioc": null,
-        "currency": [
-            "NZD"
-        ],
+        "currencies": {
+            "n_z_d": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Niuean",
-        "dialling": {
-            "calling_code": [
-                "683"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NE",
@@ -382,10 +406,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "Polynesia"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Niue",
         "gu_a3": "NIU",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "83"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "NU",
@@ -434,20 +464,20 @@
         "name_hu": "Niue",
         "name_id": "Niue",
         "name_it": "Niue",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0083\u008b\u00e3\u0082\u00a6\u00e3\u0082\u00a8",
+        "name_ja": "\u00e3\u0083\u008b\u00e3\u0082\u00a6\u00e3\u0082\u00a8",
+        "name_ko": "\u00eb\u008b\u0088\u00ec\u009a\u00b0\u00ec\u0097\u0090",
         "name_len": "4",
         "name_long": "Niue",
         "name_nev": "Niue",
-        "name_nl": "\u00eb\u008b\u0088\u00ec\u009a\u00b0\u00ec\u0097\u0090",
+        "name_nl": "Niue",
         "name_pl": "Niue",
         "name_pt": "Niue",
-        "name_ru": "Niue\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00b8\u00d1\u0083\u00d1\u008d",
+        "name_ru": "\u00d0\u009d\u00d0\u00b8\u00d1\u0083\u00d1\u008d",
         "name_sort": "Niue",
-        "name_sv": "",
+        "name_sv": "Niue",
         "name_tr": "Niue",
-        "name_vi": "Niue\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Niu",
-        "name_zh": "e",
+        "name_vi": "Niue",
+        "name_zh": "\u00e7\u00b4\u0090\u00e5\u009f\u0083",
         "ne_id": "1159321133",
         "note_adm0": "Assoc. with N.Z.",
         "note_brk": "",
@@ -461,7 +491,7 @@
         "sovereignt": "New Zealand",
         "status": "officially-assigned",
         "su_a3": "NIU",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Niue",
         "tiny": "3",
         "tld": [
@@ -500,7 +530,19 @@
                 "common": "\u30cb\u30a6\u30a8",
                 "official": "\u30cb\u30a6\u30a8"
             },
+            "kor": {
+                "common": "\ub2c8\uc6b0\uc5d0",
+                "official": "\ub2c8\uc6b0\uc5d0"
+            },
             "nld": {
+                "common": "Niue",
+                "official": "Niue"
+            },
+            "per": {
+                "common": "\u0646\u06cc\u0648\u0648\u06cc",
+                "official": "\u0646\u06cc\u0648\u0648\u06cc"
+            },
+            "pol": {
                 "common": "Niue",
                 "official": "Niue"
             },
@@ -519,6 +561,10 @@
             "spa": {
                 "common": "Niue",
                 "official": "Niue"
+            },
+            "urd": {
+                "common": "\u0646\u06cc\u0648\u0648\u06d2",
+                "official": "\u0646\u06cc\u0648\u0648\u06d2"
             },
             "zho": {
                 "common": "\u7ebd\u57c3",
@@ -584,20 +630,20 @@
     "name_hu": "Niue",
     "name_id": "Niue",
     "name_it": "Niue",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u008b\u00e3\u0082\u00a6\u00e3\u0082\u00a8",
+    "name_ja": "\u00e3\u0083\u008b\u00e3\u0082\u00a6\u00e3\u0082\u00a8",
+    "name_ko": "\u00eb\u008b\u0088\u00ec\u009a\u00b0\u00ec\u0097\u0090",
     "name_len": "4",
     "name_long": "Niue",
     "name_nev": "Niue",
-    "name_nl": "\u00eb\u008b\u0088\u00ec\u009a\u00b0\u00ec\u0097\u0090",
+    "name_nl": "Niue",
     "name_pl": "Niue",
     "name_pt": "Niue",
-    "name_ru": "Niue\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00b8\u00d1\u0083\u00d1\u008d",
+    "name_ru": "\u00d0\u009d\u00d0\u00b8\u00d1\u0083\u00d1\u008d",
     "name_sort": "Niue",
-    "name_sv": "",
+    "name_sv": "Niue",
     "name_tr": "Niue",
-    "name_vi": "Niue\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Niu",
-    "name_zh": "e",
+    "name_vi": "Niue",
+    "name_zh": "\u00e7\u00b4\u0090\u00e5\u009f\u0083",
     "ne_id": "1159321133",
     "note_adm0": "Assoc. with N.Z.",
     "note_brk": "",
@@ -611,7 +657,7 @@
     "sovereignt": "New Zealand",
     "status": "officially-assigned",
     "su_a3": "NIU",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Niue",
     "tiny": "3",
     "tld": [
@@ -650,7 +696,19 @@
             "common": "\u30cb\u30a6\u30a8",
             "official": "\u30cb\u30a6\u30a8"
         },
+        "kor": {
+            "common": "\ub2c8\uc6b0\uc5d0",
+            "official": "\ub2c8\uc6b0\uc5d0"
+        },
         "nld": {
+            "common": "Niue",
+            "official": "Niue"
+        },
+        "per": {
+            "common": "\u0646\u06cc\u0648\u0648\u06cc",
+            "official": "\u0646\u06cc\u0648\u0648\u06cc"
+        },
+        "pol": {
             "common": "Niue",
             "official": "Niue"
         },
@@ -669,6 +727,10 @@
         "spa": {
             "common": "Niue",
             "official": "Niue"
+        },
+        "urd": {
+            "common": "\u0646\u06cc\u0648\u0648\u06d2",
+            "official": "\u0646\u06cc\u0648\u0648\u06d2"
         },
         "zho": {
             "common": "\u7ebd\u57c3",
