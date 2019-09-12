@@ -2,6 +2,7 @@
 
 namespace PragmaRX\Countries\Update;
 
+use IlluminateAgnostic\Str\Support\Str;
 use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Services\Config;
@@ -192,6 +193,6 @@ class Timezones extends Base
      */
     public function zoneNameSnake($name)
     {
-        return snake_case(str_replace(['\\', '/', '__'], ['_', ''], $name));
+        return Str::snake(str_replace(['\\', '/', '__'], ['_', ''], $name));
     }
 }
