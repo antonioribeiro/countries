@@ -208,11 +208,11 @@ class Repository
     public function currencies()
     {
         $currencies = $this->helper->loadJsonFiles($this->helper->dataDir('currencies/default'))->mapWithKeys(function ($country, $code) {
-            return [upper($code) => $country];
+            return [Str::upper($code) => $country];
         });
 
         $overload = $this->helper->loadJsonFiles($this->helper->dataDir('currencies/overload'))->mapWithKeys(function ($country, $code) {
-            return [upper($code) => $country];
+            return [Str::upper($code) => $country];
         });
 
         return $currencies->overwrite($overload);

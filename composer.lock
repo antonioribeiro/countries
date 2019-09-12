@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9bc204a062365ed05967dbda6c07dc",
+    "content-hash": "65d605ef5cfe53d090670c8db9d5a75c",
     "packages": [
         {
             "name": "colinodell/json5",
@@ -391,16 +391,16 @@
         },
         {
             "name": "pragmarx/coollection",
-            "version": "v0.6.2",
+            "version": "v0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonioribeiro/coollection.git",
-                "reference": "76db6ea9fd53c7265d23d754f934cfdd866c2f22"
+                "reference": "be53426f28836e7d78d4e9d57bdb1b6d007e6b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/coollection/zipball/76db6ea9fd53c7265d23d754f934cfdd866c2f22",
-                "reference": "76db6ea9fd53c7265d23d754f934cfdd866c2f22",
+                "url": "https://api.github.com/repos/antonioribeiro/coollection/zipball/be53426f28836e7d78d4e9d57bdb1b6d007e6b5b",
+                "reference": "be53426f28836e7d78d4e9d57bdb1b6d007e6b5b",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +451,7 @@
                 "laravel",
                 "pragmarx"
             ],
-            "time": "2019-03-17T16:53:47+00:00"
+            "time": "2019-09-12T03:51:12+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
