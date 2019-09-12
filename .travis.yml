@@ -25,6 +25,7 @@ before_script:
   - '[[ "$TRAVIS_PHP_VERSION" == "7.3" || "$TRAVIS_PHP_VERSION" == "nightly" || "$TRAVIS_PHP_VERSION" == "7.4snapshot" ]] || phpenv config-rm xdebug.ini'
   - travis_retry composer self-update
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
+  - '[[ "$TRAVIS_PHP_VERSION" == "7.4snapshot" ]] && composer require nette/finder:"dev-master" --no-interaction --prefer-dist'
 
 script:
   - travis_wait vendor/bin/phpunit --coverage-clover=coverage.clover
