@@ -356,7 +356,7 @@ class Helper
         $array = arrayable($array) ? $array->toArray() : $array;
 
         array_walk($array, function ($value, $key) use (&$result) {
-            $result[snake_case($key)] = arrayable($value) || is_array($value)
+            $result[Str::snake($key)] = arrayable($value) || is_array($value)
                 ? $this->arrayKeysSnakeRecursive($value)
                 : $value;
         });
@@ -411,7 +411,7 @@ class Helper
      */
     public function caseForKey($admin)
     {
-        return snake_case(strtolower(str_replace('-', '_', $admin)));
+        return Str::snake(strtolower(str_replace('-', '_', $admin)));
     }
 
     /**
