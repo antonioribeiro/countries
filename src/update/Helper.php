@@ -506,7 +506,7 @@ class Helper
      */
     public function moveDataFile($from, $to)
     {
-        if (str_contains($from, '*.')) {
+        if (Str::contains($from, '*.')) {
             $this->moveFilesWildcard($from, $to);
 
             return;
