@@ -42,7 +42,7 @@ class Config
      */
     protected function initialize($config = [])
     {
-        if (is_object($config)) {
+        if (\is_object($config)) {
             $this->config = $config;
 
             $this->prefix = 'countries.';
@@ -83,6 +83,6 @@ class Config
      */
     public function __call($name, $arguments)
     {
-        return call_user_func_array([$this->config, $name], $arguments);
+        return \call_user_func_array([$this->config, $name], $arguments);
     }
 }

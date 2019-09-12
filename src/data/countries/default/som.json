@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SOM",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Somalia",
     "alt_spellings": [
         "SO",
@@ -21,7 +21,7 @@
         "KEN"
     ],
     "brk_a3": "SOM",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Somalia",
     "capital": [
@@ -118,10 +118,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Somalia",
     "gu_a3": "SOM",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "52"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "SO",
@@ -173,20 +179,20 @@
     "name_hu": "Szom\u00c3\u00a1lia",
     "name_id": "Somalia",
     "name_it": "Somalia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00bd\u00e3\u0083\u009e\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0082\u00bd\u00e3\u0083\u009e\u00e3\u0083\u00aa\u00e3\u0082\u00a2",
+    "name_ko": "\u00ec\u0086\u008c\u00eb\u00a7\u0090\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
     "name_len": "7",
     "name_long": "Somalia",
     "name_nev": "Somalia",
-    "name_nl": "\u00ec\u0086\u008c\u00eb\u00a7\u0090\u00eb\u00a6\u00ac\u00ec\u0095\u0084",
-    "name_pl": "Somali\u00c3\u00ab",
-    "name_pt": "Somalia",
-    "name_ru": "Som\u00c3\u00a1lia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00be\u00d0\u00bc\u00d0\u00b0\u00d0\u00bb\u00d0\u00b8",
+    "name_nl": "Somali\u00c3\u00ab",
+    "name_pl": "Somalia",
+    "name_pt": "Som\u00c3\u00a1lia",
+    "name_ru": "\u00d0\u00a1\u00d0\u00be\u00d0\u00bc\u00d0\u00b0\u00d0\u00bb\u00d0\u00b8",
     "name_sort": "Somalia",
-    "name_sv": "",
-    "name_tr": "Somalia",
-    "name_vi": "Somali\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Som",
-    "name_zh": "alia",
+    "name_sv": "Somalia",
+    "name_tr": "Somali",
+    "name_vi": "Somalia",
+    "name_zh": "\u00e7\u00b4\u00a2\u00e9\u00a9\u00ac\u00e9\u0087\u008c",
     "ne_id": "1159321261",
     "note_adm0": "",
     "note_brk": "",
@@ -195,12 +201,12 @@
     "pop_year": "2017",
     "postal": "SO",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SOM",
     "sovereignt": "Somalia",
     "status": "officially-assigned",
     "su_a3": "SOM",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Somalia",
     "tiny": "-99",
     "tld": [
@@ -239,9 +245,21 @@
             "common": "\u30bd\u30de\u30ea\u30a2",
             "official": "\u30bd\u30de\u30ea\u30a2\u9023\u90a6\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc18c\ub9d0\ub9ac\uc544",
+            "official": " \uc18c\ub9d0\ub9ac\uc544 \uc5f0\ubc29 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Somali\u00eb",
             "official": "Federale Republiek Somali\u00eb"
+        },
+        "per": {
+            "common": "\u0633\u0648\u0645\u0627\u0644\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0641\u062f\u0631\u0627\u0644 \u0633\u0648\u0645\u0627\u0644\u06cc"
+        },
+        "pol": {
+            "common": "Somalia",
+            "official": "Federalna Republika Somalii"
         },
         "por": {
             "common": "Som\u00e1lia",
@@ -258,6 +276,10 @@
         "spa": {
             "common": "Somalia",
             "official": "Rep\u00fablica Federal de Somalia"
+        },
+        "urd": {
+            "common": "\u0635\u0648\u0645\u0627\u0644\u06cc\u06c1",
+            "official": "\u0648\u0641\u0627\u0642\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0635\u0648\u0645\u0627\u0644\u06cc\u06c1"
         },
         "zho": {
             "common": "\u7d22\u9a6c\u91cc",

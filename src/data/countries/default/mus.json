@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MUS",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Mauritius",
     "alt_spellings": [
         "MU",
@@ -15,7 +15,7 @@
     ],
     "borders": [],
     "brk_a3": "MUS",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mauritius",
     "capital": [
@@ -107,10 +107,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Mauritius",
     "gu_a3": "MUS",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "30"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "MU",
@@ -167,20 +173,20 @@
     "name_hu": "Mauritius",
     "name_id": "Mauritius",
     "name_it": "Mauritius",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00a2\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00b7\u00e3\u0083\u00a3\u00e3\u0082\u00b9",
+    "name_ja": "\u00e3\u0083\u00a2\u00e3\u0083\u00bc\u00e3\u0083\u00aa\u00e3\u0082\u00b7\u00e3\u0083\u00a3\u00e3\u0082\u00b9",
+    "name_ko": "\u00eb\u00aa\u00a8\u00eb\u00a6\u00ac\u00ec\u0085\u0094\u00ec\u008a\u00a4",
     "name_len": "9",
     "name_long": "Mauritius",
     "name_nev": "Mauritius",
-    "name_nl": "\u00eb\u00aa\u00a8\u00eb\u00a6\u00ac\u00ec\u0085\u0094\u00ec\u008a\u00a4",
+    "name_nl": "Mauritius",
     "name_pl": "Mauritius",
-    "name_pt": "Mauritius",
-    "name_ru": "Maur\u00c3\u00adcia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00b0\u00d0\u00b2\u00d1\u0080\u00d0\u00b8\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+    "name_pt": "Maur\u00c3\u00adcia",
+    "name_ru": "\u00d0\u009c\u00d0\u00b0\u00d0\u00b2\u00d1\u0080\u00d0\u00b8\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
     "name_sort": "Mauritius",
-    "name_sv": "",
+    "name_sv": "Mauritius",
     "name_tr": "Mauritius",
-    "name_vi": "Mauritius\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Mau",
-    "name_zh": "ritius",
+    "name_vi": "Mauritius",
+    "name_zh": "\u00e6\u00af\u009b\u00e9\u0087\u008c\u00e6\u00b1\u0082\u00e6\u0096\u00af",
     "ne_id": "1159321079",
     "note_adm0": "",
     "note_brk": "",
@@ -194,7 +200,7 @@
     "sovereignt": "Mauritius",
     "status": "officially-assigned",
     "su_a3": "MUS",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Mauritius",
     "tiny": "2",
     "tld": [
@@ -233,9 +239,21 @@
             "common": "\u30e2\u30fc\u30ea\u30b7\u30e3\u30b9",
             "official": "\u30e2\u30fc\u30ea\u30b7\u30e3\u30b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubaa8\ub9ac\uc154\uc2a4",
+            "official": "\ubaa8\ub9ac\uc154\uc2a4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Mauritius",
             "official": "Republiek Mauritius"
+        },
+        "per": {
+            "common": "\u0645\u0648\u0631\u06cc\u0633",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0645\u0648\u0631\u06cc\u0633"
+        },
+        "pol": {
+            "common": "Mauritius",
+            "official": "Republika Mauritiusu"
         },
         "por": {
             "common": "Maur\u00edcio",
@@ -252,6 +270,10 @@
         "spa": {
             "common": "Mauricio",
             "official": "Rep\u00fablica de Mauricio"
+        },
+        "urd": {
+            "common": "\u0645\u0648\u0631\u06cc\u0634\u0633",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0648\u0631\u06cc\u0634\u0633"
         },
         "zho": {
             "common": "\u6bdb\u91cc\u6c42\u65af",

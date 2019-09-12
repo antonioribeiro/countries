@@ -14,7 +14,7 @@
     ],
     "borders": [],
     "brk_a3": "COK",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cook Is.",
     "capital": [
@@ -106,10 +106,16 @@
         "subregion_code": "061",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Cook Islands",
     "gu_a3": "COK",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "82"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": {
         "abbrev": "Cook Is.",
@@ -127,7 +133,7 @@
         ],
         "borders": [],
         "brk_a3": "COK",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Cook Is.",
         "capital": [
@@ -137,19 +143,20 @@
         "cca3": "COK",
         "ccn3": "184",
         "cioc": "COK",
-        "currency": [
-            "NZD",
-            "CKD"
-        ],
+        "currencies": {
+            "c_k_d": {
+                "name": "Cook Islands dollar",
+                "symbol": "$"
+            },
+            "n_z_d": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Cook Islander",
-        "dialling": {
-            "calling_code": [
-                "682"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "CW",
@@ -173,10 +180,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "Polynesia"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Cook Islands",
         "gu_a3": "COK",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "82"
+            ]
+        },
         "income_grp": "3. Upper middle income",
         "independent": null,
         "iso_a2": "CK",
@@ -252,7 +265,7 @@
         "sovereignt": "New Zealand",
         "status": "officially-assigned",
         "su_a3": "COK",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Cook Islands",
         "tiny": "3",
         "tld": [
@@ -269,7 +282,7 @@
             },
             "deu": {
                 "common": "Cookinseln",
-                "official": "Cook-Inseln"
+                "official": "Cookinseln"
             },
             "est": {
                 "common": "Cooki saared",
@@ -295,9 +308,21 @@
                 "common": "\u30af\u30c3\u30af\u8af8\u5cf6",
                 "official": "\u30af\u30c3\u30af\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\ucfe1 \uc81c\ub3c4",
+                "official": "\ucfe1 \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "Cookeilanden",
                 "official": "Cook eilanden"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9"
+            },
+            "pol": {
+                "common": "Wyspy Cooka",
+                "official": "Wyspy Cooka"
             },
             "por": {
                 "common": "Ilhas Cook",
@@ -314,6 +339,10 @@
             "spa": {
                 "common": "Islas Cook",
                 "official": "Islas Cook"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06a9",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06a9"
             },
             "zho": {
                 "common": "\u5e93\u514b\u7fa4\u5c9b",
@@ -406,7 +435,7 @@
     "sovereignt": "New Zealand",
     "status": "officially-assigned",
     "su_a3": "COK",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Cook Islands",
     "tiny": "3",
     "tld": [
@@ -449,9 +478,21 @@
             "common": "\u30af\u30c3\u30af\u8af8\u5cf6",
             "official": "\u30af\u30c3\u30af\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\ucfe1 \uc81c\ub3c4",
+            "official": "\ucfe1 \uc81c\ub3c4"
+        },
         "nld": {
             "common": "Cookeilanden",
             "official": "Cook eilanden"
+        },
+        "per": {
+            "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9",
+            "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9"
+        },
+        "pol": {
+            "common": "Wyspy Cooka",
+            "official": "Wyspy Cooka"
         },
         "por": {
             "common": "Ilhas Cook",
@@ -468,6 +509,10 @@
         "spa": {
             "common": "Islas Cook",
             "official": "Islas Cook"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06a9",
+            "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06a9"
         },
         "zho": {
             "common": "\u5e93\u514b\u7fa4\u5c9b",

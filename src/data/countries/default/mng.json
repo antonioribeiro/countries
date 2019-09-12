@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MNG",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Mongolia",
     "alt_spellings": [
         "MN"
@@ -16,7 +16,7 @@
         "RUS"
     ],
     "brk_a3": "MNG",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mongolia",
     "capital": [
@@ -114,10 +114,16 @@
         "subregion_code": "030",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Mongolia",
     "gu_a3": "MNG",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "76"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "MN",
@@ -164,20 +170,20 @@
     "name_hu": "Mong\u00c3\u00b3lia",
     "name_id": "Mongolia",
     "name_it": "Mongolia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0082\u00b4\u00e3\u0083\u00ab\u00e5\u009b\u00bd",
+    "name_ja": "\u00e3\u0083\u00a2\u00e3\u0083\u00b3\u00e3\u0082\u00b4\u00e3\u0083\u00ab\u00e5\u009b\u00bd",
+    "name_ko": "\u00eb\u00aa\u00bd\u00ea\u00b3\u00a8",
     "name_len": "8",
     "name_long": "Mongolia",
     "name_nev": "Mongolia",
-    "name_nl": "\u00eb\u00aa\u00bd\u00ea\u00b3\u00a8",
-    "name_pl": "Mongoli\u00c3\u00ab",
-    "name_pt": "Mongolia",
-    "name_ru": "Mong\u00c3\u00b3lia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00be\u00d0\u00bd\u00d0\u00b3\u00d0\u00be\u00d0\u00bb\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Mongoli\u00c3\u00ab",
+    "name_pl": "Mongolia",
+    "name_pt": "Mong\u00c3\u00b3lia",
+    "name_ru": "\u00d0\u009c\u00d0\u00be\u00d0\u00bd\u00d0\u00b3\u00d0\u00be\u00d0\u00bb\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Mongolia",
-    "name_sv": "",
-    "name_tr": "Mongoliet",
-    "name_vi": "Mo\u00c4\u009folistan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000M\u00c3\u00b4",
-    "name_zh": "ng C\u00e1\u00bb\u0095",
+    "name_sv": "Mongoliet",
+    "name_tr": "Mo\u00c4\u009folistan",
+    "name_vi": "M\u00c3\u00b4ng C\u00e1\u00bb\u0095",
+    "name_zh": "\u00e8\u0092\u0099\u00e5\u008f\u00a4\u00e5\u009b\u00bd",
     "ne_id": "1159321071",
     "note_adm0": "",
     "note_brk": "",
@@ -186,12 +192,12 @@
     "pop_year": "2017",
     "postal": "MN",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "MNG",
     "sovereignt": "Mongolia",
     "status": "officially-assigned",
     "su_a3": "MNG",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Mongolia",
     "tiny": "-99",
     "tld": [
@@ -230,9 +236,21 @@
             "common": "\u30e2\u30f3\u30b4\u30eb",
             "official": "\u30e2\u30f3\u30b4\u30eb"
         },
+        "kor": {
+            "common": "\ubabd\uace8\uad6d",
+            "official": "\ubabd\uace8"
+        },
         "nld": {
             "common": "Mongoli\u00eb",
             "official": "Mongoli\u00eb"
+        },
+        "per": {
+            "common": "\u0645\u063a\u0648\u0644\u0633\u062a\u0627\u0646",
+            "official": "\u0645\u063a\u0648\u0644\u0633\u062a\u0627\u0646"
+        },
+        "pol": {
+            "common": "Mongolia",
+            "official": "Mongolia"
         },
         "por": {
             "common": "Mong\u00f3lia",
@@ -249,6 +267,10 @@
         "spa": {
             "common": "Mongolia",
             "official": "Mongolia"
+        },
+        "urd": {
+            "common": "\u0645\u0646\u06af\u0648\u0644\u06cc\u0627",
+            "official": "\u0645\u0646\u06af\u0648\u0644\u06cc\u0627"
         },
         "zho": {
             "common": "\u8499\u53e4",

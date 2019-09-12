@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "PRT",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Portugal",
     "alt_spellings": [
         "PT",
@@ -18,7 +18,7 @@
         "ESP"
     ],
     "brk_a3": "PR1",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Portugal",
     "capital": [
@@ -120,10 +120,16 @@
         "subregion_code": "039",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Portugal",
     "gu_a3": "PRT",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "51"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "PT",
@@ -170,20 +176,20 @@
     "name_hu": "Portug\u00c3\u00a1lia",
     "name_id": "Portugal",
     "name_it": "Portogallo",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u009d\u00e3\u0083\u00ab\u00e3\u0083\u0088\u00e3\u0082\u00ac\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0083\u009d\u00e3\u0083\u00ab\u00e3\u0083\u0088\u00e3\u0082\u00ac\u00e3\u0083\u00ab",
+    "name_ko": "\u00ed\u008f\u00ac\u00eb\u00a5\u00b4\u00ed\u0088\u00ac\u00ea\u00b0\u0088",
     "name_len": "8",
     "name_long": "Portugal",
     "name_nev": "Portugal",
-    "name_nl": "\u00ed\u008f\u00ac\u00eb\u00a5\u00b4\u00ed\u0088\u00ac\u00ea\u00b0\u0088",
-    "name_pl": "Portugal",
-    "name_pt": "Portugalia",
-    "name_ru": "Portugal\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009f\u00d0\u00be\u00d1\u0080\u00d1\u0082\u00d1\u0083\u00d0\u00b3\u00d0\u00b0\u00d0\u00bb\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Portugal",
+    "name_pl": "Portugalia",
+    "name_pt": "Portugal",
+    "name_ru": "\u00d0\u009f\u00d0\u00be\u00d1\u0080\u00d1\u0082\u00d1\u0083\u00d0\u00b3\u00d0\u00b0\u00d0\u00bb\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Portugal",
-    "name_sv": "",
-    "name_tr": "Portugal",
-    "name_vi": "Portekiz\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000B\u00e1\u00bb",
-    "name_zh": "\u0093 \u00c4\u0090\u00c3\u00a0o Nha",
+    "name_sv": "Portugal",
+    "name_tr": "Portekiz",
+    "name_vi": "B\u00e1\u00bb\u0093 \u00c4\u0090\u00c3\u00a0o Nha",
+    "name_zh": "\u00e8\u0091\u00a1\u00e8\u0090\u0084\u00e7\u0089\u0099",
     "ne_id": "1159321187",
     "note_adm0": "",
     "note_brk": "",
@@ -192,7 +198,7 @@
     "pop_year": "2017",
     "postal": "P",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "PRT",
     "sovereignt": "Portugal",
     "status": "officially-assigned",
@@ -236,9 +242,21 @@
             "common": "\u30dd\u30eb\u30c8\u30ac\u30eb",
             "official": "\u30dd\u30eb\u30c8\u30ac\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud3ec\ub974\ud22c\uac08",
+            "official": "\ud3ec\ub974\ud22c\uac08 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Portugal",
             "official": "Portugese Republiek"
+        },
+        "per": {
+            "common": "\u067e\u0631\u062a\u063a\u0627\u0644",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u067e\u0631\u062a\u063a\u0627\u0644"
+        },
+        "pol": {
+            "common": "Portugalia",
+            "official": "Republika Portugalska"
         },
         "por": {
             "common": "Portugal",
@@ -255,6 +273,10 @@
         "spa": {
             "common": "Portugal",
             "official": "Rep\u00fablica Portuguesa"
+        },
+        "urd": {
+            "common": "\u067e\u0631\u062a\u06af\u0627\u0644",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0631\u062a\u06af\u0627\u0644"
         },
         "zho": {
             "common": "\u8461\u8404\u7259",

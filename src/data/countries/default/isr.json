@@ -21,7 +21,7 @@
         "SYR"
     ],
     "brk_a3": "ISR",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Israel",
     "capital": [
@@ -120,10 +120,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Israel",
     "gu_a3": "ISR",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "72"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "IL",
@@ -175,20 +181,20 @@
     "name_hu": "Izrael",
     "name_id": "Israel",
     "name_it": "Israele",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a4\u00e3\u0082\u00b9\u00e3\u0083\u00a9\u00e3\u0082\u00a8\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00a4\u00e3\u0082\u00b9\u00e3\u0083\u00a9\u00e3\u0082\u00a8\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u009d\u00b4\u00ec\u008a\u00a4\u00eb\u009d\u00bc\u00ec\u0097\u0098",
     "name_len": "6",
     "name_long": "Israel",
     "name_nev": "Israel",
-    "name_nl": "\u00ec\u009d\u00b4\u00ec\u008a\u00a4\u00eb\u009d\u00bc\u00ec\u0097\u0098",
-    "name_pl": "Isra\u00c3\u00abl",
-    "name_pt": "Izrael",
-    "name_ru": "Israel\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0098\u00d0\u00b7\u00d1\u0080\u00d0\u00b0\u00d0\u00b8\u00d0\u00bb\u00d1\u008c",
+    "name_nl": "Isra\u00c3\u00abl",
+    "name_pl": "Izrael",
+    "name_pt": "Israel",
+    "name_ru": "\u00d0\u0098\u00d0\u00b7\u00d1\u0080\u00d0\u00b0\u00d0\u00b8\u00d0\u00bb\u00d1\u008c",
     "name_sort": "Israel",
-    "name_sv": "",
-    "name_tr": "Israel",
-    "name_vi": "\u00c4\u00b0srail\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Isr",
-    "name_zh": "ael",
+    "name_sv": "Israel",
+    "name_tr": "\u00c4\u00b0srail",
+    "name_vi": "Israel",
+    "name_zh": "\u00e4\u00bb\u00a5\u00e8\u0089\u00b2\u00e5\u0088\u0097",
     "ne_id": "1159320895",
     "note_adm0": "",
     "note_brk": "",
@@ -197,12 +203,12 @@
     "pop_year": "2017",
     "postal": "IS",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "IS1",
     "sovereignt": "Israel",
     "status": "officially-assigned",
     "su_a3": "ISR",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Israel",
     "tiny": "-99",
     "tld": [
@@ -241,9 +247,21 @@
             "common": "\u30a4\u30b9\u30e9\u30a8\u30eb",
             "official": "\u30a4\u30b9\u30e9\u30a8\u30eb\u56fd"
         },
+        "kor": {
+            "common": "\uc774\uc2a4\ub77c\uc5d8",
+            "official": "\uc774\uc2a4\ub77c\uc5d8\uad6d"
+        },
         "nld": {
             "common": "Isra\u00ebl",
             "official": "Staat Isra\u00ebl"
+        },
+        "per": {
+            "common": "\u0641\u0644\u0633\u0637\u064a\u0646 \u0627\u0634\u063a\u0627\u0644\u06cc",
+            "official": "\u0641\u0644\u0633\u0637\u064a\u0646 \u0627\u0634\u063a\u0627\u0644\u06cc"
+        },
+        "pol": {
+            "common": "Izrael",
+            "official": "Pa\u0144stwo Izrael"
         },
         "por": {
             "common": "Israel",
@@ -260,6 +278,10 @@
         "spa": {
             "common": "Israel",
             "official": "Estado de Israel"
+        },
+        "urd": {
+            "common": "\u0627\u0633\u0631\u0627\u0626\u06cc\u0644",
+            "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0627\u0633\u0631\u0627\u0626\u06cc\u0644"
         },
         "zho": {
             "common": "\u4ee5\u8272\u5217",

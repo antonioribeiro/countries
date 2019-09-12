@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "GNB",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Guinea-Bissau",
     "alt_spellings": [
         "GW",
@@ -18,7 +18,7 @@
         "SEN"
     ],
     "brk_a3": "GNB",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Guinea-Bissau",
     "capital": [
@@ -113,10 +113,16 @@
         "subregion_code": "011",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Guinea-Bissau",
     "gu_a3": "GNB",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "45"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "GW",
@@ -167,14 +173,14 @@
     "name_hu": "Bissau-Guinea",
     "name_id": "Guinea-Bissau",
     "name_it": "Guinea-Bissau",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00ae\u00e3\u0083\u008b\u00e3\u0082\u00a2\u00e3\u0083\u0093\u00e3\u0082\u00b5\u00e3\u0082\u00a6",
+    "name_ja": "\u00e3\u0082\u00ae\u00e3\u0083\u008b\u00e3\u0082\u00a2\u00e3\u0083\u0093\u00e3\u0082\u00b5\u00e3\u0082\u00a6",
+    "name_ko": "\u00ea\u00b8\u00b0\u00eb\u008b\u0088\u00eb\u00b9\u0084\u00ec\u0082\u00ac\u00ec\u009a\u00b0",
     "name_len": "13",
     "name_long": "Guinea-Bissau",
     "name_nev": "Guinea-Bissau",
-    "name_nl": "\u00ea\u00b8\u00b0\u00eb\u008b\u0088\u00eb\u00b9\u0084\u00ec\u0082\u00ac\u00ec\u009a\u00b0",
-    "name_pl": "Guinee-Bissau",
-    "name_pt": "Gwinea Bissau",
+    "name_nl": "Guinee-Bissau",
+    "name_pl": "Gwinea Bissau",
+    "name_pt": "Guin\u00c3\u00a9-Bissau",
     "name_rinvex": {
         "common": "Guinea-Bissau",
         "native": {
@@ -185,12 +191,12 @@
         },
         "official": "Republic of Guinea-Bissau"
     },
-    "name_ru": "Guin\u00c3\u00a9-Bissau\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d0\u00b2\u00d0\u00b8\u00d0\u00bd\u00d0\u00b5\u00d1\u008f-\u00d0\u0091\u00d0\u00b8\u00d1\u0081\u00d0\u00b0\u00d1\u0083",
+    "name_ru": "\u00d0\u0093\u00d0\u00b2\u00d0\u00b8\u00d0\u00bd\u00d0\u00b5\u00d1\u008f-\u00d0\u0091\u00d0\u00b8\u00d1\u0081\u00d0\u00b0\u00d1\u0083",
     "name_sort": "Guinea-Bissau",
-    "name_sv": "",
-    "name_tr": "Guinea-Bissau",
-    "name_vi": "Gine-Bissau\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gui",
-    "name_zh": "n\u00c3\u00a9-Bissau",
+    "name_sv": "Guinea-Bissau",
+    "name_tr": "Gine-Bissau",
+    "name_vi": "Guin\u00c3\u00a9-Bissau",
+    "name_zh": "\u00e5\u00b9\u00be\u00e5\u0085\u00a7\u00e4\u00ba\u009e\u00e6\u00af\u0094\u00e7\u00b4\u00a2",
     "ne_id": "1159320799",
     "note_adm0": "",
     "note_brk": "",
@@ -199,12 +205,12 @@
     "pop_year": "2017",
     "postal": "GW",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "GNB",
     "sovereignt": "Guinea-Bissau",
     "status": "officially-assigned",
     "su_a3": "GNB",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Guinea-Bissau",
     "tiny": "-99",
     "tld": [
@@ -243,9 +249,21 @@
             "common": "\u30ae\u30cb\u30a2\u30d3\u30b5\u30a6",
             "official": "\u30ae\u30cb\u30a2\u30d3\u30b5\u30a6\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uae30\ub2c8\ube44\uc0ac\uc6b0",
+            "official": "\uae30\ub2c8\ube44\uc0ac\uc6b0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Guinee-Bissau",
             "official": "Republiek Guinee-Bissau"
+        },
+        "per": {
+            "common": "\u06af\u06cc\u0646\u0647 \u0628\u06cc\u0633\u0627\u0626\u0648",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u06af\u06cc\u0646\u0647 \u0628\u06cc\u0633\u0627\u0626\u0648"
+        },
+        "pol": {
+            "common": "Gwinea Bissau",
+            "official": "Republika Gwinei Bissau"
         },
         "por": {
             "common": "Guin\u00e9-Bissau",
@@ -262,6 +280,10 @@
         "spa": {
             "common": "Guinea-Bis\u00e1u",
             "official": "Rep\u00fablica de Guinea-Bissau"
+        },
+        "urd": {
+            "common": "\u06af\u0646\u06cc \u0628\u0633\u0627\u0624",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u0646\u06cc \u0628\u0633\u0627\u0624"
         },
         "zho": {
             "common": "\u51e0\u5185\u4e9a\u6bd4\u7ecd",

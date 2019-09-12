@@ -16,7 +16,7 @@
     ],
     "borders": [],
     "brk_a3": "ALD",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "\u00c3\u0085land",
     "capital": [
@@ -44,7 +44,7 @@
         ],
         "borders": [],
         "brk_a3": "ALD",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "\u00c3\u0085land",
         "capital": [
@@ -54,18 +54,16 @@
         "cca3": "ALA",
         "ccn3": "248",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "\u00c5landish",
-        "dialling": {
-            "calling_code": [
-                "358"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -89,10 +87,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "Northern Europe"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Aland",
         "gu_a3": "ALD",
         "homepart": "-99",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "AX",
@@ -136,20 +140,20 @@
         "name_hu": "\u00c3\u0085land",
         "name_id": "\u00c3\u0085land",
         "name_it": "Isole \u00c3\u0085land",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ja": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ko": "\u00ec\u0098\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
         "name_len": "5",
         "name_long": "\u00c3\u0085land Islands",
         "name_nev": "\u00c3\u0085land",
-        "name_nl": "\u00ec\u0098\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
-        "name_pl": "\u00c3\u0085land",
-        "name_pt": "Wyspy Alandzkie",
-        "name_ru": "\u00c3\u0085land\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0090\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+        "name_nl": "\u00c3\u0085land",
+        "name_pl": "Wyspy Alandzkie",
+        "name_pt": "\u00c3\u0085land",
+        "name_ru": "\u00d0\u0090\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
         "name_sort": "Aland",
-        "name_sv": "",
+        "name_sv": "\u00c3\u0085land",
         "name_tr": "\u00c3\u0085land",
-        "name_vi": "\u00c3\u0085land\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c3\u0085l",
-        "name_zh": "and",
+        "name_vi": "\u00c3\u0085land",
+        "name_zh": "\u00e5\u00a5\u00a5\u00e5\u0085\u00b0\u00e7\u00be\u00a4\u00e5\u00b2\u009b",
         "ne_id": "1159320621",
         "note_adm0": "Fin.",
         "note_brk": "",
@@ -163,7 +167,7 @@
         "sovereignt": "Finland",
         "status": "officially-assigned",
         "su_a3": "ALD",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Aland",
         "tiny": "5",
         "tld": [
@@ -202,9 +206,21 @@
                 "common": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6",
                 "official": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\uc62c\ub780\ub4dc \uc81c\ub3c4",
+                "official": "\uc62c\ub780\ub4dc \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "\u00c5landeilanden",
                 "official": "\u00c5land eilanden"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f"
+            },
+            "pol": {
+                "common": "Wyspy Alandzkie",
+                "official": "Wyspy Alandzkie"
             },
             "por": {
                 "common": "Al\u00e2ndia",
@@ -221,6 +237,10 @@
             "spa": {
                 "common": "Alandia",
                 "official": "Islas \u00c5land"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
             },
             "zho": {
                 "common": "\u5965\u5170\u7fa4\u5c9b",
@@ -314,10 +334,16 @@
         "subregion_code": "154",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Aland",
     "gu_a3": "ALD",
     "homepart": "-99",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "5818"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": {
         "abbrev": "\u00c3\u0085land",
@@ -337,7 +363,7 @@
         ],
         "borders": [],
         "brk_a3": "ALD",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "\u00c3\u0085land",
         "capital": [
@@ -347,18 +373,16 @@
         "cca3": "ALA",
         "ccn3": "248",
         "cioc": null,
-        "currency": [
-            "EUR"
-        ],
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "\u00c5landish",
-        "dialling": {
-            "calling_code": [
-                "358"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -382,10 +406,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "Northern Europe"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Aland",
         "gu_a3": "ALD",
         "homepart": "-99",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
         "income_grp": "1. High income: OECD",
         "independent": null,
         "iso_a2": "AX",
@@ -429,20 +459,20 @@
         "name_hu": "\u00c3\u0085land",
         "name_id": "\u00c3\u0085land",
         "name_it": "Isole \u00c3\u0085land",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ja": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ko": "\u00ec\u0098\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
         "name_len": "5",
         "name_long": "\u00c3\u0085land Islands",
         "name_nev": "\u00c3\u0085land",
-        "name_nl": "\u00ec\u0098\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
-        "name_pl": "\u00c3\u0085land",
-        "name_pt": "Wyspy Alandzkie",
-        "name_ru": "\u00c3\u0085land\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0090\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+        "name_nl": "\u00c3\u0085land",
+        "name_pl": "Wyspy Alandzkie",
+        "name_pt": "\u00c3\u0085land",
+        "name_ru": "\u00d0\u0090\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
         "name_sort": "Aland",
-        "name_sv": "",
+        "name_sv": "\u00c3\u0085land",
         "name_tr": "\u00c3\u0085land",
-        "name_vi": "\u00c3\u0085land\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c3\u0085l",
-        "name_zh": "and",
+        "name_vi": "\u00c3\u0085land",
+        "name_zh": "\u00e5\u00a5\u00a5\u00e5\u0085\u00b0\u00e7\u00be\u00a4\u00e5\u00b2\u009b",
         "ne_id": "1159320621",
         "note_adm0": "Fin.",
         "note_brk": "",
@@ -456,7 +486,7 @@
         "sovereignt": "Finland",
         "status": "officially-assigned",
         "su_a3": "ALD",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Aland",
         "tiny": "5",
         "tld": [
@@ -495,9 +525,21 @@
                 "common": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6",
                 "official": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6"
             },
+            "kor": {
+                "common": "\uc62c\ub780\ub4dc \uc81c\ub3c4",
+                "official": "\uc62c\ub780\ub4dc \uc81c\ub3c4"
+            },
             "nld": {
                 "common": "\u00c5landeilanden",
                 "official": "\u00c5land eilanden"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f"
+            },
+            "pol": {
+                "common": "Wyspy Alandzkie",
+                "official": "Wyspy Alandzkie"
             },
             "por": {
                 "common": "Al\u00e2ndia",
@@ -514,6 +556,10 @@
             "spa": {
                 "common": "Alandia",
                 "official": "Islas \u00c5land"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
             },
             "zho": {
                 "common": "\u5965\u5170\u7fa4\u5c9b",
@@ -574,20 +620,20 @@
     "name_hu": "\u00c3\u0085land",
     "name_id": "\u00c3\u0085land",
     "name_it": "Isole \u00c3\u0085land",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+    "name_ja": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+    "name_ko": "\u00ec\u0098\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
     "name_len": "5",
     "name_long": "\u00c3\u0085land Islands",
     "name_nev": "\u00c3\u0085land",
-    "name_nl": "\u00ec\u0098\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
-    "name_pl": "\u00c3\u0085land",
-    "name_pt": "Wyspy Alandzkie",
-    "name_ru": "\u00c3\u0085land\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0090\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+    "name_nl": "\u00c3\u0085land",
+    "name_pl": "Wyspy Alandzkie",
+    "name_pt": "\u00c3\u0085land",
+    "name_ru": "\u00d0\u0090\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
     "name_sort": "Aland",
-    "name_sv": "",
+    "name_sv": "\u00c3\u0085land",
     "name_tr": "\u00c3\u0085land",
-    "name_vi": "\u00c3\u0085land\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c3\u0085l",
-    "name_zh": "and",
+    "name_vi": "\u00c3\u0085land",
+    "name_zh": "\u00e5\u00a5\u00a5\u00e5\u0085\u00b0\u00e7\u00be\u00a4\u00e5\u00b2\u009b",
     "ne_id": "1159320621",
     "note_adm0": "Fin.",
     "note_brk": "",
@@ -601,7 +647,7 @@
     "sovereignt": "Finland",
     "status": "officially-assigned",
     "su_a3": "ALD",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Aland",
     "tiny": "5",
     "tld": [
@@ -640,9 +686,21 @@
             "common": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6",
             "official": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\uc62c\ub780\ub4dc \uc81c\ub3c4",
+            "official": "\uc62c\ub780\ub4dc \uc81c\ub3c4"
+        },
         "nld": {
             "common": "\u00c5landeilanden",
             "official": "\u00c5land eilanden"
+        },
+        "per": {
+            "common": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f",
+            "official": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f"
+        },
+        "pol": {
+            "common": "Wyspy Alandzkie",
+            "official": "Wyspy Alandzkie"
         },
         "por": {
             "common": "Al\u00e2ndia",
@@ -659,6 +717,10 @@
         "spa": {
             "common": "Alandia",
             "official": "Islas \u00c5land"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
+            "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
         },
         "zho": {
             "common": "\u5965\u5170\u7fa4\u5c9b",

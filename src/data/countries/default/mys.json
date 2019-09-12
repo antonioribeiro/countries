@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MYS",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Malaysia",
     "alt_spellings": [
         "MY"
@@ -17,7 +17,7 @@
         "THA"
     ],
     "brk_a3": "MYS",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Malaysia",
     "capital": [
@@ -114,10 +114,16 @@
         "subregion_code": "035",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Malaysia",
     "gu_a3": "MYS",
     "homepart": "1",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "0"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "MY",
@@ -169,20 +175,20 @@
     "name_hu": "Malajzia",
     "name_id": "Malaysia",
     "name_it": "Malesia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u009e\u00e3\u0083\u00ac\u00e3\u0083\u00bc\u00e3\u0082\u00b7\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u009e\u00e3\u0083\u00ac\u00e3\u0083\u00bc\u00e3\u0082\u00b7\u00e3\u0082\u00a2",
+    "name_ko": "\u00eb\u00a7\u0090\u00eb\u00a0\u0088\u00ec\u009d\u00b4\u00ec\u008b\u009c\u00ec\u0095\u0084",
     "name_len": "8",
     "name_long": "Malaysia",
     "name_nev": "Malaysia",
-    "name_nl": "\u00eb\u00a7\u0090\u00eb\u00a0\u0088\u00ec\u009d\u00b4\u00ec\u008b\u009c\u00ec\u0095\u0084",
-    "name_pl": "Maleisi\u00c3\u00ab",
-    "name_pt": "Malezja",
-    "name_ru": "Mal\u00c3\u00a1sia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00b0\u00d0\u00bb\u00d0\u00b0\u00d0\u00b9\u00d0\u00b7\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Maleisi\u00c3\u00ab",
+    "name_pl": "Malezja",
+    "name_pt": "Mal\u00c3\u00a1sia",
+    "name_ru": "\u00d0\u009c\u00d0\u00b0\u00d0\u00bb\u00d0\u00b0\u00d0\u00b9\u00d0\u00b7\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Malaysia",
-    "name_sv": "",
-    "name_tr": "Malaysia",
-    "name_vi": "Malezya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Mal",
-    "name_zh": "aysia",
+    "name_sv": "Malaysia",
+    "name_tr": "Malezya",
+    "name_vi": "Malaysia",
+    "name_zh": "\u00e9\u00a9\u00ac\u00e6\u009d\u00a5\u00e8\u00a5\u00bf\u00e4\u00ba\u009a",
     "ne_id": "1159321083",
     "note_adm0": "",
     "note_brk": "",
@@ -196,7 +202,7 @@
     "sovereignt": "Malaysia",
     "status": "officially-assigned",
     "su_a3": "MYS",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Malaysia",
     "tiny": "-99",
     "tld": [
@@ -235,9 +241,21 @@
             "common": "\u30de\u30ec\u30fc\u30b7\u30a2",
             "official": "\u30de\u30ec\u30fc\u30b7\u30a2"
         },
+        "kor": {
+            "common": "\ub9d0\ub808\uc774\uc2dc\uc544",
+            "official": "\ub9d0\ub808\uc774\uc2dc\uc544"
+        },
         "nld": {
             "common": "Maleisi\u00eb",
             "official": "Maleisi\u00eb"
+        },
+        "per": {
+            "common": "\u0645\u0627\u0644\u0632\u06cc",
+            "official": "\u0641\u062f\u0631\u0627\u0633\u06cc\u0648\u0646 \u0645\u0627\u0644\u0632\u06cc"
+        },
+        "pol": {
+            "common": "Malezja",
+            "official": "Malezja"
         },
         "por": {
             "common": "Mal\u00e1sia",
@@ -254,6 +272,10 @@
         "spa": {
             "common": "Malasia",
             "official": "Malasia"
+        },
+        "urd": {
+            "common": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627",
+            "official": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627"
         },
         "zho": {
             "common": "\u9a6c\u6765\u897f\u4e9a",

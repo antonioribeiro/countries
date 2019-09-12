@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SLE",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Sierra Leone",
     "alt_spellings": [
         "SL",
@@ -17,7 +17,7 @@
         "LBR"
     ],
     "brk_a3": "SLE",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sierra Leone",
     "capital": [
@@ -112,10 +112,16 @@
         "subregion_code": "011",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Sierra Leone",
     "gu_a3": "SLE",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "32"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "SL",
@@ -162,20 +168,20 @@
     "name_hu": "Sierra Leone",
     "name_id": "Sierra Leone",
     "name_it": "Sierra Leone",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b7\u00e3\u0082\u00a8\u00e3\u0083\u00a9\u00e3\u0083\u00ac\u00e3\u0082\u00aa\u00e3\u0083\u008d",
+    "name_ja": "\u00e3\u0082\u00b7\u00e3\u0082\u00a8\u00e3\u0083\u00a9\u00e3\u0083\u00ac\u00e3\u0082\u00aa\u00e3\u0083\u008d",
+    "name_ko": "\u00ec\u008b\u009c\u00ec\u0097\u0090\u00eb\u009d\u00bc\u00eb\u00a6\u00ac\u00ec\u0098\u00a8",
     "name_len": "12",
     "name_long": "Sierra Leone",
     "name_nev": "Sierra Leone",
-    "name_nl": "\u00ec\u008b\u009c\u00ec\u0097\u0090\u00eb\u009d\u00bc\u00eb\u00a6\u00ac\u00ec\u0098\u00a8",
+    "name_nl": "Sierra Leone",
     "name_pl": "Sierra Leone",
-    "name_pt": "Sierra Leone",
-    "name_ru": "Serra Leoa\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d1\u008c\u00d0\u00b5\u00d1\u0080\u00d1\u0080\u00d0\u00b0-\u00d0\u009b\u00d0\u00b5\u00d0\u00be\u00d0\u00bd\u00d0\u00b5",
+    "name_pt": "Serra Leoa",
+    "name_ru": "\u00d0\u00a1\u00d1\u008c\u00d0\u00b5\u00d1\u0080\u00d1\u0080\u00d0\u00b0-\u00d0\u009b\u00d0\u00b5\u00d0\u00be\u00d0\u00bd\u00d0\u00b5",
     "name_sort": "Sierra Leone",
-    "name_sv": "",
+    "name_sv": "Sierra Leone",
     "name_tr": "Sierra Leone",
-    "name_vi": "Sierra Leone\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sie",
-    "name_zh": "rra Leone",
+    "name_vi": "Sierra Leone",
+    "name_zh": "\u00e5\u00a1\u009e\u00e6\u008b\u0089\u00e5\u0088\u00a9\u00e6\u0098\u0082",
     "ne_id": "1159321251",
     "note_adm0": "",
     "note_brk": "",
@@ -184,12 +190,12 @@
     "pop_year": "2017",
     "postal": "SL",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SLE",
     "sovereignt": "Sierra Leone",
     "status": "officially-assigned",
     "su_a3": "SLE",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Sierra Leone",
     "tiny": "-99",
     "tld": [
@@ -228,9 +234,21 @@
             "common": "\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd",
             "official": "\u30b7\u30a8\u30e9\u30ec\u30aa\u30cd\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc2dc\uc5d0\ub77c\ub9ac\uc628",
+            "official": "\uc2dc\uc5d0\ub77c\ub9ac\uc628 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Sierra Leone",
             "official": "Republiek Sierra Leone"
+        },
+        "per": {
+            "common": "\u0633\u06cc\u0631\u0627\u0644\u0626\u0648\u0646",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u06cc\u0631\u0627\u0644\u0626\u0648\u0646"
+        },
+        "pol": {
+            "common": "Sierra Leone",
+            "official": "Sierra Leone"
         },
         "por": {
             "common": "Serra Leoa",
@@ -247,6 +265,10 @@
         "spa": {
             "common": "Sierra Leone",
             "official": "Rep\u00fablica de Sierra Leona"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0631\u0627\u0644\u06cc\u0648\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u06cc\u0631\u0627\u0644\u06cc\u0648\u0646"
         },
         "zho": {
             "common": "\u585e\u62c9\u5229\u6602",

@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "DJI",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Djibouti",
     "alt_spellings": [
         "DJ",
@@ -23,7 +23,7 @@
         "SOM"
     ],
     "brk_a3": "DJI",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Djibouti",
     "capital": [
@@ -119,10 +119,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Djibouti",
     "gu_a3": "DJI",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "53"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "DJ",
@@ -174,20 +180,20 @@
     "name_hu": "Dzsibuti",
     "name_id": "Djibouti",
     "name_it": "Gibuti",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b8\u00e3\u0083\u0096\u00e3\u0083\u0081",
+    "name_ja": "\u00e3\u0082\u00b8\u00e3\u0083\u0096\u00e3\u0083\u0081",
+    "name_ko": "\u00ec\u00a7\u0080\u00eb\u00b6\u0080\u00ed\u008b\u00b0",
     "name_len": "8",
     "name_long": "Djibouti",
     "name_nev": "Djibouti",
-    "name_nl": "\u00ec\u00a7\u0080\u00eb\u00b6\u0080\u00ed\u008b\u00b0",
-    "name_pl": "Djibouti",
-    "name_pt": "D\u00c5\u00bcibuti",
-    "name_ru": "Jibuti\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0094\u00d0\u00b6\u00d0\u00b8\u00d0\u00b1\u00d1\u0083\u00d1\u0082\u00d0\u00b8",
+    "name_nl": "Djibouti",
+    "name_pl": "D\u00c5\u00bcibuti",
+    "name_pt": "Jibuti",
+    "name_ru": "\u00d0\u0094\u00d0\u00b6\u00d0\u00b8\u00d0\u00b1\u00d1\u0083\u00d1\u0082\u00d0\u00b8",
     "name_sort": "Djibouti",
-    "name_sv": "",
-    "name_tr": "Djibouti",
-    "name_vi": "Cibuti\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Dji",
-    "name_zh": "bouti",
+    "name_sv": "Djibouti",
+    "name_tr": "Cibuti",
+    "name_vi": "Djibouti",
+    "name_zh": "\u00e5\u0090\u0089\u00e5\u00b8\u0083\u00e6\u008f\u0090",
     "ne_id": "1159320541",
     "note_adm0": "",
     "note_brk": "",
@@ -196,12 +202,12 @@
     "pop_year": "2017",
     "postal": "DJ",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "DJI",
     "sovereignt": "Djibouti",
     "status": "officially-assigned",
     "su_a3": "DJI",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Djibouti",
     "tiny": "-99",
     "tld": [
@@ -244,9 +250,21 @@
             "common": "\u30b8\u30d6\u30c1",
             "official": "\u30b8\u30d6\u30c1\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc9c0\ubd80\ud2f0",
+            "official": "\uc9c0\ubd80\ud2f0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Djibouti",
             "official": "Republiek Djibouti"
+        },
+        "per": {
+            "common": "\u062c\u06cc\u0628\u0648\u062a\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062c\u06cc\u0628\u0648\u062a\u06cc"
+        },
+        "pol": {
+            "common": "D\u017cibuti",
+            "official": "Republika D\u017cibuti"
         },
         "por": {
             "common": "Djibouti",
@@ -263,6 +281,10 @@
         "spa": {
             "common": "Djibouti",
             "official": "Rep\u00fablica de Djibouti"
+        },
+        "urd": {
+            "common": "\u062c\u0628\u0648\u062a\u06cc",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0628\u0648\u062a\u06cc"
         },
         "zho": {
             "common": "\u5409\u5e03\u63d0",

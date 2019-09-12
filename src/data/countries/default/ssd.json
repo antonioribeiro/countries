@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SDS",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "South Sudan",
     "alt_spellings": [
         "SS"
@@ -20,7 +20,7 @@
         "UGA"
     ],
     "brk_a3": "SDS",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "S. Sudan",
     "capital": [
@@ -38,7 +38,7 @@
         "adm0_a3_un": "-99",
         "adm0_a3_us": "SDS",
         "adm0_a3_wb": "-99",
-        "adm0_dif": "",
+        "adm0_dif": "0",
         "admin": "South Sudan",
         "alt_spellings": [
             "SS"
@@ -52,7 +52,7 @@
             "UGA"
         ],
         "brk_a3": "SDS",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "S. Sudan",
         "capital": [
@@ -62,18 +62,16 @@
         "cca3": "SSD",
         "ccn3": "728",
         "cioc": null,
-        "currency": [
-            "SSP"
-        ],
+        "currencies": {
+            "s_s_p": {
+                "name": "South Sudanese pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "South Sudanese",
-        "dialling": {
-            "calling_code": [
-                "211"
-            ]
-        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -97,10 +95,16 @@
             "region_wb": "Sub-Saharan Africa",
             "subregion": "Middle Africa"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "South Sudan",
         "gu_a3": "SDS",
         "homepart": "1",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "11"
+            ]
+        },
         "income_grp": "5. Low income",
         "independent": true,
         "iso_a2": "SS",
@@ -144,20 +148,20 @@
         "name_hu": "D\u00c3\u00a9l-Szud\u00c3\u00a1n",
         "name_id": "Sudan Selatan",
         "name_it": "Sudan del Sud",
-        "name_ja": "",
-        "name_ko": "\u00e5\u008d\u0097\u00e3\u0082\u00b9\u00e3\u0083\u00bc\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+        "name_ja": "\u00e5\u008d\u0097\u00e3\u0082\u00b9\u00e3\u0083\u00bc\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+        "name_ko": "\u00eb\u0082\u00a8\u00ec\u0088\u0098\u00eb\u008b\u00a8",
         "name_len": "8",
         "name_long": "South Sudan",
         "name_nev": "S. Sudan",
-        "name_nl": "\u00eb\u0082\u00a8\u00ec\u0088\u0098\u00eb\u008b\u00a8",
-        "name_pl": "Zuid-Soedan",
-        "name_pt": "Sudan Po\u00c5\u0082udniowy",
-        "name_ru": "Sud\u00c3\u00a3o do Sul\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00ae\u00d0\u00b6\u00d0\u00bd\u00d1\u008b\u00d0\u00b9 \u00d0\u00a1\u00d1\u0083\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd",
+        "name_nl": "Zuid-Soedan",
+        "name_pl": "Sudan Po\u00c5\u0082udniowy",
+        "name_pt": "Sud\u00c3\u00a3o do Sul",
+        "name_ru": "\u00d0\u00ae\u00d0\u00b6\u00d0\u00bd\u00d1\u008b\u00d0\u00b9 \u00d0\u00a1\u00d1\u0083\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd",
         "name_sort": "South Sudan",
-        "name_sv": "",
-        "name_tr": "Sydsudan",
-        "name_vi": "G\u00c3\u00bcney Sudan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Nam",
-        "name_zh": "Sudan",
+        "name_sv": "Sydsudan",
+        "name_tr": "G\u00c3\u00bcney Sudan",
+        "name_vi": "Nam Sudan",
+        "name_zh": "\u00e5\u008d\u0097\u00e8\u008b\u008f\u00e4\u00b8\u00b9",
         "ne_id": "1159321235",
         "note_adm0": "",
         "note_brk": "",
@@ -166,12 +170,12 @@
         "pop_year": "2017",
         "postal": "SS",
         "record_type": "country",
-        "scalerank": "",
+        "scalerank": "0",
         "sov_a3": "SDS",
         "sovereignt": "South Sudan",
         "status": "officially-assigned",
         "su_a3": "SDS",
-        "su_dif": "",
+        "su_dif": "0",
         "subregion_nev": "Eastern Africa",
         "subunit": "South Sudan",
         "tiny": "-99",
@@ -211,9 +215,21 @@
                 "common": "\u5357\u30b9\u30fc\u30c0\u30f3",
                 "official": "\u5357\u30b9\u30fc\u30c0\u30f3\u5171\u548c\u56fd"
             },
+            "kor": {
+                "common": "\ub0a8\uc218\ub2e8",
+                "official": "\ub0a8\uc218\ub2e8 \uacf5\ud654\uad6d"
+            },
             "nld": {
                 "common": "Zuid-Soedan",
                 "official": "Republiek Zuid-Soedan"
+            },
+            "per": {
+                "common": "\u0633\u0648\u062f\u0627\u0646 \u062c\u0646\u0648\u0628\u06cc",
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0648\u062f\u0627\u0646 \u062c\u0646\u0648\u0628\u06cc"
+            },
+            "pol": {
+                "common": "Sudan",
+                "official": "Republika Sudanu"
             },
             "por": {
                 "common": "Sud\u00e3o do Sul",
@@ -230,6 +246,10 @@
             "spa": {
                 "common": "Sud\u00e1n del Sur",
                 "official": "Rep\u00fablica de Sud\u00e1n del Sur"
+            },
+            "urd": {
+                "common": "\u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646",
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646"
             },
             "zho": {
                 "common": "\u5357\u82cf\u4e39",
@@ -334,10 +354,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "South Sudan",
     "gu_a3": "SDS",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "11"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "SS",
@@ -384,20 +410,20 @@
     "name_hu": "D\u00c3\u00a9l-Szud\u00c3\u00a1n",
     "name_id": "Sudan Selatan",
     "name_it": "Sudan del Sud",
-    "name_ja": "",
-    "name_ko": "\u00e5\u008d\u0097\u00e3\u0082\u00b9\u00e3\u0083\u00bc\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+    "name_ja": "\u00e5\u008d\u0097\u00e3\u0082\u00b9\u00e3\u0083\u00bc\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+    "name_ko": "\u00eb\u0082\u00a8\u00ec\u0088\u0098\u00eb\u008b\u00a8",
     "name_len": "8",
     "name_long": "South Sudan",
     "name_nev": "S. Sudan",
-    "name_nl": "\u00eb\u0082\u00a8\u00ec\u0088\u0098\u00eb\u008b\u00a8",
-    "name_pl": "Zuid-Soedan",
-    "name_pt": "Sudan Po\u00c5\u0082udniowy",
-    "name_ru": "Sud\u00c3\u00a3o do Sul\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00ae\u00d0\u00b6\u00d0\u00bd\u00d1\u008b\u00d0\u00b9 \u00d0\u00a1\u00d1\u0083\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd",
+    "name_nl": "Zuid-Soedan",
+    "name_pl": "Sudan Po\u00c5\u0082udniowy",
+    "name_pt": "Sud\u00c3\u00a3o do Sul",
+    "name_ru": "\u00d0\u00ae\u00d0\u00b6\u00d0\u00bd\u00d1\u008b\u00d0\u00b9 \u00d0\u00a1\u00d1\u0083\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd",
     "name_sort": "South Sudan",
-    "name_sv": "",
-    "name_tr": "Sydsudan",
-    "name_vi": "G\u00c3\u00bcney Sudan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Nam",
-    "name_zh": "Sudan",
+    "name_sv": "Sydsudan",
+    "name_tr": "G\u00c3\u00bcney Sudan",
+    "name_vi": "Nam Sudan",
+    "name_zh": "\u00e5\u008d\u0097\u00e8\u008b\u008f\u00e4\u00b8\u00b9",
     "ne_id": "1159321235",
     "note_adm0": "",
     "note_brk": "",
@@ -406,12 +432,12 @@
     "pop_year": "2017",
     "postal": "SS",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SDS",
     "sovereignt": "South Sudan",
     "status": "officially-assigned",
     "su_a3": "SDS",
-    "su_dif": "",
+    "su_dif": "0",
     "subregion_nev": "Eastern Africa",
     "subunit": "South Sudan",
     "tiny": "-99",
@@ -451,9 +477,21 @@
             "common": "\u5357\u30b9\u30fc\u30c0\u30f3",
             "official": "\u5357\u30b9\u30fc\u30c0\u30f3\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub0a8\uc218\ub2e8",
+            "official": "\ub0a8\uc218\ub2e8 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Zuid-Soedan",
             "official": "Republiek Zuid-Soedan"
+        },
+        "per": {
+            "common": "\u0633\u0648\u062f\u0627\u0646 \u062c\u0646\u0648\u0628\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0648\u062f\u0627\u0646 \u062c\u0646\u0648\u0628\u06cc"
+        },
+        "pol": {
+            "common": "Sudan",
+            "official": "Republika Sudanu"
         },
         "por": {
             "common": "Sud\u00e3o do Sul",
@@ -470,6 +508,10 @@
         "spa": {
             "common": "Sud\u00e1n del Sur",
             "official": "Rep\u00fablica de Sud\u00e1n del Sur"
+        },
+        "urd": {
+            "common": "\u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646"
         },
         "zho": {
             "common": "\u5357\u82cf\u4e39",

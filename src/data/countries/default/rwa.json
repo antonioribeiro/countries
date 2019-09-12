@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "RWA",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Rwanda",
     "alt_spellings": [
         "RW",
@@ -21,7 +21,7 @@
         "UGA"
     ],
     "brk_a3": "RWA",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Rwanda",
     "capital": [
@@ -119,10 +119,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Rwanda",
     "gu_a3": "RWA",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "50"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "RW",
@@ -179,20 +185,20 @@
     "name_hu": "Ruanda",
     "name_id": "Rwanda",
     "name_it": "Ruanda",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00ab\u00e3\u0083\u00af\u00e3\u0083\u00b3\u00e3\u0083\u0080",
+    "name_ja": "\u00e3\u0083\u00ab\u00e3\u0083\u00af\u00e3\u0083\u00b3\u00e3\u0083\u0080",
+    "name_ko": "\u00eb\u00a5\u00b4\u00ec\u0099\u0084\u00eb\u008b\u00a4",
     "name_len": "6",
     "name_long": "Rwanda",
     "name_nev": "Rwanda",
-    "name_nl": "\u00eb\u00a5\u00b4\u00ec\u0099\u0084\u00eb\u008b\u00a4",
+    "name_nl": "Rwanda",
     "name_pl": "Rwanda",
-    "name_pt": "Rwanda",
-    "name_ru": "Ruanda\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a0\u00d1\u0083\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b0",
+    "name_pt": "Ruanda",
+    "name_ru": "\u00d0\u00a0\u00d1\u0083\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b0",
     "name_sort": "Rwanda",
-    "name_sv": "",
-    "name_tr": "Rwanda",
-    "name_vi": "Ruanda\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Rwa",
-    "name_zh": "nda",
+    "name_sv": "Rwanda",
+    "name_tr": "Ruanda",
+    "name_vi": "Rwanda",
+    "name_zh": "\u00e5\u008d\u00a2\u00e6\u0097\u00ba\u00e8\u00be\u00be",
     "ne_id": "1159321219",
     "note_adm0": "",
     "note_brk": "",
@@ -201,12 +207,12 @@
     "pop_year": "2017",
     "postal": "RW",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "RWA",
     "sovereignt": "Rwanda",
     "status": "officially-assigned",
     "su_a3": "RWA",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Rwanda",
     "tiny": "-99",
     "tld": [
@@ -245,9 +251,21 @@
             "common": "\u30eb\u30ef\u30f3\u30c0",
             "official": "\u30eb\u30ef\u30f3\u30c0\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub974\uc644\ub2e4",
+            "official": "\ub974\uc644\ub2e4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Rwanda",
             "official": "Republiek Rwanda"
+        },
+        "per": {
+            "common": "\u0631\u0648\u0627\u0646\u062f\u0627",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0631\u0648\u0627\u0646\u062f\u0627"
+        },
+        "pol": {
+            "common": "Rwanda",
+            "official": "Republika Rwandy"
         },
         "por": {
             "common": "Ruanda",
@@ -264,6 +282,10 @@
         "spa": {
             "common": "Ruanda",
             "official": "Rep\u00fablica de Rwanda"
+        },
+        "urd": {
+            "common": "\u0631\u0648\u0627\u0646\u0688\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0631\u0648\u0627\u0646\u0688\u0627"
         },
         "zho": {
             "common": "\u5362\u65fa\u8fbe",

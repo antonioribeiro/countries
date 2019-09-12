@@ -12,7 +12,7 @@
 </p>
 <p align="center">
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Coverage" src="https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/countries.svg?style=flat-square"></a>
-    <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-7.0%20%7C%207.1%20%7C%207.2%20%7C%20nightly-green.svg?style=flat"></a>
+    <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-7.0%20%7C%207.1%20%7C%207.2%20%7C%207.3-green.svg?style=flat"></a>
     <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Downloads" src="https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square"></a>
     <a href="https://styleci.io/repos/74829244"><img alt="StyleCI" src="https://styleci.io/repos/74829244/shield"></a>
 </p>
@@ -439,7 +439,7 @@ returns
 
 ## Flags
 
-Countries provides many different flag sources, including SVG flags. This is how you use one of the avaiable sources:
+Countries provides many different flag sources, including SVG flags. This is how you use one of the available sources:
 
 ### Install [flag-icon](https://github.com/lipis/flag-icon-css)
 

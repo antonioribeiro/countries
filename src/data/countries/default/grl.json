@@ -14,7 +14,7 @@
     ],
     "borders": [],
     "brk_a3": "GRL",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Greenland",
     "capital": [
@@ -40,7 +40,7 @@
         ],
         "borders": [],
         "brk_a3": "GRL",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Greenland",
         "capital": [
@@ -50,18 +50,16 @@
         "cca3": "GRL",
         "ccn3": "304",
         "cioc": null,
-        "currency": [
-            "DKK"
-        ],
+        "currencies": {
+            "d_k_k": {
+                "name": "krone",
+                "symbol": "kr."
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Greenlandic",
-        "dialling": {
-            "calling_code": [
-                "299"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GL",
@@ -85,10 +83,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "North America"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Greenland",
         "gu_a3": "GRL",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "99"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "GL",
@@ -132,20 +136,20 @@
         "name_hu": "Gr\u00c3\u00b6nland",
         "name_id": "Greenland",
         "name_it": "Groenlandia",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+        "name_ja": "\u00e3\u0082\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+        "name_ko": "\u00ea\u00b7\u00b8\u00eb\u00a6\u00b0\u00eb\u009e\u0080\u00eb\u0093\u009c",
         "name_len": "9",
         "name_long": "Greenland",
         "name_nev": "Greenland",
-        "name_nl": "\u00ea\u00b7\u00b8\u00eb\u00a6\u00b0\u00eb\u009e\u0080\u00eb\u0093\u009c",
-        "name_pl": "Groenland",
-        "name_pt": "Grenlandia",
-        "name_ru": "Gronel\u00c3\u00a2ndia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
+        "name_nl": "Groenland",
+        "name_pl": "Grenlandia",
+        "name_pt": "Gronel\u00c3\u00a2ndia",
+        "name_ru": "\u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
         "name_sort": "Greenland",
-        "name_sv": "",
+        "name_sv": "Gr\u00c3\u00b6nland",
         "name_tr": "Gr\u00c3\u00b6nland",
-        "name_vi": "Gr\u00c3\u00b6nland\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gre",
-        "name_zh": "enland",
+        "name_vi": "Greenland",
+        "name_zh": "\u00e6\u00a0\u00bc\u00e9\u0099\u00b5\u00e5\u0085\u00b0",
         "ne_id": "1159320551",
         "note_adm0": "Den.",
         "note_brk": "",
@@ -154,12 +158,12 @@
         "pop_year": "2017",
         "postal": "GL",
         "record_type": "country",
-        "scalerank": "",
+        "scalerank": "0",
         "sov_a3": "DN1",
         "sovereignt": "Denmark",
         "status": "officially-assigned",
         "su_a3": "GRL",
-        "su_dif": "",
+        "su_dif": "0",
         "subregion_nev": "Northern America",
         "subunit": "Greenland",
         "tiny": "-99",
@@ -199,9 +203,21 @@
                 "common": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
                 "official": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9"
             },
+            "kor": {
+                "common": "\uadf8\ub9b0\ub780\ub4dc",
+                "official": "\uadf8\ub9b0\ub780\ub4dc"
+            },
             "nld": {
                 "common": "Groenland",
                 "official": "Groenland"
+            },
+            "per": {
+                "common": "\u06af\u0631\u06cc\u0646\u0644\u0646\u062f",
+                "official": "\u06af\u0631\u0648\u0626\u0646\u0644\u0646\u062f"
+            },
+            "pol": {
+                "common": "Grenlandia",
+                "official": "Grenlandia"
             },
             "por": {
                 "common": "Gronel\u00e2ndia",
@@ -218,6 +234,10 @@
             "spa": {
                 "common": "Groenlandia",
                 "official": "Groenlandia"
+            },
+            "urd": {
+                "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
+                "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
             },
             "zho": {
                 "common": "\u683c\u9675\u5170",
@@ -315,10 +335,16 @@
         "subregion_code": "021",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Greenland",
     "gu_a3": "GRL",
     "homepart": "-99",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "99"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Grlnd.",
@@ -336,7 +362,7 @@
         ],
         "borders": [],
         "brk_a3": "GRL",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Greenland",
         "capital": [
@@ -346,18 +372,16 @@
         "cca3": "GRL",
         "ccn3": "304",
         "cioc": null,
-        "currency": [
-            "DKK"
-        ],
+        "currencies": {
+            "d_k_k": {
+                "name": "krone",
+                "symbol": "kr."
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Greenlandic",
-        "dialling": {
-            "calling_code": [
-                "299"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GL",
@@ -381,10 +405,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "North America"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Greenland",
         "gu_a3": "GRL",
         "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "99"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "GL",
@@ -428,20 +458,20 @@
         "name_hu": "Gr\u00c3\u00b6nland",
         "name_id": "Greenland",
         "name_it": "Groenlandia",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+        "name_ja": "\u00e3\u0082\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+        "name_ko": "\u00ea\u00b7\u00b8\u00eb\u00a6\u00b0\u00eb\u009e\u0080\u00eb\u0093\u009c",
         "name_len": "9",
         "name_long": "Greenland",
         "name_nev": "Greenland",
-        "name_nl": "\u00ea\u00b7\u00b8\u00eb\u00a6\u00b0\u00eb\u009e\u0080\u00eb\u0093\u009c",
-        "name_pl": "Groenland",
-        "name_pt": "Grenlandia",
-        "name_ru": "Gronel\u00c3\u00a2ndia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
+        "name_nl": "Groenland",
+        "name_pl": "Grenlandia",
+        "name_pt": "Gronel\u00c3\u00a2ndia",
+        "name_ru": "\u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
         "name_sort": "Greenland",
-        "name_sv": "",
+        "name_sv": "Gr\u00c3\u00b6nland",
         "name_tr": "Gr\u00c3\u00b6nland",
-        "name_vi": "Gr\u00c3\u00b6nland\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gre",
-        "name_zh": "enland",
+        "name_vi": "Greenland",
+        "name_zh": "\u00e6\u00a0\u00bc\u00e9\u0099\u00b5\u00e5\u0085\u00b0",
         "ne_id": "1159320551",
         "note_adm0": "Den.",
         "note_brk": "",
@@ -450,12 +480,12 @@
         "pop_year": "2017",
         "postal": "GL",
         "record_type": "country",
-        "scalerank": "",
+        "scalerank": "0",
         "sov_a3": "DN1",
         "sovereignt": "Denmark",
         "status": "officially-assigned",
         "su_a3": "GRL",
-        "su_dif": "",
+        "su_dif": "0",
         "subregion_nev": "Northern America",
         "subunit": "Greenland",
         "tiny": "-99",
@@ -495,9 +525,21 @@
                 "common": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
                 "official": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9"
             },
+            "kor": {
+                "common": "\uadf8\ub9b0\ub780\ub4dc",
+                "official": "\uadf8\ub9b0\ub780\ub4dc"
+            },
             "nld": {
                 "common": "Groenland",
                 "official": "Groenland"
+            },
+            "per": {
+                "common": "\u06af\u0631\u06cc\u0646\u0644\u0646\u062f",
+                "official": "\u06af\u0631\u0648\u0626\u0646\u0644\u0646\u062f"
+            },
+            "pol": {
+                "common": "Grenlandia",
+                "official": "Grenlandia"
             },
             "por": {
                 "common": "Gronel\u00e2ndia",
@@ -514,6 +556,10 @@
             "spa": {
                 "common": "Groenlandia",
                 "official": "Groenlandia"
+            },
+            "urd": {
+                "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
+                "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
             },
             "zho": {
                 "common": "\u683c\u9675\u5170",
@@ -574,20 +620,20 @@
     "name_hu": "Gr\u00c3\u00b6nland",
     "name_id": "Greenland",
     "name_it": "Groenlandia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+    "name_ja": "\u00e3\u0082\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+    "name_ko": "\u00ea\u00b7\u00b8\u00eb\u00a6\u00b0\u00eb\u009e\u0080\u00eb\u0093\u009c",
     "name_len": "9",
     "name_long": "Greenland",
     "name_nev": "Greenland",
-    "name_nl": "\u00ea\u00b7\u00b8\u00eb\u00a6\u00b0\u00eb\u009e\u0080\u00eb\u0093\u009c",
-    "name_pl": "Groenland",
-    "name_pt": "Grenlandia",
-    "name_ru": "Gronel\u00c3\u00a2ndia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Groenland",
+    "name_pl": "Grenlandia",
+    "name_pt": "Gronel\u00c3\u00a2ndia",
+    "name_ru": "\u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Greenland",
-    "name_sv": "",
+    "name_sv": "Gr\u00c3\u00b6nland",
     "name_tr": "Gr\u00c3\u00b6nland",
-    "name_vi": "Gr\u00c3\u00b6nland\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Gre",
-    "name_zh": "enland",
+    "name_vi": "Greenland",
+    "name_zh": "\u00e6\u00a0\u00bc\u00e9\u0099\u00b5\u00e5\u0085\u00b0",
     "ne_id": "1159320551",
     "note_adm0": "Den.",
     "note_brk": "",
@@ -596,12 +642,12 @@
     "pop_year": "2017",
     "postal": "GL",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "DN1",
     "sovereignt": "Denmark",
     "status": "officially-assigned",
     "su_a3": "GRL",
-    "su_dif": "",
+    "su_dif": "0",
     "subregion_nev": "Northern America",
     "subunit": "Greenland",
     "tiny": "-99",
@@ -641,9 +687,21 @@
             "common": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
             "official": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9"
         },
+        "kor": {
+            "common": "\uadf8\ub9b0\ub780\ub4dc",
+            "official": "\uadf8\ub9b0\ub780\ub4dc"
+        },
         "nld": {
             "common": "Groenland",
             "official": "Groenland"
+        },
+        "per": {
+            "common": "\u06af\u0631\u06cc\u0646\u0644\u0646\u062f",
+            "official": "\u06af\u0631\u0648\u0626\u0646\u0644\u0646\u062f"
+        },
+        "pol": {
+            "common": "Grenlandia",
+            "official": "Grenlandia"
         },
         "por": {
             "common": "Gronel\u00e2ndia",
@@ -660,6 +718,10 @@
         "spa": {
             "common": "Groenlandia",
             "official": "Groenlandia"
+        },
+        "urd": {
+            "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
+            "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
         },
         "zho": {
             "common": "\u683c\u9675\u5170",

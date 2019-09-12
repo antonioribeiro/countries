@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "BDI",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Burundi",
     "alt_spellings": [
         "BI",
@@ -20,7 +20,7 @@
         "TZA"
     ],
     "brk_a3": "BDI",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Burundi",
     "capital": [
@@ -116,10 +116,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Burundi",
     "gu_a3": "BDI",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "57"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "BI",
@@ -171,20 +177,20 @@
     "name_hu": "Burundi",
     "name_id": "Burundi",
     "name_it": "Burundi",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0096\u00e3\u0083\u00ab\u00e3\u0083\u00b3\u00e3\u0082\u00b8",
+    "name_ja": "\u00e3\u0083\u0096\u00e3\u0083\u00ab\u00e3\u0083\u00b3\u00e3\u0082\u00b8",
+    "name_ko": "\u00eb\u00b6\u0080\u00eb\u00a3\u00ac\u00eb\u0094\u0094",
     "name_len": "7",
     "name_long": "Burundi",
     "name_nev": "Burundi",
-    "name_nl": "\u00eb\u00b6\u0080\u00eb\u00a3\u00ac\u00eb\u0094\u0094",
+    "name_nl": "Burundi",
     "name_pl": "Burundi",
     "name_pt": "Burundi",
-    "name_ru": "Burundi\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0091\u00d1\u0083\u00d1\u0080\u00d1\u0083\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8",
+    "name_ru": "\u00d0\u0091\u00d1\u0083\u00d1\u0080\u00d1\u0083\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8",
     "name_sort": "Burundi",
-    "name_sv": "",
+    "name_sv": "Burundi",
     "name_tr": "Burundi",
-    "name_vi": "Burundi\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Bur",
-    "name_zh": "undi",
+    "name_vi": "Burundi",
+    "name_zh": "\u00e8\u0092\u00b2\u00e9\u009a\u0086\u00e5\u009c\u00b0",
     "ne_id": "1159320387",
     "note_adm0": "",
     "note_brk": "",
@@ -193,12 +199,12 @@
     "pop_year": "2017",
     "postal": "BI",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "BDI",
     "sovereignt": "Burundi",
     "status": "officially-assigned",
     "su_a3": "BDI",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Burundi",
     "tiny": "-99",
     "tld": [
@@ -241,9 +247,21 @@
             "common": "\u30d6\u30eb\u30f3\u30b8",
             "official": "\u30d6\u30eb\u30f3\u30b8\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubd80\ub8ec\ub514",
+            "official": "\ubd80\ub8ec\ub514"
+        },
         "nld": {
             "common": "Burundi",
             "official": "Republiek Burundi"
+        },
+        "per": {
+            "common": "\u0628\u0648\u0631\u0648\u0646\u062f\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0628\u0648\u0631\u0648\u0646\u062f\u06cc"
+        },
+        "pol": {
+            "common": "Burundi",
+            "official": "Republika Burundi"
         },
         "por": {
             "common": "Burundi",
@@ -260,6 +278,10 @@
         "spa": {
             "common": "Burundi",
             "official": "Rep\u00fablica de Burundi"
+        },
+        "urd": {
+            "common": "\u0628\u0631\u0648\u0646\u0688\u06cc",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0631\u0648\u0646\u0688\u06cc"
         },
         "zho": {
             "common": "\u5e03\u9686\u8fea",

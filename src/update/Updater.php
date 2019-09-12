@@ -380,7 +380,7 @@ class Updater extends Base
             ['adm0_a3', 'adm0_a3'],
         ];
 
-        list(, $countryCode) = $this->findByFields($this->_countries, $item, $fields, 'cca3');
+        [, $countryCode] = $this->findByFields($this->_countries, $item, $fields, 'cca3');
 
         if (is_null($countryCode)) {
             $countryCode = $this->helper->caseForKey($item['name']);

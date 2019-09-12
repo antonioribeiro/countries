@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "LIE",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Liechtenstein",
     "alt_spellings": [
         "LI",
@@ -18,7 +18,7 @@
         "CHE"
     ],
     "brk_a3": "LIE",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Liechtenstein",
     "capital": [
@@ -113,10 +113,16 @@
         "subregion_code": "155",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Liechtenstein",
     "gu_a3": "LIE",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "23"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "LI",
@@ -163,20 +169,20 @@
     "name_hu": "Liechtenstein",
     "name_id": "Liechtenstein",
     "name_it": "Liechtenstein",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00aa\u00e3\u0083\u0092\u00e3\u0083\u0086\u00e3\u0083\u00b3\u00e3\u0082\u00b7\u00e3\u0083\u00a5\u00e3\u0082\u00bf\u00e3\u0082\u00a4\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0083\u00aa\u00e3\u0083\u0092\u00e3\u0083\u0086\u00e3\u0083\u00b3\u00e3\u0082\u00b7\u00e3\u0083\u00a5\u00e3\u0082\u00bf\u00e3\u0082\u00a4\u00e3\u0083\u00b3",
+    "name_ko": "\u00eb\u00a6\u00ac\u00ed\u009e\u0088\u00ed\u0085\u0090\u00ec\u008a\u0088\u00ed\u0083\u0080\u00ec\u009d\u00b8",
     "name_len": "13",
     "name_long": "Liechtenstein",
     "name_nev": "Liechtenstein",
-    "name_nl": "\u00eb\u00a6\u00ac\u00ed\u009e\u0088\u00ed\u0085\u0090\u00ec\u008a\u0088\u00ed\u0083\u0080\u00ec\u009d",
-    "name_pl": "\u00b8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Liechtenstein",
+    "name_nl": "Liechtenstein",
+    "name_pl": "Liechtenstein",
     "name_pt": "Liechtenstein",
-    "name_ru": "Liechtenstein\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009b\u00d0\u00b8\u00d1\u0085\u00d1\u0082\u00d0\u00b5\u00d0\u00bd\u00d1\u0088\u00d1\u0082\u00d0\u00b5\u00d0\u00b9\u00d0\u00bd",
+    "name_ru": "\u00d0\u009b\u00d0\u00b8\u00d1\u0085\u00d1\u0082\u00d0\u00b5\u00d0\u00bd\u00d1\u0088\u00d1\u0082\u00d0\u00b5\u00d0\u00b9\u00d0\u00bd",
     "name_sort": "Liechtenstein",
-    "name_sv": "",
-    "name_tr": "Liechtenstein",
-    "name_vi": "Lihten\u00c5\u009ftayn\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Lie",
-    "name_zh": "chtenstein",
+    "name_sv": "Liechtenstein",
+    "name_tr": "Lihten\u00c5\u009ftayn",
+    "name_vi": "Liechtenstein",
+    "name_zh": "\u00e5\u0088\u0097\u00e6\u0094\u00af\u00e6\u0095\u00a6\u00e6\u0096\u00af\u00e7\u0099\u00bb",
     "ne_id": "1159321021",
     "note_adm0": "",
     "note_brk": "",
@@ -185,12 +191,12 @@
     "pop_year": "2017",
     "postal": "FL",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "LIE",
     "sovereignt": "Liechtenstein",
     "status": "officially-assigned",
     "su_a3": "LIE",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Liechtenstein",
     "tiny": "6",
     "tld": [
@@ -229,9 +235,21 @@
             "common": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3",
             "official": "\u30ea\u30d2\u30c6\u30f3\u30b7\u30e5\u30bf\u30a4\u30f3\u516c\u56fd"
         },
+        "kor": {
+            "common": "\ub9ac\ud788\ud150\uc288\ud0c0\uc778",
+            "official": "\ub9ac\ud788\ud150\uc288\ud0c0\uc778 \uacf5\uad6d"
+        },
         "nld": {
             "common": "Liechtenstein",
             "official": "Vorstendom Liechtenstein"
+        },
+        "per": {
+            "common": "\u0644\u06cc\u062e\u062a\u0646\u200c\u0627\u0634\u062a\u0627\u06cc\u0646",
+            "official": "\u0634\u0627\u0647\u0632\u0627\u062f\u0647\u200c\u0646\u0634\u06cc\u0646 \u0644\u06cc\u062e\u062a\u0646\u200c\u0627\u0634\u062a\u0627\u06cc\u0646"
+        },
+        "pol": {
+            "common": "Liechtenstein",
+            "official": "Ksi\u0119stwo Liechtensteinu"
         },
         "por": {
             "common": "Liechtenstein",
@@ -248,6 +266,10 @@
         "spa": {
             "common": "Liechtenstein",
             "official": "Principado de Liechtenstein"
+        },
+        "urd": {
+            "common": "\u0644\u06cc\u062e\u062a\u06cc\u0646\u0633\u062a\u0627\u0626\u0646",
+            "official": "\u0627\u0645\u0627\u0631\u0627\u062a \u0644\u06cc\u062e\u062a\u06cc\u0646\u0633\u062a\u0627\u0626\u0646"
         },
         "zho": {
             "common": "\u5217\u652f\u6566\u58eb\u767b",

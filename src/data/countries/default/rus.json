@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "RUS",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Russia",
     "alt_spellings": [
         "RU",
@@ -37,7 +37,7 @@
         "UKR"
     ],
     "brk_a3": "RUS",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Russia",
     "capital": [
@@ -144,10 +144,20 @@
         "subregion_code": "151",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Russia",
     "gu_a3": "RUS",
     "homepart": "1",
+    "idd": {
+        "root": "+7",
+        "suffixes": [
+            "3XX",
+            "4XX",
+            "5XX",
+            "8XX",
+            "9XX"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "RU",
@@ -194,20 +204,20 @@
     "name_hu": "Oroszorsz\u00c3\u00a1g",
     "name_id": "Rusia",
     "name_it": "Russia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u00ad\u00e3\u0082\u00b7\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u00ad\u00e3\u0082\u00b7\u00e3\u0082\u00a2",
+    "name_ko": "\u00eb\u009f\u00ac\u00ec\u008b\u009c\u00ec\u0095\u0084",
     "name_len": "6",
     "name_long": "Russian Federation",
     "name_nev": "Russia",
-    "name_nl": "\u00eb\u009f\u00ac\u00ec\u008b\u009c\u00ec\u0095\u0084",
-    "name_pl": "Rusland",
-    "name_pt": "Rosja",
-    "name_ru": "R\u00c3\u00bassia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a0\u00d0\u00be\u00d1\u0081\u00d1\u0081\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Rusland",
+    "name_pl": "Rosja",
+    "name_pt": "R\u00c3\u00bassia",
+    "name_ru": "\u00d0\u00a0\u00d0\u00be\u00d1\u0081\u00d1\u0081\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Russian Federation",
-    "name_sv": "",
-    "name_tr": "Ryssland",
-    "name_vi": "Rusya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Nga",
-    "name_zh": "",
+    "name_sv": "Ryssland",
+    "name_tr": "Rusya",
+    "name_vi": "Nga",
+    "name_zh": "\u00e4\u00bf\u0084\u00e7\u00bd\u0097\u00e6\u0096\u00af",
     "ne_id": "1159321201",
     "note_adm0": "",
     "note_brk": "",
@@ -216,12 +226,12 @@
     "pop_year": "2017",
     "postal": "RUS",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "RUS",
     "sovereignt": "Russia",
     "status": "officially-assigned",
     "su_a3": "RUS",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Russia",
     "tiny": "-99",
     "tld": [
@@ -262,9 +272,21 @@
             "common": "\u30ed\u30b7\u30a2\u9023\u90a6",
             "official": "\u30ed\u30b7\u30a2\u9023\u90a6"
         },
+        "kor": {
+            "common": "\ub7ec\uc2dc\uc544",
+            "official": "\ub7ec\uc2dc\uc544 \uc5f0\ubc29"
+        },
         "nld": {
             "common": "Rusland",
             "official": "Russische Federatie"
+        },
+        "per": {
+            "common": "\u0631\u0648\u0633\u06cc\u0647",
+            "official": "\u0641\u062f\u0631\u0627\u0633\u06cc\u0648\u0646 \u0631\u0648\u0633\u06cc\u0647"
+        },
+        "pol": {
+            "common": "Rosja",
+            "official": "Federacja Rosyjska"
         },
         "por": {
             "common": "R\u00fassia",
@@ -281,6 +303,10 @@
         "spa": {
             "common": "Rusia",
             "official": "Federaci\u00f3n de Rusia"
+        },
+        "urd": {
+            "common": "\u0631\u0648\u0633",
+            "official": "\u0631\u0648\u0633\u06cc \u0648\u0641\u0627\u0642"
         },
         "zho": {
             "common": "\u4fc4\u7f57\u65af",

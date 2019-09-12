@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "BWA",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Botswana",
     "alt_spellings": [
         "BW",
@@ -20,7 +20,7 @@
         "ZWE"
     ],
     "brk_a3": "BWA",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Botswana",
     "capital": [
@@ -117,10 +117,16 @@
         "subregion_code": "018",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Botswana",
     "gu_a3": "BWA",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "67"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BW",
@@ -172,20 +178,20 @@
     "name_hu": "Botswana",
     "name_id": "Botswana",
     "name_it": "Botswana",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u009c\u00e3\u0083\u0084\u00e3\u0083\u00af\u00e3\u0083\u008a",
+    "name_ja": "\u00e3\u0083\u009c\u00e3\u0083\u0084\u00e3\u0083\u00af\u00e3\u0083\u008a",
+    "name_ko": "\u00eb\u00b3\u00b4\u00ec\u00b8\u00a0\u00ec\u0099\u0080\u00eb\u0082\u0098",
     "name_len": "8",
     "name_long": "Botswana",
     "name_nev": "Botswana",
-    "name_nl": "\u00eb\u00b3\u00b4\u00ec\u00b8\u00a0\u00ec\u0099\u0080\u00eb\u0082\u0098",
+    "name_nl": "Botswana",
     "name_pl": "Botswana",
-    "name_pt": "Botswana",
-    "name_ru": "Botsuana\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0091\u00d0\u00be\u00d1\u0082\u00d1\u0081\u00d0\u00b2\u00d0\u00b0\u00d0\u00bd\u00d0\u00b0",
+    "name_pt": "Botsuana",
+    "name_ru": "\u00d0\u0091\u00d0\u00be\u00d1\u0082\u00d1\u0081\u00d0\u00b2\u00d0\u00b0\u00d0\u00bd\u00d0\u00b0",
     "name_sort": "Botswana",
-    "name_sv": "",
-    "name_tr": "Botswana",
-    "name_vi": "Botsvana\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Bot",
-    "name_zh": "swana",
+    "name_sv": "Botswana",
+    "name_tr": "Botsvana",
+    "name_vi": "Botswana",
+    "name_zh": "\u00e6\u00b3\u00a2\u00e6\u009c\u00ad\u00e9\u0082\u00a3",
     "ne_id": "1159320461",
     "note_adm0": "",
     "note_brk": "",
@@ -194,12 +200,12 @@
     "pop_year": "2017",
     "postal": "BW",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "BWA",
     "sovereignt": "Botswana",
     "status": "officially-assigned",
     "su_a3": "BWA",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Botswana",
     "tiny": "-99",
     "tld": [
@@ -238,9 +244,21 @@
             "common": "\u30dc\u30c4\u30ef\u30ca",
             "official": "\u30dc\u30c4\u30ef\u30ca\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ubcf4\uce20\uc640\ub098",
+            "official": "\ubcf4\uce20\uc640\ub098 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Botswana",
             "official": "Republiek Botswana"
+        },
+        "per": {
+            "common": "\u0628\u0648\u062a\u0633\u0648\u0627\u0646\u0627",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0628\u0648\u062a\u0633\u0648\u0627\u0646\u0627"
+        },
+        "pol": {
+            "common": "Botswana",
+            "official": "Republika Botswany"
         },
         "por": {
             "common": "Botswana",
@@ -257,6 +275,10 @@
         "spa": {
             "common": "Botswana",
             "official": "Rep\u00fablica de Botswana"
+        },
+        "urd": {
+            "common": "\u0628\u0648\u0679\u0633\u0648\u0627\u0646\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0648\u0679\u0633\u0648\u0627\u0646\u0627"
         },
         "zho": {
             "common": "\u535a\u8328\u74e6\u7eb3",

@@ -15,7 +15,7 @@
     ],
     "borders": [],
     "brk_a3": "NFK",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Norfolk Island",
     "capital": [
@@ -42,7 +42,7 @@
         ],
         "borders": [],
         "brk_a3": "NFK",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Norfolk Island",
         "capital": [
@@ -52,18 +52,16 @@
         "cca3": "NFK",
         "ccn3": "574",
         "cioc": null,
-        "currency": [
-            "AUD"
-        ],
+        "currencies": {
+            "a_u_d": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Norfolk Islander",
-        "dialling": {
-            "calling_code": [
-                "672"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NF",
@@ -87,10 +85,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "Australia and New Zealand"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Norfolk Island",
         "gu_a3": "NFK",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "72"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "NF",
@@ -139,20 +143,20 @@
         "name_hu": "Norfolk-sziget",
         "name_id": "Pulau Norfolk",
         "name_it": "Isola Norfolk",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0083\u008e\u00e3\u0083\u00bc\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e5\u00b3\u00b6",
+        "name_ja": "\u00e3\u0083\u008e\u00e3\u0083\u00bc\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e5\u00b3\u00b6",
+        "name_ko": "\u00eb\u0085\u00b8\u00ed\u008d\u00bd \u00ec\u0084\u00ac",
         "name_len": "14",
         "name_long": "Norfolk Island",
         "name_nev": "Norfolk Island",
-        "name_nl": "\u00eb\u0085\u00b8\u00ed\u008d\u00bd \u00ec\u0084\u00ac",
+        "name_nl": "Norfolk",
         "name_pl": "Norfolk",
-        "name_pt": "Norfolk",
-        "name_ru": "Ilha Norfolk\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d1\u0084\u00d0\u00be\u00d0\u00bb\u00d0\u00ba",
+        "name_pt": "Ilha Norfolk",
+        "name_ru": "\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d1\u0084\u00d0\u00be\u00d0\u00bb\u00d0\u00ba",
         "name_sort": "Norfolk Island",
-        "name_sv": "",
-        "name_tr": "Norfolk\u00c3\u00b6n",
-        "name_vi": "Norfolk Adas\u00c4\u00b1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c4\u0090\u00e1",
-        "name_zh": "\u00ba\u00a3o Norfolk",
+        "name_sv": "Norfolk\u00c3\u00b6n",
+        "name_tr": "Norfolk Adas\u00c4\u00b1",
+        "name_vi": "\u00c4\u0090\u00e1\u00ba\u00a3o Norfolk",
+        "name_zh": "\u00e8\u00af\u00ba\u00e7\u00a6\u008f\u00e5\u0085\u008b\u00e5\u00b2\u009b",
         "ne_id": "1159320365",
         "note_adm0": "Auz.",
         "note_brk": "",
@@ -166,7 +170,7 @@
         "sovereignt": "Australia",
         "status": "officially-assigned",
         "su_a3": "NFK",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Norfolk Island",
         "tiny": "-99",
         "tld": [
@@ -179,7 +183,7 @@
             },
             "deu": {
                 "common": "Norfolkinsel",
-                "official": "Gebiet der Norfolk-Insel"
+                "official": "Gebiet der Norfolkinsel"
             },
             "est": {
                 "common": "Norfolk",
@@ -205,9 +209,21 @@
                 "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
                 "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\ub178\ud37d \uc12c",
+                "official": "\ub178\ud37d \uc12c"
+            },
             "nld": {
                 "common": "Norfolkeiland",
                 "official": "Grondgebied van Norfolk Island"
+            },
+            "per": {
+                "common": "\u062c\u0632\u06cc\u0631\u0647 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u0642\u0644\u0645\u0631\u0648 \u062c\u0632\u0627\u06cc\u0631 \u0646\u0648\u0631\u0641\u06a9"
+            },
+            "pol": {
+                "common": "Wyspa Norfolk",
+                "official": "Terytorium Wyspy Norfolk"
             },
             "por": {
                 "common": "Ilha Norfolk",
@@ -224,6 +240,10 @@
             "spa": {
                 "common": "Isla de Norfolk",
                 "official": "Territorio de la Isla Norfolk"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
             },
             "zho": {
                 "common": "\u8bfa\u798f\u514b\u5c9b",
@@ -321,10 +341,16 @@
         "subregion_code": "053",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Norfolk Island",
     "gu_a3": "NFK",
     "homepart": "-99",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "72"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": {
         "abbrev": "Nfk. I.",
@@ -343,7 +369,7 @@
         ],
         "borders": [],
         "brk_a3": "NFK",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Norfolk Island",
         "capital": [
@@ -353,18 +379,16 @@
         "cca3": "NFK",
         "ccn3": "574",
         "cioc": null,
-        "currency": [
-            "AUD"
-        ],
+        "currencies": {
+            "a_u_d": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Norfolk Islander",
-        "dialling": {
-            "calling_code": [
-                "672"
-            ]
-        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NF",
@@ -388,10 +412,16 @@
             "region_wb": "East Asia & Pacific",
             "subregion": "Australia and New Zealand"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Norfolk Island",
         "gu_a3": "NFK",
         "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "72"
+            ]
+        },
         "income_grp": "4. Lower middle income",
         "independent": null,
         "iso_a2": "NF",
@@ -440,20 +470,20 @@
         "name_hu": "Norfolk-sziget",
         "name_id": "Pulau Norfolk",
         "name_it": "Isola Norfolk",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0083\u008e\u00e3\u0083\u00bc\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e5\u00b3\u00b6",
+        "name_ja": "\u00e3\u0083\u008e\u00e3\u0083\u00bc\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e5\u00b3\u00b6",
+        "name_ko": "\u00eb\u0085\u00b8\u00ed\u008d\u00bd \u00ec\u0084\u00ac",
         "name_len": "14",
         "name_long": "Norfolk Island",
         "name_nev": "Norfolk Island",
-        "name_nl": "\u00eb\u0085\u00b8\u00ed\u008d\u00bd \u00ec\u0084\u00ac",
+        "name_nl": "Norfolk",
         "name_pl": "Norfolk",
-        "name_pt": "Norfolk",
-        "name_ru": "Ilha Norfolk\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d1\u0084\u00d0\u00be\u00d0\u00bb\u00d0\u00ba",
+        "name_pt": "Ilha Norfolk",
+        "name_ru": "\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d1\u0084\u00d0\u00be\u00d0\u00bb\u00d0\u00ba",
         "name_sort": "Norfolk Island",
-        "name_sv": "",
-        "name_tr": "Norfolk\u00c3\u00b6n",
-        "name_vi": "Norfolk Adas\u00c4\u00b1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c4\u0090\u00e1",
-        "name_zh": "\u00ba\u00a3o Norfolk",
+        "name_sv": "Norfolk\u00c3\u00b6n",
+        "name_tr": "Norfolk Adas\u00c4\u00b1",
+        "name_vi": "\u00c4\u0090\u00e1\u00ba\u00a3o Norfolk",
+        "name_zh": "\u00e8\u00af\u00ba\u00e7\u00a6\u008f\u00e5\u0085\u008b\u00e5\u00b2\u009b",
         "ne_id": "1159320365",
         "note_adm0": "Auz.",
         "note_brk": "",
@@ -467,7 +497,7 @@
         "sovereignt": "Australia",
         "status": "officially-assigned",
         "su_a3": "NFK",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Norfolk Island",
         "tiny": "-99",
         "tld": [
@@ -480,7 +510,7 @@
             },
             "deu": {
                 "common": "Norfolkinsel",
-                "official": "Gebiet der Norfolk-Insel"
+                "official": "Gebiet der Norfolkinsel"
             },
             "est": {
                 "common": "Norfolk",
@@ -506,9 +536,21 @@
                 "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
                 "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
             },
+            "kor": {
+                "common": "\ub178\ud37d \uc12c",
+                "official": "\ub178\ud37d \uc12c"
+            },
             "nld": {
                 "common": "Norfolkeiland",
                 "official": "Grondgebied van Norfolk Island"
+            },
+            "per": {
+                "common": "\u062c\u0632\u06cc\u0631\u0647 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u0642\u0644\u0645\u0631\u0648 \u062c\u0632\u0627\u06cc\u0631 \u0646\u0648\u0631\u0641\u06a9"
+            },
+            "pol": {
+                "common": "Wyspa Norfolk",
+                "official": "Terytorium Wyspy Norfolk"
             },
             "por": {
                 "common": "Ilha Norfolk",
@@ -525,6 +567,10 @@
             "spa": {
                 "common": "Isla de Norfolk",
                 "official": "Territorio de la Isla Norfolk"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
             },
             "zho": {
                 "common": "\u8bfa\u798f\u514b\u5c9b",
@@ -590,20 +636,20 @@
     "name_hu": "Norfolk-sziget",
     "name_id": "Pulau Norfolk",
     "name_it": "Isola Norfolk",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u008e\u00e3\u0083\u00bc\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e5\u00b3\u00b6",
+    "name_ja": "\u00e3\u0083\u008e\u00e3\u0083\u00bc\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e5\u00b3\u00b6",
+    "name_ko": "\u00eb\u0085\u00b8\u00ed\u008d\u00bd \u00ec\u0084\u00ac",
     "name_len": "14",
     "name_long": "Norfolk Island",
     "name_nev": "Norfolk Island",
-    "name_nl": "\u00eb\u0085\u00b8\u00ed\u008d\u00bd \u00ec\u0084\u00ac",
+    "name_nl": "Norfolk",
     "name_pl": "Norfolk",
-    "name_pt": "Norfolk",
-    "name_ru": "Ilha Norfolk\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d1\u0084\u00d0\u00be\u00d0\u00bb\u00d0\u00ba",
+    "name_pt": "Ilha Norfolk",
+    "name_ru": "\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d1\u0084\u00d0\u00be\u00d0\u00bb\u00d0\u00ba",
     "name_sort": "Norfolk Island",
-    "name_sv": "",
-    "name_tr": "Norfolk\u00c3\u00b6n",
-    "name_vi": "Norfolk Adas\u00c4\u00b1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c4\u0090\u00e1",
-    "name_zh": "\u00ba\u00a3o Norfolk",
+    "name_sv": "Norfolk\u00c3\u00b6n",
+    "name_tr": "Norfolk Adas\u00c4\u00b1",
+    "name_vi": "\u00c4\u0090\u00e1\u00ba\u00a3o Norfolk",
+    "name_zh": "\u00e8\u00af\u00ba\u00e7\u00a6\u008f\u00e5\u0085\u008b\u00e5\u00b2\u009b",
     "ne_id": "1159320365",
     "note_adm0": "Auz.",
     "note_brk": "",
@@ -617,7 +663,7 @@
     "sovereignt": "Australia",
     "status": "officially-assigned",
     "su_a3": "NFK",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Norfolk Island",
     "tiny": "-99",
     "tld": [
@@ -656,9 +702,21 @@
             "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
             "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
         },
+        "kor": {
+            "common": "\ub178\ud37d \uc12c",
+            "official": "\ub178\ud37d \uc12c"
+        },
         "nld": {
             "common": "Norfolkeiland",
             "official": "Grondgebied van Norfolk Island"
+        },
+        "per": {
+            "common": "\u062c\u0632\u06cc\u0631\u0647 \u0646\u0648\u0631\u0641\u06a9",
+            "official": "\u0642\u0644\u0645\u0631\u0648 \u062c\u0632\u0627\u06cc\u0631 \u0646\u0648\u0631\u0641\u06a9"
+        },
+        "pol": {
+            "common": "Wyspa Norfolk",
+            "official": "Terytorium Wyspy Norfolk"
         },
         "por": {
             "common": "Ilha Norfolk",
@@ -675,6 +733,10 @@
         "spa": {
             "common": "Isla de Norfolk",
             "official": "Territorio de la Isla Norfolk"
+        },
+        "urd": {
+            "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
+            "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
         },
         "zho": {
             "common": "\u8bfa\u798f\u514b\u5c9b",

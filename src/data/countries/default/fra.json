@@ -24,7 +24,7 @@
         "CHE"
     ],
     "brk_a3": "FRA",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "France",
     "capital": [
@@ -134,10 +134,16 @@
         "subregion_code": "155",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "France",
     "gu_a3": "FRA",
     "homepart": "1",
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "3"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "FR",
@@ -184,20 +190,20 @@
     "name_hu": "Franciaorsz\u00c3\u00a1g",
     "name_id": "Perancis",
     "name_it": "Francia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0095\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0082\u00b9",
+    "name_ja": "\u00e3\u0083\u0095\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0082\u00b9",
+    "name_ko": "\u00ed\u0094\u0084\u00eb\u009e\u0091\u00ec\u008a\u00a4",
     "name_len": "6",
     "name_long": "France",
     "name_nev": "France",
-    "name_nl": "\u00ed\u0094\u0084\u00eb\u009e\u0091\u00ec\u008a\u00a4",
-    "name_pl": "Frankrijk",
-    "name_pt": "Francja",
-    "name_ru": "Fran\u00c3\u00a7a\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a4\u00d1\u0080\u00d0\u00b0\u00d0\u00bd\u00d1\u0086\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Frankrijk",
+    "name_pl": "Francja",
+    "name_pt": "Fran\u00c3\u00a7a",
+    "name_ru": "\u00d0\u00a4\u00d1\u0080\u00d0\u00b0\u00d0\u00bd\u00d1\u0086\u00d0\u00b8\u00d1\u008f",
     "name_sort": "France",
-    "name_sv": "",
-    "name_tr": "Frankrike",
-    "name_vi": "Fransa\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ph\u00c3",
-    "name_zh": "\u00a1p",
+    "name_sv": "Frankrike",
+    "name_tr": "Fransa",
+    "name_vi": "Ph\u00c3\u00a1p",
+    "name_zh": "\u00e6\u00b3\u0095\u00e5\u009b\u00bd",
     "ne_id": "1159320637",
     "note_adm0": "",
     "note_brk": "",
@@ -206,12 +212,12 @@
     "pop_year": "2017",
     "postal": "F",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "FR1",
     "sovereignt": "France",
     "status": "officially-assigned",
     "su_a3": "FRA",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "France",
     "tiny": "-99",
     "tld": [
@@ -250,9 +256,21 @@
             "common": "\u30d5\u30e9\u30f3\u30b9",
             "official": "\u30d5\u30e9\u30f3\u30b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud504\ub791\uc2a4",
+            "official": "\ud504\ub791\uc2a4 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Frankrijk",
             "official": "Franse Republiek"
+        },
+        "per": {
+            "common": "\u0641\u0631\u0627\u0646\u0633\u0647",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0641\u0631\u0627\u0646\u0633\u0647"
+        },
+        "pol": {
+            "common": "Francja",
+            "official": "Republika Francuska"
         },
         "por": {
             "common": "Fran\u00e7a",
@@ -269,6 +287,10 @@
         "spa": {
             "common": "Francia",
             "official": "Rep\u00fablica franc\u00e9s"
+        },
+        "urd": {
+            "common": "\u0641\u0631\u0627\u0646\u0633",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u0631\u0627\u0646\u0633"
         },
         "zho": {
             "common": "\u6cd5\u56fd",

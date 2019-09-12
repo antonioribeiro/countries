@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "PER",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Peru",
     "alt_spellings": [
         "PE",
@@ -21,7 +21,7 @@
         "ECU"
     ],
     "brk_a3": "PER",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Peru",
     "capital": [
@@ -120,10 +120,16 @@
         "subregion_code": "005",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Peru",
     "gu_a3": "PER",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "1"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "PE",
@@ -202,12 +208,12 @@
     "pop_year": "2017",
     "postal": "PE",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "PER",
     "sovereignt": "Peru",
     "status": "officially-assigned",
     "su_a3": "PER",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Peru",
     "tiny": "-99",
     "tld": [
@@ -246,9 +252,21 @@
             "common": "\u30da\u30eb\u30fc",
             "official": "\u30da\u30eb\u30fc\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud398\ub8e8",
+            "official": "\ud398\ub8e8 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Peru",
             "official": "Republiek Peru"
+        },
+        "per": {
+            "common": "\u067e\u0631\u0648",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u067e\u0631\u0648"
+        },
+        "pol": {
+            "common": "Peru",
+            "official": "Republika Peru"
         },
         "por": {
             "common": "Per\u00fa",
@@ -265,6 +283,10 @@
         "spa": {
             "common": "Per\u00fa",
             "official": "Rep\u00fablica de Per\u00fa"
+        },
+        "urd": {
+            "common": "\u067e\u06cc\u0631\u0648",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u06cc\u0631\u0648"
         },
         "zho": {
             "common": "\u79d8\u9c81",

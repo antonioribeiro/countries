@@ -6,14 +6,14 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "TON",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Tonga",
     "alt_spellings": [
         "TO"
     ],
     "borders": [],
     "brk_a3": "TON",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Tonga",
     "capital": [
@@ -107,10 +107,16 @@
         "subregion_code": "061",
         "world_region": "APAC"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Tonga",
     "gu_a3": "TON",
     "homepart": "1",
+    "idd": {
+        "root": "+6",
+        "suffixes": [
+            "76"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "TO",
@@ -162,20 +168,20 @@
     "name_hu": "Tonga",
     "name_id": "Tonga",
     "name_it": "Tonga",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0088\u00e3\u0083\u00b3\u00e3\u0082\u00ac",
+    "name_ja": "\u00e3\u0083\u0088\u00e3\u0083\u00b3\u00e3\u0082\u00ac",
+    "name_ko": "\u00ed\u0086\u00b5\u00ea\u00b0\u0080",
     "name_len": "5",
     "name_long": "Tonga",
     "name_nev": "Tonga",
-    "name_nl": "\u00ed\u0086\u00b5\u00ea\u00b0\u0080",
+    "name_nl": "Tonga",
     "name_pl": "Tonga",
     "name_pt": "Tonga",
-    "name_ru": "Tonga\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a2\u00d0\u00be\u00d0\u00bd\u00d0\u00b3\u00d0\u00b0",
+    "name_ru": "\u00d0\u00a2\u00d0\u00be\u00d0\u00bd\u00d0\u00b3\u00d0\u00b0",
     "name_sort": "Tonga",
-    "name_sv": "",
+    "name_sv": "Tonga",
     "name_tr": "Tonga",
-    "name_vi": "Tonga\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Ton",
-    "name_zh": "ga",
+    "name_vi": "Tonga",
+    "name_zh": "\u00e6\u009d\u00b1\u00e5\u008a\u00a0",
     "ne_id": "1159321319",
     "note_adm0": "",
     "note_brk": "",
@@ -189,7 +195,7 @@
     "sovereignt": "Tonga",
     "status": "officially-assigned",
     "su_a3": "TON",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Tonga",
     "tiny": "3",
     "tld": [
@@ -228,9 +234,21 @@
             "common": "\u30c8\u30f3\u30ac",
             "official": "\u30c8\u30f3\u30ac\u738b\u56fd"
         },
+        "kor": {
+            "common": "\ud1b5\uac00",
+            "official": "\ud1b5\uac00 \uc655\uad6d"
+        },
         "nld": {
             "common": "Tonga",
             "official": "Koninkrijk Tonga"
+        },
+        "per": {
+            "common": "\u062a\u0648\u0646\u06af\u0627",
+            "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u062a\u0648\u0646\u06af\u0627"
+        },
+        "pol": {
+            "common": "Tonga",
+            "official": "Kr\u00f3lestwo Tonga"
         },
         "por": {
             "common": "Tonga",
@@ -247,6 +265,10 @@
         "spa": {
             "common": "Tonga",
             "official": "Reino de Tonga"
+        },
+        "urd": {
+            "common": "\u0679\u0648\u0646\u06af\u0627",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0679\u0648\u0646\u06af\u0627"
         },
         "zho": {
             "common": "\u6c64\u52a0",

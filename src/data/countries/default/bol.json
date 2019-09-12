@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "BOL",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Bolivia",
     "alt_spellings": [
         "BO",
@@ -27,7 +27,7 @@
         "PER"
     ],
     "brk_a3": "BOL",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bolivia",
     "capital": [
@@ -126,10 +126,16 @@
         "subregion_code": "005",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Bolivia",
     "gu_a3": "BOL",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "91"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "BO",
@@ -191,20 +197,20 @@
     "name_hu": "Bol\u00c3\u00advia",
     "name_id": "Bolivia",
     "name_it": "Bolivia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u009c\u00e3\u0083\u00aa\u00e3\u0083\u0093\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u009c\u00e3\u0083\u00aa\u00e3\u0083\u0093\u00e3\u0082\u00a2",
+    "name_ko": "\u00eb\u00b3\u00bc\u00eb\u00a6\u00ac\u00eb\u00b9\u0084\u00ec\u0095\u0084",
     "name_len": "7",
     "name_long": "Bolivia",
     "name_nev": "Bolivia",
-    "name_nl": "\u00eb\u00b3\u00bc\u00eb\u00a6\u00ac\u00eb\u00b9\u0084\u00ec\u0095\u0084",
-    "name_pl": "Bolivia",
-    "name_pt": "Boliwia",
-    "name_ru": "Bol\u00c3\u00advia\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0091\u00d0\u00be\u00d0\u00bb\u00d0\u00b8\u00d0\u00b2\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Bolivia",
+    "name_pl": "Boliwia",
+    "name_pt": "Bol\u00c3\u00advia",
+    "name_ru": "\u00d0\u0091\u00d0\u00be\u00d0\u00bb\u00d0\u00b8\u00d0\u00b2\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Bolivia",
-    "name_sv": "",
-    "name_tr": "Bolivia",
-    "name_vi": "Bolivya\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Bol",
-    "name_zh": "ivia",
+    "name_sv": "Bolivia",
+    "name_tr": "Bolivya",
+    "name_vi": "Bolivia",
+    "name_zh": "\u00e7\u008e\u00bb\u00e5\u0088\u00a9\u00e7\u00b6\u00ad\u00e4\u00ba\u009e",
     "ne_id": "1159320439",
     "note_adm0": "",
     "note_brk": "",
@@ -213,12 +219,12 @@
     "pop_year": "2017",
     "postal": "BO",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "BOL",
     "sovereignt": "Bolivia",
     "status": "officially-assigned",
     "su_a3": "BOL",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Bolivia",
     "tiny": "-99",
     "tld": [
@@ -261,9 +267,21 @@
             "common": "\u30dc\u30ea\u30d3\u30a2\u591a\u6c11\u65cf\u56fd",
             "official": "\u30dc\u30ea\u30d3\u30a2\u306e\u591a\u6c11\u65cf\u56fd"
         },
+        "kor": {
+            "common": "\ubcfc\ub9ac\ube44\uc544",
+            "official": "\ubcfc\ub9ac\ube44\uc544 \ub2e4\ubbfc\uc871\uad6d"
+        },
         "nld": {
             "common": "Bolivia",
             "official": "Plurinationale Staat van Bolivia"
+        },
+        "per": {
+            "common": "\u0628\u0648\u0644\u06cc\u0648\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0628\u0648\u0644\u06cc\u0648\u06cc"
+        },
+        "pol": {
+            "common": "Boliwia",
+            "official": "Wielonarodowe Pa\u0144stwo Boliwia"
         },
         "por": {
             "common": "Bol\u00edvia",
@@ -280,6 +298,10 @@
         "spa": {
             "common": "Bolivia",
             "official": "Estado Plurinacional de Bolivia"
+        },
+        "urd": {
+            "common": "\u0628\u0648\u0644\u06cc\u0648\u06cc\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0648\u0644\u06cc\u0648\u06cc\u0627"
         },
         "zho": {
             "common": "\u73bb\u5229\u7ef4\u4e9a",

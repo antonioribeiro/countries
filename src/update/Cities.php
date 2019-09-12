@@ -58,7 +58,7 @@ class Cities extends Base
             return $item;
         };
 
-        list(, $cities) = $this->updater->generateJsonFiles($result, $dataDir, $normalizerClosure, $codeGeneratorClosure, $mergerClosure);
+        [, $cities] = $this->updater->generateJsonFiles($result, $dataDir, $normalizerClosure, $codeGeneratorClosure, $mergerClosure);
 
         $this->helper->progress('Generated '.count($cities).' cities.');
     }

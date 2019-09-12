@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "OMN",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Oman",
     "alt_spellings": [
         "OM",
@@ -19,7 +19,7 @@
         "YEM"
     ],
     "brk_a3": "OMN",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Oman",
     "capital": [
@@ -115,10 +115,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Oman",
     "gu_a3": "OMN",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "68"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
     "iso_3166_1_alpha2": "OM",
@@ -165,20 +171,20 @@
     "name_hu": "Om\u00c3\u00a1n",
     "name_id": "Oman",
     "name_it": "Oman",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00aa\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0082\u00aa\u00e3\u0083\u009e\u00e3\u0083\u00bc\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u0098\u00a4\u00eb\u00a7\u008c",
     "name_len": "4",
     "name_long": "Oman",
     "name_nev": "Oman",
-    "name_nl": "\u00ec\u0098\u00a4\u00eb\u00a7\u008c",
+    "name_nl": "Oman",
     "name_pl": "Oman",
-    "name_pt": "Oman",
-    "name_ru": "Om\u00c3\u00a3\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009e\u00d0\u00bc\u00d0\u00b0\u00d0\u00bd",
+    "name_pt": "Om\u00c3\u00a3",
+    "name_ru": "\u00d0\u009e\u00d0\u00bc\u00d0\u00b0\u00d0\u00bd",
     "name_sort": "Oman",
-    "name_sv": "",
-    "name_tr": "Oman",
-    "name_vi": "Umman\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Oma",
-    "name_zh": "n",
+    "name_sv": "Oman",
+    "name_tr": "Umman",
+    "name_vi": "Oman",
+    "name_zh": "\u00e9\u0098\u00bf\u00e6\u009b\u00bc",
     "ne_id": "1159321151",
     "note_adm0": "",
     "note_brk": "",
@@ -187,12 +193,12 @@
     "pop_year": "2017",
     "postal": "OM",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "OMN",
     "sovereignt": "Oman",
     "status": "officially-assigned",
     "su_a3": "OMN",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Oman",
     "tiny": "-99",
     "tld": [
@@ -231,9 +237,21 @@
             "common": "\u30aa\u30de\u30fc\u30f3",
             "official": "\u30aa\u30de\u30fc\u30f3\u00b7\u30b9\u30eb\u30bf\u30f3\u56fd"
         },
+        "kor": {
+            "common": "\uc624\ub9cc",
+            "official": "\uc624\ub9cc \uc220\ud0c4\uad6d"
+        },
         "nld": {
             "common": "Oman",
             "official": "Sultanaat van Oman"
+        },
+        "per": {
+            "common": "\u0639\u0645\u0627\u0646",
+            "official": "\u0633\u0644\u0637\u0627\u0646\u200c\u0646\u0634\u06cc\u0646 \u0639\u064f\u0645\u0627\u0646"
+        },
+        "pol": {
+            "common": "Oman",
+            "official": "Su\u0142tanat Omanu"
         },
         "por": {
             "common": "Om\u00e3",
@@ -250,6 +268,10 @@
         "spa": {
             "common": "Om\u00e1n",
             "official": "Sultanato de Om\u00e1n"
+        },
+        "urd": {
+            "common": "\u0639\u0645\u0627\u0646",
+            "official": "\u0633\u0644\u0637\u0646\u062a \u0639\u0645\u0627\u0646"
         },
         "zho": {
             "common": "\u963f\u66fc",

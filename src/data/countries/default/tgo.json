@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "TGO",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Togo",
     "alt_spellings": [
         "TG",
@@ -20,7 +20,7 @@
         "GHA"
     ],
     "brk_a3": "TGO",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Togo",
     "capital": [
@@ -116,10 +116,16 @@
         "subregion_code": "011",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Togo",
     "gu_a3": "TGO",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "28"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "TG",
@@ -166,20 +172,20 @@
     "name_hu": "Togo",
     "name_id": "Togo",
     "name_it": "Togo",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u0088\u00e3\u0083\u00bc\u00e3\u0082\u00b4",
+    "name_ja": "\u00e3\u0083\u0088\u00e3\u0083\u00bc\u00e3\u0082\u00b4",
+    "name_ko": "\u00ed\u0086\u00a0\u00ea\u00b3\u00a0",
     "name_len": "4",
     "name_long": "Togo",
     "name_nev": "Togo",
-    "name_nl": "\u00ed\u0086\u00a0\u00ea\u00b3\u00a0",
+    "name_nl": "Togo",
     "name_pl": "Togo",
     "name_pt": "Togo",
-    "name_ru": "Togo\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a2\u00d0\u00be\u00d0\u00b3\u00d0\u00be",
+    "name_ru": "\u00d0\u00a2\u00d0\u00be\u00d0\u00b3\u00d0\u00be",
     "name_sort": "Togo",
-    "name_sv": "",
+    "name_sv": "Togo",
     "name_tr": "Togo",
-    "name_vi": "Togo\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Tog",
-    "name_zh": "o",
+    "name_vi": "Togo",
+    "name_zh": "\u00e5\u00a4\u009a\u00e5\u0093\u00a5",
     "ne_id": "1159321303",
     "note_adm0": "",
     "note_brk": "",
@@ -188,12 +194,12 @@
     "pop_year": "2017",
     "postal": "TG",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "TGO",
     "sovereignt": "Togo",
     "status": "officially-assigned",
     "su_a3": "TGO",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Togo",
     "tiny": "-99",
     "tld": [
@@ -232,9 +238,21 @@
             "common": "\u30c8\u30fc\u30b4",
             "official": "\u30c8\u30fc\u30b4\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ud1a0\uace0",
+            "official": "\ud1a0\uace0 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Togo",
             "official": "Republiek Togo"
+        },
+        "per": {
+            "common": "\u062a\u0648\u06af\u0648",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062a\u0648\u06af\u0648"
+        },
+        "pol": {
+            "common": "Togo",
+            "official": "Republika Togijska"
         },
         "por": {
             "common": "Togo",
@@ -251,6 +269,10 @@
         "spa": {
             "common": "Togo",
             "official": "Rep\u00fablica de Togo"
+        },
+        "urd": {
+            "common": "\u0679\u0648\u06af\u0648",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0679\u0648\u06af\u0648"
         },
         "zho": {
             "common": "\u591a\u54e5",

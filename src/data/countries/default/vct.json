@@ -6,14 +6,14 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "VCT",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Saint Vincent and the Grenadines",
     "alt_spellings": [
         "VC"
     ],
     "borders": [],
     "brk_a3": "VCT",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "St. Vin. and Gren.",
     "capital": [
@@ -105,10 +105,16 @@
         "subregion_code": "029",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Saint Vincent and the Grenadines",
     "gu_a3": "VCT",
     "homepart": "1",
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "784"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "VC",
@@ -155,20 +161,20 @@
     "name_hu": "Saint Vincent \u00c3\u00a9s a Grenadine-szigetek",
     "name_id": "Saint Vincent dan Grenadines",
     "name_it": "Saint Vincent e Grenadine",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00bb\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u0093\u00e3\u0083\u00b3\u00e3\u0082\u00bb\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0082\u00b0\u00e3\u0083\u00ac",
+    "name_ja": "\u00e3\u0082\u00bb\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u0093\u00e3\u0083\u00b3\u00e3\u0082\u00bb\u00e3\u0083\u00b3\u00e3\u0083\u0088\u00e3\u0083\u00bb\u00e3\u0082\u00b0\u00e3\u0083\u00ac\u00e3\u0083\u008a\u00e3\u0083\u0087\u00e3\u0082\u00a3\u00e3\u0083\u00bc\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u0084\u00b8\u00ec\u009d\u00b8\u00ed\u008a\u00b8\u00eb\u00b9\u0088\u00ec\u0084\u00bc\u00ed\u008a\u00b8 \u00ea\u00b7\u00b8\u00eb\u00a0\u0088\u00eb\u0082\u0098\u00eb\u0094\u0098",
     "name_len": "18",
     "name_long": "Saint Vincent and the Grenadines",
     "name_nev": "St. Vin. and Gren.",
-    "name_nl": "\u00e3\u0083\u008a\u00e3\u0083\u0087\u00e3\u0082\u00a3\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00ec\u0084\u00b8\u00ec\u009d\u00b8\u00ed\u008a\u00b8\u00eb\u00b9\u0088\u00ec\u0084\u00bc\u00ed\u008a",
-    "name_pl": "\u00b8 \u00ea\u00b7\u00b8\u00eb\u00a0\u0088\u00eb\u0082\u0098\u00eb\u0094\u0098\u0000\u0000Saint Vincent en de Gren",
-    "name_pt": "adines\u0000\u0000Saint Vincent i Grenadyny",
-    "name_ru": "S\u00c3\u00a3o Vicente e Granadinas\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b5\u00d0\u00bd\u00d1\u0082-\u00d0\u0092\u00d0\u00b8\u00d0\u00bd\u00d1\u0081\u00d0\u00b5\u00d0\u00bd\u00d1\u0082 \u00d0\u00b8 \u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00b0",
+    "name_nl": "Saint Vincent en de Grenadines",
+    "name_pl": "Saint Vincent i Grenadyny",
+    "name_pt": "S\u00c3\u00a3o Vicente e Granadinas",
+    "name_ru": "\u00d0\u00a1\u00d0\u00b5\u00d0\u00bd\u00d1\u0082-\u00d0\u0092\u00d0\u00b8\u00d0\u00bd\u00d1\u0081\u00d0\u00b5\u00d0\u00bd\u00d1\u0082 \u00d0\u00b8 \u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00b0\u00d0\u00b4\u00d0\u00b8\u00d0\u00bd\u00d1\u008b",
     "name_sort": "St. Vincent and the Grenadines",
-    "name_sv": "\u00d0\u00b4\u00d0\u00b8\u00d0\u00bd\u00d1\u008b",
-    "name_tr": "Saint Vincent och Grenadi",
-    "name_vi": "nerna\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Saint Vincent ve Grenadinler\u0000\u0000\u0000\u0000\u0000\u0000Sai",
-    "name_zh": "nt Vincent v\u00c3\u00a0 Grenadines",
+    "name_sv": "Saint Vincent och Grenadinerna",
+    "name_tr": "Saint Vincent ve Grenadinler",
+    "name_vi": "Saint Vincent v\u00c3\u00a0 Grenadines",
+    "name_zh": "\u00e5\u009c\u00a3\u00e6\u0096\u0087\u00e6\u00a3\u00ae\u00e7\u0089\u00b9\u00e5\u0092\u008c\u00e6\u00a0\u00bc\u00e6\u009e\u0097\u00e7\u00ba\u00b3\u00e4\u00b8\u0081\u00e6\u0096\u00af",
     "ne_id": "1159321409",
     "note_adm0": "",
     "note_brk": "",
@@ -182,7 +188,7 @@
     "sovereignt": "Saint Vincent and the Grenadines",
     "status": "officially-assigned",
     "su_a3": "VCT",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Saint Vincent and the Grenadines",
     "tiny": "-99",
     "tld": [
@@ -221,9 +227,21 @@
             "common": "\u30bb\u30f3\u30c8\u30d3\u30f3\u30bb\u30f3\u30c8\u304a\u3088\u3073\u30b0\u30ec\u30ca\u30c7\u30a3\u30fc\u30f3\u8af8\u5cf6",
             "official": "\u30bb\u30f3\u30c8\u30d3\u30f3\u30bb\u30f3\u30c8\u304a\u3088\u3073\u30b0\u30ec\u30ca\u30c7\u30a3\u30fc\u30f3\u8af8\u5cf6"
         },
+        "kor": {
+            "common": "\uc138\uc778\ud2b8\ube48\uc13c\ud2b8 \uadf8\ub808\ub098\ub518",
+            "official": "\uc138\uc778\ud2b8\ube48\uc13c\ud2b8 \uadf8\ub808\ub098\ub518"
+        },
         "nld": {
             "common": "Saint Vincent en de Grenadines",
             "official": "Saint Vincent en de Grenadines"
+        },
+        "per": {
+            "common": "\u0633\u0646\u062a \u0648\u06cc\u0646\u0633\u0646\u062a \u0648 \u06af\u0631\u0646\u0627\u062f\u06cc\u0646\u200c\u0647\u0627",
+            "official": "\u0633\u0646\u062a \u0648\u06cc\u0646\u0633\u0646\u062a \u0648 \u06af\u0631\u0646\u0627\u062f\u06cc\u0646\u200c\u0647\u0627"
+        },
+        "pol": {
+            "common": "Saint Vincent i Grenadyny",
+            "official": "Saint Vincent i Grenadyny"
         },
         "por": {
             "common": "S\u00e3o Vincente e Granadinas",
@@ -240,6 +258,10 @@
         "spa": {
             "common": "San Vicente y Granadinas",
             "official": "San Vicente y las Granadinas"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0646\u0679 \u0648\u06cc\u0646\u0633\u06cc\u0646\u0679 \u0648 \u06af\u0631\u06cc\u0646\u0627\u0688\u0627\u0626\u0646\u0632",
+            "official": "\u0633\u06cc\u0646\u0679 \u0648\u06cc\u0646\u0633\u06cc\u0646\u0679 \u0648 \u06af\u0631\u06cc\u0646\u0627\u0688\u0627\u0626\u0646\u0632"
         },
         "zho": {
             "common": "\u5723\u6587\u68ee\u7279\u548c\u683c\u6797\u7eb3\u4e01\u65af",

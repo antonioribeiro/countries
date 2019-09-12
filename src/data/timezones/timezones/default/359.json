@@ -1,7 +1,28 @@
 {
-    "abbreviation": "+05",
+    "1": {
+        "abbreviation": "WAT",
+        "dst": "0",
+        "gmt_offset": "3600",
+        "time_start": "-1830387612",
+        "zone_id": "359"
+    },
+    "2": {
+        "abbreviation": "WAST",
+        "dst": "1",
+        "gmt_offset": "7200",
+        "time_start": "308703600",
+        "zone_id": "359"
+    },
+    "3": {
+        "abbreviation": "WAT",
+        "dst": "0",
+        "gmt_offset": "3600",
+        "time_start": "321314400",
+        "zone_id": "359"
+    },
+    "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "18000",
-    "time_start": "-631152000",
+    "gmt_offset": "3612",
+    "time_start": "-1830387613",
     "zone_id": "359"
 }

@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "YEM",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Yemen",
     "alt_spellings": [
         "YE",
@@ -18,7 +18,7 @@
         "SAU"
     ],
     "brk_a3": "YEM",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Yemen",
     "capital": [
@@ -115,10 +115,16 @@
         "subregion_code": "145",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Yemen",
     "gu_a3": "YEM",
     "homepart": "1",
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "67"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "YE",
@@ -165,20 +171,20 @@
     "name_hu": "Jemen",
     "name_id": "Yaman",
     "name_it": "Yemen",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a4\u00e3\u0082\u00a8\u00e3\u0083\u00a1\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0082\u00a4\u00e3\u0082\u00a8\u00e3\u0083\u00a1\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u0098\u0088\u00eb\u00a9\u0098",
     "name_len": "5",
     "name_long": "Yemen",
     "name_nev": "Yemen",
-    "name_nl": "\u00ec\u0098\u0088\u00eb\u00a9\u0098",
+    "name_nl": "Jemen",
     "name_pl": "Jemen",
-    "name_pt": "Jemen",
-    "name_ru": "I\u00c3\u00a9men\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0099\u00d0\u00b5\u00d0\u00bc\u00d0\u00b5\u00d0\u00bd",
+    "name_pt": "I\u00c3\u00a9men",
+    "name_ru": "\u00d0\u0099\u00d0\u00b5\u00d0\u00bc\u00d0\u00b5\u00d0\u00bd",
     "name_sort": "Yemen, Rep.",
-    "name_sv": "",
-    "name_tr": "Jemen",
-    "name_vi": "Yemen\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Yem",
-    "name_zh": "en",
+    "name_sv": "Jemen",
+    "name_tr": "Yemen",
+    "name_vi": "Yemen",
+    "name_zh": "\u00e4\u00b9\u009f\u00e9\u0097\u00a8",
     "ne_id": "1159321425",
     "note_adm0": "",
     "note_brk": "",
@@ -187,12 +193,12 @@
     "pop_year": "2017",
     "postal": "YE",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "YEM",
     "sovereignt": "Yemen",
     "status": "officially-assigned",
     "su_a3": "YEM",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Yemen",
     "tiny": "-99",
     "tld": [
@@ -231,9 +237,21 @@
             "common": "\u30a4\u30a8\u30e1\u30f3",
             "official": "\u30a4\u30a8\u30e1\u30f3\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc608\uba58",
+            "official": "\uc608\uba58 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Jemen",
             "official": "Republiek Jemen"
+        },
+        "per": {
+            "common": "\u06cc\u0645\u0646",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u06cc\u0645\u0646"
+        },
+        "pol": {
+            "common": "Jemen",
+            "official": "Republika Jeme\u0144ska"
         },
         "por": {
             "common": "I\u00e9men",
@@ -250,6 +268,10 @@
         "spa": {
             "common": "Yemen",
             "official": "Rep\u00fablica de Yemen"
+        },
+        "urd": {
+            "common": "\u06cc\u0645\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06cc\u0645\u0646"
         },
         "zho": {
             "common": "\u4e5f\u95e8",

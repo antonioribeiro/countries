@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "NOR",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Norway",
     "alt_spellings": [
         "NO",
@@ -22,7 +22,7 @@
         "RUS"
     ],
     "brk_a3": "NOR",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Norway",
     "capital": [
@@ -118,10 +118,16 @@
         "subregion_code": "154",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Norway",
     "gu_a3": "NOR",
     "homepart": "1",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "7"
+        ]
+    },
     "income_grp": "1. High income: OECD",
     "independent": true,
     "iso_3166_1_alpha2": "NO",
@@ -178,20 +184,20 @@
     "name_hu": "Norv\u00c3\u00a9gia",
     "name_id": "Norwegia",
     "name_it": "Norvegia",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u008e\u00e3\u0083\u00ab\u00e3\u0082\u00a6\u00e3\u0082\u00a7\u00e3\u0083\u00bc",
+    "name_ja": "\u00e3\u0083\u008e\u00e3\u0083\u00ab\u00e3\u0082\u00a6\u00e3\u0082\u00a7\u00e3\u0083\u00bc",
+    "name_ko": "\u00eb\u0085\u00b8\u00eb\u00a5\u00b4\u00ec\u009b\u00a8\u00ec\u009d\u00b4",
     "name_len": "6",
     "name_long": "Norway",
     "name_nev": "Norway",
-    "name_nl": "\u00eb\u0085\u00b8\u00eb\u00a5\u00b4\u00ec\u009b\u00a8\u00ec\u009d\u00b4",
-    "name_pl": "Noorwegen",
-    "name_pt": "Norwegia",
-    "name_ru": "Noruega\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d0\u00b2\u00d0\u00b5\u00d0\u00b3\u00d0\u00b8\u00d1\u008f",
+    "name_nl": "Noorwegen",
+    "name_pl": "Norwegia",
+    "name_pt": "Noruega",
+    "name_ru": "\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d0\u00b2\u00d0\u00b5\u00d0\u00b3\u00d0\u00b8\u00d1\u008f",
     "name_sort": "Norway",
-    "name_sv": "",
-    "name_tr": "Norge",
-    "name_vi": "Norve\u00c3\u00a7\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Na",
-    "name_zh": "Uy",
+    "name_sv": "Norge",
+    "name_tr": "Norve\u00c3\u00a7",
+    "name_vi": "Na Uy",
+    "name_zh": "\u00e6\u008c\u00aa\u00e5\u00a8\u0081",
     "ne_id": "1159321109",
     "note_adm0": "",
     "note_brk": "",
@@ -200,12 +206,12 @@
     "pop_year": "2017",
     "postal": "N",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "NOR",
     "sovereignt": "Norway",
     "status": "officially-assigned",
     "su_a3": "NOR",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Norway",
     "tiny": "-99",
     "tld": [
@@ -244,9 +250,21 @@
             "common": "\u30ce\u30eb\u30a6\u30a7\u30fc",
             "official": "\u30ce\u30eb\u30a6\u30a7\u30fc\u738b\u56fd"
         },
+        "kor": {
+            "common": "\ub178\ub974\uc6e8\uc774",
+            "official": "\ub178\ub974\uc6e8\uc774 \uc655\uad6d"
+        },
         "nld": {
             "common": "Noorwegen",
             "official": "Koninkrijk Noorwegen"
+        },
+        "per": {
+            "common": "\u0646\u0631\u0648\u0698",
+            "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u0646\u0631\u0648\u0698"
+        },
+        "pol": {
+            "common": "Norwegia",
+            "official": "Kr\u00f3lestwo Norwegii"
         },
         "por": {
             "common": "Noruega",
@@ -263,6 +281,10 @@
         "spa": {
             "common": "Noruega",
             "official": "Reino de Noruega"
+        },
+        "urd": {
+            "common": "\u0646\u0627\u0631\u0648\u06d2",
+            "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0646\u0627\u0631\u0648\u06d2"
         },
         "zho": {
             "common": "\u632a\u5a01",

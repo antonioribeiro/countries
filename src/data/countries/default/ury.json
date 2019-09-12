@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "URY",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Uruguay",
     "alt_spellings": [
         "UY",
@@ -18,7 +18,7 @@
         "BRA"
     ],
     "brk_a3": "URY",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Uruguay",
     "capital": [
@@ -115,10 +115,16 @@
         "subregion_code": "005",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Uruguay",
     "gu_a3": "URY",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "98"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "UY",
@@ -165,20 +171,20 @@
     "name_hu": "Uruguay",
     "name_id": "Uruguay",
     "name_it": "Uruguay",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00a6\u00e3\u0083\u00ab\u00e3\u0082\u00b0\u00e3\u0082\u00a2\u00e3\u0082\u00a4",
+    "name_ja": "\u00e3\u0082\u00a6\u00e3\u0083\u00ab\u00e3\u0082\u00b0\u00e3\u0082\u00a2\u00e3\u0082\u00a4",
+    "name_ko": "\u00ec\u009a\u00b0\u00eb\u00a3\u00a8\u00ea\u00b3\u00bc\u00ec\u009d\u00b4",
     "name_len": "7",
     "name_long": "Uruguay",
     "name_nev": "Uruguay",
-    "name_nl": "\u00ec\u009a\u00b0\u00eb\u00a3\u00a8\u00ea\u00b3\u00bc\u00ec\u009d\u00b4",
-    "name_pl": "Uruguay",
-    "name_pt": "Urugwaj",
-    "name_ru": "Uruguai\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a3\u00d1\u0080\u00d1\u0083\u00d0\u00b3\u00d0\u00b2\u00d0\u00b0\u00d0\u00b9",
+    "name_nl": "Uruguay",
+    "name_pl": "Urugwaj",
+    "name_pt": "Uruguai",
+    "name_ru": "\u00d0\u00a3\u00d1\u0080\u00d1\u0083\u00d0\u00b3\u00d0\u00b2\u00d0\u00b0\u00d0\u00b9",
     "name_sort": "Uruguay",
-    "name_sv": "",
+    "name_sv": "Uruguay",
     "name_tr": "Uruguay",
-    "name_vi": "Uruguay\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Uru",
-    "name_zh": "guay",
+    "name_vi": "Uruguay",
+    "name_zh": "\u00e4\u00b9\u008c\u00e6\u008b\u0089\u00e5\u009c\u00ad",
     "ne_id": "1159321353",
     "note_adm0": "",
     "note_brk": "",
@@ -187,12 +193,12 @@
     "pop_year": "2017",
     "postal": "UY",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "URY",
     "sovereignt": "Uruguay",
     "status": "officially-assigned",
     "su_a3": "URY",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Uruguay",
     "tiny": "-99",
     "tld": [
@@ -231,9 +237,21 @@
             "common": "\u30a6\u30eb\u30b0\u30a2\u30a4",
             "official": "\u30a6\u30eb\u30b0\u30a2\u30a4\u6771\u65b9\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc6b0\ub8e8\uacfc\uc774",
+            "official": "\uc6b0\ub8e8\uacfc\uc774 \ub3d9\ubc29 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Uruguay",
             "official": "Oosterse Republiek Uruguay"
+        },
+        "per": {
+            "common": "\u0627\u0631\u0648\u06af\u0648\u0626\u0647",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0631\u0648\u06af\u0648\u0626\u0647"
+        },
+        "pol": {
+            "common": "Urugwaj",
+            "official": "Wschodnia Republika Urugwaju"
         },
         "por": {
             "common": "Uruguai",
@@ -250,6 +268,10 @@
         "spa": {
             "common": "Uruguay",
             "official": "Rep\u00fablica Oriental del Uruguay"
+        },
+        "urd": {
+            "common": "\u06cc\u0648\u0631\u0627\u06af\u0648\u0626\u06d2",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0634\u0631\u0642\u06cc\u06c1 \u06cc\u0648\u0631\u0627\u06af\u0648\u0626\u06d2"
         },
         "zho": {
             "common": "\u4e4c\u62c9\u572d",

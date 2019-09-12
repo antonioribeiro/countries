@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "MWI",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Malawi",
     "alt_spellings": [
         "MW",
@@ -18,7 +18,7 @@
         "ZMB"
     ],
     "brk_a3": "MWI",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Malawi",
     "capital": [
@@ -114,10 +114,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Malawi",
     "gu_a3": "MWI",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "65"
+        ]
+    },
     "income_grp": "5. Low income",
     "independent": true,
     "iso_3166_1_alpha2": "MW",
@@ -169,20 +175,20 @@
     "name_hu": "Malawi",
     "name_id": "Malawi",
     "name_it": "Malawi",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u009e\u00e3\u0083\u00a9\u00e3\u0082\u00a6\u00e3\u0082\u00a4",
+    "name_ja": "\u00e3\u0083\u009e\u00e3\u0083\u00a9\u00e3\u0082\u00a6\u00e3\u0082\u00a4",
+    "name_ko": "\u00eb\u00a7\u0090\u00eb\u009d\u00bc\u00ec\u009c\u0084",
     "name_len": "6",
     "name_long": "Malawi",
     "name_nev": "Malawi",
-    "name_nl": "\u00eb\u00a7\u0090\u00eb\u009d\u00bc\u00ec\u009c\u0084",
+    "name_nl": "Malawi",
     "name_pl": "Malawi",
     "name_pt": "Malawi",
-    "name_ru": "Malawi\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009c\u00d0\u00b0\u00d0\u00bb\u00d0\u00b0\u00d0\u00b2\u00d0\u00b8",
+    "name_ru": "\u00d0\u009c\u00d0\u00b0\u00d0\u00bb\u00d0\u00b0\u00d0\u00b2\u00d0\u00b8",
     "name_sort": "Malawi",
-    "name_sv": "",
-    "name_tr": "Malawi",
-    "name_vi": "Malavi\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Mal",
-    "name_zh": "awi",
+    "name_sv": "Malawi",
+    "name_tr": "Malavi",
+    "name_vi": "Malawi",
+    "name_zh": "\u00e9\u00a9\u00ac\u00e6\u008b\u0089\u00e7\u00bb\u00b4",
     "ne_id": "1159321081",
     "note_adm0": "",
     "note_brk": "",
@@ -191,12 +197,12 @@
     "pop_year": "2017",
     "postal": "MW",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "MWI",
     "sovereignt": "Malawi",
     "status": "officially-assigned",
     "su_a3": "MWI",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Malawi",
     "tiny": "-99",
     "tld": [
@@ -235,9 +241,21 @@
             "common": "\u30de\u30e9\u30a6\u30a4",
             "official": "\u30de\u30e9\u30a6\u30a4\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub9d0\ub77c\uc704",
+            "official": "\ub9d0\ub77c\uc704 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Malawi",
             "official": "Republiek Malawi"
+        },
+        "per": {
+            "common": "\u0645\u0627\u0644\u0627\u0648\u06cc",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0645\u0627\u0644\u0627\u0648\u06cc"
+        },
+        "pol": {
+            "common": "Malawi",
+            "official": "Republika Malawi"
         },
         "por": {
             "common": "Malawi",
@@ -254,6 +272,10 @@
         "spa": {
             "common": "Malawi",
             "official": "Rep\u00fablica de Malawi"
+        },
+        "urd": {
+            "common": "\u0645\u0644\u0627\u0648\u06cc",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0644\u0627\u0648\u06cc"
         },
         "zho": {
             "common": "\u9a6c\u62c9\u7ef4",

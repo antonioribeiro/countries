@@ -179,8 +179,8 @@ class Countries extends Base
      */
     protected function instantiateCache(Cache $cache = null)
     {
-        if (is_null($this->cache) || ! is_null($cache)) {
-            $this->cache = ! is_null($cache)
+        if (\is_null($this->cache) || ! \is_null($cache)) {
+            $this->cache = ! \is_null($cache)
                 ? $cache
                 : new Cache($this->config);
         }
@@ -196,8 +196,8 @@ class Countries extends Base
      */
     protected function instantiateConfig($config = null)
     {
-        if (is_null($this->config) || ! is_null($config)) {
-            $this->config = ! is_null($config)
+        if (\is_null($this->config) || ! \is_null($config)) {
+            $this->config = ! \is_null($config)
                 ? $config
                 : new Config($this->helper);
         }
@@ -211,8 +211,8 @@ class Countries extends Base
      */
     protected function instantiateHelper(Helper $helper = null)
     {
-        $this->helper = is_null($helper)
-            ? (is_null($this->helper)
+        $this->helper = \is_null($helper)
+            ? (\is_null($this->helper)
                 ? $this->helper = new Helper($this->instantiateConfig())
                 : $this->helper)
             : $helper;
@@ -228,8 +228,8 @@ class Countries extends Base
      */
     protected function instantiateHydrator(Hydrator $hydrator = null)
     {
-        if (is_null($this->hydrator) || ! is_null($hydrator)) {
-            $this->hydrator = ! is_null($hydrator)
+        if (\is_null($this->hydrator) || ! \is_null($hydrator)) {
+            $this->hydrator = ! \is_null($hydrator)
                 ? $hydrator
                 : new Hydrator($this->config);
         }
@@ -243,7 +243,7 @@ class Countries extends Base
      */
     protected function instantiateRepository($repository)
     {
-        if (is_null($repository)) {
+        if (\is_null($repository)) {
             $repository = new Repository(
                 $this->instantiateCache(),
                 $this->instantiateHydrator(),
@@ -260,7 +260,7 @@ class Countries extends Base
      */
     protected function instantiateUpdater()
     {
-        if (is_null($this->updater)) {
+        if (\is_null($this->updater)) {
             $this->updater = new Updater($this->config, $this->helper);
         }
 

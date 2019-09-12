@@ -120,7 +120,7 @@ class Timezones extends Base
                ['name.official', 'name'],
             ];
 
-            list($country) = $this->updater->findByFields($this->updater->getCountries(), $item, $fields, 'cca2');
+            [$country] = $this->updater->findByFields($this->updater->getCountries(), $item, $fields, 'cca2');
 
             if ($country->isEmpty()) {
                 return [$cca2 => $item];

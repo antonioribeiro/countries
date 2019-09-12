@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SDN",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Sudan",
     "alt_spellings": [
         "SD",
@@ -23,7 +23,7 @@
         "SSD"
     ],
     "brk_a3": "SDN",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sudan",
     "capital": [
@@ -123,10 +123,16 @@
         "subregion_code": "015",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Sudan",
     "gu_a3": "SDN",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "49"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "SD",
@@ -178,20 +184,20 @@
     "name_hu": "Szud\u00c3\u00a1n",
     "name_id": "Sudan",
     "name_it": "Sudan",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b9\u00e3\u0083\u00bc\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+    "name_ja": "\u00e3\u0082\u00b9\u00e3\u0083\u00bc\u00e3\u0083\u0080\u00e3\u0083\u00b3",
+    "name_ko": "\u00ec\u0088\u0098\u00eb\u008b\u00a8",
     "name_len": "5",
     "name_long": "Sudan",
     "name_nev": "Sudan",
-    "name_nl": "\u00ec\u0088\u0098\u00eb\u008b\u00a8",
-    "name_pl": "Soedan",
-    "name_pt": "Sudan",
-    "name_ru": "Sud\u00c3\u00a3o\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d1\u0083\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd",
+    "name_nl": "Soedan",
+    "name_pl": "Sudan",
+    "name_pt": "Sud\u00c3\u00a3o",
+    "name_ru": "\u00d0\u00a1\u00d1\u0083\u00d0\u00b4\u00d0\u00b0\u00d0\u00bd",
     "name_sort": "Sudan",
-    "name_sv": "",
+    "name_sv": "Sudan",
     "name_tr": "Sudan",
-    "name_vi": "Sudan\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sud",
-    "name_zh": "an",
+    "name_vi": "Sudan",
+    "name_zh": "\u00e8\u008b\u008f\u00e4\u00b8\u00b9\u00e5\u0085\u00b1\u00e5\u0092\u008c\u00e5\u009b\u00bd",
     "ne_id": "1159321229",
     "note_adm0": "",
     "note_brk": "",
@@ -200,12 +206,12 @@
     "pop_year": "2017",
     "postal": "SD",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "SDN",
     "sovereignt": "Sudan",
     "status": "officially-assigned",
     "su_a3": "SDN",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Sudan",
     "tiny": "-99",
     "tld": [
@@ -244,9 +250,21 @@
             "common": "\u30b9\u30fc\u30c0\u30f3",
             "official": "\u30b9\u30fc\u30c0\u30f3\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc218\ub2e8",
+            "official": "\uc218\ub2e8 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Soedan",
             "official": "Republiek Soedan"
+        },
+        "per": {
+            "common": "\u0633\u0648\u062f\u0627\u0646",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0648\u062f\u0627\u0646"
+        },
+        "pol": {
+            "common": "Sudan",
+            "official": "Republika Sudanu"
         },
         "por": {
             "common": "Sud\u00e3o",
@@ -263,6 +281,10 @@
         "spa": {
             "common": "Sud\u00e1n",
             "official": "Rep\u00fablica de Sud\u00e1n"
+        },
+        "urd": {
+            "common": "\u0633\u0648\u062f\u0627\u0646",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0648\u062f\u0627\u0646"
         },
         "zho": {
             "common": "\u82cf\u4e39",

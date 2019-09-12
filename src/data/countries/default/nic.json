@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "NIC",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Nicaragua",
     "alt_spellings": [
         "NI",
@@ -18,7 +18,7 @@
         "HND"
     ],
     "brk_a3": "NIC",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Nicaragua",
     "capital": [
@@ -113,10 +113,16 @@
         "subregion_code": "013",
         "world_region": "AMER"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Nicaragua",
     "gu_a3": "NIC",
     "homepart": "1",
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "05"
+        ]
+    },
     "income_grp": "4. Lower middle income",
     "independent": true,
     "iso_3166_1_alpha2": "NI",
@@ -163,20 +169,20 @@
     "name_hu": "Nicaragua",
     "name_id": "Nikaragua",
     "name_it": "Nicaragua",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0083\u008b\u00e3\u0082\u00ab\u00e3\u0083\u00a9\u00e3\u0082\u00b0\u00e3\u0082\u00a2",
+    "name_ja": "\u00e3\u0083\u008b\u00e3\u0082\u00ab\u00e3\u0083\u00a9\u00e3\u0082\u00b0\u00e3\u0082\u00a2",
+    "name_ko": "\u00eb\u008b\u0088\u00ec\u00b9\u00b4\u00eb\u009d\u00bc\u00ea\u00b3\u00bc",
     "name_len": "9",
     "name_long": "Nicaragua",
     "name_nev": "Nicaragua",
-    "name_nl": "\u00eb\u008b\u0088\u00ec\u00b9\u00b4\u00eb\u009d\u00bc\u00ea\u00b3\u00bc",
-    "name_pl": "Nicaragua",
-    "name_pt": "Nikaragua",
-    "name_ru": "Nicar\u00c3\u00a1gua\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u009d\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0\u00d1\u0080\u00d0\u00b0\u00d0\u00b3\u00d1\u0083\u00d0\u00b0",
+    "name_nl": "Nicaragua",
+    "name_pl": "Nikaragua",
+    "name_pt": "Nicar\u00c3\u00a1gua",
+    "name_ru": "\u00d0\u009d\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0\u00d1\u0080\u00d0\u00b0\u00d0\u00b3\u00d1\u0083\u00d0\u00b0",
     "name_sort": "Nicaragua",
-    "name_sv": "",
-    "name_tr": "Nicaragua",
-    "name_vi": "Nikaragua\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Nic",
-    "name_zh": "aragua",
+    "name_sv": "Nicaragua",
+    "name_tr": "Nikaragua",
+    "name_vi": "Nicaragua",
+    "name_zh": "\u00e5\u00b0\u00bc\u00e5\u008a\u00a0\u00e6\u008b\u0089\u00e7\u0093\u009c",
     "ne_id": "1159321091",
     "note_adm0": "",
     "note_brk": "",
@@ -185,12 +191,12 @@
     "pop_year": "2017",
     "postal": "NI",
     "record_type": "country",
-    "scalerank": "",
+    "scalerank": "0",
     "sov_a3": "NIC",
     "sovereignt": "Nicaragua",
     "status": "officially-assigned",
     "su_a3": "NIC",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Nicaragua",
     "tiny": "-99",
     "tld": [
@@ -229,9 +235,21 @@
             "common": "\u30cb\u30ab\u30e9\u30b0\u30a2",
             "official": "\u30cb\u30ab\u30e9\u30b0\u30a2\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\ub2c8\uce74\ub77c\uacfc",
+            "official": "\ub2c8\uce74\ub77c\uacfc \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Nicaragua",
             "official": "Republiek Nicaragua"
+        },
+        "per": {
+            "common": "\u0646\u06cc\u06a9\u0627\u0631\u0627\u06af\u0648\u0626\u0647",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0646\u06cc\u06a9\u0627\u0631\u0627\u06af\u0648\u0626\u0647"
+        },
+        "pol": {
+            "common": "Nikaragua",
+            "official": "Republika Nikaragui"
         },
         "por": {
             "common": "Nicar\u00e1gua",
@@ -248,6 +266,10 @@
         "spa": {
             "common": "Nicaragua",
             "official": "Rep\u00fablica de Nicaragua"
+        },
+        "urd": {
+            "common": "\u0646\u06a9\u0627\u0631\u0627\u06af\u0648\u0627",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0646\u06a9\u0627\u0631\u0627\u06af\u0648\u0627"
         },
         "zho": {
             "common": "\u5c3c\u52a0\u62c9\u74dc",

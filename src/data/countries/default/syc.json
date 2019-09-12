@@ -6,7 +6,7 @@
     "adm0_a3_un": "-99",
     "adm0_a3_us": "SYC",
     "adm0_a3_wb": "-99",
-    "adm0_dif": "",
+    "adm0_dif": "0",
     "admin": "Seychelles",
     "alt_spellings": [
         "SC",
@@ -16,7 +16,7 @@
     ],
     "borders": [],
     "brk_a3": "SYC",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Seychelles",
     "capital": [
@@ -108,10 +108,16 @@
         "subregion_code": "014",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Seychelles",
     "gu_a3": "SYC",
     "homepart": "1",
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "48"
+        ]
+    },
     "income_grp": "3. Upper middle income",
     "independent": true,
     "iso_3166_1_alpha2": "SC",
@@ -168,20 +174,20 @@
     "name_hu": "Seychelle-szigetek",
     "name_id": "Seychelles",
     "name_it": "Seychelles",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00bb\u00e3\u0083\u00bc\u00e3\u0082\u00b7\u00e3\u0082\u00a7\u00e3\u0083\u00ab",
+    "name_ja": "\u00e3\u0082\u00bb\u00e3\u0083\u00bc\u00e3\u0082\u00b7\u00e3\u0082\u00a7\u00e3\u0083\u00ab",
+    "name_ko": "\u00ec\u0084\u00b8\u00ec\u009d\u00b4\u00ec\u0085\u00b8",
     "name_len": "10",
     "name_long": "Seychelles",
     "name_nev": "Seychelles",
-    "name_nl": "\u00ec\u0084\u00b8\u00ec\u009d\u00b4\u00ec\u0085\u00b8",
-    "name_pl": "Seychellen",
-    "name_pt": "Seszele",
-    "name_ru": "Seychelles\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u00a1\u00d0\u00b5\u00d0\u00b9\u00d1\u0088\u00d0\u00b5\u00d0\u00bb\u00d1\u008b",
+    "name_nl": "Seychellen",
+    "name_pl": "Seszele",
+    "name_pt": "Seychelles",
+    "name_ru": "\u00d0\u00a1\u00d0\u00b5\u00d0\u00b9\u00d1\u0088\u00d0\u00b5\u00d0\u00bb\u00d1\u008b",
     "name_sort": "Seychelles",
-    "name_sv": "",
-    "name_tr": "Seychellerna",
-    "name_vi": "Sey\u00c5\u009feller\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Sey",
-    "name_zh": "chelles",
+    "name_sv": "Seychellerna",
+    "name_tr": "Sey\u00c5\u009feller",
+    "name_vi": "Seychelles",
+    "name_zh": "\u00e5\u00a1\u009e\u00e8\u0088\u008c\u00e5\u00b0\u0094",
     "ne_id": "1159321291",
     "note_adm0": "",
     "note_brk": "",
@@ -195,7 +201,7 @@
     "sovereignt": "Seychelles",
     "status": "officially-assigned",
     "su_a3": "SYC",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Seychelles",
     "tiny": "2",
     "tld": [
@@ -234,9 +240,21 @@
             "common": "\u30bb\u30fc\u30b7\u30a7\u30eb",
             "official": "\u30bb\u30a4\u30b7\u30a7\u30eb\u5171\u548c\u56fd"
         },
+        "kor": {
+            "common": "\uc138\uc774\uc178",
+            "official": "\uc138\uc774\uc178 \uacf5\ud654\uad6d"
+        },
         "nld": {
             "common": "Seychellen",
             "official": "Republiek der Seychellen"
+        },
+        "per": {
+            "common": "\u0633\u06cc\u0634\u0644",
+            "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u06cc\u0634\u0644"
+        },
+        "pol": {
+            "common": "Seszele",
+            "official": "Republika Seszeli"
         },
         "por": {
             "common": "Seicheles",
@@ -253,6 +271,10 @@
         "spa": {
             "common": "Seychelles",
             "official": "Rep\u00fablica de las Seychelles"
+        },
+        "urd": {
+            "common": "\u0633\u06cc\u0686\u06cc\u0644\u06cc\u0633",
+            "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u06cc\u0686\u06cc\u0644\u06cc\u0633"
         },
         "zho": {
             "common": "\u585e\u820c\u5c14",

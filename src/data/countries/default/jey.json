@@ -16,7 +16,7 @@
     ],
     "borders": [],
     "brk_a3": "JEY",
-    "brk_diff": "",
+    "brk_diff": "0",
     "brk_group": "Channel Islands",
     "brk_name": "Jersey",
     "capital": [
@@ -44,7 +44,7 @@
         ],
         "borders": [],
         "brk_a3": "JEY",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "Channel Islands",
         "brk_name": "Jersey",
         "capital": [
@@ -54,18 +54,20 @@
         "cca3": "JEY",
         "ccn3": "832",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "j_e_p": {
+                "name": "Jersey pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Channel Islander",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "JE",
@@ -89,10 +91,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "Northern Europe"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Jersey",
         "gu_a3": "JEY",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "JE",
@@ -146,20 +154,20 @@
         "name_hu": "Jersey",
         "name_id": "Jersey",
         "name_it": "Baliato di Jersey",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00b8\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ja": "\u00e3\u0082\u00b8\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ko": "\u00ec\u00a0\u0080\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
         "name_len": "6",
         "name_long": "Jersey",
         "name_nev": "Jersey",
-        "name_nl": "\u00ec\u00a0\u0080\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
+        "name_nl": "Jersey",
         "name_pl": "Jersey",
         "name_pt": "Jersey",
-        "name_ru": "Jersey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0094\u00d0\u00b6\u00d0\u00b5\u00d1\u0080\u00d1\u0081\u00d0\u00b8",
+        "name_ru": "\u00d0\u0094\u00d0\u00b6\u00d0\u00b5\u00d1\u0080\u00d1\u0081\u00d0\u00b8",
         "name_sort": "Jersey",
-        "name_sv": "",
+        "name_sv": "Jersey",
         "name_tr": "Jersey",
-        "name_vi": "Jersey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Jer",
-        "name_zh": "sey",
+        "name_vi": "Jersey",
+        "name_zh": "\u00e6\u00be\u00a4\u00e8\u00a5\u00bf\u00e5\u00b3\u00b6",
         "ne_id": "1159320725",
         "note_adm0": "U.K. crown dependency",
         "note_brk": "",
@@ -173,7 +181,7 @@
         "sovereignt": "United Kingdom",
         "status": "officially-assigned",
         "su_a3": "JEY",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Jersey",
         "tiny": "-99",
         "tld": [
@@ -212,9 +220,21 @@
                 "common": "\u30b8\u30e3\u30fc\u30b8\u30fc",
                 "official": "\u30b8\u30e3\u30fc\u30b8\u306e\u5f97\u610f\u5206\u91ce"
             },
+            "kor": {
+                "common": "\uc800\uc9c0 \uc12c",
+                "official": "\uc800\uc9c0 \uc12c"
+            },
             "nld": {
                 "common": "Jersey",
                 "official": "Baljuwschap Jersey"
+            },
+            "per": {
+                "common": "\u062c\u0631\u0632\u06cc",
+                "official": "\u062c\u0631\u0632\u06cc"
+            },
+            "pol": {
+                "common": "Jersey",
+                "official": "Jersey"
             },
             "por": {
                 "common": "Jersey",
@@ -231,6 +251,10 @@
             "spa": {
                 "common": "Jersey",
                 "official": "Bail\u00eda de Jersey"
+            },
+            "urd": {
+                "common": "\u062c\u0631\u0632\u06cc",
+                "official": "\u062c\u0631\u0632\u06cc"
             },
             "zho": {
                 "common": "\u6cfd\u897f\u5c9b",
@@ -324,10 +348,16 @@
         "subregion_code": "154",
         "world_region": "EMEA"
     },
-    "geou_dif": "",
+    "geou_dif": "0",
     "geounit": "Jersey",
     "gu_a3": "JEY",
     "homepart": "-99",
+    "idd": {
+        "root": "+4",
+        "suffixes": [
+            "4"
+        ]
+    },
     "income_grp": "2. High income: nonOECD",
     "independent": {
         "abbrev": "Jey.",
@@ -347,7 +377,7 @@
         ],
         "borders": [],
         "brk_a3": "JEY",
-        "brk_diff": "",
+        "brk_diff": "0",
         "brk_group": "Channel Islands",
         "brk_name": "Jersey",
         "capital": [
@@ -357,18 +387,20 @@
         "cca3": "JEY",
         "ccn3": "832",
         "cioc": null,
-        "currency": [
-            "GBP"
-        ],
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "j_e_p": {
+                "name": "Jersey pound",
+                "symbol": "\u00a3"
+            }
+        },
         "data_sources": [
             "mledoze"
         ],
         "demonym": "Channel Islander",
-        "dialling": {
-            "calling_code": [
-                "44"
-            ]
-        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "JE",
@@ -392,10 +424,16 @@
             "region_wb": "Europe & Central Asia",
             "subregion": "Northern Europe"
         },
-        "geou_dif": "",
+        "geou_dif": "0",
         "geounit": "Jersey",
         "gu_a3": "JEY",
         "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
         "income_grp": "2. High income: nonOECD",
         "independent": null,
         "iso_a2": "JE",
@@ -449,20 +487,20 @@
         "name_hu": "Jersey",
         "name_id": "Jersey",
         "name_it": "Baliato di Jersey",
-        "name_ja": "",
-        "name_ko": "\u00e3\u0082\u00b8\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ja": "\u00e3\u0082\u00b8\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+        "name_ko": "\u00ec\u00a0\u0080\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
         "name_len": "6",
         "name_long": "Jersey",
         "name_nev": "Jersey",
-        "name_nl": "\u00ec\u00a0\u0080\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
+        "name_nl": "Jersey",
         "name_pl": "Jersey",
         "name_pt": "Jersey",
-        "name_ru": "Jersey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0094\u00d0\u00b6\u00d0\u00b5\u00d1\u0080\u00d1\u0081\u00d0\u00b8",
+        "name_ru": "\u00d0\u0094\u00d0\u00b6\u00d0\u00b5\u00d1\u0080\u00d1\u0081\u00d0\u00b8",
         "name_sort": "Jersey",
-        "name_sv": "",
+        "name_sv": "Jersey",
         "name_tr": "Jersey",
-        "name_vi": "Jersey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Jer",
-        "name_zh": "sey",
+        "name_vi": "Jersey",
+        "name_zh": "\u00e6\u00be\u00a4\u00e8\u00a5\u00bf\u00e5\u00b3\u00b6",
         "ne_id": "1159320725",
         "note_adm0": "U.K. crown dependency",
         "note_brk": "",
@@ -476,7 +514,7 @@
         "sovereignt": "United Kingdom",
         "status": "officially-assigned",
         "su_a3": "JEY",
-        "su_dif": "",
+        "su_dif": "0",
         "subunit": "Jersey",
         "tiny": "-99",
         "tld": [
@@ -515,9 +553,21 @@
                 "common": "\u30b8\u30e3\u30fc\u30b8\u30fc",
                 "official": "\u30b8\u30e3\u30fc\u30b8\u306e\u5f97\u610f\u5206\u91ce"
             },
+            "kor": {
+                "common": "\uc800\uc9c0 \uc12c",
+                "official": "\uc800\uc9c0 \uc12c"
+            },
             "nld": {
                 "common": "Jersey",
                 "official": "Baljuwschap Jersey"
+            },
+            "per": {
+                "common": "\u062c\u0631\u0632\u06cc",
+                "official": "\u062c\u0631\u0632\u06cc"
+            },
+            "pol": {
+                "common": "Jersey",
+                "official": "Jersey"
             },
             "por": {
                 "common": "Jersey",
@@ -534,6 +584,10 @@
             "spa": {
                 "common": "Jersey",
                 "official": "Bail\u00eda de Jersey"
+            },
+            "urd": {
+                "common": "\u062c\u0631\u0632\u06cc",
+                "official": "\u062c\u0631\u0632\u06cc"
             },
             "zho": {
                 "common": "\u6cfd\u897f\u5c9b",
@@ -604,20 +658,20 @@
     "name_hu": "Jersey",
     "name_id": "Jersey",
     "name_it": "Baliato di Jersey",
-    "name_ja": "",
-    "name_ko": "\u00e3\u0082\u00b8\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+    "name_ja": "\u00e3\u0082\u00b8\u00e3\u0083\u00a3\u00e3\u0083\u00bc\u00e3\u0082\u00b8\u00e3\u0083\u00bc",
+    "name_ko": "\u00ec\u00a0\u0080\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
     "name_len": "6",
     "name_long": "Jersey",
     "name_nev": "Jersey",
-    "name_nl": "\u00ec\u00a0\u0080\u00ec\u00a7\u0080 \u00ec\u0084\u00ac",
+    "name_nl": "Jersey",
     "name_pl": "Jersey",
     "name_pt": "Jersey",
-    "name_ru": "Jersey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00d0\u0094\u00d0\u00b6\u00d0\u00b5\u00d1\u0080\u00d1\u0081\u00d0\u00b8",
+    "name_ru": "\u00d0\u0094\u00d0\u00b6\u00d0\u00b5\u00d1\u0080\u00d1\u0081\u00d0\u00b8",
     "name_sort": "Jersey",
-    "name_sv": "",
+    "name_sv": "Jersey",
     "name_tr": "Jersey",
-    "name_vi": "Jersey\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Jer",
-    "name_zh": "sey",
+    "name_vi": "Jersey",
+    "name_zh": "\u00e6\u00be\u00a4\u00e8\u00a5\u00bf\u00e5\u00b3\u00b6",
     "ne_id": "1159320725",
     "note_adm0": "U.K. crown dependency",
     "note_brk": "",
@@ -631,7 +685,7 @@
     "sovereignt": "United Kingdom",
     "status": "officially-assigned",
     "su_a3": "JEY",
-    "su_dif": "",
+    "su_dif": "0",
     "subunit": "Jersey",
     "tiny": "-99",
     "tld": [
@@ -670,9 +724,21 @@
             "common": "\u30b8\u30e3\u30fc\u30b8\u30fc",
             "official": "\u30b8\u30e3\u30fc\u30b8\u306e\u5f97\u610f\u5206\u91ce"
         },
+        "kor": {
+            "common": "\uc800\uc9c0 \uc12c",
+            "official": "\uc800\uc9c0 \uc12c"
+        },
         "nld": {
             "common": "Jersey",
             "official": "Baljuwschap Jersey"
+        },
+        "per": {
+            "common": "\u062c\u0631\u0632\u06cc",
+            "official": "\u062c\u0631\u0632\u06cc"
+        },
+        "pol": {
+            "common": "Jersey",
+            "official": "Jersey"
         },
         "por": {
             "common": "Jersey",
@@ -689,6 +755,10 @@
         "spa": {
             "common": "Jersey",
             "official": "Bail\u00eda de Jersey"
+        },
+        "urd": {
+            "common": "\u062c\u0631\u0632\u06cc",
+            "official": "\u062c\u0631\u0632\u06cc"
         },
         "zho": {
             "common": "\u6cfd\u897f\u5c9b",
