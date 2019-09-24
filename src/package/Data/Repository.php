@@ -2,6 +2,7 @@
 
 namespace PragmaRX\Countries\Package\Data;
 
+use IlluminateAgnostic\Str\Support\Str;
 use PragmaRX\Countries\Package\Services\Helper;
 use PragmaRX\Countries\Package\Services\Hydrator;
 use Psr\SimpleCache\CacheInterface as CacheContract;
@@ -148,7 +149,7 @@ class Repository
         $this->countriesJson = $this->loadCountriesJson();
 
         $overload = $this->helper->loadJsonFiles($this->helper->dataDir('countries/overload'))->mapWithKeys(function ($country, $code) {
-            return [upper($code) => $country];
+            return [Str::upper($code) => $country];
         });
 
         $this->countriesJson = $this->countriesJson->overwrite($overload);
@@ -207,11 +208,11 @@ class Repository
     public function currencies()
     {
         $currencies = $this->helper->loadJsonFiles($this->helper->dataDir('currencies/default'))->mapWithKeys(function ($country, $code) {
-            return [upper($code) => $country];
+            return [Str::upper($code) => $country];
         });
 
         $overload = $this->helper->loadJsonFiles($this->helper->dataDir('currencies/overload'))->mapWithKeys(function ($country, $code) {
-            return [upper($code) => $country];
+            return [Str::upper($code) => $country];
         });
 
         return $currencies->overwrite($overload);
