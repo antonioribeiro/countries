@@ -1,11 +1,10 @@
 language: php
 
 php:
-  - 7.0
   - 7.1
   - 7.2
   - 7.3
-  - 7.4snapshot
+# - 7.4snapshot
 # - nightly
 
 env:
@@ -21,10 +20,12 @@ cache:
   directories:
     - $HOME/.composer/cache
 
+## Disable Xdebug on all PHP versions except those ones below
 before_script:
-  - '[[ "$TRAVIS_PHP_VERSION" == "7.2" || "$TRAVIS_PHP_VERSION" == "nightly" ]] || phpenv config-rm xdebug.ini'
+  - '[[ "$TRAVIS_PHP_VERSION" == "7.3" || "$TRAVIS_PHP_VERSION" == "nightly" || "$TRAVIS_PHP_VERSION" == "7.4snapshot" ]] || phpenv config-rm xdebug.ini'
   - travis_retry composer self-update
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
+# - '[[ "$TRAVIS_PHP_VERSION" == "7.4snapshot" ]] && composer require nette/finder:"dev-master" --no-interaction --prefer-dist || echo done'
 
 script:
   - travis_wait vendor/bin/phpunit --coverage-clover=coverage.clover

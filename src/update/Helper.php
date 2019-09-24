@@ -261,7 +261,7 @@ class Helper
      */
     protected function renameMasterToPackage($file, $subPath, $path, $exclude)
     {
-        if (ends_with($file, 'master.zip')) {
+        if (Str::endsWith($file, 'master.zip')) {
             $dir = coollect(scandir($path))->filter(function ($file) use ($exclude) {
                 return $file !== '.' && $file !== '..' && $file !== $exclude;
             })->first();
@@ -278,7 +278,7 @@ class Helper
     {
         $path = dirname($file);
 
-        if (! ends_with($file, '.zip') || file_exists($subPath = "$path/$subPath")) {
+        if (! Str::endsWith($file, '.zip') || file_exists($subPath = "$path/$subPath")) {
             return;
         }
 
@@ -356,7 +356,7 @@ class Helper
         $array = arrayable($array) ? $array->toArray() : $array;
 
         array_walk($array, function ($value, $key) use (&$result) {
-            $result[snake_case($key)] = arrayable($value) || is_array($value)
+            $result[Str::snake($key)] = arrayable($value) || is_array($value)
                 ? $this->arrayKeysSnakeRecursive($value)
                 : $value;
         });
@@ -396,7 +396,7 @@ class Helper
      */
     public function unzip($file, $path)
     {
-        if (ends_with($file, '.zip')) {
+        if (Str::endsWith($file, '.zip')) {
             $this->message("Unzipping to {$file}");
 
             $this->unzipFile($file, $path);
@@ -411,7 +411,7 @@ class Helper
      */
     public function caseForKey($admin)
     {
-        return snake_case(strtolower(str_replace('-', '_', $admin)));
+        return Str::snake(strtolower(str_replace('-', '_', $admin)));
     }
 
     /**
@@ -506,7 +506,7 @@ class Helper
      */
     public function moveDataFile($from, $to)
     {
-        if (str_contains($from, '*.')) {
+        if (Str::contains($from, '*.')) {
             $this->moveFilesWildcard($from, $to);
 
             return;
@@ -599,7 +599,7 @@ class Helper
      */
     public function makeJsonFileName($key, $dir = '')
     {
-        if (! ends_with($dir, (DIRECTORY_SEPARATOR))) {
+        if (! Str::endsWith($dir, (DIRECTORY_SEPARATOR))) {
             $dir .= DIRECTORY_SEPARATOR;
         }
 
@@ -687,17 +687,3 @@ class Helper
         });
     }
 }
-//
-//
-//function php-no-xdebug {
-//    temporaryPath="$(mktemp -t php-no-debug.XXXX)"
-//
-//    echo "Moving xdebug to $temporaryPath"
-//
-//    find /usr/local/etc/php/$PHP_VERSION/php.ini /usr/local/etc/php/$PHP_VERSION/conf.d/*.ini ! -name ext-xdebug.ini | xargs cat > "$temporaryPath"
-//
-//    /usr/local/bin/php -n -c "$temporaryPath" "$@"
-//
-//    \rm -f "$temporaryPath"
-//}
-//
