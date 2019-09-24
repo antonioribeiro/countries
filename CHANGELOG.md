@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0 - 2019-09-19
+### Updated
+- Strings, arrays and collection helpers
+### Removed 
+- PHP 7.0 support
+
 ## 0.6.0 - 2018-08-19
 ### Fixed
 - flag-icon tag
