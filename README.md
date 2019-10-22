@@ -62,7 +62,7 @@ echo $countries->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->
 
 // or calling it statically
 
-echo $countries->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
+echo Countries::where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
 ```
 
 Should both return 
