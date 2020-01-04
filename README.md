@@ -114,7 +114,7 @@ return $countries->toJson();
 Filter by keys and values:
 
 ```php
-$countries->where('name.common', 'Brazil')
+$countries->where('name.common', 'Brazil');
 ```
 
 Will find Brazil by its common name, which is a
@@ -136,19 +136,19 @@ Will find Brazil by its common name, which is a
 Or alternatively you can filter like this
 
 ```php
-$countries->whereNameCommon('Brazil')
+$countries->whereNameCommon('Brazil');
 ```
 
 And, you can go deepeer
 
 ```php
-$countries->where('name.native.por.common', 'Brasil')
+$countries->where('name.native.por.common', 'Brasil');
 ```
 
 Or search by the country top level domain
 
 ```php
-$countries->where('tld.0', '.ch')
+$countries->where('tld.0', '.ch');
 ```
 
 To get
@@ -166,7 +166,7 @@ To get
 And use things like pluck
 
 ```php
-$countries->where('cca3', 'USA')->first()->hydrateStates()->states->pluck('name', 'postal')->toArray()
+$countries->where('cca3', 'USA')->first()->hydrateStates()->states->pluck('name', 'postal')->toArray();
 ```
 
 To get
@@ -187,7 +187,7 @@ $countries->where('cca3', 'FRA')
          ->borders
          ->first()
          ->name
-         ->official
+         ->official;
 ```
 
 Should give
@@ -206,7 +206,7 @@ $countries->where('name.common', 'United Kingdom')
          ->reverse()
          ->first()
          ->name
-         ->common
+         ->common;
 ```
 
 Should return
@@ -220,9 +220,9 @@ Ireland
 To improve performance, hydration, which is enabled by default, can be disable on most country properties, and this is how you manually hydrate properties:
 
 ```php
-$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name
+$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name;
 
-$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name
+$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name;
 ```
 
 Those are some of the hydratable properties:
@@ -245,8 +245,8 @@ Some properties are stored differently and we therefore need special rules for a
 
 You can of course access them like other properties
 ```php
-$countries->whereISO639_3('por')->count()
-$countries->where('ISO639_3', 'por')->count()
+$countries->whereISO639_3('por')->count();
+$countries->where('ISO639_3', 'por')->count();
 ```
 
 ### Mapping
@@ -259,11 +259,11 @@ Sometimes you would like to access a property by a different name, this can be d
 Here we bind the language 3 letter short code ISO format to `lca3`, which is short for `language code alpha 3-letter`.
 So now we can access the property by
 ```php
-$countries->whereLca3('por')
+$countries->whereLca3('por');
 ```
 Or
 ```php
-$countries->where('lca3', 'por')
+$countries->where('lca3', 'por');
 ```
 
 ## Some other examples from **Laravel News** and some other contributors
@@ -317,7 +317,7 @@ returns
 #### Get the currency symbol
 
 ```php
-$countries->where('name.common', 'Brazil')->first()->hydrate('currency')->currencies->BRL->units->major->symbol
+$countries->where('name.common', 'Brazil')->first()->hydrate('currency')->currencies->BRL->units->major->symbol;
 ```
 
 #### Generate a list of States
@@ -328,7 +328,7 @@ $countries->where('name.common', 'United States')
     ->hydrateStates()
     ->states
     ->sortBy('name')
-    ->pluck('name', 'postal')
+    ->pluck('name', 'postal');
 ```
 
 returns
@@ -352,7 +352,7 @@ $countries->where('cca3', 'FRA')
     ->hydrate('cities')
     ->cities
     ->paris
-    ->timezone
+    ->timezone;
 ```
 
 Should return
@@ -383,7 +383,7 @@ returns
 #### Get all currencies
 
 ```php
-$countries->currencies()
+$countries->currencies();
 ```
 
 returns
@@ -427,7 +427,7 @@ $countries->where('name.common', 'Brazil')
       return $timezone->zone_name;
   })->values()
   ->unique()
-  ->toArray()
+  ->toArray();
 ```
 
 #### Get all times for a timezone
