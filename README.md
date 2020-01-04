@@ -58,14 +58,16 @@ composer require pragmarx/countries
 ```php
 use PragmaRX\Countries\Package\Countries;
 
+$countries = new Countries();
+
 echo $countries->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
 
 // or calling it statically
 
-echo $countries->where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
+echo Countries::where('cca2', 'IT')->first()->hydrateCurrencies()->currencies->EUR->coins->frequent->first();
 ```
 
-Should both return 
+Should both return
 
 ```
 €1
@@ -164,7 +166,7 @@ To get
 And use things like pluck
 
 ```php
-$countries->where('cca3', 'USA')->first()->hydrateStates()->states->pluck('name', 'postal')
+$countries->where('cca3', 'USA')->first()->hydrateStates()->states->pluck('name', 'postal')->toArray()
 ```
 
 To get
@@ -218,9 +220,9 @@ Ireland
 To improve performance, hydration, which is enabled by default, can be disable on most country properties, and this is how you manually hydrate properties:
 
 ```php
-$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
+$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name
 
-$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name,
+$countries->where('name.common', 'United States')->first()->hydrate('timezones')->timezones->first()->zone_name
 ```
 
 Those are some of the hydratable properties:
@@ -269,7 +271,7 @@ $countries->where('lca3', 'por')
 #### Generate a list of countries
 
 ```php
-$countries->all()->pluck('name.common');
+$countries->all()->pluck('name.common')->toArray();
 ```
 
 returns
@@ -287,13 +289,29 @@ returns
 #### Generate a list of currencies
 
 ```php
-$countries->all()->pluck('currencies');
+$countries->all()->pluck('currencies')->toArray();
 ```
 
 returns
 
 ```php
-$countries->all()->pluck('currencies')
+[
+  [
+    "AWG",
+  ],
+  [
+    "AFN",
+  ],
+  [
+    "AOA",
+  ],
+  [
+    "XCD",
+  ],
+  [
+    "EUR",
+  ],
+  ....
 ```
 
 #### Get the currency symbol
@@ -456,7 +474,7 @@ npm install --save-dev flag-icon-css
 ### Use Countries to get the flag span
 
 ```
-$unitedStatesFlag = 
+$unitedStatesFlag =
     $this->countries->where('cca3', 'USA')
     ->first()
     ->flag
