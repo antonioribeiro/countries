@@ -3,10 +3,10 @@
 namespace PragmaRX\Countries\Package\Data;
 
 use IlluminateAgnostic\Str\Support\Str;
+use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Services\Helper;
 use PragmaRX\Countries\Package\Services\Hydrator;
 use Psr\SimpleCache\CacheInterface as CacheContract;
-use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 
 class Repository
 {
