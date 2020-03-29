@@ -266,6 +266,103 @@ $countries->where('lca3', 'por')
 
 ## Some other examples from **Laravel News** and some other contributors
 
+#### Generate a list of all countries with code, using native name and common
+
+```php
+app(PragmaRX\Countries\Package\Countries::class)
+->all()
+->map(function ($country) {
+    $commonName = $country->name->common;
+
+    $languages = $country->languages ?? collect();
+
+    $language = $languages->keys()->first() ?? null;
+
+    $nativeNames = $country->name->native ?? null;
+
+    if (
+        filled($language) &&
+            filled($nativeNames) &&
+            filled($nativeNames[$language]) ?? null
+    ) {
+        $native = $nativeNames[$language]['common'] ?? null;
+    }
+
+    if (blank($native ?? null) && filled($nativeNames)) {
+        $native = $nativeNames->first()['common'] ?? null;
+    }
+
+    $native = $native ?? $commonName;
+
+    if ($native !== $commonName && filled($native)) {
+        $native = "$native ($commonName)";
+    }
+
+    return [$country->cca2 => $native];
+})
+->values()
+->toArray();
+```
+
+Should give you 267 (or so) countries like:
+
+```
+"AW" => "Aruba"
+"AF" => "افغانستان (Afghanistan)"
+"AO" => "Angola"
+"AI" => "Anguilla"
+"AX" => "Åland (Åland Islands)"
+"AL" => "Shqipëria (Albania)"
+"AD" => "Andorra"
+"AE" => "دولة الإمارات العربية المتحدة (United Arab Emirates)"
+"AR" => "Argentina"
+"AM" => "Հայաստան (Armenia)"
+"AS" => "American Samoa"
+"AQ" => "Antarctica"
+"TF" => "Terres australes et antarctiques françaises (French Southern and Antarctic Lands)"
+"AG" => "Antigua and Barbuda"
+"AU" => "Australia"
+"AT" => "Österreich (Austria)"
+"AZ" => "Azərbaycan (Azerbaijan)"
+"BI" => "Burundi"
+"BE" => "Belgien (Belgium)"
+"BJ" => "Bénin (Benin)"
+"BF" => "Burkina Faso"
+"BD" => "বাংলাদেশ (Bangladesh)"
+"BG" => "България (Bulgaria)"
+"BH" => "‏البحرين (Bahrain)"
+"BS" => "Bahamas"
+"BA" => "Bosna i Hercegovina (Bosnia and Herzegovina)"
+"BL" => "Saint-Barthélemy (Saint Barthélemy)"
+"SH" => "Saint Helena, Ascension and Tristan da Cunha"
+"BY" => "Белару́сь (Belarus)"
+"BZ" => "Belize"
+"BM" => "Bermuda"
+"BO" => "Wuliwya (Bolivia)"
+"BQ" => "Caribisch Nederland (Caribbean Netherlands)"
+"BR" => "Brasil (Brazil)"
+"BB" => "Barbados"
+"BN" => "Negara Brunei Darussalam (Brunei)"
+"BT" => "འབྲུག་ཡུལ་ (Bhutan)"
+"BV" => "Bouvetøya (Bouvet Island)"
+"BW" => "Botswana"
+"CF" => "République centrafricaine (Central African Republic)"
+"CA" => "Canada"
+"CC" => "Cocos (Keeling) Islands"
+"CH" => "Suisse (Switzerland)"
+"CL" => "Chile"
+"CN" => "中国 (China)"
+"CI" => "Côte d'Ivoire (Ivory Coast)"
+"CM" => "Cameroon"
+"CD" => "RD Congo (DR Congo)"
+"CG" => "République du Congo (Republic of the Congo)"
+"CK" => "Cook Islands"
+"CO" => "Colombia"
+"KM" => "القمر‎ (Comoros)"
+"CV" => "Cabo Verde (Cape Verde)"
+...
+```
+
 #### Generate a list of countries
 
 ```php
