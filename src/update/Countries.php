@@ -2,10 +2,10 @@
 
 namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Package\Services\Config;
 use PragmaRX\Countries\Package\Countries as CountriesService;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
+use PragmaRX\Countries\Package\Services\Config;
+use PragmaRX\Countries\Package\Support\Base;
 
 class Countries extends Base
 {
