@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Update;
 
 use Exception;
-use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Support\Base;
 
 class Rinvex extends Base
 {
@@ -49,7 +49,7 @@ class Rinvex extends Base
     {
         $mergeable = [
             'calling_code' => 'dialling',
-//            'borders'      => 'geo',
+            //            'borders'      => 'geo',
             'area'         => 'geo',
             'continent'    => 'geo',
             'landlocked'   => 'geo',

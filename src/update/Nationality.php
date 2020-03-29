@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Support\Base;
 
 class Nationality extends Base
 {

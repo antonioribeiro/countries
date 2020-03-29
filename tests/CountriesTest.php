@@ -2,12 +2,12 @@
 
 namespace PragmaRX\Countries\Tests\Service;
 
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
+use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Countries;
+use PragmaRX\Countries\Update\Config as ServiceConfig;
 use PragmaRX\Countries\Update\Helper;
 use PragmaRX\Countries\Update\Updater;
-use PragmaRX\Countries\Package\Countries;
-use PragmaRX\Coollection\Package\Coollection;
-use PHPUnit\Framework\TestCase as PHPUnitTestCase;
-use PragmaRX\Countries\Update\Config as ServiceConfig;
 
 class CountriesTest extends PHPUnitTestCase
 {

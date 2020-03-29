@@ -3,10 +3,10 @@
 namespace PragmaRX\Countries\Package\Services\Cache\Managers;
 
 use Closure;
-use Psr\SimpleCache\CacheInterface;
 use Nette\Caching\Cache as NetteCache;
 use Nette\Caching\Storages\FileStorage;
 use PragmaRX\Countries\Package\Services\Config;
+use Psr\SimpleCache\CacheInterface;
 
 class Nette implements CacheInterface
 {
