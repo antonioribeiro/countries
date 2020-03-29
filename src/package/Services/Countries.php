@@ -2,12 +2,12 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
-use PragmaRX\Countries\Update\Updater;
 use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Countries\Package\Support\Base;
 use PragmaRX\Coollection\Package\Coollection;
 use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
+use PragmaRX\Countries\Package\Support\Base;
+use PragmaRX\Countries\Update\Updater;
 
 class Countries extends Base
 {
