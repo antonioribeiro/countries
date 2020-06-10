@@ -414,7 +414,7 @@ returns
 #### Get the currency symbol
 
 ```php
-$countries->where('name.common', 'Brazil')->first()->hydrate('currency')->currencies->BRL->units->major->symbol;
+$countries->where('name.common', 'Brazil')->first()->hydrate('currencies')->currencies->BRL->units->major->symbol;
 ```
 
 #### Generate a list of States
@@ -458,10 +458,10 @@ Should return
 Europe/Paris
 ```
 
-#### Get a countries currency
+#### Get a countries currencies
 
 ```php
-$countries->where('name.common', 'United States')->first()->currency;
+$countries->where('name.common', 'United States')->first()->currencies;
 ```
 
 returns
