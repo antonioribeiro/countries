@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Iceland",
+    "calling_codes": [
+        "+354"
+    ],
     "capital": [
         "Reykjavik"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Icelander",
+    "demonyms": {
+        "eng": {
+            "f": "Icelander",
+            "m": "Icelander"
+        },
+        "fra": {
+            "f": "Islandaise",
+            "m": "Islandais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "354"
@@ -224,6 +237,10 @@
             "common": "Island",
             "official": "Island"
         },
+        "hun": {
+            "common": "Izland",
+            "official": "Izland"
+        },
         "ita": {
             "common": "Islanda",
             "official": "Islanda"
@@ -264,6 +281,10 @@
             "common": "Islandia",
             "official": "Islandia"
         },
+        "swe": {
+            "common": "Island",
+            "official": "Island"
+        },
         "urd": {
             "common": "\u0622\u0626\u0633 \u0644\u06cc\u0646\u0688",
             "official": "\u0622\u0626\u0633 \u0644\u06cc\u0646\u0688"
@@ -275,6 +296,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "352",
+    "un_member": true,
     "wb_a2": "IS",
     "wb_a3": "ISL",
     "wikidataid": "Q189",

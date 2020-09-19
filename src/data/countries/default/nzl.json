@@ -17,6 +17,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "New Zealand",
+    "calling_codes": [
+        "+64"
+    ],
     "capital": [
         "Wellington"
     ],
@@ -33,6 +36,16 @@
         "natural"
     ],
     "demonym": "New Zealander",
+    "demonyms": {
+        "eng": {
+            "f": "New Zealander",
+            "m": "New Zealander"
+        },
+        "fra": {
+            "f": "Neo-Z\u00e9landaise",
+            "m": "Neo-Z\u00e9landais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "64"
@@ -231,6 +244,10 @@
             "common": "Novi Zeland",
             "official": "Novi Zeland"
         },
+        "hun": {
+            "common": "\u00daj-Z\u00e9land",
+            "official": "\u00daj-Z\u00e9land"
+        },
         "ita": {
             "common": "Nuova Zelanda",
             "official": "Nuova Zelanda"
@@ -271,6 +288,10 @@
             "common": "Nueva Zelanda",
             "official": "nueva Zelanda"
         },
+        "swe": {
+            "common": "Nya Zeeland",
+            "official": "Nya Zeeland"
+        },
         "urd": {
             "common": "\u0646\u06cc\u0648\u0632\u06cc \u0644\u06cc\u0646\u0688",
             "official": "\u0646\u06cc\u0648\u0632\u06cc \u0644\u06cc\u0646\u0688"
@@ -282,6 +303,7 @@
     },
     "type": "Country",
     "un_a3": "554",
+    "un_member": true,
     "wb_a2": "NZ",
     "wb_a3": "NZL",
     "wikidataid": "Q664",

@@ -26,6 +26,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Poland",
+    "calling_codes": [
+        "+48"
+    ],
     "capital": [
         "Warsaw"
     ],
@@ -42,6 +45,16 @@
         "natural"
     ],
     "demonym": "Polish",
+    "demonyms": {
+        "eng": {
+            "f": "Polish",
+            "m": "Polish"
+        },
+        "fra": {
+            "f": "Polonaise",
+            "m": "Polonais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "48"
@@ -245,6 +258,10 @@
             "common": "Poljska",
             "official": "Republika Poljska"
         },
+        "hun": {
+            "common": "Lengyelorsz\u00e1g",
+            "official": "Lengyel K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Polonia",
             "official": "Repubblica di Polonia"
@@ -285,6 +302,10 @@
             "common": "Polonia",
             "official": "Rep\u00fablica de Polonia"
         },
+        "swe": {
+            "common": "Polen",
+            "official": "Republiken Polen"
+        },
         "urd": {
             "common": "\u067e\u0648\u0644\u06cc\u0646\u0688",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0648\u0644\u06cc\u0646\u0688"
@@ -296,6 +317,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "616",
+    "un_member": true,
     "wb_a2": "PL",
     "wb_a3": "POL",
     "wikidataid": "Q36",

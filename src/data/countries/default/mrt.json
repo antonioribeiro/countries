@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mauritania",
+    "calling_codes": [
+        "+222"
+    ],
     "capital": [
         "Nouakchott"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Mauritanian",
+    "demonyms": {
+        "eng": {
+            "f": "Mauritanian",
+            "m": "Mauritanian"
+        },
+        "fra": {
+            "f": "Mauritanienne",
+            "m": "Mauritanien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "222"
@@ -231,6 +244,10 @@
             "common": "Mauritanija",
             "official": "Islamska Republika Mauritanija"
         },
+        "hun": {
+            "common": "Maurit\u00e1nia",
+            "official": "Maurit\u00e1niai Iszl\u00e1m K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Mauritania",
             "official": "Repubblica islamica di Mauritania"
@@ -271,6 +288,10 @@
             "common": "Mauritania",
             "official": "Rep\u00fablica Isl\u00e1mica de Mauritania"
         },
+        "swe": {
+            "common": "Mauretanien",
+            "official": "Islamiska republiken Mauretanien"
+        },
         "urd": {
             "common": "\u0645\u0648\u0631\u06cc\u062a\u0627\u0646\u06cc\u06c1",
             "official": "\u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0648\u0631\u06cc\u062a\u0627\u0646\u06cc\u06c1"
@@ -282,6 +303,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "478",
+    "un_member": true,
     "wb_a2": "MR",
     "wb_a3": "MRT",
     "wikidataid": "Q1025",

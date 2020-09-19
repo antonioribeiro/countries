@@ -7,108 +7,48 @@
         ],
         "display_inclusive": true,
         "generic_label": "vat",
-        "name": "Greek VAT",
+        "name": "Greek Islands VAT",
         "rates": [
             {
                 "amounts": [
                     {
-                        "amount": 0.19,
-                        "end_date": "2010-03-14",
-                        "id": "gr_vat_standard_2005",
-                        "start_date": "2005-04-01"
-                    },
-                    {
-                        "amount": 0.21,
-                        "end_date": "2010-06-30",
-                        "id": "gr_vat_standard_2010_03",
-                        "start_date": "2010-03-15"
-                    },
-                    {
-                        "amount": 0.23,
-                        "end_date": "2016-05-31",
-                        "id": "gr_vat_standard_2010_07",
-                        "start_date": "2010-07-01"
-                    },
-                    {
-                        "amount": 0.24,
-                        "id": "gr_vat_standard_2016_06",
+                        "amount": 0.17,
+                        "id": "gr_x_vat_standard_2016_06",
                         "start_date": "2016-06-01"
                     }
                 ],
                 "default": true,
-                "id": "gr_vat_standard",
+                "id": "gr_x_vat_standard",
                 "name": "Standard"
             },
             {
                 "amounts": [
                     {
                         "amount": 0.09,
-                        "end_date": "2010-03-14",
-                        "id": "gr_vat_intermediate_2005",
-                        "start_date": "2005-04-01"
-                    },
-                    {
-                        "amount": 0.1,
-                        "end_date": "2010-06-30",
-                        "id": "gr_vat_intermediate_2010_03",
-                        "start_date": "2010-03-15"
-                    },
-                    {
-                        "amount": 0.11,
-                        "end_date": "2010-12-31",
-                        "id": "gr_vat_intermediate_2010_07",
-                        "start_date": "2010-07-01"
-                    },
-                    {
-                        "amount": 0.13,
-                        "id": "gr_vat_intermediate_2011",
+                        "id": "gr_x_vat_intermediate_2011",
                         "start_date": "2011-01-01"
                     }
                 ],
-                "id": "gr_vat_intermediate",
+                "id": "gr_x_vat_intermediate",
                 "name": "Intermediate"
             },
             {
                 "amounts": [
                     {
-                        "amount": 0.045,
-                        "end_date": "2010-03-14",
-                        "id": "gr_vat_reduced_2005",
-                        "start_date": "2005-04-01"
-                    },
-                    {
-                        "amount": 0.05,
-                        "end_date": "2010-06-30",
-                        "id": "gr_vat_reduced_2010_03",
-                        "start_date": "2010-03-15"
-                    },
-                    {
-                        "amount": 0.055,
-                        "end_date": "2010-12-31",
-                        "id": "gr_vat_reduced_2010_07",
-                        "start_date": "2010-07-01"
-                    },
-                    {
-                        "amount": 0.065,
-                        "end_date": "2015-06-30",
-                        "id": "gr_vat_reduced_2011",
-                        "start_date": "2011-01-01"
-                    },
-                    {
-                        "amount": 0.06,
-                        "id": "gr_vat_reduced_2015",
+                        "amount": 0.04,
+                        "id": "gr_x_vat_reduced_2015",
                         "start_date": "2015-07-01"
                     }
                 ],
-                "id": "gr_vat_reduced",
+                "id": "gr_x_vat_reduced",
                 "name": "Reduced"
             }
         ],
         "record_type": "tax",
         "tag": "EU",
-        "tax_modifier": "",
+        "tax_modifier": "x",
         "tax_type": "vat",
-        "vat_id": "gr_vat",
-        "zone": "gr_vat"
+        "vat_id": "gr_x_vat",
+        "zone": "gr_x_vat"
     }
 }

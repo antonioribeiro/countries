@@ -1,10 +1,7 @@
 {
     "asia_anadyr": {
         "abbreviations": [
-            "+11",
-            "+12",
-            "+13",
-            "+14",
+            "ANAT",
             "LMT"
         ],
         "cca2": "RU",
@@ -14,14 +11,12 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "335",
+        "zone_id": "309",
         "zone_name": "Asia\/Anadyr"
     },
     "asia_barnaul": {
         "abbreviations": [
-            "+06",
-            "+07",
-            "+08",
+            "KRAT",
             "LMT"
         ],
         "cca2": "RU",
@@ -31,15 +26,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "321",
+        "zone_id": "310",
         "zone_name": "Asia\/Barnaul"
     },
     "asia_chita": {
         "abbreviations": [
-            "+08",
-            "+09",
-            "+10",
-            "LMT"
+            "LMT",
+            "YAKT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -48,15 +41,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "326",
+        "zone_id": "311",
         "zone_name": "Asia\/Chita"
     },
     "asia_irkutsk": {
         "abbreviations": [
-            "+07",
-            "+08",
-            "+09",
             "IMT",
+            "IRKT",
             "LMT"
         ],
         "cca2": "RU",
@@ -66,15 +57,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "325",
+        "zone_id": "312",
         "zone_name": "Asia\/Irkutsk"
     },
     "asia_kamchatka": {
         "abbreviations": [
-            "+11",
-            "+12",
-            "+13",
-            "LMT"
+            "LMT",
+            "PETT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -83,16 +72,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "334",
+        "zone_id": "313",
         "zone_name": "Asia\/Kamchatka"
     },
     "asia_khandyga": {
         "abbreviations": [
-            "+08",
-            "+09",
-            "+10",
-            "+11",
-            "LMT"
+            "LMT",
+            "YAKT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -101,14 +87,12 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "328",
+        "zone_id": "314",
         "zone_name": "Asia\/Khandyga"
     },
     "asia_krasnoyarsk": {
         "abbreviations": [
-            "+06",
-            "+07",
-            "+08",
+            "KRAT",
             "LMT"
         ],
         "cca2": "RU",
@@ -118,15 +102,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "324",
+        "zone_id": "315",
         "zone_name": "Asia\/Krasnoyarsk"
     },
     "asia_magadan": {
         "abbreviations": [
-            "+10",
-            "+11",
-            "+12",
-            "LMT"
+            "LMT",
+            "MAGT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -135,14 +117,12 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "331",
+        "zone_id": "316",
         "zone_name": "Asia\/Magadan"
     },
     "asia_novokuznetsk": {
         "abbreviations": [
-            "+06",
-            "+07",
-            "+08",
+            "KRAT",
             "LMT"
         ],
         "cca2": "RU",
@@ -152,15 +132,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "323",
+        "zone_id": "317",
         "zone_name": "Asia\/Novokuznetsk"
     },
     "asia_novosibirsk": {
         "abbreviations": [
-            "+06",
-            "+07",
-            "+08",
-            "LMT"
+            "LMT",
+            "NOVT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -169,15 +147,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "320",
+        "zone_id": "318",
         "zone_name": "Asia\/Novosibirsk"
     },
     "asia_omsk": {
         "abbreviations": [
-            "+05",
-            "+06",
-            "+07",
-            "LMT"
+            "LMT",
+            "OMST"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -191,11 +167,8 @@
     },
     "asia_sakhalin": {
         "abbreviations": [
-            "+09",
-            "+10",
-            "+11",
-            "+12",
-            "LMT"
+            "LMT",
+            "SAKT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -204,15 +177,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "332",
+        "zone_id": "320",
         "zone_name": "Asia\/Sakhalin"
     },
     "asia_srednekolymsk": {
         "abbreviations": [
-            "+10",
-            "+11",
-            "+12",
-            "LMT"
+            "LMT",
+            "SRET"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -221,15 +192,15 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "333",
+        "zone_id": "321",
         "zone_name": "Asia\/Srednekolymsk"
     },
     "asia_tomsk": {
         "abbreviations": [
-            "+06",
-            "+07",
-            "+08",
-            "LMT"
+            "LMT",
+            "MSD+3",
+            "MSD+4",
+            "MSK+3"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -243,12 +214,8 @@
     },
     "asia_ust-_nera": {
         "abbreviations": [
-            "+08",
-            "+09",
-            "+10",
-            "+11",
-            "+12",
-            "LMT"
+            "LMT",
+            "VLAT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -257,15 +224,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "330",
+        "zone_id": "323",
         "zone_name": "Asia\/Ust-Nera"
     },
     "asia_vladivostok": {
         "abbreviations": [
-            "+09",
-            "+10",
-            "+11",
-            "LMT"
+            "LMT",
+            "VLAT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -274,15 +239,44 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "329",
+        "zone_id": "324",
         "zone_name": "Asia\/Vladivostok"
     },
     "asia_yakutsk": {
         "abbreviations": [
-            "+08",
-            "+09",
-            "+10",
-            "LMT"
+            "LMT",
+            "YAKT"
+        ],
+        "cca2": "RU",
+        "cca3": "RUS",
+        "country_code": "RU",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "325",
+        "zone_name": "Asia\/Yakutsk"
+    },
+    "asia_yekaterinburg": {
+        "abbreviations": [
+            "LMT",
+            "PMT",
+            "YEKT"
+        ],
+        "cca2": "RU",
+        "cca3": "RUS",
+        "country_code": "RU",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "326",
+        "zone_name": "Asia\/Yekaterinburg"
+    },
+    "europe_astrakhan": {
+        "abbreviations": [
+            "LMT",
+            "SAMT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -292,46 +286,10 @@
         ],
         "record_type": "timezone",
         "zone_id": "327",
-        "zone_name": "Asia\/Yakutsk"
-    },
-    "asia_yekaterinburg": {
-        "abbreviations": [
-            "+04",
-            "+05",
-            "+06",
-            "LMT",
-            "PMT"
-        ],
-        "cca2": "RU",
-        "cca3": "RUS",
-        "country_code": "RU",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "318",
-        "zone_name": "Asia\/Yekaterinburg"
-    },
-    "europe_astrakhan": {
-        "abbreviations": [
-            "+03",
-            "+04",
-            "+05",
-            "LMT"
-        ],
-        "cca2": "RU",
-        "cca3": "RUS",
-        "country_code": "RU",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "313",
         "zone_name": "Europe\/Astrakhan"
     },
     "europe_kaliningrad": {
         "abbreviations": [
-            "+03",
             "CEST",
             "CET",
             "EEST",
@@ -347,15 +305,15 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "309",
+        "zone_id": "328",
         "zone_name": "Europe\/Kaliningrad"
     },
     "europe_kirov": {
         "abbreviations": [
-            "+03",
-            "+04",
-            "+05",
-            "LMT"
+            "LMT",
+            "MSD",
+            "MSD+1",
+            "MSK"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -364,12 +322,11 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "312",
+        "zone_id": "329",
         "zone_name": "Europe\/Kirov"
     },
     "europe_moscow": {
         "abbreviations": [
-            "+05",
             "EEST",
             "EET",
             "LMT",
@@ -386,15 +343,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "310",
+        "zone_id": "330",
         "zone_name": "Europe\/Moscow"
     },
     "europe_samara": {
         "abbreviations": [
-            "+03",
-            "+04",
-            "+05",
-            "LMT"
+            "LMT",
+            "SAMT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -403,15 +358,15 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "317",
+        "zone_id": "331",
         "zone_name": "Europe\/Samara"
     },
     "europe_saratov": {
         "abbreviations": [
-            "+03",
-            "+04",
-            "+05",
-            "LMT"
+            "LMT",
+            "MSD",
+            "MSD+1",
+            "MSK"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -420,16 +375,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "315",
+        "zone_id": "332",
         "zone_name": "Europe\/Saratov"
     },
     "europe_ulyanovsk": {
         "abbreviations": [
-            "+02",
-            "+03",
-            "+04",
-            "+05",
-            "LMT"
+            "LMT",
+            "SAMT"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -438,15 +390,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "316",
+        "zone_id": "333",
         "zone_name": "Europe\/Ulyanovsk"
     },
     "europe_volgograd": {
         "abbreviations": [
-            "+03",
-            "+04",
-            "+05",
-            "LMT"
+            "LMT",
+            "MSK"
         ],
         "cca2": "RU",
         "cca3": "RUS",
@@ -455,7 +405,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "314",
+        "zone_id": "334",
         "zone_name": "Europe\/Volgograd"
     }
 }

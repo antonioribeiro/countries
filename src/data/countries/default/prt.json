@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Portugal",
+    "calling_codes": [
+        "+351"
+    ],
     "capital": [
         "Lisbon"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Portuguese",
+    "demonyms": {
+        "eng": {
+            "f": "Portuguese",
+            "m": "Portuguese"
+        },
+        "fra": {
+            "f": "Portugaise",
+            "m": "Portugais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "351"
@@ -234,6 +247,10 @@
             "common": "Portugal",
             "official": "Portugalska Republika"
         },
+        "hun": {
+            "common": "Portug\u00e1lia",
+            "official": "Portug\u00e1l K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Portogallo",
             "official": "Repubblica portoghese"
@@ -274,6 +291,10 @@
             "common": "Portugal",
             "official": "Rep\u00fablica Portuguesa"
         },
+        "swe": {
+            "common": "Portugal",
+            "official": "Republiken Portugal"
+        },
         "urd": {
             "common": "\u067e\u0631\u062a\u06af\u0627\u0644",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0631\u062a\u06af\u0627\u0644"
@@ -285,6 +306,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "620",
+    "un_member": true,
     "wb_a2": "PT",
     "wb_a3": "PRT",
     "wikidataid": "Q45",

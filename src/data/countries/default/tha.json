@@ -26,6 +26,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Thailand",
+    "calling_codes": [
+        "+66"
+    ],
     "capital": [
         "Bangkok"
     ],
@@ -42,6 +45,16 @@
         "natural"
     ],
     "demonym": "Thai",
+    "demonyms": {
+        "eng": {
+            "f": "Thai",
+            "m": "Thai"
+        },
+        "fra": {
+            "f": "Tha\u00eflandaise",
+            "m": "Tha\u00eflandais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "66"
@@ -236,6 +249,10 @@
             "common": "Tajland",
             "official": "Kraljevina Tajland"
         },
+        "hun": {
+            "common": "Thaif\u00f6ld",
+            "official": "Thaif\u00f6ldi Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Tailandia",
             "official": "Regno di Thailandia"
@@ -276,6 +293,10 @@
             "common": "Tailandia",
             "official": "Reino de Tailandia"
         },
+        "swe": {
+            "common": "Thailand",
+            "official": "Konungariket Thailand"
+        },
         "urd": {
             "common": "\u062a\u06be\u0627\u0626\u06cc \u0644\u06cc\u0646\u0688",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u062a\u06be\u0627\u0626\u06cc \u0644\u06cc\u0646\u0688"
@@ -287,6 +308,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "764",
+    "un_member": true,
     "wb_a2": "TH",
     "wb_a3": "THA",
     "wikidataid": "Q869",

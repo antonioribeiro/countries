@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Gabon",
+    "calling_codes": [
+        "+241"
+    ],
     "capital": [
         "Libreville"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Gabonese",
+    "demonyms": {
+        "eng": {
+            "f": "Gabonese",
+            "m": "Gabonese"
+        },
+        "fra": {
+            "f": "Gabonaise",
+            "m": "Gabonais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "241"
@@ -231,6 +244,10 @@
             "common": "Gabon",
             "official": "Gabon Republika"
         },
+        "hun": {
+            "common": "Gabon",
+            "official": "Gaboni K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Gabon",
             "official": "Repubblica gabonese"
@@ -271,6 +288,10 @@
             "common": "Gab\u00f3n",
             "official": "Rep\u00fablica de Gab\u00f3n"
         },
+        "swe": {
+            "common": "Gabon",
+            "official": "Republiken Gabon"
+        },
         "urd": {
             "common": "\u06af\u06cc\u0628\u0648\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u06cc\u0628\u0648\u0646"
@@ -282,6 +303,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "266",
+    "un_member": true,
     "wb_a2": "GA",
     "wb_a3": "GAB",
     "wikidataid": "Q1000",

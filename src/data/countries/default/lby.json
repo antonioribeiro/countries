@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Libya",
+    "calling_codes": [
+        "+218"
+    ],
     "capital": [
         "Tripoli"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Libyan",
+    "demonyms": {
+        "eng": {
+            "f": "Libyan",
+            "m": "Libyan"
+        },
+        "fra": {
+            "f": "Libyenne",
+            "m": "Libyen"
+        }
+    },
     "dialling": {
         "calling_code": [
             "218"
@@ -236,6 +249,10 @@
             "common": "Libija",
             "official": "Dr\u017eava Libiji"
         },
+        "hun": {
+            "common": "L\u00edbia",
+            "official": "L\u00edbia \u00c1llam"
+        },
         "ita": {
             "common": "Libia",
             "official": "Stato della Libia"
@@ -276,6 +293,10 @@
             "common": "Libia",
             "official": "Estado de Libia"
         },
+        "swe": {
+            "common": "Libyen",
+            "official": "Staten Libyen"
+        },
         "urd": {
             "common": "\u0644\u06cc\u0628\u06cc\u0627",
             "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0644\u06cc\u0628\u06cc\u0627"
@@ -287,6 +308,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "434",
+    "un_member": true,
     "wb_a2": "LY",
     "wb_a3": "LBY",
     "wikidataid": "Q1016",

@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mongolia",
+    "calling_codes": [
+        "+976"
+    ],
     "capital": [
         "Ulan Bator"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Mongolian",
+    "demonyms": {
+        "eng": {
+            "f": "Mongolian",
+            "m": "Mongolian"
+        },
+        "fra": {
+            "f": "Mongole",
+            "m": "Mongol"
+        }
+    },
     "dialling": {
         "calling_code": [
             "976"
@@ -228,6 +241,10 @@
             "common": "Mongolija",
             "official": "Mongolija"
         },
+        "hun": {
+            "common": "Mong\u00f3lia",
+            "official": "Mong\u00f3lia"
+        },
         "ita": {
             "common": "Mongolia",
             "official": "Mongolia"
@@ -268,6 +285,10 @@
             "common": "Mongolia",
             "official": "Mongolia"
         },
+        "swe": {
+            "common": "Mongoliet",
+            "official": "Mongoliet"
+        },
         "urd": {
             "common": "\u0645\u0646\u06af\u0648\u0644\u06cc\u0627",
             "official": "\u0645\u0646\u06af\u0648\u0644\u06cc\u0627"
@@ -279,6 +300,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "496",
+    "un_member": true,
     "wb_a2": "MN",
     "wb_a3": "MNG",
     "wikidataid": "Q711",

@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Peru",
+    "calling_codes": [
+        "+51"
+    ],
     "capital": [
         "Lima"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Peruvian",
+    "demonyms": {
+        "eng": {
+            "f": "Peruvian",
+            "m": "Peruvian"
+        },
+        "fra": {
+            "f": "P\u00e9ruvienne",
+            "m": "P\u00e9ruvien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "51"
@@ -244,6 +257,10 @@
             "common": "Peru",
             "official": "Republika Peru"
         },
+        "hun": {
+            "common": "Peru",
+            "official": "Perui K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Per\u00f9",
             "official": "Repubblica del Per\u00f9"
@@ -284,6 +301,10 @@
             "common": "Per\u00fa",
             "official": "Rep\u00fablica de Per\u00fa"
         },
+        "swe": {
+            "common": "Peru",
+            "official": "Republiken Peru"
+        },
         "urd": {
             "common": "\u067e\u06cc\u0631\u0648",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u06cc\u0631\u0648"
@@ -295,6 +316,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "604",
+    "un_member": true,
     "wb_a2": "PE",
     "wb_a3": "PER",
     "wikidataid": "Q419",

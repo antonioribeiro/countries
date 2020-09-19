@@ -1,26 +1,9 @@
 {
     "america_danmarkshavn": {
         "abbreviations": [
-            "-03",
-            "-02",
             "GMT",
-            "LMT"
-        ],
-        "cca2": "GL",
-        "cca3": "GRL",
-        "country_code": "GL",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "169",
-        "zone_name": "America\/Danmarkshavn"
-    },
-    "america_godthab": {
-        "abbreviations": [
-            "-03",
-            "-02",
-            "LMT"
+            "LMT",
+            "UTC"
         ],
         "cca2": "GL",
         "cca3": "GRL",
@@ -30,13 +13,29 @@
         ],
         "record_type": "timezone",
         "zone_id": "168",
-        "zone_name": "America\/Godthab"
+        "zone_name": "America\/Danmarkshavn"
+    },
+    "america_nuuk": {
+        "abbreviations": [
+            "LMT",
+            "WGST",
+            "WGT"
+        ],
+        "cca2": "GL",
+        "cca3": "GRL",
+        "country_code": "GL",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "169",
+        "zone_name": "America\/Nuuk"
     },
     "america_scoresbysund": {
         "abbreviations": [
-            "-02",
-            "-01",
-            "+00",
+            "CGT",
+            "EGST",
+            "EGT",
             "LMT"
         ],
         "cca2": "GL",

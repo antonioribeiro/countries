@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Dominica",
+    "calling_codes": [
+        "+1767"
+    ],
     "capital": [
         "Roseau"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Dominican",
+    "demonyms": {
+        "eng": {
+            "f": "Dominican",
+            "m": "Dominican"
+        },
+        "fra": {
+            "f": "Dominiquaise",
+            "m": "Dominiquais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1767"
@@ -226,6 +239,10 @@
             "common": "Dominika",
             "official": "Zajednica Dominika"
         },
+        "hun": {
+            "common": "Dominikai K\u00f6z\u00f6ss\u00e9g",
+            "official": "Dominikai K\u00f6z\u00f6ss\u00e9g"
+        },
         "ita": {
             "common": "Dominica",
             "official": "Commonwealth di Dominica"
@@ -266,6 +283,10 @@
             "common": "Dominica",
             "official": "Mancomunidad de Dominica"
         },
+        "swe": {
+            "common": "Dominica",
+            "official": "Samv\u00e4ldet Dominica"
+        },
         "urd": {
             "common": "\u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0627",
             "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0627"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "212",
+    "un_member": true,
     "wb_a2": "DM",
     "wb_a3": "DMA",
     "wikidataid": "Q784",

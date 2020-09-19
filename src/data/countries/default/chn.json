@@ -39,6 +39,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "China",
+    "calling_codes": [
+        "+86"
+    ],
     "capital": [
         "Beijing"
     ],
@@ -55,6 +58,16 @@
         "natural"
     ],
     "demonym": "Chinese",
+    "demonyms": {
+        "eng": {
+            "f": "Chinese",
+            "m": "Chinese"
+        },
+        "fra": {
+            "f": "Chinoise",
+            "m": "Chinois"
+        }
+    },
     "dialling": {
         "calling_code": [
             "86"
@@ -280,6 +293,10 @@
             "common": "Kina",
             "official": "Narodna Republika Kina"
         },
+        "hun": {
+            "common": "K\u00edna",
+            "official": "K\u00ednai N\u00e9pk\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Cina",
             "official": "Repubblica popolare cinese"
@@ -320,6 +337,10 @@
             "common": "China",
             "official": "Rep\u00fablica Popular de China"
         },
+        "swe": {
+            "common": "Kina",
+            "official": "Folkrepubliken Kina"
+        },
         "urd": {
             "common": "\u0686\u06cc\u0646",
             "official": "\u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u06cc\u0646"
@@ -327,6 +348,7 @@
     },
     "type": "Country",
     "un_a3": "156",
+    "un_member": true,
     "wb_a2": "CN",
     "wb_a3": "CHN",
     "wikidataid": "Q148",

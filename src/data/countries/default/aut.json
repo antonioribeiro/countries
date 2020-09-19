@@ -27,6 +27,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Austria",
+    "calling_codes": [
+        "+43"
+    ],
     "capital": [
         "Vienna"
     ],
@@ -43,6 +46,16 @@
         "natural"
     ],
     "demonym": "Austrian",
+    "demonyms": {
+        "eng": {
+            "f": "Austrian",
+            "m": "Austrian"
+        },
+        "fra": {
+            "f": "Autrichienne",
+            "m": "Autrichien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "43"
@@ -258,6 +271,10 @@
             "common": "Austrija",
             "official": "Republika Austrija"
         },
+        "hun": {
+            "common": "Ausztria",
+            "official": "Ausztria"
+        },
         "ita": {
             "common": "Austria",
             "official": "Repubblica d'Austria"
@@ -298,6 +315,10 @@
             "common": "Austria",
             "official": "Rep\u00fablica de Austria"
         },
+        "swe": {
+            "common": "\u00d6sterrike",
+            "official": "Republiken \u00d6sterrike"
+        },
         "urd": {
             "common": "\u0622\u0633\u0679\u0631\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0622\u0633\u0679\u0631\u06cc\u0627"
@@ -309,6 +330,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "040",
+    "un_member": true,
     "wb_a2": "AT",
     "wb_a3": "AUT",
     "wikidataid": "Q40",

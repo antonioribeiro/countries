@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Guatemala",
+    "calling_codes": [
+        "+502"
+    ],
     "capital": [
         "Guatemala City"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Guatemalan",
+    "demonyms": {
+        "eng": {
+            "f": "Guatemalan",
+            "m": "Guatemalan"
+        },
+        "fra": {
+            "f": "Guat\u00e9malt\u00e8que",
+            "m": "Guat\u00e9malt\u00e8que"
+        }
+    },
     "dialling": {
         "calling_code": [
             "502"
@@ -229,6 +242,10 @@
             "common": "Gvatemala",
             "official": "Republika Gvatemala"
         },
+        "hun": {
+            "common": "Guatemala",
+            "official": "Guatemalai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Guatemala",
             "official": "Repubblica del Guatemala"
@@ -269,6 +286,10 @@
             "common": "Guatemala",
             "official": "Rep\u00fablica de Guatemala"
         },
+        "swe": {
+            "common": "Guatemala",
+            "official": "Republiken Guatemala"
+        },
         "urd": {
             "common": "\u06af\u0648\u0627\u062a\u06cc\u0645\u0627\u0644\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u0648\u0627\u062a\u06cc\u0645\u0627\u0644\u0627"
@@ -280,6 +301,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "320",
+    "un_member": true,
     "wb_a2": "GT",
     "wb_a3": "GTM",
     "wikidataid": "Q774",

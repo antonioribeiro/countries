@@ -29,6 +29,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Belgium",
+    "calling_codes": [
+        "+32"
+    ],
     "capital": [
         "Brussels"
     ],
@@ -45,6 +48,16 @@
         "natural"
     ],
     "demonym": "Belgian",
+    "demonyms": {
+        "eng": {
+            "f": "Belgian",
+            "m": "Belgian"
+        },
+        "fra": {
+            "f": "Belge",
+            "m": "Belge"
+        }
+    },
     "dialling": {
         "calling_code": [
             "32"
@@ -260,6 +273,10 @@
             "common": "Belgija",
             "official": "Kraljevina Belgija"
         },
+        "hun": {
+            "common": "Belgium",
+            "official": "Belga Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Belgio",
             "official": "Regno del Belgio"
@@ -300,6 +317,10 @@
             "common": "B\u00e9lgica",
             "official": "Reino de B\u00e9lgica"
         },
+        "swe": {
+            "common": "Belgien",
+            "official": "Konungariket Belgien"
+        },
         "urd": {
             "common": "\u0628\u0644\u062c\u0626\u06cc\u0645",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0628\u0644\u062c\u0626\u06cc\u0645"
@@ -311,6 +332,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "056",
+    "un_member": true,
     "wb_a2": "BE",
     "wb_a3": "BEL",
     "wikidataid": "Q31",

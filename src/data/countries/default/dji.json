@@ -26,6 +26,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Djibouti",
+    "calling_codes": [
+        "+253"
+    ],
     "capital": [
         "Djibouti"
     ],
@@ -42,6 +45,16 @@
         "natural"
     ],
     "demonym": "Djibouti",
+    "demonyms": {
+        "eng": {
+            "f": "Djibouti",
+            "m": "Djibouti"
+        },
+        "fra": {
+            "f": "Djiboutienne",
+            "m": "Djiboutien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "253"
@@ -242,6 +255,10 @@
             "common": "D\u017eibuti",
             "official": "Republika D\u017eibuti"
         },
+        "hun": {
+            "common": "Dzsibuti",
+            "official": "Dzsibuti K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Gibuti",
             "official": "Repubblica di Gibuti"
@@ -282,6 +299,10 @@
             "common": "Djibouti",
             "official": "Rep\u00fablica de Djibouti"
         },
+        "swe": {
+            "common": "Djibouti",
+            "official": "Republiken Djibouti"
+        },
         "urd": {
             "common": "\u062c\u0628\u0648\u062a\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0628\u0648\u062a\u06cc"
@@ -293,6 +314,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "262",
+    "un_member": true,
     "wb_a2": "DJ",
     "wb_a3": "DJI",
     "wikidataid": "Q977",

@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Vietnam",
+    "calling_codes": [
+        "+84"
+    ],
     "capital": [
         "Hanoi"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Vietnamese",
+    "demonyms": {
+        "eng": {
+            "f": "Vietnamese",
+            "m": "Vietnamese"
+        },
+        "fra": {
+            "f": "Vietnamienne",
+            "m": "Vietnamien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "84"
@@ -233,6 +246,10 @@
             "common": "Vijetnam",
             "official": "Socijalisti\u010dka Republika Vijetnam"
         },
+        "hun": {
+            "common": "Vietn\u00e1m",
+            "official": "Vietn\u00e1mi Szocialista K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Vietnam",
             "official": "Repubblica socialista del Vietnam"
@@ -273,6 +290,10 @@
             "common": "Vietnam",
             "official": "Rep\u00fablica Socialista de Vietnam"
         },
+        "swe": {
+            "common": "Vietnam",
+            "official": "Socialistiska republiken Vietnam"
+        },
         "urd": {
             "common": "\u0648\u06cc\u062a\u0646\u0627\u0645",
             "official": "\u0627\u0634\u062a\u0631\u0627\u06a9\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0648\u06cc\u062a\u0646\u0627\u0645"
@@ -284,6 +305,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "704",
+    "un_member": true,
     "wb_a2": "VN",
     "wb_a3": "VNM",
     "wikidataid": "Q881",

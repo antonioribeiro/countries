@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Kosovo",
+    "calling_codes": [
+        "+383"
+    ],
     "capital": [
         "Pristina"
     ],
@@ -52,6 +55,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Kosovo",
+        "calling_codes": [
+            "+383"
+        ],
         "capital": [
             "Pristina"
         ],
@@ -68,7 +74,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Kosovar",
+        "demonyms": {
+            "eng": {
+                "f": "Kosovar",
+                "m": "Kosovar"
+            },
+            "fra": {
+                "f": "Kosovare",
+                "m": "Kosovar"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "KV",
@@ -115,6 +130,9 @@
                 "MNE",
                 "SRB"
             ],
+            "calling_codes": [
+                "+383"
+            ],
             "capital": [
                 "Pristina"
             ],
@@ -131,7 +149,16 @@
             "data_sources": [
                 "mledoze"
             ],
-            "demonym": "Kosovar",
+            "demonyms": {
+                "eng": {
+                    "f": "Kosovar",
+                    "m": "Kosovar"
+                },
+                "fra": {
+                    "f": "Kosovare",
+                    "m": "Kosovar"
+                }
+            },
             "flag": "\ud83c\uddfd\ud83c\uddf0",
             "idd": {
                 "root": "+3",
@@ -193,6 +220,10 @@
                     "common": "Kosovo",
                     "official": "Republika Kosovo"
                 },
+                "hun": {
+                    "common": "Koszov\u00f3",
+                    "official": "Koszov\u00f3"
+                },
                 "ita": {
                     "common": "Kosovo",
                     "official": "Repubblica del Kosovo"
@@ -229,6 +260,10 @@
                     "common": "Kosovo",
                     "official": "Rep\u00fablica de Kosovo"
                 },
+                "swe": {
+                    "common": "Kosovo",
+                    "official": "Republiken Kosovo"
+                },
                 "urd": {
                     "common": "\u06a9\u0648\u0633\u0648\u0648\u06c1",
                     "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0633\u0648\u0648\u06c1"
@@ -237,7 +272,8 @@
                     "common": "\u79d1\u7d22\u6c83",
                     "official": "\u79d1\u7d22\u6c83\u5171\u548c\u56fd"
                 }
-            }
+            },
+            "un_member": false
         },
         "iso_a2": "XK",
         "iso_a3": "-99",
@@ -342,6 +378,10 @@
                 "common": "Kosovo",
                 "official": "Republika Kosovo"
             },
+            "hun": {
+                "common": "Koszov\u00f3",
+                "official": "Koszov\u00f3"
+            },
             "ita": {
                 "common": "Kosovo",
                 "official": "Repubblica del Kosovo"
@@ -378,6 +418,10 @@
                 "common": "Kosovo",
                 "official": "Rep\u00fablica de Kosovo"
             },
+            "swe": {
+                "common": "Kosovo",
+                "official": "Republiken Kosovo"
+            },
             "urd": {
                 "common": "\u06a9\u0648\u0633\u0648\u0648\u06c1",
                 "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0633\u0648\u0648\u06c1"
@@ -389,6 +433,7 @@
         },
         "type": "Sovereign country",
         "un_a3": "-099",
+        "un_member": null,
         "wb_a2": "KV",
         "wb_a3": "KSV",
         "wikidataid": "Q1246",
@@ -406,6 +451,16 @@
         "natural"
     ],
     "demonym": "Kosovar",
+    "demonyms": {
+        "eng": {
+            "f": "Kosovar",
+            "m": "Kosovar"
+        },
+        "fra": {
+            "f": "Kosovare",
+            "m": "Kosovar"
+        }
+    },
     "dialling": {
         "calling_code": [
             "383"
@@ -503,6 +558,9 @@
             "MNE",
             "SRB"
         ],
+        "calling_codes": [
+            "+383"
+        ],
         "capital": [
             "Pristina"
         ],
@@ -519,7 +577,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Kosovar",
+        "demonyms": {
+            "eng": {
+                "f": "Kosovar",
+                "m": "Kosovar"
+            },
+            "fra": {
+                "f": "Kosovare",
+                "m": "Kosovar"
+            }
+        },
         "flag": "\ud83c\uddfd\ud83c\uddf0",
         "idd": {
             "root": "+3",
@@ -581,6 +648,10 @@
                 "common": "Kosovo",
                 "official": "Republika Kosovo"
             },
+            "hun": {
+                "common": "Koszov\u00f3",
+                "official": "Koszov\u00f3"
+            },
             "ita": {
                 "common": "Kosovo",
                 "official": "Repubblica del Kosovo"
@@ -617,6 +688,10 @@
                 "common": "Kosovo",
                 "official": "Rep\u00fablica de Kosovo"
             },
+            "swe": {
+                "common": "Kosovo",
+                "official": "Republiken Kosovo"
+            },
             "urd": {
                 "common": "\u06a9\u0648\u0633\u0648\u0648\u06c1",
                 "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0633\u0648\u0648\u06c1"
@@ -625,7 +700,8 @@
                 "common": "\u79d1\u7d22\u6c83",
                 "official": "\u79d1\u7d22\u6c83\u5171\u548c\u56fd"
             }
-        }
+        },
+        "un_member": false
     },
     "iso_3166_1_alpha2": "XK",
     "iso_3166_1_alpha3": "UNK",
@@ -733,6 +809,10 @@
             "common": "Kosovo",
             "official": "Republika Kosovo"
         },
+        "hun": {
+            "common": "Koszov\u00f3",
+            "official": "Koszov\u00f3"
+        },
         "ita": {
             "common": "Kosovo",
             "official": "Repubblica del Kosovo"
@@ -769,6 +849,10 @@
             "common": "Kosovo",
             "official": "Rep\u00fablica de Kosovo"
         },
+        "swe": {
+            "common": "Kosovo",
+            "official": "Republiken Kosovo"
+        },
         "urd": {
             "common": "\u06a9\u0648\u0633\u0648\u0648\u06c1",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0633\u0648\u0648\u06c1"
@@ -780,6 +864,417 @@
     },
     "type": "Sovereign country",
     "un_a3": "-099",
+    "un_member": {
+        "abbrev": "Kos.",
+        "abbrev_len": "4",
+        "adm0_a3": "KOS",
+        "adm0_a3_is": "KOS",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "KOS",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "0",
+        "admin": "Kosovo",
+        "alt_spellings": [
+            "XK",
+            "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+        ],
+        "borders": [
+            "ALB",
+            "MKD",
+            "MNE",
+            "SRB"
+        ],
+        "brk_a3": "KOS",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Kosovo",
+        "calling_codes": [
+            "+383"
+        ],
+        "capital": [
+            "Pristina"
+        ],
+        "cca2": "XK",
+        "cca3": "UNK",
+        "ccn3": null,
+        "cioc": "KOS",
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Kosovar",
+                "m": "Kosovar"
+            },
+            "fra": {
+                "f": "Kosovare",
+                "m": "Kosovar"
+            }
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "KV",
+        "flag": {
+            "emoji": "\ud83c\uddfd\ud83c\uddf0"
+        },
+        "formal_en": "Republic of Kosovo",
+        "formal_fr": "",
+        "gdp_md_est": "18490.00",
+        "gdp_year": "2016",
+        "geo": {
+            "area": 10908,
+            "continent": "Europe",
+            "landlocked": true,
+            "latlng": [
+                42.666667,
+                21.166667
+            ],
+            "region": "Europe",
+            "region_un": "Europe",
+            "region_wb": "Europe & Central Asia",
+            "subregion": "Eastern Europe"
+        },
+        "geou_dif": "0",
+        "geounit": "Kosovo",
+        "gu_a3": "KOS",
+        "homepart": "1",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "83"
+            ]
+        },
+        "income_grp": "4. Lower middle income",
+        "independent": {
+            "alt_spellings": [
+                "XK",
+                "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+            ],
+            "area": 10908,
+            "borders": [
+                "ALB",
+                "MKD",
+                "MNE",
+                "SRB"
+            ],
+            "calling_codes": [
+                "+383"
+            ],
+            "capital": [
+                "Pristina"
+            ],
+            "cca2": "XK",
+            "cca3": "UNK",
+            "ccn3": "",
+            "cioc": "KOS",
+            "currencies": {
+                "e_u_r": {
+                    "name": "Euro",
+                    "symbol": "\u20ac"
+                }
+            },
+            "data_sources": [
+                "mledoze"
+            ],
+            "demonyms": {
+                "eng": {
+                    "f": "Kosovar",
+                    "m": "Kosovar"
+                },
+                "fra": {
+                    "f": "Kosovare",
+                    "m": "Kosovar"
+                }
+            },
+            "flag": "\ud83c\uddfd\ud83c\uddf0",
+            "idd": {
+                "root": "+3",
+                "suffixes": [
+                    "83"
+                ]
+            },
+            "independent": null,
+            "landlocked": true,
+            "languages": {
+                "sqi": "Albanian",
+                "srp": "Serbian"
+            },
+            "latlng": [
+                42.666667,
+                21.166667
+            ],
+            "name": {
+                "common": "Kosovo",
+                "native": {
+                    "sqi": {
+                        "common": "Kosova",
+                        "official": "Republika e Kosov\u00ebs"
+                    },
+                    "srp": {
+                        "common": "\u041a\u043e\u0441\u043e\u0432\u043e",
+                        "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+                    }
+                },
+                "official": "Republic of Kosovo"
+            },
+            "record_type": "country",
+            "region": "Europe",
+            "status": "user-assigned",
+            "subregion": "Eastern Europe",
+            "tld": [],
+            "translations": {
+                "ces": {
+                    "common": "Kosovo",
+                    "official": "Kosovsk\u00e1 republika"
+                },
+                "deu": {
+                    "common": "Kosovo",
+                    "official": "Republik Kosovo"
+                },
+                "est": {
+                    "common": "Kosovo",
+                    "official": "Kosovo Vabariik"
+                },
+                "fin": {
+                    "common": "Kosovo",
+                    "official": "Kosovon tasavalta"
+                },
+                "fra": {
+                    "common": "Kosovo",
+                    "official": "R\u00e9publique du Kosovo"
+                },
+                "hrv": {
+                    "common": "Kosovo",
+                    "official": "Republika Kosovo"
+                },
+                "hun": {
+                    "common": "Koszov\u00f3",
+                    "official": "Koszov\u00f3"
+                },
+                "ita": {
+                    "common": "Kosovo",
+                    "official": "Repubblica del Kosovo"
+                },
+                "kor": {
+                    "common": "\ucf54\uc18c\ubcf4",
+                    "official": "\ucf54\uc18c\ubcf4 \uacf5\ud654\uad6d"
+                },
+                "nld": {
+                    "common": "Kosovo",
+                    "official": "Republiek Kosovo"
+                },
+                "per": {
+                    "common": "\u06a9\u0648\u0632\u0648\u0648",
+                    "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u06a9\u0648\u0632\u0648\u0648"
+                },
+                "pol": {
+                    "common": "Kosowo",
+                    "official": "Republika Kosowa"
+                },
+                "por": {
+                    "common": "Kosovo",
+                    "official": "Rep\u00fablica do Kosovo"
+                },
+                "rus": {
+                    "common": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e",
+                    "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+                },
+                "slk": {
+                    "common": "Kosovo",
+                    "official": "Republika Kosovo"
+                },
+                "spa": {
+                    "common": "Kosovo",
+                    "official": "Rep\u00fablica de Kosovo"
+                },
+                "swe": {
+                    "common": "Kosovo",
+                    "official": "Republiken Kosovo"
+                },
+                "urd": {
+                    "common": "\u06a9\u0648\u0633\u0648\u0648\u06c1",
+                    "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0633\u0648\u0648\u06c1"
+                },
+                "zho": {
+                    "common": "\u79d1\u7d22\u6c83",
+                    "official": "\u79d1\u7d22\u6c83\u5171\u548c\u56fd"
+                }
+            },
+            "un_member": false
+        },
+        "iso_a2": "XK",
+        "iso_a3": "-99",
+        "iso_a3_eh": "-99",
+        "iso_n3": "-99",
+        "labelrank": "6",
+        "languages": {
+            "sqi": "Albanian",
+            "srp": "Serbian"
+        },
+        "lastcensus": "1981",
+        "level": "2",
+        "long_len": "6",
+        "mapcolor7": "2",
+        "mapcolor8": "2",
+        "mapcolor9": "3",
+        "mapcolor13": "11",
+        "max_label": "10.0",
+        "min_label": "5.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Kosovo",
+            "native": {
+                "sqi": {
+                    "common": "Kosova",
+                    "official": "Republika e Kosov\u00ebs"
+                },
+                "srp": {
+                    "common": "\u041a\u043e\u0441\u043e\u0432\u043e",
+                    "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+                }
+            },
+            "official": "Republic of Kosovo"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d9\u0083\u00d9\u0088\u00d8\u00b3\u00d9\u0088\u00d9\u0081\u00d9\u0088",
+        "name_bn": "\u00e0\u00a6\u0095\u00e0\u00a6\u00b8\u00e0\u00a7\u008b\u00e0\u00a6\u00ad\u00e0\u00a7\u008b",
+        "name_ciawf": "Kosovo",
+        "name_de": "Kosovo",
+        "name_el": "\u00ce\u009a\u00cf\u008c\u00cf\u0083\u00ce\u00bf\u00ce\u00b2\u00ce\u00bf",
+        "name_en": "Kosovo",
+        "name_es": "Kosovo",
+        "name_fr": "Kosovo",
+        "name_hi": "\u00e0\u00a4\u0095\u00e0\u00a5\u008b\u00e0\u00a4\u00b8\u00e0\u00a5\u008b\u00e0\u00a4\u00b5\u00e0\u00a5\u008b \u00e0\u00a4\u0097\u00e0\u00a4\u00a3\u00e0\u00a4\u00b0\u00e0\u00a4\u00be\u00e0\u00a4\u009c\u00e0\u00a5\u008d\u00e0\u00a4\u00af",
+        "name_hu": "Koszov\u00c3\u00b3",
+        "name_id": "Kosovo",
+        "name_it": "Kosovo",
+        "name_ja": "\u00e3\u0082\u00b3\u00e3\u0082\u00bd\u00e3\u0083\u009c\u00e5\u0085\u00b1\u00e5\u0092\u008c\u00e5\u009b\u00bd",
+        "name_ko": "\u00ec\u00bd\u0094\u00ec\u0086\u008c\u00eb\u00b3\u00b4",
+        "name_len": "6",
+        "name_long": "Kosovo",
+        "name_nev": "Kosovo",
+        "name_nl": "Kosovo",
+        "name_pl": "Kosowo",
+        "name_pt": "Kosovo",
+        "name_ru": "\u00d0\u00a0\u00d0\u00b5\u00d1\u0081\u00d0\u00bf\u00d1\u0083\u00d0\u00b1\u00d0\u00bb\u00d0\u00b8\u00d0\u00ba\u00d0\u00b0 \u00d0\u009a\u00d0\u00be\u00d1\u0081\u00d0\u00be\u00d0\u00b2\u00d0\u00be",
+        "name_sort": "Kosovo",
+        "name_sv": "Kosovo",
+        "name_tr": "Kosova",
+        "name_vi": "Kosovo",
+        "name_zh": "\u00e7\u00a7\u0091\u00e7\u00b4\u00a2\u00e6\u00b2\u0083",
+        "ne_id": "1159321007",
+        "note_adm0": "",
+        "note_brk": "",
+        "pop_est": "1895250",
+        "pop_rank": "12",
+        "pop_year": "2017",
+        "postal": "KO",
+        "record_type": "country",
+        "scalerank": "0",
+        "sov_a3": "KOS",
+        "sovereignt": "Kosovo",
+        "status": "user-assigned",
+        "su_a3": "KOS",
+        "su_dif": "0",
+        "subregion_nev": "Southern Europe",
+        "subunit": "Kosovo",
+        "tiny": "-99",
+        "tld": [],
+        "translations": {
+            "ces": {
+                "common": "Kosovo",
+                "official": "Kosovsk\u00e1 republika"
+            },
+            "deu": {
+                "common": "Kosovo",
+                "official": "Republik Kosovo"
+            },
+            "est": {
+                "common": "Kosovo",
+                "official": "Kosovo Vabariik"
+            },
+            "fin": {
+                "common": "Kosovo",
+                "official": "Kosovon tasavalta"
+            },
+            "fra": {
+                "common": "Kosovo",
+                "official": "R\u00e9publique du Kosovo"
+            },
+            "hrv": {
+                "common": "Kosovo",
+                "official": "Republika Kosovo"
+            },
+            "hun": {
+                "common": "Koszov\u00f3",
+                "official": "Koszov\u00f3"
+            },
+            "ita": {
+                "common": "Kosovo",
+                "official": "Repubblica del Kosovo"
+            },
+            "kor": {
+                "common": "\ucf54\uc18c\ubcf4",
+                "official": "\ucf54\uc18c\ubcf4 \uacf5\ud654\uad6d"
+            },
+            "nld": {
+                "common": "Kosovo",
+                "official": "Republiek Kosovo"
+            },
+            "per": {
+                "common": "\u06a9\u0648\u0632\u0648\u0648",
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u06a9\u0648\u0632\u0648\u0648"
+            },
+            "pol": {
+                "common": "Kosowo",
+                "official": "Republika Kosowa"
+            },
+            "por": {
+                "common": "Kosovo",
+                "official": "Rep\u00fablica do Kosovo"
+            },
+            "rus": {
+                "common": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e",
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+            },
+            "slk": {
+                "common": "Kosovo",
+                "official": "Republika Kosovo"
+            },
+            "spa": {
+                "common": "Kosovo",
+                "official": "Rep\u00fablica de Kosovo"
+            },
+            "swe": {
+                "common": "Kosovo",
+                "official": "Republiken Kosovo"
+            },
+            "urd": {
+                "common": "\u06a9\u0648\u0633\u0648\u0648\u06c1",
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0633\u0648\u0648\u06c1"
+            },
+            "zho": {
+                "common": "\u79d1\u7d22\u6c83",
+                "official": "\u79d1\u7d22\u6c83\u5171\u548c\u56fd"
+            }
+        },
+        "type": "Sovereign country",
+        "un_a3": "-099",
+        "un_member": null,
+        "wb_a2": "KV",
+        "wb_a3": "KSV",
+        "wikidataid": "Q1246",
+        "wikipedia": "-99",
+        "woe_id": "-90",
+        "woe_id_eh": "29389201",
+        "woe_note": "Subunit of Serbia in WOE still; should include 29389201, 29389207, 29389218, 29389209 and 29389214."
+    },
     "wb_a2": "KV",
     "wb_a3": "KSV",
     "wikidataid": "Q1246",

@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Malaysia",
+    "calling_codes": [
+        "+60"
+    ],
     "capital": [
         "Kuala Lumpur"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Malaysian",
+    "demonyms": {
+        "eng": {
+            "f": "Malaysian",
+            "m": "Malaysian"
+        },
+        "fra": {
+            "f": "Malaisienne",
+            "m": "Malaisien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "60"
@@ -233,6 +246,10 @@
             "common": "Malezija",
             "official": "Malezija"
         },
+        "hun": {
+            "common": "Malajzia",
+            "official": "Malajzia"
+        },
         "ita": {
             "common": "Malesia",
             "official": "Malaysia"
@@ -273,6 +290,10 @@
             "common": "Malasia",
             "official": "Malasia"
         },
+        "swe": {
+            "common": "Malaysia",
+            "official": "Malaysia"
+        },
         "urd": {
             "common": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627",
             "official": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627"
@@ -284,6 +305,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "458",
+    "un_member": true,
     "wb_a2": "MY",
     "wb_a3": "MYS",
     "wikidataid": "Q833",

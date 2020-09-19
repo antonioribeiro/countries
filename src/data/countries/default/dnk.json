@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Denmark",
+    "calling_codes": [
+        "+45"
+    ],
     "capital": [
         "Copenhagen"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Danish",
+    "demonyms": {
+        "eng": {
+            "f": "Danish",
+            "m": "Danish"
+        },
+        "fra": {
+            "f": "Danoise",
+            "m": "Danois"
+        }
+    },
     "dialling": {
         "calling_code": [
             "45"
@@ -235,6 +248,10 @@
             "common": "Danska",
             "official": "Kraljevina Danska"
         },
+        "hun": {
+            "common": "D\u00e1nia",
+            "official": "D\u00e1n Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Danimarca",
             "official": "Regno di Danimarca"
@@ -275,6 +292,10 @@
             "common": "Dinamarca",
             "official": "Reino de Dinamarca"
         },
+        "swe": {
+            "common": "Danmark",
+            "official": "Konungariket Danmark"
+        },
         "urd": {
             "common": "\u0688\u0646\u0645\u0627\u0631\u06a9",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0688\u0646\u0645\u0627\u0631\u06a9"
@@ -286,6 +307,7 @@
     },
     "type": "Country",
     "un_a3": "208",
+    "un_member": true,
     "wb_a2": "DK",
     "wb_a3": "DNK",
     "wikidataid": "Q35",

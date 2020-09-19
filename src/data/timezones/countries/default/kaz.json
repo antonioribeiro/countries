@@ -1,9 +1,7 @@
 {
     "asia_almaty": {
         "abbreviations": [
-            "+05",
-            "+06",
-            "+07",
+            "ALMT",
             "LMT"
         ],
         "cca2": "KZ",
@@ -18,96 +16,7 @@
     },
     "asia_aqtau": {
         "abbreviations": [
-            "+04",
-            "+05",
-            "+06",
-            "LMT"
-        ],
-        "cca2": "KZ",
-        "cca3": "KAZ",
-        "country_code": "KZ",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "220",
-        "zone_name": "Asia\/Aqtau"
-    },
-    "asia_aqtobe": {
-        "abbreviations": [
-            "+04",
-            "+05",
-            "+06",
-            "LMT"
-        ],
-        "cca2": "KZ",
-        "cca3": "KAZ",
-        "country_code": "KZ",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "219",
-        "zone_name": "Asia\/Aqtobe"
-    },
-    "asia_atyrau": {
-        "abbreviations": [
-            "+03",
-            "+04",
-            "+05",
-            "+06",
-            "LMT"
-        ],
-        "cca2": "KZ",
-        "cca3": "KAZ",
-        "country_code": "KZ",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "221",
-        "zone_name": "Asia\/Atyrau"
-    },
-    "asia_oral": {
-        "abbreviations": [
-            "+03",
-            "+04",
-            "+05",
-            "+06",
-            "LMT"
-        ],
-        "cca2": "KZ",
-        "cca3": "KAZ",
-        "country_code": "KZ",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "222",
-        "zone_name": "Asia\/Oral"
-    },
-    "asia_qostanay": {
-        "abbreviations": [
-            "+04",
-            "+05",
-            "+06",
-            "LMT"
-        ],
-        "cca2": "KZ",
-        "cca3": "KAZ",
-        "country_code": "KZ",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "218",
-        "zone_name": "Asia\/Qostanay"
-    },
-    "asia_qyzylorda": {
-        "abbreviations": [
-            "+04",
-            "+05",
-            "+06",
+            "AQTT",
             "LMT"
         ],
         "cca2": "KZ",
@@ -118,6 +27,84 @@
         ],
         "record_type": "timezone",
         "zone_id": "217",
+        "zone_name": "Asia\/Aqtau"
+    },
+    "asia_aqtobe": {
+        "abbreviations": [
+            "AQTT",
+            "LMT"
+        ],
+        "cca2": "KZ",
+        "cca3": "KAZ",
+        "country_code": "KZ",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "218",
+        "zone_name": "Asia\/Aqtobe"
+    },
+    "asia_atyrau": {
+        "abbreviations": [
+            "LMT",
+            "MSD+1",
+            "MSK+1",
+            "SHEST"
+        ],
+        "cca2": "KZ",
+        "cca3": "KAZ",
+        "country_code": "KZ",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "219",
+        "zone_name": "Asia\/Atyrau"
+    },
+    "asia_oral": {
+        "abbreviations": [
+            "LMT",
+            "ORAT"
+        ],
+        "cca2": "KZ",
+        "cca3": "KAZ",
+        "country_code": "KZ",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "220",
+        "zone_name": "Asia\/Oral"
+    },
+    "asia_qostanay": {
+        "abbreviations": [
+            "LMT",
+            "QYZST",
+            "QYZT"
+        ],
+        "cca2": "KZ",
+        "cca3": "KAZ",
+        "country_code": "KZ",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "221",
+        "zone_name": "Asia\/Qostanay"
+    },
+    "asia_qyzylorda": {
+        "abbreviations": [
+            "LMT",
+            "QYZT"
+        ],
+        "cca2": "KZ",
+        "cca3": "KAZ",
+        "country_code": "KZ",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "222",
         "zone_name": "Asia\/Qyzylorda"
     }
 }

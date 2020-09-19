@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Costa Rica",
+    "calling_codes": [
+        "+506"
+    ],
     "capital": [
         "San Jos\u00e9"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Costa Rican",
+    "demonyms": {
+        "eng": {
+            "f": "Costa Rican",
+            "m": "Costa Rican"
+        },
+        "fra": {
+            "f": "Costaricaine",
+            "m": "Costaricain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "506"
@@ -231,6 +244,10 @@
             "common": "Kostarika",
             "official": "Republika Kostarika"
         },
+        "hun": {
+            "common": "Costa Rica",
+            "official": "Costa Rica-i K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Costa Rica",
             "official": "Repubblica di Costa Rica"
@@ -271,6 +288,10 @@
             "common": "Costa Rica",
             "official": "Rep\u00fablica de Costa Rica"
         },
+        "swe": {
+            "common": "Costa Rica",
+            "official": "Republiken Costa Rica"
+        },
         "urd": {
             "common": "\u06a9\u0648\u0633\u0679\u0627\u0631\u06cc\u06a9\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0633\u0679\u0627\u0631\u06cc\u06a9\u0627"
@@ -282,6 +303,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "188",
+    "un_member": true,
     "wb_a2": "CR",
     "wb_a3": "CRI",
     "wikidataid": "Q800",

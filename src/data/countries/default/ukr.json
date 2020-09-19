@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Ukraine",
+    "calling_codes": [
+        "+380"
+    ],
     "capital": [
         "Kyiv"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Ukrainian",
+    "demonyms": {
+        "eng": {
+            "f": "Ukrainian",
+            "m": "Ukrainian"
+        },
+        "fra": {
+            "f": "Ukrainienne",
+            "m": "Ukrainien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "380"
@@ -238,6 +251,10 @@
             "common": "Ukrajina",
             "official": "Ukrajina"
         },
+        "hun": {
+            "common": "Ukrajna",
+            "official": "Ukrajna"
+        },
         "ita": {
             "common": "Ucraina",
             "official": "Ucraina"
@@ -278,6 +295,10 @@
             "common": "Ucrania",
             "official": "Ucrania"
         },
+        "swe": {
+            "common": "Ukraina",
+            "official": "Ukraina"
+        },
         "urd": {
             "common": "\u06cc\u0648\u06a9\u0631\u06cc\u0646",
             "official": "\u06cc\u0648\u06a9\u0631\u06cc\u0646"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "804",
+    "un_member": true,
     "wb_a2": "UA",
     "wb_a3": "UKR",
     "wikidataid": "Q212",

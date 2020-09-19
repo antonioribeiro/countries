@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bangladesh",
+    "calling_codes": [
+        "+880"
+    ],
     "capital": [
         "Dhaka"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Bangladeshi",
+    "demonyms": {
+        "eng": {
+            "f": "Bangladeshi",
+            "m": "Bangladeshi"
+        },
+        "fra": {
+            "f": "Bangladaise",
+            "m": "Bangladais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "880"
@@ -231,6 +244,10 @@
             "common": "Banglade\u0161",
             "official": "Narodna Republika Banglade\u0161"
         },
+        "hun": {
+            "common": "Banglades",
+            "official": "Banglades"
+        },
         "ita": {
             "common": "Bangladesh",
             "official": "Repubblica popolare del Bangladesh"
@@ -271,6 +288,10 @@
             "common": "Bangladesh",
             "official": "Rep\u00fablica Popular de Bangladesh"
         },
+        "swe": {
+            "common": "Bangladesh",
+            "official": "Folkrepubliken Bangladesh"
+        },
         "urd": {
             "common": "\u0628\u0646\u06af\u0644\u06c1 \u062f\u06cc\u0634",
             "official": "\u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0646\u06af\u0644\u06c1 \u062f\u06cc\u0634"
@@ -282,6 +303,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "050",
+    "un_member": true,
     "wb_a2": "BD",
     "wb_a3": "BGD",
     "wikidataid": "Q902",

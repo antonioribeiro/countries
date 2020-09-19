@@ -1,7 +1,28 @@
 {
-    "abbreviation": "+10",
+    "1": {
+        "abbreviation": "MAWT",
+        "dst": "0",
+        "gmt_offset": "21600",
+        "time_start": "-501206400",
+        "zone_id": "12"
+    },
+    "2": {
+        "abbreviation": "MAWT",
+        "dst": "0",
+        "gmt_offset": "21600",
+        "time_start": "1255809599",
+        "zone_id": "12"
+    },
+    "3": {
+        "abbreviation": "MAWT",
+        "dst": "0",
+        "gmt_offset": "18000",
+        "time_start": "1255809600",
+        "zone_id": "12"
+    },
+    "abbreviation": "MAWT",
     "dst": "0",
-    "gmt_offset": "36000",
-    "time_start": "-725846400",
+    "gmt_offset": "0",
+    "time_start": "-501206401",
     "zone_id": "12"
 }

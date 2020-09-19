@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Kiribati",
+    "calling_codes": [
+        "+686"
+    ],
     "capital": [
         "South Tarawa"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "I-Kiribati",
+    "demonyms": {
+        "eng": {
+            "f": "I-Kiribati",
+            "m": "I-Kiribati"
+        },
+        "fra": {
+            "f": "Kiribatienne",
+            "m": "Kiribatien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "686"
@@ -226,6 +239,10 @@
             "common": "Kiribati",
             "official": "Samostalne i suverene Republike Kiribati"
         },
+        "hun": {
+            "common": "Kiribati",
+            "official": "Kiribati K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Kiribati",
             "official": "Repubblica indipendente e sovrano di Kiribati"
@@ -266,6 +283,10 @@
             "common": "Kiribati",
             "official": "Rep\u00fablica Independiente y Soberano de Kiribati"
         },
+        "swe": {
+            "common": "Kiribati",
+            "official": "Republiken Kiribati"
+        },
         "urd": {
             "common": "\u06a9\u06cc\u0631\u06cc\u0628\u0627\u062a\u06cc",
             "official": "\u0633\u0644\u0637\u0646\u062a \u0622\u0632\u0627\u062f \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u06cc\u0631\u06cc\u0628\u0627\u062a\u06cc"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "296",
+    "un_member": true,
     "wb_a2": "KI",
     "wb_a3": "KIR",
     "wikidataid": "Q710",

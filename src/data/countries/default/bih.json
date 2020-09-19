@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bosnia and Herz.",
+    "calling_codes": [
+        "+387"
+    ],
     "capital": [
         "Sarajevo"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Bosnian, Herzegovinian",
+    "demonyms": {
+        "eng": {
+            "f": "Bosnian, Herzegovinian",
+            "m": "Bosnian, Herzegovinian"
+        },
+        "fra": {
+            "f": "Bosnienne",
+            "m": "Bosnien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "387"
@@ -243,6 +256,10 @@
             "common": "Bosna i Hercegovina",
             "official": "Bosna i Hercegovina"
         },
+        "hun": {
+            "common": "Bosznia-Hercegovina",
+            "official": "Bosznia-Hercegovina"
+        },
         "ita": {
             "common": "Bosnia ed Erzegovina",
             "official": "Bosnia-Erzegovina"
@@ -283,6 +300,10 @@
             "common": "Bosnia y Herzegovina",
             "official": "Bosnia y Herzegovina"
         },
+        "swe": {
+            "common": "Bosnien och Hercegovina",
+            "official": "Bosnien och Hercegovina"
+        },
         "urd": {
             "common": "\u0628\u0648\u0633\u0646\u06cc\u0627 \u0648 \u06c1\u0631\u0632\u06cc\u06af\u0648\u0648\u06cc\u0646\u0627",
             "official": "\u0628\u0648\u0633\u0646\u06cc\u0627 \u0648 \u06c1\u0631\u0632\u06cc\u06af\u0648\u0648\u06cc\u0646\u0627"
@@ -294,6 +315,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "070",
+    "un_member": true,
     "wb_a2": "BA",
     "wb_a3": "BIH",
     "wikidataid": "Q225",

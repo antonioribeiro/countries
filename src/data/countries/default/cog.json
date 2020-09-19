@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Republic of the Congo",
+    "calling_codes": [
+        "+242"
+    ],
     "capital": [
         "Brazzaville"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Congolese",
+    "demonyms": {
+        "eng": {
+            "f": "Congolese",
+            "m": "Congolese"
+        },
+        "fra": {
+            "f": "Congolaise",
+            "m": "Congolais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "242"
@@ -247,6 +260,10 @@
             "common": "Kongo",
             "official": "Republika Kongo"
         },
+        "hun": {
+            "common": "Kong\u00f3i K\u00f6zt\u00e1rsas\u00e1g",
+            "official": "Kong\u00f3i K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Congo",
             "official": "Repubblica del Congo"
@@ -287,6 +304,10 @@
             "common": "Congo",
             "official": "Rep\u00fablica del Congo"
         },
+        "swe": {
+            "common": "Kongo-Brazzaville",
+            "official": "Republiken Kongo"
+        },
         "urd": {
             "common": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0627\u0646\u06af\u0648",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0627\u0646\u06af\u0648"
@@ -298,6 +319,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "178",
+    "un_member": true,
     "wb_a2": "CG",
     "wb_a3": "COG",
     "wikidataid": "Q971",

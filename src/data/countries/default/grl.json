@@ -17,6 +17,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Greenland",
+    "calling_codes": [
+        "+299"
+    ],
     "capital": [
         "Nuuk"
     ],
@@ -43,6 +46,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Greenland",
+        "calling_codes": [
+            "+299"
+        ],
         "capital": [
             "Nuuk"
         ],
@@ -59,7 +65,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Greenlandic",
+        "demonyms": {
+            "eng": {
+                "f": "Greenlandic",
+                "m": "Greenlandic"
+            },
+            "fra": {
+                "f": "Groenlandaise",
+                "m": "Groenlandais"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GL",
@@ -195,6 +210,10 @@
                 "common": "Grenland",
                 "official": "Grenland"
             },
+            "hun": {
+                "common": "Gr\u00f6nland",
+                "official": "Gr\u00f6nland"
+            },
             "ita": {
                 "common": "Groenlandia",
                 "official": "Groenlandia"
@@ -235,6 +254,10 @@
                 "common": "Groenlandia",
                 "official": "Groenlandia"
             },
+            "swe": {
+                "common": "Gr\u00f6nland",
+                "official": "Gr\u00f6nland"
+            },
             "urd": {
                 "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
                 "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
@@ -246,6 +269,7 @@
         },
         "type": "Country",
         "un_a3": "304",
+        "un_member": null,
         "wb_a2": "GL",
         "wb_a3": "GRL",
         "wikidataid": "Q223",
@@ -262,6 +286,16 @@
         "natural"
     ],
     "demonym": "Greenlandic",
+    "demonyms": {
+        "eng": {
+            "f": "Greenlandic",
+            "m": "Greenlandic"
+        },
+        "fra": {
+            "f": "Groenlandaise",
+            "m": "Groenlandais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "299"
@@ -365,6 +399,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Greenland",
+        "calling_codes": [
+            "+299"
+        ],
         "capital": [
             "Nuuk"
         ],
@@ -381,7 +418,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Greenlandic",
+        "demonyms": {
+            "eng": {
+                "f": "Greenlandic",
+                "m": "Greenlandic"
+            },
+            "fra": {
+                "f": "Groenlandaise",
+                "m": "Groenlandais"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "GL",
@@ -517,6 +563,10 @@
                 "common": "Grenland",
                 "official": "Grenland"
             },
+            "hun": {
+                "common": "Gr\u00f6nland",
+                "official": "Gr\u00f6nland"
+            },
             "ita": {
                 "common": "Groenlandia",
                 "official": "Groenlandia"
@@ -557,6 +607,10 @@
                 "common": "Groenlandia",
                 "official": "Groenlandia"
             },
+            "swe": {
+                "common": "Gr\u00f6nland",
+                "official": "Gr\u00f6nland"
+            },
             "urd": {
                 "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
                 "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
@@ -568,6 +622,7 @@
         },
         "type": "Country",
         "un_a3": "304",
+        "un_member": null,
         "wb_a2": "GL",
         "wb_a3": "GRL",
         "wikidataid": "Q223",
@@ -679,6 +734,10 @@
             "common": "Grenland",
             "official": "Grenland"
         },
+        "hun": {
+            "common": "Gr\u00f6nland",
+            "official": "Gr\u00f6nland"
+        },
         "ita": {
             "common": "Groenlandia",
             "official": "Groenlandia"
@@ -719,6 +778,10 @@
             "common": "Groenlandia",
             "official": "Groenlandia"
         },
+        "swe": {
+            "common": "Gr\u00f6nland",
+            "official": "Gr\u00f6nland"
+        },
         "urd": {
             "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
             "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
@@ -730,6 +793,257 @@
     },
     "type": "Country",
     "un_a3": "304",
+    "un_member": {
+        "abbrev": "Grlnd.",
+        "abbrev_len": "6",
+        "adm0_a3": "GRL",
+        "adm0_a3_is": "GRL",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "GRL",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Greenland",
+        "alt_spellings": [
+            "GL",
+            "Gr\u00f8nland"
+        ],
+        "borders": [],
+        "brk_a3": "GRL",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Greenland",
+        "calling_codes": [
+            "+299"
+        ],
+        "capital": [
+            "Nuuk"
+        ],
+        "cca2": "GL",
+        "cca3": "GRL",
+        "ccn3": "304",
+        "cioc": null,
+        "currencies": {
+            "d_k_k": {
+                "name": "krone",
+                "symbol": "kr."
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Greenlandic",
+                "m": "Greenlandic"
+            },
+            "fra": {
+                "f": "Groenlandaise",
+                "m": "Groenlandais"
+            }
+        },
+        "economy": "2. Developed region: nonG7",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "GL",
+        "flag": {
+            "emoji": "\ud83c\uddec\ud83c\uddf1"
+        },
+        "formal_en": "Greenland",
+        "formal_fr": "",
+        "gdp_md_est": "2173.00",
+        "gdp_year": "2015",
+        "geo": {
+            "area": 2166086,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                72,
+                -40
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Europe & Central Asia",
+            "subregion": "North America"
+        },
+        "geou_dif": "0",
+        "geounit": "Greenland",
+        "gu_a3": "GRL",
+        "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "99"
+            ]
+        },
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "GL",
+        "iso_a3": "GRL",
+        "iso_a3_eh": "GRL",
+        "iso_n3": "304",
+        "labelrank": "3",
+        "languages": {
+            "kal": "Greenlandic"
+        },
+        "lastcensus": "2010",
+        "level": "2",
+        "long_len": "9",
+        "mapcolor7": "4",
+        "mapcolor8": "1",
+        "mapcolor9": "3",
+        "mapcolor13": "12",
+        "max_label": "6.7",
+        "min_label": "1.7",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Greenland",
+            "native": {
+                "kal": {
+                    "common": "Kalaallit Nunaat",
+                    "official": "Kalaallit Nunaat"
+                }
+            },
+            "official": "Greenland"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00ba\u00d8\u00b1\u00d9\u008a\u00d9\u0086\u00d9\u0084\u00d8\u00a7\u00d9\u0086\u00d8\u00af",
+        "name_bn": "\u00e0\u00a6\u0097\u00e0\u00a7\u008d\u00e0\u00a6\u00b0\u00e0\u00a6\u00bf\u00e0\u00a6\u00a8\u00e0\u00a6\u00b2\u00e0\u00a7\u008d\u00e0\u00a6\u00af\u00e0\u00a6\u00be\u00e0\u00a6\u00a8\u00e0\u00a7\u008d\u00e0\u00a6\u00a1",
+        "name_ciawf": "Greenland",
+        "name_de": "Gr\u00c3\u00b6nland",
+        "name_el": "\u00ce\u0093\u00cf\u0081\u00ce\u00bf\u00ce\u00b9\u00ce\u00bb\u00ce\u00b1\u00ce\u00bd\u00ce\u00b4\u00ce\u00af\u00ce\u00b1",
+        "name_en": "Greenland",
+        "name_es": "Groenlandia",
+        "name_fr": "Groenland",
+        "name_hi": "\u00e0\u00a4\u0097\u00e0\u00a5\u008d\u00e0\u00a4\u00b0\u00e0\u00a5\u0080\u00e0\u00a4\u00a8\u00e0\u00a4\u00b2\u00e0\u00a5\u0088\u00e0\u00a4\u00a3\u00e0\u00a5\u008d\u00e0\u00a4\u00a1",
+        "name_hu": "Gr\u00c3\u00b6nland",
+        "name_id": "Greenland",
+        "name_it": "Groenlandia",
+        "name_ja": "\u00e3\u0082\u00b0\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00b3\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089",
+        "name_ko": "\u00ea\u00b7\u00b8\u00eb\u00a6\u00b0\u00eb\u009e\u0080\u00eb\u0093\u009c",
+        "name_len": "9",
+        "name_long": "Greenland",
+        "name_nev": "Greenland",
+        "name_nl": "Groenland",
+        "name_pl": "Grenlandia",
+        "name_pt": "Gronel\u00c3\u00a2ndia",
+        "name_ru": "\u00d0\u0093\u00d1\u0080\u00d0\u00b5\u00d0\u00bd\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d0\u00b8\u00d1\u008f",
+        "name_sort": "Greenland",
+        "name_sv": "Gr\u00c3\u00b6nland",
+        "name_tr": "Gr\u00c3\u00b6nland",
+        "name_vi": "Greenland",
+        "name_zh": "\u00e6\u00a0\u00bc\u00e9\u0099\u00b5\u00e5\u0085\u00b0",
+        "ne_id": "1159320551",
+        "note_adm0": "Den.",
+        "note_brk": "",
+        "pop_est": "57713",
+        "pop_rank": "8",
+        "pop_year": "2017",
+        "postal": "GL",
+        "record_type": "country",
+        "scalerank": "0",
+        "sov_a3": "DN1",
+        "sovereignt": "Denmark",
+        "status": "officially-assigned",
+        "su_a3": "GRL",
+        "su_dif": "0",
+        "subregion_nev": "Northern America",
+        "subunit": "Greenland",
+        "tiny": "-99",
+        "tld": [
+            ".gl"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Gr\u00f3nsko",
+                "official": "Gr\u00f3nsko"
+            },
+            "deu": {
+                "common": "Gr\u00f6nland",
+                "official": "Gr\u00f6nland"
+            },
+            "est": {
+                "common": "Gr\u00f6\u00f6nimaa",
+                "official": "Gr\u00f6\u00f6nimaa"
+            },
+            "fin": {
+                "common": "Gro\u00f6nlanti",
+                "official": "Gro\u00f6nlanti"
+            },
+            "fra": {
+                "common": "Groenland",
+                "official": "Groenland"
+            },
+            "hrv": {
+                "common": "Grenland",
+                "official": "Grenland"
+            },
+            "hun": {
+                "common": "Gr\u00f6nland",
+                "official": "Gr\u00f6nland"
+            },
+            "ita": {
+                "common": "Groenlandia",
+                "official": "Groenlandia"
+            },
+            "jpn": {
+                "common": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9",
+                "official": "\u30b0\u30ea\u30fc\u30f3\u30e9\u30f3\u30c9"
+            },
+            "kor": {
+                "common": "\uadf8\ub9b0\ub780\ub4dc",
+                "official": "\uadf8\ub9b0\ub780\ub4dc"
+            },
+            "nld": {
+                "common": "Groenland",
+                "official": "Groenland"
+            },
+            "per": {
+                "common": "\u06af\u0631\u06cc\u0646\u0644\u0646\u062f",
+                "official": "\u06af\u0631\u0648\u0626\u0646\u0644\u0646\u062f"
+            },
+            "pol": {
+                "common": "Grenlandia",
+                "official": "Grenlandia"
+            },
+            "por": {
+                "common": "Gronel\u00e2ndia",
+                "official": "Groenl\u00e2ndia"
+            },
+            "rus": {
+                "common": "\u0413\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0438\u044f",
+                "official": "\u0413\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0438\u044f"
+            },
+            "slk": {
+                "common": "Gr\u00f3nsko",
+                "official": "Gr\u00f3nsko"
+            },
+            "spa": {
+                "common": "Groenlandia",
+                "official": "Groenlandia"
+            },
+            "swe": {
+                "common": "Gr\u00f6nland",
+                "official": "Gr\u00f6nland"
+            },
+            "urd": {
+                "common": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688",
+                "official": "\u06af\u0631\u06cc\u0646 \u0644\u06cc\u0646\u0688"
+            },
+            "zho": {
+                "common": "\u683c\u9675\u5170",
+                "official": "\u683c\u9675\u5170"
+            }
+        },
+        "type": "Country",
+        "un_a3": "304",
+        "un_member": null,
+        "wb_a2": "GL",
+        "wb_a3": "GRL",
+        "wikidataid": "Q223",
+        "wikipedia": "-99",
+        "woe_id": "23424828",
+        "woe_id_eh": "23424828",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "GL",
     "wb_a3": "GRL",
     "wikidataid": "Q223",

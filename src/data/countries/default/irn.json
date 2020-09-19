@@ -27,6 +27,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Iran",
+    "calling_codes": [
+        "+98"
+    ],
     "capital": [
         "Tehran"
     ],
@@ -43,6 +46,16 @@
         "natural"
     ],
     "demonym": "Iranian",
+    "demonyms": {
+        "eng": {
+            "f": "Iranian",
+            "m": "Iranian"
+        },
+        "fra": {
+            "f": "Iranienne",
+            "m": "Iranien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "98"
@@ -160,7 +173,7 @@
     "name": {
         "common": "Iran",
         "native": {
-            "per": {
+            "fas": {
                 "common": "\u0627\u06cc\u0631\u0627\u0646",
                 "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0633\u0644\u0627\u0645\u06cc \u0627\u06cc\u0631\u0627\u0646"
             }
@@ -188,16 +201,6 @@
     "name_nl": "Iran",
     "name_pl": "Iran",
     "name_pt": "Ir\u00c3\u00a3o",
-    "name_rinvex": {
-        "common": "Iran",
-        "native": {
-            "fas": {
-                "common": "\u0627\u06cc\u0631\u0627\u0646",
-                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0633\u0644\u0627\u0645\u06cc \u0627\u06cc\u0631\u0627\u0646"
-            }
-        },
-        "official": "Islamic Republic of Iran"
-    },
     "name_ru": "\u00d0\u0098\u00d1\u0080\u00d0\u00b0\u00d0\u00bd",
     "name_sort": "Iran, Islamic Rep.",
     "name_sv": "Iran",
@@ -249,6 +252,10 @@
             "common": "Iran",
             "official": "Islamska Republika Iran"
         },
+        "hun": {
+            "common": "Ir\u00e1n",
+            "official": "Ir\u00e1ni Iszl\u00e1m K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Iran",
             "official": "Repubblica islamica dell'Iran"
@@ -285,6 +292,10 @@
             "common": "Iran",
             "official": "Rep\u00fablica Isl\u00e1mica de Ir\u00e1n"
         },
+        "swe": {
+            "common": "Iran",
+            "official": "Islamiska republiken Iran"
+        },
         "urd": {
             "common": "\u0627\u06cc\u0631\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u06cc\u0631\u0627\u0646"
@@ -296,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "364",
+    "un_member": true,
     "wb_a2": "IR",
     "wb_a3": "IRN",
     "wikidataid": "Q794",

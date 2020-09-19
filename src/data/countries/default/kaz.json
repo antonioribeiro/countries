@@ -29,8 +29,12 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Kazakhstan",
+    "calling_codes": [
+        "+76XX",
+        "+77XX"
+    ],
     "capital": [
-        "Astana"
+        "Nur-Sultan"
     ],
     "capital_rinvex": "Astana",
     "cca2": "KZ",
@@ -45,6 +49,16 @@
         "natural"
     ],
     "demonym": "Kazakhstani",
+    "demonyms": {
+        "eng": {
+            "f": "Kazakhstani",
+            "m": "Kazakhstani"
+        },
+        "fra": {
+            "f": "Kazakhstanaise",
+            "m": "Kazakhstanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "76",
@@ -246,6 +260,10 @@
             "common": "Kazahstan",
             "official": "Republika Kazahstan"
         },
+        "hun": {
+            "common": "Kazahszt\u00e1n",
+            "official": "Kazah K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Kazakistan",
             "official": "Repubblica del Kazakhstan"
@@ -286,6 +304,10 @@
             "common": "Kazajist\u00e1n",
             "official": "Rep\u00fablica de Kazajst\u00e1n"
         },
+        "swe": {
+            "common": "Kazakstan",
+            "official": "Republiken Kazakstan"
+        },
         "urd": {
             "common": "\u0642\u0627\u0632\u0642\u0633\u062a\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0642\u0627\u0632\u0642\u0633\u062a\u0627\u0646"
@@ -297,6 +319,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "398",
+    "un_member": true,
     "wb_a2": "KZ",
     "wb_a3": "KAZ",
     "wikidataid": "Q232",

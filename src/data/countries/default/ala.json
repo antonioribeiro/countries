@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "\u00c3\u0085land",
+    "calling_codes": [
+        "+35818"
+    ],
     "capital": [
         "Mariehamn"
     ],
@@ -47,6 +50,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "\u00c3\u0085land",
+        "calling_codes": [
+            "+35818"
+        ],
         "capital": [
             "Mariehamn"
         ],
@@ -63,7 +69,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "\u00c5landish",
+        "demonyms": {
+            "eng": {
+                "f": "\u00c5landish",
+                "m": "\u00c5landish"
+            },
+            "fra": {
+                "f": "\u00c5landaise",
+                "m": "\u00c5landais"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -198,6 +213,10 @@
                 "common": "\u00c5landski otoci",
                 "official": "Aland Islands"
             },
+            "hun": {
+                "common": "\u00c5land-szigetek",
+                "official": "\u00c5land-szigetek"
+            },
             "ita": {
                 "common": "Isole Aland",
                 "official": "Isole \u00c5land"
@@ -238,6 +257,10 @@
                 "common": "Alandia",
                 "official": "Islas \u00c5land"
             },
+            "swe": {
+                "common": "\u00c5land",
+                "official": "\u00c5land"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
                 "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
@@ -249,6 +272,7 @@
         },
         "type": "Country",
         "un_a3": "248",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q5689",
@@ -265,6 +289,16 @@
         "natural"
     ],
     "demonym": "\u00c5landish",
+    "demonyms": {
+        "eng": {
+            "f": "\u00c5landish",
+            "m": "\u00c5landish"
+        },
+        "fra": {
+            "f": "\u00c5landaise",
+            "m": "\u00c5landais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "358"
@@ -366,6 +400,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "\u00c3\u0085land",
+        "calling_codes": [
+            "+35818"
+        ],
         "capital": [
             "Mariehamn"
         ],
@@ -382,7 +419,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "\u00c5landish",
+        "demonyms": {
+            "eng": {
+                "f": "\u00c5landish",
+                "m": "\u00c5landish"
+            },
+            "fra": {
+                "f": "\u00c5landaise",
+                "m": "\u00c5landais"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -517,6 +563,10 @@
                 "common": "\u00c5landski otoci",
                 "official": "Aland Islands"
             },
+            "hun": {
+                "common": "\u00c5land-szigetek",
+                "official": "\u00c5land-szigetek"
+            },
             "ita": {
                 "common": "Isole Aland",
                 "official": "Isole \u00c5land"
@@ -557,6 +607,10 @@
                 "common": "Alandia",
                 "official": "Islas \u00c5land"
             },
+            "swe": {
+                "common": "\u00c5land",
+                "official": "\u00c5land"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
                 "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
@@ -568,6 +622,7 @@
         },
         "type": "Country",
         "un_a3": "248",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q5689",
@@ -678,6 +733,10 @@
             "common": "\u00c5landski otoci",
             "official": "Aland Islands"
         },
+        "hun": {
+            "common": "\u00c5land-szigetek",
+            "official": "\u00c5land-szigetek"
+        },
         "ita": {
             "common": "Isole Aland",
             "official": "Isole \u00c5land"
@@ -718,6 +777,10 @@
             "common": "Alandia",
             "official": "Islas \u00c5land"
         },
+        "swe": {
+            "common": "\u00c5land",
+            "official": "\u00c5land"
+        },
         "urd": {
             "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
             "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
@@ -729,6 +792,258 @@
     },
     "type": "Country",
     "un_a3": "248",
+    "un_member": {
+        "abbrev": "\u00c3\u0085land",
+        "abbrev_len": "5",
+        "adm0_a3": "ALD",
+        "adm0_a3_is": "ALA",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "ALD",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Aland",
+        "alt_spellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+        "borders": [],
+        "brk_a3": "ALD",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "\u00c3\u0085land",
+        "calling_codes": [
+            "+35818"
+        ],
+        "capital": [
+            "Mariehamn"
+        ],
+        "cca2": "AX",
+        "cca3": "ALA",
+        "ccn3": "248",
+        "cioc": null,
+        "currencies": {
+            "e_u_r": {
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "\u00c5landish",
+                "m": "\u00c5landish"
+            },
+            "fra": {
+                "f": "\u00c5landaise",
+                "m": "\u00c5landais"
+            }
+        },
+        "economy": "2. Developed region: nonG7",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "-99",
+        "flag": {
+            "emoji": "\ud83c\udde6\ud83c\uddfd"
+        },
+        "formal_en": "\u00c3\u0085land Islands",
+        "formal_fr": "",
+        "gdp_md_est": "1563.00",
+        "gdp_year": "2016",
+        "geo": {
+            "area": 1580,
+            "continent": "Europe",
+            "landlocked": null,
+            "latlng": [
+                60.116667,
+                19.9
+            ],
+            "region": "Europe",
+            "region_un": "Europe",
+            "region_wb": "Europe & Central Asia",
+            "subregion": "Northern Europe"
+        },
+        "geou_dif": "0",
+        "geounit": "Aland",
+        "gu_a3": "ALD",
+        "homepart": "-99",
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
+        "income_grp": "1. High income: OECD",
+        "independent": null,
+        "iso_a2": "AX",
+        "iso_a3": "ALA",
+        "iso_a3_eh": "ALA",
+        "iso_n3": "248",
+        "labelrank": "6",
+        "languages": {
+            "swe": "Swedish"
+        },
+        "lastcensus": "-99",
+        "level": "2",
+        "long_len": "13",
+        "mapcolor7": "4",
+        "mapcolor8": "1",
+        "mapcolor9": "4",
+        "mapcolor13": "6",
+        "max_label": "10.0",
+        "min_label": "5.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "\u00c5land Islands",
+            "native": {
+                "swe": {
+                    "common": "\u00c5land",
+                    "official": "Landskapet \u00c5land"
+                }
+            },
+            "official": "\u00c5land Islands"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00ac\u00d8\u00b2\u00d8\u00b1 \u00d8\u00a3\u00d9\u0088\u00d9\u0084\u00d8\u00a7\u00d9\u0086\u00d8\u00af",
+        "name_bn": "\u00e0\u00a6\u0085\u00e0\u00a6\u00b2\u00e0\u00a6\u00be\u00e0\u00a6\u00a8\u00e0\u00a7\u008d\u00e0\u00a6\u00a6 \u00e0\u00a6\u00a6\u00e0\u00a7\u008d\u00e0\u00a6\u00ac\u00e0\u00a7\u0080\u00e0\u00a6\u00aa\u00e0\u00a6\u00aa\u00e0\u00a7\u0081\u00e0\u00a6\u009e\u00e0\u00a7\u008d\u00e0\u00a6\u009c",
+        "name_ciawf": "",
+        "name_de": "\u00c3\u0085land",
+        "name_el": "\u00ce\u008f\u00ce\u00bb\u00ce\u00b1\u00ce\u00bd\u00cf\u0084",
+        "name_en": "\u00c3\u0085land Islands",
+        "name_es": "\u00c3\u0085land",
+        "name_fr": "\u00c3\u0085land",
+        "name_hi": "\u00e0\u00a4\u0091\u00e0\u00a4\u00b2\u00e0\u00a5\u0088\u00e0\u00a4\u00a3\u00e0\u00a5\u008d\u00e0\u00a4\u00a1 \u00e0\u00a4\u00a6\u00e0\u00a5\u008d\u00e0\u00a4\u00b5\u00e0\u00a5\u0080\u00e0\u00a4\u00aa\u00e0\u00a4\u00b8\u00e0\u00a4\u00ae\u00e0\u00a5\u0082\u00e0\u00a4\u00b9",
+        "name_hu": "\u00c3\u0085land",
+        "name_id": "\u00c3\u0085land",
+        "name_it": "Isole \u00c3\u0085land",
+        "name_ja": "\u00e3\u0082\u00aa\u00e3\u0083\u00bc\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ko": "\u00ec\u0098\u00ac\u00eb\u009e\u0080\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
+        "name_len": "5",
+        "name_long": "\u00c3\u0085land Islands",
+        "name_nev": "\u00c3\u0085land",
+        "name_nl": "\u00c3\u0085land",
+        "name_pl": "Wyspy Alandzkie",
+        "name_pt": "\u00c3\u0085land",
+        "name_ru": "\u00d0\u0090\u00d0\u00bb\u00d0\u00b0\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+        "name_sort": "Aland",
+        "name_sv": "\u00c3\u0085land",
+        "name_tr": "\u00c3\u0085land",
+        "name_vi": "\u00c3\u0085land",
+        "name_zh": "\u00e5\u00a5\u00a5\u00e5\u0085\u00b0\u00e7\u00be\u00a4\u00e5\u00b2\u009b",
+        "ne_id": "1159320621",
+        "note_adm0": "Fin.",
+        "note_brk": "",
+        "pop_est": "27153",
+        "pop_rank": "7",
+        "pop_year": "2017",
+        "postal": "AI",
+        "record_type": "country",
+        "scalerank": "6",
+        "sov_a3": "FI1",
+        "sovereignt": "Finland",
+        "status": "officially-assigned",
+        "su_a3": "ALD",
+        "su_dif": "0",
+        "subunit": "Aland",
+        "tiny": "5",
+        "tld": [
+            ".ax"
+        ],
+        "translations": {
+            "ces": {
+                "common": "\u00c5landy",
+                "official": "\u00c5landsk\u00e9 ostrovy"
+            },
+            "deu": {
+                "common": "\u00c5land",
+                "official": "\u00c5land-Inseln"
+            },
+            "est": {
+                "common": "Ahvenamaa",
+                "official": "Ahvenamaa maakond"
+            },
+            "fin": {
+                "common": "Ahvenanmaa",
+                "official": "Ahvenanmaan maakunta"
+            },
+            "fra": {
+                "common": "Ahvenanmaa",
+                "official": "Ahvenanmaa"
+            },
+            "hrv": {
+                "common": "\u00c5landski otoci",
+                "official": "Aland Islands"
+            },
+            "hun": {
+                "common": "\u00c5land-szigetek",
+                "official": "\u00c5land-szigetek"
+            },
+            "ita": {
+                "common": "Isole Aland",
+                "official": "Isole \u00c5land"
+            },
+            "jpn": {
+                "common": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6",
+                "official": "\u30aa\u30fc\u30e9\u30f3\u30c9\u8af8\u5cf6"
+            },
+            "kor": {
+                "common": "\uc62c\ub780\ub4dc \uc81c\ub3c4",
+                "official": "\uc62c\ub780\ub4dc \uc81c\ub3c4"
+            },
+            "nld": {
+                "common": "\u00c5landeilanden",
+                "official": "\u00c5land eilanden"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0627\u0644\u0646\u062f"
+            },
+            "pol": {
+                "common": "Wyspy Alandzkie",
+                "official": "Wyspy Alandzkie"
+            },
+            "por": {
+                "common": "Al\u00e2ndia",
+                "official": "Ilhas \u00c5land"
+            },
+            "rus": {
+                "common": "\u0410\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "official": "\u0410\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "common": "Alandy",
+                "official": "Alandsk\u00e9 ostrovy"
+            },
+            "spa": {
+                "common": "Alandia",
+                "official": "Islas \u00c5land"
+            },
+            "swe": {
+                "common": "\u00c5land",
+                "official": "\u00c5land"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0627\u0648\u0644\u0646\u062f"
+            },
+            "zho": {
+                "common": "\u5965\u5170\u7fa4\u5c9b",
+                "official": "\u5965\u5170\u7fa4\u5c9b"
+            }
+        },
+        "type": "Country",
+        "un_a3": "248",
+        "un_member": null,
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikidataid": "Q5689",
+        "wikipedia": "-99",
+        "woe_id": "12577865",
+        "woe_id_eh": "12577865",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "-99",
     "wb_a3": "-99",
     "wikidataid": "Q5689",

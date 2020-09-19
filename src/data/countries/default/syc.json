@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Seychelles",
+    "calling_codes": [
+        "+248"
+    ],
     "capital": [
         "Victoria"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Seychellois",
+    "demonyms": {
+        "eng": {
+            "f": "Seychellois",
+            "m": "Seychellois"
+        },
+        "fra": {
+            "f": "Seychelloise",
+            "m": "Seychellois"
+        }
+    },
     "dialling": {
         "calling_code": [
             "248"
@@ -232,6 +245,10 @@
             "common": "Sej\u0161eli",
             "official": "Republika Sej\u0161eli"
         },
+        "hun": {
+            "common": "Seychelle-szigetek",
+            "official": "Seychelle K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Seychelles",
             "official": "Repubblica delle Seychelles"
@@ -272,6 +289,10 @@
             "common": "Seychelles",
             "official": "Rep\u00fablica de las Seychelles"
         },
+        "swe": {
+            "common": "Seychellerna",
+            "official": "Republiken Seychellerna"
+        },
         "urd": {
             "common": "\u0633\u06cc\u0686\u06cc\u0644\u06cc\u0633",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u06cc\u0686\u06cc\u0644\u06cc\u0633"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "690",
+    "un_member": true,
     "wb_a2": "SC",
     "wb_a3": "SYC",
     "wikidataid": "Q1042",

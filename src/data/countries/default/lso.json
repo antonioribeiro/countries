@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Lesotho",
+    "calling_codes": [
+        "+266"
+    ],
     "capital": [
         "Maseru"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Mosotho",
+    "demonyms": {
+        "eng": {
+            "f": "Mosotho",
+            "m": "Mosotho"
+        },
+        "fra": {
+            "f": "L\u00e9sothienne",
+            "m": "L\u00e9sothien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "266"
@@ -231,6 +244,10 @@
             "common": "Lesoto",
             "official": "Kraljevina Lesoto"
         },
+        "hun": {
+            "common": "Lesotho",
+            "official": "Lesoth\u00f3i Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Lesotho",
             "official": "Regno del Lesotho"
@@ -271,6 +288,10 @@
             "common": "Lesotho",
             "official": "Reino de Lesotho"
         },
+        "swe": {
+            "common": "Lesotho",
+            "official": "Konungariket Lesotho"
+        },
         "urd": {
             "common": "\u0644\u06cc\u0633\u0648\u062a\u06be\u0648",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0644\u06cc\u0633\u0648\u062a\u06be\u0648"
@@ -282,6 +303,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "426",
+    "un_member": true,
     "wb_a2": "LS",
     "wb_a3": "LSO",
     "wikidataid": "Q1013",

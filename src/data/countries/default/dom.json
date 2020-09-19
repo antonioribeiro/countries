@@ -18,6 +18,11 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Dominican Rep.",
+    "calling_codes": [
+        "+1809",
+        "+1829",
+        "+1849"
+    ],
     "capital": [
         "Santo Domingo"
     ],
@@ -34,6 +39,16 @@
         "natural"
     ],
     "demonym": "Dominican",
+    "demonyms": {
+        "eng": {
+            "f": "Dominican",
+            "m": "Dominican"
+        },
+        "fra": {
+            "f": "Dominicaine",
+            "m": "Dominicain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1809",
@@ -231,6 +246,10 @@
             "common": "Dominikanska Republika",
             "official": "Dominikanska Republika"
         },
+        "hun": {
+            "common": "Dominikai K\u00f6zt\u00e1rsas\u00e1g",
+            "official": "Dominikai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Repubblica Dominicana",
             "official": "Repubblica Dominicana"
@@ -271,6 +290,10 @@
             "common": "Rep\u00fablica Dominicana",
             "official": "Rep\u00fablica Dominicana"
         },
+        "swe": {
+            "common": "Dominikanska republiken",
+            "official": "Dominikanska republiken"
+        },
         "urd": {
             "common": "\u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0688\u0648\u0645\u06cc\u0646\u06cc\u06a9\u0646"
@@ -282,6 +305,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "214",
+    "un_member": true,
     "wb_a2": "DO",
     "wb_a3": "DOM",
     "wikidataid": "Q786",

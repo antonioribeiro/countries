@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Qatar",
+    "calling_codes": [
+        "+974"
+    ],
     "capital": [
         "Doha"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Qatari",
+    "demonyms": {
+        "eng": {
+            "f": "Qatari",
+            "m": "Qatari"
+        },
+        "fra": {
+            "f": "Qatarienne",
+            "m": "Qatarien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "974"
@@ -226,6 +239,10 @@
             "common": "Katar",
             "official": "Dr\u017eava Katar"
         },
+        "hun": {
+            "common": "Katar",
+            "official": "Katari \u00c1llam"
+        },
         "ita": {
             "common": "Qatar",
             "official": "Stato del Qatar"
@@ -266,6 +283,10 @@
             "common": "Catar",
             "official": "Estado de Qatar"
         },
+        "swe": {
+            "common": "Qatar",
+            "official": "Staten Qatar"
+        },
         "urd": {
             "common": "\u0642\u0637\u0631",
             "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0642\u0637\u0631"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "634",
+    "un_member": true,
     "wb_a2": "QA",
     "wb_a3": "QAT",
     "wikidataid": "Q846",

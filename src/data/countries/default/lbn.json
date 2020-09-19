@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Lebanon",
+    "calling_codes": [
+        "+961"
+    ],
     "capital": [
         "Beirut"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Lebanese",
+    "demonyms": {
+        "eng": {
+            "f": "Lebanese",
+            "m": "Lebanese"
+        },
+        "fra": {
+            "f": "Libanaise",
+            "m": "Libanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "961"
@@ -66,7 +79,7 @@
         "gaul": 141,
         "geonameid": 272103,
         "imf": 446,
-        "ioc": "LIB",
+        "ioc": "LBN",
         "itu": "LBN",
         "marc": "le",
         "vat_rates": null,
@@ -232,6 +245,10 @@
             "common": "Libanon",
             "official": "Libanonska Republika"
         },
+        "hun": {
+            "common": "Libanon",
+            "official": "Libanoni K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Libano",
             "official": "Repubblica libanese"
@@ -272,6 +289,10 @@
             "common": "L\u00edbano",
             "official": "Rep\u00fablica Libanesa"
         },
+        "swe": {
+            "common": "Libanon",
+            "official": "Republiken Libanon"
+        },
         "urd": {
             "common": "\u0644\u0628\u0646\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0644\u0628\u0646\u0627\u0646"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "422",
+    "un_member": true,
     "wb_a2": "LB",
     "wb_a3": "LBN",
     "wikidataid": "Q822",

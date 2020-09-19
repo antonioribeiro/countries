@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cuba",
+    "calling_codes": [
+        "+53"
+    ],
     "capital": [
         "Havana"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Cuban",
+    "demonyms": {
+        "eng": {
+            "f": "Cuban",
+            "m": "Cuban"
+        },
+        "fra": {
+            "f": "Cubaine",
+            "m": "Cubain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "53"
@@ -226,6 +239,10 @@
             "common": "Kuba",
             "official": "Republika Kuba"
         },
+        "hun": {
+            "common": "Kuba",
+            "official": "Kubai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Cuba",
             "official": "Repubblica di Cuba"
@@ -266,6 +283,10 @@
             "common": "Cuba",
             "official": "Rep\u00fablica de Cuba"
         },
+        "swe": {
+            "common": "Kuba",
+            "official": "Republiken Kuba"
+        },
         "urd": {
             "common": "\u06a9\u06cc\u0648\u0628\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u06cc\u0648\u0628\u0627"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "192",
+    "un_member": true,
     "wb_a2": "CU",
     "wb_a3": "CUB",
     "wikidataid": "Q241",

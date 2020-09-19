@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bahrain",
+    "calling_codes": [
+        "+973"
+    ],
     "capital": [
         "Manama"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Bahraini",
+    "demonyms": {
+        "eng": {
+            "f": "Bahraini",
+            "m": "Bahraini"
+        },
+        "fra": {
+            "f": "Bahre\u00efnienne",
+            "m": "Bahre\u00efnien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "973"
@@ -225,6 +238,10 @@
             "common": "Bahrein",
             "official": "Kraljevina Bahrein"
         },
+        "hun": {
+            "common": "Bahrein",
+            "official": "Bahreini Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Bahrein",
             "official": "Regno del Bahrain"
@@ -265,6 +282,10 @@
             "common": "Bahrein",
             "official": "Reino de Bahrein"
         },
+        "swe": {
+            "common": "Bahrain",
+            "official": "Konungariket Bahrain"
+        },
         "urd": {
             "common": "\u0628\u062d\u0631\u06cc\u0646",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0628\u062d\u0631\u06cc\u0646"
@@ -276,6 +297,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "048",
+    "un_member": true,
     "wb_a2": "BH",
     "wb_a3": "BHR",
     "wikidataid": "Q398",

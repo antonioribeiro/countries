@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Andorra",
+    "calling_codes": [
+        "+376"
+    ],
     "capital": [
         "Andorra la Vella"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Andorran",
+    "demonyms": {
+        "eng": {
+            "f": "Andorran",
+            "m": "Andorran"
+        },
+        "fra": {
+            "f": "Andorrane",
+            "m": "Andorran"
+        }
+    },
     "dialling": {
         "calling_code": [
             "376"
@@ -234,6 +247,10 @@
             "common": "Andora",
             "official": "Kne\u017eevina Andora"
         },
+        "hun": {
+            "common": "Andorra",
+            "official": "Andorra"
+        },
         "ita": {
             "common": "Andorra",
             "official": "Principato di Andorra"
@@ -274,6 +291,10 @@
             "common": "Andorra",
             "official": "Principado de Andorra"
         },
+        "swe": {
+            "common": "Andorra",
+            "official": "Furstend\u00f6met Andorra"
+        },
         "urd": {
             "common": "\u0627\u0646\u0688\u0648\u0631\u0627",
             "official": "\u0627\u0645\u0627\u0631\u0627\u062a\u0650 \u0627\u0646\u0688\u0648\u0631\u0627"
@@ -285,6 +306,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "020",
+    "un_member": true,
     "wb_a2": "AD",
     "wb_a3": "ADO",
     "wikidataid": "Q228",

@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Morocco",
+    "calling_codes": [
+        "+212"
+    ],
     "capital": [
         "Rabat"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Moroccan",
+    "demonyms": {
+        "eng": {
+            "f": "Moroccan",
+            "m": "Moroccan"
+        },
+        "fra": {
+            "f": "Marocaine",
+            "m": "Marocain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "212"
@@ -235,6 +248,10 @@
             "common": "Maroko",
             "official": "Kraljevina Maroko"
         },
+        "hun": {
+            "common": "Marokk\u00f3",
+            "official": "Marokk\u00f3i Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Marocco",
             "official": "Regno del Marocco"
@@ -275,6 +292,10 @@
             "common": "Marruecos",
             "official": "Reino de Marruecos"
         },
+        "swe": {
+            "common": "Marocko",
+            "official": "Konungariket Marocko"
+        },
         "urd": {
             "common": "\u0645\u0631\u0627\u06a9\u0634",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0645\u0631\u0627\u06a9\u0634"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "504",
+    "un_member": true,
     "wb_a2": "MA",
     "wb_a3": "MAR",
     "wikidataid": "Q1028",

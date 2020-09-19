@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Singapore",
+    "calling_codes": [
+        "+65"
+    ],
     "capital": [
         "Singapore"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Singaporean",
+    "demonyms": {
+        "eng": {
+            "f": "Singaporean",
+            "m": "Singaporean"
+        },
+        "fra": {
+            "f": "Singapourienne",
+            "m": "Singapourien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "65"
@@ -65,7 +78,7 @@
         "gaul": 222,
         "geonameid": 1880251,
         "imf": 576,
-        "ioc": "SIN",
+        "ioc": "SGP",
         "itu": "SNG",
         "marc": "si",
         "vat_rates": null,
@@ -262,6 +275,10 @@
             "common": "Singapur",
             "official": "Republika Singapur"
         },
+        "hun": {
+            "common": "Szingap\u00far",
+            "official": "Szingap\u00fari K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Singapore",
             "official": "Repubblica di Singapore"
@@ -302,6 +319,10 @@
             "common": "Singapur",
             "official": "Rep\u00fablica de Singapur"
         },
+        "swe": {
+            "common": "Singapore",
+            "official": "Republiken Singapore"
+        },
         "urd": {
             "common": "\u0633\u0646\u06af\u0627\u067e\u0648\u0631",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0646\u06af\u0627\u067e\u0648\u0631"
@@ -309,6 +330,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "702",
+    "un_member": true,
     "wb_a2": "SG",
     "wb_a3": "SGP",
     "wikidataid": "Q334",

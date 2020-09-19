@@ -18,6 +18,9 @@
     "brk_diff": "1",
     "brk_group": "",
     "brk_name": "Falkland Is.",
+    "calling_codes": [
+        "+500"
+    ],
     "capital": [
         "Stanley"
     ],
@@ -45,6 +48,9 @@
         "brk_diff": "1",
         "brk_group": "",
         "brk_name": "Falkland Is.",
+        "calling_codes": [
+            "+500"
+        ],
         "capital": [
             "Stanley"
         ],
@@ -61,7 +67,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Falkland Islander",
+        "demonyms": {
+            "eng": {
+                "f": "Falkland Islander",
+                "m": "Falkland Islander"
+            },
+            "fra": {
+                "f": "Malouinne",
+                "m": "Malouin"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "FK",
@@ -196,6 +211,10 @@
                 "common": "Falklandski Otoci",
                 "official": "Falklandski otoci"
             },
+            "hun": {
+                "common": "Falkland-szigetek",
+                "official": "Falkland-szigetek"
+            },
             "ita": {
                 "common": "Isole Falkland o Isole Malvine",
                 "official": "Isole Falkland"
@@ -236,6 +255,10 @@
                 "common": "Islas Malvinas",
                 "official": "islas Malvinas"
             },
+            "swe": {
+                "common": "Falklands\u00f6arna",
+                "official": "Falklands\u00f6arna"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688",
                 "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688"
@@ -247,6 +270,7 @@
         },
         "type": "Dependency",
         "un_a3": "238",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q9648",
@@ -263,6 +287,16 @@
         "natural"
     ],
     "demonym": "Falkland Islander",
+    "demonyms": {
+        "eng": {
+            "f": "Falkland Islander",
+            "m": "Falkland Islander"
+        },
+        "fra": {
+            "f": "Malouinne",
+            "m": "Malouin"
+        }
+    },
     "dialling": {
         "calling_code": [
             "500"
@@ -367,6 +401,9 @@
         "brk_diff": "1",
         "brk_group": "",
         "brk_name": "Falkland Is.",
+        "calling_codes": [
+            "+500"
+        ],
         "capital": [
             "Stanley"
         ],
@@ -383,7 +420,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Falkland Islander",
+        "demonyms": {
+            "eng": {
+                "f": "Falkland Islander",
+                "m": "Falkland Islander"
+            },
+            "fra": {
+                "f": "Malouinne",
+                "m": "Malouin"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "FK",
@@ -518,6 +564,10 @@
                 "common": "Falklandski Otoci",
                 "official": "Falklandski otoci"
             },
+            "hun": {
+                "common": "Falkland-szigetek",
+                "official": "Falkland-szigetek"
+            },
             "ita": {
                 "common": "Isole Falkland o Isole Malvine",
                 "official": "Isole Falkland"
@@ -558,6 +608,10 @@
                 "common": "Islas Malvinas",
                 "official": "islas Malvinas"
             },
+            "swe": {
+                "common": "Falklands\u00f6arna",
+                "official": "Falklands\u00f6arna"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688",
                 "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688"
@@ -569,6 +623,7 @@
         },
         "type": "Dependency",
         "un_a3": "238",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q9648",
@@ -679,6 +734,10 @@
             "common": "Falklandski Otoci",
             "official": "Falklandski otoci"
         },
+        "hun": {
+            "common": "Falkland-szigetek",
+            "official": "Falkland-szigetek"
+        },
         "ita": {
             "common": "Isole Falkland o Isole Malvine",
             "official": "Isole Falkland"
@@ -719,6 +778,10 @@
             "common": "Islas Malvinas",
             "official": "islas Malvinas"
         },
+        "swe": {
+            "common": "Falklands\u00f6arna",
+            "official": "Falklands\u00f6arna"
+        },
         "urd": {
             "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688",
             "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688"
@@ -730,6 +793,257 @@
     },
     "type": "Dependency",
     "un_a3": "238",
+    "un_member": {
+        "abbrev": "Flk. Is.",
+        "abbrev_len": "8",
+        "adm0_a3": "FLK",
+        "adm0_a3_is": "FLK",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "FLK",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Falkland Islands",
+        "alt_spellings": [
+            "FK",
+            "Islas Malvinas",
+            "Falkland Islands (Malvinas)"
+        ],
+        "borders": [],
+        "brk_a3": "B12",
+        "brk_diff": "1",
+        "brk_group": "",
+        "brk_name": "Falkland Is.",
+        "calling_codes": [
+            "+500"
+        ],
+        "capital": [
+            "Stanley"
+        ],
+        "cca2": "FK",
+        "cca3": "FLK",
+        "ccn3": "238",
+        "cioc": null,
+        "currencies": {
+            "f_k_p": {
+                "name": "Falkland Islands pound",
+                "symbol": "\u00a3"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Falkland Islander",
+                "m": "Falkland Islander"
+            },
+            "fra": {
+                "f": "Malouinne",
+                "m": "Malouin"
+            }
+        },
+        "economy": "2. Developed region: nonG7",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "FK",
+        "flag": {
+            "emoji": "\ud83c\uddeb\ud83c\uddf0"
+        },
+        "formal_en": "Falkland Islands",
+        "formal_fr": "",
+        "gdp_md_est": "281.80",
+        "gdp_year": "2012",
+        "geo": {
+            "area": 12173,
+            "continent": "South America",
+            "landlocked": null,
+            "latlng": [
+                -51.75,
+                -59
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "South America"
+        },
+        "geou_dif": "0",
+        "geounit": "Falkland Islands",
+        "gu_a3": "FLK",
+        "homepart": "-99",
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "00"
+            ]
+        },
+        "income_grp": "1. High income: OECD",
+        "independent": null,
+        "iso_a2": "FK",
+        "iso_a3": "FLK",
+        "iso_a3_eh": "FLK",
+        "iso_n3": "238",
+        "labelrank": "5",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99",
+        "level": "2",
+        "long_len": "16",
+        "mapcolor7": "6",
+        "mapcolor8": "6",
+        "mapcolor9": "6",
+        "mapcolor13": "3",
+        "max_label": "9.0",
+        "min_label": "4.5",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Falkland Islands",
+            "native": {
+                "eng": {
+                    "common": "Falkland Islands",
+                    "official": "Falkland Islands"
+                }
+            },
+            "official": "Falkland Islands"
+        },
+        "name_alt": "Islas Malvinas",
+        "name_ar": "\u00d8\u00ac\u00d8\u00b2\u00d8\u00b1 \u00d9\u0081\u00d9\u0088\u00d9\u0083\u00d9\u0084\u00d8\u00a7\u00d9\u0086\u00d8\u00af",
+        "name_bn": "\u00e0\u00a6\u00ab\u00e0\u00a6\u0095\u00e0\u00a7\u008d\u00e2\u0080\u008c\u00e0\u00a6\u00b2\u00e0\u00a7\u008d\u00e0\u00a6\u00af\u00e0\u00a6\u00be\u00e0\u00a6\u00a8\u00e0\u00a7\u008d\u00e0\u00a6\u00a1 \u00e0\u00a6\u00a6\u00e0\u00a7\u008d\u00e0\u00a6\u00ac\u00e0\u00a7\u0080\u00e0\u00a6\u00aa\u00e0\u00a6\u00aa\u00e0\u00a7\u0081\u00e0\u00a6\u009e\u00e0\u00a7\u008d\u00e0\u00a6\u009c",
+        "name_ciawf": "Falkland Islands (Islas Malvinas)",
+        "name_de": "Falklandinseln",
+        "name_el": "\u00ce\u009d\u00ce\u00ae\u00cf\u0083\u00ce\u00bf\u00ce\u00b9 \u00ce\u00a6\u00cf\u008e\u00ce\u00ba\u00ce\u00bb\u00ce\u00b1\u00ce\u00bd\u00cf\u0084",
+        "name_en": "Falkland Islands",
+        "name_es": "Islas Malvinas",
+        "name_fr": "\u00c3\u00aeles Malouines",
+        "name_hi": "\u00e0\u00a4\u00ab\u00e0\u00a4\u00bc\u00e0\u00a5\u0089\u00e0\u00a4\u0095\u00e0\u00a4\u00b2\u00e0\u00a5\u0088\u00e0\u00a4\u0082\u00e0\u00a4\u00a1 \u00e0\u00a4\u00a6\u00e0\u00a5\u008d\u00e0\u00a4\u00b5\u00e0\u00a5\u0080\u00e0\u00a4\u00aa\u00e0\u00a4\u00b8\u00e0\u00a4\u00ae\u00e0\u00a5\u0082\u00e0\u00a4\u00b9",
+        "name_hu": "Falkland-szigetek",
+        "name_id": "Kepulauan Falkland",
+        "name_it": "Isole Falkland",
+        "name_ja": "\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e3\u0083\u00a9\u00e3\u0083\u00b3\u00e3\u0083\u0089\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ko": "\u00ed\u008f\u00ac\u00ed\u0081\u00b4\u00eb\u009e\u009c\u00eb\u0093\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
+        "name_len": "12",
+        "name_long": "Falkland Islands",
+        "name_nev": "Falkland Is.",
+        "name_nl": "Falklandeilanden",
+        "name_pl": "Falklandy",
+        "name_pt": "Ilhas Malvinas",
+        "name_ru": "\u00d0\u00a4\u00d0\u00be\u00d0\u00bb\u00d0\u00ba\u00d0\u00bb\u00d0\u00b5\u00d0\u00bd\u00d0\u00b4\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+        "name_sort": "Falkland Islands",
+        "name_sv": "Falklands\u00c3\u00b6arna",
+        "name_tr": "Falkland Adalar\u00c4\u00b1",
+        "name_vi": "Qu\u00e1\u00ba\u00a7n \u00c4\u0091\u00e1\u00ba\u00a3o Falkland",
+        "name_zh": "\u00e7\u00a6\u008f\u00e5\u0085\u008b\u00e5\u0085\u00b0\u00e7\u00be\u00a4\u00e5\u00b2\u009b",
+        "ne_id": "1159320711",
+        "note_adm0": "U.K.",
+        "note_brk": "Admin. by U.K.; Claimed by Argentina",
+        "pop_est": "2931",
+        "pop_rank": "4",
+        "pop_year": "2014",
+        "postal": "FK",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "FLK",
+        "su_dif": "0",
+        "subunit": "Falkland Islands",
+        "tiny": "-99",
+        "tld": [
+            ".fk"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Falklandy",
+                "official": "Falklandsk\u00e9 ostrovy"
+            },
+            "deu": {
+                "common": "Falklandinseln",
+                "official": "Falklandinseln"
+            },
+            "est": {
+                "common": "Falklandi saared",
+                "official": "Falklandi saared"
+            },
+            "fin": {
+                "common": "Falkandinsaaret",
+                "official": "Falkandinsaaret"
+            },
+            "fra": {
+                "common": "\u00celes Malouines",
+                "official": "\u00celes Malouines"
+            },
+            "hrv": {
+                "common": "Falklandski Otoci",
+                "official": "Falklandski otoci"
+            },
+            "hun": {
+                "common": "Falkland-szigetek",
+                "official": "Falkland-szigetek"
+            },
+            "ita": {
+                "common": "Isole Falkland o Isole Malvine",
+                "official": "Isole Falkland"
+            },
+            "jpn": {
+                "common": "\u30d5\u30a9\u30fc\u30af\u30e9\u30f3\u30c9\uff08\u30de\u30eb\u30d3\u30ca\u30b9\uff09\u8af8\u5cf6",
+                "official": "\u30d5\u30a9\u30fc\u30af\u30e9\u30f3\u30c9"
+            },
+            "kor": {
+                "common": "\ud3ec\ud074\ub79c\ub4dc \uc81c\ub3c4",
+                "official": "\ud3ec\ud074\ub79c\ub4dc \uc81c\ub3c4"
+            },
+            "nld": {
+                "common": "Falklandeilanden",
+                "official": "Falkland eilanden"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0641\u0627\u0644\u06a9\u0644\u0646\u062f",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0641\u0627\u0644\u06a9\u0644\u0646\u062f"
+            },
+            "pol": {
+                "common": "Falklandy",
+                "official": "Falklandy"
+            },
+            "por": {
+                "common": "Ilhas Malvinas",
+                "official": "Ilhas Malvinas"
+            },
+            "rus": {
+                "common": "\u0424\u043e\u043b\u043a\u043b\u0435\u043d\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "official": "\u0424\u043e\u043b\u043a\u043b\u0435\u043d\u0434\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "common": "Falklandy",
+                "official": "Falklandsk\u00e9 ostrovy"
+            },
+            "spa": {
+                "common": "Islas Malvinas",
+                "official": "islas Malvinas"
+            },
+            "swe": {
+                "common": "Falklands\u00f6arna",
+                "official": "Falklands\u00f6arna"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u06a9\u0644\u06cc\u0646\u0688"
+            },
+            "zho": {
+                "common": "\u798f\u514b\u5170\u7fa4\u5c9b",
+                "official": "\u798f\u514b\u5170\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "238",
+        "un_member": null,
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikidataid": "Q9648",
+        "wikipedia": "-99",
+        "woe_id": "23424814",
+        "woe_id_eh": "23424814",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "-99",
     "wb_a3": "-99",
     "wikidataid": "Q9648",

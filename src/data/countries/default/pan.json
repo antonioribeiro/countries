@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Panama",
+    "calling_codes": [
+        "+507"
+    ],
     "capital": [
         "Panama City"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Panamanian",
+    "demonyms": {
+        "eng": {
+            "f": "Panamanian",
+            "m": "Panamanian"
+        },
+        "fra": {
+            "f": "Panam\u00e9enne",
+            "m": "Panam\u00e9en"
+        }
+    },
     "dialling": {
         "calling_code": [
             "507"
@@ -228,6 +241,10 @@
             "common": "Panama",
             "official": "Republika Panama"
         },
+        "hun": {
+            "common": "Panama",
+            "official": "Panamai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Panama",
             "official": "Repubblica di Panama"
@@ -268,6 +285,10 @@
             "common": "Panam\u00e1",
             "official": "Rep\u00fablica de Panam\u00e1"
         },
+        "swe": {
+            "common": "Panama",
+            "official": "Republiken Panama"
+        },
         "urd": {
             "common": "\u067e\u0627\u0646\u0627\u0645\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0627\u0646\u0627\u0645\u0627"
@@ -279,6 +300,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "591",
+    "un_member": true,
     "wb_a2": "PA",
     "wb_a3": "PAN",
     "wikidataid": "Q804",

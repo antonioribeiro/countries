@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Estonia",
+    "calling_codes": [
+        "+372"
+    ],
     "capital": [
         "Tallinn"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Estonian",
+    "demonyms": {
+        "eng": {
+            "f": "Estonian",
+            "m": "Estonian"
+        },
+        "fra": {
+            "f": "Estonienne",
+            "m": "Estonien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "372"
@@ -240,6 +253,10 @@
             "common": "Estonija",
             "official": "Republika Estonija"
         },
+        "hun": {
+            "common": "\u00c9sztorsz\u00e1g",
+            "official": "\u00c9szt K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Estonia",
             "official": "Repubblica di Estonia"
@@ -280,6 +297,10 @@
             "common": "Estonia",
             "official": "Rep\u00fablica de Estonia"
         },
+        "swe": {
+            "common": "Estland",
+            "official": "Republiken Estland"
+        },
         "urd": {
             "common": "\u0627\u0633\u0679\u0648\u0646\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0633\u0679\u0648\u0646\u06cc\u0627"
@@ -291,6 +312,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "233",
+    "un_member": true,
     "wb_a2": "EE",
     "wb_a3": "EST",
     "wikidataid": "Q191",

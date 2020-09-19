@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Finland",
+    "calling_codes": [
+        "+358"
+    ],
     "capital": [
         "Helsinki"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Finnish",
+    "demonyms": {
+        "eng": {
+            "f": "Finnish",
+            "m": "Finnish"
+        },
+        "fra": {
+            "f": "Finlandaise",
+            "m": "Finlandais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "358"
@@ -244,6 +257,10 @@
             "common": "Finska",
             "official": "Republika Finska"
         },
+        "hun": {
+            "common": "Finnorsz\u00e1g",
+            "official": "Finn K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Finlandia",
             "official": "Repubblica di Finlandia"
@@ -284,6 +301,10 @@
             "common": "Finlandia",
             "official": "Rep\u00fablica de Finlandia"
         },
+        "swe": {
+            "common": "Finland",
+            "official": "Republiken Finland"
+        },
         "urd": {
             "common": "\u0641\u0646 \u0644\u06cc\u0646\u0688",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u0646 \u0644\u06cc\u0646\u0688"
@@ -295,6 +316,7 @@
     },
     "type": "Country",
     "un_a3": "246",
+    "un_member": true,
     "wb_a2": "FI",
     "wb_a3": "FIN",
     "wikidataid": "Q33",

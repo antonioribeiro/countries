@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Malta",
+    "calling_codes": [
+        "+356"
+    ],
     "capital": [
         "Valletta"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Maltese",
+    "demonyms": {
+        "eng": {
+            "f": "Maltese",
+            "m": "Maltese"
+        },
+        "fra": {
+            "f": "Maltaise",
+            "m": "Maltais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "356"
@@ -234,6 +247,10 @@
             "common": "Malta",
             "official": "Republika Malta"
         },
+        "hun": {
+            "common": "M\u00e1lta",
+            "official": "M\u00e1ltai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Malta",
             "official": "Repubblica di Malta"
@@ -274,6 +291,10 @@
             "common": "Malta",
             "official": "Rep\u00fablica de Malta"
         },
+        "swe": {
+            "common": "Malta",
+            "official": "Republiken Malta"
+        },
         "urd": {
             "common": "\u0645\u0627\u0644\u0679\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0627\u0644\u0679\u0627"
@@ -285,6 +306,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "470",
+    "un_member": true,
     "wb_a2": "MT",
     "wb_a3": "MLT",
     "wikidataid": "Q233",

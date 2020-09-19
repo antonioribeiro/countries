@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Italy",
+    "calling_codes": [
+        "+39"
+    ],
     "capital": [
         "Rome"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Italian",
+    "demonyms": {
+        "eng": {
+            "f": "Italian",
+            "m": "Italian"
+        },
+        "fra": {
+            "f": "Italienne",
+            "m": "Italien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "39"
@@ -263,6 +276,10 @@
             "common": "Italija",
             "official": "talijanska Republika"
         },
+        "hun": {
+            "common": "Olaszorsz\u00e1g",
+            "official": "Olasz K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Italia",
             "official": "Repubblica italiana"
@@ -303,6 +320,10 @@
             "common": "Italia",
             "official": "Rep\u00fablica Italiana"
         },
+        "swe": {
+            "common": "Italien",
+            "official": "Republiken Italien"
+        },
         "urd": {
             "common": "\u0627\u0637\u0627\u0644\u06cc\u06c1",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0637\u0627\u0644\u06cc\u06c1"
@@ -314,6 +335,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "380",
+    "un_member": true,
     "wb_a2": "IT",
     "wb_a3": "ITA",
     "wikidataid": "Q38",

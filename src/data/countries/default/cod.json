@@ -30,6 +30,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Democratic Republic of the Congo",
+    "calling_codes": [
+        "+243"
+    ],
     "capital": [
         "Kinshasa"
     ],
@@ -46,6 +49,16 @@
         "natural"
     ],
     "demonym": "Congolese",
+    "demonyms": {
+        "eng": {
+            "f": "Congolese",
+            "m": "Congolese"
+        },
+        "fra": {
+            "f": "Congolaise",
+            "m": "Congolais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "243"
@@ -267,6 +280,10 @@
             "common": "Kongo, Demokratska Republika",
             "official": "Demokratska Republika Kongo"
         },
+        "hun": {
+            "common": "Kong\u00f3i Demokratikus K\u00f6zt\u00e1rsas\u00e1g",
+            "official": "Kong\u00f3i Demokratikus K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Congo (Rep. Dem.)",
             "official": "Repubblica Democratica del Congo"
@@ -307,6 +324,10 @@
             "common": "Congo (Rep. Dem.)",
             "official": "Rep\u00fablica Democr\u00e1tica del Congo"
         },
+        "swe": {
+            "common": "Kongo-Kinshasa",
+            "official": "Demokratiska republiken Kongo"
+        },
         "urd": {
             "common": "\u06a9\u0627\u0646\u06af\u0648",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0627\u0646\u06af\u0648"
@@ -318,6 +339,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "180",
+    "un_member": true,
     "wb_a2": "ZR",
     "wb_a3": "ZAR",
     "wikidataid": "Q974",

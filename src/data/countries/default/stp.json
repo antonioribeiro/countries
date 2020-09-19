@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sao Tome and Principe",
+    "calling_codes": [
+        "+239"
+    ],
     "capital": [
         "S\u00e3o Tom\u00e9"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Sao Tomean",
+    "demonyms": {
+        "eng": {
+            "f": "Sao Tomean",
+            "m": "Sao Tomean"
+        },
+        "fra": {
+            "f": "Santom\u00e9enne",
+            "m": "Santom\u00e9en"
+        }
+    },
     "dialling": {
         "calling_code": [
             "239"
@@ -223,6 +236,10 @@
             "common": "Sveti Toma i Princip",
             "official": "Demokratska Republika S\u00e3o Tome i Principe"
         },
+        "hun": {
+            "common": "S\u00e3o Tom\u00e9 \u00e9s Pr\u00edncipe",
+            "official": "S\u00e3o Tom\u00e9 \u00e9s Pr\u00edncipe Demokratikus K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
             "official": "Repubblica democratica di S\u00e3o Tom\u00e9 e Pr\u00edncipe"
@@ -263,6 +280,10 @@
             "common": "Santo Tom\u00e9 y Pr\u00edncipe",
             "official": "Rep\u00fablica Democr\u00e1tica de Santo Tom\u00e9 y Pr\u00edncipe"
         },
+        "swe": {
+            "common": "S\u00e3o Tom\u00e9 och Pr\u00edncipe",
+            "official": "Demokratiska republiken S\u00e3o Tom\u00e9 och Pr\u00edncipe"
+        },
         "urd": {
             "common": "\u0633\u0627\u0624 \u0679\u0648\u0645\u06d2 \u0648 \u067e\u0631\u0646\u0633\u067e\u06d2",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0627\u0624 \u0679\u0648\u0645\u06d2 \u0648 \u067e\u0631\u0646\u0633\u067e\u06d2"
@@ -274,6 +295,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "678",
+    "un_member": true,
     "wb_a2": "ST",
     "wb_a3": "STP",
     "wikidataid": "Q1039",

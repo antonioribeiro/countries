@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Tunisia",
+    "calling_codes": [
+        "+216"
+    ],
     "capital": [
         "Tunis"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Tunisian",
+    "demonyms": {
+        "eng": {
+            "f": "Tunisian",
+            "m": "Tunisian"
+        },
+        "fra": {
+            "f": "Tunisienne",
+            "m": "Tunisien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "216"
@@ -227,6 +240,10 @@
             "common": "Tunis",
             "official": "Tuniski Republika"
         },
+        "hun": {
+            "common": "Tun\u00e9zia",
+            "official": "Tun\u00e9ziai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Tunisia",
             "official": "Repubblica tunisina"
@@ -267,6 +284,10 @@
             "common": "T\u00fanez",
             "official": "Rep\u00fablica de T\u00fanez"
         },
+        "swe": {
+            "common": "Tunisien",
+            "official": "Republiken Tunisien"
+        },
         "urd": {
             "common": "\u062a\u0648\u0646\u0633",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062a\u0648\u0646\u0633"
@@ -278,6 +299,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "788",
+    "un_member": true,
     "wb_a2": "TN",
     "wb_a3": "TUN",
     "wikidataid": "Q948",

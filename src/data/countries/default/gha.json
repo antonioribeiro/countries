@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Ghana",
+    "calling_codes": [
+        "+233"
+    ],
     "capital": [
         "Accra"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Ghanaian",
+    "demonyms": {
+        "eng": {
+            "f": "Ghanaian",
+            "m": "Ghanaian"
+        },
+        "fra": {
+            "f": "Ghan\u00e9enne",
+            "m": "Ghan\u00e9en"
+        }
+    },
     "dialling": {
         "calling_code": [
             "233"
@@ -230,6 +243,10 @@
             "common": "Gana",
             "official": "Republika Gana"
         },
+        "hun": {
+            "common": "Gh\u00e1na",
+            "official": "Gh\u00e1nai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Ghana",
             "official": "Repubblica del Ghana"
@@ -270,6 +287,10 @@
             "common": "Ghana",
             "official": "Rep\u00fablica de Ghana"
         },
+        "swe": {
+            "common": "Ghana",
+            "official": "Republiken Ghana"
+        },
         "urd": {
             "common": "\u06af\u06be\u0627\u0646\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u06be\u0627\u0646\u0627"
@@ -281,6 +302,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "288",
+    "un_member": true,
     "wb_a2": "GH",
     "wb_a3": "GHA",
     "wikidataid": "Q117",

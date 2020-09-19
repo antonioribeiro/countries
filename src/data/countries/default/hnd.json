@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Honduras",
+    "calling_codes": [
+        "+504"
+    ],
     "capital": [
         "Tegucigalpa"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Honduran",
+    "demonyms": {
+        "eng": {
+            "f": "Honduran",
+            "m": "Honduran"
+        },
+        "fra": {
+            "f": "Hondurienne",
+            "m": "Hondurien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "504"
@@ -230,6 +243,10 @@
             "common": "Honduras",
             "official": "Republika Honduras"
         },
+        "hun": {
+            "common": "Honduras",
+            "official": "Hondurasi K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Honduras",
             "official": "Repubblica di Honduras"
@@ -270,6 +287,10 @@
             "common": "Honduras",
             "official": "Rep\u00fablica de Honduras"
         },
+        "swe": {
+            "common": "Honduras",
+            "official": "Republiken Honduras"
+        },
         "urd": {
             "common": "\u06c1\u0648\u0646\u0688\u0648\u0631\u0627\u0633",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06c1\u0648\u0646\u0688\u0648\u0631\u0627\u0633"
@@ -281,6 +302,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "340",
+    "un_member": true,
     "wb_a2": "HN",
     "wb_a3": "HND",
     "wikidataid": "Q783",

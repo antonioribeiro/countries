@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Malawi",
+    "calling_codes": [
+        "+265"
+    ],
     "capital": [
         "Lilongwe"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Malawian",
+    "demonyms": {
+        "eng": {
+            "f": "Malawian",
+            "m": "Malawian"
+        },
+        "fra": {
+            "f": "Malawienne",
+            "m": "Malawien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "265"
@@ -233,6 +246,10 @@
             "common": "Malavi",
             "official": "Republika Malavi"
         },
+        "hun": {
+            "common": "Malawi",
+            "official": "Malawi K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Malawi",
             "official": "Repubblica del Malawi"
@@ -273,6 +290,10 @@
             "common": "Malawi",
             "official": "Rep\u00fablica de Malawi"
         },
+        "swe": {
+            "common": "Malawi",
+            "official": "Republiken Malawi"
+        },
         "urd": {
             "common": "\u0645\u0644\u0627\u0648\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0644\u0627\u0648\u06cc"
@@ -284,6 +305,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "454",
+    "un_member": true,
     "wb_a2": "MW",
     "wb_a3": "MWI",
     "wikidataid": "Q1020",

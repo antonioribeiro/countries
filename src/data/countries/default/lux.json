@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Luxembourg",
+    "calling_codes": [
+        "+352"
+    ],
     "capital": [
         "Luxembourg"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Luxembourger",
+    "demonyms": {
+        "eng": {
+            "f": "Luxembourger",
+            "m": "Luxembourger"
+        },
+        "fra": {
+            "f": "Luxembourgeoise",
+            "m": "Luxembourgeois"
+        }
+    },
     "dialling": {
         "calling_code": [
             "352"
@@ -249,6 +262,10 @@
             "common": "Luksemburg",
             "official": "Veliko Vojvodstvo Luksemburg"
         },
+        "hun": {
+            "common": "Luxemburg",
+            "official": "Luxemburgi Nagyhercegs\u00e9g"
+        },
         "ita": {
             "common": "Lussemburgo",
             "official": "Granducato di Lussemburgo"
@@ -289,6 +306,10 @@
             "common": "Luxemburgo",
             "official": "Gran Ducado de Luxemburgo"
         },
+        "swe": {
+            "common": "Luxemburg",
+            "official": "Storhertigd\u00f6met Luxemburg"
+        },
         "urd": {
             "common": "\u0644\u06a9\u0633\u0645\u0628\u0631\u06af",
             "official": "\u062f\u0648\u0642\u06cc\u06c1 \u06a9\u0628\u06cc\u0631\u0644\u06a9\u0633\u0645\u0628\u0631\u06af"
@@ -300,6 +321,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "442",
+    "un_member": true,
     "wb_a2": "LU",
     "wb_a3": "LUX",
     "wikidataid": "Q32",

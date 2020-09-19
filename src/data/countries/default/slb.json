@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Solomon Is.",
+    "calling_codes": [
+        "+677"
+    ],
     "capital": [
         "Honiara"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Solomon Islander",
+    "demonyms": {
+        "eng": {
+            "f": "Solomon Islander",
+            "m": "Solomon Islander"
+        },
+        "fra": {
+            "f": "Salomonienne",
+            "m": "Salomonien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "677"
@@ -219,6 +232,10 @@
             "common": "Solomonski Otoci",
             "official": "Solomonski Otoci"
         },
+        "hun": {
+            "common": "Salamon-szigetek",
+            "official": "Salamon-szigetek"
+        },
         "ita": {
             "common": "Isole Salomone",
             "official": "Isole Salomone"
@@ -259,6 +276,10 @@
             "common": "Islas Salom\u00f3n",
             "official": "islas Salom\u00f3n"
         },
+        "swe": {
+            "common": "Salomon\u00f6arna",
+            "official": "Salomon\u00f6arna"
+        },
         "urd": {
             "common": "\u062c\u0632\u0627\u0626\u0631 \u0633\u0644\u06cc\u0645\u0627\u0646",
             "official": "\u062c\u0632\u0627\u0626\u0631 \u0633\u0644\u06cc\u0645\u0627\u0646"
@@ -270,6 +291,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "090",
+    "un_member": true,
     "wb_a2": "SB",
     "wb_a3": "SLB",
     "wikidataid": "Q685",

@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Marshall Is.",
+    "calling_codes": [
+        "+692"
+    ],
     "capital": [
         "Majuro"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Marshallese",
+    "demonyms": {
+        "eng": {
+            "f": "Marshallese",
+            "m": "Marshallese"
+        },
+        "fra": {
+            "f": "Marshallaise",
+            "m": "Marshallais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "692"
@@ -226,6 +239,10 @@
             "common": "Mar\u0161alovi Otoci",
             "official": "Republika Mar\u0161alovi Otoci"
         },
+        "hun": {
+            "common": "Marshall-szigetek",
+            "official": "Marshall-szigetek"
+        },
         "ita": {
             "common": "Isole Marshall",
             "official": "Repubblica delle Isole Marshall"
@@ -266,6 +283,10 @@
             "common": "Islas Marshall",
             "official": "Rep\u00fablica de las Islas Marshall"
         },
+        "swe": {
+            "common": "Marshall\u00f6arna",
+            "official": "Republiken Marshall\u00f6arna"
+        },
         "urd": {
             "common": "\u062c\u0632\u0627\u0626\u0631 \u0645\u0627\u0631\u0634\u0644",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0645\u0627\u0631\u0634\u0644"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "584",
+    "un_member": true,
     "wb_a2": "MH",
     "wb_a3": "MHL",
     "wikidataid": "Q709",

@@ -27,6 +27,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Republic of Korea",
+    "calling_codes": [
+        "+82"
+    ],
     "capital": [
         "Seoul"
     ],
@@ -43,6 +46,16 @@
         "natural"
     ],
     "demonym": "South Korean",
+    "demonyms": {
+        "eng": {
+            "f": "South Korean",
+            "m": "South Korean"
+        },
+        "fra": {
+            "f": "Sud-cor\u00e9enne",
+            "m": "Sud-cor\u00e9en"
+        }
+    },
     "dialling": {
         "calling_code": [
             "82"
@@ -244,6 +257,10 @@
             "common": "Ju\u017ena Koreja",
             "official": "Republika Koreja"
         },
+        "hun": {
+            "common": "D\u00e9l-Korea",
+            "official": "Koreai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Corea del Sud",
             "official": "Repubblica di Corea"
@@ -284,6 +301,10 @@
             "common": "Corea del Sur",
             "official": "Rep\u00fablica de Corea"
         },
+        "swe": {
+            "common": "Sydkorea",
+            "official": "Republiken Korea"
+        },
         "urd": {
             "common": "\u062c\u0646\u0648\u0628\u06cc \u06a9\u0648\u0631\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0631\u06cc\u0627 "
@@ -295,6 +316,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "410",
+    "un_member": true,
     "wb_a2": "KR",
     "wb_a3": "KOR",
     "wikidataid": "Q884",

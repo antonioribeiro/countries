@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Norfolk Island",
+    "calling_codes": [
+        "+672"
+    ],
     "capital": [
         "Kingston"
     ],
@@ -45,6 +48,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Norfolk Island",
+        "calling_codes": [
+            "+672"
+        ],
         "capital": [
             "Kingston"
         ],
@@ -61,7 +67,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Norfolk Islander",
+        "demonyms": {
+            "eng": {
+                "f": "Norfolk Islander",
+                "m": "Norfolk Islander"
+            },
+            "fra": {
+                "f": "Norfolkaise",
+                "m": "Norfolkais"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NF",
@@ -201,6 +216,10 @@
                 "common": "Otok Norfolk",
                 "official": "Teritorij Norfolk Island"
             },
+            "hun": {
+                "common": "Norfolk-sziget",
+                "official": "Norfolk-sziget"
+            },
             "ita": {
                 "common": "Isola Norfolk",
                 "official": "Territorio di Norfolk Island"
@@ -241,6 +260,10 @@
                 "common": "Isla de Norfolk",
                 "official": "Territorio de la Isla Norfolk"
             },
+            "swe": {
+                "common": "Norfolk\u00f6n",
+                "official": "Norfolk\u00f6n"
+            },
             "urd": {
                 "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
                 "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
@@ -252,6 +275,7 @@
         },
         "type": "Dependency",
         "un_a3": "574",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q31057",
@@ -268,6 +292,16 @@
         "natural"
     ],
     "demonym": "Norfolk Islander",
+    "demonyms": {
+        "eng": {
+            "f": "Norfolk Islander",
+            "m": "Norfolk Islander"
+        },
+        "fra": {
+            "f": "Norfolkaise",
+            "m": "Norfolkais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "672"
@@ -372,6 +406,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Norfolk Island",
+        "calling_codes": [
+            "+672"
+        ],
         "capital": [
             "Kingston"
         ],
@@ -388,7 +425,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Norfolk Islander",
+        "demonyms": {
+            "eng": {
+                "f": "Norfolk Islander",
+                "m": "Norfolk Islander"
+            },
+            "fra": {
+                "f": "Norfolkaise",
+                "m": "Norfolkais"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "NF",
@@ -528,6 +574,10 @@
                 "common": "Otok Norfolk",
                 "official": "Teritorij Norfolk Island"
             },
+            "hun": {
+                "common": "Norfolk-sziget",
+                "official": "Norfolk-sziget"
+            },
             "ita": {
                 "common": "Isola Norfolk",
                 "official": "Territorio di Norfolk Island"
@@ -568,6 +618,10 @@
                 "common": "Isla de Norfolk",
                 "official": "Territorio de la Isla Norfolk"
             },
+            "swe": {
+                "common": "Norfolk\u00f6n",
+                "official": "Norfolk\u00f6n"
+            },
             "urd": {
                 "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
                 "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
@@ -579,6 +633,7 @@
         },
         "type": "Dependency",
         "un_a3": "574",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q31057",
@@ -694,6 +749,10 @@
             "common": "Otok Norfolk",
             "official": "Teritorij Norfolk Island"
         },
+        "hun": {
+            "common": "Norfolk-sziget",
+            "official": "Norfolk-sziget"
+        },
         "ita": {
             "common": "Isola Norfolk",
             "official": "Territorio di Norfolk Island"
@@ -734,6 +793,10 @@
             "common": "Isla de Norfolk",
             "official": "Territorio de la Isla Norfolk"
         },
+        "swe": {
+            "common": "Norfolk\u00f6n",
+            "official": "Norfolk\u00f6n"
+        },
         "urd": {
             "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
             "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
@@ -745,6 +808,262 @@
     },
     "type": "Dependency",
     "un_a3": "574",
+    "un_member": {
+        "abbrev": "Nfk. I.",
+        "abbrev_len": "7",
+        "adm0_a3": "NFK",
+        "adm0_a3_is": "NFK",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "NFK",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Norfolk Island",
+        "alt_spellings": [
+            "NF",
+            "Territory of Norfolk Island",
+            "Teratri of Norf'k Ailen"
+        ],
+        "borders": [],
+        "brk_a3": "NFK",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Norfolk Island",
+        "calling_codes": [
+            "+672"
+        ],
+        "capital": [
+            "Kingston"
+        ],
+        "cca2": "NF",
+        "cca3": "NFK",
+        "ccn3": "574",
+        "cioc": null,
+        "currencies": {
+            "a_u_d": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Norfolk Islander",
+                "m": "Norfolk Islander"
+            },
+            "fra": {
+                "f": "Norfolkaise",
+                "m": "Norfolkais"
+            }
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "NF",
+        "flag": {
+            "emoji": "\ud83c\uddf3\ud83c\uddeb"
+        },
+        "formal_en": "Territory of Norfolk Island",
+        "formal_fr": "",
+        "gdp_md_est": "33.15",
+        "gdp_year": "2016",
+        "geo": {
+            "area": 36,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                -29.03333333,
+                167.95
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Australia and New Zealand"
+        },
+        "geou_dif": "0",
+        "geounit": "Norfolk Island",
+        "gu_a3": "NFK",
+        "homepart": "-99",
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "72"
+            ]
+        },
+        "income_grp": "4. Lower middle income",
+        "independent": null,
+        "iso_a2": "NF",
+        "iso_a3": "NFK",
+        "iso_a3_eh": "NFK",
+        "iso_n3": "574",
+        "labelrank": "5",
+        "languages": {
+            "eng": "English",
+            "pih": "Norfuk"
+        },
+        "lastcensus": "-99",
+        "level": "2",
+        "long_len": "14",
+        "mapcolor7": "1",
+        "mapcolor8": "2",
+        "mapcolor9": "2",
+        "mapcolor13": "7",
+        "max_label": "9.5",
+        "min_label": "4.5",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Norfolk Island",
+            "native": {
+                "eng": {
+                    "common": "Norfolk Island",
+                    "official": "Territory of Norfolk Island"
+                },
+                "pih": {
+                    "common": "Norf'k Ailen",
+                    "official": "Teratri of Norf'k Ailen"
+                }
+            },
+            "official": "Territory of Norfolk Island"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00ac\u00d8\u00b2\u00d9\u008a\u00d8\u00b1\u00d8\u00a9 \u00d9\u0086\u00d9\u0088\u00d8\u00b1\u00d9\u0081\u00d9\u0088\u00d9\u0084\u00d9\u0083",
+        "name_bn": "\u00e0\u00a6\u00a8\u00e0\u00a6\u00b0\u00e0\u00a6\u00ab\u00e0\u00a7\u008b\u00e0\u00a6\u0095 \u00e0\u00a6\u00a6\u00e0\u00a7\u008d\u00e0\u00a6\u00ac\u00e0\u00a7\u0080\u00e0\u00a6\u00aa",
+        "name_ciawf": "Norfolk Island",
+        "name_de": "Norfolk Island",
+        "name_el": "\u00ce\u009d\u00cf\u008c\u00cf\u0081\u00cf\u0086\u00ce\u00bf\u00ce\u00bb\u00ce\u00ba",
+        "name_en": "Norfolk Island",
+        "name_es": "Isla Norfolk",
+        "name_fr": "\u00c3\u00aele Norfolk",
+        "name_hi": "\u00e0\u00a4\u00a8\u00e0\u00a5\u0089\u00e0\u00a4\u00b0\u00e0\u00a5\u008d\u00e0\u00a4\u00ab\u00e0\u00a4\u00bc\u00e0\u00a5\u008b\u00e0\u00a4\u0095 \u00e0\u00a4\u00a6\u00e0\u00a5\u008d\u00e0\u00a4\u00b5\u00e0\u00a5\u0080\u00e0\u00a4\u00aa",
+        "name_hu": "Norfolk-sziget",
+        "name_id": "Pulau Norfolk",
+        "name_it": "Isola Norfolk",
+        "name_ja": "\u00e3\u0083\u008e\u00e3\u0083\u00bc\u00e3\u0083\u0095\u00e3\u0082\u00a9\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e5\u00b3\u00b6",
+        "name_ko": "\u00eb\u0085\u00b8\u00ed\u008d\u00bd \u00ec\u0084\u00ac",
+        "name_len": "14",
+        "name_long": "Norfolk Island",
+        "name_nev": "Norfolk Island",
+        "name_nl": "Norfolk",
+        "name_pl": "Norfolk",
+        "name_pt": "Ilha Norfolk",
+        "name_ru": "\u00d0\u009d\u00d0\u00be\u00d1\u0080\u00d1\u0084\u00d0\u00be\u00d0\u00bb\u00d0\u00ba",
+        "name_sort": "Norfolk Island",
+        "name_sv": "Norfolk\u00c3\u00b6n",
+        "name_tr": "Norfolk Adas\u00c4\u00b1",
+        "name_vi": "\u00c4\u0090\u00e1\u00ba\u00a3o Norfolk",
+        "name_zh": "\u00e8\u00af\u00ba\u00e7\u00a6\u008f\u00e5\u0085\u008b\u00e5\u00b2\u009b",
+        "ne_id": "1159320365",
+        "note_adm0": "Auz.",
+        "note_brk": "",
+        "pop_est": "2210",
+        "pop_rank": "4",
+        "pop_year": "2014",
+        "postal": "NF",
+        "record_type": "country",
+        "scalerank": "6",
+        "sov_a3": "AU1",
+        "sovereignt": "Australia",
+        "status": "officially-assigned",
+        "su_a3": "NFK",
+        "su_dif": "0",
+        "subunit": "Norfolk Island",
+        "tiny": "-99",
+        "tld": [
+            ".nf"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Norfolk",
+                "official": "Teritorium ostrova Norfolk"
+            },
+            "deu": {
+                "common": "Norfolkinsel",
+                "official": "Gebiet der Norfolkinsel"
+            },
+            "est": {
+                "common": "Norfolk",
+                "official": "Norfolki saare ala"
+            },
+            "fin": {
+                "common": "Norfolkinsaari",
+                "official": "Norfolkinsaaren territorio"
+            },
+            "fra": {
+                "common": "\u00cele Norfolk",
+                "official": "Territoire de l'\u00eele Norfolk"
+            },
+            "hrv": {
+                "common": "Otok Norfolk",
+                "official": "Teritorij Norfolk Island"
+            },
+            "hun": {
+                "common": "Norfolk-sziget",
+                "official": "Norfolk-sziget"
+            },
+            "ita": {
+                "common": "Isola Norfolk",
+                "official": "Territorio di Norfolk Island"
+            },
+            "jpn": {
+                "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
+                "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f"
+            },
+            "kor": {
+                "common": "\ub178\ud37d \uc12c",
+                "official": "\ub178\ud37d \uc12c"
+            },
+            "nld": {
+                "common": "Norfolkeiland",
+                "official": "Grondgebied van Norfolk Island"
+            },
+            "per": {
+                "common": "\u062c\u0632\u06cc\u0631\u0647 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u0642\u0644\u0645\u0631\u0648 \u062c\u0632\u0627\u06cc\u0631 \u0646\u0648\u0631\u0641\u06a9"
+            },
+            "pol": {
+                "common": "Wyspa Norfolk",
+                "official": "Terytorium Wyspy Norfolk"
+            },
+            "por": {
+                "common": "Ilha Norfolk",
+                "official": "Territ\u00f3rio da Ilha Norfolk"
+            },
+            "rus": {
+                "common": "\u041d\u043e\u0440\u0444\u043e\u043b\u043a",
+                "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041d\u043e\u0440\u0444\u043e\u043b\u043a"
+            },
+            "slk": {
+                "common": "Norfolk",
+                "official": "Terit\u00f3rium ostrova Norfolk"
+            },
+            "spa": {
+                "common": "Isla de Norfolk",
+                "official": "Territorio de la Isla Norfolk"
+            },
+            "swe": {
+                "common": "Norfolk\u00f6n",
+                "official": "Norfolk\u00f6n"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9",
+                "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1"
+            },
+            "zho": {
+                "common": "\u8bfa\u798f\u514b\u5c9b",
+                "official": "\u8bfa\u798f\u514b\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "574",
+        "un_member": null,
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikidataid": "Q31057",
+        "wikipedia": "-99",
+        "woe_id": "23424905",
+        "woe_id_eh": "23424905",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "-99",
     "wb_a3": "-99",
     "wikidataid": "Q31057",

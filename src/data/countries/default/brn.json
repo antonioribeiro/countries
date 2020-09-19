@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Brunei",
+    "calling_codes": [
+        "+673"
+    ],
     "capital": [
         "Bandar Seri Begawan"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Bruneian",
+    "demonyms": {
+        "eng": {
+            "f": "Bruneian",
+            "m": "Bruneian"
+        },
+        "fra": {
+            "f": "Brun\u00e9ienne",
+            "m": "Brun\u00e9ien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "673"
@@ -230,6 +243,10 @@
             "common": "Brunej",
             "official": "Nacija od Bruneja, Ku\u0107u Mira"
         },
+        "hun": {
+            "common": "Brunei",
+            "official": "Brunei Szultan\u00e1tus"
+        },
         "ita": {
             "common": "Brunei",
             "official": "Nazione di Brunei, Dimora della Pace"
@@ -270,6 +287,10 @@
             "common": "Brunei",
             "official": "Naci\u00f3n de Brunei, Morada de la Paz"
         },
+        "swe": {
+            "common": "Brunei",
+            "official": "Brunei Darussalam"
+        },
         "urd": {
             "common": "\u0628\u0631\u0648\u0646\u0627\u0626\u06cc",
             "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0628\u0631\u0648\u0646\u0627\u0626\u06cc \u062f\u0627\u0631\u0627\u0644\u0633\u0644\u0627\u0645"
@@ -281,6 +302,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "096",
+    "un_member": true,
     "wb_a2": "BN",
     "wb_a3": "BRN",
     "wikidataid": "Q921",

@@ -17,6 +17,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Trinidad and Tobago",
+    "calling_codes": [
+        "+1868"
+    ],
     "capital": [
         "Port of Spain"
     ],
@@ -33,6 +36,16 @@
         "natural"
     ],
     "demonym": "Trinidadian",
+    "demonyms": {
+        "eng": {
+            "f": "Trinidadian",
+            "m": "Trinidadian"
+        },
+        "fra": {
+            "f": "Trinidadienne",
+            "m": "Trinidadien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1868"
@@ -220,6 +233,10 @@
             "common": "Trinidad i Tobago",
             "official": "Republika Trinidad i Tobago"
         },
+        "hun": {
+            "common": "Trinidad \u00e9s Tobago",
+            "official": "Trinidad \u00e9s Tobago K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Trinidad e Tobago",
             "official": "Repubblica di Trinidad e Tobago"
@@ -260,6 +277,10 @@
             "common": "Trinidad y Tobago",
             "official": "Rep\u00fablica de Trinidad y Tobago"
         },
+        "swe": {
+            "common": "Trinidad och Tobago",
+            "official": "Republiken Trinidad och Tobago"
+        },
         "urd": {
             "common": "\u0679\u0631\u06cc\u0646\u06cc\u0688\u0627\u0688 \u0648 \u0679\u0648\u0628\u0627\u06af\u0648",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0679\u0631\u06cc\u0646\u06cc\u0688\u0627\u0688 \u0648 \u0679\u0648\u0628\u0627\u06af\u0648"
@@ -271,6 +292,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "780",
+    "un_member": true,
     "wb_a2": "TT",
     "wb_a3": "TTO",
     "wikidataid": "Q754",

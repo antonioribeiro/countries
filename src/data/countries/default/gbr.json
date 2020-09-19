@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "United Kingdom",
+    "calling_codes": [
+        "+44"
+    ],
     "capital": [
         "London"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "British",
+    "demonyms": {
+        "eng": {
+            "f": "British",
+            "m": "British"
+        },
+        "fra": {
+            "f": "Britannique",
+            "m": "Britannique"
+        }
+    },
     "dialling": {
         "calling_code": [
             "44"
@@ -233,6 +246,10 @@
             "common": "Ujedinjeno Kraljevstvo",
             "official": "Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske"
         },
+        "hun": {
+            "common": "Egyes\u00fclt Kir\u00e1lys\u00e1g",
+            "official": "Nagy-Britannia \u00e9s \u00c9szak-\u00cdrorsz\u00e1g Egyes\u00fclt Kir\u00e1lys\u00e1ga"
+        },
         "ita": {
             "common": "Regno Unito",
             "official": "Regno Unito di Gran Bretagna e Irlanda del Nord"
@@ -273,6 +290,10 @@
             "common": "Reino Unido",
             "official": "Reino Unido de Gran Breta\u00f1a e Irlanda del Norte"
         },
+        "swe": {
+            "common": "Storbritannien",
+            "official": "F\u00f6renade konungariket Storbritannien och Nordirland"
+        },
         "urd": {
             "common": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0645\u062a\u062d\u062f\u06c1",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0645\u062a\u062d\u062f\u06c1 \u0628\u0631\u0637\u0627\u0646\u06cc\u06c1 \u0639\u0638\u0645\u06cc \u0648 \u0634\u0645\u0627\u0644\u06cc \u0622\u0626\u0631\u0644\u06cc\u0646\u0688"
@@ -284,6 +305,7 @@
     },
     "type": "Country",
     "un_a3": "826",
+    "un_member": true,
     "wb_a2": "GB",
     "wb_a3": "GBR",
     "wikidataid": "Q145",

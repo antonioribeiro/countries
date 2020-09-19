@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Syria",
+    "calling_codes": [
+        "+963"
+    ],
     "capital": [
         "Damascus"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Syrian",
+    "demonyms": {
+        "eng": {
+            "f": "Syrian",
+            "m": "Syrian"
+        },
+        "fra": {
+            "f": "Syrienne",
+            "m": "Syrien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "963"
@@ -235,6 +248,10 @@
             "common": "Sirija",
             "official": "Sirijska Arapska Republika"
         },
+        "hun": {
+            "common": "Sz\u00edria",
+            "official": "Sz\u00edriai Arab K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Siria",
             "official": "Repubblica araba siriana"
@@ -275,6 +292,10 @@
             "common": "Siria",
             "official": "Rep\u00fablica \u00c1rabe Siria"
         },
+        "swe": {
+            "common": "Syrien",
+            "official": "Syriska arabiska republiken"
+        },
         "urd": {
             "common": "\u0633\u0648\u0631\u06cc\u06c1",
             "official": "\u0639\u0631\u0628 \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0648\u0631\u06cc\u06c1"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "760",
+    "un_member": true,
     "wb_a2": "SY",
     "wb_a3": "SYR",
     "wikidataid": "Q858",

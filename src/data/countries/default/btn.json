@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bhutan",
+    "calling_codes": [
+        "+975"
+    ],
     "capital": [
         "Thimphu"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Bhutanese",
+    "demonyms": {
+        "eng": {
+            "f": "Bhutanese",
+            "m": "Bhutanese"
+        },
+        "fra": {
+            "f": "Bhoutanaise",
+            "m": "Bhoutanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "975"
@@ -232,6 +245,10 @@
             "common": "Butan",
             "official": "Kraljevina Butan"
         },
+        "hun": {
+            "common": "Bhut\u00e1n",
+            "official": "Bhut\u00e1ni Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Bhutan",
             "official": "Regno del Bhutan"
@@ -272,6 +289,10 @@
             "common": "But\u00e1n",
             "official": "Reino de But\u00e1n"
         },
+        "swe": {
+            "common": "Bhutan",
+            "official": "Konungariket Bhutan"
+        },
         "urd": {
             "common": "\u0628\u06be\u0648\u0679\u0627\u0646",
             "official": "\u0633\u0644\u0637\u0646\u062a \u0628\u06be\u0648\u0679\u0627\u0646"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "064",
+    "un_member": true,
     "wb_a2": "BT",
     "wb_a3": "BTN",
     "wikidataid": "Q917",

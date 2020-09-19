@@ -1,9 +1,22 @@
 {
     "pacific_enderbury": {
         "abbreviations": [
-            "-12",
-            "-11",
-            "+13",
+            "LMT",
+            "PHOT"
+        ],
+        "cca2": "KI",
+        "cca3": "KIR",
+        "country_code": "KI",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "207",
+        "zone_name": "Pacific\/Enderbury"
+    },
+    "pacific_kiritimati": {
+        "abbreviations": [
+            "LINT",
             "LMT"
         ],
         "cca2": "KI",
@@ -14,13 +27,11 @@
         ],
         "record_type": "timezone",
         "zone_id": "208",
-        "zone_name": "Pacific\/Enderbury"
+        "zone_name": "Pacific\/Kiritimati"
     },
-    "pacific_kiritimati": {
+    "pacific_tarawa": {
         "abbreviations": [
-            "-1040",
-            "-10",
-            "+14",
+            "GILT",
             "LMT"
         ],
         "cca2": "KI",
@@ -31,21 +42,6 @@
         ],
         "record_type": "timezone",
         "zone_id": "209",
-        "zone_name": "Pacific\/Kiritimati"
-    },
-    "pacific_tarawa": {
-        "abbreviations": [
-            "+12",
-            "LMT"
-        ],
-        "cca2": "KI",
-        "cca3": "KIR",
-        "country_code": "KI",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "207",
         "zone_name": "Pacific\/Tarawa"
     }
 }

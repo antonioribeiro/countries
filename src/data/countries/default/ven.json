@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Venezuela",
+    "calling_codes": [
+        "+58"
+    ],
     "capital": [
         "Caracas"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Venezuelan",
+    "demonyms": {
+        "eng": {
+            "f": "Venezuelan",
+            "m": "Venezuelan"
+        },
+        "fra": {
+            "f": "V\u00e9n\u00e9zu\u00e9lienne",
+            "m": "V\u00e9n\u00e9zu\u00e9lien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "58"
@@ -230,6 +243,10 @@
             "common": "Venezuela",
             "official": "BOLIVARIJANSKA Republika Venezuela"
         },
+        "hun": {
+            "common": "Venezuela",
+            "official": "Venezuelai Boliv\u00e1ri K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Venezuela",
             "official": "Repubblica Bolivariana del Venezuela"
@@ -270,6 +287,10 @@
             "common": "Venezuela",
             "official": "Rep\u00fablica Bolivariana de Venezuela"
         },
+        "swe": {
+            "common": "Venezuela",
+            "official": "Bolivarianska republiken Venezuela"
+        },
         "urd": {
             "common": "\u0648\u06cc\u0646\u06cc\u0632\u0648\u06cc\u0644\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0648\u06cc\u0646\u06cc\u0632\u0648\u06cc\u0644\u0627"
@@ -281,6 +302,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "862",
+    "un_member": true,
     "wb_a2": "VE",
     "wb_a3": "VEN",
     "wikidataid": "Q717",

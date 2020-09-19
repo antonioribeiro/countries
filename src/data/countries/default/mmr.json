@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Myanmar",
+    "calling_codes": [
+        "+95"
+    ],
     "capital": [
         "Naypyidaw"
     ],
@@ -40,8 +43,17 @@
         "mledoze",
         "natural"
     ],
-    "demonym": "Burmese",
-    "demonym_rinvex": "Bamar",
+    "demonym": "Bamar",
+    "demonyms": {
+        "eng": {
+            "f": "Burmese",
+            "m": "Burmese"
+        },
+        "fra": {
+            "f": "Birmane",
+            "m": "Birman"
+        }
+    },
     "dialling": {
         "calling_code": [
             "95"
@@ -236,6 +248,10 @@
             "common": "Mijanmar",
             "official": "Republika Unije Mijanmar"
         },
+        "hun": {
+            "common": "Mianmar",
+            "official": "Mianmari \u00c1llamsz\u00f6vets\u00e9g K\u00f6zt\u00e1rsas\u00e1ga"
+        },
         "ita": {
             "common": "Birmania",
             "official": "Repubblica dell'Unione di Myanmar"
@@ -276,6 +292,10 @@
             "common": "Myanmar",
             "official": "Rep\u00fablica de la Uni\u00f3n de Myanmar"
         },
+        "swe": {
+            "common": "Myanmar",
+            "official": "Republiken Unionen Myanmar"
+        },
         "urd": {
             "common": "\u0645\u06cc\u0627\u0646\u0645\u0627\u0631",
             "official": "\u0645\u062a\u062d\u062f\u06c1 \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u06cc\u0627\u0646\u0645\u0627\u0631"
@@ -287,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "104",
+    "un_member": true,
     "wb_a2": "MM",
     "wb_a3": "MMR",
     "wikidataid": "Q836",

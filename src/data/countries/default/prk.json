@@ -11,6 +11,7 @@
     "alt_spellings": [
         "KP",
         "Democratic People's Republic of Korea",
+        "DPRK",
         "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
         "Chos\u014fn Minjuju\u016di Inmin Konghwaguk",
         "Korea, Democratic People's Republic of",
@@ -33,6 +34,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Dem. Rep. Korea",
+    "calling_codes": [
+        "+850"
+    ],
     "capital": [
         "Pyongyang"
     ],
@@ -49,6 +53,16 @@
         "natural"
     ],
     "demonym": "North Korean",
+    "demonyms": {
+        "eng": {
+            "f": "North Korean",
+            "m": "North Korean"
+        },
+        "fra": {
+            "f": "Nord-cor\u00e9enne",
+            "m": "Nord-cor\u00e9en"
+        }
+    },
     "dialling": {
         "calling_code": [
             "850"
@@ -251,6 +265,10 @@
             "common": "Sjeverna Koreja",
             "official": "Demokratska Narodna Republika Koreja"
         },
+        "hun": {
+            "common": "\u00c9szak-Korea",
+            "official": "Koreai N\u00e9pi Demokratikus K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Corea del Nord",
             "official": "Repubblica democratica popolare di Corea"
@@ -291,6 +309,10 @@
             "common": "Corea del Norte",
             "official": "Rep\u00fablica Popular Democr\u00e1tica de Corea"
         },
+        "swe": {
+            "common": "Nordkorea",
+            "official": "Demokratiska Folkrepubliken Korea"
+        },
         "urd": {
             "common": "\u0634\u0645\u0627\u0644\u06cc \u06a9\u0648\u0631\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc \u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u0631\u06cc\u0627"
@@ -302,6 +324,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "408",
+    "un_member": true,
     "wb_a2": "KP",
     "wb_a3": "PRK",
     "wikidataid": "Q423",

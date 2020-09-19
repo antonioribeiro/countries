@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cayman Is.",
+    "calling_codes": [
+        "+1345"
+    ],
     "capital": [
         "George Town"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Caymanian",
+    "demonyms": {
+        "eng": {
+            "f": "Caymanian",
+            "m": "Caymanian"
+        },
+        "fra": {
+            "f": "Ca\u00efmanienne",
+            "m": "Ca\u00efmanien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1345"
@@ -134,6 +147,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Cayman Is.",
+        "calling_codes": [
+            "+1345"
+        ],
         "capital": [
             "George Town"
         ],
@@ -150,7 +166,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Caymanian",
+        "demonyms": {
+            "eng": {
+                "f": "Caymanian",
+                "m": "Caymanian"
+            },
+            "fra": {
+                "f": "Ca\u00efmanienne",
+                "m": "Ca\u00efmanien"
+            }
+        },
         "economy": "5. Emerging region: G20",
         "featurecla": "Admin-0 country",
         "fips_10_": "CJ",
@@ -289,6 +314,10 @@
                 "common": "Kajmanski otoci",
                 "official": "Kajmanski otoci"
             },
+            "hun": {
+                "common": "Kajm\u00e1n-szigetek",
+                "official": "Kajm\u00e1n-szigetek"
+            },
             "ita": {
                 "common": "Isole Cayman",
                 "official": "Isole Cayman"
@@ -329,6 +358,10 @@
                 "common": "Islas Caim\u00e1n",
                 "official": "Islas Caim\u00e1n"
             },
+            "swe": {
+                "common": "Cayman\u00f6arna",
+                "official": "Cayman\u00f6arna"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646",
                 "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646"
@@ -340,6 +373,7 @@
         },
         "type": "Dependency",
         "un_a3": "136",
+        "un_member": null,
         "wb_a2": "KY",
         "wb_a3": "CYM",
         "wikidataid": "Q5785",
@@ -454,6 +488,10 @@
             "common": "Kajmanski otoci",
             "official": "Kajmanski otoci"
         },
+        "hun": {
+            "common": "Kajm\u00e1n-szigetek",
+            "official": "Kajm\u00e1n-szigetek"
+        },
         "ita": {
             "common": "Isole Cayman",
             "official": "Isole Cayman"
@@ -494,6 +532,10 @@
             "common": "Islas Caim\u00e1n",
             "official": "Islas Caim\u00e1n"
         },
+        "swe": {
+            "common": "Cayman\u00f6arna",
+            "official": "Cayman\u00f6arna"
+        },
         "urd": {
             "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646",
             "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646"
@@ -505,6 +547,259 @@
     },
     "type": "Dependency",
     "un_a3": "136",
+    "un_member": {
+        "abbrev": "Cym. Is.",
+        "abbrev_len": "8",
+        "adm0_a3": "CYM",
+        "adm0_a3_is": "CYM",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "CYM",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Cayman Islands",
+        "alt_spellings": [
+            "KY"
+        ],
+        "borders": [],
+        "brk_a3": "CYM",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Cayman Is.",
+        "calling_codes": [
+            "+1345"
+        ],
+        "capital": [
+            "George Town"
+        ],
+        "cca2": "KY",
+        "cca3": "CYM",
+        "ccn3": "136",
+        "cioc": "CAY",
+        "currencies": {
+            "k_y_d": {
+                "name": "Cayman Islands dollar",
+                "symbol": "$"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Caymanian",
+                "m": "Caymanian"
+            },
+            "fra": {
+                "f": "Ca\u00efmanienne",
+                "m": "Ca\u00efmanien"
+            }
+        },
+        "economy": "5. Emerging region: G20",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "CJ",
+        "flag": {
+            "emoji": "\ud83c\uddf0\ud83c\uddfe"
+        },
+        "formal_en": "Cayman Islands",
+        "formal_fr": "",
+        "gdp_md_est": "2507.00",
+        "gdp_year": "2014",
+        "geo": {
+            "area": 264,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                19.5,
+                -80.5
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0",
+        "geounit": "Cayman Islands",
+        "gu_a3": "CYM",
+        "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "345"
+            ]
+        },
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "KY",
+        "iso_a3": "CYM",
+        "iso_a3_eh": "CYM",
+        "iso_n3": "136",
+        "labelrank": "5",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "2010",
+        "level": "2",
+        "long_len": "14",
+        "mapcolor7": "6",
+        "mapcolor8": "6",
+        "mapcolor9": "6",
+        "mapcolor13": "3",
+        "max_label": "9.5",
+        "min_label": "5.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Cayman Islands",
+            "native": {
+                "eng": {
+                    "common": "Cayman Islands",
+                    "official": "Cayman Islands"
+                }
+            },
+            "official": "Cayman Islands"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00ac\u00d8\u00b2\u00d8\u00b1 \u00d9\u0083\u00d8\u00a7\u00d9\u008a\u00d9\u0085\u00d8\u00a7\u00d9\u0086",
+        "name_bn": "\u00e0\u00a6\u0095\u00e0\u00a7\u0087\u00e0\u00a6\u0087\u00e0\u00a6\u00ae\u00e0\u00a7\u008d\u00e0\u00a6\u00af\u00e0\u00a6\u00be\u00e0\u00a6\u00a8 \u00e0\u00a6\u00a6\u00e0\u00a7\u008d\u00e0\u00a6\u00ac\u00e0\u00a7\u0080\u00e0\u00a6\u00aa\u00e0\u00a6\u00aa\u00e0\u00a7\u0081\u00e0\u00a6\u009e\u00e0\u00a7\u008d\u00e0\u00a6\u009c",
+        "name_ciawf": "Cayman Islands",
+        "name_de": "Cayman Islands",
+        "name_el": "\u00ce\u009d\u00ce\u00b7\u00cf\u0083\u00ce\u00b9\u00ce\u00ac \u00ce\u009a\u00ce\u00b1\u00cf\u008b\u00ce\u00bc\u00ce\u00ac\u00ce\u00bd",
+        "name_en": "Cayman Islands",
+        "name_es": "Islas Caim\u00c3\u00a1n",
+        "name_fr": "\u00c3\u00aeles Ca\u00c3\u00afmans",
+        "name_hi": "\u00e0\u00a4\u0095\u00e0\u00a5\u0087\u00e0\u00a4\u00ae\u00e0\u00a4\u00a8 \u00e0\u00a4\u00a6\u00e0\u00a5\u008d\u00e0\u00a4\u00b5\u00e0\u00a5\u0080\u00e0\u00a4\u00aa\u00e0\u00a4\u00b8\u00e0\u00a4\u00ae\u00e0\u00a5\u0082\u00e0\u00a4\u00b9",
+        "name_hu": "Kajm\u00c3\u00a1n-szigetek",
+        "name_id": "Kepulauan Cayman",
+        "name_it": "Isole Cayman",
+        "name_ja": "\u00e3\u0082\u00b1\u00e3\u0082\u00a4\u00e3\u0083\u009e\u00e3\u0083\u00b3\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ko": "\u00ec\u00bc\u0080\u00ec\u009d\u00b4\u00eb\u00a7\u00a8 \u00ec\u00a0\u009c\u00eb\u008f\u0084",
+        "name_len": "10",
+        "name_long": "Cayman Islands",
+        "name_nev": "Cayman Is.",
+        "name_nl": "Kaaimaneilanden",
+        "name_pl": "Kajmany",
+        "name_pt": "Ilhas Cayman",
+        "name_ru": "\u00d0\u009a\u00d0\u00b0\u00d0\u00b9\u00d0\u00bc\u00d0\u00b0\u00d0\u00bd\u00d0\u00be\u00d0\u00b2\u00d1\u008b \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+        "name_sort": "Cayman Islands",
+        "name_sv": "Cayman\u00c3\u00b6arna",
+        "name_tr": "Cayman Adalar\u00c4\u00b1",
+        "name_vi": "Qu\u00e1\u00ba\u00a7n \u00c4\u0091\u00e1\u00ba\u00a3o Cayman",
+        "name_zh": "\u00e9\u0096\u008b\u00e6\u009b\u00bc\u00e7\u00be\u00a4\u00e5\u00b3\u00b6",
+        "ne_id": "1159320707",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "58441",
+        "pop_rank": "8",
+        "pop_year": "2017",
+        "postal": "KY",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "CYM",
+        "su_dif": "0",
+        "subunit": "Cayman Islands",
+        "tiny": "2",
+        "tld": [
+            ".ky"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Kajmansk\u00e9 ostrovy",
+                "official": "Kajmansk\u00e9 ostrovy"
+            },
+            "cym": {
+                "common": "Ynysoedd Cayman",
+                "official": "Ynysoedd Cayman"
+            },
+            "deu": {
+                "common": "Kaimaninseln",
+                "official": "Cayman-Inseln"
+            },
+            "est": {
+                "common": "Kaimanisaared",
+                "official": "Kaimanisaared"
+            },
+            "fin": {
+                "common": "Caymansaaret",
+                "official": "Caymansaaret"
+            },
+            "fra": {
+                "common": "\u00celes Ca\u00efmans",
+                "official": "\u00celes Ca\u00efmans"
+            },
+            "hrv": {
+                "common": "Kajmanski otoci",
+                "official": "Kajmanski otoci"
+            },
+            "hun": {
+                "common": "Kajm\u00e1n-szigetek",
+                "official": "Kajm\u00e1n-szigetek"
+            },
+            "ita": {
+                "common": "Isole Cayman",
+                "official": "Isole Cayman"
+            },
+            "jpn": {
+                "common": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6",
+                "official": "\u30b1\u30a4\u30de\u30f3\u8af8\u5cf6"
+            },
+            "kor": {
+                "common": "\ucf00\uc774\ub9e8 \uc81c\ub3c4",
+                "official": "\ucf00\uc774\ub9e8 \uc81c\ub3c4"
+            },
+            "nld": {
+                "common": "Caymaneilanden",
+                "official": "Caymaneilanden"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u06cc\u0645\u0646",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u06cc\u0645\u0646"
+            },
+            "pol": {
+                "common": "Kajmany",
+                "official": "Kajmany"
+            },
+            "por": {
+                "common": "Ilhas Caim\u00e3o",
+                "official": "Ilhas Cayman"
+            },
+            "rus": {
+                "common": "\u041a\u0430\u0439\u043c\u0430\u043d\u043e\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "official": "\u041a\u0430\u0439\u043c\u0430\u043d\u043e\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "common": "Kajmanie ostrovy",
+                "official": "Kajmanie ostrovy"
+            },
+            "spa": {
+                "common": "Islas Caim\u00e1n",
+                "official": "Islas Caim\u00e1n"
+            },
+            "swe": {
+                "common": "Cayman\u00f6arna",
+                "official": "Cayman\u00f6arna"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06cc\u0645\u06cc\u0646"
+            },
+            "zho": {
+                "common": "\u5f00\u66fc\u7fa4\u5c9b",
+                "official": "\u5f00\u66fc\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "136",
+        "un_member": null,
+        "wb_a2": "KY",
+        "wb_a3": "CYM",
+        "wikidataid": "Q5785",
+        "wikipedia": "-99",
+        "woe_id": "23424783",
+        "woe_id_eh": "23424783",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "KY",
     "wb_a3": "CYM",
     "wikidataid": "Q5785",

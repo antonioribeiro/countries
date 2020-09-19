@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Spain",
+    "calling_codes": [
+        "+34"
+    ],
     "capital": [
         "Madrid"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Spanish",
+    "demonyms": {
+        "eng": {
+            "f": "Spanish",
+            "m": "Spanish"
+        },
+        "fra": {
+            "f": "Espagnole",
+            "m": "Espagnol"
+        }
+    },
     "dialling": {
         "calling_code": [
             "34"
@@ -270,6 +283,10 @@
             "common": "\u0160panjolska",
             "official": "Kraljevina \u0160panjolska"
         },
+        "hun": {
+            "common": "Spanyolorsz\u00e1g",
+            "official": "Spanyol Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Spagna",
             "official": "Regno di Spagna"
@@ -310,6 +327,10 @@
             "common": "Espa\u00f1a",
             "official": "Reino de Espa\u00f1a"
         },
+        "swe": {
+            "common": "Spanien",
+            "official": "Konungariket Spanien"
+        },
         "urd": {
             "common": "\u06c1\u0633\u067e\u0627\u0646\u06cc\u06c1",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u06c1\u0633\u067e\u0627\u0646\u06cc\u06c1"
@@ -321,6 +342,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "724",
+    "un_member": true,
     "wb_a2": "ES",
     "wb_a3": "ESP",
     "wikidataid": "Q29",

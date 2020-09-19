@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Uzbekistan",
+    "calling_codes": [
+        "+998"
+    ],
     "capital": [
         "Tashkent"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Uzbekistani",
+    "demonyms": {
+        "eng": {
+            "f": "Uzbekistani",
+            "m": "Uzbekistani"
+        },
+        "fra": {
+            "f": "Ouzb\u00e8ke",
+            "m": "Ouzb\u00e8ke"
+        }
+    },
     "dialling": {
         "calling_code": [
             "998"
@@ -239,6 +252,10 @@
             "common": "Uzbekistan",
             "official": "Republika Uzbekistan"
         },
+        "hun": {
+            "common": "\u00dczbegiszt\u00e1n",
+            "official": "\u00dczb\u00e9g K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Uzbekistan",
             "official": "Repubblica di Uzbekistan"
@@ -279,6 +296,10 @@
             "common": "Uzbekist\u00e1n",
             "official": "Rep\u00fablica de Uzbekist\u00e1n"
         },
+        "swe": {
+            "common": "Uzbekistan",
+            "official": "Republiken Uzbekistan"
+        },
         "urd": {
             "common": "\u0627\u0632\u0628\u06a9\u0633\u062a\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0632\u0628\u06a9\u0633\u062a\u0627\u0646"
@@ -290,6 +311,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "860",
+    "un_member": true,
     "wb_a2": "UZ",
     "wb_a3": "UZB",
     "wikidataid": "Q265",

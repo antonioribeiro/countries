@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Slovenia",
+    "calling_codes": [
+        "+386"
+    ],
     "capital": [
         "Ljubljana"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Slovene",
+    "demonyms": {
+        "eng": {
+            "f": "Slovene",
+            "m": "Slovene"
+        },
+        "fra": {
+            "f": "Slov\u00e8ne",
+            "m": "Slov\u00e8ne"
+        }
+    },
     "dialling": {
         "calling_code": [
             "386"
@@ -238,6 +251,10 @@
             "common": "Slovenija",
             "official": "Republika Slovenija"
         },
+        "hun": {
+            "common": "Szlov\u00e9nia",
+            "official": "Szlov\u00e9n K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Slovenia",
             "official": "Repubblica di Slovenia"
@@ -278,6 +295,10 @@
             "common": "Eslovenia",
             "official": "Rep\u00fablica de Eslovenia"
         },
+        "swe": {
+            "common": "Slovenien",
+            "official": "Republiken Slovenien"
+        },
         "urd": {
             "common": "\u0633\u0644\u0648\u0648\u06cc\u0646\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0644\u0648\u0648\u06cc\u0646\u06cc\u0627"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "705",
+    "un_member": true,
     "wb_a2": "SI",
     "wb_a3": "SVN",
     "wikidataid": "Q215",

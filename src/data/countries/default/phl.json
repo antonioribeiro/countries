@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Philippines",
+    "calling_codes": [
+        "+63"
+    ],
     "capital": [
         "Manila"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Filipino",
+    "demonyms": {
+        "eng": {
+            "f": "Filipino",
+            "m": "Filipino"
+        },
+        "fra": {
+            "f": "Philippine",
+            "m": "Philippin"
+        }
+    },
     "dialling": {
         "calling_code": [
             "63"
@@ -228,6 +241,10 @@
             "common": "Filipini",
             "official": "Republika Filipini"
         },
+        "hun": {
+            "common": "F\u00fcl\u00f6p-szigetek",
+            "official": "F\u00fcl\u00f6p-szigeteki K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Filippine",
             "official": "Repubblica delle Filippine"
@@ -268,6 +285,10 @@
             "common": "Filipinas",
             "official": "Rep\u00fablica de las Filipinas"
         },
+        "swe": {
+            "common": "Filippinerna",
+            "official": "Republiken Filippinerna"
+        },
         "urd": {
             "common": "\u0641\u0644\u067e\u0627\u0626\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u0644\u067e\u0627\u0626\u0646"
@@ -279,6 +300,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "608",
+    "un_member": true,
     "wb_a2": "PH",
     "wb_a3": "PHL",
     "wikidataid": "Q928",

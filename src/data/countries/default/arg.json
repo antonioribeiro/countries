@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Argentina",
+    "calling_codes": [
+        "+54"
+    ],
     "capital": [
         "Buenos Aires"
     ],
@@ -39,8 +42,17 @@
         "mledoze",
         "natural"
     ],
-    "demonym": "Argentine",
-    "demonym_rinvex": "Argentinean",
+    "demonym": "Argentinean",
+    "demonyms": {
+        "eng": {
+            "f": "Argentine",
+            "m": "Argentine"
+        },
+        "fra": {
+            "f": "Argentine",
+            "m": "Argentin"
+        }
+    },
     "dialling": {
         "calling_code": [
             "54"
@@ -244,6 +256,10 @@
             "common": "Argentina",
             "official": "Argentinski Republika"
         },
+        "hun": {
+            "common": "Argent\u00edna",
+            "official": "Argentin K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Argentina",
             "official": "Repubblica Argentina"
@@ -284,6 +300,10 @@
             "common": "Argentina",
             "official": "Rep\u00fablica Argentina"
         },
+        "swe": {
+            "common": "Argentina",
+            "official": "Republiken Argentina"
+        },
         "urd": {
             "common": "\u0627\u0631\u062c\u0646\u0679\u0627\u0626\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0631\u062c\u0646\u0679\u0627\u0626\u0646"
@@ -295,6 +315,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "032",
+    "un_member": true,
     "wb_a2": "AR",
     "wb_a3": "ARG",
     "wikidataid": "Q414",

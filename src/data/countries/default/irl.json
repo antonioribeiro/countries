@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Ireland",
+    "calling_codes": [
+        "+353"
+    ],
     "capital": [
         "Dublin"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Irish",
+    "demonyms": {
+        "eng": {
+            "f": "Irish",
+            "m": "Irish"
+        },
+        "fra": {
+            "f": "Irlandaise",
+            "m": "Irlandais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "353"
@@ -239,6 +252,10 @@
             "common": "Irska",
             "official": "Republika Irska"
         },
+        "hun": {
+            "common": "\u00cdrorsz\u00e1g",
+            "official": "\u00cdr K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Irlanda",
             "official": "Repubblica d'Irlanda"
@@ -279,6 +296,10 @@
             "common": "Irlanda",
             "official": "Rep\u00fablica de Irlanda"
         },
+        "swe": {
+            "common": "Irland",
+            "official": "Irland"
+        },
         "urd": {
             "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0622\u0626\u0631\u0644\u06cc\u0646\u0688",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0632\u06cc\u0631\u06c1 \u0622\u0626\u0631\u0644\u06cc\u0646\u0688"
@@ -290,6 +311,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "372",
+    "un_member": true,
     "wb_a2": "IE",
     "wb_a3": "IRL",
     "wikidataid": "Q27",

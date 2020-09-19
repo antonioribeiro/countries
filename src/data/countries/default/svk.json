@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Slovakia",
+    "calling_codes": [
+        "+421"
+    ],
     "capital": [
         "Bratislava"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Slovak",
+    "demonyms": {
+        "eng": {
+            "f": "Slovak",
+            "m": "Slovak"
+        },
+        "fra": {
+            "f": "Slovaque",
+            "m": "Slovaque"
+        }
+    },
     "dialling": {
         "calling_code": [
             "421"
@@ -241,6 +254,10 @@
             "common": "Slova\u010dka",
             "official": "slova\u010dka"
         },
+        "hun": {
+            "common": "Szlov\u00e1kia",
+            "official": "Szlov\u00e1k K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Slovacchia",
             "official": "Repubblica slovacca"
@@ -281,6 +298,10 @@
             "common": "Rep\u00fablica Eslovaca",
             "official": "Rep\u00fablica Eslovaca"
         },
+        "swe": {
+            "common": "Slovakien",
+            "official": "Republiken Slovakien"
+        },
         "urd": {
             "common": "\u0633\u0644\u0648\u0648\u0627\u06a9\u06cc\u06c1",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0644\u0648\u0648\u0627\u06a9\u06cc\u06c1"
@@ -292,6 +313,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "703",
+    "un_member": true,
     "wb_a2": "SK",
     "wb_a3": "SVK",
     "wikidataid": "Q214",

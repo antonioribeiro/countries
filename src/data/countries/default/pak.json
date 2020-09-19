@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Pakistan",
+    "calling_codes": [
+        "+92"
+    ],
     "capital": [
         "Islamabad"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Pakistani",
+    "demonyms": {
+        "eng": {
+            "f": "Pakistani",
+            "m": "Pakistani"
+        },
+        "fra": {
+            "f": "Pakistanaise",
+            "m": "Pakistanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "92"
@@ -238,6 +251,10 @@
             "common": "Pakistan",
             "official": "Islamska Republika Pakistan"
         },
+        "hun": {
+            "common": "Pakiszt\u00e1n",
+            "official": "Pakiszt\u00e1n"
+        },
         "ita": {
             "common": "Pakistan",
             "official": "Repubblica islamica del Pakistan"
@@ -278,6 +295,10 @@
             "common": "Pakist\u00e1n",
             "official": "Rep\u00fablica Isl\u00e1mica de Pakist\u00e1n"
         },
+        "swe": {
+            "common": "Pakistan",
+            "official": "Islamiska republiken Pakistan"
+        },
         "urd": {
             "common": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
             "official": "\u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0627\u06a9\u0633\u062a\u0627\u0646"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "586",
+    "un_member": true,
     "wb_a2": "PK",
     "wb_a3": "PAK",
     "wikidataid": "Q843",

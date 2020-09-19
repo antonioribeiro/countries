@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sri Lanka",
+    "calling_codes": [
+        "+94"
+    ],
     "capital": [
         "Colombo"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Sri Lankan",
+    "demonyms": {
+        "eng": {
+            "f": "Sri Lankan",
+            "m": "Sri Lankan"
+        },
+        "fra": {
+            "f": "Sri-lankaise",
+            "m": "Sri-lankais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "94"
@@ -232,6 +245,10 @@
             "common": "\u0160ri Lanka",
             "official": "Demokratska Socijalisti\u010dke Republike \u0160ri Lanke"
         },
+        "hun": {
+            "common": "Sr\u00ed Lanka",
+            "official": "Sr\u00ed Lanka-i Demokratikus Szocialista K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Sri Lanka",
             "official": "Repubblica democratica socialista dello Sri Lanka"
@@ -272,6 +289,10 @@
             "common": "Sri Lanka",
             "official": "Rep\u00fablica Democr\u00e1tica Socialista de Sri Lanka"
         },
+        "swe": {
+            "common": "Sri Lanka",
+            "official": "Demokratiska socialistiska republiken Sri Lanka"
+        },
         "urd": {
             "common": "\u0633\u0631\u06cc \u0644\u0646\u06a9\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc \u0648 \u0627\u0634\u062a\u0631\u0627\u06a9\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0631\u06cc \u0644\u0646\u06a9\u0627"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "144",
+    "un_member": true,
     "wb_a2": "LK",
     "wb_a3": "LKA",
     "wikidataid": "Q854",

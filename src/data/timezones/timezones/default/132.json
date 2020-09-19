@@ -3,7 +3,7 @@
         "abbreviation": "EET",
         "dst": "0",
         "gmt_offset": "7200",
-        "time_start": "-1518920008",
+        "time_start": "-1518920148",
         "zone_id": "132"
     },
     "2": {
@@ -588,17 +588,17 @@
         "zone_id": "132"
     },
     "85": {
-        "abbreviation": "EET",
+        "abbreviation": "EEST",
         "dst": "0",
-        "gmt_offset": "7200",
-        "time_start": "1477789200",
+        "gmt_offset": "10800",
+        "time_start": "1473282000",
         "zone_id": "132"
     },
     "86": {
         "abbreviation": "EEST",
-        "dst": "1",
+        "dst": "0",
         "gmt_offset": "10800",
-        "time_start": "1490490000",
+        "time_start": "1509238799",
         "zone_id": "132"
     },
     "87": {
@@ -7358,7 +7358,7 @@
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "8008",
-    "time_start": "-1518920009",
+    "gmt_offset": "8148",
+    "time_start": "-1518920149",
     "zone_id": "132"
 }

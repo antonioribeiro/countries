@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Suriname",
+    "calling_codes": [
+        "+597"
+    ],
     "capital": [
         "Paramaribo"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Surinamer",
+    "demonyms": {
+        "eng": {
+            "f": "Surinamer",
+            "m": "Surinamer"
+        },
+        "fra": {
+            "f": "Surinamaise",
+            "m": "Surinamais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "597"
@@ -231,6 +244,10 @@
             "common": "Surinam",
             "official": "Republika Surinam"
         },
+        "hun": {
+            "common": "Suriname",
+            "official": "Suriname K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Suriname",
             "official": "Repubblica del Suriname"
@@ -271,6 +288,10 @@
             "common": "Surinam",
             "official": "Rep\u00fablica de Suriname"
         },
+        "swe": {
+            "common": "Surinam",
+            "official": "Republiken Surinam"
+        },
         "urd": {
             "common": "\u0633\u0631\u06cc\u0646\u0627\u0645",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0631\u06cc\u0646\u0627\u0645"
@@ -282,6 +303,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "740",
+    "un_member": true,
     "wb_a2": "SR",
     "wb_a3": "SUR",
     "wikidataid": "Q730",

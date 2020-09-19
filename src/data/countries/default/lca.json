@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Saint Lucia",
+    "calling_codes": [
+        "+1758"
+    ],
     "capital": [
         "Castries"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Saint Lucian",
+    "demonyms": {
+        "eng": {
+            "f": "Saint Lucian",
+            "m": "Saint Lucian"
+        },
+        "fra": {
+            "f": "Saint-Lucienne",
+            "m": "Saint-Lucien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1758"
@@ -219,6 +232,10 @@
             "common": "Sveta Lucija",
             "official": "Sveta Lucija"
         },
+        "hun": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia"
+        },
         "ita": {
             "common": "Santa Lucia",
             "official": "Santa Lucia"
@@ -259,6 +276,10 @@
             "common": "Santa Luc\u00eda",
             "official": "Santa Luc\u00eda"
         },
+        "swe": {
+            "common": "Saint Lucia",
+            "official": "Saint Lucia"
+        },
         "urd": {
             "common": "\u0633\u06cc\u0646\u0679 \u0644\u0648\u0633\u06cc\u0627",
             "official": "\u0633\u06cc\u0646\u0679 \u0644\u0648\u0633\u06cc\u0627"
@@ -270,6 +291,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "662",
+    "un_member": true,
     "wb_a2": "LC",
     "wb_a3": "LCA",
     "wikidataid": "Q760",

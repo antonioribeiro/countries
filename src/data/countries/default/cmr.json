@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cameroon",
+    "calling_codes": [
+        "+237"
+    ],
     "capital": [
         "Yaound\u00e9"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Cameroonian",
+    "demonyms": {
+        "eng": {
+            "f": "Cameroonian",
+            "m": "Cameroonian"
+        },
+        "fra": {
+            "f": "Camerounaise",
+            "m": "Camerounais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "237"
@@ -244,6 +257,10 @@
             "common": "Kamerun",
             "official": "Republika Kamerun"
         },
+        "hun": {
+            "common": "Kamerun",
+            "official": "Kameruni K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Camerun",
             "official": "Repubblica del Camerun"
@@ -284,6 +301,10 @@
             "common": "Camer\u00fan",
             "official": "Rep\u00fablica de Camer\u00fan"
         },
+        "swe": {
+            "common": "Kamerun",
+            "official": "Republiken Kamerun"
+        },
         "urd": {
             "common": "\u06a9\u06cc\u0645\u0631\u0648\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u06cc\u0645\u0631\u0648\u0646"
@@ -295,6 +316,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "120",
+    "un_member": true,
     "wb_a2": "CM",
     "wb_a3": "CMR",
     "wikidataid": "Q1009",

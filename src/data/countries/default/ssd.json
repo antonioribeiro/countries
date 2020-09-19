@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "S. Sudan",
+    "calling_codes": [
+        "+211"
+    ],
     "capital": [
         "Juba"
     ],
@@ -55,6 +58,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "S. Sudan",
+        "calling_codes": [
+            "+211"
+        ],
         "capital": [
             "Juba"
         ],
@@ -71,7 +77,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "South Sudanese",
+        "demonyms": {
+            "eng": {
+                "f": "South Sudanese",
+                "m": "South Sudanese"
+            },
+            "fra": {
+                "f": "Sud-Soudanaise",
+                "m": "Sud-Soudanais"
+            }
+        },
         "economy": "7. Least developed region",
         "featurecla": "Admin-0 country",
         "fips_10_": "-99",
@@ -207,6 +222,10 @@
                 "common": "Ju\u017eni Sudan",
                 "official": "Republika Ju\u017eni Sudan"
             },
+            "hun": {
+                "common": "D\u00e9l-Szud\u00e1n",
+                "official": "D\u00e9l-szud\u00e1ni K\u00f6zt\u00e1rsas\u00e1g"
+            },
             "ita": {
                 "common": "Sudan del sud",
                 "official": "Repubblica del Sudan del Sud"
@@ -247,6 +266,10 @@
                 "common": "Sud\u00e1n del Sur",
                 "official": "Rep\u00fablica de Sud\u00e1n del Sur"
             },
+            "swe": {
+                "common": "Sydsudan",
+                "official": "Republiken Sydsudan"
+            },
             "urd": {
                 "common": "\u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646",
                 "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646"
@@ -258,6 +281,7 @@
         },
         "type": "Sovereign country",
         "un_a3": "728",
+        "un_member": true,
         "wb_a2": "SS",
         "wb_a3": "SSD",
         "wikidataid": "Q958",
@@ -274,6 +298,16 @@
         "natural"
     ],
     "demonym": "South Sudanese",
+    "demonyms": {
+        "eng": {
+            "f": "South Sudanese",
+            "m": "South Sudanese"
+        },
+        "fra": {
+            "f": "Sud-Soudanaise",
+            "m": "Sud-Soudanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "211"
@@ -469,6 +503,10 @@
             "common": "Ju\u017eni Sudan",
             "official": "Republika Ju\u017eni Sudan"
         },
+        "hun": {
+            "common": "D\u00e9l-Szud\u00e1n",
+            "official": "D\u00e9l-szud\u00e1ni K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Sudan del sud",
             "official": "Repubblica del Sudan del Sud"
@@ -509,6 +547,10 @@
             "common": "Sud\u00e1n del Sur",
             "official": "Rep\u00fablica de Sud\u00e1n del Sur"
         },
+        "swe": {
+            "common": "Sydsudan",
+            "official": "Republiken Sydsudan"
+        },
         "urd": {
             "common": "\u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0646\u0648\u0628\u06cc \u0633\u0648\u0688\u0627\u0646"
@@ -520,6 +562,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "728",
+    "un_member": true,
     "wb_a2": "SS",
     "wb_a3": "SSD",
     "wikidataid": "Q958",

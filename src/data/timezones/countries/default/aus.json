@@ -1,9 +1,9 @@
 {
     "antarctica_macquarie": {
         "abbreviations": [
-            "+11",
             "AEDT",
-            "AEST"
+            "AEST",
+            "MIST"
         ],
         "cca2": "AU",
         "cca3": "AUS",
@@ -12,7 +12,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "34",
+        "zone_id": "33",
         "zone_name": "Antarctica\/Macquarie"
     },
     "australia_adelaide": {
@@ -28,7 +28,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "42",
+        "zone_id": "34",
         "zone_name": "Australia\/Adelaide"
     },
     "australia_brisbane": {
@@ -44,7 +44,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "40",
+        "zone_id": "35",
         "zone_name": "Australia\/Brisbane"
     },
     "australia_broken__hill": {
@@ -61,7 +61,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "39",
+        "zone_id": "36",
         "zone_name": "Australia\/Broken_Hill"
     },
     "australia_currie": {
@@ -77,7 +77,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "36",
+        "zone_id": "37",
         "zone_name": "Australia\/Currie"
     },
     "australia_darwin": {
@@ -93,13 +93,12 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "43",
+        "zone_id": "38",
         "zone_name": "Australia\/Darwin"
     },
     "australia_eucla": {
         "abbreviations": [
-            "+0845",
-            "+0945",
+            "ACWST",
             "LMT"
         ],
         "cca2": "AU",
@@ -109,7 +108,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "45",
+        "zone_id": "39",
         "zone_name": "Australia\/Eucla"
     },
     "australia_hobart": {
@@ -125,7 +124,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "35",
+        "zone_id": "40",
         "zone_name": "Australia\/Hobart"
     },
     "australia_lindeman": {
@@ -146,10 +145,9 @@
     },
     "australia_lord__howe": {
         "abbreviations": [
-            "+11",
-            "+1030",
-            "+1130",
             "AEST",
+            "LHDT",
+            "LHST",
             "LMT"
         ],
         "cca2": "AU",
@@ -159,7 +157,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "33",
+        "zone_id": "42",
         "zone_name": "Australia\/Lord_Howe"
     },
     "australia_melbourne": {
@@ -175,7 +173,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "37",
+        "zone_id": "43",
         "zone_name": "Australia\/Melbourne"
     },
     "australia_perth": {
@@ -207,7 +205,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "38",
+        "zone_id": "45",
         "zone_name": "Australia\/Sydney"
     }
 }
