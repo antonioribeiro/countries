@@ -351,7 +351,7 @@ class Updater extends Base
         return $this->cache->remember(
             'normalizeData'.$dir,
             160,
-            function () use ($dir, $result, $normalizerClosure, &$counter) {
+            function () use ($result, $normalizerClosure, &$counter) {
                 return coollect($result)->map(function ($item, $key) use ($normalizerClosure, &$counter) {
                     if ($counter++ % 1000 === 0) {
                         $this->helper->message("Normalized: {$counter}");
