@@ -64,7 +64,7 @@ class Helper
     {
         echo "\n$message\n\nAborted.\n";
 
-        die;
+        exit;
     }
 
     /**
@@ -421,7 +421,7 @@ class Helper
     {
         $this->config->get('downloadable')->each(function ($urls, $path) {
             if (! file_exists($destination = $this->dataDir("third-party/$path"))) {
-                coollect($urls)->each(function ($url) use ($path, $destination) {
+                coollect($urls)->each(function ($url) use ($destination) {
                     $this->download($url, $destination);
 
                     $file = basename($url);
