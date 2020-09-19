@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Paraguay",
+    "calling_codes": [
+        "+595"
+    ],
     "capital": [
         "Asunci\u00f3n"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Paraguayan",
+    "demonyms": {
+        "eng": {
+            "f": "Paraguayan",
+            "m": "Paraguayan"
+        },
+        "fra": {
+            "f": "Paraguayenne",
+            "m": "Paraguayen"
+        }
+    },
     "dialling": {
         "calling_code": [
             "595"
@@ -235,6 +248,10 @@
             "common": "Paragvaj",
             "official": "Republika Paragvaj"
         },
+        "hun": {
+            "common": "Paraguay",
+            "official": "Paraguayi K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Paraguay",
             "official": "Repubblica del Paraguay"
@@ -275,6 +292,10 @@
             "common": "Paraguay",
             "official": "Rep\u00fablica de Paraguay"
         },
+        "swe": {
+            "common": "Paraguay",
+            "official": "Republiken Paraguay"
+        },
         "urd": {
             "common": "\u067e\u06cc\u0631\u0627\u06af\u0648\u0626\u06d2",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u06cc\u0631\u0627\u06af\u0648\u0626\u06d2"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "600",
+    "un_member": true,
     "wb_a2": "PY",
     "wb_a3": "PRY",
     "wikidataid": "Q733",

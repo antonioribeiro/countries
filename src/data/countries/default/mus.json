@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mauritius",
+    "calling_codes": [
+        "+230"
+    ],
     "capital": [
         "Port Louis"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Mauritian",
+    "demonyms": {
+        "eng": {
+            "f": "Mauritian",
+            "m": "Mauritian"
+        },
+        "fra": {
+            "f": "Mauricienne",
+            "m": "Mauricien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "230"
@@ -231,6 +244,10 @@
             "common": "Mauricijus",
             "official": "Republika Mauricijus"
         },
+        "hun": {
+            "common": "Mauritius",
+            "official": "Mauritiusi K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Mauritius",
             "official": "Repubblica di Mauritius"
@@ -271,6 +288,10 @@
             "common": "Mauricio",
             "official": "Rep\u00fablica de Mauricio"
         },
+        "swe": {
+            "common": "Mauritius",
+            "official": "Republiken Mauritius"
+        },
         "urd": {
             "common": "\u0645\u0648\u0631\u06cc\u0634\u0633",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0648\u0631\u06cc\u0634\u0633"
@@ -282,6 +303,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "480",
+    "un_member": true,
     "wb_a2": "MU",
     "wb_a3": "MUS",
     "wikidataid": "Q1027",

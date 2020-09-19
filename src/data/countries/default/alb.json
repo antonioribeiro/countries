@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Albania",
+    "calling_codes": [
+        "+355"
+    ],
     "capital": [
         "Tirana"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Albanian",
+    "demonyms": {
+        "eng": {
+            "f": "Albanian",
+            "m": "Albanian"
+        },
+        "fra": {
+            "f": "Albanaise",
+            "m": "Albanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "355"
@@ -238,6 +251,10 @@
             "common": "Albanija",
             "official": "Republika Albanija"
         },
+        "hun": {
+            "common": "Alb\u00e1nia",
+            "official": "Alb\u00e1n K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Albania",
             "official": "Repubblica d'Albania"
@@ -278,6 +295,10 @@
             "common": "Albania",
             "official": "Rep\u00fablica de Albania"
         },
+        "swe": {
+            "common": "Albanien",
+            "official": "Republiken Albanien"
+        },
         "urd": {
             "common": "\u0627\u0644\u0628\u0627\u0646\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0644\u0628\u0627\u0646\u06cc\u0627"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "008",
+    "un_member": true,
     "wb_a2": "AL",
     "wb_a3": "ALB",
     "wikidataid": "Q222",

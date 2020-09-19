@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Isle of Man",
+    "calling_codes": [
+        "+44"
+    ],
     "capital": [
         "Douglas"
     ],
@@ -47,6 +50,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Isle of Man",
+        "calling_codes": [
+            "+44"
+        ],
         "capital": [
             "Douglas"
         ],
@@ -67,7 +73,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Manx",
+        "demonyms": {
+            "eng": {
+                "f": "Manx",
+                "m": "Manx"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "IM",
@@ -207,6 +222,10 @@
                 "common": "Otok Man",
                 "official": "Mana ostrvo"
             },
+            "hun": {
+                "common": "Man",
+                "official": "Man"
+            },
             "ita": {
                 "common": "Isola di Man",
                 "official": "Isola di Man"
@@ -247,6 +266,10 @@
                 "common": "Isla de Man",
                 "official": "Isla de Man"
             },
+            "swe": {
+                "common": "Isle of Man",
+                "official": "Isle of Man"
+            },
             "urd": {
                 "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646",
                 "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646"
@@ -258,6 +281,7 @@
         },
         "type": "Country",
         "un_a3": "833",
+        "un_member": null,
         "wb_a2": "IM",
         "wb_a3": "IMY",
         "wikidataid": "Q9676",
@@ -274,6 +298,16 @@
         "natural"
     ],
     "demonym": "Manx",
+    "demonyms": {
+        "eng": {
+            "f": "Manx",
+            "m": "Manx"
+        },
+        "fra": {
+            "f": "",
+            "m": ""
+        }
+    },
     "dialling": {
         "calling_code": [
             "44"
@@ -375,6 +409,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Isle of Man",
+        "calling_codes": [
+            "+44"
+        ],
         "capital": [
             "Douglas"
         ],
@@ -395,7 +432,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Manx",
+        "demonyms": {
+            "eng": {
+                "f": "Manx",
+                "m": "Manx"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "IM",
@@ -535,6 +581,10 @@
                 "common": "Otok Man",
                 "official": "Mana ostrvo"
             },
+            "hun": {
+                "common": "Man",
+                "official": "Man"
+            },
             "ita": {
                 "common": "Isola di Man",
                 "official": "Isola di Man"
@@ -575,6 +625,10 @@
                 "common": "Isla de Man",
                 "official": "Isla de Man"
             },
+            "swe": {
+                "common": "Isle of Man",
+                "official": "Isle of Man"
+            },
             "urd": {
                 "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646",
                 "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646"
@@ -586,6 +640,7 @@
         },
         "type": "Country",
         "un_a3": "833",
+        "un_member": null,
         "wb_a2": "IM",
         "wb_a3": "IMY",
         "wikidataid": "Q9676",
@@ -701,6 +756,10 @@
             "common": "Otok Man",
             "official": "Mana ostrvo"
         },
+        "hun": {
+            "common": "Man",
+            "official": "Man"
+        },
         "ita": {
             "common": "Isola di Man",
             "official": "Isola di Man"
@@ -741,6 +800,10 @@
             "common": "Isla de Man",
             "official": "Isla de Man"
         },
+        "swe": {
+            "common": "Isle of Man",
+            "official": "Isle of Man"
+        },
         "urd": {
             "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646",
             "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646"
@@ -752,6 +815,267 @@
     },
     "type": "Country",
     "un_a3": "833",
+    "un_member": {
+        "abbrev": "IoMan",
+        "abbrev_len": "5",
+        "adm0_a3": "IMN",
+        "adm0_a3_is": "IMN",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "IMN",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Isle of Man",
+        "alt_spellings": [
+            "IM",
+            "Ellan Vannin",
+            "Mann",
+            "Mannin"
+        ],
+        "borders": [],
+        "brk_a3": "IMN",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Isle of Man",
+        "calling_codes": [
+            "+44"
+        ],
+        "capital": [
+            "Douglas"
+        ],
+        "cca2": "IM",
+        "cca3": "IMN",
+        "ccn3": "833",
+        "cioc": null,
+        "currencies": {
+            "g_b_p": {
+                "name": "British pound",
+                "symbol": "\u00a3"
+            },
+            "i_m_p": {
+                "name": "Manx pound",
+                "symbol": "\u00a3"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Manx",
+                "m": "Manx"
+            },
+            "fra": {
+                "f": "",
+                "m": ""
+            }
+        },
+        "economy": "2. Developed region: nonG7",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "IM",
+        "flag": {
+            "emoji": "\ud83c\uddee\ud83c\uddf2"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "7428.00",
+        "gdp_year": "2014",
+        "geo": {
+            "area": 572,
+            "continent": "Europe",
+            "landlocked": null,
+            "latlng": [
+                54.25,
+                -4.5
+            ],
+            "region": "Europe",
+            "region_un": "Europe",
+            "region_wb": "Europe & Central Asia",
+            "subregion": "Northern Europe"
+        },
+        "geou_dif": "0",
+        "geounit": "Isle of Man",
+        "gu_a3": "IMN",
+        "homepart": "-99",
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "IM",
+        "iso_a3": "IMN",
+        "iso_a3_eh": "IMN",
+        "iso_n3": "833",
+        "labelrank": "6",
+        "languages": {
+            "eng": "English",
+            "glv": "Manx"
+        },
+        "lastcensus": "2006",
+        "level": "2",
+        "long_len": "11",
+        "mapcolor7": "6",
+        "mapcolor8": "6",
+        "mapcolor9": "6",
+        "mapcolor13": "3",
+        "max_label": "10.0",
+        "min_label": "5.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Isle of Man",
+            "native": {
+                "eng": {
+                    "common": "Isle of Man",
+                    "official": "Isle of Man"
+                },
+                "glv": {
+                    "common": "Mannin",
+                    "official": "Ellan Vannin or Mannin"
+                }
+            },
+            "official": "Isle of Man"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00ac\u00d8\u00b2\u00d9\u008a\u00d8\u00b1\u00d8\u00a9 \u00d9\u0085\u00d8\u00a7\u00d9\u0086",
+        "name_bn": "\u00e0\u00a6\u0086\u00e0\u00a6\u0087\u00e0\u00a6\u00b2 \u00e0\u00a6\u0085\u00e0\u00a6\u00ac \u00e0\u00a6\u00ae\u00e0\u00a7\u008d\u00e0\u00a6\u00af\u00e0\u00a6\u00be\u00e0\u00a6\u00a8",
+        "name_ciawf": "Isle of Man",
+        "name_de": "Isle of Man",
+        "name_el": "\u00ce\u009d\u00ce\u00ae\u00cf\u0083\u00ce\u00bf\u00cf\u0082 \u00cf\u0084\u00ce\u00bf\u00cf\u0085 \u00ce\u009c\u00ce\u00b1\u00ce\u00bd",
+        "name_en": "Isle of Man",
+        "name_es": "Isla de Man",
+        "name_fr": "\u00c3\u00aele de Man",
+        "name_hi": "\u00e0\u00a4\u00ae\u00e0\u00a4\u00a8\u00e0\u00a5\u0081\u00e0\u00a4\u00b7\u00e0\u00a5\u008d\u00e0\u00a4\u00af \u00e0\u00a4\u0095\u00e0\u00a4\u00be \u00e0\u00a4\u009f\u00e0\u00a4\u00be\u00e0\u00a4\u00aa\u00e0\u00a5\u0082",
+        "name_hu": "Man",
+        "name_id": "Pulau Man",
+        "name_it": "Isola di Man",
+        "name_ja": "\u00e3\u0083\u009e\u00e3\u0083\u00b3\u00e5\u00b3\u00b6",
+        "name_ko": "\u00eb\u00a7\u00a8 \u00ec\u0084\u00ac",
+        "name_len": "11",
+        "name_long": "Isle of Man",
+        "name_nev": "Isle of Man",
+        "name_nl": "Man",
+        "name_pl": "Wyspa Man",
+        "name_pt": "Ilha de Man",
+        "name_ru": "\u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2 \u00d0\u009c\u00d1\u008d\u00d0\u00bd",
+        "name_sort": "Isle of Man",
+        "name_sv": "Isle of Man",
+        "name_tr": "Man Adas\u00c4\u00b1",
+        "name_vi": "\u00c4\u0090\u00e1\u00ba\u00a3o Man",
+        "name_zh": "\u00e9\u00a9\u00ac\u00e6\u0081\u00a9\u00e5\u00b2\u009b",
+        "ne_id": "1159320721",
+        "note_adm0": "U.K. crown dependency",
+        "note_brk": "",
+        "pop_est": "88815",
+        "pop_rank": "8",
+        "pop_year": "2017",
+        "postal": "IM",
+        "record_type": "country",
+        "scalerank": "6",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "IMN",
+        "su_dif": "0",
+        "subunit": "Isle of Man",
+        "tiny": "-99",
+        "tld": [
+            ".im"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Ostrov Man",
+                "official": "Ostrov Man"
+            },
+            "deu": {
+                "common": "Insel Man",
+                "official": "Isle of Man"
+            },
+            "est": {
+                "common": "Mani saar",
+                "official": "Mani saar"
+            },
+            "fin": {
+                "common": "Mansaari",
+                "official": "Mansaari"
+            },
+            "fra": {
+                "common": "\u00cele de Man",
+                "official": "Isle of Man"
+            },
+            "hrv": {
+                "common": "Otok Man",
+                "official": "Mana ostrvo"
+            },
+            "hun": {
+                "common": "Man",
+                "official": "Man"
+            },
+            "ita": {
+                "common": "Isola di Man",
+                "official": "Isola di Man"
+            },
+            "jpn": {
+                "common": "\u30de\u30f3\u5cf6",
+                "official": "\u30de\u30f3\u5cf6"
+            },
+            "kor": {
+                "common": "\ub9e8\uc12c",
+                "official": "\ub9e8\uc12c"
+            },
+            "nld": {
+                "common": "Isle of Man",
+                "official": "Isle of Man"
+            },
+            "per": {
+                "common": "\u062c\u0632\u06cc\u0631\u0647\u0654 \u0645\u064e\u0646",
+                "official": "\u062c\u0632\u06cc\u0631\u0647\u0654 \u0645\u064e\u0646"
+            },
+            "pol": {
+                "common": "Wyspa Man",
+                "official": "Wyspa Man"
+            },
+            "por": {
+                "common": "Ilha de Man",
+                "official": "Isle of Man"
+            },
+            "rus": {
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432 \u041c\u044d\u043d",
+                "official": "\u041e\u0441\u0442\u0440\u043e\u0432 \u041c\u044d\u043d"
+            },
+            "slk": {
+                "common": "Man",
+                "official": "Ostrov Man"
+            },
+            "spa": {
+                "common": "Isla de Man",
+                "official": "Isla de Man"
+            },
+            "swe": {
+                "common": "Isle of Man",
+                "official": "Isle of Man"
+            },
+            "urd": {
+                "common": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646",
+                "official": "\u0622\u0626\u0644 \u0622\u0641 \u0645\u06cc\u0646"
+            },
+            "zho": {
+                "common": "\u9a6c\u6069\u5c9b",
+                "official": "\u9a6c\u6069\u5c9b"
+            }
+        },
+        "type": "Country",
+        "un_a3": "833",
+        "un_member": null,
+        "wb_a2": "IM",
+        "wb_a3": "IMY",
+        "wikidataid": "Q9676",
+        "wikipedia": "-99",
+        "woe_id": "23424847",
+        "woe_id_eh": "23424847",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "IM",
     "wb_a3": "IMY",
     "wikidataid": "Q9676",

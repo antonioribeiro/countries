@@ -1,7 +1,7 @@
 {
     "pacific_gambier": {
         "abbreviations": [
-            "-09",
+            "GAMT",
             "LMT"
         ],
         "cca2": "PF",
@@ -11,13 +11,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "289",
+        "zone_id": "287",
         "zone_name": "Pacific\/Gambier"
     },
     "pacific_marquesas": {
         "abbreviations": [
-            "-0930",
-            "LMT"
+            "LMT",
+            "MART"
         ],
         "cca2": "PF",
         "cca3": "PYF",
@@ -31,8 +31,8 @@
     },
     "pacific_tahiti": {
         "abbreviations": [
-            "-10",
-            "LMT"
+            "LMT",
+            "TAHT"
         ],
         "cca2": "PF",
         "cca3": "PYF",
@@ -41,7 +41,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "287",
+        "zone_id": "289",
         "zone_name": "Pacific\/Tahiti"
     }
 }

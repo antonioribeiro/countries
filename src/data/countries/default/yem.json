@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Yemen",
+    "calling_codes": [
+        "+967"
+    ],
     "capital": [
         "Sana'a"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Yemeni",
+    "demonyms": {
+        "eng": {
+            "f": "Yemeni",
+            "m": "Yemeni"
+        },
+        "fra": {
+            "f": "Y\u00e9m\u00e9nite",
+            "m": "Y\u00e9m\u00e9nite"
+        }
+    },
     "dialling": {
         "calling_code": [
             "967"
@@ -229,6 +242,10 @@
             "common": "Jemen",
             "official": "Republika Jemen"
         },
+        "hun": {
+            "common": "Jemen",
+            "official": "Jemeni K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Yemen",
             "official": "Repubblica dello Yemen"
@@ -269,6 +286,10 @@
             "common": "Yemen",
             "official": "Rep\u00fablica de Yemen"
         },
+        "swe": {
+            "common": "Jemen",
+            "official": "Republiken Jemen"
+        },
         "urd": {
             "common": "\u06cc\u0645\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06cc\u0645\u0646"
@@ -280,6 +301,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "887",
+    "un_member": true,
     "wb_a2": "RY",
     "wb_a3": "YEM",
     "wikidataid": "Q805",

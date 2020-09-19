@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Indonesia",
+    "calling_codes": [
+        "+62"
+    ],
     "capital": [
         "Jakarta"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Indonesian",
+    "demonyms": {
+        "eng": {
+            "f": "Indonesian",
+            "m": "Indonesian"
+        },
+        "fra": {
+            "f": "Indon\u00e9sienne",
+            "m": "Indon\u00e9sien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "62"
@@ -232,6 +245,10 @@
             "common": "Indonezija",
             "official": "Republika Indonezija"
         },
+        "hun": {
+            "common": "Indon\u00e9zia",
+            "official": "Indon\u00e9z K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Indonesia",
             "official": "Repubblica di Indonesia"
@@ -272,6 +289,10 @@
             "common": "Indonesia",
             "official": "Rep\u00fablica de Indonesia"
         },
+        "swe": {
+            "common": "Indonesien",
+            "official": "Republiken Indonesien"
+        },
         "urd": {
             "common": "\u0627\u0646\u0688\u0648\u0646\u06cc\u0634\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0646\u0688\u0648\u0646\u06cc\u0634\u06cc\u0627"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "360",
+    "un_member": true,
     "wb_a2": "ID",
     "wb_a3": "IDN",
     "wikidataid": "Q252",

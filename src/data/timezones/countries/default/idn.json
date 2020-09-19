@@ -1,10 +1,6 @@
 {
     "asia_jakarta": {
         "abbreviations": [
-            "+08",
-            "+09",
-            "+0720",
-            "+0730",
             "BMT",
             "LMT",
             "WIB"
@@ -21,8 +17,6 @@
     },
     "asia_jayapura": {
         "abbreviations": [
-            "+09",
-            "+0930",
             "LMT",
             "WIT"
         ],
@@ -33,13 +27,11 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "190",
+        "zone_id": "188",
         "zone_name": "Asia\/Jayapura"
     },
     "asia_makassar": {
         "abbreviations": [
-            "+08",
-            "+09",
             "LMT",
             "MMT",
             "WITA"
@@ -56,9 +48,6 @@
     },
     "asia_pontianak": {
         "abbreviations": [
-            "+08",
-            "+09",
-            "+0730",
             "LMT",
             "PMT",
             "WIB",
@@ -71,7 +60,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "188",
+        "zone_id": "190",
         "zone_name": "Asia\/Pontianak"
     }
 }

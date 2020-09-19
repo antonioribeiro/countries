@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Anguilla",
+    "calling_codes": [
+        "+1264"
+    ],
     "capital": [
         "The Valley"
     ],
@@ -41,6 +44,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Anguilla",
+        "calling_codes": [
+            "+1264"
+        ],
         "capital": [
             "The Valley"
         ],
@@ -57,7 +63,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Anguillian",
+        "demonyms": {
+            "eng": {
+                "f": "Anguillian",
+                "m": "Anguillian"
+            },
+            "fra": {
+                "f": "Anguillane",
+                "m": "Anguillan"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AV",
@@ -192,6 +207,10 @@
                 "common": "Angvila",
                 "official": "Anguilla"
             },
+            "hun": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
             "ita": {
                 "common": "Anguilla",
                 "official": "Anguilla"
@@ -232,6 +251,10 @@
                 "common": "Anguilla",
                 "official": "Anguila"
             },
+            "swe": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
             "urd": {
                 "common": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627",
                 "official": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627"
@@ -243,6 +266,7 @@
         },
         "type": "Dependency",
         "un_a3": "660",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q25228",
@@ -259,6 +283,16 @@
         "natural"
     ],
     "demonym": "Anguillian",
+    "demonyms": {
+        "eng": {
+            "f": "Anguillian",
+            "m": "Anguillian"
+        },
+        "fra": {
+            "f": "Anguillane",
+            "m": "Anguillan"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1264"
@@ -361,6 +395,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Anguilla",
+        "calling_codes": [
+            "+1264"
+        ],
         "capital": [
             "The Valley"
         ],
@@ -377,7 +414,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Anguillian",
+        "demonyms": {
+            "eng": {
+                "f": "Anguillian",
+                "m": "Anguillian"
+            },
+            "fra": {
+                "f": "Anguillane",
+                "m": "Anguillan"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "AV",
@@ -512,6 +558,10 @@
                 "common": "Angvila",
                 "official": "Anguilla"
             },
+            "hun": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
             "ita": {
                 "common": "Anguilla",
                 "official": "Anguilla"
@@ -552,6 +602,10 @@
                 "common": "Anguilla",
                 "official": "Anguila"
             },
+            "swe": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
             "urd": {
                 "common": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627",
                 "official": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627"
@@ -563,6 +617,7 @@
         },
         "type": "Dependency",
         "un_a3": "660",
+        "un_member": null,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q25228",
@@ -673,6 +728,10 @@
             "common": "Angvila",
             "official": "Anguilla"
         },
+        "hun": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
         "ita": {
             "common": "Anguilla",
             "official": "Anguilla"
@@ -713,6 +772,10 @@
             "common": "Anguilla",
             "official": "Anguila"
         },
+        "swe": {
+            "common": "Anguilla",
+            "official": "Anguilla"
+        },
         "urd": {
             "common": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627",
             "official": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627"
@@ -724,6 +787,255 @@
     },
     "type": "Dependency",
     "un_a3": "660",
+    "un_member": {
+        "abbrev": "Ang.",
+        "abbrev_len": "4",
+        "adm0_a3": "AIA",
+        "adm0_a3_is": "AIA",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "AIA",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Anguilla",
+        "alt_spellings": [
+            "AI"
+        ],
+        "borders": [],
+        "brk_a3": "AIA",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Anguilla",
+        "calling_codes": [
+            "+1264"
+        ],
+        "capital": [
+            "The Valley"
+        ],
+        "cca2": "AI",
+        "cca3": "AIA",
+        "ccn3": "660",
+        "cioc": null,
+        "currencies": {
+            "x_c_d": {
+                "name": "Eastern Caribbean dollar",
+                "symbol": "$"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Anguillian",
+                "m": "Anguillian"
+            },
+            "fra": {
+                "f": "Anguillane",
+                "m": "Anguillan"
+            }
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "AV",
+        "flag": {
+            "emoji": "\ud83c\udde6\ud83c\uddee"
+        },
+        "formal_en": "",
+        "formal_fr": "",
+        "gdp_md_est": "175.40",
+        "gdp_year": "2009",
+        "geo": {
+            "area": 91,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                18.25,
+                -63.16666666
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0",
+        "geounit": "Anguilla",
+        "gu_a3": "AIA",
+        "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "264"
+            ]
+        },
+        "income_grp": "3. Upper middle income",
+        "independent": null,
+        "iso_a2": "AI",
+        "iso_a3": "AIA",
+        "iso_a3_eh": "AIA",
+        "iso_n3": "660",
+        "labelrank": "6",
+        "languages": {
+            "eng": "English"
+        },
+        "lastcensus": "-99",
+        "level": "2",
+        "long_len": "8",
+        "mapcolor7": "6",
+        "mapcolor8": "6",
+        "mapcolor9": "6",
+        "mapcolor13": "3",
+        "max_label": "10.0",
+        "min_label": "5.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Anguilla",
+            "native": {
+                "eng": {
+                    "common": "Anguilla",
+                    "official": "Anguilla"
+                }
+            },
+            "official": "Anguilla"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00a3\u00d9\u0086\u00d8\u00ba\u00d9\u0088\u00d9\u008a\u00d9\u0084\u00d8\u00a7",
+        "name_bn": "\u00e0\u00a6\u008f\u00e0\u00a7\u008d\u00e0\u00a6\u00af\u00e0\u00a6\u00be\u00e0\u00a6\u0099\u00e0\u00a7\u008d\u00e0\u00a6\u0097\u00e0\u00a7\u0081\u00e0\u00a6\u0087\u00e0\u00a6\u00b2\u00e0\u00a6\u00be",
+        "name_ciawf": "Anguilla",
+        "name_de": "Anguilla",
+        "name_el": "\u00ce\u0091\u00ce\u00bd\u00ce\u00b3\u00ce\u00ba\u00ce\u00bf\u00cf\u0085\u00ce\u00af\u00ce\u00bb\u00ce\u00b1",
+        "name_en": "Anguilla",
+        "name_es": "Anguila",
+        "name_fr": "Anguilla",
+        "name_hi": "\u00e0\u00a4\u0085\u00e0\u00a4\u0082\u00e0\u00a4\u0097\u00e0\u00a5\u0081\u00e0\u00a4\u0087\u00e0\u00a4\u00b2\u00e0\u00a4\u00be",
+        "name_hu": "Anguilla",
+        "name_id": "Anguilla",
+        "name_it": "Anguilla",
+        "name_ja": "\u00e3\u0082\u00a2\u00e3\u0083\u00b3\u00e3\u0082\u00ae\u00e3\u0083\u00a9",
+        "name_ko": "\u00ec\u0095\u00b5\u00ea\u00b7\u0088\u00eb\u009d\u00bc",
+        "name_len": "8",
+        "name_long": "Anguilla",
+        "name_nev": "Anguilla",
+        "name_nl": "Anguilla",
+        "name_pl": "Anguilla",
+        "name_pt": "Anguilla",
+        "name_ru": "\u00d0\u0090\u00d0\u00bd\u00d0\u00b3\u00d0\u00b8\u00d0\u00bb\u00d1\u008c\u00d1\u008f",
+        "name_sort": "Anguilla",
+        "name_sv": "Anguilla",
+        "name_tr": "Anguilla",
+        "name_vi": "Anguilla",
+        "name_zh": "\u00e5\u00ae\u0089\u00e5\u009c\u00ad\u00e6\u008b\u0089",
+        "ne_id": "1159320703",
+        "note_adm0": "U.K.",
+        "note_brk": "",
+        "pop_est": "17087",
+        "pop_rank": "6",
+        "pop_year": "2017",
+        "postal": "AI",
+        "record_type": "country",
+        "scalerank": "3",
+        "sov_a3": "GB1",
+        "sovereignt": "United Kingdom",
+        "status": "officially-assigned",
+        "su_a3": "AIA",
+        "su_dif": "0",
+        "subunit": "Anguilla",
+        "tiny": "-99",
+        "tld": [
+            ".ai"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "deu": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "est": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "fin": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "fra": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "hrv": {
+                "common": "Angvila",
+                "official": "Anguilla"
+            },
+            "hun": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "ita": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "jpn": {
+                "common": "\u30a2\u30f3\u30ae\u30e9",
+                "official": "\u30a2\u30f3\u30b0\u30a3\u30e9"
+            },
+            "kor": {
+                "common": "\uc575\uadc8\ub77c",
+                "official": "\uc575\uadc8\ub77c"
+            },
+            "nld": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "per": {
+                "common": "\u0622\u0646\u06af\u0648\u06cc\u0644\u0627",
+                "official": "\u0622\u0646\u06af\u0648\u06cc\u0644\u0627"
+            },
+            "pol": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "por": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "rus": {
+                "common": "\u0410\u043d\u0433\u0438\u043b\u044c\u044f",
+                "official": "\u0410\u043d\u0433\u0438\u043b\u044c\u044f"
+            },
+            "slk": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "spa": {
+                "common": "Anguilla",
+                "official": "Anguila"
+            },
+            "swe": {
+                "common": "Anguilla",
+                "official": "Anguilla"
+            },
+            "urd": {
+                "common": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627",
+                "official": "\u0627\u06cc\u0646\u06af\u0648\u06cc\u0644\u0627"
+            },
+            "zho": {
+                "common": "\u5b89\u572d\u62c9",
+                "official": "\u5b89\u572d\u62c9"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "660",
+        "un_member": null,
+        "wb_a2": "-99",
+        "wb_a3": "-99",
+        "wikidataid": "Q25228",
+        "wikipedia": "-99",
+        "woe_id": "23424751",
+        "woe_id_eh": "23424751",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "-99",
     "wb_a3": "-99",
     "wikidataid": "Q25228",

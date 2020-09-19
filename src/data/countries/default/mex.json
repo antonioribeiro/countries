@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mexico",
+    "calling_codes": [
+        "+52"
+    ],
     "capital": [
         "Mexico City"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Mexican",
+    "demonyms": {
+        "eng": {
+            "f": "Mexican",
+            "m": "Mexican"
+        },
+        "fra": {
+            "f": "Mexicaine",
+            "m": "Mexicain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "52"
@@ -233,6 +246,10 @@
             "common": "Meksiko",
             "official": "Sjedinjene Meksi\u010dke Dr\u017eave"
         },
+        "hun": {
+            "common": "Mexik\u00f3",
+            "official": "Mexik\u00f3i Egyes\u00fclt \u00c1llamok"
+        },
         "ita": {
             "common": "Messico",
             "official": "Stati Uniti del Messico"
@@ -273,6 +290,10 @@
             "common": "M\u00e9xico",
             "official": "Estados Unidos Mexicanos"
         },
+        "swe": {
+            "common": "Mexiko",
+            "official": "Mexikos f\u00f6renta stater"
+        },
         "urd": {
             "common": "\u0645\u06cc\u06a9\u0633\u06cc\u06a9\u0648",
             "official": "\u0631\u06cc\u0627\u0633\u062a\u06c1\u0627\u0626\u06d2 \u0645\u062a\u062d\u062f\u06c1 \u0645\u06cc\u06a9\u0633\u06cc\u06a9\u0648"
@@ -284,6 +305,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "484",
+    "un_member": true,
     "wb_a2": "MX",
     "wb_a3": "MEX",
     "wikidataid": "Q96",

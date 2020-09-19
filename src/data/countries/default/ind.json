@@ -27,6 +27,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "India",
+    "calling_codes": [
+        "+91"
+    ],
     "capital": [
         "New Delhi"
     ],
@@ -43,6 +46,16 @@
         "natural"
     ],
     "demonym": "Indian",
+    "demonyms": {
+        "eng": {
+            "f": "Indian",
+            "m": "Indian"
+        },
+        "fra": {
+            "f": "Indienne",
+            "m": "Indien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "91"
@@ -249,6 +262,10 @@
             "common": "Indija",
             "official": "Republika Indija"
         },
+        "hun": {
+            "common": "India",
+            "official": "Indiai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "India",
             "official": "Repubblica dell'India"
@@ -289,6 +306,10 @@
             "common": "India",
             "official": "Rep\u00fablica de la India"
         },
+        "swe": {
+            "common": "Indien",
+            "official": "Republiken Indien"
+        },
         "urd": {
             "common": "\u0628\u06be\u0627\u0631\u062a",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u06be\u0627\u0631\u062a"
@@ -300,6 +321,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "356",
+    "un_member": true,
     "wb_a2": "IN",
     "wb_a3": "IND",
     "wikidataid": "Q668",

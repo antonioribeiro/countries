@@ -23,8 +23,11 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Burundi",
+    "calling_codes": [
+        "+257"
+    ],
     "capital": [
-        "Bujumbura"
+        "Gitega"
     ],
     "capital_rinvex": "Bujumbura",
     "cca2": "BI",
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Burundian",
+    "demonyms": {
+        "eng": {
+            "f": "Burundian",
+            "m": "Burundian"
+        },
+        "fra": {
+            "f": "Burundaise",
+            "m": "Burundais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "257"
@@ -239,6 +252,10 @@
             "common": "Burundi",
             "official": "Burundi"
         },
+        "hun": {
+            "common": "Burundi",
+            "official": "Burundi"
+        },
         "ita": {
             "common": "Burundi",
             "official": "Repubblica del Burundi"
@@ -279,6 +296,10 @@
             "common": "Burundi",
             "official": "Rep\u00fablica de Burundi"
         },
+        "swe": {
+            "common": "Burundi",
+            "official": "Republiken Burundi"
+        },
         "urd": {
             "common": "\u0628\u0631\u0648\u0646\u0688\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0631\u0648\u0646\u0688\u06cc"
@@ -290,6 +311,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "108",
+    "un_member": true,
     "wb_a2": "BI",
     "wb_a3": "BDI",
     "wikidataid": "Q967",

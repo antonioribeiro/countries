@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Grenada",
+    "calling_codes": [
+        "+1473"
+    ],
     "capital": [
         "St. George's"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Grenadian",
+    "demonyms": {
+        "eng": {
+            "f": "Grenadian",
+            "m": "Grenadian"
+        },
+        "fra": {
+            "f": "Grenadienne",
+            "m": "Grenadien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1473"
@@ -219,6 +232,10 @@
             "common": "Grenada",
             "official": "Grenada"
         },
+        "hun": {
+            "common": "Grenada",
+            "official": "Grenada"
+        },
         "ita": {
             "common": "Grenada",
             "official": "Grenada"
@@ -259,6 +276,10 @@
             "common": "Grenada",
             "official": "Granada"
         },
+        "swe": {
+            "common": "Grenada",
+            "official": "Grenada"
+        },
         "urd": {
             "common": "\u06af\u0631\u06cc\u0646\u0627\u0688\u0627",
             "official": "\u06af\u0631\u06cc\u0646\u0627\u0688\u0627"
@@ -270,6 +291,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "308",
+    "un_member": true,
     "wb_a2": "GD",
     "wb_a3": "GRD",
     "wikidataid": "Q769",

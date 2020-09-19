@@ -35,6 +35,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Belarus",
+    "calling_codes": [
+        "+375"
+    ],
     "capital": [
         "Minsk"
     ],
@@ -52,6 +55,16 @@
         "natural"
     ],
     "demonym": "Belarusian",
+    "demonyms": {
+        "eng": {
+            "f": "Belarusian",
+            "m": "Belarusian"
+        },
+        "fra": {
+            "f": "Bi\u00e9lorusse",
+            "m": "Bi\u00e9lorusse"
+        }
+    },
     "dialling": {
         "calling_code": [
             "375"
@@ -272,6 +285,10 @@
             "common": "Bjelorusija",
             "official": "Republika Bjelorusija"
         },
+        "hun": {
+            "common": "Feh\u00e9roroszorsz\u00e1g",
+            "official": "Feh\u00e9rorosz K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Bielorussia",
             "official": "Repubblica di Belarus"
@@ -312,6 +329,10 @@
             "common": "Bielorrusia",
             "official": "Rep\u00fablica de Belar\u00fas"
         },
+        "swe": {
+            "common": "Belarus",
+            "official": "Republiken Vitryssland"
+        },
         "urd": {
             "common": "\u0628\u06cc\u0644\u0627\u0631\u0648\u0633",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u06cc\u0644\u0627\u0631\u0648\u0633"
@@ -323,6 +344,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "112",
+    "un_member": true,
     "wb_a2": "BY",
     "wb_a3": "BLR",
     "wikidataid": "Q184",

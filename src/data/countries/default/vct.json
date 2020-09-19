@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "St. Vin. and Gren.",
+    "calling_codes": [
+        "+1784"
+    ],
     "capital": [
         "Kingstown"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Saint Vincentian",
+    "demonyms": {
+        "eng": {
+            "f": "Saint Vincentian",
+            "m": "Saint Vincentian"
+        },
+        "fra": {
+            "f": "Vincentaise",
+            "m": "Vincentais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1784"
@@ -219,6 +232,10 @@
             "common": "Sveti Vincent i Grenadini",
             "official": "Sveti Vincent i Grenadini"
         },
+        "hun": {
+            "common": "Saint Vincent \u00e9s a Grenadine-szigetek",
+            "official": "Saint Vincent \u00e9s a Grenadine-szigetek"
+        },
         "ita": {
             "common": "Saint Vincent e Grenadine",
             "official": "Saint Vincent e Grenadine"
@@ -259,6 +276,10 @@
             "common": "San Vicente y Granadinas",
             "official": "San Vicente y las Granadinas"
         },
+        "swe": {
+            "common": "Saint Vincent och Grenadinerna",
+            "official": "Saint Vincent och Grenadinerna"
+        },
         "urd": {
             "common": "\u0633\u06cc\u0646\u0679 \u0648\u06cc\u0646\u0633\u06cc\u0646\u0679 \u0648 \u06af\u0631\u06cc\u0646\u0627\u0688\u0627\u0626\u0646\u0632",
             "official": "\u0633\u06cc\u0646\u0679 \u0648\u06cc\u0646\u0633\u06cc\u0646\u0679 \u0648 \u06af\u0631\u06cc\u0646\u0627\u0688\u0627\u0626\u0646\u0632"
@@ -270,6 +291,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "670",
+    "un_member": true,
     "wb_a2": "VC",
     "wb_a3": "VCT",
     "wikidataid": "Q757",

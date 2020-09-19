@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Australia",
+    "calling_codes": [
+        "+61"
+    ],
     "capital": [
         "Canberra"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Australian",
+    "demonyms": {
+        "eng": {
+            "f": "Australian",
+            "m": "Australian"
+        },
+        "fra": {
+            "f": "Australienne",
+            "m": "Australien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "61"
@@ -223,6 +236,10 @@
             "common": "Australija",
             "official": "Commonwealth of Australia"
         },
+        "hun": {
+            "common": "Ausztr\u00e1lia",
+            "official": "Ausztr\u00e1l \u00c1llamsz\u00f6vets\u00e9g"
+        },
         "ita": {
             "common": "Australia",
             "official": "Commonwealth dell'Australia"
@@ -263,6 +280,10 @@
             "common": "Australia",
             "official": "Mancomunidad de Australia"
         },
+        "swe": {
+            "common": "Australien",
+            "official": "Australiska statsf\u00f6rbundet"
+        },
         "urd": {
             "common": "\u0622\u0633\u0679\u0631\u06cc\u0644\u06cc\u0627",
             "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u0622\u0633\u0679\u0631\u06cc\u0644\u06cc\u0627"
@@ -274,6 +295,7 @@
     },
     "type": "Country",
     "un_a3": "036",
+    "un_member": true,
     "wb_a2": "AU",
     "wb_a3": "AUS",
     "wikidataid": "Q408",

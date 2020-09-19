@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Egypt",
+    "calling_codes": [
+        "+20"
+    ],
     "capital": [
         "Cairo"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Egyptian",
+    "demonyms": {
+        "eng": {
+            "f": "Egyptian",
+            "m": "Egyptian"
+        },
+        "fra": {
+            "f": "\u00c9gyptienne",
+            "m": "\u00c9gyptien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "20"
@@ -234,6 +247,10 @@
             "common": "Egipat",
             "official": "Arapska Republika Egipat"
         },
+        "hun": {
+            "common": "Egyiptom",
+            "official": "Egyiptomi Arab K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Egitto",
             "official": "Repubblica araba d'Egitto"
@@ -274,6 +291,10 @@
             "common": "Egipto",
             "official": "Rep\u00fablica \u00c1rabe de Egipto"
         },
+        "swe": {
+            "common": "Egypten",
+            "official": "Arabrepubliken Egypten"
+        },
         "urd": {
             "common": "\u0645\u0635\u0631",
             "official": "\u0645\u0635\u0631\u06cc \u0639\u0631\u0628 \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1"
@@ -285,6 +306,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "818",
+    "un_member": true,
     "wb_a2": "EG",
     "wb_a3": "EGY",
     "wikidataid": "Q79",

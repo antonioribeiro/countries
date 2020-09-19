@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "N. Mariana Is.",
+    "calling_codes": [
+        "+1670"
+    ],
     "capital": [
         "Saipan"
     ],
@@ -45,6 +48,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "N. Mariana Is.",
+        "calling_codes": [
+            "+1670"
+        ],
         "capital": [
             "Saipan"
         ],
@@ -61,7 +67,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "American",
+        "demonyms": {
+            "eng": {
+                "f": "American",
+                "m": "American"
+            },
+            "fra": {
+                "f": "Am\u00e9ricaine",
+                "m": "Am\u00e9rican"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "CQ",
@@ -206,6 +221,10 @@
                 "common": "Sjevernomarijanski otoci",
                 "official": "Zajednica je Sjeverni Marijanski otoci"
             },
+            "hun": {
+                "common": "\u00c9szaki-Mariana-szigetek",
+                "official": "\u00c9szaki-Mariana-szigetek"
+            },
             "ita": {
                 "common": "Isole Marianne Settentrionali",
                 "official": "Commonwealth delle Isole Marianne Settentrionali"
@@ -246,6 +265,10 @@
                 "common": "Islas Marianas del Norte",
                 "official": "Mancomunidad de las Islas Marianas del Norte"
             },
+            "swe": {
+                "common": "Nordmarianerna",
+                "official": "Nordmarianerna"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
                 "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
@@ -257,6 +280,7 @@
         },
         "type": "Dependency",
         "un_a3": "580",
+        "un_member": null,
         "wb_a2": "MP",
         "wb_a3": "MNP",
         "wikidataid": "Q16644",
@@ -273,6 +297,16 @@
         "natural"
     ],
     "demonym": "American",
+    "demonyms": {
+        "eng": {
+            "f": "American",
+            "m": "American"
+        },
+        "fra": {
+            "f": "Am\u00e9ricaine",
+            "m": "Am\u00e9rican"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1670"
@@ -377,6 +411,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "N. Mariana Is.",
+        "calling_codes": [
+            "+1670"
+        ],
         "capital": [
             "Saipan"
         ],
@@ -393,7 +430,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "American",
+        "demonyms": {
+            "eng": {
+                "f": "American",
+                "m": "American"
+            },
+            "fra": {
+                "f": "Am\u00e9ricaine",
+                "m": "Am\u00e9rican"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "CQ",
@@ -538,6 +584,10 @@
                 "common": "Sjevernomarijanski otoci",
                 "official": "Zajednica je Sjeverni Marijanski otoci"
             },
+            "hun": {
+                "common": "\u00c9szaki-Mariana-szigetek",
+                "official": "\u00c9szaki-Mariana-szigetek"
+            },
             "ita": {
                 "common": "Isole Marianne Settentrionali",
                 "official": "Commonwealth delle Isole Marianne Settentrionali"
@@ -578,6 +628,10 @@
                 "common": "Islas Marianas del Norte",
                 "official": "Mancomunidad de las Islas Marianas del Norte"
             },
+            "swe": {
+                "common": "Nordmarianerna",
+                "official": "Nordmarianerna"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
                 "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
@@ -589,6 +643,7 @@
         },
         "type": "Dependency",
         "un_a3": "580",
+        "un_member": null,
         "wb_a2": "MP",
         "wb_a3": "MNP",
         "wikidataid": "Q16644",
@@ -709,6 +764,10 @@
             "common": "Sjevernomarijanski otoci",
             "official": "Zajednica je Sjeverni Marijanski otoci"
         },
+        "hun": {
+            "common": "\u00c9szaki-Mariana-szigetek",
+            "official": "\u00c9szaki-Mariana-szigetek"
+        },
         "ita": {
             "common": "Isole Marianne Settentrionali",
             "official": "Commonwealth delle Isole Marianne Settentrionali"
@@ -749,6 +808,10 @@
             "common": "Islas Marianas del Norte",
             "official": "Mancomunidad de las Islas Marianas del Norte"
         },
+        "swe": {
+            "common": "Nordmarianerna",
+            "official": "Nordmarianerna"
+        },
         "urd": {
             "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
             "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
@@ -760,6 +823,267 @@
     },
     "type": "Dependency",
     "un_a3": "580",
+    "un_member": {
+        "abbrev": "N.M.I.",
+        "abbrev_len": "6",
+        "adm0_a3": "MNP",
+        "adm0_a3_is": "MNP",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "MNP",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Northern Mariana Islands",
+        "alt_spellings": [
+            "MP",
+            "Commonwealth of the Northern Mariana Islands",
+            "Sankattan Siha Na Islas Mari\u00e5nas"
+        ],
+        "borders": [],
+        "brk_a3": "MNP",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "N. Mariana Is.",
+        "calling_codes": [
+            "+1670"
+        ],
+        "capital": [
+            "Saipan"
+        ],
+        "cca2": "MP",
+        "cca3": "MNP",
+        "ccn3": "580",
+        "cioc": null,
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "American",
+                "m": "American"
+            },
+            "fra": {
+                "f": "Am\u00e9ricaine",
+                "m": "Am\u00e9rican"
+            }
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "CQ",
+        "flag": {
+            "emoji": "\ud83c\uddf2\ud83c\uddf5"
+        },
+        "formal_en": "Commonwealth of the Northern Mariana Islands",
+        "formal_fr": "",
+        "gdp_md_est": "682.00",
+        "gdp_year": "2013",
+        "geo": {
+            "area": 464,
+            "continent": "Oceania",
+            "landlocked": null,
+            "latlng": [
+                15.2,
+                145.75
+            ],
+            "region": "Oceania",
+            "region_un": "Oceania",
+            "region_wb": "East Asia & Pacific",
+            "subregion": "Micronesia"
+        },
+        "geou_dif": "0",
+        "geounit": "Northern Mariana Islands",
+        "gu_a3": "MNP",
+        "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "670"
+            ]
+        },
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "MP",
+        "iso_a3": "MNP",
+        "iso_a3_eh": "MNP",
+        "iso_n3": "580",
+        "labelrank": "6",
+        "languages": {
+            "cal": "Carolinian",
+            "cha": "Chamorro",
+            "eng": "English"
+        },
+        "lastcensus": "2010",
+        "level": "2",
+        "long_len": "24",
+        "mapcolor7": "4",
+        "mapcolor8": "5",
+        "mapcolor9": "1",
+        "mapcolor13": "1",
+        "max_label": "10.0",
+        "min_label": "5.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Northern Mariana Islands",
+            "native": {
+                "cal": {
+                    "common": "Northern Mariana Islands",
+                    "official": "Commonwealth of the Northern Mariana Islands"
+                },
+                "cha": {
+                    "common": "Na Islas Mari\u00e5nas",
+                    "official": "Sankattan Siha Na Islas Mari\u00e5nas"
+                },
+                "eng": {
+                    "common": "Northern Mariana Islands",
+                    "official": "Commonwealth of the Northern Mariana Islands"
+                }
+            },
+            "official": "Commonwealth of the Northern Mariana Islands"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00ac\u00d8\u00b2\u00d8\u00b1 \u00d9\u0085\u00d8\u00a7\u00d8\u00b1\u00d9\u008a\u00d8\u00a7\u00d9\u0086\u00d8\u00a7 \u00d8\u00a7\u00d9\u0084\u00d8\u00b4\u00d9\u0085\u00d8\u00a7\u00d9\u0084\u00d9\u008a\u00d8\u00a9",
+        "name_bn": "\u00e0\u00a6\u0089\u00e0\u00a6\u00a4\u00e0\u00a7\u008d\u00e0\u00a6\u00a4\u00e0\u00a6\u00b0 \u00e0\u00a6\u00ae\u00e0\u00a6\u00be\u00e0\u00a6\u00b0\u00e0\u00a6\u00bf\u00e0\u00a6\u00af\u00e0\u00a6\u00bc\u00e0\u00a6\u00be\u00e0\u00a6\u00a8\u00e0\u00a6\u00be \u00e0\u00a6\u00a6\u00e0\u00a7\u008d\u00e0\u00a6\u00ac\u00e0\u00a7\u0080\u00e0\u00a6\u00aa\u00e0\u00a6\u00aa\u00e0\u00a7\u0081\u00e0\u00a6\u009e\u00e0\u00a7\u008d\u00e0\u00a6\u009c",
+        "name_ciawf": "Northern Mariana Islands",
+        "name_de": "N\u00c3\u00b6rdliche Marianen",
+        "name_el": "\u00ce\u0092\u00cf\u008c\u00cf\u0081\u00ce\u00b5\u00ce\u00b9\u00ce\u00b5\u00cf\u0082 \u00ce\u009c\u00ce\u00b1\u00cf\u0081\u00ce\u00b9\u00ce\u00ac\u00ce\u00bd\u00ce\u00b5\u00cf\u0082 \u00ce\u009d\u00ce\u00ae\u00cf\u0083\u00ce\u00bf\u00ce\u00b9",
+        "name_en": "Northern Mariana Islands",
+        "name_es": "Islas Marianas del Norte",
+        "name_fr": "\u00c3\u00aeles Mariannes du Nord",
+        "name_hi": "\u00e0\u00a4\u0089\u00e0\u00a4\u00a4\u00e0\u00a5\u008d\u00e0\u00a4\u00a4\u00e0\u00a4\u00b0\u00e0\u00a5\u0080 \u00e0\u00a4\u00ae\u00e0\u00a4\u00be\u00e0\u00a4\u00b0\u00e0\u00a4\u00bf\u00e0\u00a4\u00af\u00e0\u00a4\u00be\u00e0\u00a4\u00a8\u00e0\u00a4\u00be \u00e0\u00a4\u00a6\u00e0\u00a5\u008d\u00e0\u00a4\u00b5\u00e0\u00a5\u0080\u00e0\u00a4\u00aa",
+        "name_hu": "\u00c3\u0089szaki-Mariana-szigetek",
+        "name_id": "Kepulauan Mariana Utara",
+        "name_it": "Isole Marianne Settentrionali",
+        "name_ja": "\u00e5\u008c\u0097\u00e3\u0083\u009e\u00e3\u0083\u00aa\u00e3\u0082\u00a2\u00e3\u0083\u008a\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ko": "\u00eb\u00b6\u0081\u00eb\u00a7\u0088\u00eb\u00a6\u00ac\u00ec\u0095\u0084\u00eb\u0082\u0098 \u00ec\u00a0\u009c\u00eb\u008f\u0084",
+        "name_len": "14",
+        "name_long": "Northern Mariana Islands",
+        "name_nev": "N. Mariana Is.",
+        "name_nl": "Noordelijke Marianen",
+        "name_pl": "Mariany P\u00c3\u00b3\u00c5\u0082nocne",
+        "name_pt": "Marianas Setentrionais",
+        "name_ru": "\u00d0\u00a1\u00d0\u00b5\u00d0\u00b2\u00d0\u00b5\u00d1\u0080\u00d0\u00bd\u00d1\u008b\u00d0\u00b5 \u00d0\u009c\u00d0\u00b0\u00d1\u0080\u00d0\u00b8\u00d0\u00b0\u00d0\u00bd\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+        "name_sort": "Northern Mariana Islands",
+        "name_sv": "Nordmarianerna",
+        "name_tr": "Kuzey Mariana Adalar\u00c4\u00b1",
+        "name_vi": "Qu\u00e1\u00ba\u00a7n \u00c4\u0091\u00e1\u00ba\u00a3o B\u00e1\u00ba\u00afc Mariana",
+        "name_zh": "\u00e5\u008c\u0097\u00e9\u00a9\u00ac\u00e9\u0087\u008c\u00e4\u00ba\u009a\u00e7\u00ba\u00b3\u00e7\u00be\u00a4\u00e5\u00b2\u009b",
+        "ne_id": "1159321361",
+        "note_adm0": "Commonwealth of U.S.A.",
+        "note_brk": "",
+        "pop_est": "52263",
+        "pop_rank": "8",
+        "pop_year": "2017",
+        "postal": "MP",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "US1",
+        "sovereignt": "United States of America",
+        "status": "officially-assigned",
+        "su_a3": "MNP",
+        "su_dif": "0",
+        "subunit": "Northern Mariana Islands",
+        "tiny": "3",
+        "tld": [
+            ".mp"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Severn\u00ed Mariany",
+                "official": "Spole\u010denstv\u00ed Severn\u00edch Marian"
+            },
+            "deu": {
+                "common": "N\u00f6rdliche Marianen",
+                "official": "Commonwealth der N\u00f6rdlichen Marianen"
+            },
+            "est": {
+                "common": "P\u00f5hja-Mariaanid",
+                "official": "P\u00f5hja-Mariaani \u00dchendus"
+            },
+            "fin": {
+                "common": "Pohjois-Mariaanit",
+                "official": "Pohjois-Mariaanit"
+            },
+            "fra": {
+                "common": "\u00celes Mariannes du Nord",
+                "official": "Commonwealth des \u00eeles Mariannes du Nord"
+            },
+            "hrv": {
+                "common": "Sjevernomarijanski otoci",
+                "official": "Zajednica je Sjeverni Marijanski otoci"
+            },
+            "hun": {
+                "common": "\u00c9szaki-Mariana-szigetek",
+                "official": "\u00c9szaki-Mariana-szigetek"
+            },
+            "ita": {
+                "common": "Isole Marianne Settentrionali",
+                "official": "Commonwealth delle Isole Marianne Settentrionali"
+            },
+            "jpn": {
+                "common": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6",
+                "official": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6"
+            },
+            "kor": {
+                "common": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4",
+                "official": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4"
+            },
+            "nld": {
+                "common": "Noordelijke Marianeneilanden",
+                "official": "Commonwealth van de Noordelijke Marianen"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u06cc\u0627\u0646\u0627\u06cc \u0634\u0645\u0627\u0644\u06cc",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u06cc\u0627\u0646\u0627\u06cc \u0634\u0645\u0627\u0644\u06cc"
+            },
+            "pol": {
+                "common": "Mariany P\u00f3\u0142nocne",
+                "official": "Wsp\u00f3lnota Marian\u00f3w P\u00f3\u0142nocnych"
+            },
+            "por": {
+                "common": "Marianas Setentrionais",
+                "official": "Comunidade das Ilhas Marianas do Norte"
+            },
+            "rus": {
+                "common": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "official": "\u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043e \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0445 \u043e\u0441\u0442\u0440\u043e\u0432\u043e\u0432"
+            },
+            "slk": {
+                "common": "Severn\u00e9 Mari\u00e1ny",
+                "official": "Spolo\u010denstvo ostrovov Severn\u00e9 Mari\u00e1ny"
+            },
+            "spa": {
+                "common": "Islas Marianas del Norte",
+                "official": "Mancomunidad de las Islas Marianas del Norte"
+            },
+            "swe": {
+                "common": "Nordmarianerna",
+                "official": "Nordmarianerna"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
+                "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
+            },
+            "zho": {
+                "common": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b",
+                "official": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "580",
+        "un_member": null,
+        "wb_a2": "MP",
+        "wb_a3": "MNP",
+        "wikidataid": "Q16644",
+        "wikipedia": "-99",
+        "woe_id": "23424788",
+        "woe_id_eh": "23424788",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "MP",
     "wb_a3": "MNP",
     "wikidataid": "Q16644",

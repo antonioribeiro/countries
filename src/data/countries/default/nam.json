@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Namibia",
+    "calling_codes": [
+        "+264"
+    ],
     "capital": [
         "Windhoek"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Namibian",
+    "demonyms": {
+        "eng": {
+            "f": "Namibian",
+            "m": "Namibian"
+        },
+        "fra": {
+            "f": "Namibienne",
+            "m": "Namibien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "264"
@@ -273,6 +286,10 @@
             "common": "Namibija",
             "official": "Republika Namibija"
         },
+        "hun": {
+            "common": "Nam\u00edbia",
+            "official": "Nam\u00edbiai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Namibia",
             "official": "Repubblica di Namibia"
@@ -313,6 +330,10 @@
             "common": "Namibia",
             "official": "Rep\u00fablica de Namibia"
         },
+        "swe": {
+            "common": "Namibia",
+            "official": "Republiken Namibia"
+        },
         "urd": {
             "common": "\u0646\u0645\u06cc\u0628\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0646\u0645\u06cc\u0628\u06cc\u0627"
@@ -324,6 +345,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "516",
+    "un_member": true,
     "wb_a2": "NA",
     "wb_a3": "NAM",
     "wikidataid": "Q1030",

@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Gambia",
+    "calling_codes": [
+        "+220"
+    ],
     "capital": [
         "Banjul"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Gambian",
+    "demonyms": {
+        "eng": {
+            "f": "Gambian",
+            "m": "Gambian"
+        },
+        "fra": {
+            "f": "Gambienne",
+            "m": "Gambien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "220"
@@ -224,6 +237,10 @@
             "common": "Gambija",
             "official": "Republika Gambija"
         },
+        "hun": {
+            "common": "Gambia",
+            "official": "Gambiai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Gambia",
             "official": "Repubblica del Gambia"
@@ -264,6 +281,10 @@
             "common": "Gambia",
             "official": "Rep\u00fablica de Gambia"
         },
+        "swe": {
+            "common": "Gambia",
+            "official": "Republiken Gambia"
+        },
         "urd": {
             "common": "\u06af\u06cc\u0645\u0628\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u06cc\u0645\u0628\u06cc\u0627"
@@ -275,6 +296,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "270",
+    "un_member": true,
     "wb_a2": "GM",
     "wb_a3": "GMB",
     "wikidataid": "Q1005",

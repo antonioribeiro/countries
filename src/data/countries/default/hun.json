@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Hungary",
+    "calling_codes": [
+        "+36"
+    ],
     "capital": [
         "Budapest"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Hungarian",
+    "demonyms": {
+        "eng": {
+            "f": "Hungarian",
+            "m": "Hungarian"
+        },
+        "fra": {
+            "f": "Hongroise",
+            "m": "Hongrois"
+        }
+    },
     "dialling": {
         "calling_code": [
             "36"
@@ -244,6 +257,10 @@
             "common": "Ma\u0111arska",
             "official": "Mad\u017earska"
         },
+        "hun": {
+            "common": "Magyarorsz\u00e1g",
+            "official": "Magyarorsz\u00e1g"
+        },
         "ita": {
             "common": "Ungheria",
             "official": "Ungheria"
@@ -284,6 +301,10 @@
             "common": "Hungr\u00eda",
             "official": "Hungr\u00eda"
         },
+        "swe": {
+            "common": "Ungern",
+            "official": "Ungern"
+        },
         "urd": {
             "common": "\u0645\u062c\u0627\u0631\u0633\u062a\u0627\u0646",
             "official": "\u0645\u062c\u0627\u0631\u0633\u062a\u0627\u0646"
@@ -295,6 +316,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "348",
+    "un_member": true,
     "wb_a2": "HU",
     "wb_a3": "HUN",
     "wikidataid": "Q28",

@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Jamaica",
+    "calling_codes": [
+        "+1876"
+    ],
     "capital": [
         "Kingston"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Jamaican",
+    "demonyms": {
+        "eng": {
+            "f": "Jamaican",
+            "m": "Jamaican"
+        },
+        "fra": {
+            "f": "Jama\u00efcaine",
+            "m": "Jama\u00efcain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1876"
@@ -224,6 +237,10 @@
             "common": "Jamajka",
             "official": "Jamajka"
         },
+        "hun": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+        },
         "ita": {
             "common": "Giamaica",
             "official": "Giamaica"
@@ -264,6 +281,10 @@
             "common": "Jamaica",
             "official": "Jamaica"
         },
+        "swe": {
+            "common": "Jamaica",
+            "official": "Jamaica"
+        },
         "urd": {
             "common": "\u062c\u0645\u06cc\u06a9\u0627",
             "official": "\u062c\u0645\u06cc\u06a9\u0627"
@@ -275,6 +296,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "388",
+    "un_member": true,
     "wb_a2": "JM",
     "wb_a3": "JAM",
     "wikidataid": "Q766",

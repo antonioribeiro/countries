@@ -15,7 +15,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "95",
+        "zone_id": "84",
         "zone_name": "America\/Atikokan"
     },
     "america_blanc-_sablon": {
@@ -33,7 +33,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "89",
+        "zone_id": "85",
         "zone_name": "America\/Blanc-Sablon"
     },
     "america_cambridge__bay": {
@@ -45,7 +45,8 @@
             "MDT",
             "MPT",
             "MST",
-            "MWT"
+            "MWT",
+            "UTC"
         ],
         "cca2": "CA",
         "cca3": "CAN",
@@ -54,7 +55,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "103",
+        "zone_id": "86",
         "zone_name": "America\/Cambridge_Bay"
     },
     "america_creston": {
@@ -70,12 +71,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "106",
+        "zone_id": "87",
         "zone_name": "America\/Creston"
     },
     "america_dawson": {
         "abbreviations": [
             "LMT",
+            "MST",
             "PDT",
             "PST",
             "YDDT",
@@ -91,7 +93,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "111",
+        "zone_id": "88",
         "zone_name": "America\/Dawson"
     },
     "america_dawson__creek": {
@@ -110,7 +112,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "107",
+        "zone_id": "89",
         "zone_name": "America\/Dawson_Creek"
     },
     "america_edmonton": {
@@ -128,7 +130,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "102",
+        "zone_id": "90",
         "zone_name": "America\/Edmonton"
     },
     "america_fort__nelson": {
@@ -147,7 +149,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "108",
+        "zone_id": "91",
         "zone_name": "America\/Fort_Nelson"
     },
     "america_glace__bay": {
@@ -165,7 +167,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "86",
+        "zone_id": "92",
         "zone_name": "America\/Glace_Bay"
     },
     "america_goose__bay": {
@@ -186,7 +188,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "88",
+        "zone_id": "93",
         "zone_name": "America\/Goose_Bay"
     },
     "america_halifax": {
@@ -204,7 +206,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "85",
+        "zone_id": "94",
         "zone_name": "America\/Halifax"
     },
     "america_inuvik": {
@@ -212,7 +214,8 @@
             "MDT",
             "MST",
             "PDDT",
-            "PST"
+            "PST",
+            "UTC"
         ],
         "cca2": "CA",
         "cca3": "CAN",
@@ -221,7 +224,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "105",
+        "zone_id": "95",
         "zone_name": "America\/Inuvik"
     },
     "america_iqaluit": {
@@ -232,7 +235,8 @@
             "EDT",
             "EPT",
             "EST",
-            "EWT"
+            "EWT",
+            "UTC"
         ],
         "cca2": "CA",
         "cca3": "CAN",
@@ -241,7 +245,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "93",
+        "zone_id": "96",
         "zone_name": "America\/Iqaluit"
     },
     "america_moncton": {
@@ -260,7 +264,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "87",
+        "zone_id": "97",
         "zone_name": "America\/Moncton"
     },
     "america_nipigon": {
@@ -278,7 +282,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "91",
+        "zone_id": "98",
         "zone_name": "America\/Nipigon"
     },
     "america_pangnirtung": {
@@ -291,7 +295,8 @@
             "CDT",
             "CST",
             "EDT",
-            "EST"
+            "EST",
+            "UTC"
         ],
         "cca2": "CA",
         "cca3": "CAN",
@@ -300,7 +305,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "94",
+        "zone_id": "99",
         "zone_name": "America\/Pangnirtung"
     },
     "america_rainy__river": {
@@ -318,7 +323,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "97",
+        "zone_id": "100",
         "zone_name": "America\/Rainy_River"
     },
     "america_rankin__inlet": {
@@ -326,7 +331,8 @@
             "CDDT",
             "CDT",
             "CST",
-            "EST"
+            "EST",
+            "UTC"
         ],
         "cca2": "CA",
         "cca3": "CAN",
@@ -335,7 +341,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "99",
+        "zone_id": "101",
         "zone_name": "America\/Rankin_Inlet"
     },
     "america_regina": {
@@ -354,7 +360,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "100",
+        "zone_id": "102",
         "zone_name": "America\/Regina"
     },
     "america_resolute": {
@@ -362,7 +368,8 @@
             "CDDT",
             "CDT",
             "CST",
-            "EST"
+            "EST",
+            "UTC"
         ],
         "cca2": "CA",
         "cca3": "CAN",
@@ -371,7 +378,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "98",
+        "zone_id": "103",
         "zone_name": "America\/Resolute"
     },
     "america_st__johns": {
@@ -390,7 +397,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "84",
+        "zone_id": "104",
         "zone_name": "America\/St_Johns"
     },
     "america_swift__current": {
@@ -409,7 +416,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "101",
+        "zone_id": "105",
         "zone_name": "America\/Swift_Current"
     },
     "america_thunder__bay": {
@@ -428,7 +435,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "92",
+        "zone_id": "106",
         "zone_name": "America\/Thunder_Bay"
     },
     "america_toronto": {
@@ -446,7 +453,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "90",
+        "zone_id": "107",
         "zone_name": "America\/Toronto"
     },
     "america_vancouver": {
@@ -464,12 +471,13 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "109",
+        "zone_id": "108",
         "zone_name": "America\/Vancouver"
     },
     "america_whitehorse": {
         "abbreviations": [
             "LMT",
+            "MST",
             "PDT",
             "PST",
             "YDDT",
@@ -485,7 +493,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "110",
+        "zone_id": "109",
         "zone_name": "America\/Whitehorse"
     },
     "america_winnipeg": {
@@ -503,7 +511,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "96",
+        "zone_id": "110",
         "zone_name": "America\/Winnipeg"
     },
     "america_yellowknife": {
@@ -512,7 +520,8 @@
             "MDT",
             "MPT",
             "MST",
-            "MWT"
+            "MWT",
+            "UTC"
         ],
         "cca2": "CA",
         "cca3": "CAN",
@@ -521,7 +530,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "104",
+        "zone_id": "111",
         "zone_name": "America\/Yellowknife"
     }
 }

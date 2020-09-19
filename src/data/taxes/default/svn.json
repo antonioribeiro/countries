@@ -43,6 +43,17 @@
                 ],
                 "id": "si_vat_reduced",
                 "name": "Reduced"
+            },
+            {
+                "amounts": [
+                    {
+                        "amount": 0.05,
+                        "id": "si_vat_super_reduced_2020",
+                        "start_date": "2020-01-01"
+                    }
+                ],
+                "id": "si_vat_super_reduced",
+                "name": "Super Reduced"
             }
         ],
         "record_type": "tax",

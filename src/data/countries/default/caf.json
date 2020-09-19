@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Central African Rep.",
+    "calling_codes": [
+        "+236"
+    ],
     "capital": [
         "Bangui"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Central African",
+    "demonyms": {
+        "eng": {
+            "f": "Central African",
+            "m": "Central African"
+        },
+        "fra": {
+            "f": "Centrafricaine",
+            "m": "Centrafricain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "236"
@@ -244,6 +257,10 @@
             "common": "Srednjoafri\u010dka Republika",
             "official": "Centralna Afri\u010dka Republika"
         },
+        "hun": {
+            "common": "K\u00f6z\u00e9p-afrikai K\u00f6zt\u00e1rsas\u00e1g",
+            "official": "K\u00f6z\u00e9p-afrikai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Repubblica Centrafricana",
             "official": "Repubblica Centrafricana"
@@ -284,6 +301,10 @@
             "common": "Rep\u00fablica Centroafricana",
             "official": "Rep\u00fablica Centroafricana"
         },
+        "swe": {
+            "common": "Centralafrikanska republiken",
+            "official": "Centralafrikanska republiken"
+        },
         "urd": {
             "common": "\u0648\u0633\u0637\u06cc \u0627\u0641\u0631\u06cc\u0642\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1",
             "official": "\u0648\u0633\u0637\u06cc \u0627\u0641\u0631\u06cc\u0642\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1"
@@ -295,6 +316,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "140",
+    "un_member": true,
     "wb_a2": "CF",
     "wb_a3": "CAF",
     "wikidataid": "Q929",

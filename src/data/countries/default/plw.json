@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Palau",
+    "calling_codes": [
+        "+680"
+    ],
     "capital": [
         "Ngerulmud"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Palauan",
+    "demonyms": {
+        "eng": {
+            "f": "Palauan",
+            "m": "Palauan"
+        },
+        "fra": {
+            "f": "Paluane",
+            "m": "Paluan"
+        }
+    },
     "dialling": {
         "calling_code": [
             "680"
@@ -226,6 +239,10 @@
             "common": "Palau",
             "official": "Republika Palau"
         },
+        "hun": {
+            "common": "Palau",
+            "official": "Palaui K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Palau",
             "official": "Repubblica di Palau"
@@ -266,6 +283,10 @@
             "common": "Palau",
             "official": "Rep\u00fablica de Palau"
         },
+        "swe": {
+            "common": "Palau",
+            "official": "Republiken Palau"
+        },
         "urd": {
             "common": "\u067e\u0644\u0627\u0624",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0644\u0627\u0624"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "585",
+    "un_member": true,
     "wb_a2": "PW",
     "wb_a3": "PLW",
     "wikidataid": "Q695",

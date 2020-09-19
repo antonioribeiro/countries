@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Croatia",
+    "calling_codes": [
+        "+385"
+    ],
     "capital": [
         "Zagreb"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Croatian",
+    "demonyms": {
+        "eng": {
+            "f": "Croatian",
+            "m": "Croatian"
+        },
+        "fra": {
+            "f": "Croate",
+            "m": "Croate"
+        }
+    },
     "dialling": {
         "calling_code": [
             "385"
@@ -246,6 +259,10 @@
             "common": "Hrvatska",
             "official": "Republika Hrvatska"
         },
+        "hun": {
+            "common": "Horv\u00e1torsz\u00e1g",
+            "official": "Horv\u00e1t K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Croazia",
             "official": "Repubblica di Croazia"
@@ -286,6 +303,10 @@
             "common": "Croacia",
             "official": "Rep\u00fablica de Croacia"
         },
+        "swe": {
+            "common": "Kroatien",
+            "official": "Republiken Kroatien"
+        },
         "urd": {
             "common": "\u06a9\u0631\u0648\u06cc\u0626\u0634\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0631\u0648\u06cc\u0626\u0634\u0627"
@@ -297,6 +318,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "191",
+    "un_member": true,
     "wb_a2": "HR",
     "wb_a3": "HRV",
     "wikidataid": "Q224",

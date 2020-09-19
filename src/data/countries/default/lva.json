@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Latvia",
+    "calling_codes": [
+        "+371"
+    ],
     "capital": [
         "Riga"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Latvian",
+    "demonyms": {
+        "eng": {
+            "f": "Latvian",
+            "m": "Latvian"
+        },
+        "fra": {
+            "f": "Lettone",
+            "m": "Letton"
+        }
+    },
     "dialling": {
         "calling_code": [
             "371"
@@ -238,6 +251,10 @@
             "common": "Latvija",
             "official": "Republika Latvija"
         },
+        "hun": {
+            "common": "Lettorsz\u00e1g",
+            "official": "Lett K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Lettonia",
             "official": "Repubblica di Lettonia"
@@ -278,6 +295,10 @@
             "common": "Letonia",
             "official": "Rep\u00fablica de Letonia"
         },
+        "swe": {
+            "common": "Lettland",
+            "official": "Republiken Lettland"
+        },
         "urd": {
             "common": "\u0644\u0679\u0648\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0644\u0679\u0648\u06cc\u0627"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "428",
+    "un_member": true,
     "wb_a2": "LV",
     "wb_a3": "LVA",
     "wikidataid": "Q211",

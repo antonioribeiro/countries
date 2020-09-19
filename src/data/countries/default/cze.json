@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Czechia",
+    "calling_codes": [
+        "+420"
+    ],
     "capital": [
         "Prague"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Czech",
+    "demonyms": {
+        "eng": {
+            "f": "Czech",
+            "m": "Czech"
+        },
+        "fra": {
+            "f": "Tch\u00e8que",
+            "m": "Tch\u00e8que"
+        }
+    },
     "dialling": {
         "calling_code": [
             "420"
@@ -261,6 +274,10 @@
             "common": "\u010ce\u0161ka",
             "official": "\u010ce\u0161ka"
         },
+        "hun": {
+            "common": "Csehorsz\u00e1g",
+            "official": "Cseh K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Repubblica Ceca",
             "official": "Repubblica Ceca"
@@ -301,6 +318,10 @@
             "common": "Rep\u00fablica Checa",
             "official": "Rep\u00fablica Checa"
         },
+        "swe": {
+            "common": "Tjeckien",
+            "official": "Republiken Tjeckien"
+        },
         "urd": {
             "common": "\u0686\u064a\u06a9",
             "official": "\u0686\u064a\u06a9 \u062c\u0645\u06c1\u0648\u0631\u064a\u06c1"
@@ -312,6 +333,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "203",
+    "un_member": true,
     "wb_a2": "CZ",
     "wb_a3": "CZE",
     "wikidataid": "Q213",

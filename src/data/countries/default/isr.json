@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Israel",
+    "calling_codes": [
+        "+972"
+    ],
     "capital": [
         "Jerusalem"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Israeli",
+    "demonyms": {
+        "eng": {
+            "f": "Israeli",
+            "m": "Israeli"
+        },
+        "fra": {
+            "f": "Isra\u00e9lienne",
+            "m": "Isra\u00e9lien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "972"
@@ -239,6 +252,10 @@
             "common": "Izrael",
             "official": "Dr\u017eava Izrael"
         },
+        "hun": {
+            "common": "Izrael",
+            "official": "Izrael"
+        },
         "ita": {
             "common": "Israele",
             "official": "Stato di Israele"
@@ -279,6 +296,10 @@
             "common": "Israel",
             "official": "Estado de Israel"
         },
+        "swe": {
+            "common": "Israel",
+            "official": "Staten Israel"
+        },
         "urd": {
             "common": "\u0627\u0633\u0631\u0627\u0626\u06cc\u0644",
             "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0627\u0633\u0631\u0627\u0626\u06cc\u0644"
@@ -290,6 +311,7 @@
     },
     "type": "Country",
     "un_a3": "376",
+    "un_member": true,
     "wb_a2": "IL",
     "wb_a3": "ISR",
     "wikidataid": "Q801",

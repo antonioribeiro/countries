@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "El Salvador",
+    "calling_codes": [
+        "+503"
+    ],
     "capital": [
         "San Salvador"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Salvadoran",
+    "demonyms": {
+        "eng": {
+            "f": "Salvadoran",
+            "m": "Salvadoran"
+        },
+        "fra": {
+            "f": "Salvadorienne",
+            "m": "Salvadorien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "503"
@@ -232,6 +245,10 @@
             "common": "Salvador",
             "official": "Republika El Salvador"
         },
+        "hun": {
+            "common": "Salvador",
+            "official": "Salvadori K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "El Salvador",
             "official": "Repubblica di El Salvador"
@@ -272,6 +289,10 @@
             "common": "El Salvador",
             "official": "Rep\u00fablica de El Salvador"
         },
+        "swe": {
+            "common": "El Salvador",
+            "official": "Republiken El Salvador"
+        },
         "urd": {
             "common": "\u0627\u06cc\u0644 \u0633\u06cc\u0644\u0648\u0627\u0688\u0648\u0631",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u06cc\u0644 \u0633\u06cc\u0644\u0648\u0627\u0688\u0648\u0631"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "222",
+    "un_member": true,
     "wb_a2": "SV",
     "wb_a3": "SLV",
     "wikidataid": "Q792",

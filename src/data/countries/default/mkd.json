@@ -12,6 +12,7 @@
         "MK",
         "The former Yugoslav Republic of Macedonia",
         "Republic of North Macedonia",
+        "Macedonia, The Former Yugoslav Republic of",
         "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
     ],
     "alt_spellings_rinvex": [
@@ -31,6 +32,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Macedonia",
+    "calling_codes": [
+        "+389"
+    ],
     "capital": [
         "Skopje"
     ],
@@ -47,6 +51,16 @@
         "natural"
     ],
     "demonym": "Macedonian",
+    "demonyms": {
+        "eng": {
+            "f": "Macedonian",
+            "m": "Macedonian"
+        },
+        "fra": {
+            "f": "Mac\u00e9donienne",
+            "m": "Mac\u00e9donien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "389"
@@ -251,6 +265,10 @@
             "common": "Makedonija",
             "official": "Republika Makedonija"
         },
+        "hun": {
+            "common": "\u00c9szak-Maced\u00f3nia",
+            "official": "\u00c9szak-maced\u00f3n K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Macedonia",
             "official": "Repubblica di Macedonia"
@@ -291,6 +309,10 @@
             "common": "Macedonia",
             "official": "Rep\u00fablica de Macedonia"
         },
+        "swe": {
+            "common": "Nordmakedonien",
+            "official": "Republiken Nordmakedonien"
+        },
         "urd": {
             "common": "\u0634\u0645\u0627\u0644\u06cc \u0645\u0642\u062f\u0648\u0646\u06cc\u06c1",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0642\u062f\u0648\u0646\u06cc\u06c1"
@@ -302,6 +324,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "807",
+    "un_member": true,
     "wb_a2": "MK",
     "wb_a3": "MKD",
     "wikidataid": "Q221",

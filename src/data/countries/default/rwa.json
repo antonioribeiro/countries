@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Rwanda",
+    "calling_codes": [
+        "+250"
+    ],
     "capital": [
         "Kigali"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Rwandan",
+    "demonyms": {
+        "eng": {
+            "f": "Rwandan",
+            "m": "Rwandan"
+        },
+        "fra": {
+            "f": "Rwandaise",
+            "m": "Rwandais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "250"
@@ -243,6 +256,10 @@
             "common": "Ruanda",
             "official": "Republika Ruandi"
         },
+        "hun": {
+            "common": "Ruanda",
+            "official": "Ruandai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Ruanda",
             "official": "Repubblica del Ruanda"
@@ -283,6 +300,10 @@
             "common": "Ruanda",
             "official": "Rep\u00fablica de Rwanda"
         },
+        "swe": {
+            "common": "Rwanda",
+            "official": "Republiken Rwanda"
+        },
         "urd": {
             "common": "\u0631\u0648\u0627\u0646\u0688\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0631\u0648\u0627\u0646\u0688\u0627"
@@ -294,6 +315,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "646",
+    "un_member": true,
     "wb_a2": "RW",
     "wb_a3": "RWA",
     "wikidataid": "Q1037",

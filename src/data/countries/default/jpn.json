@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Japan",
+    "calling_codes": [
+        "+81"
+    ],
     "capital": [
         "Tokyo"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Japanese",
+    "demonyms": {
+        "eng": {
+            "f": "Japanese",
+            "m": "Japanese"
+        },
+        "fra": {
+            "f": "Japonaise",
+            "m": "Japonais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "81"
@@ -223,6 +236,10 @@
             "common": "Japan",
             "official": "Japan"
         },
+        "hun": {
+            "common": "Jap\u00e1n",
+            "official": "Jap\u00e1n"
+        },
         "ita": {
             "common": "Giappone",
             "official": "Giappone"
@@ -263,6 +280,10 @@
             "common": "Jap\u00f3n",
             "official": "Jap\u00f3n"
         },
+        "swe": {
+            "common": "Japan",
+            "official": "Japan"
+        },
         "urd": {
             "common": "\u062c\u0627\u067e\u0627\u0646",
             "official": "\u062c\u0627\u067e\u0627\u0646"
@@ -274,6 +295,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "392",
+    "un_member": true,
     "wb_a2": "JP",
     "wb_a3": "JPN",
     "wikidataid": "Q17",

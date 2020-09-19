@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Burkina Faso",
+    "calling_codes": [
+        "+226"
+    ],
     "capital": [
         "Ouagadougou"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Burkinabe",
+    "demonyms": {
+        "eng": {
+            "f": "Burkinabe",
+            "m": "Burkinabe"
+        },
+        "fra": {
+            "f": "Burkinab\u00e9e",
+            "m": "Burkinab\u00e9"
+        }
+    },
     "dialling": {
         "calling_code": [
             "226"
@@ -237,6 +250,10 @@
             "common": "Burkina Faso",
             "official": "Burkina Faso"
         },
+        "hun": {
+            "common": "Burkina",
+            "official": "Burkina Faso"
+        },
         "ita": {
             "common": "Burkina Faso",
             "official": "Burkina Faso"
@@ -277,6 +294,10 @@
             "common": "Burkina Faso",
             "official": "Burkina Faso"
         },
+        "swe": {
+            "common": "Burkina Faso",
+            "official": "Burkina Faso"
+        },
         "urd": {
             "common": "\u0628\u0631\u06a9\u06cc\u0646\u0627 \u0641\u0627\u0633\u0648",
             "official": "\u0628\u0631\u06a9\u06cc\u0646\u0627 \u0641\u0627\u0633\u0648"
@@ -288,6 +309,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "854",
+    "un_member": true,
     "wb_a2": "BF",
     "wb_a3": "BFA",
     "wikidataid": "Q965",

@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Kenya",
+    "calling_codes": [
+        "+254"
+    ],
     "capital": [
         "Nairobi"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Kenyan",
+    "demonyms": {
+        "eng": {
+            "f": "Kenyan",
+            "m": "Kenyan"
+        },
+        "fra": {
+            "f": "K\u00e9nyane",
+            "m": "K\u00e9nyan"
+        }
+    },
     "dialling": {
         "calling_code": [
             "254"
@@ -238,6 +251,10 @@
             "common": "Kenija",
             "official": "Republika Kenija"
         },
+        "hun": {
+            "common": "Kenya",
+            "official": "Kenyai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Kenya",
             "official": "Repubblica del Kenya"
@@ -278,6 +295,10 @@
             "common": "Kenia",
             "official": "Rep\u00fablica de Kenya"
         },
+        "swe": {
+            "common": "Kenya",
+            "official": "Republiken Kenya"
+        },
         "urd": {
             "common": "\u06a9\u06cc\u0646\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u06cc\u0646\u06cc\u0627"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "404",
+    "un_member": true,
     "wb_a2": "KE",
     "wb_a3": "KEN",
     "wikidataid": "Q114",

@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Chile",
+    "calling_codes": [
+        "+56"
+    ],
     "capital": [
         "Santiago"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Chilean",
+    "demonyms": {
+        "eng": {
+            "f": "Chilean",
+            "m": "Chilean"
+        },
+        "fra": {
+            "f": "Chilienne",
+            "m": "Chilien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "56"
@@ -235,6 +248,10 @@
             "common": "\u010cile",
             "official": "Republika \u010cile"
         },
+        "hun": {
+            "common": "Chile",
+            "official": "Chilei K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Cile",
             "official": "Repubblica del Cile"
@@ -275,6 +292,10 @@
             "common": "Chile",
             "official": "Rep\u00fablica de Chile"
         },
+        "swe": {
+            "common": "Chile",
+            "official": "Republiken Chile"
+        },
         "urd": {
             "common": "\u0686\u0644\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0686\u0644\u06cc"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "152",
+    "un_member": true,
     "wb_a2": "CL",
     "wb_a3": "CHL",
     "wikidataid": "Q298",

@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "San Marino",
+    "calling_codes": [
+        "+378"
+    ],
     "capital": [
         "City of San Marino"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Sammarinese",
+    "demonyms": {
+        "eng": {
+            "f": "Sammarinese",
+            "m": "Sammarinese"
+        },
+        "fra": {
+            "f": "Saint-Marinaise",
+            "m": "Saint-Marinais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "378"
@@ -228,6 +241,10 @@
             "common": "San Marino",
             "official": "Ve\u0107ina Serene Republika San Marino"
         },
+        "hun": {
+            "common": "San Marino",
+            "official": "San Marino K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "San Marino",
             "official": "Serenissima Repubblica di San Marino"
@@ -268,6 +285,10 @@
             "common": "San Marino",
             "official": "Seren\u00edsima Rep\u00fablica de San Marino"
         },
+        "swe": {
+            "common": "San Marino",
+            "official": "Republiken San Marino"
+        },
         "urd": {
             "common": "\u0633\u0627\u0646 \u0645\u0627\u0631\u06cc\u0646\u0648",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0627\u0646 \u0645\u0627\u0631\u06cc\u0646\u0648"
@@ -279,6 +300,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "674",
+    "un_member": true,
     "wb_a2": "SM",
     "wb_a3": "SMR",
     "wikidataid": "Q238",

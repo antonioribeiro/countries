@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Fiji",
+    "calling_codes": [
+        "+679"
+    ],
     "capital": [
         "Suva"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Fijian",
+    "demonyms": {
+        "eng": {
+            "f": "Fijian",
+            "m": "Fijian"
+        },
+        "fra": {
+            "f": "Fidjienne",
+            "m": "Fidjien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "679"
@@ -233,6 +246,10 @@
             "common": "Fi\u0111i",
             "official": "Republika Fid\u017ei"
         },
+        "hun": {
+            "common": "Fidzsi-szigetek",
+            "official": "Fidzsi-szigeteki K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Figi",
             "official": "Repubblica di Figi"
@@ -273,6 +290,10 @@
             "common": "Fiyi",
             "official": "Rep\u00fablica de Fiji"
         },
+        "swe": {
+            "common": "Fiji",
+            "official": "Republiken Fiji"
+        },
         "urd": {
             "common": "\u0641\u062c\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u062c\u06cc"
@@ -284,6 +305,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "242",
+    "un_member": true,
     "wb_a2": "FJ",
     "wb_a3": "FJI",
     "wikidataid": "Q712",

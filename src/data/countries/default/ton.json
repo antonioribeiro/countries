@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Tonga",
+    "calling_codes": [
+        "+676"
+    ],
     "capital": [
         "Nuku'alofa"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Tongan",
+    "demonyms": {
+        "eng": {
+            "f": "Tongan",
+            "m": "Tongan"
+        },
+        "fra": {
+            "f": "Tonguienne",
+            "m": "Tonguien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "676"
@@ -226,6 +239,10 @@
             "common": "Tonga",
             "official": "Kraljevina Tonga"
         },
+        "hun": {
+            "common": "Tonga",
+            "official": "Tongai Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Tonga",
             "official": "Regno di Tonga"
@@ -266,6 +283,10 @@
             "common": "Tonga",
             "official": "Reino de Tonga"
         },
+        "swe": {
+            "common": "Tonga",
+            "official": "Konungariket Tonga"
+        },
         "urd": {
             "common": "\u0679\u0648\u0646\u06af\u0627",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0679\u0648\u0646\u06af\u0627"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "776",
+    "un_member": true,
     "wb_a2": "TO",
     "wb_a3": "TON",
     "wikidataid": "Q678",

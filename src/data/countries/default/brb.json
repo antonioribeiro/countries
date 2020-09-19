@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Barbados",
+    "calling_codes": [
+        "+1246"
+    ],
     "capital": [
         "Bridgetown"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Barbadian",
+    "demonyms": {
+        "eng": {
+            "f": "Barbadian",
+            "m": "Barbadian"
+        },
+        "fra": {
+            "f": "Barbadienne",
+            "m": "Barbadien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1246"
@@ -223,6 +236,10 @@
             "common": "Barbados",
             "official": "Barbados"
         },
+        "hun": {
+            "common": "Barbados",
+            "official": "Barbados"
+        },
         "ita": {
             "common": "Barbados",
             "official": "Barbados"
@@ -263,6 +280,10 @@
             "common": "Barbados",
             "official": "Barbados"
         },
+        "swe": {
+            "common": "Barbados",
+            "official": "Barbados"
+        },
         "urd": {
             "common": "\u0628\u0627\u0631\u0628\u0627\u0688\u0648\u0633",
             "official": "\u0628\u0627\u0631\u0628\u0627\u0688\u0648\u0633"
@@ -274,6 +295,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "052",
+    "un_member": true,
     "wb_a2": "BB",
     "wb_a3": "BRB",
     "wikidataid": "Q244",

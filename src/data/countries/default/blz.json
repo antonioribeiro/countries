@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Belize",
+    "calling_codes": [
+        "+501"
+    ],
     "capital": [
         "Belmopan"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Belizean",
+    "demonyms": {
+        "eng": {
+            "f": "Belizean",
+            "m": "Belizean"
+        },
+        "fra": {
+            "f": "B\u00e9lizienne",
+            "m": "B\u00e9lizien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "501"
@@ -239,6 +252,10 @@
             "common": "Belize",
             "official": "Belize"
         },
+        "hun": {
+            "common": "Belize",
+            "official": "Belize"
+        },
         "ita": {
             "common": "Belize",
             "official": "Belize"
@@ -279,6 +296,10 @@
             "common": "Belice",
             "official": "Belice"
         },
+        "swe": {
+            "common": "Belize",
+            "official": "Belize"
+        },
         "urd": {
             "common": "\u0628\u06cc\u0644\u06cc\u0632",
             "official": "\u0628\u06cc\u0644\u06cc\u0632"
@@ -290,6 +311,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "084",
+    "un_member": true,
     "wb_a2": "BZ",
     "wb_a3": "BLZ",
     "wikidataid": "Q242",

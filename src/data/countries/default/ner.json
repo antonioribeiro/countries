@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Niger",
+    "calling_codes": [
+        "+227"
+    ],
     "capital": [
         "Niamey"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Nigerien",
+    "demonyms": {
+        "eng": {
+            "f": "Nigerien",
+            "m": "Nigerien"
+        },
+        "fra": {
+            "f": "Nig\u00e9rienne",
+            "m": "Nig\u00e9rien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "227"
@@ -236,6 +249,10 @@
             "common": "Niger",
             "official": "Republika Niger"
         },
+        "hun": {
+            "common": "Niger",
+            "official": "Nigeri K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Niger",
             "official": "Repubblica del Niger"
@@ -276,6 +293,10 @@
             "common": "N\u00edger",
             "official": "Rep\u00fablica de N\u00edger"
         },
+        "swe": {
+            "common": "Niger",
+            "official": "Republiken Niger"
+        },
         "urd": {
             "common": "\u0646\u0627\u0626\u062c\u0631",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0646\u0627\u0626\u062c\u0631"
@@ -287,6 +308,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "562",
+    "un_member": true,
     "wb_a2": "NE",
     "wb_a3": "NER",
     "wikidataid": "Q1032",

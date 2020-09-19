@@ -27,6 +27,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Netherlands",
+    "calling_codes": [
+        "+31"
+    ],
     "capital": [
         "Amsterdam"
     ],
@@ -43,6 +46,16 @@
         "natural"
     ],
     "demonym": "Dutch",
+    "demonyms": {
+        "eng": {
+            "f": "Dutch",
+            "m": "Dutch"
+        },
+        "fra": {
+            "f": "N\u00e9erlandaise",
+            "m": "N\u00e9erlandais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "31"
@@ -78,7 +91,7 @@
         "vat_rates": {
             "parking": null,
             "reduced": [
-                6
+                9
             ],
             "standard": 21,
             "super_reduced": null
@@ -250,6 +263,10 @@
             "common": "Nizozemska",
             "official": "Holandija"
         },
+        "hun": {
+            "common": "Hollandia",
+            "official": "Holland Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Paesi Bassi",
             "official": "Paesi Bassi"
@@ -290,6 +307,10 @@
             "common": "Pa\u00edses Bajos",
             "official": "Pa\u00edses Bajos"
         },
+        "swe": {
+            "common": "Nederl\u00e4nderna",
+            "official": "Nederl\u00e4nderna"
+        },
         "urd": {
             "common": "\u0646\u06cc\u062f\u0631\u0644\u06cc\u0646\u0688\u0632",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0646\u06cc\u062f\u0631\u0644\u06cc\u0646\u0688\u0632"
@@ -301,6 +322,7 @@
     },
     "type": "Country",
     "un_a3": "528",
+    "un_member": true,
     "wb_a2": "NL",
     "wb_a3": "NLD",
     "wikidataid": "Q55",

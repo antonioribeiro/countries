@@ -28,6 +28,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Turkey",
+    "calling_codes": [
+        "+90"
+    ],
     "capital": [
         "Ankara"
     ],
@@ -44,6 +47,16 @@
         "natural"
     ],
     "demonym": "Turkish",
+    "demonyms": {
+        "eng": {
+            "f": "Turkish",
+            "m": "Turkish"
+        },
+        "fra": {
+            "f": "Turque",
+            "m": "Turc"
+        }
+    },
     "dialling": {
         "calling_code": [
             "90"
@@ -240,6 +253,10 @@
             "common": "Turska",
             "official": "Republika Turska"
         },
+        "hun": {
+            "common": "T\u00f6r\u00f6korsz\u00e1g",
+            "official": "T\u00f6r\u00f6k K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Turchia",
             "official": "Repubblica di Turchia"
@@ -280,6 +297,10 @@
             "common": "Turqu\u00eda",
             "official": "Rep\u00fablica de Turqu\u00eda"
         },
+        "swe": {
+            "common": "Turkiet",
+            "official": "Republiken Turkiet"
+        },
         "urd": {
             "common": "\u062a\u0631\u06a9\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062a\u0631\u06a9\u06cc"
@@ -291,6 +312,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "792",
+    "un_member": true,
     "wb_a2": "TR",
     "wb_a3": "TUR",
     "wikidataid": "Q43",

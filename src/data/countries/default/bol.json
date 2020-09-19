@@ -30,6 +30,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bolivia",
+    "calling_codes": [
+        "+591"
+    ],
     "capital": [
         "Sucre"
     ],
@@ -47,6 +50,16 @@
         "natural"
     ],
     "demonym": "Bolivian",
+    "demonyms": {
+        "eng": {
+            "f": "Bolivian",
+            "m": "Bolivian"
+        },
+        "fra": {
+            "f": "Bolivienne",
+            "m": "Bolivien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "591"
@@ -259,6 +272,10 @@
             "common": "Bolivija",
             "official": "Plurinational State of Bolivia"
         },
+        "hun": {
+            "common": "Bol\u00edvia",
+            "official": "Bol\u00edviai T\u00f6bbnemzetis\u00e9g\u0171 \u00c1llam"
+        },
         "ita": {
             "common": "Bolivia",
             "official": "Stato Plurinazionale della Bolivia"
@@ -299,6 +316,10 @@
             "common": "Bolivia",
             "official": "Estado Plurinacional de Bolivia"
         },
+        "swe": {
+            "common": "Bolivia",
+            "official": "M\u00e5ngnationella staten Bolivia"
+        },
         "urd": {
             "common": "\u0628\u0648\u0644\u06cc\u0648\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0648\u0644\u06cc\u0648\u06cc\u0627"
@@ -310,6 +331,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "068",
+    "un_member": true,
     "wb_a2": "BO",
     "wb_a3": "BOL",
     "wikidataid": "Q750",

@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Benin",
+    "calling_codes": [
+        "+229"
+    ],
     "capital": [
         "Porto-Novo"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Beninese",
+    "demonyms": {
+        "eng": {
+            "f": "Beninese",
+            "m": "Beninese"
+        },
+        "fra": {
+            "f": "B\u00e9ninoise",
+            "m": "B\u00e9ninois"
+        }
+    },
     "dialling": {
         "calling_code": [
             "229"
@@ -235,6 +248,10 @@
             "common": "Benin",
             "official": "Republika Benin"
         },
+        "hun": {
+            "common": "Benin",
+            "official": "Benini K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Benin",
             "official": "Repubblica del Benin"
@@ -275,6 +292,10 @@
             "common": "Ben\u00edn",
             "official": "Rep\u00fablica de Benin"
         },
+        "swe": {
+            "common": "Benin",
+            "official": "Republiken Benin"
+        },
         "urd": {
             "common": "\u0628\u06cc\u0646\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u06cc\u0646\u0646"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "204",
+    "un_member": true,
     "wb_a2": "BJ",
     "wb_a3": "BEN",
     "wikidataid": "Q962",

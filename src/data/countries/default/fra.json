@@ -27,6 +27,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "France",
+    "calling_codes": [
+        "+33"
+    ],
     "capital": [
         "Paris"
     ],
@@ -43,6 +46,16 @@
         "natural"
     ],
     "demonym": "French",
+    "demonyms": {
+        "eng": {
+            "f": "French",
+            "m": "French"
+        },
+        "fra": {
+            "f": "Fran\u00e7aise",
+            "m": "Fran\u00e7ais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "33"
@@ -248,6 +261,10 @@
             "common": "Francuska",
             "official": "Francuska Republika"
         },
+        "hun": {
+            "common": "Franciaorsz\u00e1g",
+            "official": "Francia K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Francia",
             "official": "Repubblica francese"
@@ -288,6 +305,10 @@
             "common": "Francia",
             "official": "Rep\u00fablica franc\u00e9s"
         },
+        "swe": {
+            "common": "Frankrike",
+            "official": "Republiken Frankrike"
+        },
         "urd": {
             "common": "\u0641\u0631\u0627\u0646\u0633",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u0631\u0627\u0646\u0633"
@@ -299,6 +320,7 @@
     },
     "type": "Country",
     "un_a3": "250",
+    "un_member": true,
     "wb_a2": "FR",
     "wb_a3": "FRA",
     "wikidataid": "Q142",

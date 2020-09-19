@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cyprus",
+    "calling_codes": [
+        "+357"
+    ],
     "capital": [
         "Nicosia"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Cypriot",
+    "demonyms": {
+        "eng": {
+            "f": "Cypriot",
+            "m": "Cypriot"
+        },
+        "fra": {
+            "f": "Chypriote",
+            "m": "Chypriote"
+        }
+    },
     "dialling": {
         "calling_code": [
             "357"
@@ -244,6 +257,10 @@
             "common": "Cipar",
             "official": "Republika Cipar"
         },
+        "hun": {
+            "common": "Ciprus",
+            "official": "Ciprusi K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Cipro",
             "official": "Repubblica di Cipro"
@@ -284,6 +301,10 @@
             "common": "Chipre",
             "official": "Rep\u00fablica de Chipre"
         },
+        "swe": {
+            "common": "Cypern",
+            "official": "Republiken Cypern"
+        },
         "urd": {
             "common": "\u0642\u0628\u0631\u0635",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0642\u0628\u0631\u0635"
@@ -295,6 +316,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "196",
+    "un_member": true,
     "wb_a2": "CY",
     "wb_a3": "CYP",
     "wikidataid": "Q229",

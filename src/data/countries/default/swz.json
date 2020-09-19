@@ -33,6 +33,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "eSwatini",
+    "calling_codes": [
+        "+268"
+    ],
     "capital": [
         "Lobamba"
     ],
@@ -49,6 +52,16 @@
         "natural"
     ],
     "demonym": "Swazi",
+    "demonyms": {
+        "eng": {
+            "f": "Swazi",
+            "m": "Swazi"
+        },
+        "fra": {
+            "f": "Swazie",
+            "m": "Swazie"
+        }
+    },
     "dialling": {
         "calling_code": [
             "268"
@@ -258,6 +271,10 @@
             "common": "Svazi",
             "official": "Kraljevina Svazi"
         },
+        "hun": {
+            "common": "Szv\u00e1zif\u00f6ld",
+            "official": "Szv\u00e1zif\u00f6ldi Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Swaziland",
             "official": "Regno dello Swaziland"
@@ -298,6 +315,10 @@
             "common": "Suazilandia",
             "official": "Reino de Swazilandia"
         },
+        "swe": {
+            "common": "Swaziland",
+            "official": "Konungariket Eswatini"
+        },
         "urd": {
             "common": "\u0633\u0648\u0627\u0632\u06cc \u0644\u06cc\u0646\u0688",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0633\u0648\u0627\u0632\u06cc \u0644\u06cc\u0646\u0688"
@@ -309,6 +330,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "748",
+    "un_member": true,
     "wb_a2": "SZ",
     "wb_a3": "SWZ",
     "wikidataid": "Q1050",

@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Laos",
+    "calling_codes": [
+        "+856"
+    ],
     "capital": [
         "Vientiane"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Laotian",
+    "demonyms": {
+        "eng": {
+            "f": "Laotian",
+            "m": "Laotian"
+        },
+        "fra": {
+            "f": "Laotienne",
+            "m": "Laotien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "856"
@@ -234,6 +247,10 @@
             "common": "Laos",
             "official": "Narodna Demokratska Republika"
         },
+        "hun": {
+            "common": "Laosz",
+            "official": "Laoszi N\u00e9pi Demokratikus K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Laos",
             "official": "Repubblica democratica popolare del Laos"
@@ -274,6 +291,10 @@
             "common": "Laos",
             "official": "Rep\u00fablica Democr\u00e1tica Popular Lao"
         },
+        "swe": {
+            "common": "Laos",
+            "official": "Demokratiska folkrepubliken Laos"
+        },
         "urd": {
             "common": "\u0644\u0627\u0624\u0633",
             "official": "\u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0644\u0627\u0624"
@@ -285,6 +306,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "418",
+    "un_member": true,
     "wb_a2": "LA",
     "wb_a3": "LAO",
     "wikidataid": "Q819",

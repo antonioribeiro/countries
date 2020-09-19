@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Guinea",
+    "calling_codes": [
+        "+224"
+    ],
     "capital": [
         "Conakry"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Guinean",
+    "demonyms": {
+        "eng": {
+            "f": "Guinean",
+            "m": "Guinean"
+        },
+        "fra": {
+            "f": "Guin\u00e9enne",
+            "m": "Guin\u00e9en"
+        }
+    },
     "dialling": {
         "calling_code": [
             "224"
@@ -235,6 +248,10 @@
             "common": "Gvineja",
             "official": "Republika Gvineja"
         },
+        "hun": {
+            "common": "Guinea",
+            "official": "Guineai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Guinea",
             "official": "Repubblica di Guinea"
@@ -275,6 +292,10 @@
             "common": "Guinea",
             "official": "Rep\u00fablica de Guinea"
         },
+        "swe": {
+            "common": "Guinea",
+            "official": "Republiken Guinea"
+        },
         "urd": {
             "common": "\u06af\u0646\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06af\u0646\u06cc"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "324",
+    "un_member": true,
     "wb_a2": "GN",
     "wb_a3": "GIN",
     "wikidataid": "Q1006",

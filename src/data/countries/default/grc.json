@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Greece",
+    "calling_codes": [
+        "+30"
+    ],
     "capital": [
         "Athens"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Greek",
+    "demonyms": {
+        "eng": {
+            "f": "Greek",
+            "m": "Greek"
+        },
+        "fra": {
+            "f": "Grecque",
+            "m": "Grec"
+        }
+    },
     "dialling": {
         "calling_code": [
             "30"
@@ -240,6 +253,10 @@
             "common": "Gr\u010dka",
             "official": "Helenska Republika"
         },
+        "hun": {
+            "common": "G\u00f6r\u00f6gorsz\u00e1g",
+            "official": "G\u00f6r\u00f6g K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Grecia",
             "official": "Repubblica ellenica"
@@ -280,6 +297,10 @@
             "common": "Grecia",
             "official": "Rep\u00fablica Hel\u00e9nica"
         },
+        "swe": {
+            "common": "Grekland",
+            "official": "Republiken Grekland"
+        },
         "urd": {
             "common": "\u06cc\u0648\u0646\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06c1\u06cc\u0644\u06cc\u0646\u06cc\u06c1"
@@ -291,6 +312,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "300",
+    "un_member": true,
     "wb_a2": "GR",
     "wb_a3": "GRC",
     "wikidataid": "Q41",

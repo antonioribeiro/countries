@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sweden",
+    "calling_codes": [
+        "+46"
+    ],
     "capital": [
         "Stockholm"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Swedish",
+    "demonyms": {
+        "eng": {
+            "f": "Swedish",
+            "m": "Swedish"
+        },
+        "fra": {
+            "f": "Su\u00e9doise",
+            "m": "Su\u00e9dois"
+        }
+    },
     "dialling": {
         "calling_code": [
             "46"
@@ -235,6 +248,10 @@
             "common": "\u0160vedska",
             "official": "Kraljevina \u0160vedska"
         },
+        "hun": {
+            "common": "Sv\u00e9dorsz\u00e1g",
+            "official": "Sv\u00e9d Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Svezia",
             "official": "Regno di Svezia"
@@ -275,6 +292,10 @@
             "common": "Suecia",
             "official": "Reino de Suecia"
         },
+        "swe": {
+            "common": "Sverige",
+            "official": "Konungariket Sverige"
+        },
         "urd": {
             "common": "\u0633\u0648\u06cc\u0688\u0646",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0633\u0648\u06cc\u0688\u0646"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "752",
+    "un_member": true,
     "wb_a2": "SE",
     "wb_a3": "SWE",
     "wikidataid": "Q34",

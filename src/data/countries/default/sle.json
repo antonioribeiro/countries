@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Sierra Leone",
+    "calling_codes": [
+        "+232"
+    ],
     "capital": [
         "Freetown"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Sierra Leonean",
+    "demonyms": {
+        "eng": {
+            "f": "Sierra Leonean",
+            "m": "Sierra Leonean"
+        },
+        "fra": {
+            "f": "Sierra-leonaise",
+            "m": "Sierra-leonais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "232"
@@ -226,6 +239,10 @@
             "common": "Sijera Leone",
             "official": "Republika Sijera Leone"
         },
+        "hun": {
+            "common": "Sierra Leone",
+            "official": "Sierra Leone K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Sierra Leone",
             "official": "Repubblica della Sierra Leone"
@@ -266,6 +283,10 @@
             "common": "Sierra Leone",
             "official": "Rep\u00fablica de Sierra Leona"
         },
+        "swe": {
+            "common": "Sierra Leone",
+            "official": "Republiken Sierra Leone"
+        },
         "urd": {
             "common": "\u0633\u06cc\u0631\u0627\u0644\u06cc\u0648\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u06cc\u0631\u0627\u0644\u06cc\u0648\u0646"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "694",
+    "un_member": true,
     "wb_a2": "SL",
     "wb_a3": "SLE",
     "wikidataid": "Q1044",

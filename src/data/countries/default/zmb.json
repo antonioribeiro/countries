@@ -26,6 +26,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Zambia",
+    "calling_codes": [
+        "+260"
+    ],
     "capital": [
         "Lusaka"
     ],
@@ -42,6 +45,16 @@
         "natural"
     ],
     "demonym": "Zambian",
+    "demonyms": {
+        "eng": {
+            "f": "Zambian",
+            "m": "Zambian"
+        },
+        "fra": {
+            "f": "Zambienne",
+            "m": "Zambien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "260"
@@ -238,6 +251,10 @@
             "common": "Zambija",
             "official": "Republika Zambija"
         },
+        "hun": {
+            "common": "Zambia",
+            "official": "Zambiai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Zambia",
             "official": "Repubblica di Zambia"
@@ -278,6 +295,10 @@
             "common": "Zambia",
             "official": "Rep\u00fablica de Zambia"
         },
+        "swe": {
+            "common": "Zambia",
+            "official": "Republiken Zambia"
+        },
         "urd": {
             "common": "\u0632\u06cc\u0645\u0628\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0632\u06cc\u0645\u0628\u06cc\u0627"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "894",
+    "un_member": true,
     "wb_a2": "ZM",
     "wb_a3": "ZMB",
     "wikidataid": "Q953",

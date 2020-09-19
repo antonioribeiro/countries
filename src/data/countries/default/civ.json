@@ -26,6 +26,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "C\u00c3\u00b4te d'Ivoire",
+    "calling_codes": [
+        "+225"
+    ],
     "capital": [
         "Yamoussoukro"
     ],
@@ -42,6 +45,16 @@
         "natural"
     ],
     "demonym": "Ivorian",
+    "demonyms": {
+        "eng": {
+            "f": "Ivorian",
+            "m": "Ivorian"
+        },
+        "fra": {
+            "f": "Ivoirienne",
+            "m": "Ivoirien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "225"
@@ -235,6 +248,10 @@
             "common": "Obala Bjelokosti",
             "official": "Republika C\u00f4te d'Ivoire"
         },
+        "hun": {
+            "common": "Elef\u00e1ntcsontpart",
+            "official": "Elef\u00e1ntcsontparti K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Costa d'Avorio",
             "official": "Repubblica della Costa d'Avorio"
@@ -275,6 +292,10 @@
             "common": "Costa de Marfil",
             "official": "Rep\u00fablica de C\u00f4te d'Ivoire"
         },
+        "swe": {
+            "common": "Elfenbenskusten",
+            "official": "Republiken Elfenbenskusten"
+        },
         "urd": {
             "common": "\u0622\u0626\u06cc\u0648\u0631\u06cc \u06a9\u0648\u0633\u0679",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u0648\u062a \u062f\u06cc\u0648\u0627\u063a"
@@ -286,6 +307,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "384",
+    "un_member": true,
     "wb_a2": "CI",
     "wb_a3": "CIV",
     "wikidataid": "Q1008",

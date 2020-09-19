@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Timor-Leste",
+    "calling_codes": [
+        "+670"
+    ],
     "capital": [
         "Dili"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "East Timorese",
+    "demonyms": {
+        "eng": {
+            "f": "East Timorese",
+            "m": "East Timorese"
+        },
+        "fra": {
+            "f": "Est-timoraise",
+            "m": "Est-timorais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "670"
@@ -234,6 +247,10 @@
             "common": "Isto\u010dni Timor",
             "official": "Demokratska Republika Timor-Leste"
         },
+        "hun": {
+            "common": "Kelet-Timor",
+            "official": "Kelet-timori Demokratikus K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Timor Est",
             "official": "Repubblica Democratica di Timor Est"
@@ -274,6 +291,10 @@
             "common": "Timor Oriental",
             "official": "Rep\u00fablica Democr\u00e1tica de Timor-Leste"
         },
+        "swe": {
+            "common": "\u00d6sttimor a.k.a. Timor-Leste",
+            "official": "Demokratiska republiken \u00d6sttimor"
+        },
         "urd": {
             "common": "\u0645\u0634\u0631\u0642\u06cc \u062a\u06cc\u0645\u0648\u0631",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0634\u0631\u0642\u06cc \u062a\u06cc\u0645\u0648\u0631"
@@ -285,6 +306,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "626",
+    "un_member": true,
     "wb_a2": "TP",
     "wb_a3": "TMP",
     "wikidataid": "Q574",

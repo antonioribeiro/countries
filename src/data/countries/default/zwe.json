@@ -22,6 +22,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Zimbabwe",
+    "calling_codes": [
+        "+263"
+    ],
     "capital": [
         "Harare"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Zimbabwean",
+    "demonyms": {
+        "eng": {
+            "f": "Zimbabwean",
+            "m": "Zimbabwean"
+        },
+        "fra": {
+            "f": "Zimbabw\u00e9enne",
+            "m": "Zimbabw\u00e9en"
+        }
+    },
     "dialling": {
         "calling_code": [
             "263"
@@ -303,6 +316,10 @@
             "common": "Zimbabve",
             "official": "Republika Zimbabve"
         },
+        "hun": {
+            "common": "Zimbabwe",
+            "official": "Zimbabwei K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Zimbabwe",
             "official": "Repubblica dello Zimbabwe"
@@ -343,6 +360,10 @@
             "common": "Zimbabue",
             "official": "Rep\u00fablica de Zimbabue"
         },
+        "swe": {
+            "common": "Zimbabwe",
+            "official": "Republiken Zimbabwe"
+        },
         "urd": {
             "common": "\u0632\u0645\u0628\u0627\u0628\u0648\u06d2",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0632\u0645\u0628\u0627\u0628\u0648\u06d2"
@@ -354,6 +375,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "716",
+    "un_member": true,
     "wb_a2": "ZW",
     "wb_a3": "ZWE",
     "wikidataid": "Q954",

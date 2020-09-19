@@ -28,6 +28,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Tanzania",
+    "calling_codes": [
+        "+255"
+    ],
     "capital": [
         "Dodoma"
     ],
@@ -44,6 +47,16 @@
         "natural"
     ],
     "demonym": "Tanzanian",
+    "demonyms": {
+        "eng": {
+            "f": "Tanzanian",
+            "m": "Tanzanian"
+        },
+        "fra": {
+            "f": "Tanzanienne",
+            "m": "Tanzanien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "255"
@@ -245,6 +258,10 @@
             "common": "Tanzanija",
             "official": "Ujedinjena Republika Tanzanija"
         },
+        "hun": {
+            "common": "T\u00e1dzsikiszt\u00e1n",
+            "official": "T\u00e1dzsik K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Tanzania",
             "official": "Repubblica Unita di Tanzania"
@@ -285,6 +302,10 @@
             "common": "Tanzania",
             "official": "Rep\u00fablica Unida de Tanzania"
         },
+        "swe": {
+            "common": "Tanzania",
+            "official": "F\u00f6renade republiken Tanzania"
+        },
         "urd": {
             "common": "\u062a\u0646\u0632\u0627\u0646\u06cc\u06c1",
             "official": "\u0645\u062a\u062d\u062f\u06c1 \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062a\u0646\u0632\u0627\u0646\u06cc\u06c1"
@@ -296,6 +317,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "834",
+    "un_member": true,
     "wb_a2": "TZ",
     "wb_a3": "TZA",
     "wikidataid": "Q924",

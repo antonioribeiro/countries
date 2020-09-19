@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Kuwait",
+    "calling_codes": [
+        "+965"
+    ],
     "capital": [
         "Kuwait City"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Kuwaiti",
+    "demonyms": {
+        "eng": {
+            "f": "Kuwaiti",
+            "m": "Kuwaiti"
+        },
+        "fra": {
+            "f": "Kowe\u00eftienne",
+            "m": "Kowe\u00eftien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "965"
@@ -227,6 +240,10 @@
             "common": "Kuvajt",
             "official": "Dr\u017eava Kuvajt"
         },
+        "hun": {
+            "common": "Kuvait",
+            "official": "Kuvaiti \u00c1llam"
+        },
         "ita": {
             "common": "Kuwait",
             "official": "Stato del Kuwait"
@@ -267,6 +284,10 @@
             "common": "Kuwait",
             "official": "Estado de Kuwait"
         },
+        "swe": {
+            "common": "Kuwait",
+            "official": "Staten Kuwait"
+        },
         "urd": {
             "common": "\u06a9\u0648\u06cc\u062a",
             "official": "\u062f\u0648\u0644\u062a\u0650 \u06a9\u0648\u06cc\u062a"
@@ -278,6 +299,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "414",
+    "un_member": true,
     "wb_a2": "KW",
     "wb_a3": "KWT",
     "wikidataid": "Q817",

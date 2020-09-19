@@ -1,8 +1,7 @@
 {
     "pacific_chuuk": {
         "abbreviations": [
-            "+09",
-            "+10",
+            "CHUT",
             "LMT"
         ],
         "cca2": "FM",
@@ -17,27 +16,7 @@
     },
     "pacific_kosrae": {
         "abbreviations": [
-            "+09",
-            "+10",
-            "+11",
-            "+12",
-            "LMT"
-        ],
-        "cca2": "FM",
-        "cca3": "FSM",
-        "country_code": "FM",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "157",
-        "zone_name": "Pacific\/Kosrae"
-    },
-    "pacific_pohnpei": {
-        "abbreviations": [
-            "+09",
-            "+10",
-            "+11",
+            "KOST",
             "LMT"
         ],
         "cca2": "FM",
@@ -48,6 +27,21 @@
         ],
         "record_type": "timezone",
         "zone_id": "156",
+        "zone_name": "Pacific\/Kosrae"
+    },
+    "pacific_pohnpei": {
+        "abbreviations": [
+            "LMT",
+            "PONT"
+        ],
+        "cca2": "FM",
+        "cca3": "FSM",
+        "country_code": "FM",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "157",
         "zone_name": "Pacific\/Pohnpei"
     }
 }

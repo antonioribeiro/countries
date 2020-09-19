@@ -23,6 +23,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Botswana",
+    "calling_codes": [
+        "+267"
+    ],
     "capital": [
         "Gaborone"
     ],
@@ -39,6 +42,16 @@
         "natural"
     ],
     "demonym": "Motswana",
+    "demonyms": {
+        "eng": {
+            "f": "Motswana",
+            "m": "Motswana"
+        },
+        "fra": {
+            "f": "Botswanaise",
+            "m": "Botswanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "267"
@@ -236,6 +249,10 @@
             "common": "Bocvana",
             "official": "Republika Bocvana"
         },
+        "hun": {
+            "common": "Botswana",
+            "official": "Botswanai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Botswana",
             "official": "Repubblica del Botswana"
@@ -276,6 +293,10 @@
             "common": "Botswana",
             "official": "Rep\u00fablica de Botswana"
         },
+        "swe": {
+            "common": "Botswana",
+            "official": "Republiken Botswana"
+        },
         "urd": {
             "common": "\u0628\u0648\u0679\u0633\u0648\u0627\u0646\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0628\u0648\u0679\u0633\u0648\u0627\u0646\u0627"
@@ -287,6 +308,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "072",
+    "un_member": true,
     "wb_a2": "BW",
     "wb_a3": "BWA",
     "wikidataid": "Q963",

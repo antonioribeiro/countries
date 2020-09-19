@@ -29,6 +29,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Serbia",
+    "calling_codes": [
+        "+381"
+    ],
     "capital": [
         "Belgrade"
     ],
@@ -45,6 +48,16 @@
         "natural"
     ],
     "demonym": "Serbian",
+    "demonyms": {
+        "eng": {
+            "f": "Serbian",
+            "m": "Serbian"
+        },
+        "fra": {
+            "f": "Serbe",
+            "m": "Serbe"
+        }
+    },
     "dialling": {
         "calling_code": [
             "381"
@@ -242,6 +255,10 @@
             "common": "Srbija",
             "official": "Republika Srbija"
         },
+        "hun": {
+            "common": "Szerbia",
+            "official": "Szerb K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Serbia",
             "official": "Repubblica di Serbia"
@@ -282,6 +299,10 @@
             "common": "Serbia",
             "official": "Rep\u00fablica de Serbia"
         },
+        "swe": {
+            "common": "Serbien",
+            "official": "Republiken Serbien"
+        },
         "urd": {
             "common": "\u0633\u0631\u0628\u06cc\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0631\u0628\u06cc\u0627"
@@ -293,6 +314,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "688",
+    "un_member": true,
     "wb_a2": "YF",
     "wb_a3": "SRB",
     "wikidataid": "Q403",

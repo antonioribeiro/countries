@@ -18,6 +18,10 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Puerto Rico",
+    "calling_codes": [
+        "+1787",
+        "+1939"
+    ],
     "capital": [
         "San Juan"
     ],
@@ -34,6 +38,16 @@
         "natural"
     ],
     "demonym": "Puerto Rican",
+    "demonyms": {
+        "eng": {
+            "f": "Puerto Rican",
+            "m": "Puerto Rican"
+        },
+        "fra": {
+            "f": "Portoricaine",
+            "m": "Portoricain"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1787",
@@ -140,6 +154,10 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Puerto Rico",
+        "calling_codes": [
+            "+1787",
+            "+1939"
+        ],
         "capital": [
             "San Juan"
         ],
@@ -156,7 +174,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Puerto Rican",
+        "demonyms": {
+            "eng": {
+                "f": "Puerto Rican",
+                "m": "Puerto Rican"
+            },
+            "fra": {
+                "f": "Portoricaine",
+                "m": "Portoricain"
+            }
+        },
         "economy": "6. Developing region",
         "featurecla": "Admin-0 country",
         "fips_10_": "RQ",
@@ -297,6 +324,10 @@
                 "common": "Portoriko",
                 "official": "Zajednica Puerto Rico"
             },
+            "hun": {
+                "common": "Puerto Rico",
+                "official": "Puerto Rico"
+            },
             "ita": {
                 "common": "Porto Rico",
                 "official": "Commonwealth di Porto Rico"
@@ -337,6 +368,10 @@
                 "common": "Puerto Rico",
                 "official": "Asociado de Puerto Rico"
             },
+            "swe": {
+                "common": "Puerto Rico",
+                "official": "Puerto Rico"
+            },
             "urd": {
                 "common": "\u067e\u0648\u0631\u0679\u0648 \u0631\u06cc\u06a9\u0648",
                 "official": " \u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u067e\u0648\u0631\u0679\u0648 \u0631\u06cc\u06a9\u0648"
@@ -348,6 +383,7 @@
         },
         "type": "Dependency",
         "un_a3": "630",
+        "un_member": null,
         "wb_a2": "PR",
         "wb_a3": "PRI",
         "wikidataid": "Q1183",
@@ -463,6 +499,10 @@
             "common": "Portoriko",
             "official": "Zajednica Puerto Rico"
         },
+        "hun": {
+            "common": "Puerto Rico",
+            "official": "Puerto Rico"
+        },
         "ita": {
             "common": "Porto Rico",
             "official": "Commonwealth di Porto Rico"
@@ -503,6 +543,10 @@
             "common": "Puerto Rico",
             "official": "Asociado de Puerto Rico"
         },
+        "swe": {
+            "common": "Puerto Rico",
+            "official": "Puerto Rico"
+        },
         "urd": {
             "common": "\u067e\u0648\u0631\u0679\u0648 \u0631\u06cc\u06a9\u0648",
             "official": " \u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u067e\u0648\u0631\u0679\u0648 \u0631\u06cc\u06a9\u0648"
@@ -514,6 +558,264 @@
     },
     "type": "Dependency",
     "un_a3": "630",
+    "un_member": {
+        "abbrev": "P.R.",
+        "abbrev_len": "4",
+        "adm0_a3": "PRI",
+        "adm0_a3_is": "PRI",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "PRI",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Puerto Rico",
+        "alt_spellings": [
+            "PR",
+            "Commonwealth of Puerto Rico",
+            "Estado Libre Asociado de Puerto Rico"
+        ],
+        "borders": [],
+        "brk_a3": "PRI",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Puerto Rico",
+        "calling_codes": [
+            "+1787",
+            "+1939"
+        ],
+        "capital": [
+            "San Juan"
+        ],
+        "cca2": "PR",
+        "cca3": "PRI",
+        "ccn3": "630",
+        "cioc": "PUR",
+        "currencies": {
+            "u_s_d": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Puerto Rican",
+                "m": "Puerto Rican"
+            },
+            "fra": {
+                "f": "Portoricaine",
+                "m": "Portoricain"
+            }
+        },
+        "economy": "6. Developing region",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "RQ",
+        "flag": {
+            "emoji": "\ud83c\uddf5\ud83c\uddf7"
+        },
+        "formal_en": "Commonwealth of Puerto Rico",
+        "formal_fr": "",
+        "gdp_md_est": "131000.00",
+        "gdp_year": "2016",
+        "geo": {
+            "area": 8870,
+            "continent": "North America",
+            "landlocked": null,
+            "latlng": [
+                18.25,
+                -66.5
+            ],
+            "region": "Americas",
+            "region_un": "Americas",
+            "region_wb": "Latin America & Caribbean",
+            "subregion": "Caribbean"
+        },
+        "geou_dif": "0",
+        "geounit": "Puerto Rico",
+        "gu_a3": "PRI",
+        "homepart": "-99",
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "787",
+                "939"
+            ]
+        },
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "PR",
+        "iso_a3": "PRI",
+        "iso_a3_eh": "PRI",
+        "iso_n3": "630",
+        "labelrank": "5",
+        "languages": {
+            "eng": "English",
+            "spa": "Spanish"
+        },
+        "lastcensus": "2010",
+        "level": "2",
+        "long_len": "11",
+        "mapcolor7": "4",
+        "mapcolor8": "5",
+        "mapcolor9": "1",
+        "mapcolor13": "1",
+        "max_label": "8.0",
+        "min_label": "3.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Puerto Rico",
+            "native": {
+                "eng": {
+                    "common": "Puerto Rico",
+                    "official": "Commonwealth of Puerto Rico"
+                },
+                "spa": {
+                    "common": "Puerto Rico",
+                    "official": "Estado Libre Asociado de Puerto Rico"
+                }
+            },
+            "official": "Commonwealth of Puerto Rico"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00a8\u00d9\u0088\u00d8\u00b1\u00d8\u00aa\u00d9\u0088\u00d8\u00b1\u00d9\u008a\u00d9\u0083\u00d9\u0088",
+        "name_bn": "\u00e0\u00a6\u00aa\u00e0\u00a7\u0081\u00e0\u00a6\u00af\u00e0\u00a6\u00bc\u00e0\u00a7\u0087\u00e0\u00a6\u00b0\u00e0\u00a7\u008d\u00e0\u00a6\u00a4\u00e0\u00a7\u008b \u00e0\u00a6\u00b0\u00e0\u00a6\u00bf\u00e0\u00a6\u0095\u00e0\u00a7\u008b",
+        "name_ciawf": "Puerto Rico",
+        "name_de": "Puerto Rico",
+        "name_el": "\u00ce\u00a0\u00ce\u00bf\u00cf\u0085\u00ce\u00ad\u00cf\u0081\u00cf\u0084\u00ce\u00bf \u00ce\u00a1\u00ce\u00af\u00ce\u00ba\u00ce\u00bf",
+        "name_en": "Puerto Rico",
+        "name_es": "Puerto Rico",
+        "name_fr": "Porto Rico",
+        "name_hi": "\u00e0\u00a4\u00aa\u00e0\u00a5\u008d\u00e0\u00a4\u00af\u00e0\u00a5\u0081\u00e0\u00a4\u00b0\u00e0\u00a5\u008d\u00e0\u00a4\u00a4\u00e0\u00a5\u008b \u00e0\u00a4\u00b0\u00e0\u00a4\u00bf\u00e0\u00a4\u0095\u00e0\u00a5\u008b",
+        "name_hu": "Puerto Rico",
+        "name_id": "Puerto Riko",
+        "name_it": "Porto Rico",
+        "name_ja": "\u00e3\u0083\u0097\u00e3\u0082\u00a8\u00e3\u0083\u00ab\u00e3\u0083\u0088\u00e3\u0083\u00aa\u00e3\u0082\u00b3",
+        "name_ko": "\u00ed\u0091\u00b8\u00ec\u0097\u0090\u00eb\u00a5\u00b4\u00ed\u0086\u00a0\u00eb\u00a6\u00ac\u00ec\u00bd\u0094",
+        "name_len": "11",
+        "name_long": "Puerto Rico",
+        "name_nev": "Puerto Rico",
+        "name_nl": "Puerto Rico",
+        "name_pl": "Portoryko",
+        "name_pt": "Porto Rico",
+        "name_ru": "\u00d0\u009f\u00d1\u0083\u00d1\u008d\u00d1\u0080\u00d1\u0082\u00d0\u00be-\u00d0\u00a0\u00d0\u00b8\u00d0\u00ba\u00d0\u00be",
+        "name_sort": "Puerto Rico",
+        "name_sv": "Puerto Rico",
+        "name_tr": "Porto Riko",
+        "name_vi": "Puerto Rico",
+        "name_zh": "\u00e6\u00b3\u00a2\u00e5\u00a4\u009a\u00e9\u00bb\u008e\u00e5\u0090\u0084",
+        "ne_id": "1159321363",
+        "note_adm0": "Commonwealth of U.S.A.",
+        "note_brk": "",
+        "pop_est": "3351827",
+        "pop_rank": "12",
+        "pop_year": "2017",
+        "postal": "PR",
+        "record_type": "country",
+        "scalerank": "6",
+        "sov_a3": "US1",
+        "sovereignt": "United States of America",
+        "status": "officially-assigned",
+        "su_a3": "PRI",
+        "su_dif": "0",
+        "subunit": "Puerto Rico",
+        "tiny": "-99",
+        "tld": [
+            ".pr"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Portoriko",
+                "official": "Portoriko"
+            },
+            "deu": {
+                "common": "Puerto Rico",
+                "official": "Freistaat Puerto Rico"
+            },
+            "est": {
+                "common": "Puerto Rico",
+                "official": "Puerto Rico \u00dchendus"
+            },
+            "fin": {
+                "common": "Puerto Rico",
+                "official": "Puerto Rico"
+            },
+            "fra": {
+                "common": "Porto Rico",
+                "official": "Porto Rico"
+            },
+            "hrv": {
+                "common": "Portoriko",
+                "official": "Zajednica Puerto Rico"
+            },
+            "hun": {
+                "common": "Puerto Rico",
+                "official": "Puerto Rico"
+            },
+            "ita": {
+                "common": "Porto Rico",
+                "official": "Commonwealth di Porto Rico"
+            },
+            "jpn": {
+                "common": "\u30d7\u30a8\u30eb\u30c8\u30ea\u30b3",
+                "official": "\u30d7\u30a8\u30eb\u30c8\u30ea\u30b3\u306e\u30b3\u30e2\u30f3\u30a6\u30a7\u30eb\u30b9"
+            },
+            "kor": {
+                "common": "\ud478\uc5d0\ub974\ud1a0\ub9ac\ucf54",
+                "official": "\ud478\uc5d0\ub974\ud1a0\ub9ac\ucf54"
+            },
+            "nld": {
+                "common": "Puerto Rico",
+                "official": "Gemenebest van Puerto Rico"
+            },
+            "per": {
+                "common": "\u067e\u0648\u0631\u062a\u0648\u0631\u06cc\u06a9\u0648",
+                "official": "\u0642\u0644\u0645\u0631\u0648 \u0647\u0645\u0633\u0648\u062f \u067e\u0648\u0631\u062a\u0648\u0631\u06cc\u06a9\u0648"
+            },
+            "pol": {
+                "common": "Portoryko",
+                "official": "Wolne Stowarzyszone Pa\u0144stwo Portoryko"
+            },
+            "por": {
+                "common": "Porto Rico",
+                "official": "Commonwealth of Puerto Rico"
+            },
+            "rus": {
+                "common": "\u041f\u0443\u044d\u0440\u0442\u043e-\u0420\u0438\u043a\u043e",
+                "official": "\u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043e \u041f\u0443\u044d\u0440\u0442\u043e-\u0420\u0438\u043a\u043e"
+            },
+            "slk": {
+                "common": "Portoriko",
+                "official": "Portorick\u00e9 spolo\u010denstvo"
+            },
+            "spa": {
+                "common": "Puerto Rico",
+                "official": "Asociado de Puerto Rico"
+            },
+            "swe": {
+                "common": "Puerto Rico",
+                "official": "Puerto Rico"
+            },
+            "urd": {
+                "common": "\u067e\u0648\u0631\u0679\u0648 \u0631\u06cc\u06a9\u0648",
+                "official": " \u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u067e\u0648\u0631\u0679\u0648 \u0631\u06cc\u06a9\u0648"
+            },
+            "zho": {
+                "common": "\u6ce2\u591a\u9ece\u5404",
+                "official": "\u6ce2\u591a\u9ece\u5404\u8054\u90a6"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "630",
+        "un_member": null,
+        "wb_a2": "PR",
+        "wb_a3": "PRI",
+        "wikidataid": "Q1183",
+        "wikipedia": "-99",
+        "woe_id": "23424935",
+        "woe_id_eh": "23424935",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "PR",
     "wb_a3": "PRI",
     "wikidataid": "Q1183",

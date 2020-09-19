@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cambodia",
+    "calling_codes": [
+        "+855"
+    ],
     "capital": [
         "Phnom Penh"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Cambodian",
+    "demonyms": {
+        "eng": {
+            "f": "Cambodian",
+            "m": "Cambodian"
+        },
+        "fra": {
+            "f": "Cambodgienne",
+            "m": "Cambodgien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "855"
@@ -232,6 +245,10 @@
             "common": "Kambod\u017ea",
             "official": "Kraljevina Kambod\u017ea"
         },
+        "hun": {
+            "common": "Kambodzsa",
+            "official": "Kambodzsai Kir\u00e1lys\u00e1g"
+        },
         "ita": {
             "common": "Cambogia",
             "official": "Regno di Cambogia"
@@ -272,6 +289,10 @@
             "common": "Camboya",
             "official": "Reino de Camboya"
         },
+        "swe": {
+            "common": "Kambodja",
+            "official": "Konungariket Kambodja"
+        },
         "urd": {
             "common": "\u06a9\u0645\u0628\u0648\u0688\u06cc\u0627",
             "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u06a9\u0645\u0628\u0648\u0688\u06cc\u0627"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "116",
+    "un_member": true,
     "wb_a2": "KH",
     "wb_a3": "KHM",
     "wikidataid": "Q424",

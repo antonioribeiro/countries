@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Nepal",
+    "calling_codes": [
+        "+977"
+    ],
     "capital": [
         "Kathmandu"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Nepalese",
+    "demonyms": {
+        "eng": {
+            "f": "Nepalese",
+            "m": "Nepalese"
+        },
+        "fra": {
+            "f": "N\u00e9palaise",
+            "m": "N\u00e9palais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "977"
@@ -238,6 +251,10 @@
             "common": "Nepal",
             "official": "Savezna Demokratska Republika Nepal"
         },
+        "hun": {
+            "common": "Nep\u00e1l",
+            "official": "Nep\u00e1li Sz\u00f6vets\u00e9gi Demokratikus K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Nepal",
             "official": "Repubblica federale democratica del Nepal"
@@ -278,6 +295,10 @@
             "common": "Nepal",
             "official": "Rep\u00fablica Democr\u00e1tica Federal de Nepal"
         },
+        "swe": {
+            "common": "Nepal",
+            "official": "Demokratiska f\u00f6rbundsrepubliken Nepal"
+        },
         "urd": {
             "common": "\u0646\u06cc\u067e\u0627\u0644",
             "official": "\u0648\u0641\u0627\u0642\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0646\u06cc\u067e\u0627\u0644"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "524",
+    "un_member": true,
     "wb_a2": "NP",
     "wb_a3": "NPL",
     "wikidataid": "Q837",

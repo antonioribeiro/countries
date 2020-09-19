@@ -16,6 +16,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Antigua and Barb.",
+    "calling_codes": [
+        "+1268"
+    ],
     "capital": [
         "Saint John's"
     ],
@@ -32,6 +35,16 @@
         "natural"
     ],
     "demonym": "Antiguan, Barbudan",
+    "demonyms": {
+        "eng": {
+            "f": "Antiguan, Barbudan",
+            "m": "Antiguan, Barbudan"
+        },
+        "fra": {
+            "f": "Antiguaise et barbudienne",
+            "m": "Antiguaise et barbudien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "1268"
@@ -223,6 +236,10 @@
             "common": "Antigva i Barbuda",
             "official": "Antigva i Barbuda"
         },
+        "hun": {
+            "common": "Antigua \u00e9s Barbuda",
+            "official": "Antigua \u00e9s Barbuda"
+        },
         "ita": {
             "common": "Antigua e Barbuda",
             "official": "Antigua e Barbuda"
@@ -263,6 +280,10 @@
             "common": "Antigua y Barbuda",
             "official": "Antigua y Barbuda"
         },
+        "swe": {
+            "common": "Antigua och Barbuda",
+            "official": "Antigua och Barbuda"
+        },
         "urd": {
             "common": "\u0627\u06cc\u0646\u0679\u06cc\u06af\u0648\u0627 \u0648 \u0628\u0627\u0631\u0628\u0648\u0688\u0627",
             "official": "\u0627\u06cc\u0646\u0679\u06cc\u06af\u0648\u0627 \u0648 \u0628\u0627\u0631\u0628\u0648\u0688\u0627"
@@ -274,6 +295,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "028",
+    "un_member": true,
     "wb_a2": "AG",
     "wb_a3": "ATG",
     "wikidataid": "Q781",

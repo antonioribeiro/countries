@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Nicaragua",
+    "calling_codes": [
+        "+505"
+    ],
     "capital": [
         "Managua"
     ],
@@ -37,6 +40,16 @@
         "natural"
     ],
     "demonym": "Nicaraguan",
+    "demonyms": {
+        "eng": {
+            "f": "Nicaraguan",
+            "m": "Nicaraguan"
+        },
+        "fra": {
+            "f": "Nicaraguayenne",
+            "m": "Nicaraguayen"
+        }
+    },
     "dialling": {
         "calling_code": [
             "505"
@@ -227,6 +240,10 @@
             "common": "Nikaragva",
             "official": "Republika Nikaragva"
         },
+        "hun": {
+            "common": "Nicaragua",
+            "official": "Nicaraguai K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Nicaragua",
             "official": "Repubblica del Nicaragua"
@@ -267,6 +284,10 @@
             "common": "Nicaragua",
             "official": "Rep\u00fablica de Nicaragua"
         },
+        "swe": {
+            "common": "Nicaragua",
+            "official": "Republiken Nicaragua"
+        },
         "urd": {
             "common": "\u0646\u06a9\u0627\u0631\u0627\u06af\u0648\u0627",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0646\u06a9\u0627\u0631\u0627\u06af\u0648\u0627"
@@ -278,6 +299,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "558",
+    "un_member": true,
     "wb_a2": "NI",
     "wb_a3": "NIC",
     "wikidataid": "Q811",

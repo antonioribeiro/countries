@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Somalia",
+    "calling_codes": [
+        "+252"
+    ],
     "capital": [
         "Mogadishu"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Somali",
+    "demonyms": {
+        "eng": {
+            "f": "Somali",
+            "m": "Somali"
+        },
+        "fra": {
+            "f": "Somalienne",
+            "m": "Somalien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "252"
@@ -237,6 +250,10 @@
             "common": "Somalija",
             "official": "Savezna Republika Somaliji"
         },
+        "hun": {
+            "common": "Szom\u00e1lia",
+            "official": "Szom\u00e1li Sz\u00f6vets\u00e9gi K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Somalia",
             "official": "Repubblica federale di Somalia"
@@ -277,6 +294,10 @@
             "common": "Somalia",
             "official": "Rep\u00fablica Federal de Somalia"
         },
+        "swe": {
+            "common": "Somalia",
+            "official": "F\u00f6rbundsrepubliken Somalia"
+        },
         "urd": {
             "common": "\u0635\u0648\u0645\u0627\u0644\u06cc\u06c1",
             "official": "\u0648\u0641\u0627\u0642\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0635\u0648\u0645\u0627\u0644\u06cc\u06c1"
@@ -288,6 +309,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "706",
+    "un_member": true,
     "wb_a2": "SO",
     "wb_a3": "SOM",
     "wikidataid": "Q1045",

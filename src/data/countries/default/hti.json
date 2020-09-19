@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Haiti",
+    "calling_codes": [
+        "+509"
+    ],
     "capital": [
         "Port-au-Prince"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Haitian",
+    "demonyms": {
+        "eng": {
+            "f": "Haitian",
+            "m": "Haitian"
+        },
+        "fra": {
+            "f": "Ha\u00eftienne",
+            "m": "Ha\u00eftien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "509"
@@ -232,6 +245,10 @@
             "common": "Haiti",
             "official": "Republika Haiti"
         },
+        "hun": {
+            "common": "Haiti",
+            "official": "Haiti K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Haiti",
             "official": "Repubblica di Haiti"
@@ -272,6 +289,10 @@
             "common": "Haiti",
             "official": "Rep\u00fablica de Hait\u00ed"
         },
+        "swe": {
+            "common": "Haiti",
+            "official": "Republiken Haiti"
+        },
         "urd": {
             "common": "\u06c1\u06cc\u0679\u06cc",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06c1\u06cc\u0679\u06cc"
@@ -283,6 +304,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "332",
+    "un_member": true,
     "wb_a2": "HT",
     "wb_a3": "HTI",
     "wikidataid": "Q790",

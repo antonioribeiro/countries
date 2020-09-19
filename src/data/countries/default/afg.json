@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Afghanistan",
+    "calling_codes": [
+        "+93"
+    ],
     "capital": [
         "Kabul"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Afghan",
+    "demonyms": {
+        "eng": {
+            "f": "Afghan",
+            "m": "Afghan"
+        },
+        "fra": {
+            "f": "Afghane",
+            "m": "Afghan"
+        }
+    },
     "dialling": {
         "calling_code": [
             "93"
@@ -249,6 +262,10 @@
             "common": "Afganistan",
             "official": "Islamska Republika Afganistan"
         },
+        "hun": {
+            "common": "Afganiszt\u00e1n",
+            "official": "Afganiszt\u00e1ni Iszl\u00e1m K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Afghanistan",
             "official": "Repubblica islamica dell'Afghanistan"
@@ -289,6 +306,10 @@
             "common": "Afganist\u00e1n",
             "official": "Rep\u00fablica Isl\u00e1mica de Afganist\u00e1n"
         },
+        "swe": {
+            "common": "Afghanistan",
+            "official": "Islamiska republiken Afghanistan"
+        },
         "urd": {
             "common": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
             "official": "\u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646"
@@ -300,6 +321,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "004",
+    "un_member": true,
     "wb_a2": "AF",
     "wb_a3": "AFG",
     "wikidataid": "Q889",

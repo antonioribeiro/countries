@@ -21,6 +21,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Uruguay",
+    "calling_codes": [
+        "+598"
+    ],
     "capital": [
         "Montevideo"
     ],
@@ -38,6 +41,16 @@
         "natural"
     ],
     "demonym": "Uruguayan",
+    "demonyms": {
+        "eng": {
+            "f": "Uruguayan",
+            "m": "Uruguayan"
+        },
+        "fra": {
+            "f": "Uruguayenne",
+            "m": "Uruguayen"
+        }
+    },
     "dialling": {
         "calling_code": [
             "598"
@@ -229,6 +242,10 @@
             "common": "Urugvaj",
             "official": "Orijentalna Republika Urugvaj"
         },
+        "hun": {
+            "common": "Uruguay",
+            "official": "Uruguayi Keleti K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Uruguay",
             "official": "Repubblica Orientale dell'Uruguay"
@@ -269,6 +286,10 @@
             "common": "Uruguay",
             "official": "Rep\u00fablica Oriental del Uruguay"
         },
+        "swe": {
+            "common": "Uruguay",
+            "official": "Republiken Uruguay"
+        },
         "urd": {
             "common": "\u06cc\u0648\u0631\u0627\u06af\u0648\u0626\u06d2",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0634\u0631\u0642\u06cc\u06c1 \u06cc\u0648\u0631\u0627\u06af\u0648\u0626\u06d2"
@@ -280,6 +301,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "858",
+    "un_member": true,
     "wb_a2": "UY",
     "wb_a3": "URY",
     "wikidataid": "Q77",

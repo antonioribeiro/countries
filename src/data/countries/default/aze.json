@@ -24,6 +24,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Azerbaijan",
+    "calling_codes": [
+        "+994"
+    ],
     "capital": [
         "Baku"
     ],
@@ -40,6 +43,16 @@
         "natural"
     ],
     "demonym": "Azerbaijani",
+    "demonyms": {
+        "eng": {
+            "f": "Azerbaijani",
+            "m": "Azerbaijani"
+        },
+        "fra": {
+            "f": "Azerba\u00efdjanaise",
+            "m": "Azerba\u00efdjanais"
+        }
+    },
     "dialling": {
         "calling_code": [
             "994"
@@ -243,6 +256,10 @@
             "common": "Azerbajd\u017ean",
             "official": "Republika Azerbajd\u017ean"
         },
+        "hun": {
+            "common": "Azerbajdzs\u00e1n",
+            "official": "Azerbajdzs\u00e1n"
+        },
         "ita": {
             "common": "Azerbaijan",
             "official": "Repubblica dell'Azerbaigian"
@@ -283,6 +300,10 @@
             "common": "Azerbaiy\u00e1n",
             "official": "Rep\u00fablica de Azerbaiy\u00e1n"
         },
+        "swe": {
+            "common": "Azerbajdzjan",
+            "official": "Republiken Azerbajdzjan"
+        },
         "urd": {
             "common": "\u0622\u0630\u0631\u0628\u0627\u0626\u06cc\u062c\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0622\u0630\u0631\u0628\u0627\u0626\u06cc\u062c\u0627\u0646"
@@ -294,6 +315,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "031",
+    "un_member": true,
     "wb_a2": "AZ",
     "wb_a3": "AZE",
     "wikidataid": "Q227",

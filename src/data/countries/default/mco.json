@@ -20,6 +20,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Monaco",
+    "calling_codes": [
+        "+377"
+    ],
     "capital": [
         "Monaco"
     ],
@@ -36,6 +39,16 @@
         "natural"
     ],
     "demonym": "Monegasque",
+    "demonyms": {
+        "eng": {
+            "f": "Monegasque",
+            "m": "Monegasque"
+        },
+        "fra": {
+            "f": "Mon\u00e9gasque",
+            "m": "Mon\u00e9gasque"
+        }
+    },
     "dialling": {
         "calling_code": [
             "377"
@@ -226,6 +239,10 @@
             "common": "Monako",
             "official": "Kne\u017eevina Monako"
         },
+        "hun": {
+            "common": "Monaco",
+            "official": "Monac\u00f3i Hercegs\u00e9g"
+        },
         "ita": {
             "common": "Principato di Monaco",
             "official": "Principato di Monaco"
@@ -266,6 +283,10 @@
             "common": "M\u00f3naco",
             "official": "Principado de M\u00f3naco"
         },
+        "swe": {
+            "common": "Monaco",
+            "official": "Furstend\u00f6met Monaco"
+        },
         "urd": {
             "common": "\u0645\u0648\u0646\u0627\u06a9\u0648",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0646\u0627\u06a9\u0648"
@@ -277,6 +298,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "492",
+    "un_member": true,
     "wb_a2": "MC",
     "wb_a3": "MCO",
     "wikidataid": "Q235",

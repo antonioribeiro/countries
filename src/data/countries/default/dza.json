@@ -26,6 +26,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Algeria",
+    "calling_codes": [
+        "+213"
+    ],
     "capital": [
         "Algiers"
     ],
@@ -42,6 +45,16 @@
         "natural"
     ],
     "demonym": "Algerian",
+    "demonyms": {
+        "eng": {
+            "f": "Algerian",
+            "m": "Algerian"
+        },
+        "fra": {
+            "f": "Alg\u00e9rienne",
+            "m": "Alg\u00e9rien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "213"
@@ -242,6 +255,10 @@
             "common": "Al\u017eir",
             "official": "Narodna Demokratska Republika Al\u017eir"
         },
+        "hun": {
+            "common": "Alg\u00e9ria",
+            "official": "Alg\u00e9riai N\u00e9pi Demokratikus K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Algeria",
             "official": "Repubblica popolare democratica di Algeria"
@@ -282,6 +299,10 @@
             "common": "Argelia",
             "official": "Rep\u00fablica Argelina Democr\u00e1tica y Popular"
         },
+        "swe": {
+            "common": "Algeriet",
+            "official": "Demokratiska folkrepubliken Algeriet"
+        },
         "urd": {
             "common": "\u0627\u0644\u062c\u0632\u0627\u0626\u0631",
             "official": "\u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0644\u062c\u0632\u0627\u0626\u0631"
@@ -293,6 +314,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "012",
+    "un_member": true,
     "wb_a2": "DZ",
     "wb_a3": "DZA",
     "wikidataid": "Q262",

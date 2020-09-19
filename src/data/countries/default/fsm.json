@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Micronesia",
+    "calling_codes": [
+        "+691"
+    ],
     "capital": [
         "Palikir"
     ],
@@ -34,6 +37,16 @@
         "natural"
     ],
     "demonym": "Micronesian",
+    "demonyms": {
+        "eng": {
+            "f": "Micronesian",
+            "m": "Micronesian"
+        },
+        "fra": {
+            "f": "Micron\u00e9sienne",
+            "m": "Micron\u00e9sien"
+        }
+    },
     "dialling": {
         "calling_code": [
             "691"
@@ -221,6 +234,10 @@
             "common": "Mikronezija",
             "official": "Savezne Dr\u017eave Mikronezije"
         },
+        "hun": {
+            "common": "Mikron\u00e9ziai Sz\u00f6vets\u00e9gi \u00c1llamok",
+            "official": "Mikron\u00e9ziai Sz\u00f6vets\u00e9gi \u00c1llamok"
+        },
         "ita": {
             "common": "Micronesia",
             "official": "Stati federati di Micronesia"
@@ -261,6 +278,10 @@
             "common": "Micronesia",
             "official": "Estados Federados de Micronesia"
         },
+        "swe": {
+            "common": "Mikronesiska federationen",
+            "official": "Mikronesiska federationen"
+        },
         "urd": {
             "common": "\u0645\u0627\u0626\u06a9\u0631\u0648\u0646\u06cc\u0634\u06cc\u0627",
             "official": "\u0631\u06cc\u0627\u0633\u062a\u06c1\u0627\u0626\u06d2 \u0648\u0641\u0627\u0642\u06cc\u06c1 \u0645\u0627\u0626\u06a9\u0631\u0648\u0646\u06cc\u0634\u06cc\u0627"
@@ -272,6 +293,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "583",
+    "un_member": true,
     "wb_a2": "FM",
     "wb_a3": "FSM",
     "wikidataid": "Q702",

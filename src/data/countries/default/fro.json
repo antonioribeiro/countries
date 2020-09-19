@@ -18,6 +18,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Faeroe Islands",
+    "calling_codes": [
+        "+298"
+    ],
     "capital": [
         "T\u00f3rshavn"
     ],
@@ -45,6 +48,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Faeroe Islands",
+        "calling_codes": [
+            "+298"
+        ],
         "capital": [
             "T\u00f3rshavn"
         ],
@@ -65,7 +71,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Faroese",
+        "demonyms": {
+            "eng": {
+                "f": "Faroese",
+                "m": "Faroese"
+            },
+            "fra": {
+                "f": "F\u00e9ro\u00efenne",
+                "m": "F\u00e9ro\u00efen"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "FO",
@@ -205,6 +220,10 @@
                 "common": "Farski Otoci",
                 "official": "Farski Otoci"
             },
+            "hun": {
+                "common": "Fer\u00f6er",
+                "official": "Fer\u00f6er"
+            },
             "ita": {
                 "common": "Isole Far Oer",
                 "official": "Isole Faroe"
@@ -245,6 +264,10 @@
                 "common": "Islas Faroe",
                 "official": "Islas Feroe"
             },
+            "swe": {
+                "common": "F\u00e4r\u00f6arna",
+                "official": "F\u00e4r\u00f6arna"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
                 "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
@@ -256,6 +279,7 @@
         },
         "type": "Dependency",
         "un_a3": "234",
+        "un_member": null,
         "wb_a2": "FO",
         "wb_a3": "FRO",
         "wikidataid": "Q4628",
@@ -272,6 +296,16 @@
         "natural"
     ],
     "demonym": "Faroese",
+    "demonyms": {
+        "eng": {
+            "f": "Faroese",
+            "m": "Faroese"
+        },
+        "fra": {
+            "f": "F\u00e9ro\u00efenne",
+            "m": "F\u00e9ro\u00efen"
+        }
+    },
     "dialling": {
         "calling_code": [
             "298"
@@ -376,6 +410,9 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Faeroe Islands",
+        "calling_codes": [
+            "+298"
+        ],
         "capital": [
             "T\u00f3rshavn"
         ],
@@ -396,7 +433,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Faroese",
+        "demonyms": {
+            "eng": {
+                "f": "Faroese",
+                "m": "Faroese"
+            },
+            "fra": {
+                "f": "F\u00e9ro\u00efenne",
+                "m": "F\u00e9ro\u00efen"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "FO",
@@ -536,6 +582,10 @@
                 "common": "Farski Otoci",
                 "official": "Farski Otoci"
             },
+            "hun": {
+                "common": "Fer\u00f6er",
+                "official": "Fer\u00f6er"
+            },
             "ita": {
                 "common": "Isole Far Oer",
                 "official": "Isole Faroe"
@@ -576,6 +626,10 @@
                 "common": "Islas Faroe",
                 "official": "Islas Feroe"
             },
+            "swe": {
+                "common": "F\u00e4r\u00f6arna",
+                "official": "F\u00e4r\u00f6arna"
+            },
             "urd": {
                 "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
                 "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
@@ -587,6 +641,7 @@
         },
         "type": "Dependency",
         "un_a3": "234",
+        "un_member": null,
         "wb_a2": "FO",
         "wb_a3": "FRO",
         "wikidataid": "Q4628",
@@ -702,6 +757,10 @@
             "common": "Farski Otoci",
             "official": "Farski Otoci"
         },
+        "hun": {
+            "common": "Fer\u00f6er",
+            "official": "Fer\u00f6er"
+        },
         "ita": {
             "common": "Isole Far Oer",
             "official": "Isole Faroe"
@@ -742,6 +801,10 @@
             "common": "Islas Faroe",
             "official": "Islas Feroe"
         },
+        "swe": {
+            "common": "F\u00e4r\u00f6arna",
+            "official": "F\u00e4r\u00f6arna"
+        },
         "urd": {
             "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
             "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
@@ -753,6 +816,266 @@
     },
     "type": "Dependency",
     "un_a3": "234",
+    "un_member": {
+        "abbrev": "Faeroe Is.",
+        "abbrev_len": "10",
+        "adm0_a3": "FRO",
+        "adm0_a3_is": "FRO",
+        "adm0_a3_un": "-99",
+        "adm0_a3_us": "FRO",
+        "adm0_a3_wb": "-99",
+        "adm0_dif": "1",
+        "admin": "Faroe Islands",
+        "alt_spellings": [
+            "FO",
+            "F\u00f8royar",
+            "F\u00e6r\u00f8erne"
+        ],
+        "borders": [],
+        "brk_a3": "FRO",
+        "brk_diff": "0",
+        "brk_group": "",
+        "brk_name": "Faeroe Islands",
+        "calling_codes": [
+            "+298"
+        ],
+        "capital": [
+            "T\u00f3rshavn"
+        ],
+        "cca2": "FO",
+        "cca3": "FRO",
+        "ccn3": "234",
+        "cioc": null,
+        "currencies": {
+            "d_k_k": {
+                "name": "Danish krone",
+                "symbol": "kr"
+            },
+            "f_o_k": {
+                "name": "Faroese kr\u00f3na",
+                "symbol": "kr"
+            }
+        },
+        "data_sources": [
+            "mledoze"
+        ],
+        "demonyms": {
+            "eng": {
+                "f": "Faroese",
+                "m": "Faroese"
+            },
+            "fra": {
+                "f": "F\u00e9ro\u00efenne",
+                "m": "F\u00e9ro\u00efen"
+            }
+        },
+        "economy": "2. Developed region: nonG7",
+        "featurecla": "Admin-0 country",
+        "fips_10_": "FO",
+        "flag": {
+            "emoji": "\ud83c\uddeb\ud83c\uddf4"
+        },
+        "formal_en": "F\u00c3\u00b8royar Is. (Faeroe Is.)",
+        "formal_fr": "",
+        "gdp_md_est": "2001.00",
+        "gdp_year": "2014",
+        "geo": {
+            "area": 1393,
+            "continent": "Europe",
+            "landlocked": null,
+            "latlng": [
+                62,
+                -7
+            ],
+            "region": "Europe",
+            "region_un": "Europe",
+            "region_wb": "Europe & Central Asia",
+            "subregion": "Northern Europe"
+        },
+        "geou_dif": "0",
+        "geounit": "Faroe Islands",
+        "gu_a3": "FRO",
+        "homepart": "-99",
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "98"
+            ]
+        },
+        "income_grp": "2. High income: nonOECD",
+        "independent": null,
+        "iso_a2": "FO",
+        "iso_a3": "FRO",
+        "iso_a3_eh": "FRO",
+        "iso_n3": "234",
+        "labelrank": "6",
+        "languages": {
+            "dan": "Danish",
+            "fao": "Faroese"
+        },
+        "lastcensus": "2011",
+        "level": "2",
+        "long_len": "14",
+        "mapcolor7": "4",
+        "mapcolor8": "1",
+        "mapcolor9": "3",
+        "mapcolor13": "12",
+        "max_label": "9.0",
+        "min_label": "4.0",
+        "min_zoom": "0.0",
+        "name": {
+            "common": "Faroe Islands",
+            "native": {
+                "dan": {
+                    "common": "F\u00e6r\u00f8erne",
+                    "official": "F\u00e6r\u00f8erne"
+                },
+                "fao": {
+                    "common": "F\u00f8royar",
+                    "official": "F\u00f8royar"
+                }
+            },
+            "official": "Faroe Islands"
+        },
+        "name_alt": "",
+        "name_ar": "\u00d8\u00ac\u00d8\u00b2\u00d8\u00b1 \u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d9\u0088",
+        "name_bn": "\u00e0\u00a6\u00ab\u00e0\u00a7\u008d\u00e0\u00a6\u00af\u00e0\u00a6\u00be\u00e0\u00a6\u00b0\u00e0\u00a6\u0093 \u00e0\u00a6\u00a6\u00e0\u00a7\u008d\u00e0\u00a6\u00ac\u00e0\u00a7\u0080\u00e0\u00a6\u00aa\u00e0\u00a6\u00aa\u00e0\u00a7\u0081\u00e0\u00a6\u009e\u00e0\u00a7\u008d\u00e0\u00a6\u009c",
+        "name_ciawf": "Faroe Islands",
+        "name_de": "F\u00c3\u00a4r\u00c3\u00b6er",
+        "name_el": "\u00ce\u009d\u00ce\u00ae\u00cf\u0083\u00ce\u00bf\u00ce\u00b9 \u00ce\u00a6\u00ce\u00b5\u00cf\u0081\u00cf\u008c\u00ce\u00b5\u00cf\u0082",
+        "name_en": "Faroe Islands",
+        "name_es": "Islas Feroe",
+        "name_fr": "\u00c3\u00aeles F\u00c3\u00a9ro\u00c3\u00a9",
+        "name_hi": "\u00e0\u00a4\u00ab\u00e0\u00a4\u00bc\u00e0\u00a4\u00b0\u00e0\u00a5\u008b \u00e0\u00a4\u00a6\u00e0\u00a5\u008d\u00e0\u00a4\u00b5\u00e0\u00a5\u0080\u00e0\u00a4\u00aa\u00e0\u00a4\u00b8\u00e0\u00a4\u00ae\u00e0\u00a5\u0082\u00e0\u00a4\u00b9",
+        "name_hu": "Fer\u00c3\u00b6er",
+        "name_id": "Kepulauan Faroe",
+        "name_it": "F\u00c3\u00a6r \u00c3\u0098er",
+        "name_ja": "\u00e3\u0083\u0095\u00e3\u0082\u00a7\u00e3\u0083\u00ad\u00e3\u0083\u00bc\u00e8\u00ab\u00b8\u00e5\u00b3\u00b6",
+        "name_ko": "\u00ed\u008e\u0098\u00eb\u00a1\u009c \u00ec\u00a0\u009c\u00eb\u008f\u0084",
+        "name_len": "10",
+        "name_long": "Faeroe Islands",
+        "name_nev": "Faeroe Is.",
+        "name_nl": "Faer\u00c3\u00b6er",
+        "name_pl": "Wyspy Owcze",
+        "name_pt": "Ilhas Feroe",
+        "name_ru": "\u00d0\u00a4\u00d0\u00b0\u00d1\u0080\u00d0\u00b5\u00d1\u0080\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b5 \u00d0\u00be\u00d1\u0081\u00d1\u0082\u00d1\u0080\u00d0\u00be\u00d0\u00b2\u00d0\u00b0",
+        "name_sort": "Faeroe Islands",
+        "name_sv": "F\u00c3\u00a4r\u00c3\u00b6arna",
+        "name_tr": "Faroe Adalar\u00c4\u00b1",
+        "name_vi": "Qu\u00e1\u00ba\u00a7n \u00c4\u0091\u00e1\u00ba\u00a3o Faroe",
+        "name_zh": "\u00e6\u00b3\u0095\u00e7\u00bd\u0097\u00e7\u00be\u00a4\u00e5\u00b2\u009b",
+        "ne_id": "1159320549",
+        "note_adm0": "Den.",
+        "note_brk": "",
+        "pop_est": "50730",
+        "pop_rank": "8",
+        "pop_year": "2017",
+        "postal": "FO",
+        "record_type": "country",
+        "scalerank": "5",
+        "sov_a3": "DN1",
+        "sovereignt": "Denmark",
+        "status": "officially-assigned",
+        "su_a3": "FRO",
+        "su_dif": "0",
+        "subunit": "Faroe Islands",
+        "tiny": "3",
+        "tld": [
+            ".fo"
+        ],
+        "translations": {
+            "ces": {
+                "common": "Faersk\u00e9 ostrovy",
+                "official": "Faersk\u00e9 ostrovy"
+            },
+            "deu": {
+                "common": "F\u00e4r\u00f6er-Inseln",
+                "official": "F\u00e4r\u00f6er"
+            },
+            "est": {
+                "common": "F\u00e4\u00e4ri saared",
+                "official": "F\u00e4\u00e4ri saared"
+            },
+            "fin": {
+                "common": "F\u00e4rsaaret",
+                "official": "F\u00e4rsaaret"
+            },
+            "fra": {
+                "common": "\u00celes F\u00e9ro\u00e9",
+                "official": "\u00celes F\u00e9ro\u00e9"
+            },
+            "hrv": {
+                "common": "Farski Otoci",
+                "official": "Farski Otoci"
+            },
+            "hun": {
+                "common": "Fer\u00f6er",
+                "official": "Fer\u00f6er"
+            },
+            "ita": {
+                "common": "Isole Far Oer",
+                "official": "Isole Faroe"
+            },
+            "jpn": {
+                "common": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6",
+                "official": "\u30d5\u30a7\u30ed\u30fc\u8af8\u5cf6"
+            },
+            "kor": {
+                "common": "\ud398\ub85c \uc81c\ub3c4",
+                "official": "\ud398\ub85c \uc81c\ub3c4"
+            },
+            "nld": {
+                "common": "Faer\u00f6er",
+                "official": "Faer\u00f6er"
+            },
+            "per": {
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0641\u0627\u0631\u0648\u0626\u0647",
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0641\u0627\u0631\u0648\u0626\u0647"
+            },
+            "pol": {
+                "common": "Wyspy Owcze",
+                "official": "Wyspy Owcze"
+            },
+            "por": {
+                "common": "Ilhas Faro\u00e9",
+                "official": "Ilhas Faroe"
+            },
+            "rus": {
+                "common": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "official": "\u0424\u0430\u0440\u0435\u0440\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "common": "Faersk\u00e9 ostrovy",
+                "official": "Faersk\u00e9 ostrovy"
+            },
+            "spa": {
+                "common": "Islas Faroe",
+                "official": "Islas Feroe"
+            },
+            "swe": {
+                "common": "F\u00e4r\u00f6arna",
+                "official": "F\u00e4r\u00f6arna"
+            },
+            "urd": {
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648",
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0641\u0627\u0631\u0648"
+            },
+            "zho": {
+                "common": "\u6cd5\u7f57\u7fa4\u5c9b",
+                "official": "\u6cd5\u7f57\u7fa4\u5c9b"
+            }
+        },
+        "type": "Dependency",
+        "un_a3": "234",
+        "un_member": null,
+        "wb_a2": "FO",
+        "wb_a3": "FRO",
+        "wikidataid": "Q4628",
+        "wikipedia": "-99",
+        "woe_id": "23424816",
+        "woe_id_eh": "23424816",
+        "woe_note": "Exact WOE match as country"
+    },
     "wb_a2": "FO",
     "wb_a3": "FRO",
     "wikidataid": "Q4628",

@@ -25,6 +25,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Tajikistan",
+    "calling_codes": [
+        "+992"
+    ],
     "capital": [
         "Dushanbe"
     ],
@@ -41,6 +44,16 @@
         "natural"
     ],
     "demonym": "Tadzhik",
+    "demonyms": {
+        "eng": {
+            "f": "Tadzhik",
+            "m": "Tadzhik"
+        },
+        "fra": {
+            "f": "Tadjike",
+            "m": "Tadjike"
+        }
+    },
     "dialling": {
         "calling_code": [
             "992"
@@ -238,6 +251,10 @@
             "common": "Ta\u0111ikistan",
             "official": "Republika Tad\u017eikistan"
         },
+        "hun": {
+            "common": "T\u00e1dzsikiszt\u00e1n",
+            "official": "T\u00e1dzsik K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Tagikistan",
             "official": "Repubblica del Tajikistan"
@@ -278,6 +295,10 @@
             "common": "Tayikist\u00e1n",
             "official": "Rep\u00fablica de Tayikist\u00e1n"
         },
+        "swe": {
+            "common": "Tadzjikistan",
+            "official": "Republiken Tadzjikistan"
+        },
         "urd": {
             "common": "\u062a\u0627\u062c\u06a9\u0633\u062a\u0627\u0646",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062a\u0627\u062c\u06a9\u0633\u062a\u0627\u0646"
@@ -289,6 +310,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "762",
+    "un_member": true,
     "wb_a2": "TJ",
     "wb_a3": "TJK",
     "wikidataid": "Q863",

@@ -19,6 +19,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Madagascar",
+    "calling_codes": [
+        "+261"
+    ],
     "capital": [
         "Antananarivo"
     ],
@@ -35,6 +38,16 @@
         "natural"
     ],
     "demonym": "Malagasy",
+    "demonyms": {
+        "eng": {
+            "f": "Malagasy",
+            "m": "Malagasy"
+        },
+        "fra": {
+            "f": "Malgache",
+            "m": "Malgache"
+        }
+    },
     "dialling": {
         "calling_code": [
             "261"
@@ -227,6 +240,10 @@
             "common": "Madagaskar",
             "official": "Republika Madagaskar"
         },
+        "hun": {
+            "common": "Madagaszk\u00e1r",
+            "official": "Madagaszk\u00e1ri K\u00f6zt\u00e1rsas\u00e1g"
+        },
         "ita": {
             "common": "Madagascar",
             "official": "Repubblica del Madagascar"
@@ -267,6 +284,10 @@
             "common": "Madagascar",
             "official": "Rep\u00fablica de Madagascar"
         },
+        "swe": {
+            "common": "Madagaskar",
+            "official": "Republiken Madagaskar"
+        },
         "urd": {
             "common": "\u0645\u0688\u063a\u0627\u0633\u06a9\u0631",
             "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0688\u063a\u0627\u0633\u06a9\u0631"
@@ -278,6 +299,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "450",
+    "un_member": true,
     "wb_a2": "MG",
     "wb_a3": "MDG",
     "wikidataid": "Q1019",

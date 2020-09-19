@@ -1,9 +1,8 @@
 {
     "atlantic_azores": {
         "abbreviations": [
-            "-02",
-            "-01",
-            "+00",
+            "AZOST",
+            "AZOT",
             "HMT",
             "LMT",
             "WET"
@@ -15,16 +14,14 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "302",
+        "zone_id": "300",
         "zone_name": "Atlantic\/Azores"
     },
     "atlantic_madeira": {
         "abbreviations": [
-            "-01",
-            "+00",
-            "+01",
             "FMT",
             "LMT",
+            "WAT",
             "WEST",
             "WET"
         ],
@@ -54,7 +51,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "300",
+        "zone_id": "302",
         "zone_name": "Europe\/Lisbon"
     }
 }

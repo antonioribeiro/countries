@@ -21,6 +21,10 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Vatican",
+    "calling_codes": [
+        "+3906698",
+        "+379"
+    ],
     "capital": [
         "Vatican City"
     ],
@@ -51,6 +55,10 @@
         "brk_diff": "0",
         "brk_group": "",
         "brk_name": "Vatican",
+        "calling_codes": [
+            "+3906698",
+            "+379"
+        ],
         "capital": [
             "Vatican City"
         ],
@@ -67,7 +75,16 @@
         "data_sources": [
             "mledoze"
         ],
-        "demonym": "Vatican",
+        "demonyms": {
+            "eng": {
+                "f": "Vatican",
+                "m": "Vatican"
+            },
+            "fra": {
+                "f": "Vaticane",
+                "m": "Vatican"
+            }
+        },
         "economy": "2. Developed region: nonG7",
         "featurecla": "Admin-0 country",
         "fips_10_": "VT",
@@ -208,6 +225,10 @@
                 "common": "Vatikan",
                 "official": "Vatikan"
             },
+            "hun": {
+                "common": "Vatik\u00e1n",
+                "official": "Vatik\u00e1n \u00c1llam"
+            },
             "ita": {
                 "common": "Citt\u00e0 del Vaticano",
                 "official": "Citt\u00e0 del Vaticano"
@@ -248,6 +269,10 @@
                 "common": "Ciudad del Vaticano",
                 "official": "Ciudad del Vaticano"
             },
+            "swe": {
+                "common": "Vatikanstaten",
+                "official": "Vatikanstaten"
+            },
             "urd": {
                 "common": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc",
                 "official": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc"
@@ -259,6 +284,7 @@
         },
         "type": "Sovereign country",
         "un_a3": "336",
+        "un_member": true,
         "wb_a2": "-99",
         "wb_a3": "-99",
         "wikidataid": "Q237",
@@ -274,8 +300,17 @@
         "mledoze",
         "natural"
     ],
-    "demonym": "Vatican",
-    "demonym_rinvex": "Italian",
+    "demonym": "Italian",
+    "demonyms": {
+        "eng": {
+            "f": "Vatican",
+            "m": "Vatican"
+        },
+        "fra": {
+            "f": "Vaticane",
+            "m": "Vatican"
+        }
+    },
     "dialling": {
         "calling_code": [
             "3906698",
@@ -472,6 +507,10 @@
             "common": "Vatikan",
             "official": "Vatikan"
         },
+        "hun": {
+            "common": "Vatik\u00e1n",
+            "official": "Vatik\u00e1n \u00c1llam"
+        },
         "ita": {
             "common": "Citt\u00e0 del Vaticano",
             "official": "Citt\u00e0 del Vaticano"
@@ -512,6 +551,10 @@
             "common": "Ciudad del Vaticano",
             "official": "Ciudad del Vaticano"
         },
+        "swe": {
+            "common": "Vatikanstaten",
+            "official": "Vatikanstaten"
+        },
         "urd": {
             "common": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc",
             "official": "\u0648\u06cc\u0679\u06cc\u06a9\u0646 \u0633\u0679\u06cc"
@@ -523,6 +566,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "336",
+    "un_member": true,
     "wb_a2": "-99",
     "wb_a3": "-99",
     "wikidataid": "Q237",

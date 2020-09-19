@@ -27,6 +27,9 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Switzerland",
+    "calling_codes": [
+        "+41"
+    ],
     "capital": [
         "Bern"
     ],
@@ -45,6 +48,16 @@
         "natural"
     ],
     "demonym": "Swiss",
+    "demonyms": {
+        "eng": {
+            "f": "Swiss",
+            "m": "Swiss"
+        },
+        "fra": {
+            "f": "Suisse",
+            "m": "Suisse"
+        }
+    },
     "dialling": {
         "calling_code": [
             "41"
@@ -254,6 +267,10 @@
             "common": "\u0160vicarska",
             "official": "\u0161vicarska Konfederacija"
         },
+        "hun": {
+            "common": "Sv\u00e1jc",
+            "official": "Sv\u00e1jc"
+        },
         "ita": {
             "common": "Svizzera",
             "official": "Confederazione svizzera"
@@ -294,6 +311,10 @@
             "common": "Suiza",
             "official": "Confederaci\u00f3n Suiza"
         },
+        "swe": {
+            "common": "Schweiz",
+            "official": "Schweiziska edsf\u00f6rbundet"
+        },
         "urd": {
             "common": "\u0633\u0648\u06cc\u0679\u0630\u0631\u0644\u06cc\u0646\u0688",
             "official": "\u0633\u0648\u0626\u06cc\u0633  \u0645\u062a\u062d\u062f\u06c1"
@@ -305,6 +326,7 @@
     },
     "type": "Sovereign country",
     "un_a3": "756",
+    "un_member": true,
     "wb_a2": "CH",
     "wb_a3": "CHE",
     "wikidataid": "Q39",
