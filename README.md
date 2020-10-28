@@ -597,7 +597,7 @@ php artisan vendor:publish --provider=PragmaRX\\Countries\\ServiceProvider
 
 This package uses some other open source packages and, until we don't build a better documentation, you can find some more info about data on [mledoze/countries](https://github.com/mledoze/countries/blob/master/README.md) and how to use it on this fantastic [Laravel News article](https://laravel-news.com/countries-and-currencies).
 
-Please check the [copyright](/copyright) section for a complete list of packages used by this one.
+Please check the [copyright](#copyright) section for a complete list of packages used by this one.
 
 ### Updating
 
@@ -630,7 +630,7 @@ If you want to change this behaviour, you can edit `config/countries.php` file o
 [Antonio Carlos Ribeiro](http://twitter.com/iantonioribeiro)
 [All contributors](https://github.com/antonioribeiro/countries-laravel/graphs/contributors)
 
-## Copyrights
+## Copyright
 
 To build the countries database and relations, this package make use of those sources and packages:
 
