@@ -597,6 +597,8 @@ php artisan vendor:publish --provider=PragmaRX\\Countries\\ServiceProvider
 
 This package uses some other open source packages and, until we don't build a better documentation, you can find some more info about data on [mledoze/countries](https://github.com/mledoze/countries/blob/master/README.md) and how to use it on this fantastic [Laravel News article](https://laravel-news.com/countries-and-currencies).
 
+Please check the [copyright](/copyright) section for a complete list of packages used by this one.
+
 ### Updating
 
 The package comes with the `update.php` script, that you can use to update the data it uses. It will download all info from all packages and automatically build the `.json` files we have, so you find something wrong, you can ask those package managers to fix it, and after that you just to run it:
