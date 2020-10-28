@@ -593,7 +593,21 @@ php artisan vendor:publish --provider=PragmaRX\\Countries\\ServiceProvider
 
 ## Data
 
+### Sources
+
 This package uses some other open source packages and, until we don't build a better documentation, you can find some more info about data on [mledoze/countries](https://github.com/mledoze/countries/blob/master/README.md) and how to use it on this fantastic [Laravel News article](https://laravel-news.com/countries-and-currencies).
+
+### Updating
+
+The package comes with the `update.php` script, that you can use to update the data it uses. It will download all info from all packages and automatically build the `.json` files we have, so you find something wrong, you can ask those package managers to fix it, and after that you just to run it:
+
+``` bash
+cd vendor/pragmarx/countries
+composer install
+php update.php
+```
+
+And wait for a *very long time** (sometimes it looks like stuck but it's not) until it finishes rebuilding everything, then it's just a matter of staging, commit, push all regenerated files, and draft a new PR.
 
 ## Cache
 
