@@ -96,7 +96,7 @@ class Collection extends Coollection
      */
     public function whereISO4217($value)
     {
-        return $this->_whereAttribute('currency', $value);
+        return $this->_whereAttribute('currencies', $value);
     }
 
     /**

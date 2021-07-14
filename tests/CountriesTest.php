@@ -191,6 +191,16 @@ class CountriesTest extends PHPUnitTestCase
         );
     }
 
+    public function testCountryWhereISO4217()
+    {
+        $this->assertEquals(Countries::currencies()->count(), 153);
+
+        $this->assertEquals(
+            'POL',
+            Countries::whereISO4217('PLN')->first()->cca3,
+        );
+    }
+
     public function testTimezones()
     {
         $this->assertEquals(
