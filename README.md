@@ -601,7 +601,15 @@ Please check the [copyright](#copyright) section for a complete list of packages
 
 ### Updating
 
-The package comes with the `update.php` script, that you can use to update the data it uses. It will download all info from all packages and automatically build the `.json` files we have, so you find something wrong, you can ask those package managers to fix it, and after that you just to run it:
+#### **WARNING** 
+
+No data files (JSON, images, icons...) on this project can be updated manually. **We will close all pull requests requiring manual updates** to those files will be closed, because the update script will delete them anyway.
+
+If you find something wrong with data, you, please, have to ask the package managers (listed data sources and on the copyright section) to fix them, and then you can yourself run the update script to properly update them on this repository.
+
+#### update.php
+
+This package comes with the `update.php` script, which you MUST use to update the data files. It will download all info from all packages and automatically build the `.json` (and some others like `.svg` too). This is how you do it:
 
 ``` bash
 cd vendor/pragmarx/countries
