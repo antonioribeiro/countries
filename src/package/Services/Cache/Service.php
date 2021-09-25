@@ -76,7 +76,7 @@ class Service implements CacheInterface
      */
     protected function enabled()
     {
-        return $this->config->get('countries.cache.enabled');
+        return $this->config->get('cache.enabled');
     }
 
     /**
