@@ -24,8 +24,8 @@ class Natural extends Base
     /**
      * Rinvex constructor.
      *
-     * @param Helper $helper
-     * @param Updater $updater
+     * @param  Helper  $helper
+     * @param  Updater  $updater
      */
     public function __construct(Helper $helper, Updater $updater)
     {
@@ -79,7 +79,7 @@ class Natural extends Base
     }
 
     /**
-     * @param \PragmaRX\Coollection\Package\Coollection $country
+     * @param  \PragmaRX\Coollection\Package\Coollection  $country
      * @return mixed
      */
     public function fixNaturalOddCountries($country)
@@ -105,7 +105,7 @@ class Natural extends Base
     }
 
     /**
-     * @param States $states
+     * @param  States  $states
      */
     public function setStates(States $states)
     {

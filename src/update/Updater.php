@@ -16,67 +16,67 @@ use PragmaRX\Countries\Package\Support\Base;
 class Updater extends Base
 {
     /**
-     * @param \Illuminate\Console\Command $line
+     * @param  \Illuminate\Console\Command  $line
      */
     protected $command;
 
     /**
-     * @param \PragmaRX\Coollection\Package\Coollection $countries
+     * @param  \PragmaRX\Coollection\Package\Coollection  $countries
      */
     protected $_countries;
 
     /**
-     * @param Config $config
+     * @param  Config  $config
      */
     protected $config;
 
     /**
-     * @param \PragmaRX\Countries\Update\Helper $helper
+     * @param  \PragmaRX\Countries\Update\Helper  $helper
      */
     protected $helper;
 
     /**
-     * @param \PragmaRX\Countries\Update\Rinvex $rinvex
+     * @param  \PragmaRX\Countries\Update\Rinvex  $rinvex
      */
     protected $rinvex;
 
     /**
-     * @param \PragmaRX\Countries\Update\Natural $natural
+     * @param  \PragmaRX\Countries\Update\Natural  $natural
      */
     protected $natural;
 
     /**
-     * @param \PragmaRX\Countries\Update\Mledoze $mledoze
+     * @param  \PragmaRX\Countries\Update\Mledoze  $mledoze
      */
     protected $mledoze;
 
     /**
-     * @param \PragmaRX\Countries\Update\Countries $countries
+     * @param  \PragmaRX\Countries\Update\Countries  $countries
      */
     protected $countries;
 
     /**
-     * @param \PragmaRX\Countries\Update\Cities $cities
+     * @param  \PragmaRX\Countries\Update\Cities  $cities
      */
     protected $cities;
 
     /**
-     * @param \PragmaRX\Countries\Update\Currencies $currencies
+     * @param  \PragmaRX\Countries\Update\Currencies  $currencies
      */
     protected $currencies;
 
     /**
-     * @param \PragmaRX\Countries\Update\States $states
+     * @param  \PragmaRX\Countries\Update\States  $states
      */
     protected $states;
 
     /**
-     * @param \PragmaRX\Countries\Update\Taxes $taxes
+     * @param  \PragmaRX\Countries\Update\Taxes  $taxes
      */
     protected $taxes;
 
     /**
-     * @param \PragmaRX\Countries\Update\Timezones $timezones
+     * @param  \PragmaRX\Countries\Update\Timezones  $timezones
      */
     protected $timezones;
 
@@ -92,8 +92,9 @@ class Updater extends Base
 
     /**
      * Updater constructor.
-     * @param object $config
-     * @param Helper $helper
+     *
+     * @param  object  $config
+     * @param  Helper  $helper
      */
     public function __construct($config, Helper $helper)
     {
@@ -161,7 +162,7 @@ class Updater extends Base
     }
 
     /**
-     * @param mixed $countries
+     * @param  mixed  $countries
      */
     public function setCountries($countries)
     {
@@ -199,8 +200,8 @@ class Updater extends Base
     /**
      * Add data sources to collection.
      *
-     * @param \PragmaRX\Coollection\Package\Coollection $record
-     * @param string $source
+     * @param  \PragmaRX\Coollection\Package\Coollection  $record
+     * @param  string  $source
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function addDataSource($record, $source)
@@ -231,8 +232,8 @@ class Updater extends Base
     }
 
     /**
-     * @param \PragmaRX\Coollection\Package\Coollection $mledoze
-     * @param \PragmaRX\Coollection\Package\Coollection $natural
+     * @param  \PragmaRX\Coollection\Package\Coollection  $mledoze
+     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
      * @return array
      */
     public function findCountryByAnyField($mledoze, $natural)
@@ -256,8 +257,8 @@ class Updater extends Base
     }
 
     /**
-     * @param \PragmaRX\Coollection\Package\Coollection $on
-     * @param \PragmaRX\Coollection\Package\Coollection $by
+     * @param  \PragmaRX\Coollection\Package\Coollection  $on
+     * @param  \PragmaRX\Coollection\Package\Coollection  $by
      * @param $fields
      * @param $codeField
      * @return array
@@ -279,9 +280,9 @@ class Updater extends Base
      * Generate all json files.
      *
      * @param $dir
-     * @param Closure|null $makeGroupKeyClosure
-     * @param \PragmaRX\Coollection\Package\Coollection $records
-     * @param string|null $groupKey
+     * @param  Closure|null  $makeGroupKeyClosure
+     * @param  \PragmaRX\Coollection\Package\Coollection  $records
+     * @param  string|null  $groupKey
      */
     public function generateAllJsonFiles($dir, $makeGroupKeyClosure, $records, $groupKey)
     {
@@ -315,10 +316,10 @@ class Updater extends Base
      *
      * @param $data
      * @param $dir
-     * @param Closure $normalizerClosure
-     * @param Closure|null $makeGroupKeyClosure
-     * @param Closure $mergeData
-     * @param string $groupKey
+     * @param  Closure  $normalizerClosure
+     * @param  Closure|null  $makeGroupKeyClosure
+     * @param  Closure  $mergeData
+     * @param  string  $groupKey
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function generateJsonFiles($data, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
@@ -400,7 +401,7 @@ class Updater extends Base
     /**
      * Command setter.
      *
-     * @param Command $command
+     * @param  Command  $command
      */
     public function setCommand(Command $command)
     {

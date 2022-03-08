@@ -42,11 +42,11 @@ class Countries extends Base
     /**
      * Rinvex constructor.
      *
-     * @param Helper $helper
-     * @param Natural $natural
-     * @param Mledoze $mledoze
-     * @param Rinvex $rinvex
-     * @param Updater $updater
+     * @param  Helper  $helper
+     * @param  Natural  $natural
+     * @param  Mledoze  $mledoze
+     * @param  Rinvex  $rinvex
+     * @param  Updater  $updater
      */
     public function __construct(Helper $helper, Natural $natural, Mledoze $mledoze, Rinvex $rinvex, Updater $updater)
     {

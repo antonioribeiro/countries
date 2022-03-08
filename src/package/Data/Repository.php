@@ -60,10 +60,10 @@ class Repository
     /**
      * Repository constructor.
      *
-     * @param CacheContract $cache
-     * @param Hydrator $hydrator
-     * @param Helper $helper
-     * @param object $config
+     * @param  CacheContract  $cache
+     * @param  Hydrator  $hydrator
+     * @param  Helper  $helper
+     * @param  object  $config
      */
     public function __construct(CacheContract $cache, Hydrator $hydrator, Helper $helper, $config)
     {
@@ -80,7 +80,7 @@ class Repository
      * Call magic method.
      *
      * @param $name
-     * @param array $arguments
+     * @param  array  $arguments
      * @return mixed
      */
     public function __call($name, array $arguments = [])
@@ -130,6 +130,7 @@ class Repository
 
     /**
      * Boot the repository.
+     *
      * @return static
      */
     public function boot()
@@ -159,7 +160,9 @@ class Repository
 
     /**
      * Load countries json file.
+     *
      * @return \PragmaRX\Coollection\Package\Coollection
+     *
      * @throws \Exception
      */
     public function loadCountriesJson()
@@ -299,7 +302,7 @@ class Repository
      * Hydrate a country element.
      *
      * @param $collection
-     * @param null $elements
+     * @param  null  $elements
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function hydrate($collection, $elements = null)

@@ -26,9 +26,9 @@ class Rinvex extends Base
     /**
      * Rinvex constructor.
      *
-     * @param Helper $helper
-     * @param Natural $natural
-     * @param Updater $updater
+     * @param  Helper  $helper
+     * @param  Natural  $natural
+     * @param  Updater  $updater
      */
     public function __construct(Helper $helper, Natural $natural, Updater $updater)
     {
@@ -42,7 +42,7 @@ class Rinvex extends Base
     /**
      * Fill array with Rinvex usable data.
      *
-     * @param \PragmaRX\Coollection\Package\Coollection $natural
+     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function fillRinvexFields($natural)
@@ -73,7 +73,7 @@ class Rinvex extends Base
 
     /**
      * @param $result
-     * @param string $type
+     * @param  string  $type
      * @return null|Coollection
      */
     public function findRinvex($result, $type)
@@ -107,7 +107,7 @@ class Rinvex extends Base
      * Find the Rinvex state.
      *
      * @param $country
-     * @param \PragmaRX\Coollection\Package\Coollection $needle
+     * @param  \PragmaRX\Coollection\Package\Coollection  $needle
      * @return null|Coollection
      */
     public function findRinvexState($country, $needle)
@@ -155,10 +155,10 @@ class Rinvex extends Base
     /**
      * Merge country data with Rinvex data.
      *
-     * @param Coollection $natural
-     * @param Coollection $rinvex
+     * @param  Coollection  $natural
+     * @param  Coollection  $rinvex
      * @param $translation
-     * @param string $suffix
+     * @param  string  $suffix
      * @return mixed|\PragmaRX\Coollection\Package\Coollection
      */
     public function mergeWithRinvex($natural, $rinvex, $translation, $suffix = '_rinvex')
@@ -234,6 +234,7 @@ class Rinvex extends Base
     /**
      * @param $state
      * @return \PragmaRX\Coollection\Package\Coollection
+     *
      * @throws Exception
      */
     public function mergeStateWithRinvex($state)
@@ -260,7 +261,7 @@ class Rinvex extends Base
     }
 
     /**
-     * @param \PragmaRX\Coollection\Package\Coollection $rinvex
+     * @param  \PragmaRX\Coollection\Package\Coollection  $rinvex
      * @param $cca3
      * @param $postal
      * @param $country
