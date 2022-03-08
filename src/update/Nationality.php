@@ -20,8 +20,8 @@ class Nationality extends Base
     /**
      * Rinvex constructor.
      *
-     * @param Helper $helper
-     * @param Updater $updater
+     * @param  Helper  $helper
+     * @param  Updater  $updater
      */
     public function __construct(Helper $helper, Updater $updater)
     {
@@ -81,8 +81,8 @@ class Nationality extends Base
     /**
      * Find a mledoze country from natural earth vector data.
      *
-     * @param Coollection $mledoze
-     * @param Coollection $natural
+     * @param  Coollection  $mledoze
+     * @param  Coollection  $natural
      * @return array
      */
     public function findMledozeCountry($mledoze, $natural)
@@ -99,9 +99,9 @@ class Nationality extends Base
     /**
      * Merge the two countries sources.
      *
-     * @param \PragmaRX\Coollection\Package\Coollection $mledoze
-     * @param \PragmaRX\Coollection\Package\Coollection $natural
-     * @param string $suffix
+     * @param  \PragmaRX\Coollection\Package\Coollection  $mledoze
+     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
+     * @param  string  $suffix
      * @return mixed
      */
     public function mergeWithMledoze($mledoze, $natural, $suffix = '_nev')
