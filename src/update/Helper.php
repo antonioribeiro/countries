@@ -10,8 +10,8 @@ use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use ReflectionClass;
 use Shapefile\Geometry\Polygon;
-use Shapefile\ShapefileReader;
 use Shapefile\Shapefile;
+use Shapefile\ShapefileReader;
 
 class Helper
 {
@@ -33,7 +33,7 @@ class Helper
     /**
      * Rinvex constructor.
      *
-     * @param object $config
+     * @param  object  $config
      */
     public function __construct($config)
     {
@@ -60,6 +60,7 @@ class Helper
      * Abort with message.
      *
      * @param $message
+     *
      * @throws Exception
      */
     protected function abort($message)
@@ -132,6 +133,7 @@ class Helper
      * Raise exception.
      *
      * @param $message
+     *
      * @throws Exception
      */
     public function exception($message)
@@ -289,13 +291,13 @@ class Helper
         if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
             $zip = new \ZipArchive;
             $res = $zip->open($file);
-            if ($res === TRUE) {
+            if ($res === true) {
                 $zip->extractTo('.');
                 $zip->close();
             } else {
                 throw new Exception('Cannot unzip');
             }
-        }else{
+        } else {
             exec("unzip -o $file");
         }
 
@@ -360,7 +362,7 @@ class Helper
     /**
      * Recursively change all array keys case.
      *
-     * @param array|\PragmaRX\Coollection\Package\Coollection $array
+     * @param  array|\PragmaRX\Coollection\Package\Coollection  $array
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function arrayKeysSnakeRecursive($array)
@@ -461,7 +463,7 @@ class Helper
     /**
      * Erase all files from states data dir.
      *
-     * @param string $dir
+     * @param  string  $dir
      */
     public function eraseDataDir($dir)
     {
@@ -471,7 +473,7 @@ class Helper
     /**
      * Load the shape file (DBF) to array.
      *
-     * @param string $file
+     * @param  string  $file
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function loadShapeFile($file)
@@ -546,7 +548,7 @@ class Helper
     /**
      * Show the progress.
      *
-     * @param string $string
+     * @param  string  $string
      */
     public function progress($string = '')
     {
@@ -563,7 +565,7 @@ class Helper
      * Display a message in console.
      *
      * @param $message
-     * @param string $type
+     * @param  string  $type
      */
     public function message($message, $type = 'line')
     {
@@ -575,7 +577,7 @@ class Helper
     /**
      * Get temp directory.
      *
-     * @param string $path
+     * @param  string  $path
      * @return string
      */
     public function tmpDir($path)
@@ -587,8 +589,9 @@ class Helper
      * Loads a json file.
      *
      * @param $file
-     * @param string $dir
+     * @param  string  $dir
      * @return \PragmaRX\Coollection\Package\Coollection
+     *
      * @throws \Exception
      */
     public function loadCsv($file, $dir = null)
@@ -608,7 +611,7 @@ class Helper
      * Make state json filename.
      *
      * @param $key
-     * @param string $dir
+     * @param  string  $dir
      * @return string
      */
     public function makeJsonFileName($key, $dir = '')
@@ -636,7 +639,7 @@ class Helper
     /**
      * Encode and pretty print json.
      *
-     * @param array|\PragmaRX\Coollection\Package\Coollection $data
+     * @param  array|\PragmaRX\Coollection\Package\Coollection  $data
      * @return string
      */
     public function jsonEncode($data)

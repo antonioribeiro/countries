@@ -25,7 +25,7 @@ if (! function_exists('countriesCollect')) {
     /**
      * Check if array is multidimensional.
      *
-     * @param mixed|null $data
+     * @param  mixed|null  $data
      * @return \PragmaRX\Countries\Package\Support\Collection
      */
     function countriesCollect($data = null)

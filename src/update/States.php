@@ -22,9 +22,9 @@ class States
     /**
      * Rinvex constructor.
      *
-     * @param Helper $helper
-     * @param Rinvex $rinvex
-     * @param Updater $updater
+     * @param  Helper  $helper
+     * @param  Rinvex  $rinvex
+     * @param  Updater  $updater
      */
     public function __construct(Helper $helper, Rinvex $rinvex, Updater $updater)
     {

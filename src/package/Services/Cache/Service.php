@@ -32,9 +32,10 @@ class Service implements CacheInterface
 
     /**
      * Cache constructor.
-     * @param object $config
-     * @param object $manager
-     * @param null $path
+     *
+     * @param  object  $config
+     * @param  object  $manager
+     * @param  null  $path
      */
     public function __construct($config = null, $manager = null, $path = null)
     {
@@ -82,8 +83,8 @@ class Service implements CacheInterface
     /**
      * Fetches a value from the cache.
      *
-     * @param string $key
-     * @param null $default
+     * @param  string  $key
+     * @param  null  $default
      * @return mixed|null
      */
     public function get($key, $default = null)
@@ -97,6 +98,7 @@ class Service implements CacheInterface
      * Create a cache key.
      *
      * @return string
+     *
      * @throws Exception
      */
     public function makeKey()
@@ -113,9 +115,9 @@ class Service implements CacheInterface
     /**
      * Persists data in the cache, uniquely referenced by a key with an optional expiration TTL time.
      *
-     * @param string $key
-     * @param mixed $value
-     * @param null $ttl
+     * @param  string  $key
+     * @param  mixed  $value
+     * @param  null  $ttl
      * @return bool
      */
     public function set($key, $value, $ttl = null)
@@ -130,7 +132,7 @@ class Service implements CacheInterface
     /**
      * Delete an item from the cache by its unique key.
      *
-     * @param string $key
+     * @param  string  $key
      * @return bool
      */
     public function delete($key)
@@ -150,7 +152,7 @@ class Service implements CacheInterface
      * Obtains multiple cache items by their unique keys.
      *
      * @param $keys
-     * @param null $default
+     * @param  null  $default
      * @return array
      */
     public function getMultiple($keys, $default = null)
@@ -162,7 +164,7 @@ class Service implements CacheInterface
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
      * @param $values
-     * @param null $ttl
+     * @param  null  $ttl
      * @return bool
      */
     public function setMultiple($values, $ttl = null)
@@ -184,7 +186,7 @@ class Service implements CacheInterface
     /**
      * Determines whether an item is present in the cache.
      *
-     * @param string $key
+     * @param  string  $key
      * @return bool
      */
     public function has($key)
@@ -195,9 +197,9 @@ class Service implements CacheInterface
     /**
      * Get an item from the cache, or store the default value.
      *
-     * @param  string $key
-     * @param  \DateTimeInterface|\DateInterval|float|int $minutes
-     * @param Closure $callback
+     * @param  string  $key
+     * @param  \DateTimeInterface|\DateInterval|float|int  $minutes
+     * @param  Closure  $callback
      * @return mixed
      */
     public function remember($key, $minutes, Closure $callback)
