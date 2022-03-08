@@ -15,7 +15,7 @@ class Helper
     /**
      * Rinvex constructor.
      *
-     * @param object $config
+     * @param  object  $config
      */
     public function __construct($config)
     {
@@ -39,8 +39,9 @@ class Helper
      * Loads a json file.
      *
      * @param $file
-     * @param string $dir
+     * @param  string  $dir
      * @return \PragmaRX\Coollection\Package\Coollection
+     *
      * @throws Exception
      */
     public function loadJson($file, $dir = null)

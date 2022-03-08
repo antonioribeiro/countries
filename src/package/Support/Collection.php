@@ -12,8 +12,8 @@ class Collection extends Coollection
     /**
      * Magic call methods.
      *
-     * @param string $name
-     * @param array $arguments
+     * @param  string  $name
+     * @param  array  $arguments
      * @return mixed|static
      */
     public function __call($name, $arguments)
@@ -35,7 +35,7 @@ class Collection extends Coollection
     /**
      * Hydrate configured default elements.
      *
-     * @param Collection $countries
+     * @param  Collection  $countries
      * @return Collection
      */
     public function hydrateDefaultElements($countries)
@@ -46,9 +46,9 @@ class Collection extends Coollection
     /**
      * Where on steroids.
      *
-     * @param string $key
-     * @param mixed $operator
-     * @param null $value
+     * @param  string  $key
+     * @param  mixed  $operator
+     * @param  null  $value
      * @return static
      */
     public function where($key, $operator, $value = null)
@@ -102,9 +102,9 @@ class Collection extends Coollection
     /**
      * Where for different attributes.
      *
-     * @param string $propertyName
+     * @param  string  $propertyName
      * @param $find
-     * @param Closure $finderClosure
+     * @param  Closure  $finderClosure
      * @return static
      */
     private function arrayFinder(string $propertyName, $find, Closure $finderClosure)
@@ -125,7 +125,7 @@ class Collection extends Coollection
     /**
      * Where for keys.
      *
-     * @param string $arrayName
+     * @param  string  $arrayName
      * @param $value
      * @return static
      */
@@ -143,7 +143,7 @@ class Collection extends Coollection
     /**
      * Where for different attributes.
      *
-     * @param string $arrayName
+     * @param  string  $arrayName
      * @param $value
      * @return static
      */

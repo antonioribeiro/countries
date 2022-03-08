@@ -54,11 +54,11 @@ class Countries extends Base
     /**
      * Service constructor.
      *
-     * @param object $config
-     * @param Cache $cache
-     * @param Helper $helper
-     * @param Hydrator $hydrator
-     * @param Repository $repository
+     * @param  object  $config
+     * @param  Cache  $cache
+     * @param  Helper  $helper
+     * @param  Hydrator  $hydrator
+     * @param  Repository  $repository
      */
     public function __construct(
         $config = null,
@@ -88,7 +88,7 @@ class Countries extends Base
      * Call a method.
      *
      * @param $name
-     * @param array $arguments
+     * @param  array  $arguments
      * @return bool|mixed
      */
     public function __call($name, array $arguments = [])
@@ -174,7 +174,7 @@ class Countries extends Base
     /**
      * Instantiate cache.
      *
-     * @param Cache|null $cache
+     * @param  Cache|null  $cache
      * @return Cache
      */
     protected function instantiateCache(Cache $cache = null)
@@ -191,7 +191,7 @@ class Countries extends Base
     /**
      * Instantiate config.
      *
-     * @param object|null $config
+     * @param  object|null  $config
      * @return Config
      */
     protected function instantiateConfig($config = null)
@@ -206,7 +206,7 @@ class Countries extends Base
     }
 
     /**
-     * @param Helper|null $helper
+     * @param  Helper|null  $helper
      * @return Helper
      */
     protected function instantiateHelper(Helper $helper = null)
@@ -223,7 +223,7 @@ class Countries extends Base
     /**
      * Instantiate hydrator.
      *
-     * @param Hydrator|null $hydrator
+     * @param  Hydrator|null  $hydrator
      * @return Hydrator
      */
     protected function instantiateHydrator(Hydrator $hydrator = null)

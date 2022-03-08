@@ -46,7 +46,7 @@ class Hydrator
     /**
      * Hydrator constructor.
      *
-     * @param object $config
+     * @param  object  $config
      */
     public function __construct($config)
     {
@@ -187,7 +187,7 @@ class Hydrator
      *
      * @param $countryCode
      * @param $element
-     * @param bool $enabled
+     * @param  bool  $enabled
      * @return bool
      */
     protected function needsHydration($countryCode, $element, $enabled = false)
@@ -379,8 +379,8 @@ class Hydrator
     /**
      * Hydrate a countries collection with languages.
      *
-     * @param \PragmaRX\Coollection\Package\Coollection|array|\stdClass $target
-     * @param null $elements
+     * @param  \PragmaRX\Coollection\Package\Coollection|array|\stdClass  $target
+     * @param  null  $elements
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function hydrate($target, $elements = null)
