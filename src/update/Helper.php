@@ -9,7 +9,9 @@ use PragmaRX\Countries\Package\Services\Helper as ServiceHelper;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use ReflectionClass;
-use ShapeFile\ShapeFile;
+use Shapefile\Geometry\Polygon;
+use Shapefile\ShapefileReader;
+use Shapefile\Shapefile;
 
 class Helper
 {
@@ -284,7 +286,18 @@ class Helper
 
         chdir($path);
 
-        exec("unzip -o $file");
+        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+            $zip = new \ZipArchive;
+            $res = $zip->open($file);
+            if ($res === TRUE) {
+                $zip->extractTo('.');
+                $zip->close();
+            } else {
+                throw new Exception('Cannot unzip');
+            }
+        }else{
+            exec("unzip -o $file");
+        }
 
         $this->renameMasterToPackage($file, $subPath, $path, basename($file));
     }
@@ -316,16 +329,17 @@ class Helper
      */
     public function shapeFile($dir)
     {
-        $shapeRecords = new ShapeFile($dir);
+        $shapeRecords = new ShapefileReader($dir);
 
         $result = [];
 
+        /** @var Polygon $record */
         foreach ($shapeRecords as $record) {
-            if ($record['dbf']['_deleted']) {
+            if ($record->isDeleted()) {
                 continue;
             }
 
-            $data = $record['dbf'];
+            $data = $record->getDataArray();
 
             unset($data['_deleted']);
 
