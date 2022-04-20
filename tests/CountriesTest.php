@@ -268,7 +268,7 @@ class CountriesTest extends PHPUnitTestCase
             return $value !== 'unknown';
         })->sort()->values()->unique()->count();
 
-        return $this->assertEquals(158, $number); // current state 2022-02
+        return $this->assertEquals(161, $number); // current state 2022-02
     }
 
     public function testNumberOfBorders()
@@ -281,7 +281,7 @@ class CountriesTest extends PHPUnitTestCase
             return $value->keys()->flatten()->toArray();
         })->count();
 
-        $this->assertEquals(270, $number); // current state 2022-02
+        $this->assertEquals(267, $number); // current state 2022-02
     }
 
     public function testNumberOfLanguages()
@@ -409,7 +409,7 @@ class CountriesTest extends PHPUnitTestCase
     {
         $this->assertEquals(
             Countries::where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times->time_start,
-            '-2233035336'
+            '-1825098837'
         ); // current state 2022-02
     }
 
@@ -417,8 +417,8 @@ class CountriesTest extends PHPUnitTestCase
     {
         $c = new Countries;
 
-        $this->assertEquals(270, $c->all()->count()); // current state 2022-02
+        $this->assertEquals(267, $c->all()->count()); // current state 2022-02
 
-        $this->assertEquals(270, $c->all()->pluck('name.common')->count()); // current state 2022-02
+        $this->assertEquals(267, $c->all()->pluck('name.common')->count()); // current state 2022-02
     }
 }
