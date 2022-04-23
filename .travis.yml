@@ -1,11 +1,9 @@
 language: php
 
 php:
-#  - 7.0
-  - 7.1
-  - 7.2
-  - 7.3
   - 7.4
+  - 8.0
+  - 8.1
 # - nightly
 
 env:
@@ -23,7 +21,7 @@ cache:
 
 ## Disable Xdebug on all PHP versions except those ones below
 before_script:
-  - '[[ "$TRAVIS_PHP_VERSION" == "7.3" || "$TRAVIS_PHP_VERSION" == "nightly" || "$TRAVIS_PHP_VERSION" == "7.4snapshot" ]] || phpenv config-rm xdebug.ini'
+  - '[[ "$TRAVIS_PHP_VERSION" == "8.0" || "$TRAVIS_PHP_VERSION" == "nightly" ]] || phpenv config-rm xdebug.ini'
   - travis_retry composer self-update
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
 # - '[[ "$TRAVIS_PHP_VERSION" == "7.4snapshot" ]] && composer require nette/finder:"dev-master" --no-interaction --prefer-dist || echo done'
@@ -33,7 +31,7 @@ script:
 
 after_script:
   - |
-    if [[ "$TRAVIS_PHP_VERSION" == '7.2' ]]; then
+    if [[ "$TRAVIS_PHP_VERSION" == '8.0' ]]; then
       wget https://scrutinizer-ci.com/ocular.phar
       php ocular.phar code-coverage:upload --format=php-clover coverage.clover
     fi
