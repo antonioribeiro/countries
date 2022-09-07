@@ -11,6 +11,8 @@ use PragmaRX\Countries\Update\Updater;
 
 class CountriesTest extends PHPUnitTestCase
 {
+    const COUNTRIES = 270;
+
     public function setUp(): void
     {
         ini_set('memory_limit', '2048M');
@@ -29,7 +31,7 @@ class CountriesTest extends PHPUnitTestCase
 
             $updater = new Updater($config, $helper);
 
-            $updater->update();
+            //$updater->update();
         }
 
         $this->assertTrue(! false);
@@ -268,7 +270,7 @@ class CountriesTest extends PHPUnitTestCase
             return $value !== 'unknown';
         })->sort()->values()->unique()->count();
 
-        return $this->assertEquals(161, $number); // current state 2022-02
+        return $this->assertEquals(158, $number); // current state 2022-02
     }
 
     public function testNumberOfBorders()
@@ -281,7 +283,7 @@ class CountriesTest extends PHPUnitTestCase
             return $value->keys()->flatten()->toArray();
         })->count();
 
-        $this->assertEquals(267, $number); // current state 2022-02
+        $this->assertEquals(self::COUNTRIES, $number); // current state 2022-02
     }
 
     public function testNumberOfLanguages()
@@ -409,7 +411,7 @@ class CountriesTest extends PHPUnitTestCase
     {
         $this->assertEquals(
             Countries::where('name.common', 'United States Virgin Islands')->first()->hydrate('timezones_times')->timezones->first()->times->time_start,
-            '-1825098837'
+            '-2233035336'
         ); // current state 2022-02
     }
 
@@ -417,8 +419,8 @@ class CountriesTest extends PHPUnitTestCase
     {
         $c = new Countries;
 
-        $this->assertEquals(267, $c->all()->count()); // current state 2022-02
+        $this->assertEquals(self::COUNTRIES, $c->all()->count()); // current state 2022-02
 
-        $this->assertEquals(267, $c->all()->pluck('name.common')->count()); // current state 2022-02
+        $this->assertEquals(self::COUNTRIES, $c->all()->pluck('name.common')->count()); // current state 2022-02
     }
 }
