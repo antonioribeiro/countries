@@ -35,8 +35,8 @@
     },
 
     "require-dev": {
-        "phpunit/phpunit": "~6.0|~7.0|~8.0",
-        "squizlabs/php_codesniffer": "^2.3",
+        "phpunit/phpunit": "~6.0|~7.0|~8.0|^9.0",
+        "squizlabs/php_codesniffer": "^2.3|^3.6",
         "gasparesganga/php-shapefile": "^3.4"
     },
 
