@@ -19,8 +19,14 @@
                     },
                     {
                         "amount": 0.16,
+                        "end_date": "2020-12-31",
                         "id": "de_vat_standard_2020",
                         "start_date": "2020-07-01"
+                    },
+                    {
+                        "amount": 0.19,
+                        "id": "de_vat_standard_2021",
+                        "start_date": "2021-01-01"
                     }
                 ],
                 "default": true,
@@ -37,8 +43,14 @@
                     },
                     {
                         "amount": 0.05,
+                        "end_date": "2020-12-31",
                         "id": "de_vat_reduced_2020",
                         "start_date": "2020-07-01"
+                    },
+                    {
+                        "amount": 0.07,
+                        "id": "de_vat_reduced_2021",
+                        "start_date": "2021-01-01"
                     }
                 ],
                 "id": "de_vat_reduced",

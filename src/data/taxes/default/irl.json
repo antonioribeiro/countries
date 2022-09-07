@@ -31,8 +31,20 @@
                     },
                     {
                         "amount": 0.23,
+                        "end_date": "2020-08-31",
                         "id": "ie_vat_standard_2012",
                         "start_date": "2012-01-01"
+                    },
+                    {
+                        "amount": 0.21,
+                        "end_date": "2021-02-28",
+                        "id": "ie_vat_standard_2020",
+                        "start_date": "2020-09-01"
+                    },
+                    {
+                        "amount": 0.23,
+                        "id": "ie_vat_standard_2021",
+                        "start_date": "2021-03-01"
                     }
                 ],
                 "default": true,

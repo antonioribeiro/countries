@@ -1,21 +1,8 @@
 {
     "antarctica_casey": {
         "abbreviations": [
-            "AWST"
-        ],
-        "cca2": "AQ",
-        "cca3": "ATA",
-        "country_code": "AQ",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "9",
-        "zone_name": "Antarctica\/Casey"
-    },
-    "antarctica_davis": {
-        "abbreviations": [
-            "DAVT"
+            "CAST",
+            "GMT"
         ],
         "cca2": "AQ",
         "cca3": "ATA",
@@ -25,11 +12,12 @@
         ],
         "record_type": "timezone",
         "zone_id": "10",
-        "zone_name": "Antarctica\/Davis"
+        "zone_name": "Antarctica\/Casey"
     },
-    "antarctica_dumont_d_urville": {
+    "antarctica_davis": {
         "abbreviations": [
-            "DDUT"
+            "DAVT",
+            "GMT"
         ],
         "cca2": "AQ",
         "cca3": "ATA",
@@ -39,11 +27,13 @@
         ],
         "record_type": "timezone",
         "zone_id": "11",
-        "zone_name": "Antarctica\/DumontDUrville"
+        "zone_name": "Antarctica\/Davis"
     },
-    "antarctica_mawson": {
+    "antarctica_dumont_d_urville": {
         "abbreviations": [
-            "MAWT"
+            "DDUT",
+            "LMT",
+            "PMMT"
         ],
         "cca2": "AQ",
         "cca3": "ATA",
@@ -53,6 +43,21 @@
         ],
         "record_type": "timezone",
         "zone_id": "12",
+        "zone_name": "Antarctica\/DumontDUrville"
+    },
+    "antarctica_mawson": {
+        "abbreviations": [
+            "GMT",
+            "MAWT"
+        ],
+        "cca2": "AQ",
+        "cca3": "ATA",
+        "country_code": "AQ",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "13",
         "zone_name": "Antarctica\/Mawson"
     },
     "antarctica_mc_murdo": {
@@ -69,12 +74,15 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "13",
+        "zone_id": "9",
         "zone_name": "Antarctica\/McMurdo"
     },
     "antarctica_palmer": {
         "abbreviations": [
-            "CLST"
+            "ARST",
+            "CLST",
+            "CLT",
+            "GMT"
         ],
         "cca2": "AQ",
         "cca3": "ATA",
@@ -88,7 +96,8 @@
     },
     "antarctica_rothera": {
         "abbreviations": [
-            "ROTT"
+            "ART",
+            "GMT"
         ],
         "cca2": "AQ",
         "cca3": "ATA",
@@ -102,6 +111,7 @@
     },
     "antarctica_syowa": {
         "abbreviations": [
+            "LMT",
             "SYOT"
         ],
         "cca2": "AQ",
@@ -117,7 +127,7 @@
     "antarctica_troll": {
         "abbreviations": [
             "CEST",
-            "UTC"
+            "GMT"
         ],
         "cca2": "AQ",
         "cca3": "ATA",
@@ -131,6 +141,7 @@
     },
     "antarctica_vostok": {
         "abbreviations": [
+            "GMT",
             "VOST"
         ],
         "cca2": "AQ",

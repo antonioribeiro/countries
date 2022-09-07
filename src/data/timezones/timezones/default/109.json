@@ -3,7 +3,7 @@
         "abbreviation": "YST",
         "dst": "0",
         "gmt_offset": "-32400",
-        "time_start": "-2188997988",
+        "time_start": "-2188996940",
         "zone_id": "109"
     },
     "2": {
@@ -73,7 +73,7 @@
         "abbreviation": "PST",
         "dst": "0",
         "gmt_offset": "-28800",
-        "time_start": "-81961200",
+        "time_start": "120646800",
         "zone_id": "109"
     },
     "12": {
@@ -637,15 +637,22 @@
         "zone_id": "109"
     },
     "92": {
-        "abbreviation": "MST",
-        "dst": "0",
+        "abbreviation": "PDT",
+        "dst": "1",
         "gmt_offset": "-25200",
         "time_start": "1583661600",
         "zone_id": "109"
     },
+    "93": {
+        "abbreviation": "MST",
+        "dst": "0",
+        "gmt_offset": "-25200",
+        "time_start": "1604214000",
+        "zone_id": "109"
+    },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "-32412",
-    "time_start": "-2188997989",
+    "gmt_offset": "-33460",
+    "time_start": "-2188996941",
     "zone_id": "109"
 }

@@ -1,6 +1,7 @@
 {
     "america_argentina_buenos__aires": {
         "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"
@@ -17,6 +18,24 @@
     },
     "america_argentina_catamarca": {
         "abbreviations": [
+            "ARST",
+            "ART",
+            "CMT",
+            "LMT"
+        ],
+        "cca2": "AR",
+        "cca3": "ARG",
+        "country_code": "AR",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "24",
+        "zone_name": "America\/Argentina\/Catamarca"
+    },
+    "america_argentina_cordoba": {
+        "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"
@@ -29,26 +48,11 @@
         ],
         "record_type": "timezone",
         "zone_id": "20",
-        "zone_name": "America\/Argentina\/Catamarca"
-    },
-    "america_argentina_cordoba": {
-        "abbreviations": [
-            "ART",
-            "CMT",
-            "LMT"
-        ],
-        "cca2": "AR",
-        "cca3": "ARG",
-        "country_code": "AR",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "21",
         "zone_name": "America\/Argentina\/Cordoba"
     },
     "america_argentina_jujuy": {
         "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"
@@ -65,38 +69,7 @@
     },
     "america_argentina_la__rioja": {
         "abbreviations": [
-            "ART",
-            "CMT",
-            "LMT"
-        ],
-        "cca2": "AR",
-        "cca3": "ARG",
-        "country_code": "AR",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "23",
-        "zone_name": "America\/Argentina\/La_Rioja"
-    },
-    "america_argentina_mendoza": {
-        "abbreviations": [
-            "ART",
-            "CMT",
-            "LMT"
-        ],
-        "cca2": "AR",
-        "cca3": "ARG",
-        "country_code": "AR",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "24",
-        "zone_name": "America\/Argentina\/Mendoza"
-    },
-    "america_argentina_rio__gallegos": {
-        "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"
@@ -109,26 +82,11 @@
         ],
         "record_type": "timezone",
         "zone_id": "25",
-        "zone_name": "America\/Argentina\/Rio_Gallegos"
+        "zone_name": "America\/Argentina\/La_Rioja"
     },
-    "america_argentina_salta": {
+    "america_argentina_mendoza": {
         "abbreviations": [
-            "ART",
-            "CMT",
-            "LMT"
-        ],
-        "cca2": "AR",
-        "cca3": "ARG",
-        "country_code": "AR",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "26",
-        "zone_name": "America\/Argentina\/Salta"
-    },
-    "america_argentina_san__juan": {
-        "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"
@@ -141,10 +99,62 @@
         ],
         "record_type": "timezone",
         "zone_id": "27",
+        "zone_name": "America\/Argentina\/Mendoza"
+    },
+    "america_argentina_rio__gallegos": {
+        "abbreviations": [
+            "ARST",
+            "ART",
+            "CMT",
+            "LMT"
+        ],
+        "cca2": "AR",
+        "cca3": "ARG",
+        "country_code": "AR",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "29",
+        "zone_name": "America\/Argentina\/Rio_Gallegos"
+    },
+    "america_argentina_salta": {
+        "abbreviations": [
+            "ARST",
+            "ART",
+            "CMT",
+            "LMT"
+        ],
+        "cca2": "AR",
+        "cca3": "ARG",
+        "country_code": "AR",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "21",
+        "zone_name": "America\/Argentina\/Salta"
+    },
+    "america_argentina_san__juan": {
+        "abbreviations": [
+            "ARST",
+            "ART",
+            "CMT",
+            "LMT"
+        ],
+        "cca2": "AR",
+        "cca3": "ARG",
+        "country_code": "AR",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "26",
         "zone_name": "America\/Argentina\/San_Juan"
     },
     "america_argentina_san__luis": {
         "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"
@@ -161,6 +171,7 @@
     },
     "america_argentina_tucuman": {
         "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"
@@ -172,11 +183,12 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "29",
+        "zone_id": "23",
         "zone_name": "America\/Argentina\/Tucuman"
     },
     "america_argentina_ushuaia": {
         "abbreviations": [
+            "ARST",
             "ART",
             "CMT",
             "LMT"

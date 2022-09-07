@@ -1,14 +1,35 @@
 {
     "1": {
-        "abbreviation": "XJT",
+        "abbreviation": "BMT",
         "dst": "0",
-        "gmt_offset": "21600",
-        "time_start": "-1325483420",
+        "gmt_offset": "-17776",
+        "time_start": "-2707671824",
+        "zone_id": "125"
+    },
+    "2": {
+        "abbreviation": "COT",
+        "dst": "0",
+        "gmt_offset": "-18000",
+        "time_start": "-1739041424",
+        "zone_id": "125"
+    },
+    "3": {
+        "abbreviation": "COST",
+        "dst": "1",
+        "gmt_offset": "-14400",
+        "time_start": "704869200",
+        "zone_id": "125"
+    },
+    "4": {
+        "abbreviation": "COT",
+        "dst": "0",
+        "gmt_offset": "-18000",
+        "time_start": "733896000",
         "zone_id": "125"
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "21020",
-    "time_start": "-1325483421",
+    "gmt_offset": "-17776",
+    "time_start": "-2707671825",
     "zone_id": "125"
 }

@@ -1,8 +1,12 @@
 {
     "pacific_kwajalein": {
         "abbreviations": [
-            "LMT",
-            "MHT"
+            "+09",
+            "+10",
+            "+11",
+            "+12",
+            "--12",
+            "LMT"
         ],
         "cca2": "MH",
         "cca3": "MHL",
@@ -16,8 +20,11 @@
     },
     "pacific_majuro": {
         "abbreviations": [
-            "LMT",
-            "MHT"
+            "+09",
+            "+10",
+            "+11",
+            "+12",
+            "LMT"
         ],
         "cca2": "MH",
         "cca3": "MHL",
@@ -26,7 +33,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "241",
+        "zone_id": "239",
         "zone_name": "Pacific\/Majuro"
     }
 }

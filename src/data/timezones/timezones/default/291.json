@@ -1,21 +1,77 @@
 {
     "1": {
-        "abbreviation": "PMMT",
+        "abbreviation": "LMT",
         "dst": "0",
-        "gmt_offset": "35312",
-        "time_start": "-2840176120",
+        "gmt_offset": "29040",
+        "time_start": "-3944621040",
         "zone_id": "291"
     },
     "2": {
-        "abbreviation": "PGT",
+        "abbreviation": "PST",
         "dst": "0",
-        "gmt_offset": "36000",
-        "time_start": "-2366790512",
+        "gmt_offset": "28800",
+        "time_start": "-2229321840",
+        "zone_id": "291"
+    },
+    "3": {
+        "abbreviation": "PDT",
+        "dst": "1",
+        "gmt_offset": "32400",
+        "time_start": "-1046678400",
+        "zone_id": "291"
+    },
+    "4": {
+        "abbreviation": "PST",
+        "dst": "0",
+        "gmt_offset": "28800",
+        "time_start": "-1038733200",
+        "zone_id": "291"
+    },
+    "5": {
+        "abbreviation": "JST",
+        "dst": "0",
+        "gmt_offset": "32400",
+        "time_start": "-873273600",
+        "zone_id": "291"
+    },
+    "6": {
+        "abbreviation": "PST",
+        "dst": "0",
+        "gmt_offset": "28800",
+        "time_start": "-794221200",
+        "zone_id": "291"
+    },
+    "7": {
+        "abbreviation": "PDT",
+        "dst": "1",
+        "gmt_offset": "32400",
+        "time_start": "-496224000",
+        "zone_id": "291"
+    },
+    "8": {
+        "abbreviation": "PST",
+        "dst": "0",
+        "gmt_offset": "28800",
+        "time_start": "-489315600",
+        "zone_id": "291"
+    },
+    "9": {
+        "abbreviation": "PDT",
+        "dst": "1",
+        "gmt_offset": "32400",
+        "time_start": "259344000",
+        "zone_id": "291"
+    },
+    "10": {
+        "abbreviation": "PST",
+        "dst": "0",
+        "gmt_offset": "28800",
+        "time_start": "275151600",
         "zone_id": "291"
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "35320",
-    "time_start": "-2840176121",
+    "gmt_offset": "-57360",
+    "time_start": "-3944621041",
     "zone_id": "291"
 }

@@ -1,14 +1,6769 @@
 {
     "1": {
-        "abbreviation": "WAT",
+        "abbreviation": "NMT",
         "dst": "0",
-        "gmt_offset": "3600",
-        "time_start": "-1588464816",
+        "gmt_offset": "40320",
+        "time_start": "-2177493112",
+        "zone_id": "273"
+    },
+    "2": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "41400",
+        "time_start": "-599656320",
+        "zone_id": "273"
+    },
+    "3": {
+        "abbreviation": "NFST",
+        "dst": "1",
+        "gmt_offset": "45000",
+        "time_start": "152029800",
+        "zone_id": "273"
+    },
+    "4": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "41400",
+        "time_start": "162916200",
+        "zone_id": "273"
+    },
+    "5": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1443882600",
+        "zone_id": "273"
+    },
+    "6": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1570287600",
+        "zone_id": "273"
+    },
+    "7": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1586012400",
+        "zone_id": "273"
+    },
+    "8": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1601737200",
+        "zone_id": "273"
+    },
+    "9": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1617462000",
+        "zone_id": "273"
+    },
+    "10": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1633186800",
+        "zone_id": "273"
+    },
+    "11": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1648911600",
+        "zone_id": "273"
+    },
+    "12": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1664636400",
+        "zone_id": "273"
+    },
+    "13": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1680361200",
+        "zone_id": "273"
+    },
+    "14": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1696086000",
+        "zone_id": "273"
+    },
+    "15": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1712415600",
+        "zone_id": "273"
+    },
+    "16": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1728140400",
+        "zone_id": "273"
+    },
+    "17": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1743865200",
+        "zone_id": "273"
+    },
+    "18": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1759590000",
+        "zone_id": "273"
+    },
+    "19": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1775314800",
+        "zone_id": "273"
+    },
+    "20": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1791039600",
+        "zone_id": "273"
+    },
+    "21": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1806764400",
+        "zone_id": "273"
+    },
+    "22": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1822489200",
+        "zone_id": "273"
+    },
+    "23": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1838214000",
+        "zone_id": "273"
+    },
+    "24": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1853938800",
+        "zone_id": "273"
+    },
+    "25": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1869663600",
+        "zone_id": "273"
+    },
+    "26": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1885993200",
+        "zone_id": "273"
+    },
+    "27": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1901718000",
+        "zone_id": "273"
+    },
+    "28": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1917442800",
+        "zone_id": "273"
+    },
+    "29": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1933167600",
+        "zone_id": "273"
+    },
+    "30": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1948892400",
+        "zone_id": "273"
+    },
+    "31": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1964617200",
+        "zone_id": "273"
+    },
+    "32": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "1980342000",
+        "zone_id": "273"
+    },
+    "33": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "1996066800",
+        "zone_id": "273"
+    },
+    "34": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2011791600",
+        "zone_id": "273"
+    },
+    "35": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2027516400",
+        "zone_id": "273"
+    },
+    "36": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2043241200",
+        "zone_id": "273"
+    },
+    "37": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2058966000",
+        "zone_id": "273"
+    },
+    "38": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2075295600",
+        "zone_id": "273"
+    },
+    "39": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2091020400",
+        "zone_id": "273"
+    },
+    "40": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2106745200",
+        "zone_id": "273"
+    },
+    "41": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2122470000",
+        "zone_id": "273"
+    },
+    "42": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2138194800",
+        "zone_id": "273"
+    },
+    "43": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2153919600",
+        "zone_id": "273"
+    },
+    "44": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2169644400",
+        "zone_id": "273"
+    },
+    "45": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2185369200",
+        "zone_id": "273"
+    },
+    "46": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2201094000",
+        "zone_id": "273"
+    },
+    "47": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2216818800",
+        "zone_id": "273"
+    },
+    "48": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2233148400",
+        "zone_id": "273"
+    },
+    "49": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2248873200",
+        "zone_id": "273"
+    },
+    "50": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2264598000",
+        "zone_id": "273"
+    },
+    "51": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2280322800",
+        "zone_id": "273"
+    },
+    "52": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2296047600",
+        "zone_id": "273"
+    },
+    "53": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2311772400",
+        "zone_id": "273"
+    },
+    "54": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2327497200",
+        "zone_id": "273"
+    },
+    "55": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2343222000",
+        "zone_id": "273"
+    },
+    "56": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2358946800",
+        "zone_id": "273"
+    },
+    "57": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2374671600",
+        "zone_id": "273"
+    },
+    "58": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2390396400",
+        "zone_id": "273"
+    },
+    "59": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2406121200",
+        "zone_id": "273"
+    },
+    "60": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2422450800",
+        "zone_id": "273"
+    },
+    "61": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2438175600",
+        "zone_id": "273"
+    },
+    "62": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2453900400",
+        "zone_id": "273"
+    },
+    "63": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2469625200",
+        "zone_id": "273"
+    },
+    "64": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2485350000",
+        "zone_id": "273"
+    },
+    "65": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2501074800",
+        "zone_id": "273"
+    },
+    "66": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2516799600",
+        "zone_id": "273"
+    },
+    "67": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2532524400",
+        "zone_id": "273"
+    },
+    "68": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2548249200",
+        "zone_id": "273"
+    },
+    "69": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2563974000",
+        "zone_id": "273"
+    },
+    "70": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2579698800",
+        "zone_id": "273"
+    },
+    "71": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2596028400",
+        "zone_id": "273"
+    },
+    "72": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2611753200",
+        "zone_id": "273"
+    },
+    "73": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2627478000",
+        "zone_id": "273"
+    },
+    "74": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2643202800",
+        "zone_id": "273"
+    },
+    "75": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2658927600",
+        "zone_id": "273"
+    },
+    "76": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2674652400",
+        "zone_id": "273"
+    },
+    "77": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2690377200",
+        "zone_id": "273"
+    },
+    "78": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2706102000",
+        "zone_id": "273"
+    },
+    "79": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2721826800",
+        "zone_id": "273"
+    },
+    "80": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2737551600",
+        "zone_id": "273"
+    },
+    "81": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2753276400",
+        "zone_id": "273"
+    },
+    "82": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2769606000",
+        "zone_id": "273"
+    },
+    "83": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2785330800",
+        "zone_id": "273"
+    },
+    "84": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2801055600",
+        "zone_id": "273"
+    },
+    "85": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2816780400",
+        "zone_id": "273"
+    },
+    "86": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2832505200",
+        "zone_id": "273"
+    },
+    "87": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2848230000",
+        "zone_id": "273"
+    },
+    "88": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2863954800",
+        "zone_id": "273"
+    },
+    "89": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2879679600",
+        "zone_id": "273"
+    },
+    "90": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2895404400",
+        "zone_id": "273"
+    },
+    "91": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2911129200",
+        "zone_id": "273"
+    },
+    "92": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2926854000",
+        "zone_id": "273"
+    },
+    "93": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2942578800",
+        "zone_id": "273"
+    },
+    "94": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2958908400",
+        "zone_id": "273"
+    },
+    "95": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "2974633200",
+        "zone_id": "273"
+    },
+    "96": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "2990358000",
+        "zone_id": "273"
+    },
+    "97": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3006082800",
+        "zone_id": "273"
+    },
+    "98": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3021807600",
+        "zone_id": "273"
+    },
+    "99": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3037532400",
+        "zone_id": "273"
+    },
+    "100": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3053257200",
+        "zone_id": "273"
+    },
+    "101": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3068982000",
+        "zone_id": "273"
+    },
+    "102": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3084706800",
+        "zone_id": "273"
+    },
+    "103": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3100431600",
+        "zone_id": "273"
+    },
+    "104": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3116761200",
+        "zone_id": "273"
+    },
+    "105": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3132486000",
+        "zone_id": "273"
+    },
+    "106": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3148210800",
+        "zone_id": "273"
+    },
+    "107": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3163935600",
+        "zone_id": "273"
+    },
+    "108": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3179660400",
+        "zone_id": "273"
+    },
+    "109": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3195385200",
+        "zone_id": "273"
+    },
+    "110": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3211110000",
+        "zone_id": "273"
+    },
+    "111": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3226834800",
+        "zone_id": "273"
+    },
+    "112": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3242559600",
+        "zone_id": "273"
+    },
+    "113": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3258284400",
+        "zone_id": "273"
+    },
+    "114": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3274009200",
+        "zone_id": "273"
+    },
+    "115": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3289734000",
+        "zone_id": "273"
+    },
+    "116": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3306063600",
+        "zone_id": "273"
+    },
+    "117": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3321788400",
+        "zone_id": "273"
+    },
+    "118": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3337513200",
+        "zone_id": "273"
+    },
+    "119": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3353238000",
+        "zone_id": "273"
+    },
+    "120": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3368962800",
+        "zone_id": "273"
+    },
+    "121": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3384687600",
+        "zone_id": "273"
+    },
+    "122": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3400412400",
+        "zone_id": "273"
+    },
+    "123": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3416137200",
+        "zone_id": "273"
+    },
+    "124": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3431862000",
+        "zone_id": "273"
+    },
+    "125": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3447586800",
+        "zone_id": "273"
+    },
+    "126": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3463311600",
+        "zone_id": "273"
+    },
+    "127": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3479641200",
+        "zone_id": "273"
+    },
+    "128": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3495366000",
+        "zone_id": "273"
+    },
+    "129": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3511090800",
+        "zone_id": "273"
+    },
+    "130": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3526815600",
+        "zone_id": "273"
+    },
+    "131": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3542540400",
+        "zone_id": "273"
+    },
+    "132": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3558265200",
+        "zone_id": "273"
+    },
+    "133": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3573990000",
+        "zone_id": "273"
+    },
+    "134": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3589714800",
+        "zone_id": "273"
+    },
+    "135": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3605439600",
+        "zone_id": "273"
+    },
+    "136": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3621164400",
+        "zone_id": "273"
+    },
+    "137": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3636889200",
+        "zone_id": "273"
+    },
+    "138": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3653218800",
+        "zone_id": "273"
+    },
+    "139": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3668943600",
+        "zone_id": "273"
+    },
+    "140": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3684668400",
+        "zone_id": "273"
+    },
+    "141": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3700393200",
+        "zone_id": "273"
+    },
+    "142": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3716118000",
+        "zone_id": "273"
+    },
+    "143": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3731842800",
+        "zone_id": "273"
+    },
+    "144": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3747567600",
+        "zone_id": "273"
+    },
+    "145": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3763292400",
+        "zone_id": "273"
+    },
+    "146": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3779017200",
+        "zone_id": "273"
+    },
+    "147": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3794742000",
+        "zone_id": "273"
+    },
+    "148": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3810466800",
+        "zone_id": "273"
+    },
+    "149": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3826191600",
+        "zone_id": "273"
+    },
+    "150": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3842521200",
+        "zone_id": "273"
+    },
+    "151": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3858246000",
+        "zone_id": "273"
+    },
+    "152": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3873970800",
+        "zone_id": "273"
+    },
+    "153": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3889695600",
+        "zone_id": "273"
+    },
+    "154": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3905420400",
+        "zone_id": "273"
+    },
+    "155": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3921145200",
+        "zone_id": "273"
+    },
+    "156": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3936870000",
+        "zone_id": "273"
+    },
+    "157": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3952594800",
+        "zone_id": "273"
+    },
+    "158": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "3968319600",
+        "zone_id": "273"
+    },
+    "159": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "3984044400",
+        "zone_id": "273"
+    },
+    "160": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4000374000",
+        "zone_id": "273"
+    },
+    "161": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4016098800",
+        "zone_id": "273"
+    },
+    "162": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4031823600",
+        "zone_id": "273"
+    },
+    "163": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4047548400",
+        "zone_id": "273"
+    },
+    "164": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4063273200",
+        "zone_id": "273"
+    },
+    "165": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4078998000",
+        "zone_id": "273"
+    },
+    "166": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4094722800",
+        "zone_id": "273"
+    },
+    "167": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4110447600",
+        "zone_id": "273"
+    },
+    "168": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4126172400",
+        "zone_id": "273"
+    },
+    "169": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4141897200",
+        "zone_id": "273"
+    },
+    "170": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4157622000",
+        "zone_id": "273"
+    },
+    "171": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4173346800",
+        "zone_id": "273"
+    },
+    "172": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4189071600",
+        "zone_id": "273"
+    },
+    "173": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4204796400",
+        "zone_id": "273"
+    },
+    "174": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4221126000",
+        "zone_id": "273"
+    },
+    "175": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4236850800",
+        "zone_id": "273"
+    },
+    "176": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4252575600",
+        "zone_id": "273"
+    },
+    "177": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4268300400",
+        "zone_id": "273"
+    },
+    "178": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4284025200",
+        "zone_id": "273"
+    },
+    "179": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4299750000",
+        "zone_id": "273"
+    },
+    "180": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4315474800",
+        "zone_id": "273"
+    },
+    "181": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4331199600",
+        "zone_id": "273"
+    },
+    "182": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4346924400",
+        "zone_id": "273"
+    },
+    "183": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4362649200",
+        "zone_id": "273"
+    },
+    "184": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4378978800",
+        "zone_id": "273"
+    },
+    "185": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4394703600",
+        "zone_id": "273"
+    },
+    "186": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4410428400",
+        "zone_id": "273"
+    },
+    "187": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4426153200",
+        "zone_id": "273"
+    },
+    "188": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4441878000",
+        "zone_id": "273"
+    },
+    "189": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4457602800",
+        "zone_id": "273"
+    },
+    "190": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4473327600",
+        "zone_id": "273"
+    },
+    "191": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4489052400",
+        "zone_id": "273"
+    },
+    "192": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4504777200",
+        "zone_id": "273"
+    },
+    "193": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4520502000",
+        "zone_id": "273"
+    },
+    "194": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4536226800",
+        "zone_id": "273"
+    },
+    "195": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4551951600",
+        "zone_id": "273"
+    },
+    "196": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4568281200",
+        "zone_id": "273"
+    },
+    "197": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4584006000",
+        "zone_id": "273"
+    },
+    "198": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4599730800",
+        "zone_id": "273"
+    },
+    "199": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4615455600",
+        "zone_id": "273"
+    },
+    "200": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4631180400",
+        "zone_id": "273"
+    },
+    "201": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4646905200",
+        "zone_id": "273"
+    },
+    "202": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4662630000",
+        "zone_id": "273"
+    },
+    "203": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4678354800",
+        "zone_id": "273"
+    },
+    "204": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4694079600",
+        "zone_id": "273"
+    },
+    "205": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4709804400",
+        "zone_id": "273"
+    },
+    "206": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4725529200",
+        "zone_id": "273"
+    },
+    "207": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4741858800",
+        "zone_id": "273"
+    },
+    "208": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4757583600",
+        "zone_id": "273"
+    },
+    "209": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4773308400",
+        "zone_id": "273"
+    },
+    "210": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4789033200",
+        "zone_id": "273"
+    },
+    "211": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4804758000",
+        "zone_id": "273"
+    },
+    "212": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4820482800",
+        "zone_id": "273"
+    },
+    "213": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4836207600",
+        "zone_id": "273"
+    },
+    "214": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4851932400",
+        "zone_id": "273"
+    },
+    "215": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4867657200",
+        "zone_id": "273"
+    },
+    "216": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4883382000",
+        "zone_id": "273"
+    },
+    "217": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4899106800",
+        "zone_id": "273"
+    },
+    "218": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4915436400",
+        "zone_id": "273"
+    },
+    "219": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4931161200",
+        "zone_id": "273"
+    },
+    "220": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4946886000",
+        "zone_id": "273"
+    },
+    "221": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4962610800",
+        "zone_id": "273"
+    },
+    "222": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "4978335600",
+        "zone_id": "273"
+    },
+    "223": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "4994060400",
+        "zone_id": "273"
+    },
+    "224": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5009785200",
+        "zone_id": "273"
+    },
+    "225": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5025510000",
+        "zone_id": "273"
+    },
+    "226": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5041234800",
+        "zone_id": "273"
+    },
+    "227": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5056959600",
+        "zone_id": "273"
+    },
+    "228": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5072684400",
+        "zone_id": "273"
+    },
+    "229": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5088409200",
+        "zone_id": "273"
+    },
+    "230": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5104738800",
+        "zone_id": "273"
+    },
+    "231": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5120463600",
+        "zone_id": "273"
+    },
+    "232": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5136188400",
+        "zone_id": "273"
+    },
+    "233": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5151913200",
+        "zone_id": "273"
+    },
+    "234": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5167638000",
+        "zone_id": "273"
+    },
+    "235": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5183362800",
+        "zone_id": "273"
+    },
+    "236": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5199087600",
+        "zone_id": "273"
+    },
+    "237": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5214812400",
+        "zone_id": "273"
+    },
+    "238": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5230537200",
+        "zone_id": "273"
+    },
+    "239": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5246262000",
+        "zone_id": "273"
+    },
+    "240": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5262591600",
+        "zone_id": "273"
+    },
+    "241": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5278316400",
+        "zone_id": "273"
+    },
+    "242": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5294041200",
+        "zone_id": "273"
+    },
+    "243": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5309766000",
+        "zone_id": "273"
+    },
+    "244": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5325490800",
+        "zone_id": "273"
+    },
+    "245": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5341215600",
+        "zone_id": "273"
+    },
+    "246": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5356940400",
+        "zone_id": "273"
+    },
+    "247": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5372665200",
+        "zone_id": "273"
+    },
+    "248": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5388390000",
+        "zone_id": "273"
+    },
+    "249": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5404114800",
+        "zone_id": "273"
+    },
+    "250": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5419839600",
+        "zone_id": "273"
+    },
+    "251": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5435564400",
+        "zone_id": "273"
+    },
+    "252": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5451894000",
+        "zone_id": "273"
+    },
+    "253": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5467618800",
+        "zone_id": "273"
+    },
+    "254": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5483343600",
+        "zone_id": "273"
+    },
+    "255": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5499068400",
+        "zone_id": "273"
+    },
+    "256": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5514793200",
+        "zone_id": "273"
+    },
+    "257": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5530518000",
+        "zone_id": "273"
+    },
+    "258": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5546242800",
+        "zone_id": "273"
+    },
+    "259": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5561967600",
+        "zone_id": "273"
+    },
+    "260": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5577692400",
+        "zone_id": "273"
+    },
+    "261": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5593417200",
+        "zone_id": "273"
+    },
+    "262": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5609142000",
+        "zone_id": "273"
+    },
+    "263": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5625471600",
+        "zone_id": "273"
+    },
+    "264": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5641196400",
+        "zone_id": "273"
+    },
+    "265": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5656921200",
+        "zone_id": "273"
+    },
+    "266": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5672646000",
+        "zone_id": "273"
+    },
+    "267": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5688370800",
+        "zone_id": "273"
+    },
+    "268": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5704095600",
+        "zone_id": "273"
+    },
+    "269": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5719820400",
+        "zone_id": "273"
+    },
+    "270": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5735545200",
+        "zone_id": "273"
+    },
+    "271": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5751270000",
+        "zone_id": "273"
+    },
+    "272": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5766994800",
+        "zone_id": "273"
+    },
+    "273": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5782719600",
+        "zone_id": "273"
+    },
+    "274": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5799049200",
+        "zone_id": "273"
+    },
+    "275": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5814774000",
+        "zone_id": "273"
+    },
+    "276": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5830498800",
+        "zone_id": "273"
+    },
+    "277": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5846223600",
+        "zone_id": "273"
+    },
+    "278": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5861948400",
+        "zone_id": "273"
+    },
+    "279": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5877673200",
+        "zone_id": "273"
+    },
+    "280": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5893398000",
+        "zone_id": "273"
+    },
+    "281": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5909122800",
+        "zone_id": "273"
+    },
+    "282": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5924847600",
+        "zone_id": "273"
+    },
+    "283": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5940572400",
+        "zone_id": "273"
+    },
+    "284": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5956297200",
+        "zone_id": "273"
+    },
+    "285": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "5972022000",
+        "zone_id": "273"
+    },
+    "286": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "5988351600",
+        "zone_id": "273"
+    },
+    "287": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6004076400",
+        "zone_id": "273"
+    },
+    "288": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6019801200",
+        "zone_id": "273"
+    },
+    "289": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6035526000",
+        "zone_id": "273"
+    },
+    "290": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6051250800",
+        "zone_id": "273"
+    },
+    "291": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6066975600",
+        "zone_id": "273"
+    },
+    "292": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6082700400",
+        "zone_id": "273"
+    },
+    "293": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6098425200",
+        "zone_id": "273"
+    },
+    "294": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6114150000",
+        "zone_id": "273"
+    },
+    "295": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6129874800",
+        "zone_id": "273"
+    },
+    "296": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6146204400",
+        "zone_id": "273"
+    },
+    "297": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6161929200",
+        "zone_id": "273"
+    },
+    "298": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6177654000",
+        "zone_id": "273"
+    },
+    "299": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6193378800",
+        "zone_id": "273"
+    },
+    "300": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6209103600",
+        "zone_id": "273"
+    },
+    "301": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6224828400",
+        "zone_id": "273"
+    },
+    "302": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6240553200",
+        "zone_id": "273"
+    },
+    "303": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6256278000",
+        "zone_id": "273"
+    },
+    "304": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6272002800",
+        "zone_id": "273"
+    },
+    "305": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6287727600",
+        "zone_id": "273"
+    },
+    "306": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6303452400",
+        "zone_id": "273"
+    },
+    "307": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6319177200",
+        "zone_id": "273"
+    },
+    "308": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6335506800",
+        "zone_id": "273"
+    },
+    "309": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6351231600",
+        "zone_id": "273"
+    },
+    "310": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6366956400",
+        "zone_id": "273"
+    },
+    "311": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6382681200",
+        "zone_id": "273"
+    },
+    "312": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6398406000",
+        "zone_id": "273"
+    },
+    "313": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6414130800",
+        "zone_id": "273"
+    },
+    "314": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6429855600",
+        "zone_id": "273"
+    },
+    "315": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6445580400",
+        "zone_id": "273"
+    },
+    "316": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6461305200",
+        "zone_id": "273"
+    },
+    "317": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6477030000",
+        "zone_id": "273"
+    },
+    "318": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6492754800",
+        "zone_id": "273"
+    },
+    "319": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6509084400",
+        "zone_id": "273"
+    },
+    "320": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6524809200",
+        "zone_id": "273"
+    },
+    "321": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6540534000",
+        "zone_id": "273"
+    },
+    "322": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6556258800",
+        "zone_id": "273"
+    },
+    "323": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6571983600",
+        "zone_id": "273"
+    },
+    "324": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6587708400",
+        "zone_id": "273"
+    },
+    "325": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6603433200",
+        "zone_id": "273"
+    },
+    "326": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6619158000",
+        "zone_id": "273"
+    },
+    "327": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6634882800",
+        "zone_id": "273"
+    },
+    "328": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6650607600",
+        "zone_id": "273"
+    },
+    "329": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6666332400",
+        "zone_id": "273"
+    },
+    "330": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6682662000",
+        "zone_id": "273"
+    },
+    "331": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6698386800",
+        "zone_id": "273"
+    },
+    "332": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6714111600",
+        "zone_id": "273"
+    },
+    "333": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6729836400",
+        "zone_id": "273"
+    },
+    "334": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6745561200",
+        "zone_id": "273"
+    },
+    "335": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6761286000",
+        "zone_id": "273"
+    },
+    "336": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6777010800",
+        "zone_id": "273"
+    },
+    "337": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6792735600",
+        "zone_id": "273"
+    },
+    "338": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6808460400",
+        "zone_id": "273"
+    },
+    "339": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6824185200",
+        "zone_id": "273"
+    },
+    "340": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6839910000",
+        "zone_id": "273"
+    },
+    "341": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6855634800",
+        "zone_id": "273"
+    },
+    "342": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6871964400",
+        "zone_id": "273"
+    },
+    "343": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6887689200",
+        "zone_id": "273"
+    },
+    "344": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6903414000",
+        "zone_id": "273"
+    },
+    "345": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6919138800",
+        "zone_id": "273"
+    },
+    "346": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6934863600",
+        "zone_id": "273"
+    },
+    "347": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6950588400",
+        "zone_id": "273"
+    },
+    "348": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6966313200",
+        "zone_id": "273"
+    },
+    "349": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "6982038000",
+        "zone_id": "273"
+    },
+    "350": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "6997762800",
+        "zone_id": "273"
+    },
+    "351": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7013487600",
+        "zone_id": "273"
+    },
+    "352": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7029817200",
+        "zone_id": "273"
+    },
+    "353": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7045542000",
+        "zone_id": "273"
+    },
+    "354": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7061266800",
+        "zone_id": "273"
+    },
+    "355": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7076991600",
+        "zone_id": "273"
+    },
+    "356": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7092716400",
+        "zone_id": "273"
+    },
+    "357": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7108441200",
+        "zone_id": "273"
+    },
+    "358": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7124166000",
+        "zone_id": "273"
+    },
+    "359": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7139890800",
+        "zone_id": "273"
+    },
+    "360": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7155615600",
+        "zone_id": "273"
+    },
+    "361": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7171340400",
+        "zone_id": "273"
+    },
+    "362": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7187065200",
+        "zone_id": "273"
+    },
+    "363": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7202790000",
+        "zone_id": "273"
+    },
+    "364": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7219119600",
+        "zone_id": "273"
+    },
+    "365": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7234844400",
+        "zone_id": "273"
+    },
+    "366": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7250569200",
+        "zone_id": "273"
+    },
+    "367": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7266294000",
+        "zone_id": "273"
+    },
+    "368": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7282018800",
+        "zone_id": "273"
+    },
+    "369": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7297743600",
+        "zone_id": "273"
+    },
+    "370": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7313468400",
+        "zone_id": "273"
+    },
+    "371": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7329193200",
+        "zone_id": "273"
+    },
+    "372": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7344918000",
+        "zone_id": "273"
+    },
+    "373": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7360642800",
+        "zone_id": "273"
+    },
+    "374": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7376367600",
+        "zone_id": "273"
+    },
+    "375": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7392092400",
+        "zone_id": "273"
+    },
+    "376": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7408422000",
+        "zone_id": "273"
+    },
+    "377": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7424146800",
+        "zone_id": "273"
+    },
+    "378": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7439871600",
+        "zone_id": "273"
+    },
+    "379": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7455596400",
+        "zone_id": "273"
+    },
+    "380": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7471321200",
+        "zone_id": "273"
+    },
+    "381": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7487046000",
+        "zone_id": "273"
+    },
+    "382": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7502770800",
+        "zone_id": "273"
+    },
+    "383": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7518495600",
+        "zone_id": "273"
+    },
+    "384": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7534220400",
+        "zone_id": "273"
+    },
+    "385": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7549945200",
+        "zone_id": "273"
+    },
+    "386": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7565670000",
+        "zone_id": "273"
+    },
+    "387": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7581394800",
+        "zone_id": "273"
+    },
+    "388": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7597724400",
+        "zone_id": "273"
+    },
+    "389": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7613449200",
+        "zone_id": "273"
+    },
+    "390": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7629174000",
+        "zone_id": "273"
+    },
+    "391": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7644898800",
+        "zone_id": "273"
+    },
+    "392": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7660623600",
+        "zone_id": "273"
+    },
+    "393": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7676348400",
+        "zone_id": "273"
+    },
+    "394": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7692073200",
+        "zone_id": "273"
+    },
+    "395": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7707798000",
+        "zone_id": "273"
+    },
+    "396": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7723522800",
+        "zone_id": "273"
+    },
+    "397": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7739247600",
+        "zone_id": "273"
+    },
+    "398": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7754972400",
+        "zone_id": "273"
+    },
+    "399": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7771302000",
+        "zone_id": "273"
+    },
+    "400": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7787026800",
+        "zone_id": "273"
+    },
+    "401": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7802751600",
+        "zone_id": "273"
+    },
+    "402": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7818476400",
+        "zone_id": "273"
+    },
+    "403": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7834201200",
+        "zone_id": "273"
+    },
+    "404": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7849926000",
+        "zone_id": "273"
+    },
+    "405": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7865650800",
+        "zone_id": "273"
+    },
+    "406": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7881375600",
+        "zone_id": "273"
+    },
+    "407": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7897100400",
+        "zone_id": "273"
+    },
+    "408": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7912825200",
+        "zone_id": "273"
+    },
+    "409": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7928550000",
+        "zone_id": "273"
+    },
+    "410": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7944879600",
+        "zone_id": "273"
+    },
+    "411": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7960604400",
+        "zone_id": "273"
+    },
+    "412": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "7976329200",
+        "zone_id": "273"
+    },
+    "413": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "7992054000",
+        "zone_id": "273"
+    },
+    "414": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8007778800",
+        "zone_id": "273"
+    },
+    "415": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8023503600",
+        "zone_id": "273"
+    },
+    "416": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8039228400",
+        "zone_id": "273"
+    },
+    "417": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8054953200",
+        "zone_id": "273"
+    },
+    "418": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8070678000",
+        "zone_id": "273"
+    },
+    "419": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8086402800",
+        "zone_id": "273"
+    },
+    "420": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8102127600",
+        "zone_id": "273"
+    },
+    "421": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8117852400",
+        "zone_id": "273"
+    },
+    "422": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8134182000",
+        "zone_id": "273"
+    },
+    "423": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8149906800",
+        "zone_id": "273"
+    },
+    "424": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8165631600",
+        "zone_id": "273"
+    },
+    "425": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8181356400",
+        "zone_id": "273"
+    },
+    "426": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8197081200",
+        "zone_id": "273"
+    },
+    "427": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8212806000",
+        "zone_id": "273"
+    },
+    "428": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8228530800",
+        "zone_id": "273"
+    },
+    "429": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8244255600",
+        "zone_id": "273"
+    },
+    "430": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8259980400",
+        "zone_id": "273"
+    },
+    "431": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8275705200",
+        "zone_id": "273"
+    },
+    "432": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8292034800",
+        "zone_id": "273"
+    },
+    "433": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8307759600",
+        "zone_id": "273"
+    },
+    "434": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8323484400",
+        "zone_id": "273"
+    },
+    "435": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8339209200",
+        "zone_id": "273"
+    },
+    "436": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8354934000",
+        "zone_id": "273"
+    },
+    "437": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8370658800",
+        "zone_id": "273"
+    },
+    "438": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8386383600",
+        "zone_id": "273"
+    },
+    "439": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8402108400",
+        "zone_id": "273"
+    },
+    "440": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8417833200",
+        "zone_id": "273"
+    },
+    "441": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8433558000",
+        "zone_id": "273"
+    },
+    "442": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8449282800",
+        "zone_id": "273"
+    },
+    "443": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8465007600",
+        "zone_id": "273"
+    },
+    "444": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8481337200",
+        "zone_id": "273"
+    },
+    "445": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8497062000",
+        "zone_id": "273"
+    },
+    "446": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8512786800",
+        "zone_id": "273"
+    },
+    "447": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8528511600",
+        "zone_id": "273"
+    },
+    "448": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8544236400",
+        "zone_id": "273"
+    },
+    "449": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8559961200",
+        "zone_id": "273"
+    },
+    "450": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8575686000",
+        "zone_id": "273"
+    },
+    "451": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8591410800",
+        "zone_id": "273"
+    },
+    "452": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8607135600",
+        "zone_id": "273"
+    },
+    "453": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8622860400",
+        "zone_id": "273"
+    },
+    "454": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8638585200",
+        "zone_id": "273"
+    },
+    "455": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8654914800",
+        "zone_id": "273"
+    },
+    "456": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8670639600",
+        "zone_id": "273"
+    },
+    "457": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8686364400",
+        "zone_id": "273"
+    },
+    "458": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8702089200",
+        "zone_id": "273"
+    },
+    "459": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8717814000",
+        "zone_id": "273"
+    },
+    "460": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8733538800",
+        "zone_id": "273"
+    },
+    "461": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8749263600",
+        "zone_id": "273"
+    },
+    "462": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8764988400",
+        "zone_id": "273"
+    },
+    "463": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8780713200",
+        "zone_id": "273"
+    },
+    "464": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8796438000",
+        "zone_id": "273"
+    },
+    "465": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8812162800",
+        "zone_id": "273"
+    },
+    "466": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8828492400",
+        "zone_id": "273"
+    },
+    "467": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8844217200",
+        "zone_id": "273"
+    },
+    "468": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8859942000",
+        "zone_id": "273"
+    },
+    "469": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8875666800",
+        "zone_id": "273"
+    },
+    "470": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8891391600",
+        "zone_id": "273"
+    },
+    "471": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8907116400",
+        "zone_id": "273"
+    },
+    "472": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8922841200",
+        "zone_id": "273"
+    },
+    "473": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8938566000",
+        "zone_id": "273"
+    },
+    "474": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8954290800",
+        "zone_id": "273"
+    },
+    "475": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "8970015600",
+        "zone_id": "273"
+    },
+    "476": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "8985740400",
+        "zone_id": "273"
+    },
+    "477": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9001465200",
+        "zone_id": "273"
+    },
+    "478": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9017794800",
+        "zone_id": "273"
+    },
+    "479": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9033519600",
+        "zone_id": "273"
+    },
+    "480": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9049244400",
+        "zone_id": "273"
+    },
+    "481": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9064969200",
+        "zone_id": "273"
+    },
+    "482": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9080694000",
+        "zone_id": "273"
+    },
+    "483": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9096418800",
+        "zone_id": "273"
+    },
+    "484": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9112143600",
+        "zone_id": "273"
+    },
+    "485": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9127868400",
+        "zone_id": "273"
+    },
+    "486": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9143593200",
+        "zone_id": "273"
+    },
+    "487": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9159318000",
+        "zone_id": "273"
+    },
+    "488": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9175647600",
+        "zone_id": "273"
+    },
+    "489": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9191372400",
+        "zone_id": "273"
+    },
+    "490": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9207097200",
+        "zone_id": "273"
+    },
+    "491": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9222822000",
+        "zone_id": "273"
+    },
+    "492": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9238546800",
+        "zone_id": "273"
+    },
+    "493": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9254271600",
+        "zone_id": "273"
+    },
+    "494": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9269996400",
+        "zone_id": "273"
+    },
+    "495": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9285721200",
+        "zone_id": "273"
+    },
+    "496": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9301446000",
+        "zone_id": "273"
+    },
+    "497": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9317170800",
+        "zone_id": "273"
+    },
+    "498": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9332895600",
+        "zone_id": "273"
+    },
+    "499": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9348620400",
+        "zone_id": "273"
+    },
+    "500": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9364950000",
+        "zone_id": "273"
+    },
+    "501": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9380674800",
+        "zone_id": "273"
+    },
+    "502": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9396399600",
+        "zone_id": "273"
+    },
+    "503": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9412124400",
+        "zone_id": "273"
+    },
+    "504": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9427849200",
+        "zone_id": "273"
+    },
+    "505": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9443574000",
+        "zone_id": "273"
+    },
+    "506": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9459298800",
+        "zone_id": "273"
+    },
+    "507": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9475023600",
+        "zone_id": "273"
+    },
+    "508": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9490748400",
+        "zone_id": "273"
+    },
+    "509": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9506473200",
+        "zone_id": "273"
+    },
+    "510": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9522198000",
+        "zone_id": "273"
+    },
+    "511": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9538527600",
+        "zone_id": "273"
+    },
+    "512": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9554252400",
+        "zone_id": "273"
+    },
+    "513": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9569977200",
+        "zone_id": "273"
+    },
+    "514": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9585702000",
+        "zone_id": "273"
+    },
+    "515": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9601426800",
+        "zone_id": "273"
+    },
+    "516": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9617151600",
+        "zone_id": "273"
+    },
+    "517": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9632876400",
+        "zone_id": "273"
+    },
+    "518": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9648601200",
+        "zone_id": "273"
+    },
+    "519": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9664326000",
+        "zone_id": "273"
+    },
+    "520": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9680050800",
+        "zone_id": "273"
+    },
+    "521": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9695775600",
+        "zone_id": "273"
+    },
+    "522": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9712105200",
+        "zone_id": "273"
+    },
+    "523": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9727830000",
+        "zone_id": "273"
+    },
+    "524": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9743554800",
+        "zone_id": "273"
+    },
+    "525": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9759279600",
+        "zone_id": "273"
+    },
+    "526": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9775004400",
+        "zone_id": "273"
+    },
+    "527": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9790729200",
+        "zone_id": "273"
+    },
+    "528": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9806454000",
+        "zone_id": "273"
+    },
+    "529": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9822178800",
+        "zone_id": "273"
+    },
+    "530": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9837903600",
+        "zone_id": "273"
+    },
+    "531": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9853628400",
+        "zone_id": "273"
+    },
+    "532": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9869353200",
+        "zone_id": "273"
+    },
+    "533": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9885078000",
+        "zone_id": "273"
+    },
+    "534": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9901407600",
+        "zone_id": "273"
+    },
+    "535": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9917132400",
+        "zone_id": "273"
+    },
+    "536": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9932857200",
+        "zone_id": "273"
+    },
+    "537": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9948582000",
+        "zone_id": "273"
+    },
+    "538": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9964306800",
+        "zone_id": "273"
+    },
+    "539": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "9980031600",
+        "zone_id": "273"
+    },
+    "540": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "9995756400",
+        "zone_id": "273"
+    },
+    "541": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10011481200",
+        "zone_id": "273"
+    },
+    "542": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10027206000",
+        "zone_id": "273"
+    },
+    "543": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10042930800",
+        "zone_id": "273"
+    },
+    "544": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10059260400",
+        "zone_id": "273"
+    },
+    "545": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10074985200",
+        "zone_id": "273"
+    },
+    "546": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10090710000",
+        "zone_id": "273"
+    },
+    "547": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10106434800",
+        "zone_id": "273"
+    },
+    "548": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10122159600",
+        "zone_id": "273"
+    },
+    "549": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10137884400",
+        "zone_id": "273"
+    },
+    "550": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10153609200",
+        "zone_id": "273"
+    },
+    "551": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10169334000",
+        "zone_id": "273"
+    },
+    "552": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10185058800",
+        "zone_id": "273"
+    },
+    "553": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10200783600",
+        "zone_id": "273"
+    },
+    "554": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10216508400",
+        "zone_id": "273"
+    },
+    "555": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10232233200",
+        "zone_id": "273"
+    },
+    "556": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10248562800",
+        "zone_id": "273"
+    },
+    "557": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10264287600",
+        "zone_id": "273"
+    },
+    "558": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10280012400",
+        "zone_id": "273"
+    },
+    "559": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10295737200",
+        "zone_id": "273"
+    },
+    "560": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10311462000",
+        "zone_id": "273"
+    },
+    "561": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10327186800",
+        "zone_id": "273"
+    },
+    "562": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10342911600",
+        "zone_id": "273"
+    },
+    "563": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10358636400",
+        "zone_id": "273"
+    },
+    "564": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10374361200",
+        "zone_id": "273"
+    },
+    "565": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10390086000",
+        "zone_id": "273"
+    },
+    "566": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10405810800",
+        "zone_id": "273"
+    },
+    "567": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10421535600",
+        "zone_id": "273"
+    },
+    "568": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10437865200",
+        "zone_id": "273"
+    },
+    "569": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10453590000",
+        "zone_id": "273"
+    },
+    "570": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10469314800",
+        "zone_id": "273"
+    },
+    "571": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10485039600",
+        "zone_id": "273"
+    },
+    "572": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10500764400",
+        "zone_id": "273"
+    },
+    "573": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10516489200",
+        "zone_id": "273"
+    },
+    "574": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10532214000",
+        "zone_id": "273"
+    },
+    "575": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10547938800",
+        "zone_id": "273"
+    },
+    "576": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10563663600",
+        "zone_id": "273"
+    },
+    "577": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10579388400",
+        "zone_id": "273"
+    },
+    "578": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10595113200",
+        "zone_id": "273"
+    },
+    "579": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10610838000",
+        "zone_id": "273"
+    },
+    "580": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10627167600",
+        "zone_id": "273"
+    },
+    "581": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10642892400",
+        "zone_id": "273"
+    },
+    "582": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10658617200",
+        "zone_id": "273"
+    },
+    "583": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10674342000",
+        "zone_id": "273"
+    },
+    "584": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10690066800",
+        "zone_id": "273"
+    },
+    "585": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10705791600",
+        "zone_id": "273"
+    },
+    "586": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10721516400",
+        "zone_id": "273"
+    },
+    "587": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10737241200",
+        "zone_id": "273"
+    },
+    "588": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10752966000",
+        "zone_id": "273"
+    },
+    "589": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10768690800",
+        "zone_id": "273"
+    },
+    "590": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10784415600",
+        "zone_id": "273"
+    },
+    "591": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10800745200",
+        "zone_id": "273"
+    },
+    "592": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10816470000",
+        "zone_id": "273"
+    },
+    "593": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10832194800",
+        "zone_id": "273"
+    },
+    "594": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10847919600",
+        "zone_id": "273"
+    },
+    "595": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10863644400",
+        "zone_id": "273"
+    },
+    "596": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10879369200",
+        "zone_id": "273"
+    },
+    "597": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10895094000",
+        "zone_id": "273"
+    },
+    "598": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10910818800",
+        "zone_id": "273"
+    },
+    "599": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10926543600",
+        "zone_id": "273"
+    },
+    "600": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10942268400",
+        "zone_id": "273"
+    },
+    "601": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10957993200",
+        "zone_id": "273"
+    },
+    "602": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "10974322800",
+        "zone_id": "273"
+    },
+    "603": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "10990047600",
+        "zone_id": "273"
+    },
+    "604": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11005772400",
+        "zone_id": "273"
+    },
+    "605": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11021497200",
+        "zone_id": "273"
+    },
+    "606": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11037222000",
+        "zone_id": "273"
+    },
+    "607": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11052946800",
+        "zone_id": "273"
+    },
+    "608": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11068671600",
+        "zone_id": "273"
+    },
+    "609": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11084396400",
+        "zone_id": "273"
+    },
+    "610": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11100121200",
+        "zone_id": "273"
+    },
+    "611": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11115846000",
+        "zone_id": "273"
+    },
+    "612": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11131570800",
+        "zone_id": "273"
+    },
+    "613": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11147295600",
+        "zone_id": "273"
+    },
+    "614": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11163625200",
+        "zone_id": "273"
+    },
+    "615": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11179350000",
+        "zone_id": "273"
+    },
+    "616": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11195074800",
+        "zone_id": "273"
+    },
+    "617": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11210799600",
+        "zone_id": "273"
+    },
+    "618": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11226524400",
+        "zone_id": "273"
+    },
+    "619": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11242249200",
+        "zone_id": "273"
+    },
+    "620": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11257974000",
+        "zone_id": "273"
+    },
+    "621": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11273698800",
+        "zone_id": "273"
+    },
+    "622": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11289423600",
+        "zone_id": "273"
+    },
+    "623": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11305148400",
+        "zone_id": "273"
+    },
+    "624": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11321478000",
+        "zone_id": "273"
+    },
+    "625": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11337202800",
+        "zone_id": "273"
+    },
+    "626": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11352927600",
+        "zone_id": "273"
+    },
+    "627": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11368652400",
+        "zone_id": "273"
+    },
+    "628": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11384377200",
+        "zone_id": "273"
+    },
+    "629": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11400102000",
+        "zone_id": "273"
+    },
+    "630": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11415826800",
+        "zone_id": "273"
+    },
+    "631": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11431551600",
+        "zone_id": "273"
+    },
+    "632": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11447276400",
+        "zone_id": "273"
+    },
+    "633": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11463001200",
+        "zone_id": "273"
+    },
+    "634": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11478726000",
+        "zone_id": "273"
+    },
+    "635": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11494450800",
+        "zone_id": "273"
+    },
+    "636": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11510780400",
+        "zone_id": "273"
+    },
+    "637": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11526505200",
+        "zone_id": "273"
+    },
+    "638": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11542230000",
+        "zone_id": "273"
+    },
+    "639": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11557954800",
+        "zone_id": "273"
+    },
+    "640": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11573679600",
+        "zone_id": "273"
+    },
+    "641": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11589404400",
+        "zone_id": "273"
+    },
+    "642": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11605129200",
+        "zone_id": "273"
+    },
+    "643": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11620854000",
+        "zone_id": "273"
+    },
+    "644": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11636578800",
+        "zone_id": "273"
+    },
+    "645": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11652303600",
+        "zone_id": "273"
+    },
+    "646": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11668028400",
+        "zone_id": "273"
+    },
+    "647": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11684358000",
+        "zone_id": "273"
+    },
+    "648": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11700082800",
+        "zone_id": "273"
+    },
+    "649": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11715807600",
+        "zone_id": "273"
+    },
+    "650": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11731532400",
+        "zone_id": "273"
+    },
+    "651": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11747257200",
+        "zone_id": "273"
+    },
+    "652": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11762982000",
+        "zone_id": "273"
+    },
+    "653": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11778706800",
+        "zone_id": "273"
+    },
+    "654": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11794431600",
+        "zone_id": "273"
+    },
+    "655": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11810156400",
+        "zone_id": "273"
+    },
+    "656": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11825881200",
+        "zone_id": "273"
+    },
+    "657": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11841606000",
+        "zone_id": "273"
+    },
+    "658": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11857935600",
+        "zone_id": "273"
+    },
+    "659": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11873660400",
+        "zone_id": "273"
+    },
+    "660": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11889385200",
+        "zone_id": "273"
+    },
+    "661": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11905110000",
+        "zone_id": "273"
+    },
+    "662": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11920834800",
+        "zone_id": "273"
+    },
+    "663": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11936559600",
+        "zone_id": "273"
+    },
+    "664": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11952284400",
+        "zone_id": "273"
+    },
+    "665": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11968009200",
+        "zone_id": "273"
+    },
+    "666": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "11983734000",
+        "zone_id": "273"
+    },
+    "667": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "11999458800",
+        "zone_id": "273"
+    },
+    "668": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12015183600",
+        "zone_id": "273"
+    },
+    "669": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12030908400",
+        "zone_id": "273"
+    },
+    "670": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12047238000",
+        "zone_id": "273"
+    },
+    "671": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12062962800",
+        "zone_id": "273"
+    },
+    "672": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12078687600",
+        "zone_id": "273"
+    },
+    "673": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12094412400",
+        "zone_id": "273"
+    },
+    "674": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12110137200",
+        "zone_id": "273"
+    },
+    "675": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12125862000",
+        "zone_id": "273"
+    },
+    "676": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12141586800",
+        "zone_id": "273"
+    },
+    "677": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12157311600",
+        "zone_id": "273"
+    },
+    "678": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12173036400",
+        "zone_id": "273"
+    },
+    "679": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12188761200",
+        "zone_id": "273"
+    },
+    "680": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12205090800",
+        "zone_id": "273"
+    },
+    "681": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12220815600",
+        "zone_id": "273"
+    },
+    "682": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12236540400",
+        "zone_id": "273"
+    },
+    "683": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12252265200",
+        "zone_id": "273"
+    },
+    "684": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12267990000",
+        "zone_id": "273"
+    },
+    "685": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12283714800",
+        "zone_id": "273"
+    },
+    "686": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12299439600",
+        "zone_id": "273"
+    },
+    "687": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12315164400",
+        "zone_id": "273"
+    },
+    "688": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12330889200",
+        "zone_id": "273"
+    },
+    "689": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12346614000",
+        "zone_id": "273"
+    },
+    "690": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12362338800",
+        "zone_id": "273"
+    },
+    "691": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12378063600",
+        "zone_id": "273"
+    },
+    "692": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12394393200",
+        "zone_id": "273"
+    },
+    "693": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12410118000",
+        "zone_id": "273"
+    },
+    "694": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12425842800",
+        "zone_id": "273"
+    },
+    "695": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12441567600",
+        "zone_id": "273"
+    },
+    "696": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12457292400",
+        "zone_id": "273"
+    },
+    "697": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12473017200",
+        "zone_id": "273"
+    },
+    "698": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12488742000",
+        "zone_id": "273"
+    },
+    "699": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12504466800",
+        "zone_id": "273"
+    },
+    "700": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12520191600",
+        "zone_id": "273"
+    },
+    "701": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12535916400",
+        "zone_id": "273"
+    },
+    "702": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12551641200",
+        "zone_id": "273"
+    },
+    "703": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12567970800",
+        "zone_id": "273"
+    },
+    "704": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12583695600",
+        "zone_id": "273"
+    },
+    "705": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12599420400",
+        "zone_id": "273"
+    },
+    "706": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12615145200",
+        "zone_id": "273"
+    },
+    "707": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12630870000",
+        "zone_id": "273"
+    },
+    "708": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12646594800",
+        "zone_id": "273"
+    },
+    "709": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12662319600",
+        "zone_id": "273"
+    },
+    "710": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12678044400",
+        "zone_id": "273"
+    },
+    "711": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12693769200",
+        "zone_id": "273"
+    },
+    "712": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12709494000",
+        "zone_id": "273"
+    },
+    "713": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12725218800",
+        "zone_id": "273"
+    },
+    "714": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12741548400",
+        "zone_id": "273"
+    },
+    "715": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12757273200",
+        "zone_id": "273"
+    },
+    "716": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12772998000",
+        "zone_id": "273"
+    },
+    "717": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12788722800",
+        "zone_id": "273"
+    },
+    "718": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12804447600",
+        "zone_id": "273"
+    },
+    "719": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12820172400",
+        "zone_id": "273"
+    },
+    "720": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12835897200",
+        "zone_id": "273"
+    },
+    "721": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12851622000",
+        "zone_id": "273"
+    },
+    "722": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12867346800",
+        "zone_id": "273"
+    },
+    "723": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12883071600",
+        "zone_id": "273"
+    },
+    "724": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12898796400",
+        "zone_id": "273"
+    },
+    "725": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12914521200",
+        "zone_id": "273"
+    },
+    "726": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12930850800",
+        "zone_id": "273"
+    },
+    "727": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12946575600",
+        "zone_id": "273"
+    },
+    "728": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12962300400",
+        "zone_id": "273"
+    },
+    "729": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "12978025200",
+        "zone_id": "273"
+    },
+    "730": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "12993750000",
+        "zone_id": "273"
+    },
+    "731": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13009474800",
+        "zone_id": "273"
+    },
+    "732": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13025199600",
+        "zone_id": "273"
+    },
+    "733": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13040924400",
+        "zone_id": "273"
+    },
+    "734": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13056649200",
+        "zone_id": "273"
+    },
+    "735": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13072374000",
+        "zone_id": "273"
+    },
+    "736": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13088703600",
+        "zone_id": "273"
+    },
+    "737": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13104428400",
+        "zone_id": "273"
+    },
+    "738": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13120153200",
+        "zone_id": "273"
+    },
+    "739": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13135878000",
+        "zone_id": "273"
+    },
+    "740": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13151602800",
+        "zone_id": "273"
+    },
+    "741": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13167327600",
+        "zone_id": "273"
+    },
+    "742": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13183052400",
+        "zone_id": "273"
+    },
+    "743": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13198777200",
+        "zone_id": "273"
+    },
+    "744": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13214502000",
+        "zone_id": "273"
+    },
+    "745": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13230226800",
+        "zone_id": "273"
+    },
+    "746": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13245951600",
+        "zone_id": "273"
+    },
+    "747": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13261676400",
+        "zone_id": "273"
+    },
+    "748": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13278006000",
+        "zone_id": "273"
+    },
+    "749": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13293730800",
+        "zone_id": "273"
+    },
+    "750": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13309455600",
+        "zone_id": "273"
+    },
+    "751": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13325180400",
+        "zone_id": "273"
+    },
+    "752": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13340905200",
+        "zone_id": "273"
+    },
+    "753": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13356630000",
+        "zone_id": "273"
+    },
+    "754": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13372354800",
+        "zone_id": "273"
+    },
+    "755": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13388079600",
+        "zone_id": "273"
+    },
+    "756": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13403804400",
+        "zone_id": "273"
+    },
+    "757": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13419529200",
+        "zone_id": "273"
+    },
+    "758": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13435254000",
+        "zone_id": "273"
+    },
+    "759": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13451583600",
+        "zone_id": "273"
+    },
+    "760": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13467308400",
+        "zone_id": "273"
+    },
+    "761": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13483033200",
+        "zone_id": "273"
+    },
+    "762": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13498758000",
+        "zone_id": "273"
+    },
+    "763": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13514482800",
+        "zone_id": "273"
+    },
+    "764": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13530207600",
+        "zone_id": "273"
+    },
+    "765": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13545932400",
+        "zone_id": "273"
+    },
+    "766": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13561657200",
+        "zone_id": "273"
+    },
+    "767": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13577382000",
+        "zone_id": "273"
+    },
+    "768": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13593106800",
+        "zone_id": "273"
+    },
+    "769": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13608831600",
+        "zone_id": "273"
+    },
+    "770": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13625161200",
+        "zone_id": "273"
+    },
+    "771": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13640886000",
+        "zone_id": "273"
+    },
+    "772": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13656610800",
+        "zone_id": "273"
+    },
+    "773": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13672335600",
+        "zone_id": "273"
+    },
+    "774": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13688060400",
+        "zone_id": "273"
+    },
+    "775": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13703785200",
+        "zone_id": "273"
+    },
+    "776": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13719510000",
+        "zone_id": "273"
+    },
+    "777": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13735234800",
+        "zone_id": "273"
+    },
+    "778": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13750959600",
+        "zone_id": "273"
+    },
+    "779": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13766684400",
+        "zone_id": "273"
+    },
+    "780": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13782409200",
+        "zone_id": "273"
+    },
+    "781": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13798134000",
+        "zone_id": "273"
+    },
+    "782": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13814463600",
+        "zone_id": "273"
+    },
+    "783": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13830188400",
+        "zone_id": "273"
+    },
+    "784": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13845913200",
+        "zone_id": "273"
+    },
+    "785": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13861638000",
+        "zone_id": "273"
+    },
+    "786": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13877362800",
+        "zone_id": "273"
+    },
+    "787": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13893087600",
+        "zone_id": "273"
+    },
+    "788": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13908812400",
+        "zone_id": "273"
+    },
+    "789": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13924537200",
+        "zone_id": "273"
+    },
+    "790": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13940262000",
+        "zone_id": "273"
+    },
+    "791": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13955986800",
+        "zone_id": "273"
+    },
+    "792": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "13972316400",
+        "zone_id": "273"
+    },
+    "793": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "13988041200",
+        "zone_id": "273"
+    },
+    "794": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14003766000",
+        "zone_id": "273"
+    },
+    "795": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14019490800",
+        "zone_id": "273"
+    },
+    "796": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14035215600",
+        "zone_id": "273"
+    },
+    "797": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14050940400",
+        "zone_id": "273"
+    },
+    "798": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14066665200",
+        "zone_id": "273"
+    },
+    "799": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14082390000",
+        "zone_id": "273"
+    },
+    "800": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14098114800",
+        "zone_id": "273"
+    },
+    "801": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14113839600",
+        "zone_id": "273"
+    },
+    "802": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14129564400",
+        "zone_id": "273"
+    },
+    "803": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14145289200",
+        "zone_id": "273"
+    },
+    "804": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14161618800",
+        "zone_id": "273"
+    },
+    "805": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14177343600",
+        "zone_id": "273"
+    },
+    "806": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14193068400",
+        "zone_id": "273"
+    },
+    "807": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14208793200",
+        "zone_id": "273"
+    },
+    "808": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14224518000",
+        "zone_id": "273"
+    },
+    "809": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14240242800",
+        "zone_id": "273"
+    },
+    "810": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14255967600",
+        "zone_id": "273"
+    },
+    "811": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14271692400",
+        "zone_id": "273"
+    },
+    "812": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14287417200",
+        "zone_id": "273"
+    },
+    "813": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14303142000",
+        "zone_id": "273"
+    },
+    "814": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14318866800",
+        "zone_id": "273"
+    },
+    "815": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14335196400",
+        "zone_id": "273"
+    },
+    "816": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14350921200",
+        "zone_id": "273"
+    },
+    "817": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14366646000",
+        "zone_id": "273"
+    },
+    "818": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14382370800",
+        "zone_id": "273"
+    },
+    "819": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14398095600",
+        "zone_id": "273"
+    },
+    "820": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14413820400",
+        "zone_id": "273"
+    },
+    "821": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14429545200",
+        "zone_id": "273"
+    },
+    "822": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14445270000",
+        "zone_id": "273"
+    },
+    "823": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14460994800",
+        "zone_id": "273"
+    },
+    "824": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14476719600",
+        "zone_id": "273"
+    },
+    "825": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14492444400",
+        "zone_id": "273"
+    },
+    "826": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14508774000",
+        "zone_id": "273"
+    },
+    "827": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14524498800",
+        "zone_id": "273"
+    },
+    "828": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14540223600",
+        "zone_id": "273"
+    },
+    "829": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14555948400",
+        "zone_id": "273"
+    },
+    "830": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14571673200",
+        "zone_id": "273"
+    },
+    "831": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14587398000",
+        "zone_id": "273"
+    },
+    "832": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14603122800",
+        "zone_id": "273"
+    },
+    "833": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14618847600",
+        "zone_id": "273"
+    },
+    "834": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14634572400",
+        "zone_id": "273"
+    },
+    "835": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14650297200",
+        "zone_id": "273"
+    },
+    "836": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14666022000",
+        "zone_id": "273"
+    },
+    "837": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14681746800",
+        "zone_id": "273"
+    },
+    "838": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14698076400",
+        "zone_id": "273"
+    },
+    "839": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14713801200",
+        "zone_id": "273"
+    },
+    "840": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14729526000",
+        "zone_id": "273"
+    },
+    "841": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14745250800",
+        "zone_id": "273"
+    },
+    "842": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14760975600",
+        "zone_id": "273"
+    },
+    "843": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14776700400",
+        "zone_id": "273"
+    },
+    "844": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14792425200",
+        "zone_id": "273"
+    },
+    "845": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14808150000",
+        "zone_id": "273"
+    },
+    "846": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14823874800",
+        "zone_id": "273"
+    },
+    "847": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14839599600",
+        "zone_id": "273"
+    },
+    "848": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14855929200",
+        "zone_id": "273"
+    },
+    "849": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14871654000",
+        "zone_id": "273"
+    },
+    "850": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14887378800",
+        "zone_id": "273"
+    },
+    "851": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14903103600",
+        "zone_id": "273"
+    },
+    "852": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14918828400",
+        "zone_id": "273"
+    },
+    "853": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14934553200",
+        "zone_id": "273"
+    },
+    "854": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14950278000",
+        "zone_id": "273"
+    },
+    "855": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14966002800",
+        "zone_id": "273"
+    },
+    "856": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "14981727600",
+        "zone_id": "273"
+    },
+    "857": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "14997452400",
+        "zone_id": "273"
+    },
+    "858": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15013177200",
+        "zone_id": "273"
+    },
+    "859": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15028902000",
+        "zone_id": "273"
+    },
+    "860": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15045231600",
+        "zone_id": "273"
+    },
+    "861": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15060956400",
+        "zone_id": "273"
+    },
+    "862": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15076681200",
+        "zone_id": "273"
+    },
+    "863": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15092406000",
+        "zone_id": "273"
+    },
+    "864": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15108130800",
+        "zone_id": "273"
+    },
+    "865": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15123855600",
+        "zone_id": "273"
+    },
+    "866": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15139580400",
+        "zone_id": "273"
+    },
+    "867": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15155305200",
+        "zone_id": "273"
+    },
+    "868": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15171030000",
+        "zone_id": "273"
+    },
+    "869": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15186754800",
+        "zone_id": "273"
+    },
+    "870": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15202479600",
+        "zone_id": "273"
+    },
+    "871": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15218809200",
+        "zone_id": "273"
+    },
+    "872": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15234534000",
+        "zone_id": "273"
+    },
+    "873": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15250258800",
+        "zone_id": "273"
+    },
+    "874": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15265983600",
+        "zone_id": "273"
+    },
+    "875": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15281708400",
+        "zone_id": "273"
+    },
+    "876": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15297433200",
+        "zone_id": "273"
+    },
+    "877": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15313158000",
+        "zone_id": "273"
+    },
+    "878": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15328882800",
+        "zone_id": "273"
+    },
+    "879": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15344607600",
+        "zone_id": "273"
+    },
+    "880": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15360332400",
+        "zone_id": "273"
+    },
+    "881": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15376057200",
+        "zone_id": "273"
+    },
+    "882": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15392386800",
+        "zone_id": "273"
+    },
+    "883": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15408111600",
+        "zone_id": "273"
+    },
+    "884": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15423836400",
+        "zone_id": "273"
+    },
+    "885": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15439561200",
+        "zone_id": "273"
+    },
+    "886": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15455286000",
+        "zone_id": "273"
+    },
+    "887": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15471010800",
+        "zone_id": "273"
+    },
+    "888": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15486735600",
+        "zone_id": "273"
+    },
+    "889": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15502460400",
+        "zone_id": "273"
+    },
+    "890": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15518185200",
+        "zone_id": "273"
+    },
+    "891": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15533910000",
+        "zone_id": "273"
+    },
+    "892": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15549634800",
+        "zone_id": "273"
+    },
+    "893": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15565359600",
+        "zone_id": "273"
+    },
+    "894": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15581689200",
+        "zone_id": "273"
+    },
+    "895": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15597414000",
+        "zone_id": "273"
+    },
+    "896": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15613138800",
+        "zone_id": "273"
+    },
+    "897": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15628863600",
+        "zone_id": "273"
+    },
+    "898": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15644588400",
+        "zone_id": "273"
+    },
+    "899": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15660313200",
+        "zone_id": "273"
+    },
+    "900": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15676038000",
+        "zone_id": "273"
+    },
+    "901": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15691762800",
+        "zone_id": "273"
+    },
+    "902": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15707487600",
+        "zone_id": "273"
+    },
+    "903": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15723212400",
+        "zone_id": "273"
+    },
+    "904": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15739542000",
+        "zone_id": "273"
+    },
+    "905": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15755266800",
+        "zone_id": "273"
+    },
+    "906": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15770991600",
+        "zone_id": "273"
+    },
+    "907": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15786716400",
+        "zone_id": "273"
+    },
+    "908": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15802441200",
+        "zone_id": "273"
+    },
+    "909": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15818166000",
+        "zone_id": "273"
+    },
+    "910": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15833890800",
+        "zone_id": "273"
+    },
+    "911": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15849615600",
+        "zone_id": "273"
+    },
+    "912": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15865340400",
+        "zone_id": "273"
+    },
+    "913": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15881065200",
+        "zone_id": "273"
+    },
+    "914": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15896790000",
+        "zone_id": "273"
+    },
+    "915": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15912514800",
+        "zone_id": "273"
+    },
+    "916": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15928844400",
+        "zone_id": "273"
+    },
+    "917": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15944569200",
+        "zone_id": "273"
+    },
+    "918": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15960294000",
+        "zone_id": "273"
+    },
+    "919": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "15976018800",
+        "zone_id": "273"
+    },
+    "920": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "15991743600",
+        "zone_id": "273"
+    },
+    "921": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16007468400",
+        "zone_id": "273"
+    },
+    "922": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16023193200",
+        "zone_id": "273"
+    },
+    "923": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16038918000",
+        "zone_id": "273"
+    },
+    "924": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16054642800",
+        "zone_id": "273"
+    },
+    "925": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16070367600",
+        "zone_id": "273"
+    },
+    "926": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16086092400",
+        "zone_id": "273"
+    },
+    "927": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16102422000",
+        "zone_id": "273"
+    },
+    "928": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16118146800",
+        "zone_id": "273"
+    },
+    "929": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16133871600",
+        "zone_id": "273"
+    },
+    "930": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16149596400",
+        "zone_id": "273"
+    },
+    "931": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16165321200",
+        "zone_id": "273"
+    },
+    "932": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16181046000",
+        "zone_id": "273"
+    },
+    "933": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16196770800",
+        "zone_id": "273"
+    },
+    "934": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16212495600",
+        "zone_id": "273"
+    },
+    "935": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16228220400",
+        "zone_id": "273"
+    },
+    "936": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16243945200",
+        "zone_id": "273"
+    },
+    "937": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16259670000",
+        "zone_id": "273"
+    },
+    "938": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16275999600",
+        "zone_id": "273"
+    },
+    "939": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16291724400",
+        "zone_id": "273"
+    },
+    "940": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16307449200",
+        "zone_id": "273"
+    },
+    "941": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16323174000",
+        "zone_id": "273"
+    },
+    "942": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16338898800",
+        "zone_id": "273"
+    },
+    "943": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16354623600",
+        "zone_id": "273"
+    },
+    "944": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16370348400",
+        "zone_id": "273"
+    },
+    "945": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16386073200",
+        "zone_id": "273"
+    },
+    "946": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16401798000",
+        "zone_id": "273"
+    },
+    "947": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16417522800",
+        "zone_id": "273"
+    },
+    "948": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16433247600",
+        "zone_id": "273"
+    },
+    "949": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16448972400",
+        "zone_id": "273"
+    },
+    "950": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16465302000",
+        "zone_id": "273"
+    },
+    "951": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16481026800",
+        "zone_id": "273"
+    },
+    "952": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16496751600",
+        "zone_id": "273"
+    },
+    "953": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16512476400",
+        "zone_id": "273"
+    },
+    "954": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16528201200",
+        "zone_id": "273"
+    },
+    "955": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16543926000",
+        "zone_id": "273"
+    },
+    "956": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16559650800",
+        "zone_id": "273"
+    },
+    "957": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16575375600",
+        "zone_id": "273"
+    },
+    "958": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16591100400",
+        "zone_id": "273"
+    },
+    "959": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16606825200",
+        "zone_id": "273"
+    },
+    "960": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16623154800",
+        "zone_id": "273"
+    },
+    "961": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16638879600",
+        "zone_id": "273"
+    },
+    "962": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16654604400",
+        "zone_id": "273"
+    },
+    "963": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16670329200",
+        "zone_id": "273"
+    },
+    "964": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16686054000",
+        "zone_id": "273"
+    },
+    "965": {
+        "abbreviation": "NFT",
+        "dst": "0",
+        "gmt_offset": "39600",
+        "time_start": "16701778800",
+        "zone_id": "273"
+    },
+    "966": {
+        "abbreviation": "NFDT",
+        "dst": "1",
+        "gmt_offset": "43200",
+        "time_start": "16717503600",
         "zone_id": "273"
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "816",
-    "time_start": "-1588464817",
+    "gmt_offset": "40312",
+    "time_start": "-2177493113",
     "zone_id": "273"
 }
