@@ -1,7 +1,10 @@
 {
     "asia_kuala__lumpur": {
         "abbreviations": [
+            "JST",
             "LMT",
+            "MALST",
+            "MALT",
             "MYT",
             "SMT"
         ],
@@ -12,11 +15,14 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "268",
+        "zone_id": "267",
         "zone_name": "Asia\/Kuala_Lumpur"
     },
     "asia_kuching": {
         "abbreviations": [
+            "BORT",
+            "BORTST",
+            "JST",
             "LMT",
             "MYT"
         ],
@@ -27,7 +33,7 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "269",
+        "zone_id": "268",
         "zone_name": "Asia\/Kuching"
     }
 }

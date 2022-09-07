@@ -1,14 +1,42 @@
 {
     "1": {
-        "abbreviation": "AST",
+        "abbreviation": "CMT",
+        "dst": "0",
+        "gmt_offset": "-16060",
+        "time_start": "-2524505536",
+        "zone_id": "413"
+    },
+    "2": {
+        "abbreviation": "VET",
+        "dst": "0",
+        "gmt_offset": "-16200",
+        "time_start": "-1826739140",
+        "zone_id": "413"
+    },
+    "3": {
+        "abbreviation": "VET",
         "dst": "0",
         "gmt_offset": "-14400",
-        "time_start": "-1825098836",
+        "time_start": "-157750200",
+        "zone_id": "413"
+    },
+    "4": {
+        "abbreviation": "VET",
+        "dst": "0",
+        "gmt_offset": "-16200",
+        "time_start": "1197183600",
+        "zone_id": "413"
+    },
+    "5": {
+        "abbreviation": "VET",
+        "dst": "0",
+        "gmt_offset": "-14400",
+        "time_start": "1462086000",
         "zone_id": "413"
     },
     "abbreviation": "LMT",
     "dst": "0",
-    "gmt_offset": "-14764",
-    "time_start": "-1825098837",
+    "gmt_offset": "-16064",
+    "time_start": "-2524505537",
     "zone_id": "413"
 }

@@ -1,36 +1,8 @@
 {
     "asia_choibalsan": {
         "abbreviations": [
+            "CHOST",
             "CHOT",
-            "LMT"
-        ],
-        "cca2": "MN",
-        "cca3": "MNG",
-        "country_code": "MN",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "245",
-        "zone_name": "Asia\/Choibalsan"
-    },
-    "asia_hovd": {
-        "abbreviations": [
-            "HOVT",
-            "LMT"
-        ],
-        "cca2": "MN",
-        "cca3": "MNG",
-        "country_code": "MN",
-        "data_sources": [
-            "timezonedb"
-        ],
-        "record_type": "timezone",
-        "zone_id": "246",
-        "zone_name": "Asia\/Hovd"
-    },
-    "asia_ulaanbaatar": {
-        "abbreviations": [
             "LMT",
             "ULAT"
         ],
@@ -41,7 +13,39 @@
             "timezonedb"
         ],
         "record_type": "timezone",
-        "zone_id": "247",
+        "zone_id": "246",
+        "zone_name": "Asia\/Choibalsan"
+    },
+    "asia_hovd": {
+        "abbreviations": [
+            "HOVST",
+            "HOVT",
+            "LMT"
+        ],
+        "cca2": "MN",
+        "cca3": "MNG",
+        "country_code": "MN",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "245",
+        "zone_name": "Asia\/Hovd"
+    },
+    "asia_ulaanbaatar": {
+        "abbreviations": [
+            "LMT",
+            "ULAST",
+            "ULAT"
+        ],
+        "cca2": "MN",
+        "cca3": "MNG",
+        "country_code": "MN",
+        "data_sources": [
+            "timezonedb"
+        ],
+        "record_type": "timezone",
+        "zone_id": "244",
         "zone_name": "Asia\/Ulaanbaatar"
     }
 }
