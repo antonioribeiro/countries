@@ -31,7 +31,7 @@ class CountriesTest extends PHPUnitTestCase
 
             $updater = new Updater($config, $helper);
 
-            //$updater->update();
+            $updater->update();
         }
 
         $this->assertTrue(! false);
