@@ -92,6 +92,7 @@ class Service implements CacheInterface
         if ($this->enabled()) {
             return $this->manager->get($key, $default);
         }
+        return null;
     }
 
     /**
@@ -126,7 +127,7 @@ class Service implements CacheInterface
             return $this->manager->set($key, $value, $ttl);
         }
 
-        return $value;
+        return true;
     }
 
     /**
