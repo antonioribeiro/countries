@@ -27,6 +27,11 @@
                         "amount": 0.077,
                         "id": "ch_vat_standard_2018",
                         "start_date": "2018-01-01"
+                    },
+                    {
+                        "amount": 0.081,
+                        "id": "ch_vat_standard_2024",
+                        "start_date": "2024-01-01"
                     }
                 ],
                 "default": true,
@@ -51,6 +56,11 @@
                         "amount": 0.037,
                         "id": "ch_vat_hotel_2018",
                         "start_date": "2018-01-01"
+                    },
+                    {
+                        "amount": 0.038,
+                        "id": "ch_vat_hotel_2024",
+                        "start_date": "2024-01-01"
                     }
                 ],
                 "id": "ch_vat_hotel",
@@ -68,6 +78,11 @@
                         "amount": 0.025,
                         "id": "ch_vat_reduced_2011",
                         "start_date": "2011-01-01"
+                    },
+                    {
+                        "amount": 0.026,
+                        "id": "ch_vat_reduced_2024",
+                        "start_date": "2024-01-01"
                     }
                 ],
                 "id": "ch_vat_reduced",
