@@ -39,16 +39,16 @@ return [
     'validation' => [
         'enabled' => true,
         'rules' => [
-            'country'           => 'name.common',
-            'name'              => 'name.common',
-            'nameCommon'        => 'name.common',
+            'country' => 'name.common',
+            'name' => 'name.common',
+            'nameCommon' => 'name.common',
             'cca2',
             'cca2',
             'cca3',
             'ccn3',
             'cioc',
-            'currencies'        => 'ISO4217',
-            'language_short'    => 'ISO639_3',
+            'currencies' => 'ISO4217',
+            'language_short' => 'ISO639_3',
         ],
     ],
 
