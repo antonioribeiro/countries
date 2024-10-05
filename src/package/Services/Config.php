@@ -29,7 +29,7 @@ class Config
     }
 
     /**
-     * @param $key
+     * @param  $key
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function get($key)
@@ -38,7 +38,7 @@ class Config
     }
 
     /**
-     * @param $config
+     * @param  $config
      */
     protected function initialize($config = [])
     {
@@ -66,7 +66,7 @@ class Config
     /**
      * Redirect properties access to config's Coollection.
      *
-     * @param $name
+     * @param  $name
      * @return mixed|static
      */
     public function __get($name)
@@ -77,8 +77,8 @@ class Config
     /**
      * Redirect methods calls to config's Coollection.
      *
-     * @param $name
-     * @param $arguments
+     * @param  $name
+     * @param  $arguments
      * @return mixed
      */
     public function __call($name, $arguments)

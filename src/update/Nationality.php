@@ -51,7 +51,7 @@ class Nationality extends Base
     /**
      * Fill mledoze fields with natural earth vector data.
      *
-     * @param $fields
+     * @param  $fields
      * @return mixed
      */
     public function fillMledozeFields($fields)

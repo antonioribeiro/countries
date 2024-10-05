@@ -25,7 +25,7 @@ class Helper
     /**
      * Load a file from disk.
      *
-     * @param $file
+     * @param  $file
      * @return null|string
      */
     public function loadFile($file)
@@ -38,7 +38,7 @@ class Helper
     /**
      * Loads a json file.
      *
-     * @param $file
+     * @param  $file
      * @param  string  $dir
      * @return \PragmaRX\Coollection\Package\Coollection
      *
@@ -66,7 +66,7 @@ class Helper
     /**
      * Load json files from dir.
      *
-     * @param $dir
+     * @param  $dir
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function loadJsonFiles($dir)
@@ -81,8 +81,8 @@ class Helper
     /**
      * Move files using wildcard filter.
      *
-     * @param $from
-     * @param $to
+     * @param  $from
+     * @param  $to
      */
     public function moveFilesWildcard($from, $to)
     {
@@ -96,7 +96,7 @@ class Helper
     /**
      * Get data directory.
      *
-     * @param $path
+     * @param  $path
      * @return string
      */
     public function dataDir($path = '')
@@ -107,7 +107,7 @@ class Helper
     }
 
     /**
-     * @param $contents
+     * @param  $contents
      * @return string
      */
     public function sanitizeFile($contents)
@@ -118,7 +118,7 @@ class Helper
     /**
      * Check if array is multidimensional.
      *
-     * @param $string
+     * @param  $string
      * @return string
      */
     public function toDir($string)

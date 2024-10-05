@@ -87,7 +87,7 @@ class Countries extends Base
     /**
      * Call a method.
      *
-     * @param $name
+     * @param  $name
      * @param  array  $arguments
      * @return bool|mixed
      */
@@ -238,7 +238,7 @@ class Countries extends Base
     }
 
     /**
-     * @param $repository
+     * @param  $repository
      * @return Repository
      */
     protected function instantiateRepository($repository)
