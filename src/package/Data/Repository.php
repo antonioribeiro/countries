@@ -107,7 +107,9 @@ class Repository
             $result = $this->hydrator->hydrate($result);
         }
 
-        return $this->cache->set($cacheKey, $result, $this->config->get('cache.duration'));
+        $this->cache->set($cacheKey, $result, $this->config->get('cache.duration'));
+
+        return $result;
     }
 
     /**
