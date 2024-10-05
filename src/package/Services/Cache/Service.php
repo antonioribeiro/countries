@@ -150,6 +150,7 @@ class Service implements CacheInterface
     public function clear(): bool
     {
         $this->manager->clear();
+
         return true;
     }
 
@@ -172,9 +173,9 @@ class Service implements CacheInterface
      * @param  null  $ttl
      * @return bool
      */
-    public function setMultiple(Traversable|array $keys, DateInterval|int|null $ttl = null): bool
+    public function setMultiple(Traversable|array $values, DateInterval|int|null $ttl = null): bool
     {
-        return $this->manager->setMultiple($keys, $ttl);
+        return $this->manager->setMultiple($values, $ttl);
     }
 
     /**

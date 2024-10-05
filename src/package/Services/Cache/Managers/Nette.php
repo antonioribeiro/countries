@@ -3,12 +3,12 @@
 namespace PragmaRX\Countries\Package\Services\Cache\Managers;
 
 use Closure;
-use Traversable;
 use DateInterval;
 use Nette\Caching\Cache as NetteCache;
 use Nette\Caching\Storages\FileStorage;
 use PragmaRX\Countries\Package\Services\Config;
 use Psr\SimpleCache\CacheInterface;
+use Traversable;
 
 class Nette implements CacheInterface
 {
