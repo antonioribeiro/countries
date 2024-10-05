@@ -3,6 +3,8 @@
 namespace PragmaRX\Countries\Package\Services\Cache;
 
 use Closure;
+use Traversable;
+use DateInterval;
 use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
 use PragmaRX\Countries\Package\Services\Config;
 use Psr\SimpleCache\CacheInterface;
@@ -75,7 +77,7 @@ class Service implements CacheInterface
      *
      * @return bool
      */
-    protected function enabled()
+    protected function enabled(): bool
     {
         return $this->config->get('countries.cache.enabled');
     }
@@ -92,6 +94,7 @@ class Service implements CacheInterface
         if ($this->enabled()) {
             return $this->manager->get($key, $default);
         }
+
         return null;
     }
 
@@ -121,7 +124,7 @@ class Service implements CacheInterface
      * @param  null  $ttl
      * @return bool
      */
-    public function set(string $key, mixed $value, null|int|\DateInterval $ttl = null): bool
+    public function set(string $key, mixed $value, DateInterval|int|null $ttl = null): bool
     {
         if ($this->enabled()) {
             return $this->manager->set($key, $value, $ttl);
@@ -157,7 +160,7 @@ class Service implements CacheInterface
      * @param  null  $default
      * @return array
      */
-    public function getMultiple(iterable $keys, mixed $default = null): iterable
+    public function getMultiple(Traversable|array $keys, mixed $default = null): Traversable|array
     {
         return $this->manager->getMultiple($keys, $default);
     }
@@ -169,7 +172,7 @@ class Service implements CacheInterface
      * @param  null  $ttl
      * @return bool
      */
-    public function setMultiple(iterable $values, null|int|\DateInterval $ttl = null): bool
+    public function setMultiple(Traversable|array $keys, DateInterval|int|null $ttl = null): bool
     {
         return $this->manager->setMultiple($keys, $ttl);
     }
@@ -180,7 +183,7 @@ class Service implements CacheInterface
      * @param $keys
      * @return bool
      */
-    public function deleteMultiple(iterable $keys): bool
+    public function deleteMultiple(Traversable|array $keys): bool
     {
         return $this->manager->deleteMultiple($keys);
     }

@@ -3,6 +3,8 @@
 namespace PragmaRX\Countries\Package\Services\Cache\Managers;
 
 use Closure;
+use Traversable;
+use DateInterval;
 use Nette\Caching\Cache as NetteCache;
 use Nette\Caching\Storages\FileStorage;
 use PragmaRX\Countries\Package\Services\Config;
@@ -117,7 +119,7 @@ class Nette implements CacheInterface
      * @param  null  $ttl
      * @return bool
      */
-    public function set(string $key, mixed $value, null|int|\DateInterval $ttl = null): bool
+    public function set(string $key, mixed $value, DateInterval|int|null $ttl = null): bool
     {
         if ($this->enabled()) {
             return $this->cache->save($key, $value, [NetteCache::EXPIRE => $this->makeExpiration($ttl)]);
@@ -154,7 +156,7 @@ class Nette implements CacheInterface
      * @param  null  $default
      * @return array
      */
-    public function getMultiple(iterable $keys, mixed $default = null): iterable
+    public function getMultiple(Traversable|array $keys, mixed $default = null): iterable
     {
         return coollect($keys)->map(function ($key) {
             return $this->get($key);
@@ -168,7 +170,7 @@ class Nette implements CacheInterface
      * @param  null  $ttl
      * @return bool
      */
-    public function setMultiple(iterable $values, null|int|\DateInterval $ttl = null): bool
+    public function setMultiple(Traversable|array $values, DateInterval|int|null $ttl = null): bool
     {
         coollect($values)->map(function ($value, $key) use ($ttl) {
             return $this->set($key, $value, $ttl);
@@ -182,7 +184,7 @@ class Nette implements CacheInterface
      * @param $keys
      * @return bool
      */
-    public function deleteMultiple(iterable $keys): bool
+    public function deleteMultiple(Traversable|array $keys): bool
     {
         coollect($keys)->map(function ($key) {
             $this->forget($key);
