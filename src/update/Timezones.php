@@ -65,9 +65,9 @@ class Timezones extends Base
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/zone.csv'))->mapWithKeys(function ($value) {
                     return [
                         $value[0] => [
-                            'zone_id'      => $value[0],
+                            'zone_id' => $value[0],
                             'country_code' => $value[1],
-                            'zone_name'    => $value[2],
+                            'zone_name' => $value[2],
                         ],
                     ];
                 });
@@ -177,7 +177,7 @@ class Timezones extends Base
     /**
      * Get the zone name from a timezone.
      *
-     * @param $country
+     * @param  $country
      * @return string
      */
     public function getZoneName($country): string
@@ -188,7 +188,7 @@ class Timezones extends Base
     }
 
     /**
-     * @param $name
+     * @param  $name
      * @return string
      */
     public function zoneNameSnake($name)

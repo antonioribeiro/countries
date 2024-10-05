@@ -6,7 +6,7 @@ if (! function_exists('array_sort_by_keys_recursive')) {
     /**
      * Recursively sort array by keys.
      *
-     * @param $array
+     * @param  $array
      * @return array
      */
     function array_sort_by_keys_recursive(&$array)
@@ -38,7 +38,7 @@ if (! function_exists('arrayable')) {
     /**
      * Recursively change all array keys case.
      *
-     * @param $variable
+     * @param  $variable
      * @return bool
      */
     function arrayable($variable)

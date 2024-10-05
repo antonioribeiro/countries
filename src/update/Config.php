@@ -63,7 +63,7 @@ class Config
     ];
 
     /**
-     * @param $key
+     * @param  $key
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function get($key)
