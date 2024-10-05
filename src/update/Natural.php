@@ -35,7 +35,7 @@ class Natural extends Base
     }
 
     /**
-     * @param $state
+     * @param  $state
      * @return array
      */
     public function naturalToStateArray($state)
@@ -96,7 +96,7 @@ class Natural extends Base
     /**
      * Fill natural earth vector fields with mledoze data.
      *
-     * @param $fields
+     * @param  $fields
      * @return mixed
      */
     public function fillNaturalFields($fields)

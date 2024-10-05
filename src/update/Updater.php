@@ -172,7 +172,7 @@ class Updater extends Base
     /**
      * Update all data.
      *
-     * @param $command
+     * @param  $command
      */
     public function update($command = null)
     {
@@ -220,8 +220,8 @@ class Updater extends Base
     }
 
     /**
-     * @param $result
-     * @param $type
+     * @param  $result
+     * @param  $type
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function addRecordType($result, $type)
@@ -259,8 +259,8 @@ class Updater extends Base
     /**
      * @param  \PragmaRX\Coollection\Package\Coollection  $on
      * @param  \PragmaRX\Coollection\Package\Coollection  $by
-     * @param $fields
-     * @param $codeField
+     * @param  $fields
+     * @param  $codeField
      * @return array
      */
     public function findByFields($on, $by, $fields, $codeField)
@@ -279,7 +279,7 @@ class Updater extends Base
     /**
      * Generate all json files.
      *
-     * @param $dir
+     * @param  $dir
      * @param  Closure|null  $makeGroupKeyClosure
      * @param  \PragmaRX\Coollection\Package\Coollection  $records
      * @param  string|null  $groupKey
@@ -314,8 +314,8 @@ class Updater extends Base
     /**
      * Generate json files from array.
      *
-     * @param $data
-     * @param $dir
+     * @param  $data
+     * @param  $dir
      * @param  Closure  $normalizerClosure
      * @param  Closure|null  $makeGroupKeyClosure
      * @param  Closure  $mergeData
@@ -340,9 +340,9 @@ class Updater extends Base
     }
 
     /**
-     * @param $result
-     * @param $dir
-     * @param $normalizerClosure
+     * @param  $result
+     * @param  $dir
+     * @param  $normalizerClosure
      * @return array
      */
     public function normalizeData($result, $dir, $normalizerClosure)
@@ -369,7 +369,7 @@ class Updater extends Base
     /**
      * Normalize data.
      *
-     * @param $item
+     * @param  $item
      * @return mixed
      */
     public function normalizeStateOrCityData($item)
