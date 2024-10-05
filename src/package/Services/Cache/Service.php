@@ -3,11 +3,11 @@
 namespace PragmaRX\Countries\Package\Services\Cache;
 
 use Closure;
-use Traversable;
 use DateInterval;
 use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
 use PragmaRX\Countries\Package\Services\Config;
 use Psr\SimpleCache\CacheInterface;
+use Traversable;
 
 class Service implements CacheInterface
 {
@@ -130,7 +130,7 @@ class Service implements CacheInterface
             return $this->manager->set($key, $value, $ttl);
         }
 
-        return !!$value;
+        return (bool) $value;
     }
 
     /**
