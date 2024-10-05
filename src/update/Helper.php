@@ -47,8 +47,8 @@ class Helper
     /**
      * Forward calls to the service helper.
      *
-     * @param $name
-     * @param $arguments
+     * @param  $name
+     * @param  $arguments
      * @return mixed
      */
     public function __call($name, $arguments)
@@ -59,7 +59,7 @@ class Helper
     /**
      * Abort with message.
      *
-     * @param $message
+     * @param  $message
      *
      * @throws Exception
      */
@@ -73,8 +73,8 @@ class Helper
     /**
      * Add suffix to string.
      *
-     * @param $suffix
-     * @param $string
+     * @param  $suffix
+     * @param  $string
      * @return mixed
      */
     protected function addSuffix($suffix, $string)
@@ -87,8 +87,8 @@ class Helper
     }
 
     /**
-     * @param $dir
-     * @param $files
+     * @param  $dir
+     * @param  $files
      */
     protected function deleteAllFiles($dir, $files)
     {
@@ -102,7 +102,7 @@ class Helper
     /**
      * Delete a whole directory.
      *
-     * @param $dir
+     * @param  $dir
      */
     protected function deleteDirectory($dir)
     {
@@ -132,7 +132,7 @@ class Helper
     /**
      * Raise exception.
      *
-     * @param $message
+     * @param  $message
      *
      * @throws Exception
      */
@@ -144,7 +144,7 @@ class Helper
     /**
      * Make a directory.
      *
-     * @param $dir
+     * @param  $dir
      */
     public function mkDir($dir)
     {
@@ -158,8 +158,8 @@ class Helper
     /**
      * Download one or more files.
      *
-     * @param $url
-     * @param $directory
+     * @param  $url
+     * @param  $directory
      */
     public function download($url, $directory)
     {
@@ -177,7 +177,7 @@ class Helper
     }
 
     /**
-     * @param $class
+     * @param  $class
      * @return string
      */
     public function getClassDir($class)
@@ -188,8 +188,8 @@ class Helper
     }
 
     /**
-     * @param $url
-     * @param $destination
+     * @param  $url
+     * @param  $destination
      */
     public function downloadFile($url, $destination)
     {
@@ -211,8 +211,8 @@ class Helper
     }
 
     /**
-     * @param $url
-     * @param $destination
+     * @param  $url
+     * @param  $destination
      */
     public function downloadFopen($url, $destination)
     {
@@ -231,8 +231,8 @@ class Helper
     }
 
     /**
-     * @param $url
-     * @param $destination
+     * @param  $url
+     * @param  $destination
      */
     public function downloadCurl($url, $destination)
     {
@@ -258,10 +258,10 @@ class Helper
     }
 
     /**
-     * @param $file
-     * @param $subPath
-     * @param $path
-     * @param $exclude
+     * @param  $file
+     * @param  $subPath
+     * @param  $path
+     * @param  $exclude
      */
     protected function renameMasterToPackage($file, $subPath, $path, $exclude)
     {
@@ -275,8 +275,8 @@ class Helper
     }
 
     /**
-     * @param $file
-     * @param $subPath
+     * @param  $file
+     * @param  $subPath
      */
     public function unzipFile($file, $subPath)
     {
@@ -307,7 +307,7 @@ class Helper
     /**
      * Delete a directory and all its files.
      *
-     * @param $dir
+     * @param  $dir
      * @return bool
      */
     public function delTree($dir)
@@ -326,7 +326,7 @@ class Helper
     /**
      * Load a shapeFile.
      *
-     * @param $dir
+     * @param  $dir
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function shapeFile($dir)
@@ -383,7 +383,7 @@ class Helper
     /**
      * Load CSV file.
      *
-     * @param $csv
+     * @param  $csv
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function csvDecode($csv)
@@ -394,7 +394,7 @@ class Helper
     /**
      * Fix a bad UTF8 string.
      *
-     * @param $string
+     * @param  $string
      * @return string
      */
     public function fixUtf8($string)
@@ -407,8 +407,8 @@ class Helper
     /**
      * Unzip a file.
      *
-     * @param $file
-     * @param $path
+     * @param  $file
+     * @param  $path
      */
     public function unzip($file, $path)
     {
@@ -422,7 +422,7 @@ class Helper
     /**
      * Return string to be used in keys.
      *
-     * @param $admin
+     * @param  $admin
      * @return string
      */
     public function caseForKey($admin)
@@ -502,7 +502,7 @@ class Helper
     /**
      * Load json files from dir.
      *
-     * @param $dir
+     * @param  $dir
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function loadJsonFiles($dir)
@@ -517,8 +517,8 @@ class Helper
     /**
      * Move a data file or many using wildcards.
      *
-     * @param $from
-     * @param $to
+     * @param  $from
+     * @param  $to
      */
     public function moveDataFile($from, $to)
     {
@@ -564,7 +564,7 @@ class Helper
     /**
      * Display a message in console.
      *
-     * @param $message
+     * @param  $message
      * @param  string  $type
      */
     public function message($message, $type = 'line')
@@ -588,7 +588,7 @@ class Helper
     /**
      * Loads a json file.
      *
-     * @param $file
+     * @param  $file
      * @param  string  $dir
      * @return \PragmaRX\Coollection\Package\Coollection
      *
@@ -610,13 +610,13 @@ class Helper
     /**
      * Make state json filename.
      *
-     * @param $key
+     * @param  $key
      * @param  string  $dir
      * @return string
      */
     public function makeJsonFileName($key, $dir = '')
     {
-        if (! Str::endsWith($dir, (DIRECTORY_SEPARATOR))) {
+        if (! Str::endsWith($dir, DIRECTORY_SEPARATOR)) {
             $dir .= DIRECTORY_SEPARATOR;
         }
 
@@ -626,8 +626,8 @@ class Helper
     /**
      * Put contents into a file.
      *
-     * @param $file
-     * @param $contents
+     * @param  $file
+     * @param  $contents
      */
     public function putFile($file, $contents)
     {
@@ -660,7 +660,7 @@ class Helper
     /**
      * Get data directory.
      *
-     * @param $path
+     * @param  $path
      * @return string
      */
     public function dataDir($path = '')
@@ -671,7 +671,7 @@ class Helper
     }
 
     /**
-     * @param $contents
+     * @param  $contents
      * @return string
      */
     public function sanitizeFile($contents)
@@ -682,7 +682,7 @@ class Helper
     /**
      * Check if array is multidimensional.
      *
-     * @param $string
+     * @param  $string
      * @return string
      */
     public function toDir($string)

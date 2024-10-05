@@ -50,14 +50,14 @@ class Rinvex extends Base
         $mergeable = [
             'calling_code' => 'dialling',
             //            'borders'      => 'geo',
-            'area'         => 'geo',
-            'continent'    => 'geo',
-            'landlocked'   => 'geo',
-            'region'       => 'geo',
-            'region_un'    => 'geo',
-            'region_wb'    => 'geo',
-            'subregion'    => 'geo',
-            'latlng'       => 'geo',
+            'area' => 'geo',
+            'continent' => 'geo',
+            'landlocked' => 'geo',
+            'region' => 'geo',
+            'region_un' => 'geo',
+            'region_wb' => 'geo',
+            'subregion' => 'geo',
+            'latlng' => 'geo',
         ];
 
         coollect($mergeable)->each(function ($to, $key) use (&$natural) {
@@ -72,7 +72,7 @@ class Rinvex extends Base
     }
 
     /**
-     * @param $result
+     * @param  $result
      * @param  string  $type
      * @return null|Coollection
      */
@@ -84,7 +84,7 @@ class Rinvex extends Base
     /**
      * Find the Rinvex country.
      *
-     * @param $item
+     * @param  $item
      * @return null|\PragmaRX\Coollection\Package\Coollection
      */
     public function findRinvexCountry($item)
@@ -95,7 +95,7 @@ class Rinvex extends Base
     /**
      * Find the Rinvex state.
      *
-     * @param $item
+     * @param  $item
      * @return null|\PragmaRX\Coollection\Package\Coollection
      */
     public function findRinvexStates($item)
@@ -106,7 +106,7 @@ class Rinvex extends Base
     /**
      * Find the Rinvex state.
      *
-     * @param $country
+     * @param  $country
      * @param  \PragmaRX\Coollection\Package\Coollection  $needle
      * @return null|Coollection
      */
@@ -144,7 +144,7 @@ class Rinvex extends Base
     /**
      * Find the Rinvex translation.
      *
-     * @param $result
+     * @param  $result
      * @return null|\PragmaRX\Coollection\Package\Coollection
      */
     public function findRinvexTranslations($result)
@@ -157,7 +157,7 @@ class Rinvex extends Base
      *
      * @param  Coollection  $natural
      * @param  Coollection  $rinvex
-     * @param $translation
+     * @param  $translation
      * @param  string  $suffix
      * @return mixed|\PragmaRX\Coollection\Package\Coollection
      */
@@ -221,7 +221,7 @@ class Rinvex extends Base
     /**
      * Merge state data with rinvex divisions data.
      *
-     * @param $states
+     * @param  $states
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function mergeCountryStatesWithRinvex($states)
@@ -232,7 +232,7 @@ class Rinvex extends Base
     }
 
     /**
-     * @param $state
+     * @param  $state
      * @return \PragmaRX\Coollection\Package\Coollection
      *
      * @throws Exception
@@ -262,9 +262,9 @@ class Rinvex extends Base
 
     /**
      * @param  \PragmaRX\Coollection\Package\Coollection  $rinvex
-     * @param $cca3
-     * @param $postal
-     * @param $country
+     * @param  $cca3
+     * @param  $postal
+     * @param  $country
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function rinvexToStateArray($rinvex, $cca3, $postal, $country)

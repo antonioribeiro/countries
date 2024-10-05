@@ -101,7 +101,7 @@ class Nette implements CacheInterface
     }
 
     /**
-     * @param $ttl
+     * @param  $ttl
      * @return string
      */
     protected function makeExpiration($ttl)
@@ -148,7 +148,7 @@ class Nette implements CacheInterface
     /**
      * Obtains multiple cache items by their unique keys.
      *
-     * @param $keys
+     * @param  $keys
      * @param  null  $default
      * @return array
      */
@@ -162,7 +162,7 @@ class Nette implements CacheInterface
     /**
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
-     * @param $values
+     * @param  $values
      * @param  null  $ttl
      * @return bool
      */
@@ -176,7 +176,7 @@ class Nette implements CacheInterface
     /**
      * Deletes multiple cache items in a single operation.
      *
-     * @param $keys
+     * @param  $keys
      * @return bool|void
      */
     public function deleteMultiple($keys)
