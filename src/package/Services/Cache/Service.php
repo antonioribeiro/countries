@@ -173,6 +173,7 @@ class Service implements CacheInterface
     {
         return $this->manager->setMultiple($keys, $ttl);
     }
+
     /**
      * Deletes multiple cache items in a single operation.
      *

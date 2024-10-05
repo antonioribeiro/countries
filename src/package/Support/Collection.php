@@ -69,7 +69,7 @@ class Collection extends Coollection
     /**
      * Where language.
      *
-     * @param $value
+     * @param  $value
      * @return static
      */
     public function whereLanguage($value)
@@ -80,7 +80,7 @@ class Collection extends Coollection
     /**
      * Where language using iso code.
      *
-     * @param $value
+     * @param  $value
      * @return static
      */
     public function whereISO639_3($value)
@@ -91,7 +91,7 @@ class Collection extends Coollection
     /**
      * Where currency using ISO code.
      *
-     * @param $value
+     * @param  $value
      * @return static
      */
     public function whereISO4217($value)
@@ -103,7 +103,7 @@ class Collection extends Coollection
      * Where for different attributes.
      *
      * @param  string  $propertyName
-     * @param $find
+     * @param  $find
      * @param  Closure  $finderClosure
      * @return static
      */
@@ -126,7 +126,7 @@ class Collection extends Coollection
      * Where for keys.
      *
      * @param  string  $arrayName
-     * @param $value
+     * @param  $value
      * @return static
      */
     private function _whereKey(string $arrayName, $value)
@@ -144,7 +144,7 @@ class Collection extends Coollection
      * Where for different attributes.
      *
      * @param  string  $arrayName
-     * @param $value
+     * @param  $value
      * @return static
      */
     private function _whereAttribute(string $arrayName, $value)

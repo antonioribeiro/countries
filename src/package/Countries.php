@@ -20,7 +20,7 @@ class Countries
     /**
      * Service constructor.
      *
-     * @param $config
+     * @param  $config
      * @param  Cache  $cache
      * @param  Helper  $helper
      * @param  Hydrator  $hydrator
@@ -39,7 +39,7 @@ class Countries
     /**
      * Call a method.
      *
-     * @param $name
+     * @param  $name
      * @param  array  $arguments
      * @return bool|mixed
      */
@@ -51,7 +51,7 @@ class Countries
     /**
      * Translate static methods calls to dynamic.
      *
-     * @param $name
+     * @param  $name
      * @param  array  $arguments
      * @return mixed
      */

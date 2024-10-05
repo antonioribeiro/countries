@@ -78,7 +78,7 @@ class States
     /**
      * Get the state postal code.
      *
-     * @param $item
+     * @param  $item
      * @return mixed
      */
     public function makeStatePostalCode($item)
