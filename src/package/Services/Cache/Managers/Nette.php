@@ -3,12 +3,12 @@
 namespace PragmaRX\Countries\Package\Services\Cache\Managers;
 
 use Closure;
+use Traversable;
 use DateInterval;
+use Psr\SimpleCache\CacheInterface;
 use Nette\Caching\Cache as NetteCache;
 use Nette\Caching\Storages\FileStorage;
 use PragmaRX\Countries\Package\Services\Config;
-use Psr\SimpleCache\CacheInterface;
-use Traversable;
 
 class Nette implements CacheInterface
 {
@@ -103,7 +103,7 @@ class Nette implements CacheInterface
     }
 
     /**
-     * @param  $ttl
+     * @param $ttl
      * @return string
      */
     protected function makeExpiration($ttl)
@@ -119,7 +119,7 @@ class Nette implements CacheInterface
      * @param  null  $ttl
      * @return bool
      */
-    public function set(string $key, mixed $value, DateInterval|int|null $ttl = null): bool
+    public function set(string $key, mixed $value, null|int|\DateInterval $ttl = null): bool
     {
         if ($this->enabled()) {
             return $this->cache->save($key, $value, [NetteCache::EXPIRE => $this->makeExpiration($ttl)]);
@@ -137,6 +137,7 @@ class Nette implements CacheInterface
     public function delete(string $key): bool
     {
         $this->cache->remove($key);
+        return true;
     }
 
     /**
@@ -145,16 +146,17 @@ class Nette implements CacheInterface
     public function clear(): bool
     {
         $this->cache->clean([NetteCache::ALL => true]);
+        return true;
     }
 
     /**
      * Obtains multiple cache items by their unique keys.
      *
-     * @param  $keys
+     * @param $keys
      * @param  null  $default
      * @return array
      */
-    public function getMultiple(Traversable|array $keys, mixed $default = null): Traversable|array
+    public function getMultiple(Traversable|array $keys, mixed $default = null): iterable
     {
         return coollect($keys)->map(function ($key) {
             return $this->get($key);
@@ -164,28 +166,30 @@ class Nette implements CacheInterface
     /**
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
-     * @param  $values
+     * @param $values
      * @param  null  $ttl
      * @return bool
      */
     public function setMultiple(Traversable|array $values, DateInterval|int|null $ttl = null): bool
     {
-        return coollect($values)->map(function ($value, $key) use ($ttl) {
+        coollect($values)->map(function ($value, $key) use ($ttl) {
             return $this->set($key, $value, $ttl);
         });
+        return true;
     }
 
     /**
      * Deletes multiple cache items in a single operation.
      *
-     * @param  $keys
-     * @return bool|void
+     * @param $keys
+     * @return bool
      */
     public function deleteMultiple(Traversable|array $keys): bool
     {
         coollect($keys)->map(function ($key) {
             $this->forget($key);
         });
+        return true;
     }
 
     /**

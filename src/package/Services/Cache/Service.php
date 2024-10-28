@@ -3,11 +3,11 @@
 namespace PragmaRX\Countries\Package\Services\Cache;
 
 use Closure;
-use DateInterval;
-use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
-use PragmaRX\Countries\Package\Services\Config;
-use Psr\SimpleCache\CacheInterface;
 use Traversable;
+use DateInterval;
+use Psr\SimpleCache\CacheInterface;
+use PragmaRX\Countries\Package\Services\Config;
+use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
 
 class Service implements CacheInterface
 {
@@ -49,7 +49,7 @@ class Service implements CacheInterface
     /**
      * Instantiate the config.
      *
-     * @param  $config
+     * @param $config
      * @return Config|mixed
      */
     public function instantiateConfig($config)
@@ -60,9 +60,9 @@ class Service implements CacheInterface
     /**
      * Instantiate the cache manager.
      *
-     * @param  $config
-     * @param  $manager
-     * @param  $path
+     * @param $config
+     * @param $manager
+     * @param $path
      * @return NetteManager|mixed
      */
     public function instantiateManager($config, $manager, $path)
@@ -77,9 +77,9 @@ class Service implements CacheInterface
      *
      * @return bool
      */
-    protected function enabled()
+    protected function enabled(): bool
     {
-        return $this->config->get('countries.cache.enabled');
+        return !!$this->config->get('countries.cache.enabled');
     }
 
     /**
@@ -130,7 +130,7 @@ class Service implements CacheInterface
             return $this->manager->set($key, $value, $ttl);
         }
 
-        return (bool) $value;
+        return true;
     }
 
     /**
@@ -141,7 +141,7 @@ class Service implements CacheInterface
      */
     public function delete(string $key): bool
     {
-        $this->manager->delete($key);
+        return $this->manager->delete($key);
     }
 
     /**
@@ -150,12 +150,14 @@ class Service implements CacheInterface
     public function clear(): bool
     {
         $this->manager->clear();
+
+        return true;
     }
 
     /**
      * Obtains multiple cache items by their unique keys.
      *
-     * @param  $keys
+     * @param $keys
      * @param  null  $default
      * @return array
      */
@@ -167,24 +169,24 @@ class Service implements CacheInterface
     /**
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
-     * @param  $values
+     * @param $values
      * @param  null  $ttl
      * @return bool
      */
     public function setMultiple(Traversable|array $values, DateInterval|int|null $ttl = null): bool
     {
-        return $this->manager->setMultiple($keys, $ttl);
+        return $this->manager->setMultiple($values, $ttl);
     }
 
     /**
      * Deletes multiple cache items in a single operation.
      *
-     * @param  $keys
+     * @param $keys
      * @return bool|void
      */
     public function deleteMultiple(Traversable|array $keys): bool
     {
-        $this->manager->deleteMultiple($keys);
+        return $this->manager->deleteMultiple($keys);
     }
 
     /**
