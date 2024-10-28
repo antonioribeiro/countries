@@ -3,11 +3,11 @@
 namespace PragmaRX\Countries\Package\Services\Cache;
 
 use Closure;
-use Traversable;
 use DateInterval;
-use Psr\SimpleCache\CacheInterface;
-use PragmaRX\Countries\Package\Services\Config;
 use PragmaRX\Countries\Package\Services\Cache\Managers\Nette as NetteManager;
+use PragmaRX\Countries\Package\Services\Config;
+use Psr\SimpleCache\CacheInterface;
+use Traversable;
 
 class Service implements CacheInterface
 {
@@ -49,7 +49,7 @@ class Service implements CacheInterface
     /**
      * Instantiate the config.
      *
-     * @param $config
+     * @param  $config
      * @return Config|mixed
      */
     public function instantiateConfig($config)
@@ -60,9 +60,9 @@ class Service implements CacheInterface
     /**
      * Instantiate the cache manager.
      *
-     * @param $config
-     * @param $manager
-     * @param $path
+     * @param  $config
+     * @param  $manager
+     * @param  $path
      * @return NetteManager|mixed
      */
     public function instantiateManager($config, $manager, $path)
@@ -79,7 +79,7 @@ class Service implements CacheInterface
      */
     protected function enabled(): bool
     {
-        return !!$this->config->get('countries.cache.enabled');
+        return (bool) $this->config->get('countries.cache.enabled');
     }
 
     /**
@@ -157,7 +157,7 @@ class Service implements CacheInterface
     /**
      * Obtains multiple cache items by their unique keys.
      *
-     * @param $keys
+     * @param  $keys
      * @param  null  $default
      * @return array
      */
@@ -169,7 +169,7 @@ class Service implements CacheInterface
     /**
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
-     * @param $values
+     * @param  $values
      * @param  null  $ttl
      * @return bool
      */
@@ -181,7 +181,7 @@ class Service implements CacheInterface
     /**
      * Deletes multiple cache items in a single operation.
      *
-     * @param $keys
+     * @param  $keys
      * @return bool|void
      */
     public function deleteMultiple(Traversable|array $keys): bool
