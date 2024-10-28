@@ -3,12 +3,12 @@
 namespace PragmaRX\Countries\Package\Services\Cache\Managers;
 
 use Closure;
-use Traversable;
 use DateInterval;
-use Psr\SimpleCache\CacheInterface;
 use Nette\Caching\Cache as NetteCache;
 use Nette\Caching\Storages\FileStorage;
 use PragmaRX\Countries\Package\Services\Config;
+use Psr\SimpleCache\CacheInterface;
+use Traversable;
 
 class Nette implements CacheInterface
 {
@@ -103,7 +103,7 @@ class Nette implements CacheInterface
     }
 
     /**
-     * @param $ttl
+     * @param  $ttl
      * @return string
      */
     protected function makeExpiration($ttl)
@@ -137,6 +137,7 @@ class Nette implements CacheInterface
     public function delete(string $key): bool
     {
         $this->cache->remove($key);
+
         return true;
     }
 
@@ -146,13 +147,14 @@ class Nette implements CacheInterface
     public function clear(): bool
     {
         $this->cache->clean([NetteCache::ALL => true]);
+
         return true;
     }
 
     /**
      * Obtains multiple cache items by their unique keys.
      *
-     * @param $keys
+     * @param  $keys
      * @param  null  $default
      * @return array
      */
@@ -166,7 +168,7 @@ class Nette implements CacheInterface
     /**
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
-     * @param $values
+     * @param  $values
      * @param  null  $ttl
      * @return bool
      */
@@ -175,13 +177,14 @@ class Nette implements CacheInterface
         coollect($values)->map(function ($value, $key) use ($ttl) {
             return $this->set($key, $value, $ttl);
         });
+
         return true;
     }
 
     /**
      * Deletes multiple cache items in a single operation.
      *
-     * @param $keys
+     * @param  $keys
      * @return bool
      */
     public function deleteMultiple(Traversable|array $keys): bool
@@ -189,6 +192,7 @@ class Nette implements CacheInterface
         coollect($keys)->map(function ($key) {
             $this->forget($key);
         });
+
         return true;
     }
 
