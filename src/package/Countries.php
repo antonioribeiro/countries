@@ -28,10 +28,10 @@ class Countries
      */
     public function __construct(
         $config = null,
-        Cache $cache = null,
-        Helper $helper = null,
-        Hydrator $hydrator = null,
-        Repository $repository = null
+        ?Cache $cache = null,
+        ?Helper $helper = null,
+        ?Hydrator $hydrator = null,
+        ?Repository $repository = null
     ) {
         $this->countriesService = new CountriesService($config, $cache, $helper, $hydrator, $repository);
     }
