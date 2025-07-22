@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Tests\Service;
 
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
-use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Countries;
+use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Update\Config as ServiceConfig;
 use PragmaRX\Countries\Update\Helper;
 use PragmaRX\Countries\Update\Updater;
@@ -415,7 +415,7 @@ class CountriesTest extends PHPUnitTestCase
 
     public function testPluck()
     {
-        $c = new Countries;
+        $c = new Countries();
 
         $this->assertEquals(self::COUNTRIES, $c->all()->count()); // current state 2022-02
 

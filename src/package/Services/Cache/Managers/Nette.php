@@ -36,8 +36,8 @@ class Nette implements CacheInterface
     /**
      * Cache constructor.
      *
-     * @param  object  $config
-     * @param  null  $path
+     * @param object $config
+     * @param null   $path
      */
     public function __construct($config = null, $path = null)
     {
@@ -65,7 +65,7 @@ class Nette implements CacheInterface
         if (\is_null($this->dir)) {
             $this->dir = $this->config->get('cache')['directory'] ?: sys_get_temp_dir().'/__PRAGMARX_COUNTRIES__/cache';
 
-            if (! file_exists($this->dir)) {
+            if (!file_exists($this->dir)) {
                 mkdir($this->dir, 0755, true);
             }
         }
@@ -76,7 +76,8 @@ class Nette implements CacheInterface
     /**
      * Get the file storage.
      *
-     * @param  null  $path
+     * @param null $path
+     *
      * @return FileStorage
      */
     public function getStorage($path = null)
@@ -91,8 +92,9 @@ class Nette implements CacheInterface
     /**
      * Fetches a value from the cache.
      *
-     * @param  string  $key
-     * @param  null  $default
+     * @param string $key
+     * @param null   $default
+     *
      * @return mixed
      */
     public function get(string $key, mixed $default = null): mixed
@@ -100,12 +102,13 @@ class Nette implements CacheInterface
         if ($this->enabled()) {
             return $this->cache->load($key, $default);
         }
-        
+
         return $default;
     }
 
     /**
-     * @param  $ttl
+     * @param $ttl
+     *
      * @return string
      */
     protected function makeExpiration($ttl)
@@ -116,9 +119,10 @@ class Nette implements CacheInterface
     /**
      * Persists data in the cache, uniquely referenced by a key with an optional expiration TTL time.
      *
-     * @param  string  $key
-     * @param  mixed  $value
-     * @param  null  $ttl
+     * @param string $key
+     * @param mixed  $value
+     * @param null   $ttl
+     *
      * @return bool
      */
     public function set(string $key, mixed $value, null|int|\DateInterval $ttl = null): bool
@@ -133,7 +137,8 @@ class Nette implements CacheInterface
     /**
      * Delete an item from the cache by its unique key.
      *
-     * @param  string  $key
+     * @param string $key
+     *
      * @return bool
      */
     public function delete(string $key): bool
@@ -156,8 +161,9 @@ class Nette implements CacheInterface
     /**
      * Obtains multiple cache items by their unique keys.
      *
-     * @param  $keys
-     * @param  null  $default
+     * @param      $keys
+     * @param null $default
+     *
      * @return array
      */
     public function getMultiple(Traversable|array $keys, mixed $default = null): iterable
@@ -170,8 +176,9 @@ class Nette implements CacheInterface
     /**
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
-     * @param  $values
-     * @param  null  $ttl
+     * @param      $values
+     * @param null $ttl
+     *
      * @return bool
      */
     public function setMultiple(Traversable|array $values, DateInterval|int|null $ttl = null): bool
@@ -186,7 +193,8 @@ class Nette implements CacheInterface
     /**
      * Deletes multiple cache items in a single operation.
      *
-     * @param  $keys
+     * @param $keys
+     *
      * @return bool
      */
     public function deleteMultiple(Traversable|array $keys): bool
@@ -201,27 +209,29 @@ class Nette implements CacheInterface
     /**
      * Determines whether an item is present in the cache.
      *
-     * @param  string  $key
+     * @param string $key
+     *
      * @return bool
      */
     public function has(string $key): bool
     {
-        return ! \is_null($this->get($key));
+        return !\is_null($this->get($key));
     }
 
     /**
      * Get an item from the cache, or store the default value.
      *
-     * @param  string  $key
-     * @param  \DateTimeInterface|\DateInterval|float|int  $minutes
-     * @param  Closure  $callback
+     * @param string                                     $key
+     * @param \DateTimeInterface|\DateInterval|float|int $minutes
+     * @param Closure                                    $callback
+     *
      * @return mixed
      */
     public function remember($key, $minutes, Closure $callback)
     {
         $value = $this->get($key);
 
-        if (! \is_null($value)) {
+        if (!\is_null($value)) {
             return $value;
         }
 

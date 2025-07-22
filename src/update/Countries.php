@@ -42,11 +42,11 @@ class Countries extends Base
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Natural  $natural
-     * @param  Mledoze  $mledoze
-     * @param  Rinvex  $rinvex
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Natural $natural
+     * @param Mledoze $mledoze
+     * @param Rinvex  $rinvex
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Natural $natural, Mledoze $mledoze, Rinvex $rinvex, Updater $updater)
     {
@@ -91,7 +91,8 @@ class Countries extends Base
     /**
      * Build countries collection.
      *
-     * @param  $dataDir
+     * @param $dataDir
+     *
      * @return \Illuminate\Support\Collection
      */
     public function buildCountriesCollection($dataDir)
@@ -150,7 +151,7 @@ class Countries extends Base
 
     public function clearCountryCurrencies($country)
     {
-        if (isset($country['currency']) && ! is_null($country['currency'])) {
+        if (isset($country['currency']) && !is_null($country['currency'])) {
             $country['currencies'] = $country['currency']->keys();
 
             unset($country['currency']);

@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Update;
 
-use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Services\Config;
 use PragmaRX\Countries\Package\Support\Base;
@@ -28,8 +28,8 @@ class Timezones extends Base
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Updater $updater)
     {
@@ -65,9 +65,9 @@ class Timezones extends Base
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/zone.csv'))->mapWithKeys(function ($value) {
                     return [
                         $value[0] => [
-                            'zone_id' => $value[0],
+                            'zone_id'      => $value[0],
                             'country_code' => $value[1],
-                            'zone_name' => $value[2],
+                            'zone_name'    => $value[2],
                         ],
                     ];
                 });
@@ -82,11 +82,11 @@ class Timezones extends Base
             function () {
                 return $this->helper->loadCsv($this->helper->dataDir('third-party/timezonedb/timezone.csv'))->map(function ($timezone) {
                     return [
-                        'zone_id' => $timezone[0],
+                        'zone_id'      => $timezone[0],
                         'abbreviation' => $timezone[1],
-                        'time_start' => $timezone[2],
-                        'gmt_offset' => $timezone[3],
-                        'dst' => $timezone[4],
+                        'time_start'   => $timezone[2],
+                        'gmt_offset'   => $timezone[3],
+                        'dst'          => $timezone[4],
                     ];
                 });
             }
@@ -177,7 +177,8 @@ class Timezones extends Base
     /**
      * Get the zone name from a timezone.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return string
      */
     public function getZoneName($country): string
@@ -188,7 +189,8 @@ class Timezones extends Base
     }
 
     /**
-     * @param  $name
+     * @param $name
+     *
      * @return string
      */
     public function zoneNameSnake($name)

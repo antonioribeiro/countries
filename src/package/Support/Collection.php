@@ -4,9 +4,8 @@ namespace PragmaRX\Countries\Package\Support;
 
 use Closure;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
 use Illuminate\Support\Collection as LaravelCollection;
-use ArrayAccess;
+use Illuminate\Support\Str;
 
 class Collection extends LaravelCollection
 {
@@ -70,6 +69,7 @@ class Collection extends LaravelCollection
         if (!isset($this->items[$key])) {
             return null;
         }
+
         return $this->items[$key];
     }
 
@@ -100,7 +100,7 @@ class Collection extends LaravelCollection
     {
         // Try to find the key using various case transformations
         $foundKey = $this->getArrayKey($key);
-        
+
         if ($foundKey !== null) {
             return $this->wrapValue($this->items[$foundKey]);
         }
@@ -188,7 +188,7 @@ class Collection extends LaravelCollection
         if (strpos($key, '_') !== false) {
             $parts = explode('_', $key);
             if (count($parts) === 2) {
-                return ucfirst($parts[0]) . '/' . ucfirst($parts[1]);
+                return ucfirst($parts[0]).'/'.ucfirst($parts[1]);
             }
         }
 
@@ -213,7 +213,7 @@ class Collection extends LaravelCollection
     public function pluck($value, $key = null): static
     {
         $result = parent::pluck($value, $key);
-        
+
         // Wrap array values in Collections
         return $result->map(function ($item) {
             return $this->wrapValue($item);
@@ -226,17 +226,17 @@ class Collection extends LaravelCollection
     public function first(?callable $callback = null, mixed $default = null): mixed
     {
         $result = parent::first($callback, $default);
-        
+
         if (is_array($result)) {
             return new static($result);
         }
-        
+
         // If result is null and this collection is empty, return an empty collection
         // This maintains backward compatibility with Coollection behavior
         if ($result === null && $this->isEmpty()) {
             return new static([]);
         }
-        
+
         return $result;
     }
 
@@ -247,7 +247,7 @@ class Collection extends LaravelCollection
     {
         foreach ($this->items as $key => $item) {
             $wrappedItem = is_array($item) ? new static($item) : $item;
-            
+
             if ($callback($wrappedItem, $key) === false) {
                 break;
             }
@@ -281,7 +281,7 @@ class Collection extends LaravelCollection
     {
         $items = $this->toArray();
         array_sort_by_keys_recursive($items);
-        
+
         return new static($items);
     }
 
@@ -292,7 +292,7 @@ class Collection extends LaravelCollection
     {
         $items = $this->items;
         ksort($items);
-        
+
         return new static($items);
     }
 
@@ -398,7 +398,7 @@ class Collection extends LaravelCollection
             } elseif (is_object($attributeValue) && method_exists($attributeValue, 'toArray')) {
                 return \in_array($value, $attributeValue->toArray());
             }
-            
+
             return false;
         };
 

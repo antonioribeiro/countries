@@ -60,10 +60,10 @@ class Repository
     /**
      * Repository constructor.
      *
-     * @param  CacheContract  $cache
-     * @param  Hydrator  $hydrator
-     * @param  Helper  $helper
-     * @param  object  $config
+     * @param CacheContract $cache
+     * @param Hydrator      $hydrator
+     * @param Helper        $helper
+     * @param object        $config
      */
     public function __construct(CacheContract $cache, Hydrator $hydrator, Helper $helper, $config)
     {
@@ -79,8 +79,9 @@ class Repository
     /**
      * Call magic method.
      *
-     * @param  $name
-     * @param  array  $arguments
+     * @param       $name
+     * @param array $arguments
+     *
      * @return mixed
      */
     public function __call($name, array $arguments = [])
@@ -91,8 +92,9 @@ class Repository
     /**
      * Call a method currencies collection.
      *
-     * @param  $name
-     * @param  $arguments
+     * @param $name
+     * @param $arguments
+     *
      * @return bool|mixed
      */
     public function call($name, $arguments)
@@ -163,9 +165,9 @@ class Repository
     /**
      * Load countries json file.
      *
-     * @return \Illuminate\Support\Collection
-     *
      * @throws \Exception
+     *
+     * @return \Illuminate\Support\Collection
      */
     public function loadCountriesJson()
     {
@@ -183,7 +185,8 @@ class Repository
     /**
      * Load currency json file.
      *
-     * @param  $code
+     * @param $code
+     *
      * @return string
      */
     public function loadCurrenciesForCountry($code)
@@ -226,7 +229,8 @@ class Repository
     /**
      * Make flags array for a coutry.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return array
      */
     public function makeAllFlags($country)
@@ -237,7 +241,7 @@ class Repository
             'sprite' => '<span class="flag flag-'.($cca3 = strtolower($country['cca3'])).'"></span>',
 
             // https://github.com/lipis/flag-icon-css
-            'flag-icon' => '<span class="flag-icon flag-icon-'.($iso_3166_1_alpha2 = strtolower($country['iso_3166_1_alpha2'] ?? '')).'"></span>',
+            'flag-icon'         => '<span class="flag-icon flag-icon-'.($iso_3166_1_alpha2 = strtolower($country['iso_3166_1_alpha2'] ?? '')).'"></span>',
             'flag-icon-squared' => '<span class="flag-icon flag-icon-'.$iso_3166_1_alpha2.' flag-icon-squared"></span>',
 
             // https://github.com/lafeber/world-flags-sprite
@@ -253,7 +257,8 @@ class Repository
     /**
      * Read the flag SVG file.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return string
      */
     public function getFlagSvg($country)
@@ -266,7 +271,8 @@ class Repository
     /**
      * Get the SVG file path.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return string
      */
     public function getFlagSvgPath($country)
@@ -277,7 +283,8 @@ class Repository
     /**
      * Get country geometry.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return string
      */
     public function getGeometry($country)
@@ -290,7 +297,8 @@ class Repository
     /**
      * Get country topology.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return string
      */
     public function getTopology($country)
@@ -303,8 +311,9 @@ class Repository
     /**
      * Hydrate a country element.
      *
-     * @param  $collection
-     * @param  null  $elements
+     * @param      $collection
+     * @param null $elements
+     *
      * @return \Illuminate\Support\Collection
      */
     public function hydrate($collection, $elements = null)
@@ -315,7 +324,8 @@ class Repository
     /**
      * Find a country timezone.
      *
-     * @param  $countryCode
+     * @param $countryCode
+     *
      * @return null
      */
     public function findTimezones($countryCode)
@@ -328,7 +338,8 @@ class Repository
     /**
      * Find a country timezone.
      *
-     * @param  $zoneId
+     * @param $zoneId
+     *
      * @return \Illuminate\Support\Collection
      */
     public function findTimezoneTime($zoneId)

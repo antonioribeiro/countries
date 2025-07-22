@@ -21,7 +21,7 @@ class Config
     /**
      * Config constructor.
      *
-     * @param  array|null  $config
+     * @param array|null $config
      */
     public function __construct($config = null)
     {
@@ -29,7 +29,8 @@ class Config
     }
 
     /**
-     * @param  $key
+     * @param $key
+     *
      * @return \Illuminate\Support\Collection
      */
     public function get($key)
@@ -37,7 +38,7 @@ class Config
         // Handle dot notation for nested keys
         $keys = explode('.', $this->prefix.$key);
         $value = $this->config;
-        
+
         foreach ($keys as $segment) {
             if (is_object($value) && method_exists($value, 'get')) {
                 $value = $value->get($segment);
@@ -47,17 +48,17 @@ class Config
                 return null;
             }
         }
-        
+
         // Wrap arrays in Collections to maintain backward compatibility
         if (is_array($value)) {
             return countriesCollect($value);
         }
-        
+
         return $value;
     }
 
     /**
-     * @param  $config
+     * @param $config
      */
     protected function initialize($config = [])
     {
@@ -85,7 +86,8 @@ class Config
     /**
      * Redirect properties access to config's Collection.
      *
-     * @param  $name
+     * @param $name
+     *
      * @return mixed|static
      */
     public function __get($name)
@@ -96,8 +98,9 @@ class Config
     /**
      * Redirect methods calls to config's Collection.
      *
-     * @param  $name
-     * @param  $arguments
+     * @param $name
+     * @param $arguments
+     *
      * @return mixed
      */
     public function __call($name, $arguments)
