@@ -16,67 +16,67 @@ use PragmaRX\Countries\Package\Support\Base;
 class Updater extends Base
 {
     /**
-     * @param  \Illuminate\Console\Command  $line
+     * @param \Illuminate\Console\Command $line
      */
     protected $command;
 
     /**
-     * @param  \Illuminate\Support\Collection  $countries
+     * @param \Illuminate\Support\Collection $countries
      */
     protected $_countries;
 
     /**
-     * @param  Config  $config
+     * @param Config $config
      */
     protected $config;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Helper  $helper
+     * @param \PragmaRX\Countries\Update\Helper $helper
      */
     protected $helper;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Rinvex  $rinvex
+     * @param \PragmaRX\Countries\Update\Rinvex $rinvex
      */
     protected $rinvex;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Natural  $natural
+     * @param \PragmaRX\Countries\Update\Natural $natural
      */
     protected $natural;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Mledoze  $mledoze
+     * @param \PragmaRX\Countries\Update\Mledoze $mledoze
      */
     protected $mledoze;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Countries  $countries
+     * @param \PragmaRX\Countries\Update\Countries $countries
      */
     protected $countries;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Cities  $cities
+     * @param \PragmaRX\Countries\Update\Cities $cities
      */
     protected $cities;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Currencies  $currencies
+     * @param \PragmaRX\Countries\Update\Currencies $currencies
      */
     protected $currencies;
 
     /**
-     * @param  \PragmaRX\Countries\Update\States  $states
+     * @param \PragmaRX\Countries\Update\States $states
      */
     protected $states;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Taxes  $taxes
+     * @param \PragmaRX\Countries\Update\Taxes $taxes
      */
     protected $taxes;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Timezones  $timezones
+     * @param \PragmaRX\Countries\Update\Timezones $timezones
      */
     protected $timezones;
 
@@ -93,8 +93,8 @@ class Updater extends Base
     /**
      * Updater constructor.
      *
-     * @param  object  $config
-     * @param  Helper  $helper
+     * @param object $config
+     * @param Helper $helper
      */
     public function __construct($config, Helper $helper)
     {
@@ -162,7 +162,7 @@ class Updater extends Base
     }
 
     /**
-     * @param  mixed  $countries
+     * @param mixed $countries
      */
     public function setCountries($countries)
     {
@@ -172,7 +172,7 @@ class Updater extends Base
     /**
      * Update all data.
      *
-     * @param  $command
+     * @param $command
      */
     public function update($command = null)
     {
@@ -200,8 +200,9 @@ class Updater extends Base
     /**
      * Add data sources to collection.
      *
-     * @param  \Illuminate\Support\Collection  $record
-     * @param  string  $source
+     * @param \Illuminate\Support\Collection $record
+     * @param string                         $source
+     *
      * @return \Illuminate\Support\Collection
      */
     public function addDataSource($record, $source)
@@ -210,7 +211,7 @@ class Updater extends Base
             $record = $record->toArray();
         }
 
-        if (! isset($record[$field = 'data_sources'])) {
+        if (!isset($record[$field = 'data_sources'])) {
             $record['data_sources'] = [];
         }
 
@@ -220,8 +221,9 @@ class Updater extends Base
     }
 
     /**
-     * @param  $result
-     * @param  $type
+     * @param $result
+     * @param $type
+     *
      * @return \Illuminate\Support\Collection
      */
     public function addRecordType($result, $type)
@@ -232,8 +234,9 @@ class Updater extends Base
     }
 
     /**
-     * @param  \Illuminate\Support\Collection  $mledoze
-     * @param  \Illuminate\Support\Collection  $natural
+     * @param \Illuminate\Support\Collection $mledoze
+     * @param \Illuminate\Support\Collection $natural
+     *
      * @return array
      */
     public function findCountryByAnyField($mledoze, $natural)
@@ -257,10 +260,11 @@ class Updater extends Base
     }
 
     /**
-     * @param  \Illuminate\Support\Collection  $on
-     * @param  \Illuminate\Support\Collection  $by
-     * @param  $fields
-     * @param  $codeField
+     * @param \Illuminate\Support\Collection $on
+     * @param \Illuminate\Support\Collection $by
+     * @param                                $fields
+     * @param                                $codeField
+     *
      * @return array
      */
     public function findByFields($on, $by, $fields, $codeField)
@@ -268,7 +272,7 @@ class Updater extends Base
         foreach ($fields as $field) {
             $found = $on->where($field[0], $by[$field[1]])->first();
 
-            if (isset($by[$field[1]]) && ! is_null($found) && $found->count() > 0) {
+            if (isset($by[$field[1]]) && !is_null($found) && $found->count() > 0) {
                 return [collect($found), $found->{$codeField}];
             }
         }
@@ -279,14 +283,14 @@ class Updater extends Base
     /**
      * Generate all json files.
      *
-     * @param  $dir
-     * @param  Closure|null  $makeGroupKeyClosure
-     * @param  \Illuminate\Support\Collection  $records
-     * @param  string|null  $groupKey
+     * @param                                $dir
+     * @param Closure|null                   $makeGroupKeyClosure
+     * @param \Illuminate\Support\Collection $records
+     * @param string|null                    $groupKey
      */
     public function generateAllJsonFiles($dir, $makeGroupKeyClosure, $records, $groupKey)
     {
-        if (! empty($groupKey)) {
+        if (!empty($groupKey)) {
             $records = $records->groupBy($groupKey);
         }
 
@@ -314,12 +318,13 @@ class Updater extends Base
     /**
      * Generate json files from array.
      *
-     * @param  $data
-     * @param  $dir
-     * @param  Closure  $normalizerClosure
-     * @param  Closure|null  $makeGroupKeyClosure
-     * @param  Closure  $mergeData
-     * @param  string  $groupKey
+     * @param              $data
+     * @param              $dir
+     * @param Closure      $normalizerClosure
+     * @param Closure|null $makeGroupKeyClosure
+     * @param Closure      $mergeData
+     * @param string       $groupKey
+     *
      * @return \Illuminate\Support\Collection
      */
     public function generateJsonFiles($data, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
@@ -340,9 +345,10 @@ class Updater extends Base
     }
 
     /**
-     * @param  $result
-     * @param  $dir
-     * @param  $normalizerClosure
+     * @param $result
+     * @param $dir
+     * @param $normalizerClosure
+     *
      * @return array
      */
     public function normalizeData($result, $dir, $normalizerClosure)
@@ -369,7 +375,8 @@ class Updater extends Base
     /**
      * Normalize data.
      *
-     * @param  $item
+     * @param $item
+     *
      * @return mixed
      */
     public function normalizeStateOrCityData($item)
@@ -387,7 +394,7 @@ class Updater extends Base
             $countryCode = $this->helper->caseForKey($item['name']);
         }
 
-        $item['iso_a3'] = ! isset($item['iso_a3'])
+        $item['iso_a3'] = !isset($item['iso_a3'])
             ? $countryCode
             : $item['iso_a3'];
 
@@ -401,7 +408,7 @@ class Updater extends Base
     /**
      * Command setter.
      *
-     * @param  Command  $command
+     * @param Command $command
      */
     public function setCommand(Command $command)
     {

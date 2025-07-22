@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Support\Base;
+use PragmaRX\Countries\Package\Support\Collection;
 
 class Nationality extends Base
 {
@@ -20,8 +20,8 @@ class Nationality extends Base
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Updater $updater)
     {
@@ -51,7 +51,8 @@ class Nationality extends Base
     /**
      * Fill mledoze fields with natural earth vector data.
      *
-     * @param  $fields
+     * @param $fields
+     *
      * @return mixed
      */
     public function fillMledozeFields($fields)
@@ -59,7 +60,7 @@ class Nationality extends Base
         $fields['name_nev'] = $fields['name'];
 
         $fields['name'] = [
-            'common' => $fields['name'],
+            'common'   => $fields['name'],
             'official' => $fields['formal_en'],
         ];
 
@@ -81,15 +82,16 @@ class Nationality extends Base
     /**
      * Find a mledoze country from natural earth vector data.
      *
-     * @param  Collection  $mledoze
-     * @param  Collection  $natural
+     * @param Collection $mledoze
+     * @param Collection $natural
+     *
      * @return array
      */
     public function findMledozeCountry($mledoze, $natural)
     {
         [$country, $countryCode] = $this->updater->findCountryByAnyField($mledoze, $natural);
 
-        if (! $country->isEmpty()) {
+        if (!$country->isEmpty()) {
             return [countriesCollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
         }
 
@@ -99,9 +101,10 @@ class Nationality extends Base
     /**
      * Merge the two countries sources.
      *
-     * @param  \PragmaRX\Countries\Package\Support\Collection  $mledoze
-     * @param  \PragmaRX\Countries\Package\Support\Collection  $natural
-     * @param  string  $suffix
+     * @param \PragmaRX\Countries\Package\Support\Collection $mledoze
+     * @param \PragmaRX\Countries\Package\Support\Collection $natural
+     * @param string                                         $suffix
+     *
      * @return mixed
      */
     public function mergeWithMledoze($mledoze, $natural, $suffix = '_nev')
