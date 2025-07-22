@@ -7,7 +7,7 @@ class Config
     /**
      * Configuration.
      *
-     * @var \PragmaRX\Coollection\Package\Coollection
+     * @var \Illuminate\Support\Collection
      */
     protected $config;
 
@@ -30,11 +30,30 @@ class Config
 
     /**
      * @param  $key
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function get($key)
     {
-        return $this->config->get($this->prefix.$key);
+        // Handle dot notation for nested keys
+        $keys = explode('.', $this->prefix.$key);
+        $value = $this->config;
+        
+        foreach ($keys as $segment) {
+            if (is_object($value) && method_exists($value, 'get')) {
+                $value = $value->get($segment);
+            } elseif (is_array($value) && isset($value[$segment])) {
+                $value = $value[$segment];
+            } else {
+                return null;
+            }
+        }
+        
+        // Wrap arrays in Collections to maintain backward compatibility
+        if (is_array($value)) {
+            return countriesCollect($value);
+        }
+        
+        return $value;
     }
 
     /**
@@ -47,24 +66,24 @@ class Config
 
             $this->prefix = 'countries.';
         } else {
-            $this->config = $this->loadConfig()->overwrite($config);
+            $this->config = $this->loadConfig()->merge($config);
         }
     }
 
     /**
      * Load the config.
      *
-     * @return Collection
+     * @return \Illuminate\Support\Collection
      */
     protected function loadConfig()
     {
-        return coollect(
+        return countriesCollect(
             require __DIR__.'/../../config/countries.php'
         );
     }
 
     /**
-     * Redirect properties access to config's Coollection.
+     * Redirect properties access to config's Collection.
      *
      * @param  $name
      * @return mixed|static
@@ -75,7 +94,7 @@ class Config
     }
 
     /**
-     * Redirect methods calls to config's Coollection.
+     * Redirect methods calls to config's Collection.
      *
      * @param  $name
      * @param  $arguments

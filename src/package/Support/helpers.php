@@ -28,7 +28,7 @@ if (! function_exists('countriesCollect')) {
      * @param  mixed|null  $data
      * @return \PragmaRX\Countries\Package\Support\Collection
      */
-    function countriesCollect($data = null)
+    function countriesCollect(mixed $data = null)
     {
         return new Collection($data);
     }

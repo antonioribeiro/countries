@@ -63,7 +63,7 @@ class Nette implements CacheInterface
     public function getCacheDir()
     {
         if (\is_null($this->dir)) {
-            $this->dir = $this->config->cache->directory ?: sys_get_temp_dir().'/__PRAGMARX_COUNTRIES__/cache';
+            $this->dir = $this->config->get('cache')['directory'] ?: sys_get_temp_dir().'/__PRAGMARX_COUNTRIES__/cache';
 
             if (! file_exists($this->dir)) {
                 mkdir($this->dir, 0755, true);
@@ -100,6 +100,8 @@ class Nette implements CacheInterface
         if ($this->enabled()) {
             return $this->cache->load($key, $default);
         }
+        
+        return $default;
     }
 
     /**
@@ -125,7 +127,7 @@ class Nette implements CacheInterface
             return $this->cache->save($key, $value, [NetteCache::EXPIRE => $this->makeExpiration($ttl)]);
         }
 
-        return $value;
+        return true;
     }
 
     /**
@@ -160,7 +162,7 @@ class Nette implements CacheInterface
      */
     public function getMultiple(Traversable|array $keys, mixed $default = null): iterable
     {
-        return coollect($keys)->map(function ($key) {
+        return countriesCollect($keys)->map(function ($key) {
             return $this->get($key);
         });
     }
@@ -174,7 +176,7 @@ class Nette implements CacheInterface
      */
     public function setMultiple(Traversable|array $values, DateInterval|int|null $ttl = null): bool
     {
-        coollect($values)->map(function ($value, $key) use ($ttl) {
+        countriesCollect($values)->map(function ($value, $key) use ($ttl) {
             return $this->set($key, $value, $ttl);
         });
 
@@ -189,8 +191,8 @@ class Nette implements CacheInterface
      */
     public function deleteMultiple(Traversable|array $keys): bool
     {
-        coollect($keys)->map(function ($key) {
-            $this->forget($key);
+        countriesCollect($keys)->map(function ($key) {
+            $this->delete($key);
         });
 
         return true;

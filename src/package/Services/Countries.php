@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
-use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Coollection\Package\Coollection;
+use Illuminate\Support\Str;
+use Illuminate\Support\Collection;
 use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Support\Base;
@@ -102,18 +102,18 @@ class Countries extends Base
         return $result;
     }
 
-    private function createCoollectionMacros()
+    private function createCollectionMacros()
     {
         $instance = $this;
 
-        Coollection::macro('hydrate', function ($elements = null) use ($instance) {
+        Collection::macro('hydrate', function ($elements = null) use ($instance) {
             return $instance->hydrate($this, $elements);
         });
 
         foreach (Hydrator::HYDRATORS as $hydrator) {
             $hydrator = 'hydrate'.Str::studly($hydrator);
 
-            Coollection::macro($hydrator, function () use ($hydrator, $instance) {
+            Collection::macro($hydrator, function () use ($hydrator, $instance) {
                 return $instance->getRepository()->getHydrator()->{$hydrator}($this);
             });
         }
@@ -122,11 +122,11 @@ class Countries extends Base
     /**
      * Get all currencies.
      *
-     * @return Coollection
+     * @return Collection
      */
     public function currencies()
     {
-        return coollect($this->repository->currencies())->unique()->sort();
+        return countriesCollect($this->repository->currencies())->unique()->sort();
     }
 
     /**
@@ -164,7 +164,7 @@ class Countries extends Base
      */
     protected function init()
     {
-        $this->createCoollectionMacros();
+        $this->createCollectionMacros();
 
         $this->defineConstants();
 

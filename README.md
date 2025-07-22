@@ -12,7 +12,7 @@
 </p>
 <p align="center">
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Coverage" src="https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/countries.svg?style=flat-square"></a>
-    <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-7.0%20%7C%207.1%20%7C%207.2%20%7C%207.3-green.svg?style=flat"></a>
+    <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-8.1%20%7C%208.2%20%7C%208.3-green.svg?style=flat"></a>
     <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Downloads" src="https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square"></a>
     <a href="https://styleci.io/repos/74829244"><img alt="StyleCI" src="https://styleci.io/repos/74829244/shield"></a>
 </p>
@@ -43,7 +43,26 @@ Amongst many other information you'll be able to plot country maps:
 
 ## Requirements
 
-- PHP 7.0+
+- PHP 8.1+
+- Uses Laravel Collections (illuminate/collections) - compatible with Laravel 11 & 12
+
+## Version Compatibility
+
+| PHP     | Countries | Notes |
+|---------|-----------|-------|
+| < 8.0   | <= 0.8.2  | Legacy versions |
+| 8.0     | <= 0.8.3  | Legacy versions |
+| >= 8.1  | ^1.0      | Modern PHP with Laravel Collections support |
+
+**Current version: 1.0.0** - Modern PHP 8.3 compatibility
+
+### What's New in v1.0.0
+- ✅ PHP 8.3 compatibility
+- ✅ Updated to modern dependency versions  
+- ✅ Custom Collection implementation (replaces pragmarx/coollection)
+- ✅ Compatible with Laravel Collections from Laravel 11 & 12
+- ✅ PHPUnit 11 support
+- ✅ Maintained full backward compatibility
 
 ## Installing
 

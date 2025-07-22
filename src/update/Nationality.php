@@ -2,7 +2,7 @@
 
 namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Support\Base;
 
 class Nationality extends Base
@@ -31,11 +31,11 @@ class Nationality extends Base
     }
 
     /**
-     * @return Coollection
+     * @return Collection
      */
     public function load()
     {
-        $mledoze = coollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
+        $mledoze = countriesCollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
             $country
         ) {
             $country = $this->updater->addDataSource($country, 'mledoze');
@@ -81,8 +81,8 @@ class Nationality extends Base
     /**
      * Find a mledoze country from natural earth vector data.
      *
-     * @param  Coollection  $mledoze
-     * @param  Coollection  $natural
+     * @param  Collection  $mledoze
+     * @param  Collection  $natural
      * @return array
      */
     public function findMledozeCountry($mledoze, $natural)
@@ -90,17 +90,17 @@ class Nationality extends Base
         [$country, $countryCode] = $this->updater->findCountryByAnyField($mledoze, $natural);
 
         if (! $country->isEmpty()) {
-            return [coollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
+            return [countriesCollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
         }
 
-        return [coollect(), $countryCode];
+        return [countriesCollect(), $countryCode];
     }
 
     /**
      * Merge the two countries sources.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection  $mledoze
-     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
+     * @param  \PragmaRX\Countries\Package\Support\Collection  $mledoze
+     * @param  \PragmaRX\Countries\Package\Support\Collection  $natural
      * @param  string  $suffix
      * @return mixed
      */
@@ -137,7 +137,7 @@ class Nationality extends Base
             $result[$key] = $mledozeValue; // Natural Earth Vector
         }
 
-        return coollect($result)->sortBy(function ($value, $key) {
+        return countriesCollect($result)->sortBy(function ($value, $key) {
             return $key;
         });
     }

@@ -3,7 +3,7 @@
 namespace PragmaRX\Countries\Package\Services;
 
 use Exception;
-use IlluminateAgnostic\Str\Support\Str;
+use Illuminate\Support\Str;
 
 class Helper
 {
@@ -40,7 +40,7 @@ class Helper
      *
      * @param  $file
      * @param  string  $dir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      *
      * @throws Exception
      */
@@ -51,7 +51,7 @@ class Helper
         }
 
         if (! file_exists($file) && ! file_exists($file = $this->dataDir("/$dir/".strtolower($file).'.json'))) {
-            return coollect();
+            return countriesCollect();
         }
 
         $decoded = json5_decode($this->loadFile($file), true);
@@ -60,18 +60,18 @@ class Helper
             throw new Exception("Error decoding json file: $file");
         }
 
-        return coollect($decoded);
+        return countriesCollect($decoded);
     }
 
     /**
      * Load json files from dir.
      *
      * @param  $dir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function loadJsonFiles($dir)
     {
-        return coollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
+        return countriesCollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
             $key = str_replace(['.json5', '.json'], '', basename($file));
 
             return [$key => $this->loadJson($file)];
@@ -86,7 +86,7 @@ class Helper
      */
     public function moveFilesWildcard($from, $to)
     {
-        coollect(glob($this->dataDir($from)))->each(function ($from) use ($to) {
+        countriesCollect(glob($this->dataDir($from)))->each(function ($from) use ($to) {
             $this->mkDir($dir = $this->dataDir($to));
 
             rename($from, $dir.'/'.basename($from));

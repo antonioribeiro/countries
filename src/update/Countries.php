@@ -72,10 +72,10 @@ class Countries extends Base
 
         $dataDir = '/countries/default/';
 
-        $this->updater->setCountries($this->cache->remember('updateCountries->buildCountriesCoollection', 160, function () use ($dataDir) {
+        $this->updater->setCountries($this->cache->remember('updateCountries->buildCountriesCollection', 160, function () use ($dataDir) {
             $this->helper->eraseDataDir($dataDir);
 
-            return $this->buildCountriesCoollection($dataDir);
+            return $this->buildCountriesCollection($dataDir);
         }));
 
         $this->helper->putFile(
@@ -92,9 +92,9 @@ class Countries extends Base
      * Build countries collection.
      *
      * @param  $dataDir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
-    public function buildCountriesCoollection($dataDir)
+    public function buildCountriesCollection($dataDir)
     {
         $this->helper->message('Processing countries...');
 
@@ -104,12 +104,12 @@ class Countries extends Base
 
         $this->helper->message('Generating countries...');
 
-        $countries = coollect($shapeFile)->map(function ($country) {
+        $countries = countriesCollect($shapeFile)->map(function ($country) {
             return $this->natural->fixNaturalOddCountries($country);
         })->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
             [$mledoze, $countryCode] = $this->mledoze->findMledozeCountry($mledoze, $natural);
 
-            $natural = coollect($natural)->mapWithKeys(function ($country, $key) {
+            $natural = countriesCollect($natural)->mapWithKeys(function ($country, $key) {
                 return [strtolower($key) => $country];
             });
 
@@ -145,7 +145,7 @@ class Countries extends Base
             return [$countryCode => $result];
         });
 
-        return $mledoze->overwrite($countries);
+        return $mledoze->merge($countries);
     }
 
     public function clearCountryCurrencies($country)
