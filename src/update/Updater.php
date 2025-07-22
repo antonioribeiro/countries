@@ -3,7 +3,7 @@
 namespace PragmaRX\Countries\Update;
 
 use Closure;
-use PragmaRX\Coollection\Package\Coollection;
+use Illuminate\Support\Collection;
 use PragmaRX\Countries\Package\Contracts\Config;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Services\Command;
@@ -21,7 +21,7 @@ class Updater extends Base
     protected $command;
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $countries
+     * @param  \Illuminate\Support\Collection  $countries
      */
     protected $_countries;
 
@@ -140,7 +140,7 @@ class Updater extends Base
     }
 
     /**
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function getCountries()
     {
@@ -200,9 +200,9 @@ class Updater extends Base
     /**
      * Add data sources to collection.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection  $record
+     * @param  \Illuminate\Support\Collection  $record
      * @param  string  $source
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function addDataSource($record, $source)
     {
@@ -216,13 +216,13 @@ class Updater extends Base
 
         $record['data_sources'][] = $source;
 
-        return coollect($record);
+        return countriesCollect($record);
     }
 
     /**
      * @param  $result
      * @param  $type
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function addRecordType($result, $type)
     {
@@ -232,8 +232,8 @@ class Updater extends Base
     }
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $mledoze
-     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
+     * @param  \Illuminate\Support\Collection  $mledoze
+     * @param  \Illuminate\Support\Collection  $natural
      * @return array
      */
     public function findCountryByAnyField($mledoze, $natural)
@@ -257,8 +257,8 @@ class Updater extends Base
     }
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $on
-     * @param  \PragmaRX\Coollection\Package\Coollection  $by
+     * @param  \Illuminate\Support\Collection  $on
+     * @param  \Illuminate\Support\Collection  $by
      * @param  $fields
      * @param  $codeField
      * @return array
@@ -269,11 +269,11 @@ class Updater extends Base
             $found = $on->where($field[0], $by[$field[1]])->first();
 
             if (isset($by[$field[1]]) && ! is_null($found) && $found->count() > 0) {
-                return [coollect($found), $found->{$codeField}];
+                return [collect($found), $found->{$codeField}];
             }
         }
 
-        return [coollect(), null];
+        return [collect(), null];
     }
 
     /**
@@ -281,7 +281,7 @@ class Updater extends Base
      *
      * @param  $dir
      * @param  Closure|null  $makeGroupKeyClosure
-     * @param  \PragmaRX\Coollection\Package\Coollection  $records
+     * @param  \Illuminate\Support\Collection  $records
      * @param  string|null  $groupKey
      */
     public function generateAllJsonFiles($dir, $makeGroupKeyClosure, $records, $groupKey)
@@ -290,7 +290,7 @@ class Updater extends Base
             $records = $records->groupBy($groupKey);
         }
 
-        $records->each(function (Coollection $record, $key) use ($dir, $makeGroupKeyClosure) {
+        $records->each(function (Collection $record, $key) use ($dir, $makeGroupKeyClosure) {
             $this->helper->mkdir(dirname($file = $this->helper->makeJsonFileName($key, $dir)));
 
             $record = $record->mapWithKeys(function ($record, $key) use ($makeGroupKeyClosure) {
@@ -298,7 +298,7 @@ class Updater extends Base
                     ? $key
                     : $makeGroupKeyClosure($record, $key);
 
-                $record = coollect($record)->sortBy(function ($value, $key) {
+                $record = countriesCollect($record)->sortBy(function ($value, $key) {
                     return $key;
                 });
 
@@ -320,7 +320,7 @@ class Updater extends Base
      * @param  Closure|null  $makeGroupKeyClosure
      * @param  Closure  $mergeData
      * @param  string  $groupKey
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function generateJsonFiles($data, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
     {
@@ -353,12 +353,12 @@ class Updater extends Base
             'normalizeData'.$dir,
             160,
             function () use ($result, $normalizerClosure, &$counter) {
-                return coollect($result)->map(function ($item, $key) use ($normalizerClosure, &$counter) {
+                return countriesCollect($result)->map(function ($item, $key) use ($normalizerClosure, &$counter) {
                     if ($counter++ % 1000 === 0) {
                         $this->helper->message("Normalized: {$counter}");
                     }
 
-                    return $normalizerClosure(coollect($item)->mapWithKeys(function ($value, $key) {
+                    return $normalizerClosure(collect($item)->mapWithKeys(function ($value, $key) {
                         return [strtolower($key) => $value];
                     }), $key);
                 });

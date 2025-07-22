@@ -38,7 +38,7 @@ class Taxes extends Base
         $taxes = $this->helper->loadJsonFiles($this->helper->dataDir('third-party/commerceguys/taxes/types'));
 
         $taxes = $taxes->mapWithKeys(function ($vat, $key) {
-            $parts = coollect(explode('_', $key));
+            $parts = \countriesCollect(explode('_', $key));
             $cca2 = $parts->first();
             $type = $parts->last();
             $modifier = $parts->count() > 2 ? $parts[1] : '';

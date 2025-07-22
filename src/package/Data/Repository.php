@@ -2,7 +2,7 @@
 
 namespace PragmaRX\Countries\Package\Data;
 
-use IlluminateAgnostic\Str\Support\Str;
+use Illuminate\Support\Str;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Services\Helper;
 use PragmaRX\Countries\Package\Services\Hydrator;
@@ -145,7 +145,7 @@ class Repository
     /**
      * Load countries.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function loadCountries()
     {
@@ -155,7 +155,7 @@ class Repository
             return [Str::upper($code) => $country];
         });
 
-        $this->countriesJson = $this->countriesJson->overwrite($overload);
+        $this->countriesJson = $this->countriesJson->merge($overload);
 
         return $this->countriesJson;
     }
@@ -163,7 +163,7 @@ class Repository
     /**
      * Load countries json file.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      *
      * @throws \Exception
      */
@@ -198,7 +198,7 @@ class Repository
     /**
      * Get all countries.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function all()
     {
@@ -208,7 +208,7 @@ class Repository
     /**
      * Get all currencies.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function currencies()
     {
@@ -220,7 +220,7 @@ class Repository
             return [Str::upper($code) => $country];
         });
 
-        return $currencies->overwrite($overload);
+        return $currencies->merge($overload);
     }
 
     /**
@@ -305,7 +305,7 @@ class Repository
      *
      * @param  $collection
      * @param  null  $elements
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function hydrate($collection, $elements = null)
     {
@@ -329,7 +329,7 @@ class Repository
      * Find a country timezone.
      *
      * @param  $zoneId
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function findTimezoneTime($zoneId)
     {

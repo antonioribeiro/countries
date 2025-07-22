@@ -83,7 +83,7 @@ class States
      */
     public function makeStatePostalCode($item)
     {
-        $item = coollect($item);
+        $item = \countriesCollect($item);
 
         if ($item->iso_3166_2 !== '') {
             $code = explode('-', $item->iso_3166_2);

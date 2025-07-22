@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
-use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Coollection\Package\Coollection;
+use Illuminate\Support\Str;
+use Illuminate\Support\Collection;
 
 class Hydrator
 {
@@ -132,7 +132,7 @@ class Hydrator
      */
     private function isCountry($element)
     {
-        return ($element instanceof Coollection || \is_array($element)) && isset($element['cca3']);
+        return ($element instanceof Collection || \is_array($element)) && isset($element['cca3']);
     }
 
     /**
@@ -155,7 +155,7 @@ class Hydrator
     private function loadCities($country)
     {
         return $this->repository->getHelper()->loadJson($country['cca3'], 'cities/default')
-                ->overwrite($this->repository->getHelper()->loadJson($country['cca3'], 'cities/overload'));
+                ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'cities/overload'));
     }
 
     /**
@@ -167,7 +167,7 @@ class Hydrator
     private function loadStates($country)
     {
         return $this->repository->getHelper()->loadJson($country['cca3'], 'states/default')
-                ->overwrite($this->repository->getHelper()->loadJson($country['cca3'], 'states/overload'));
+                ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'states/overload'));
     }
 
     /**
@@ -179,7 +179,7 @@ class Hydrator
     private function loadTaxes($country)
     {
         return $this->repository->getHelper()->loadJson($country['cca3'], 'taxes/default')
-                                ->overwrite($this->repository->getHelper()->loadJson($country['cca3'], 'taxes/overload'));
+                                ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'taxes/overload'));
     }
 
     /**
@@ -229,7 +229,7 @@ class Hydrator
      * Hydrate taxes.
      *
      * @param  $country
-     * @return Coollection
+     * @return Collection
      */
     public function hydrateTaxes($country)
     {
@@ -289,7 +289,7 @@ class Hydrator
      */
     public function hydrateFlag($country)
     {
-        $country = countriesCollect($country)->overwrite(
+        $country = countriesCollect($country)->merge(
             ['flag' => $this->repository->makeAllFlags($country)]
         );
 
@@ -321,7 +321,7 @@ class Hydrator
      */
     public function hydrateTimezones($country)
     {
-        return $country->overwrite(['timezones' => $this->repository->findTimezones($country['cca3'])]);
+        return countriesCollect($country)->merge(['timezones' => $this->repository->findTimezones($country['cca3'])]);
     }
 
     /**
@@ -335,7 +335,7 @@ class Hydrator
         $country = $this->hydrateTimezones($country);
 
         $country['timezones'] = $country->timezones->map(function ($timezone) {
-            return $timezone->overwrite(['times' => $this->repository->findTimezoneTime($timezone['zone_id'])]);
+            return countriesCollect($timezone)->merge(['times' => $this->repository->findTimezoneTime($timezone['zone_id'])]);
         });
 
         return $country;
@@ -365,6 +365,11 @@ class Hydrator
                     $code = $currencyCode;
                 }
 
+                // Ensure $code is a string before passing to loadCurrenciesForCountry
+                if (is_array($code)) {
+                    return [];
+                }
+
                 return [
                     $code => $this->repository->loadCurrenciesForCountry($code),
                 ];
@@ -379,15 +384,15 @@ class Hydrator
     /**
      * Hydrate a countries collection with languages.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection|array|\stdClass  $target
+     * @param  \Illuminate\Support\Collection|array|\stdClass  $target
      * @param  null  $elements
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Illuminate\Support\Collection
      */
     public function hydrate($target, $elements = null)
     {
         $elements = $this->getHydrationElements($elements);
 
-        if (coollect($elements)->count() === 0) {
+        if (countriesCollect($elements)->count() === 0) {
             return $target;
         }
 

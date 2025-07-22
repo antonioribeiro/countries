@@ -3,7 +3,7 @@
 namespace PragmaRX\Countries\Update;
 
 use Exception;
-use PragmaRX\Coollection\Package\Coollection;
+use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Support\Base;
 
 class Rinvex extends Base
@@ -42,8 +42,8 @@ class Rinvex extends Base
     /**
      * Fill array with Rinvex usable data.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @param  \PragmaRX\Countries\Package\Support\Collection  $natural
+     * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function fillRinvexFields($natural)
     {
@@ -60,7 +60,7 @@ class Rinvex extends Base
             'latlng' => 'geo',
         ];
 
-        coollect($mergeable)->each(function ($to, $key) use (&$natural) {
+        countriesCollect($mergeable)->each(function ($to, $key) use (&$natural) {
             if (isset($natural[$key])) {
                 $natural->overwrite([$to => [$key => $natural[$key]]]);
 
@@ -74,7 +74,7 @@ class Rinvex extends Base
     /**
      * @param  $result
      * @param  string  $type
-     * @return null|Coollection
+     * @return null|Collection
      */
     public function findRinvex($result, $type)
     {
@@ -85,7 +85,7 @@ class Rinvex extends Base
      * Find the Rinvex country.
      *
      * @param  $item
-     * @return null|\PragmaRX\Coollection\Package\Coollection
+     * @return null|\PragmaRX\Countries\Package\Support\Collection
      */
     public function findRinvexCountry($item)
     {
@@ -96,7 +96,7 @@ class Rinvex extends Base
      * Find the Rinvex state.
      *
      * @param  $item
-     * @return null|\PragmaRX\Coollection\Package\Coollection
+     * @return null|\PragmaRX\Countries\Package\Support\Collection
      */
     public function findRinvexStates($item)
     {
@@ -107,8 +107,8 @@ class Rinvex extends Base
      * Find the Rinvex state.
      *
      * @param  $country
-     * @param  \PragmaRX\Coollection\Package\Coollection  $needle
-     * @return null|Coollection
+     * @param  \PragmaRX\Countries\Package\Support\Collection  $needle
+     * @return null|Collection
      */
     public function findRinvexState($country, $needle)
     {
@@ -128,24 +128,24 @@ class Rinvex extends Base
             return $rinvexState->postal == $needle->postal ||
                 $rinvexState->name == $needle['name'] ||
                 utf8_encode($rinvexState->name) == $needle['name'] ||
-                $rinvexState->alt_names->contains($needle['name']) ||
-                $rinvexState->alt_names->contains(function ($name) use ($needle) {
-                    return $needle->alt_names->contains($name);
-                });
+                ($rinvexState->alt_names && $rinvexState->alt_names->contains($needle['name'])) ||
+                ($rinvexState->alt_names && $rinvexState->alt_names->contains(function ($name) use ($needle) {
+                    return $needle->alt_names && $needle->alt_names->contains($name);
+                }));
         })->first();
 
         if (is_null($state)) {
-            return coollect();
+            return countriesCollect();
         }
 
-        return coollect($state);
+        return countriesCollect($state);
     }
 
     /**
      * Find the Rinvex translation.
      *
      * @param  $result
-     * @return null|\PragmaRX\Coollection\Package\Coollection
+     * @return null|\PragmaRX\Countries\Package\Support\Collection
      */
     public function findRinvexTranslations($result)
     {
@@ -155,21 +155,21 @@ class Rinvex extends Base
     /**
      * Merge country data with Rinvex data.
      *
-     * @param  Coollection  $natural
-     * @param  Coollection  $rinvex
+     * @param  Collection  $natural
+     * @param  Collection  $rinvex
      * @param  $translation
      * @param  string  $suffix
-     * @return mixed|\PragmaRX\Coollection\Package\Coollection
+     * @return mixed|\PragmaRX\Countries\Package\Support\Collection
      */
     public function mergeWithRinvex($natural, $rinvex, $translation, $suffix = '_rinvex')
     {
-        $defaultToRinvex = coollect([
+        $defaultToRinvex = countriesCollect([
             'currency',
             'languages',
             'dialling',
         ]);
 
-        $merge = coollect([
+        $merge = countriesCollect([
             'geo',
             'translations',
             'flag',
@@ -199,7 +199,7 @@ class Rinvex extends Base
             }
 
             if ($rinvexValue !== $naturalValue && $merge->contains($key)) {
-                $result[$key] = coollect($naturalValue)->overwrite($rinvexValue);
+                $result[$key] = countriesCollect($naturalValue)->overwrite($rinvexValue);
 
                 continue;
             }
@@ -213,7 +213,7 @@ class Rinvex extends Base
                 : $naturalValue; // Natural Earth Vector
         }
 
-        return coollect($result)->sortBy(function ($value, $key) {
+        return countriesCollect($result)->sortBy(function ($value, $key) {
             return $key;
         });
     }
@@ -222,18 +222,18 @@ class Rinvex extends Base
      * Merge state data with rinvex divisions data.
      *
      * @param  $states
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function mergeCountryStatesWithRinvex($states)
     {
-        return coollect($states)->map(function ($state) {
+        return countriesCollect($states)->map(function ($state) {
             return $this->mergeStateWithRinvex($state);
         });
     }
 
     /**
      * @param  $state
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \PragmaRX\Countries\Package\Support\Collection
      *
      * @throws Exception
      */
@@ -247,7 +247,7 @@ class Rinvex extends Base
             throw new Exception('Country not found for state');
         }
 
-        $state = coollect($this->natural->naturalToStateArray($state));
+        $state = countriesCollect($this->natural->naturalToStateArray($state));
 
         $rinvex = $this->findRinvexState($country, $state);
 

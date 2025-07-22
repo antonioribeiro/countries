@@ -2,7 +2,7 @@
 
 namespace PragmaRX\Countries\Update;
 
-use PragmaRX\Coollection\Package\Coollection;
+use Illuminate\Support\Collection;
 use PragmaRX\Countries\Package\Support\Base;
 
 class Mledoze extends Base
@@ -39,11 +39,11 @@ class Mledoze extends Base
     }
 
     /**
-     * @return Coollection
+     * @return Collection
      */
     public function loadMledozeCountries()
     {
-        $mledoze = coollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
+        $mledoze = countriesCollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
             $country
         ) {
             $country = $this->updater->addDataSource($country, 'mledoze');
@@ -89,8 +89,8 @@ class Mledoze extends Base
     /**
      * Find a mledoze country from natural earth vector data.
      *
-     * @param  Coollection  $mledoze
-     * @param  Coollection  $natural
+     * @param  Collection  $mledoze
+     * @param  Collection  $natural
      * @return array
      */
     public function findMledozeCountry($mledoze, $natural)
@@ -98,10 +98,10 @@ class Mledoze extends Base
         [$country, $countryCode] = $this->updater->findCountryByAnyField($mledoze, $natural);
 
         if (! $country->isEmpty()) {
-            return [coollect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
+            return [collect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
         }
 
-        return [coollect(), $countryCode];
+        return [collect(), $countryCode];
     }
 
     private function makeFlag($result)
@@ -116,8 +116,8 @@ class Mledoze extends Base
     /**
      * Merge the two countries sources.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection  $mledoze
-     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
+     * @param  \Illuminate\Support\Collection  $mledoze
+     * @param  \Illuminate\Support\Collection  $natural
      * @param  string  $suffix
      * @return mixed
      */
@@ -156,7 +156,7 @@ class Mledoze extends Base
 
         $result = $this->makeFlag($result);
 
-        return coollect($result)->sortBy(function ($value, $key) {
+        return countriesCollect($result)->sortBy(function ($value, $key) {
             return $key;
         });
     }

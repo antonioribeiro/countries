@@ -64,10 +64,10 @@ class Config
 
     /**
      * @param  $key
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function get($key)
     {
-        return coollect($this->data[$key]);
+        return countriesCollect($this->data[$key]);
     }
 }

@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Update;
 
-use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Coollection\Package\Coollection;
+use Illuminate\Support\Str;
+use Illuminate\Support\Collection;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 use PragmaRX\Countries\Package\Services\Config;
 use PragmaRX\Countries\Package\Support\Base;
@@ -98,7 +98,7 @@ class Timezones extends Base
             'updateTimezone.abbreviations',
             160,
             function () use ($timezones) {
-                return $timezones->groupBy('zone_id')->map(function (Coollection $timezones) {
+                return $timezones->groupBy('zone_id')->map(function (Collection $timezones) {
                     return $timezones->map(function ($timezone) {
                         return $timezone['abbreviation'];
                     })->unique()->sort()->values();
