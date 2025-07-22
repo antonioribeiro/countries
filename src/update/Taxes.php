@@ -19,8 +19,8 @@ class Taxes extends Base
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Updater $updater)
     {

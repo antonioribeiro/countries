@@ -2,11 +2,12 @@
 
 use PragmaRX\Countries\Package\Support\Collection;
 
-if (! function_exists('array_sort_by_keys_recursive')) {
+if (!function_exists('array_sort_by_keys_recursive')) {
     /**
      * Recursively sort array by keys.
      *
-     * @param  $array
+     * @param $array
+     *
      * @return array
      */
     function array_sort_by_keys_recursive(&$array)
@@ -21,11 +22,12 @@ if (! function_exists('array_sort_by_keys_recursive')) {
     }
 }
 
-if (! function_exists('countriesCollect')) {
+if (!function_exists('countriesCollect')) {
     /**
      * Check if array is multidimensional.
      *
-     * @param  mixed|null  $data
+     * @param mixed|null $data
+     *
      * @return \PragmaRX\Countries\Package\Support\Collection
      */
     function countriesCollect(mixed $data = null)
@@ -34,11 +36,12 @@ if (! function_exists('countriesCollect')) {
     }
 }
 
-if (! function_exists('arrayable')) {
+if (!function_exists('arrayable')) {
     /**
      * Recursively change all array keys case.
      *
-     * @param  $variable
+     * @param $variable
+     *
      * @return bool
      */
     function arrayable($variable)

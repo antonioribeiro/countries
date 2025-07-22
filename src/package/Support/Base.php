@@ -6,7 +6,7 @@ class Base
 {
     public function defineConstants()
     {
-        if (! \defined('__COUNTRIES_DIR__')) {
+        if (!\defined('__COUNTRIES_DIR__')) {
             \define(
                 '__COUNTRIES_DIR__',
                 realpath(

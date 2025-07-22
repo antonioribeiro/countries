@@ -2,8 +2,8 @@
 
 namespace PragmaRX\Countries\Package\Services;
 
-use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
 
 class Hydrator
 {
@@ -46,7 +46,7 @@ class Hydrator
     /**
      * Hydrator constructor.
      *
-     * @param  object  $config
+     * @param object $config
      */
     public function __construct($config)
     {
@@ -56,23 +56,24 @@ class Hydrator
     /**
      * Can hydrate?
      *
-     * @param  $element
-     * @param  $enabled
-     * @param  $countryCode
+     * @param $element
+     * @param $enabled
+     * @param $countryCode
+     *
      * @return bool
      */
     protected function canHydrate($element, $enabled, $countryCode)
     {
         return ($enabled || $this->config->get('hydrate.elements.'.$element)) &&
-                ! isset($this->repository->countries[$countryCode]['hydrated'][$element]);
+                !isset($this->repository->countries[$countryCode]['hydrated'][$element]);
     }
 
     /**
-     * @param  $countryCode
+     * @param $countryCode
      */
     protected function createHydrated($countryCode)
     {
-        if (! isset($this->repository->countries[$countryCode]['hydrated'])) {
+        if (!isset($this->repository->countries[$countryCode]['hydrated'])) {
             $this->repository->countries[$countryCode]['hydrated'] = [];
         }
 
@@ -81,7 +82,7 @@ class Hydrator
 
     protected function fixCurrencies($country)
     {
-        if (! isset($country['currencies']) && isset($country['currency'])) {
+        if (!isset($country['currencies']) && isset($country['currency'])) {
             $country['currencies'] = $country['currency'];
         }
 
@@ -91,8 +92,9 @@ class Hydrator
     /**
      * Hydrate elements of a collection of countries.
      *
-     * @param  $countries
-     * @param  $elements
+     * @param $countries
+     * @param $elements
+     *
      * @return mixed
      */
     private function hydrateCountries($countries, $elements = null)
@@ -107,8 +109,9 @@ class Hydrator
     /**
      * Hydrate elements of a country.
      *
-     * @param  $country
-     * @param  $elements
+     * @param $country
+     * @param $elements
+     *
      * @return mixed
      */
     private function hydrateCountry($country, $elements)
@@ -127,7 +130,8 @@ class Hydrator
     /**
      * Check if an element is a country.
      *
-     * @param  $element
+     * @param $element
+     *
      * @return bool
      */
     private function isCountry($element)
@@ -138,7 +142,8 @@ class Hydrator
     /**
      * Check it's a currencies array or code.
      *
-     * @param  $data
+     * @param $data
+     *
      * @return bool
      */
     private function isCurrenciesArray($data)
@@ -149,7 +154,8 @@ class Hydrator
     /**
      * Load the cities file and merge overloads.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     private function loadCities($country)
@@ -161,7 +167,8 @@ class Hydrator
     /**
      * Load the states file and merge overloads.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     private function loadStates($country)
@@ -173,7 +180,8 @@ class Hydrator
     /**
      * Load the taxes file and merge overloads.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     private function loadTaxes($country)
@@ -185,14 +193,15 @@ class Hydrator
     /**
      * Check if an element needs hydrated.
      *
-     * @param  $countryCode
-     * @param  $element
-     * @param  bool  $enabled
+     * @param      $countryCode
+     * @param      $element
+     * @param bool $enabled
+     *
      * @return bool
      */
     protected function needsHydration($countryCode, $element, $enabled = false)
     {
-        if (! $this->canHydrate($element, $enabled, $countryCode)) {
+        if (!$this->canHydrate($element, $enabled, $countryCode)) {
             return false;
         }
 
@@ -202,7 +211,8 @@ class Hydrator
     /**
      * Hydrate cities.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateCities($country)
@@ -215,7 +225,8 @@ class Hydrator
     /**
      * Hydrate states.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateStates($country)
@@ -228,7 +239,8 @@ class Hydrator
     /**
      * Hydrate taxes.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return Collection
      */
     public function hydrateTaxes($country)
@@ -241,7 +253,8 @@ class Hydrator
     /**
      * Hydrate topoloy.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateTopology($country)
@@ -254,7 +267,8 @@ class Hydrator
     /**
      * Hydrate geometry.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateGeometry($country)
@@ -267,7 +281,8 @@ class Hydrator
     /**
      * Get hydration elements.
      *
-     * @param  $elements
+     * @param $elements
+     *
      * @return array|string|mixed
      */
     protected function getHydrationElements($elements)
@@ -284,7 +299,8 @@ class Hydrator
     /**
      * Hydrate flag.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateFlag($country)
@@ -299,7 +315,8 @@ class Hydrator
     /**
      * Hydrate borders.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateBorders($country)
@@ -316,7 +333,8 @@ class Hydrator
     /**
      * Hydrate timezones.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateTimezones($country)
@@ -327,7 +345,8 @@ class Hydrator
     /**
      * Hydrate all times for a country timezones.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateTimezonesTimes($country)
@@ -344,7 +363,8 @@ class Hydrator
     /**
      * Hydrate currencies.
      *
-     * @param  $country
+     * @param $country
+     *
      * @return mixed
      */
     public function hydrateCurrencies($country)
@@ -384,8 +404,9 @@ class Hydrator
     /**
      * Hydrate a countries collection with languages.
      *
-     * @param  \Illuminate\Support\Collection|array|\stdClass  $target
-     * @param  null  $elements
+     * @param \Illuminate\Support\Collection|array|\stdClass $target
+     * @param null                                           $elements
+     *
      * @return \Illuminate\Support\Collection
      */
     public function hydrate($target, $elements = null)
@@ -404,7 +425,8 @@ class Hydrator
     /**
      * Get country by country code.
      *
-     * @param  $countryCode
+     * @param $countryCode
+     *
      * @return mixed
      */
     public function getCountry($countryCode)
@@ -415,12 +437,12 @@ class Hydrator
     /**
      * Check and create a country in the repository.
      *
-     * @param  $country
-     * @param  $countryCode
+     * @param $country
+     * @param $countryCode
      */
     public function addCountry($countryCode, $country)
     {
-        if (! isset($this->repository->countries[$countryCode])) {
+        if (!isset($this->repository->countries[$countryCode])) {
             $this->repository->countries[$countryCode] = $country;
         }
     }
@@ -428,9 +450,9 @@ class Hydrator
     /**
      * Hydrate a country element.
      *
-     * @param  $countryCode
-     * @param  $element
-     * @param  $enabled
+     * @param $countryCode
+     * @param $element
+     * @param $enabled
      */
     public function hydrateCountryElement($countryCode, $element, $enabled)
     {
@@ -442,7 +464,8 @@ class Hydrator
     /**
      * Check hydration elements.
      *
-     * @param  $elements
+     * @param $elements
+     *
      * @return static
      */
     protected function checkHydrationElements($elements)
@@ -464,7 +487,7 @@ class Hydrator
     /**
      * Repository setter.
      *
-     * @param  $repository
+     * @param $repository
      */
     public function setRepository($repository)
     {
@@ -474,8 +497,9 @@ class Hydrator
     /**
      * Update hydrated.
      *
-     * @param  $countryCode
-     * @param  $element
+     * @param $countryCode
+     * @param $element
+     *
      * @return bool
      */
     protected function updateHydrated($countryCode, $element)
