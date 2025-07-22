@@ -3,8 +3,8 @@
 namespace PragmaRX\Countries\Update;
 
 use Exception;
-use PragmaRX\Countries\Package\Support\Collection;
 use PragmaRX\Countries\Package\Support\Base;
+use PragmaRX\Countries\Package\Support\Collection;
 
 class Rinvex extends Base
 {
@@ -26,9 +26,9 @@ class Rinvex extends Base
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Natural  $natural
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Natural $natural
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Natural $natural, Updater $updater)
     {
@@ -42,7 +42,8 @@ class Rinvex extends Base
     /**
      * Fill array with Rinvex usable data.
      *
-     * @param  \PragmaRX\Countries\Package\Support\Collection  $natural
+     * @param \PragmaRX\Countries\Package\Support\Collection $natural
+     *
      * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function fillRinvexFields($natural)
@@ -50,14 +51,14 @@ class Rinvex extends Base
         $mergeable = [
             'calling_code' => 'dialling',
             //            'borders'      => 'geo',
-            'area' => 'geo',
-            'continent' => 'geo',
+            'area'       => 'geo',
+            'continent'  => 'geo',
             'landlocked' => 'geo',
-            'region' => 'geo',
-            'region_un' => 'geo',
-            'region_wb' => 'geo',
-            'subregion' => 'geo',
-            'latlng' => 'geo',
+            'region'     => 'geo',
+            'region_un'  => 'geo',
+            'region_wb'  => 'geo',
+            'subregion'  => 'geo',
+            'latlng'     => 'geo',
         ];
 
         countriesCollect($mergeable)->each(function ($to, $key) use (&$natural) {
@@ -72,8 +73,9 @@ class Rinvex extends Base
     }
 
     /**
-     * @param  $result
-     * @param  string  $type
+     * @param        $result
+     * @param string $type
+     *
      * @return null|Collection
      */
     public function findRinvex($result, $type)
@@ -84,7 +86,8 @@ class Rinvex extends Base
     /**
      * Find the Rinvex country.
      *
-     * @param  $item
+     * @param $item
+     *
      * @return null|\PragmaRX\Countries\Package\Support\Collection
      */
     public function findRinvexCountry($item)
@@ -95,7 +98,8 @@ class Rinvex extends Base
     /**
      * Find the Rinvex state.
      *
-     * @param  $item
+     * @param $item
+     *
      * @return null|\PragmaRX\Countries\Package\Support\Collection
      */
     public function findRinvexStates($item)
@@ -106,8 +110,9 @@ class Rinvex extends Base
     /**
      * Find the Rinvex state.
      *
-     * @param  $country
-     * @param  \PragmaRX\Countries\Package\Support\Collection  $needle
+     * @param                                                $country
+     * @param \PragmaRX\Countries\Package\Support\Collection $needle
+     *
      * @return null|Collection
      */
     public function findRinvexState($country, $needle)
@@ -144,7 +149,8 @@ class Rinvex extends Base
     /**
      * Find the Rinvex translation.
      *
-     * @param  $result
+     * @param $result
+     *
      * @return null|\PragmaRX\Countries\Package\Support\Collection
      */
     public function findRinvexTranslations($result)
@@ -155,10 +161,11 @@ class Rinvex extends Base
     /**
      * Merge country data with Rinvex data.
      *
-     * @param  Collection  $natural
-     * @param  Collection  $rinvex
-     * @param  $translation
-     * @param  string  $suffix
+     * @param Collection $natural
+     * @param Collection $rinvex
+     * @param            $translation
+     * @param string     $suffix
+     *
      * @return mixed|\PragmaRX\Countries\Package\Support\Collection
      */
     public function mergeWithRinvex($natural, $rinvex, $translation, $suffix = '_rinvex')
@@ -204,7 +211,7 @@ class Rinvex extends Base
                 continue;
             }
 
-            if ($rinvexValue !== $naturalValue && ! $defaultToRinvex->contains($key)) {
+            if ($rinvexValue !== $naturalValue && !$defaultToRinvex->contains($key)) {
                 $result[$key.$suffix] = $rinvexValue; // Natural Earth Vector
             }
 
@@ -221,7 +228,8 @@ class Rinvex extends Base
     /**
      * Merge state data with rinvex divisions data.
      *
-     * @param  $states
+     * @param $states
+     *
      * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function mergeCountryStatesWithRinvex($states)
@@ -232,10 +240,11 @@ class Rinvex extends Base
     }
 
     /**
-     * @param  $state
-     * @return \PragmaRX\Countries\Package\Support\Collection
+     * @param $state
      *
      * @throws Exception
+     *
+     * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function mergeStateWithRinvex($state)
     {
@@ -261,10 +270,11 @@ class Rinvex extends Base
     }
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $rinvex
-     * @param  $cca3
-     * @param  $postal
-     * @param  $country
+     * @param \PragmaRX\Coollection\Package\Coollection $rinvex
+     * @param                                           $cca3
+     * @param                                           $postal
+     * @param                                           $country
+     *
      * @return \PragmaRX\Coollection\Package\Coollection
      */
     public function rinvexToStateArray($rinvex, $cca3, $postal, $country)

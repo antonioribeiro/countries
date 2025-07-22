@@ -22,9 +22,9 @@ class States
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Rinvex  $rinvex
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Rinvex  $rinvex
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Rinvex $rinvex, Updater $updater)
     {
@@ -78,7 +78,8 @@ class States
     /**
      * Get the state postal code.
      *
-     * @param  $item
+     * @param $item
+     *
      * @return mixed
      */
     public function makeStatePostalCode($item)
@@ -93,7 +94,7 @@ class States
             }
         }
 
-        if (! empty(trim($item->postal))) {
+        if (!empty(trim($item->postal))) {
             $item->postal;
         }
 

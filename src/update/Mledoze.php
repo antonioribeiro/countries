@@ -25,9 +25,9 @@ class Mledoze extends Base
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Natural  $natural
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Natural $natural
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Natural $natural, Updater $updater)
     {
@@ -59,7 +59,8 @@ class Mledoze extends Base
     /**
      * Fill mledoze fields with natural earth vector data.
      *
-     * @param  $fields
+     * @param $fields
+     *
      * @return mixed
      */
     public function fillMledozeFields($fields)
@@ -67,7 +68,7 @@ class Mledoze extends Base
         $fields['name_nev'] = $fields['name'];
 
         $fields['name'] = [
-            'common' => $fields['name'],
+            'common'   => $fields['name'],
             'official' => $fields['formal_en'],
         ];
 
@@ -89,15 +90,16 @@ class Mledoze extends Base
     /**
      * Find a mledoze country from natural earth vector data.
      *
-     * @param  Collection  $mledoze
-     * @param  Collection  $natural
+     * @param Collection $mledoze
+     * @param Collection $natural
+     *
      * @return array
      */
     public function findMledozeCountry($mledoze, $natural)
     {
         [$country, $countryCode] = $this->updater->findCountryByAnyField($mledoze, $natural);
 
-        if (! $country->isEmpty()) {
+        if (!$country->isEmpty()) {
             return [collect($this->helper->arrayKeysSnakeRecursive($country)), $countryCode];
         }
 
@@ -116,9 +118,10 @@ class Mledoze extends Base
     /**
      * Merge the two countries sources.
      *
-     * @param  \Illuminate\Support\Collection  $mledoze
-     * @param  \Illuminate\Support\Collection  $natural
-     * @param  string  $suffix
+     * @param \Illuminate\Support\Collection $mledoze
+     * @param \Illuminate\Support\Collection $natural
+     * @param string                         $suffix
+     *
      * @return mixed
      */
     public function mergeWithMledoze($mledoze, $natural, $suffix = '_nev')

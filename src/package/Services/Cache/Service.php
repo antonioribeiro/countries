@@ -35,9 +35,9 @@ class Service implements CacheInterface
     /**
      * Cache constructor.
      *
-     * @param  object  $config
-     * @param  object  $manager
-     * @param  null  $path
+     * @param object $config
+     * @param object $manager
+     * @param null   $path
      */
     public function __construct($config = null, $manager = null, $path = null)
     {
@@ -49,7 +49,8 @@ class Service implements CacheInterface
     /**
      * Instantiate the config.
      *
-     * @param  $config
+     * @param $config
+     *
      * @return Config|mixed
      */
     public function instantiateConfig($config)
@@ -60,9 +61,10 @@ class Service implements CacheInterface
     /**
      * Instantiate the cache manager.
      *
-     * @param  $config
-     * @param  $manager
-     * @param  $path
+     * @param $config
+     * @param $manager
+     * @param $path
+     *
      * @return NetteManager|mixed
      */
     public function instantiateManager($config, $manager, $path)
@@ -85,8 +87,9 @@ class Service implements CacheInterface
     /**
      * Fetches a value from the cache.
      *
-     * @param  string  $key
-     * @param  null  $default
+     * @param string $key
+     * @param null   $default
+     *
      * @return mixed|null
      */
     public function get(string $key, mixed $default = null): mixed
@@ -101,9 +104,9 @@ class Service implements CacheInterface
     /**
      * Create a cache key.
      *
-     * @return string
-     *
      * @throws Exception
+     *
+     * @return string
      */
     public function makeKey()
     {
@@ -119,9 +122,10 @@ class Service implements CacheInterface
     /**
      * Persists data in the cache, uniquely referenced by a key with an optional expiration TTL time.
      *
-     * @param  string  $key
-     * @param  mixed  $value
-     * @param  null  $ttl
+     * @param string $key
+     * @param mixed  $value
+     * @param null   $ttl
+     *
      * @return bool
      */
     public function set(string $key, mixed $value, DateInterval|int|null $ttl = null): bool
@@ -136,7 +140,8 @@ class Service implements CacheInterface
     /**
      * Delete an item from the cache by its unique key.
      *
-     * @param  string  $key
+     * @param string $key
+     *
      * @return bool
      */
     public function delete(string $key): bool
@@ -157,8 +162,9 @@ class Service implements CacheInterface
     /**
      * Obtains multiple cache items by their unique keys.
      *
-     * @param  $keys
-     * @param  null  $default
+     * @param      $keys
+     * @param null $default
+     *
      * @return array
      */
     public function getMultiple(Traversable|array $keys, mixed $default = null): Traversable|array
@@ -169,8 +175,9 @@ class Service implements CacheInterface
     /**
      * Persists a set of key => value pairs in the cache, with an optional TTL.
      *
-     * @param  $values
-     * @param  null  $ttl
+     * @param      $values
+     * @param null $ttl
+     *
      * @return bool
      */
     public function setMultiple(Traversable|array $values, DateInterval|int|null $ttl = null): bool
@@ -181,7 +188,8 @@ class Service implements CacheInterface
     /**
      * Deletes multiple cache items in a single operation.
      *
-     * @param  $keys
+     * @param $keys
+     *
      * @return bool|void
      */
     public function deleteMultiple(Traversable|array $keys): bool
@@ -192,7 +200,8 @@ class Service implements CacheInterface
     /**
      * Determines whether an item is present in the cache.
      *
-     * @param  string  $key
+     * @param string $key
+     *
      * @return bool
      */
     public function has(string $key): bool
@@ -203,14 +212,15 @@ class Service implements CacheInterface
     /**
      * Get an item from the cache, or store the default value.
      *
-     * @param  string  $key
-     * @param  \DateTimeInterface|\DateInterval|float|int  $minutes
-     * @param  Closure  $callback
+     * @param string                                     $key
+     * @param \DateTimeInterface|\DateInterval|float|int $minutes
+     * @param Closure                                    $callback
+     *
      * @return mixed
      */
     public function remember($key, $minutes, Closure $callback)
     {
-        if (! \is_null($value = $this->manager->get($key))) {
+        if (!\is_null($value = $this->manager->get($key))) {
             return $value;
         }
 

@@ -24,8 +24,8 @@ class Natural extends Base
     /**
      * Rinvex constructor.
      *
-     * @param  Helper  $helper
-     * @param  Updater  $updater
+     * @param Helper  $helper
+     * @param Updater $updater
      */
     public function __construct(Helper $helper, Updater $updater)
     {
@@ -35,7 +35,8 @@ class Natural extends Base
     }
 
     /**
-     * @param  $state
+     * @param $state
+     *
      * @return array
      */
     public function naturalToStateArray($state)
@@ -58,7 +59,7 @@ class Natural extends Base
             ]),
 
             'geo' => [
-                'latitude' => $state['latitude'],
+                'latitude'  => $state['latitude'],
                 'longitude' => $state['longitude'],
             ],
 
@@ -79,7 +80,8 @@ class Natural extends Base
     }
 
     /**
-     * @param  \PragmaRX\Countries\Package\Support\Collection  $country
+     * @param \PragmaRX\Countries\Package\Support\Collection $country
+     *
      * @return mixed
      */
     public function fixNaturalOddCountries($country)
@@ -96,7 +98,8 @@ class Natural extends Base
     /**
      * Fill natural earth vector fields with mledoze data.
      *
-     * @param  $fields
+     * @param $fields
+     *
      * @return mixed
      */
     public function fillNaturalFields($fields)
@@ -105,7 +108,7 @@ class Natural extends Base
     }
 
     /**
-     * @param  States  $states
+     * @param States $states
      */
     public function setStates(States $states)
     {

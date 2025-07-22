@@ -46,14 +46,14 @@ class Config
         ],
 
         'moveable' => [
-            'third-party/mledoze/package/data' => 'third-party/mledoze/data',
-            'third-party/mledoze/package/dist' => 'third-party/mledoze/dist',
-            'third-party/rinvex/package/resources' => 'third-party/rinvex/data',
-            'third-party/mledoze/package/data/*.svg' => 'flags',
-            'third-party/mledoze/package/data/*.geo.json' => 'geo',
-            'third-party/mledoze/package/data/*.topo.json' => 'topo',
+            'third-party/mledoze/package/data'                    => 'third-party/mledoze/data',
+            'third-party/mledoze/package/dist'                    => 'third-party/mledoze/dist',
+            'third-party/rinvex/package/resources'                => 'third-party/rinvex/data',
+            'third-party/mledoze/package/data/*.svg'              => 'flags',
+            'third-party/mledoze/package/data/*.geo.json'         => 'geo',
+            'third-party/mledoze/package/data/*.topo.json'        => 'topo',
             'third-party/commerceguys/package/resources/tax_type' => 'third-party/commerceguys/taxes/types',
-            'third-party/commerceguys/package/resources/zone' => 'third-party/commerceguys/taxes/zones',
+            'third-party/commerceguys/package/resources/zone'     => 'third-party/commerceguys/taxes/zones',
         ],
 
         'deletable' => [
@@ -63,7 +63,8 @@ class Config
     ];
 
     /**
-     * @param  $key
+     * @param $key
+     *
      * @return \PragmaRX\Countries\Package\Support\Collection
      */
     public function get($key)
