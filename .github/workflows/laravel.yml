@@ -56,7 +56,7 @@ jobs:
       run: composer show -D
 
     - name: Execute tests
-      run: vendor/bin/phpunit --verbose
+      run: vendor/bin/phpunit
 
   code-style:
     runs-on: ubuntu-latest
