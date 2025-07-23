@@ -99,7 +99,9 @@ class Repository
      */
     public function call($name, $arguments)
     {
-        $cacheKey = method_exists($this->cache, 'makeKey') ? $this->cache->makeKey($name, $arguments) : serialize([$name, $arguments]);
+        $cacheKey = method_exists($this->cache, 'makeKey')
+            ? $this->cache->makeKey($name, $arguments)
+            : serialize([$name, $arguments]);
         if ($value = $this->cache->get($cacheKey)) {
             return $value;
         }

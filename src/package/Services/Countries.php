@@ -7,7 +7,6 @@ use Illuminate\Support\Str;
 use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
 
-
 class Countries
 {
     /**
@@ -37,8 +36,6 @@ class Countries
      * @var Cache
      */
     protected $cache;
-
-
 
     /**
      * @var Hydrator
@@ -262,8 +259,6 @@ class Countries
 
         return $repository;
     }
-
-
 
     public function defineConstants(): void
     {
