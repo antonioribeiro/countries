@@ -1,0 +1,17 @@
+*.md
+*.lock
+*.svg
+
+storage
+vendor
+node_modules
+public
+
+.platform
+server.php
+artisan
+bootstrap/*
+packages/*
+
+_ide_helper.php
+_ide_helper_models.php

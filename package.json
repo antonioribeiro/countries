@@ -1,0 +1,21 @@
+{
+  "name": "pragmarx-countries",
+  "version": "1.0.0",
+  "description": "PHP Countries and Currencies - Development Dependencies",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write src tests",
+    "format:check": "prettier --check src tests",
+    "format:php": "prettier --write 'src/**/*.php' 'tests/**/*.php'",
+    "format:check:php": "prettier --check 'src/**/*.php' 'tests/**/*.php'"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "@prettier/plugin-php": "^0.22.0",
+    "prettier-plugin-tailwindcss": "^0.5.0",
+    "prettier-plugin-blade": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
