@@ -425,7 +425,10 @@ class Hydrator
         }
 
         return $this->isCountry($target->toArray())
-            ? $this->hydrateCountry(is_array($target) ? $target : $target->toArray(), is_array($elements) ? $elements : $elements->toArray())
+            ? $this->hydrateCountry(
+                is_array($target) ? $target : $target->toArray(),
+                is_array($elements) ? $elements : $elements->toArray(),
+            )
             : $this->hydrateCountries($target, is_array($elements) ? $elements : $elements->toArray());
     }
 
@@ -466,9 +469,7 @@ class Hydrator
         if ($this->needsHydration($countryCode, $element, $enabled)) {
             $country = $this->repository->countries[$countryCode];
             $countryArray = is_array($country) ? $country : $country->toArray();
-            $this->repository->countries[$countryCode] = $this->{'hydrate' . Str::studly($element)}(
-                $countryArray,
-            );
+            $this->repository->countries[$countryCode] = $this->{'hydrate' . Str::studly($element)}($countryArray);
         }
     }
 
