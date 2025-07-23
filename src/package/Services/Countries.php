@@ -106,7 +106,9 @@ class Countries
             $hydrator = 'hydrate' . Str::studly($hydrator);
 
             Collection::macro($hydrator, function () use ($hydrator, $instance) {
-                return $instance->getRepository()->getHydrator()->{$hydrator}($this);
+                /** @phpstan-ignore-next-line */
+                $result = $instance->getRepository()->getHydrator()->{$hydrator}($this->toArray());
+                return countriesCollect($result);
             });
         }
     }
