@@ -4,8 +4,8 @@ namespace PragmaRX\Countries\Package\Support;
 
 use Closure;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Collection as LaravelCollection;
 use Illuminate\Support\Str;
+use Illuminate\Support\Collection as LaravelCollection;
 
 class Collection extends LaravelCollection
 {
@@ -210,7 +210,7 @@ class Collection extends LaravelCollection
     /**
      * Get the values of a given key.
      */
-    public function pluck($value, $key = null): static
+    public function pluck($value, $key = null): Collection
     {
         $result = parent::pluck($value, $key);
 
@@ -243,7 +243,7 @@ class Collection extends LaravelCollection
     /**
      * Execute a callback over each item.
      */
-    public function each(callable $callback): static
+    public function each(callable $callback): Collection
     {
         foreach ($this->items as $key => $item) {
             $wrappedItem = is_array($item) ? new static($item) : $item;
@@ -259,7 +259,7 @@ class Collection extends LaravelCollection
     /**
      * Overwrite the collection with new data.
      */
-    public function overwrite(mixed $data): static
+    public function overwrite(mixed $data): Collection
     {
         if ($data instanceof Collection) {
             $data = $data->toArray();
@@ -277,7 +277,7 @@ class Collection extends LaravelCollection
     /**
      * Recursively sort the collection by keys.
      */
-    public function sortByKeysRecursive(): static
+    public function sortByKeysRecursive(): Collection
     {
         $items = $this->toArray();
         array_sort_by_keys_recursive($items);
@@ -288,7 +288,7 @@ class Collection extends LaravelCollection
     /**
      * Sort the collection by keys.
      */
-    public function sortByKey(): static
+    public function sortByKey(): Collection
     {
         $items = $this->items;
         ksort($items);
@@ -299,11 +299,11 @@ class Collection extends LaravelCollection
     /**
      * Hydrate configured default elements.
      */
-    public function hydrateDefaultElements(Collection $countries): Collection
+    public function hydrateDefaultElements(Collection $countries): static
     {
         // For now, just return the countries as-is
         // The hydrate functionality will be handled by the hydrator service
-        return $countries;
+        return $countries instanceof static ? $countries : new static($countries->toArray());
     }
 
     /**

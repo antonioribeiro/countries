@@ -8,7 +8,7 @@ if (!function_exists('array_sort_by_keys_recursive')) {
      *
      * @param $array
      *
-     * @return array
+     * @return void
      */
     function array_sort_by_keys_recursive(&$array)
     {
