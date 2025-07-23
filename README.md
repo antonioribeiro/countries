@@ -8,6 +8,7 @@
     <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square"></a>
     <a href="/antonioribeiro/countries/blob/master/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
     <a href="https://github.com/antonioribeiro/countries/actions"><img alt="Build" src="https://img.shields.io/github/actions/workflow/status/antonioribeiro/countries/laravel.yml?style=flat-square"></a>
+    <a href="https://github.com/antonioribeiro/countries/actions"><img alt="Static Analysis" src="https://img.shields.io/github/actions/workflow/status/antonioribeiro/countries/static-analysis.yml?style=flat-square"></a>
 </p>
 <p align="center">
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Coverage" src="https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/countries.svg?style=flat-square"></a>
