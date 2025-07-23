@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        php: ['8.1', '8.2', '8.3', '8.4']
+        php: ['8.1', '8.2', '8.3', '8.4', '8.5']
         dependency-version: [prefer-lowest, prefer-stable]
 
     name: P${{ matrix.php }} - ${{ matrix.os }} - ${{ matrix.dependency-version }}
@@ -43,7 +43,11 @@ jobs:
           ${{ runner.os }}-php-${{ matrix.php }}-
 
     - name: Install dependencies
-      run: composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction --no-progress
+      run: |
+        if [ "${{ matrix.php }}" = "8.5" ]; then
+          composer config platform.php 8.4.0
+        fi
+        composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction --no-progress
 
     - name: List Installed Dependencies
       run: composer show -D
