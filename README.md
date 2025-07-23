@@ -4,15 +4,16 @@
 
 ![World Map](docs/world-map-political-of-the-2013-nations-online-project-best.jpg)
 
+https://github.com/antonioribeiro/countries/actions/workflows/laravel.yml/badge.svg
+
 <p align="center">
     <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square"></a>
     <a href="/antonioribeiro/countries/blob/master/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
-    <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Code Quality" src="https://img.shields.io/scrutinizer/g/antonioribeiro/countries.svg?style=flat-square"></a>
-    <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Build" src="https://img.shields.io/scrutinizer/build/g/antonioribeiro/countries.svg?style=flat-square"></a>
+    [![build](https://github.com/antonioribeiro/countries/actions/workflows/laravel.yml/badge.svg)](https://github.com/antonioribeiro/countries/actions/workflows/laravel.yml)
 </p>
 <p align="center">
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Coverage" src="https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/countries.svg?style=flat-square"></a>
-    <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-8.1%20%7C%208.2%20%7C%208.3-green.svg?style=flat"></a>
+    <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-8.1%20%7C%208.2%20%7C%208.3%20%7C%208.4-green.svg?style=flat"></a>
     <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Downloads" src="https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square"></a>
     <a href="https://styleci.io/repos/74829244"><img alt="StyleCI" src="https://styleci.io/repos/74829244/shield"></a>
 </p>
