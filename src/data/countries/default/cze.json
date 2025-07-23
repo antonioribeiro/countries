@@ -40,39 +40,21 @@
     "adm0_iso": "CZE",
     "adm0_tlc": "CZE",
     "admin": "Czechia",
-    "alt_spellings": [
-        "CZ",
-        "\u010cesk\u00e1 republika",
-        "\u010cesko"
-    ],
-    "borders": [
-        "AUT",
-        "DEU",
-        "POL",
-        "SVK"
-    ],
+    "alt_spellings": ["CZ", "\u010cesk\u00e1 republika", "\u010cesko"],
+    "borders": ["AUT", "DEU", "POL", "SVK"],
     "brk_a3": "CZE",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Czechia",
-    "calling_codes": [
-        "+420"
-    ],
-    "capital": [
-        "Prague"
-    ],
+    "calling_codes": ["+420"],
+    "capital": ["Prague"],
     "capital_rinvex": "Prague",
     "cca2": "CZ",
     "cca3": "CZE",
     "ccn3": "203",
     "cioc": "CZE",
-    "currencies": [
-        "CZK"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["CZK"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Czech",
     "demonyms": {
         "eng": {
@@ -85,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "420"
-        ],
+        "calling_code": ["420"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": null
     },
     "economy": "2. Developed region: nonG7",
@@ -119,9 +95,7 @@
         "marc": "xr",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                15
-            ],
+            "reduced": [15],
             "standard": 21,
             "super_reduced": null
         },
@@ -171,12 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 78865,
-        "borders": [
-            "AUT",
-            "DEU",
-            "POL",
-            "SVK"
-        ],
+        "borders": ["AUT", "DEU", "POL", "SVK"],
         "continent": {
             "EU": "Europe"
         },
@@ -184,10 +153,7 @@
         "landlocked": true,
         "latitude": "49 45 N",
         "latitude_desc": "49.739105224609375",
-        "latlng": [
-            49.75,
-            15.5
-        ],
+        "latlng": [49.75, 15.5],
         "longitude": "15 30 E",
         "longitude_desc": "15.331501007080078",
         "max_latitude": "59.65",
@@ -209,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+4",
-        "suffixes": [
-            "20"
-        ]
+        "suffixes": ["20"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -319,9 +283,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".cz"
-    ],
+    "tld": [".cz"],
     "translations": {
         "ces": {
             "common": "\u010cesko",

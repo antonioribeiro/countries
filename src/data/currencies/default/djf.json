@@ -1,11 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "1000fdj",
-            "2000fdj",
-            "5000fdj",
-            "10000fdj"
-        ],
+        "frequent": ["1000fdj", "2000fdj", "5000fdj", "10000fdj"],
         "rare": []
     },
     "coins": {
@@ -22,9 +17,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "DJF",
         "number": "262"

@@ -40,40 +40,21 @@
     "adm0_iso": "HUN",
     "adm0_tlc": "HUN",
     "admin": "Hungary",
-    "alt_spellings": [
-        "HU"
-    ],
-    "borders": [
-        "AUT",
-        "HRV",
-        "ROU",
-        "SRB",
-        "SVK",
-        "SVN",
-        "UKR"
-    ],
+    "alt_spellings": ["HU"],
+    "borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
     "brk_a3": "HUN",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Hungary",
-    "calling_codes": [
-        "+36"
-    ],
-    "capital": [
-        "Budapest"
-    ],
+    "calling_codes": ["+36"],
+    "capital": ["Budapest"],
     "capital_rinvex": "Budapest",
     "cca2": "HU",
     "cca3": "HUN",
     "ccn3": "348",
     "cioc": "HUN",
-    "currencies": [
-        "HUF"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["HUF"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Hungarian",
     "demonyms": {
         "eng": {
@@ -86,17 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "36"
-        ],
+        "calling_code": ["36"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9],
         "national_prefix": "06"
     },
     "economy": "2. Developed region: nonG7",
@@ -121,10 +95,7 @@
         "marc": "hu",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5,
-                18
-            ],
+            "reduced": [5, 18],
             "standard": 27,
             "super_reduced": null
         },
@@ -174,15 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 93028,
-        "borders": [
-            "AUT",
-            "HRV",
-            "ROU",
-            "SRB",
-            "SVK",
-            "SVN",
-            "UKR"
-        ],
+        "borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
         "continent": {
             "EU": "Europe"
         },
@@ -190,10 +153,7 @@
         "landlocked": true,
         "latitude": "47 00 N",
         "latitude_desc": "47.165733337402344",
-        "latlng": [
-            47,
-            20
-        ],
+        "latlng": [47, 20],
         "longitude": "20 00 E",
         "longitude_desc": "19.416574478149414",
         "max_latitude": "48.983333",
@@ -215,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "6"
-        ]
+        "suffixes": ["6"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -306,9 +264,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".hu"
-    ],
+    "tld": [".hu"],
     "translations": {
         "ces": {
             "common": "Ma\u010farsko",

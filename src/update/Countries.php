@@ -72,18 +72,20 @@ class Countries extends Base
 
         $dataDir = '/countries/default/';
 
-        $this->updater->setCountries($this->cache->remember('updateCountries->buildCountriesCollection', 160, function () use ($dataDir) {
-            $this->helper->eraseDataDir($dataDir);
+        $this->updater->setCountries(
+            $this->cache->remember('updateCountries->buildCountriesCollection', 160, function () use ($dataDir) {
+                $this->helper->eraseDataDir($dataDir);
 
-            return $this->buildCountriesCollection($dataDir);
-        }));
+                return $this->buildCountriesCollection($dataDir);
+            }),
+        );
 
         $this->helper->putFile(
             $this->helper->makeJsonFileName('_all_countries', $dataDir),
-            $this->updater->getCountries()->toJson(JSON_PRETTY_PRINT)
+            $this->updater->getCountries()->toJson(JSON_PRETTY_PRINT),
         );
 
-        $this->helper->progress('Generated '.count($this->updater->getCountries()).' countries.');
+        $this->helper->progress('Generated ' . count($this->updater->getCountries()) . ' countries.');
 
         $this->updater->setCountries(CountriesService::all());
     }
@@ -105,46 +107,48 @@ class Countries extends Base
 
         $this->helper->message('Generating countries...');
 
-        $countries = countriesCollect($shapeFile)->map(function ($country) {
-            return $this->natural->fixNaturalOddCountries($country);
-        })->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
-            [$mledoze, $countryCode] = $this->mledoze->findMledozeCountry($mledoze, $natural);
+        $countries = countriesCollect($shapeFile)
+            ->map(function ($country) {
+                return $this->natural->fixNaturalOddCountries($country);
+            })
+            ->mapWithKeys(function ($natural) use ($mledoze, $dataDir) {
+                [$mledoze, $countryCode] = $this->mledoze->findMledozeCountry($mledoze, $natural);
 
-            $natural = countriesCollect($natural)->mapWithKeys(function ($country, $key) {
-                return [strtolower($key) => $country];
+                $natural = countriesCollect($natural)->mapWithKeys(function ($country, $key) {
+                    return [strtolower($key) => $country];
+                });
+
+                if (is_null($countryCode)) {
+                    $result = $this->mledoze->fillMledozeFields($natural);
+
+                    $countryCode = $natural['adm0_a3'];
+                } else {
+                    $result = $this->mledoze->mergeWithMledoze($mledoze, $natural);
+                }
+
+                $result = $this->rinvex->mergeWithRinvex(
+                    $result,
+                    $this->rinvex->findRinvexCountry($result),
+                    $this->rinvex->findRinvexTranslations($result),
+                );
+
+                $result = $this->clearCountryCurrencies($result);
+
+                $result = $this->updater->addDataSource($result, 'natural');
+
+                $result = $this->updater->addRecordType($result, 'country');
+
+                $result = $result->sortByKeysRecursive();
+
+                $this->helper->putFile(
+                    $this->helper->makeJsonFileName(strtolower($countryCode), $dataDir),
+                    $result->toJson(JSON_PRETTY_PRINT),
+                );
+
+                $this->helper->message($result['name']['common']);
+
+                return [$countryCode => $result];
             });
-
-            if (is_null($countryCode)) {
-                $result = $this->mledoze->fillMledozeFields($natural);
-
-                $countryCode = $natural['adm0_a3'];
-            } else {
-                $result = $this->mledoze->mergeWithMledoze($mledoze, $natural);
-            }
-
-            $result = $this->rinvex->mergeWithRinvex(
-                $result,
-                $this->rinvex->findRinvexCountry($result),
-                $this->rinvex->findRinvexTranslations($result)
-            );
-
-            $result = $this->clearCountryCurrencies($result);
-
-            $result = $this->updater->addDataSource($result, 'natural');
-
-            $result = $this->updater->addRecordType($result, 'country');
-
-            $result = $result->sortByKeysRecursive();
-
-            $this->helper->putFile(
-                $this->helper->makeJsonFileName(strtolower($countryCode), $dataDir),
-                $result->toJson(JSON_PRETTY_PRINT)
-            );
-
-            $this->helper->message($result['name']['common']);
-
-            return [$countryCode => $result];
-        });
 
         return $mledoze->merge($countries);
     }

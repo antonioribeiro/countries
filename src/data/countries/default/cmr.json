@@ -45,36 +45,20 @@
         "Republic of Cameroon",
         "R\u00e9publique du Cameroun"
     ],
-    "borders": [
-        "CAF",
-        "TCD",
-        "COG",
-        "GNQ",
-        "GAB",
-        "NGA"
-    ],
+    "borders": ["CAF", "TCD", "COG", "GNQ", "GAB", "NGA"],
     "brk_a3": "CMR",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cameroon",
-    "calling_codes": [
-        "+237"
-    ],
-    "capital": [
-        "Yaound\u00e9"
-    ],
+    "calling_codes": ["+237"],
+    "capital": ["Yaound\u00e9"],
     "capital_rinvex": "Yaound\u00e9",
     "cca2": "CM",
     "cca3": "CMR",
     "ccn3": "120",
     "cioc": "CMR",
-    "currencies": [
-        "XAF"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["XAF"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Cameroonian",
     "demonyms": {
         "eng": {
@@ -87,16 +71,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "237"
-        ],
+        "calling_code": ["237"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8],
         "national_prefix": null
     },
     "economy": "6. Developing region",
@@ -166,14 +144,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 475442,
-        "borders": [
-            "CAF",
-            "TCD",
-            "COG",
-            "GNQ",
-            "GAB",
-            "NGA"
-        ],
+        "borders": ["CAF", "TCD", "COG", "GNQ", "GAB", "NGA"],
         "continent": {
             "AF": "Africa"
         },
@@ -181,10 +152,7 @@
         "landlocked": false,
         "latitude": "6 00 N",
         "latitude_desc": "5.685476779937744",
-        "latlng": [
-            6,
-            12
-        ],
+        "latlng": [6, 12],
         "longitude": "12 00 E",
         "longitude_desc": "12.722877502441406",
         "max_latitude": "16",
@@ -206,9 +174,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "37"
-        ]
+        "suffixes": ["37"]
     },
     "income_grp": "4. Lower middle income",
     "independent": true,
@@ -301,9 +267,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".cm"
-    ],
+    "tld": [".cm"],
     "translations": {
         "ces": {
             "common": "Kamerun",

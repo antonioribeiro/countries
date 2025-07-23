@@ -46,38 +46,20 @@
         "United Republic of Tanzania",
         "Jamhuri ya Muungano wa Tanzania"
     ],
-    "borders": [
-        "BDI",
-        "COD",
-        "KEN",
-        "MWI",
-        "MOZ",
-        "RWA",
-        "UGA",
-        "ZMB"
-    ],
+    "borders": ["BDI", "COD", "KEN", "MWI", "MOZ", "RWA", "UGA", "ZMB"],
     "brk_a3": "TZA",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Tanzania",
-    "calling_codes": [
-        "+255"
-    ],
-    "capital": [
-        "Dodoma"
-    ],
+    "calling_codes": ["+255"],
+    "capital": ["Dodoma"],
     "capital_rinvex": "Dodoma",
     "cca2": "TZ",
     "cca3": "TZA",
     "ccn3": "834",
     "cioc": "TAN",
-    "currencies": [
-        "TZS"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["TZS"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Tanzanian",
     "demonyms": {
         "eng": {
@@ -90,16 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "255"
-        ],
+        "calling_code": ["255"],
         "international_prefix": "000",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "7. Least developed region",
@@ -169,16 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 945087,
-        "borders": [
-            "BDI",
-            "COD",
-            "KEN",
-            "MWI",
-            "MOZ",
-            "RWA",
-            "UGA",
-            "ZMB"
-        ],
+        "borders": ["BDI", "COD", "KEN", "MWI", "MOZ", "RWA", "UGA", "ZMB"],
         "continent": {
             "AF": "Africa"
         },
@@ -186,10 +153,7 @@
         "landlocked": false,
         "latitude": "6 00 S",
         "latitude_desc": "-6.306897163391113",
-        "latlng": [
-            -6,
-            35
-        ],
+        "latlng": [-6, 35],
         "longitude": "35 00 E",
         "longitude_desc": "34.85392761230469",
         "max_latitude": "0.833333",
@@ -211,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "55"
-        ]
+        "suffixes": ["55"]
     },
     "income_grp": "5. Low income",
     "independent": true,
@@ -306,9 +268,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".tz"
-    ],
+    "tld": [".tz"],
     "translations": {
         "ces": {
             "common": "Tanzanie",

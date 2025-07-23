@@ -1,17 +1,10 @@
 {
     "europe_helsinki": {
-        "abbreviations": [
-            "EEST",
-            "EET",
-            "HMT",
-            "LMT"
-        ],
+        "abbreviations": ["EEST", "EET", "HMT", "LMT"],
         "cca2": "FI",
         "cca3": "FIN",
         "country_code": "FI",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "151",
         "zone_name": "Europe\/Helsinki"

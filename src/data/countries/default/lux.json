@@ -47,33 +47,20 @@
         "Gro\u00dfherzogtum Luxemburg",
         "Groussherzogtum L\u00ebtzebuerg"
     ],
-    "borders": [
-        "BEL",
-        "FRA",
-        "DEU"
-    ],
+    "borders": ["BEL", "FRA", "DEU"],
     "brk_a3": "LUX",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Luxembourg",
-    "calling_codes": [
-        "+352"
-    ],
-    "capital": [
-        "Luxembourg"
-    ],
+    "calling_codes": ["+352"],
+    "capital": ["Luxembourg"],
     "capital_rinvex": "Luxembourg",
     "cca2": "LU",
     "cca3": "LUX",
     "ccn3": "442",
     "cioc": "LUX",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Luxembourger",
     "demonyms": {
         "eng": {
@@ -86,16 +73,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "352"
-        ],
+        "calling_code": ["352"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": null
     },
     "economy": "2. Developed region: nonG7",
@@ -120,10 +101,7 @@
         "marc": "lu",
         "vat_rates": {
             "parking": 12,
-            "reduced": [
-                8,
-                14
-            ],
+            "reduced": [8, 14],
             "standard": 17,
             "super_reduced": 3
         },
@@ -173,11 +151,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 2586,
-        "borders": [
-            "BEL",
-            "FRA",
-            "DEU"
-        ],
+        "borders": ["BEL", "FRA", "DEU"],
         "continent": {
             "EU": "Europe"
         },
@@ -185,10 +159,7 @@
         "landlocked": true,
         "latitude": "49 45 N",
         "latitude_desc": "49.77788162231445",
-        "latlng": [
-            49.75,
-            6.16666666
-        ],
+        "latlng": [49.75, 6.16666666],
         "longitude": "6 10 E",
         "longitude_desc": "6.094746112823486",
         "max_latitude": "50.181667",
@@ -210,9 +181,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "52"
-        ]
+        "suffixes": ["52"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -310,9 +279,7 @@
     "tiny": "5",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".lu"
-    ],
+    "tld": [".lu"],
     "translations": {
         "ces": {
             "common": "Lucembursko",

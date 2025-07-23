@@ -1,17 +1,10 @@
 {
     "atlantic_reykjavik": {
-        "abbreviations": [
-            "GMT",
-            "ISST",
-            "IST",
-            "LMT"
-        ],
+        "abbreviations": ["GMT", "ISST", "IST", "LMT"],
         "cca2": "IS",
         "cca3": "ISL",
         "country_code": "IS",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "197",
         "zone_name": "Atlantic\/Reykjavik"

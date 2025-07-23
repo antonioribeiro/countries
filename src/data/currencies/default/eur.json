@@ -7,28 +7,13 @@
             "\u20ac50",
             "\u20ac100"
         ],
-        "rare": [
-            "\u20ac200",
-            "\u20ac500"
-        ]
+        "rare": ["\u20ac200", "\u20ac500"]
     },
     "coins": {
-        "frequent": [
-            "\u20ac1",
-            "\u20ac2",
-            "5c",
-            "10c",
-            "20c",
-            "50c"
-        ],
-        "rare": [
-            "1c",
-            "2c"
-        ]
+        "frequent": ["\u20ac1", "\u20ac2", "5c", "10c", "20c", "50c"],
+        "rare": ["1c", "2c"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "EUR",
         "number": "978"

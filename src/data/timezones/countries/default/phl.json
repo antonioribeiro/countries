@@ -1,17 +1,10 @@
 {
     "asia_manila": {
-        "abbreviations": [
-            "JST",
-            "LMT",
-            "PDT",
-            "PST"
-        ],
+        "abbreviations": ["JST", "LMT", "PDT", "PST"],
         "cca2": "PH",
         "cca3": "PHL",
         "country_code": "PH",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "291",
         "zone_name": "Asia\/Manila"

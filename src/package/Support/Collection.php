@@ -188,7 +188,7 @@ class Collection extends LaravelCollection
         if (strpos($key, '_') !== false) {
             $parts = explode('_', $key);
             if (count($parts) === 2) {
-                return ucfirst($parts[0]).'/'.ucfirst($parts[1]);
+                return ucfirst($parts[0]) . '/' . ucfirst($parts[1]);
             }
         }
 
@@ -316,8 +316,8 @@ class Collection extends LaravelCollection
             $operator = '=';
         }
 
-        $countries = method_exists($this, 'where'.ucfirst($key))
-            ? $this->{'where'.ucfirst($key)}($value)
+        $countries = method_exists($this, 'where' . ucfirst($key))
+            ? $this->{'where' . ucfirst($key)}($value)
             : parent::where($key, $operator, $value);
 
         return $this->hydrateDefaultElements($countries);
@@ -364,9 +364,7 @@ class Collection extends LaravelCollection
                 $attributeValue = null;
             }
 
-            return \is_null($attributeValue)
-                ? null
-                : $finderClosure($find, $attributeValue, $data);
+            return \is_null($attributeValue) ? null : $finderClosure($find, $attributeValue, $data);
         });
     }
 
@@ -379,9 +377,7 @@ class Collection extends LaravelCollection
             return Arr::has($attributeValue, $value);
         };
 
-        return $this->hydrateDefaultElements(
-            $this->arrayFinder($arrayName, $value, $finderClosure)
-        );
+        return $this->hydrateDefaultElements($this->arrayFinder($arrayName, $value, $finderClosure));
     }
 
     /**
@@ -402,8 +398,6 @@ class Collection extends LaravelCollection
             return false;
         };
 
-        return $this->hydrateDefaultElements(
-            $this->arrayFinder($arrayName, $value, $finderClosure)
-        );
+        return $this->hydrateDefaultElements($this->arrayFinder($arrayName, $value, $finderClosure));
     }
 }

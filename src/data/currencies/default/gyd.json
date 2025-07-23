@@ -1,25 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$20",
-            "$100",
-            "$500",
-            "$1000",
-            "$5000"
-        ],
+        "frequent": ["$20", "$100", "$500", "$1000", "$5000"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "$1",
-            "$5",
-            "$10"
-        ],
+        "frequent": ["$1", "$5", "$10"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "GYD",
         "number": "328"

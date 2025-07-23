@@ -52,14 +52,26 @@ class Natural extends Base
 
             'code_hasc' => $state['code_hasc'],
 
-            'extra' => countriesCollect($state)->sortByKey()->except([
-                'name', 'name_alt', 'latitude', 'longitude', 'cca2', 'cca3',
-                'iso_a2', 'iso_a3', 'type', 'type_en', 'postal',
-                'iso_3166_2', 'code_hasc',
-            ]),
+            'extra' => countriesCollect($state)
+                ->sortByKey()
+                ->except([
+                    'name',
+                    'name_alt',
+                    'latitude',
+                    'longitude',
+                    'cca2',
+                    'cca3',
+                    'iso_a2',
+                    'iso_a3',
+                    'type',
+                    'type_en',
+                    'postal',
+                    'iso_3166_2',
+                    'code_hasc',
+                ]),
 
             'geo' => [
-                'latitude'  => $state['latitude'],
+                'latitude' => $state['latitude'],
                 'longitude' => $state['longitude'],
             ],
 

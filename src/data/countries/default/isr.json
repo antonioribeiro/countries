@@ -40,40 +40,21 @@
     "adm0_iso": "ISR",
     "adm0_tlc": "ISR",
     "admin": "Israel",
-    "alt_spellings": [
-        "IL",
-        "State of Israel",
-        "Med\u012bnat Yisr\u0101'el"
-    ],
-    "borders": [
-        "EGY",
-        "JOR",
-        "LBN",
-        "PSE",
-        "SYR"
-    ],
+    "alt_spellings": ["IL", "State of Israel", "Med\u012bnat Yisr\u0101'el"],
+    "borders": ["EGY", "JOR", "LBN", "PSE", "SYR"],
     "brk_a3": "ISR",
     "brk_diff": "1",
     "brk_group": "",
     "brk_name": "Israel",
-    "calling_codes": [
-        "+972"
-    ],
-    "capital": [
-        "Jerusalem"
-    ],
+    "calling_codes": ["+972"],
+    "capital": ["Jerusalem"],
     "capital_rinvex": "Jerusalem",
     "cca2": "IL",
     "cca3": "ISR",
     "ccn3": "376",
     "cioc": "ISR",
-    "currencies": [
-        "ILS"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["ILS"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Israeli",
     "demonyms": {
         "eng": {
@@ -86,18 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "972"
-        ],
+        "calling_code": ["972"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7,
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7, 8, 9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -167,12 +140,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 20770,
-        "borders": [
-            "EGY",
-            "JOR",
-            "LBN",
-            "SYR"
-        ],
+        "borders": ["EGY", "JOR", "LBN", "SYR"],
         "continent": {
             "AS": "Asia"
         },
@@ -180,10 +148,7 @@
         "landlocked": false,
         "latitude": "31 30 N",
         "latitude_desc": "31.814193725585938",
-        "latlng": [
-            31.47,
-            35.13
-        ],
+        "latlng": [31.47, 35.13],
         "longitude": "34 45 E",
         "longitude_desc": "34.75337219238281",
         "max_latitude": "33.286111",
@@ -205,9 +170,7 @@
     "homepart": "1",
     "idd": {
         "root": "+9",
-        "suffixes": [
-            "72"
-        ]
+        "suffixes": ["72"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -300,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".il"
-    ],
+    "tld": [".il"],
     "translations": {
         "ces": {
             "common": "Izrael",

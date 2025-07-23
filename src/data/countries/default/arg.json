@@ -40,40 +40,21 @@
     "adm0_iso": "ARG",
     "adm0_tlc": "ARG",
     "admin": "Argentina",
-    "alt_spellings": [
-        "AR",
-        "Argentine Republic",
-        "Rep\u00fablica Argentina"
-    ],
-    "borders": [
-        "BOL",
-        "BRA",
-        "CHL",
-        "PRY",
-        "URY"
-    ],
+    "alt_spellings": ["AR", "Argentine Republic", "Rep\u00fablica Argentina"],
+    "borders": ["BOL", "BRA", "CHL", "PRY", "URY"],
     "brk_a3": "ARG",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Argentina",
-    "calling_codes": [
-        "+54"
-    ],
-    "capital": [
-        "Buenos Aires"
-    ],
+    "calling_codes": ["+54"],
+    "capital": ["Buenos Aires"],
     "capital_rinvex": "Buenos Aires",
     "cca2": "AR",
     "cca3": "ARG",
     "ccn3": "032",
     "cioc": "ARG",
-    "currencies": [
-        "ARS"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["ARS"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Argentinean",
     "demonyms": {
         "eng": {
@@ -86,17 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "54"
-        ],
+        "calling_code": ["54"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9],
         "national_prefix": "0"
     },
     "economy": "5. Emerging region: G20",
@@ -166,13 +140,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 2780400,
-        "borders": [
-            "BOL",
-            "BRA",
-            "CHL",
-            "PRY",
-            "URY"
-        ],
+        "borders": ["BOL", "BRA", "CHL", "PRY", "URY"],
         "continent": {
             "SA": "South America"
         },
@@ -180,10 +148,7 @@
         "landlocked": false,
         "latitude": "34 00 S",
         "latitude_desc": "-37.071964263916016",
-        "latlng": [
-            -34,
-            -64
-        ],
+        "latlng": [-34, -64],
         "longitude": "64 00 W",
         "longitude_desc": "-64.85450744628906",
         "max_latitude": "-21.783333",
@@ -205,9 +170,7 @@
     "homepart": "1",
     "idd": {
         "root": "+5",
-        "suffixes": [
-            "4"
-        ]
+        "suffixes": ["4"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -300,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".ar"
-    ],
+    "tld": [".ar"],
     "translations": {
         "ces": {
             "common": "Argentina",

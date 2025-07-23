@@ -53,24 +53,15 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Cyprus",
-    "calling_codes": [
-        "+357"
-    ],
-    "capital": [
-        "Nicosia"
-    ],
+    "calling_codes": ["+357"],
+    "capital": ["Nicosia"],
     "capital_rinvex": "Nicosia",
     "cca2": "CY",
     "cca3": "CYP",
     "ccn3": "196",
     "cioc": "CYP",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Cypriot",
     "demonyms": {
         "eng": {
@@ -83,16 +74,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "357"
-        ],
+        "calling_code": ["357"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8],
         "national_prefix": null
     },
     "economy": "6. Developing region",
@@ -117,10 +102,7 @@
         "marc": "cy",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5,
-                9
-            ],
+            "reduced": [5, 9],
             "standard": 19,
             "super_reduced": null
         },
@@ -170,9 +152,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 9251,
-        "borders": [
-            "GBR"
-        ],
+        "borders": ["GBR"],
         "continent": {
             "EU": "Europe"
         },
@@ -180,10 +160,7 @@
         "landlocked": false,
         "latitude": "35 00 N",
         "latitude_desc": "35.11473846435547",
-        "latlng": [
-            35,
-            33
-        ],
+        "latlng": [35, 33],
         "longitude": "33 00 E",
         "longitude_desc": "33.486717224121094",
         "max_latitude": "35.7",
@@ -205,9 +182,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "57"
-        ]
+        "suffixes": ["57"]
     },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
@@ -301,9 +276,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".cy"
-    ],
+    "tld": [".cy"],
     "translations": {
         "ces": {
             "common": "Kypr",

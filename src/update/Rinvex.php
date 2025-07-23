@@ -51,14 +51,14 @@ class Rinvex extends Base
         $mergeable = [
             'calling_code' => 'dialling',
             //            'borders'      => 'geo',
-            'area'       => 'geo',
-            'continent'  => 'geo',
+            'area' => 'geo',
+            'continent' => 'geo',
             'landlocked' => 'geo',
-            'region'     => 'geo',
-            'region_un'  => 'geo',
-            'region_wb'  => 'geo',
-            'subregion'  => 'geo',
-            'latlng'     => 'geo',
+            'region' => 'geo',
+            'region_un' => 'geo',
+            'region_wb' => 'geo',
+            'subregion' => 'geo',
+            'latlng' => 'geo',
         ];
 
         countriesCollect($mergeable)->each(function ($to, $key) use (&$natural) {
@@ -129,15 +129,18 @@ class Rinvex extends Base
             return $states;
         }
 
-        $state = $states->filter(function ($rinvexState) use ($needle) {
-            return $rinvexState->postal == $needle->postal ||
-                $rinvexState->name == $needle['name'] ||
-                utf8_encode($rinvexState->name) == $needle['name'] ||
-                ($rinvexState->alt_names && $rinvexState->alt_names->contains($needle['name'])) ||
-                ($rinvexState->alt_names && $rinvexState->alt_names->contains(function ($name) use ($needle) {
-                    return $needle->alt_names && $needle->alt_names->contains($name);
-                }));
-        })->first();
+        $state = $states
+            ->filter(function ($rinvexState) use ($needle) {
+                return $rinvexState->postal == $needle->postal ||
+                    $rinvexState->name == $needle['name'] ||
+                    utf8_encode($rinvexState->name) == $needle['name'] ||
+                    ($rinvexState->alt_names && $rinvexState->alt_names->contains($needle['name'])) ||
+                    ($rinvexState->alt_names &&
+                        $rinvexState->alt_names->contains(function ($name) use ($needle) {
+                            return $needle->alt_names && $needle->alt_names->contains($name);
+                        }));
+            })
+            ->first();
 
         if (is_null($state)) {
             return countriesCollect();
@@ -170,17 +173,9 @@ class Rinvex extends Base
      */
     public function mergeWithRinvex($natural, $rinvex, $translation, $suffix = '_rinvex')
     {
-        $defaultToRinvex = countriesCollect([
-            'currency',
-            'languages',
-            'dialling',
-        ]);
+        $defaultToRinvex = countriesCollect(['currency', 'languages', 'dialling']);
 
-        $merge = countriesCollect([
-            'geo',
-            'translations',
-            'flag',
-        ]);
+        $merge = countriesCollect(['geo', 'translations', 'flag']);
 
         $natural = $this->fillRinvexFields($natural);
 
@@ -212,12 +207,10 @@ class Rinvex extends Base
             }
 
             if ($rinvexValue !== $naturalValue && !$defaultToRinvex->contains($key)) {
-                $result[$key.$suffix] = $rinvexValue; // Natural Earth Vector
+                $result[$key . $suffix] = $rinvexValue; // Natural Earth Vector
             }
 
-            $result[$key] = $defaultToRinvex->contains($key)
-                ? $rinvexValue
-                : $naturalValue; // Natural Earth Vector
+            $result[$key] = $defaultToRinvex->contains($key) ? $rinvexValue : $naturalValue; // Natural Earth Vector
         }
 
         return countriesCollect($result)->sortBy(function ($value, $key) {
@@ -248,7 +241,10 @@ class Rinvex extends Base
      */
     public function mergeStateWithRinvex($state)
     {
-        $country = $this->updater->getCountries()->where('cca3', $iso_a3 = $state['iso_a3'])->first();
+        $country = $this->updater
+            ->getCountries()
+            ->where('cca3', $iso_a3 = $state['iso_a3'])
+            ->first();
 
         if (is_null($country)) {
             dump($state);

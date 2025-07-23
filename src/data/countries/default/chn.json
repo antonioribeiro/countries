@@ -71,24 +71,15 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "China",
-    "calling_codes": [
-        "+86"
-    ],
-    "capital": [
-        "Beijing"
-    ],
+    "calling_codes": ["+86"],
+    "capital": ["Beijing"],
     "capital_rinvex": "Beijing",
     "cca2": "CN",
     "cca3": "CHN",
     "ccn3": "156",
     "cioc": "CHN",
-    "currencies": [
-        "CNY"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["CNY"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Chinese",
     "demonyms": {
         "eng": {
@@ -101,20 +92,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "86"
-        ],
+        "calling_code": ["86"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7,
-            8,
-            9,
-            10,
-            11
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7, 8, 9, 10, 11],
         "national_prefix": "0"
     },
     "economy": "3. Emerging region: BRIC",
@@ -208,10 +189,7 @@
         "landlocked": false,
         "latitude": "35 00 N",
         "latitude_desc": "36.55308532714844",
-        "latlng": [
-            35,
-            105
-        ],
+        "latlng": [35, 105],
         "longitude": "105 00 E",
         "longitude_desc": "103.97543334960938",
         "max_latitude": "20.7",
@@ -233,9 +211,7 @@
     "homepart": "1",
     "idd": {
         "root": "+8",
-        "suffixes": [
-            "6"
-        ]
+        "suffixes": ["6"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,

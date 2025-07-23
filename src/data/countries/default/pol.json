@@ -40,42 +40,21 @@
     "adm0_iso": "POL",
     "adm0_tlc": "POL",
     "admin": "Poland",
-    "alt_spellings": [
-        "PL",
-        "Republic of Poland",
-        "Rzeczpospolita Polska"
-    ],
-    "borders": [
-        "BLR",
-        "CZE",
-        "DEU",
-        "LTU",
-        "RUS",
-        "SVK",
-        "UKR"
-    ],
+    "alt_spellings": ["PL", "Republic of Poland", "Rzeczpospolita Polska"],
+    "borders": ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"],
     "brk_a3": "POL",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Poland",
-    "calling_codes": [
-        "+48"
-    ],
-    "capital": [
-        "Warsaw"
-    ],
+    "calling_codes": ["+48"],
+    "capital": ["Warsaw"],
     "capital_rinvex": "Warsaw",
     "cca2": "PL",
     "cca3": "POL",
     "ccn3": "616",
     "cioc": "POL",
-    "currencies": [
-        "PLN"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["PLN"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Polish",
     "demonyms": {
         "eng": {
@@ -88,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "48"
-        ],
+        "calling_code": ["48"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -122,10 +95,7 @@
         "marc": "pl",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5,
-                8
-            ],
+            "reduced": [5, 8],
             "standard": 23,
             "super_reduced": null
         },
@@ -175,15 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 312679,
-        "borders": [
-            "BLR",
-            "CZE",
-            "DEU",
-            "LTU",
-            "RUS",
-            "SVK",
-            "UKR"
-        ],
+        "borders": ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"],
         "continent": {
             "EU": "Europe"
         },
@@ -191,10 +153,7 @@
         "landlocked": false,
         "latitude": "52 00 N",
         "latitude_desc": "52.147850036621094",
-        "latlng": [
-            52,
-            20
-        ],
+        "latlng": [52, 20],
         "longitude": "20 00 E",
         "longitude_desc": "19.37775993347168",
         "max_latitude": "54.833333",
@@ -216,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+4",
-        "suffixes": [
-            "8"
-        ]
+        "suffixes": ["8"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -307,9 +264,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".pl"
-    ],
+    "tld": [".pl"],
     "translations": {
         "ces": {
             "common": "Polsko",

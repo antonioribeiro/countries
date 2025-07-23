@@ -1,34 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "\u10da5",
-            "\u10da10",
-            "\u10da20",
-            "\u10da50"
-        ],
-        "rare": [
-            "\u10da1",
-            "\u10da2",
-            "\u10da100",
-            "\u10da200"
-        ]
+        "frequent": ["\u10da5", "\u10da10", "\u10da20", "\u10da50"],
+        "rare": ["\u10da1", "\u10da2", "\u10da100", "\u10da200"]
     },
     "coins": {
-        "frequent": [
-            "1",
-            "2",
-            "5",
-            "10",
-            "20",
-            "50",
-            "\u10da1",
-            "\u10da2"
-        ],
+        "frequent": ["1", "2", "5", "10", "20", "50", "\u10da1", "\u10da2"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "GEL",
         "number": "981"

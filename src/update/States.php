@@ -70,9 +70,15 @@ class States
             return $this->rinvex->mergeCountryStatesWithRinvex($states);
         };
 
-        [, $states] = $this->updater->generateJsonFiles($result, $dataDir, $normalizerClosure, $getCodeClosure, $mergerClosure);
+        [, $states] = $this->updater->generateJsonFiles(
+            $result,
+            $dataDir,
+            $normalizerClosure,
+            $getCodeClosure,
+            $mergerClosure,
+        );
 
-        $this->helper->progress('Generated '.count($states).' states.');
+        $this->helper->progress('Generated ' . count($states) . ' states.');
     }
 
     /**

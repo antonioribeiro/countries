@@ -8,28 +8,13 @@
             "\u20b1500",
             "\u20b11000"
         ],
-        "rare": [
-            "\u20b15",
-            "\u20b110"
-        ]
+        "rare": ["\u20b15", "\u20b110"]
     },
     "coins": {
-        "frequent": [
-            "25",
-            "\u20b11",
-            "\u20b15",
-            "\u20b110"
-        ],
-        "rare": [
-            "1",
-            "2",
-            "5",
-            "10"
-        ]
+        "frequent": ["25", "\u20b11", "\u20b15", "\u20b110"],
+        "rare": ["1", "2", "5", "10"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "PHP",
         "number": "608"

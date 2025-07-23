@@ -1,31 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$2",
-            "$5",
-            "$10",
-            "$20",
-            "$50",
-            "$100"
-        ],
+        "frequent": ["$2", "$5", "$10", "$20", "$50", "$100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "1\u00a2",
-            "5\u00a2",
-            "10\u00a2",
-            "25\u00a2",
-            "$1"
-        ],
-        "rare": [
-            "50\u00a2",
-            "$5"
-        ]
+        "frequent": ["1\u00a2", "5\u00a2", "10\u00a2", "25\u00a2", "$1"],
+        "rare": ["50\u00a2", "$5"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "BMD",
         "number": "060"

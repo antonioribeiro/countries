@@ -40,41 +40,21 @@
     "adm0_iso": "ROU",
     "adm0_tlc": "ROU",
     "admin": "Romania",
-    "alt_spellings": [
-        "RO",
-        "Rumania",
-        "Roumania",
-        "Rom\u00e2nia"
-    ],
-    "borders": [
-        "BGR",
-        "HUN",
-        "MDA",
-        "SRB",
-        "UKR"
-    ],
+    "alt_spellings": ["RO", "Rumania", "Roumania", "Rom\u00e2nia"],
+    "borders": ["BGR", "HUN", "MDA", "SRB", "UKR"],
     "brk_a3": "ROU",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Romania",
-    "calling_codes": [
-        "+40"
-    ],
-    "capital": [
-        "Bucharest"
-    ],
+    "calling_codes": ["+40"],
+    "capital": ["Bucharest"],
     "capital_rinvex": "Bucharest",
     "cca2": "RO",
     "cca3": "ROU",
     "ccn3": "642",
     "cioc": "ROU",
-    "currencies": [
-        "RON"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["RON"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Romanian",
     "demonyms": {
         "eng": {
@@ -87,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "40"
-        ],
+        "calling_code": ["40"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -121,10 +95,7 @@
         "marc": "rm",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5,
-                9
-            ],
+            "reduced": [5, 9],
             "standard": 20,
             "super_reduced": null
         },
@@ -174,13 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 238391,
-        "borders": [
-            "BGR",
-            "HUN",
-            "MDA",
-            "SRB",
-            "UKR"
-        ],
+        "borders": ["BGR", "HUN", "MDA", "SRB", "UKR"],
         "continent": {
             "EU": "Europe"
         },
@@ -188,10 +153,7 @@
         "landlocked": false,
         "latitude": "46 00 N",
         "latitude_desc": "45.83774185180664",
-        "latlng": [
-            46,
-            25
-        ],
+        "latlng": [46, 25],
         "longitude": "25 00 E",
         "longitude_desc": "25.005935668945312",
         "max_latitude": "48.25",
@@ -213,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+4",
-        "suffixes": [
-            "0"
-        ]
+        "suffixes": ["0"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -304,9 +264,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".ro"
-    ],
+    "tld": [".ro"],
     "translations": {
         "ces": {
             "common": "Rumunsko",

@@ -1,36 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$2",
-            "$5",
-            "$10",
-            "$50"
-        ],
-        "rare": [
-            "$1",
-            "$20",
-            "$25",
-            "$100",
-            "$500",
-            "$1000",
-            "$10000"
-        ]
+        "frequent": ["$2", "$5", "$10", "$50"],
+        "rare": ["$1", "$20", "$25", "$100", "$500", "$1000", "$10000"]
     },
     "coins": {
-        "frequent": [
-            "S\u00a25",
-            "S\u00a210",
-            "S\u00a220",
-            "S\u00a250",
-            "$1"
-        ],
-        "rare": [
-            "S\u00a21"
-        ]
+        "frequent": ["S\u00a25", "S\u00a210", "S\u00a220", "S\u00a250", "$1"],
+        "rare": ["S\u00a21"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "SGD",
         "number": "702"

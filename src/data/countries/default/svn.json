@@ -40,39 +40,21 @@
     "adm0_iso": "SVN",
     "adm0_tlc": "SVN",
     "admin": "Slovenia",
-    "alt_spellings": [
-        "SI",
-        "Republic of Slovenia",
-        "Republika Slovenija"
-    ],
-    "borders": [
-        "AUT",
-        "HRV",
-        "ITA",
-        "HUN"
-    ],
+    "alt_spellings": ["SI", "Republic of Slovenia", "Republika Slovenija"],
+    "borders": ["AUT", "HRV", "ITA", "HUN"],
     "brk_a3": "SVN",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Slovenia",
-    "calling_codes": [
-        "+386"
-    ],
-    "capital": [
-        "Ljubljana"
-    ],
+    "calling_codes": ["+386"],
+    "capital": ["Ljubljana"],
     "capital_rinvex": "Ljubljana",
     "cca2": "SI",
     "cca3": "SVN",
     "ccn3": "705",
     "cioc": "SLO",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Slovene",
     "demonyms": {
         "eng": {
@@ -85,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "386"
-        ],
+        "calling_code": ["386"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -119,9 +95,7 @@
         "marc": "xv",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                9.5
-            ],
+            "reduced": [9.5],
             "standard": 22,
             "super_reduced": null
         },
@@ -171,12 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 20273,
-        "borders": [
-            "AUT",
-            "HRV",
-            "ITA",
-            "HUN"
-        ],
+        "borders": ["AUT", "HRV", "ITA", "HUN"],
         "continent": {
             "EU": "Europe"
         },
@@ -184,10 +153,7 @@
         "landlocked": false,
         "latitude": "46 07 N",
         "latitude_desc": "46.1202392578125",
-        "latlng": [
-            46.11666666,
-            14.81666666
-        ],
+        "latlng": [46.11666666, 14.81666666],
         "longitude": "14 49 E",
         "longitude_desc": "14.820664405822754",
         "max_latitude": "46.866667",
@@ -209,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "86"
-        ]
+        "suffixes": ["86"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -300,9 +264,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".si"
-    ],
+    "tld": [".si"],
     "translations": {
         "ces": {
             "common": "Slovinsko",

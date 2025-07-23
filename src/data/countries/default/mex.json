@@ -46,33 +46,20 @@
         "United Mexican States",
         "Estados Unidos Mexicanos"
     ],
-    "borders": [
-        "BLZ",
-        "GTM",
-        "USA"
-    ],
+    "borders": ["BLZ", "GTM", "USA"],
     "brk_a3": "MEX",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Mexico",
-    "calling_codes": [
-        "+52"
-    ],
-    "capital": [
-        "Mexico City"
-    ],
+    "calling_codes": ["+52"],
+    "capital": ["Mexico City"],
     "capital_rinvex": "Mexico City",
     "cca2": "MX",
     "cca3": "MEX",
     "ccn3": "484",
     "cioc": "MEX",
-    "currencies": [
-        "MXN"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["MXN"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Mexican",
     "demonyms": {
         "eng": {
@@ -85,18 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "52"
-        ],
+        "calling_code": ["52"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9,
-            10
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9, 10],
         "national_prefix": "01"
     },
     "economy": "4. Emerging region: MIKT",
@@ -166,11 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 1964375,
-        "borders": [
-            "BLZ",
-            "GTM",
-            "USA"
-        ],
+        "borders": ["BLZ", "GTM", "USA"],
         "continent": {
             "NA": "North America"
         },
@@ -178,10 +153,7 @@
         "landlocked": false,
         "latitude": "23 00 N",
         "latitude_desc": "23.909093856811523",
-        "latlng": [
-            23,
-            -102
-        ],
+        "latlng": [23, -102],
         "longitude": "102 00 W",
         "longitude_desc": "-102.6333999633789",
         "max_latitude": "32.983333",
@@ -203,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+5",
-        "suffixes": [
-            "2"
-        ]
+        "suffixes": ["2"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -294,9 +264,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".mx"
-    ],
+    "tld": [".mx"],
     "translations": {
         "ces": {
             "common": "Mexiko",

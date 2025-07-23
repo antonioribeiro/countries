@@ -1,11 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "500R\u20a3",
-            "1000R\u20a3",
-            "2000R\u20a3",
-            "5000R\u20a3"
-        ],
+        "frequent": ["500R\u20a3", "1000R\u20a3", "2000R\u20a3", "5000R\u20a3"],
         "rare": []
     },
     "coins": {
@@ -20,9 +15,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "RWF",
         "number": "646"

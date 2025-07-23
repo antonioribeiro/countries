@@ -1,36 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "Rs5",
-            "RS10",
-            "Rs25",
-            "Rs50",
-            "Rs100",
-            "Rs500",
-            "Rs1000"
-        ],
-        "rare": [
-            "Rs1",
-            "Rs2"
-        ]
+        "frequent": ["Rs5", "RS10", "Rs25", "Rs50", "Rs100", "Rs500", "Rs1000"],
+        "rare": ["Rs1", "Rs2"]
     },
     "coins": {
-        "frequent": [
-            "1",
-            "5",
-            "10",
-            "25",
-            "50",
-            "Rs1",
-            "Rs2",
-            "Rs5",
-            "Rs10"
-        ],
+        "frequent": ["1", "5", "10", "25", "50", "Rs1", "Rs2", "Rs5", "Rs10"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "NPR",
         "number": "524"

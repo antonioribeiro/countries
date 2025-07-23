@@ -43,15 +43,15 @@ class Mledoze extends Base
      */
     public function loadMledozeCountries()
     {
-        $mledoze = countriesCollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(function (
-            $country
-        ) {
-            $country = $this->updater->addDataSource($country, 'mledoze');
+        $mledoze = countriesCollect($this->helper->loadJson('countries', 'third-party/mledoze/dist'))->mapWithKeys(
+            function ($country) {
+                $country = $this->updater->addDataSource($country, 'mledoze');
 
-            $country = $this->updater->addRecordType($country, 'country');
+                $country = $this->updater->addRecordType($country, 'country');
 
-            return [$country['cca3'] => $country];
-        });
+                return [$country['cca3'] => $country];
+            },
+        );
 
         return $mledoze;
     }
@@ -68,7 +68,7 @@ class Mledoze extends Base
         $fields['name_nev'] = $fields['name'];
 
         $fields['name'] = [
-            'common'   => $fields['name'],
+            'common' => $fields['name'],
             'official' => $fields['formal_en'],
         ];
 
@@ -151,7 +151,7 @@ class Mledoze extends Base
             }
 
             if ($mledozeValue !== $naturalValue) {
-                $result[$key.$suffix] = $naturalValue; // Natural Earth Vector
+                $result[$key . $suffix] = $naturalValue; // Natural Earth Vector
             }
 
             $result[$key] = $mledozeValue; // Natural Earth Vector

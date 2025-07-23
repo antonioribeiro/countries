@@ -46,34 +46,20 @@
         "Na\u00edj\u00edr\u00ed\u00e0",
         "Federal Republic of Nigeria"
     ],
-    "borders": [
-        "BEN",
-        "CMR",
-        "TCD",
-        "NER"
-    ],
+    "borders": ["BEN", "CMR", "TCD", "NER"],
     "brk_a3": "NGA",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Nigeria",
-    "calling_codes": [
-        "+234"
-    ],
-    "capital": [
-        "Abuja"
-    ],
+    "calling_codes": ["+234"],
+    "capital": ["Abuja"],
     "capital_rinvex": "Abuja",
     "cca2": "NG",
     "cca3": "NGA",
     "ccn3": "566",
     "cioc": "NGR",
-    "currencies": [
-        "NGN"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["NGN"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Nigerian",
     "demonyms": {
         "eng": {
@@ -86,17 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "234"
-        ],
+        "calling_code": ["234"],
         "international_prefix": 0,
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7,
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7, 8],
         "national_prefix": "0"
     },
     "economy": "5. Emerging region: G20",
@@ -166,12 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 923768,
-        "borders": [
-            "BEN",
-            "CMR",
-            "TCD",
-            "NER"
-        ],
+        "borders": ["BEN", "CMR", "TCD", "NER"],
         "continent": {
             "AF": "Africa"
         },
@@ -179,10 +153,7 @@
         "landlocked": false,
         "latitude": "10 00 N",
         "latitude_desc": "9.559505462646484",
-        "latlng": [
-            10,
-            8
-        ],
+        "latlng": [10, 8],
         "longitude": "8 00 E",
         "longitude_desc": "8.077880859375",
         "max_latitude": "13.866667",
@@ -204,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "34"
-        ]
+        "suffixes": ["34"]
     },
     "income_grp": "4. Lower middle income",
     "independent": true,
@@ -294,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".ng"
-    ],
+    "tld": [".ng"],
     "translations": {
         "ces": {
             "common": "Nig\u00e9rie",

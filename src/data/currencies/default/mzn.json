@@ -1,30 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "MT20",
-            "MT50",
-            "MT100",
-            "MT200",
-            "MT500",
-            "MT1000"
-        ],
+        "frequent": ["MT20", "MT50", "MT100", "MT200", "MT500", "MT1000"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "MT1",
-            "MT2",
-            "MT5",
-            "MT10",
-            "5",
-            "10",
-            "50"
-        ],
+        "frequent": ["MT1", "MT2", "MT5", "MT10", "5", "10", "50"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "MZN",
         "number": "943"

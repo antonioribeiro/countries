@@ -46,38 +46,20 @@
         "Republic of Turkey",
         "T\u00fcrkiye Cumhuriyeti"
     ],
-    "borders": [
-        "ARM",
-        "AZE",
-        "BGR",
-        "GEO",
-        "GRC",
-        "IRN",
-        "IRQ",
-        "SYR"
-    ],
+    "borders": ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"],
     "brk_a3": "TUR",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Turkey",
-    "calling_codes": [
-        "+90"
-    ],
-    "capital": [
-        "Ankara"
-    ],
+    "calling_codes": ["+90"],
+    "capital": ["Ankara"],
     "capital_rinvex": "Ankara",
     "cca2": "TR",
     "cca3": "TUR",
     "ccn3": "792",
     "cioc": "TUR",
-    "currencies": [
-        "TRY"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["TRY"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Turkish",
     "demonyms": {
         "eng": {
@@ -90,16 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "90"
-        ],
+        "calling_code": ["90"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            10
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [10],
         "national_prefix": "0"
     },
     "economy": "4. Emerging region: MIKT",
@@ -169,16 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 783562,
-        "borders": [
-            "ARM",
-            "AZE",
-            "BGR",
-            "GEO",
-            "GRC",
-            "IRN",
-            "IRQ",
-            "SYR"
-        ],
+        "borders": ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"],
         "continent": {
             "AS": "Asia"
         },
@@ -186,10 +153,7 @@
         "landlocked": false,
         "latitude": "39 00 N",
         "latitude_desc": "39.05101013183594",
-        "latlng": [
-            39,
-            35
-        ],
+        "latlng": [39, 35],
         "longitude": "35 00 E",
         "longitude_desc": "34.93033981323242",
         "max_latitude": "42.1",
@@ -211,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+9",
-        "suffixes": [
-            "0"
-        ]
+        "suffixes": ["0"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -301,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".tr"
-    ],
+    "tld": [".tr"],
     "translations": {
         "ces": {
             "common": "Turecko",

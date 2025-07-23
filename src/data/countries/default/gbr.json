@@ -40,36 +40,21 @@
     "adm0_iso": "GBR",
     "adm0_tlc": "GBR",
     "admin": "United Kingdom",
-    "alt_spellings": [
-        "GB",
-        "UK",
-        "Great Britain"
-    ],
-    "borders": [
-        "IRL"
-    ],
+    "alt_spellings": ["GB", "UK", "Great Britain"],
+    "borders": ["IRL"],
     "brk_a3": "GBR",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "United Kingdom",
-    "calling_codes": [
-        "+44"
-    ],
-    "capital": [
-        "London"
-    ],
+    "calling_codes": ["+44"],
+    "capital": ["London"],
     "capital_rinvex": "London",
     "cca2": "GB",
     "cca3": "GBR",
     "ccn3": "826",
     "cioc": "GBR",
-    "currencies": [
-        "GBP"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["GBP"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "British",
     "demonyms": {
         "eng": {
@@ -82,17 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "44"
-        ],
+        "calling_code": ["44"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            10,
-            11
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [10, 11],
         "national_prefix": "0"
     },
     "economy": "1. Developed region: G7",
@@ -117,9 +95,7 @@
         "marc": "xxk",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5
-            ],
+            "reduced": [5],
             "standard": 20,
             "super_reduced": null
         },
@@ -169,9 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 242900,
-        "borders": [
-            "IRL"
-        ],
+        "borders": ["IRL"],
         "continent": {
             "EU": "Europe"
         },
@@ -179,10 +153,7 @@
         "landlocked": false,
         "latitude": "54 00 N",
         "latitude_desc": "54.56088638305664",
-        "latlng": [
-            54,
-            -2
-        ],
+        "latlng": [54, -2],
         "longitude": "2 00 W",
         "longitude_desc": "-2.2125117778778076",
         "max_latitude": "61.5",
@@ -204,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+4",
-        "suffixes": [
-            "4"
-        ]
+        "suffixes": ["4"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -294,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".uk"
-    ],
+    "tld": [".uk"],
     "translations": {
         "ces": {
             "common": "Spojen\u00e9 kr\u00e1lovstv\u00ed",

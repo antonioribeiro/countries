@@ -12,19 +12,10 @@
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "Rp100",
-            "Rp200",
-            "Rp500"
-        ],
-        "rare": [
-            "Rp50",
-            "Rp1000"
-        ]
+        "frequent": ["Rp100", "Rp200", "Rp500"],
+        "rare": ["Rp50", "Rp1000"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "IDR",
         "number": "360"

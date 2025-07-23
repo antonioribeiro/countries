@@ -20,12 +20,12 @@ class CollectionTest extends TestCase
     {
         $data = [
             'name' => [
-                'common'   => 'Brazil',
+                'common' => 'Brazil',
                 'official' => 'Federative Republic of Brazil',
             ],
             'currencies' => [
                 'BRL' => [
-                    'name'   => 'Brazilian real',
+                    'name' => 'Brazilian real',
                     'symbol' => 'R$',
                 ],
             ],
@@ -44,7 +44,7 @@ class CollectionTest extends TestCase
     {
         $data = [
             'EUR' => [
-                'name'   => 'Euro',
+                'name' => 'Euro',
                 'symbol' => '€',
             ],
         ];
@@ -62,11 +62,11 @@ class CollectionTest extends TestCase
     {
         $data = [
             'Europe/Paris' => [
-                'zone_name'     => 'Europe/Paris',
+                'zone_name' => 'Europe/Paris',
                 'abbreviations' => ['CET', 'CEST'],
             ],
             'Asia/Tokyo' => [
-                'zone_name'     => 'Asia/Tokyo',
+                'zone_name' => 'Asia/Tokyo',
                 'abbreviations' => ['JST'],
             ],
         ];

@@ -1,25 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$1",
-            "$5",
-            "$10"
-        ],
+        "frequent": ["$1", "$5", "$10"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "1",
-            "5",
-            "10",
-            "20",
-            "50"
-        ],
+        "frequent": ["1", "5", "10", "20", "50"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "BND",
         "number": "096"

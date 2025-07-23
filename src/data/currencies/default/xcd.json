@@ -1,29 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "EC$5",
-            "EC$10",
-            "EC$20",
-            "EC$50",
-            "EC$100"
-        ],
+        "frequent": ["EC$5", "EC$10", "EC$20", "EC$50", "EC$100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "1",
-            "2",
-            "5",
-            "10",
-            "25",
-            "EC$1",
-            "EC$2"
-        ],
+        "frequent": ["1", "2", "5", "10", "25", "EC$1", "EC$2"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "XCD",
         "number": "951"

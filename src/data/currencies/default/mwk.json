@@ -1,14 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "MK5",
-            "MK10",
-            "MK20",
-            "MK50",
-            "MK100",
-            "MK200",
-            "MK500"
-        ],
+        "frequent": ["MK5", "MK10", "MK20", "MK50", "MK100", "MK200", "MK500"],
         "rare": []
     },
     "coins": {
@@ -29,9 +21,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "MWK",
         "number": "454"

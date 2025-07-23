@@ -1,12 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "S5",
-            "S10",
-            "S20",
-            "S50",
-            "S100"
-        ],
+        "frequent": ["S5", "S10", "S20", "S50", "S100"],
         "rare": []
     },
     "coins": {
@@ -24,9 +18,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "SOS",
         "number": "706"

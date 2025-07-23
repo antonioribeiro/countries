@@ -1,11 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "\u20a91000",
-            "\u20a95000",
-            "\u20a910000",
-            "\u20a950000"
-        ],
+        "frequent": ["\u20a91000", "\u20a95000", "\u20a910000", "\u20a950000"],
         "rare": []
     },
     "coins": {
@@ -19,9 +14,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "KRW",
         "number": "410"

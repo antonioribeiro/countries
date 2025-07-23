@@ -1,17 +1,10 @@
 {
     "europe_rome": {
-        "abbreviations": [
-            "CEST",
-            "CET",
-            "LMT",
-            "RMT"
-        ],
+        "abbreviations": ["CEST", "CET", "LMT", "RMT"],
         "cca2": "IT",
         "cca3": "ITA",
         "country_code": "IT",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "198",
         "zone_name": "Europe\/Rome"

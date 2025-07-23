@@ -40,40 +40,21 @@
     "adm0_iso": "COG",
     "adm0_tlc": "COG",
     "admin": "Republic of the Congo",
-    "alt_spellings": [
-        "CG",
-        "Congo",
-        "Congo-Brazzaville"
-    ],
-    "borders": [
-        "AGO",
-        "CMR",
-        "CAF",
-        "COD",
-        "GAB"
-    ],
+    "alt_spellings": ["CG", "Congo", "Congo-Brazzaville"],
+    "borders": ["AGO", "CMR", "CAF", "COD", "GAB"],
     "brk_a3": "COG",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Republic of the Congo",
-    "calling_codes": [
-        "+242"
-    ],
-    "capital": [
-        "Brazzaville"
-    ],
+    "calling_codes": ["+242"],
+    "capital": ["Brazzaville"],
     "capital_rinvex": "Brazzaville",
     "cca2": "CG",
     "cca3": "COG",
     "ccn3": "178",
     "cioc": "CGO",
-    "currencies": [
-        "XAF"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["XAF"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Congolese",
     "demonyms": {
         "eng": {
@@ -86,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "242"
-        ],
+        "calling_code": ["242"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7],
         "national_prefix": null
     },
     "economy": "6. Developing region",
@@ -165,13 +140,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 342000,
-        "borders": [
-            "AGO",
-            "CMR",
-            "CAF",
-            "COD",
-            "GAB"
-        ],
+        "borders": ["AGO", "CMR", "CAF", "COD", "GAB"],
         "continent": {
             "AF": "Africa"
         },
@@ -179,10 +148,7 @@
         "landlocked": false,
         "latitude": "1 00 S",
         "latitude_desc": "-2.879866123199463",
-        "latlng": [
-            -1,
-            15
-        ],
+        "latlng": [-1, 15],
         "longitude": "15 00 E",
         "longitude_desc": "23.6563777923584",
         "max_latitude": "3.866667",
@@ -204,9 +170,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "42"
-        ]
+        "suffixes": ["42"]
     },
     "income_grp": "4. Lower middle income",
     "independent": true,
@@ -304,9 +268,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".cg"
-    ],
+    "tld": [".cg"],
     "translations": {
         "ces": {
             "common": "Kongo",

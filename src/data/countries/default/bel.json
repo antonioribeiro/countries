@@ -51,34 +51,20 @@
         "Royaume de Belgique",
         "K\u00f6nigreich Belgien"
     ],
-    "borders": [
-        "FRA",
-        "DEU",
-        "LUX",
-        "NLD"
-    ],
+    "borders": ["FRA", "DEU", "LUX", "NLD"],
     "brk_a3": "BEL",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Belgium",
-    "calling_codes": [
-        "+32"
-    ],
-    "capital": [
-        "Brussels"
-    ],
+    "calling_codes": ["+32"],
+    "capital": ["Brussels"],
     "capital_rinvex": "Brussels",
     "cca2": "BE",
     "cca3": "BEL",
     "ccn3": "056",
     "cioc": "BEL",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Belgian",
     "demonyms": {
         "eng": {
@@ -91,17 +77,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "32"
-        ],
+        "calling_code": ["32"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -126,10 +105,7 @@
         "marc": "be",
         "vat_rates": {
             "parking": 12,
-            "reduced": [
-                6,
-                12
-            ],
+            "reduced": [6, 12],
             "standard": 21,
             "super_reduced": null
         },
@@ -179,12 +155,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 30528,
-        "borders": [
-            "FRA",
-            "DEU",
-            "LUX",
-            "NLD"
-        ],
+        "borders": ["FRA", "DEU", "LUX", "NLD"],
         "continent": {
             "EU": "Europe"
         },
@@ -192,10 +163,7 @@
         "landlocked": false,
         "latitude": "50 50 N",
         "latitude_desc": "50.648963928222656",
-        "latlng": [
-            50.83333333,
-            4
-        ],
+        "latlng": [50.83333333, 4],
         "longitude": "4 00 E",
         "longitude_desc": "4.641502380371094",
         "max_latitude": "51.683333",
@@ -217,9 +185,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "2"
-        ]
+        "suffixes": ["2"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -317,9 +283,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".be"
-    ],
+    "tld": [".be"],
     "translations": {
         "ces": {
             "common": "Belgie",

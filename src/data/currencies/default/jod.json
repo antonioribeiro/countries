@@ -1,12 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "1 dinar",
-            "5 dinar",
-            "10 dinar",
-            "20 dinar",
-            "50 dinar"
-        ],
+        "frequent": ["1 dinar", "5 dinar", "10 dinar", "20 dinar", "50 dinar"],
         "rare": []
     },
     "coins": {
@@ -22,9 +16,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "JOD",
         "number": "400"

@@ -10,25 +10,13 @@
             "Rs2000",
             "Rs5000"
         ],
-        "rare": [
-            "Rs200"
-        ]
+        "rare": ["Rs200"]
     },
     "coins": {
-        "frequent": [
-            "Rs1",
-            "Rs2",
-            "Rs5",
-            "Rs10"
-        ],
-        "rare": [
-            "25",
-            "50"
-        ]
+        "frequent": ["Rs1", "Rs2", "Rs5", "Rs10"],
+        "rare": ["25", "50"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "LKR",
         "number": "144"

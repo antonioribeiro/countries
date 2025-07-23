@@ -1,30 +1,20 @@
 {
     "pacific_midway": {
-        "abbreviations": [
-            "LMT",
-            "SST"
-        ],
+        "abbreviations": ["LMT", "SST"],
         "cca2": "UM",
         "cca3": "UMI",
         "country_code": "UM",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "377",
         "zone_name": "Pacific\/Midway"
     },
     "pacific_wake": {
-        "abbreviations": [
-            "LMT",
-            "WAKT"
-        ],
+        "abbreviations": ["LMT", "WAKT"],
         "cca2": "UM",
         "cca3": "UMI",
         "country_code": "UM",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "378",
         "zone_name": "Pacific\/Wake"

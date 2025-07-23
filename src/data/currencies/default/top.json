@@ -1,31 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "T$1",
-            "T$2",
-            "T$5",
-            "T$10",
-            "T$20",
-            "T$50",
-            "T$100"
-        ],
+        "frequent": ["T$1", "T$2", "T$5", "T$10", "T$20", "T$50", "T$100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "5\u00a2",
-            "10\u00a2",
-            "20\u00a2",
-            "50\u00a2"
-        ],
-        "rare": [
-            "1\u00a2",
-            "2\u00a2"
-        ]
+        "frequent": ["5\u00a2", "10\u00a2", "20\u00a2", "50\u00a2"],
+        "rare": ["1\u00a2", "2\u00a2"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "TOP",
         "number": "776"

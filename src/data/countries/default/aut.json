@@ -40,43 +40,21 @@
     "adm0_iso": "AUT",
     "adm0_tlc": "AUT",
     "admin": "Austria",
-    "alt_spellings": [
-        "AT",
-        "Osterreich",
-        "Oesterreich"
-    ],
-    "borders": [
-        "CZE",
-        "DEU",
-        "HUN",
-        "ITA",
-        "LIE",
-        "SVK",
-        "SVN",
-        "CHE"
-    ],
+    "alt_spellings": ["AT", "Osterreich", "Oesterreich"],
+    "borders": ["CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN", "CHE"],
     "brk_a3": "AUT",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Austria",
-    "calling_codes": [
-        "+43"
-    ],
-    "capital": [
-        "Vienna"
-    ],
+    "calling_codes": ["+43"],
+    "capital": ["Vienna"],
     "capital_rinvex": "Vienna",
     "cca2": "AT",
     "cca3": "AUT",
     "ccn3": "040",
     "cioc": "AUT",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Austrian",
     "demonyms": {
         "eng": {
@@ -89,24 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "43"
-        ],
+        "calling_code": ["43"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            1,
-            2,
-            3
-        ],
-        "national_number_lengths": [
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13
-        ],
+        "national_destination_code_lengths": [1, 2, 3],
+        "national_number_lengths": [7, 8, 9, 10, 11, 12, 13],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -131,9 +95,7 @@
         "marc": "au",
         "vat_rates": {
             "parking": 12,
-            "reduced": [
-                10
-            ],
+            "reduced": [10],
             "standard": 20,
             "super_reduced": null
         },
@@ -183,16 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 83871,
-        "borders": [
-            "CZE",
-            "DEU",
-            "HUN",
-            "ITA",
-            "LIE",
-            "SVK",
-            "SVN",
-            "CHE"
-        ],
+        "borders": ["CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN", "CHE"],
         "continent": {
             "EU": "Europe"
         },
@@ -200,10 +153,7 @@
         "landlocked": true,
         "latitude": "47 20 N",
         "latitude_desc": "47.58843994140625",
-        "latlng": [
-            47.33333333,
-            13.33333333
-        ],
+        "latlng": [47.33333333, 13.33333333],
         "longitude": "13 20 E",
         "longitude_desc": "14.14021110534668",
         "max_latitude": "49.016667",
@@ -225,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+4",
-        "suffixes": [
-            "3"
-        ]
+        "suffixes": ["3"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -316,9 +264,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".at"
-    ],
+    "tld": [".at"],
     "translations": {
         "ces": {
             "common": "Rakousko",

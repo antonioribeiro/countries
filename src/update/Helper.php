@@ -68,7 +68,7 @@ class Helper
     {
         echo "\n$message\n\nAborted.\n";
 
-        exit;
+        exit();
     }
 
     /**
@@ -95,9 +95,7 @@ class Helper
     protected function deleteAllFiles($dir, $files)
     {
         foreach ($files as $file) {
-            (is_dir("$dir/$file"))
-                ? $this->delTree("$dir/$file")
-                : unlink("$dir/$file");
+            is_dir("$dir/$file") ? $this->delTree("$dir/$file") : unlink("$dir/$file");
         }
     }
 
@@ -110,11 +108,11 @@ class Helper
     {
         $files = new RecursiveIteratorIterator(
             new RecursiveDirectoryIterator($dir, RecursiveDirectoryIterator::SKIP_DOTS),
-            RecursiveIteratorIterator::CHILD_FIRST
+            RecursiveIteratorIterator::CHILD_FIRST,
         );
 
         foreach ($files as $fileInfo) {
-            $todo = ($fileInfo->isDir() ? 'rmdir' : 'unlink');
+            $todo = $fileInfo->isDir() ? 'rmdir' : 'unlink';
 
             $todo($fileInfo->getRealPath());
         }
@@ -269,9 +267,11 @@ class Helper
     protected function renameMasterToPackage($file, $subPath, $path, $exclude)
     {
         if (Str::endsWith($file, 'master.zip')) {
-            $dir = countriesCollect(scandir($path))->filter(function ($file) use ($exclude) {
-                return $file !== '.' && $file !== '..' && $file !== $exclude;
-            })->first();
+            $dir = countriesCollect(scandir($path))
+                ->filter(function ($file) use ($exclude) {
+                    return $file !== '.' && $file !== '..' && $file !== $exclude;
+                })
+                ->first();
 
             rename("$path/$dir", $subPath);
         }
@@ -378,9 +378,8 @@ class Helper
         $array = arrayable($array) ? $array->toArray() : $array;
 
         array_walk($array, function ($value, $key) use (&$result) {
-            $result[Str::snake($key)] = arrayable($value) || is_array($value)
-                ? $this->arrayKeysSnakeRecursive($value)
-                : $value;
+            $result[Str::snake($key)] =
+                arrayable($value) || is_array($value) ? $this->arrayKeysSnakeRecursive($value) : $value;
         });
 
         return countriesCollect($result);
@@ -407,9 +406,13 @@ class Helper
      */
     public function fixUtf8($string)
     {
-        return preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
-            return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
-        }, $string);
+        return preg_replace_callback(
+            '/\\\\u([0-9a-fA-F]{4})/',
+            function ($match) {
+                return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+            },
+            $string,
+        );
     }
 
     /**
@@ -490,7 +493,7 @@ class Helper
     {
         $this->progress('Loading shape file...');
 
-        if (file_exists($sha = $this->dataDir('tmp/'.sha1($file = $this->dataDir($file))))) {
+        if (file_exists($sha = $this->dataDir('tmp/' . sha1($file = $this->dataDir($file))))) {
             $this->progress('Loaded.');
 
             return $this->loadJson($sha);
@@ -594,7 +597,7 @@ class Helper
      */
     public function tmpDir($path)
     {
-        return __COUNTRIES_DIR__.$this->toDir("/tmp/{$path}");
+        return __COUNTRIES_DIR__ . $this->toDir("/tmp/{$path}");
     }
 
     /**
@@ -614,7 +617,7 @@ class Helper
         }
 
         if (!file_exists($file)) {
-            $file = $this->dataDir($this->addSuffix('.csv', "/$dir/".strtolower($file)));
+            $file = $this->dataDir($this->addSuffix('.csv', "/$dir/" . strtolower($file)));
         }
 
         return countriesCollect($this->csvDecode(file($file)));
@@ -634,7 +637,7 @@ class Helper
             $dir .= DIRECTORY_SEPARATOR;
         }
 
-        return $this->dataDir($this->addSuffix('.json', $this->toDir($dir).strtolower($key)));
+        return $this->dataDir($this->addSuffix('.json', $this->toDir($dir) . strtolower($key)));
     }
 
     /**
@@ -681,9 +684,9 @@ class Helper
      */
     public function dataDir($path = '')
     {
-        $path = (empty($path) || Str::startsWith($path, DIRECTORY_SEPARATOR)) ? $path : "/{$path}";
+        $path = empty($path) || Str::startsWith($path, DIRECTORY_SEPARATOR) ? $path : "/{$path}";
 
-        return __COUNTRIES_DIR__.$this->toDir("/src/data$path");
+        return __COUNTRIES_DIR__ . $this->toDir("/src/data$path");
     }
 
     /**

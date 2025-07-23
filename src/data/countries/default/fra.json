@@ -45,38 +45,20 @@
         "French Republic",
         "R\u00e9publique fran\u00e7aise"
     ],
-    "borders": [
-        "AND",
-        "BEL",
-        "DEU",
-        "ITA",
-        "LUX",
-        "MCO",
-        "ESP",
-        "CHE"
-    ],
+    "borders": ["AND", "BEL", "DEU", "ITA", "LUX", "MCO", "ESP", "CHE"],
     "brk_a3": "FRA",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "France",
-    "calling_codes": [
-        "+33"
-    ],
-    "capital": [
-        "Paris"
-    ],
+    "calling_codes": ["+33"],
+    "capital": ["Paris"],
     "capital_rinvex": "Paris",
     "cca2": "FR",
     "cca3": "FRA",
     "ccn3": "250",
     "cioc": "FRA",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "French",
     "demonyms": {
         "eng": {
@@ -89,17 +71,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "33"
-        ],
+        "calling_code": ["33"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            1
-        ],
-        "national_number_lengths": [
-            9,
-            10
-        ],
+        "national_destination_code_lengths": [1],
+        "national_number_lengths": [9, 10],
         "national_prefix": "0"
     },
     "economy": "1. Developed region: G7",
@@ -124,10 +99,7 @@
         "marc": "fr",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5.5,
-                10
-            ],
+            "reduced": [5.5, 10],
             "standard": 20,
             "super_reduced": 2.1
         },
@@ -177,16 +149,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 551695,
-        "borders": [
-            "AND",
-            "BEL",
-            "DEU",
-            "ITA",
-            "LUX",
-            "MCO",
-            "ESP",
-            "CHE"
-        ],
+        "borders": ["AND", "BEL", "DEU", "ITA", "LUX", "MCO", "ESP", "CHE"],
         "continent": {
             "EU": "Europe"
         },
@@ -194,10 +157,7 @@
         "landlocked": false,
         "latitude": "46 00 N",
         "latitude_desc": "46.63727951049805",
-        "latlng": [
-            46,
-            2
-        ],
+        "latlng": [46, 2],
         "longitude": "2 00 E",
         "longitude_desc": "2.3382623195648193",
         "max_latitude": "51.09",
@@ -219,9 +179,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "3"
-        ]
+        "suffixes": ["3"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -309,9 +267,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".fr"
-    ],
+    "tld": [".fr"],
     "translations": {
         "ces": {
             "common": "Francie",

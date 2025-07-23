@@ -1,25 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "RS10",
-            "Rs50",
-            "Rs100",
-            "Rs500",
-            "Rs1000"
-        ],
+        "frequent": ["RS10", "Rs50", "Rs100", "Rs500", "Rs1000"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "Rs1",
-            "Rs2",
-            "Rs5"
-        ],
+        "frequent": ["Rs1", "Rs2", "Rs5"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "PKR",
         "number": "586"

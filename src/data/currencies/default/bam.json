@@ -1,29 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "KM10",
-            "KM20",
-            "KM50",
-            "KM100",
-            "KM200"
-        ],
+        "frequent": ["KM10", "KM20", "KM50", "KM100", "KM200"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "5",
-            "10",
-            "20",
-            "50",
-            "KM1",
-            "KM2",
-            "KM5"
-        ],
+        "frequent": ["5", "10", "20", "50", "KM1", "KM2", "KM5"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "BAM",
         "number": "977"

@@ -69,9 +69,7 @@ class Service implements CacheInterface
      */
     public function instantiateManager($config, $manager, $path)
     {
-        return \is_null($manager)
-            ? new NetteManager($config, $path)
-            : $manager;
+        return \is_null($manager) ? new NetteManager($config, $path) : $manager;
     }
 
     /**

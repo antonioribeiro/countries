@@ -45,35 +45,20 @@
         "Hashemite Kingdom of Jordan",
         "al-Mamlakah al-Urdun\u012byah al-H\u0101shim\u012byah"
     ],
-    "borders": [
-        "IRQ",
-        "ISR",
-        "PSE",
-        "SAU",
-        "SYR"
-    ],
+    "borders": ["IRQ", "ISR", "PSE", "SAU", "SYR"],
     "brk_a3": "JOR",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Jordan",
-    "calling_codes": [
-        "+962"
-    ],
-    "capital": [
-        "Amman"
-    ],
+    "calling_codes": ["+962"],
+    "capital": ["Amman"],
     "capital_rinvex": "Amman",
     "cca2": "JO",
     "cca3": "JOR",
     "ccn3": "400",
     "cioc": "JOR",
-    "currencies": [
-        "JOD"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["JOD"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Jordanian",
     "demonyms": {
         "eng": {
@@ -86,17 +71,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "962"
-        ],
+        "calling_code": ["962"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9],
         "national_prefix": "0"
     },
     "economy": "6. Developing region",
@@ -166,12 +144,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 89342,
-        "borders": [
-            "IRQ",
-            "ISR",
-            "SAU",
-            "SYR"
-        ],
+        "borders": ["IRQ", "ISR", "SAU", "SYR"],
         "continent": {
             "AS": "Asia"
         },
@@ -179,10 +152,7 @@
         "landlocked": false,
         "latitude": "31 00 N",
         "latitude_desc": "31.2757625579834",
-        "latlng": [
-            31,
-            36
-        ],
+        "latlng": [31, 36],
         "longitude": "36 00 E",
         "longitude_desc": "36.82838821411133",
         "max_latitude": "33.002222",
@@ -204,9 +174,7 @@
     "homepart": "1",
     "idd": {
         "root": "+9",
-        "suffixes": [
-            "62"
-        ]
+        "suffixes": ["62"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -294,10 +262,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".jo",
-        "\u0627\u0644\u0627\u0631\u062f\u0646."
-    ],
+    "tld": [".jo", "\u0627\u0644\u0627\u0631\u062f\u0646."],
     "translations": {
         "ces": {
             "common": "Jord\u00e1nsko",

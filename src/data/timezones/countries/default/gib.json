@@ -1,19 +1,10 @@
 {
     "europe_gibraltar": {
-        "abbreviations": [
-            "BDST",
-            "BST",
-            "CEST",
-            "CET",
-            "GMT",
-            "LMT"
-        ],
+        "abbreviations": ["BDST", "BST", "CEST", "CET", "GMT", "LMT"],
         "cca2": "GI",
         "cca3": "GIB",
         "country_code": "GI",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "166",
         "zone_name": "Europe\/Gibraltar"

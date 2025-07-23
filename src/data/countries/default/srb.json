@@ -47,38 +47,20 @@
         "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
         "Republika Srbija"
     ],
-    "borders": [
-        "BIH",
-        "BGR",
-        "HRV",
-        "HUN",
-        "UNK",
-        "MKD",
-        "MNE",
-        "ROU"
-    ],
+    "borders": ["BIH", "BGR", "HRV", "HUN", "UNK", "MKD", "MNE", "ROU"],
     "brk_a3": "SRB",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Serbia",
-    "calling_codes": [
-        "+381"
-    ],
-    "capital": [
-        "Belgrade"
-    ],
+    "calling_codes": ["+381"],
+    "capital": ["Belgrade"],
     "capital_rinvex": "Belgrade",
     "cca2": "RS",
     "cca3": "SRB",
     "ccn3": "688",
     "cioc": "SRB",
-    "currencies": [
-        "RSD"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["RSD"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Serbian",
     "demonyms": {
         "eng": {
@@ -91,16 +73,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "381"
-        ],
+        "calling_code": ["381"],
         "international_prefix": "99",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "6. Developing region",
@@ -170,16 +146,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 88361,
-        "borders": [
-            "BIH",
-            "BGR",
-            "HRV",
-            "HUN",
-            "UNK",
-            "MKD",
-            "MNE",
-            "ROU"
-        ],
+        "borders": ["BIH", "BGR", "HRV", "HUN", "UNK", "MKD", "MNE", "ROU"],
         "continent": {
             "EU": "Europe"
         },
@@ -187,10 +154,7 @@
         "landlocked": true,
         "latitude": "44 00 N",
         "latitude_desc": "44.23297119140625",
-        "latlng": [
-            44,
-            21
-        ],
+        "latlng": [44, 21],
         "longitude": "21 00 E",
         "longitude_desc": "20.797958374023438",
         "max_latitude": "46.155556",
@@ -212,9 +176,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "81"
-        ]
+        "suffixes": ["81"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -303,10 +265,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".rs",
-        ".\u0441\u0440\u0431"
-    ],
+    "tld": [".rs", ".\u0441\u0440\u0431"],
     "translations": {
         "ces": {
             "common": "Srbsko",

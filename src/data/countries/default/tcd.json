@@ -46,36 +46,20 @@
         "Republic of Chad",
         "R\u00e9publique du Tchad"
     ],
-    "borders": [
-        "CMR",
-        "CAF",
-        "LBY",
-        "NER",
-        "NGA",
-        "SDN"
-    ],
+    "borders": ["CMR", "CAF", "LBY", "NER", "NGA", "SDN"],
     "brk_a3": "TCD",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Chad",
-    "calling_codes": [
-        "+235"
-    ],
-    "capital": [
-        "N'Djamena"
-    ],
+    "calling_codes": ["+235"],
+    "capital": ["N'Djamena"],
     "capital_rinvex": "N'Djamena",
     "cca2": "TD",
     "cca3": "TCD",
     "ccn3": "148",
     "cioc": "CHA",
-    "currencies": [
-        "XAF"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["XAF"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Chadian",
     "demonyms": {
         "eng": {
@@ -88,16 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "235"
-        ],
+        "calling_code": ["235"],
         "international_prefix": "15",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7],
         "national_prefix": null
     },
     "economy": "7. Least developed region",
@@ -167,14 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 1284000,
-        "borders": [
-            "CMR",
-            "CAF",
-            "LBY",
-            "NER",
-            "NGA",
-            "SSD"
-        ],
+        "borders": ["CMR", "CAF", "LBY", "NER", "NGA", "SSD"],
         "continent": {
             "AF": "Africa"
         },
@@ -182,10 +153,7 @@
         "landlocked": true,
         "latitude": "15 00 N",
         "latitude_desc": "15.367652893066406",
-        "latlng": [
-            15,
-            19
-        ],
+        "latlng": [15, 19],
         "longitude": "19 00 E",
         "longitude_desc": "18.66758155822754",
         "max_latitude": "26",
@@ -207,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "35"
-        ]
+        "suffixes": ["35"]
     },
     "income_grp": "5. Low income",
     "independent": true,
@@ -302,9 +268,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".td"
-    ],
+    "tld": [".td"],
     "translations": {
         "ces": {
             "common": "\u010cad",

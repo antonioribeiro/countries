@@ -64,8 +64,8 @@ class Hydrator
      */
     protected function canHydrate($element, $enabled, $countryCode)
     {
-        return ($enabled || $this->config->get('hydrate.elements.'.$element)) &&
-                !isset($this->repository->countries[$countryCode]['hydrated'][$element]);
+        return ($enabled || $this->config->get('hydrate.elements.' . $element)) &&
+            !isset($this->repository->countries[$countryCode]['hydrated'][$element]);
     }
 
     /**
@@ -102,7 +102,7 @@ class Hydrator
         return countriesCollect(
             $countries->map(function ($country) use ($elements) {
                 return $this->hydrateCountry($country, $elements);
-            })
+            }),
         );
     }
 
@@ -160,8 +160,10 @@ class Hydrator
      */
     private function loadCities($country)
     {
-        return $this->repository->getHelper()->loadJson($country['cca3'], 'cities/default')
-                ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'cities/overload'));
+        return $this->repository
+            ->getHelper()
+            ->loadJson($country['cca3'], 'cities/default')
+            ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'cities/overload'));
     }
 
     /**
@@ -173,8 +175,10 @@ class Hydrator
      */
     private function loadStates($country)
     {
-        return $this->repository->getHelper()->loadJson($country['cca3'], 'states/default')
-                ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'states/overload'));
+        return $this->repository
+            ->getHelper()
+            ->loadJson($country['cca3'], 'states/default')
+            ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'states/overload'));
     }
 
     /**
@@ -186,8 +190,10 @@ class Hydrator
      */
     private function loadTaxes($country)
     {
-        return $this->repository->getHelper()->loadJson($country['cca3'], 'taxes/default')
-                                ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'taxes/overload'));
+        return $this->repository
+            ->getHelper()
+            ->loadJson($country['cca3'], 'taxes/default')
+            ->merge($this->repository->getHelper()->loadJson($country['cca3'], 'taxes/overload'));
     }
 
     /**
@@ -287,7 +293,7 @@ class Hydrator
      */
     protected function getHydrationElements($elements)
     {
-        $elements = ($elements ?: $this->config->get('hydrate.elements'));
+        $elements = $elements ?: $this->config->get('hydrate.elements');
 
         if (\is_string($elements) || is_numeric($elements)) {
             return [$elements => true];
@@ -305,9 +311,7 @@ class Hydrator
      */
     public function hydrateFlag($country)
     {
-        $country = countriesCollect($country)->merge(
-            ['flag' => $this->repository->makeAllFlags($country)]
-        );
+        $country = countriesCollect($country)->merge(['flag' => $this->repository->makeAllFlags($country)]);
 
         return $country;
     }
@@ -322,9 +326,9 @@ class Hydrator
     public function hydrateBorders($country)
     {
         $country['borders'] = isset($country['borders'])
-            ? $country['borders'] = countriesCollect($country['borders'])->map(function ($border) {
+            ? ($country['borders'] = countriesCollect($country['borders'])->map(function ($border) {
                 return $this->repository->call('where', ['cca3', $border])->first();
-            })
+            }))
             : countriesCollect();
 
         return $country;
@@ -354,7 +358,9 @@ class Hydrator
         $country = $this->hydrateTimezones($country);
 
         $country['timezones'] = $country->timezones->map(function ($timezone) {
-            return countriesCollect($timezone)->merge(['times' => $this->repository->findTimezoneTime($timezone['zone_id'])]);
+            return countriesCollect($timezone)->merge([
+                'times' => $this->repository->findTimezoneTime($timezone['zone_id']),
+            ]);
         });
 
         return $country;
@@ -457,7 +463,9 @@ class Hydrator
     public function hydrateCountryElement($countryCode, $element, $enabled)
     {
         if ($this->needsHydration($countryCode, $element, $enabled)) {
-            $this->repository->countries[$countryCode] = $this->{'hydrate'.Str::studly($element)}($this->repository->countries[$countryCode]);
+            $this->repository->countries[$countryCode] = $this->{'hydrate' . Str::studly($element)}(
+                $this->repository->countries[$countryCode],
+            );
         }
     }
 
@@ -470,16 +478,18 @@ class Hydrator
      */
     protected function checkHydrationElements($elements)
     {
-        $elements = countriesCollect($elements)->mapWithKeys(function ($value, $key) {
-            if (is_numeric($key)) {
-                $key = $value;
-                $value = true;
-            }
+        $elements = countriesCollect($elements)
+            ->mapWithKeys(function ($value, $key) {
+                if (is_numeric($key)) {
+                    $key = $value;
+                    $value = true;
+                }
 
-            return [$key => $value];
-        })->filter(function ($element) {
-            return $element;
-        });
+                return [$key => $value];
+            })
+            ->filter(function ($element) {
+                return $element;
+            });
 
         return $elements;
     }

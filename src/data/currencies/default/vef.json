@@ -1,27 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "Bs.2",
-            "Bs.5",
-            "Bs.10",
-            "Bs.20",
-            "Bs.50",
-            "Bs.100"
-        ],
+        "frequent": ["Bs.2", "Bs.5", "Bs.10", "Bs.20", "Bs.50", "Bs.100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "Bs.1",
-            "10\u00a2",
-            "25\u00a2",
-            "50\u00a2"
-        ],
+        "frequent": ["Bs.1", "10\u00a2", "25\u00a2", "50\u00a2"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "VEF",
         "number": "937"

@@ -1,16 +1,7 @@
 {
     "banknotes": {
-        "frequent": [
-            "BZ$2",
-            "BZ$5",
-            "BZ$10",
-            "BZ$20",
-            "BZ$50",
-            "BZ$100"
-        ],
-        "rare": [
-            ""
-        ]
+        "frequent": ["BZ$2", "BZ$5", "BZ$10", "BZ$20", "BZ$50", "BZ$100"],
+        "rare": [""]
     },
     "coins": {
         "frequent": [
@@ -24,9 +15,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "BZD",
         "number": "084"

@@ -1,17 +1,10 @@
 {
     "asia_seoul": {
-        "abbreviations": [
-            "JST",
-            "KDT",
-            "KST",
-            "LMT"
-        ],
+        "abbreviations": ["JST", "KDT", "KST", "LMT"],
         "cca2": "KR",
         "cca3": "KOR",
         "country_code": "KR",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "212",
         "zone_name": "Asia\/Seoul"

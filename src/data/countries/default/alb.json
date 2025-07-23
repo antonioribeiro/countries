@@ -40,40 +40,21 @@
     "adm0_iso": "ALB",
     "adm0_tlc": "ALB",
     "admin": "Albania",
-    "alt_spellings": [
-        "AL",
-        "Shqip\u00ebri",
-        "Shqip\u00ebria",
-        "Shqipnia"
-    ],
-    "borders": [
-        "MNE",
-        "GRC",
-        "MKD",
-        "UNK"
-    ],
+    "alt_spellings": ["AL", "Shqip\u00ebri", "Shqip\u00ebria", "Shqipnia"],
+    "borders": ["MNE", "GRC", "MKD", "UNK"],
     "brk_a3": "ALB",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Albania",
-    "calling_codes": [
-        "+355"
-    ],
-    "capital": [
-        "Tirana"
-    ],
+    "calling_codes": ["+355"],
+    "capital": ["Tirana"],
     "capital_rinvex": "Tirana",
     "cca2": "AL",
     "cca3": "ALB",
     "ccn3": "008",
     "cioc": "ALB",
-    "currencies": [
-        "ALL"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["ALL"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Albanian",
     "demonyms": {
         "eng": {
@@ -86,18 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "355"
-        ],
+        "calling_code": ["355"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7,
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7, 8, 9],
         "national_prefix": "0"
     },
     "economy": "6. Developing region",
@@ -167,12 +140,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 28748,
-        "borders": [
-            "MNE",
-            "GRC",
-            "MKD",
-            "UNK"
-        ],
+        "borders": ["MNE", "GRC", "MKD", "UNK"],
         "continent": {
             "EU": "Europe"
         },
@@ -180,10 +148,7 @@
         "landlocked": false,
         "latitude": "41 00 N",
         "latitude_desc": "41.11113357543945",
-        "latlng": [
-            41,
-            20
-        ],
+        "latlng": [41, 20],
         "longitude": "20 00 E",
         "longitude_desc": "20.02745246887207",
         "max_latitude": "42.659167",
@@ -205,9 +170,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "55"
-        ]
+        "suffixes": ["55"]
     },
     "income_grp": "4. Lower middle income",
     "independent": true,
@@ -296,9 +259,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".al"
-    ],
+    "tld": [".al"],
     "translations": {
         "ces": {
             "common": "Alb\u00e1nie",

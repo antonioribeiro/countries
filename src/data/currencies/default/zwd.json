@@ -1,23 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "Z$1",
-            "Z$5",
-            "Z$10",
-            "Z$20",
-            "Z$50",
-            "Z$100",
-            "Z$500"
-        ],
+        "frequent": ["Z$1", "Z$5", "Z$10", "Z$20", "Z$50", "Z$100", "Z$500"],
         "rare": []
     },
     "coins": {
         "frequent": [],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "ZWD",
         "number": "932"

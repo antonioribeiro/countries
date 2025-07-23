@@ -1,13 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "1",
-            "2",
-            "5",
-            "10",
-            "20",
-            "50"
-        ],
+        "frequent": ["1", "2", "5", "10", "20", "50"],
         "rare": []
     },
     "coins": {
@@ -21,9 +14,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "SDG",
         "number": "736"

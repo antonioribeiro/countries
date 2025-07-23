@@ -45,35 +45,20 @@
         "Republic of Senegal",
         "R\u00e9publique du S\u00e9n\u00e9gal"
     ],
-    "borders": [
-        "GMB",
-        "GIN",
-        "GNB",
-        "MLI",
-        "MRT"
-    ],
+    "borders": ["GMB", "GIN", "GNB", "MLI", "MRT"],
     "brk_a3": "SEN",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Senegal",
-    "calling_codes": [
-        "+221"
-    ],
-    "capital": [
-        "Dakar"
-    ],
+    "calling_codes": ["+221"],
+    "capital": ["Dakar"],
     "capital_rinvex": "Dakar",
     "cca2": "SN",
     "cca3": "SEN",
     "ccn3": "686",
     "cioc": "SEN",
-    "currencies": [
-        "XOF"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["XOF"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Senegalese",
     "demonyms": {
         "eng": {
@@ -86,16 +71,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "221"
-        ],
+        "calling_code": ["221"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7],
         "national_prefix": null
     },
     "economy": "7. Least developed region",
@@ -165,13 +144,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 196722,
-        "borders": [
-            "GMB",
-            "GIN",
-            "GNB",
-            "MLI",
-            "MRT"
-        ],
+        "borders": ["GMB", "GIN", "GNB", "MLI", "MRT"],
         "continent": {
             "AF": "Africa"
         },
@@ -179,10 +152,7 @@
         "landlocked": false,
         "latitude": "14 00 N",
         "latitude_desc": "14.36251163482666",
-        "latlng": [
-            14,
-            -14
-        ],
+        "latlng": [14, -14],
         "longitude": "14 00 W",
         "longitude_desc": "-14.531643867492676",
         "max_latitude": "16.666667",
@@ -204,9 +174,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "21"
-        ]
+        "suffixes": ["21"]
     },
     "income_grp": "4. Lower middle income",
     "independent": true,
@@ -294,9 +262,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".sn"
-    ],
+    "tld": [".sn"],
     "translations": {
         "ces": {
             "common": "Senegal",

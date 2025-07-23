@@ -1,33 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "50",
-            "Q1",
-            "Q5",
-            "Q10",
-            "Q20",
-            "Q50",
-            "Q100",
-            "Q200"
-        ],
-        "rare": [
-            ""
-        ]
+        "frequent": ["50", "Q1", "Q5", "Q10", "Q20", "Q50", "Q100", "Q200"],
+        "rare": [""]
     },
     "coins": {
-        "frequent": [
-            "1",
-            "5",
-            "10",
-            "25",
-            "50",
-            "Q1"
-        ],
+        "frequent": ["1", "5", "10", "25", "50", "Q1"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "GTQ",
         "number": "320"
