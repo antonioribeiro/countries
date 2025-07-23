@@ -49,11 +49,11 @@ class Service implements CacheInterface
     /**
      * Instantiate the config.
      *
-     * @param $config
+     * @param mixed $config
      *
-     * @return Config|mixed
+     * @return Config
      */
-    public function instantiateConfig($config)
+    public function instantiateConfig(mixed $config): Config
     {
         return \is_null($config) ? new Config() : $config;
     }
@@ -61,13 +61,13 @@ class Service implements CacheInterface
     /**
      * Instantiate the cache manager.
      *
-     * @param $config
-     * @param $manager
-     * @param $path
+     * @param mixed $config
+     * @param mixed $manager
+     * @param mixed $path
      *
-     * @return NetteManager|mixed
+     * @return NetteManager
      */
-    public function instantiateManager($config, $manager, $path)
+    public function instantiateManager(mixed $config, mixed $manager, mixed $path): NetteManager
     {
         return \is_null($manager) ? new NetteManager($config, $path) : $manager;
     }

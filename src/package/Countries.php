@@ -20,14 +20,14 @@ class Countries
     /**
      * Service constructor.
      *
-     * @param            $config
-     * @param Cache      $cache
-     * @param Helper     $helper
-     * @param Hydrator   $hydrator
-     * @param Repository $repository
+     * @param mixed      $config
+     * @param Cache|null $cache
+     * @param Helper|null $helper
+     * @param Hydrator|null $hydrator
+     * @param Repository|null $repository
      */
     public function __construct(
-        $config = null,
+        mixed $config = null,
         ?Cache $cache = null,
         ?Helper $helper = null,
         ?Hydrator $hydrator = null,
@@ -39,12 +39,12 @@ class Countries
     /**
      * Call a method.
      *
-     * @param       $name
+     * @param string $name
      * @param array $arguments
      *
-     * @return bool|mixed
+     * @return mixed
      */
-    public function __call($name, array $arguments = [])
+    public function __call(string $name, array $arguments = [])
     {
         return \call_user_func_array([$this->countriesService, $name], $arguments);
     }
@@ -52,12 +52,12 @@ class Countries
     /**
      * Translate static methods calls to dynamic.
      *
-     * @param       $name
+     * @param string $name
      * @param array $arguments
      *
      * @return mixed
      */
-    public static function __callStatic($name, array $arguments = [])
+    public static function __callStatic(string $name, array $arguments = [])
     {
         return \call_user_func_array([new static(), $name], $arguments);
     }

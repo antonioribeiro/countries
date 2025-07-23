@@ -29,11 +29,11 @@ class Config
     }
 
     /**
-     * @param $key
+     * @param string $key
      *
      * @return \Illuminate\Support\Collection|mixed|null
      */
-    public function get($key)
+    public function get(string $key)
     {
         // Handle dot notation for nested keys
         $keys = explode('.', $this->prefix . $key);
@@ -58,9 +58,9 @@ class Config
     }
 
     /**
-     * @param $config
+     * @param mixed $config
      */
-    protected function initialize($config = [])
+    protected function initialize(mixed $config = []): void
     {
         if (\is_object($config)) {
             $this->config = $config;
@@ -84,11 +84,11 @@ class Config
     /**
      * Redirect properties access to config's Collection.
      *
-     * @param $name
+     * @param string $name
      *
-     * @return mixed|static
+     * @return mixed
      */
-    public function __get($name)
+    public function __get(string $name)
     {
         return $this->config->{$name};
     }
@@ -96,12 +96,12 @@ class Config
     /**
      * Redirect methods calls to config's Collection.
      *
-     * @param $name
-     * @param $arguments
+     * @param string $name
+     * @param array $arguments
      *
      * @return mixed
      */
-    public function __call($name, $arguments)
+    public function __call(string $name, array $arguments)
     {
         return \call_user_func_array([$this->config, $name], $arguments);
     }

@@ -39,7 +39,7 @@ class Collection extends LaravelCollection
     /**
      * Magic set method for object-like property setting.
      */
-    public function __set($key, $value): void
+    public function __set(string $key, mixed $value): void
     {
         $this->items[$key] = $value;
     }
@@ -47,7 +47,7 @@ class Collection extends LaravelCollection
     /**
      * Magic isset method to check if property exists.
      */
-    public function __isset($key): bool
+    public function __isset(string $key): bool
     {
         return $this->hasProperty($key);
     }

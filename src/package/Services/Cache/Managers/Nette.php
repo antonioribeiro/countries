@@ -104,11 +104,11 @@ class Nette implements CacheInterface
     }
 
     /**
-     * @param $ttl
+     * @param mixed $ttl
      *
      * @return string
      */
-    protected function makeExpiration($ttl)
+    protected function makeExpiration(mixed $ttl): string
     {
         return ($ttl ?: $this->config->get('cache.duration')) . ' minutes';
     }

@@ -6,11 +6,11 @@ if (!function_exists('array_sort_by_keys_recursive')) {
     /**
      * Recursively sort array by keys.
      *
-     * @param $array
+     * @param mixed $array
      *
      * @return void
      */
-    function array_sort_by_keys_recursive(&$array)
+    function array_sort_by_keys_recursive(mixed &$array): void
     {
         if (is_array($array) || arrayable($array)) {
             $array = arrayable($array) ? $array->toArray() : $array;
@@ -40,11 +40,11 @@ if (!function_exists('arrayable')) {
     /**
      * Recursively change all array keys case.
      *
-     * @param $variable
+     * @param mixed $variable
      *
      * @return bool
      */
-    function arrayable($variable)
+    function arrayable(mixed $variable): bool
     {
         return is_object($variable) && method_exists($variable, 'toArray');
     }
