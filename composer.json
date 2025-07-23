@@ -2,7 +2,6 @@
     "name": "pragmarx/countries",
     "version": "1.0.0",
     "description": "PHP Countries and Currencies",
-
     "keywords": [
         "countries",
         "borders",
@@ -13,11 +12,10 @@
         "states",
         "taxes",
         "timezones",
-        "topology"
+        "topology",
+        "laravel"
     ],
-
     "license": "BSD-3-Clause",
-
     "authors": [
         {
             "name": "Antonio Ribeiro",
@@ -25,22 +23,18 @@
             "role": "Creator"
         }
     ],
-
     "require": {
-        "php": "^8.1|^8.2|^8.3",
+        "php": "^8.1|^8.2|^8.3|^8.4",
         "psr/simple-cache": "^1.0|^2.0|^3.0",
         "illuminate/collections": "^10.48|^11.0|^12.0",
         "nette/caching": "^3.0|^4.0",
         "colinodell/json5": "^2.0|^3.0"
     },
-
     "require-dev": {
         "phpunit/phpunit": "^9.0|^10.0|^11.0",
-        "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0",
-        "squizlabs/php_codesniffer": "^3.6",
+        "laravel/framework": "^10.0|^11.0|^12.0",
         "gasparesganga/php-shapefile": "^3.4"
     },
-
     "autoload": {
         "psr-4": {
             "PragmaRX\\Countries\\Package\\": "src/package",
@@ -50,21 +44,17 @@
             "src/package/Support/helpers.php"
         ]
     },
-
     "autoload-dev": {
         "psr-4": {
             "PragmaRX\\Countries\\Tests\\": "tests/",
             "PragmaRX\\Countries\\Tests\\PhpUnit\\": "tests/PhpUnit/"
         }
     },
-
     "scripts": {
         "test": "phpunit",
-        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
-        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+        "check-style": "prettier --check src tests",
+        "fix-style": "prettier --write src tests"
     },
-
     "minimum-stability": "dev",
-
     "prefer-stable": true
 }
