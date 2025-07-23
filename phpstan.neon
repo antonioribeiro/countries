@@ -1,0 +1,25 @@
+includes:
+    - ./vendor/timeweb/phpstan-enum/extension.neon
+
+parameters:
+    level: 5
+
+    paths:
+        - src/package
+
+    ignoreErrors:
+        -
+         identifier: missingType.iterableValue
+        -
+         identifier: missingType.generics
+
+    # Exclude data folder and other paths that don't need static analysis
+    excludePaths:
+        - src/data
+        - src/update
+        - vendor
+
+    universalObjectCratesClasses:
+
+    reportUnmatchedIgnoredErrors: false
+

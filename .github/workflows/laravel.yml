@@ -100,7 +100,7 @@ jobs:
       run: composer require --dev phpstan/phpstan --no-interaction
 
     - name: Execute static analysis
-      run: vendor/bin/phpstan analyse src --level=5 --no-progress
+      run: vendor/bin/phpstan analyse --no-progress
 
   coverage:
     runs-on: ubuntu-latest
