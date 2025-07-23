@@ -78,12 +78,12 @@ class Countries
     /**
      * Call a method.
      *
-     * @param       $name
+     * @param       string $name
      * @param array $arguments
      *
      * @return bool|mixed
      */
-    public function __call($name, array $arguments = [])
+    public function __call(string $name, array $arguments = [])
     {
         $result = $this->repository->call($name, $arguments);
 
@@ -94,7 +94,7 @@ class Countries
         return $result;
     }
 
-    private function createCollectionMacros()
+    private function createCollectionMacros(): void
     {
         $instance = $this;
 
@@ -156,8 +156,8 @@ class Countries
     /**
      * Hydrate a collection with specified elements.
      *
-     * @param $collection
-     * @param $elements
+     * @param mixed $collection
+     * @param array|null $elements
      * @return mixed
      */
     public function hydrate($collection, $elements = null)
@@ -168,7 +168,7 @@ class Countries
     /**
      * Initialize class.
      */
-    protected function init()
+    protected function init(): void
     {
         $this->createCollectionMacros();
 
@@ -242,7 +242,7 @@ class Countries
     }
 
     /**
-     * @param $repository
+     * @param Repository|null $repository
      *
      * @return Repository
      */

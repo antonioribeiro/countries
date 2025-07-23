@@ -4,8 +4,6 @@
 
 ![World Map](docs/world-map-political-of-the-2013-nations-online-project-best.jpg)
 
-[![build](https://github.com/antonioribeiro/countries/actions/workflows/laravel.yml/badge.svg)](https://github.com/antonioribeiro/countries/actions/workflows/laravel.yml)
-
 <p align="center">
     <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square"></a>
     <a href="/antonioribeiro/countries/blob/master/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>

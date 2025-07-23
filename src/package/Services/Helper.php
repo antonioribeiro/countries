@@ -25,11 +25,11 @@ class Helper
     /**
      * Load a file from disk.
      *
-     * @param $file
+     * @param string $file
      *
      * @return null|string
      */
-    public function loadFile($file)
+    public function loadFile(string $file)
     {
         if (!file_exists($file)) {
             return null;
@@ -41,14 +41,14 @@ class Helper
     /**
      * Loads a json file.
      *
-     * @param        $file
-     * @param string $dir
+     * @param        string $file
+     * @param string|null $dir
      *
      * @throws Exception
      *
      * @return \Illuminate\Support\Collection
      */
-    public function loadJson($file, $dir = null)
+    public function loadJson(string $file, ?string $dir = null)
     {
         if (empty($file)) {
             throw new Exception('loadJson Error: File name not set');
@@ -70,11 +70,11 @@ class Helper
     /**
      * Load json files from dir.
      *
-     * @param $dir
+     * @param string $dir
      *
      * @return \Illuminate\Support\Collection
      */
-    public function loadJsonFiles($dir)
+    public function loadJsonFiles(string $dir)
     {
         return countriesCollect(glob("$dir/*.json*"))->mapWithKeys(function ($file) {
             $key = str_replace(['.json5', '.json'], '', basename($file));
@@ -86,10 +86,10 @@ class Helper
     /**
      * Move files using wildcard filter.
      *
-     * @param $from
-     * @param $to
+     * @param string $from
+     * @param string $to
      */
-    public function moveFilesWildcard($from, $to)
+    public function moveFilesWildcard(string $from, string $to): void
     {
         countriesCollect(glob($this->dataDir($from)))->each(function ($from) use ($to) {
             $this->makeDir($dir = $this->dataDir($to));
@@ -119,11 +119,11 @@ class Helper
     }
 
     /**
-     * @param $contents
+     * @param string $contents
      *
      * @return string
      */
-    public function sanitizeFile($contents)
+    public function sanitizeFile(string $contents)
     {
         return str_replace('\n', '', $contents);
     }
@@ -131,11 +131,11 @@ class Helper
     /**
      * Check if array is multidimensional.
      *
-     * @param $string
+     * @param string $string
      *
      * @return string
      */
-    public function toDir($string)
+    public function toDir(string $string)
     {
         return str_replace('/', DIRECTORY_SEPARATOR, $string);
     }
