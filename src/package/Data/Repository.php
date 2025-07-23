@@ -79,12 +79,12 @@ class Repository
     /**
      * Call magic method.
      *
-     * @param       $name
+     * @param       string $name
      * @param array $arguments
      *
      * @return mixed
      */
-    public function __call($name, array $arguments = [])
+    public function __call(string $name, array $arguments = [])
     {
         return \call_user_func_array([$this->all(), $name], $arguments);
     }
@@ -92,12 +92,12 @@ class Repository
     /**
      * Call a method currencies collection.
      *
-     * @param $name
-     * @param $arguments
+     * @param string $name
+     * @param array $arguments
      *
      * @return bool|mixed
      */
-    public function call($name, $arguments)
+    public function call(string $name, array $arguments)
     {
         $cacheKey = method_exists($this->cache, 'makeKey')
             ? $this->cache->makeKey($name, $arguments)
@@ -188,11 +188,11 @@ class Repository
     /**
      * Load currency json file.
      *
-     * @param $code
+     * @param string $code
      *
      * @return string
      */
-    public function loadCurrenciesForCountry($code)
+    public function loadCurrenciesForCountry(string $code)
     {
         $currencies = $this->helper->loadJson(
             $this->helper->dataDir('currencies/default/' . strtolower($code) . '.json'),
@@ -236,11 +236,11 @@ class Repository
     /**
      * Make flags array for a coutry.
      *
-     * @param $country
+     * @param array $country
      *
      * @return array
      */
-    public function makeAllFlags($country)
+    public function makeAllFlags(array $country)
     {
         return [
             // https://www.flag-sprites.com/
@@ -268,11 +268,11 @@ class Repository
     /**
      * Read the flag SVG file.
      *
-     * @param $country
+     * @param string $country
      *
      * @return string
      */
-    public function getFlagSvg($country)
+    public function getFlagSvg(string $country)
     {
         return $this->helper->loadFile($this->getFlagSvgPath($country));
     }
@@ -280,11 +280,11 @@ class Repository
     /**
      * Get the SVG file path.
      *
-     * @param $country
+     * @param string $country
      *
      * @return string
      */
-    public function getFlagSvgPath($country)
+    public function getFlagSvgPath(string $country)
     {
         return $this->helper->dataDir('flags/' . strtolower($country) . '.svg');
     }
@@ -292,11 +292,11 @@ class Repository
     /**
      * Get country geometry.
      *
-     * @param $country
+     * @param string $country
      *
      * @return string
      */
-    public function getGeometry($country)
+    public function getGeometry(string $country)
     {
         return $this->helper->loadFile($this->helper->dataDir('geo/' . strtolower($country) . '.geo.json'));
     }
@@ -304,11 +304,11 @@ class Repository
     /**
      * Get country topology.
      *
-     * @param $country
+     * @param string $country
      *
      * @return string
      */
-    public function getTopology($country)
+    public function getTopology(string $country)
     {
         return $this->helper->loadFile($this->helper->dataDir('topo/' . strtolower($country) . '.topo.json'));
     }
@@ -316,8 +316,8 @@ class Repository
     /**
      * Hydrate a country element.
      *
-     * @param      $collection
-     * @param null $elements
+     * @param      mixed $collection
+     * @param null|array $elements
      *
      * @return \Illuminate\Support\Collection
      */
@@ -329,11 +329,11 @@ class Repository
     /**
      * Find a country timezone.
      *
-     * @param $countryCode
+     * @param string $countryCode
      *
      * @return \Illuminate\Support\Collection
      */
-    public function findTimezones($countryCode)
+    public function findTimezones(string $countryCode)
     {
         return $this->helper->loadJson(
             $this->helper->dataDir('timezones/countries/default/' . strtolower($countryCode) . '.json'),
@@ -343,11 +343,11 @@ class Repository
     /**
      * Find a country timezone.
      *
-     * @param $zoneId
+     * @param string $zoneId
      *
      * @return \Illuminate\Support\Collection
      */
-    public function findTimezoneTime($zoneId)
+    public function findTimezoneTime(string $zoneId)
     {
         return $this->helper->loadJson($this->helper->dataDir("timezones/timezones/default/{$zoneId}.json"));
     }
