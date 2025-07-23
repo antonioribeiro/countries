@@ -60,7 +60,7 @@ class Taxes extends Base
             $vat = $this->updater->addRecordType($vat, 'tax');
 
             $vat = [
-                $type.(empty($modifier) ? '' : '_').$modifier => $vat,
+                $type . (empty($modifier) ? '' : '_') . $modifier => $vat,
             ];
 
             return [$country->cca3 => $vat];
@@ -80,9 +80,16 @@ class Taxes extends Base
             return $this->normalizeTax($tax);
         };
 
-        $taxes = $this->updater->generateJsonFiles($taxes, $dataDir, $normalizerClosure, $getCodeClosure, $generateTaxData, null);
+        $taxes = $this->updater->generateJsonFiles(
+            $taxes,
+            $dataDir,
+            $normalizerClosure,
+            $getCodeClosure,
+            $generateTaxData,
+            null,
+        );
 
-        $this->helper->progress('Generated '.count($taxes).' taxes.');
+        $this->helper->progress('Generated ' . count($taxes) . ' taxes.');
     }
 
     public function normalizeTax($tax)

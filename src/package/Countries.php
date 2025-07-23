@@ -31,7 +31,7 @@ class Countries
         ?Cache $cache = null,
         ?Helper $helper = null,
         ?Hydrator $hydrator = null,
-        ?Repository $repository = null
+        ?Repository $repository = null,
     ) {
         $this->countriesService = new CountriesService($config, $cache, $helper, $hydrator, $repository);
     }

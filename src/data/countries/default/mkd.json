@@ -53,35 +53,20 @@
         "Republic of Macedonia",
         "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
     ],
-    "borders": [
-        "ALB",
-        "BGR",
-        "GRC",
-        "UNK",
-        "SRB"
-    ],
+    "borders": ["ALB", "BGR", "GRC", "UNK", "SRB"],
     "brk_a3": "MKD",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "North Macedonia",
-    "calling_codes": [
-        "+389"
-    ],
-    "capital": [
-        "Skopje"
-    ],
+    "calling_codes": ["+389"],
+    "capital": ["Skopje"],
     "capital_rinvex": "Skopje",
     "cca2": "MK",
     "cca3": "MKD",
     "ccn3": "807",
     "cioc": "MKD",
-    "currencies": [
-        "MKD"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["MKD"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Macedonian",
     "demonyms": {
         "eng": {
@@ -94,17 +79,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "389"
-        ],
+        "calling_code": ["389"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7,
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7, 8],
         "national_prefix": "0"
     },
     "economy": "6. Developing region",
@@ -174,13 +152,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 25713,
-        "borders": [
-            "ALB",
-            "BGR",
-            "GRC",
-            "UNK",
-            "SRB"
-        ],
+        "borders": ["ALB", "BGR", "GRC", "UNK", "SRB"],
         "continent": {
             "EU": "Europe"
         },
@@ -188,10 +160,7 @@
         "landlocked": true,
         "latitude": "41 50 N",
         "latitude_desc": "41.60045623779297",
-        "latlng": [
-            41.83333333,
-            22
-        ],
+        "latlng": [41.83333333, 22],
         "longitude": "22 00 E",
         "longitude_desc": "21.700895309448242",
         "max_latitude": "42.373056",
@@ -213,9 +182,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "89"
-        ]
+        "suffixes": ["89"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -314,9 +281,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".mk"
-    ],
+    "tld": [".mk"],
     "translations": {
         "ces": {
             "common": "Severn\u00ed Makedonie",

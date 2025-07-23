@@ -1,15 +1,7 @@
 {
     "banknotes": {
-        "frequent": [
-            "\u019210",
-            "\u019225",
-            "\u019250",
-            "\u0192100"
-        ],
-        "rare": [
-            "\u01925",
-            "\u0192250"
-        ]
+        "frequent": ["\u019210", "\u019225", "\u019250", "\u0192100"],
+        "rare": ["\u01925", "\u0192250"]
     },
     "coins": {
         "frequent": [
@@ -24,9 +16,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "ANG",
         "number": "532"

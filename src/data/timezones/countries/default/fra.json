@@ -1,20 +1,10 @@
 {
     "europe_paris": {
-        "abbreviations": [
-            "CEST",
-            "CET",
-            "LMT",
-            "PMT",
-            "WEMT",
-            "WEST",
-            "WET"
-        ],
+        "abbreviations": ["CEST", "CET", "LMT", "PMT", "WEMT", "WEST", "WET"],
         "cca2": "FR",
         "cca3": "FRA",
         "country_code": "FR",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "158",
         "zone_name": "Europe\/Paris"

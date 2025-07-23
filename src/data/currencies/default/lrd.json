@@ -1,27 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$5",
-            "$10",
-            "$20",
-            "$50",
-            "$100"
-        ],
+        "frequent": ["$5", "$10", "$20", "$50", "$100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "$1",
-            "\u00a25",
-            "\u00a210",
-            "\u00a225",
-            "\u00a250"
-        ],
+        "frequent": ["$1", "\u00a25", "\u00a210", "\u00a225", "\u00a250"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "LRD",
         "number": "430"

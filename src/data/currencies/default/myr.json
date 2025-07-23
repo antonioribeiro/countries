@@ -1,26 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "RM1",
-            "RM5",
-            "RM10",
-            "RM50",
-            "RM100"
-        ],
+        "frequent": ["RM1", "RM5", "RM10", "RM50", "RM100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "sen5",
-            "sen10",
-            "sen20",
-            "sen50"
-        ],
+        "frequent": ["sen5", "sen10", "sen20", "sen50"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "MYR",
         "number": "458"

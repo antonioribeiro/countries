@@ -40,40 +40,21 @@
     "adm0_iso": "ESP",
     "adm0_tlc": "ESP",
     "admin": "Spain",
-    "alt_spellings": [
-        "ES",
-        "Kingdom of Spain",
-        "Reino de Espa\u00f1a"
-    ],
-    "borders": [
-        "AND",
-        "FRA",
-        "GIB",
-        "PRT",
-        "MAR"
-    ],
+    "alt_spellings": ["ES", "Kingdom of Spain", "Reino de Espa\u00f1a"],
+    "borders": ["AND", "FRA", "GIB", "PRT", "MAR"],
     "brk_a3": "ESP",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Spain",
-    "calling_codes": [
-        "+34"
-    ],
-    "capital": [
-        "Madrid"
-    ],
+    "calling_codes": ["+34"],
+    "capital": ["Madrid"],
     "capital_rinvex": "Madrid",
     "cca2": "ES",
     "cca3": "ESP",
     "ccn3": "724",
     "cioc": "ESP",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Spanish",
     "demonyms": {
         "eng": {
@@ -86,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "34"
-        ],
+        "calling_code": ["34"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": null
     },
     "economy": "2. Developed region: nonG7",
@@ -120,9 +95,7 @@
         "marc": "sp",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                10
-            ],
+            "reduced": [10],
             "standard": 21,
             "super_reduced": 4
         },
@@ -172,13 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 505992,
-        "borders": [
-            "AND",
-            "FRA",
-            "GIB",
-            "PRT",
-            "MAR"
-        ],
+        "borders": ["AND", "FRA", "GIB", "PRT", "MAR"],
         "continent": {
             "EU": "Europe"
         },
@@ -186,10 +153,7 @@
         "landlocked": false,
         "latitude": "40 00 N",
         "latitude_desc": "40.396026611328125",
-        "latlng": [
-            40,
-            -4
-        ],
+        "latlng": [40, -4],
         "longitude": "4 00 W",
         "longitude_desc": "-3.550692558288574",
         "max_latitude": "43.916667",
@@ -211,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "4"
-        ]
+        "suffixes": ["4"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -331,9 +293,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".es"
-    ],
+    "tld": [".es"],
     "translations": {
         "ces": {
             "common": "\u0160pan\u011blsko",

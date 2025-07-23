@@ -1,29 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "USh2",
-            "USh5",
-            "USh10",
-            "USh20",
-            "USh50",
-            "USh100"
-        ],
+        "frequent": ["USh2", "USh5", "USh10", "USh20", "USh50", "USh100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "USh1",
-            "USh2",
-            "5",
-            "10",
-            "25",
-            "50"
-        ],
+        "frequent": ["USh1", "USh2", "5", "10", "25", "50"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "UGX",
         "number": "800"

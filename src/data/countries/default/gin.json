@@ -45,36 +45,20 @@
         "Republic of Guinea",
         "R\u00e9publique de Guin\u00e9e"
     ],
-    "borders": [
-        "CIV",
-        "GNB",
-        "LBR",
-        "MLI",
-        "SEN",
-        "SLE"
-    ],
+    "borders": ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"],
     "brk_a3": "GIN",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Guinea",
-    "calling_codes": [
-        "+224"
-    ],
-    "capital": [
-        "Conakry"
-    ],
+    "calling_codes": ["+224"],
+    "capital": ["Conakry"],
     "capital_rinvex": "Conakry",
     "cca2": "GN",
     "cca3": "GIN",
     "ccn3": "324",
     "cioc": "GUI",
-    "currencies": [
-        "GNF"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["GNF"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Guinean",
     "demonyms": {
         "eng": {
@@ -87,16 +71,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "224"
-        ],
+        "calling_code": ["224"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8],
         "national_prefix": null
     },
     "economy": "7. Least developed region",
@@ -166,14 +144,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 245857,
-        "borders": [
-            "CIV",
-            "GNB",
-            "LBR",
-            "MLI",
-            "SEN",
-            "SLE"
-        ],
+        "borders": ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"],
         "continent": {
             "AF": "Africa"
         },
@@ -181,10 +152,7 @@
         "landlocked": false,
         "latitude": "11 00 N",
         "latitude_desc": "10.429302215576172",
-        "latlng": [
-            11,
-            -10
-        ],
+        "latlng": [11, -10],
         "longitude": "10 00 W",
         "longitude_desc": "-10.98954963684082",
         "max_latitude": "12.633333",
@@ -206,9 +174,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "24"
-        ]
+        "suffixes": ["24"]
     },
     "income_grp": "5. Low income",
     "independent": true,
@@ -296,9 +262,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".gn"
-    ],
+    "tld": [".gn"],
     "translations": {
         "ces": {
             "common": "Guinea",

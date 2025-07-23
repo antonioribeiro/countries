@@ -10,27 +10,13 @@
             "Tk500",
             "Tk1000"
         ],
-        "rare": [
-            "Tk1"
-        ]
+        "rare": ["Tk1"]
     },
     "coins": {
-        "frequent": [
-            "Tk1",
-            "Tk2",
-            "Tk5"
-        ],
-        "rare": [
-            "1",
-            "5",
-            "10",
-            "25",
-            "50"
-        ]
+        "frequent": ["Tk1", "Tk2", "Tk5"],
+        "rare": ["1", "5", "10", "25", "50"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "BDT",
         "number": "050"

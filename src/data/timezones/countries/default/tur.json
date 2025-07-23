@@ -1,19 +1,10 @@
 {
     "europe_istanbul": {
-        "abbreviations": [
-            "EEST",
-            "EET",
-            "IMT",
-            "LMT",
-            "TRST",
-            "TRT"
-        ],
+        "abbreviations": ["EEST", "EET", "IMT", "LMT", "TRST", "TRT"],
         "cca2": "TR",
         "cca3": "TUR",
         "country_code": "TR",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "368",
         "zone_name": "Europe\/Istanbul"

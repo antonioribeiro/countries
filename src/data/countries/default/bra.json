@@ -62,24 +62,15 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Brazil",
-    "calling_codes": [
-        "+55"
-    ],
-    "capital": [
-        "Bras\u00edlia"
-    ],
+    "calling_codes": ["+55"],
+    "capital": ["Bras\u00edlia"],
     "capital_rinvex": "Bras\u00edlia",
     "cca2": "BR",
     "cca3": "BRA",
     "ccn3": "076",
     "cioc": "BRA",
-    "currencies": [
-        "BRL"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["BRL"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Brazilian",
     "demonyms": {
         "eng": {
@@ -92,17 +83,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "55"
-        ],
+        "calling_code": ["55"],
         "international_prefix": "0014",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            10,
-            11
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [10, 11],
         "national_prefix": "014"
     },
     "economy": "3. Emerging region: BRIC",
@@ -191,10 +175,7 @@
         "landlocked": false,
         "latitude": "10 00 S",
         "latitude_desc": "-10.81045150756836",
-        "latlng": [
-            -10,
-            -55
-        ],
+        "latlng": [-10, -55],
         "longitude": "55 00 W",
         "longitude_desc": "-52.97311782836914",
         "max_latitude": "5.266667",
@@ -216,9 +197,7 @@
     "homepart": "1",
     "idd": {
         "root": "+5",
-        "suffixes": [
-            "5"
-        ]
+        "suffixes": ["5"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -306,9 +285,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".br"
-    ],
+    "tld": [".br"],
     "translations": {
         "ces": {
             "common": "Braz\u00edlie",

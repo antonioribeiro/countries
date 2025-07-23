@@ -56,35 +56,20 @@
         "Belorussiya",
         "Respublika Belarus\u2019"
     ],
-    "borders": [
-        "LVA",
-        "LTU",
-        "POL",
-        "RUS",
-        "UKR"
-    ],
+    "borders": ["LVA", "LTU", "POL", "RUS", "UKR"],
     "brk_a3": "BLR",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Belarus",
-    "calling_codes": [
-        "+375"
-    ],
-    "capital": [
-        "Minsk"
-    ],
+    "calling_codes": ["+375"],
+    "capital": ["Minsk"],
     "capital_rinvex": "Minsk",
     "cca2": "BY",
     "cca3": "BLR",
     "ccn3": "112",
     "cioc": "BLR",
-    "currencies": [
-        "BYN"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["BYN"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Belarusian",
     "demonyms": {
         "eng": {
@@ -97,16 +82,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "375"
-        ],
+        "calling_code": ["375"],
         "international_prefix": "810",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "8"
     },
     "economy": "6. Developing region",
@@ -176,13 +155,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 207600,
-        "borders": [
-            "LVA",
-            "LTU",
-            "POL",
-            "RUS",
-            "UKR"
-        ],
+        "borders": ["LVA", "LTU", "POL", "RUS", "UKR"],
         "continent": {
             "EU": "Europe"
         },
@@ -190,10 +163,7 @@
         "landlocked": true,
         "latitude": "53 00 N",
         "latitude_desc": "53.54347229003906",
-        "latlng": [
-            53,
-            28
-        ],
+        "latlng": [53, 28],
         "longitude": "28 00 E",
         "longitude_desc": "28.054094314575195",
         "max_latitude": "56.066667",
@@ -215,9 +185,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "75"
-        ]
+        "suffixes": ["75"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -324,13 +292,8 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".by"
-    ],
-    "tld_rinvex": [
-        ".by",
-        ".\u0431\u0435\u043b"
-    ],
+    "tld": [".by"],
+    "tld_rinvex": [".by", ".\u0431\u0435\u043b"],
     "translations": {
         "ces": {
             "common": "B\u011blorusko",

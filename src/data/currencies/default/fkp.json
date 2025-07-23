@@ -1,11 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "\u00a35",
-            "\u00a310",
-            "\u00a320",
-            "\u00a350"
-        ],
+        "frequent": ["\u00a35", "\u00a310", "\u00a320", "\u00a350"],
         "rare": []
     },
     "coins": {
@@ -21,9 +16,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "FKP",
         "number": "238"

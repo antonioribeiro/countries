@@ -72,28 +72,15 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Russia",
-    "calling_codes": [
-        "+73",
-        "+74",
-        "+75",
-        "+78",
-        "+79"
-    ],
-    "capital": [
-        "Moscow"
-    ],
+    "calling_codes": ["+73", "+74", "+75", "+78", "+79"],
+    "capital": ["Moscow"],
     "capital_rinvex": "Moscow",
     "cca2": "RU",
     "cca3": "RUS",
     "ccn3": "643",
     "cioc": "RUS",
-    "currencies": [
-        "RUB"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["RUB"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Russian",
     "demonyms": {
         "eng": {
@@ -106,16 +93,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "7"
-        ],
+        "calling_code": ["7"],
         "international_prefix": "810",
-        "national_destination_code_lengths": [
-            3
-        ],
-        "national_number_lengths": [
-            10
-        ],
+        "national_destination_code_lengths": [3],
+        "national_number_lengths": [10],
         "national_prefix": "8"
     },
     "economy": "3. Emerging region: BRIC",
@@ -208,10 +189,7 @@
         "landlocked": false,
         "latitude": "60 00 N",
         "latitude_desc": "63.125186920166016",
-        "latlng": [
-            60,
-            100
-        ],
+        "latlng": [60, 100],
         "longitude": "100 00 E",
         "longitude_desc": "103.75398254394531",
         "max_latitude": "86.216667",
@@ -233,13 +211,7 @@
     "homepart": "1",
     "idd": {
         "root": "+7",
-        "suffixes": [
-            "3",
-            "4",
-            "5",
-            "8",
-            "9"
-        ]
+        "suffixes": ["3", "4", "5", "8", "9"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -327,11 +299,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".ru",
-        ".su",
-        ".\u0440\u0444"
-    ],
+    "tld": [".ru", ".su", ".\u0440\u0444"],
     "translations": {
         "ces": {
             "common": "Rusko",

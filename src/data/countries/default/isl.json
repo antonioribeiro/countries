@@ -51,24 +51,15 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Iceland",
-    "calling_codes": [
-        "+354"
-    ],
-    "capital": [
-        "Reykjavik"
-    ],
+    "calling_codes": ["+354"],
+    "capital": ["Reykjavik"],
     "capital_rinvex": "Reykjavik",
     "cca2": "IS",
     "cca3": "ISL",
     "ccn3": "352",
     "cioc": "ISL",
-    "currencies": [
-        "ISK"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["ISK"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Icelander",
     "demonyms": {
         "eng": {
@@ -81,18 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "354"
-        ],
+        "calling_code": ["354"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7,
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7, 8, 9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -170,10 +153,7 @@
         "landlocked": false,
         "latitude": "65 00 N",
         "latitude_desc": "64.9285659790039",
-        "latlng": [
-            65,
-            -18
-        ],
+        "latlng": [65, -18],
         "longitude": "18 00 W",
         "longitude_desc": "-18.961700439453125",
         "max_latitude": "66.566667",
@@ -195,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "54"
-        ]
+        "suffixes": ["54"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -285,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".is"
-    ],
+    "tld": [".is"],
     "translations": {
         "ces": {
             "common": "Island",

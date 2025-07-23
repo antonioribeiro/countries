@@ -40,39 +40,21 @@
     "adm0_iso": "LTU",
     "adm0_tlc": "LTU",
     "admin": "Lithuania",
-    "alt_spellings": [
-        "LT",
-        "Republic of Lithuania",
-        "Lietuvos Respublika"
-    ],
-    "borders": [
-        "BLR",
-        "LVA",
-        "POL",
-        "RUS"
-    ],
+    "alt_spellings": ["LT", "Republic of Lithuania", "Lietuvos Respublika"],
+    "borders": ["BLR", "LVA", "POL", "RUS"],
     "brk_a3": "LTU",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Lithuania",
-    "calling_codes": [
-        "+370"
-    ],
-    "capital": [
-        "Vilnius"
-    ],
+    "calling_codes": ["+370"],
+    "capital": ["Vilnius"],
     "capital_rinvex": "Vilnius",
     "cca2": "LT",
     "cca3": "LTU",
     "ccn3": "440",
     "cioc": "LTU",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Lithuanian",
     "demonyms": {
         "eng": {
@@ -85,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "370"
-        ],
+        "calling_code": ["370"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8],
         "national_prefix": "8"
     },
     "economy": "2. Developed region: nonG7",
@@ -119,10 +95,7 @@
         "marc": "li",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5,
-                9
-            ],
+            "reduced": [5, 9],
             "standard": 21,
             "super_reduced": null
         },
@@ -172,12 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 65300,
-        "borders": [
-            "BLR",
-            "LVA",
-            "POL",
-            "RUS"
-        ],
+        "borders": ["BLR", "LVA", "POL", "RUS"],
         "continent": {
             "EU": "Europe"
         },
@@ -185,10 +153,7 @@
         "landlocked": false,
         "latitude": "56 00 N",
         "latitude_desc": "55.33871841430664",
-        "latlng": [
-            56,
-            24
-        ],
+        "latlng": [56, 24],
         "longitude": "24 00 E",
         "longitude_desc": "23.87092399597168",
         "max_latitude": "56.441667",
@@ -210,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "70"
-        ]
+        "suffixes": ["70"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -300,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".lt"
-    ],
+    "tld": [".lt"],
     "translations": {
         "ces": {
             "common": "Litva",

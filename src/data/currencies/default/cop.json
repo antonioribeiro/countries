@@ -1,13 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "$1000",
-            "$2000",
-            "$5000",
-            "$10000",
-            "$20000",
-            "$50000"
-        ],
+        "frequent": ["$1000", "$2000", "$5000", "$10000", "$20000", "$50000"],
         "rare": []
     },
     "coins": {
@@ -23,9 +16,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "COP",
         "number": "170"

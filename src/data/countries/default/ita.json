@@ -40,41 +40,21 @@
     "adm0_iso": "ITA",
     "adm0_tlc": "ITA",
     "admin": "Italy",
-    "alt_spellings": [
-        "IT",
-        "Italian Republic",
-        "Repubblica italiana"
-    ],
-    "borders": [
-        "AUT",
-        "FRA",
-        "SMR",
-        "SVN",
-        "CHE",
-        "VAT"
-    ],
+    "alt_spellings": ["IT", "Italian Republic", "Repubblica italiana"],
+    "borders": ["AUT", "FRA", "SMR", "SVN", "CHE", "VAT"],
     "brk_a3": "ITA",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Italy",
-    "calling_codes": [
-        "+39"
-    ],
-    "capital": [
-        "Rome"
-    ],
+    "calling_codes": ["+39"],
+    "capital": ["Rome"],
     "capital_rinvex": "Rome",
     "cca2": "IT",
     "cca3": "ITA",
     "ccn3": "380",
     "cioc": "ITA",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Italian",
     "demonyms": {
         "eng": {
@@ -87,17 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "39"
-        ],
+        "calling_code": ["39"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            3
-        ],
-        "national_number_lengths": [
-            9,
-            11
-        ],
+        "national_destination_code_lengths": [3],
+        "national_number_lengths": [9, 11],
         "national_prefix": null
     },
     "economy": "1. Developed region: G7",
@@ -122,9 +95,7 @@
         "marc": "it",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                10
-            ],
+            "reduced": [10],
             "standard": 22,
             "super_reduced": 4
         },
@@ -174,14 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 301336,
-        "borders": [
-            "AUT",
-            "FRA",
-            "SMR",
-            "SVN",
-            "CHE",
-            "VAT"
-        ],
+        "borders": ["AUT", "FRA", "SMR", "SVN", "CHE", "VAT"],
         "continent": {
             "EU": "Europe"
         },
@@ -189,10 +153,7 @@
         "landlocked": false,
         "latitude": "42 50 N",
         "latitude_desc": "42.7669792175293",
-        "latlng": [
-            42.83333333,
-            12.83333333
-        ],
+        "latlng": [42.83333333, 12.83333333],
         "longitude": "12 50 E",
         "longitude_desc": "12.493823051452637",
         "max_latitude": "48.533333",
@@ -214,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "9"
-        ]
+        "suffixes": ["9"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -324,9 +283,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".it"
-    ],
+    "tld": [".it"],
     "translations": {
         "ces": {
             "common": "It\u00e1lie",

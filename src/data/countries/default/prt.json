@@ -46,31 +46,20 @@
         "Portuguese Republic",
         "Rep\u00fablica Portuguesa"
     ],
-    "borders": [
-        "ESP"
-    ],
+    "borders": ["ESP"],
     "brk_a3": "PR1",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Portugal",
-    "calling_codes": [
-        "+351"
-    ],
-    "capital": [
-        "Lisbon"
-    ],
+    "calling_codes": ["+351"],
+    "capital": ["Lisbon"],
     "capital_rinvex": "Lisbon",
     "cca2": "PT",
     "cca3": "PRT",
     "ccn3": "620",
     "cioc": "POR",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Portuguese",
     "demonyms": {
         "eng": {
@@ -83,16 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "351"
-        ],
+        "calling_code": ["351"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": null
     },
     "economy": "2. Developed region: nonG7",
@@ -117,10 +100,7 @@
         "marc": "po",
         "vat_rates": {
             "parking": 13,
-            "reduced": [
-                6,
-                13
-            ],
+            "reduced": [6, 13],
             "standard": 23,
             "super_reduced": null
         },
@@ -170,9 +150,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 92090,
-        "borders": [
-            "ESP"
-        ],
+        "borders": ["ESP"],
         "continent": {
             "EU": "Europe"
         },
@@ -180,10 +158,7 @@
         "landlocked": false,
         "latitude": "39 30 N",
         "latitude_desc": "39.64200973510742",
-        "latlng": [
-            39.5,
-            -8
-        ],
+        "latlng": [39.5, -8],
         "longitude": "8 00 W",
         "longitude_desc": "-8.009422302246094",
         "max_latitude": "42.15",
@@ -205,9 +180,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "51"
-        ]
+        "suffixes": ["51"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -305,9 +278,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".pt"
-    ],
+    "tld": [".pt"],
     "translations": {
         "ces": {
             "common": "Portugalsko",

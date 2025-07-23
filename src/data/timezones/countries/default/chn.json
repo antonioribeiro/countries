@@ -1,31 +1,20 @@
 {
     "asia_shanghai": {
-        "abbreviations": [
-            "CDT",
-            "CST",
-            "LMT"
-        ],
+        "abbreviations": ["CDT", "CST", "LMT"],
         "cca2": "CN",
         "cca3": "CHN",
         "country_code": "CN",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "123",
         "zone_name": "Asia\/Shanghai"
     },
     "asia_urumqi": {
-        "abbreviations": [
-            "LMT",
-            "URUT"
-        ],
+        "abbreviations": ["LMT", "URUT"],
         "cca2": "CN",
         "cca3": "CHN",
         "country_code": "CN",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "124",
         "zone_name": "Asia\/Urumqi"

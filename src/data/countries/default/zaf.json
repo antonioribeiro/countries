@@ -40,44 +40,21 @@
     "adm0_iso": "ZAF",
     "adm0_tlc": "ZAF",
     "admin": "South Africa",
-    "alt_spellings": [
-        "ZA",
-        "RSA",
-        "Suid-Afrika",
-        "Republic of South Africa"
-    ],
-    "borders": [
-        "BWA",
-        "LSO",
-        "MOZ",
-        "NAM",
-        "SWZ",
-        "ZWE"
-    ],
+    "alt_spellings": ["ZA", "RSA", "Suid-Afrika", "Republic of South Africa"],
+    "borders": ["BWA", "LSO", "MOZ", "NAM", "SWZ", "ZWE"],
     "brk_a3": "ZAF",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "South Africa",
-    "calling_codes": [
-        "+27"
-    ],
-    "capital": [
-        "Pretoria",
-        "Bloemfontein",
-        "Cape Town"
-    ],
+    "calling_codes": ["+27"],
+    "capital": ["Pretoria", "Bloemfontein", "Cape Town"],
     "capital_rinvex": "Pretoria",
     "cca2": "ZA",
     "cca3": "ZAF",
     "ccn3": "710",
     "cioc": "RSA",
-    "currencies": [
-        "ZAR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["ZAR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "South African",
     "demonyms": {
         "eng": {
@@ -90,16 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "27"
-        ],
+        "calling_code": ["27"],
         "international_prefix": 0,
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "5. Emerging region: G20",
@@ -169,14 +140,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 1221037,
-        "borders": [
-            "BWA",
-            "LSO",
-            "MOZ",
-            "NAM",
-            "SWZ",
-            "ZWE"
-        ],
+        "borders": ["BWA", "LSO", "MOZ", "NAM", "SWZ", "ZWE"],
         "continent": {
             "AF": "Africa"
         },
@@ -184,10 +148,7 @@
         "landlocked": false,
         "latitude": "29 00 S",
         "latitude_desc": "-29.046184539794922",
-        "latlng": [
-            -29,
-            24
-        ],
+        "latlng": [-29, 24],
         "longitude": "24 00 E",
         "longitude_desc": "25.06287956237793",
         "max_latitude": "-22.133333",
@@ -209,9 +170,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "7"
-        ]
+        "suffixes": ["7"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -349,9 +308,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".za"
-    ],
+    "tld": [".za"],
     "translations": {
         "ces": {
             "common": "Jihoafrick\u00e1 republika",

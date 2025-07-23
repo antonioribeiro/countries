@@ -40,38 +40,21 @@
     "adm0_iso": "EST",
     "adm0_tlc": "EST",
     "admin": "Estonia",
-    "alt_spellings": [
-        "EE",
-        "Eesti",
-        "Republic of Estonia",
-        "Eesti Vabariik"
-    ],
-    "borders": [
-        "LVA",
-        "RUS"
-    ],
+    "alt_spellings": ["EE", "Eesti", "Republic of Estonia", "Eesti Vabariik"],
+    "borders": ["LVA", "RUS"],
     "brk_a3": "EST",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Estonia",
-    "calling_codes": [
-        "+372"
-    ],
-    "capital": [
-        "Tallinn"
-    ],
+    "calling_codes": ["+372"],
+    "capital": ["Tallinn"],
     "capital_rinvex": "Tallinn",
     "cca2": "EE",
     "cca3": "EST",
     "ccn3": "233",
     "cioc": "EST",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Estonian",
     "demonyms": {
         "eng": {
@@ -84,17 +67,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "372"
-        ],
+        "calling_code": ["372"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            7,
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [7, 8],
         "national_prefix": null
     },
     "economy": "2. Developed region: nonG7",
@@ -119,9 +95,7 @@
         "marc": "er",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                9
-            ],
+            "reduced": [9],
             "standard": 20,
             "super_reduced": null
         },
@@ -171,10 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 45227,
-        "borders": [
-            "LVA",
-            "RUS"
-        ],
+        "borders": ["LVA", "RUS"],
         "continent": {
             "EU": "Europe"
         },
@@ -182,10 +153,7 @@
         "landlocked": false,
         "latitude": "59 00 N",
         "latitude_desc": "58.69374465942383",
-        "latlng": [
-            59,
-            26
-        ],
+        "latlng": [59, 26],
         "longitude": "26 00 E",
         "longitude_desc": "25.24162483215332",
         "max_latitude": "59.983333",
@@ -207,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "72"
-        ]
+        "suffixes": ["72"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -297,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".ee"
-    ],
+    "tld": [".ee"],
     "translations": {
         "ces": {
             "common": "Estonsko",

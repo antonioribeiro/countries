@@ -10,23 +10,10 @@
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "25",
-            "50",
-            "\u0e3f",
-            "\u0e3f2",
-            "\u0e3f5",
-            "\u0e3f10"
-        ],
-        "rare": [
-            "1",
-            "5",
-            "10"
-        ]
+        "frequent": ["25", "50", "\u0e3f", "\u0e3f2", "\u0e3f5", "\u0e3f10"],
+        "rare": ["1", "5", "10"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "THB",
         "number": "764"

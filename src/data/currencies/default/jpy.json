@@ -1,11 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "\u00a51000",
-            "\u00a52000",
-            "\u00a55000",
-            "\u00a510000"
-        ],
+        "frequent": ["\u00a51000", "\u00a52000", "\u00a55000", "\u00a510000"],
         "rare": []
     },
     "coins": {
@@ -19,9 +14,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "JPY",
         "number": "392"

@@ -52,7 +52,7 @@ class Helper
             throw new Exception('loadJson Error: File name not set');
         }
 
-        if (!file_exists($file) && !file_exists($file = $this->dataDir("/$dir/".strtolower($file).'.json'))) {
+        if (!file_exists($file) && !file_exists($file = $this->dataDir("/$dir/" . strtolower($file) . '.json'))) {
             return countriesCollect();
         }
 
@@ -92,7 +92,7 @@ class Helper
         countriesCollect(glob($this->dataDir($from)))->each(function ($from) use ($to) {
             $this->mkDir($dir = $this->dataDir($to));
 
-            rename($from, $dir.'/'.basename($from));
+            rename($from, $dir . '/' . basename($from));
         });
     }
 
@@ -105,9 +105,9 @@ class Helper
      */
     public function dataDir($path = '')
     {
-        $path = (empty($path) || Str::startsWith($path, DIRECTORY_SEPARATOR)) ? $path : "/{$path}";
+        $path = empty($path) || Str::startsWith($path, DIRECTORY_SEPARATOR) ? $path : "/{$path}";
 
-        return __COUNTRIES_DIR__.$this->toDir("/src/data$path");
+        return __COUNTRIES_DIR__ . $this->toDir("/src/data$path");
     }
 
     /**

@@ -1,34 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "50",
-            "100",
-            "500",
-            "1000",
-            "5000"
-        ],
-        "rare": [
-            "10",
-            "5"
-        ]
+        "frequent": ["50", "100", "500", "1000", "5000"],
+        "rare": ["10", "5"]
     },
     "coins": {
-        "frequent": [
-            "1",
-            "2",
-            "5",
-            "10"
-        ],
-        "rare": [
-            "k1",
-            "k5",
-            "k10",
-            "k50"
-        ]
+        "frequent": ["1", "2", "5", "10"],
+        "rare": ["k1", "k5", "k10", "k50"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "RUB",
         "number": "643"

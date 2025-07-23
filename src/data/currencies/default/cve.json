@@ -1,29 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$200",
-            "$500",
-            "$1000",
-            "$2000",
-            "$2500",
-            "$5000"
-        ],
+        "frequent": ["$200", "$500", "$1000", "$2000", "$2500", "$5000"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "$1",
-            "$5",
-            "$10",
-            "$20",
-            "$50",
-            "$100"
-        ],
+        "frequent": ["$1", "$5", "$10", "$20", "$50", "$100"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "CVE",
         "number": "132"

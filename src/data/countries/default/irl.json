@@ -46,31 +46,20 @@
         "Republic of Ireland",
         "Poblacht na h\u00c9ireann"
     ],
-    "borders": [
-        "GBR"
-    ],
+    "borders": ["GBR"],
     "brk_a3": "IRL",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Ireland",
-    "calling_codes": [
-        "+353"
-    ],
-    "capital": [
-        "Dublin"
-    ],
+    "calling_codes": ["+353"],
+    "capital": ["Dublin"],
     "capital_rinvex": "Dublin",
     "cca2": "IE",
     "cca3": "IRL",
     "ccn3": "372",
     "cioc": "IRL",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Irish",
     "demonyms": {
         "eng": {
@@ -83,16 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "353"
-        ],
+        "calling_code": ["353"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -117,10 +100,7 @@
         "marc": "ie",
         "vat_rates": {
             "parking": 13.5,
-            "reduced": [
-                9,
-                13.5
-            ],
+            "reduced": [9, 13.5],
             "standard": 23,
             "super_reduced": 4.8
         },
@@ -170,9 +150,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 70273,
-        "borders": [
-            "GBR"
-        ],
+        "borders": ["GBR"],
         "continent": {
             "EU": "Europe"
         },
@@ -180,10 +158,7 @@
         "landlocked": false,
         "latitude": "53 00 N",
         "latitude_desc": "53.1827278137207",
-        "latlng": [
-            53,
-            -8
-        ],
+        "latlng": [53, -8],
         "longitude": "8 00 W",
         "longitude_desc": "-8.196102142333984",
         "max_latitude": "55.433333",
@@ -205,9 +180,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "53"
-        ]
+        "suffixes": ["53"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -300,9 +273,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".ie"
-    ],
+    "tld": [".ie"],
     "translations": {
         "ces": {
             "common": "Irsko",

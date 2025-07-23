@@ -153,9 +153,11 @@ class Repository
     {
         $this->countriesJson = $this->loadCountriesJson();
 
-        $overload = $this->helper->loadJsonFiles($this->helper->dataDir('countries/overload'))->mapWithKeys(function ($country, $code) {
-            return [Str::upper($code) => $country];
-        });
+        $overload = $this->helper
+            ->loadJsonFiles($this->helper->dataDir('countries/overload'))
+            ->mapWithKeys(function ($country, $code) {
+                return [Str::upper($code) => $country];
+            });
 
         $this->countriesJson = $this->countriesJson->merge($overload);
 
@@ -171,9 +173,7 @@ class Repository
      */
     public function loadCountriesJson()
     {
-        $data = $this->helper->loadJson(
-            $fileName = $this->helper->dataDir('countries/default/_all_countries.json')
-        );
+        $data = $this->helper->loadJson($fileName = $this->helper->dataDir('countries/default/_all_countries.json'));
 
         if ($data->isEmpty()) {
             throw new \Exception("Could not load countries from {$fileName}");
@@ -192,7 +192,7 @@ class Repository
     public function loadCurrenciesForCountry($code)
     {
         $currencies = $this->helper->loadJson(
-            $this->helper->dataDir('currencies/default/'.strtolower($code).'.json')
+            $this->helper->dataDir('currencies/default/' . strtolower($code) . '.json'),
         );
 
         return $currencies;
@@ -215,13 +215,17 @@ class Repository
      */
     public function currencies()
     {
-        $currencies = $this->helper->loadJsonFiles($this->helper->dataDir('currencies/default'))->mapWithKeys(function ($country, $code) {
-            return [Str::upper($code) => $country];
-        });
+        $currencies = $this->helper
+            ->loadJsonFiles($this->helper->dataDir('currencies/default'))
+            ->mapWithKeys(function ($country, $code) {
+                return [Str::upper($code) => $country];
+            });
 
-        $overload = $this->helper->loadJsonFiles($this->helper->dataDir('currencies/overload'))->mapWithKeys(function ($country, $code) {
-            return [Str::upper($code) => $country];
-        });
+        $overload = $this->helper
+            ->loadJsonFiles($this->helper->dataDir('currencies/overload'))
+            ->mapWithKeys(function ($country, $code) {
+                return [Str::upper($code) => $country];
+            });
 
         return $currencies->merge($overload);
     }
@@ -238,14 +242,18 @@ class Repository
         return [
             // https://www.flag-sprites.com/
             // https://github.com/LeoColomb/flag-sprites
-            'sprite' => '<span class="flag flag-'.($cca3 = strtolower($country['cca3'])).'"></span>',
+            'sprite' => '<span class="flag flag-' . ($cca3 = strtolower($country['cca3'])) . '"></span>',
 
             // https://github.com/lipis/flag-icon-css
-            'flag-icon'         => '<span class="flag-icon flag-icon-'.($iso_3166_1_alpha2 = strtolower($country['iso_3166_1_alpha2'] ?? '')).'"></span>',
-            'flag-icon-squared' => '<span class="flag-icon flag-icon-'.$iso_3166_1_alpha2.' flag-icon-squared"></span>',
+            'flag-icon' =>
+                '<span class="flag-icon flag-icon-' .
+                ($iso_3166_1_alpha2 = strtolower($country['iso_3166_1_alpha2'] ?? '')) .
+                '"></span>',
+            'flag-icon-squared' =>
+                '<span class="flag-icon flag-icon-' . $iso_3166_1_alpha2 . ' flag-icon-squared"></span>',
 
             // https://github.com/lafeber/world-flags-sprite
-            'world-flags-sprite' => '<span class="flag '.$cca3.'"></span>',
+            'world-flags-sprite' => '<span class="flag ' . $cca3 . '"></span>',
 
             // Internal svg file
             'svg' => $this->getFlagSvg($country['cca3']),
@@ -263,9 +271,7 @@ class Repository
      */
     public function getFlagSvg($country)
     {
-        return $this->helper->loadFile(
-            $this->getFlagSvgPath($country)
-        );
+        return $this->helper->loadFile($this->getFlagSvgPath($country));
     }
 
     /**
@@ -277,7 +283,7 @@ class Repository
      */
     public function getFlagSvgPath($country)
     {
-        return $this->helper->dataDir('flags/'.strtolower($country).'.svg');
+        return $this->helper->dataDir('flags/' . strtolower($country) . '.svg');
     }
 
     /**
@@ -289,9 +295,7 @@ class Repository
      */
     public function getGeometry($country)
     {
-        return $this->helper->loadFile(
-            $this->helper->dataDir('geo/'.strtolower($country).'.geo.json')
-        );
+        return $this->helper->loadFile($this->helper->dataDir('geo/' . strtolower($country) . '.geo.json'));
     }
 
     /**
@@ -303,9 +307,7 @@ class Repository
      */
     public function getTopology($country)
     {
-        return $this->helper->loadFile(
-            $this->helper->dataDir('topo/'.strtolower($country).'.topo.json')
-        );
+        return $this->helper->loadFile($this->helper->dataDir('topo/' . strtolower($country) . '.topo.json'));
     }
 
     /**
@@ -331,7 +333,7 @@ class Repository
     public function findTimezones($countryCode)
     {
         return $this->helper->loadJson(
-            $this->helper->dataDir('timezones/countries/default/'.strtolower($countryCode).'.json')
+            $this->helper->dataDir('timezones/countries/default/' . strtolower($countryCode) . '.json'),
         );
     }
 
@@ -344,8 +346,6 @@ class Repository
      */
     public function findTimezoneTime($zoneId)
     {
-        return $this->helper->loadJson(
-            $this->helper->dataDir("timezones/timezones/default/{$zoneId}.json")
-        );
+        return $this->helper->loadJson($this->helper->dataDir("timezones/timezones/default/{$zoneId}.json"));
     }
 }

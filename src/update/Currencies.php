@@ -41,7 +41,9 @@ class Currencies extends Base
 
         $this->helper->eraseDataDir($dataDir = '/currencies/default');
 
-        $currencies = $this->helper->loadJsonFiles($directory = $this->helper->dataDir('third-party/world-currencies/package/src'));
+        $currencies = $this->helper->loadJsonFiles(
+            $directory = $this->helper->dataDir('third-party/world-currencies/package/src'),
+        );
 
         if ($currencies->isEmpty()) {
             throw new Exception("No currencies found in {$directory}");
@@ -61,15 +63,21 @@ class Currencies extends Base
             return [$item];
         };
 
-        $getCodeClosure = function () {
-        };
+        $getCodeClosure = function () {};
 
         $generateTaxData = function ($tax) {
             return $tax;
         };
 
-        $currencies = $this->updater->generateJsonFiles($currencies, $dataDir, $normalizerClosure, $getCodeClosure, $generateTaxData, null);
+        $currencies = $this->updater->generateJsonFiles(
+            $currencies,
+            $dataDir,
+            $normalizerClosure,
+            $getCodeClosure,
+            $generateTaxData,
+            null,
+        );
 
-        $this->helper->progress('Generated '.count($currencies).' currencies.');
+        $this->helper->progress('Generated ' . count($currencies) . ' currencies.');
     }
 }

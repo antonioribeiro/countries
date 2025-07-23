@@ -46,34 +46,20 @@
         "Repubulika y'u Rwanda",
         "R\u00e9publique du Rwanda"
     ],
-    "borders": [
-        "BDI",
-        "COD",
-        "TZA",
-        "UGA"
-    ],
+    "borders": ["BDI", "COD", "TZA", "UGA"],
     "brk_a3": "RWA",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Rwanda",
-    "calling_codes": [
-        "+250"
-    ],
-    "capital": [
-        "Kigali"
-    ],
+    "calling_codes": ["+250"],
+    "capital": ["Kigali"],
     "capital_rinvex": "Kigali",
     "cca2": "RW",
     "cca3": "RWA",
     "ccn3": "646",
     "cioc": "RWA",
-    "currencies": [
-        "RWF"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["RWF"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Rwandan",
     "demonyms": {
         "eng": {
@@ -86,17 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "250"
-        ],
+        "calling_code": ["250"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9],
         "national_prefix": "0"
     },
     "economy": "7. Least developed region",
@@ -166,12 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 26338,
-        "borders": [
-            "BDI",
-            "COD",
-            "TZA",
-            "UGA"
-        ],
+        "borders": ["BDI", "COD", "TZA", "UGA"],
         "continent": {
             "AF": "Africa"
         },
@@ -179,10 +153,7 @@
         "landlocked": true,
         "latitude": "2 00 S",
         "latitude_desc": "-1.9999498128890991",
-        "latlng": [
-            -2,
-            30
-        ],
+        "latlng": [-2, 30],
         "longitude": "30 00 E",
         "longitude_desc": "29.926057815551758",
         "max_latitude": "5",
@@ -204,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+2",
-        "suffixes": [
-            "50"
-        ]
+        "suffixes": ["50"]
     },
     "income_grp": "5. Low income",
     "independent": true,
@@ -304,9 +273,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".rw"
-    ],
+    "tld": [".rw"],
     "translations": {
         "ces": {
             "common": "Rwanda",

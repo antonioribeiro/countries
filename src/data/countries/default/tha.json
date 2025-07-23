@@ -48,34 +48,20 @@
         "\u0e23\u0e32\u0e0a\u0e2d\u0e32\u0e13\u0e32\u0e08\u0e31\u0e01\u0e23\u0e44\u0e17\u0e22",
         "Ratcha Anachak Thai"
     ],
-    "borders": [
-        "MMR",
-        "KHM",
-        "LAO",
-        "MYS"
-    ],
+    "borders": ["MMR", "KHM", "LAO", "MYS"],
     "brk_a3": "THA",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Thailand",
-    "calling_codes": [
-        "+66"
-    ],
-    "capital": [
-        "Bangkok"
-    ],
+    "calling_codes": ["+66"],
+    "capital": ["Bangkok"],
     "capital_rinvex": "Bangkok",
     "cca2": "TH",
     "cca3": "THA",
     "ccn3": "764",
     "cioc": "THA",
-    "currencies": [
-        "THB"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["THB"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Thai",
     "demonyms": {
         "eng": {
@@ -88,17 +74,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "66"
-        ],
+        "calling_code": ["66"],
         "international_prefix": "001",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9,
-            10
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9, 10],
         "national_prefix": "0"
     },
     "economy": "5. Emerging region: G20",
@@ -168,12 +147,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 513120,
-        "borders": [
-            "MMR",
-            "KHM",
-            "LAO",
-            "MYS"
-        ],
+        "borders": ["MMR", "KHM", "LAO", "MYS"],
         "continent": {
             "AS": "Asia"
         },
@@ -181,10 +155,7 @@
         "landlocked": false,
         "latitude": "15 00 N",
         "latitude_desc": "14.48458194732666",
-        "latlng": [
-            15,
-            100
-        ],
+        "latlng": [15, 100],
         "longitude": "100 00 E",
         "longitude_desc": "100.85191345214844",
         "max_latitude": "20.442778",
@@ -206,9 +177,7 @@
     "homepart": "1",
     "idd": {
         "root": "+6",
-        "suffixes": [
-            "6"
-        ]
+        "suffixes": ["6"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -296,10 +265,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".th",
-        ".\u0e44\u0e17\u0e22"
-    ],
+    "tld": [".th", ".\u0e44\u0e17\u0e22"],
     "translations": {
         "ces": {
             "common": "Thajsko",

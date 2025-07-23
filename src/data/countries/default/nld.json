@@ -40,43 +40,22 @@
     "adm0_iso": "NLD",
     "adm0_tlc": "NLD",
     "admin": "Netherlands",
-    "alt_spellings": [
-        "NL",
-        "Holland",
-        "Nederland",
-        "The Netherlands"
-    ],
-    "alt_spellings_rinvex": [
-        "NL",
-        "Holland",
-        "Nederland"
-    ],
-    "borders": [
-        "BEL",
-        "DEU"
-    ],
+    "alt_spellings": ["NL", "Holland", "Nederland", "The Netherlands"],
+    "alt_spellings_rinvex": ["NL", "Holland", "Nederland"],
+    "borders": ["BEL", "DEU"],
     "brk_a3": "NLD",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Netherlands",
-    "calling_codes": [
-        "+31"
-    ],
-    "capital": [
-        "Amsterdam"
-    ],
+    "calling_codes": ["+31"],
+    "capital": ["Amsterdam"],
     "capital_rinvex": "Amsterdam",
     "cca2": "NL",
     "cca3": "NLD",
     "ccn3": "528",
     "cioc": "NED",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Dutch",
     "demonyms": {
         "eng": {
@@ -89,16 +68,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "31"
-        ],
+        "calling_code": ["31"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -123,9 +96,7 @@
         "marc": "ne",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                9
-            ],
+            "reduced": [9],
             "standard": 21,
             "super_reduced": null
         },
@@ -175,10 +146,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 41850,
-        "borders": [
-            "BEL",
-            "DEU"
-        ],
+        "borders": ["BEL", "DEU"],
         "continent": {
             "EU": "Europe"
         },
@@ -186,10 +154,7 @@
         "landlocked": false,
         "latitude": "52 30 N",
         "latitude_desc": "52.34225845336914",
-        "latlng": [
-            52.5,
-            5.75
-        ],
+        "latlng": [52.5, 5.75],
         "longitude": "5 45 E",
         "longitude_desc": "5.5281572341918945",
         "max_latitude": "53.583333",
@@ -211,9 +176,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "1"
-        ]
+        "suffixes": ["1"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -311,9 +274,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".nl"
-    ],
+    "tld": [".nl"],
     "translations": {
         "ces": {
             "common": "Nizozemsko",

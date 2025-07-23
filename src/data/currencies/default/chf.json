@@ -1,30 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "CHF10",
-            "CHF20",
-            "CHF50",
-            "CHF100",
-            "CHF200",
-            "CHF1000"
-        ],
+        "frequent": ["CHF10", "CHF20", "CHF50", "CHF100", "CHF200", "CHF1000"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "5Rp.",
-            "10Rp.",
-            "20Rp.",
-            "50Rp.",
-            "CHF1",
-            "CHF2",
-            "CHF5"
-        ],
+        "frequent": ["5Rp.", "10Rp.", "20Rp.", "50Rp.", "CHF1", "CHF2", "CHF5"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "CHF",
         "number": "756"

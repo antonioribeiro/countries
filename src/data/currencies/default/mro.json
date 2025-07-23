@@ -1,30 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "100",
-            "200",
-            "500",
-            "1000",
-            "2000",
-            "5000"
-        ],
+        "frequent": ["100", "200", "500", "1000", "2000", "5000"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "5",
-            "10",
-            "20",
-            "50"
-        ],
-        "rare": [
-            "1 khoums",
-            "1 ouguiya"
-        ]
+        "frequent": ["5", "10", "20", "50"],
+        "rare": ["1 khoums", "1 ouguiya"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "MRO",
         "number": "478"

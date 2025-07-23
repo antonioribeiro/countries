@@ -12,18 +12,10 @@
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "$U1",
-            "$U2",
-            "$U5",
-            "$U10",
-            "$U50"
-        ],
+        "frequent": ["$U1", "$U2", "$U5", "$U10", "$U50"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "UYU",
         "number": "858"

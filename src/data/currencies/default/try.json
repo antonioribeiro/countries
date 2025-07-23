@@ -1,31 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "5",
-            "10",
-            "20",
-            "50"
-        ],
-        "rare": [
-            "100",
-            "200"
-        ]
+        "frequent": ["5", "10", "20", "50"],
+        "rare": ["100", "200"]
     },
     "coins": {
-        "frequent": [
-            "5Kr",
-            "10Kr",
-            "25Kr",
-            "50Kr",
-            "1"
-        ],
-        "rare": [
-            "1Kr"
-        ]
+        "frequent": ["5Kr", "10Kr", "25Kr", "50Kr", "1"],
+        "rare": ["1Kr"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "TRY",
         "number": "949"

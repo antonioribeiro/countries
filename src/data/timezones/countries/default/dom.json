@@ -1,19 +1,10 @@
 {
     "america_santo__domingo": {
-        "abbreviations": [
-            "AST",
-            "EDT",
-            "EHDT",
-            "EST",
-            "LMT",
-            "SDMT"
-        ],
+        "abbreviations": ["AST", "EDT", "EHDT", "EST", "LMT", "SDMT"],
         "cca2": "DO",
         "cca3": "DOM",
         "country_code": "DO",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "139",
         "zone_name": "America\/Santo_Domingo"

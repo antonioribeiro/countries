@@ -45,39 +45,20 @@
         "Federal Republic of Germany",
         "Bundesrepublik Deutschland"
     ],
-    "borders": [
-        "AUT",
-        "BEL",
-        "CZE",
-        "DNK",
-        "FRA",
-        "LUX",
-        "NLD",
-        "POL",
-        "CHE"
-    ],
+    "borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"],
     "brk_a3": "DEU",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Germany",
-    "calling_codes": [
-        "+49"
-    ],
-    "capital": [
-        "Berlin"
-    ],
+    "calling_codes": ["+49"],
+    "capital": ["Berlin"],
     "capital_rinvex": "Berlin",
     "cca2": "DE",
     "cca3": "DEU",
     "ccn3": "276",
     "cioc": "GER",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "German",
     "demonyms": {
         "eng": {
@@ -90,24 +71,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "49"
-        ],
+        "calling_code": ["49"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2,
-            3,
-            4,
-            5
-        ],
-        "national_number_lengths": [
-            6,
-            7,
-            8,
-            9,
-            10,
-            11
-        ],
+        "national_destination_code_lengths": [2, 3, 4, 5],
+        "national_number_lengths": [6, 7, 8, 9, 10, 11],
         "national_prefix": "0"
     },
     "economy": "1. Developed region: G7",
@@ -132,9 +99,7 @@
         "marc": "gw",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                7
-            ],
+            "reduced": [7],
             "standard": 19,
             "super_reduced": null
         },
@@ -202,10 +167,7 @@
         "landlocked": false,
         "latitude": "51 00 N",
         "latitude_desc": "51.20246505737305",
-        "latlng": [
-            51,
-            9
-        ],
+        "latlng": [51, 9],
         "longitude": "9 00 E",
         "longitude_desc": "10.382203102111816",
         "max_latitude": "55.05",
@@ -227,9 +189,7 @@
     "homepart": "1",
     "idd": {
         "root": "+4",
-        "suffixes": [
-            "9"
-        ]
+        "suffixes": ["9"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -317,9 +277,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".de"
-    ],
+    "tld": [".de"],
     "translations": {
         "ces": {
             "common": "N\u011bmecko",

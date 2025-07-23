@@ -65,7 +65,7 @@ class Countries extends Base
         ?Cache $cache = null,
         ?Helper $helper = null,
         ?Hydrator $hydrator = null,
-        ?Repository $repository = null
+        ?Repository $repository = null,
     ) {
         $a = new \PragmaRX\Countries\Package\Services\Cache\Service();
 
@@ -112,7 +112,7 @@ class Countries extends Base
         });
 
         foreach (Hydrator::HYDRATORS as $hydrator) {
-            $hydrator = 'hydrate'.Str::studly($hydrator);
+            $hydrator = 'hydrate' . Str::studly($hydrator);
 
             Collection::macro($hydrator, function () use ($hydrator, $instance) {
                 return $instance->getRepository()->getHydrator()->{$hydrator}($this);
@@ -127,7 +127,9 @@ class Countries extends Base
      */
     public function currencies()
     {
-        return countriesCollect($this->repository->currencies())->unique()->sort();
+        return countriesCollect($this->repository->currencies())
+            ->unique()
+            ->sort();
     }
 
     /**
@@ -182,9 +184,7 @@ class Countries extends Base
     protected function instantiateCache(?Cache $cache = null)
     {
         if (\is_null($this->cache) || !\is_null($cache)) {
-            $this->cache = !\is_null($cache)
-                ? $cache
-                : new Cache($this->config);
+            $this->cache = !\is_null($cache) ? $cache : new Cache($this->config);
         }
 
         return $this->cache;
@@ -200,9 +200,7 @@ class Countries extends Base
     protected function instantiateConfig($config = null)
     {
         if (\is_null($this->config) || !\is_null($config)) {
-            $this->config = !\is_null($config)
-                ? $config
-                : new Config($this->helper);
+            $this->config = !\is_null($config) ? $config : new Config($this->helper);
         }
 
         return $this->config;
@@ -217,7 +215,7 @@ class Countries extends Base
     {
         $this->helper = \is_null($helper)
             ? (\is_null($this->helper)
-                ? $this->helper = new Helper($this->instantiateConfig())
+                ? ($this->helper = new Helper($this->instantiateConfig()))
                 : $this->helper)
             : $helper;
 
@@ -234,9 +232,7 @@ class Countries extends Base
     protected function instantiateHydrator(?Hydrator $hydrator = null)
     {
         if (\is_null($this->hydrator) || !\is_null($hydrator)) {
-            $this->hydrator = !\is_null($hydrator)
-                ? $hydrator
-                : new Hydrator($this->config);
+            $this->hydrator = !\is_null($hydrator) ? $hydrator : new Hydrator($this->config);
         }
 
         return $this->hydrator;
@@ -254,7 +250,7 @@ class Countries extends Base
                 $this->instantiateCache(),
                 $this->instantiateHydrator(),
                 $this->instantiateHelper(),
-                $this->instantiateConfig()
+                $this->instantiateConfig(),
             );
         }
 

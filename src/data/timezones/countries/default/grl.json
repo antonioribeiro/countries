@@ -1,66 +1,40 @@
 {
     "america_danmarkshavn": {
-        "abbreviations": [
-            "GMT",
-            "LMT",
-            "WGST",
-            "WGT"
-        ],
+        "abbreviations": ["GMT", "LMT", "WGST", "WGT"],
         "cca2": "GL",
         "cca3": "GRL",
         "country_code": "GL",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "168",
         "zone_name": "America\/Danmarkshavn"
     },
     "america_nuuk": {
-        "abbreviations": [
-            "LMT",
-            "WGST",
-            "WGT"
-        ],
+        "abbreviations": ["LMT", "WGST", "WGT"],
         "cca2": "GL",
         "cca3": "GRL",
         "country_code": "GL",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "167",
         "zone_name": "America\/Nuuk"
     },
     "america_scoresbysund": {
-        "abbreviations": [
-            "CGT",
-            "EGST",
-            "EGT",
-            "LMT"
-        ],
+        "abbreviations": ["CGT", "EGST", "EGT", "LMT"],
         "cca2": "GL",
         "cca3": "GRL",
         "country_code": "GL",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "169",
         "zone_name": "America\/Scoresbysund"
     },
     "america_thule": {
-        "abbreviations": [
-            "ADT",
-            "AST",
-            "LMT"
-        ],
+        "abbreviations": ["ADT", "AST", "LMT"],
         "cca2": "GL",
         "cca3": "GRL",
         "country_code": "GL",
-        "data_sources": [
-            "timezonedb"
-        ],
+        "data_sources": ["timezonedb"],
         "record_type": "timezone",
         "zone_id": "170",
         "zone_name": "America\/Thule"

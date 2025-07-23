@@ -45,35 +45,20 @@
         "Republic of Bulgaria",
         "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f"
     ],
-    "borders": [
-        "GRC",
-        "MKD",
-        "ROU",
-        "SRB",
-        "TUR"
-    ],
+    "borders": ["GRC", "MKD", "ROU", "SRB", "TUR"],
     "brk_a3": "BGR",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Bulgaria",
-    "calling_codes": [
-        "+359"
-    ],
-    "capital": [
-        "Sofia"
-    ],
+    "calling_codes": ["+359"],
+    "capital": ["Sofia"],
     "capital_rinvex": "Sofia",
     "cca2": "BG",
     "cca3": "BGR",
     "ccn3": "100",
     "cioc": "BUL",
-    "currencies": [
-        "BGN"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["BGN"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Bulgarian",
     "demonyms": {
         "eng": {
@@ -86,18 +71,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "359"
-        ],
+        "calling_code": ["359"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9,
-            10
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9, 10],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -122,9 +99,7 @@
         "marc": "bu",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                9
-            ],
+            "reduced": [9],
             "standard": 20,
             "super_reduced": null
         },
@@ -174,13 +149,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 110879,
-        "borders": [
-            "GRC",
-            "MKD",
-            "ROU",
-            "SRB",
-            "TUR"
-        ],
+        "borders": ["GRC", "MKD", "ROU", "SRB", "TUR"],
         "continent": {
             "EU": "Europe"
         },
@@ -188,10 +157,7 @@
         "landlocked": false,
         "latitude": "43 00 N",
         "latitude_desc": "42.7661018371582",
-        "latlng": [
-            43,
-            25
-        ],
+        "latlng": [43, 25],
         "longitude": "25 00 E",
         "longitude_desc": "25.283733367919922",
         "max_latitude": "44.193611",
@@ -213,9 +179,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "59"
-        ]
+        "suffixes": ["59"]
     },
     "income_grp": "3. Upper middle income",
     "independent": true,
@@ -304,9 +268,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".bg"
-    ],
+    "tld": [".bg"],
     "translations": {
         "ces": {
             "common": "Bulharsko",

@@ -46,35 +46,20 @@
         "Republic of Croatia",
         "Republika Hrvatska"
     ],
-    "borders": [
-        "BIH",
-        "HUN",
-        "MNE",
-        "SRB",
-        "SVN"
-    ],
+    "borders": ["BIH", "HUN", "MNE", "SRB", "SVN"],
     "brk_a3": "HRV",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Croatia",
-    "calling_codes": [
-        "+385"
-    ],
-    "capital": [
-        "Zagreb"
-    ],
+    "calling_codes": ["+385"],
+    "capital": ["Zagreb"],
     "capital_rinvex": "Zagreb",
     "cca2": "HR",
     "cca3": "HRV",
     "ccn3": "191",
     "cioc": "CRO",
-    "currencies": [
-        "HRK"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["HRK"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Croatian",
     "demonyms": {
         "eng": {
@@ -87,16 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "385"
-        ],
+        "calling_code": ["385"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -121,10 +100,7 @@
         "marc": "ci",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                5,
-                13
-            ],
+            "reduced": [5, 13],
             "standard": 25,
             "super_reduced": null
         },
@@ -174,13 +150,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 56594,
-        "borders": [
-            "BIH",
-            "HUN",
-            "MNE",
-            "SRB",
-            "SVN"
-        ],
+        "borders": ["BIH", "HUN", "MNE", "SRB", "SVN"],
         "continent": {
             "EU": "Europe"
         },
@@ -188,10 +158,7 @@
         "landlocked": false,
         "latitude": "45 10 N",
         "latitude_desc": "45.444305419921875",
-        "latlng": [
-            45.16666666,
-            15.5
-        ],
+        "latlng": [45.16666666, 15.5],
         "longitude": "15 30 E",
         "longitude_desc": "15.734503746032715",
         "max_latitude": "46.526944",
@@ -213,9 +180,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "85"
-        ]
+        "suffixes": ["85"]
     },
     "income_grp": "2. High income: nonOECD",
     "independent": true,
@@ -304,9 +269,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".hr"
-    ],
+    "tld": [".hr"],
     "translations": {
         "ces": {
             "common": "Chorvatsko",

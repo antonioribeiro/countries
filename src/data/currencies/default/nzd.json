@@ -1,27 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$5",
-            "$10",
-            "$20",
-            "$50",
-            "$100"
-        ],
+        "frequent": ["$5", "$10", "$20", "$50", "$100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "10c",
-            "20c",
-            "50c",
-            "$1",
-            "$2"
-        ],
+        "frequent": ["10c", "20c", "50c", "$1", "$2"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "NZD",
         "number": "554"

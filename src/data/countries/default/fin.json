@@ -47,33 +47,20 @@
         "Suomen tasavalta",
         "Republiken Finland"
     ],
-    "borders": [
-        "NOR",
-        "SWE",
-        "RUS"
-    ],
+    "borders": ["NOR", "SWE", "RUS"],
     "brk_a3": "FIN",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Finland",
-    "calling_codes": [
-        "+358"
-    ],
-    "capital": [
-        "Helsinki"
-    ],
+    "calling_codes": ["+358"],
+    "capital": ["Helsinki"],
     "capital_rinvex": "Helsinki",
     "cca2": "FI",
     "cca3": "FIN",
     "ccn3": "246",
     "cioc": "FIN",
-    "currencies": [
-        "EUR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["EUR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Finnish",
     "demonyms": {
         "eng": {
@@ -86,16 +73,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "358"
-        ],
+        "calling_code": ["358"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [9],
         "national_prefix": "0"
     },
     "economy": "2. Developed region: nonG7",
@@ -120,10 +101,7 @@
         "marc": "fi",
         "vat_rates": {
             "parking": null,
-            "reduced": [
-                10,
-                14
-            ],
+            "reduced": [10, 14],
             "standard": 24,
             "super_reduced": null
         },
@@ -173,11 +151,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 338424,
-        "borders": [
-            "NOR",
-            "SWE",
-            "RUS"
-        ],
+        "borders": ["NOR", "SWE", "RUS"],
         "continent": {
             "EU": "Europe"
         },
@@ -185,10 +159,7 @@
         "landlocked": false,
         "latitude": "64 00 N",
         "latitude_desc": "64.28858184814453",
-        "latlng": [
-            64,
-            26
-        ],
+        "latlng": [64, 26],
         "longitude": "26 00 E",
         "longitude_desc": "25.989402770996094",
         "max_latitude": "70.083333",
@@ -210,9 +181,7 @@
     "homepart": "1",
     "idd": {
         "root": "+3",
-        "suffixes": [
-            "58"
-        ]
+        "suffixes": ["58"]
     },
     "income_grp": "1. High income: OECD",
     "independent": true,
@@ -305,9 +274,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".fi"
-    ],
+    "tld": [".fi"],
     "translations": {
         "ces": {
             "common": "Finsko",

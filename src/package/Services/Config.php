@@ -36,7 +36,7 @@ class Config
     public function get($key)
     {
         // Handle dot notation for nested keys
-        $keys = explode('.', $this->prefix.$key);
+        $keys = explode('.', $this->prefix . $key);
         $value = $this->config;
 
         foreach ($keys as $segment) {
@@ -78,9 +78,7 @@ class Config
      */
     protected function loadConfig()
     {
-        return countriesCollect(
-            require __DIR__.'/../../config/countries.php'
-        );
+        return countriesCollect(require __DIR__ . '/../../config/countries.php');
     }
 
     /**

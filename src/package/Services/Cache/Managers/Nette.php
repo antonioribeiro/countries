@@ -63,7 +63,8 @@ class Nette implements CacheInterface
     public function getCacheDir()
     {
         if (\is_null($this->dir)) {
-            $this->dir = $this->config->get('cache')['directory'] ?: sys_get_temp_dir().'/__PRAGMARX_COUNTRIES__/cache';
+            $this->dir =
+                $this->config->get('cache')['directory'] ?: sys_get_temp_dir() . '/__PRAGMARX_COUNTRIES__/cache';
 
             if (!file_exists($this->dir)) {
                 mkdir($this->dir, 0755, true);
@@ -82,11 +83,7 @@ class Nette implements CacheInterface
      */
     public function getStorage($path = null)
     {
-        return new FileStorage(
-            \is_null($path)
-                ? $this->getCacheDir()
-                : $path
-        );
+        return new FileStorage(\is_null($path) ? $this->getCacheDir() : $path);
     }
 
     /**
@@ -113,7 +110,7 @@ class Nette implements CacheInterface
      */
     protected function makeExpiration($ttl)
     {
-        return ($ttl ?: $this->config->get('cache.duration')).' minutes';
+        return ($ttl ?: $this->config->get('cache.duration')) . ' minutes';
     }
 
     /**

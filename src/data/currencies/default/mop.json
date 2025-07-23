@@ -1,12 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "MOP$10",
-            "MOP$20",
-            "MOP$100",
-            "MOP$500",
-            "MOP$1000"
-        ],
+        "frequent": ["MOP$10", "MOP$20", "MOP$100", "MOP$500", "MOP$1000"],
         "rare": []
     },
     "coins": {
@@ -21,9 +15,7 @@
         ],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "MOP",
         "number": "446"

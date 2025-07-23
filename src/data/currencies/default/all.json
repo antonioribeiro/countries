@@ -1,28 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "Lek200",
-            "Lek500",
-            "Lek1000",
-            "Lek2000",
-            "Lek5000"
-        ],
+        "frequent": ["Lek200", "Lek500", "Lek1000", "Lek2000", "Lek5000"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "Lek1",
-            "Lek5",
-            "Lek10",
-            "Lek20",
-            "Lek50",
-            "Lek100"
-        ],
+        "frequent": ["Lek1", "Lek5", "Lek10", "Lek20", "Lek50", "Lek100"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "ALL",
         "number": "008"

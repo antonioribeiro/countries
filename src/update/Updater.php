@@ -149,15 +149,13 @@ class Updater extends Base
 
     protected function instantiateCommand($command)
     {
-        return is_null($command)
-            ? new Command()
-            : $command;
+        return is_null($command) ? new Command() : $command;
     }
 
     private function loadCountries()
     {
         if (is_null($this->_countries)) {
-            $this->_countries = $this->helper->loadJson(__DIR__.'/../data/countries/default/_all_countries.json');
+            $this->_countries = $this->helper->loadJson(__DIR__ . '/../data/countries/default/_all_countries.json');
         }
     }
 
@@ -211,7 +209,7 @@ class Updater extends Base
             $record = $record->toArray();
         }
 
-        if (!isset($record[$field = 'data_sources'])) {
+        if (!isset($record[($field = 'data_sources')])) {
             $record['data_sources'] = [];
         }
 
@@ -297,19 +295,17 @@ class Updater extends Base
         $records->each(function (Collection $record, $key) use ($dir, $makeGroupKeyClosure) {
             $this->helper->mkdir(dirname($file = $this->helper->makeJsonFileName($key, $dir)));
 
-            $record = $record->mapWithKeys(function ($record, $key) use ($makeGroupKeyClosure) {
-                $key = is_null($makeGroupKeyClosure)
-                    ? $key
-                    : $makeGroupKeyClosure($record, $key);
+            $record = $record
+                ->mapWithKeys(function ($record, $key) use ($makeGroupKeyClosure) {
+                    $key = is_null($makeGroupKeyClosure) ? $key : $makeGroupKeyClosure($record, $key);
 
-                $record = countriesCollect($record)->sortBy(function ($value, $key) {
-                    return $key;
-                });
+                    $record = countriesCollect($record)->sortBy(function ($value, $key) {
+                        return $key;
+                    });
 
-                return empty($key)
-                    ? $record
-                    : [$key => $record];
-            })->sortByKeysRecursive();
+                    return empty($key) ? $record : [$key => $record];
+                })
+                ->sortByKeysRecursive();
 
             file_put_contents($file, $this->helper->jsonEncode($record));
         });
@@ -327,8 +323,14 @@ class Updater extends Base
      *
      * @return \Illuminate\Support\Collection
      */
-    public function generateJsonFiles($data, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
-    {
+    public function generateJsonFiles(
+        $data,
+        $dir,
+        $normalizerClosure,
+        $makeGroupKeyClosure,
+        $mergeData,
+        $groupKey = 'cca3',
+    ) {
         $this->helper->message('Normalizing data...');
 
         $data = $this->normalizeData($data, $dir, $normalizerClosure);
@@ -355,21 +357,24 @@ class Updater extends Base
     {
         $counter = 0;
 
-        return $this->cache->remember(
-            'normalizeData'.$dir,
-            160,
-            function () use ($result, $normalizerClosure, &$counter) {
-                return countriesCollect($result)->map(function ($item, $key) use ($normalizerClosure, &$counter) {
-                    if ($counter++ % 1000 === 0) {
-                        $this->helper->message("Normalized: {$counter}");
-                    }
+        return $this->cache->remember('normalizeData' . $dir, 160, function () use (
+            $result,
+            $normalizerClosure,
+            &$counter,
+        ) {
+            return countriesCollect($result)->map(function ($item, $key) use ($normalizerClosure, &$counter) {
+                if ($counter++ % 1000 === 0) {
+                    $this->helper->message("Normalized: {$counter}");
+                }
 
-                    return $normalizerClosure(collect($item)->mapWithKeys(function ($value, $key) {
+                return $normalizerClosure(
+                    collect($item)->mapWithKeys(function ($value, $key) {
                         return [strtolower($key) => $value];
-                    }), $key);
-                });
-            }
-        );
+                    }),
+                    $key,
+                );
+            });
+        });
     }
 
     /**
@@ -381,12 +386,7 @@ class Updater extends Base
      */
     public function normalizeStateOrCityData($item)
     {
-        $fields = [
-            ['cca2', 'iso_a2'],
-            ['name.common', 'admin'],
-            ['name.official', 'admin'],
-            ['adm0_a3', 'adm0_a3'],
-        ];
+        $fields = [['cca2', 'iso_a2'], ['name.common', 'admin'], ['name.official', 'admin'], ['adm0_a3', 'adm0_a3']];
 
         [, $countryCode] = $this->findByFields($this->_countries, $item, $fields, 'cca3');
 
@@ -394,9 +394,7 @@ class Updater extends Base
             $countryCode = $this->helper->caseForKey($item['name']);
         }
 
-        $item['iso_a3'] = !isset($item['iso_a3'])
-            ? $countryCode
-            : $item['iso_a3'];
+        $item['iso_a3'] = !isset($item['iso_a3']) ? $countryCode : $item['iso_a3'];
 
         $item['cca3'] = $item['iso_a3'];
 

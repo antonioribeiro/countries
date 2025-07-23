@@ -1,27 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "GH\u00a25",
-            "GH\u00a210",
-            "GH\u00a220",
-            "GH\u00a250"
-        ],
+        "frequent": ["GH\u00a25", "GH\u00a210", "GH\u00a220", "GH\u00a250"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "GH\u00a21",
-            "1Gp",
-            "5Gp",
-            "10Gp",
-            "20Gp",
-            "50Gp"
-        ],
+        "frequent": ["GH\u00a21", "1Gp", "5Gp", "10Gp", "20Gp", "50Gp"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "GHS",
         "number": "936"

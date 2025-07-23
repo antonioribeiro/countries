@@ -1,28 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "Br1",
-            "Br5",
-            "Br10",
-            "Br50",
-            "Br100"
-        ],
+        "frequent": ["Br1", "Br5", "Br10", "Br50", "Br100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "1",
-            "5",
-            "10",
-            "25",
-            "50",
-            "Br1"
-        ],
+        "frequent": ["1", "5", "10", "25", "50", "Br1"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "ETB",
         "number": "230"

@@ -51,24 +51,15 @@
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Singapore",
-    "calling_codes": [
-        "+65"
-    ],
-    "capital": [
-        "Singapore"
-    ],
+    "calling_codes": ["+65"],
+    "capital": ["Singapore"],
     "capital_rinvex": "Singapore",
     "cca2": "SG",
     "cca3": "SGP",
     "ccn3": "702",
     "cioc": "SIN",
-    "currencies": [
-        "SGD"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["SGD"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Singaporean",
     "demonyms": {
         "eng": {
@@ -81,17 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "65"
-        ],
+        "calling_code": ["65"],
         "international_prefix": "001",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8,
-            9
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8, 9],
         "national_prefix": null
     },
     "economy": "6. Developing region",
@@ -169,10 +153,7 @@
         "landlocked": false,
         "latitude": "1 22 N",
         "latitude_desc": "1.3219958543777466",
-        "latlng": [
-            1.36666666,
-            103.8
-        ],
+        "latlng": [1.36666666, 103.8],
         "longitude": "103 48 E",
         "longitude_desc": "103.8205337524414",
         "max_latitude": "4",
@@ -194,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+6",
-        "suffixes": [
-            "5"
-        ]
+        "suffixes": ["5"]
     },
     "income_grp": "2. High income: nonOECD",
     "independent": true,

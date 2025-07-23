@@ -46,35 +46,20 @@
         "Lao People's Democratic Republic",
         "Sathalanalat Paxathipatai Paxaxon Lao"
     ],
-    "borders": [
-        "MMR",
-        "KHM",
-        "CHN",
-        "THA",
-        "VNM"
-    ],
+    "borders": ["MMR", "KHM", "CHN", "THA", "VNM"],
     "brk_a3": "LAO",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "Laos",
-    "calling_codes": [
-        "+856"
-    ],
-    "capital": [
-        "Vientiane"
-    ],
+    "calling_codes": ["+856"],
+    "capital": ["Vientiane"],
     "capital_rinvex": "Vientiane",
     "cca2": "LA",
     "cca3": "LAO",
     "ccn3": "418",
     "cioc": "LAO",
-    "currencies": [
-        "LAK"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["LAK"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Laotian",
     "demonyms": {
         "eng": {
@@ -87,16 +72,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "856"
-        ],
+        "calling_code": ["856"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            8
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [8],
         "national_prefix": "0"
     },
     "economy": "7. Least developed region",
@@ -166,13 +145,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 236800,
-        "borders": [
-            "MMR",
-            "KHM",
-            "CHN",
-            "THA",
-            "VNM"
-        ],
+        "borders": ["MMR", "KHM", "CHN", "THA", "VNM"],
         "continent": {
             "AS": "Asia"
         },
@@ -180,10 +153,7 @@
         "landlocked": true,
         "latitude": "18 00 N",
         "latitude_desc": "18.65074920654297",
-        "latlng": [
-            18,
-            105
-        ],
+        "latlng": [18, 105],
         "longitude": "105 00 E",
         "longitude_desc": "104.15293884277344",
         "max_latitude": "22.5",
@@ -205,9 +175,7 @@
     "homepart": "1",
     "idd": {
         "root": "+8",
-        "suffixes": [
-            "56"
-        ]
+        "suffixes": ["56"]
     },
     "income_grp": "4. Lower middle income",
     "independent": true,
@@ -295,9 +263,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".la"
-    ],
+    "tld": [".la"],
     "translations": {
         "ces": {
             "common": "Laos",

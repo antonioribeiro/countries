@@ -1,32 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "KSh50",
-            "KSh100",
-            "KSh200",
-            "KSh500",
-            "KSh1000"
-        ],
-        "rare": [
-            "KSh10",
-            "KSh20"
-        ]
+        "frequent": ["KSh50", "KSh100", "KSh200", "KSh500", "KSh1000"],
+        "rare": ["KSh10", "KSh20"]
     },
     "coins": {
-        "frequent": [
-            "KSh1",
-            "KSh5",
-            "KSh10",
-            "KSh20"
-        ],
-        "rare": [
-            "c50",
-            "c40"
-        ]
+        "frequent": ["KSh1", "KSh5", "KSh10", "KSh20"],
+        "rare": ["c50", "c40"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "KES",
         "number": "404"

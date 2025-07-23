@@ -47,36 +47,20 @@
         "Bharat Ganrajya",
         "\u0b87\u0ba8\u0bcd\u0ba4\u0bbf\u0baf\u0bbe"
     ],
-    "borders": [
-        "BGD",
-        "BTN",
-        "MMR",
-        "CHN",
-        "NPL",
-        "PAK"
-    ],
+    "borders": ["BGD", "BTN", "MMR", "CHN", "NPL", "PAK"],
     "brk_a3": "IND",
     "brk_diff": "0",
     "brk_group": "",
     "brk_name": "India",
-    "calling_codes": [
-        "+91"
-    ],
-    "capital": [
-        "New Delhi"
-    ],
+    "calling_codes": ["+91"],
+    "capital": ["New Delhi"],
     "capital_rinvex": "New Delhi",
     "cca2": "IN",
     "cca3": "IND",
     "ccn3": "356",
     "cioc": "IND",
-    "currencies": [
-        "INR"
-    ],
-    "data_sources": [
-        "mledoze",
-        "natural"
-    ],
+    "currencies": ["INR"],
+    "data_sources": ["mledoze", "natural"],
     "demonym": "Indian",
     "demonyms": {
         "eng": {
@@ -89,16 +73,10 @@
         }
     },
     "dialling": {
-        "calling_code": [
-            "91"
-        ],
+        "calling_code": ["91"],
         "international_prefix": "00",
-        "national_destination_code_lengths": [
-            2
-        ],
-        "national_number_lengths": [
-            10
-        ],
+        "national_destination_code_lengths": [2],
+        "national_number_lengths": [10],
         "national_prefix": "0"
     },
     "economy": "3. Emerging region: BRIC",
@@ -168,16 +146,7 @@
     "gdp_year": "2019",
     "geo": {
         "area": 3287590,
-        "borders": [
-            "AFG",
-            "BGD",
-            "BTN",
-            "MMR",
-            "CHN",
-            "NPL",
-            "PAK",
-            "LKA"
-        ],
+        "borders": ["AFG", "BGD", "BTN", "MMR", "CHN", "NPL", "PAK", "LKA"],
         "continent": {
             "AS": "Asia"
         },
@@ -185,10 +154,7 @@
         "landlocked": false,
         "latitude": "20 00 N",
         "latitude_desc": "23.4060115814209",
-        "latlng": [
-            20,
-            77
-        ],
+        "latlng": [20, 77],
         "longitude": "77 00 E",
         "longitude_desc": "79.45809173583984",
         "max_latitude": "35.9558333333",
@@ -210,9 +176,7 @@
     "homepart": "1",
     "idd": {
         "root": "+9",
-        "suffixes": [
-            "1"
-        ]
+        "suffixes": ["1"]
     },
     "income_grp": "4. Lower middle income",
     "independent": true,
@@ -310,9 +274,7 @@
     "tiny": "-99",
     "tlc": "1",
     "tlc_diff": "",
-    "tld": [
-        ".in"
-    ],
+    "tld": [".in"],
     "translations": {
         "ces": {
             "common": "Indie",

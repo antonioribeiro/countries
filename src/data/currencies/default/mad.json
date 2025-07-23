@@ -1,11 +1,6 @@
 {
     "banknotes": {
-        "frequent": [
-            "20 dirhams",
-            "50 dirhams",
-            "100 dirhams",
-            "200 dirhams"
-        ],
+        "frequent": ["20 dirhams", "50 dirhams", "100 dirhams", "200 dirhams"],
         "rare": []
     },
     "coins": {
@@ -21,13 +16,9 @@
             "20 santimat",
             "50 santimat"
         ],
-        "rare": [
-            "5 santimat"
-        ]
+        "rare": ["5 santimat"]
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "MAD",
         "number": "504"

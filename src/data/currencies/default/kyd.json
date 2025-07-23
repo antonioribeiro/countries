@@ -1,27 +1,13 @@
 {
     "banknotes": {
-        "frequent": [
-            "$1",
-            "$5",
-            "$10",
-            "$25",
-            "$50",
-            "$100"
-        ],
+        "frequent": ["$1", "$5", "$10", "$25", "$50", "$100"],
         "rare": []
     },
     "coins": {
-        "frequent": [
-            "1\u00a2",
-            "5\u00a2",
-            "10\u00a2",
-            "25\u00a2"
-        ],
+        "frequent": ["1\u00a2", "5\u00a2", "10\u00a2", "25\u00a2"],
         "rare": []
     },
-    "data_sources": [
-        "world-currencies"
-    ],
+    "data_sources": ["world-currencies"],
     "iso": {
         "code": "KYD",
         "number": "136"
