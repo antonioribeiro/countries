@@ -31,9 +31,11 @@ class Helper
      */
     public function loadFile($file)
     {
-        if (file_exists($file)) {
-            return $this->sanitizeFile(file_get_contents($file));
+        if (!file_exists($file)) {
+            return null;
         }
+
+        return $this->sanitizeFile(file_get_contents($file));
     }
 
     /**
@@ -90,7 +92,7 @@ class Helper
     public function moveFilesWildcard($from, $to)
     {
         countriesCollect(glob($this->dataDir($from)))->each(function ($from) use ($to) {
-            $this->mkDir($dir = $this->dataDir($to));
+            $this->makeDir($dir = $this->dataDir($to));
 
             rename($from, $dir . '/' . basename($from));
         });
@@ -99,15 +101,21 @@ class Helper
     /**
      * Get data directory.
      *
-     * @param $path
+     * @param string $path
      *
      * @return string
      */
-    public function dataDir($path = '')
+    public function dataDir(string $path = ''): string
     {
         $path = empty($path) || Str::startsWith($path, DIRECTORY_SEPARATOR) ? $path : "/{$path}";
 
-        return __COUNTRIES_DIR__ . $this->toDir("/src/data$path");
+        if (!\defined('__COUNTRIES_DIR__')) {
+            $dir = '';
+        } else {
+            $dir = __COUNTRIES_DIR__;
+        }
+
+        return $dir . $this->toDir("/src/data$path");
     }
 
     /**
@@ -130,5 +138,10 @@ class Helper
     public function toDir($string)
     {
         return str_replace('/', DIRECTORY_SEPARATOR, $string);
+    }
+
+    protected function makeDir(string $param): void
+    {
+        @mkdir($param, 0777, true);
     }
 }

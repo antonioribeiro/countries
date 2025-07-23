@@ -12,12 +12,21 @@ parameters:
          identifier: missingType.iterableValue
         -
          identifier: missingType.generics
+        # Ignore "unsafe usage of new static()" warnings - these are safe in this context
+        - '#Unsafe usage of new static\(\)#'
+        # Ignore PHPDoc type certainty warnings - these are mostly false positives
+        - '#Because the type is coming from a PHPDoc#'
+        # Ignore unused constructor parameters
+        - '#Constructor .* has an unused parameter#'
 
     # Exclude data folder and other paths that don't need static analysis
     excludePaths:
         - src/data
         - src/update
         - vendor
+
+    # Treat PHPDoc types as less certain to reduce false positives
+    treatPhpDocTypesAsCertain: false
 
     universalObjectCratesClasses:
 

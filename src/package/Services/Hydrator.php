@@ -10,7 +10,7 @@ class Hydrator
     /**
      * All hydrators.
      *
-     * @var
+     * @var array
      */
     const HYDRATORS = [
         'borders',
@@ -32,7 +32,7 @@ class Hydrator
     /**
      * Countries repository.
      *
-     * @var Repository
+     * @var \PragmaRX\Countries\Package\Data\Repository
      */
     protected $repository;
 
@@ -474,7 +474,7 @@ class Hydrator
      *
      * @param $elements
      *
-     * @return static
+     * @return \PragmaRX\Countries\Package\Support\Collection
      */
     protected function checkHydrationElements($elements)
     {

@@ -102,7 +102,7 @@ class Service implements CacheInterface
     /**
      * Create a cache key.
      *
-     * @throws Exception
+     * @throws \Exception
      *
      * @return string
      */
@@ -111,7 +111,7 @@ class Service implements CacheInterface
         $arguments = \func_get_args();
 
         if (empty($arguments)) {
-            throw new Exception('Empty key');
+            throw new \Exception('Empty key');
         }
 
         return base64_encode(serialize($arguments));
@@ -188,7 +188,7 @@ class Service implements CacheInterface
      *
      * @param $keys
      *
-     * @return bool|void
+     * @return bool
      */
     public function deleteMultiple(Traversable|array $keys): bool
     {

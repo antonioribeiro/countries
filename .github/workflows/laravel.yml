@@ -128,3 +128,4 @@ jobs:
       with:
         file: ./coverage.clover
         fail_ci_if_error: false
+        token: ${{ secrets.CODECOV_TOKEN }}

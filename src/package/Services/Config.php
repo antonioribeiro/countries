@@ -21,7 +21,7 @@ class Config
     /**
      * Config constructor.
      *
-     * @param array|null $config
+     * @param array|object|null $config
      */
     public function __construct($config = null)
     {
@@ -31,7 +31,7 @@ class Config
     /**
      * @param $key
      *
-     * @return \Illuminate\Support\Collection
+     * @return \Illuminate\Support\Collection|mixed|null
      */
     public function get($key)
     {

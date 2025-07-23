@@ -6,10 +6,9 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use PragmaRX\Countries\Package\Data\Repository;
 use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
-use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Update\Updater;
 
-class Countries extends Base
+
+class Countries
 {
     /**
      * Countries repository.
@@ -39,12 +38,7 @@ class Countries extends Base
      */
     protected $cache;
 
-    /**
-     * Updater.
-     *
-     * @var updater
-     */
-    private $updater;
+
 
     /**
      * @var Hydrator
@@ -163,6 +157,18 @@ class Countries extends Base
     }
 
     /**
+     * Hydrate a collection with specified elements.
+     *
+     * @param $collection
+     * @param $elements
+     * @return mixed
+     */
+    public function hydrate($collection, $elements = null)
+    {
+        return $this->repository->hydrate($collection, $elements);
+    }
+
+    /**
      * Initialize class.
      */
     protected function init()
@@ -257,15 +263,12 @@ class Countries extends Base
         return $repository;
     }
 
-    /**
-     * @return Updater
-     */
-    protected function instantiateUpdater()
-    {
-        if (\is_null($this->updater)) {
-            $this->updater = new Updater($this->config, $this->helper);
-        }
 
-        return $this->updater;
+
+    public function defineConstants(): void
+    {
+        if (!\defined('__COUNTRIES_DIR__')) {
+            \define('__COUNTRIES_DIR__', realpath(__DIR__ . $this->helper->toDir('/../../../')));
+        }
     }
 }

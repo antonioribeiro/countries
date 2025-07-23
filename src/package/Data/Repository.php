@@ -13,14 +13,14 @@ class Repository
     /**
      * Timezones.
      *
-     * @var
+     * @var mixed
      */
     public $timezones;
 
     /**
      * Countries json.
      *
-     * @var
+     * @var \Illuminate\Support\Collection
      */
     public $countriesJson;
 
@@ -48,7 +48,7 @@ class Repository
     /**
      * Cache.
      *
-     * @var Cache
+     * @var CacheContract
      */
     private $cache;
 
@@ -99,7 +99,8 @@ class Repository
      */
     public function call($name, $arguments)
     {
-        if ($value = $this->cache->get($cacheKey = $this->cache->makeKey([$name, $arguments]))) {
+        $cacheKey = method_exists($this->cache, 'makeKey') ? $this->cache->makeKey($name, $arguments) : serialize([$name, $arguments]);
+        if ($value = $this->cache->get($cacheKey)) {
             return $value;
         }
 
@@ -328,7 +329,7 @@ class Repository
      *
      * @param $countryCode
      *
-     * @return null
+     * @return \Illuminate\Support\Collection
      */
     public function findTimezones($countryCode)
     {
