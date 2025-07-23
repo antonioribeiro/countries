@@ -67,6 +67,26 @@ jobs:
     - name: Execute tests
       run: vendor/bin/phpunit
 
+  code-style:
+    runs-on: ubuntu-latest
+    name: Code Style
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install Node.js dependencies
+      run: npm install
+
+    - name: Check code style with Prettier
+      run: npm run format:check
+
   coverage:
     runs-on: ubuntu-latest
     name: Coverage
