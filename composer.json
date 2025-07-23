@@ -33,7 +33,9 @@
     "require-dev": {
         "phpunit/phpunit": "^9.0|^10.0|^11.0",
         "laravel/framework": "^10.0|^11.0|^12.0",
-        "gasparesganga/php-shapefile": "^3.4"
+        "gasparesganga/php-shapefile": "^3.4",
+        "phpstan/phpstan": "^1.12",
+        "timeweb/phpstan-enum": "^3.0|^4.0"
     },
     "autoload": {
         "psr-4": {
