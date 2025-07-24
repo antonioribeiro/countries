@@ -60,9 +60,9 @@ Amongst many other information you'll be able to plot country maps:
 - ✅ PHP 8.3, 8.4 and 8.5 (alpha) compatibility
 - ✅ Updated to modern dependency versions  
 - ✅ Custom Collection implementation (replaces pragmarx/coollection)
-- ✅ Compatible with Laravel Collections from Laravel 11 & 12
+- ✅ Laravel 10, 11 & 12 support
 - ✅ PHPUnit 10 and 11 support
-- ✅ Maintained full backward compatibility
+- ✅ Maintained full backward compatibility with PHP 8.1
 
 ## Installing
 
