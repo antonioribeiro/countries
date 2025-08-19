@@ -344,7 +344,7 @@ class Collection extends LaravelCollection
      */
     public function whereISO4217(mixed $value): static
     {
-        return $this->_whereAttribute('currency', $value);
+        return $this->_whereAttribute('currencies', $value);
     }
 
     /**
